@@ -1,0 +1,3 @@
+{"find": "<sc>field & tuer,</sc>", "replace": "<sc>Field & Tuer,</sc>"}
+{"find": "<sc>the leadenhall press, e.c.</sc>", "replace": "<sc>The Leadenhall Press, E.C.</sc>"}
+{"find": "(<sc>t.</sc> 4246)", "replace": "(<sc>T.</sc> 4246)"}
