@@ -1,0 +1,15 @@
+{
+ "id": "corona-and-coronet-todd",
+ "version": 1,
+ "date": "2026-11-19",
+ "title": "Corona and Coronet",
+ "subtitle": "Being a Narrative of the Amherst Eclipse Expedition to Japan, in Mr. James's Schooner-Yacht Coronet, to Observe the Sun's Total Obscuration, 9th August, 1896",
+ "short_title": "Corona and Coronet",
+ "authors": [{"name": "Mabel Loomis Todd", "sort": "Todd, Mabel Loomis", "born": 1856, "died": 1932}],
+ "place": "Boston and New York",
+ "publisher": "Houghton, Mifflin and Company",
+ "year": 1898,
+ "edition_statement": "First edition",
+ "source": {"ia_identifier": "coronacoronetbei00toddiala", "contributor": "University of California Libraries", "hidden_leaves": []},
+ "history": [{"version": 1, "date": "2026-11-19", "note": "First publication."}]
+}
