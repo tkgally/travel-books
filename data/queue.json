@@ -11,10 +11,11 @@
    "place": "London",
    "publisher": "Smith, Elder & Co.",
    "images": 189,
-   "status": "in progress",
+   "status": "waiting",
    "checked": "2026-11-19",
    "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Creative Media, CreateSpace, Forgotten Books (print on demand). A Marathi translation (2025) is not an English edition. Re-checked 2026-11-19: Gutenberg catalogue, web search (only the 1872 edition, a Forgotten Books print-on-demand reprint, and the 2025 Marathi translation). Editor's death date not found: see the book log and Questions for Tom.",
-   "note": "Using the University of California scan diaryoflaterajah00rajarich (200 leaves) rather than the Google scan. Short; a Google scan of a Michigan copy (greyscale, clean on the sampled page): check every page before starting. Editor's introduction and notes are part of the book."
+   "note": "Using the University of California scan diaryoflaterajah00rajarich (200 leaves) rather than the Google scan. Short; a Google scan of a Michigan copy (greyscale, clean on the sampled page): check every page before starting. Editor's introduction and notes are part of the book.",
+   "question": "Editor Capt. Edward W. West (Bombay Staff Corps; captain by 1870): death date not found. Publish on the reasoning that he cannot have been alive in 1955? Book is otherwise ready (preflight PASS, audit 30/30)."
   },
   {
    "order": 2,

@@ -1,0 +1,5 @@
+{"given": "Arrived at the Paddington station at", "print": "Arrived at the Paddington Station at", "sure": "high"}
+{"given": "very kind to me in making arraugements", "print": "very kind to me in making arrangements", "sure": "high"}
+{"given": "After going through the different halls; went", "print": "After going through the different halls, went", "sure": "high"}
+{"given": "We saw hall in which Charles", "print": "We saw the hall in which Charles", "sure": "high"}
+{"given": "If is a very large and", "print": "It is a very large and", "sure": "high"}

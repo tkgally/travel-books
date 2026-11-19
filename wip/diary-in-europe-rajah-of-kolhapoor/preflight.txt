@@ -12,8 +12,7 @@
 [       ok] nav: contents: at least one reading division; each has a title and text
 [       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
-[ FAIL (1)] audit: book.json records the sampled audit of this version
-            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[       ok] audit: book.json records the sampled audit of this version
 [ look (3)] hyphen-joins: page-break hyphen joins (hyphen removed): read the list once
             - hyphen join at p0053: …e was some dis-|cussion about t… (hyphen removed; check)
             - hyphen join at p0100: …re I was intro-|duced to some l… (hyphen removed; check)
@@ -37,4 +36,4 @@
             - p0137: 'V. Resolutions passed by a Public Meeting assembled at Kolhapoor to do'
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: diary-in-europe-rajah-of-kolhapoor v1 — 1 to fix, 1 waived; to look at: hyphen-joins 3, joins 8, contents 5 — tools@c8ace54 2026-11-19
+preflight PASS: diary-in-europe-rajah-of-kolhapoor v1 — 0 to fix, 1 waived; to look at: hyphen-joins 3, joins 8, contents 5 — tools@87efb89 2026-11-19

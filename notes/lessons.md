@@ -41,6 +41,12 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 - A note continued over the page arrives as a note with a new mark and no reference: make it `[[fn cont]]`.
 - A signature under a note goes inside the note.
+- Two marks in the text for one printed note: the second is `[[fnref * again]]` (the compiler warns "has no note" otherwise).
+
+## Trigger: appendices, documents, quoted articles
+
+- Each appendix as `## I. Title` in one Appendix division: `[[subtitle]]` after `##` renders as a plain paragraph.
+- Drafts type running heads ("APPENDIX.") as `#` headings on every page: list all `#` lines and delete them.
 
 ## Trigger: verse and quotations over page breaks
 
@@ -65,7 +71,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Environment
 
-- `tools/setup_env.sh` first. Headless calls: `claude -p` with only the Read tool (`ocr_claude.py`).
+- `tools/setup_env.sh` first (it switches apt to https mirrors: plain-http mirrors hang behind the session proxy). Headless calls: `claude -p` with only the Read tool (`ocr_claude.py`).
 - Drive: uploads from a session are refused above about 3 MB per call (tested 2026-11-19: 2.86 MB went
   through; 9.9 MB and 40 MB did not). Downloads by `curl` with the file id work for any size because the
   folder is shared by link. The connector lists a folder a few files at a time: follow `nextPageToken`.

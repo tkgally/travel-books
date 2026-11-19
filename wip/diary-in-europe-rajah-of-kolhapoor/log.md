@@ -16,9 +16,15 @@ Tom in `notes/preferences.md`. Do not publish until he answers or a source gives
 quotes at length from an article in *Good Words* (June 1871) by Lady Verney (Frances Parthenope Verney, d. 1890).
 
 ## Status
-Stage reached: draft, corrections, judge done; scan checks of the judge report done; `pages/` made from `judge/`; illustrations cropped (`images/`). Scan checked, Drive cache complete (16 parts).
-Next step: structure pass (`notes/workflow.md` §4): run `tools/preflight.py wip/diary-in-europe-rajah-of-kolhapoor` and work through it.
-Half-finished: nothing.
+Stage reached: **ready to publish, waiting for Tom** (queue row `waiting`). Everything is done: pages, structure,
+illustrations, metadata, summary, browser look, audit; `tools/preflight.py` PASS (1 waiver, below) on 2026-11-19.
+Blocked only by eligibility rule 5: the editor's death date is not established (see Eligibility above and the
+question in `notes/preferences.md`).
+Next step, once Tom says yes (or a source shows West died before 1956): set `date` and `history[0].date` in
+book.json to the publication date, re-run `tools/preflight.py wip/diary-in-europe-rajah-of-kolhapoor` (PASS),
+`python3 tools/publish.py diary-in-europe-rajah-of-kolhapoor`, then `notes/workflow.md` §8 (Versions row here,
+metrics row, PR, merge, open the live page). If Tom says no: queue row `rejected` with the reason.
+If a later session has fixed preflight's ODT reading of `text:note-ref` (see Decisions), drop the waiver first.
 
 ## Page map
 p0001 front cover (decorated cloth) · p0002 front pastedown with bookplate · p0003–p0006 endpapers/flyleaves ·
@@ -42,6 +48,23 @@ to be confirmed by preflight `folios`).
 - Judge report checked on crops: p0170 the judge (Opus, "sure: high") kept the draft's "Chutraputee"; the scan
   has "Chutraputtee", as the verifier said: corrected. p0186: running head "SUPPLEMENT." dropped (verifier right).
   p0013: title line in capitals with large initials, typed as the verifier/judge read it. p0190 imprint: left.
+- Structure: Introduction, Diary (one division: the book has no chapters), Postscript, Appendix (one division;
+  each appendix a `##` section, its printed title folded into the heading line, since `[[subtitle]]` after `##`
+  renders as a plain paragraph), Supplement (Lady Verney's article as `##` section in ordinary paragraphs, though
+  printed in smaller type: it has its own heading and quotation marks; assumed). p0137 (list of the appendices)
+  is a `contents` division, JSON only. Running heads "APPENDIX." typed as headings by the drafts removed.
+- Two `*` references to one footnote on p0037 and p0049: new markup `[[fnref * again]]` (compiler, HTML, ODT;
+  test). Preflight's JSON→ODT conservation reads the ODT cross-reference mark as text: **waived** in book.json;
+  `tools/preflight.py` `odt_streams` should skip `text:note-ref` like it skips frames — a change to the check,
+  so for a session not working on this book (the attempt in this session was refused, rightly).
+- Page joins: all 8 `[[cont]]` after a full stop checked on the scan: each page begins flush left, so they are
+  continuations. Hyphen joins: dis-cussion, intro-duced, Canter-bury joined; "rectangular-shaped" kept
+  (`keep_hyphens` p0167). Contents look list: the appendix headings are worded differently from the printed
+  contents (checked on the scan: II. "The Durbar at Poona.", III. "Laying the Foundation-Stone of the Kolhapoor
+  High School."); left as printed.
+- West is an editor: `"role": "editor"` (new key; shown "edited by").
+- The Supplement says the design on the cloth covers is copied from the Rajah's note-paper; the cover itself
+  (p0001) was not cropped. Possible addition for a later version.
 - Day ordinals ("20<i>th.</i>—"): the drafts put the full stop inside or outside the italic; made uniform
   (inside, as most pages had it), 2026-11-19.
 
@@ -51,9 +74,12 @@ to be confirmed by preflight `folios`).
 | Draft | 2026-11-19 | opus | p0007–p0190 (184; p0009 output deleted) | 12.54 | no errors; 229 s wall with 6 workers |
 | Corrections | 2026-11-19 | sonnet | 183 | 6.07 | 22 changes proposed (7 words, 12 markup, 3 punctuation), 1 not applied |
 | Judge | 2026-11-19 | opus | 10 spots on 8 pages | 0.38 | sided with draft 7, verifier 2; 9 to look at |
+| Audit | 2026-11-19 | opus | 6 (p0047, p0080, p0089, p0096, p0108, p0122) | 0.37 | recall 30/30; 0 other differences |
+| **Total** | | | | **19.36** | no OpenRouter |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
+| (1, not yet published) | 2026-11-19 | preflight PASS: … v1 — 0 to fix, 1 waived — tools@87efb89 | 30/30, 0 real errors | waiting for Tom (editor's death date) |
 
 ## Known issues

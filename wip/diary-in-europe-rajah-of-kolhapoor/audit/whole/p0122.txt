@@ -1,0 +1,5 @@
+{"given": "to the picture gallery; which contains", "print": "to the picture gallery, which contains", "sure": "high"}
+{"given": "painted by celebrated artifts. Then", "print": "painted by celebrated artists. Then", "sure": "high"}
+{"given": "Went first to the royal Palace at", "print": "Went first to the Royal Palace at", "sure": "high"}
+{"given": "carriage we where obliged to return", "print": "carriage we were obliged to return", "sure": "high"}
+{"given": "it has got very large and broad", "print": "it has got a very large and broad", "sure": "high"}
