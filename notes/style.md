@@ -37,7 +37,7 @@ change at the foot, and see `workflow.md` §"New version" for when earlier books
 |---|---|---|
 | Cover, half-title, title page, imprint, frontispiece caption | yes (kind `front`/`titlepage`) | a generated title page; the frontispiece itself is shown at the start of the first reading division |
 | Dedication, preface, introduction, chapters, appendices, author's notes, glossary | yes | yes |
-| Printed contents, list of illustrations | yes | no (a generated contents replaces them) |
+| Printed contents, list of illustrations | yes | no (a generated contents replaces them, decided book by book: `workflow.md` stage 4 "Contents") |
 | Index | yes, page numbers tagged `<pref>` | no |
 | Errata slip | yes | no (applied) |
 | Publisher's advertisements, library book-plates and stamps | advertisements yes; library marks no | no |

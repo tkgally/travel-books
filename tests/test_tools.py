@@ -4,7 +4,7 @@ Run: tools/run_tests.sh        Rules (CLAUDE.md): run before trusting the tools 
 edit under tools/; every tool bug fixed gets a test here in the same commit; a test is never loosened to
 get a book published.
 """
-import copy, json, os, shutil, subprocess, sys, tempfile, unittest, zipfile
+import copy, json, os, re, shutil, subprocess, sys, tempfile, unittest, zipfile
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, "tools"))
@@ -303,6 +303,26 @@ class Sample(unittest.TestCase):
         main, notes = preflight.odt_streams(buf)
         self.assertEqual(main, "One and two marks.")
         self.assertEqual(notes, "The note.")
+
+    def test_odt_contents_list_is_not_text(self):
+        # the generated contents list after the title page (2026-11-19) is not book text; ordinary paragraphs
+        # inserted next to it still count, so an inserted line is still caught
+        import io
+        x = ('<office:document-content xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" '
+             'xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"><office:body><office:text>'
+             '<text:p text:style-name="Contents_20_Heading">Contents</text:p>'
+             '<text:p text:style-name="Contents_20_1"><text:a>Chapter I. The Ford</text:a></text:p>'
+             '<text:p text:style-name="Contents_20_2"><text:a>3-9 May: Leeds</text:a></text:p>'
+             '<text:p text:style-name="Text_20_body">An inserted line.</text:p>'
+             '<text:h text:style-name="Heading_20_1">Chapter I.</text:h>'
+             '</office:text></office:body></office:document-content>')
+        buf = io.BytesIO()
+        with zipfile.ZipFile(buf, "w") as z:
+            z.writestr("content.xml", x)
+        buf.seek(0)
+        main, _ = preflight.odt_streams(buf)
+        self.assertEqual(main, "An inserted line. Chapter I.")
+
 
 class Normalize(unittest.TestCase):
     def test_spacing(self):
@@ -622,3 +642,74 @@ class Leaves(unittest.TestCase):
 
     def test_enforced(self):
         self.assertEqual(preflight.CHECKS["leaves"][0], "enforce")
+
+
+class Contents(unittest.TestCase):
+    """Contents decided book by book (Tom, 2026-11-19): full summaries, entries inside a division, parts."""
+    LONG = "The Start—" + "A Very Long Morning on the Road—" * 3 + "The Inn"
+
+    def test_subtitles_all(self):
+        pages = [f"# Chapter I.\n\n[[subtitle]] {self.LONG}\n\nText one.", "# Chapter II.\n\n[[subtitle]] The River\n\nText two."]
+        book, w = comp(pages)
+        self.assertEqual([d["title"] for d in book["divisions"]], ["Chapter I", "Chapter II. The River"])
+        self.assertNotIn("toc_title", book["divisions"][0])
+        book, w = comp(pages, toc={"subtitles": "all"})
+        d1, d2 = book["divisions"]
+        self.assertEqual(d1["title"], "Chapter I")                     # pager and page title stay short
+        self.assertEqual(d1["toc_title"], "Chapter I. " + self.LONG)
+        self.assertNotIn("toc_title", d2)                              # already whole
+        self.assertEqual([n[0] for n in rh.toc_tree(book)], ["Chapter I. " + self.LONG, "Chapter II. The River"])
+
+    def test_toc_title_in_divisions(self):
+        book, _ = comp(["# Diary.\n\nText."], divisions=[{"at": "p0001", "kind": "chapter", "toc_title": "The Diary"}])
+        self.assertEqual(book["divisions"][0]["title"], "Diary")
+        self.assertEqual(rh.toc_tree(book)[0][0], "The Diary")
+
+    def test_part_with_subtitle(self):
+        book, _ = comp(["# Flying Leaves.\n\n[[subtitle]] From the East.", "# Leaf I.\n\nText.", "# Leaf II.\n\nMore."])
+        self.assertEqual([d["kind"] for d in book["divisions"]], ["part", "chapter", "chapter"])
+        tree = rh.toc_tree(book)
+        self.assertEqual(len(tree), 1)
+        self.assertEqual([k[0] for k in tree[0][3]], ["Leaf I", "Leaf II"])
+
+    def test_entries(self):
+        pages = ["# Diary.\n\n<i>Sunday</i>, June 12<i>th</i>.—Paris.\n\n13<i>th</i>.—Calais.",
+                 "[[page 2]]\n\n1<i>st</i> July.—London.\n\nIn the evening, the theatre."]
+        entries = [{"at": "p0001", "starts": "Sunday, June 12th", "title": "12–13 June: Paris and Calais"},
+                   {"at": "p0002", "starts": "1st July", "title": "July: London"},
+                   {"at": "p0002", "starts": "No such day", "title": "x"}]
+        book, w = comp(pages, toc_entries=entries)
+        d = book["divisions"][0]
+        self.assertEqual(d["sections"], [{"title": "12–13 June: Paris and Calais", "block": 1, "editor": True},
+                                         {"title": "July: London", "block": 3, "editor": True}])
+        self.assertEqual(w, ["toc_entries: no block on p0002 starts with 'No such day'"])
+        names = rh.file_names(book, ".xhtml")
+        nav = rh.nav_list(book, names)
+        self.assertIn('<li><a href="01.xhtml">Diary</a><ol><li><a href="01.xhtml#sec-1">12–13 June: Paris and Calais</a></li>', nav)
+        html = rh.Ctx(book, "web", names).blocks(d)
+        self.assertIn('<p id="sec-1" class="first">', html)
+        self.assertIn('<p id="sec-2">', html)
+        # the ODT's contents list links to bookmarks that exist
+        odt = render_odt.render(book, None)
+        content = zipfile.ZipFile(__import__("io").BytesIO(odt)).read("content.xml").decode()
+        links = re.findall(r'xlink:href="#([^"]+)"', content)
+        marks = set(re.findall(r'text:bookmark text:name="([^"]+)"', content))
+        self.assertEqual(links, ["div-d001", "div-d001-sec-1", "div-d001-sec-2"])
+        self.assertTrue(set(links) <= marks, (links, marks))
+
+    def test_sample_with_entries_preflight_clean(self):
+        tmp = tempfile.mkdtemp()
+        try:
+            d = os.path.join(tmp, "sample-journey-doe")
+            shutil.copytree(SAMPLE, d)
+            cfg = json.load(open(os.path.join(d, "book.json")))
+            cfg["toc"] = {"subtitles": "all"}
+            cfg["toc_entries"] = [{"at": "p0006", "starts": "The road is long", "title": "The carrier's song"}]
+            json.dump(cfg, open(os.path.join(d, "book.json"), "w"))
+            verdict, report, res = preflight.run(d, skip_epubcheck=True, skip_odt=True)
+            enforce = {k: v for k, v in res.items() if preflight.CHECKS[k][0] == "enforce" and v}
+            self.assertEqual(enforce, {}, report)
+            book, _ = compile_book.compile_book(d)
+            self.assertEqual(sum(len(x.get("sections", [])) for x in book["divisions"]), 1)
+        finally:
+            shutil.rmtree(tmp, ignore_errors=True)

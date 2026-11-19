@@ -25,6 +25,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 | A frontispiece left in the front matter, so missing from the reading editions [first book, 2026-11-19] | book.json `frontispiece`; test (set it whenever the book has one) |
 | `setup_env.sh`'s https rewrite of the apt mirrors matched nothing (`\|` inside `s|…|`), so apt hung on plain http for 20 min [2026-11-19] | fixed; test `SetupEnv` |
 | `drive_cache.py fetch --pages a,b,c` read the list as one name and fetched the wrong parts without a word [2026-11-19] | lists and ranges accepted, anything else refused; test `DrivePages` |
+| A part title with a `[[subtitle]]` ("Flying Leaves. / From the East.") taken for a chapter, so its chapters did not nest under it [*Flying Leaves*, found 2026-11-19] | compiler; test `Contents` |
 | A paragraph interrupted by an engraving in the middle of a page split in two (`[[cont]]` dropped) [*South by West*, 2026-11-19] | compiler joins it; test `ImageInParagraph` |
 
 ## Always
@@ -40,6 +41,9 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - Take the bibliographic facts from the title page, not from IA's record.
 - Start the model runs first and do page-map work while they run.
 - Screenshots are for layout only; preflight and the audit are for the text.
+- Read the generated contents as a reader would before publishing: the first three books went out with
+  chapter entries unlike one another (long summaries dropped) and a 90-page diary as one entry; Tom asked for
+  contents decided book by book (`workflow.md` stage 4 "Contents") [2026-11-19].
 - A model that returns "no corrections" in a few seconds may still be right: the audit's planted errors say
   whether that reader can see (first calibration: Sonnet 27/30, Opus 30/30).
 

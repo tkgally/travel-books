@@ -37,6 +37,9 @@ them and never type them yourself (it ends the session). Name them in the log an
   word elsewhere).
 - **Headings**: in upper and lower case (preflight `heading-caps`); one `#` per division, as the printed contents has them; chapter summaries `[[subtitle]]`;
   no running heads; parts before chapters.
+- **Contents** (decided book by book, Tom 2026-11-19): follow the printed contents, deviate where a digital reader
+  benefits; entries alike within the book, neither too many nor too few (`toc`, `toc_entries`: `notes/workflow.md`
+  stage 4 "Contents"). Print the compiled entries and read them before the build; record the decision in the log.
 - **Front and back matter**: `divisions` in `book.json`; what is left out of the reading editions and said so.
 - **Notes**: marks pair; continued notes; notes on plates.
 - **Verse, letters, inscriptions, tables**: spot-read against the scan.

@@ -25,7 +25,9 @@ A division is a chapter or another main part of the book.
 |---|---|
 | `id` | `d001`, `d002`, … in the order of the book |
 | `kind` | `front`, `titlepage`, `dedication`, `preface`, `contents`, `illustrations`, `introduction`, `part`, `chapter`, `appendix`, `notes`, `glossary`, `index`, `errata`, `advertisements` or `back` |
-| `title` | the heading, as used in tables of contents |
+| `title` | the heading (with a short chapter summary), as used in page titles and links between chapters |
+| `toc_title` | optional: the entry in the contents of the web pages, EPUB and ODT when it differs from `title` (for example the chapter summary in full) |
+| `sections` | optional: entries of the contents inside the division: `title`, `block` (the index in `blocks` of the block it points at), `editor` (`true` for an entry of this edition's, such as a span of dates in a diary; `false` for one taken from the printed book) |
 | `reading` | `true` if the division is in the web pages, EPUB and ODT |
 | `first_leaf` | the scan image on which it starts |
 | `blocks` | its contents, in order |

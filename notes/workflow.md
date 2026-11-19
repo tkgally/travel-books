@@ -158,6 +158,18 @@ mkdir -p $W/pages && cp $W/judge/p*.txt $W/pages/
   `[[subtitle]]`; running heads gone. Models choose heading levels page by page: make them consistent.
 - `book.json` `divisions`: front matter, title page, contents, list of illustrations, index, advertisements
   (kinds and which are left out of the reading editions: `style.md`).
+- **Contents** (Tom, 2026-11-19, `preferences.md`): decided book by book, the same in the web pages, EPUB and
+  ODT. Follow the printed contents; deviate where a reader of the digital edition is better served. Compile and
+  print the entries (`python3 -c "import json,sys; sys.path.insert(0,'$R/tools'); import compile_book,
+  render_html as rh; b,_=compile_book.compile_book('$W'); [print(n[0], len(n[3])) for n in rh.toc_tree(b)]"`)
+  and look at them as a reader would:
+  - alike within the book: every chapter with its summary or none (`"toc": {"subtitles": "all"}` when the
+    printed contents gives them in full; a long summary otherwise drops from the entry);
+  - neither too many nor too few: a long text with one entry (a diary, a journal, one long chapter) gets
+    entries of the editor's, about one per 5–10 printed pages, at natural breaks: spans of dates and the places
+    visited (`toc_entries`); sections the printed contents lists (appendices) get its titles (`"editor": false`);
+  - parts nest their chapters; a part title with only a subtitle is still a part.
+  Say in `notes_on_text` what the contents add to the print, and in the log what was decided and why.
 - Page joins: preflight's `joins` and `hyphen-joins` lists; `keep_hyphens` for real compounds.
 - Notes: marks pair up; a note continued over the page is `[[fn cont]]`.
 - Printer's errors: `[[corr printed|corrected]]` only for the unmistakable (`style.md`).

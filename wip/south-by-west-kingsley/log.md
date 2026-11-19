@@ -59,6 +59,12 @@ Scan check: all 12 contact sheets looked at 2026-11-19; full size: p0025, p0116,
   times; assumed, easily changed: it may be a misprint, but not unmistakably one).
 - p0420 printed ‘<i>Vamonos!</i>” (single opening, double closing): `[[corr ‘|“]]` as in *Flying Leaves* p0207. The
   accent on "Vámonos" (both readers; a faint mark on the scan) kept.
+- Contents (Tom's policy of 2026-11-19, `notes/workflow.md` stage 4 "Contents"), decided ahead of the structure
+  pass: one entry per chapter, "Chapter N. Title" as the printed contents heads them, all 24 alike (the titles
+  are short, so the default `toc` is enough). The printed contents also gives each chapter a long list of topics
+  (about 25–30, "First land—Our pilot—…"); these are too long for entries and stay in the JSON (division
+  `contents`, left out of the reading editions). The Preface and the List of Illustrations: the Preface is an entry,
+  the List of Illustrations is not (kind `illustrations`). No editor's entries: the chapters are short (10–25 pages).
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |

@@ -92,9 +92,13 @@
    "reading": true
   }
  ],
+ "toc": {
+  "subtitles": "all"
+ },
  "omitted_from_reading": "The title page and its verso, the printed contents, the list of illustrations and the half-title are in the JSON only.",
  "notes_on_text": [
-  "The map of Spain was folded into a pocket inside the back cover; it is not in the list of illustrations. Its title, “Map of Spain”, is the editor’s."
+  "The map of Spain was folded into a pocket inside the back cover; it is not in the list of illustrations. Its title, “Map of Spain”, is the editor’s.",
+  "The contents of these editions give every chapter its summary in full, as the printed contents does."
  ],
  "audit": {
   "version": 1,

@@ -131,7 +131,9 @@ def html_streams(docs):
 
 
 T = "{urn:oasis:names:tc:opendocument:xmlns:text:1.0}"
-SKIP_STYLES = {"Title", "Subtitle", "Author", "Imprint", "Edition_20_Note", "Section_20_Break", "VerseEnd"}
+SKIP_STYLES = {"Title", "Subtitle", "Author", "Imprint", "Edition_20_Note", "Section_20_Break", "VerseEnd",
+               # the generated contents list after the title page (render_odt.contents): not book text
+               "Contents_20_Heading", "Contents_20_1", "Contents_20_2", "Contents_20_3"}
 
 
 def odt_streams(data):
