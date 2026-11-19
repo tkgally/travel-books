@@ -10,6 +10,7 @@
  "title": "…", "subtitle": "…",         as on the title page, capitals reduced to title case
  "short_title": "…",                    for lists and breadcrumbs
  "authors": [{"name": "Emily Pfeiffer", "sort": "Pfeiffer, Emily", "born": 1827, "died": 1890}],
+                                        an editor whose work is in the book: same keys + "role": "editor" (shown as "edited by")
  "place": "London", "publisher": "Field & Tuer", "year": 1885,
  "edition_statement": "First edition",  what was transcribed (edition, printing, volume)
  "regions": ["Greece", "Turkey", "United States"],     modern names, most specific useful level

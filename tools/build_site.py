@@ -191,11 +191,12 @@ def book_page(book, names, has_cover=False):
     def row(k, v):
         if v:
             rows.append(f'<tr><th scope="row">{esc(k)}</th><td>{v}</td></tr>')
-    authors = []
+    authors, editors = [], []
     for a in book.get("authors", []):
         dates = f' ({a.get("born", "?")}–{a.get("died", "?")})' if a.get("born") or a.get("died") else ""
-        authors.append(esc(a["name"] + dates))
+        (editors if a.get("role") == "editor" else authors).append(esc(a["name"] + dates))
     row("Author" if len(authors) < 2 else "Authors", "; ".join(authors) or "Anonymous")
+    row("Editor" if len(editors) < 2 else "Editors", "; ".join(editors))
     row("Title", f'<cite>{esc(book["title"])}</cite>' + (f': {esc(book["subtitle"])}' if book.get("subtitle") else ""))
     row("Published", esc(", ".join(x for x in (book.get("place"), book.get("publisher"), str(book.get("year", ""))) if x)))
     row("Edition transcribed", esc(book.get("edition_statement", "")))

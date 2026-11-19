@@ -96,7 +96,14 @@ class Compile(unittest.TestCase):
         self.assertEqual(html.count('href="#d001-n1"'), 2)
         o = render_odt.Odt(book, None)
         o.notes = {n["id"]: n for n in d["notes"]}
-        self.assertEqual(o.inline(t).count("<text:note "), 1)  # the note is placed once
+        x = o.inline(t)
+        self.assertEqual(x.count("<text:note "), 1)  # the note is placed once
+        self.assertEqual(x.count('text:ref-name="d001-n1">*</text:note-ref>'), 1)
+
+    def test_editor_role(self):
+        b = {"authors": [{"name": "A. Writer"}, {"name": "E. Ditor", "role": "editor"}]}
+        self.assertEqual(rh.authors_text(b), "A. Writer; edited by E. Ditor")
+        self.assertEqual(rh.authors_text({"authors": []}), "Anonymous")
 
     def test_note_problems_reported(self):
         _, w = comp(["[[page 1]]\n# ONE\n\nA[[fnref *]] b.\n\n[[fn †]] Orphan."])

@@ -250,4 +250,8 @@ def nav_list(book, names, prefix=""):
 
 
 def authors_text(book):
-    return ", ".join(a["name"] for a in book.get("authors", [])) or "Anonymous"
+    """'A, B' for the authors; '; edited by C' for those with "role": "editor"."""
+    au = book.get("authors", [])
+    main = ", ".join(a["name"] for a in au if not a.get("role")) or "Anonymous"
+    eds = ", ".join(a["name"] for a in au if a.get("role") == "editor")
+    return main + (f"; edited by {eds}" if eds else "")

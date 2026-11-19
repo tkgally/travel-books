@@ -149,8 +149,12 @@ class Odt:
                     out.append(f'<text:span text:style-name="{CHAR[name]}">')
                 elif name == "noteref":
                     n = self.notes.get(a.get("to"))
-                    if n is None or in_note or n["id"] in self.seen_ref:
-                        # unknown, inside a note, or a second reference to a note already placed: the mark only
+                    if n is not None and not in_note and n["id"] in self.seen_ref:
+                        # a second reference to a note already placed ([[fnref * again]]): a cross-reference to it
+                        out.append(f'<text:span text:style-name="Superscript"><text:note-ref text:note-class="footnote" '
+                                   f'text:reference-format="text" text:ref-name={quoteattr(n["id"])}>')
+                        close = "</text:note-ref></text:span>"
+                    elif n is None or in_note:
                         out.append('<text:span text:style-name="Superscript">')
                     else:
                         self.seen_ref.add(n["id"])
