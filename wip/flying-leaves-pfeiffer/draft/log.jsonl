@@ -107,3 +107,55 @@
 {"page": "p0115", "model": "opus", "corrections": null, "seconds": 7.7, "cost": 0.065555, "completion_tokens": 755, "turns": 2, "attempts": 1}
 {"page": "p0116", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
 {"page": "p0117", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0118", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0119", "model": "opus", "corrections": null, "seconds": 7.4, "cost": 0.0640186, "completion_tokens": 679, "turns": 2, "attempts": 1}
+{"page": "p0120", "model": "opus", "corrections": null, "seconds": 8.8, "cost": 0.0647478, "completion_tokens": 713, "turns": 2, "attempts": 1}
+{"page": "p0121", "model": "opus", "corrections": null, "seconds": 8.2, "cost": 0.0643406, "completion_tokens": 691, "turns": 2, "attempts": 1}
+{"page": "p0122", "model": "opus", "corrections": null, "seconds": 7.3, "cost": 0.0639386, "completion_tokens": 675, "turns": 2, "attempts": 1}
+{"page": "p0123", "model": "opus", "corrections": null, "seconds": 7.2, "cost": 0.0642504, "completion_tokens": 691, "turns": 2, "attempts": 1}
+{"page": "p0124", "model": "opus", "corrections": null, "seconds": 7.4, "cost": 0.064416, "completion_tokens": 696, "turns": 2, "attempts": 1}
+{"page": "p0125", "model": "opus", "corrections": null, "seconds": 7.8, "cost": 0.06620319999999999, "completion_tokens": 787, "turns": 2, "attempts": 1}
+{"page": "p0126", "model": "opus", "corrections": null, "seconds": 6.3, "cost": 0.062143199999999996, "completion_tokens": 584, "turns": 2, "attempts": 1}
+{"page": "p0127", "model": "opus", "corrections": null, "seconds": 6.3, "cost": 0.062716, "completion_tokens": 611, "turns": 2, "attempts": 1}
+{"page": "p0128", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0129", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0130", "model": "opus", "corrections": null, "seconds": 6.5, "cost": 0.06341139999999999, "completion_tokens": 647, "turns": 2, "attempts": 1}
+{"page": "p0131", "model": "opus", "corrections": null, "seconds": 7.1, "cost": 0.06303399999999999, "completion_tokens": 631, "turns": 2, "attempts": 1}
+{"page": "p0132", "model": "opus", "corrections": null, "seconds": 7.2, "cost": 0.0642986, "completion_tokens": 693, "turns": 2, "attempts": 1}
+{"page": "p0133", "model": "opus", "corrections": null, "seconds": 8.6, "cost": 0.0664586, "completion_tokens": 801, "turns": 2, "attempts": 1}
+{"page": "p0134", "model": "opus", "corrections": null, "seconds": 7.4, "cost": 0.0644478, "completion_tokens": 698, "turns": 2, "attempts": 1}
+{"page": "p0135", "model": "opus", "corrections": null, "seconds": 7.1, "cost": 0.0652714, "completion_tokens": 740, "turns": 2, "attempts": 1}
+{"page": "p0136", "model": "opus", "corrections": null, "seconds": 7.9, "cost": 0.0651996, "completion_tokens": 736, "turns": 2, "attempts": 1}
+{"page": "p0137", "model": "opus", "corrections": null, "seconds": 6.9, "cost": 0.06360679999999999, "completion_tokens": 658, "turns": 2, "attempts": 1}
+{"page": "p0138", "model": "opus", "corrections": null, "seconds": 6.9, "cost": 0.0624232, "completion_tokens": 598, "turns": 2, "attempts": 1}
+{"page": "p0139", "model": "opus", "corrections": null, "seconds": 7.6, "cost": 0.0636268, "completion_tokens": 659, "turns": 2, "attempts": 1}
+{"page": "p0140", "model": "opus", "corrections": null, "seconds": 6.6, "cost": 0.0624468, "completion_tokens": 600, "turns": 2, "attempts": 1}
+{"page": "p0141", "model": "opus", "corrections": null, "seconds": 6.3, "cost": 0.0632914, "completion_tokens": 641, "turns": 2, "attempts": 1}
+{"page": "p0142", "model": "opus", "corrections": null, "seconds": 6.5, "cost": 0.0639632, "completion_tokens": 675, "turns": 2, "attempts": 1}
+{"page": "p0143", "model": "opus", "corrections": null, "seconds": 6.3, "cost": 0.0633196, "completion_tokens": 642, "turns": 2, "attempts": 1}
+{"page": "p0144", "model": "opus", "corrections": null, "seconds": 8.6, "cost": 0.0663668, "completion_tokens": 796, "turns": 2, "attempts": 1}
+{"page": "p0145", "model": "opus", "corrections": null, "seconds": 7.7, "cost": 0.0657386, "completion_tokens": 765, "turns": 2, "attempts": 1}
+{"page": "p0146", "model": "opus", "corrections": null, "seconds": 6.6, "cost": 0.0629822, "completion_tokens": 628, "turns": 2, "attempts": 1}
+{"page": "p0147", "model": "opus", "corrections": null, "seconds": 7.0, "cost": 0.064855, "completion_tokens": 720, "turns": 2, "attempts": 1}
+{"page": "p0148", "model": "opus", "corrections": null, "seconds": 8.0, "cost": 0.0656704, "completion_tokens": 762, "turns": 2, "attempts": 1}
+{"page": "p0149", "model": "opus", "corrections": null, "seconds": 7.2, "cost": 0.0631468, "completion_tokens": 635, "turns": 2, "attempts": 1}
+{"page": "p0150", "model": "opus", "corrections": null, "seconds": 8.1, "cost": 0.06508320000000001, "completion_tokens": 731, "turns": 2, "attempts": 1}
+{"page": "p0151", "model": "opus", "corrections": null, "seconds": 6.3, "cost": 0.0631268, "completion_tokens": 634, "turns": 2, "attempts": 1}
+{"page": "p0152", "model": "opus", "corrections": null, "seconds": 6.8, "cost": 0.06279499999999999, "completion_tokens": 617, "turns": 2, "attempts": 1}
+{"page": "p0153", "model": "opus", "corrections": null, "seconds": 6.8, "cost": 0.0637668, "completion_tokens": 666, "turns": 2, "attempts": 1}
+{"page": "p0154", "model": "opus", "corrections": null, "seconds": 7.2, "cost": 0.0641832, "completion_tokens": 686, "turns": 2, "attempts": 1}
+{"page": "p0155", "model": "opus", "corrections": null, "seconds": 8.3, "cost": 0.0662068, "completion_tokens": 788, "turns": 2, "attempts": 1}
+{"page": "p0156", "model": "opus", "corrections": null, "seconds": 6.9, "cost": 0.062995, "completion_tokens": 627, "turns": 2, "attempts": 1}
+{"page": "p0157", "model": "opus", "corrections": null, "seconds": 6.5, "cost": 0.0633232, "completion_tokens": 643, "turns": 2, "attempts": 1}
+{"page": "p0158", "model": "opus", "corrections": null, "seconds": 6.4, "cost": 0.0633196, "completion_tokens": 642, "turns": 2, "attempts": 1}
+{"page": "p0159", "model": "opus", "corrections": null, "seconds": 6.2, "cost": 0.0634714, "completion_tokens": 650, "turns": 2, "attempts": 1}
+{"page": "p0160", "model": "opus", "corrections": null, "seconds": 6.8, "cost": 0.0629786, "completion_tokens": 627, "turns": 2, "attempts": 1}
+{"page": "p0161", "model": "opus", "corrections": null, "seconds": 6.5, "cost": 0.0630478, "completion_tokens": 628, "turns": 2, "attempts": 1}
+{"page": "p0162", "model": "opus", "corrections": null, "seconds": 5.8, "cost": 0.0576658, "completion_tokens": 363, "turns": 2, "attempts": 1}
+{"page": "p0163", "model": "opus", "corrections": null, "seconds": 7.5, "cost": 0.06423499999999999, "completion_tokens": 689, "turns": 2, "attempts": 1}
+{"page": "p0164", "model": "opus", "corrections": null, "seconds": 7.5, "cost": 0.0643232, "completion_tokens": 693, "turns": 2, "attempts": 1}
+{"page": "p0165", "model": "opus", "corrections": null, "seconds": 7.0, "cost": 0.0633714, "completion_tokens": 645, "turns": 2, "attempts": 1}
+{"page": "p0166", "model": "opus", "corrections": null, "seconds": 6.6, "cost": 0.0629822, "completion_tokens": 628, "turns": 2, "attempts": 1}
+{"page": "p0167", "model": "opus", "corrections": null, "seconds": 6.6, "cost": 0.0633304, "completion_tokens": 645, "turns": 2, "attempts": 1}
+{"page": "p0168", "model": "opus", "corrections": null, "seconds": 5.7, "cost": 0.0614314, "completion_tokens": 548, "turns": 2, "attempts": 1}
+{"page": "p0169", "model": "opus", "corrections": null, "seconds": 7.4, "cost": 0.062235, "completion_tokens": 589, "turns": 2, "attempts": 1}
