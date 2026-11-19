@@ -95,6 +95,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Environment
 
+- CI (`pages.yml`) installs only Pillow before the tests: a test that needs another package must add it there (a test importing `crop_image` broke the deploy on 2026-11-19).
 - `tools/setup_env.sh` first (it switches apt to https mirrors: plain-http mirrors hang behind the session proxy). Headless calls: `claude -p` with only the Read tool (`ocr_claude.py`).
 - Drive: uploads from a session are refused above about 3 MB per call (tested 2026-11-19: 2.86 MB went
   through; 9.9 MB and 40 MB did not). Downloads by `curl` with the file id work for any size because the
