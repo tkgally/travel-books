@@ -82,14 +82,15 @@
   problems and redesign the workflow to avoid them. What was found and changed: `improvement.md` review log.
   Two changes touch rules he set, for him to confirm or reverse (below).
 
+## 2026-11-19 (answers to the three questions of the diagnosis session: yes to all)
+
+- **The checks rule as rewritten stands:** a session may fix a check that is wrong about a kind of book (test with
+  invented text first) but does not publish that book; the next session does. (CLAUDE.md.)
+- **Pages the output filter refuses may be published from the fallback:** tesseract's reading corrected by Opus,
+  then the Sonnet pass, the judge and the audit; the book says which pages in its notes on the text.
+- **The death-date rule keeps the added condition:** unknown date of death = died before age 100, provided the
+  birth year is known or bounded (e.g. from a career); otherwise the book is left out. (`selection.md` rule 5.)
+
 ## Questions for Tom
 
-- **2026-11-19, the checks rule.** It used to say a check is fixed only "in a later session"; a finished book
-  then needed two more sessions. It now says: the session may fix a check that is wrong about a kind of book
-  (test with invented text first), but **does not publish that book; the next session does**. Is that
-  acceptable, or should a check never be edited in a session that has worked on the book it blocks?
-- **2026-11-19, refused pages.** For pages the output filter refuses, the text now starts from tesseract's
-  reading, corrected by Opus, then checked by Sonnet, the judge and the audit like other pages (about 1 page in
-  100 so far). Is that acceptable for publication, said in the book's notes on the text? If not, such books wait.
-- **2026-11-19, the death-date rule.** Recorded with a condition added by the session: the birth year must be
-  known or bounded (e.g. from a career); otherwise the book is left out. Confirm or change.
+None open.
