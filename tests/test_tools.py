@@ -375,3 +375,62 @@ class Books(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Refusal(unittest.TestCase):
+    """The output filter's refusal is never retried; corrections mode makes no call for a page with no draft."""
+
+    def setUp(self):
+        import ocr_claude, judge as jd, audit_sample  # noqa: F401
+        self.mods = (ocr_claude, jd, audit_sample)
+        self.tmp = tempfile.mkdtemp()
+        self.calls = 0
+
+    def tearDown(self):
+        shutil.rmtree(self.tmp)
+
+    def fake_run(self, *a, **k):
+        self.calls += 1
+        class R:
+            stdout = json.dumps({"is_error": True, "result": "API Error: Output blocked by content filtering policy"})
+        return R()
+
+    def patched(self, mod):
+        from unittest import mock
+        return mock.patch.multiple(mod, time=mock.DEFAULT), mock.patch.object(mod.subprocess, "run", self.fake_run)
+
+    def test_is_refusal(self):
+        from refusal import is_refusal
+        self.assertTrue(is_refusal("RuntimeError('API Error: Output blocked by content filtering policy')"))
+        self.assertFalse(is_refusal("RuntimeError('timeout')"))
+        self.assertFalse(is_refusal(None))
+
+    def test_ocr_not_retried(self):
+        from types import SimpleNamespace
+        ocr = self.mods[0]
+        args = SimpleNamespace(out=self.tmp, context_text=None, halves=False, corrections=False, model="opus")
+        a, b = self.patched(ocr)
+        with a, b:
+            rec = ocr.do_page(args, "prompt", os.path.join(self.tmp, "p0001.jpg"))
+        self.assertEqual(self.calls, 1)
+        self.assertIn("content filtering", rec["error"])
+
+    def test_judge_and_audit_not_retried(self):
+        for mod in self.mods[1:]:
+            self.calls = 0
+            a, b = self.patched(mod)
+            with a, b:
+                res, info = mod.call("prompt", "opus", self.tmp)
+            self.assertIsNone(res)
+            self.assertEqual(self.calls, 1, mod.__name__)
+
+    def test_corrections_without_draft_makes_no_call(self):
+        from types import SimpleNamespace
+        ocr = self.mods[0]
+        ctx = os.path.join(self.tmp, "draft"); os.makedirs(ctx)
+        args = SimpleNamespace(out=self.tmp, context_text=ctx, halves=False, corrections=True, model="sonnet")
+        a, b = self.patched(ocr)
+        with a, b:
+            rec = ocr.do_page(args, "prompt", os.path.join(self.tmp, "p0002.jpg"))
+        self.assertEqual(self.calls, 0)
+        self.assertIn("no draft", rec["error"])

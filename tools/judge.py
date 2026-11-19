@@ -16,6 +16,7 @@ about one time in 6 to 30: every (2) and (3), and every change towards a more mo
 is checked on the scan before the book is published.
 """
 import argparse, concurrent.futures as cf, hashlib, json, os, re, shutil, subprocess, sys, time
+from refusal import is_refusal
 
 TASK = """You are checking a transcription of one scanned page of a book printed in English before 1914.
 The page image is the file {img} — open it with the Read tool first.
@@ -50,6 +51,8 @@ def call(prompt, model, cwd):
             return j["result"], {"seconds": round(time.time() - t0, 1), "cost": j.get("total_cost_usd")}
         except Exception as e:  # noqa: BLE001
             last = repr(e)[:300]
+            if is_refusal(last):
+                break
             time.sleep(5)
     return None, {"error": last}
 
