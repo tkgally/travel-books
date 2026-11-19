@@ -173,7 +173,9 @@ class Ctx:
     def blocks(self, div):
         div = roman_long_italics(div)
         body, prev = [], None
-        for b in div["blocks"]:
+        targets = section_targets(div)
+        for bi, b in enumerate(div["blocks"]):
+            n0 = len(body)
             t = b["type"]
             pbs = "".join(self.pb(p["n"], p["leaf"]) for p in b.get("pb", []))
             if t == "heading":
@@ -209,6 +211,9 @@ class Ctx:
                 body.append(f'<div class="tablewrap">{pbs}<table>{trs}</table></div>')
             elif t == "break":
                 body.append(f'<hr class="break"/>{pbs}')
+            if bi in targets and len(body) > n0:
+                # the anchor of a contents entry goes on the block's first element
+                body[n0] = re.sub(r"^<(\w+)", lambda m: f'<{m.group(1)} id="{targets[bi]}"', body[n0], count=1)
             prev = "subtitle" if b.get("role") == "subtitle" else t
         if div["notes"]:
             items = []
@@ -240,13 +245,37 @@ def nav_tree(book):
     return tree
 
 
+def toc_title(d):
+    """The division's entry in the contents: `toc_title` (e.g. the chapter summary in full) or its title."""
+    return d.get("toc_title") or d["title"]
+
+
+def section_id(k):
+    return f"sec-{k + 1}"
+
+
+def toc_tree(book):
+    """[(title, division id, fragment or None, [children])] — the contents of the reading editions: divisions,
+    chapters nested under their part, and a division's `sections` (book.json toc_entries) nested under it."""
+    def node(d, kids):
+        subs = [(x["title"], d["id"], section_id(k), []) for k, x in enumerate(d.get("sections", []))]
+        return (toc_title(d), d["id"], None, subs + [node(c, []) for c in kids])
+    return [node(d, kids) for d, kids in nav_tree(book)]
+
+
+def section_targets(div):
+    """block index -> anchor id, for the blocks the contents point at."""
+    return {x["block"]: section_id(k) for k, x in enumerate(div.get("sections", []))}
+
+
 def nav_list(book, names, prefix=""):
-    def li(d, kids):
-        inner = f'<a href="{prefix}{names[d["id"]]}">{esc(d["title"])}</a>'
+    def li(n):
+        title, did, frag, kids = n
+        inner = f'<a href="{prefix}{names[did]}{"#" + frag if frag else ""}">{esc(title)}</a>'
         if kids:
-            inner += "<ol>" + "".join(li(k, []) for k in kids) + "</ol>"
+            inner += "<ol>" + "".join(li(k) for k in kids) + "</ol>"
         return f"<li>{inner}</li>"
-    return "<ol>" + "\n".join(li(d, kids) for d, kids in nav_tree(book)) + "</ol>"
+    return "<ol>" + "\n".join(li(n) for n in toc_tree(book)) + "</ol>"
 
 
 def authors_text(book):

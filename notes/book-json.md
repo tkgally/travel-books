@@ -24,17 +24,22 @@
  "history": [{"version": 1, "date": "2026-11-25", "note": "First publication."}],
  "audit": {"version": 1, "date": "…", "pages": 6, "recall": "30/30", "real_errors": 0, "fixed": 0},
  "divisions": [ … ],                    exceptions to "each # heading is a chapter in the reading editions"
+ "toc": {"subtitles": "all"},           contents entries with every chapter summary in full (default: only those of 80 characters or fewer)
+ "toc_entries": [{"at": "p0043", "starts": "15th.—", "title": "15–30 June: London; Oxford and Windsor"}],
+                                        entries inside a division: the block starting on page `at` whose plain text
+                                        starts with `starts`; "editor": false for a title taken from the printed contents
  "frontispiece": "p0010-1",               image moved from the front matter to the start of the first reading division
  "keep_hyphens": ["p0034"],             pages whose join with the previous page keeps the hyphen
  "waivers": [{"check": "…", "match": "…", "why": "…"}],
  "css_extra": ""                        rarely
 }
 ```
-`divisions` entries: `{"at": "p0013", "kind": "contents"}`; optional `title`, `reading` (true/false), `n` (the
-n-th division starting on that page). Kinds: front, titlepage, dedication, preface, contents, illustrations,
+`divisions` entries: `{"at": "p0013", "kind": "contents"}`; optional `title`, `toc_title` (the contents entry, when
+it should differ from the title), `reading` (true/false), `n` (the n-th division starting on that page). Kinds: front, titlepage, dedication, preface, contents, illustrations,
 introduction, part, chapter, appendix, notes, glossary, index, errata, advertisements, back. Left out of the
 reading editions by default: front, titlepage, contents, illustrations, index, errata, advertisements, back.
-A `#` division with headings only becomes a `part` and the chapters after it nest under it.
+A `#` division with headings only (and a `[[subtitle]]`) becomes a `part` and the chapters after it nest under it.
+How the contents are decided for a book: `workflow.md` stage 4 "Contents".
 
 ## source.json
 

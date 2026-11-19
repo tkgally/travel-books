@@ -16,6 +16,10 @@ born about 1840 or earlier and cannot have been alive in 1955. Tom, 2026-11-19: 
 quotes at length from an article in *Good Words* (June 1871) by Lady Verney (Frances Parthenope Verney, d. 1890).
 
 ## Status
+**Ready to publish version 4** (2026-11-19, contents redesign, `notes/errata.md`): the contents now have the editor's 15 entries for spans of dates and places in the diary, and the seven appendices under the printed contents' titles (book.json `toc_entries`, `notes_on_text`). Preflight PASS on
+the branch of that work; this session changed the `conservation` check (the ODT's contents list), so the
+next session publishes: `workflow.md` §"New version" (version, date, history, audit record copied, preflight,
+`publish.py`, Versions row, metrics row), after a rendered look at the book page's contents.
 Published, version 3, 2026-11-19. Nothing open.
 
 ## Page map

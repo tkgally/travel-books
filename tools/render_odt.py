@@ -7,9 +7,11 @@ From Python: render(book, images_dir) -> bytes
 The same named styles are used for every book, so documents can be restyled or combined:
   paragraph  Title, Subtitle, Author, Imprint, Edition Note, Heading 1-3, Text Body, First Paragraph,
              Chapter Summary, Quotation, Verse, Right Aligned, Centered, Caption, Figure, Table Contents,
-             Section Break, Footnote
+             Section Break, Footnote, Contents Heading, Contents 1-3
   character  Italic, Bold, Small Caps, Superscript, Subscript
-Notes are real footnotes; page starts of the printed book are bookmarks named "page-N".
+Notes are real footnotes; page starts of the printed book are bookmarks named "page-N". After the title page
+a contents list (the same entries as the EPUB's and the website's, render_html.toc_tree) links to bookmarks
+"div-ID" (start of a division) and "div-ID-sec-K" (an entry inside a division).
 """
 import io, json, os, re, struct, sys, zipfile
 from xml.sax.saxutils import escape, quoteattr
@@ -63,6 +65,10 @@ STYLES = f"""<?xml version="1.0" encoding="UTF-8"?>
 {pstyle("Caption", "Caption", para='fo:text-align="center" fo:margin-bottom="0.5cm"', text='fo:font-size="9.5pt"')}
 {pstyle("Table_20_Contents", "Table Contents", para='fo:text-align="start"', text='fo:font-size="10pt"')}
 {pstyle("Section_20_Break", "Section Break", para='fo:text-align="center" fo:margin-top="0.3cm" fo:margin-bottom="0.3cm"', nxt="First_20_Paragraph")}
+{pstyle("Contents_20_Heading", "Contents Heading", para='fo:text-align="center" fo:margin-top="2cm" fo:margin-bottom="0.8cm" fo:break-before="page"', text='fo:font-size="16pt" fo:hyphenate="false"', cls="index")}
+{pstyle("Contents_20_1", "Contents 1", para='fo:text-align="start" fo:margin-left="0.6cm" fo:text-indent="-0.6cm" fo:margin-top="0.15cm"', text='fo:hyphenate="false"', cls="index")}
+{pstyle("Contents_20_2", "Contents 2", "Contents_20_1", para='fo:margin-left="1.4cm" fo:margin-top="0.05cm"', cls="index")}
+{pstyle("Contents_20_3", "Contents 3", "Contents_20_1", para='fo:margin-left="2.2cm" fo:margin-top="0cm"', text='fo:font-size="10pt"', cls="index")}
 {pstyle("Footnote", "Footnote", para='fo:text-align="justify" fo:margin-left="0.4cm" fo:text-indent="-0.4cm" fo:line-height="115%"', text='fo:font-size="9pt"', cls="extra")}
 {pstyle("Title", "Title", para='fo:text-align="center" fo:margin-top="4cm" fo:margin-bottom="0.6cm"', text='fo:font-size="22pt" fo:hyphenate="false"', cls="chapter")}
 {pstyle("Subtitle", "Subtitle", para='fo:text-align="center" fo:margin-bottom="1.5cm"', text='fo:font-size="13pt" fo:hyphenate="false"', cls="chapter")}
@@ -186,7 +192,9 @@ class Odt:
         d = rh.roman_long_italics(d)
         self.notes = {n["id"]: n for n in d["notes"]}
         out, prev = [], None
-        for b in d["blocks"]:
+        marks = {i: f'div-{d["id"]}-{v}' for i, v in rh.section_targets(d).items()}
+        for bi, b in enumerate(d["blocks"]):
+            n0 = len(out)
             t = b["type"]
             pbs = "".join(self.pb(x["n"]) for x in b.get("pb", []))
             if t == "heading":
@@ -241,7 +249,28 @@ class Odt:
                 out.append(f'<table:table table:name="Table{self.ntab}"><table:table-column table:number-columns-repeated="{cols}"/>{rows}</table:table>')
             elif t == "break":
                 out.append(self.p("Section_20_Break", pbs + "* * *"))
+            names = ([f'div-{d["id"]}'] if bi == 0 else []) + ([marks[bi]] if bi in marks else [])
+            if names and len(out) > n0:
+                bm = "".join(f'<text:bookmark text:name="{x}"/>' for x in names)
+                for j in range(n0, len(out)):
+                    new = re.sub(r"<text:(p|h)\b[^>]*>", lambda m: m.group(0) + bm, out[j], count=1)
+                    if new != out[j]:
+                        out[j] = new
+                        break
             prev = "subtitle" if b.get("role") == "subtitle" else t
+        return "\n".join(out)
+
+    def contents(self):
+        """The contents list after the title page: the same entries as the EPUB's navigation."""
+        out = [self.p("Contents_20_Heading", "Contents")]
+
+        def walk(nodes, level):
+            for title, did, frag, kids in nodes:
+                target = f"div-{did}" + (f"-{frag}" if frag else "")
+                out.append(self.p(f"Contents_20_{min(level, 3)}",
+                                  f'<text:a xlink:type="simple" xlink:href="#{target}">{self.text(title)}</text:a>'))
+                walk(kids, level + 1)
+        walk(rh.toc_tree(self.book), 1)
         return "\n".join(out)
 
     def title_page(self):
@@ -260,7 +289,7 @@ class Odt:
         return "\n".join(out)
 
     def content(self):
-        body = [self.title_page()] + [self.division(d) for d in rh.reading_divisions(self.book)]
+        body = [self.title_page(), self.contents()] + [self.division(d) for d in rh.reading_divisions(self.book)]
         auto = """<style:style style:name="QuoteRight" style:family="paragraph" style:parent-style-name="Quotation"><style:paragraph-properties fo:text-align="end"/></style:style>
 <style:style style:name="QuoteCenter" style:family="paragraph" style:parent-style-name="Quotation"><style:paragraph-properties fo:text-align="center"/></style:style>
 <style:style style:name="VerseFirst" style:family="paragraph" style:parent-style-name="Verse"><style:paragraph-properties fo:margin-top="0.3cm"/></style:style>

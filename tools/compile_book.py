@@ -14,6 +14,8 @@ book.json keys used here (all keys: notes/book-json.md):
                 boundary is made at the top of the page (its title: `title`, or the kind).
                 `n` (default 1) picks the n-th division starting on that page.
   keep_hyphens  pages whose join with the previous page keeps the page-final hyphen
+  toc           {"subtitles": "all"}: every division whose summary was too long for its title gets `toc_title`
+  toc_entries   [{"at": leaf, "starts": plain text, "title": ..., "editor": bool}] -> division `sections`
 """
 import argparse, json, os, re, sys
 
@@ -222,6 +224,7 @@ def compile_pages(cfg, pages, images=None):
             flat.append(b)
 
     # divisions
+    toc_cfg = cfg.get("toc") or {}
     overrides = {}
     for d in cfg.get("divisions", []):
         overrides[(d["at"], d.get("n", 1))] = d
@@ -239,7 +242,8 @@ def compile_pages(cfg, pages, images=None):
             warn(f"unknown division kind {kind!r} at {leaf}")
         cur = {"id": f"d{len(divs) + 1:03d}", "kind": kind, "title": o.get("title") or title or (None if from_heading else kind.capitalize()),
                "reading": o.get("reading", kind not in ("front", "contents", "illustrations", "index", "advertisements", "back", "errata", "titlepage")),
-               "first_leaf": leaf, "blocks": [], "notes": [], "_fns": [], "_auto_title": not o.get("title")}
+               "first_leaf": leaf, "blocks": [], "notes": [], "_fns": [], "_auto_title": not o.get("title"),
+               "_toc_title": o.get("toc_title")}
         divs.append(cur)
 
     used = set()
@@ -357,12 +361,23 @@ def compile_pages(cfg, pages, images=None):
             h = next((b for b in d["blocks"] if b["type"] == "heading" and b["level"] == 1), None)
             t = inline.plain(h["text"]).strip() if h else ""
             i = d["blocks"].index(h) + 1 if h else 0
+            whole = t
             if h and i < len(d["blocks"]) and d["blocks"][i].get("role") == "subtitle":
                 sub = inline.plain(d["blocks"][i]["text"]).strip()
+                whole = t.rstrip(".") + ". " + sub
                 if len(sub) <= 80:
-                    t = t.rstrip(".") + ". " + sub
+                    t = whole
             d["title"] = t.rstrip(".") if t else f"[Untitled, {d['first_leaf']}]"
-        if not any(b["type"] in ("paragraph", "quote", "verse", "table", "image") for b in d["blocks"]) and d["kind"] == "chapter":
+            # book.json "toc": {"subtitles": "all"}: the contents show every chapter summary in full, so that the
+            # entries are alike (Sketches Awheel, 2026-11-19); the title (pager, page title) stays short
+            if toc_cfg.get("subtitles") == "all" and t and whole.rstrip(".") != d["title"]:
+                d["toc_title"] = whole.rstrip(".")
+        if d.get("_toc_title"):
+            d["toc_title"] = d["_toc_title"]
+        d.pop("_toc_title", None)
+        # a division with only a heading and its subtitle is a part title (Flying Leaves: "From the East")
+        if not any(b["type"] in ("paragraph", "quote", "verse", "table", "image") and b.get("role") != "subtitle"
+                   for b in d["blocks"]) and d["kind"] == "chapter":
             d["kind"] = "part" if cfg.get("auto_parts", True) else d["kind"]
 
     # frontispiece (book.json "frontispiece": "p0010-1"): the image is moved from the front matter to the start of
@@ -376,6 +391,31 @@ def compile_pages(cfg, pages, images=None):
         else:
             src[0]["blocks"].remove(src[1])
             first["blocks"].insert(0, src[1])
+
+    # entries of the contents inside a division (book.json "toc_entries", notes/book-json.md): the printed contents'
+    # titles of sections whose headings are shorter, or the editor's own entries (spans of dates and places in a
+    # diary). Each points at the block that starts on page `at` with the plain text `starts`.
+    for e in cfg.get("toc_entries", []):
+        hit = None
+        for d in divs:
+            for i, b in enumerate(d["blocks"]):
+                if b["leaf"] == e["at"] and inline.plain(b_text(b)).strip().startswith(e["starts"]):
+                    hit = (d, i)
+                    break
+            if hit:
+                break
+        if hit is None:
+            warn(f"toc_entries: no block on {e['at']} starts with {e['starts']!r}")
+            continue
+        d, i = hit
+        if not d["reading"]:
+            warn(f"toc_entries: {e['at']} {e['starts']!r} is in a division left out of the reading editions")
+        d.setdefault("sections", []).append({"title": e["title"], "block": i, "editor": e.get("editor", True)})
+    for d in divs:
+        if d.get("sections"):
+            d["sections"].sort(key=lambda x: x["block"])
+            if len({x["block"] for x in d["sections"]}) < len(d["sections"]):
+                warn(f"toc_entries: two entries point at the same block in division {d['id']}")
 
     leaf_div = {}
     for d in divs:
@@ -415,6 +455,19 @@ def compile_pages(cfg, pages, images=None):
             **{k: cfg[k] for k in meta_keys if k in cfg},
             "corrections": corrections, "pages": page_list, "divisions": divs}
     return book, warnings
+
+
+def b_text(b):
+    """The first text of a block (for matching a toc entry)."""
+    if b.get("text"):
+        return b["text"]
+    if b.get("paragraphs"):
+        return b["paragraphs"][0]["text"]
+    if b.get("stanzas"):
+        return b["stanzas"][0][0]
+    if b.get("caption"):
+        return b["caption"]
+    return ""
 
 
 def compile_book(bookdir):
