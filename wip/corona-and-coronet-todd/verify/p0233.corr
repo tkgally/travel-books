@@ -1,0 +1,2 @@
+{"find": "<i>sake</i>, raw", "replace": "<i>sake,</i> raw"}
+{"find": "<i>daikon</i>, shell", "replace": "<i>daikon,</i> shell"}

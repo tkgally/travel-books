@@ -1,0 +1,7 @@
+Caption: "Boki, Ruler of Oahu in 1820, and Liliha His Wife" — the print has "AND LILIHA HIS WIFE", and the draft's "Liliha his Wife" lacks "and".
+
+{"find": "1820, Liliha his Wife", "replace": "1820, and Liliha his Wife"}
+
+Wait — the draft reads "1820, and Liliha his Wife", so the "and" is already there. The draft matches the image, so no changes are needed.
+
+NONE
