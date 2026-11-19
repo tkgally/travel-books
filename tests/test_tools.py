@@ -287,6 +287,23 @@ class Sample(unittest.TestCase):
         self.assertIn("1 waived", report)
 
 
+    def test_odt_note_ref_is_not_text(self):
+        # a second printed mark for one note ([[fnref * again]]) is a text:note-ref in the ODT: not body text
+        import io
+        x = ('<office:document-content xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" '
+             'xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"><office:body><office:text>'
+             '<text:p>One<text:note text:id="n1"><text:note-citation>*</text:note-citation><text:note-body>'
+             '<text:p>The note.</text:p></text:note-body></text:note> and two'
+             '<text:note-ref text:note-class="footnote" text:ref-name="n1">*</text:note-ref> marks.</text:p>'
+             '</office:text></office:body></office:document-content>')
+        buf = io.BytesIO()
+        with zipfile.ZipFile(buf, "w") as z:
+            z.writestr("content.xml", x)
+        buf.seek(0)
+        main, notes = preflight.odt_streams(buf)
+        self.assertEqual(main, "One and two marks.")
+        self.assertEqual(notes, "The note.")
+
 class Normalize(unittest.TestCase):
     def test_spacing(self):
         self.assertEqual(normalize.norm_page("[[page 3]]\n\n\n“ Well ! ” said he ; “ I do n't know .”  Then -- nothing."),
