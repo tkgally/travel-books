@@ -8,6 +8,7 @@
 | Diary of the Rajah of Kolhapoor v2 | 2026-11-19 | 183 | (no new model calls) | – | – | – | 0 | 0 | PASS, 1 waived | as v1 | frontispiece missing from the reading editions (found by me on the live page) |
 | Diary of the Rajah of Kolhapoor v3 | 2026-11-19 | 183 | (no new model calls) | – | – | – | 0 | 0 | PASS, 0 waived | as v1 | |
 | Sketches Awheel in Modern Iberia v1 | 2026-11-19 | 338 | Opus draft → Sonnet corrections → Opus judge | 46 | 43 / 3 / 0 | 0 | 27.68 | 0 | PASS, 0 waived | 30/30; 0 / 6 | |
+| Flying Leaves from East and West v1 | 2026-11-19 | 324 | Opus draft → Sonnet corrections → Opus judge; 5 pages by the OCR fallback (tesseract + Opus) | 13 | 13 / 0 / 0 | 0 | 30.01 | 0 | PASS, 0 waived | 30/30 + 25/25 on the fallback pages; 0 / 11 | |
 
 ## Calibrations
 

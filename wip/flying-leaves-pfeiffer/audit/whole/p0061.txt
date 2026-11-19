@@ -1,5 +1,0 @@
-{"given": "the artist has nor stopped short", "print": "the artist has not stopped short", "sure": "high"}
-{"given": "the artist; that is say, that", "print": "the artist; that is to say, that", "sure": "high"}
-{"given": "of which pausanias is the mouthpiece", "print": "of which Pausanias is the mouthpiece", "sure": "high"}
-{"given": "Large in feeling; monumental as is", "print": "Large in feeling, monumental as is", "sure": "high"}
-{"given": "partaking more of common natnre and yet", "print": "partaking more of common nature and yet", "sure": "high"}

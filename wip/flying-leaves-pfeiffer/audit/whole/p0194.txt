@@ -1,5 +1,0 @@
-{"given": "and thick-set teuton, in whom", "print": "and thick-set Teuton, in whom", "sure": "high"}
-{"given": "idiom. Be sets all our", "print": "idiom. He sets all our", "sure": "high"}
-{"given": "talkative and amusing youngifh man", "print": "talkative and amusing youngish man", "sure": "high"}
-{"given": "at our end the car,", "print": "at our end of the car,", "sure": "high"}
-{"given": "of the two gentlemen, the German", "print": "of the two gentlemen; the German", "sure": "high"}

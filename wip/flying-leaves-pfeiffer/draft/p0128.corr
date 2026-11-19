@@ -1,5 +1,0 @@
-{"find": "[[page ?]]", "replace": "[[page 118]]"}
-{"find": "118 FLYING LEAVES.\n\n", "replace": ""}
-{"find": "remarkably wellbehaved", "replace": "remarkably well-behaved"}
-{"find": "in general ;", "replace": "in general;"}
-{"find": "circumstances ;", "replace": "circumstances;"}
