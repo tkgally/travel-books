@@ -33,8 +33,9 @@ them and never type them yourself (it ends the session). Name them in the log an
 - **Italics**: transcribe them as printed, always. The renderers turn long italic passages roman in the built versions (`notes/style.md` §Editions); never remove italics from page files for that reason.
 - **Old spellings** (`shew`, `chuse`, `to-day`, `connexion`, `Hindoo`): must survive; a change towards the
   modern form is suspect.
-- **Page joins**: every `[[cont]]`; hyphen joins (`keep_hyphens` for real compounds — search the book for the
-  word elsewhere).
+- **Page joins**: every `[[cont]]`; hyphen joins (`keep_hyphens` for real compounds; preflight already
+  leaves out the joins the book settles by printing the whole word elsewhere, and marks "keep_hyphens?" where it
+  prints the hyphenated form).
 - **Headings**: in upper and lower case (preflight `heading-caps`); one `#` per division, as the printed contents has them; chapter summaries `[[subtitle]]`;
   no running heads; parts before chapters.
 - **Contents** (decided book by book, Tom 2026-11-19): follow the printed contents, deviate where a digital reader
