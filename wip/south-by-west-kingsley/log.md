@@ -10,17 +10,24 @@ is Schwatka's *In the Land of Cave and Cliff Dwellers* (Open Library), not this 
 1845–1925; Charles Kingsley (editor, preface) 1819–1875. Engravers not named.
 
 ## Status
-**In progress (2026-11-19, routine session).** Draft complete except the three pages refused by the output filter
-(p0076, p0109, p0189): p0424–p0441 drafted this session (no refusals); `normalize.py` run on `draft/`. Sonnet corrections
-pass started on the 428 drafted pages (`verify/`; resumable). **Do not type the refused pages in the session.**
-Next:
-1. Fetch the pages from Drive (`python3 tools/drive_cache.py fetch wip/south-by-west-kingsley/source.json $B/pages`).
-2. If `verify/` is short of 428 `.corr` files, re-run the same command (finished pages are skipped):
-   `ocr_claude.py --model sonnet --prompt prompts/verify.md --images $B/pages --out $W/verify --corrections --context-text $W/draft --workers 6`.
-3. `ocr_fallback.py --images $B/pages --draft $W/draft` (needs tesseract: `tools/setup_env.sh`); `normalize.py $W/draft`;
-   then the Sonnet pass on those three alone (`--pages 76,109,189`).
-4. `normalize.py $W/verify`; `review.py`; `judge.py`; stage 3 as usual, the fallback pages named in the log and audited.
-Crops and cover are done (`images/`).
+**In progress: stage 3 done; next the structure pass (stage 4), metadata, audit.** (2026-11-19, routine session.)
+Done this session: draft of p0424–p0441; `ocr_fallback.py` on the three refused pages (p0076, p0109, p0189;
+`draft/fallback.json`); normalize; Sonnet corrections pass on all 434 (37 pages with changes; NONE on the three
+fallback pages); review (63 spots on 24 pages, nothing unapplied, no length outliers); Opus judge (draft 24,
+Sonnet 39); judge spots checked on crops (Decisions below); `judge/` copied to `pages/` — from here `pages/` is the text.
+The compiler was changed in this session for this book (`[[cont]]` after a mid-page engraving; metrics §Preflight
+checks): **this book is published by a later session, not this one.**
+Preflight now (tools@2f2b2fe + compiler change): 4 to fix —
+- `summary` missing in book.json (stage 6: metadata, summary, `notes_on_text` naming printed pp. 48, 81, 161 —
+  leaves p0076, p0109, p0189 — as first read by OCR; check those numbers against `[[page]]` in the files);
+- compile: `[[cont]]` mid-page on p0018 and p0022 (the contents pages: the drafts typed contents entries as `##`
+  headings on p0019–p0023; make the contents a table or plain lines like the other books, division `contents`);
+- audit: `audit_sample.py --n 6` and a second run `--pages p0076,p0109,p0189`; record both in book.json.
+To look at: quote-balance 8 (p0124; p0170 is the sideways table of coals with ditto marks ” — read it on the scan,
+probably a pipe table with the dittos as printed), joins 9, hyphen-joins 27, leaves 2 (p0007–p0008, the tissue guard,
+left out on purpose: say so here). Then the rest of stage 4 (headings against the contents, `[[subtitle]]`s,
+divisions in book.json), stage 5 is done (crops), build, rendered look, publish.
+Fetch first: `python3 tools/drive_cache.py fetch wip/south-by-west-kingsley/source.json $B/pages`.
 
 ## Page map
 p0000 colour card (hidden) · p0001 front cover (cloth, agave design stamped) · p0002 front pastedown, UC bookplate ·
@@ -44,12 +51,23 @@ Scan check: all 12 contact sheets looked at 2026-11-19; full size: p0025, p0116,
 
 ## Decisions
 - Drafted p0006 and p0009–p0441; covers, endpapers, IA card and tissue guards left out.
+- Judge spots on crops: p0013 "Preface.", p0206 "Down the Pacific.", p0272 "…of the Lerma." (full stops printed: judge
+  right); p0276 "Micho-|acan" a line-end break, "Michoacan" (judge right); p0263 the engraving splits a sentence, order as
+  the judge has it; p0016, p0025 (list of illustrations), p0441 (advertisement): small capitals without taller
+  capitals, the judge's readings kept (front matter and advertisement, JSON only).
+- p0318 "where-|ever" broken at the line end; kept as "whereever" as the judge read it (the book has "wherever" six
+  times; assumed, easily changed: it may be a misprint, but not unmistakably one).
+- p0420 printed ‘<i>Vamonos!</i>” (single opening, double closing): `[[corr ‘|“]]` as in *Flying Leaves* p0207. The
+  accent on "Vámonos" (both readers; a faint mark on the scan) kept.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
 | draft | 2026-11-19 | opus | 413 of 432 | 27.37 | stopped at Tom's request; 3 pages refused by the output filter |
 | draft | 2026-11-19 (routine) | opus | p0424–p0441 (18) | 1.18 | no refusals |
+| fallback draft | 2026-11-19 (routine) | tesseract + opus corrections | p0076, p0109, p0189 | 0.20 | all three done |
+| corrections | 2026-11-19 (routine) | sonnet | 434 | 13.91 | 39 word, 24 punctuation, 13 markup changes; NONE on the fallback pages |
+| judge | 2026-11-19 (routine) | opus | 63 spots on 24 pages | 1.13 | draft 24, Sonnet 39; most on the contents and list of illustrations (markup) |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |

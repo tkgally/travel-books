@@ -200,6 +200,22 @@ def compile_pages(cfg, pages, images=None):
                     warn(f"[[cont]] with nothing to continue, treated as a new block: {leaf}")
                 b["pb"] = [{"leaf": leaf, "n": number}]
             elif b.get("cont"):
+                # a paragraph interrupted by a picture in the middle of the page (South by West, 2026-11-19):
+                # join it to the paragraph before the picture, which then follows the paragraph
+                j = len(flat) - 1
+                while j >= 0 and flat[j]["t"] in ("fn", "image", "break"):
+                    j -= 1
+                prev = flat[j] if j >= 0 else None
+                if (b["t"] == "p" and any(x["t"] == "image" and x["leaf"] == leaf for x in flat[j + 1:])
+                        and prev is not None and prev["t"] == "p" and prev["leaf_end"] == leaf):
+                    if prev["text"].endswith("-") and leaf not in keep:
+                        warn(f"hyphen join around an image at {leaf}: …{prev['text'][-15:]}|{b['text'][:15]}… (hyphen removed; check)")
+                        prev["text"] = prev["text"][:-1] + b["text"]
+                    elif prev["text"].endswith(("-", "—")) or b["text"].startswith("—"):
+                        prev["text"] += b["text"]
+                    else:
+                        prev["text"] += " " + b["text"]
+                    continue
                 warn(f"[[cont]] not at the top of a page, dropped: {leaf}")
             b.setdefault("pb", [])
             b["leaf_end"] = leaf
