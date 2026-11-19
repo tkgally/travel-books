@@ -176,6 +176,7 @@ class Odt:
         return f'<text:p text:style-name="{style}">{content}</text:p>'
 
     def division(self, d):
+        d = rh.roman_long_italics(d)
         self.notes = {n["id"]: n for n in d["notes"]}
         out, prev = [], None
         for b in d["blocks"]:

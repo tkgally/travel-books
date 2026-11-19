@@ -45,8 +45,12 @@
   Chapter IV.). Recorded in `style.md`; I extended it to chapter summaries and captions printed in capitals
   (assumed).
 
+## 2026-11-19 (later the same day)
+
+- Confirmed: captions and chapter summaries in upper and lower case too; the embedded IA page viewer is fine.
+- **Italics:** preserve them in the JSON, but in the built versions render them as roman in long extended
+  passages, such as entire paragraphs or tables of contents. Rule and thresholds: `style.md` §Editions.
+
 ## Questions for Tom
 
-- The IA page viewer on each book page is an embedded frame from archive.org, loaded only when opened. It is
-  the one piece of outside content on the site. (Assumed: acceptable, since he asked for a viewer.)
-- Captions and chapter summaries printed in capitals are also set in upper and lower case. (Assumed.)
+None open.

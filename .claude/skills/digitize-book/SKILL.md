@@ -28,6 +28,7 @@ Never Fable. Commit after each run. While runs go, do the page map, crops and me
 
 - **Proper names and foreign words**: models write the familiar form. Any judge spot or audit candidate on a
   name gets a crop.
+- **Italics**: transcribe them as printed, always. The renderers turn long italic passages roman in the built versions (`notes/style.md` §Editions); never remove italics from page files for that reason.
 - **Old spellings** (`shew`, `chuse`, `to-day`, `connexion`, `Hindoo`): must survive; a change towards the
   modern form is suspect.
 - **Page joins**: every `[[cont]]`; hyphen joins (`keep_hyphens` for real compounds — search the book for the

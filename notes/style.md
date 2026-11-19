@@ -50,6 +50,13 @@ left out of the reading editions if it is not narrative; say so.
 - All books share `site/assets/book.css` (web and EPUB) and the named styles of `tools/render_odt.py`. A book
   gets `css_extra` only when its text needs a style the others do not have; if two books need it, it moves
   into the shared file.
+- **Long italic passages are set in roman in the HTML, EPUB and ODT; the JSON keeps the italics as printed**
+  (Tom, 2026-11-19: "long extended passages, such as entire paragraphs or in tables of contents"). The rule
+  is applied by the renderers (`render_html.roman_long_italics`), never in the page files: a wholly italic
+  paragraph, quotation or note of 30 words or more; a wholly italic piece of verse of four lines or more; a
+  chapter summary; a table set all in italic. "Wholly" = at least 90% of its letters; the few words the print
+  set in roman inside such a passage, for contrast, become italic. Shorter italics stay. The thresholds are
+  mine: change them in one place if books show they are wrong.
 - Web: one page per division; page numbers of the printed book hidden until the reader asks, each linking to
   that page of the scan at IA.
 - EPUB: EPUB 3, epubcheck-clean, page list, pop-up footnotes. ODT: real footnotes, bookmarks at page starts.
@@ -71,3 +78,4 @@ Plain and minimal. Say what the thing is; a reader should learn the facts and de
 
 - 2026-11-19: first version.
 - 2026-11-19: headings, chapter titles and captions in upper and lower case, not as printed in capitals (no book yet published, none to redo).
+- 2026-11-19: long italic passages roman in the built versions, italic in the JSON.

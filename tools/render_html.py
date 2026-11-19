@@ -57,6 +57,51 @@ def page_starts(div):
     return out
 
 
+LONG_ITALIC_WORDS = 30     # a wholly italic paragraph or quotation of at least this many words is set in roman
+LONG_ITALIC_LINES = 4      # a wholly italic piece of verse of at least this many lines likewise
+ITALIC_SHARE = 0.9
+
+
+def roman_long_italics(div):
+    """A copy of a division for the reading editions (notes/style.md §Editions): long passages printed in italic
+    — whole paragraphs, whole poems, chapter summaries, whole tables — are set in roman, and words that
+    the print set in roman inside them, for contrast, in italic. The JSON keeps the italics as printed."""
+    def stats(strs):
+        it = tot = words = 0
+        for s in strs:
+            a, b, c = inline.italic_share(s)
+            it, tot, words = it + a, tot + b, words + c
+        return (it / tot if tot else 0), words
+
+    def long_(strs, min_words):
+        share, words = stats(strs)
+        return share >= ITALIC_SHARE and words >= min_words
+    out = dict(div)
+    blocks = []
+    for b in div["blocks"]:
+        b = dict(b)
+        t = b["type"]
+        if t == "paragraph":
+            if long_([b["text"]], 2 if b.get("role") == "subtitle" else LONG_ITALIC_WORDS):
+                b["text"] = inline.swap_italics(b["text"])
+        elif t == "quote":
+            whole = long_([p["text"] for p in b["paragraphs"]], LONG_ITALIC_WORDS)
+            b["paragraphs"] = [dict(p, text=inline.swap_italics(p["text"])) if whole or long_([p["text"]], LONG_ITALIC_WORDS) else p
+                               for p in b["paragraphs"]]
+        elif t == "verse":
+            lines = [x for s in b["stanzas"] for x in s]
+            if len(lines) >= LONG_ITALIC_LINES and long_(lines, 1):
+                b["stanzas"] = [[inline.swap_italics(x) for x in s] for s in b["stanzas"]]
+        elif t == "table":
+            cells = [c for r in b["rows"] for c in r]
+            if len(b["rows"]) >= 2 and long_(cells, 1):
+                b["rows"] = [[inline.swap_italics(c) for c in r] for r in b["rows"]]
+        blocks.append(b)
+    out["blocks"] = blocks
+    out["notes"] = [dict(n, text=inline.swap_italics(n["text"])) if long_([n["text"]], LONG_ITALIC_WORDS) else n for n in div["notes"]]
+    return out
+
+
 class Ctx:
     """What differs between the website and the EPUB."""
     def __init__(self, book, flavor, names):
@@ -123,6 +168,7 @@ class Ctx:
         return "".join(out)
 
     def blocks(self, div):
+        div = roman_long_italics(div)
         body, prev = [], None
         for b in div["blocks"]:
             t = b["type"]
