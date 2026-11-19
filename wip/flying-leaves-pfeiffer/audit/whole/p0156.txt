@@ -1,0 +1,5 @@
+{"given": "who owned themselves darkness, or with", "print": "who owned themselves in darkness, or with", "sure": "high"}
+{"given": "earnest face of sister Snow, and", "print": "earnest face of Sister Snow, and", "sure": "high"}
+{"given": "in this singular commuuion as food", "print": "in this singular communion as food", "sure": "high"}
+{"given": "pathetic. We; wanderers in a darkness,", "print": "pathetic. We, wanderers in a darkness,", "sure": "high"}
+{"given": "Who shall help us it in our", "print": "Who shall help us if in our", "sure": "high"}

@@ -23,3 +23,4 @@
 |---|---|---|
 | 2026-11-19 | all | first version; observe: hyphen-joins, joins, folios, quote-balance, contents, images, source |
 | 2026-11-19 | conservation (JSON→ODT) | false alarm on a second mark for one note (ODT `text:note-ref` read as text); fixed in the check, with test; Rajah waiver dropped (v3) |
+| 2026-11-19 | leaves (new, observe) | added after *Flying Leaves*: five leaves refused by the output filter had no page file and every other check (folios included, which allows gaps of up to 6) passed. First run: 5 real (Flying Leaves), 1 expected (Rajah p0009, the IA card, left out on purpose). Candidate for enforce with waivers. |

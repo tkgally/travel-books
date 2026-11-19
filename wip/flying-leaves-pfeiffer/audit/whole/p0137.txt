@@ -1,0 +1,5 @@
+{"given": "but the wind bad come and", "print": "but the wind had come and", "sure": "high"}
+{"given": "part was better than whole, which", "print": "part was better than the whole, which", "sure": "high"}
+{"given": "this Engelmann’s Cañon; and could, I", "print": "this Engelmann’s Cañon, and could, I", "sure": "high"}
+{"given": "this Colorado atmofphere do not darken", "print": "this Colorado atmosphere do not darken", "sure": "high"}
+{"given": "people are living in health today whose", "print": "people are living in health to-day whose", "sure": "high"}

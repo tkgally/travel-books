@@ -12,8 +12,7 @@
 [       ok] nav: contents: at least one reading division; each has a title and text
 [       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
-[ FAIL (1)] audit: book.json records the sampled audit of this version
-            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[       ok] audit: book.json records the sampled audit of this version
 [look (18)] hyphen-joins: page-break hyphen joins (hyphen removed): read the list once
             - hyphen join at p0028: …more character-|istically Orien… (hyphen removed; check)
             - hyphen join at p0039: …s upon the mag-|nificent plain … (hyphen removed; check)
@@ -51,4 +50,4 @@
 [       ok] contents: entries of the printed contents with no matching heading
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: flying-leaves-pfeiffer v1 — 1 to fix, 0 waived; to look at: hyphen-joins 18, joins 6, leaves 5 — tools@72f9118 2026-11-19
+preflight PASS: flying-leaves-pfeiffer v1 — 0 to fix, 0 waived; to look at: hyphen-joins 18, joins 6, leaves 5 — tools@ceb7975 2026-11-19

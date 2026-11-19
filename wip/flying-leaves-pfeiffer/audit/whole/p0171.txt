@@ -1,0 +1,5 @@
+{"given": "and I imagiue is generally brought", "print": "and I imagine is generally brought", "sure": "high"}
+{"given": "with so grave a grace; mellowed", "print": "with so grave a grace, mellowed", "sure": "high"}
+{"given": "pressing for incarnation or this earth", "print": "pressing for incarnation on this earth", "sure": "high"}
+{"given": "These mormons seem all to", "print": "These Mormons seem all to", "sure": "high"}
+{"given": "the lack of domesticity laxity of manners", "print": "the lack of domesticity and laxity of manners", "sure": "high"}

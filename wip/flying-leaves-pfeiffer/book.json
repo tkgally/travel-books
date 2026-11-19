@@ -57,5 +57,14 @@
  "omitted_from_reading": "The half-title, the title page and its verso are in the JSON only.",
  "keep_hyphens": [
   "p0176"
- ]
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-19",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0,
+  "note": "pages p0061, p0137, p0156, p0171, p0194, p0223; run before the five refused leaves were transcribed"
+ }
 }

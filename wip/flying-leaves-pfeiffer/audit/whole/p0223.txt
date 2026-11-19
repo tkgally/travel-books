@@ -1,0 +1,5 @@
+{"given": "by the senses of civilizcd man.", "print": "by the senses of civilized man.", "sure": "high"}
+{"given": "attached to a giant tree, a solitary", "print": "attached to a giant tree; a solitary", "sure": "high"}
+{"given": "strong appeals made by if to", "print": "strong appeals made by it to", "sure": "high"}
+{"given": "the symphony in tone and color,", "print": "the symphony in tone and colour,", "sure": "high"}
+{"given": "which parted the silence the night", "print": "which parted the silence of the night", "sure": "high"}

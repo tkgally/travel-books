@@ -70,6 +70,10 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - The API's output filter can refuse ordinary pages: 3 of 413 in *South by West* (1874), e.g. p0076, a plain
   description of a shanty. No retries in the same session (RESUME.md); note the leaves in the log. Tom set the
   book aside (2026-11-19) rather than have the session type the pages: ask before choosing that route again.
+- Second case: 5 of 304 in *Flying Leaves* (1885) in two runs of consecutive leaves (p0116–p0118, p0128–p0129:
+  plain prose about German farmers in Wisconsin). Bursts on neighbouring leaves point to the filter's state at
+  the time, not to the page. The tools no longer retry a refusal (`tools/refusal.py`), and preflight `leaves`
+  lists leaves with no page file: a refused page must not slip into a published book unnoticed.
 
 ## Trigger: OpenRouter
 
