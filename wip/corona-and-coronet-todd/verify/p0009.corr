@@ -1,0 +1,3 @@
+{"find": "[[center]] BEING", "replace": "[[center]] <sc>Being</sc>"}
+{"find": "[[center]] A NARRATIVE OF THE AMHERST ECLIPSE EXPEDITION TO JAPAN, IN MR. JAMES’S SCHOONER-YACHT CORONET, TO OBSERVE THE SUN’S TOTAL OBSCURATION 9TH AUGUST, 1896", "replace": "[[center]] <sc>A narrative of the Amherst eclipse expedition to Japan, in Mr. James’s schooner-yacht Coronet, to observe the Sun’s total obscuration 9th August, 1896</sc>"}
+{"find": "[[center]] BY", "replace": "[[center]] <sc>by</sc>"}
