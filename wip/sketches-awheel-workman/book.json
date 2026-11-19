@@ -1,0 +1,64 @@
+{
+ "id": "sketches-awheel-workman",
+ "version": 1,
+ "date": "2026-11-19",
+ "title": "Sketches Awheel in Modern Iberia",
+ "short_title": "Sketches Awheel in Modern Iberia",
+ "authors": [
+  {
+   "name": "Fanny Bullock Workman",
+   "sort": "Workman, Fanny Bullock",
+   "born": 1859,
+   "died": 1925
+  },
+  {
+   "name": "William Hunter Workman",
+   "sort": "Workman, William Hunter",
+   "born": 1847,
+   "died": 1937
+  }
+ ],
+ "place": "New York and London",
+ "publisher": "G. P. Putnam’s Sons, the Knickerbocker Press",
+ "year": 1897,
+ "edition_statement": "First edition",
+ "regions": [
+  "Spain",
+  "Morocco"
+ ],
+ "period": "1895",
+ "subjects": [
+  "Cycling",
+  "Travel in Spain"
+ ],
+ "summary": [
+  "Fanny Bullock Workman (1859–1925) and her husband William Hunter Workman (1847–1937), Americans then living in Germany who later travelled and climbed in the Himalaya, crossed Spain by bicycle in the spring and summer of 1895: about 4,500 kilometres from the French frontier at Port Bou through Catalonia, Valencia, Murcia, Andalucia, Extremadura, New and Old Castile, Aragon and Navarre to Irun, with an excursion from Gibraltar to Tangier and Tetuan in Morocco.",
+  "They describe the roads and inns, customs officers, teamsters, innkeepers and townspeople, Holy Week and Corpus Christi processions, bullfights, the fair at Burgos, and at length the cathedrals, Moorish palaces and Roman remains of the towns on the way. An introduction describes the Spanish roads for cyclists. The book has thirty photographs and a map of Spain."
+ ],
+ "source": {
+  "ia_identifier": "sketchesawheelin00work",
+  "contributor": "The Library of Congress",
+  "hidden_leaves": [
+   0,
+   337
+  ]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-19",
+   "note": "First publication."
+  }
+ ],
+ "frontispiece": "p0008-1",
+ "divisions": [
+  {
+   "at": "p0008",
+   "kind": "front"
+  },
+  {
+   "at": "p0009",
+   "kind": "titlepage"
+  }
+ ]
+}
