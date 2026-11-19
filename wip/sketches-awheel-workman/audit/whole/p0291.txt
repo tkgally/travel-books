@@ -1,5 +1,0 @@
-{"given": "The Professor Zamora—Mediæval Capital", "print": "The Professor of Zamora—Mediæval Capital", "sure": "high"}
-{"given": "university town of Salamanca; in which", "print": "university town of Salamanca, in which", "sure": "high"}
-{"given": "are hardly to be bad.”", "print": "are hardly to be had.”", "sure": "high"}
-{"given": "one of the finest color pictures", "print": "one of the finest colour pictures", "sure": "high"}
-{"given": "a grand bridge of tweuty-six arches", "print": "a grand bridge of twenty-six arches", "sure": "high"}

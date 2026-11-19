@@ -1,5 +1,0 @@
-{"given": "but not fish; that was rarely", "print": "but not fish, that was rarely", "sure": "high"}
-{"given": "for fish in Spain then at", "print": "for fish in Spain when at", "sure": "high"}
-{"given": "how fond at first indifferent hostess", "print": "how fond the at first indifferent hostess", "sure": "high"}
-{"given": "room of her prcsence we had", "print": "room of her presence we had", "sure": "high"}
-{"given": "making us promize that we would", "print": "making us promise that we would", "sure": "high"}
