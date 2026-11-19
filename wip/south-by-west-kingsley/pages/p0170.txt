@@ -18,24 +18,16 @@ The following table, drawn up by Professor Raymond, showing the relative values 
 | 10 | 60·72 | 4·30 | ... | 14·42 | 0·08 | 14·68 | 3·80 | 16·22 | 5768 | 6760 | 5602 | 2497 |
 | 11 | 72·94 | 4·50 | 1·79 | 11·77 | ... | 4·50 | 4·50 | 13·24 | 6938 | 7208 | 6843 | 2654 |
 
-No. 1. Monte Diabolo coal,—<i>Analyst</i>, H. S. M<sc>unro</sc>.
-
-2. Weber Cañon, Utah,””
-
-3. Echo Cañon,”””
-
-4. Carbon Station, Wyoming,””
-
-5.””””
-
-6. Coos Bay, Oregon,””
-
-No. 7. Alaska,—<i>Analyst</i>, H. S. M<sc>unro</sc>.
-
-8.”””
-
-9. Cañon City, Colorado,—<i>Analyst</i>, Dr. T. M. D<sc>rown</sc>.
-
-10. Baker Co., Oregon,””
-
-11. Block Coal, Sand Creek, Ind., Prof. E. T. Cox.
+| | | |
+|---|---|---|
+| No. 1. | Monte Diabolo coal,— | <i>Analyst</i>, H. S. M<sc>unro</sc>. |
+| 2. | Weber Cañon, Utah, | ” |
+| 3. | Echo Cañon, ” | ” |
+| 4. | Carbon Station, Wyoming, | ” |
+| 5. | ” ” | ” |
+| 6. | Coos Bay, Oregon, | ” |
+| No. 7. | Alaska,— | <i>Analyst</i>, H. S. M<sc>unro</sc>. |
+| 8. | ” ” | ” |
+| 9. | Cañon City, Colorado,— | <i>Analyst</i>, Dr. T. M. D<sc>rown</sc>. |
+| 10. | Baker Co., Oregon, | ” |
+| 11. | Block Coal, Sand Creek, Ind., | Prof. E. T. Cox. |
