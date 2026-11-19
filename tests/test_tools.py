@@ -434,3 +434,16 @@ class Refusal(unittest.TestCase):
             rec = ocr.do_page(args, "prompt", os.path.join(self.tmp, "p0002.jpg"))
         self.assertEqual(self.calls, 0)
         self.assertIn("no draft", rec["error"])
+
+
+class Leaves(unittest.TestCase):
+    """A leaf with no page file inside the run (a refused draft) is listed; folios alone cannot see it."""
+
+    def test_gap(self):
+        pages = [("p0010", "[[page 1]]"), ("p0011", "[[page 2]]"), ("p0014", "[[page 5]]")]
+        self.assertEqual(preflight.check_leaves(pages), ["p0012: no page file", "p0013: no page file"])
+        self.assertEqual(preflight.check_folios(pages), [])
+
+    def test_none(self):
+        self.assertEqual(preflight.check_leaves([("p0001", ""), ("p0002", "")]), [])
+        self.assertEqual(preflight.check_leaves([]), [])

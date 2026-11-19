@@ -1,0 +1,13 @@
+{"page": "p0007", "n": 1, "who": "draft", "draft": "[[center]] FROM", "verified": "[[center]] <sc>from</sc>", "judge": {"n": 1, "is": "B", "print": "[[center]] FROM", "sure": "medium"}}
+{"page": "p0010", "n": 1, "who": "draft", "draft": "<sc>field & tuer,</sc>", "verified": "<sc>Field & Tuer,</sc>", "judge": {"n": 1, "is": "B", "print": "<sc>field & tuer,</sc>", "sure": "medium"}}
+{"page": "p0010", "n": 2, "who": "draft", "draft": "<sc>the leadenhall press, e.c.</sc>", "verified": "<sc>The Leadenhall Press, E.C.</sc>", "judge": {"n": 2, "is": "B", "print": "<sc>the leadenhall press, e.c.</sc>", "sure": "medium"}}
+{"page": "p0010", "n": 3, "who": "draft", "draft": "(<sc>t.</sc> 4246)", "verified": "(<sc>T.</sc> 4246)", "judge": {"n": 3, "is": "A", "print": "(<sc>t.</sc> 4246)", "sure": "medium"}}
+{"page": "p0023", "n": 1, "who": "draft", "draft": "THE bazaars", "verified": "T<sc>he</sc> bazaars", "judge": {"n": 1, "is": "A", "print": "THE bazaars", "sure": "medium"}}
+{"page": "p0114", "n": 1, "who": "draft", "draft": "WE left Chicag", "verified": "W<sc>e</sc> left Chicag", "judge": {"n": 1, "is": "B", "print": "WE left Chicag", "sure": "medium"}}
+{"page": "p0126", "n": 1, "who": "draft", "draft": "AS I write", "verified": "A<sc>s</sc> I write", "judge": {"n": 1, "is": "A", "print": "AS I write", "sure": "medium"}}
+{"page": "p0150", "n": 1, "who": "draft", "draft": "WE reached", "verified": "W<sc>e</sc> reached", "judge": {"n": 1, "is": "A", "print": "WE reached", "sure": "medium"}}
+{"page": "p0169", "n": 1, "who": "draft", "draft": "THE following m", "verified": "T<sc>he</sc> following m", "judge": {"n": 1, "is": "B", "print": "THE following m", "sure": "medium"}}
+{"page": "p0215", "n": 1, "who": "draft", "draft": "ON Wednesday", "verified": "O<sc>n</sc> Wednesday", "judge": {"n": 1, "is": "A", "print": "ON Wednesday", "sure": "medium"}}
+{"page": "p0227", "n": 1, "who": "draft", "draft": "WE slept well", "verified": "W<sc>e</sc> slept well", "judge": {"n": 1, "is": "A", "print": "WE slept well", "sure": "medium"}}
+{"page": "p0232", "n": 1, "who": "draft", "draft": "s and stamen to", "verified": "s and stamens to", "judge": {"n": 1, "is": "A", "print": "s and stamen to", "sure": "high"}}
+{"page": "p0237", "n": 1, "who": "draft", "draft": "AFTER a nondescri", "verified": "A<sc>fter</sc> a nondescri", "judge": {"n": 1, "is": "B", "print": "AFTER a nondescri", "sure": "medium"}}

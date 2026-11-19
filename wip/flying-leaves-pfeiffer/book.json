@@ -39,10 +39,23 @@
    "note": "First publication."
   }
  ],
- "divisions": [],
+ "divisions": [
+  {
+   "at": "p0007",
+   "kind": "front"
+  },
+  {
+   "at": "p0009",
+   "kind": "titlepage"
+  }
+ ],
  "subjects": [
   "Travel in Turkey and Greece",
   "Travel in the United States and Canada",
   "Mormon women"
+ ],
+ "omitted_from_reading": "The half-title, the title page and its verso are in the JSON only.",
+ "keep_hyphens": [
+  "p0176"
  ]
 }
