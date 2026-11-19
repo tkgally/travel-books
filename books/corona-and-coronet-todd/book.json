@@ -1,0 +1,128 @@
+{
+ "id": "corona-and-coronet-todd",
+ "version": 1,
+ "date": "2026-11-19",
+ "title": "Corona and Coronet",
+ "subtitle": "Being a Narrative of the Amherst Eclipse Expedition to Japan, in Mr. James's Schooner-Yacht Coronet, to Observe the Sun's Total Obscuration, 9th August, 1896",
+ "short_title": "Corona and Coronet",
+ "authors": [
+  {
+   "name": "Mabel Loomis Todd",
+   "sort": "Todd, Mabel Loomis",
+   "born": 1856,
+   "died": 1932
+  }
+ ],
+ "place": "Boston and New York",
+ "publisher": "Houghton, Mifflin and Company",
+ "year": 1898,
+ "edition_statement": "First edition",
+ "source": {
+  "ia_identifier": "coronacoronetbei00toddiala",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": []
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-19",
+   "note": "First publication."
+  }
+ ],
+ "regions": [
+  "United States",
+  "Hawaii",
+  "Japan",
+  "Hokkaido"
+ ],
+ "period": "1896",
+ "subjects": [
+  "Solar eclipses",
+  "Yachting",
+  "Ainu"
+ ],
+ "summary": [
+  "Mabel Loomis Todd (1856–1932), writer and one of the first editors of Emily Dickinson’s poems, went with her husband David Peck Todd, professor of astronomy at Amherst College, on the Amherst College expedition to observe the total eclipse of the sun of 9 August 1896 in northern Japan. The party crossed the United States by rail in the spring of 1896 and sailed from San Francisco in Arthur Curtiss James’s schooner-yacht Coronet to Honolulu, where they stayed some weeks and visited Hawaii’s volcanoes and the leper settlement on Molokai, and then to Yokohama.",
+  "She describes Tokyo, Gifu, Kyoto, Nara and the Inland Sea, the tidal wave of June 1896 on the north-east coast, and the summer at Esashi in Hokkaido, where the expedition set up its instruments among Japanese and Ainu villagers and clouds hid the eclipse. The book ends with a voyage on a French cruiser, the Coronet’s crossing back to San Francisco and a visit to a copper mine in Arizona. A chapter on deep-sea yachting is by Arthur Curtiss James."
+ ],
+ "omitted_from_reading": "The title page and its verso, the printed contents, the list of illustrations and the index are in the JSON only.",
+ "frontispiece": "p0006-1",
+ "divisions": [
+  {
+   "at": "p0006",
+   "kind": "front"
+  },
+  {
+   "at": "p0009",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0011",
+   "kind": "dedication",
+   "title": "Dedication"
+  },
+  {
+   "at": "p0013",
+   "kind": "preface"
+  },
+  {
+   "at": "p0017",
+   "kind": "contents"
+  },
+  {
+   "at": "p0019",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0021",
+   "kind": "introduction"
+  },
+  {
+   "at": "p0031",
+   "kind": "chapter",
+   "toc_title": "Deep-Sea Yachting, by A. C. James"
+  },
+  {
+   "at": "p0047",
+   "kind": "front",
+   "n": 1,
+   "title": "Half-title"
+  },
+  {
+   "at": "p0491",
+   "kind": "index"
+  }
+ ],
+ "notes_on_text": [
+  "The chapter “Deep-Sea Yachting” (printed pages xxiii–xxxvii) is by Arthur Curtiss James (1867–1941), the owner of the Coronet; the rest of the book is by Mabel Loomis Todd.",
+  "The plate “Lighthouse on the Beach at Esashi (from a Drawing by Mr. Thompson)” is left out of these editions; its caption is kept. The artist, E. A. Thompson, the expedition’s mechanician, was a young man in 1896 and his date of death has not been found, so the drawing cannot yet be shown to be in the public domain everywhere.",
+  "The folding map “Route of the Amherst Eclipse Expedition and Cruise of Mr. James’s Schooner Yacht Coronet” was photographed in two halves; a narrow strip at the fold is missing from the scan, so a few letters near San Francisco and in the title are lost. It is shown here as the two halves.",
+  "Music printed in staff notation (six songs and calls) is shown as images."
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0007",
+   "why": "tissue guard over the title page, no text of its own (IA does not hide it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0008",
+   "why": "blank leaf behind the tissue guard"
+  }
+ ],
+ "keep_hyphens": [
+  "p0041",
+  "p0299",
+  "p0457"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-19",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0,
+  "note": "pages p0150, p0176, p0191, p0217, p0252, p0467; one other difference reported (p0467 “Chapter XXXIII” printed in capitals: headings are in upper and lower case by policy), not an error"
+ }
+}

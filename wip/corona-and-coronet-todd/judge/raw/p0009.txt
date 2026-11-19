@@ -1,3 +1,0 @@
-{"n": 1, "is": "A", "print": "[[center]] BEING", "sure": "medium"}
-{"n": 2, "is": "A", "print": "[[center]] A NARRATIVE OF THE AMHERST ECLIPSE EXPEDITION TO JAPAN, IN MR. JAMES’S SCHOONER-YACHT CORONET, TO OBSERVE THE SUN’S TOTAL OBSCURATION 9TH AUGUST, 1896", "sure": "medium"}
-{"n": 3, "is": "B", "print": "[[center]] BY", "sure": "medium"}

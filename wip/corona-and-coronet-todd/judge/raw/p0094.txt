@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "<i>holoku</i>", "sure": "medium"}
-{"n": 2, "is": "A", "print": ">holoku,</i>", "sure": "high"}

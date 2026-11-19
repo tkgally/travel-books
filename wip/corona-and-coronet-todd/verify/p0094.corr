@@ -1,6 +1,0 @@
-{"find": "<i>holoku</i>", "replace": "<i>holoku,</i>"}
-{"find": "<i>holoku,</i>,", "replace": "<i>holoku,</i>"}
-
-Wait — the draft has `<i>holoku</i>,` so the comma sits outside the tag, and my two lines are wrong as written. The corrected single entry is:
-
-{"find": "<i>holoku</i>,", "replace": "<i>holoku,</i>"}

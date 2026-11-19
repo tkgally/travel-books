@@ -1,6 +1,0 @@
-{"find": "entirely original volume", "replace": "entirely original volume"}
-{"find": "amusing and entirely", "replace": "amusing and entirely"}
-
-Wait: the draft has "entirely"; check the "ha! ha!" and "Buddhist nor Shinto". The draft text matches the image in the places that differ, so the only real change needed is this one:
-
-{"find": "none,—Buddhist nor", "replace": "none,—Buddhist nor"}
