@@ -76,5 +76,8 @@ to be confirmed by preflight `folios`).
 | 2 | 2026-11-19 | preflight PASS: diary-in-europe-rajah-of-kolhapoor v2 — 0 to fix, 1 waived; to look at: hyphen-joins 3, joins 8, contents 5 — tools@6c5ee39 2026-11-19 | copied from v1 (text unchanged) | Frontispiece shown in the reading editions (new book.json key `frontispiece`); found on the live site after v1 |
 | 3 | 2026-11-19 | preflight PASS: diary-in-europe-rajah-of-kolhapoor v3 — 0 to fix, 0 waived; to look at: hyphen-joins 3, joins 8, contents 5 — tools@15199cb 2026-11-19 | copied from v1 (text unchanged) | Waiver dropped: preflight now skips the ODT cross-reference (`text:note-ref`) for a second mark to one note (session of South by West). |
 
+Waiver added 2026-11-19 without a new version (text and editions unchanged): `leaves` p0009, the IA card left
+out on purpose, when the leaves check became enforced.
+
 ## Known issues
 - Waiver above (an artefact of the check, not of the text).
