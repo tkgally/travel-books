@@ -94,14 +94,27 @@ def setid(source, name, drive_id):
     sys.exit("no such part: " + name)
 
 
+def page_filter(pages):
+    """--pages: 'p0036', 'p0030-p0040' or a comma list of either. Returns a test on file names (None = all).
+    Before 2026-11-19 a comma list was taken as one name and fetched the wrong parts without a word."""
+    if not pages:
+        return None
+    spans = []
+    for item in pages.split(","):
+        item = item.strip()
+        m = re.fullmatch(r"(p\d{4})(?:-(p\d{4}))?", item)
+        if not m:
+            sys.exit(f"--pages: '{item}' is not pNNNN or pNNNN-pNNNN")
+        spans.append((m.group(1), m.group(2) or m.group(1)))
+    return lambda f: not f.startswith("p") or any(lo <= f.split(".")[0] <= hi for lo, hi in spans)
+
+
 def fetch(source, dest, pages=None):
     src = load(source)
     os.makedirs(dest, exist_ok=True)
-    lo = hi = None
-    if pages:
-        lo, hi = pages.split("-") if "-" in pages else (pages, pages)
+    keep = page_filter(pages)
     for p in src.get("parts", []):
-        want = [f for f in p["files"] if not pages or not f.startswith("p") or lo <= f.split(".")[0] <= hi]
+        want = [f for f in p["files"] if keep is None or keep(f)]
         if not want or all(os.path.exists(os.path.join(dest, f)) for f in want):
             continue
         if not p.get("drive_id"):

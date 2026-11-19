@@ -4,7 +4,7 @@ Run: tools/run_tests.sh        Rules (CLAUDE.md): run before trusting the tools 
 edit under tools/; every tool bug fixed gets a test here in the same commit; a test is never loosened to
 get a book published.
 """
-import copy, json, os, shutil, sys, tempfile, unittest, zipfile
+import copy, json, os, shutil, subprocess, sys, tempfile, unittest, zipfile
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, "tools"))
@@ -359,6 +359,36 @@ class Drive(unittest.TestCase):
             drive_cache.setid(src, "pages-001.zip", "ID1")
             drive_cache.pack(pages, os.path.join(tmp, "parts"), src, limit=3500)      # repacking keeps the ids of unchanged parts
             self.assertEqual(json.load(open(src))["parts"][0].get("drive_id"), "ID1")
+        finally:
+            shutil.rmtree(tmp, ignore_errors=True)
+
+
+class DrivePages(unittest.TestCase):
+    """fetch --pages: a comma list was read as one name and fetched the wrong parts (2026-11-19)."""
+    def test_list_and_ranges(self):
+        keep = drive_cache.page_filter("p0036,p0111, p0150-p0152")
+        got = [f for f in ["p0035.jpg", "p0036.jpg", "p0111.jpg", "p0150.jpg", "p0152.jpg", "p0153.jpg", "leaves.json"] if keep(f)]
+        self.assertEqual(got, ["p0036.jpg", "p0111.jpg", "p0150.jpg", "p0152.jpg", "leaves.json"])
+        self.assertIsNone(drive_cache.page_filter(None))
+
+    def test_bad_item_stops(self):
+        with self.assertRaises(SystemExit):
+            drive_cache.page_filter("116-118")
+
+
+class SetupEnv(unittest.TestCase):
+    """setup_env.sh must turn the Ubuntu apt mirrors to https (plain http hangs behind the proxy); the first
+    version's sed used | as delimiter with \\| inside, matched nothing, and apt hung for 20 minutes (2026-11-19)."""
+    def test_apt_mirrors_become_https(self):
+        tmp = tempfile.mkdtemp()
+        try:
+            os.makedirs(os.path.join(tmp, "sources.list.d"))
+            f = os.path.join(tmp, "sources.list.d", "ubuntu.sources")
+            open(f, "w").write("URIs: http://archive.ubuntu.com/ubuntu/\nURIs: http://security.ubuntu.com/ubuntu/\n"
+                               "URIs: http://example.org/other/\n")
+            subprocess.run(["bash", os.path.join(REPO, "tools", "setup_env.sh"), "--apt-https-only", tmp], check=True)
+            self.assertEqual(open(f).read(), "URIs: https://archive.ubuntu.com/ubuntu/\nURIs: https://security.ubuntu.com/ubuntu/\n"
+                                             "URIs: http://example.org/other/\n")
         finally:
             shutil.rmtree(tmp, ignore_errors=True)
 

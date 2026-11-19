@@ -1,8 +1,0 @@
-Two things need fixing: the page ends with a broken word, so it needs the trailing hyphen, and "destination" was lost from the last sentence.
-
-{"find": "have been ad-", "replace": "have been ad-"}
-{"find": "failed to reach their destination, and", "replace": "failed to reach their destination, and"}
-
-Both lines are identical to the draft. On a second look, the draft already has "ad-" and "destination", so they need no change. The page matches the draft as far as I can see.
-
-NONE
