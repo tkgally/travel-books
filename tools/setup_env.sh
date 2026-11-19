@@ -1,12 +1,19 @@
 #!/bin/bash
 # One-time per container: tools the pipeline needs that the base image lacks.
 # Usage: tools/setup_env.sh [epubcheck_dir]   (default: /tmp/epubcheck)
+#        tools/setup_env.sh --apt-https-only [apt_dir]   (only the mirror rewrite; used by the tests)
 set -e
-if ! command -v tesseract >/dev/null ; then
-  # cloud sessions pass only HTTPS through their proxy: plain-http apt mirrors hang (2026-11-19)
-  for f in /etc/apt/sources.list /etc/apt/sources.list.d/*.sources /etc/apt/sources.list.d/*.list; do
-    if [ -f "$f" ]; then sed -i 's|http://\(archive\|security\)\.ubuntu\.com|https://\1.ubuntu.com|g' "$f"; fi
+# cloud sessions pass only HTTPS through their proxy: plain-http apt mirrors hang (2026-11-19).
+# (Not `s|…\(a\|b\)…|`: with | as the delimiter, \| is a literal bar and nothing matched, so apt hung.)
+apt_https() {
+  local d=${1:-/etc/apt}
+  for f in "$d"/sources.list "$d"/sources.list.d/*.sources "$d"/sources.list.d/*.list; do
+    if [ -f "$f" ]; then sed -E -i 's#http://(archive|security)\.ubuntu\.com#https://\1.ubuntu.com#g' "$f"; fi
   done
+}
+if [ "$1" = "--apt-https-only" ]; then apt_https "$2"; exit 0; fi
+if ! command -v tesseract >/dev/null ; then
+  apt_https
   timeout 600 apt-get update -q >/dev/null 2>&1
   apt-get install -y -q tesseract-ocr tesseract-ocr-eng >/dev/null 2>&1
 fi

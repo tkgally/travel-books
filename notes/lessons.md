@@ -23,6 +23,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 | A finished book failing `conservation` because the compiler moved a plate or a captioned frontispiece [*Sketches Awheel*, 2026-11-19] | preflight compares image captions apart from the text; test `MovedImages` |
 | A draft page refused by the output filter and left out unnoticed | `ocr_claude.py` says so at the end of the run; `ocr_fallback.py`; preflight `leaves` |
 | A frontispiece left in the front matter, so missing from the reading editions [first book, 2026-11-19] | book.json `frontispiece`; test (set it whenever the book has one) |
+| `setup_env.sh`'s https rewrite of the apt mirrors matched nothing (`\|` inside `s|…|`), so apt hung on plain http for 20 min [2026-11-19] | fixed; test `SetupEnv` |
+| `drive_cache.py fetch --pages a,b,c` read the list as one name and fetched the wrong parts without a word [2026-11-19] | lists and ranges accepted, anything else refused; test `DrivePages` |
 
 ## Always
 
@@ -95,7 +97,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 - CI (`pages.yml`) installs only Pillow before the tests: a test that needs another package must add it there (a test importing `crop_image` broke the deploy on 2026-11-19).
 - `sleep` in a foreground command is blocked: run long commands in the background and do other work meanwhile.
-- `tools/setup_env.sh` first (it switches apt to https mirrors: plain-http mirrors hang behind the session proxy). Headless calls: `claude -p` with only the Read tool (`ocr_claude.py`).
+- `tools/setup_env.sh` first (it switches apt to https mirrors: plain-http mirrors hang behind the session proxy). It
+  takes a few minutes; preflight and the tests need only epubcheck and Pillow, so run it in the background. Headless calls: `claude -p` with only the Read tool (`ocr_claude.py`).
 - Drive: uploads from a session are refused above about 3 MB per call (tested 2026-11-19: 2.86 MB went
   through; 9.9 MB and 40 MB did not). Downloads by `curl` with the file id work for any size because the
   folder is shared by link. The connector lists a folder a few files at a time: follow `nextPageToken`.
