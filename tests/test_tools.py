@@ -123,6 +123,45 @@ class Compile(unittest.TestCase):
         self.assertEqual(b[2]["rows"], [["a", "b"], ["c", "d"]])
 
 
+class LongItalics(unittest.TestCase):
+    """Tom, 2026-11-19: italics stay in the JSON; the built versions set long italic passages in roman."""
+    LONG = "<i>" + "word " * 39 + "end.</i>"
+
+    def div(self, *pages):
+        book, _ = comp(list(pages))
+        return book, book["divisions"][0]
+
+    def test_json_keeps_italics_and_reading_drops_them(self):
+        book, d = self.div("[[page 1]]\n# One\n\n" + self.LONG + "\n\nHe sailed in the <i>Coronet</i> that year.")
+        self.assertIn("<i>word", d["blocks"][1]["text"])
+        r = rh.roman_long_italics(d)
+        self.assertNotIn("<i>", r["blocks"][1]["text"])
+        self.assertIn("<i>Coronet</i>", r["blocks"][2]["text"])           # short italics stay
+        self.assertIn("<i>word", d["blocks"][1]["text"])                    # the JSON division is not changed
+        self.assertEqual(inline.plain(r["blocks"][1]["text"]), inline.plain(d["blocks"][1]["text"]))
+
+    def test_roman_words_inside_become_italic(self):
+        s = "<i>" + "word " * 30 + "</i>Coronet<i>, " + "word " * 10 + "end.</i>[[fnref *]]"
+        _, d = self.div("[[page 1]]\n# One\n\n" + s + "\n\n[[fn *]] Note.")
+        t = rh.roman_long_italics(d)["blocks"][1]["text"]
+        self.assertEqual(t.count("<i>"), 1)
+        self.assertIn("<i>Coronet</i>,", t)
+        self.assertIn("<noteref", t)
+
+    def test_short_italic_paragraph_stays(self):
+        _, d = self.div("[[page 1]]\n# One\n\n<i>A short motto in italic.</i>")
+        self.assertIn("<i>", rh.roman_long_italics(d)["blocks"][1]["text"])
+
+    def test_summary_verse_and_table(self):
+        _, d = self.div("[[page 1]]\n# One\n\n[[subtitle]] <i>The Start—The River</i>\n\n<verse>\n<i>One,</i>\n<i>Two,</i>\n<i>Three,</i>\n<i>Four.</i>\n</verse>\n\n"
+                        "<verse>\n<i>One,</i>\n<i>Two.</i>\n</verse>\n\n| <i>Cairo</i> | <i>Egypt</i> |\n| <i>Smyrna</i> | <i>Asia</i> |")
+        b = rh.roman_long_italics(d)["blocks"]
+        self.assertNotIn("<i>", b[1]["text"])
+        self.assertNotIn("<i>", str(b[2]["stanzas"]))
+        self.assertIn("<i>", str(b[3]["stanzas"]))                          # two lines: stays italic
+        self.assertNotIn("<i>", str(b[4]["rows"]))
+
+
 class Sample(unittest.TestCase):
     """The sample book in tests/sample goes through every builder and every check."""
     @classmethod

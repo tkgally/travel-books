@@ -120,6 +120,61 @@ def tokens(s):
     return out
 
 
+def untokens(toks):
+    """The inverse of tokens()."""
+    out = []
+    for t in toks:
+        if t[0] == "text":
+            out.append(html.escape(t[1], quote=False))
+        elif t[0] == "close":
+            out.append(f"</{t[1]}>")
+        else:
+            a = "".join(f' {k}="{attr(v)}"' for k, v in t[2].items())
+            out.append(f"<{t[1]}{a}{'/' if t[0] == 'empty' else ''}>")
+    return "".join(out)
+
+
+def italic_share(s):
+    """(letters in italic, letters in all, words) of an inline string; note marks are not counted."""
+    it = tot = depth = skip = 0
+    words = 0
+    for t in tokens(s):
+        if t[0] == "open":
+            depth += t[1] == "i"
+            skip += t[1] == "noteref"
+        elif t[0] == "close":
+            depth -= t[1] == "i"
+            skip -= t[1] == "noteref"
+        elif t[0] == "text" and not skip:
+            n = sum(c.isalpha() for c in t[1])
+            tot += n
+            it += n if depth else 0
+            words += len(re.findall(r"[^\W\d_]+", t[1]))
+    return it, tot, words
+
+
+def swap_italics(s):
+    """Italic text becomes roman, and roman words inside it italic (they were set off by contrast in print)."""
+    out, depth, skip = [], 0, 0
+    for t in tokens(s):
+        if t[0] in ("open", "close") and t[1] == "i":
+            depth += 1 if t[0] == "open" else -1
+            continue
+        if t[0] == "open" and t[1] == "noteref":
+            skip += 1
+        elif t[0] == "close" and t[1] == "noteref":
+            skip -= 1
+        if t[0] == "text" and not depth and not skip and any(c.isalpha() for c in t[1]):
+            lead = t[1][:len(t[1]) - len(t[1].lstrip())]
+            trail = t[1][len(t[1].rstrip()):]
+            core = t[1].strip()
+            m = re.fullmatch(r"(\W*)(.*?)(\W*)", core, flags=re.S)
+            out += [("text", lead + m.group(1)), ("open", "i", {}), ("text", m.group(2)), ("close", "i"), ("text", m.group(3) + trail)]
+        else:
+            out.append(t)
+    return untokens([t for t in out if not (t[0] == "text" and t[1] == "")])
+
+
 def plain(s, corrected=True):
     """The words of an inline string, markup removed. corrected=False gives the printed readings."""
     out, skip = [], 0

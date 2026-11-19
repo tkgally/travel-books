@@ -28,6 +28,8 @@ No transcription is free of errors. If you find one, please [report it on GitHub
 - Spaces around punctuation follow modern practice.
 - Words divided at the ends of lines are joined.
 - Clear printer's errors are corrected. Each correction is listed on the book's page and recorded in the JSON with the printed reading.
+- Headings printed in capitals are given in upper and lower case.
+- Long passages printed in italic, such as whole paragraphs, are given in ordinary type on the web pages and in the EPUB and ODT. The JSON records the italics as printed.
 - Illustrations and their captions are included. Footnotes are linked.
 - The web pages, EPUB and ODT leave out some parts of the printed book, usually the printed table of contents, the index and the publisher's advertisements. The JSON has everything that was transcribed.
 

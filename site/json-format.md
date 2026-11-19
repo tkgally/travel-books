@@ -61,7 +61,9 @@ To get the plain text of a string, remove the elements and keep their content, e
 
 ## What is normalized
 
-Words divided at line ends are joined. Spaces around punctuation follow modern practice. Ligatures such as fi are written as separate letters, and the long s is written s. Running heads, page numbers at the head or foot of the page, and printers' signature marks are left out; page numbers are kept in `pb` and `pages`. Nothing else in the wording, spelling or punctuation is changed without a `corr` element.
+Words divided at line ends are joined. Spaces around punctuation follow modern practice. Ligatures such as fi are written as separate letters, and the long s is written s. Running heads, page numbers at the head or foot of the page, and printers' signature marks are left out; page numbers are kept in `pb` and `pages`. Headings, chapter summaries and captions printed in capitals are given in upper and lower case. Nothing else in the wording, spelling or punctuation is changed without a `corr` element.
+
+Italics are recorded as printed. The web pages, EPUB and ODT show long italic passages in ordinary type; the JSON does not.
 
 ## Linking to the scan
 
