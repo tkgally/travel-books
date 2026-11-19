@@ -65,6 +65,8 @@
   can all stay, but from now on choose without preferring any group: the aim is a wide range of authors,
   nationalities and destinations, with no particular ones preferred. Recorded in `selection.md` §"Choosing among
   those that qualify" and in the `select-book` skill.
+- **Next session: take the next book from the queue as normal** (asked whether to first look for candidates by
+  other kinds of authors, since five of the twelve queued books are by women: no).
 
 ## Questions for Tom
 
