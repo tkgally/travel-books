@@ -1,6 +1,6 @@
 # Choosing books
 
-## What qualifies (Tom, 2026-11-19 — all four, for the time being)
+## What qualifies (Tom, 2026-11-19 — all five, for the time being)
 
 1. **Scan.** A high-quality, complete scan is on the Internet Archive: every page readable, no text or
    illustration missing or obscured. Checked before any transcription (`workflow.md` §1.4). If one scan is
@@ -17,8 +17,10 @@
    translation), published before 1914. Any era, author, or part of the world. Not a guidebook, compilation,
    or fiction; if scholars doubt the journey happened, leave it out.
 
-Also, for now: prefer authors who died before 1956 (public domain everywhere with a life-plus-70 term). An
-author who died later → `waiting`, with a question for Tom.
+5. **Public domain where the term is life plus 70 years** (Tom, 2026-11-19): every author (and editor or
+   illustrator whose work is in the book) died more than 70 years before the start of the current year — in
+   2026, in 1955 or earlier. Death date unknown: establish it from a reliable source or leave the book out.
+   A book that fails only this goes under `rejected` with the year it becomes eligible.
 
 ## How to check (record what was searched in the queue row's `eligibility`)
 

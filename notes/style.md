@@ -21,7 +21,13 @@ change at the foot, and see `workflow.md` §"New version" for when earlier books
   closed in print is left so unless it is plainly a slip (then `[[corr]]`).
 - Long s → s; ligatures fi, fl as letters; æ, œ kept. Greek and other scripts in the script. Illegible → `〓`
   (never published: resolve from another scan, or note it in `notes_on_text` and waive).
-- Italics and small capitals as printed. Headings typed as printed (capitals included).
+- Italics and small capitals as printed.
+- **Headings and titles in upper and lower case** (Tom, 2026-11-19): a heading, chapter title or summary, or
+  caption printed in capitals is typed with capitals only where ordinary title case has them (`# Chapter IV.`,
+  `# Preface.`, `[[subtitle]] From Cairo to the First Cataract`; roman numerals stay in capitals; small words
+  such as a, an, the, and, of, in, to, from, with stay lower case except first). The wording, spelling and
+  punctuation are not changed. Book titles in `book.json` likewise. Captions are my extension of his
+  instruction ("titles"): assumed. Text printed in capitals inside a paragraph stays as printed.
 - Footnotes keep the book's marks. Illustrations are placed where the book has them (a plate facing a page:
   after the paragraph in which the facing page ends), with their printed captions.
 
@@ -64,3 +70,4 @@ Plain and minimal. Say what the thing is; a reader should learn the facts and de
 ## Changes
 
 - 2026-11-19: first version.
+- 2026-11-19: headings, chapter titles and captions in upper and lower case, not as printed in capitals (no book yet published, none to redo).

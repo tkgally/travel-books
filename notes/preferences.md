@@ -36,12 +36,17 @@
 - **Routine:** a scheduled routine points a session at `RESUME.md`, once or twice a day at first; he adjusts
   the frequency after watching token use — so say what each session cost.
 
+## 2026-11-19 (answers after set-up)
+
+- **Exclude books still in copyright where the term is life plus 70 years** (his example: in copyright until
+  2037). Rule as recorded in `selection.md`: every author dead more than 70 years. *A Sportswoman in India*
+  (Savory, d. 1966) moved to `rejected`.
+- **Regularize the capitalization of titles to upper and lower case** (headings such as CHAPTER IV. →
+  Chapter IV.). Recorded in `style.md`; I extended it to chapter summaries and captions printed in capitals
+  (assumed).
+
 ## Questions for Tom
 
-- *A Sportswoman in India* (Isabel Savory, 1900): the author died in 1966. Public domain in the United States
-  and Japan, in copyright until 2037 where the term is life plus 70 years. Publish, or keep to authors dead
-  70 years? (Until answered: such books wait.)
-- Headings are shown as printed, usually in capitals (CHAPTER IV.). Keep, or set in upper and lower case?
-  (Assumed: keep.)
 - The IA page viewer on each book page is an embedded frame from archive.org, loaded only when opened. It is
   the one piece of outside content on the site. (Assumed: acceptable, since he asked for a viewer.)
+- Captions and chapter summaries printed in capitals are also set in upper and lower case. (Assumed.)

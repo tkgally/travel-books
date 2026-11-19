@@ -18,6 +18,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 | Headings that differ from the printed contents | preflight `contents` (observe) |
 | Small capitals typed as capitals; old spacing left in | `normalize.py`; preflight `sc-caps`, `spacing` |
 | A builder change breaking an earlier book | test `Books` |
+| Headings, chapter titles or captions left in capitals | preflight `heading-caps` |
 | A missing illustration file crashing the EPUB build [found by the tests, 2026-11-19] | compiler warning; test |
 
 ## Always

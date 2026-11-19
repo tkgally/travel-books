@@ -9,7 +9,7 @@ models (`prompts/_format.md` is the wording they get), edited by the session, re
 | `[[blank]]` | blank page |
 | a line of text | one paragraph (paragraphs are separated by a blank line; a paragraph is never broken over lines) |
 | `[[cont]]` at the start of the page's first paragraph | it continues the previous page's last paragraph (joined with a space; a page-final hyphen is removed unless the page is in `keep_hyphens`; no space at a dash) |
-| `# ` / `## ` / `### ` | main division (starts a new division, file and contents entry) / section / subsection |
+| `# ` / `## ` / `### ` | main division (starts a new division, file and contents entry) / section / subsection; typed in upper and lower case even if printed in capitals (`style.md`) |
 | `[[subtitle]] text` | chapter title or summary printed under the chapter number; joined to the contents entry if short |
 | `<i> <b> <sc> <sup> <sub>` | italic, bold, small capitals (typed in lower case), superscript, subscript; balanced within the paragraph, not nested in themselves |
 | `[[right]] text`, `[[center]] text` | a short line set flush right / centred |

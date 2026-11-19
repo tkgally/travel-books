@@ -180,6 +180,11 @@ class Sample(unittest.TestCase):
     def test_catches_capital_small_caps(self):
         self.assertTrue(self.planted("p0009", "<sc>The Landlord.</sc>", "<sc>THE LANDLORD.</sc>")["sc-caps"])
 
+    def test_catches_heading_in_capitals(self):
+        self.assertTrue(self.planted("p0007", "# Chapter II.", "# CHAPTER II.")["heading-caps"])
+        self.assertTrue(self.planted("p0007", "[[caption]] The Carrier's Cart.", "[[caption]] THE CARRIER'S CART.")["heading-caps"])
+        self.assertEqual(preflight.check_heading_caps([("p1", "# Chapter XIV.\n\n## II.\n\n[[subtitle]] A Day at Sea")]), [])
+
     def test_catches_orphan_note(self):
         self.assertTrue(self.planted("p0004", "[[fnref *]]", "")["compile"])
 

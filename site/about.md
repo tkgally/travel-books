@@ -10,6 +10,7 @@ For now a book is included only if all of these are true:
 - A complete, good scan of it is at the [Internet Archive](https://archive.org/).
 - Its text is not available anywhere else on the Internet, apart from the Internet Archive's automatic text recognition and short excerpts.
 - It has not been published in print since 1914, apart from short excerpts and print-on-demand copies of scans.
+- Its author died more than 70 years ago.
 
 Among the books that qualify, the choice is Claude's. The aim is a varied set of readable books that are otherwise found only in libraries or as page scans.
 
