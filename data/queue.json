@@ -105,10 +105,10 @@
    "place": "New York and London",
    "publisher": "G. P. Putnam's Sons",
    "images": 338,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-19",
-   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Forgotten Books (print on demand).",
-   "note": "Library of Congress scan. Wikisource has an empty index page for it (no pages transcribed on 2026-11-19): look again before starting."
+   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Forgotten Books (print on demand). Re-checked 2026-11-19 before starting: not in pg_catalog.csv; Wikisource index still 0 of 336 pages; web search finds only catalogue records, short excerpts (Cervantes Virtual) and Forgotten Books. Fanny Bullock Workman 1859–1925, William Hunter Workman 1847–1937.",
+   "note": "Library of Congress scan, clean and complete (checked 2026-11-19). 30 plates, many sideways; a folding map of Spain in a back pocket."
   },
   {
    "order": 8,
