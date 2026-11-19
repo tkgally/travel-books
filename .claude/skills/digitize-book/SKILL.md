@@ -32,7 +32,7 @@ Never Fable. Commit after each run. While runs go, do the page map, crops and me
   modern form is suspect.
 - **Page joins**: every `[[cont]]`; hyphen joins (`keep_hyphens` for real compounds — search the book for the
   word elsewhere).
-- **Headings**: one `#` per division, as the printed contents has them; chapter summaries `[[subtitle]]`;
+- **Headings**: in upper and lower case (preflight `heading-caps`); one `#` per division, as the printed contents has them; chapter summaries `[[subtitle]]`;
   no running heads; parts before chapters.
 - **Front and back matter**: `divisions` in `book.json`; what is left out of the reading editions and said so.
 - **Notes**: marks pair; continued notes; notes on plates.

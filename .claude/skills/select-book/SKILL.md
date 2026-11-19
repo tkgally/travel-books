@@ -12,14 +12,14 @@ Criteria, sources to search and how to choose: `notes/selection.md`. Read it fir
 2. Find candidates: `tools/ia.py search '<query>'` (subjects such as "description and travel", "voyages and
    travels", a region, a decade; sort by few downloads), bibliographies of travel writing, references in
    books already done. Well-known titles are almost always on Project Gutenberg: look for the lesser-known.
-3. For each: `tools/ia.py meta <id>` (page-image archive present? library scan? size?), then the four checks
+3. For each: `tools/ia.py meta <id>` (page-image archive present? library scan? size?), then the five checks
    of `notes/selection.md`, then **read twenty pages from the middle** of IA's OCR text
    (`https://archive.org/download/<id>/<id>_djvu.txt`). Queue it only if you would want to go on reading.
 4. Be polite to servers: about one request a second to any host; no large downloads at this stage.
 5. Add the row to `data/queue.json` (`status: queued`): IA identifier, proposed slug, title, author, year,
    place, publisher, images, `checked` date, `eligibility` (what was searched, what was found, what could
    not be checked), `note` (scan quality, plates, anything the transcriber should know). Failures go under
-   `rejected` with the reason. A doubtful case (author died after 1955; uncertain reprint) → `waiting` and a
+   `rejected` with the reason. An author who died less than 70 years ago → `rejected` with the year the book becomes eligible. A doubtful case (uncertain reprint) → `waiting` and a
    question in `notes/preferences.md`.
 6. Subagents (Opus or Sonnet, never Fable) can vet a list in parallel; give them the criteria and the sources
    in full and ask for what they could not verify. Check a sample of what they return.

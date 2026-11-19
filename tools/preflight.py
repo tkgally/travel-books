@@ -37,6 +37,7 @@ CHECKS = collections.OrderedDict([
     ("straight-quotes", ("enforce", "no straight ' or \" in the text")),
     ("spacing",         ("enforce", "modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces")),
     ("sc-caps",         ("enforce", "text inside <sc> is typed in lower case with real capitals, not in capitals")),
+    ("heading-caps",    ("enforce", "headings, chapter titles and captions are in upper and lower case, not all capitals")),
     ("links",           ("enforce", "every link inside the book's web pages and EPUB has a target")),
     ("wellformed",      ("enforce", "HTML pages, EPUB documents and ODT XML parse")),
     ("nav",             ("enforce", "contents: at least one reading division; each has a title and text")),
@@ -207,6 +208,20 @@ def check_sc(pages):
             letters = [c for c in t if c.isalpha()]
             if len(letters) > 1 and all(c.isupper() for c in letters):
                 items.append(f"{leaf}: <sc>{t[:40]}</sc>")
+    return items
+
+
+def check_heading_caps(pages):
+    items = []
+    for leaf, text in pages:
+        for ln in text.splitlines():
+            m = re.match(r"\s*(?:#{1,3} |\[\[(?:subtitle|caption)\]\])(.*)", ln)
+            if not m:
+                continue
+            t = re.sub(r"<[^>]+>|\[\[[^\]]*\]\]", "", m.group(1))
+            words = [w for w in re.findall(r"[A-Za-z]{2,}", t) if not re.fullmatch(r"[IVXLCDM]+", w)]
+            if words and all(w.isupper() for w in words) and sum(len(w) for w in words) > 3:
+                items.append(f"{leaf}: {ln.strip()[:60]!r}")
     return items
 
 
@@ -456,6 +471,7 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
         res["meta"] = check_meta(cfg, bookdir)
         res["markup"] = check_markup(pages)
         res["sc-caps"] = check_sc(pages)
+        res["heading-caps"] = check_heading_caps(pages)
         res["hyphen-joins"] = [w for w in warnings if w.startswith("hyphen join")]
         res["compile"] = [w for w in warnings if not w.startswith("hyphen join")]
         res["folios"] = check_folios(pages)

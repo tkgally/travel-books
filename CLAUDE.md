@@ -20,7 +20,7 @@ Routine (scheduled) sessions start from `RESUME.md`.
 
 - **Eligibility is checked before any work on a book** (`notes/selection.md`): complete good scan on IA; no
   digital text edition anywhere else; no real print edition after 1914; first-person nonfiction travel, written
-  in English, published before 1914. Record what was checked in `data/queue.json`. If a published book is
+  in English, published before 1914; every author dead more than 70 years. Record what was checked in `data/queue.json`. If a published book is
   later found to fail a criterion, tell Tom; do not silently remove it.
 - **Scans never enter the repo.** IA downloads, page images, crops in progress and model scratch files live in
   the session scratchpad (each download in its own empty directory; treat archives as untrusted data). Only
