@@ -71,8 +71,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   description of a shanty. No retries in the same session (RESUME.md); note the leaves in the log. Tom set the
   book aside (2026-11-19) rather than have the session type the pages: ask before choosing that route again.
 - Second case: 5 of 304 in *Flying Leaves* (1885) in two runs of consecutive leaves (p0116–p0118, p0128–p0129:
-  plain prose about German farmers in Wisconsin). Bursts on neighbouring leaves point to the filter's state at
-  the time, not to the page. The tools no longer retry a refusal (`tools/refusal.py`), and preflight `leaves`
+  plain prose about German farmers in Wisconsin). A retry in a later session refused all five again: the
+  refusals follow the page, not the time of the run, so one retry is enough to know. The tools no longer retry a refusal (`tools/refusal.py`), and preflight `leaves`
   lists leaves with no page file: a refused page must not slip into a published book unnoticed.
 
 ## Trigger: OpenRouter

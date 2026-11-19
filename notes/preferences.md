@@ -72,7 +72,8 @@
 
 - **2026-11-19, *Flying Leaves from East and West* (Pfeiffer):** the output filter refused 5 of 304 pages of the
   Opus draft (p0116–p0118 and p0128–p0129, printed pp. 106–108 and 118–119: ordinary prose about the author's
-  relatives farming in Wisconsin). Everything else is done and checked (corrections pass, judge, structure, audit
-  30/30). Plan for the next session: try those five pages once more (a later session, as planned for *South by
-  West*). If they are refused again, may the session transcribe them itself from the page images, with the
-  Sonnet corrections pass and the Opus judge checking that text as for any other page? If not, the book waits.
+  relatives farming in Wisconsin), and refused the same five again when a later session tried once more. The
+  book is now `waiting`; everything else is done and checked (corrections pass, judge, structure, audit 30/30).
+  **May the session transcribe those five pages itself from the page images**, with the Sonnet corrections pass
+  and the Opus judge checking that text as for any other page? If not, the book waits for a later model line-up.
+  (The same question would then settle *South by West*, 3 refused pages of 413.)
