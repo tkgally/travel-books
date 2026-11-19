@@ -132,8 +132,8 @@ def odt_streams(data):
     def text_of(el, with_notes=False):
         out = [el.text or ""]
         for c in el:
-            if c.tag.endswith("}frame"):
-                pass
+            if c.tag.endswith("}frame") or c.tag == T + "note-ref":
+                pass                     # images; a second mark for a note (cross-reference)
             elif c.tag == T + "note":
                 nb = c.find(T + "note-body")
                 notes.append(" ".join(text_of(p) for p in nb))

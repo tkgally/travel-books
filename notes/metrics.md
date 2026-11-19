@@ -6,6 +6,7 @@
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Diary of the Rajah of Kolhapoor v1 | 2026-11-19 | 183 | Opus draft → Sonnet corrections → Opus judge | 10 | 7 / 2 / 0 (1 structural) | 1 (p0170 name: judge "sure: high" was wrong) | 19.36 | 0 | PASS, 1 waived | 30/30; 0 / 6 | |
 | Diary of the Rajah of Kolhapoor v2 | 2026-11-19 | 183 | (no new model calls) | – | – | – | 0 | 0 | PASS, 1 waived | as v1 | frontispiece missing from the reading editions (found by me on the live page) |
+| Diary of the Rajah of Kolhapoor v3 | 2026-11-19 | 183 | (no new model calls) | – | – | – | 0 | 0 | PASS, 0 waived | as v1 | |
 
 ## Calibrations
 
@@ -21,3 +22,4 @@
 | Date | Check | What happened |
 |---|---|---|
 | 2026-11-19 | all | first version; observe: hyphen-joins, joins, folios, quote-balance, contents, images, source |
+| 2026-11-19 | conservation (JSON→ODT) | false alarm on a second mark for one note (ODT `text:note-ref` read as text); fixed in the check, with test; Rajah waiver dropped (v3) |

@@ -65,6 +65,12 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - Often bilevel, with folded maps unopened and occasional pages with a hand over the text: the scan check
   must look at every sheet at a size where that would show.
 
+## Trigger: output filter
+
+- The API's output filter can refuse ordinary pages: 3 of 413 in *South by West* (1874), e.g. p0076, a plain
+  description of a shanty. No retries in the same session (RESUME.md); note the leaves in the log. Tom set the
+  book aside (2026-11-19) rather than have the session type the pages: ask before choosing that route again.
+
 ## Trigger: OpenRouter
 
 - Check every `log.jsonl` for `finish` other than `stop` (some models' filters truncate silently) [p2e].

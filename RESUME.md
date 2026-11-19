@@ -23,9 +23,11 @@ and the procedures in `notes/` and the skills.
 2. **Open errata** that can be fixed without Tom (`notes/errata.md`): fix, republish that book as a new
    version, and do the follow-through that file asks for. Small ones can share a session with other work.
 3. **A `waiting` book** whose question Tom has answered (`notes/preferences.md`, the queue row, the book log).
+   A book Tom set aside to "try again in the future" (`waiting_for` in its queue row) is taken up again once
+   at least two other books have been published since (assumed), or sooner if he says so.
 4. **A new book** from the queue (skill `digitize-book`). Choose by your own judgement — `order` in the
-   queue is a suggestion — aiming for variety of place, period and kind of author across what is already
-   published, and preferring books that the current tools handle. Re-check eligibility first
+   queue is a suggestion — aiming for a wide range of authors, nationalities, destinations and periods
+   across what is already published, without preferring any group (never by the author's gender), and preferring books that the current tools handle. Re-check eligibility first
    (`notes/selection.md` §"Before starting"): things change, and the first check may have gaps.
 5. **Fewer than six books `queued`**: spend the session (or its remainder) finding and vetting more (skill
    `select-book`).

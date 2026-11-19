@@ -1,0 +1,22 @@
+{
+ "id": "south-by-west-kingsley",
+ "version": 1,
+ "date": "2026-11-19",
+ "title": "South by West; or, Winter in the Rocky Mountains and Spring in Mexico",
+ "short_title": "South by West",
+ "authors": [
+  {"name": "Rose Georgina Kingsley", "sort": "Kingsley, Rose Georgina", "born": 1845, "died": 1925},
+  {"name": "Charles Kingsley", "sort": "Kingsley, Charles", "born": 1819, "died": 1875, "role": "editor"}
+ ],
+ "place": "London",
+ "publisher": "W. Isbister & Co.",
+ "year": 1874,
+ "edition_statement": "First edition",
+ "regions": ["United States", "Colorado", "Utah", "California", "Mexico"],
+ "period": "1871–1872",
+ "summary": "",
+ "source": {"ia_identifier": "southbywestorwin00king", "contributor": "University of California Libraries", "hidden_leaves": [0, 7, 8, 447, 448, 449, 450, 451]},
+ "history": [{"version": 1, "date": "2026-11-19", "note": "First publication."}],
+ "divisions": [],
+ "frontispiece": "p0006-1"
+}

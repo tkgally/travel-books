@@ -56,8 +56,10 @@ judgement and taste, sometimes after asking Tom. So:
 
 - **Readable first.** A voice, things seen and people met, a journey with some shape. Read twenty pages of
   IA's OCR text from the middle before queuing a book; a dull book is not rescued by being rare.
-- **Variety across the shelf**: regions, centuries, kinds of traveller (not only British gentlemen), kinds of
-  journey. Look at what is published and queued before adding.
+- **A wide range across the shelf, with no group preferred** (Tom, 2026-11-19): authors, nationalities,
+  destinations, centuries, kinds of journey. Do not choose or pass over a book because of the author's gender
+  (or nationality, or any such trait); the books already queued stay. Look at what is published and queued
+  before adding, so that no one kind of author or destination comes to dominate.
 - **Within the tools' reach**: single volume, 150–450 pages, plain layout, footnotes at the page foot. Books
   with side-notes, many tables, long passages in other scripts, or hundreds of plates wait until the tools
   handle them (`workflow.md` §"Not yet solved").

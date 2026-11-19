@@ -57,6 +57,15 @@
   unknown is assumed to have died before the age of 100.** Recorded in `selection.md` rule 5 (with my reading:
   the birth year must still be known or bounded, e.g. from a career; otherwise the book is left out).
 
+## 2026-11-19 (during the South by West session)
+
+- **Skip *South by West* (Rose Kingsley) for the time being, and try it again in the future.** A problem had
+  occurred: the output filter refused three pages of the draft. Queue row `waiting`; resume steps in its log.
+- **Do not choose books by the author's gender.** The queue has come to have mostly women authors; those books
+  can all stay, but from now on choose without preferring any group: the aim is a wide range of authors,
+  nationalities and destinations, with no particular ones preferred. Recorded in `selection.md` §"Choosing among
+  those that qualify" and in the `select-book` skill.
+
 ## Questions for Tom
 
 None open.

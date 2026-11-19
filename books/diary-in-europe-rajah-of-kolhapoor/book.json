@@ -1,6 +1,6 @@
 {
  "id": "diary-in-europe-rajah-of-kolhapoor",
- "version": 2,
+ "version": 3,
  "date": "2026-11-19",
  "title": "Diary of the Late Rajah of Kolhapoor, during His Visit to Europe in 1870",
  "short_title": "Diary of the Rajah of Kolhapoor",
@@ -47,6 +47,11 @@
    "version": 2,
    "date": "2026-11-19",
    "note": "The frontispiece portrait of the Rajah is now shown in the reading editions (at the start of the Introduction); it was in the JSON only. Text unchanged."
+  },
+  {
+   "version": 3,
+   "date": "2026-11-19",
+   "note": "No change to the text or the downloads; only the checking record was updated."
   }
  ],
  "divisions": [
@@ -75,13 +80,6 @@
  "keep_hyphens": [
   "p0167"
  ],
- "waivers": [
-  {
-   "check": "conservation",
-   "match": "JSON→ODT text",
-   "why": "p0037 and p0049 print two * references to one note ([[fnref * again]]); the ODT gives the second as a cross-reference (text:note-ref) to the note, which the check reads as text. The check is to skip text:note-ref, as it skips the HTML note links: to be changed in a session not working on this book."
-  }
- ],
  "subjects": [
   "India — Kolhapur (princely state)",
   "Travel in Europe",
@@ -92,7 +90,7 @@
   "Some people met in England are named in the Diary only by an initial and a dash (“Mr. K——”), as printed."
  ],
  "audit": {
-  "version": 2,
+  "version": 3,
   "date": "2026-11-19",
   "pages": 6,
   "recall": "30/30",
