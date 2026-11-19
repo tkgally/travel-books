@@ -15,6 +15,7 @@ Models: opus for drafts and judging, sonnet for the corrections pass. Never fabl
 import argparse, concurrent.futures as cf, json, os, re, subprocess, sys, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import corrections
+from refusal import is_refusal
 
 
 def strip_fences(t):
@@ -48,6 +49,9 @@ def do_page(args, prompt, img):
     p = prompt
     if args.context_text:
         ctx = os.path.join(args.context_text, name + ".txt")
+        if args.corrections and not os.path.exists(ctx):
+            # nothing to correct (e.g. the draft of this page was refused): no model call
+            return {"page": name, "model": args.model, "error": "no draft to correct (skipped)"}
         if os.path.exists(ctx):
             p += "\n\n<draft>\n" + open(ctx, encoding="utf-8").read() + "\n</draft>\n"
     if args.halves:
@@ -95,6 +99,8 @@ def do_page(args, prompt, img):
                     "turns": j.get("num_turns"), "attempts": attempt + 1}
         except Exception as e:  # noqa
             last = repr(e)[:400]
+            if is_refusal(last):
+                break
         time.sleep(5)
     return {"page": name, "model": args.model, "error": last}
 

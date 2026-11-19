@@ -27,6 +27,7 @@ replies), log.jsonl (cost), report.txt and candidates.tsv. Resumable: finished c
 Italics, small caps and notes are not audited (the text is compared as plain words).
 """
 import argparse, concurrent.futures as cf, difflib, hashlib, json, os, random, re, subprocess, time
+from refusal import is_refusal
 
 TASK = """
 
@@ -185,6 +186,8 @@ def call(prompt, model, cwd):
             return j["result"], {"seconds": round(time.time() - t0, 1), "cost": j.get("total_cost_usd")}
         except Exception as e:  # noqa: BLE001
             last = repr(e)[:300]
+            if is_refusal(last):
+                break
             time.sleep(5)
     return None, {"error": last}
 
