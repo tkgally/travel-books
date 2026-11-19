@@ -197,8 +197,9 @@ python3 $R/tools/build_site.py --out $S/site --bookdir $W        # then look at 
 python3 $R/tools/audit_sample.py --pages-dir $W/pages --images $B/pages --out $W/audit --rules $R/prompts/transcribe.md --n 6
 ```
 - **Preflight must end PASS.** Fix causes in the page files; waive only what the scan justifies. Read every
-  `look` list once: a real item there is fixed like any other. The `leaves` list must be empty, or each leaf
-  on it explained in the log as left out on purpose (an IA card): a refused draft page is never published.
+  `look` list once: a real item there is fixed like any other. `leaves` is enforced: a refused draft page is never
+  published. Leaves IA hides (`source.hidden_leaves`) do not count; any other leaf left out on purpose (an IA
+  card) gets a waiver in `book.json` saying what it is, and a line in the log's page map.
 - **Rendered look** (Playwright screenshots of `$S/site`): the book page, the first chapter, one with
   illustrations and notes, a late one; narrow and wide. Open the EPUB's chapters the same way if anything in
   the web pages looked wrong. Layout only: screenshots prove nothing about the text.

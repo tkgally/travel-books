@@ -47,7 +47,7 @@ CHECKS = collections.OrderedDict([
     ("hyphen-joins",    ("observe", "page-break hyphen joins (hyphen removed): read the list once")),
     ("joins",           ("observe", "page joins: missing [[cont]], or [[cont]] after a closed sentence")),
     ("folios",          ("observe", "printed page numbers that break the sequence")),
-    ("leaves",          ("observe", "leaves with no page file between the first and the last page file (a draft refused or lost)")),
+    ("leaves",          ("enforce", "no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count")),
     ("quote-balance",   ("observe", "paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end")),
     ("contents",        ("observe", "entries of the printed contents with no matching heading")),
     ("images",          ("observe", "image files not used by any page")),
@@ -256,10 +256,12 @@ def check_folios(pages):
     return items
 
 
-def check_leaves(pages):
-    """Leaves missing from the run of page files: the folios check cannot see a gap of a few pages."""
+def check_leaves(pages, hidden=()):
+    """Leaves missing from the run of page files: the folios check cannot see a gap of a few pages.
+    Leaves IA's viewer hides (book.json source.hidden_leaves: colour cards, tissue guards) are not missing.
+    Anything else left out on purpose (an IA card) is waived in book.json with the reason."""
     nums = sorted(int(re.findall(r"\d+", leaf)[-1]) for leaf, _ in pages)
-    have = set(nums)
+    have = set(nums) | {int(h) for h in hidden}
     return [f"p{n:04d}: no page file" for n in range(nums[0], nums[-1] + 1) if n not in have] if nums else []
 
 
@@ -500,7 +502,7 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
         res["hyphen-joins"] = [w for w in warnings if w.startswith("hyphen join")]
         res["compile"] = [w for w in warnings if not w.startswith("hyphen join")]
         res["folios"] = check_folios(pages)
-        res["leaves"] = check_leaves(pages)
+        res["leaves"] = check_leaves(pages, (cfg.get("source") or {}).get("hidden_leaves", []))
         res["joins"] = check_joins(pages)
         # conservation
         pc, jc = [], []          # image captions apart: the compiler moves some images (see page_streams)

@@ -24,8 +24,8 @@ Preflight now (tools@2f2b2fe + compiler change): 4 to fix —
   headings on p0019–p0023; make the contents a table or plain lines like the other books, division `contents`);
 - audit: `audit_sample.py --n 6` and a second run `--pages p0076,p0109,p0189`; record both in book.json.
 To look at: quote-balance 8 (p0124; p0170 is the sideways table of coals with ditto marks ” — read it on the scan,
-probably a pipe table with the dittos as printed), joins 9, hyphen-joins 27, leaves 2 (p0007–p0008, the tissue guard,
-left out on purpose: say so here). Then the rest of stage 4 (headings against the contents, `[[subtitle]]`s,
+probably a pipe table with the dittos as printed), joins 9, hyphen-joins 27. (The leaves check, now enforced, no longer lists p0007–p0008: IA
+hides the tissue guard, `source.hidden_leaves`.) Then the rest of stage 4 (headings against the contents, `[[subtitle]]`s,
 divisions in book.json), stage 5 is done (crops), build, rendered look, publish.
 Fetch first: `python3 tools/drive_cache.py fetch wip/south-by-west-kingsley/source.json $B/pages`.
 
