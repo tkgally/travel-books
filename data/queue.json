@@ -28,10 +28,10 @@
    "place": "London",
    "publisher": "Field & Tuer",
    "images": 322,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-19",
-   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. No reprint of any kind found.",
-   "note": "University of California scan. Not yet opened to confirm it is all prose."
+   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. No reprint of any kind found. Re-checked 2026-11-19 before starting: still not in the Project Gutenberg catalogue (pg_catalog.csv: only Ida Pfeiffer's books); web searches of the title and of a sentence from p. 73 find no text and no edition. Emily Pfeiffer 1827–1890.",
+   "note": "University of California scan, clean and complete (checked 2026-11-19). All prose: two parts, 'From the East' (Leaves I–VI: Smyrna, Constantinople, Athens) and 'From the West' (Leaves I–XIX: United States and Canada); a few footnotes, a few verse quotations, no plates."
   },
   {
    "order": 3,

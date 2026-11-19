@@ -1,0 +1,20 @@
+{
+ "id": "flying-leaves-pfeiffer",
+ "version": 1,
+ "date": "2026-11-19",
+ "title": "Flying Leaves from East and West",
+ "short_title": "Flying Leaves from East and West",
+ "authors": [
+  {"name": "Emily Pfeiffer", "sort": "Pfeiffer, Emily", "born": 1827, "died": 1890}
+ ],
+ "place": "London",
+ "publisher": "Field and Tuer, the Leadenhall Press",
+ "year": 1885,
+ "edition_statement": "First edition",
+ "regions": ["Turkey", "Greece", "United States", "Canada"],
+ "period": "1882–1884",
+ "summary": "",
+ "source": {"ia_identifier": "flyingleavesfrom00pfeirich", "contributor": "University of California Libraries", "hidden_leaves": []},
+ "history": [{"version": 1, "date": "2026-11-19", "note": "First publication."}],
+ "divisions": []
+}
