@@ -98,5 +98,8 @@
   "fixed": 0,
   "note": "text unchanged since version 1"
  },
- "frontispiece": "p0010-1"
+ "frontispiece": "p0010-1",
+ "waivers": [
+  {"check": "leaves", "match": "p0009", "why": "the Internet Archive's card, not part of the book: left out on purpose (log.md)"}
+ ]
 }

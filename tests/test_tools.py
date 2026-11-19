@@ -615,3 +615,10 @@ class Leaves(unittest.TestCase):
     def test_none(self):
         self.assertEqual(preflight.check_leaves([("p0001", ""), ("p0002", "")]), [])
         self.assertEqual(preflight.check_leaves([]), [])
+
+    def test_hidden_not_missing(self):
+        pages = [("p0006", ""), ("p0009", ""), ("p0011", "")]
+        self.assertEqual(preflight.check_leaves(pages, [0, 7, 8, 450]), ["p0010: no page file"])
+
+    def test_enforced(self):
+        self.assertEqual(preflight.CHECKS["leaves"][0], "enforce")
