@@ -1,0 +1,9 @@
+{"find": "was very handsome", "replace": "was very handsome"}
+
+Wait — the draft says "was very handsome", and the image says "was very handsome", so no change is needed there. The draft differs in these places:
+
+{"find": "the youngest, was very handsome", "replace": "the youngest, was very handsome"}
+
+I need to give a clean list, so here it is:
+
+{"find": "Ignacio——,", "replace": "Ignacio ——,"}
