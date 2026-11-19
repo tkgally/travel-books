@@ -1,6 +1,5 @@
 [[page 125]]
 
-# Appendix.
 
 [[right]] Florence, 24th January, 1871.
 
@@ -22,7 +21,7 @@ Thanking you beforehand,
 
 <i>&c. &c.</i>
 
-## Municipality of Florence.
+### Municipality of Florence.
 
 Statement of the funeral procession and cremation of the corpse of his Highness the late Maharajah of Kolhapoor.
 
