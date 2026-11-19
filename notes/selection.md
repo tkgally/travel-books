@@ -19,7 +19,7 @@
 
 5. **Public domain where the term is life plus 70 years** (Tom, 2026-11-19): every author (and editor or
    illustrator whose work is in the book) died more than 70 years before the start of the current year — in
-   2026, in 1955 or earlier. Death date unknown: establish it from a reliable source or leave the book out.
+   2026, in 1955 or earlier. Death date unknown (Tom, 2026-11-19): assume the person died before the age of 100, so a person known to be born (or, from their career, certainly born) before 1856 qualifies; record the birth year or the evidence for it in the queue row. If even the birth year cannot be bounded, leave the book out.
    A book that fails only this goes under `rejected` with the year it becomes eligible.
 
 ## How to check (record what was searched in the queue row's `eligibility`)

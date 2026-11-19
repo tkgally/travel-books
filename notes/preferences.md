@@ -51,12 +51,12 @@
 - **Italics:** preserve them in the JSON, but in the built versions render them as roman in long extended
   passages, such as entire paragraphs or tables of contents. Rule and thresholds: `style.md` §Editions.
 
+## 2026-11-19 (answer on the Rajah of Kolhapoor diary)
+
+- **Publish *Diary of the Late Rajah of Kolhapoor*.** And as a standing rule: **a person whose date of death is
+  unknown is assumed to have died before the age of 100.** Recorded in `selection.md` rule 5 (with my reading:
+  the birth year must still be known or bounded, e.g. from a career; otherwise the book is left out).
+
 ## Questions for Tom
 
-- **2026-11-19, *Diary of the Late Rajah of Kolhapoor* (1872): may it be published?** The Rajah died in 1870.
-  The editor, Capt. Edward W. West of the Bombay Staff Corps, Assistant Political Agent at Kolhapoor, was a
-  captain by 1870 (about twelve years' service), so born about 1840 or earlier; he cannot have been alive in
-  1955. But no source found gives his death date, and `selection.md` says "Death date unknown: establish it
-  from a reliable source or leave the book out." The book is finished and passes every check (audit 30/30).
-  Yes = publish it, and the rule could read "or the dates of the author's career put death before 1956 beyond
-  doubt"; no = it goes to `rejected`.
+None open.

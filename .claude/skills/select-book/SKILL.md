@@ -19,7 +19,7 @@ Criteria, sources to search and how to choose: `notes/selection.md`. Read it fir
 5. Add the row to `data/queue.json` (`status: queued`): IA identifier, proposed slug, title, author, year,
    place, publisher, images, `checked` date, `eligibility` (what was searched, what was found, what could
    not be checked), `note` (scan quality, plates, anything the transcriber should know). Failures go under
-   `rejected` with the reason. An author who died less than 70 years ago → `rejected` with the year the book becomes eligible. Find the death date of **every** author, editor and illustrator whose work is in the book before queuing it, and write it in the row (an editor's unknown date held up the first book, 2026-11-19). A doubtful case (uncertain reprint) → `waiting` and a
+   `rejected` with the reason. An author who died less than 70 years ago → `rejected` with the year the book becomes eligible. Find the death date of **every** author, editor and illustrator whose work is in the book before queuing it, and write it in the row (if it is unknown, the birth year: Tom assumes death before age 100 — `notes/selection.md` rule 5). A doubtful case (uncertain reprint) → `waiting` and a
    question in `notes/preferences.md`.
 6. Subagents (Opus or Sonnet, never Fable) can vet a list in parallel; give them the criteria and the sources
    in full and ask for what they could not verify. Check a sample of what they return.

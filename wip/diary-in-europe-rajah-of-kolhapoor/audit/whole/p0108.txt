@@ -1,5 +1,0 @@
-{"given": "I enjoycd my drive very", "print": "I enjoyed my drive very", "sure": "high"}
-{"given": "They gave me very good reception.", "print": "They gave me a very good reception.", "sure": "high"}
-{"given": "St. James’s Hall for the concert; which", "print": "St. James’s Hall for the concert, which", "sure": "high"}
-{"given": "“The Watch or the Rhine.”", "print": "“The Watch on the Rhine.”", "sure": "high"}
-{"given": "The theater is a small", "print": "The theatre is a small", "sure": "high"}

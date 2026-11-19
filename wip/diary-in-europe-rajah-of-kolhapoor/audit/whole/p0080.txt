@@ -1,5 +1,0 @@
-{"given": "to which Major malcolm replied.", "print": "to which Major Malcolm replied.", "sure": "high"}
-{"given": "I like latter very much.", "print": "I like the latter very much.", "sure": "high"}
-{"given": "which I enjoycd very much.", "print": "which I enjoyed very much.", "sure": "high"}
-{"given": "champagne at Mrs. B——’s; who is", "print": "champagne at Mrs. B——’s, who is", "sure": "high"}
-{"given": "Went to Longwood to he photographed", "print": "Went to Longwood to be photographed", "sure": "high"}
