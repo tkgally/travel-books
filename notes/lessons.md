@@ -20,6 +20,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 | A builder change breaking an earlier book | test `Books` |
 | Headings, chapter titles or captions left in capitals | preflight `heading-caps` |
 | A missing illustration file crashing the EPUB build [found by the tests, 2026-11-19] | compiler warning; test |
+| A frontispiece left in the front matter, so missing from the reading editions [first book, 2026-11-19] | book.json `frontispiece`; test (set it whenever the book has one) |
 
 ## Always
 

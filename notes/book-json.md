@@ -24,6 +24,7 @@
  "history": [{"version": 1, "date": "2026-11-25", "note": "First publication."}],
  "audit": {"version": 1, "date": "…", "pages": 6, "recall": "30/30", "real_errors": 0, "fixed": 0},
  "divisions": [ … ],                    exceptions to "each # heading is a chapter in the reading editions"
+ "frontispiece": "p0010-1",               image moved from the front matter to the start of the first reading division
  "keep_hyphens": ["p0034"],             pages whose join with the previous page keeps the hyphen
  "waivers": [{"check": "…", "match": "…", "why": "…"}],
  "css_extra": ""                        rarely

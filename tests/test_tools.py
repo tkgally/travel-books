@@ -105,6 +105,16 @@ class Compile(unittest.TestCase):
         self.assertEqual(rh.authors_text(b), "A. Writer; edited by E. Ditor")
         self.assertEqual(rh.authors_text({"authors": []}), "Anonymous")
 
+    def test_frontispiece(self):
+        pages = ["[[page ?]]\n[[image: a portrait]]", "[[page ?]]\nTITLE", "[[page 1]]\n# ONE\n\nText."]
+        book, w = comp(pages, frontispiece="p0001-1")
+        self.assertEqual(w, [])
+        one = [d for d in book["divisions"] if d["reading"]][0]
+        self.assertEqual((one["blocks"][0]["type"], one["blocks"][0]["src"]), ("image", "images/p0001-1.jpg"))
+        self.assertFalse(any(b["type"] == "image" for d in book["divisions"] if not d["reading"] for b in d["blocks"]))
+        _, w = comp(pages, frontispiece="p0009-1")
+        self.assertTrue(any("frontispiece" in x for x in w))
+
     def test_note_problems_reported(self):
         _, w = comp(["[[page 1]]\n# ONE\n\nA[[fnref *]] b.\n\n[[fn †]] Orphan."])
         self.assertEqual(len(w), 2)
