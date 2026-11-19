@@ -16,8 +16,8 @@ Tom in `notes/preferences.md`. Do not publish until he answers or a source gives
 quotes at length from an article in *Good Words* (June 1871) by Lady Verney (Frances Parthenope Verney, d. 1890).
 
 ## Status
-Stage reached: Opus draft done and normalized (`draft/`, 183 pages). Scan checked, Drive cache complete (16 parts).
-Next step: Sonnet corrections pass, then review and judge (`notes/workflow.md` §3).
+Stage reached: draft, corrections, judge done; scan checks of the judge report done; `pages/` made from `judge/`; illustrations cropped (`images/`). Scan checked, Drive cache complete (16 parts).
+Next step: structure pass (`notes/workflow.md` §4): run `tools/preflight.py wip/diary-in-europe-rajah-of-kolhapoor` and work through it.
 Half-finished: nothing.
 
 ## Page map
@@ -38,13 +38,19 @@ to be confirmed by preflight `folios`).
 ## Decisions
 - Transcribed p0007–p0190. The presentation slip (p0007) is printed matter issued with the book: JSON only, kind
   `front` (assumed).
-- Cover image: decide at the illustrations stage (front cover is decorated cloth, dark; the engraved title page
-  may serve better).
+- Cover image: the engraved title page p0013 (the cloth cover is dark with only a small stamp).
+- Judge report checked on crops: p0170 the judge (Opus, "sure: high") kept the draft's "Chutraputee"; the scan
+  has "Chutraputtee", as the verifier said: corrected. p0186: running head "SUPPLEMENT." dropped (verifier right).
+  p0013: title line in capitals with large initials, typed as the verifier/judge read it. p0190 imprint: left.
+- Day ordinals ("20<i>th.</i>—"): the drafts put the full stop inside or outside the italic; made uniform
+  (inside, as most pages had it), 2026-11-19.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
 | Draft | 2026-11-19 | opus | p0007–p0190 (184; p0009 output deleted) | 12.54 | no errors; 229 s wall with 6 workers |
+| Corrections | 2026-11-19 | sonnet | 183 | 6.07 | 22 changes proposed (7 words, 12 markup, 3 punctuation), 1 not applied |
+| Judge | 2026-11-19 | opus | 10 spots on 8 pages | 0.38 | sided with draft 7, verifier 2; 9 to look at |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
