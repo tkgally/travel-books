@@ -101,6 +101,22 @@
   *Rajah of Kolhapoor* diary), the editions may add entries of the editor's own, such as spans of dates and the
   places visited. How: `workflow.md` stage 4 "Contents", `book-json.md` (`toc`, `toc_entries`).
 
+## 2026-11-19 (Staunton's *Authentic Account of an Embassy … to the Emperor of China*, 1797)
+
+- **Add the three IA items of Sir George Staunton's *An Authentic Account of an Embassy from the King of Great Britain
+  to the Emperor of China* (London: G. Nicol, 1797) to the top of the queue**: `authenticaccount01stau` (vol. I),
+  `authenticaccount02stau` (vol. II), `gri_33125008481562` (the folio volume of plates, Getty). They are long; several
+  sessions may be needed.
+- **Combine all three volumes into a single digital volume** (one book; the volumes as parts, the plates placed as the
+  book directs or as a section of their own: decide when the plate volume has been looked at).
+- **Leave out the marginal titles** (side-notes naming the place etc.) **in the built versions** (HTML, EPUB, ODT); as
+  everywhere, the JSON keeps them.
+- **An exception to the selection rules, by Tom's choice** ("these books might not meet the guidelines for inclusion
+  in this project, but I have enjoyed reading it so we can make an exception"): not to be rejected for a reprint, an
+  existing digital text, or for being compiled by Staunton from Macartney's and others' papers rather than a plain
+  first-person narrative. The life-plus-70 rule is met (Staunton d. 1801; Macartney d. 1806; Gower d. 1814; the
+  engravers and William Alexander, the draughtsman, all died long before 1955).
+
 ## Questions for Tom
 
 - **An illustration by a person whose death date is unknown** (*Corona and Coronet*, 2026-11-19): one plate is "from a
