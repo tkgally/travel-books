@@ -1,0 +1,450 @@
+{
+ "p0009": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<sc>in</sc>",
+   "replace": "IN",
+   "draft": "<sc>in</sc>",
+   "verified": "IN",
+   "context": "[[page ?]] ⏎  ⏎ [[center]] SKETCHES AWHEEL ⏎  ⏎ [[center]] <sc>in</sc> ⏎  ⏎ [[center]] MODERN IBERIA ⏎  ⏎ [[center]] BY ⏎  ⏎ [[center]] FANNY "
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "</sc> — <sc>",
+   "replace": "</sc> <sc>",
+   "draft": "</sc> — <sc>",
+   "verified": "</sc> <sc>",
+   "context": " NEW YORK—LONDON ⏎  ⏎ [[center]] <sc>27 west twenty-third street</sc> — <sc>24 bedford street, strand</sc> ⏎  ⏎ [[center]] The Knickerbocker"
+  }
+ ],
+ "p0013": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "THE following pages",
+   "replace": "T<sc>he</sc> following pages",
+   "draft": "THE following p",
+   "verified": "T<sc>he</sc> following p",
+   "context": "[[page v]] ⏎  ⏎ # Preface. ⏎  ⏎ THE following pages are based upon observations and experiences of the authors "
+  }
+ ],
+ "p0015": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "their number.",
+   "replace": "their number",
+   "draft": "their number.",
+   "verified": "their number",
+   "context": "whose diversity of taste is likely to be almost as great as their number. ⏎ "
+  }
+ ],
+ "p0017": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "BLACK VIRGIN—MANRESA",
+   "replace": "BLACK VIRGIN——MANRESA",
+   "draft": "LACK VIRGIN—MANRESA",
+   "verified": "LACK VIRGIN——MANRESA",
+   "context": "ODERN CITY OF SPAIN | 6 | ⏎ | III. | —MONSERRAT—LEGEND OF THE BLACK VIRGIN—MANRESA THE PENANCE TOWN OF LOYOLA | 21 | ⏎ | IV. | —A GOOD-FRIDAY PR"
+  }
+ ],
+ "p0018": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page x]]",
+   "replace": "[[page X]]",
+   "draft": "[[page x]]",
+   "verified": "[[page X]]",
+   "context": "[[page x]] ⏎  ⏎ | CHAPTER | | PAGE | ⏎ |---|---|---| ⏎ | IX. | OVER THE MALAGA"
+  }
+ ],
+ "p0019": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<sc>puerta del castillo, cuenca</sc>",
+   "replace": "PUERTA DEL CASTILLO, CUENCA",
+   "draft": "<sc>puerta del castillo, cuenca</sc>",
+   "verified": "PUERTA DEL CASTILLO, CUENCA",
+   "context": "age xi]] ⏎  ⏎ # Illustrations. ⏎  ⏎ | | <sc>page</sc> | ⏎ |---|---| ⏎ | <sc>puerta del castillo, cuenca</sc> | <i>Frontispiece</i> | ⏎ | <sc>stream with stepping-stones, "
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "<sc>stream with stepping-stones, catalonia</sc>",
+   "replace": "STREAM WITH STEPPING-STONES, CATALONIA",
+   "draft": "<sc>stream with stepping-stones, catalonia</sc>",
+   "verified": "STREAM WITH STEPPING-STONES, CATALONIA",
+   "context": "--| ⏎ | PUERTA DEL CASTILLO, CUENCA | <i>Frontispiece</i> | ⏎ | <sc>stream with stepping-stones, catalonia</sc> | <pref>10</pref> | ⏎ | <sc>repairs by the way</sc> | <pref>2"
+  },
+  {
+   "n": 3,
+   "kind": "words",
+   "find": "<sc>repairs by the way</sc>",
+   "replace": "REPAIRS BY THE WAY",
+   "draft": "<sc>repairs by the way</sc>",
+   "verified": "REPAIRS BY THE WAY",
+   "context": "TREAM WITH STEPPING-STONES, CATALONIA | <pref>10</pref> | ⏎ | <sc>repairs by the way</sc> | <pref>22</pref> | ⏎ | <sc>monastery of montserrat</sc> | <p"
+  },
+  {
+   "n": 4,
+   "kind": "words",
+   "find": "<sc>monastery of montserrat</sc>",
+   "replace": "MONASTERY OF MONTSERRAT",
+   "draft": "<sc>monastery of montserrat</sc>",
+   "verified": "MONASTERY OF MONTSERRAT",
+   "context": "pref>10</pref> | ⏎ | REPAIRS BY THE WAY | <pref>22</pref> | ⏎ | <sc>monastery of montserrat</sc> | <pref>28</pref> | ⏎ | <sc>torre de los escipiones, near tar"
+  },
+  {
+   "n": 5,
+   "kind": "words",
+   "find": "<sc>torre de los escipiones, near tarragona</sc>",
+   "replace": "TORRE DE LOS ESCIPIONES, NEAR TARRAGONA",
+   "draft": "<sc>torre de los escipiones, near tarragona</sc>",
+   "verified": "TORRE DE LOS ESCIPIONES, NEAR TARRAGONA",
+   "context": "22</pref> | ⏎ | MONASTERY OF MONTSERRAT | <pref>28</pref> | ⏎ | <sc>torre de los escipiones, near tarragona</sc> | <pref>44</pref> | ⏎ | <sc>cloister of tarragona cathedral</"
+  },
+  {
+   "n": 6,
+   "kind": "words",
+   "find": "<sc>cloister of tarragona cathedral</sc>",
+   "replace": "CLOISTER OF TARRAGONA CATHEDRAL",
+   "draft": "<sc>cloister of tarragona cathedral</sc>",
+   "verified": "CLOISTER OF TARRAGONA CATHEDRAL",
+   "context": "RRE DE LOS ESCIPIONES, NEAR TARRAGONA | <pref>44</pref> | ⏎ | <sc>cloister of tarragona cathedral</sc> | <pref>48</pref> | ⏎ | <sc>a spanish borrico</sc> | <pref>52"
+  },
+  {
+   "n": 7,
+   "kind": "words",
+   "find": "<sc>a spanish borrico</sc>",
+   "replace": "A SPANISH BORRICO",
+   "draft": "<sc>a spanish borrico</sc>",
+   "verified": "A SPANISH BORRICO",
+   "context": "> | ⏎ | CLOISTER OF TARRAGONA CATHEDRAL | <pref>48</pref> | ⏎ | <sc>a spanish borrico</sc> | <pref>52</pref> | ⏎ | <sc>one of the fortress hills of jati"
+  },
+  {
+   "n": 8,
+   "kind": "words",
+   "find": "<sc>one of the fortress hills of jativa</sc>",
+   "replace": "ONE OF THE FORTRESS HILLS OF JATIVA",
+   "draft": "<sc>one of the fortress hills of jativa</sc>",
+   "verified": "ONE OF THE FORTRESS HILLS OF JATIVA",
+   "context": "<pref>48</pref> | ⏎ | A SPANISH BORRICO | <pref>52</pref> | ⏎ | <sc>one of the fortress hills of jativa</sc> | <pref>60</pref> | ⏎ | <sc>paseo de los martires, alicante</"
+  },
+  {
+   "n": 9,
+   "kind": "words",
+   "find": "<sc>paseo de los martires, alicante</sc>",
+   "replace": "PASEO DE LOS MARTIRES, ALICANTE",
+   "draft": "<sc>paseo de los martires, alicante</sc>",
+   "verified": "PASEO DE LOS MARTIRES, ALICANTE",
+   "context": "| ONE OF THE FORTRESS HILLS OF JATIVA | <pref>60</pref> | ⏎ | <sc>paseo de los martires, alicante</sc> | <pref>72</pref> | ⏎ | <sc>under the palms of african spain<"
+  },
+  {
+   "n": 10,
+   "kind": "words",
+   "find": "<sc>under the palms of african spain</sc>",
+   "replace": "UNDER THE PALMS OF AFRICAN SPAIN",
+   "draft": "<sc>under the palms of african spain</sc>",
+   "verified": "UNDER THE PALMS OF AFRICAN SPAIN",
+   "context": "> | ⏎ | PASEO DE LOS MARTIRES, ALICANTE | <pref>72</pref> | ⏎ | <sc>under the palms of african spain</sc> | <pref>76</pref> | ⏎ | <sc>guardia civil on an andalucian pa"
+  },
+  {
+   "n": 11,
+   "kind": "words",
+   "find": "<sc>guardia civil on an andalucian pass</sc>",
+   "replace": "GUARDIA CIVIL ON AN ANDALUCIAN PASS",
+   "draft": "<sc>guardia civil on an andalucian pass</sc>",
+   "verified": "GUARDIA CIVIL ON AN ANDALUCIAN PASS",
+   "context": " | ⏎ | UNDER THE PALMS OF AFRICAN SPAIN | <pref>76</pref> | ⏎ | <sc>guardia civil on an andalucian pass</sc> | <pref>82</pref> | ⏎ | <sc>in the court of the lions, alhamb"
+  },
+  {
+   "n": 12,
+   "kind": "words",
+   "find": "<sc>in the court of the lions, alhambra</sc>",
+   "replace": "IN THE COURT OF THE LIONS, ALHAMBRA",
+   "draft": "<sc>in the court of the lions, alhambra</sc>",
+   "verified": "IN THE COURT OF THE LIONS, ALHAMBRA",
+   "context": "| GUARDIA CIVIL ON AN ANDALUCIAN PASS | <pref>82</pref> | ⏎ | <sc>in the court of the lions, alhambra</sc> | <pref>86</pref> | ⏎ | <sc>at the ultimó suspiro</sc> | <pre"
+  },
+  {
+   "n": 13,
+   "kind": "words",
+   "find": "<sc>at the ultimó suspiro</sc>",
+   "replace": "AT THE ULTIMÓ SUSPIRO",
+   "draft": "<sc>at the ultimó suspiro</sc>",
+   "verified": "AT THE ULTIMÓ SUSPIRO",
+   "context": "| IN THE COURT OF THE LIONS, ALHAMBRA | <pref>86</pref> | ⏎ | <sc>at the ultimó suspiro</sc> | <pref>90</pref> | ⏎ | <sc>entrance to the gorge, ronda</sc>"
+  },
+  {
+   "n": 14,
+   "kind": "words",
+   "find": "<sc>entrance to the gorge, ronda</sc>",
+   "replace": "ENTRANCE TO THE GORGE, RONDA",
+   "draft": "<sc>entrance to the gorge, ronda</sc>",
+   "verified": "ENTRANCE TO THE GORGE, RONDA",
+   "context": "f>86</pref> | ⏎ | AT THE ULTIMÓ SUSPIRO | <pref>90</pref> | ⏎ | <sc>entrance to the gorge, ronda</sc> | <pref>104</pref> | ⏎ | <sc>fish market, tetuan</sc> | <pref"
+  },
+  {
+   "n": 15,
+   "kind": "words",
+   "find": "<sc>fish market, tetuan</sc>",
+   "replace": "FISH MARKET, TETUAN",
+   "draft": "<sc>fish market, tetuan</sc>",
+   "verified": "FISH MARKET, TETUAN",
+   "context": "ef> | ⏎ | ENTRANCE TO THE GORGE, RONDA | <pref>104</pref> | ⏎ | <sc>fish market, tetuan</sc> | <pref>108</pref> | ⏎ | <sc>basha street, tetuan</sc> | <pre"
+  },
+  {
+   "n": 16,
+   "kind": "words",
+   "find": "<sc>basha street, tetuan</sc>",
+   "replace": "BASHA STREET, TETUAN",
+   "draft": "<sc>basha street, tetuan</sc>",
+   "verified": "BASHA STREET, TETUAN",
+   "context": "f>104</pref> | ⏎ | FISH MARKET, TETUAN | <pref>108</pref> | ⏎ | <sc>basha street, tetuan</sc> | <pref>116</pref> | ⏎ | <sc>a market woman of tetuan</sc> | "
+  },
+  {
+   "n": 17,
+   "kind": "words",
+   "find": "<sc>a market woman of tetuan</sc>",
+   "replace": "A MARKET WOMAN OF TETUAN",
+   "draft": "<sc>a market woman of tetuan</sc>",
+   "verified": "A MARKET WOMAN OF TETUAN",
+   "context": ">108</pref> | ⏎ | BASHA STREET, TETUAN | <pref>116</pref> | ⏎ | <sc>a market woman of tetuan</sc> | <pref>122</pref> | ⏎ | <sc>return from la source, tetuan</s"
+  },
+  {
+   "n": 18,
+   "kind": "words",
+   "find": "<sc>return from la source, tetuan</sc>",
+   "replace": "RETURN FROM LA SOURCE, TETUAN",
+   "draft": "<sc>return from la source, tetuan</sc>",
+   "verified": "RETURN FROM LA SOURCE, TETUAN",
+   "context": "</pref> | ⏎ | A MARKET WOMAN OF TETUAN | <pref>122</pref> | ⏎ | <sc>return from la source, tetuan</sc> | <pref>128</pref> | ⏎ | <sc>a lone tower of andalucia</sc> |"
+  },
+  {
+   "n": 19,
+   "kind": "words",
+   "find": "<sc>a lone tower of andalucia</sc>",
+   "replace": "A LONE TOWER OF ANDALUCIA",
+   "draft": "<sc>a lone tower of andalucia</sc>",
+   "verified": "A LONE TOWER OF ANDALUCIA",
+   "context": "f> | ⏎ | RETURN FROM LA SOURCE, TETUAN | <pref>128</pref> | ⏎ | <sc>a lone tower of andalucia</sc> | <pref>138</pref> | ⏎ | <sc>roman bridge at merida</sc> | <p"
+  },
+  {
+   "n": 20,
+   "kind": "words",
+   "find": "<sc>roman bridge at merida</sc>",
+   "replace": "ROMAN BRIDGE AT MERIDA",
+   "draft": "<sc>roman bridge at merida</sc>",
+   "verified": "ROMAN BRIDGE AT MERIDA",
+   "context": "/pref> | ⏎ | A LONE TOWER OF ANDALUCIA | <pref>138</pref> | ⏎ | <sc>roman bridge at merida</sc> | <pref>150</pref> | ⏎ "
+  }
+ ],
+ "p0020": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<sc>remnant of roman aqueduct, merida</sc>",
+   "replace": "REMNANT OF ROMAN AQUEDUCT, MERIDA",
+   "draft": "<sc>remnant of roman aqueduct, merida</sc>",
+   "verified": "REMNANT OF ROMAN AQUEDUCT, MERIDA",
+   "context": "[[page xii]] ⏎  ⏎ | | <sc>page</sc> | ⏎ |---|---| ⏎ | <sc>remnant of roman aqueduct, merida</sc> | <pref>152</pref> | ⏎ | <sc>entering toledo</sc> | <pref>162"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "<sc>entering toledo</sc>",
+   "replace": "ENTERING TOLEDO",
+   "draft": "<sc>entering toledo</sc>",
+   "verified": "ENTERING TOLEDO",
+   "context": " ⏎ | REMNANT OF ROMAN AQUEDUCT, MERIDA | <pref>152</pref> | ⏎ | <sc>entering toledo</sc> | <pref>162</pref> | ⏎ | <sc>toledo cathedral with tapestries"
+  },
+  {
+   "n": 3,
+   "kind": "words",
+   "find": "<sc>toledo cathedral with tapestries at corpus christi</sc>",
+   "replace": "TOLEDO CATHEDRAL WITH TAPESTRIES AT CORPUS CHRISTI",
+   "draft": "<sc>toledo cathedral with tapestries at corpus christi</sc>",
+   "verified": "TOLEDO CATHEDRAL WITH TAPESTRIES AT CORPUS CHRISTI",
+   "context": "<pref>152</pref> | ⏎ | ENTERING TOLEDO | <pref>162</pref> | ⏎ | <sc>toledo cathedral with tapestries at corpus christi</sc> | <pref>166</pref> | ⏎ | <sc>rock-girt cuenca</sc> | <pref>18"
+  },
+  {
+   "n": 4,
+   "kind": "words",
+   "find": "<sc>rock-girt cuenca</sc>",
+   "replace": "ROCK-GIRT CUENCA",
+   "draft": "<sc>rock-girt cuenca</sc>",
+   "verified": "ROCK-GIRT CUENCA",
+   "context": "AL WITH TAPESTRIES AT CORPUS CHRISTI | <pref>166</pref> | ⏎ | <sc>rock-girt cuenca</sc> | <pref>182</pref> | ⏎ | <sc>house at cuenca</sc> | <pref>190"
+  },
+  {
+   "n": 5,
+   "kind": "words",
+   "find": "<sc>house at cuenca</sc>",
+   "replace": "HOUSE AT CUENCA",
+   "draft": "<sc>house at cuenca</sc>",
+   "verified": "HOUSE AT CUENCA",
+   "context": "pref>166</pref> | ⏎ | ROCK-GIRT CUENCA | <pref>182</pref> | ⏎ | <sc>house at cuenca</sc> | <pref>190</pref> | ⏎ | <sc>en route to the feria, avila</sc"
+  },
+  {
+   "n": 6,
+   "kind": "words",
+   "find": "<sc>en route to the feria, avila</sc>",
+   "replace": "EN ROUTE TO THE FERIA, AVILA",
+   "draft": "<sc>en route to the feria, avila</sc>",
+   "verified": "EN ROUTE TO THE FERIA, AVILA",
+   "context": "<pref>182</pref> | ⏎ | HOUSE AT CUENCA | <pref>190</pref> | ⏎ | <sc>en route to the feria, avila</sc> | <pref>206</pref> | ⏎ | <sc>toro de guisando, avila</sc> | <"
+  },
+  {
+   "n": 7,
+   "kind": "words",
+   "find": "<sc>toro de guisando, avila</sc>",
+   "replace": "TORO DE GUISANDO, AVILA",
+   "draft": "<sc>toro de guisando, avila</sc>",
+   "verified": "TORO DE GUISANDO, AVILA",
+   "context": "ef> | ⏎ | EN ROUTE TO THE FERIA, AVILA | <pref>206</pref> | ⏎ | <sc>toro de guisando, avila</sc> | <pref>210</pref> | ⏎ | <sc>puerta of the palace of doña urr"
+  },
+  {
+   "n": 8,
+   "kind": "words",
+   "find": "<sc>puerta of the palace of doña urraca, zamora.</sc>",
+   "replace": "PUERTA OF THE PALACE OF DOÑA URRACA, ZAMORA.",
+   "draft": "<sc>puerta of the palace of doña urraca, zamora.</sc>",
+   "verified": "PUERTA OF THE PALACE OF DOÑA URRACA, ZAMORA.",
+   "context": "6</pref> | ⏎ | TORO DE GUISANDO, AVILA | <pref>210</pref> | ⏎ | <sc>puerta of the palace of doña urraca, zamora.</sc> | <pref>214</pref> | ⏎ | <sc>romanesque entrance, la magdalen"
+  },
+  {
+   "n": 9,
+   "kind": "words",
+   "find": "<sc>romanesque entrance, la magdalena, zamora.</sc>",
+   "replace": "ROMANESQUE ENTRANCE, LA MAGDALENA, ZAMORA.",
+   "draft": "<sc>romanesque entrance, la magdalena, zamora.</sc>",
+   "verified": "ROMANESQUE ENTRANCE, LA MAGDALENA, ZAMORA.",
+   "context": "F THE PALACE OF DOÑA URRACA, ZAMORA. | <pref>214</pref> | ⏎ | <sc>romanesque entrance, la magdalena, zamora.</sc> | <pref>232</pref> | ⏎ | <sc>bridge in the mountains of navar"
+  },
+  {
+   "n": 10,
+   "kind": "words",
+   "find": "<sc>bridge in the mountains of navarre</sc>",
+   "replace": "BRIDGE IN THE MOUNTAINS OF NAVARRE",
+   "draft": "<sc>bridge in the mountains of navarre</sc>",
+   "verified": "BRIDGE IN THE MOUNTAINS OF NAVARRE",
+   "context": "SQUE ENTRANCE, LA MAGDALENA, ZAMORA. | <pref>232</pref> | ⏎ | <sc>bridge in the mountains of navarre</sc> | <pref>240</pref> | ⏎ "
+  }
+ ],
+ "p0027": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "# Sketches Awheel in Modern Iberia",
+   "replace": "[[center]] SKETCHES AWHEEL IN MODERN IBERIA",
+   "draft": "# Sketches Awheel in Modern Iberia",
+   "verified": "[[center]] SKETCHES AWHEEL IN MODERN IBERIA",
+   "context": "[[page ?]] ⏎  ⏎ # Sketches Awheel in Modern Iberia ⏎ "
+  }
+ ],
+ "p0029": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "WE had intended",
+   "replace": "W<sc>e</sc> had intended",
+   "draft": "WE had intende",
+   "verified": "W<sc>e</sc> had intende",
+   "context": " Iberia. ⏎  ⏎ # Chapter I. ⏎  ⏎ [[subtitle]] Passing the Frontier. ⏎  ⏎ WE had intended to enter Spain over the turnpike running from Perpignan acr"
+  }
+ ],
+ "p0068": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "OUR next objective",
+   "replace": "O<sc>ur</sc> next objective",
+   "draft": "OUR next object",
+   "verified": "O<sc>ur</sc> next object",
+   "context": "ia—Desecrated Tombs and Shattered Altars of Fallen Poblet. ⏎  ⏎ OUR next objective point was the monastery of Poblet on the route from Tarrago"
+  }
+ ],
+ "p0095": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "BETWEEN Castellon",
+   "replace": "B<sc>etween</sc> Castellon",
+   "draft": "BETWEEN Castellon",
+   "verified": "B<sc>etween</sc> Castellon",
+   "context": "ntain-top Prelude to African Spain—At the Viuda of Jijona. ⏎  ⏎ BETWEEN Castellon and Valencia, the olive groves are remarkably fine, and som"
+  }
+ ],
+ "p0113": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "THE Fortress",
+   "replace": "T<sc>he</sc> Fortress",
+   "draft": "THE Fortress",
+   "verified": "T<sc>he</sc> Fortress",
+   "context": "—Glories of African Spain—Murcia, the Pearl of the Huerta. ⏎  ⏎ THE Fortress overhanging Alicante has been compared in appearance to a d"
+  }
+ ],
+ "p0159": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "ON a breezy",
+   "replace": "O<sc>n</sc> a breezy",
+   "draft": "ON a breezy",
+   "verified": "O<sc>n</sc> a breezy",
+   "context": "Morocco, Home of the Descendants of the Exiles of Granada. ⏎  ⏎ ON a breezy day about the middle of May we sailed from Algeciras to Tan"
+  }
+ ],
+ "p0243": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "THE road from Toledo",
+   "replace": "T<sc>he</sc> road from Toledo",
+   "draft": "THE road from T",
+   "verified": "T<sc>he</sc> road from T",
+   "context": "e]] The Fonda of Tarancon—An Autocrat of the Dinner Table. ⏎  ⏎ THE road from Toledo to Aranjuez was merely a track in the soft sand, entirely u"
+  }
+ ],
+ "p0254": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "THE ride to Cuenca",
+   "replace": "T<sc>he</sc> ride to Cuenca",
+   "draft": "THE ride to Cue",
+   "verified": "T<sc>he</sc> ride to Cue",
+   "context": "icturesque City of New Castile—In the Museum of the Prado. ⏎  ⏎ THE ride to Cuenca afforded one of many opportunities of studying the peculiar"
+  }
+ ],
+ "p0270": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "FROM Madrid",
+   "replace": "F<sc>rom</sc> Madrid",
+   "draft": "FROM Madrid",
+   "verified": "F<sc>rom</sc> Madrid",
+   "context": "eum—Over the Guadarramas—Two Quaint Cities of Old Castile. ⏎  ⏎ FROM Madrid we rode to the realised dream of Philip the Second’s latter"
+  }
+ ],
+ "p0293": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<i>café</i>",
+   "replace": "<i>cafè</i>",
+   "draft": "<i>café</i>",
+   "verified": "<i>cafè</i>",
+   "context": "ter a scorching ride from Salamanca, we were sitting in the <i>café</i> near the <i>fonda,</i> when the president of the university"
+  }
+ ]
+}

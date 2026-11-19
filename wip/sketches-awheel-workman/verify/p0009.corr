@@ -1,0 +1,2 @@
+{"find": "<sc>in</sc>", "replace": "IN"}
+{"find": "</sc> — <sc>", "replace": "</sc> <sc>"}

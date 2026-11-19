@@ -4,7 +4,7 @@
   crop_image.py FULL_LEAF.jpg OUT.jpg x0,y0,x1,y1 [--max 1600] [--quality 85] [--gray] [--rotate 90|180|270]
 The box is in fractions of the leaf (0-1), as the leaf is scanned: work it out on the small page image, then LOOK
 at the result. A plate printed sideways is turned upright after cropping: --rotate N turns it N degrees
-counter-clockwise (caption reading bottom to top along the right edge: 90; top to bottom along the left: 270).
+counter-clockwise (caption reading bottom to top along the right edge: 270; top to bottom along the left: 90).
 Longest side is reduced to --max pixels. Naming: images/pNNNN-k.jpg = k-th [[image:]] on leaf pNNNN;
 images/cover.jpg = the front cover (or the title page if the binding is a plain library one).
 """

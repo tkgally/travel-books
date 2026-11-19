@@ -1,0 +1,3 @@
+{"find": "<i>alameda</i>, it", "replace": "<i>alameda,</i> it"}
+{"find": "<i>huerta</i>, which", "replace": "<i>huerta,</i> which"}
+{"find": "<i>huerta</i>, best", "replace": "<i>huerta,</i> best"}

@@ -1,0 +1,26 @@
+[[page xi]]
+
+# Illustrations.
+
+| | <sc>page</sc> |
+|---|---|
+| PUERTA DEL CASTILLO, CUENCA | <i>Frontispiece</i> |
+| STREAM WITH STEPPING-STONES, CATALONIA | <pref>10</pref> |
+| REPAIRS BY THE WAY | <pref>22</pref> |
+| MONASTERY OF MONTSERRAT | <pref>28</pref> |
+| TORRE DE LOS ESCIPIONES, NEAR TARRAGONA | <pref>44</pref> |
+| CLOISTER OF TARRAGONA CATHEDRAL | <pref>48</pref> |
+| A SPANISH BORRICO | <pref>52</pref> |
+| ONE OF THE FORTRESS HILLS OF JATIVA | <pref>60</pref> |
+| PASEO DE LOS MARTIRES, ALICANTE | <pref>72</pref> |
+| UNDER THE PALMS OF AFRICAN SPAIN | <pref>76</pref> |
+| GUARDIA CIVIL ON AN ANDALUCIAN PASS | <pref>82</pref> |
+| IN THE COURT OF THE LIONS, ALHAMBRA | <pref>86</pref> |
+| AT THE ULTIMÓ SUSPIRO | <pref>90</pref> |
+| ENTRANCE TO THE GORGE, RONDA | <pref>104</pref> |
+| FISH MARKET, TETUAN | <pref>108</pref> |
+| BASHA STREET, TETUAN | <pref>116</pref> |
+| A MARKET WOMAN OF TETUAN | <pref>122</pref> |
+| RETURN FROM LA SOURCE, TETUAN | <pref>128</pref> |
+| A LONE TOWER OF ANDALUCIA | <pref>138</pref> |
+| ROMAN BRIDGE AT MERIDA | <pref>150</pref> |
