@@ -10,16 +10,17 @@ is Schwatka's *In the Land of Cave and Cliff Dwellers* (Open Library), not this 
 1845–1925; Charles Kingsley (editor, preface) 1819–1875. Engravers not named.
 
 ## Status
-**In progress again (Tom, 2026-11-19: try the refused pages in this book too).** Set aside earlier the same day
-after the output filter refused three pages of the Opus draft (p0076, p0109, p0189). There is now a route for such
-pages: `tools/ocr_fallback.py` (workflow §2). **Do not type them in the session.**
-Stage reached: Opus draft 413 of 432 pages; not normalized. Missing: p0076 p0109 p0189 (refused) and p0424–p0441
-(not yet run when stopped).
-Next: fetch the pages from Drive (`python3 tools/drive_cache.py fetch wip/south-by-west-kingsley/source.json $B/pages`);
-run the draft for the rest (`ocr_claude.py … --pages 424-441`; resumable); `ocr_fallback.py --images $B/pages --draft
-wip/south-by-west-kingsley/draft` (it takes the refused pages from the log, including any new ones); `normalize.py`;
-then stage 3 as usual, the fallback pages named here and audited. Crops and cover are done (`images/`); the
-full-size leaves are not cached, but the crops are final.
+**In progress (2026-11-19, routine session).** Draft complete except the three pages refused by the output filter
+(p0076, p0109, p0189): p0424–p0441 drafted this session (no refusals); `normalize.py` run on `draft/`. Sonnet corrections
+pass started on the 428 drafted pages (`verify/`; resumable). **Do not type the refused pages in the session.**
+Next:
+1. Fetch the pages from Drive (`python3 tools/drive_cache.py fetch wip/south-by-west-kingsley/source.json $B/pages`).
+2. If `verify/` is short of 428 `.corr` files, re-run the same command (finished pages are skipped):
+   `ocr_claude.py --model sonnet --prompt prompts/verify.md --images $B/pages --out $W/verify --corrections --context-text $W/draft --workers 6`.
+3. `ocr_fallback.py --images $B/pages --draft $W/draft` (needs tesseract: `tools/setup_env.sh`); `normalize.py $W/draft`;
+   then the Sonnet pass on those three alone (`--pages 76,109,189`).
+4. `normalize.py $W/verify`; `review.py`; `judge.py`; stage 3 as usual, the fallback pages named in the log and audited.
+Crops and cover are done (`images/`).
 
 ## Page map
 p0000 colour card (hidden) · p0001 front cover (cloth, agave design stamped) · p0002 front pastedown, UC bookplate ·
@@ -48,6 +49,7 @@ Scan check: all 12 contact sheets looked at 2026-11-19; full size: p0025, p0116,
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
 | draft | 2026-11-19 | opus | 413 of 432 | 27.37 | stopped at Tom's request; 3 pages refused by the output filter |
+| draft | 2026-11-19 (routine) | opus | p0424–p0441 (18) | 1.18 | no refusals |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |

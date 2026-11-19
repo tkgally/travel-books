@@ -1,0 +1,98 @@
+{"page": "p0000", "model": "sonnet", "error": "no draft to correct (skipped)"}
+{"page": "p0001", "model": "sonnet", "error": "no draft to correct (skipped)"}
+{"page": "p0002", "model": "sonnet", "error": "no draft to correct (skipped)"}
+{"page": "p0003", "model": "sonnet", "error": "no draft to correct (skipped)"}
+{"page": "p0004", "model": "sonnet", "error": "no draft to correct (skipped)"}
+{"page": "p0005", "model": "sonnet", "error": "no draft to correct (skipped)"}
+{"page": "p0006", "model": "sonnet", "corrections": 0, "seconds": 3.1, "cost": 0.028089, "completion_tokens": 127, "turns": 2, "attempts": 1}
+{"page": "p0007", "model": "sonnet", "error": "no draft to correct (skipped)"}
+{"page": "p0008", "model": "sonnet", "error": "no draft to correct (skipped)"}
+{"page": "p0009", "model": "sonnet", "corrections": 0, "seconds": 4.2, "cost": 0.030661100000000004, "completion_tokens": 310, "turns": 2, "attempts": 1}
+{"page": "p0010", "model": "sonnet", "corrections": 0, "seconds": 3.4, "cost": 0.028084900000000003, "completion_tokens": 127, "turns": 2, "attempts": 1}
+{"page": "p0011", "model": "sonnet", "corrections": 0, "seconds": 3.0, "cost": 0.027843, "completion_tokens": 127, "turns": 2, "attempts": 1}
+{"page": "p0012", "model": "sonnet", "corrections": 0, "seconds": 3.0, "cost": 0.0278061, "completion_tokens": 127, "turns": 2, "attempts": 1}
+{"page": "p0013", "model": "sonnet", "corrections": 1, "seconds": 3.5, "cost": 0.0304108, "completion_tokens": 237, "turns": 2, "attempts": 1}
+{"page": "p0014", "model": "sonnet", "corrections": 0, "seconds": 4.0, "cost": 0.0313318, "completion_tokens": 284, "turns": 2, "attempts": 1}
+{"page": "p0015", "model": "sonnet", "corrections": 0, "seconds": 3.0, "cost": 0.0302352, "completion_tokens": 185, "turns": 2, "attempts": 1}
+{"page": "p0016", "model": "sonnet", "corrections": 1, "seconds": 3.4, "cost": 0.030494900000000002, "completion_tokens": 245, "turns": 2, "attempts": 1}
+{"page": "p0017", "model": "sonnet", "corrections": 0, "seconds": 3.5, "cost": 0.031592300000000004, "completion_tokens": 267, "turns": 2, "attempts": 1}
+{"page": "p0018", "model": "sonnet", "corrections": 0, "seconds": 4.5, "cost": 0.0327816, "completion_tokens": 356, "turns": 2, "attempts": 1}
+{"page": "p0019", "model": "sonnet", "corrections": 4, "seconds": 4.4, "cost": 0.0339178, "completion_tokens": 436, "turns": 2, "attempts": 1}
+{"page": "p0020", "model": "sonnet", "corrections": 4, "seconds": 5.6, "cost": 0.0353571, "completion_tokens": 550, "turns": 2, "attempts": 1}
+{"page": "p0021", "model": "sonnet", "corrections": 4, "seconds": 6.7, "cost": 0.0370017, "completion_tokens": 712, "turns": 2, "attempts": 1}
+{"page": "p0022", "model": "sonnet", "corrections": 0, "seconds": 4.4, "cost": 0.0339164, "completion_tokens": 417, "turns": 2, "attempts": 1}
+{"page": "p0023", "model": "sonnet", "corrections": 2, "seconds": 4.9, "cost": 0.0320319, "completion_tokens": 452, "turns": 2, "attempts": 1}
+{"page": "p0024", "model": "sonnet", "corrections": 0, "seconds": 2.5, "cost": 0.027802, "completion_tokens": 127, "turns": 2, "attempts": 1}
+{"page": "p0025", "model": "sonnet", "corrections": 21, "seconds": 8.8, "cost": 0.0422617, "completion_tokens": 1361, "turns": 2, "attempts": 1}
+{"page": "p0026", "model": "sonnet", "corrections": 0, "seconds": 2.7, "cost": 0.027802, "completion_tokens": 127, "turns": 2, "attempts": 1}
+{"page": "p0027", "model": "sonnet", "corrections": 0, "seconds": 2.7, "cost": 0.0277897, "completion_tokens": 127, "turns": 2, "attempts": 1}
+{"page": "p0028", "model": "sonnet", "corrections": 0, "seconds": 2.8, "cost": 0.0277856, "completion_tokens": 127, "turns": 2, "attempts": 1}
+{"page": "p0029", "model": "sonnet", "corrections": 0, "seconds": 4.2, "cost": 0.032301800000000006, "completion_tokens": 340, "turns": 2, "attempts": 1}
+{"page": "p0030", "model": "sonnet", "corrections": 0, "seconds": 2.5, "cost": 0.030610500000000002, "completion_tokens": 127, "turns": 2, "attempts": 1}
+{"page": "p0031", "model": "sonnet", "corrections": 0, "seconds": 3.9, "cost": 0.0317881, "completion_tokens": 271, "turns": 2, "attempts": 1}
+{"page": "p0032", "model": "sonnet", "corrections": 1, "seconds": 3.1, "cost": 0.031035, "completion_tokens": 192, "turns": 2, "attempts": 1}
+{"page": "p0033", "model": "sonnet", "corrections": 0, "seconds": 3.5, "cost": 0.0318613, "completion_tokens": 257, "turns": 2, "attempts": 1}
+{"page": "p0034", "model": "sonnet", "corrections": 0, "seconds": 3.4, "cost": 0.0314468, "completion_tokens": 234, "turns": 2, "attempts": 1}
+{"page": "p0035", "model": "sonnet", "corrections": 0, "seconds": 3.2, "cost": 0.031229800000000002, "completion_tokens": 200, "turns": 2, "attempts": 1}
+{"page": "p0036", "model": "sonnet", "corrections": 0, "seconds": 3.1, "cost": 0.031155000000000002, "completion_tokens": 204, "turns": 2, "attempts": 1}
+{"page": "p0037", "model": "sonnet", "corrections": 0, "seconds": 3.6, "cost": 0.0314967, "completion_tokens": 223, "turns": 2, "attempts": 1}
+{"page": "p0038", "model": "sonnet", "corrections": 0, "seconds": 5.2, "cost": 0.0443766, "completion_tokens": 336, "turns": 3, "attempts": 1}
+{"page": "p0039", "model": "sonnet", "corrections": 0, "seconds": 4.3, "cost": 0.0325914, "completion_tokens": 346, "turns": 2, "attempts": 1}
+{"page": "p0040", "model": "sonnet", "corrections": 1, "seconds": 4.0, "cost": 0.0323721, "completion_tokens": 313, "turns": 2, "attempts": 1}
+{"page": "p0041", "model": "sonnet", "corrections": 0, "seconds": 3.1, "cost": 0.030906799999999998, "completion_tokens": 180, "turns": 2, "attempts": 1}
+{"page": "p0042", "model": "sonnet", "corrections": 0, "seconds": 2.6, "cost": 0.0304424, "completion_tokens": 127, "turns": 2, "attempts": 1}
+{"page": "p0043", "model": "sonnet", "corrections": 0, "seconds": 3.2, "cost": 0.0313045, "completion_tokens": 221, "turns": 2, "attempts": 1}
+{"page": "p0044", "model": "sonnet", "corrections": 0, "seconds": 3.3, "cost": 0.0313536, "completion_tokens": 205, "turns": 2, "attempts": 1}
+{"page": "p0045", "model": "sonnet", "corrections": 0, "seconds": 3.1, "cost": 0.0310611, "completion_tokens": 186, "turns": 2, "attempts": 1}
+{"page": "p0046", "model": "sonnet", "corrections": 0, "seconds": 3.6, "cost": 0.0314829, "completion_tokens": 229, "turns": 2, "attempts": 1}
+{"page": "p0047", "model": "sonnet", "corrections": 0, "seconds": 3.3, "cost": 0.0315743, "completion_tokens": 216, "turns": 2, "attempts": 1}
+{"page": "p0048", "model": "sonnet", "corrections": 0, "seconds": 3.7, "cost": 0.0324197, "completion_tokens": 303, "turns": 2, "attempts": 1}
+{"page": "p0049", "model": "sonnet", "corrections": 0, "seconds": 3.4, "cost": 0.031534000000000006, "completion_tokens": 246, "turns": 2, "attempts": 1}
+{"page": "p0050", "model": "sonnet", "corrections": 0, "seconds": 3.4, "cost": 0.0312289, "completion_tokens": 220, "turns": 2, "attempts": 1}
+{"page": "p0051", "model": "sonnet", "corrections": 0, "seconds": 3.1, "cost": 0.0311914, "completion_tokens": 206, "turns": 2, "attempts": 1}
+{"page": "p0052", "model": "sonnet", "corrections": 0, "seconds": 3.9, "cost": 0.031760000000000004, "completion_tokens": 285, "turns": 2, "attempts": 1}
+{"page": "p0053", "model": "sonnet", "corrections": 0, "seconds": 2.6, "cost": 0.030409600000000002, "completion_tokens": 127, "turns": 2, "attempts": 1}
+{"page": "p0054", "model": "sonnet", "corrections": 0, "seconds": 5.3, "cost": 0.045097000000000005, "completion_tokens": 403, "turns": 3, "attempts": 1}
+{"page": "p0055", "model": "sonnet", "corrections": 0, "seconds": 3.5, "cost": 0.031478, "completion_tokens": 224, "turns": 2, "attempts": 1}
+{"page": "p0056", "model": "sonnet", "corrections": 0, "seconds": 2.8, "cost": 0.0304506, "completion_tokens": 127, "turns": 2, "attempts": 1}
+{"page": "p0057", "model": "sonnet", "corrections": 2, "seconds": 7.1, "cost": 0.0358614, "completion_tokens": 796, "turns": 2, "attempts": 1}
+{"page": "p0058", "model": "sonnet", "corrections": 0, "seconds": 3.4, "cost": 0.031283200000000004, "completion_tokens": 216, "turns": 2, "attempts": 1}
+{"page": "p0059", "model": "sonnet", "corrections": 0, "seconds": 3.3, "cost": 0.0312168, "completion_tokens": 211, "turns": 2, "attempts": 1}
+{"page": "p0060", "model": "sonnet", "corrections": 0, "seconds": 3.6, "cost": 0.0315973, "completion_tokens": 247, "turns": 2, "attempts": 1}
+{"page": "p0061", "model": "sonnet", "corrections": 2, "seconds": 5.5, "cost": 0.0337061, "completion_tokens": 553, "turns": 2, "attempts": 1}
+{"page": "p0062", "model": "sonnet", "corrections": 0, "seconds": 3.5, "cost": 0.0317961, "completion_tokens": 239, "turns": 2, "attempts": 1}
+{"page": "p0063", "model": "sonnet", "corrections": 2, "seconds": 6.0, "cost": 0.0350535, "completion_tokens": 682, "turns": 2, "attempts": 1}
+{"page": "p0064", "model": "sonnet", "corrections": 0, "seconds": 3.8, "cost": 0.044047, "completion_tokens": 293, "turns": 3, "attempts": 1}
+{"page": "p0065", "model": "sonnet", "corrections": 0, "seconds": 2.5, "cost": 0.029417400000000003, "completion_tokens": 127, "turns": 2, "attempts": 1}
+{"page": "p0066", "model": "sonnet", "corrections": 0, "seconds": 4.2, "cost": 0.0320837, "completion_tokens": 294, "turns": 2, "attempts": 1}
+{"page": "p0067", "model": "sonnet", "corrections": 0, "seconds": 3.3, "cost": 0.0311594, "completion_tokens": 211, "turns": 2, "attempts": 1}
+{"page": "p0068", "model": "sonnet", "corrections": 0, "seconds": 3.6, "cost": 0.0312271, "completion_tokens": 219, "turns": 2, "attempts": 1}
+{"page": "p0069", "model": "sonnet", "corrections": 0, "seconds": 3.2, "cost": 0.0313783, "completion_tokens": 221, "turns": 2, "attempts": 1}
+{"page": "p0070", "model": "sonnet", "corrections": 0, "seconds": 3.4, "cost": 0.0310804, "completion_tokens": 199, "turns": 2, "attempts": 1}
+{"page": "p0071", "model": "sonnet", "corrections": 2, "seconds": 7.1, "cost": 0.0360508, "completion_tokens": 760, "turns": 2, "attempts": 1}
+{"page": "p0072", "model": "sonnet", "corrections": 0, "seconds": 6.8, "cost": 0.0464726, "completion_tokens": 506, "turns": 3, "attempts": 1}
+{"page": "p0073", "model": "sonnet", "corrections": 0, "seconds": 3.4, "cost": 0.0311741, "completion_tokens": 185, "turns": 2, "attempts": 1}
+{"page": "p0074", "model": "sonnet", "corrections": 0, "seconds": 2.8, "cost": 0.029396900000000004, "completion_tokens": 127, "turns": 2, "attempts": 1}
+{"page": "p0075", "model": "sonnet", "corrections": 0, "seconds": 4.2, "cost": 0.0323643, "completion_tokens": 336, "turns": 2, "attempts": 1}
+{"page": "p0076", "model": "sonnet", "error": "no draft to correct (skipped)"}
+{"page": "p0077", "model": "sonnet", "corrections": 0, "seconds": 3.0, "cost": 0.0302731, "completion_tokens": 181, "turns": 2, "attempts": 1}
+{"page": "p0078", "model": "sonnet", "corrections": 0, "seconds": 4.0, "cost": 0.0322853, "completion_tokens": 283, "turns": 2, "attempts": 1}
+{"page": "p0079", "model": "sonnet", "corrections": 0, "seconds": 2.9, "cost": 0.029688400000000004, "completion_tokens": 191, "turns": 2, "attempts": 1}
+{"page": "p0080", "model": "sonnet", "corrections": 0, "seconds": 2.6, "cost": 0.0305982, "completion_tokens": 127, "turns": 2, "attempts": 1}
+{"page": "p0081", "model": "sonnet", "corrections": 0, "seconds": 3.2, "cost": 0.031422500000000006, "completion_tokens": 200, "turns": 2, "attempts": 1}
+{"page": "p0082", "model": "sonnet", "corrections": 0, "seconds": 3.7, "cost": 0.0319993, "completion_tokens": 279, "turns": 2, "attempts": 1}
+{"page": "p0083", "model": "sonnet", "corrections": 0, "seconds": 3.0, "cost": 0.030789200000000003, "completion_tokens": 183, "turns": 2, "attempts": 1}
+{"page": "p0084", "model": "sonnet", "corrections": 0, "seconds": 3.6, "cost": 0.0317047, "completion_tokens": 252, "turns": 2, "attempts": 1}
+{"page": "p0085", "model": "sonnet", "corrections": 0, "seconds": 3.8, "cost": 0.0314832, "completion_tokens": 236, "turns": 2, "attempts": 1}
+{"page": "p0086", "model": "sonnet", "corrections": 0, "seconds": 3.5, "cost": 0.0319095, "completion_tokens": 261, "turns": 2, "attempts": 1}
+{"page": "p0087", "model": "sonnet", "corrections": 0, "seconds": 2.9, "cost": 0.031242100000000002, "completion_tokens": 200, "turns": 2, "attempts": 1}
+{"page": "p0088", "model": "sonnet", "corrections": 3, "seconds": 3.6, "cost": 0.0319274, "completion_tokens": 255, "turns": 2, "attempts": 1}
+{"page": "p0089", "model": "sonnet", "corrections": 0, "seconds": 3.5, "cost": 0.031179600000000002, "completion_tokens": 204, "turns": 2, "attempts": 1}
+{"page": "p0090", "model": "sonnet", "corrections": 0, "seconds": 2.5, "cost": 0.030327600000000003, "completion_tokens": 127, "turns": 2, "attempts": 1}
+{"page": "p0091", "model": "sonnet", "corrections": 0, "seconds": 3.7, "cost": 0.0320149, "completion_tokens": 274, "turns": 2, "attempts": 1}
+{"page": "p0092", "model": "sonnet", "corrections": 0, "seconds": 3.9, "cost": 0.031033400000000003, "completion_tokens": 305, "turns": 2, "attempts": 1}
+{"page": "p0093", "model": "sonnet", "corrections": 0, "seconds": 3.7, "cost": 0.0311396, "completion_tokens": 241, "turns": 2, "attempts": 1}
+{"page": "p0094", "model": "sonnet", "corrections": 0, "seconds": 3.2, "cost": 0.0317421, "completion_tokens": 250, "turns": 2, "attempts": 1}
+{"page": "p0095", "model": "sonnet", "corrections": 0, "seconds": 3.7, "cost": 0.0318234, "completion_tokens": 261, "turns": 2, "attempts": 1}
+{"page": "p0096", "model": "sonnet", "corrections": 0, "seconds": 3.8, "cost": 0.0317121, "completion_tokens": 247, "turns": 2, "attempts": 1}
+{"page": "p0097", "model": "sonnet", "corrections": 0, "seconds": 2.9, "cost": 0.030413700000000002, "completion_tokens": 127, "turns": 2, "attempts": 1}

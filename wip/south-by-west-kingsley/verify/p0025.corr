@@ -1,0 +1,21 @@
+{"find": "<sc>monument park,</sc>", "replace": "MONUMENT PARK,"}
+{"find": "<sc>horse-shoe bend, alleghany mountains,</sc>", "replace": "HORSE-SHOE BEND, ALLEGHANY MOUNTAINS,"}
+{"find": "<sc>drug and book store,</sc>", "replace": "DRUG AND BOOK STORE,"}
+{"find": "<sc>prairie ranche near salina,</sc>", "replace": "PRAIRIE RANCHE NEAR SALINA,"}
+{"find": "<sc>prairie dogs,</sc>", "replace": "PRAIRIE DOGS,"}
+{"find": "<sc>street in denver,</sc>", "replace": "STREET IN DENVER,"}
+{"find": "<sc>our shanty,</sc>", "replace": "OUR SHANTY,"}
+{"find": "<sc>the cañon in glen eyrie,</sc>", "replace": "THE CAÑON IN GLEN EYRIE,"}
+{"find": "<sc>the gate of the garden of the gods,</sc>", "replace": "THE GATE OF THE GARDEN OF THE GODS,"}
+{"find": "<sc>crossing a trestle bridge,</sc>", "replace": "CROSSING A TRESTLE BRIDGE,"}
+{"find": "<sc>monument creek,</sc>", "replace": "MONUMENT CREEK,"}
+{"find": "<sc>the monument rocks,</sc>", "replace": "THE MONUMENT ROCKS,"}
+{"find": "<sc>indians,</sc>", "replace": "INDIANS,"}
+{"find": "<sc>pike's peak,</sc>", "replace": "PIKE'S PEAK,"}
+{"find": "<sc>the rocks near green river,</sc>", "replace": "THE ROCKS NEAR GREEN RIVER,"}
+{"find": "<sc>woman making tortillas,</sc>", "replace": "WOMAN MAKING TORTILLAS,"}
+{"find": "<sc>bell tower at colima,</sc>", "replace": "BELL TOWER AT COLIMA,"}
+{"find": "<sc>the cathedral, guadalajara,</sc>", "replace": "THE CATHEDRAL, GUADALAJARA,"}
+{"find": "<sc>the cathedral, mexico,</sc>", "replace": "THE CATHEDRAL, MEXICO,"}
+{"find": "<sc>the palace of chapultepec,</sc>", "replace": "THE PALACE OF CHAPULTEPEC,"}
+{"find": "<sc>the tree of the noche triste,</sc>", "replace": "THE TREE OF THE NOCHE TRISTE,"}
