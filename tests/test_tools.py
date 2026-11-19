@@ -83,6 +83,21 @@ class Compile(unittest.TestCase):
         self.assertIn('to="d001-n2"', texts(book)[2])
         self.assertEqual(w, [])
 
+    def test_note_referenced_twice(self):
+        # [[fnref * again]]: a second printed reference to the note already referenced with that mark
+        book, w = comp(["[[page 1]]\n# ONE\n\nA[[fnref *]] b[[fnref * again]] c.\n\n[[fn *]] One note."])
+        self.assertEqual(w, [])
+        d = book["divisions"][0]
+        self.assertEqual(len(d["notes"]), 1)
+        t = texts(book)[1]
+        self.assertEqual(t.count('to="d001-n1"'), 2)
+        html = rh.Ctx(book, "web", {d["id"]: "d001.html" for d in book["divisions"]}).inline(t)
+        self.assertEqual(html.count('id="r-d001-n1"'), 1)      # ids stay unique
+        self.assertEqual(html.count('href="#d001-n1"'), 2)
+        o = render_odt.Odt(book, None)
+        o.notes = {n["id"]: n for n in d["notes"]}
+        self.assertEqual(o.inline(t).count("<text:note "), 1)  # the note is placed once
+
     def test_note_problems_reported(self):
         _, w = comp(["[[page 1]]\n# ONE\n\nA[[fnref *]] b.\n\n[[fn †]] Orphan."])
         self.assertEqual(len(w), 2)

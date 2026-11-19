@@ -116,6 +116,7 @@ class Odt:
     def __init__(self, book, images_dir):
         self.book, self.images_dir = book, images_dir
         self.notes, self.pics, self.seen_pg, self.nfig = {}, {}, set(), 0
+        self.seen_ref = set()
         self.pages = set()
         for d in rh.reading_divisions(book):
             for p in rh.page_starts(d):
@@ -148,9 +149,11 @@ class Odt:
                     out.append(f'<text:span text:style-name="{CHAR[name]}">')
                 elif name == "noteref":
                     n = self.notes.get(a.get("to"))
-                    if n is None or in_note:
+                    if n is None or in_note or n["id"] in self.seen_ref:
+                        # unknown, inside a note, or a second reference to a note already placed: the mark only
                         out.append('<text:span text:style-name="Superscript">')
                     else:
+                        self.seen_ref.add(n["id"])
                         mark = n["mark"]
                         label = "" if mark.isdigit() else f' text:label={quoteattr(mark)}'
                         out.append(f'<text:note text:id="{n["id"]}" text:note-class="footnote"><text:note-citation{label}>{escape(mark)}</text:note-citation>'

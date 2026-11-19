@@ -107,7 +107,7 @@ class Ctx:
     def __init__(self, book, flavor, names):
         self.book, self.flavor, self.names = book, flavor, names
         self.targets = page_targets(book, names)
-        self.seen_pg = set()
+        self.seen_pg, self.seen_ref = set(), set()
         src = book.get("source", {})
         self.ia = src.get("ia_identifier")
         self.hidden = sorted(src.get("hidden_leaves", []))
@@ -151,7 +151,10 @@ class Ctx:
                     out.append('<span class="sc">'); close = "</span>"
                 elif name == "noteref":
                     et = ' epub:type="noteref"' if self.flavor == "epub" else ""
-                    out.append(f'<a class="noteref"{et} role="doc-noteref" href="#{a["to"]}" id="r-{a["to"]}">'); close = "</a>"
+                    # a second reference to the same note ([[fnref * again]]) gets no id: ids must be unique
+                    ident = "" if a["to"] in self.seen_ref else f' id="r-{a["to"]}"'
+                    self.seen_ref.add(a["to"])
+                    out.append(f'<a class="noteref"{et} role="doc-noteref" href="#{a["to"]}"{ident}>'); close = "</a>"
                 elif name == "pageref":
                     tgt = self.targets.get(a.get("n", ""))
                     out.append(f'<a class="pageref" href="{attr(tgt)}">' if tgt else "")

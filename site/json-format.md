@@ -53,7 +53,7 @@ Every text string is a well-formed XML fragment. The characters `&`, `<` and `>`
 |---|---|
 | `<i>`, `<b>`, `<sc>`, `<sup>`, `<sub>` | italic, bold, small capitals, superscript, subscript |
 | `<pb n="97" leaf="p0123"/>` | printed page 97 (scan image 123) starts here, inside the block |
-| `<noteref to="d004-n3">*</noteref>` | reference to the note with that `id` in the same division; the content is the printed mark |
+| `<noteref to="d004-n3">*</noteref>` | reference to the note with that `id` in the same division; the content is the printed mark; where the book prints two marks for one note, two `noteref`s have the same `to` |
 | `<pageref n="34">34</pageref>` | the book's own reference to its page 34 |
 | `<corr orig="teh">the</corr>` | a printer's error corrected; `orig` is the printed reading |
 
