@@ -16,8 +16,7 @@ born about 1840 or earlier and cannot have been alive in 1955. Tom, 2026-11-19: 
 quotes at length from an article in *Good Words* (June 1871) by Lady Verney (Frances Parthenope Verney, d. 1890).
 
 ## Status
-Published, version 2, 2026-11-19. Open item for a later session (not this book's): make preflight's JSON→ODT
-conservation skip `text:note-ref`, then drop this book's waiver in a new version (no text change).
+Published, version 3, 2026-11-19. Nothing open.
 
 ## Page map
 p0001 front cover (decorated cloth) · p0002 front pastedown with bookplate · p0003–p0006 endpapers/flyleaves ·
@@ -75,6 +74,7 @@ to be confirmed by preflight `folios`).
 |---|---|---|---|---|
 | 1 | 2026-11-19 | preflight PASS: diary-in-europe-rajah-of-kolhapoor v1 — 0 to fix, 1 waived; to look at: hyphen-joins 3, joins 8, contents 5 — tools@5c27d52 2026-11-19 | 6 pages, recall 30/30, 0 real errors | First publication. Waiver: conservation JSON→ODT (second reference to a footnote, p0037, p0049) |
 | 2 | 2026-11-19 | preflight PASS: diary-in-europe-rajah-of-kolhapoor v2 — 0 to fix, 1 waived; to look at: hyphen-joins 3, joins 8, contents 5 — tools@6c5ee39 2026-11-19 | copied from v1 (text unchanged) | Frontispiece shown in the reading editions (new book.json key `frontispiece`); found on the live site after v1 |
+| 3 | 2026-11-19 | preflight PASS: diary-in-europe-rajah-of-kolhapoor v3 — 0 to fix, 0 waived; to look at: hyphen-joins 3, joins 8, contents 5 — tools@15199cb 2026-11-19 | copied from v1 (text unchanged) | Waiver dropped: preflight now skips the ODT cross-reference (`text:note-ref`) for a second mark to one note (session of South by West). |
 
 ## Known issues
 - Waiver above (an artefact of the check, not of the text).

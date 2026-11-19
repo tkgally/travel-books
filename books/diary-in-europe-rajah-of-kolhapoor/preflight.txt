@@ -36,4 +36,4 @@
             - p0137: 'V. Resolutions passed by a Public Meeting assembled at Kolhapoor to do'
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: diary-in-europe-rajah-of-kolhapoor v2 — 0 to fix, 1 waived; to look at: hyphen-joins 3, joins 8, contents 5 — tools@6c5ee39 2026-11-19
+preflight PASS: diary-in-europe-rajah-of-kolhapoor v3 — 0 to fix, 0 waived; to look at: hyphen-joins 3, joins 8, contents 5 — tools@15199cb 2026-11-19
