@@ -1,0 +1,26 @@
+[[page xi]]
+
+# Illustrations.
+
+| | <sc>page</sc> |
+|---|---|
+| <sc>puerta del castillo, cuenca</sc> | <i>Frontispiece</i> |
+| <sc>stream with stepping-stones, catalonia</sc> | <pref>10</pref> |
+| <sc>repairs by the way</sc> | <pref>22</pref> |
+| <sc>monastery of montserrat</sc> | <pref>28</pref> |
+| <sc>torre de los escipiones, near tarragona</sc> | <pref>44</pref> |
+| <sc>cloister of tarragona cathedral</sc> | <pref>48</pref> |
+| <sc>a spanish borrico</sc> | <pref>52</pref> |
+| <sc>one of the fortress hills of jativa</sc> | <pref>60</pref> |
+| <sc>paseo de los martires, alicante</sc> | <pref>72</pref> |
+| <sc>under the palms of african spain</sc> | <pref>76</pref> |
+| <sc>guardia civil on an andalucian pass</sc> | <pref>82</pref> |
+| <sc>in the court of the lions, alhambra</sc> | <pref>86</pref> |
+| <sc>at the ultimó suspiro</sc> | <pref>90</pref> |
+| <sc>entrance to the gorge, ronda</sc> | <pref>104</pref> |
+| <sc>fish market, tetuan</sc> | <pref>108</pref> |
+| <sc>basha street, tetuan</sc> | <pref>116</pref> |
+| <sc>a market woman of tetuan</sc> | <pref>122</pref> |
+| <sc>return from la source, tetuan</sc> | <pref>128</pref> |
+| <sc>a lone tower of andalucia</sc> | <pref>138</pref> |
+| <sc>roman bridge at merida</sc> | <pref>150</pref> |

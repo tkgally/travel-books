@@ -1,0 +1,5 @@
+{"given": "his own beautiful calabria, did", "print": "his own beautiful Calabria, did", "sure": "high"}
+{"given": "the far-removed cluster peaks purpling", "print": "the far-removed cluster of peaks purpling", "sure": "high"}
+{"given": "walls and the brokcn Torre", "print": "walls and the broken Torre", "sure": "high"}
+{"given": "Divinely picturesque if is, almost", "print": "Divinely picturesque it is, almost", "sure": "high"}
+{"given": "a note of modern Spain; which lies", "print": "a note of modern Spain, which lies", "sure": "high"}

@@ -1,0 +1,5 @@
+{"given": "Cuenca; a Picturesque City of", "print": "Cuenca, a Picturesque City of", "sure": "high"}
+{"given": "THE ride to cuenca afforded", "print": "THE ride to Cuenca afforded", "sure": "high"}
+{"given": "many opportunities of studyiug the peculiarities", "print": "many opportunities of studying the peculiarities", "sure": "high"}
+{"given": "mantles, and few people met with", "print": "mantles, and the few people met with", "sure": "high"}
+{"given": "so that we where able to", "print": "so that we were able to", "sure": "high"}

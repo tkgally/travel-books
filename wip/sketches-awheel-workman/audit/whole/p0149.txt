@@ -1,0 +1,5 @@
+{"given": "a size probably unsurpasfed elsewhere outside", "print": "a size probably unsurpassed elsewhere outside", "sure": "high"}
+{"given": "From malaga to Ronda", "print": "From Malaga to Ronda", "sure": "high"}
+{"given": "a place called Gobantes; where no", "print": "a place called Gobantes, where no", "sure": "high"}
+{"given": "the crowd to appeal we accepted", "print": "the crowd to appeal to we accepted", "sure": "high"}
+{"given": "was not to be sound, and", "print": "was not to be found, and", "sure": "high"}
