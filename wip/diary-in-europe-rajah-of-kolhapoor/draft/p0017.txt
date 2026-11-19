@@ -1,0 +1,18 @@
+[[page ?]]
+
+# Contents.
+
+| | | PAGE |
+|---|---|---|
+| INTRODUCTION | | <pref>v</pref> |
+| DIARY | | <pref>1</pref> |
+| POSTSCRIPT | | <pref>94</pref> |
+| APPENDICES: | | |
+| I. | T<sc>he</sc> D<sc>urbar at</sc> P<sc>oona in</sc> 1866 | <pref>99</pref> |
+| II. | T<sc>he</sc> D<sc>urbar at</sc> P<sc>oona in</sc> 1868 | <pref>105</pref> |
+| III. | T<sc>he</sc> C<sc>eremony of</sc> L<sc>aying the</sc> F<sc>oundation</sc>-S<sc>tone of the</sc> H<sc>igh</sc> S<sc>chool at</sc> K<sc>olhapoor</sc> | <pref>111</pref> |
+| IV. | T<sc>he</sc> <i>Procès-verbal</i> <sc>of the</sc> C<sc>remation at</sc> F<sc>lorence</sc> | <pref>121</pref> |
+| V. | R<sc>esolutions passed by a</sc> P<sc>ublic</sc> M<sc>eeting assembled at</sc> K<sc>olhapoor to do</sc> H<sc>onour to the</sc> M<sc>emory of the late</sc> R<sc>ajah</sc> | <pref>130</pref> |
+| VI. | R<sc>esolutions passed by a</sc> P<sc>ublic</sc> M<sc>eeting assembled at</sc> B<sc>ombay for the</sc> S<sc>ame</sc> P<sc>urpose</sc> | <pref>130</pref> |
+| VII. | A B<sc>rief</sc> A<sc>ccount of the</sc> C<sc>eremonies attending the</sc> A<sc>doption of a</sc> S<sc>uccessor to the</sc> K<sc>olhapoor</sc> G<sc>ādee</sc> | <pref>132</pref> |
+| SUPPLEMENT | | <pref>135</pref> |

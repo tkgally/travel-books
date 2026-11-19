@@ -1,0 +1,23 @@
+{
+ "id": "diary-in-europe-rajah-of-kolhapoor",
+ "version": 1,
+ "date": "",
+ "title": "Diary of the Late Rajah of Kolhapoor, during His Visit to Europe in 1870",
+ "short_title": "Diary of the Rajah of Kolhapoor",
+ "authors": [
+  {"name": "Rajaram, Rajah of Kolhapoor", "sort": "Rajaram, Rajah of Kolhapoor", "born": 1850, "died": 1870},
+  {"name": "Edward W. West", "sort": "West, Edward W."}
+ ],
+ "place": "London",
+ "publisher": "Smith, Elder & Co.",
+ "year": 1872,
+ "edition_statement": "First edition",
+ "regions": ["France", "United Kingdom", "Ireland", "Belgium", "Germany", "Austria", "Italy"],
+ "period": "1870",
+ "summary": "",
+ "source": {"ia_identifier": "diaryoflaterajah00rajarich", "contributor": "University of California Libraries", "hidden_leaves": []},
+ "history": [{"version": 1, "date": "", "note": "First publication."}],
+ "divisions": [],
+ "keep_hyphens": [],
+ "waivers": []
+}
