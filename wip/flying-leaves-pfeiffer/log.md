@@ -7,22 +7,27 @@ books); web searches of the title and of a sentence from p. 73 ("The hotel—in 
 observatory in the howdah") find no text and no edition. Emily Pfeiffer 1827–1890 (Welsh-born poet).
 
 ## Status
-**Waiting for Tom** (queue row `waiting`). The output filter refused the Opus draft of p0116, p0117, p0118, p0128
-and p0129 (printed pp. 106–108, 118–119) in the first session and again, all five, in a second try in a later
-session (2026-11-19, one attempt each, no rephrasing). Question in `notes/preferences.md`: may the session
-transcribe those five itself from the page images? Everything else for version 1 is done: draft, Sonnet
-corrections, Opus judge, scan checks, structure, front-matter crops, cover, metadata and summary, audit (30/30,
-0 candidates). Preflight PASS except that `leaves` lists the five leaves (observe).
-When Tom answers yes:
+**In progress: five pages to take through stage 3, then publish.** The output filter refused the draft of p0116,
+p0117, p0118, p0128 and p0129 (Opus twice, Sonnet once; no model will type them). On 2026-11-19 a session not
+working on the book ran `tools/ocr_fallback.py` on them: tesseract's reading corrected by Opus, now in
+`draft/` (list in `draft/fallback.json`; `draft/_ocr/` is the tesseract text). Nobody has yet looked at those five
+drafts. **Do not type or retype these pages in the session** (CLAUDE.md, the output filter).
+Everything else for version 1 was done before: draft, Sonnet corrections, Opus judge, scan checks, structure,
+front-matter crops, cover, metadata and summary, audit (30/30, 0 candidates) — on the other 300 pages.
+Next:
 1. `python3 tools/drive_cache.py fetch wip/flying-leaves-pfeiffer/source.json $B/pages`
-2. The session reads p0116–p0118, p0128–p0129 at full size and writes `draft/pNNNN.txt` itself (prompts/transcribe.md
-   rules); `normalize.py` on draft; the Sonnet pass with `--pages 116-129` into `verify`; `normalize.py`;
-   `review.py` on draft/verify → a new spots file; `judge.py` for those spots; copy only those five into `pages/`
-   (the other pages in `pages/` have later hand edits — do not overwrite them). Say in the log which pages the
-   session typed.
-3. Check the joins at the five pages (preflight `joins`, `hyphen-joins`), preflight PASS with `leaves` empty,
-   rendered look at From the West Leaf III, `publish.py flying-leaves-pfeiffer`, log, metrics row.
-If he says no: the book stays `waiting` and is tried again with a later model line-up.
+2. The Sonnet pass on the five into a scratch directory, so that `verify/` and `judge/` of the other pages are not
+   touched: copy the five `draft/pNNNN.txt` to `$B/d5`, then `ocr_claude.py --model sonnet --prompt prompts/verify.md
+   --images $B/pages --out $B/v5 --corrections --context-text $B/d5 --pages 116-118,128-129`; `normalize.py $B/v5`;
+   `review.py $B/d5 $B/v5 --out $B/spots5.json`; `judge.py --spots $B/spots5.json --verified $B/v5 --images $B/pages
+   --out $B/j5`; `normalize.py $B/j5`. Copy the `.corr`, verdicts and report into `verify/` and `judge/` under names
+   that do not overwrite the earlier ones, and only the five page files into `pages/` (the other files in `pages/`
+   have later hand edits).
+3. On those five: every Sonnet change and judge spot on a crop; italics (tesseract has none: the correctors added
+   them), `[[cont]]` at p0116, p0119, p0128, p0130 (preflight `joins`, `hyphen-joins`), quotation marks.
+4. `audit_sample.py --pages p0116,p0117,p0118,p0128,p0129` into `audit-fallback/`; record it in the log.
+5. Preflight PASS with `leaves` empty; rendered look at From the West, Leaves III and IV; `publish.py
+   flying-leaves-pfeiffer`; versions row, metrics row (say that five pages came by the fallback).
 
 ## Page map
 p0001 front cover (plain cloth) · p0002 front pastedown, Bancroft Library plate · p0003–p0005 endpapers, blank ·
@@ -60,6 +65,7 @@ Scan check: all 9 contact sheets looked at 2026-11-19; full size: p0009, p0079�
 |---|---|---|---|---|---|
 | Draft | 2026-11-19 | opus | p0007, p0009–p0312 (305) | 19.04 | 5 refused by the output filter (p0116–p0118, p0128–p0129), each tried 3 times by the tool as it then was |
 | Draft retry | 2026-11-19 (later session) | opus | the same 5 | 0.00 | all 5 refused again |
+| Fallback draft | 2026-11-19 (diagnosis session) | tesseract + opus corrections | the same 5 | 0.28 | all 5 done; 2–7 corrections each; Sonnet draft of the 5 tried first: refused |
 | Corrections | 2026-11-19 | sonnet | 300 | 9.40 | 13 word and 3 markup changes, all applied |
 | Judge | 2026-11-19 | opus | 13 spots on 11 pages | 0.50 | sided with the draft 13/13; scan agrees |
 | Audit | 2026-11-19 | opus | 6 | 0.34 | 30/30 planted errors found; 0 other differences |

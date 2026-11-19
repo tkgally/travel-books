@@ -68,12 +68,28 @@
 - **Next session: take the next book from the queue as normal** (asked whether to first look for candidates by
   other kinds of authors, since five of the twelve queued books are by women: no).
 
+## 2026-11-19 (answer on the refused pages; recorded later from the session transcript)
+
+- Asked whether a session may type the pages the output filter refused, Tom answered: **"Yes, try typing those
+  pages, both in this book and the previous one that got blocked."** The session that received this died trying
+  (the filter ends a session that types such a page), and its note of the answer was never committed. What stands
+  from the answer: both *Flying Leaves* and *South by West* are to be finished, not left waiting; their queue rows
+  are `in progress` again. How: `tools/ocr_fallback.py`, not typing (CLAUDE.md, the output filter).
+
+## 2026-11-19 (diagnosis of the first routine sessions)
+
+- Tom asked a session (run on Fable by his choice) to look at the day's Opus sessions, find what caused their
+  problems and redesign the workflow to avoid them. What was found and changed: `improvement.md` review log.
+  Two changes touch rules he set, for him to confirm or reverse (below).
+
 ## Questions for Tom
 
-- **2026-11-19, *Flying Leaves from East and West* (Pfeiffer):** the output filter refused 5 of 304 pages of the
-  Opus draft (p0116–p0118 and p0128–p0129, printed pp. 106–108 and 118–119: ordinary prose about the author's
-  relatives farming in Wisconsin), and refused the same five again when a later session tried once more. The
-  book is now `waiting`; everything else is done and checked (corrections pass, judge, structure, audit 30/30).
-  **May the session transcribe those five pages itself from the page images**, with the Sonnet corrections pass
-  and the Opus judge checking that text as for any other page? If not, the book waits for a later model line-up.
-  (The same question would then settle *South by West*, 3 refused pages of 413.)
+- **2026-11-19, the checks rule.** It used to say a check is fixed only "in a later session"; a finished book
+  then needed two more sessions. It now says: the session may fix a check that is wrong about a kind of book
+  (test with invented text first), but **does not publish that book; the next session does**. Is that
+  acceptable, or should a check never be edited in a session that has worked on the book it blocks?
+- **2026-11-19, refused pages.** For pages the output filter refuses, the text now starts from tesseract's
+  reading, corrected by Opus, then checked by Sonnet, the judge and the audit like other pages (about 1 page in
+  100 so far). Is that acceptable for publication, said in the book's notes on the text? If not, such books wait.
+- **2026-11-19, the death-date rule.** Recorded with a condition added by the session: the birth year must be
+  known or bounded (e.g. from a career); otherwise the book is left out. Confirm or change.

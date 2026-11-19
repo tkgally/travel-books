@@ -1,0 +1,7 @@
+{"find": "[[page ?]]\n\n108 FLYING LEAVES. -\n\ncuisine, with its artistic hors d’wuvres", "replace": "[[page 108]]\n\n[[cont]] <i>cuisine,</i> with its artistic <i>hors d’œuvres</i>"}
+{"find": "schnee-balle", "replace": "schnee-bälle"}
+{"find": "pride ;", "replace": "pride;"}
+{"find": "am _ beginning", "replace": "am beginning"}
+{"find": "T have said", "replace": "I have said"}
+{"find": "nature fo have", "replace": "nature to have"}
+{"find": "pleasures !", "replace": "pleasures!"}

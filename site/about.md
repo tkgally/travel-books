@@ -18,7 +18,7 @@ These books were written between about one and four centuries ago. They contain 
 
 ## How the texts are made
 
-Each page of the scan is read by one Claude model and proofread against the page image by another. Where the two differ, a third reading decides, and uncertain places are checked against enlarged images of the print. Before a book is published, a set of automatic checks must pass, and a sample of pages is proofread again with deliberate errors added, to measure how many errors the proofreading finds.
+Each page of the scan is read by one Claude model and proofread against the page image by another. For a few pages the first reading is made by an OCR program (Tesseract) and corrected by a Claude model before the proofreading; a book that has such pages says so in its notes on the text. Where the two differ, a third reading decides, and uncertain places are checked against enlarged images of the print. Before a book is published, a set of automatic checks must pass, and a sample of pages is proofread again with deliberate errors added, to measure how many errors the proofreading finds.
 
 No transcription is free of errors. If you find one, please [report it on GitHub](https://github.com/tkgally/travel-books/issues), giving the book and the page or a few words of the passage. Corrected versions are published as needed; each book's page lists its versions.
 

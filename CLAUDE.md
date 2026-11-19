@@ -46,10 +46,21 @@ Routine (scheduled) sessions start from `RESUME.md`.
   browser build, the sampled audit (`tools/audit_sample.py`) with every candidate checked on the scan, and
   the stamp and audit result written in the book's `log.md` and a row added to `notes/metrics.md`.
   `tools/publish.py` refuses without the PASS.
-- **Checks are not edited by the work they judge.** In a session publishing a book: no editing
-  `preflight.py`, no moving a check to observe, no loosening or skipping a test, to get that book out. Waive
-  the item in `book.json` with a reason and fix the check in a later session. Still failing after three
-  attempts at the cause → the book goes to `waiting` with the report in its log; take another.
+- **Checks are not edited by the work they judge.** A session never publishes a book after changing a check
+  or a test that the book failed. When a check fails, in this order: (1) the book is wrong → fix the page
+  files; (2) the check is wrong about one item → waive that item in `book.json` with a reason; (3) the check
+  is wrong about a kind of book (a waiver would be wide, or would hide other items) → finish everything else,
+  leave the book `in progress` with "ready to publish when check X is fixed" in its log, and then the same
+  session may fix the check by `notes/workflow.md` §"When a check is wrong" (invented text in a test first;
+  never to make a real fault pass). **The next session publishes the book.** Do not try any other way of
+  getting past a check: such edits are refused by the session's permission system as well. Still failing
+  after three attempts at the cause → the book goes to `waiting` with the report in its log; take another.
+- **The output filter.** The API refuses to let any Claude model type out certain pages (ordinary prose; the
+  same pages every time). Never retry, rephrase or split such a page, and **never type it in the session:
+  that ends the session for good** (2026-11-19: four dead turns, uncommitted work lost). Run
+  `tools/ocr_fallback.py` (machine OCR, corrected by a model, which the filter allows); a page that fails
+  there too → the book goes to `waiting`. The session itself never writes out more than a few lines of a
+  book's text, in a file or a message: page files are changed by small edits.
 - **Tools change only with tests.** `tools/run_tests.sh` at the start of a working session and after any edit
   under `tools/`; every tool bug fixed gets a test in the same commit.
 - **Site text is plain.** Summaries, notes and page text say what a thing is, in ordinary words: no praise,
@@ -62,7 +73,8 @@ Routine (scheduled) sessions start from `RESUME.md`.
   session branch, open a PR, merge it (the site deploys from `main` by GitHub Actions), and check that the
   deploy succeeded when the site changed.
 - **What Tom or a reader reports** goes in `notes/errata.md` and is followed through as that file says.
-- **Tom's instructions and preferences** go in `notes/preferences.md` the moment he states them.
+- **Tom's instructions and preferences** go in `notes/preferences.md` the moment he states them, **committed
+  and pushed before acting on them** (an answer of his was lost when the session died doing what he asked).
 
 ## Repo map
 
@@ -71,7 +83,7 @@ Routine (scheduled) sessions start from `RESUME.md`.
 | `books/<slug>/` | a published book: `book.json` (metadata and build settings), `pages/pNNNN.txt` (page markup, one file per IA leaf — the source of the text), `images/`, `source.json` (IA item and Drive cache), `log.md`, `preflight.txt` |
 | `wip/<slug>/` | a book in progress: the same, plus model runs (`draft/`, `verify/`, `judge/`, `audit/`); moved to `books/` by `tools/publish.py` |
 | `data/queue.json` | the ledger: queued, in progress, published, waiting, rejected |
-| `tools/` | Get: `ia.py`, `prep_pages.py`, `drive_cache.py`, `contact_sheets.py`. Transcribe: `ocr_claude.py`, `normalize.py`, `review.py`, `judge.py`, `crop_spot.py`, `crop_image.py`, `corrections.py`, `ocr_openrouter.py`, `score.py`. Build: `compile_book.py` (pages → book JSON), `render_html.py`, `render_epub.py`, `render_odt.py`, `build_site.py`. **Verify: `run_tests.sh`, `preflight.py`, `audit_sample.py`.** Publish: `publish.py`. Setup: `setup_env.sh`, `make_prompts.sh` |
+| `tools/` | Get: `ia.py`, `prep_pages.py`, `drive_cache.py`, `contact_sheets.py`. Transcribe: `ocr_claude.py`, `ocr_fallback.py`, `normalize.py`, `review.py`, `judge.py`, `crop_spot.py`, `crop_image.py`, `corrections.py`, `ocr_openrouter.py`, `score.py`. Build: `compile_book.py` (pages → book JSON), `render_html.py`, `render_epub.py`, `render_odt.py`, `build_site.py`. **Verify: `run_tests.sh`, `preflight.py`, `audit_sample.py`.** Publish: `publish.py`. Setup: `setup_env.sh`, `make_prompts.sh` |
 | `prompts/` | `transcribe.md`, `verify.md`, generated from `_rules.md`, `_format.md`, `_verify-task.md` by `tools/make_prompts.sh` |
 | `site/` | `assets/` (the one stylesheet pair and the small script shared by all books), `about.md`, `json-format.md` |
 | `tests/` | regression tests for the tools and an invented sample book |

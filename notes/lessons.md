@@ -20,6 +20,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 | A builder change breaking an earlier book | test `Books` |
 | Headings, chapter titles or captions left in capitals | preflight `heading-caps` |
 | A missing illustration file crashing the EPUB build [found by the tests, 2026-11-19] | compiler warning; test |
+| A finished book failing `conservation` because the compiler moved a plate or a captioned frontispiece [*Sketches Awheel*, 2026-11-19] | preflight compares image captions apart from the text; test `MovedImages` |
+| A draft page refused by the output filter and left out unnoticed | `ocr_claude.py` says so at the end of the run; `ocr_fallback.py`; preflight `leaves` |
 | A frontispiece left in the front matter, so missing from the reading editions [first book, 2026-11-19] | book.json `frontispiece`; test (set it whenever the book has one) |
 
 ## Always
@@ -40,11 +42,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Trigger: plates (tipped-in leaves) and a frontispiece
 
-- Preflight `conservation` cannot yet follow images the compiler moves: a plate between two pages of one paragraph
-  (put after the joined paragraph) and a captioned `frontispiece` (put at the start of the reading text). Found in
-  *Sketches Awheel* (2026-11-19); fix the check in a session that is not publishing such a book (plan in that
-  book's log). A waiver is no substitute: the check reports only the first difference in a long text.
 - Plates printed sideways: `crop_image.py --rotate 270` when the caption reads bottom to top along the right edge.
+- Set `frontispiece` in book.json, with or without a caption (preflight follows moved images since 2026-11-19).
 
 ## Trigger: drop capitals at chapter openings
 
@@ -80,13 +79,12 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Trigger: output filter
 
-- The API's output filter can refuse ordinary pages: 3 of 413 in *South by West* (1874), e.g. p0076, a plain
-  description of a shanty. No retries in the same session (RESUME.md); note the leaves in the log. Tom set the
-  book aside (2026-11-19) rather than have the session type the pages: ask before choosing that route again.
-- Second case: 5 of 304 in *Flying Leaves* (1885) in two runs of consecutive leaves (p0116–p0118, p0128–p0129:
-  plain prose about German farmers in Wisconsin). A retry in a later session refused all five again: the
-  refusals follow the page, not the time of the run, so one retry is enough to know. The tools no longer retry a refusal (`tools/refusal.py`), and preflight `leaves`
-  lists leaves with no page file: a refused page must not slip into a published book unnoticed.
+- "Output blocked by content filtering policy" on a draft page: the refusal follows the page, not the model or
+  the time (*South by West* 3 of 413; *Flying Leaves* 5 of 304, refused by Opus twice and by Sonnet). The
+  pages are ordinary prose. `tools/ocr_fallback.py` is the route (workflow §2); the tools never retry.
+- A session that set out to type such a page itself was ended by the same filter, and every later turn of
+  that session failed at once (2026-11-19). Never do it, whoever asks; say why and use the fallback.
+- The corrections pass, the judge and the audit were not refused on those pages.
 
 ## Trigger: OpenRouter
 
@@ -96,6 +94,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 ## Environment
 
 - CI (`pages.yml`) installs only Pillow before the tests: a test that needs another package must add it there (a test importing `crop_image` broke the deploy on 2026-11-19).
+- `sleep` in a foreground command is blocked: run long commands in the background and do other work meanwhile.
 - `tools/setup_env.sh` first (it switches apt to https mirrors: plain-http mirrors hang behind the session proxy). Headless calls: `claude -p` with only the Read tool (`ocr_claude.py`).
 - Drive: uploads from a session are refused above about 3 MB per call (tested 2026-11-19: 2.86 MB went
   through; 9.9 MB and 40 MB did not). Downloads by `curl` with the file id work for any size because the

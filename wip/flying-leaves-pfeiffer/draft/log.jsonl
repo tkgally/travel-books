@@ -308,3 +308,8 @@
 {"page": "p0118", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
 {"page": "p0128", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
 {"page": "p0129", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0116", "model": "opus", "corrections": 2, "seconds": 6.5, "cost": 0.0383232, "completion_tokens": 317, "turns": 2, "attempts": 1}
+{"page": "p0117", "model": "opus", "corrections": 7, "seconds": 6.8, "cost": 0.039680400000000005, "completion_tokens": 385, "turns": 2, "attempts": 1}
+{"page": "p0118", "model": "opus", "corrections": 7, "seconds": 9.8, "cost": 0.07369400000000001, "completion_tokens": 774, "turns": 2, "attempts": 1}
+{"page": "p0128", "model": "opus", "corrections": 5, "seconds": 6.6, "cost": 0.0661248, "completion_tokens": 398, "turns": 2, "attempts": 1}
+{"page": "p0129", "model": "opus", "corrections": 6, "seconds": 6.8, "cost": 0.0658162, "completion_tokens": 392, "turns": 2, "attempts": 1}

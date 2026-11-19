@@ -7,7 +7,9 @@ The aim is that each book is done a little better than the last and that nothing
 - A miss (an error that got further than it should) is turned, in that session, into a preflight check
   (starting in `observe`), a test, or a line in `lessons.md` — in that order of preference.
 - A false alarm from a check is recorded in `metrics.md` §"Preflight checks"; the check is fixed, with a test,
-  in a session that is not publishing a book it blocks.
+  as `workflow.md` §"When a check is wrong" says (the session that fixes it does not publish the book it blocked).
+- Anything that stopped or ended a session (a refusal, a blocked action, a hang) is written where the next
+  session will meet it: a tool message, `RESUME.md` §3, or CLAUDE.md if it is a rule.
 - Each published version gets a row in `metrics.md`.
 
 ## Review sessions (every fifth published book, or when the numbers say so)
@@ -38,4 +40,5 @@ audit and errata (the best ground truth available), `tools/score.py`, results in
 
 | Date | Books covered | What changed |
 |---|---|---|
+| 2026-11-19 | the first four routine sessions (Tom asked for a diagnosis) | Causes found: output-filter refusals with no working route, and a session ended by typing a refused page; finished books held by preflight false alarms that the rules forbade fixing; an eligibility question left until a book was done. Changes: `ocr_fallback.py`; conservation follows moved images and lists differences in long texts; the checks rule and RESUME §3 rewritten; Tom's answers committed before acting. |
 | 2026-11-19 | — (set-up) | Pipeline, checks and notes taken over from pdf-to-epub's English workflow and rebuilt around a book JSON; first calibration in `metrics.md`. |

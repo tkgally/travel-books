@@ -19,7 +19,8 @@ and the procedures in `notes/` and the skills.
 
 ## 2. Choose the work, in this order
 
-1. **A book `in progress`** (`wip/<slug>/`): resume it from the "Status" section of its `log.md`.
+1. **A book `in progress`** (`wip/<slug>/`): resume it from the "Status" section of its `log.md`. A book
+   that is ready to publish comes first; then the one furthest along. Several can be done in one session.
 2. **Open errata** that can be fixed without Tom (`notes/errata.md`): fix, republish that book as a new
    version, and do the follow-through that file asks for. Small ones can share a session with other work.
 3. **A `waiting` book** whose question Tom has answered (`notes/preferences.md`, the queue row, the book log).
@@ -28,7 +29,9 @@ and the procedures in `notes/` and the skills.
 4. **A new book** from the queue (skill `digitize-book`). Choose by your own judgement — `order` in the
    queue is a suggestion — aiming for a wide range of authors, nationalities, destinations and periods
    across what is already published, without preferring any group (never by the author's gender), and preferring books that the current tools handle. Re-check eligibility first
-   (`notes/selection.md` §"Before starting"): things change, and the first check may have gaps.
+   (`notes/selection.md` §"Before starting"): things change, and the first check may have gaps. Every question
+   of eligibility (a death date of an author or editor, a later edition) is settled or put to Tom **before
+   the first model run**, not after the book is finished.
 5. **Fewer than six books `queued`**: spend the session (or its remainder) finding and vetting more (skill
    `select-book`).
 6. **Every fifth published book, or when `notes/metrics.md` shows a problem**: a review session
@@ -51,8 +54,17 @@ it, cache it in Drive, start the drafts; (b) corrections pass, review, judge, st
   book log as "assumed", and add it to "Questions for Tom" in `notes/preferences.md` if he should confirm. If
   it is not easily changed (leaving out a large part of a book; publishing a book whose eligibility is in
   doubt), set the book to `waiting` with the question and take other work.
-- **A page the output filter refuses:** no retries, rephrasing or chunking. Note the leaf in the log; if it is
-  a few pages, the session transcribes them itself from the image; if many, the book goes to `waiting`.
+- **A page the output filter refuses** ("Output blocked by content filtering policy"): no retries, rephrasing
+  or chunking, and the session never types the page itself (that ends the session: CLAUDE.md). Run
+  `tools/ocr_fallback.py` (workflow §2) and carry on; name the pages in the log and audit them. Only a page
+  that the fallback cannot do either sends the book to `waiting`.
+- **A check that is wrong** (not the book): CLAUDE.md "Checks are not edited by the work they judge" and
+  workflow §"When a check is wrong". Do not stop the whole session for it: leave that book ready, fix the
+  check, and use the rest of the session on other work from §2.
+- **Waiting for something** (a model run, a deploy): start long commands in the background and go on with
+  other work; `sleep` in the foreground is blocked. A deploy takes about a minute: check it once after the
+  rest of the wrap-up is written.
+- **When Tom answers during a session:** write the answer in `notes/preferences.md`, commit and push, then act.
 - **Checkpoint:** after every completed stage commit and push `wip/<slug>/` with the log's Status section
   current (stage done, next step, exact commands, anything half-finished).
 

@@ -393,6 +393,91 @@ if __name__ == "__main__":
     unittest.main()
 
 
+class MovedImages(unittest.TestCase):
+    """The compiler moves some images; conservation must follow them (it failed a finished book, 2026-11-19)."""
+
+    def setUp(self):
+        self.tmp = tempfile.mkdtemp()
+        self.dir = os.path.join(self.tmp, "sample-journey-doe")
+        shutil.copytree(SAMPLE, self.dir)
+        img = os.path.join(self.dir, "images", "p0007-1.jpg")
+        for leaf, old, new in (
+                # a plate at the foot of a page whose paragraph runs on to the next page
+                ("p0004", "for an hour, while\n", "for an hour, while\n\n[[image: a cart in a ford]]\n[[caption]] The Cart at the Ford.\n"),
+                # a captioned frontispiece in the front matter
+                ("p0001", "1861\n", "1861\n\n[[image: portrait of a woman]]\n[[caption]] The Author.\n")):
+            p = os.path.join(self.dir, "pages", leaf + ".txt")
+            t = open(p, encoding="utf-8").read()
+            self.assertIn(old, t)
+            open(p, "w", encoding="utf-8").write(t.replace(old, new, 1))
+            shutil.copy(img, os.path.join(self.dir, "images", leaf + "-1.jpg"))
+        c = json.load(open(os.path.join(self.dir, "book.json"), encoding="utf-8"))
+        c["frontispiece"] = "p0001-1"
+        json.dump(c, open(os.path.join(self.dir, "book.json"), "w", encoding="utf-8"))
+
+    def tearDown(self):
+        shutil.rmtree(self.tmp)
+
+    def test_plate_in_paragraph_and_captioned_frontispiece_pass(self):
+        book, _ = compile_book.compile_book(self.dir)
+        first = next(d for d in book["divisions"] if d["reading"])
+        self.assertEqual(first["blocks"][0].get("caption"), "The Author.")          # moved by the compiler
+        _, report, res = preflight.run(self.dir, skip_epubcheck=True, skip_odt=True)
+        self.assertEqual(res["conservation"], [], report)
+        self.assertEqual(res["compile"], [], report)
+
+    def test_caption_lost_is_still_caught(self):
+        pages = [("p0001", "[[page 1]]\nText.\n[[image: x]]\n[[caption]] A Caption.")]
+        book = {"divisions": [{"reading": True, "notes": [], "blocks": [
+            {"type": "paragraph", "text": "Text."}, {"type": "image", "caption": "Another Caption."}]}]}
+        pc, jc = [], []
+        self.assertEqual(preflight.page_streams(pages, captions=pc)[0], preflight.json_streams(book, captions=jc)[0])
+        self.assertTrue(preflight.compare(" ".join(sorted(pc)), " ".join(sorted(jc)), "captions"))
+
+    def test_caption_not_after_an_image_stays_in_the_text(self):
+        pc = []
+        main, _ = preflight.page_streams([("p0001", "[[page 1]]\nText.\n[[caption]] Stray.")], captions=pc)
+        self.assertEqual((main.split(), pc), (["Text.", "Stray."], []))
+
+    def test_long_texts_list_each_difference(self):
+        a = "".join(f"word{i} " for i in range(12000))
+        b = a.replace("word50 ", "", 1).replace("word9000 ", "wurd9000 ", 1)
+        items = preflight.compare(a, b, "t")
+        self.assertEqual(len(items), 1)                       # two far apart: the first, as before
+        items = preflight.compare(a, a.replace("word9000 ", "", 1).replace("word9005 ", "wurd9005 ", 1), "t")
+        self.assertEqual(len(items), 2, items)                # close together: each is listed, so a waiver can name one
+        self.assertEqual(preflight.compare(a, a, "t"), [])
+
+
+class Fallback(unittest.TestCase):
+    """Pages the output filter refuses get a machine-OCR draft that a model corrects (tools/ocr_fallback.py)."""
+
+    def test_to_markup(self):
+        import ocr_fallback
+        raw = "106 A HEAD.\n\nThe first para-\ngraph runs on to twenty-\nThird Street\nhere.\n\n  \nSecond one.\n"
+        self.assertEqual(ocr_fallback.to_markup(raw),
+                         "[[page ?]]\n\n106 A HEAD.\n\nThe first paragraph runs on to twenty-Third Street here.\n\nSecond one.\n")
+
+    def test_refused_pages_from_the_log(self):
+        import ocr_fallback
+        d = tempfile.mkdtemp()
+        try:
+            refusal = "RuntimeError('API Error: Output blocked by content filtering policy')"
+            recs = [{"page": "p0001", "cost": 0.1}, {"page": "p0002", "error": refusal}, {"page": "p0003", "error": "timeout"},
+                    {"page": "p0004", "error": refusal}, {"page": "p0004", "cost": 0.1}, {"page": "p0005", "error": refusal}]
+            open(os.path.join(d, "log.jsonl"), "w").write("\n".join(json.dumps(r) for r in recs) + "\n")
+            open(os.path.join(d, "p0005.txt"), "w").write("x")          # already has a draft
+            self.assertEqual(ocr_fallback.refused_pages(d), ["p0002"])
+        finally:
+            shutil.rmtree(d)
+
+    def test_page_lists(self):
+        import ocr_claude, ocr_fallback
+        self.assertEqual(ocr_claude.page_numbers("20-22"), [20, 21, 22])
+        self.assertEqual(ocr_claude.page_numbers("116-118,128"), [116, 117, 118, 128])
+        self.assertEqual(ocr_fallback.parse_pages("p0116-p0118,128"), [116, 117, 118, 128])
+
+
 class Refusal(unittest.TestCase):
     """The output filter's refusal is never retried; corrections mode makes no call for a page with no draft."""
 
