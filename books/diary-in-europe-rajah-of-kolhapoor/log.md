@@ -82,6 +82,7 @@ to be confirmed by preflight `folios`).
 
 Waiver added 2026-11-19 without a new version (text and editions unchanged): `leaves` p0009, the IA card left
 out on purpose, when the leaves check became enforced.
+| 4 | 2026-11-19 | PASS — 0 to fix, 1 waived; to look at: hyphen-joins 3, joins 8, contents 5 — tools@6b8af86 2026-11-19 | as version 1 (text unchanged) | contents: entries inside the diary (dates and places), appendices by title; ODT contents list (errata 2026-11-19) |
 
 ## Known issues
 - Waiver above (an artefact of the check, not of the text).

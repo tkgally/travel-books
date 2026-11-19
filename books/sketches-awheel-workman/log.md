@@ -67,5 +67,6 @@ without a gap; full size: the plates, p0009, p0335; problems: none.
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
 | 1 | 2026-11-19 | PASS — 0 to fix, 0 waived; to look at: hyphen-joins 31, joins 6 (all read) — tools@e27975f | 30/30 recall; 0 real errors / 6 pages | first publication; held one session for the `conservation` check fix |
+| 2 | 2026-11-19 | PASS — 0 to fix, 0 waived; to look at: hyphen-joins 31, joins 6 — tools@6b8af86 2026-11-19 | as version 1 (text unchanged) | contents: full chapter summaries in every entry; ODT contents list (errata 2026-11-19) |
 
 ## Known issues

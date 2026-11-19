@@ -39,9 +39,9 @@
             - p0135: [[cont]] after a closed sentence …'test idea of its quality.' | 'To begin with, colour in '
             - p0141: [[cont]] after a closed sentence …'art to run or to cry out.' | 'As the little creature’s '
 [       ok] folios: printed page numbers that break the sequence
-[       ok] leaves: leaves with no page file between the first and the last page file (a draft refused or lost)
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
 [       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
 [       ok] contents: entries of the printed contents with no matching heading
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: flying-leaves-pfeiffer v1 — 0 to fix, 0 waived; to look at: hyphen-joins 18, joins 5 — tools@75f0f85 2026-11-19
+preflight PASS: flying-leaves-pfeiffer v2 — 0 to fix, 0 waived; to look at: hyphen-joins 18, joins 5 — tools@6b8af86 2026-11-19
