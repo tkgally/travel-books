@@ -1,0 +1,62 @@
+{
+ "id": "sample-journey-doe",
+ "version": 1,
+ "date": "2026-01-01",
+ "title": "A Sample Journey to the Interior",
+ "subtitle": "With Some Account of the Roads",
+ "short_title": "A Sample Journey",
+ "authors": [
+  {
+   "name": "Jane Doe",
+   "sort": "Doe, Jane",
+   "born": 1820,
+   "died": 1890
+  }
+ ],
+ "place": "London",
+ "publisher": "Invented & Co.",
+ "year": 1861,
+ "edition_statement": "First edition",
+ "regions": [
+  "Nowhere"
+ ],
+ "period": "1859",
+ "summary": "Invented text used to test the tools. It is not a real book. A traveller leaves a town by carrier's cart on a wet morning, follows a river, hears a song, and stops at an inn where the landlord wants his money before anyone sleeps.",
+ "source": {
+  "ia_identifier": "samplejourney00doe",
+  "contributor": "Test Library",
+  "hidden_leaves": [
+   0
+  ]
+ },
+ "omitted_from_reading": "The printed contents and the index are in the JSON only.",
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-01-01",
+   "note": "First publication."
+  }
+ ],
+ "divisions": [
+  {
+   "at": "p0003",
+   "kind": "contents",
+   "title": "Contents"
+  },
+  {
+   "at": "p0010",
+   "kind": "index"
+  }
+ ],
+ "keep_hyphens": [
+  "p0008"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-01-01",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
+}
