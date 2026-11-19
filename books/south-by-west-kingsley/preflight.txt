@@ -1,0 +1,60 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[       ok] audit: book.json records the sampled audit of this version
+[look (26)] hyphen-joins: page-break hyphen joins (hyphen removed): read the list once
+            - hyphen join at p0039: …just as the un-|wary had had ti… (hyphen removed; check)
+            - hyphen join at p0055: …and yellow hic-|kory led up to … (hyphen removed; check)
+            - hyphen join at p0063: … a place of im-|portance as the… (hyphen removed; check)
+            - hyphen join at p0071: …es remained un-|finished. Doubl… (hyphen removed; check)
+            - hyphen join at p0089: …k save innumer-|able cactus spi… (hyphen removed; check)
+            - hyphen join at p0094: …ound that wash-|ing, done very … (hyphen removed; check)
+            - hyphen join at p0096: … pleasant even-|ing, talking ro… (hyphen removed; check)
+            - hyphen join at p0114: …port—a magnifi-|cent view of th… (hyphen removed; check)
+            - hyphen join at p0121: …tier than Monu-|ment Park itsel… (hyphen removed; check)
+            - hyphen join at p0133: …and paint them-|selves red and … (hyphen removed; check)
+            - hyphen join at p0142: …he most beauti-|ful of all the … (hyphen removed; check)
+            - hyphen join at p0169: …is noble terri-|tory, will do w… (hyphen removed; check)
+            - hyphen join at p0201: …ill his splash-|ings attracted … (hyphen removed; check)
+            - hyphen join at p0211: …ducted the ser-|vice, and we ha… (hyphen removed; check)
+            - hyphen join at p0231: … of a conversa-|tion: but for t… (hyphen removed; check)
+            - hyphen join at p0247: …ernoon or even-|ing. This morni… (hyphen removed; check)
+            - hyphen join at p0268: …here are excel-|lent shops, ful… (hyphen removed; check)
+            - hyphen join at p0309: … travelled out-|side all day, t… (hyphen removed; check)
+            - hyphen join at p0323: …war and revolu-|tion in this tr… (hyphen removed; check)
+            - hyphen join at p0362: …ht out. The in-|former was told… (hyphen removed; check)
+            - hyphen join at p0384: … himself under-|stood:—“Señor J… (hyphen removed; check)
+            - hyphen join at p0391: … Bajio at Sala-|manca. Toluca i… (hyphen removed; check)
+            - hyphen join at p0393: …d veins of cin-|nabar. The foll… (hyphen removed; check)
+            - hyphen join at p0394: …plain. My posi-|tion is this: M… (hyphen removed; check)
+            - hyphen join at p0399: …nd the two bar-|rancas disappea… (hyphen removed; check)
+            - hyphen join at p0409: …stage of decom-|position. Poor … (hyphen removed; check)
+[ look (9)] joins: page joins: missing [[cont]], or [[cont]] after a closed sentence
+            - p0031: [[cont]] after a closed sentence …'orities to come on board.' | 'The scene was marvellousl'
+            - p0139: [[cont]] after a closed sentence …'ir senses to speak to us.' | 'But at last the contracto'
+            - p0188: [[cont]] after a closed sentence …'air of her favourite dog!' | 'There are also capital sh'
+            - p0192: [[cont]] after a closed sentence …'Well, there,—I’m done!' | 'But, sir, when you’ll'
+            - p0240: [[cont]] after a closed sentence …' rising rugged behind it.' | 'After half-an-hour more, '
+            - p0257: [[cont]] after a closed sentence …' looking at us with pity.' | 'But our good escort kept '
+            - p0262: [[cont]] after a closed sentence …'s immensely amused at it.' | 'We were talking of the ba'
+            - p0330: [[cont]] after a closed sentence …'unciamiento last October.' | 'I could hardly realize th'
+            - p0438: [[cont]] after a closed sentence …'te the Mexican to action.' | 'The very products of the '
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[ look (1)] contents: entries of the printed contents with no matching heading
+            - p0021: 'The Hotel Iturbide—Flowers—Tacubaya—The Paseo—Aztec calendar stone—The'
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight PASS: south-by-west-kingsley v1 — 0 to fix, 2 waived; to look at: hyphen-joins 26, joins 9, contents 1 — tools@6b8af86 2026-11-19

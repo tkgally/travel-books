@@ -53,9 +53,9 @@
             - p0168: [[cont]] after a closed sentence …'much less for travellers.' | 'Salem submerged the muddy'
             - p0271: [[cont]] after a closed sentence …'this saccharine addition.' | 'Whether the dash of sugar'
 [       ok] folios: printed page numbers that break the sequence
-[       ok] leaves: leaves with no page file between the first and the last page file (a draft refused or lost)
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
 [       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
 [       ok] contents: entries of the printed contents with no matching heading
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: sketches-awheel-workman v1 — 0 to fix, 0 waived; to look at: hyphen-joins 31, joins 6 — tools@e27975f 2026-11-19
+preflight PASS: sketches-awheel-workman v2 — 0 to fix, 0 waived; to look at: hyphen-joins 31, joins 6 — tools@6b8af86 2026-11-19

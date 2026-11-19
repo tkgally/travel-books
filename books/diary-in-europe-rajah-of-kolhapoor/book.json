@@ -1,6 +1,6 @@
 {
  "id": "diary-in-europe-rajah-of-kolhapoor",
- "version": 3,
+ "version": 4,
  "date": "2026-11-19",
  "title": "Diary of the Late Rajah of Kolhapoor, during His Visit to Europe in 1870",
  "short_title": "Diary of the Rajah of Kolhapoor",
@@ -52,6 +52,11 @@
    "version": 3,
    "date": "2026-11-19",
    "note": "No change to the text or the downloads; only the checking record was updated."
+  },
+  {
+   "version": 4,
+   "date": "2026-11-19",
+   "note": "Contents: entries added inside the diary (spans of dates and the places visited) and the appendices listed by their printed titles; the ODT has a contents list. Text unchanged."
   }
  ],
  "divisions": [
@@ -210,7 +215,7 @@
   "The printed contents has one entry for the diary. The contents of these editions add the editor’s entries for spans of dates and the places visited, and list the appendices under the titles the printed contents gives them."
  ],
  "audit": {
-  "version": 3,
+  "version": 4,
   "date": "2026-11-19",
   "pages": 6,
   "recall": "30/30",
@@ -220,6 +225,10 @@
  },
  "frontispiece": "p0010-1",
  "waivers": [
-  {"check": "leaves", "match": "p0009", "why": "the Internet Archive's card, not part of the book: left out on purpose (log.md)"}
+  {
+   "check": "leaves",
+   "match": "p0009",
+   "why": "the Internet Archive's card, not part of the book: left out on purpose (log.md)"
+  }
  ]
 }

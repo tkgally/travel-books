@@ -1,6 +1,0 @@
-The heading level (`#` or `##`) is transcription markup, not something printed on the page. The scan only shows "CHAPTER XVI.", "CHAPTER XVII.", "CHAPTER XVIII." and "CHAPTER XIX.", all in the same centred capitals. Since all four headings are printed alike, I picked the reading that uses `##` each time, matching the surrounding context. My confidence is only medium because the scan can't settle markup.
-
-{"n": 1, "is": "B", "print": "CHAPTER XV", "sure": "medium"}
-{"n": 2, "is": "A", "print": "CHAPTER XV", "sure": "medium"}
-{"n": 3, "is": "A", "print": "CHAPTER XV", "sure": "medium"}
-{"n": 4, "is": "A", "print": "CHAPTER XI", "sure": "medium"}

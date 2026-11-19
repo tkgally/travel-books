@@ -66,5 +66,6 @@ Scan check: all 9 contact sheets looked at 2026-11-19; full size: p0009, p0079�
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
 | 1 | 2026-11-19 | PASS — 0 to fix, 0 waived; to look at: hyphen-joins 18, joins 5 (read) — tools@75f0f85 | 30/30 and 25/25 (fallback pages); 0 real errors / 11 pages | first publication; five pages by the OCR fallback |
+| 2 | 2026-11-19 | PASS — 0 to fix, 0 waived; to look at: hyphen-joins 18, joins 5 — tools@6b8af86 2026-11-19 | as version 1 (text unchanged) | contents: parts nest their Leaves; places or subject in each Leaf entry; ODT contents list (errata 2026-11-19) |
 
 ## Known issues

@@ -1,5 +1,0 @@
-{"find": "Cow-catching a dangerous amusement.", "replace": "Cow-catching a dangerous amusement."}
-
-Wait — that find/replace is identical, so it changes nothing. The draft has no period after "amusement", so here is the corrected entry:
-
-{"find": "a dangerous amusement.\n", "replace": "a dangerous amusement.\n"}

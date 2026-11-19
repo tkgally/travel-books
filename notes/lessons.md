@@ -57,6 +57,13 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - Drafts type the capitals after a drop capital as small capitals (`T<sc>he</sc>`) on some chapters and as capitals
   on others; in both books so far the print had full capitals. Look at two openings on the scan and make all agree.
 
+## Trigger: a printed contents with chapter summaries
+
+- Drafts type such contents page by page differently (`##` headings and `[[subtitle]]`s on some pages, tables on
+  others), and `[[cont]]` lands mid-page after a heading. Make it plain lines as printed (`[[center]]` number and
+  title, the topics as a paragraph ending in `<pref>`), drop "PAGE" heads and dot leaders [*South by West*, 2026-11-19].
+- A page that starts flush left after a closed sentence is still a continuation (`joins` lists it): look at the indent.
+
 ## Trigger: footnotes
 
 - A note continued over the page arrives as a note with a new mark and no reference: make it `[[fn cont]]`.
