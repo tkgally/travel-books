@@ -1,5 +1,0 @@
-{"given": "of the city of liverpool.", "print": "of the city of Liverpool.", "sure": "high"}
-{"given": "four on five cases decided", "print": "four or five cases decided", "sure": "high"}
-{"given": "decided in this country such a short", "print": "decided in this country in such a short", "sure": "high"}
-{"given": "of the Garter. Then; with Mrs.", "print": "of the Garter. Then, with Mrs.", "sure": "high"}
-{"given": "the Mayor’s official refidence, where", "print": "the Mayor’s official residence, where", "sure": "high"}

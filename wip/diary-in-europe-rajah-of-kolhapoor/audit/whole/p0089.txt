@@ -1,5 +1,0 @@
-{"given": "which are imported; such as rice", "print": "which are imported, such as rice", "sure": "high"}
-{"given": "In if there are courts", "print": "In it there are courts", "sure": "high"}
-{"given": "Liverpool is said be one of", "print": "Liverpool is said to be one of", "sure": "high"}
-{"given": "He takes delight in showiug everything", "print": "He takes delight in showing everything", "sure": "high"}
-{"given": "went to the theater, which is", "print": "went to the theatre, which is", "sure": "high"}

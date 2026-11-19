@@ -4,6 +4,7 @@
 
 | Book and version | Date | Leaves | Pipeline | Spots judged | Judge sided with draft / verifier / neither | Scan checks that overturned the judge | Cost $ (Claude, API-equivalent) | OpenRouter $ | Preflight | Audit (recall; real errors / pages) | Errors reported after publication |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| Diary of the Rajah of Kolhapoor v1 | 2026-11-19 | 183 | Opus draft → Sonnet corrections → Opus judge | 10 | 7 / 2 / 0 (1 structural) | 1 (p0170 name: judge "sure: high" was wrong) | 19.36 | 0 | PASS, 1 waived | 30/30; 0 / 6 | |
 
 ## Calibrations
 
