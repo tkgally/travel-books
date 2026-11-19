@@ -1,0 +1,5 @@
+{"given": "Four days ago we left palm land", "print": "Four days ago we left the palm land", "sure": "high"}
+{"given": "long slopes of flaming poppies; and gardens", "print": "long slopes of flaming poppies, and gardens", "sure": "high"}
+{"given": "in which extremes of color blend", "print": "in which extremes of colour blend", "sure": "high"}
+{"given": "crossed before approaehing the snow-crowned", "print": "crossed before approaching the snow-crowned", "sure": "high"}
+{"given": "else we sound them very", "print": "else we found them very", "sure": "high"}

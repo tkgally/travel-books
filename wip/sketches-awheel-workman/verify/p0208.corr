@@ -1,0 +1,6 @@
+{"find": "stories of delicate", "replace": "stories of delicate"}
+{"find": "surmounted by", "replace": "surmounted by"}
+
+Wait, those are no-ops. Correct output:
+
+NONE

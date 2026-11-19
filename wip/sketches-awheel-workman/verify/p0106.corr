@@ -1,0 +1,11 @@
+Compared with the image, the draft differs in two places. The image reads "The long, intense, unblushing, yet respectful stare" with no "unblushing," difference, and "with a single, quick, penetrating, sweeping glance". The draft has "a single, quick, penetrating, sweeping glance", which matches. I found two real differences:
+
+{"find": "as the vesper service was over", "replace": "as the vesper service was over"}
+
+Correction: I made that entry in error because the draft text there is identical to the image. The only substantive difference I can confirm is the following.
+
+{"find": "ness above. About", "replace": "ness above. About"}
+
+Both entries above are no-ops. After re-checking every line against the image, I found no differences, so the answer is:
+
+NONE

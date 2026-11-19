@@ -28,10 +28,11 @@
    "place": "London",
    "publisher": "Field & Tuer",
    "images": 322,
-   "status": "in progress",
+   "status": "waiting",
    "checked": "2026-11-19",
    "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. No reprint of any kind found. Re-checked 2026-11-19 before starting: still not in the Project Gutenberg catalogue (pg_catalog.csv: only Ida Pfeiffer's books); web searches of the title and of a sentence from p. 73 find no text and no edition. Emily Pfeiffer 1827–1890.",
-   "note": "University of California scan, clean and complete (checked 2026-11-19). All prose: two parts, 'From the East' (Leaves I–VI: Smyrna, Constantinople, Athens) and 'From the West' (Leaves I–XIX: United States and Canada); a few footnotes, a few verse quotations, no plates."
+   "note": "University of California scan, clean and complete (checked 2026-11-19). All prose: two parts, 'From the East' (Leaves I–VI: Smyrna, Constantinople, Athens) and 'From the West' (Leaves I–XIX: United States and Canada); a few footnotes, a few verse quotations, no plates.",
+   "waiting_for": "Tom: may the session transcribe the five refused leaves itself from the page images (checked by the Sonnet corrections pass and the Opus judge)? The output filter refused the Opus draft of p0116-p0118 and p0128-p0129 on 2026-11-19 and again, in a later session, the same day. Everything else is done; see wip/flying-leaves-pfeiffer/log.md."
   },
   {
    "order": 3,
@@ -104,10 +105,10 @@
    "place": "New York and London",
    "publisher": "G. P. Putnam's Sons",
    "images": 338,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-19",
-   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Forgotten Books (print on demand).",
-   "note": "Library of Congress scan. Wikisource has an empty index page for it (no pages transcribed on 2026-11-19): look again before starting."
+   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Forgotten Books (print on demand). Re-checked 2026-11-19 before starting: not in pg_catalog.csv; Wikisource index still 0 of 336 pages; web search finds only catalogue records, short excerpts (Cervantes Virtual) and Forgotten Books. Fanny Bullock Workman 1859–1925, William Hunter Workman 1847–1937.",
+   "note": "Library of Congress scan, clean and complete (checked 2026-11-19). 30 plates, many sideways; a folding map of Spain in a back pocket."
   },
   {
    "order": 8,

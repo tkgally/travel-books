@@ -38,6 +38,19 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - A model that returns "no corrections" in a few seconds may still be right: the audit's planted errors say
   whether that reader can see (first calibration: Sonnet 27/30, Opus 30/30).
 
+## Trigger: plates (tipped-in leaves) and a frontispiece
+
+- Preflight `conservation` cannot yet follow images the compiler moves: a plate between two pages of one paragraph
+  (put after the joined paragraph) and a captioned `frontispiece` (put at the start of the reading text). Found in
+  *Sketches Awheel* (2026-11-19); fix the check in a session that is not publishing such a book (plan in that
+  book's log). A waiver is no substitute: the check reports only the first difference in a long text.
+- Plates printed sideways: `crop_image.py --rotate 270` when the caption reads bottom to top along the right edge.
+
+## Trigger: drop capitals at chapter openings
+
+- Drafts type the capitals after a drop capital as small capitals (`T<sc>he</sc>`) on some chapters and as capitals
+  on others; in both books so far the print had full capitals. Look at two openings on the scan and make all agree.
+
 ## Trigger: footnotes
 
 - A note continued over the page arrives as a note with a new mark and no reference: make it `[[fn cont]]`.
@@ -71,8 +84,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   description of a shanty. No retries in the same session (RESUME.md); note the leaves in the log. Tom set the
   book aside (2026-11-19) rather than have the session type the pages: ask before choosing that route again.
 - Second case: 5 of 304 in *Flying Leaves* (1885) in two runs of consecutive leaves (p0116–p0118, p0128–p0129:
-  plain prose about German farmers in Wisconsin). Bursts on neighbouring leaves point to the filter's state at
-  the time, not to the page. The tools no longer retry a refusal (`tools/refusal.py`), and preflight `leaves`
+  plain prose about German farmers in Wisconsin). A retry in a later session refused all five again: the
+  refusals follow the page, not the time of the run, so one retry is enough to know. The tools no longer retry a refusal (`tools/refusal.py`), and preflight `leaves`
   lists leaves with no page file: a refused page must not slip into a published book unnoticed.
 
 ## Trigger: OpenRouter

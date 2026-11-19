@@ -8,7 +8,7 @@ import copy, json, os, shutil, sys, tempfile, unittest, zipfile
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, "tools"))
-import build_site, compile_book, corrections, drive_cache, inline, judge, normalize, preflight, render_epub, render_odt, review  # noqa: E402
+import build_site, compile_book, corrections, crop_image, drive_cache, inline, judge, normalize, preflight, render_epub, render_odt, review  # noqa: E402
 import render_html as rh  # noqa: E402
 
 SAMPLE = os.path.join(REPO, "tests", "sample")
@@ -361,6 +361,22 @@ class Drive(unittest.TestCase):
             self.assertEqual(json.load(open(src))["parts"][0].get("drive_id"), "ID1")
         finally:
             shutil.rmtree(tmp, ignore_errors=True)
+
+
+class CropImage(unittest.TestCase):
+    def test_rotate_turns_sideways_plate_upright(self):
+        from PIL import Image
+        im = Image.new("RGB", (400, 200), "white")
+        im.paste((0, 0, 0), (0, 0, 20, 200))          # dark band along the left edge of a wide picture
+        out = crop_image.crop(im, (0, 0, 1, 1), rotate=90, longest=1600)
+        self.assertEqual(out.size, (200, 400))
+        self.assertLess(out.getpixel((100, 395)), (60, 60, 60))   # left edge turned counter-clockwise -> bottom
+        self.assertGreater(out.getpixel((100, 5)), (200, 200, 200))
+
+    def test_box_and_size(self):
+        from PIL import Image
+        out = crop_image.crop(Image.new("RGB", (1000, 2000), "white"), (0.1, 0.1, 0.6, 0.6), longest=500)
+        self.assertEqual(out.size, (250, 500))
 
 
 class Books(unittest.TestCase):

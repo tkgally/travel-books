@@ -1,0 +1,63 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[ FAIL (1)] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+            - pages→JSON text: texts differ from character 19628: …itsambitiontobecomeaharicothasStreamwithSteppingstones,Catal… / …itsambitiontobecomeaharicothassucceededonlytoowell.Itstastec…
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[ FAIL (1)] audit: book.json records the sampled audit of this version
+            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[look (31)] hyphen-joins: page-break hyphen joins (hyphen removed): read the list once
+            - hyphen join at p0030: …o a duty on en-|trance, and the… (hyphen removed; check)
+            - hyphen join at p0045: …ver us, recall-|ing Street’s wo… (hyphen removed; check)
+            - hyphen join at p0047: … and he had re-|sided in Spain … (hyphen removed; check)
+            - hyphen join at p0066: … it by the car-|riage road to M… (hyphen removed; check)
+            - hyphen join at p0074: …eum of the dis-|tinguished dead… (hyphen removed; check)
+            - hyphen join at p0081: …ly less in num-|ber, many of wh… (hyphen removed; check)
+            - hyphen join at p0083: …nd his mind re-|lieved of the f… (hyphen removed; check)
+            - hyphen join at p0090: …no other demon-|stration. Occas… (hyphen removed; check)
+            - hyphen join at p0106: … to the loveli-|ness above. Abo… (hyphen removed; check)
+            - hyphen join at p0138: …Brussa, in com-|binations as de… (hyphen removed; check)
+            - hyphen join at p0140: … things in Gra-|nada, but they … (hyphen removed; check)
+            - hyphen join at p0162: …tween the Amer-|ican and a cert… (hyphen removed; check)
+            - hyphen join at p0166: …lls, and honey-|suckle. Views o… (hyphen removed; check)
+            - hyphen join at p0180: …ousehold treas-|ures with evide… (hyphen removed; check)
+            - hyphen join at p0186: …nt to work mak-|ing their brown… (hyphen removed; check)
+            - hyphen join at p0195: … state of deca-|dence, and no a… (hyphen removed; check)
+            - hyphen join at p0197: …he mountain re-|gions was never… (hyphen removed; check)
+            - hyphen join at p0217: …t has been sev-|eral times repa… (hyphen removed; check)
+            - hyphen join at p0225: …ing after thir-|teen hours of h… (hyphen removed; check)
+            - hyphen join at p0236: …nt and æstheti-|cism, the cathe… (hyphen removed; check)
+            - hyphen join at p0250: …pleasant, espe-|cially when com… (hyphen removed; check)
+            - hyphen join at p0251: … French polite-|ness he urged u… (hyphen removed; check)
+            - hyphen join at p0252: …for like a gal-|lant Frenchman … (hyphen removed; check)
+            - hyphen join at p0263: …be stated posi-|tively, but the… (hyphen removed; check)
+            - hyphen join at p0264: …o have been ad-|dressed to us w… (hyphen removed; check)
+            - hyphen join at p0269: …ot been so com-|pletely at the … (hyphen removed; check)
+            - hyphen join at p0282: …ntent on escap-|ing. As soon as… (hyphen removed; check)
+            - hyphen join at p0294: …d July in Span-|ish cities, whi… (hyphen removed; check)
+            - hyphen join at p0305: …inly not appre-|ciated. It may … (hyphen removed; check)
+            - hyphen join at p0307: … are here soft-|ened, and the g… (hyphen removed; check)
+            - hyphen join at p0323: … absurdly deco-|rated Churrigue… (hyphen removed; check)
+[ look (6)] joins: page joins: missing [[cont]], or [[cont]] after a closed sentence
+            - p0036: [[cont]] after a closed sentence …'them the way to the road.' | 'They gave us a military s'
+            - p0111: [[cont]] after a closed sentence …'ucceeded in securing two.' | 'On our return we found th'
+            - p0119: [[cont]] after a closed sentence …'his we were not mistaken.' | 'After leaving Murcia the '
+            - p0150: [[cont]] after a closed sentence …'oceeded to show us rooms.' | 'In the absence of the por'
+            - p0168: [[cont]] after a closed sentence …'much less for travellers.' | 'Salem submerged the muddy'
+            - p0271: [[cont]] after a closed sentence …'this saccharine addition.' | 'Whether the dash of sugar'
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: leaves with no page file between the first and the last page file (a draft refused or lost)
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] contents: entries of the printed contents with no matching heading
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight FAIL: sketches-awheel-workman v1 — 2 to fix, 0 waived; to look at: hyphen-joins 31, joins 6 — tools@9d0b085 2026-11-19

@@ -1,0 +1,20 @@
+{"n": 1, "is": "A", "print": "<sc>puerta del castillo, cuenca</sc>", "sure": "low"}
+{"n": 2, "is": "B", "print": "<sc>stream with stepping-stones, catalonia</sc>", "sure": "low"}
+{"n": 3, "is": "B", "print": "<sc>repairs by the way</sc>", "sure": "low"}
+{"n": 4, "is": "B", "print": "<sc>monastery of montserrat</sc>", "sure": "low"}
+{"n": 5, "is": "A", "print": "<sc>torre de los escipiones, near tarragona</sc>", "sure": "low"}
+{"n": 6, "is": "B", "print": "<sc>cloister of tarragona cathedral</sc>", "sure": "low"}
+{"n": 7, "is": "A", "print": "<sc>a spanish borrico</sc>", "sure": "low"}
+{"n": 8, "is": "B", "print": "<sc>one of the fortress hills of jativa</sc>", "sure": "low"}
+{"n": 9, "is": "B", "print": "<sc>paseo de los martires, alicante</sc>", "sure": "low"}
+{"n": 10, "is": "B", "print": "<sc>under the palms of african spain</sc>", "sure": "low"}
+{"n": 11, "is": "A", "print": "<sc>guardia civil on an andalucian pass</sc>", "sure": "low"}
+{"n": 12, "is": "B", "print": "<sc>in the court of the lions, alhambra</sc>", "sure": "low"}
+{"n": 13, "is": "B", "print": "<sc>at the ultimó suspiro</sc>", "sure": "low"}
+{"n": 14, "is": "B", "print": "<sc>entrance to the gorge, ronda</sc>", "sure": "low"}
+{"n": 15, "is": "B", "print": "<sc>fish market, tetuan</sc>", "sure": "low"}
+{"n": 16, "is": "A", "print": "<sc>basha street, tetuan</sc>", "sure": "low"}
+{"n": 17, "is": "B", "print": "<sc>a market woman of tetuan</sc>", "sure": "low"}
+{"n": 18, "is": "A", "print": "<sc>return from la source, tetuan</sc>", "sure": "low"}
+{"n": 19, "is": "B", "print": "<sc>a lone tower of andalucia</sc>", "sure": "low"}
+{"n": 20, "is": "A", "print": "<sc>roman bridge at merida</sc>", "sure": "low"}

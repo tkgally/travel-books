@@ -1,0 +1,14 @@
+[[page xii]]
+
+| | <sc>page</sc> |
+|---|---|
+| <sc>remnant of roman aqueduct, merida</sc> | <pref>152</pref> |
+| <sc>entering toledo</sc> | <pref>162</pref> |
+| <sc>toledo cathedral with tapestries at corpus christi</sc> | <pref>166</pref> |
+| <sc>rock-girt cuenca</sc> | <pref>182</pref> |
+| <sc>house at cuenca</sc> | <pref>190</pref> |
+| <sc>en route to the feria, avila</sc> | <pref>206</pref> |
+| <sc>toro de guisando, avila</sc> | <pref>210</pref> |
+| <sc>puerta of the palace of doña urraca, zamora.</sc> | <pref>214</pref> |
+| <sc>romanesque entrance, la magdalena, zamora.</sc> | <pref>232</pref> |
+| <sc>bridge in the mountains of navarre</sc> | <pref>240</pref> |
