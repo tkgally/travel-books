@@ -1,0 +1,41 @@
+# How the method is improved
+
+The aim is that each book is done a little better than the last and that nothing is learned twice.
+
+## In every session
+
+- A miss (an error that got further than it should) is turned, in that session, into a preflight check
+  (starting in `observe`), a test, or a line in `lessons.md` — in that order of preference.
+- A false alarm from a check is recorded in `metrics.md` §"Preflight checks"; the check is fixed, with a test,
+  in a session that is not publishing a book it blocks.
+- Each published version gets a row in `metrics.md`.
+
+## Review sessions (every fifth published book, or when the numbers say so)
+
+No new book. Read `metrics.md`, `errata.md`, `lessons.md` and the last five book logs, then:
+
+1. **Where do errors come from?** Tabulate errata and audit finds by kind (misread letter, modernized
+   spelling, punctuation, markup, structure, metadata) and by the stage that should have caught them. The
+   largest class gets a change: a prompt line, a check, a different pipeline for that kind of book.
+2. **Is each stage earning its cost?** Spots judged, how often the judge overturned the verifier, how often
+   the scan overturned the judge, audit recall, dollars per page. A stage that changes nothing over five
+   books is tested without (on a sample, with `score.py`) before it is dropped; a stage that is often wrong
+   gets a second look at its prompt.
+3. **Checks:** promote `observe` checks whose alarms were mostly real; fix or drop the noisy ones.
+4. **Notes:** prune `lessons.md` (delete what tools enforce, merge duplicates); bring the skills and
+   `workflow.md` to the current procedure; make sure `site/about.md` still describes what is done.
+5. **Earlier books:** does any published book now differ visibly from the current style, or would the
+   current pipeline fix a significant number of errors in it? If so, add a row to the queue to redo it.
+6. **Site:** open the live site on a narrow and a wide screen; check the landing page, one book page, one
+   chapter; run an accessibility pass (headings in order, link text, contrast, keyboard focus).
+7. **This file:** is the review itself finding things? If two reviews in a row change nothing, lengthen the
+   interval; if errata arrive faster than reviews, shorten it. Record what the review changed below.
+
+Benchmarks before changing models or pipeline: 12–16 pages of a published book whose text has been through
+audit and errata (the best ground truth available), `tools/score.py`, results in `metrics.md`.
+
+## Review log
+
+| Date | Books covered | What changed |
+|---|---|---|
+| 2026-11-19 | — (set-up) | Pipeline, checks and notes taken over from pdf-to-epub's English workflow and rebuilt around a book JSON; first calibration in `metrics.md`. |

@@ -1,0 +1,387 @@
+{
+ "about": "The ledger of books: chosen (queued), being transcribed (in progress), published, waiting for an answer from Tom, and rejected. Rules: notes/selection.md. `order` is a suggestion, not an obligation.",
+ "books": [
+  {
+   "order": 1,
+   "ia": "diarylaterajahk00unkngoog",
+   "slug": "diary-in-europe-rajah-of-kolhapoor",
+   "title": "Diary of the Late Rajah of Kolhapoor, during His Visit to Europe in 1870",
+   "author": "Rajaram, Rajah of Kolhapur; edited by Edward W. West",
+   "year": 1872,
+   "place": "London",
+   "publisher": "Smith, Elder & Co.",
+   "images": 189,
+   "status": "queued",
+   "checked": "2026-11-19",
+   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Creative Media, CreateSpace, Forgotten Books (print on demand). A Marathi translation (2025) is not an English edition.",
+   "note": "Short; a Google scan of a Michigan copy (greyscale, clean on the sampled page): check every page before starting. Editor's introduction and notes are part of the book."
+  },
+  {
+   "order": 2,
+   "ia": "flyingleavesfrom00pfeirich",
+   "slug": "flying-leaves-pfeiffer",
+   "title": "Flying Leaves from East and West",
+   "author": "Emily Pfeiffer",
+   "year": 1885,
+   "place": "London",
+   "publisher": "Field & Tuer",
+   "images": 322,
+   "status": "queued",
+   "checked": "2026-11-19",
+   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. No reprint of any kind found.",
+   "note": "University of California scan. Not yet opened to confirm it is all prose."
+  },
+  {
+   "order": 3,
+   "ia": "southbywestorwin00king",
+   "slug": "south-by-west-kingsley",
+   "title": "South by West; or, Winter in the Rocky Mountains and Spring in Mexico",
+   "author": "Rose Georgina Kingsley; edited by Charles Kingsley",
+   "year": 1874,
+   "place": "London",
+   "publisher": "W. Isbister & Co.",
+   "images": 452,
+   "status": "queued",
+   "checked": "2026-11-19",
+   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Kessinger, Creative Media (print on demand).",
+   "note": "University of California scan. Preface by Charles Kingsley; some plates."
+  },
+  {
+   "order": 4,
+   "ia": "journalofresiden00jaha",
+   "slug": "journal-of-a-residence-nowrojee-merwanjee",
+   "title": "Journal of a Residence of Two Years and a Half in Great Britain",
+   "author": "Jehangeer Nowrojee and Hirjeebhoy Merwanjee",
+   "year": 1841,
+   "place": "London",
+   "publisher": "W. H. Allen & Co.",
+   "images": 538,
+   "status": "queued",
+   "checked": "2026-11-19",
+   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Creative Media (print on demand). An excerpt is in an anthology.",
+   "note": "Getty Research Institute scan, crisp. About 500 pages."
+  },
+  {
+   "order": 5,
+   "ia": "betweentwooceans00hard",
+   "slug": "between-two-oceans-hardy",
+   "title": "Between Two Oceans; or, Sketches of American Travel",
+   "author": "Iza Duffus Hardy",
+   "year": 1884,
+   "place": "London",
+   "publisher": "Hurst & Blackett",
+   "images": 394,
+   "status": "queued",
+   "checked": "2026-11-19",
+   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Kessinger (print on demand).",
+   "note": "Boston Public Library scan (another: cu31924023242104). Sketches rather than one continuous narrative."
+  },
+  {
+   "order": 6,
+   "ia": "viarhodesiajourn00mans",
+   "slug": "via-rhodesia-mansfield",
+   "title": "Via Rhodesia: A Journey through Southern Africa",
+   "author": "Charlotte Mansfield",
+   "year": 1911,
+   "place": "London",
+   "publisher": "Stanley Paul & Co.",
+   "images": 462,
+   "status": "queued",
+   "checked": "2026-11-19",
+   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. No reprint found.",
+   "note": "University of California scan. 144 illustrations: much cropping work."
+  },
+  {
+   "order": 7,
+   "ia": "sketchesawheelin00work",
+   "slug": "sketches-awheel-workman",
+   "title": "Sketches Awheel in Modern Iberia",
+   "author": "Fanny Bullock Workman and William Hunter Workman",
+   "year": 1897,
+   "place": "New York and London",
+   "publisher": "G. P. Putnam's Sons",
+   "images": 338,
+   "status": "queued",
+   "checked": "2026-11-19",
+   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Forgotten Books (print on demand).",
+   "note": "Library of Congress scan. Wikisource has an empty index page for it (no pages transcribed on 2026-11-19): look again before starting."
+  },
+  {
+   "order": 8,
+   "ia": "ourridethrougha01stevgoog",
+   "slug": "our-ride-through-asia-minor-scott-stevenson",
+   "title": "Our Ride through Asia Minor",
+   "author": "Mrs. Scott-Stevenson",
+   "year": 1881,
+   "place": "London",
+   "publisher": "Chapman & Hall",
+   "images": 459,
+   "status": "queued",
+   "checked": "2026-11-19",
+   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Forgotten Books, Creative Media (print on demand). The Online Books Page not checked.",
+   "note": "Google scan of a Harvard copy; a library scan also exists (39020025955066-ourridethrougha): compare and use the better."
+  },
+  {
+   "order": 9,
+   "ia": "unprotectedfema00lowgoog",
+   "slug": "unprotected-females-in-sicily-lowe",
+   "title": "Unprotected Females in Sicily, Calabria, and on the Top of Mount Aetna",
+   "author": "[Emily Lowe]",
+   "year": 1859,
+   "place": "London",
+   "publisher": "Routledge, Warnes & Routledge",
+   "images": 341,
+   "status": "queued",
+   "checked": "2026-11-19",
+   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Creative Media, Sagwan (print on demand).",
+   "note": "Google bilevel scan of a Harvard copy: judge its legibility on a sample before accepting. Authorship given variously to Emily or Helen Lowe."
+  },
+  {
+   "order": 10,
+   "ia": "coronacoronetbei00toddiala",
+   "slug": "corona-and-coronet-todd",
+   "title": "Corona and Coronet: Being a Narrative of the Amherst Eclipse Expedition to Japan",
+   "author": "Mabel Loomis Todd",
+   "year": 1898,
+   "place": "Boston and New York",
+   "publisher": "Houghton, Mifflin & Co.",
+   "images": 504,
+   "status": "queued",
+   "checked": "2026-11-19",
+   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Creative Media (print on demand).",
+   "note": "University of California scan (another: coronacoronetbei00todd). Many plates."
+  },
+  {
+   "order": 11,
+   "ia": "womanstrekfromc00hall",
+   "slug": "womans-trek-hall",
+   "title": "A Woman's Trek from the Cape to Cairo",
+   "author": "Mary Hall",
+   "year": 1907,
+   "place": "London",
+   "publisher": "Methuen & Co.",
+   "images": 564,
+   "status": "queued",
+   "checked": "2026-11-19",
+   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. No reprint found.",
+   "note": "Smithsonian scan (1908 printing: womanstrekfromca00hall). Long, many plates."
+  },
+  {
+   "order": 12,
+   "ia": "travelsthroughpo00twis",
+   "slug": "travels-through-portugal-and-spain-twiss",
+   "title": "Travels through Portugal and Spain, in 1772 and 1773",
+   "author": "Richard Twiss",
+   "year": 1775,
+   "place": "London",
+   "publisher": "Printed for the author",
+   "images": 500,
+   "status": "queued",
+   "checked": "2026-11-19",
+   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Not in the Eighteenth Century Collections Online text set. Reprints seen: Creative Media and another (print on demand). A Spanish translation (1999) is not an English edition.",
+   "note": "University of California scan. Long s throughout, a folding map, six plates, long appendices. Do after several nineteenth-century books; expect to extend the prompts for eighteenth-century printing first."
+  },
+  {
+   "order": 13,
+   "ia": "womanswinterinaf00came",
+   "slug": "womans-winter-in-africa-cameron",
+   "title": "A Woman's Winter in Africa: A 26,000 Mile Journey",
+   "author": "Charlotte Cameron",
+   "year": 1913,
+   "place": "London",
+   "publisher": "Stanley Paul & Co.",
+   "images": 416,
+   "status": "queued",
+   "checked": "2026-11-19",
+   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. No reprint found.",
+   "note": "University of California scan. Author died 1946."
+  },
+  {
+   "order": 14,
+   "ia": "sportswomaninind00savorich",
+   "slug": "sportswoman-in-india-savory",
+   "title": "A Sportswoman in India",
+   "author": "Isabel Savory",
+   "year": 1900,
+   "place": "London",
+   "publisher": "Hutchinson & Co.",
+   "images": 530,
+   "status": "waiting",
+   "checked": "2026-11-19",
+   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Kessinger, Creative Media (print on demand).",
+   "note": "University of California scan; 48 plates. QUESTION FOR TOM: the author died in 1966, so the text is public domain in the United States and Japan but still in copyright in countries with a life-plus-70 term until 2037. Publish or leave out?"
+  }
+ ],
+ "rejected": [
+  {
+   "title": "Workman, Algerian Memories",
+   "why": "text online (A Celebration of Women Writers)",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Yoshio Markino, A Japanese Artist in London",
+   "why": "Project Gutenberg",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Annie Harvey, Turkish Harems and Circassian Homes",
+   "why": "Project Gutenberg",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Halil Halid, Diary of a Turk",
+   "why": "Project Gutenberg",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Mary Gaunt, travel books",
+   "why": "Project Gutenberg",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "E. G. Kemp, The Face of China; The Face of Manchuria, Korea and Russian Turkestan",
+   "why": "Project Gutenberg",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Ella Sykes, Through Deserts and Oases of Central Asia",
+   "why": "Project Gutenberg",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Philip Thicknesse, A Year's Journey through France",
+   "why": "Project Gutenberg",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Mrs. Alec-Tweedie, Iceland; Finland",
+   "why": "Project Gutenberg",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Mrs. Howard Vincent, both books",
+   "why": "Project Gutenberg",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Nina Mazuchelli, Magyarland",
+   "why": "Project Gutenberg",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Mary FitzGibbon, A Trip to Manitoba",
+   "why": "used only to test the tools on 2026-11-19; eligibility never checked",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Seventeenth-century travel books in general",
+   "why": "nearly all are in the Text Creation Partnership (EEBO) text set, which is public",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Cradock, Letters from Snowdon; Ann Radcliffe, Journey 1794; Helen Maria Williams",
+   "why": "in the ECCO-TCP text set",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Ella Sykes, Through Persia on a Side-Saddle",
+   "why": "reprinted (Gorgias 2008; Elibron 2001)",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Mazuchelli, The Indian Alps",
+   "why": "reprinted (Elibron)",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Olive MacLeod, Chiefs and Cities of Central Africa",
+   "why": "reprinted 1971",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Malabari, The Indian Eye on English Life",
+   "why": "2013 edition",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Lady Duffus Hardy, Through Cities and Prairie Lands",
+   "why": "reprinted (Arno 1974)",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Yelverton, Teresina in America",
+   "why": "reprinted (Arno 1974)",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Emily Faithfull, Three Visits to America",
+   "why": "reprinted (Cambridge 2011)",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Agnes Smith, Eastern Pilgrims",
+   "why": "reprinted (Cambridge 2012)",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Anna D'Almeida, A Lady's Visit to Manilla and Japan",
+   "why": "reprinted (Ganesha 2003)",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Mary H. Krout, Hawaii and a Revolution",
+   "why": "reprinted (Elibron 2001)",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Helen Sanborn, A Winter in Central America and Mexico",
+   "why": "reprinted (Popol Vuh Museum)",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Samuel Sharp, Letters from Italy",
+   "why": "reprinted (Elibron 2005)",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Mary Ann Hanway, A Journey to the Highlands of Scotland",
+   "why": "reprinted (Valancourt 2010)",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "G. N. Nadkarni, Journal of a Visit to Europe in 1896",
+   "why": "reprinted (Taraporevala 1981)",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Lowe, Unprotected Females in Norway (unprotectedfema00lowegoog)",
+   "why": "the only Internet Archive copy has no page-image archive; reconsider if a better scan appears",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "T. B. Pandian, England to an Indian Eye",
+   "why": "no usable scan",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Bhagvatsinhji, Journal of a Visit to England in 1883; T. N. Mukharji, A Visit to Europe; Lala Baijnath, England and India; Satthianadhan, Four Years in an English University; Haldar, English Diary of an Indian Student",
+   "why": "no usable scan (Digital Library of India copies only)",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Lady Grove, Seventy-one Days' Camping in Morocco",
+   "why": "not on the Internet Archive",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Lilian Leland, Traveling Alone (travelingalonewo00lela)",
+   "why": "scholars doubt the journey took place",
+   "checked": "2026-11-19"
+  },
+  {
+   "title": "Annie S. Peck, A Search for the Apex of America",
+   "why": "an unidentified 2011 edition: reprint status not settled",
+   "checked": "2026-11-19"
+  }
+ ]
+}

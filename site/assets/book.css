@@ -1,0 +1,43 @@
+/* Text styles shared by the web pages and the EPUB of every book. Per-book additions: book.json "css_extra". */
+.book { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif; line-height: 1.6;
+  -webkit-hyphens: auto; hyphens: auto; }
+.book p { margin: 0; text-indent: 1.4em; text-align: justify; }
+.book p.first, .book p.right, .book p.center, .book p.subtitle, .book blockquote p:first-child,
+.book .note p, .book figcaption, .book td p { text-indent: 0; }
+.book p.right { text-align: right; margin-top: 0.3em; }
+.book p.center { text-align: center; margin: 0.6em 0; }
+.book p.subtitle { text-align: left; font-size: 0.92em; margin: 0 1.5em 1.5em 1.5em; -webkit-hyphens: none; hyphens: none; }
+.book h1, .book h2, .book h3 { text-align: center; font-weight: normal; line-height: 1.35; -webkit-hyphens: none; hyphens: none;
+  margin: 2em 0 1em 0; }
+.book h1 { font-size: 1.45em; margin-top: 2.5em; }
+.book h2 { font-size: 1.2em; }
+.book h3 { font-size: 1.05em; font-style: italic; }
+.book blockquote { margin: 1em 1.5em; font-size: 0.95em; }
+.book .verse { margin: 1em 1.5em 1em 2.5em; font-size: 0.95em; }
+.book .verse p { text-indent: 0; text-align: left; margin: 0 0 0.8em 0; -webkit-hyphens: none; hyphens: none; }
+.book .verse .line { display: block; padding-left: 1.5em; text-indent: -1.5em; }
+.book .verse p:last-child { margin-bottom: 0; }
+.book .sc { font-variant: small-caps; letter-spacing: 0.03em; }
+.book figure { text-align: center; margin: 1.5em 0; page-break-inside: avoid; break-inside: avoid; }
+.book figure img { max-width: 100%; max-height: 90vh; height: auto; width: auto; }
+.book figcaption { font-size: 0.88em; margin-top: 0.4em; text-align: center; }
+.book hr.break { border: 0; height: 0; margin: 0 0 1.6em 0; }
+.book .tablewrap { overflow-x: auto; margin: 1em 0; }
+.book table { border-collapse: collapse; margin: 0 auto; font-size: 0.92em; }
+.book td { border: 1px solid #999; padding: 0.2em 0.5em; vertical-align: top; }
+.book .notes { font-size: 0.88em; margin-top: 2.5em; }
+.book .notes hr { border: 0; border-top: 1px solid #999; width: 30%; margin: 0 0 1em 0; }
+.book .note p { margin: 0.4em 0; text-align: left; }
+.book a.noteref { font-size: 0.75em; vertical-align: super; line-height: 0; text-decoration: none; padding: 0 0.1em; }
+.book a.noteback { text-decoration: none; }
+.book a.pageref { color: inherit; }
+.book .titlepage { text-align: center; }
+.book .titlepage h1 { margin-top: 3em; }
+.book .titlepage p { text-indent: 0; text-align: center; }
+.book .tp-sub { font-size: 1.05em; margin: 0 1em 2em 1em; }
+.book .tp-author { font-size: 1.15em; margin: 2em 0; }
+.book .tp-imprint { margin: 2em 0 4em 0; }
+.book .tp-note { font-size: 0.82em; text-align: left !important; }
+body.cover-page, .cover-page { text-align: center; margin: 0; padding: 0; }
+.cover-page img { max-width: 100%; max-height: 100vh; }
+nav#toc ol { list-style: none; padding-left: 0; } nav#toc li { margin: 0.4em 0; } nav#toc ol ol { padding-left: 1.2em; font-size: 0.95em; }

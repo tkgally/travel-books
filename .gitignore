@@ -1,0 +1,12 @@
+# Scans, page images and built files never go in the repository (illustration crops in books/*/images do)
+*.pdf
+*.jp2
+*.zip
+*.tar
+*.epub
+*.odt
+_site/
+scratch/
+__pycache__/
+*.pyc
+.DS_Store
