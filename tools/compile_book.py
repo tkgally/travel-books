@@ -309,10 +309,14 @@ def compile_pages(cfg, pages, images=None):
 
         def resolve(m):
             mark = inline.html.unescape(m.group(1))
-            refcount[mark] = refcount.get(mark, 0) + 1
-            n = next((x for x in notes if x["mark"] == mark and x["k"] == refcount[mark]), None)
+            again = mark.endswith(" again")  # [[fnref * again]]: one more reference to the previous note with that mark
+            if again:
+                mark = mark[:-len(" again")].strip()
+            else:
+                refcount[mark] = refcount.get(mark, 0) + 1
+            n = next((x for x in notes if x["mark"] == mark and x["k"] == refcount.get(mark, 0)), None)
             if n is None:
-                warn(f"note reference {mark!r} (occurrence {refcount[mark]}) has no note in division {d['id']} ({d['first_leaf']}…)")
+                warn(f"note reference {mark!r} (occurrence {refcount.get(mark, 0)}{', again' if again else ''}) has no note in division {d['id']} ({d['first_leaf']}…)")
                 return f"<sup>{inline.html.escape(mark)}</sup>"
             n["_ref"] = True
             return f'<noteref to="{n["id"]}">{inline.html.escape(mark)}</noteref>'

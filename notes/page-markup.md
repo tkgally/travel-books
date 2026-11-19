@@ -17,6 +17,7 @@ models (`prompts/_format.md` is the wording they get), edited by the session, re
 | `[[image: description]]` | illustration; file `images/pNNNN-k.jpg` (k-th image on the leaf); the description is the alt text |
 | `[[caption]] text` | printed caption of the image just before |
 | `[[fnref *]]` / `[[fn *]] text` | note reference / note (at the end of the page file); the k-th reference with a mark pairs with the k-th note with that mark in the division |
+| `[[fnref * again]]` | a second printed reference to the note last referenced with that mark (one note, two marks in the text) |
 | `[[fn cont]] text` | continuation of the previous page's last note |
 | `<blockquote>` … `</blockquote>` (own lines) | set-off prose, one paragraph per line; `[[right]]`/`[[center]]` allowed at line start |
 | `<verse>` … `</verse>` (own lines) | verse, one printed line per line, an empty line between stanzas |

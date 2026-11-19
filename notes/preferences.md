@@ -53,4 +53,10 @@
 
 ## Questions for Tom
 
-None open.
+- **2026-11-19, *Diary of the Late Rajah of Kolhapoor* (1872): may it be published?** The Rajah died in 1870.
+  The editor, Capt. Edward W. West of the Bombay Staff Corps, Assistant Political Agent at Kolhapoor, was a
+  captain by 1870 (about twelve years' service), so born about 1840 or earlier; he cannot have been alive in
+  1955. But no source found gives his death date, and `selection.md` says "Death date unknown: establish it
+  from a reliable source or leave the book out." The book is finished and passes every check (audit 30/30).
+  Yes = publish it, and the rule could read "or the dates of the author's career put death before 1956 beyond
+  doubt"; no = it goes to `rejected`.

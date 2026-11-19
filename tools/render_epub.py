@@ -82,7 +82,8 @@ def render(book, images_dir):
     uid = str(uuid.uuid5(uuid.NAMESPACE_URL, "travel-books/" + book["id"]))
     src = book.get("source", {})
     source = f'<dc:source>https://archive.org/details/{e(src["ia_identifier"])}</dc:source>' if src.get("ia_identifier") else ""
-    creators = "\n".join(f'<dc:creator>{e(a["name"])}</dc:creator>' for a in book.get("authors", []))
+    creators = "\n".join(f'<dc:{"contributor" if a.get("role") == "editor" else "creator"}>{e(a["name"])}'
+                         f'</dc:{"contributor" if a.get("role") == "editor" else "creator"}>' for a in book.get("authors", []))
     opf = f"""<?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="pub-id">
 <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">

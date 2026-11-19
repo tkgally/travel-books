@@ -1,0 +1,1 @@
+{"n": 1, "is": "B", "print": "[[center]] R<sc>ajah of</sc> K<sc>olhapoor</sc>,", "sure": "medium"}

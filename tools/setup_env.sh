@@ -3,7 +3,11 @@
 # Usage: tools/setup_env.sh [epubcheck_dir]   (default: /tmp/epubcheck)
 set -e
 if ! command -v tesseract >/dev/null ; then
-  apt-get update -q >/dev/null 2>&1
+  # cloud sessions pass only HTTPS through their proxy: plain-http apt mirrors hang (2026-11-19)
+  for f in /etc/apt/sources.list /etc/apt/sources.list.d/*.sources /etc/apt/sources.list.d/*.list; do
+    if [ -f "$f" ]; then sed -i 's|http://\(archive\|security\)\.ubuntu\.com|https://\1.ubuntu.com|g' "$f"; fi
+  done
+  timeout 600 apt-get update -q >/dev/null 2>&1
   apt-get install -y -q tesseract-ocr tesseract-ocr-eng >/dev/null 2>&1
 fi
 D=${1:-/tmp/epubcheck}
