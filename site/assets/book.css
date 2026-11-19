@@ -7,6 +7,7 @@
 .book p.right { text-align: right; margin-top: 0.3em; }
 .book p.center { text-align: center; margin: 0.6em 0; }
 .book p.subtitle { text-align: left; font-size: 0.92em; margin: 0 1.5em 1.5em 1.5em; -webkit-hyphens: none; hyphens: none; }
+.book p.subtitle.short { text-align: center; font-size: 1em; margin-left: 0; margin-right: 0; }
 .book h1, .book h2, .book h3 { text-align: center; font-weight: normal; line-height: 1.35; -webkit-hyphens: none; hyphens: none;
   margin: 2em 0 1em 0; }
 .book h1 { font-size: 1.45em; margin-top: 2.5em; }

@@ -8,6 +8,14 @@ import html, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import inline  # noqa: E402
 
+
+SHORT_SUBTITLE = 80
+
+
+def short_subtitle(text):
+    """A chapter title or short summary (one line) is centred under the heading; a long list of topics is not."""
+    return len(inline.plain(text)) <= SHORT_SUBTITLE
+
 esc = lambda s: html.escape(s, quote=False)
 attr = lambda s: html.escape(s, quote=True)
 
@@ -184,7 +192,7 @@ class Ctx:
             elif t == "paragraph":
                 cls = []
                 if b.get("role") == "subtitle":
-                    cls.append("subtitle")
+                    cls += ["subtitle", "short"] if short_subtitle(b["text"]) else ["subtitle"]
                 elif b.get("align"):
                     cls.append(b["align"])
                 elif prev in (None, "heading", "image", "break", "subtitle", "table", "quote", "verse"):

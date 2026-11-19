@@ -6,7 +6,7 @@ From Python: render(book, images_dir) -> bytes
 
 The same named styles are used for every book, so documents can be restyled or combined:
   paragraph  Title, Subtitle, Author, Imprint, Edition Note, Heading 1-3, Text Body, First Paragraph,
-             Chapter Summary, Quotation, Verse, Right Aligned, Centered, Caption, Figure, Table Contents,
+             Chapter Title, Chapter Summary, Quotation, Verse, Right Aligned, Centered, Caption, Figure, Table Contents,
              Section Break, Footnote, Contents Heading, Contents 1-3
   character  Italic, Bold, Small Caps, Superscript, Subscript
 Notes are real footnotes; page starts of the printed book are bookmarks named "page-N". After the title page
@@ -56,6 +56,7 @@ STYLES = f"""<?xml version="1.0" encoding="UTF-8"?>
 {pstyle("Heading_20_1", "Heading 1", para='fo:text-align="center" fo:margin-top="2cm" fo:margin-bottom="0.8cm" fo:break-before="page" fo:keep-with-next="always"', text='fo:font-size="16pt" fo:hyphenate="false"', nxt="First_20_Paragraph", outline=1)}
 {pstyle("Heading_20_2", "Heading 2", para='fo:text-align="center" fo:margin-top="0.8cm" fo:margin-bottom="0.5cm" fo:keep-with-next="always"', text='fo:font-size="13pt" fo:hyphenate="false"', nxt="First_20_Paragraph", outline=2)}
 {pstyle("Heading_20_3", "Heading 3", para='fo:text-align="center" fo:margin-top="0.6cm" fo:margin-bottom="0.3cm" fo:keep-with-next="always"', text='fo:font-size="11.5pt" fo:font-style="italic" fo:hyphenate="false"', nxt="First_20_Paragraph", outline=3)}
+{pstyle("Chapter_20_Title", "Chapter Title", para='fo:text-align="center" fo:margin-bottom="0.6cm" fo:keep-with-next="always"', text='fo:font-size="11pt" fo:hyphenate="false"', nxt="First_20_Paragraph")}
 {pstyle("Chapter_20_Summary", "Chapter Summary", para='fo:text-align="start" fo:margin-left="1cm" fo:margin-right="1cm" fo:margin-bottom="0.6cm" fo:keep-with-next="always"', text='fo:font-size="10pt" fo:hyphenate="false"', nxt="First_20_Paragraph")}
 {pstyle("Quotation", "Quotation", para='fo:text-align="justify" fo:margin-left="1cm" fo:margin-right="1cm" fo:margin-top="0.2cm" fo:margin-bottom="0.2cm"', text='fo:font-size="10.5pt"')}
 {pstyle("Verse", "Verse", para='fo:text-align="start" fo:margin-left="2cm" fo:text-indent="-0.5cm" fo:margin-top="0cm" fo:margin-bottom="0cm"', text='fo:font-size="10.5pt" fo:hyphenate="false"')}
@@ -202,7 +203,7 @@ class Odt:
                 out.append(f'<text:h text:style-name="Heading_20_{lv}" text:outline-level="{lv}">{pbs}{self.inline(b["text"])}</text:h>')
             elif t == "paragraph":
                 if b.get("role") == "subtitle":
-                    st = "Chapter_20_Summary"
+                    st = "Chapter_20_Title" if rh.short_subtitle(b["text"]) else "Chapter_20_Summary"
                 elif b.get("align") == "right":
                     st = "Right_20_Aligned"
                 elif b.get("align") == "center":

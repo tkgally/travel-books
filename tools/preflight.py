@@ -44,7 +44,7 @@ CHECKS = collections.OrderedDict([
     ("epubcheck",       ("enforce", "epubcheck: 0 fatals / 0 errors / 0 warnings")),
     ("odt",             ("enforce", "LibreOffice opens the ODT and converts it to PDF")),
     ("audit",           ("enforce", "book.json records the sampled audit of this version")),
-    ("hyphen-joins",    ("observe", "page-break hyphen joins (hyphen removed): read the list once")),
+    ("hyphen-joins",    ("observe", "page-break hyphen joins (hyphen removed) that the book does not settle: read the list once")),
     ("joins",           ("observe", "page joins: missing [[cont]], or [[cont]] after a closed sentence")),
     ("folios",          ("observe", "printed page numbers that break the sequence")),
     ("leaves",          ("enforce", "no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count")),
@@ -281,6 +281,53 @@ def last_text(text):
     return ""
 
 
+WORD = r"[^\W\d_]+"
+
+
+def word_forms(pages):
+    """How the book prints its words: whole, hyphenated, and the first parts of hyphenated words (lower case)."""
+    whole, hyph, first = collections.Counter(), collections.Counter(), collections.Counter()
+    for _, t in pages:
+        t = re.sub(r"<[^>]+>|\[\[[^\]]*\]\]", " ", t).rstrip()
+        t = re.sub(rf"{WORD}-$", " ", t)                       # the broken word at the foot of the page
+        for w in re.findall(rf"{WORD}(?:-{WORD})*", t):
+            w = w.lower()
+            if "-" in w:
+                hyph[w] += 1
+                first[w.split("-")[0]] += 1
+            else:
+                whole[w] += 1
+    return whole, hyph, first
+
+
+def triage_hyphen_joins(items, pages):
+    """The hyphen-join look list without the joins that give a word the book itself prints whole elsewhere
+    (reviewed 2026-11-19: about three in four items of five books, none of them a compound to keep). A join
+    whose hyphenated form, or whose first part with a hyphen (snow-, counter-), the book prints elsewhere is
+    marked as a candidate for keep_hyphens; the rest are listed as before."""
+    whole, hyph, first = word_forms(pages)
+    out, attested = [], 0
+    for it in items:
+        m = re.search(r"…(.*)\|(.*)… \(hyphen removed", it)
+        a = m and re.search(rf"({WORD})-$", re.sub(r"<[^>]+>", "", m.group(1)))
+        b = m and re.match(rf"({WORD})", re.sub(r"<[^>]+>|⟦[^⟧]*⟧", "", m.group(2)))
+        if not (a and b):
+            out.append(it)
+            continue
+        x, y = a.group(1).lower(), b.group(1).lower()
+        if hyph[f"{x}-{y}"]:
+            out.append(f"{it} — the book prints “{x}-{y}” elsewhere: keep_hyphens?")
+        elif whole[x + y]:
+            attested += 1
+        elif len(x) >= 4 and first[x]:
+            out.append(f"{it} — the book hyphenates other “{x}-” words: keep_hyphens?")
+        else:
+            out.append(it)
+    if attested:
+        out.append(f"(and {attested} joins giving a word the book prints whole elsewhere: not listed)")
+    return out
+
+
 def check_joins(pages):
     items = []
     for (l0, t0), (l1, t1) in zip(pages, pages[1:]):
@@ -499,7 +546,7 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
         res["markup"] = check_markup(pages)
         res["sc-caps"] = check_sc(pages)
         res["heading-caps"] = check_heading_caps(pages)
-        res["hyphen-joins"] = [w for w in warnings if w.startswith("hyphen join")]
+        res["hyphen-joins"] = triage_hyphen_joins([w for w in warnings if w.startswith("hyphen join")], pages)
         res["compile"] = [w for w in warnings if not w.startswith("hyphen join")]
         res["folios"] = check_folios(pages)
         res["leaves"] = check_leaves(pages, (cfg.get("source") or {}).get("hidden_leaves", []))

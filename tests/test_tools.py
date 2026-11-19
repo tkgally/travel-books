@@ -713,3 +713,48 @@ class Contents(unittest.TestCase):
             self.assertEqual(sum(len(x.get("sections", [])) for x in book["divisions"]), 1)
         finally:
             shutil.rmtree(tmp, ignore_errors=True)
+
+
+class HyphenJoins(unittest.TestCase):
+    """Review 2026-11-19: the look list drops joins the book itself settles (the whole word printed elsewhere)
+    and marks those whose hyphenated form it prints elsewhere."""
+
+    def warn(self, leaf, a, b):
+        return f"hyphen join at {leaf}: …{a}|{b}… (hyphen removed; check)"
+
+    def test_triage(self):
+        pages = [("p0001", "In the afternoon we took the stepping-stones and a snow-plough."),
+                 ("p0002", "We walked in the after-"), ("p0003", "[[cont]]noon; then the stepping-"),
+                 ("p0004", "[[cont]]stones, the snow-"), ("p0005", "[[cont]]fences and a rare dis-"),
+                 ("p0006", "[[cont]]cussion of <i>ship-</i>"), ("p0007", "[[cont]]<i>wreck</i>.")]
+        items = [self.warn("p0003", "lked in the after-", "noon; then the "),
+                 self.warn("p0004", " then the stepping-", "stones, the sno"),
+                 self.warn("p0005", "ones, the snow-", "fences and a ra"),
+                 self.warn("p0006", " and a rare dis-", "cussion of <i>s"),
+                 self.warn("p0007", "of <i>ship-</i>", "<i>wreck</i>.")]
+        out = preflight.triage_hyphen_joins(items, pages)
+        self.assertEqual(len(out), 5)
+        self.assertIn("“stepping-stones” elsewhere", out[0])
+        self.assertIn("other “snow-” words", out[1])
+        self.assertEqual(out[2:4], items[3:5])                  # not settled by the book (italics too): as before
+        self.assertEqual(out[4], "(and 1 joins giving a word the book prints whole elsewhere: not listed)")
+
+    def test_unparsed_item_listed(self):
+        it = "hyphen join around an image at p0009: …is responsi-|[[image: x]]… (hyphen removed; check)"
+        self.assertEqual(preflight.triage_hyphen_joins([it], []), [it])
+
+
+class ShortSubtitle(unittest.TestCase):
+    """Review 2026-11-19: a short chapter title under the heading is centred (it looked like a stray indented
+    paragraph); a long list of topics stays a left-aligned summary. HTML/EPUB class and ODT style."""
+
+    def test_classes_and_styles(self):
+        long_ = "Topic—" * 20 + "End."
+        book, _ = comp(["# Chapter VIII\n\n[[subtitle]] A Hawaiian Journey\n\n[[subtitle]] " + long_ + "\n\nText."])
+        d = book["divisions"][0]
+        html = "".join(rh.Ctx(book, "web", {x["id"]: "d.html" for x in book["divisions"]}).blocks(d))
+        self.assertIn('<p class="subtitle short">A Hawaiian Journey</p>', html)
+        self.assertIn('<p class="subtitle">Topic', html)
+        odt = zipfile.ZipFile(__import__("io").BytesIO(render_odt.render(book, None))).read("content.xml").decode()
+        self.assertIn('text:style-name="Chapter_20_Title">A Hawaiian Journey', odt)
+        self.assertIn('text:style-name="Chapter_20_Summary">Topic', odt)
