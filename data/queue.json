@@ -15,7 +15,7 @@
    "checked": "2026-11-19",
    "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Creative Media, CreateSpace, Forgotten Books (print on demand). A Marathi translation (2025) is not an English edition. Re-checked 2026-11-19: Gutenberg catalogue, web search (only the 1872 edition, a Forgotten Books print-on-demand reprint, and the 2025 Marathi translation). Editor's death date not found: see the book log and Questions for Tom. Tom, 2026-11-19: publish; a person whose death date is unknown is assumed to have died before age 100 (West, a captain by 1870, was born about 1840 or earlier).",
    "note": "Using the University of California scan diaryoflaterajah00rajarich (200 leaves) rather than the Google scan. Short; a Google scan of a Michigan copy (greyscale, clean on the sampled page): check every page before starting. Editor's introduction and notes are part of the book.",
-   "version": 2,
+   "version": 3,
    "published": "2026-11-19"
   },
   {
@@ -43,10 +43,11 @@
    "place": "London",
    "publisher": "W. Isbister & Co.",
    "images": 452,
-   "status": "in progress",
+   "status": "waiting",
    "checked": "2026-11-19",
    "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Kessinger, Creative Media (print on demand). Re-checked 2026-11-19: not in pg_catalog.csv (Rose Kingsley's other books are); The Online Books Page lists page images only (Germany); web search finds only Kessinger (2007/2010), Creative Media Partners (2023) and other print-on-demand reprints. An ISBN 0-87380-148-2 (Rio Grande Press, a real reprint house) seen near it in results is Schwatka's In the Land of Cave and Cliff Dwellers, not this book. Editor Charles Kingsley d. 1875; author d. 1925; the engravers are not named in the book (work done by 1874, so its makers died before 1955 under rule 5).",
-   "note": "University of California scan. Preface by Charles Kingsley; some plates."
+   "note": "University of California scan. Preface by Charles Kingsley; some plates.",
+   "waiting_for": "Tom, 2026-11-19: skip for the time being and try again in the future. Problem: the output filter refused 3 pages of the Opus draft. Work so far (413 drafted pages, crops) is in wip/south-by-west-kingsley/; see its log."
   },
   {
    "order": 4,

@@ -10,10 +10,17 @@ is Schwatka's *In the Land of Cave and Cliff Dwellers* (Open Library), not this 
 1845–1925; Charles Kingsley (editor, preface) 1819–1875. Engravers not named.
 
 ## Status
-Stage reached: 1 done (scan checked, Drive cache complete: 33 parts); Opus draft running (p0006, p0009–p0441).
-Next step: when `draft/` has 432 pages and `log.jsonl` no error, `python3 tools/normalize.py wip/south-by-west-kingsley/draft`,
-commit, then stage 3 (Sonnet corrections) as in `notes/workflow.md`.
-Half-finished: illustration crops (full-size leaves extracted in this session's scratchpad only).
+**Set aside 2026-11-19 at Tom's request ("skip this book for the time being … try again in the future").**
+Queue row `waiting`. The problem: during the Opus draft the API's output filter refused three pages
+(p0076, p0109, p0189: "Output blocked by content filtering policy"); nothing on them looks objectionable
+(p0076 is the description of the shanty at Colorado Springs). No retries were made (RESUME.md rule).
+Stage reached: Opus draft stopped at 413 of 432 pages; not normalized. Missing: p0076 p0109 p0189 (filter)
+and p0424–p0441 (not yet run when stopped).
+To resume: fetch the pages from Drive (`python3 tools/drive_cache.py fetch wip/south-by-west-kingsley/source.json $B/pages`),
+run the draft again for the missing pages (`--pages 424-441`; resumable), and try the three refused pages once
+more in that later session (the filter may have changed); if refused again, transcribe them in the session from
+the image (three pages) and say so here. Then `normalize.py`, and stage 3. Crops and cover are done
+(`images/`); the full-size leaves are not cached, but the crops are final.
 
 ## Page map
 p0000 colour card (hidden) · p0001 front cover (cloth, agave design stamped) · p0002 front pastedown, UC bookplate ·
@@ -30,7 +37,7 @@ XX p0337, XXI p0364, XXII p0385, XXIII p0410, XXIV p0427 (from the contact sheet
 Illustrations (engravings in the text): p0006 (frontispiece), p0057, p0060, p0063, p0065, p0071, p0077, p0079,
 p0102, p0103, p0116 (diagram of strata, "Grass." / "Plain."), p0118, p0133, p0142, p0185, p0215, p0226, p0263,
 p0320, p0327, p0353. The List of Illustrations has 21 entries; "Monument Creek, 88" still to be matched (p0116
-is a diagram).
+is a diagram; the frontispiece caption reads "Monument Park.—Page 88", so the list's "Monument Creek, 88" probably means this diagram or is a slip — check against the draft's captions).
 Tables: p0170 (Raymond's table of Western coals, printed sideways), p0323, p0435 (figures in columns).
 Footnotes: several (e.g. p0093, p0211, p0376, p0412–p0413, p0429–p0434).
 Scan check: all 12 contact sheets looked at 2026-11-19; full size: p0025, p0116, p0170, p0412; problems: none.
@@ -41,6 +48,7 @@ Scan check: all 12 contact sheets looked at 2026-11-19; full size: p0025, p0116,
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-19 | opus | 413 of 432 | 27.37 | stopped at Tom's request; 3 pages refused by the output filter |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |

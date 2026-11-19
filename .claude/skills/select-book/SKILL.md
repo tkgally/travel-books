@@ -7,8 +7,9 @@ description: Find and vet candidate travel books for the travel-books project (p
 
 Criteria, sources to search and how to choose: `notes/selection.md`. Read it first; this is the procedure.
 
-1. Look at what is published and queued (`data/queue.json`): which regions, periods and kinds of author are
-   missing? Search for those. Read the `rejected` list so nothing is checked twice.
+1. Look at what is published and queued (`data/queue.json`) so that no one kind of author, nationality or
+   destination comes to dominate; search widely. Never choose or pass over a book for the author's gender
+   (Tom, 2026-11-19: a wide range, no group preferred). Read the `rejected` list so nothing is checked twice.
 2. Find candidates: `tools/ia.py search '<query>'` (subjects such as "description and travel", "voyages and
    travels", a region, a decade; sort by few downloads), bibliographies of travel writing, references in
    books already done. Well-known titles are almost always on Project Gutenberg: look for the lesser-known.
