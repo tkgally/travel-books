@@ -25,6 +25,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 | A frontispiece left in the front matter, so missing from the reading editions [first book, 2026-11-19] | book.json `frontispiece`; test (set it whenever the book has one) |
 | `setup_env.sh`'s https rewrite of the apt mirrors matched nothing (`\|` inside `s|…|`), so apt hung on plain http for 20 min [2026-11-19] | fixed; test `SetupEnv` |
 | `drive_cache.py fetch --pages a,b,c` read the list as one name and fetched the wrong parts without a word [2026-11-19] | lists and ranges accepted, anything else refused; test `DrivePages` |
+| A paragraph interrupted by an engraving in the middle of a page split in two (`[[cont]]` dropped) [*South by West*, 2026-11-19] | compiler joins it; test `ImageInParagraph` |
 
 ## Always
 

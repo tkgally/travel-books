@@ -341,6 +341,43 @@ class Corrections(unittest.TestCase):
         self.assertEqual([r[0] for r in rows], ["draft", "verified"])
 
 
+class ImageInParagraph(unittest.TestCase):
+    """A picture in the middle of a page that interrupts a paragraph: `[[cont]]` after it joins the paragraph again
+    (the compiler dropped it and split the paragraph; South by West, 2026-11-19). Invented text."""
+
+    def setUp(self):
+        self.tmp = tempfile.mkdtemp()
+        self.dir = os.path.join(self.tmp, "sample-journey-doe")
+        shutil.copytree(SAMPLE, self.dir)
+        p = os.path.join(self.dir, "pages", "p0005.txt")
+        t = open(p, encoding="utf-8").read()
+        old = "<pref>4</pref>, and by noon"
+        self.assertIn(old, t)
+        open(p, "w", encoding="utf-8").write(t.replace(old, "<pref>4</pref>, and by\n\n[[image: a mill by a river]]\n"
+                                                         "[[caption]] The Mill.\n\n[[cont]]noon", 1))
+        shutil.copy(os.path.join(self.dir, "images", "p0007-1.jpg"), os.path.join(self.dir, "images", "p0005-1.jpg"))
+
+    def tearDown(self):
+        shutil.rmtree(self.tmp)
+
+    def test_joined_and_picture_after_paragraph(self):
+        book, w = compile_book.compile_book(self.dir)
+        self.assertEqual([x for x in w if "[[cont]]" in x], [])
+        blocks = [b for d in book["divisions"] for b in d["blocks"]]
+        i = next(k for k, b in enumerate(blocks) if "and by noon we had made" in b.get("text", ""))
+        self.assertIn("out a halt", blocks[i]["text"])               # and still joined over the page
+        self.assertEqual(blocks[i + 1].get("caption"), "The Mill.")
+        _, report, res = preflight.run(self.dir, skip_epubcheck=True, skip_odt=True)
+        self.assertEqual(res["conservation"], [], report)
+
+    def test_cont_mid_page_without_picture_still_warned(self):
+        p = os.path.join(self.dir, "pages", "p0005.txt")
+        t = open(p, encoding="utf-8").read()
+        open(p, "w", encoding="utf-8").write(t.replace("[[image: a mill by a river]]\n[[caption]] The Mill.\n\n", "", 1))
+        _, w = compile_book.compile_book(self.dir)
+        self.assertTrue(any("not at the top of a page" in x for x in w), w)
+
+
 class Drive(unittest.TestCase):
     def test_pack_parts_are_independent_and_small(self):
         tmp = tempfile.mkdtemp()

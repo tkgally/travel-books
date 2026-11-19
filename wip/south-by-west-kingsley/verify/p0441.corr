@@ -1,0 +1,4 @@
+{"find": "Canon of Westminster.", "replace": "Canon of Westminster."}
+{"find": "[[subtitle]] Canon of Westminster.", "replace": "[[subtitle]] Canon of Westminster."}
+{"find": "<sc>or, first lessons in earth-lore for children.</sc>", "replace": "<sc>Or, First Lessons in Earth-Lore for Children.</sc>"}
+{"find": "<sc>w. isbister & co., 56 ludgate hill, london.</sc>", "replace": "<sc>W. Isbister & Co., 56 Ludgate Hill, London.</sc>"}

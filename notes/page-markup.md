@@ -22,6 +22,7 @@ models (`prompts/_format.md` is the wording they get), edited by the session, re
 | `<blockquote>` … `</blockquote>` (own lines) | set-off prose, one paragraph per line; `[[right]]`/`[[center]]` allowed at line start |
 | `<verse>` … `</verse>` (own lines) | verse, one printed line per line, an empty line between stanzas |
 | `[[cont]]` at the start of the first line inside a blockquote or verse at the top of a page | it continues the previous page's quotation (prose is joined mid-paragraph unless the previous line ended a sentence; verse continues as a new line of the same stanza) |
+| `[[cont]]` at the start of a paragraph right after an `[[image: …]]` (and caption) in the middle of a page | the paragraph the picture interrupts goes on: joined to the paragraph before the picture, and the picture follows that paragraph in the editions |
 | pipe rows `| a | b |` | table |
 | `<pref>34</pref>`, `<pref to="34">text</pref>` | the book's own reference to its page 34: becomes a link when page 34 is in the reading editions |
 | `[[corr printed|corrected]]` | a printer's error corrected by us (`style.md`) |

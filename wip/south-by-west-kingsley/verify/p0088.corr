@@ -1,0 +1,8 @@
+{"find": "granitic hornblende", "replace": "granitic hornblende"}
+{"find": "red granitic", "replace": "red granitic"}
+
+Correction check: the draft reads "granitic" already, so the entries above change nothing. The only real differences are:
+
+{"find": "[[cont]]was strewn", "replace": "[[cont]]was strewn"}
+
+I found no differences against the image. NONE
