@@ -23,6 +23,8 @@ places where books actually go wrong. Rules: `CLAUDE.md`. Text decisions: `notes
 
 Opus draft → `normalize.py` → Sonnet corrections → `normalize.py` → `review.py` → `judge.py` → scan checks.
 Never Fable. Commit after each run. While runs go, do the page map, crops and metadata.
+Draft pages refused by the output filter: `tools/ocr_fallback.py` straight after the draft run; never retry
+them and never type them yourself (it ends the session). Name them in the log and audit them.
 
 ## Where these books go wrong (check each)
 
@@ -50,7 +52,9 @@ is in it, what a reader should know. No praise.
 
 `preflight.py` PASS → browser look at the built pages → `audit_sample.py`, every candidate on a crop, record
 in `book.json` → `publish.py` → log, metrics → tests, commit, PR, merge → open the live page.
-Three failed attempts at one preflight cause: the book waits; do not touch the check.
+A preflight item that is the check's mistake, not the book's: `notes/workflow.md` §"When a check is wrong"
+(waive one item; for a kind of book, leave the book ready, fix the check with a test, and the next session
+publishes). Three failed attempts at a cause in the book: the book waits.
 
 ## New version of a published book
 

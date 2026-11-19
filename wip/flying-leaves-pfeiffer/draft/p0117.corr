@@ -1,0 +1,7 @@
+{"find": "[[page ?]]", "replace": "[[page 107]]"}
+{"find": "FROM THE WEST. 107\n\naddition", "replace": "[[cont]] addition"}
+{"find": "perpetual service ;", "replace": "perpetual service;"}
+{"find": "contented community ;", "replace": "contented community;"}
+{"find": "attainable happiness ;", "replace": "attainable happiness;"}
+{"find": "German. ‘The children", "replace": "German. The children"}
+{"find": "together ; but", "replace": "together; but"}

@@ -8,29 +8,15 @@ text; web search finds catalogue records, short excerpts on Cervantes Virtual (a
 and Forgotten Books (print on demand). Fanny Bullock Workman 1859–1925; William Hunter Workman 1847–1937.
 
 ## Status
-**Blocked on a preflight check, not on the text.** Everything for version 1 is done except the browser look and
-publishing: draft, Sonnet corrections, Opus judge, scan checks of every spot, structure, all 31 crops and the cover,
-metadata and summary, audit (30/30, 0 candidates). Preflight 2026-11-19: everything ok except `conservation`
-(and `audit`, now recorded in book.json).
-Why `conservation` fails (a limitation of the check, found in this book; the text is not at fault):
-1. **Plates inside a paragraph.** Most plates here fall between two pages of one paragraph (`[[cont]]` on the page
-   after the plate). The compiler joins the paragraph and puts the plate after it; the check compares the JSON with
-   the page files in page order, so it sees the caption moved (first difference: the caption "Stream with
-   Stepping-stones, Catalonia" on p0039, inside the paragraph that runs p0038–p0041).
-2. **A frontispiece with a caption** (book.json `frontispiece`) is moved by the compiler to the start of the
-   reading text; the check sees that too. (The Rajah's frontispiece had no caption, so this never showed.) For
-   version 1 `frontispiece` was taken out of book.json, so the plate stays in the front matter (JSON only, said in
-   `omitted_from_reading`); put it back in a later version.
-The check was not changed in this session (CLAUDE.md: checks are not edited by the work they judge; an attempt to
-was blocked). A waiver would hide every later pages→JSON difference (the check reports only the first difference
-in a long text), so none was written.
+**Ready to publish; the check that held it has been fixed** (2026-11-19, by a session not working on the book:
+preflight `conservation` now compares image captions apart from the text; test `MovedImages`). On a copy of this
+directory preflight gave PASS (0 to fix, 0 waived), also with `"frontispiece": "p0008-1"` put back in book.json.
+Done: draft, Sonnet corrections, Opus judge, scan checks of every spot, structure, all 31 crops and the cover,
+metadata and summary, audit (30/30, 0 candidates).
 Next:
-1. A session that does **not** publish this book fixes the check (or the compiler's placement) with tests:
-   `json_streams` in `tools/preflight.py` should put moved images (plates in a joined paragraph, the frontispiece)
-   back at their leaf before comparing with the page files; a test with an invented book that has a captioned plate
-   between two `[[cont]]` pages and a captioned frontispiece.
-2. A later session: preflight PASS; rendered look at several chapters (plates, the map division, the footnote on
-   p0233); `publish.py sketches-awheel-workman`; versions row, metrics row.
+1. Put `"frontispiece": "p0008-1"` back in book.json and take the sentence about it out of `omitted_from_reading`.
+2. `preflight.py` PASS; rendered look at several chapters (the frontispiece, plates, the map division, the footnote
+   on p0233); `publish.py sketches-awheel-workman`; versions row, metrics row.
 
 ## Page map
 p0000 colour card · p0001 front cover (plain cloth) · p0002 front pastedown, Library of Congress bookplate ·

@@ -3,7 +3,7 @@
 
 Usage:
   ocr_claude.py --model opus --prompt prompts/transcribe.md --images DIR --out DIR
-                [--pages 20-35] [--workers 4] [--context-text DIR]
+                [--pages 20-35 | 116-118,128] [--workers 4] [--context-text DIR]
 
 One `claude -p` call per page; the model reads the image with the Read tool.
 Writes <page>.txt and log.jsonl (seconds, API-equivalent cost) into --out.
@@ -39,6 +39,15 @@ def make_halves(img, d, name, overlap=0.06):
         im.crop((0, 0, w, int(h * (0.5 + overlap)))).save(a)
         im.crop((0, int(h * (0.5 - overlap)), w, h)).save(b)
     return os.path.abspath(a), os.path.abspath(b)
+
+
+def page_numbers(spec):
+    """'20-35' or '116-118,128-129' -> the leaf numbers"""
+    out = []
+    for part in spec.split(","):
+        lo, _, hi = part.strip().partition("-")
+        out += range(int(lo), int(hi or lo) + 1)
+    return out
 
 
 def do_page(args, prompt, img):
@@ -126,11 +135,11 @@ def main():
     imgs = sorted(f for f in os.listdir(args.images)
                   if f.lower().endswith((".jpg", ".jpeg", ".png")))
     if args.pages:
-        lo, hi = (int(x) for x in args.pages.split("-"))
-        imgs = [f for f in imgs if lo <= int(re.findall(r"(\d+)", f)[-1]) <= hi]
+        want = set(page_numbers(args.pages))
+        imgs = [f for f in imgs if int(re.findall(r"(\d+)", f)[-1]) in want]
     imgs = [os.path.join(args.images, f) for f in imgs]
     t0 = time.time()
-    total = 0.0
+    total, refused = 0.0, 0
     with cf.ThreadPoolExecutor(args.workers) as ex, \
             open(os.path.join(args.out, "log.jsonl"), "a") as log:
         for rec in ex.map(lambda i: do_page(args, prompt, i), imgs):
@@ -139,10 +148,14 @@ def main():
             log.write(json.dumps(rec, ensure_ascii=False) + "\n")
             log.flush()
             if "error" in rec:
+                refused += is_refusal(rec["error"])
                 print("FAIL", rec["page"], rec["error"], file=sys.stderr)
             else:
                 total += rec.get("cost") or 0
     print(f"claude/{args.model}: {len(imgs)} pages, wall {time.time()-t0:.0f}s, cost ${total:.4f}")
+    if refused and not args.corrections:
+        print(f"{refused} page(s) refused by the output filter. Do not retry them and do not type them in the session: "
+              f"python3 tools/ocr_fallback.py --images {args.images} --draft {args.out}")
 
 
 if __name__ == "__main__":

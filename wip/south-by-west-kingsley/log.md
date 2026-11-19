@@ -10,17 +10,16 @@ is Schwatka's *In the Land of Cave and Cliff Dwellers* (Open Library), not this 
 1845–1925; Charles Kingsley (editor, preface) 1819–1875. Engravers not named.
 
 ## Status
-**Set aside 2026-11-19 at Tom's request ("skip this book for the time being … try again in the future").**
-Queue row `waiting`. The problem: during the Opus draft the API's output filter refused three pages
-(p0076, p0109, p0189: "Output blocked by content filtering policy"); nothing on them looks objectionable
-(p0076 is the description of the shanty at Colorado Springs). No retries were made (RESUME.md rule).
-Stage reached: Opus draft stopped at 413 of 432 pages; not normalized. Missing: p0076 p0109 p0189 (filter)
-and p0424–p0441 (not yet run when stopped).
-To resume: fetch the pages from Drive (`python3 tools/drive_cache.py fetch wip/south-by-west-kingsley/source.json $B/pages`),
-run the draft again for the missing pages (`--pages 424-441`; resumable), and try the three refused pages once
-more in that later session (the filter may have changed); if refused again, transcribe them in the session from
-the image (three pages) and say so here. Then `normalize.py`, and stage 3. Crops and cover are done
-(`images/`); the full-size leaves are not cached, but the crops are final.
+**In progress again (Tom, 2026-11-19: try the refused pages in this book too).** Set aside earlier the same day
+after the output filter refused three pages of the Opus draft (p0076, p0109, p0189). There is now a route for such
+pages: `tools/ocr_fallback.py` (workflow §2). **Do not type them in the session.**
+Stage reached: Opus draft 413 of 432 pages; not normalized. Missing: p0076 p0109 p0189 (refused) and p0424–p0441
+(not yet run when stopped).
+Next: fetch the pages from Drive (`python3 tools/drive_cache.py fetch wip/south-by-west-kingsley/source.json $B/pages`);
+run the draft for the rest (`ocr_claude.py … --pages 424-441`; resumable); `ocr_fallback.py --images $B/pages --draft
+wip/south-by-west-kingsley/draft` (it takes the refused pages from the log, including any new ones); `normalize.py`;
+then stage 3 as usual, the fallback pages named here and audited. Crops and cover are done (`images/`); the
+full-size leaves are not cached, but the crops are final.
 
 ## Page map
 p0000 colour card (hidden) · p0001 front cover (cloth, agave design stamped) · p0002 front pastedown, UC bookplate ·

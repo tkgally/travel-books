@@ -35,11 +35,30 @@ Before changing who does what for all books: 12–16 pages, both pipelines, `too
 | Source of truth in git | corrections and rebuilds need no model calls | `books/<slug>/pages/` |
 | Records | the method itself, over time | `errata.md`, `metrics.md`, `lessons.md` |
 
-Rules: (1) a check is not changed by the work it judges — waive in `book.json` with a reason, fix the check
-later; (2) three attempts at a cause, then the book goes to `waiting`; (3) new checks start in `observe` and
+Rules: (1) a check is not changed by the work it judges — see "When a check is wrong" below; (2) three
+attempts at a cause, then the book goes to `waiting`; (3) new checks start in `observe` and
 are promoted when `metrics.md` shows their alarms are mostly real; (4) every miss becomes a check, a test,
 or a line in `lessons.md`, in that order of preference, in the session where it is found; (5) prune: lessons
 a tool enforces are deleted; (6) tools change only with tests; (7) cheap checks first.
+
+### When a check is wrong
+
+Two of the first three books were held up by a preflight item that was the check's mistake (a second mark for
+one note; plates moved by the compiler). What to do, so that neither the book nor the session is stuck:
+
+1. Be sure it is the check: the page files say what the scan says, and the difference comes from something the
+   tools do on purpose.
+2. One item → a waiver in `book.json` (`check`, `match`, `why`) and publish; note it in `metrics.md`.
+3. A kind of book (a waiver would be wide or would hide other items) → finish the book's other steps (audit,
+   rendered look as far as possible), write "ready to publish when check X is fixed" and the cause in its
+   log, leave the queue row `in progress`. Then, in the same session if there is time:
+   - write a test with invented text that shows the false alarm (it fails), and where possible one showing
+     that the fault the check exists for is still caught;
+   - change the check; `tools/run_tests.sh` OK; `preflight.py` on every book in `books/` gives the same
+     verdict as its stored stamp;
+   - commit the check and its test on their own, with a row in `metrics.md` §"Preflight checks".
+4. The session that changed the check does not publish the book it was changed for. The next session runs
+   preflight and publishes.
 
 ## 0. Environment (once per container)
 
@@ -99,6 +118,21 @@ Leave out leaves that are not part of the book (colour card, covers without text
 `--pages a-b`; transcribe everything else, including contents, index and advertisements (they go in the
 JSON). After the run: `log.jsonl` has no `error`; every page has a `.txt`; commit and push. The run is
 resumable (finished pages are skipped), so a session that is cut off loses little.
+
+**Pages refused by the output filter** (the run says how many; about 1 page in 100 so far, in runs of
+consecutive leaves): do not retry and do not type them in the session (CLAUDE.md). Before `normalize.py`:
+```bash
+python3 $R/tools/ocr_fallback.py --images $B/pages --draft $W/draft     # the refused pages, from draft/log.jsonl
+```
+Tesseract reads each page and Opus corrects that reading against the image (a corrections list is not
+refused). The page then goes through stage 3 like the others. These drafts start without italics, small
+capitals, `[[cont]]` or note markup except what the corrector added, so: name the pages in the log
+(`draft/fallback.json`), look at the Sonnet pass's changes on them with particular care, check their joins,
+and add them to the audit (`audit_sample.py --pages …` as a second audit run). Say in `notes_on_text` which
+printed pages were first read by OCR (`site/about.md` promises it). Tested 2026-11-19 on the five
+refused pages of *Flying Leaves*: Opus and Sonnet both refused to draft them; both corrected the tesseract
+reading without a refusal. A page refused here too stays without a file (preflight `leaves`) and the book
+goes to `waiting`.
 
 ## 3. Corrections pass, review, judge
 

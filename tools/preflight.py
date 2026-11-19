@@ -64,17 +64,25 @@ def squash(s):
 
 # ---------------------------------------------------------------- text streams
 
-def page_streams(pages):
-    """(main, notes) text of the page files, markup removed."""
+def page_streams(pages, captions=None):
+    """(main, notes) text of the page files, markup removed. With `captions` (a list), the captions of images
+    are collected there instead of in main: the compiler may move an image (a plate inside a paragraph that
+    runs over the page goes after the paragraph; the frontispiece goes to the start of the reading text)."""
     main, notes = [], []
+    after_image = False          # as the compiler: a caption belongs to an image only directly after it
     for leaf, text in pages:
         for ln in text.splitlines():
             s = ln.strip()
-            if not s or re.fullmatch(r"\[\[(page [^\]]*|blank|break)\]\]", s) or re.match(r"\[\[image:", s):
+            if re.match(r"\[\[image:", s):
+                after_image = True
                 continue
-            if re.fullmatch(r"</?(blockquote|verse)>", s):
+            if not s or re.fullmatch(r"\[\[(page [^\]]*|blank)\]\]", s):
                 continue
-            tgt = main
+            is_caption = s.startswith("[[caption]]") and after_image
+            after_image = is_caption
+            if s == "[[break]]" or re.fullmatch(r"</?(blockquote|verse)>", s):
+                continue
+            tgt = captions if is_caption and captions is not None else main
             m = re.match(r"\[\[fn ([^\]]+)\]\]\s*(.*)", s)
             if m:
                 tgt, s = notes, m.group(2)
@@ -91,13 +99,15 @@ def page_streams(pages):
     return " ".join(main), " ".join(notes)
 
 
-def json_streams(book, reading_only=False):
+def json_streams(book, reading_only=False, captions=None):
+    """With `captions` (a list), image captions are collected there instead of in main (see page_streams)."""
     main, notes = [], []
     for d in book["divisions"]:
         if reading_only and not d.get("reading"):
             continue
         for b in d["blocks"]:
-            main += [inline.plain(s) for s in rh.strings(b)]
+            tgt = captions if captions is not None and b.get("type") == "image" else main
+            tgt += [inline.plain(s) for s in rh.strings(b)]
         notes += [inline.plain(n["text"]) for n in d["notes"]]
     return " ".join(main), " ".join(notes)
 
@@ -164,8 +174,13 @@ def compare(a, b, label, limit=12):
     items = []
     sm = difflib.SequenceMatcher(None, a, b, autojunk=False) if len(a) + len(b) < 60000 else None
     if sm is None:
-        # long texts: find the first difference only (cheap), show context
-        i = next((k for k in range(min(len(a), len(b))) if a[k] != b[k]), min(len(a), len(b)))
+        # long texts: cut the common start and end; if what is left is short, list every difference in it
+        n = min(len(a), len(b))
+        i = next((k for k in range(n) if a[k] != b[k]), n)
+        e = next((k for k in range(n - i) if a[len(a) - 1 - k] != b[len(b) - 1 - k]), n - i)
+        ma, mb = a[max(0, i - 30):len(a) - e], b[max(0, i - 30):len(b) - e]
+        if len(ma) + len(mb) < 60000:
+            return compare(ma, mb, label, limit) if ma != mb else []
         return [f"{label}: texts differ from character {i}: …{a[max(0, i - 30):i + 30]}… / …{b[max(0, i - 30):i + 30]}…"]
     for op, i1, i2, j1, j2 in sm.get_opcodes():
         if op != "equal":
@@ -486,9 +501,12 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
         res["leaves"] = check_leaves(pages)
         res["joins"] = check_joins(pages)
         # conservation
-        pm, pn = page_streams(pages)
-        jm, jn = json_streams(book)
+        pc, jc = [], []          # image captions apart: the compiler moves some images (see page_streams)
+        pm, pn = page_streams(pages, captions=pc)
+        jm, jn = json_streams(book, captions=jc)
         res["conservation"] += compare(pm, jm, "pages→JSON text") + compare(pn, jn, "pages→JSON notes")
+        res["conservation"] += compare(" ".join(sorted(pc)), " ".join(sorted(jc)), "pages→JSON captions")
+        jm, jn = json_streams(book)
         rm, rn = json_streams(book, reading_only=True)
         names = rh.file_names(book, ".html")
         web = []

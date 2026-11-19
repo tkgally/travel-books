@@ -1,0 +1,10 @@
+{
+ "method": "tesseract, then corrections by the draft model",
+ "pages": [
+  "p0116",
+  "p0117",
+  "p0118",
+  "p0128",
+  "p0129"
+ ]
+}
