@@ -1,0 +1,150 @@
+{
+ "p0009": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[center]] BEING",
+   "replace": "[[center]] <sc>Being</sc>",
+   "draft": "[[center]] BEING",
+   "verified": "[[center]] <sc>Being</sc>",
+   "context": "[[page ?]] ⏎  ⏎ # Corona and Coronet ⏎  ⏎ [[center]] BEING ⏎  ⏎ [[center]] A NARRATIVE OF THE AMHERST ECLIPSE EXPEDITION T"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "[[center]] A NARRATIVE OF THE AMHERST ECLIPSE EXPEDITION TO JAPAN, IN MR. JAMES’S SCHOONER-YACHT CORONET, TO OBSERVE THE SUN’S TOTAL OBSCURATION 9TH AUGUST, 1896",
+   "replace": "[[center]] <sc>A narrative of the Amherst eclipse expedition to Japan, in Mr. James’s schooner-yacht Coronet, to observe the Sun’s total obscuration 9th August, 1896</sc>",
+   "draft": "[[center]] A NARRATIVE OF THE AMHERST ECLIPSE EXPEDITION TO JAPAN, IN MR. JAMES’S SCHOONER-YACHT CORONET, TO OBSERVE THE SUN’S TOTAL OBSCURATION 9TH AUGUST, 1896",
+   "verified": "[[center]] <sc>A narrative of the Amherst eclipse expedition to Japan, in Mr. James’s schooner-yacht Coronet, to observe the Sun’s total obscuration 9th August, 1896</sc>",
+   "context": "[page ?]] ⏎  ⏎ # Corona and Coronet ⏎  ⏎ [[center]] <sc>Being</sc> ⏎  ⏎ [[center]] A NARRATIVE OF THE AMHERST ECLIPSE EXPEDITION TO JAPAN, IN MR. JAMES’S SCHOONER-YACHT CORONET, TO OBSERVE THE SUN’S TOTAL OBSCURATION 9TH AUGUST, 1896 ⏎  ⏎ [[center]] BY ⏎  ⏎ [[center]] MABEL LOOMIS TODD ⏎  ⏎ [[center]] <i"
+  },
+  {
+   "n": 3,
+   "kind": "words",
+   "find": "[[center]] BY",
+   "replace": "[[center]] <sc>by</sc>",
+   "draft": "[[center]] BY",
+   "verified": "[[center]] <sc>by</sc>",
+   "context": " observe the Sun’s total obscuration 9th August, 1896</sc> ⏎  ⏎ [[center]] BY ⏎  ⏎ [[center]] MABEL LOOMIS TODD ⏎  ⏎ [[center]] <i>Author of</i> "
+  }
+ ],
+ "p0063": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "(“A 1”)",
+   "replace": "(“A I”)",
+   "draft": "(“A 1”)",
+   "verified": "(“A I”)",
+   "context": "ad, had generously reserved for our use his own private car (“A 1”), which at Chicago was quickly filled with expedition posses"
+  }
+ ],
+ "p0094": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "<i>holoku</i>",
+   "replace": "<i>holoku,</i>",
+   "draft": "<i>holoku</i>",
+   "verified": "<i>holoku,</i>",
+   "context": "hfares. Native Hawaiians, the women in the prevailing white <i>holoku</i>, or unadorned “Mother Hubbard,” throng the streets, and wit"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "<i>holoku,</i>,",
+   "replace": "<i>holoku,</i>",
+   "draft": ">holoku,</i>,",
+   "verified": ">holoku,</i>",
+   "context": "hfares. Native Hawaiians, the women in the prevailing white <i>holoku,</i>, or unadorned “Mother Hubbard,” throng the streets, and with"
+  }
+ ],
+ "p0139": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "unfamilar",
+   "replace": "unfamiliar",
+   "draft": "unfamilar",
+   "verified": "unfamiliar",
+   "context": "entrance. ⏎  ⏎ Kilauea-iki is well worth the short walk through unfamilar fields, past strange holes going down in blackness to unkno"
+  }
+ ],
+ "p0209": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "devasted districts",
+   "replace": "devastated districts",
+   "draft": "devasted district",
+   "verified": "devastated district",
+   "context": "ter were still hard to obtain, for the few survivors in the devasted districts were too dazed to give clear descriptions of the horror whi"
+  }
+ ],
+ "p0220": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[image: musical score in three staves, marked Largo]]\n[[caption]] Japanese National Air",
+   "replace": "[[caption]] Japanese National Air\n[[image: musical score in three staves, marked Largo]]",
+   "draft": "[[image: musical score in three staves, marked Largo]]\n[[caption]] Japanese National Air",
+   "verified": "[[caption]] Japanese National Air\n[[image: musical score in three staves, marked Largo]]",
+   "context": " artistic bequest of ages, which the world has never seen. ⏎  ⏎ [[image: musical score in three staves, marked Largo]] ⏎ [[caption]] Japanese National Air ⏎ "
+  }
+ ],
+ "p0226": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[blank]]",
+   "replace": "[[image: map of Japan showing the track of the total eclipse]]",
+   "draft": "[[blank]]",
+   "verified": "[[image: map of Japan showing the track of the total eclipse]]",
+   "context": "[[page ?]] ⏎ [[blank]] ⏎ "
+  }
+ ],
+ "p0270": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "incongrously",
+   "replace": "incongruously",
+   "draft": "incongrously",
+   "verified": "incongruously",
+   "context": "ansition state of costume, would not allow itself to appear incongrously projected upon a background of temple or castle walls. Prac"
+  }
+ ],
+ "p0305": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 290]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 290]]",
+   "context": "[[page ?]] ⏎  ⏎ # Chapter XXIII ⏎  ⏎ [[subtitle]] Expedition Experiences ⏎  ⏎ <ver"
+  }
+ ],
+ "p0465": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "at 1 <sc>a. m.</sc>",
+   "replace": "at <sc>i a. m.</sc>",
+   "draft": "at 1 <sc>a. m.</sc>",
+   "verified": "at <sc>i a. m.</sc>",
+   "context": "o modestly,—while coffee and sandwiches by the blazing fire at 1 <sc>a. m.</sc> celebrated this triumphant land-fall. ⏎  ⏎ Before noon the cabi"
+  }
+ ],
+ "p0467": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "## Back to an Arizona Copper Mine",
+   "replace": "[[subtitle]] Back to an Arizona Copper Mine",
+   "draft": "## Back to an ",
+   "verified": "[[subtitle]] Back to an ",
+   "context": "[[page ?]] ⏎  ⏎ # Chapter XXXIII ⏎  ⏎ ## Back to an Arizona Copper Mine ⏎  ⏎ <verse> ⏎ Such is the patriot’s boast, where’er we roam, ⏎ His"
+  }
+ ]
+}

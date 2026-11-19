@@ -1,0 +1,13 @@
+{"find": "two yards and a half.", "replace": "two yards and a half."}
+
+Wait — I need to check the text against the image: the print reads "measured two yards and a half." which matches the draft, so that entry is a no-op. The differences I found are below.
+
+{"find": "mouth bowls unique;", "replace": "mouth bowls unique;"}
+
+I'm withdrawing both entries above, since neither changes anything. These are the real corrections:
+
+{"find": "ink. One epistle", "replace": "ink. One epistle"}
+
+That one is also a no-op. Looking again, the only difference from the image is the draft's "Meals, too, were served" paragraph, which also matches. After a careful check, the draft appears to be correct.
+
+NONE
