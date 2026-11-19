@@ -91,6 +91,16 @@
 - **The death-date rule keeps the added condition:** unknown date of death = died before age 100, provided the
   birth year is known or bounded (e.g. from a career); otherwise the book is left out. (`selection.md` rule 5.)
 
+## 2026-11-19 (tables of contents)
+
+- **Tables of contents are decided book by book.** Basic policy: follow the format of the printed book's contents,
+  but deviate from it where the digital version would be easier to read with a different format. The same
+  principle applies to the HTML, the EPUB and the ODT. Entries are consistent within a book (his example:
+  *Sketches Awheel* gave the chapter number and places for some chapters and only the number for others), and
+  neither too many nor too few. Where the print has a single entry for a long text (his example: the body of the
+  *Rajah of Kolhapoor* diary), the editions may add entries of the editor's own, such as spans of dates and the
+  places visited. How: `workflow.md` stage 4 "Contents", `book-json.md` (`toc`, `toc_entries`).
+
 ## Questions for Tom
 
 None open.
