@@ -1,0 +1,4 @@
+{"find": "[[page ?]]\n\n48 SOUTH BY WEST.\n\nlevel", "replace": "[[page 48]]\n\n[[cont]] level"}
+{"find": "put his + tent", "replace": "put his tent"}
+{"find": "at night ;", "replace": "at night;"}
+{"find": "camp-bed ;", "replace": "camp-bed;"}

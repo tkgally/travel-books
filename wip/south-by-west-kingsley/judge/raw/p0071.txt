@@ -1,0 +1,2 @@
+{"n": 1, "is": "B", "print": "how we\n\n[[image: engraving of a broad Denver street with tall arcaded brick buildings, a horseman, wagons and teams]]\n[[caption]] Street in Denver.\n\n[[cont]]got up to th", "sure": "high"}
+{"n": 2, "is": "A", "print": "despised.\n\nDenver", "sure": "high"}

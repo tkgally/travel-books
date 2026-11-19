@@ -1,0 +1,617 @@
+{
+ "p0013": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "# Preface.",
+   "replace": "# Preface",
+   "draft": "# Preface.",
+   "verified": "# Preface",
+   "context": "[[page ?]] ⏎ # Preface. ⏎  ⏎ T<sc>his</sc> unassuming volume will, I trust, prove inter"
+  }
+ ],
+ "p0016": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[right]]<sc>charles kingsley.</sc>",
+   "replace": "[[right]]CHARLES KINGSLEY.",
+   "draft": "[[right]]<sc>charles kingsley.</sc>",
+   "verified": "[[right]]CHARLES KINGSLEY.",
+   "context": "gical—were observed or collected by the authoress herself. ⏎  ⏎ [[right]]<sc>charles kingsley.</sc> ⏎ "
+  }
+ ],
+ "p0019": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "## Chapter VIII.",
+   "replace": "# Chapter VIII.",
+   "draft": "## Chapter VI",
+   "verified": "# Chapter VI",
+   "context": "[[page xiii]] ⏎  ⏎ ## Chapter VIII. ⏎  ⏎ [[subtitle]] Mountain Explorations. ⏎  ⏎ [[right]] PAGE ⏎  ⏎ Bronc"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "## Chapter IX.",
+   "replace": "# Chapter IX.",
+   "draft": "## Chapter IX",
+   "verified": "# Chapter IX",
+   "context": "d fever”—A “cold snap”—Our concert, . . . <pref>108</pref> ⏎  ⏎ ## Chapter IX. ⏎  ⏎ [[subtitle]] Last Days in Colorado. ⏎  ⏎ Valentine’s Day—The “"
+  },
+  {
+   "n": 3,
+   "kind": "punctuation",
+   "find": "## Chapter X.",
+   "replace": "# Chapter X.",
+   "draft": "## Chapter X.",
+   "verified": "# Chapter X.",
+   "context": "ngs—Farewell to Colorado, . . . . . . . . <pref>125</pref> ⏎  ⏎ ## Chapter X. ⏎  ⏎ [[subtitle]] Colorado—Its Resources and Progress. ⏎  ⏎ Surface"
+  },
+  {
+   "n": 4,
+   "kind": "punctuation",
+   "find": "## Chapter XI.",
+   "replace": "# Chapter XI.",
+   "draft": "## Chapter XI",
+   "verified": "# Chapter XI",
+   "context": "een the Old and New Worlds, . . . . . . . <pref>137</pref> ⏎  ⏎ ## Chapter XI. ⏎  ⏎ [[subtitle]] The Pacific Railroad. ⏎  ⏎ Denver Pacific Railroa"
+  }
+ ],
+ "p0020": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "## Chapter XII.",
+   "replace": "# Chapter XII.",
+   "draft": "## Chapter XI",
+   "verified": "# Chapter XI",
+   "context": "[[page xiv]] ⏎  ⏎ ## Chapter XII. ⏎  ⏎ [[subtitle]] California. ⏎  ⏎ [[right]] PAGE ⏎  ⏎ Californian oyst"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "## Chapter XIII.",
+   "replace": "# Chapter XIII.",
+   "draft": "## Chapter XI",
+   "verified": "# Chapter XI",
+   "context": "Chinese servants—<i>Adios California</i>, <pref>166</pref> ⏎  ⏎ ## Chapter XIII. ⏎  ⏎ [[subtitle]] Down the Pacific. ⏎  ⏎ The “peaceful ocean”—A tum"
+  },
+  {
+   "n": 3,
+   "kind": "punctuation",
+   "find": "## Chapter XIV.",
+   "replace": "# Chapter XIV.",
+   "draft": "## Chapter XI",
+   "verified": "# Chapter XI",
+   "context": "addition to our party—Gloomy forebodings, <pref>178</pref> ⏎  ⏎ ## Chapter XIV. ⏎  ⏎ [[subtitle]] From the Coast to Colima. ⏎  ⏎ The Puerto de Manz"
+  },
+  {
+   "n": 4,
+   "kind": "punctuation",
+   "find": "## Chapter XV.",
+   "replace": "# Chapter XV.",
+   "draft": "## Chapter XV",
+   "verified": "# Chapter XV",
+   "context": "ary 26th—More news of the Revolutionists, <pref>184</pref> ⏎  ⏎ ## Chapter XV. ⏎  ⏎ [[subtitle]] Robbers and Revolutions. ⏎  ⏎ Our start—An ill-br"
+  }
+ ],
+ "p0021": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "## Chapter XVI.",
+   "replace": "# Chapter XVI.",
+   "draft": "## Chapter XV",
+   "verified": "# Chapter XV",
+   "context": "[[page xv]] ⏎  ⏎ ## Chapter XVI. ⏎  ⏎ [[subtitle]] Guadalajara. ⏎  ⏎ [[right]] PAGE ⏎  ⏎ The Paseo—Barri"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "## Chapter XVII.",
+   "replace": "# Chapter XVII.",
+   "draft": "## Chapter XV",
+   "verified": "# Chapter XV",
+   "context": "ops—How to make a <i>pronunciamiento</i>, <pref>232</pref> ⏎  ⏎ ## Chapter XVII. ⏎  ⏎ [[subtitle]] Up the Valley of the Lerma. ⏎  ⏎ The Rio Grande d"
+  },
+  {
+   "n": 3,
+   "kind": "punctuation",
+   "find": "## Chapter XVIII.",
+   "replace": "# Chapter XVIII.",
+   "draft": "## Chapter XV",
+   "verified": "# Chapter XV",
+   "context": "ctus—A pretty leap—Approach to Queretaro, <pref>244</pref> ⏎  ⏎ ## Chapter XVIII. ⏎  ⏎ [[subtitle]] Queretaro to Mexico. ⏎  ⏎ A bet—The Hercules Fact"
+  },
+  {
+   "n": 4,
+   "kind": "punctuation",
+   "find": "## Chapter XIX.",
+   "replace": "# Chapter XIX.",
+   "draft": "## Chapter XI",
+   "verified": "# Chapter XI",
+   "context": "o—The railroad track—Arrival in the city, <pref>268</pref> ⏎  ⏎ ## Chapter XIX. ⏎  ⏎ [[subtitle]] Life in Mexico. ⏎  ⏎ The Hotel Iturbide—Flowers—T"
+  }
+ ],
+ "p0023": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "## Chapter XXIII.",
+   "replace": "# Chapter XXIII.",
+   "draft": "## Chapter XX",
+   "verified": "# Chapter XX",
+   "context": "[[page xvii]] ⏎  ⏎ ## Chapter XXIII. ⏎  ⏎ [[subtitle]] The City of Mexico to Vera Cruz. ⏎  ⏎ Teocallis o"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "## Chapter XXIV.",
+   "replace": "# Chapter XXIV.",
+   "draft": "## Chapter XX",
+   "verified": "# Chapter XX",
+   "context": "i>Norte</i>—Gachupines and parrots—Farewell to Mexico, 382 ⏎  ⏎ ## Chapter XXIV. ⏎  ⏎ MEXICO AND ITS RESOURCES, 399 ⏎ "
+  }
+ ],
+ "p0025": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<sc>monument park,</sc>",
+   "replace": "MONUMENT PARK,",
+   "draft": "<sc>monument park,</sc>",
+   "verified": "MONUMENT PARK,",
+   "context": "[[page ?]] ⏎  ⏎ # List of Illustrations. ⏎  ⏎ | <sc>monument park,</sc> | <i>Frontispiece.</i> | ⏎ | <sc>horse-shoe bend, alleghany m"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "<sc>horse-shoe bend, alleghany mountains,</sc>",
+   "replace": "HORSE-SHOE BEND, ALLEGHANY MOUNTAINS,",
+   "draft": "<sc>horse-shoe bend, alleghany mountains,</sc>",
+   "verified": "HORSE-SHOE BEND, ALLEGHANY MOUNTAINS,",
+   "context": "Illustrations. ⏎  ⏎ | MONUMENT PARK, | <i>Frontispiece.</i> | ⏎ | <sc>horse-shoe bend, alleghany mountains,</sc> | <sc>page</sc> 29 | ⏎ | <sc>drug and book store,</sc> | 33 |"
+  },
+  {
+   "n": 3,
+   "kind": "words",
+   "find": "<sc>drug and book store,</sc>",
+   "replace": "DRUG AND BOOK STORE,",
+   "draft": "<sc>drug and book store,</sc>",
+   "verified": "DRUG AND BOOK STORE,",
+   "context": "ORSE-SHOE BEND, ALLEGHANY MOUNTAINS, | <sc>page</sc> 29 | ⏎ | <sc>drug and book store,</sc> | 33 | ⏎ | <sc>prairie ranche near salina,</sc> | 35 | ⏎ | <sc>"
+  },
+  {
+   "n": 4,
+   "kind": "words",
+   "find": "<sc>prairie ranche near salina,</sc>",
+   "replace": "PRAIRIE RANCHE NEAR SALINA,",
+   "draft": "<sc>prairie ranche near salina,</sc>",
+   "verified": "PRAIRIE RANCHE NEAR SALINA,",
+   "context": "TAINS, | <sc>page</sc> 29 | ⏎ | DRUG AND BOOK STORE, | 33 | ⏎ | <sc>prairie ranche near salina,</sc> | 35 | ⏎ | <sc>prairie dogs,</sc> | 37 | ⏎ | <sc>street in denv"
+  },
+  {
+   "n": 5,
+   "kind": "words",
+   "find": "<sc>prairie dogs,</sc>",
+   "replace": "PRAIRIE DOGS,",
+   "draft": "<sc>prairie dogs,</sc>",
+   "verified": "PRAIRIE DOGS,",
+   "context": "D BOOK STORE, | 33 | ⏎ | PRAIRIE RANCHE NEAR SALINA, | 35 | ⏎ | <sc>prairie dogs,</sc> | 37 | ⏎ | <sc>street in denver,</sc> | 43 | ⏎ | <sc>our shanty"
+  },
+  {
+   "n": 6,
+   "kind": "words",
+   "find": "<sc>street in denver,</sc>",
+   "replace": "STREET IN DENVER,",
+   "draft": "<sc>street in denver,</sc>",
+   "verified": "STREET IN DENVER,",
+   "context": "PRAIRIE RANCHE NEAR SALINA, | 35 | ⏎ | PRAIRIE DOGS, | 37 | ⏎ | <sc>street in denver,</sc> | 43 | ⏎ | <sc>our shanty,</sc> | 49 | ⏎ | <sc>the cañon in gle"
+  },
+  {
+   "n": 7,
+   "kind": "words",
+   "find": "<sc>our shanty,</sc>",
+   "replace": "OUR SHANTY,",
+   "draft": "<sc>our shanty,</sc>",
+   "verified": "OUR SHANTY,",
+   "context": " | 35 | ⏎ | PRAIRIE DOGS, | 37 | ⏎ | STREET IN DENVER, | 43 | ⏎ | <sc>our shanty,</sc> | 49 | ⏎ | <sc>the cañon in glen eyrie,</sc> | 51 | ⏎ | <sc>the"
+  },
+  {
+   "n": 8,
+   "kind": "words",
+   "find": "<sc>the cañon in glen eyrie,</sc>",
+   "replace": "THE CAÑON IN GLEN EYRIE,",
+   "draft": "<sc>the cañon in glen eyrie,</sc>",
+   "verified": "THE CAÑON IN GLEN EYRIE,",
+   "context": "S, | 37 | ⏎ | STREET IN DENVER, | 43 | ⏎ | OUR SHANTY, | 49 | ⏎ | <sc>the cañon in glen eyrie,</sc> | 51 | ⏎ | <sc>the gate of the garden of the gods,</sc> | 74 "
+  },
+  {
+   "n": 9,
+   "kind": "words",
+   "find": "<sc>the gate of the garden of the gods,</sc>",
+   "replace": "THE GATE OF THE GARDEN OF THE GODS,",
+   "draft": "<sc>the gate of the garden of the gods,</sc>",
+   "verified": "THE GATE OF THE GARDEN OF THE GODS,",
+   "context": " | ⏎ | OUR SHANTY, | 49 | ⏎ | THE CAÑON IN GLEN EYRIE, | 51 | ⏎ | <sc>the gate of the garden of the gods,</sc> | 74 | ⏎ | <sc>crossing a trestle bridge,</sc> | 75 | ⏎ | <sc>m"
+  },
+  {
+   "n": 10,
+   "kind": "words",
+   "find": "<sc>crossing a trestle bridge,</sc>",
+   "replace": "CROSSING A TRESTLE BRIDGE,",
+   "draft": "<sc>crossing a trestle bridge,</sc>",
+   "verified": "CROSSING A TRESTLE BRIDGE,",
+   "context": "YRIE, | 51 | ⏎ | THE GATE OF THE GARDEN OF THE GODS, | 74 | ⏎ | <sc>crossing a trestle bridge,</sc> | 75 | ⏎ | <sc>monument creek,</sc> | 88 | ⏎ | <sc>the monument"
+  },
+  {
+   "n": 11,
+   "kind": "words",
+   "find": "<sc>monument creek,</sc>",
+   "replace": "MONUMENT CREEK,",
+   "draft": "<sc>monument creek,</sc>",
+   "verified": "MONUMENT CREEK,",
+   "context": "N OF THE GODS, | 74 | ⏎ | CROSSING A TRESTLE BRIDGE, | 75 | ⏎ | <sc>monument creek,</sc> | 88 | ⏎ | <sc>the monument rocks,</sc> | 90 | ⏎ | <sc>indians,"
+  },
+  {
+   "n": 12,
+   "kind": "words",
+   "find": "<sc>the monument rocks,</sc>",
+   "replace": "THE MONUMENT ROCKS,",
+   "draft": "<sc>the monument rocks,</sc>",
+   "verified": "THE MONUMENT ROCKS,",
+   "context": "ROSSING A TRESTLE BRIDGE, | 75 | ⏎ | MONUMENT CREEK, | 88 | ⏎ | <sc>the monument rocks,</sc> | 90 | ⏎ | <sc>indians,</sc> | 105 | ⏎ | <sc>pike's peak,</sc> "
+  },
+  {
+   "n": 13,
+   "kind": "words",
+   "find": "<sc>indians,</sc>",
+   "replace": "INDIANS,",
+   "draft": "<sc>indians,</sc>",
+   "verified": "INDIANS,",
+   "context": "5 | ⏎ | MONUMENT CREEK, | 88 | ⏎ | THE MONUMENT ROCKS, | 90 | ⏎ | <sc>indians,</sc> | 105 | ⏎ | <sc>pike's peak,</sc> | 114 | ⏎ | <sc>the rocks nea"
+  },
+  {
+   "n": 14,
+   "kind": "words",
+   "find": "<sc>pike's peak,</sc>",
+   "replace": "PIKE'S PEAK,",
+   "draft": "<sc>pike's peak,</sc>",
+   "verified": "PIKE'S PEAK,",
+   "context": "K, | 88 | ⏎ | THE MONUMENT ROCKS, | 90 | ⏎ | INDIANS, | 105 | ⏎ | <sc>pike's peak,</sc> | 114 | ⏎ | <sc>the rocks near green river,</sc> | 157 | ⏎ | <s"
+  },
+  {
+   "n": 15,
+   "kind": "words",
+   "find": "<sc>the rocks near green river,</sc>",
+   "replace": "THE ROCKS NEAR GREEN RIVER,",
+   "draft": "<sc>the rocks near green river,</sc>",
+   "verified": "THE ROCKS NEAR GREEN RIVER,",
+   "context": "T ROCKS, | 90 | ⏎ | INDIANS, | 105 | ⏎ | PIKE'S PEAK, | 114 | ⏎ | <sc>the rocks near green river,</sc> | 157 | ⏎ | <sc>woman making tortillas,</sc> | 187 | ⏎ | <sc>be"
+  },
+  {
+   "n": 16,
+   "kind": "words",
+   "find": "<sc>woman making tortillas,</sc>",
+   "replace": "WOMAN MAKING TORTILLAS,",
+   "draft": "<sc>woman making tortillas,</sc>",
+   "verified": "WOMAN MAKING TORTILLAS,",
+   "context": "IKE'S PEAK, | 114 | ⏎ | THE ROCKS NEAR GREEN RIVER, | 157 | ⏎ | <sc>woman making tortillas,</sc> | 187 | ⏎ | <sc>bell tower at colima,</sc> | 198 | ⏎ | <sc>the "
+  },
+  {
+   "n": 17,
+   "kind": "words",
+   "find": "<sc>bell tower at colima,</sc>",
+   "replace": "BELL TOWER AT COLIMA,",
+   "draft": "<sc>bell tower at colima,</sc>",
+   "verified": "BELL TOWER AT COLIMA,",
+   "context": "AR GREEN RIVER, | 157 | ⏎ | WOMAN MAKING TORTILLAS, | 187 | ⏎ | <sc>bell tower at colima,</sc> | 198 | ⏎ | <sc>the cathedral, guadalajara,</sc> | 235 | ⏎ | <s"
+  },
+  {
+   "n": 18,
+   "kind": "words",
+   "find": "<sc>the cathedral, guadalajara,</sc>",
+   "replace": "THE CATHEDRAL, GUADALAJARA,",
+   "draft": "<sc>the cathedral, guadalajara,</sc>",
+   "verified": "THE CATHEDRAL, GUADALAJARA,",
+   "context": "MAKING TORTILLAS, | 187 | ⏎ | BELL TOWER AT COLIMA, | 198 | ⏎ | <sc>the cathedral, guadalajara,</sc> | 235 | ⏎ | <sc>the cathedral, mexico,</sc> | 292 | ⏎ | <sc>the"
+  },
+  {
+   "n": 19,
+   "kind": "words",
+   "find": "<sc>the cathedral, mexico,</sc>",
+   "replace": "THE CATHEDRAL, MEXICO,",
+   "draft": "<sc>the cathedral, mexico,</sc>",
+   "verified": "THE CATHEDRAL, MEXICO,",
+   "context": " AT COLIMA, | 198 | ⏎ | THE CATHEDRAL, GUADALAJARA, | 235 | ⏎ | <sc>the cathedral, mexico,</sc> | 292 | ⏎ | <sc>the palace of chapultepec,</sc> | 299 | ⏎ | <sc"
+  },
+  {
+   "n": 20,
+   "kind": "words",
+   "find": "<sc>the palace of chapultepec,</sc>",
+   "replace": "THE PALACE OF CHAPULTEPEC,",
+   "draft": "<sc>the palace of chapultepec,</sc>",
+   "verified": "THE PALACE OF CHAPULTEPEC,",
+   "context": "AL, GUADALAJARA, | 235 | ⏎ | THE CATHEDRAL, MEXICO, | 292 | ⏎ | <sc>the palace of chapultepec,</sc> | 299 | ⏎ | <sc>the tree of the noche triste,</sc> | 325 | ⏎ "
+  },
+  {
+   "n": 21,
+   "kind": "words",
+   "find": "<sc>the tree of the noche triste,</sc>",
+   "replace": "THE TREE OF THE NOCHE TRISTE,",
+   "draft": "<sc>the tree of the noche triste,</sc>",
+   "verified": "THE TREE OF THE NOCHE TRISTE,",
+   "context": "RAL, MEXICO, | 292 | ⏎ | THE PALACE OF CHAPULTEPEC, | 299 | ⏎ | <sc>the tree of the noche triste,</sc> | 325 | ⏎ "
+  }
+ ],
+ "p0057": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "rather spoilt: but over",
+   "replace": "rather\n\n[[image: A locomotive on a curving mountain railway, with a long train rounding the bend beyond, beneath steep wooded slopes]]\n[[caption]] Horse-shoe Bend, Alleghany Mountains.\n\n[[cont]]spoilt: but over",
+   "draft": "rather spoilt: but ",
+   "verified": "rather\n\n[[image: A locomotive on a curving mountain railway, with a long train rounding the bend beyond, beneath steep wooded slopes]]\n[[caption]] Horse-shoe Bend, Alleghany Mountains.\n\n[[cont]]spoilt: but ",
+   "context": "Alleghanies. It was a misty morning, so that the views were rather spoilt: but over the summit we caught glimpses through the mist and clouds o"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "dogwood.\n\n[[image: A locomotive on a curving mountain railway, with a long train rounding the bend beyond, beneath steep wooded slopes]]\n[[caption]] Horse-shoe Bend, Alleghany Mountains.\n\nAbout",
+   "replace": "dogwood.\n\nAbout",
+   "draft": "dogwood.\n\n[[image: A locomotive on a curving mountain railway, with a long train rounding the bend beyond, beneath steep wooded slopes]]\n[[caption]] Horse-shoe Bend, Alleghany Mountains.\n\nAbout",
+   "verified": "dogwood.\n\nAbout",
+   "context": "nt fires, others with a brilliant undergrowth of sumach and dogwood. ⏎  ⏎ [[image: A locomotive on a curving mountain railway, with a long train rounding the bend beyond, beneath steep wooded slopes]] ⏎ [[caption]] Horse-shoe Bend, Alleghany Mountains. ⏎  ⏎ About eleven miles below Cresson Springs on the summit of the mou"
+  }
+ ],
+ "p0061": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "My heart sank; for of all",
+   "replace": "My heart sank;\n\n[[image: H. C. Miller's wooden drug and book store on a plank sidewalk, with a man leaning by the door and a telegraph pole beside it]]\n\n[[cont]]for of all",
+   "draft": " heart sank; for of all",
+   "verified": " heart sank;\n\n[[image: H. C. Miller's wooden drug and book store on a plank sidewalk, with a man leaning by the door and a telegraph pole beside it]]\n\n[[cont]]for of all",
+   "context": "t fourteen hours at Kansas City to catch the through train. My heart sank; for of all places to wait at, a more unpleasant one on a hot day than "
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "out of the\n\n[[image: H. C. Miller's wooden drug and book store on a plank sidewalk, with a man leaning by the door and a telegraph pole beside it]]",
+   "replace": "out of the",
+   "draft": "out of the\n\n[[image: H. C. Miller's wooden drug and book store on a plank sidewalk, with a man leaning by the door and a telegraph pole beside it]]",
+   "verified": "out of the",
+   "context": " for all the houses on the slope of the hill have to be cut out of the ⏎  ⏎ [[image: H. C. Miller's wooden drug and book store on a plank sidewalk, with a man leaning by the door and a telegraph pole beside it]] ⏎ "
+  }
+ ],
+ "p0063": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "farm, with its corral",
+   "replace": "farm, with\n\n[[image: A lone wooden cabin with a fenced corral and a haystack on open grassland, low rolling hills behind]]\n[[caption]] Prairie Ranche near Salina.\n\n[[cont]]its corral",
+   "draft": "farm, with its corral",
+   "verified": "farm, with\n\n[[image: A lone wooden cabin with a fenced corral and a haystack on open grassland, low rolling hills behind]]\n[[caption]] Prairie Ranche near Salina.\n\n[[cont]]its corral",
+   "context": "swell after a storm. Here and there was a prairie ranche or farm, with its corral for horses and cattle, and the great heap of grass which re"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "farms.\n\n[[image: A lone wooden cabin with a fenced corral and a haystack on open grassland, low rolling hills behind]]\n[[caption]] Prairie Ranche near Salina.\n\nIt is",
+   "replace": "farms.\n\nIt is",
+   "draft": "farms.\n\n[[image: A lone wooden cabin with a fenced corral and a haystack on open grassland, low rolling hills behind]]\n[[caption]] Prairie Ranche near Salina.\n\nIt is",
+   "verified": "farms.\n\nIt is",
+   "context": "ch represents the civilized haystack of eastern or European farms. ⏎  ⏎ [[image: A lone wooden cabin with a fenced corral and a haystack on open grassland, low rolling hills behind]] ⏎ [[caption]] Prairie Ranche near Salina. ⏎  ⏎ It is a lonely life, that of a rancheman. Settled out upon the pr"
+  }
+ ],
+ "p0071": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "how we got up to the hotel.",
+   "replace": "how we\n\n[[image: engraving of a broad Denver street with tall arcaded brick buildings, a horseman, wagons and teams]]\n[[caption]] Street in Denver.\n\n[[cont]]got up to the hotel.",
+   "draft": "how we got up to th",
+   "verified": "how we\n\n[[image: engraving of a broad Denver street with tall arcaded brick buildings, a horseman, wagons and teams]]\n[[caption]] Street in Denver.\n\n[[cont]]got up to th",
+   "context": "h and courtesy: and I have no very distinct recollection of how we got up to the hotel. But ere long I recovered my lost wits as we sat down to a s"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "despised.\n\n[[image: engraving of a broad Denver street with tall arcaded brick buildings, a horseman, wagons and teams]]\n[[caption]] Street in Denver.\n\nDenver",
+   "replace": "despised.\n\nDenver",
+   "draft": "despised.\n\n[[image: engraving of a broad Denver street with tall arcaded brick buildings, a horseman, wagons and teams]]\n[[caption]] Street in Denver.\n\nDenver",
+   "verified": "despised.\n\nDenver",
+   "context": "n very tempting, and Mons. Charpiot’s cooking was not to be despised. ⏎  ⏎ [[image: engraving of a broad Denver street with tall arcaded brick buildings, a horseman, wagons and teams]] ⏎ [[caption]] Street in Denver. ⏎  ⏎ Denver stands at the junction of the South Platte and Cherry Creek"
+  }
+ ],
+ "p0105": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "[[subtitle]] Cañons and Cold.",
+   "replace": "## Cañons and Cold.",
+   "draft": "[[subtitle]] Cañons and ",
+   "verified": "## Cañons and ",
+   "context": "[[page ?]] ⏎  ⏎ # Chapter V. ⏎  ⏎ [[subtitle]] Cañons and Cold. ⏎  ⏎ [[subtitle]] My first Cañon—Wild beasts—Pleasant society—A"
+  }
+ ],
+ "p0115": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "[[subtitle]] Monument Park.\n\n[[subtitle]] Expedition",
+   "replace": "## Monument Park.\n\n[[subtitle]] Expedition",
+   "draft": "[[subtitle]] Monument Pa",
+   "verified": "## Monument Pa",
+   "context": "[[page ?]] ⏎  ⏎ # Chapter VI. ⏎  ⏎ [[subtitle]] Monument Park. ⏎  ⏎ [[subtitle]] Expedition to Monument Park—A cheap dinner—The monuments—A rough road—"
+  }
+ ],
+ "p0116": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "newly made trail through the brushwood",
+   "replace": "newly made trail\n\n[[image: diagram of a bluff in section, with strata sloping gently down on the grass side and broken off steeply, with pine trees, on the plain side]]\n\n[[cont]]through the brushwood",
+   "draft": "y made trail through the ",
+   "verified": "y made trail\n\n[[image: diagram of a bluff in section, with strata sloping gently down on the grass side and broken off steeply, with pine trees, on the plain side]]\n\n[[cont]]through the ",
+   "context": " But this was a trifle to what was coming. We followed up a newly made trail through the brushwood, not cut, but only run through by the passage of a waggon o"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "without an upset.\n\n[[image: diagram of a bluff in section, with strata sloping gently down on the grass side and broken off steeply, with pine trees, on the plain side]]",
+   "replace": "without an upset.",
+   "draft": "ut an upset.\n\n[[image: diagram of a bluff in section, with strata sloping gently down on the grass side and broken off steeply, with pine trees, on the plain side]]",
+   "verified": "ut an upset.",
+   "context": "han the other; a careless driver could not have got through without an upset. ⏎  ⏎ [[image: diagram of a bluff in section, with strata sloping gently down on the grass side and broken off steeply, with pine trees, on the plain side]] ⏎  ⏎ We then came to a good road, and trotted away across plain"
+  }
+ ],
+ "p0142": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "the grass slopes up to",
+   "replace": "the grass\n\n[[image: engraving of a snow-covered mountain peak above wooded valleys, with fir trees in the left foreground]]\n[[caption]] Pike’s Peak.\n\n[[cont]]slopes up to",
+   "draft": "the grass slopes up to",
+   "verified": "the grass\n\n[[image: engraving of a snow-covered mountain peak above wooded valleys, with fir trees in the left foreground]]\n[[caption]] Pike’s Peak.\n\n[[cont]]slopes up to",
+   "context": " of the South Platte runs through it, on each side of which the grass slopes up to the pineries, and they again to the mountains, both scatter"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "from this side than from the east.\n\n[[image: engraving of a snow-covered mountain peak above wooded valleys, with fir trees in the left foreground]]\n[[caption]] Pike’s Peak.",
+   "replace": "from this side than from the east.",
+   "draft": "om the east.\n\n[[image: engraving of a snow-covered mountain peak above wooded valleys, with fir trees in the left foreground]]\n[[caption]] Pike’s Peak.",
+   "verified": "om the east.",
+   "context": "a magnificent view of Pike’s Peak, which looks much grander from this side than from the east. ⏎  ⏎ [[image: engraving of a snow-covered mountain peak above wooded valleys, with fir trees in the left foreground]] ⏎ [[caption]] Pike’s Peak. ⏎ "
+  }
+ ],
+ "p0191": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "‘Run for your life",
+   "replace": "“Run for your life",
+   "draft": "‘Run for your",
+   "verified": "“Run for your",
+   "context": "mbers ⏎ Ready to fall; ⏎ Then in the darkness ⏎ I heard him call: ⏎ ‘Run for your life, Jake! ⏎ Run for your wife’s sake! ⏎ Don’t wait for me.’ ⏎  ⏎ And t"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "Don’t wait for me.’",
+   "replace": "Don’t wait for me.”",
+   "draft": "wait for me.’",
+   "verified": "wait for me.”",
+   "context": "m call: ⏎ “Run for your life, Jake! ⏎ Run for your wife’s sake! ⏎ Don’t wait for me.’ ⏎  ⏎ And that was all ⏎ Heard in the din ⏎ Heard of Tom Flynn,— ⏎ Fly"
+  }
+ ],
+ "p0206": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "Down the Pacific.\n\n[[subtitle]] The",
+   "replace": "Down the Pacific\n\n[[subtitle]] The",
+   "draft": " the Pacific.\n\n[[subtitle",
+   "verified": " the Pacific\n\n[[subtitle",
+   "context": "[[page ?]] ⏎  ⏎ # Chapter XIII. ⏎  ⏎ [[subtitle]] Down the Pacific. ⏎  ⏎ [[subtitle]] The “peaceful ocean”—A tumble—Sea-gulls and Spanish lessons—An "
+  }
+ ],
+ "p0263": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "of the special saint by the side of each altar; they were really very fine; all coloured to imitate life, in perfect proportion and well executed.",
+   "replace": "of the special",
+   "draft": " the special saint by the side of each altar; they were really very fine; all coloured to imitate life, in perfect proportion and well executed.",
+   "verified": " the special",
+   "context": "t saints or virgins along the sides, with life-size figures of the special saint by the side of each altar; they were really very fine; all coloured to imitate life, in perfect proportion and well executed. ⏎  ⏎ [[image: Engraving of the cathedral at Guadalajara, with t"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "[[caption]] The Cathedral, Guadalajara.",
+   "replace": "[[caption]] The Cathedral, Guadalajara.\n\n[[cont]]saint by the side of each altar; they were really very fine; all coloured to imitate life, in perfect proportion and well executed.",
+   "draft": "Guadalajara.",
+   "verified": "Guadalajara.\n\n[[cont]]saint by the side of each altar; they were really very fine; all coloured to imitate life, in perfect proportion and well executed.",
+   "context": " dome, seen across a plaza with a round fountain in front]] ⏎ [[caption]] The Cathedral, Guadalajara. ⏎  ⏎ By each altar also was its confessional-chair,—a carved wo"
+  }
+ ],
+ "p0272": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "[[subtitle]] Up the Valley of the Lerma.",
+   "replace": "[[subtitle]] Up the Valley of the Lerma",
+   "draft": "of the Lerma.",
+   "verified": "of the Lerma",
+   "context": "[[page ?]] ⏎  ⏎ # Chapter XVII. ⏎  ⏎ [[subtitle]] Up the Valley of the Lerma. ⏎  ⏎ [[subtitle]] The Rio Grande de Santiago—Ocotlan—Ordering d"
+  }
+ ],
+ "p0276": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "Michoacan rise",
+   "replace": "Micho-acan rise",
+   "draft": "Michoacan rise",
+   "verified": "Micho-acan rise",
+   "context": "thirty miles wide, and on the further side the mountains of Michoacan rise in grand rugged masses to a considerable height. Between th"
+  }
+ ],
+ "p0318": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "whereever",
+   "replace": "wherever",
+   "draft": "whereever",
+   "verified": "wherever",
+   "context": "all was full of bullet-holes, with a little cross scratched whereever any one had fallen. It seems horrible to shoot them there i"
+  }
+ ],
+ "p0339": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "huacals</i>;” or",
+   "replace": "huacals</i>,” or",
+   "draft": "huacals</i>;” or",
+   "verified": "huacals</i>,” or",
+   "context": "of all the Indios are the bird-sellers, who bring their “<i>huacals</i>;” or packs of birds, up from the Tierra Caliente, and sit in cro"
+  }
+ ],
+ "p0420": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "“<i>Vámonos!</i>”",
+   "replace": "‘<i>Vámonos!</i>”",
+   "draft": "“<i>Vámonos!<",
+   "verified": "‘<i>Vámonos!<",
+   "context": "[[page 392]] ⏎  ⏎ “<i>Vámonos!</i>” Down goes the break! Gabriel, who is beside me, seizes my a"
+  }
+ ],
+ "p0441": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<sc>or, first lessons in earth-lore for children.</sc>",
+   "replace": "<sc>Or, First Lessons in Earth-Lore for Children.</sc>",
+   "draft": "<sc>or, first lessons in earth-lore for children.</sc",
+   "verified": "<sc>Or, First Lessons in Earth-Lore for Children.</sc",
+   "context": "III. ⏎  ⏎ [[center]] <i>Madam How and Lady Why;</i> ⏎  ⏎ [[center]] <sc>or, first lessons in earth-lore for children.</sc> ⏎  ⏎ [[center]] <i>With numerous Illustrations.</i> ⏎  ⏎ [[center]]"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "<sc>w. isbister & co., 56 ludgate hill, london.</sc>",
+   "replace": "<sc>W. Isbister & Co., 56 Ludgate Hill, London.</sc>",
+   "draft": "<sc>w. isbister & co., 56 ludgate hill, london.</sc>",
+   "verified": "<sc>W. Isbister & Co., 56 Ludgate Hill, London.</sc>",
+   "context": "center]] Second Thousand, Crown 8vo, 6<i>s.</i> ⏎  ⏎ [[center]] <sc>w. isbister & co., 56 ludgate hill, london.</sc> ⏎ "
+  }
+ ]
+}
