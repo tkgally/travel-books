@@ -304,6 +304,26 @@ class Sample(unittest.TestCase):
         self.assertEqual(main, "One and two marks.")
         self.assertEqual(notes, "The note.")
 
+    def test_odt_contents_list_is_not_text(self):
+        # the generated contents list after the title page (2026-11-19) is not book text; ordinary paragraphs
+        # inserted next to it still count, so an inserted line is still caught
+        import io
+        x = ('<office:document-content xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" '
+             'xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"><office:body><office:text>'
+             '<text:p text:style-name="Contents_20_Heading">Contents</text:p>'
+             '<text:p text:style-name="Contents_20_1"><text:a>Chapter I. The Ford</text:a></text:p>'
+             '<text:p text:style-name="Contents_20_2"><text:a>3-9 May: Leeds</text:a></text:p>'
+             '<text:p text:style-name="Text_20_body">An inserted line.</text:p>'
+             '<text:h text:style-name="Heading_20_1">Chapter I.</text:h>'
+             '</office:text></office:body></office:document-content>')
+        buf = io.BytesIO()
+        with zipfile.ZipFile(buf, "w") as z:
+            z.writestr("content.xml", x)
+        buf.seek(0)
+        main, _ = preflight.odt_streams(buf)
+        self.assertEqual(main, "An inserted line. Chapter I.")
+
+
 class Normalize(unittest.TestCase):
     def test_spacing(self):
         self.assertEqual(normalize.norm_page("[[page 3]]\n\n\n“ Well ! ” said he ; “ I do n't know .”  Then -- nothing."),
