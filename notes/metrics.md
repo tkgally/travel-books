@@ -13,6 +13,7 @@
 | Sketches Awheel in Modern Iberia v2 | 2026-11-19 | 338 | (no new model calls) | – | – | – | 0 | 0 | PASS, 0 waived | as v1 | contents: entries unlike one another (Tom); full summaries |
 | Flying Leaves from East and West v2 | 2026-11-19 | 324 | (no new model calls) | – | – | – | 0 | 0 | PASS, 0 waived | as v1 | contents: parts did not nest; Leaves by number only (Tom) |
 | South by West v1 | 2026-11-19 | 454 | Opus draft → Sonnet corrections → Opus judge; 3 pages by the OCR fallback (tesseract + Opus) | 63 | 24 / 39 / 0 | 0 | 44.35 | 0 | PASS, 2 waived | 30/30 + 15/15 on the fallback pages; 0 / 9 | |
+| Corona and Coronet v1 | 2026-11-19 | 490 drafted of 505 | Opus draft → Sonnet corrections → Opus judge | 14 | 12 / 2 / 0 | 0 (3 printer's errors confirmed on crops) | 44.95 | 0 | PASS, 2 waived | 30/30; 0 / 6 | |
 
 ## Calibrations
 

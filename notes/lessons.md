@@ -51,6 +51,10 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 - Plates printed sideways: `crop_image.py --rotate 270` when the caption reads bottom to top along the right edge.
 - Set `frontispiece` in book.json, with or without a caption (preflight follows moved images since 2026-11-19).
+- A plate with a label or sub-captions on separate lines: one `[[caption]]`, parts separated by full stops; several
+  `[[caption]]` lines fail preflight `conservation` (it compares caption lines; the compiler joins them) [*Corona and Coronet*, 2026-11-19].
+- A folding map shot in two halves: crop each half; try joining them only if the shots overlap (they did not in
+  *Corona and Coronet*: a strip at the fold was missing, said in `notes_on_text`).
 
 ## Trigger: drop capitals at chapter openings
 
@@ -109,6 +113,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 - CI (`pages.yml`) installs only Pillow before the tests: a test that needs another package must add it there (a test importing `crop_image` broke the deploy on 2026-11-19).
 - `sleep` in a foreground command is blocked: run long commands in the background and do other work meanwhile.
+- `publish.py` runs preflight again: `export EPUBCHECK_JAR=…` in the same command, or it fails on epubcheck.
 - `tools/setup_env.sh` first (it switches apt to https mirrors: plain-http mirrors hang behind the session proxy). It
   takes a few minutes; preflight and the tests need only epubcheck and Pillow, so run it in the background. Headless calls: `claude -p` with only the Read tool (`ocr_claude.py`).
 - Drive: uploads from a session are refused above about 3 MB per call (tested 2026-11-19: 2.86 MB went

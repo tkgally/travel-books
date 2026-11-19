@@ -103,4 +103,7 @@
 
 ## Questions for Tom
 
-None open.
+- **An illustration by a person whose death date is unknown** (*Corona and Coronet*, 2026-11-19): one plate is "from a
+  Drawing by Mr. Thompson", the expedition's young mechanician (born after 1856, death not found). Under rule 5 I left
+  that one drawing out of the editions (its caption and a note stay) and went on with the book. Is that right, or
+  should such a book wait, or is a minor illustrator's drawing acceptable?

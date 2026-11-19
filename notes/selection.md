@@ -43,6 +43,10 @@
 
 What cannot be checked (Distributed Proofreaders work in progress) is said so in the row.
 
+Read the list of illustrations too: a plate credited to a named artist ("from a drawing by Mr. Thompson") brings
+that person under rule 5. One such plate whose artist cannot be cleared was left out of *Corona and Coronet* (caption
+kept, `notes_on_text` says why); a book whose many illustrations are by such a person waits.
+
 ## Before starting a queued book
 
 Repeat checks 2 and 3 quickly (the catalogue and one web search), look at the Wikisource index if one was
