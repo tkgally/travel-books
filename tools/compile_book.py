@@ -349,6 +349,18 @@ def compile_pages(cfg, pages, images=None):
         if not any(b["type"] in ("paragraph", "quote", "verse", "table", "image") for b in d["blocks"]) and d["kind"] == "chapter":
             d["kind"] = "part" if cfg.get("auto_parts", True) else d["kind"]
 
+    # frontispiece (book.json "frontispiece": "p0010-1"): the image is moved from the front matter to the start of
+    # the first reading division, so the reading editions show it (style.md, "What goes where")
+    if cfg.get("frontispiece"):
+        want = "images/" + (images or {}).get(cfg["frontispiece"], cfg["frontispiece"] + ".jpg")
+        first = next((d for d in divs if d["reading"]), None)
+        src = next(((d, b) for d in divs if not d["reading"] for b in d["blocks"] if b["type"] == "image" and b["src"] == want), None)
+        if first is None or src is None:
+            warn(f"frontispiece {cfg['frontispiece']!r}: no such image outside the reading divisions")
+        else:
+            src[0]["blocks"].remove(src[1])
+            first["blocks"].insert(0, src[1])
+
     leaf_div = {}
     for d in divs:
         for b in d["blocks"]:

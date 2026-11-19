@@ -38,7 +38,7 @@ Never Fable. Commit after each run. While runs go, do the page map, crops and me
 - **Front and back matter**: `divisions` in `book.json`; what is left out of the reading editions and said so.
 - **Notes**: marks pair; continued notes; notes on plates.
 - **Verse, letters, inscriptions, tables**: spot-read against the scan.
-- **Illustrations**: every `[[image:]]` has a crop that was looked at; captions; alt text says what is shown.
+- **Illustrations**: every `[[image:]]` has a crop that was looked at; captions; alt text says what is shown. A frontispiece in the front matter: set `frontispiece` in book.json.
 - **Printer's errors**: few, certain, each `[[corr printed|corrected]]`.
 
 ## Metadata and summary
