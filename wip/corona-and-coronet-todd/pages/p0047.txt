@@ -1,5 +1,5 @@
 [[page ?]]
-[[center]] Corona and Coronet
+# Corona and Coronet
 
 # Chapter I
 [[subtitle]] The Coronet

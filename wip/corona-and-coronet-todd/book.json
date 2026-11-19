@@ -78,6 +78,17 @@
    "kind": "introduction"
   },
   {
+   "at": "p0031",
+   "kind": "chapter",
+   "toc_title": "Deep-Sea Yachting, by A. C. James"
+  },
+  {
+   "at": "p0047",
+   "kind": "front",
+   "n": 1,
+   "title": "Half-title"
+  },
+  {
    "at": "p0491",
    "kind": "index"
   }
@@ -87,5 +98,22 @@
   "The plate “Lighthouse on the Beach at Esashi (from a Drawing by Mr. Thompson)” is left out of these editions; its caption is kept. The artist, E. A. Thompson, the expedition’s mechanician, was a young man in 1896 and his date of death has not been found, so the drawing cannot yet be shown to be in the public domain everywhere.",
   "The folding map “Route of the Amherst Eclipse Expedition and Cruise of Mr. James’s Schooner Yacht Coronet” was photographed in two halves; a narrow strip at the fold is missing from the scan, so a few letters near San Francisco and in the title are lost. It is shown here as the two halves.",
   "Music printed in staff notation (six songs and calls) is shown as images."
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0007",
+   "why": "tissue guard over the title page, no text of its own (IA does not hide it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0008",
+   "why": "blank leaf behind the tissue guard"
+  }
+ ],
+ "keep_hyphens": [
+  "p0041",
+  "p0299",
+  "p0457"
  ]
 }
