@@ -145,18 +145,21 @@
   },
   {
    "order": 8,
-   "ia": "ourridethrougha01stevgoog",
+   "ia": "39020025955066-ourridethrougha",
    "slug": "our-ride-through-asia-minor-scott-stevenson",
    "title": "Our Ride through Asia Minor",
    "author": "Mrs. Scott-Stevenson",
    "year": 1881,
    "place": "London",
    "publisher": "Chapman & Hall",
-   "images": 459,
-   "status": "queued",
+   "images": 430,
+   "status": "published",
    "checked": "2026-11-19",
-   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Forgotten Books, Creative Media (print on demand). The Online Books Page not checked.",
-   "note": "Google scan of a Harvard copy; a library scan also exists (39020025955066-ourridethrougha): compare and use the better."
+   "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Forgotten Books, Creative Media (print on demand). The Online Books Page not checked. Re-checked 2026-11-20: web search finds no text edition (Gutenberg results are Burnaby's different book) and only Forgotten Books (print on demand). Author: Mary Esmé Gwendoline Grogan, married Andrew Scott-Stevenson 19 October 1871 (thepeerage.com), so born before 1856; death date not found: rule 5 met by the assumption of death before 100. Map drawn by Lieut. H. H. Kitchener, R.E. (d. 1916).",
+   "note": "George Washington University scan (39020025955066-ourridethrougha, 430 leaves, crisp, map opened in two halves with a strip at the fold not shown) used; the Google scan (ourridethrougha01stevgoog) is bilevel and its map unopened.",
+   "started": "2026-11-20",
+   "version": 1,
+   "published": "2026-11-20"
   },
   {
    "order": 9,

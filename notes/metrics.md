@@ -18,6 +18,7 @@
 | Embassy to China v1 | 2026-11-20 | 1,322 page files (3 IA items + 3 Getty leaves) | Opus draft → Sonnet corrections → Opus judge | 70 | 26 / 44 / 0 | 1 (p1259 "stalks,": judge's ";" wrong) | 140.14 | 0 | PASS, 0 waived | 30/30; 0 / 6 | |
 | Rambles through Japan without a Guide v1 | 2026-11-20 | 301 drafted (2 from a second scan) | Opus draft → Sonnet corrections → Opus judge | 25 | 15 / 8 / 0 (2 a moved paragraph judged both ways: lost by judge.py, restored, tool fixed) | 0 | 30.31 | 0 | PASS, 1 waived | 30/30 + 5/5 on the second-scan leaf; 0 / 7 | |
 | Rambles through Japan without a Guide v2 | 2026-11-20 | 301 drafted (2 from a second scan) | (no new model calls) | – | – | – | 0 | 0 | PASS, 1 waived | as v1 | head- and tail-pieces added at Tom's word |
+| Our Ride through Asia Minor v1 | 2026-11-20 | 418 drafted of 430 | Opus draft → Sonnet corrections → Opus judge; 2 pages by the OCR fallback (tesseract + Opus) | 11 | 9 / 2 / 0 | 1 (p0119 "rame": a broken n, judge sided with the verifier) | 42.13 | 0 | PASS, 4 waived | 30/30 + 10/10 on the fallback pages; 0 / 8 | |
 
 ## Calibrations
 

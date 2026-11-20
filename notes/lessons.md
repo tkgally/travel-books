@@ -76,6 +76,10 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - Scans of old multi-volume sets: the scan check found a missing first page of text and a missing frontispiece
   (UC copy) that IA's own page numbers did not show; another library's scan supplied them page by page.
 
+## Trigger: broken type
+
+- A worn or broken letter (an *n* whose stroke has gone, so it looks like *r*) is read by judges as the letter it looks like (*Asia Minor* p0119 "rame"). Look for the same break elsewhere on the page before calling it a misprint; a broken letter is transcribed as the letter set, not marked `[[corr]]`.
+
 ## Trigger: drop capitals at chapter openings
 
 - Drafts type the capitals after a drop capital as small capitals (`T<sc>he</sc>`) on some chapters and as capitals
@@ -136,6 +140,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - A session that set out to type such a page itself was ended by the same filter, and every later turn of
   that session failed at once (2026-11-19). Never do it, whoever asks; say why and use the fallback.
 - The corrections pass, the judge and the audit were not refused on those pages.
+- *Our Ride through Asia Minor* (2026-11-20): 2 of 418 (p0347–p0348, ruins of Koniah, ordinary prose); the fallback and a 10/10 audit, no other trouble.
 
 ## Trigger: OpenRouter
 
