@@ -1,0 +1,31 @@
+[[page 188]]
+
+# Appendix B.
+
+[[center]] (Page <pref>79</pref>.)
+
+[[subtitle]] T<sc>he</sc> D<sc>ifference between the</sc> A<sc>rabic of</sc> L<sc>iterature and the</sc> A<sc>rabic of</sc> M<sc>odern</sc> P<sc>arlance</sc>.
+
+A modern Arabic verb has but one form of conjugation and two tenses, the aorist (serving for present and future) and the preterit. There is no infinitive, but the 3rd pers. masc. sing. of the preterit serves as such, forming, as it does, the root. Example, <i>kteb</i> (“to write”), literally, “he has written.” It has also the imperative mood, and the past and present participles. The “regular” Arabic verb, on the other hand, is conjugated with preterit, aorist indicative, aorist subjunctive, conditional, imperative, and what Professor Machnel describes as “<i>Aoriste Énergique Sourd</i>” and “<i>Aoriste Énergique Léger</i>,” which answer to our “I will <i>certainly</i> kill,” “Thou shalt <i>certainly</i> write;” in French, “<i>Certes, je tuerai</i>,” etc.
+
+The two following examples of the preterit of the verb “to kill” (<i>qt’l</i>) will show the difference between the “regular” and the spoken forms of Arabic:—
+
+### “<sc>Regular</sc>” <sc>Arabic</sc>.
+
+[[center]] Verb <i>to kill</i> (Qt’l).
+
+[[center]] <sc>prétérit.</sc>
+
+[[center]] <i>Singulier.</i>
+
+| 1re personne | قتلت | qt’lt | <i>j’ai tué.</i> |
+| 2e „ | masc. | qt’lt | <i>tu as tué.</i> |
+| 2e „ | fém. | qt’lti 〓 | <i>tu as tué</i> (fém.). |
+| 3e „ | masc. | qt’l (قتل, infinitive) | <i>il a tué.</i> |
+| 3e „ | fém. | qt’let | <i>elle a tué.</i> |
+
+[[center]] <i>Duel.</i>
+
+| 2e personne | | qt’ltma | <i>vous avez tué</i> (<i>tous deux</i>). |
+| 3e „ | masc. | qt’la | <i>ils ont tué</i> (<i>tous deux</i>). |
+| 3e „ | fém. | qt’lta | <i>elles ont tué</i> (<i>toutes deux</i>). |

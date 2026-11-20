@@ -1,0 +1,57 @@
+{
+ "p0036": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Pèeres",
+   "replace": "Pères",
+   "draft": "Pèeres",
+   "verified": "Pères",
+   "context": "sseurs d’Afrique on their long-tailed Arab steeds; and the “Pèeres Blancs,” that noble missionary order founded by the dead ca"
+  }
+ ],
+ "p0074": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "[[subtitle]] Arabs “Chez Eux.”",
+   "replace": "## Arabs “Chez Eux.”",
+   "draft": "[[subtitle]] Arabs “Chez",
+   "verified": "## Arabs “Chez",
+   "context": "[[page ?]] ⏎  ⏎ # Chapter III. ⏎  ⏎ [[subtitle]] Arabs “Chez Eux.” ⏎  ⏎ [[subtitle]] Arabs <i>chez eux</i>—Their families and <i>f"
+  }
+ ],
+ "p0079": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "“You-you-you-you-you-ee,”",
+   "replace": "“You-you-you-you-ee,”",
+   "draft": "“You-you-you-you-y",
+   "verified": "“You-you-you-y",
+   "context": "orpion disappeared down their throats a shrill cry arose of “You-you-you-you-you-ee,” as sharp and highly pitched as the scream of a railway whis"
+  }
+ ],
+ "p0149": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<i>cortége</i>",
+   "replace": "<i>cortège</i>",
+   "draft": "<i>cortége</i>",
+   "verified": "<i>cortège</i>",
+   "context": "ds. Then through rocky defiles, where we meet an occasional <i>cortége</i> of Arabs, evidently <i>en route</i> for the Algiers market,"
+  }
+ ],
+ "p0246": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "| 3e „ | fem. | qt’lta |",
+   "replace": "| 3e „ | fém. | qt’lta |",
+   "draft": "| 3e „ | fem. | qt’lta ",
+   "verified": "| 3e „ | fém. | qt’lta ",
+   "context": " | masc. | qt’la | <i>ils ont tué</i> (<i>tous deux</i>). | ⏎ | 3e „ | fem. | qt’lta | <i>elles ont tué</i> (<i>toutes deux</i>). | ⏎ "
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "id": "land-of-mosques-greville-nugent",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "A Land of Mosques and Marabouts",
+ "short_title": "A Land of Mosques and Marabouts",
+ "authors": [
+  {
+   "name": "The Hon. Mrs. Greville-Nugent",
+   "sort": "Greville-Nugent, The Hon. Mrs.",
+   "died": 1949
+  }
+ ],
+ "place": "London",
+ "publisher": "Chapman & Hall",
+ "year": 1894,
+ "edition_statement": "First edition",
+ "source": {
+  "ia_identifier": "landofmosquesmar00nugeuoft",
+  "contributor": "University of Toronto",
+  "hidden_leaves": [
+   0,
+   8,
+   9,
+   94,
+   95,
+   150,
+   151,
+   160,
+   161,
+   174,
+   175,
+   188,
+   189,
+   214,
+   215,
+   238,
+   239,
+   255,
+   256,
+   257,
+   258,
+   259
+  ]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  }
+ ],
+ "frontispiece": "p0010-1",
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "front"
+  },
+  {
+   "at": "p0013",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0015",
+   "kind": "dedication",
+   "title": "Dedication"
+  },
+  {
+   "at": "p0017",
+   "kind": "front",
+   "reading": true
+  },
+  {
+   "at": "p0019",
+   "kind": "contents"
+  },
+  {
+   "at": "p0022",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0023",
+   "kind": "front",
+   "n": 1
+  },
+  {
+   "at": "p0242",
+   "kind": "back",
+   "reading": true
+  },
+  {
+   "at": "p0245",
+   "kind": "appendix"
+  },
+  {
+   "at": "p0246",
+   "kind": "appendix"
+  },
+  {
+   "at": "p0248",
+   "kind": "appendix"
+  }
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0011",
+   "why": "tissue guard over the frontispiece"
+  },
+  {
+   "check": "leaves",
+   "match": "p0012",
+   "why": "tissue guard over the frontispiece (verso)"
+  }
+ ]
+}
