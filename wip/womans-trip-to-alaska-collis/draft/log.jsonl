@@ -79,3 +79,146 @@
 {"page": "p0079", "model": "opus", "corrections": null, "seconds": 5.9, "cost": 0.0654576, "completion_tokens": 559, "turns": 2, "attempts": 1}
 {"page": "p0080", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
 {"page": "p0081", "model": "opus", "corrections": null, "seconds": 3.5, "cost": 0.058185799999999996, "completion_tokens": 195, "turns": 2, "attempts": 1}
+{"page": "p0082", "model": "opus", "corrections": null, "seconds": 9.6, "cost": 0.07469400000000001, "completion_tokens": 1020, "turns": 2, "attempts": 1}
+{"page": "p0083", "model": "opus", "corrections": null, "seconds": 7.3, "cost": 0.0698166, "completion_tokens": 779, "turns": 2, "attempts": 1}
+{"page": "p0084", "model": "opus", "corrections": null, "seconds": 7.6, "cost": 0.06911300000000001, "completion_tokens": 743, "turns": 2, "attempts": 1}
+{"page": "p0085", "model": "opus", "corrections": null, "seconds": 7.7, "cost": 0.0705576, "completion_tokens": 814, "turns": 2, "attempts": 1}
+{"page": "p0086", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0087", "model": "opus", "corrections": null, "seconds": 8.4, "cost": 0.06999760000000001, "completion_tokens": 786, "turns": 2, "attempts": 1}
+{"page": "p0088", "model": "opus", "corrections": null, "seconds": 5.2, "cost": 0.0629176, "completion_tokens": 432, "turns": 2, "attempts": 1}
+{"page": "p0089", "model": "opus", "corrections": null, "seconds": 7.4, "cost": 0.0683304, "completion_tokens": 701, "turns": 2, "attempts": 1}
+{"page": "p0090", "model": "opus", "corrections": null, "seconds": 6.7, "cost": 0.0669176, "completion_tokens": 632, "turns": 2, "attempts": 1}
+{"page": "p0091", "model": "opus", "corrections": null, "seconds": 6.8, "cost": 0.0682294, "completion_tokens": 698, "turns": 2, "attempts": 1}
+{"page": "p0092", "model": "opus", "corrections": null, "seconds": 7.4, "cost": 0.0676976, "completion_tokens": 671, "turns": 2, "attempts": 1}
+{"page": "p0093", "model": "opus", "corrections": null, "seconds": 8.4, "cost": 0.0704422, "completion_tokens": 807, "turns": 2, "attempts": 1}
+{"page": "p0094", "model": "opus", "corrections": null, "seconds": 7.5, "cost": 0.0683376, "completion_tokens": 703, "turns": 2, "attempts": 1}
+{"page": "p0095", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0096", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0097", "model": "opus", "corrections": null, "seconds": 6.3, "cost": 0.0662258, "completion_tokens": 597, "turns": 2, "attempts": 1}
+{"page": "p0098", "model": "opus", "corrections": null, "seconds": 8.3, "cost": 0.0698704, "completion_tokens": 778, "turns": 2, "attempts": 1}
+{"page": "p0099", "model": "opus", "corrections": null, "seconds": 7.7, "cost": 0.067154, "completion_tokens": 643, "turns": 2, "attempts": 1}
+{"page": "p0100", "model": "opus", "corrections": null, "seconds": 6.2, "cost": 0.0645658, "completion_tokens": 514, "turns": 2, "attempts": 1}
+{"page": "p0101", "model": "opus", "corrections": null, "seconds": 7.5, "cost": 0.0683658, "completion_tokens": 704, "turns": 2, "attempts": 1}
+{"page": "p0102", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0103", "model": "opus", "corrections": null, "seconds": 8.1, "cost": 0.0708622, "completion_tokens": 828, "turns": 2, "attempts": 1}
+{"page": "p0104", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0105", "model": "opus", "corrections": null, "seconds": 9.7, "cost": 0.0727776, "completion_tokens": 925, "turns": 2, "attempts": 1}
+{"page": "p0106", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0107", "model": "opus", "corrections": null, "seconds": 6.5, "cost": 0.0667776, "completion_tokens": 625, "turns": 2, "attempts": 1}
+{"page": "p0108", "model": "opus", "corrections": null, "seconds": 7.5, "cost": 0.06823299999999999, "completion_tokens": 699, "turns": 2, "attempts": 1}
+{"page": "p0109", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0110", "model": "opus", "corrections": null, "seconds": 6.3, "cost": 0.065274, "completion_tokens": 549, "turns": 2, "attempts": 1}
+{"page": "p0111", "model": "opus", "corrections": null, "seconds": 7.2, "cost": 0.0669776, "completion_tokens": 635, "turns": 2, "attempts": 1}
+{"page": "p0112", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0113", "model": "opus", "corrections": null, "seconds": 3.6, "cost": 0.0582658, "completion_tokens": 199, "turns": 2, "attempts": 1}
+{"page": "p0114", "model": "opus", "corrections": null, "seconds": 5.8, "cost": 0.06696579999999999, "completion_tokens": 634, "turns": 2, "attempts": 1}
+{"page": "p0115", "model": "opus", "corrections": null, "seconds": 6.1, "cost": 0.06708120000000001, "completion_tokens": 641, "turns": 2, "attempts": 1}
+{"page": "p0116", "model": "opus", "corrections": null, "seconds": 7.6, "cost": 0.06999040000000001, "completion_tokens": 784, "turns": 2, "attempts": 1}
+{"page": "p0117", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0118", "model": "opus", "corrections": null, "seconds": 7.4, "cost": 0.0671458, "completion_tokens": 643, "turns": 2, "attempts": 1}
+{"page": "p0119", "model": "opus", "corrections": null, "seconds": 7.4, "cost": 0.0685376, "completion_tokens": 713, "turns": 2, "attempts": 1}
+{"page": "p0120", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0121", "model": "opus", "corrections": null, "seconds": 7.5, "cost": 0.06801760000000001, "completion_tokens": 687, "turns": 2, "attempts": 1}
+{"page": "p0122", "model": "opus", "corrections": null, "seconds": 7.4, "cost": 0.069093, "completion_tokens": 742, "turns": 2, "attempts": 1}
+{"page": "p0123", "model": "opus", "corrections": null, "seconds": 7.5, "cost": 0.0689658, "completion_tokens": 734, "turns": 2, "attempts": 1}
+{"page": "p0124", "model": "opus", "corrections": null, "seconds": 3.7, "cost": 0.0584858, "completion_tokens": 210, "turns": 2, "attempts": 1}
+{"page": "p0125", "model": "opus", "corrections": null, "seconds": 7.0, "cost": 0.06758120000000001, "completion_tokens": 666, "turns": 2, "attempts": 1}
+{"page": "p0126", "model": "opus", "corrections": null, "seconds": 8.5, "cost": 0.0688858, "completion_tokens": 730, "turns": 2, "attempts": 1}
+{"page": "p0127", "model": "opus", "corrections": null, "seconds": 7.9, "cost": 0.0702622, "completion_tokens": 798, "turns": 2, "attempts": 1}
+{"page": "p0128", "model": "opus", "corrections": null, "seconds": 7.8, "cost": 0.0696612, "completion_tokens": 770, "turns": 2, "attempts": 1}
+{"page": "p0129", "model": "opus", "corrections": null, "seconds": 4.0, "cost": 0.0590058, "completion_tokens": 236, "turns": 2, "attempts": 1}
+{"page": "p0130", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0131", "model": "opus", "corrections": null, "seconds": 7.6, "cost": 0.0711894, "completion_tokens": 846, "turns": 2, "attempts": 1}
+{"page": "p0132", "model": "opus", "corrections": null, "seconds": 9.6, "cost": 0.0732858, "completion_tokens": 950, "turns": 2, "attempts": 1}
+{"page": "p0133", "model": "opus", "corrections": null, "seconds": 6.3, "cost": 0.0680212, "completion_tokens": 688, "turns": 2, "attempts": 1}
+{"page": "p0134", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0135", "model": "opus", "corrections": null, "seconds": 5.1, "cost": 0.0631848, "completion_tokens": 447, "turns": 2, "attempts": 1}
+{"page": "p0136", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0137", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0138", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0139", "model": "opus", "corrections": null, "seconds": 3.2, "cost": 0.058133000000000004, "completion_tokens": 194, "turns": 2, "attempts": 1}
+{"page": "p0140", "model": "opus", "corrections": null, "seconds": 7.6, "cost": 0.06981760000000001, "completion_tokens": 777, "turns": 2, "attempts": 1}
+{"page": "p0141", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0142", "model": "opus", "corrections": null, "seconds": 7.8, "cost": 0.0704848, "completion_tokens": 812, "turns": 2, "attempts": 1}
+{"page": "p0143", "model": "opus", "corrections": null, "seconds": 9.1, "cost": 0.0728694, "completion_tokens": 930, "turns": 2, "attempts": 1}
+{"page": "p0144", "model": "opus", "corrections": null, "seconds": 6.2, "cost": 0.0673858, "completion_tokens": 655, "turns": 2, "attempts": 1}
+{"page": "p0145", "model": "opus", "corrections": null, "seconds": 7.1, "cost": 0.0691776, "completion_tokens": 745, "turns": 2, "attempts": 1}
+{"page": "p0146", "model": "opus", "corrections": null, "seconds": 7.5, "cost": 0.0679612, "completion_tokens": 685, "turns": 2, "attempts": 1}
+{"page": "p0147", "model": "opus", "corrections": null, "seconds": 8.1, "cost": 0.069214, "completion_tokens": 746, "turns": 2, "attempts": 1}
+{"page": "p0148", "model": "opus", "corrections": null, "seconds": 6.6, "cost": 0.0669376, "completion_tokens": 633, "turns": 2, "attempts": 1}
+{"page": "p0149", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0150", "model": "opus", "corrections": null, "seconds": 6.4, "cost": 0.0687894, "completion_tokens": 726, "turns": 2, "attempts": 1}
+{"page": "p0151", "model": "opus", "corrections": null, "seconds": 6.9, "cost": 0.0666176, "completion_tokens": 617, "turns": 2, "attempts": 1}
+{"page": "p0152", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0153", "model": "opus", "corrections": null, "seconds": 7.9, "cost": 0.07006219999999999, "completion_tokens": 788, "turns": 2, "attempts": 1}
+{"page": "p0154", "model": "opus", "corrections": null, "seconds": 7.8, "cost": 0.0700094, "completion_tokens": 787, "turns": 2, "attempts": 1}
+{"page": "p0155", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0156", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0157", "model": "opus", "corrections": null, "seconds": 7.3, "cost": 0.06929400000000001, "completion_tokens": 750, "turns": 2, "attempts": 1}
+{"page": "p0158", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0159", "model": "opus", "corrections": null, "seconds": 6.5, "cost": 0.0673212, "completion_tokens": 653, "turns": 2, "attempts": 1}
+{"page": "p0160", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0161", "model": "opus", "corrections": null, "seconds": 6.8, "cost": 0.06890940000000001, "completion_tokens": 732, "turns": 2, "attempts": 1}
+{"page": "p0162", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0163", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0164", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0165", "model": "opus", "corrections": null, "seconds": 6.8, "cost": 0.0670658, "completion_tokens": 639, "turns": 2, "attempts": 1}
+{"page": "p0166", "model": "opus", "corrections": null, "seconds": 5.7, "cost": 0.0652012, "completion_tokens": 547, "turns": 2, "attempts": 1}
+{"page": "p0167", "model": "opus", "corrections": null, "seconds": 6.0, "cost": 0.0676658, "completion_tokens": 669, "turns": 2, "attempts": 1}
+{"page": "p0168", "model": "opus", "corrections": null, "seconds": 3.4, "cost": 0.0583612, "completion_tokens": 205, "turns": 2, "attempts": 1}
+{"page": "p0169", "model": "opus", "corrections": null, "seconds": 6.4, "cost": 0.0674894, "completion_tokens": 661, "turns": 2, "attempts": 1}
+{"page": "p0170", "model": "opus", "corrections": null, "seconds": 6.3, "cost": 0.0669858, "completion_tokens": 635, "turns": 2, "attempts": 1}
+{"page": "p0171", "model": "opus", "corrections": null, "seconds": 6.3, "cost": 0.0674012, "completion_tokens": 657, "turns": 2, "attempts": 1}
+{"page": "p0172", "model": "opus", "corrections": null, "seconds": 6.8, "cost": 0.06888939999999999, "completion_tokens": 731, "turns": 2, "attempts": 1}
+{"page": "p0173", "model": "opus", "corrections": null, "seconds": 7.3, "cost": 0.0698976, "completion_tokens": 781, "turns": 2, "attempts": 1}
+{"page": "p0174", "model": "opus", "corrections": null, "seconds": 7.4, "cost": 0.0692294, "completion_tokens": 748, "turns": 2, "attempts": 1}
+{"page": "p0175", "model": "opus", "corrections": null, "seconds": 7.0, "cost": 0.06908120000000001, "completion_tokens": 741, "turns": 2, "attempts": 1}
+{"page": "p0176", "model": "opus", "corrections": null, "seconds": 8.5, "cost": 0.0709694, "completion_tokens": 835, "turns": 2, "attempts": 1}
+{"page": "p0177", "model": "opus", "corrections": null, "seconds": 6.1, "cost": 0.0676248, "completion_tokens": 669, "turns": 2, "attempts": 1}
+{"page": "p0178", "model": "opus", "corrections": null, "seconds": 3.9, "cost": 0.058309400000000004, "completion_tokens": 202, "turns": 2, "attempts": 1}
+{"page": "p0179", "model": "opus", "corrections": null, "seconds": 7.5, "cost": 0.06851299999999999, "completion_tokens": 713, "turns": 2, "attempts": 1}
+{"page": "p0180", "model": "opus", "corrections": null, "seconds": 5.0, "cost": 0.0621248, "completion_tokens": 394, "turns": 2, "attempts": 1}
+{"page": "p0181", "model": "opus", "corrections": null, "seconds": 6.9, "cost": 0.0664776, "completion_tokens": 610, "turns": 2, "attempts": 1}
+{"page": "p0182", "model": "opus", "corrections": null, "seconds": 6.4, "cost": 0.0685412, "completion_tokens": 714, "turns": 2, "attempts": 1}
+{"page": "p0183", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0184", "model": "opus", "corrections": null, "seconds": 6.9, "cost": 0.06687760000000001, "completion_tokens": 630, "turns": 2, "attempts": 1}
+{"page": "p0185", "model": "opus", "corrections": null, "seconds": 6.2, "cost": 0.066714, "completion_tokens": 621, "turns": 2, "attempts": 1}
+{"page": "p0186", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0187", "model": "opus", "corrections": null, "seconds": 3.5, "cost": 0.058309400000000004, "completion_tokens": 202, "turns": 2, "attempts": 1}
+{"page": "p0188", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0189", "model": "opus", "corrections": null, "seconds": 5.8, "cost": 0.06682579999999999, "completion_tokens": 627, "turns": 2, "attempts": 1}
+{"page": "p0190", "model": "opus", "corrections": null, "seconds": 8.7, "cost": 0.07173299999999999, "completion_tokens": 874, "turns": 2, "attempts": 1}
+{"page": "p0191", "model": "opus", "corrections": null, "seconds": 7.0, "cost": 0.06895760000000001, "completion_tokens": 734, "turns": 2, "attempts": 1}
+{"page": "p0192", "model": "opus", "corrections": null, "seconds": 7.1, "cost": 0.0691448, "completion_tokens": 745, "turns": 2, "attempts": 1}
+{"page": "p0193", "model": "opus", "corrections": null, "seconds": 7.6, "cost": 0.071674, "completion_tokens": 869, "turns": 2, "attempts": 1}
+{"page": "p0194", "model": "opus", "corrections": null, "seconds": 7.4, "cost": 0.0688448, "completion_tokens": 730, "turns": 2, "attempts": 1}
+{"page": "p0195", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0196", "model": "opus", "corrections": null, "seconds": 4.9, "cost": 0.062376600000000004, "completion_tokens": 407, "turns": 2, "attempts": 1}
+{"page": "p0197", "model": "opus", "corrections": null, "seconds": 6.9, "cost": 0.0677566, "completion_tokens": 676, "turns": 2, "attempts": 1}
+{"page": "p0198", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0199", "model": "opus", "corrections": null, "seconds": 3.4, "cost": 0.058365799999999995, "completion_tokens": 204, "turns": 2, "attempts": 1}
+{"page": "p0200", "model": "opus", "corrections": null, "seconds": 9.3, "cost": 0.07261300000000001, "completion_tokens": 918, "turns": 2, "attempts": 1}
+{"page": "p0201", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0202", "model": "opus", "corrections": null, "seconds": 6.6, "cost": 0.06587760000000001, "completion_tokens": 580, "turns": 2, "attempts": 1}
+{"page": "p0203", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0204", "model": "opus", "corrections": null, "seconds": 6.6, "cost": 0.0672258, "completion_tokens": 647, "turns": 2, "attempts": 1}
+{"page": "p0205", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0206", "model": "opus", "corrections": null, "seconds": 6.8, "cost": 0.0692612, "completion_tokens": 750, "turns": 2, "attempts": 1}
+{"page": "p0207", "model": "opus", "corrections": null, "seconds": 6.5, "cost": 0.067274, "completion_tokens": 649, "turns": 2, "attempts": 1}
+{"page": "p0208", "model": "opus", "corrections": null, "seconds": 7.7, "cost": 0.0685258, "completion_tokens": 712, "turns": 2, "attempts": 1}
+{"page": "p0209", "model": "opus", "corrections": null, "seconds": 6.4, "cost": 0.06736120000000001, "completion_tokens": 655, "turns": 2, "attempts": 1}
+{"page": "p0210", "model": "opus", "corrections": null, "seconds": 7.1, "cost": 0.06864579999999999, "completion_tokens": 718, "turns": 2, "attempts": 1}
+{"page": "p0211", "model": "opus", "corrections": null, "seconds": 3.7, "cost": 0.0589812, "completion_tokens": 236, "turns": 2, "attempts": 1}
+{"page": "p0212", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0213", "model": "opus", "corrections": null, "seconds": 3.6, "cost": 0.058781200000000006, "completion_tokens": 226, "turns": 2, "attempts": 1}
+{"page": "p0214", "model": "opus", "corrections": null, "seconds": 6.5, "cost": 0.067854, "completion_tokens": 678, "turns": 2, "attempts": 1}
+{"page": "p0215", "model": "opus", "corrections": null, "seconds": 9.3, "cost": 0.0724448, "completion_tokens": 910, "turns": 2, "attempts": 1}
+{"page": "p0216", "model": "opus", "corrections": null, "seconds": 7.7, "cost": 0.070874, "completion_tokens": 829, "turns": 2, "attempts": 1}
+{"page": "p0217", "model": "opus", "corrections": null, "seconds": 4.2, "cost": 0.059473, "completion_tokens": 261, "turns": 2, "attempts": 1}
+{"page": "p0218", "model": "opus", "corrections": null, "seconds": 3.1, "cost": 0.0571058, "completion_tokens": 141, "turns": 2, "attempts": 1}
+{"page": "p0219", "model": "opus", "corrections": null, "seconds": 2.8, "cost": 0.057114000000000005, "completion_tokens": 141, "turns": 2, "attempts": 1}
+{"page": "p0220", "model": "opus", "corrections": null, "seconds": 3.1, "cost": 0.0571222, "completion_tokens": 141, "turns": 2, "attempts": 1}
+{"page": "p0221", "model": "opus", "corrections": null, "seconds": 2.9, "cost": 0.057114000000000005, "completion_tokens": 141, "turns": 2, "attempts": 1}
+{"page": "p0222", "model": "opus", "corrections": null, "seconds": 3.0, "cost": 0.0571386, "completion_tokens": 141, "turns": 2, "attempts": 1}
+{"page": "p0223", "model": "opus", "corrections": null, "seconds": 3.0, "cost": 0.0570976, "completion_tokens": 141, "turns": 2, "attempts": 1}
+{"page": "p0224", "model": "opus", "corrections": null, "seconds": 3.7, "cost": 0.058394, "completion_tokens": 205, "turns": 2, "attempts": 1}
