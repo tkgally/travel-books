@@ -1,0 +1,5 @@
+{"given": "we hoisted sail; and were soon", "print": "we hoisted sail, and were soon", "sure": "high"}
+{"given": "early morning! When it seemed small,", "print": "early morning! Then it seemed small,", "sure": "high"}
+{"given": "The wonderful benefit my hcalth received", "print": "The wonderful benefit my health received", "sure": "high"}
+{"given": "places the Engadine at foot of the", "print": "places the Engadine at the foot of the", "sure": "high"}
+{"given": "besides the splendor, it was so", "print": "besides the splendour, it was so", "sure": "high"}

@@ -1,0 +1,5 @@
+{"given": "But I am bound to say the ladics do not wait", "print": "But I am bound to say the ladies do not wait", "sure": "high"}
+{"given": "As soon as it is ended, everyone rises", "print": "As soon as it is ended, every one rises", "sure": "high"}
+{"given": "she answers, “May if do you good;”", "print": "she answers, “May it do you good;”", "sure": "high"}
+{"given": "and much more easily taste for the national", "print": "and much more easily a taste for the national", "sure": "high"}
+{"given": "cheese, and even whale, and there are plates", "print": "cheese, and even whale; and there are plates", "sure": "high"}
