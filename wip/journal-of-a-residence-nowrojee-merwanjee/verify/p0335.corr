@@ -1,0 +1,3 @@
+Comparing the image with the draft, I found one difference: the page has a comma after "expence" ("at a great expence, dug").
+
+{"find": "great expence dug", "replace": "great expence, dug"}
