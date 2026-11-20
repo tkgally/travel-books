@@ -208,5 +208,17 @@
   "Transcribed from the copy at the Boston Public Library (Internet Archive: impressionsoffir00koth). The book is one of three hundred copies printed.",
   "The contents of these editions follow the sections printed in the text (Europe, the Scotch, British, Irish and American tours, Canada, the Eastern tour). Inside them, entries of the editor’s give the dates and places of the European journey and of the American tour; the entries Japan, China and Straits Settlement are from the printed contents, placed where those parts begin. The printed contents’ last entry, Portions of Northern India, has no place of its own in the text (the last two paragraphs)."
  ],
- "omitted_from_reading": "The covers, the half-title, the title page, the printed contents and the printer’s imprint are in the JSON only."
+ "omitted_from_reading": "The covers, the half-title, the title page, the printed contents and the printer’s imprint are in the JSON only.",
+ "keep_hyphens": [
+  "p0035",
+  "p0148"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-20",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }

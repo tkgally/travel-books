@@ -24,7 +24,12 @@ Features: diary dates run in, italic; running heads; signature marks; small capi
 - Contents entries of the editor's: 15 for Europe (start date and places), 3 in America; Japan, China, Straits Settlement from the
   printed contents (`editor: false`) where those parts begin; Northern India has no paragraph of its own (said in notes_on_text).
 - Section openings: the first word in small capitals as printed (A<sc>fter</sc>, I <sc>started</sc>).
-- p0250 “Hail” for Hall (clear on the crop): marked [[corr Hail|Hall]]. p0092 “Austrians, The”: see the spot-read.
+- p0250 “Hail” for Hall (clear on the crop): marked [[corr Hail|Hall]]. p0092 “Austrians. The”: a faint full stop (Opus spot-read on a zoomed crop; the verifier read it so too), against the judge's comma.
+- keep_hyphens p0035 (bath-room: the book hyphenates every -room compound) and p0148 (green-covered; snow-covered elsewhere); undisturbed
+  and seaside joined (seaside printed so before nouns five times).
+- Spot-read (Opus subagent): front matter, preface, contents, p0013, p0090 (smear: all words match), p0167, the Japan pages
+  p0275–p0283 (every name letter by letter) and p0296: no differences. “via” without circumflex (p0055) and Italian “Via” street
+  names as printed.
 - Covers: front cover = cover.jpg (gilt ship, “Round the World”); back cover cropped from the working image (division “back”).
 
 ## Runs

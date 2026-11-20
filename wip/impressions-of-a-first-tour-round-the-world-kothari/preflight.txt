@@ -12,12 +12,9 @@
 [       ok] nav: contents: at least one reading division; each has a title and text
 [       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
-[ FAIL (1)] audit: book.json records the sampled audit of this version
-            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
-[ look (5)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
-            - hyphen join at p0035: … that the bath-|room is very fi… (hyphen removed; check) — the book hyphenates other “bath-” words: keep_hyphens?
+[       ok] audit: book.json records the sampled audit of this version
+[ look (3)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0142: … longest undis-|turbed are dug … (hyphen removed; check)
-            - hyphen join at p0148: …with the green-|covered hills i… (hyphen removed; check)
             - hyphen join at p0183: …t charming sea-|side town. Afte… (hyphen removed; check) — the book prints “sea-side” elsewhere: keep_hyphens?
             - (and 7 joins giving a word the book prints whole elsewhere: not listed)
 [       ok] joins: page joins: missing [[cont]]
@@ -33,7 +30,6 @@
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
 [ look (1)] accents: words the book spells with different accents (or with and without): look at each group on the scan
             - via: via (p0055, p0146, p0157); viâ (p0032, p0033, p0050, p0062, p0068, p0069…)
-[ look (1)] images: image files not used by any page
-            - images/p0009-1.jpg is not used
+[       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: impressions-of-a-first-tour-round-the-world-kothari v1 — 1 to fix, 0 waived; to look at: hyphen-joins 5, contents 3, accents 1, images 1 — tools@17463fc 2026-11-20
+preflight PASS: impressions-of-a-first-tour-round-the-world-kothari v1 — 0 to fix, 0 waived; to look at: hyphen-joins 3, contents 3, accents 1 — tools@854f4c6 2026-11-20
