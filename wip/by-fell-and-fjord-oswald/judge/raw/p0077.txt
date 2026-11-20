@@ -1,0 +1,2 @@
+{"n": 1, "is": "A", "print": "wind could\n\n[[image: Steep jagged mountain cliffs above a fjord, with two riders and horses on the shore]]\n[[caption]] <i>Hvalfjord.</i>\n\n[[cont]]not disturb ", "sure": "high"}
+{"n": 2, "is": "B", "print": "Renny-", "sure": "high"}

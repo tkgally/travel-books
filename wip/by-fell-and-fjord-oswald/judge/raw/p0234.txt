@@ -1,0 +1,2 @@
+{"n": 1, "is": "B", "print": "afterwards\n\n[[image: sketch of the dog Kàri standing in profile, a shaggy dog with pointed ears and a curled bushy tail]]\n\n[[cont]]with apologe", "sure": "high"}
+{"n": 2, "is": "A", "print": "fellowships.", "sure": "high"}

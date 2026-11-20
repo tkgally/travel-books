@@ -1,0 +1,2 @@
+{"n": 1, "is": "B", "print": "Distribution of those <sc>Sagas</sc> which rtain districts of the country. <i>Dotted lines show the boundaries of the four quarters. Names of localities printed red.</i>", "sure": "medium"}
+{"n": 2, "is": "A", "print": "ding map of north-eastern Icel", "sure": "low"}
