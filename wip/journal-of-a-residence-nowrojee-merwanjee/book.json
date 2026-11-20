@@ -48,5 +48,67 @@
   "Jehangeer Nowrojee and his cousin Hirjeebhoy Merwanjee were young assistant shipbuilders at the East India Company’s dockyard in Bombay, members of the Parsi family that had built ships there since 1735. Sent by their family to learn how steam vessels were designed, they sailed from Bombay in March 1838 by the Cape of Good Hope and St. Helena, spent two and a half years in England and Scotland, and wrote this book in London in April 1841, before going home.",
   "It is arranged by subject rather than by date: the voyage; London’s conveyances, exhibitions, theatres, museums, hospitals, markets, Parliament and courts; their training at Chatham dockyard and the launches they saw there; visits to Sheerness, Woolwich, Windsor and Egham; a tour of the dockyards and manufacturing towns from Portsmouth and Plymouth to Bristol, Birmingham, Liverpool and Glasgow; newspapers, customs, the climate, and verses written in their albums. The authors say they wrote it chiefly for Indians who might visit England."
  ],
- "frontispiece": "p0006-1"
+ "frontispiece": "p0006-1",
+ "divisions": [
+  {
+   "at": "p0007",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0008",
+   "kind": "front"
+  },
+  {
+   "at": "p0009",
+   "kind": "dedication"
+  },
+  {
+   "at": "p0011",
+   "kind": "preface"
+  },
+  {
+   "at": "p0023",
+   "kind": "contents"
+  },
+  {
+   "at": "p0523",
+   "kind": "advertisements"
+  }
+ ],
+ "omitted_from_reading": "The title page, the printer’s line, the printed contents and the publisher’s catalogue at the end are in the JSON only.",
+ "notes_on_text": [
+  "Transcribed from the copy at the Getty Research Institute (Internet Archive: journalofresiden00jaha).",
+  "Printed page 182 was first read by an OCR program (Tesseract), because the Claude models would not transcribe it; that reading was corrected against the page image by a Claude model and then proofread like the other pages.",
+  "Chapter XXXIII is headed “Chapter XXXII.” in the print; corrected here, as in the printed contents.",
+  "The publisher’s line under the frontispiece (“Published by W. H. Allen & Co. Leadenhall Street, April, 1841.”) and the artists’ names (G. Bragg, del.; J. R. Jobbins, Litho.) are left out of the caption."
+ ],
+ "ornaments": [
+  "p0523-1"
+ ],
+ "waivers": [
+  {
+   "check": "spacing",
+   "match": "p0092",
+   "why": "table of corn duties: ditto marks („) printed under the words they repeat; not quotation marks (checked on the scan)"
+  },
+  {
+   "check": "spacing",
+   "match": "p0299",
+   "why": "table of dockyard salaries: ditto marks (“) printed under the words they repeat; not quotation marks (checked on the scan)"
+  },
+  {
+   "check": "spacing",
+   "match": "p0300",
+   "why": "table of dockyard salaries: ditto marks (“) printed under the words they repeat; not quotation marks (checked on the scan)"
+  },
+  {
+   "check": "quote-balance",
+   "match": "p0309:",
+   "why": "printed so: a quoted newspaper report of the launch, interrupted by the authors’ “(alluding to ourselves)”, resumes with a new opening mark and runs on into the next paragraph"
+  }
+ ],
+ "keep_hyphens": [
+  "p0251",
+  "p0454"
+ ]
 }
