@@ -416,6 +416,13 @@ class Drive(unittest.TestCase):
             drive_cache.setid(src, "pages-001.zip", "ID1")
             drive_cache.pack(pages, os.path.join(tmp, "parts"), src, limit=3500)      # repacking keeps the ids of unchanged parts
             self.assertEqual(json.load(open(src))["parts"][0].get("drive_id"), "ID1")
+            before = json.load(open(src))["parts"]
+            open(os.path.join(pages, "p0003a.jpg"), "wb").write(os.urandom(1000))     # a leaf added later
+            drive_cache.pack(pages, os.path.join(tmp, "parts"), src, limit=3500, append=True)
+            after = json.load(open(src))["parts"]
+            self.assertEqual(after[:len(before)], before)                            # old parts untouched
+            self.assertEqual([p["files"] for p in after[len(before):]], [["p0003a.jpg"]])
+            self.assertEqual(after[-1]["name"], f"pages-{len(before) + 1:03d}.zip")
         finally:
             shutil.rmtree(tmp, ignore_errors=True)
 

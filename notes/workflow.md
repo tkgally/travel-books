@@ -94,6 +94,7 @@ LibreOffice (`soffice`) is in the image; preflight needs it for the ODT check.
    `source.json` as `drive_folder_id`, then
    ```bash
    python3 $R/tools/drive_cache.py pack $B/pages $B/parts --source $W/source.json --extra $B/src/*_djvu.txt
+   # leaves added later (a plate volume, a page from another scan): the same with --append (new parts only)
    ```
    (leave out `--extra` if IA's OCR text is over 3 MB) and upload each listed part with the connector
    (`create_file`: `title` = part name, `parentId` = the folder, `contentMimeType: application/zip`,

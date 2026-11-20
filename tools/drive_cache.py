@@ -4,7 +4,7 @@
 Why: so that the Internet Archive is asked for a book's files once, and the repository holds no scans.
 Drive folder "Travel Books" (id in CLAUDE.md) / one subfolder per book id.
 
-  drive_cache.py pack PAGES_DIR OUT_DIR --source SOURCE.json [--extra FILE ...]
+  drive_cache.py pack PAGES_DIR OUT_DIR --source SOURCE.json [--extra FILE ...] [--append]
         Zips the page images (and extra small files) into independent parts of at most 3 MB each
         (OUT_DIR/pages-001.zip …; the Drive connector refuses larger uploads from a session) and writes
         their names, contents and sha256 into SOURCE.json under "parts". Then, for each part, the SESSION
@@ -41,10 +41,16 @@ def save(p, d):
     open(p, "a").write("\n")
 
 
-def pack(pages_dir, out_dir, source, extra=(), limit=LIMIT):
+def pack(pages_dir, out_dir, source, extra=(), limit=LIMIT, append=False):
+    """append=True: only files no recorded part holds (and leaves.json, which may have changed) go into new
+    parts numbered after the existing ones, which are kept as they are: adding leaves (a plate volume, a page
+    from another scan) does not regroup, and so re-upload, the whole cache."""
     os.makedirs(out_dir, exist_ok=True)
     files = [os.path.join(pages_dir, f) for f in sorted(os.listdir(pages_dir))
              if re.fullmatch(r"p\d+[a-z]?\.(jpg|png)", f) or f == "leaves.json"] + list(extra)
+    if append:
+        have = {f for p in load(source).get("parts", []) for f in p["files"]} - {"leaves.json"}
+        files = [f for f in files if os.path.basename(f) not in have]
     groups, cur, size = [], [], 0
     for f in files:
         s = os.path.getsize(f) + 300
@@ -57,8 +63,9 @@ def pack(pages_dir, out_dir, source, extra=(), limit=LIMIT):
         groups.append(cur)
     src = load(source)
     old = {p["sha256"]: p for p in src.get("parts", [])}
-    parts = []
-    for i, g in enumerate(groups, 1):
+    kept = src.get("parts", []) if append else []
+    parts = list(kept)
+    for i, g in enumerate(groups, len(kept) + 1):
         name = f"pages-{i:03d}.zip"
         path = os.path.join(out_dir, name)
         with zipfile.ZipFile(path, "w", zipfile.ZIP_STORED) as z:
@@ -140,13 +147,13 @@ def fetch(source, dest, pages=None):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
-    s = sub.add_parser("pack"); s.add_argument("pages_dir"); s.add_argument("out_dir"); s.add_argument("--source", required=True); s.add_argument("--extra", nargs="*", default=[])
+    s = sub.add_parser("pack"); s.add_argument("pages_dir"); s.add_argument("out_dir"); s.add_argument("--source", required=True); s.add_argument("--extra", nargs="*", default=[]); s.add_argument("--append", action="store_true")
     s = sub.add_parser("setid"); s.add_argument("source"); s.add_argument("name"); s.add_argument("drive_id")
     s = sub.add_parser("todo"); s.add_argument("source"); s.add_argument("out_dir")
     s = sub.add_parser("fetch"); s.add_argument("source"); s.add_argument("dest"); s.add_argument("--pages")
     a = ap.parse_args()
     if a.cmd == "pack":
-        pack(a.pages_dir, a.out_dir, a.source, a.extra)
+        pack(a.pages_dir, a.out_dir, a.source, a.extra, append=a.append)
     elif a.cmd == "setid":
         setid(a.source, a.name, a.drive_id)
     elif a.cmd == "todo":
