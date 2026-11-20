@@ -1,0 +1,5 @@
+{"given": "an unbounded liberty the matter of", "print": "an unbounded liberty in the matter of", "sure": "high"}
+{"given": "and rejoiciug in the seductive", "print": "and rejoicing in the seductive", "sure": "high"}
+{"given": "thing, from those that accessions", "print": "thing, from these that accessions", "sure": "high"}
+{"given": "European residents in africa are made", "print": "European residents in Africa are made", "sure": "high"}
+{"given": "as I have said; a depressing", "print": "as I have said, a depressing", "sure": "high"}

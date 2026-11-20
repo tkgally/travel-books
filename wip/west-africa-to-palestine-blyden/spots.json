@@ -1,0 +1,82 @@
+{
+ "p0014": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "## Chapter VIII.\n\nPyramids",
+   "replace": "# Chapter VIII.\n[[subtitle]] Pyramids",
+   "draft": "## Chapter VIII.\n\nPyramids",
+   "verified": "# Chapter VIII.\n[[subtitle]] Pyramids",
+   "context": "[[page viii]] ⏎  ⏎ ## Chapter VIII. ⏎  ⏎ Pyramids Continued—Different Theories—Professor Piazzi Smith and Rev"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "## Chapter IX.\n\nDeparture",
+   "replace": "# Chapter IX.\n[[subtitle]] Departure",
+   "draft": "## Chapter IX.\n\nDeparture",
+   "verified": "# Chapter IX.\n[[subtitle]] Departure",
+   "context": "nt Theories—Professor Piazzi Smith and Rev. Barham Zincke. ⏎  ⏎ ## Chapter IX. ⏎  ⏎ Departure from Alexandria—Jaffa—Beirut—Sidon—Tyre—Ride Over the Mount"
+  },
+  {
+   "n": 3,
+   "kind": "punctuation",
+   "find": "## Chapter X.\n\nReturn",
+   "replace": "# Chapter X.\n[[subtitle]] Return",
+   "draft": "## Chapter X.\n\nReturn",
+   "verified": "# Chapter X.\n[[subtitle]] Return",
+   "context": "—Scenery on Mount Lebanon—Native Wedding—Dancing—The Veil. ⏎  ⏎ ## Chapter X. ⏎  ⏎ Return to Beirut—American Mission Printing Press—Female Seminary—C"
+  },
+  {
+   "n": 4,
+   "kind": "punctuation",
+   "find": "## Chapter XI.\n\nEntrance",
+   "replace": "# Chapter XI.\n[[subtitle]] Entrance",
+   "draft": "## Chapter XI.\n\nEntrance",
+   "verified": "# Chapter XI.\n[[subtitle]] Entrance",
+   "context": "n—Kelly—Lynch—Stanley—Thomson—Osborn—Porter—Macleod—Renan. ⏎  ⏎ ## Chapter XI. ⏎  ⏎ Entrance into Jerusalem—Bishop Gobat—Visit to Church of Holy Sepulch"
+  },
+  {
+   "n": 5,
+   "kind": "punctuation",
+   "find": "## Chapter XII.\n\nPolitical",
+   "replace": "# Chapter XII.\n[[subtitle]] Political",
+   "draft": "## Chapter XII.\n\nPolitical",
+   "verified": "# Chapter XII.\n[[subtitle]] Political",
+   "context": "athering at Bishop Gobat's—Lecture on West Africa—Letters. ⏎  ⏎ ## Chapter XII. ⏎  ⏎ Political and Religious Condition of the Holy Land—Description of the"
+  }
+ ],
+ "p0042": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "voyage, A grateful",
+   "replace": "voyage. A grateful",
+   "draft": "voyage, A grateful",
+   "verified": "voyage. A grateful",
+   "context": "ious treatment it had received during the first part of the voyage, A grateful relief was experienced from that want of thought and that u"
+  }
+ ],
+ "p0048": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "[[right]] —— ——\n</blockquote>",
+   "replace": "</blockquote>\n\n[[break]]",
+   "draft": "[[right]] —— ——\n</blockquote>",
+   "verified": "</blockquote>\n\n[[break]]",
+   "context": "ng’s Cross. Our station is B——. ⏎ [[right]] Very truly yours, ⏎ [[right]] —— —— ⏎ </blockquote> ⏎  ⏎ Being on the eve of sailing for the East, I could not avai"
+  }
+ ],
+ "p0078": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "<i>Shāk-es-pēārē.</i>",
+   "replace": "<i>Shāk-es-pĕārē.</i>",
+   "draft": "<i>Shāk-es-pēārē.</i>",
+   "verified": "<i>Shāk-es-pĕārē.</i>",
+   "context": "ountry’s poet <i>Goath</i> (Goethe), I shall call your poet <i>Shāk-es-pēārē.</i>” ⏎  ⏎ That talented and critical scholar, the late Frederick Ro"
+  }
+ ]
+}

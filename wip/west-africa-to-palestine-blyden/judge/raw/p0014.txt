@@ -1,0 +1,5 @@
+{"n": 1, "is": "B", "print": "## Chapter VIII.\n\nPyramids", "sure": "medium"}
+{"n": 2, "is": "A", "print": "## Chapter IX.\n\nDeparture", "sure": "medium"}
+{"n": 3, "is": "A", "print": "## Chapter X.\n\nReturn", "sure": "medium"}
+{"n": 4, "is": "B", "print": "## Chapter XI.\n\nEntrance", "sure": "medium"}
+{"n": 5, "is": "B", "print": "## Chapter XII.\n\nPolitical", "sure": "medium"}

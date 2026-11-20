@@ -1,0 +1,6 @@
+{"given": "Chapter XII.", "print": "CHAPTER XII.", "sure": "low"}
+{"given": "Land of fair Palestine; where Jesus trod,", "print": "Land of fair Palestine, where Jesus trod,", "sure": "high"}
+{"given": "Pronounce the judgment of jehovah just.”", "print": "Pronounce the judgment of Jehovah just.”", "sure": "high"}
+{"given": "omission than elaborate design—everything lies", "print": "omission than of elaborate design—everything lies", "sure": "high"}
+{"given": "guard—when be sees sacred places", "print": "guard—when he sees sacred places", "sure": "high"}
+{"given": "venerates—he wouders why it is", "print": "venerates—he wonders why it is", "sure": "high"}

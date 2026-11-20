@@ -1,0 +1,2 @@
+{"find": "<blockquote>\n[[cont]]spoil", "replace": "[[cont]]spoil"}
+{"find": "[[fnref *]]\n</blockquote>\n\nM. Renan", "replace": "[[fnref *]]\n\nM. Renan"}

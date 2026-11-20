@@ -1,0 +1,9 @@
+judge opus: 8 spots on 4 pages: {'draft': 8}; cost $0.19
+p0014 #1 [draft, sure: medium] draft '## Chapter VIII.\n\nPyramids' | verified '# Chapter VIII.\n[[subtitle]] Pyramids' | judge reads '## Chapter VIII.\n\nPyramids'
+p0014 #2 [draft, sure: medium] draft '## Chapter IX.\n\nDeparture' | verified '# Chapter IX.\n[[subtitle]] Departure' | judge reads '## Chapter IX.\n\nDeparture'
+p0014 #3 [draft, sure: medium] draft '## Chapter X.\n\nReturn' | verified '# Chapter X.\n[[subtitle]] Return' | judge reads '## Chapter X.\n\nReturn'
+p0014 #4 [draft, sure: medium] draft '## Chapter XI.\n\nEntrance' | verified '# Chapter XI.\n[[subtitle]] Entrance' | judge reads '## Chapter XI.\n\nEntrance'
+p0014 #5 [draft, sure: medium] draft '## Chapter XII.\n\nPolitical' | verified '# Chapter XII.\n[[subtitle]] Political' | judge reads '## Chapter XII.\n\nPolitical'
+p0042 #1 [draft, sure: medium] draft 'voyage, A grateful' | verified 'voyage. A grateful' | judge reads 'voyage, A grateful'
+p0048 #1 [draft, sure: high] draft '[[right]] —— ——\n</blockquote>' | verified '</blockquote>\n\n[[break]]' | judge reads '[[right]] —— ——\n</blockquote>'
+p0078 #1 [draft, sure: low] draft '<i>Shāk-es-pēārē.</i>' | verified '<i>Shāk-es-pĕārē.</i>' | judge reads '<i>Shāk-es-pēārē.</i>'

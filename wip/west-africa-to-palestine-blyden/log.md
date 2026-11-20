@@ -21,10 +21,19 @@ light to moderate, readable. Footnotes frequent; much verse; letters in small ty
 p0194–p0196); a litany p0188–p0189. No tables, no non-Latin script, few accents (Beirût).
 
 ## Decisions
+- Contents entries: "Chapter N." with the chapter's topics from the printed contents (the chapters have no titles); the half-title above Chapter I is a `front` division (JSON only).
+- The letter of a Cambridge Arabist (p0045–p0048) is in small type: one blockquote over four pages, verse in it as verse.
+- Printer's errors marked: "Maderia" (contents), "Egpyt" (p. 89), "voyage, A" (p. 36, comma for full stop). "Shāk-es-péāré" (p. 72) as printed (both readers had it wrong).
+- A sentence resuming after verse at the foot of the page before (p0049, p0067, p0072): no `[[cont]]` (joins lists them; looked at).
+- keep_hyphens p0036 (self-dependent; the book hyphenates self- words).
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-20 | opus | p0006–p0207 (202) | 13.00 | no refusals |
+| corrections | 2026-11-20 | sonnet | 202 | 6.44 | 15 changes; 8 spots |
+| judge | 2026-11-20 | opus | 8 spots | 0.19 | all to the draft; 2 checked on crops (1 printer's error, 1 misread accent by both) |
+| audit | 2026-11-20 | opus | 6 | 0.34 | 30/30; 1 candidate (heading capitals), not real |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |

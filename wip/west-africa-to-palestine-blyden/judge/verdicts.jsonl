@@ -1,0 +1,8 @@
+{"page": "p0014", "n": 1, "who": "draft", "draft": "## Chapter VIII.\n\nPyramids", "verified": "# Chapter VIII.\n[[subtitle]] Pyramids", "judge": {"n": 1, "is": "B", "print": "## Chapter VIII.\n\nPyramids", "sure": "medium"}}
+{"page": "p0014", "n": 2, "who": "draft", "draft": "## Chapter IX.\n\nDeparture", "verified": "# Chapter IX.\n[[subtitle]] Departure", "judge": {"n": 2, "is": "A", "print": "## Chapter IX.\n\nDeparture", "sure": "medium"}}
+{"page": "p0014", "n": 3, "who": "draft", "draft": "## Chapter X.\n\nReturn", "verified": "# Chapter X.\n[[subtitle]] Return", "judge": {"n": 3, "is": "A", "print": "## Chapter X.\n\nReturn", "sure": "medium"}}
+{"page": "p0014", "n": 4, "who": "draft", "draft": "## Chapter XI.\n\nEntrance", "verified": "# Chapter XI.\n[[subtitle]] Entrance", "judge": {"n": 4, "is": "B", "print": "## Chapter XI.\n\nEntrance", "sure": "medium"}}
+{"page": "p0014", "n": 5, "who": "draft", "draft": "## Chapter XII.\n\nPolitical", "verified": "# Chapter XII.\n[[subtitle]] Political", "judge": {"n": 5, "is": "B", "print": "## Chapter XII.\n\nPolitical", "sure": "medium"}}
+{"page": "p0042", "n": 1, "who": "draft", "draft": "voyage, A grateful", "verified": "voyage. A grateful", "judge": {"n": 1, "is": "B", "print": "voyage, A grateful", "sure": "medium"}}
+{"page": "p0048", "n": 1, "who": "draft", "draft": "[[right]] —— ——\n</blockquote>", "verified": "</blockquote>\n\n[[break]]", "judge": {"n": 1, "is": "A", "print": "[[right]] —— ——\n</blockquote>", "sure": "high"}}
+{"page": "p0078", "n": 1, "who": "draft", "draft": "<i>Shāk-es-pēārē.</i>", "verified": "<i>Shāk-es-pĕārē.</i>", "judge": {"n": 1, "is": "A", "print": "<i>Shāk-es-pēārē.</i>", "sure": "low"}}
