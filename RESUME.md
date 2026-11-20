@@ -141,7 +141,7 @@ every finished piece of work and every checkpoint**, and write its line in the b
 - **At the close, always:** the session's row in `notes/sessions.md` completed (end time, hours, the meter's
   figures, what was done with the context share after each book, the cost); tests; commit, push, pull request,
   merge; the deploy checked if the site changed.
-- **Final message**, short and plain: start and end time (UTC) and hours; the meter's last line; for each book
+- **Final message**, short and plain: start and end time (UTC+09:00) and hours; the meter's last line; for each book
   or task, what stage it reached, what preflight and the audit found, and what is next; any question for Tom;
   the API-equivalent cost of the Claude calls (sum of `cost` in the runs' `log.jsonl`), per book and in total,
   and any OpenRouter spending.
