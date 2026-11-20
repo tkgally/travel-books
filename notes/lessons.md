@@ -53,6 +53,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   contents decided book by book (`workflow.md` stage 4 "Contents") [2026-11-19].
 - List every `#` and `##` line after the judge: drafts type an odd running head (a chapter title on one page, "Index" on
   index pages, "List of Illustrations" on its second page) as a heading (*Path of the Conquistadores*: 4, 2026-11-20).
+- `omitted_from_reading` names only what a division really leaves out: a printer's imprint after “The End” stays in the
+  last chapter (*Kothari*, 2026-11-20: caught by the rendered look).
 - A model that returns "no corrections" in a few seconds may still be right: the audit's planted errors say
   whether that reader can see (first calibration: Sonnet 27/30, Opus 30/30).
 
