@@ -1,0 +1,3 @@
+judge opus: 2 spots on 2 pages: {'draft': 1, 'verified': 1}; cost $0.09
+p0031 #1 [draft, sure: low] draft 'however bygone,' | verified 'however by-gone,' | judge reads 'however by-gone,'
+p0121 #1 [verified, sure: medium] draft 'n, with blue' | verified 'n, with blue-' | judge reads 'n, with blue-'

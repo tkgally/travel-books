@@ -1,0 +1,24 @@
+{
+ "p0031": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "however bygone,",
+   "replace": "however by-gone,",
+   "draft": "however bygone,",
+   "verified": "however by-gone,",
+   "context": " the aforesaid brick steps to the houses. In Spanish towns, however bygone, we generally see some remains of prosperity—well built chur"
+  }
+ ],
+ "p0121": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "green, with blue",
+   "replace": "green, with blue-",
+   "draft": "n, with blue",
+   "verified": "n, with blue-",
+   "context": "und it very difficult to do. All the woods were bright rich green, with blue ⏎ "
+  }
+ ]
+}

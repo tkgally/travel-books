@@ -1,0 +1,5 @@
+{"find": "her parched lips", "replace": "her parched lips"}
+
+Wait — checking differences: the draft says "parched" and the image says "parched". Both match. The only difference I can find is "The Golden City," where the comma is italic in the print.
+
+{"find": "<i>The Golden City</i>,", "replace": "<i>The Golden City,</i>"}
