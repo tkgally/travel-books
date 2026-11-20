@@ -1,0 +1,6 @@
+{"given": "Chapter XI.", "print": "CHAPTER XI.", "sure": "medium"}
+{"given": "Preparations for a caravan Journey—Start", "print": "Preparations for a Caravan Journey—Start", "sure": "high"}
+{"given": "for a three-months' jouruey in Persia", "print": "for a three-months' journey in Persia", "sure": "high"}
+{"given": "towns, only merest necessities of life", "print": "towns, only the merest necessities of life", "sure": "high"}
+{"given": "require some forethought, though much less", "print": "require some forethought; though much less", "sure": "high"}
+{"given": "existence is always more on less nomadic", "print": "existence is always more or less nomadic", "sure": "high"}

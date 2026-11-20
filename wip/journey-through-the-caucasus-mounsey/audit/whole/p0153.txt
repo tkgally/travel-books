@@ -1,0 +1,5 @@
+{"given": "there may have been hundred more Europeans", "print": "there may have been a hundred more Europeans", "sure": "high"}
+{"given": "sergeants and corporals; four officers", "print": "sergeants and corporals, four officers", "sure": "high"}
+{"given": "The defcription of my ride", "print": "The description of my ride", "sure": "high"}
+{"given": "idea of what those men are", "print": "idea of what these men are", "sure": "high"}
+{"given": "away someone must gallop to", "print": "away some one must gallop to", "sure": "high"}
