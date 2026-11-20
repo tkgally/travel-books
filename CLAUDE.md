@@ -21,7 +21,7 @@ one book where possible, and stops by its context budget (`RESUME.md` §3, `tool
 ## Hard rules
 
 - **Eligibility is checked before any work on a book** (`notes/selection.md`): complete good scan on IA; no
-  digital text edition anywhere else; no real print edition after 1914; first-person nonfiction travel, written
+  free digital reading edition elsewhere (databases such as EEBO, ECCO or subscription ones do not count); no real print edition after 1914; first-person nonfiction travel, written
   in English, published before 1914; every author dead more than 70 years. Record what was checked in `data/queue.json`. If a published book is
   later found to fail a criterion, tell Tom; do not silently remove it.
 - **The JATSI books** (Tom, 2026-11-20): the 247 books of his list "Japan As They Saw It" (`data/jatsi.json`) are
