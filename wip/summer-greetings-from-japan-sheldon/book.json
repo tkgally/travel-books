@@ -1,0 +1,49 @@
+{
+ "id": "summer-greetings-from-japan-sheldon",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "Summer Greetings from Japan",
+ "short_title": "Summer Greetings from Japan",
+ "authors": [
+  {
+   "name": "Walter L. Sheldon",
+   "sort": "Sheldon, Walter L.",
+   "born": 1858,
+   "died": 1907
+  }
+ ],
+ "place": "[St. Louis]",
+ "publisher": "Privately printed",
+ "year": 1908,
+ "edition_statement": "First edition",
+ "collection": "jatsi",
+ "source": {
+  "ia_identifier": "summergreetingsf00shel",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": [
+   0,
+   173,
+   174,
+   175,
+   176,
+   177
+  ]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  }
+ ],
+ "regions": [
+  "Japan"
+ ],
+ "period": "1906",
+ "summary": "TODO",
+ "divisions": [],
+ "notes_on_text": [
+  "The introductory letter is by Anna C. Hartshorne, who died in 1957; the book is in the public domain in the United States and Japan, and may still be in copyright in countries where the term is the author’s life and 70 years."
+ ],
+ "omitted_from_reading": "TODO"
+}
