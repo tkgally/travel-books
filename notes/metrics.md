@@ -21,6 +21,7 @@
 | Our Ride through Asia Minor v1 | 2026-11-20 | 418 drafted of 430 | Opus draft → Sonnet corrections → Opus judge; 2 pages by the OCR fallback (tesseract + Opus) | 11 | 9 / 2 / 0 | 1 (p0119 "rame": a broken n, judge sided with the verifier) | 42.13 | 0 | PASS, 4 waived | 30/30 + 10/10 on the fallback pages; 0 / 8 | |
 | Journal of a Residence in Great Britain v1 | 2026-11-20 | 529 drafted of 538 | Opus draft → Sonnet corrections → Opus judge; 1 page by the OCR fallback (tesseract + Opus); Opus subagent spot-read of 38 table and verse pages | 20 | 14 / 6 / 0 | 2 (p0212 a speck read as a full stop; p0499 “yield,” for “yield.”) | 50.78 | 0 | PASS, 8 waived | 30/30 + 5/5 on the fallback page; 0 / 7 | |
 | On Short Leave to Japan v1 | 2026-11-20 | 262 | Opus draft → Sonnet corrections → Opus judge | 10 | 9 / 1 / 0 (7 structural, contents) | 1 (p0046: the verifier's added closing quote; the print has none) | 24.38 | 0 | PASS, 0 waived | 30/30; 0 / 6 | |
+| South by West v2 | 2026-11-20 | 454 | (no new model calls) | – | – | – | 0 | 0 | PASS, 2 waived | as v1 | four paragraphs split by an engraving mid-sentence (found at the review) |
 
 ## Calibrations
 

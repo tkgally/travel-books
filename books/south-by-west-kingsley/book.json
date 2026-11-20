@@ -1,7 +1,7 @@
 {
  "id": "south-by-west-kingsley",
- "version": 1,
- "date": "2026-11-19",
+ "version": 2,
+ "date": "2026-11-20",
  "title": "South by West; or, Winter in the Rocky Mountains and Spring in Mexico",
  "short_title": "South by West",
  "authors": [
@@ -54,6 +54,11 @@
    "version": 1,
    "date": "2026-11-19",
    "note": "First publication."
+  },
+  {
+   "version": 2,
+   "date": "2026-11-20",
+   "note": "Four paragraphs that an engraving interrupts in mid-sentence (printed pages 51, 74, 90 and 198) were shown as two paragraphs each; each is now one."
   }
  ],
  "divisions": [
@@ -110,12 +115,12 @@
   }
  ],
  "audit": {
-  "version": 1,
+  "version": 2,
   "date": "2026-11-19",
   "pages": 6,
   "recall": "30/30",
   "real_errors": 0,
   "fixed": 0,
-  "note": "pages p0134, p0155, p0171, p0195, p0225, p0399; a second audit of the three pages first read by OCR (p0076, p0109, p0189): 15/15 planted errors found; one other difference reported (p0189 “day-|light”, a line-end hyphen; the book has “daylight” seven times), not an error"
+  "note": "text unchanged except listed fixes; v1: pages p0134, p0155, p0171, p0195, p0225, p0399; a second audit of the three pages first read by OCR (p0076, p0109, p0189): 15/15 planted errors found; one other difference reported (p0189 “day-|light”, a line-end hyphen; the book has “daylight” seven times), not an error"
  }
 }
