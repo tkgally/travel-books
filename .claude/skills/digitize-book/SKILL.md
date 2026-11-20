@@ -45,7 +45,7 @@ them and never type them yourself (it ends the session). Name them in the log an
   stage 4 "Contents"). Print the compiled entries and read them before the build; record the decision in the log.
 - **Front and back matter**: `divisions` in `book.json`; what is left out of the reading editions and said so.
 - **Notes**: marks pair; continued notes; notes on plates.
-- **Verse, letters, inscriptions, tables**: spot-read against the scan.
+- **Verse, letters, inscriptions, tables, front matter, footnote pages**: spot-read against the scan (Opus subagent).
 - **Illustrations**: every `[[image:]]` has a crop that was looked at; captions; alt text says what is shown. A frontispiece in the front matter: set `frontispiece` in book.json.
 - **Printer's errors**: few, certain, each `[[corr printed|corrected]]`.
 

@@ -52,6 +52,7 @@ CHECKS = collections.OrderedDict([
     ("image-splits",    ("enforce", "a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)")),
     ("contents",        ("observe", "entries of the printed contents with no matching heading")),
     ("site-text",       ("enforce", "book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or \"")),
+    ("note-tail",       ("observe", "text after a page's notes that is not a note (a table or paragraph of a note set as body text)")),
     ("cover",           ("observe", "images/cover.jpg (or .png) exists: the front cover or the title page")),
     ("accents",         ("observe", "words the book spells with different accents (or with and without): look at each group on the scan")),
     ("images",          ("observe", "image files not used by any page")),
@@ -373,6 +374,23 @@ def triage_hyphen_joins(items, pages):
     return out
 
 
+def check_note_tail(pages):
+    """Lines after a page's first `[[fn` that are not notes. A note printed with a table or a second paragraph was
+    typed with them on lines of their own; the compiler took them for body text, so they showed in the chapter
+    and broke the sentence continued on the next page (*My Life in Mongolia and Siberia* p. viii, review 2026-11-20)."""
+    out = []
+    for leaf, text in pages:
+        seen = False
+        for ln in text.splitlines():
+            s = ln.strip()
+            if s.startswith("[[fn"):
+                seen = True
+            elif seen and s:
+                out.append(f"{leaf}: after the notes: {s[:60]!r}")
+                break
+    return out
+
+
 def check_joins(pages):
     items = []
     for (l0, t0), (l1, t1) in zip(pages, pages[1:]):
@@ -640,6 +658,7 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
         res["folios"] = check_folios(pages)
         res["leaves"] = check_leaves(pages, items=compile_book.scan_items(cfg.get("source") or {}))
         res["joins"] = check_joins(pages)
+        res["note-tail"] = check_note_tail(pages)
         # conservation
         pc, jc = [], []          # image captions apart: the compiler moves some images (see page_streams)
         ps, js = [], []          # side-notes: in the JSON, not in the reading editions

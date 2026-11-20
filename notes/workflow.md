@@ -179,7 +179,9 @@ mkdir -p $W/pages && cp $W/judge/p*.txt $W/pages/
 - Page joins: preflight's `joins` and `hyphen-joins` lists; `keep_hyphens` for real compounds.
 - Notes: marks pair up; a note continued over the page is `[[fn cont]]`.
 - Printer's errors: `[[corr printed|corrected]]` only for the unmistakable (`style.md`).
-- Spot-read against the scan every page with a table, verse, a letter, an inscription, or anything unusual.
+- Spot-read against the scan every page with a table, verse, a letter, an inscription, or anything unusual, and the front
+  matter and every page with a footnote: an Opus subagent with the page files and images, reporting differences only
+  (review of 2026-11-20: most printer's errors and misread accents of the last books were found here).
 
 ## 5. Illustrations and cover
 
