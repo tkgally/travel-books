@@ -13,7 +13,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 | Straight quotes | compiler; preflight `straight-quotes` |
 | Notes without references and the reverse | compiler; preflight `compile` |
 | Text lost or reordered between page files and an edition | preflight `conservation` |
-| `[[cont]]` on a page that starts a new paragraph; missing `[[cont]]` | preflight `joins` (observe) |
+| A missing `[[cont]]` at a page top | preflight `joins` (observe; its other half, "[[cont]] after a closed sentence", was dropped at the review of 2026-11-20: 65 alarms, 0 real) |
 | Misread or misprinted page numbers | preflight `folios` (observe) |
 | Headings that differ from the printed contents | preflight `contents` (observe) |
 | Small capitals typed as capitals; old spacing left in | `normalize.py`; preflight `sc-caps`, `spacing` |
