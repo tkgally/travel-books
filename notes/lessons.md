@@ -190,6 +190,9 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - Third (*Cruise in the Mississippi*, 1860): a leaf cut at the edge in the chosen scan is replaced by the other scan's leaf as
   `pNNNNa` (`source.extra_leaves`); preflight `leaves` then counts the cut leaf as done, so no waiver. Dense small type on a
   large page: `--halves` on the draft; Sonnet changed only 3 words in 75 pages and the audit was 30/30.
+- A book of letters with a photograph bound before each letter (*Summer Greetings from Japan*): the plate would end the previous
+  letter; move the letter's `#` heading onto the plate leaf and say so in `notes_on_text`. Compare the `#` lines of draft and
+  judge (`grep -c '^#'`) after the judge: the verifier dropped two letter headings.
 - The year of the journey is often not printed: work it out from weekdays given with dates and from what the
   traveller could use (railways), and say in the summary that it is inferred.
 

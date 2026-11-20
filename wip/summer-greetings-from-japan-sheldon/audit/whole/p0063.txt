@@ -1,5 +1,0 @@
-{"given": "New South wales (wherever that", "print": "New South Wales (wherever that", "sure": "high"}
-{"given": "armor, cannon; etc. In that", "print": "armor, cannon, etc. In that", "sure": "high"}
-{"given": "as we have America records of geology", "print": "as we have America in records of geology", "sure": "high"}
-{"given": "cannot get earthquake insnrance in Japan", "print": "cannot get earthquake insurance in Japan", "sure": "high"}
-{"given": "the people. When we went to lunch.", "print": "the people. Then we went to lunch.", "sure": "high"}

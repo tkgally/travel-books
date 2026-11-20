@@ -1,6 +1,0 @@
-{"given": "Tokyo, Saturday evening, June 16th.", "print": "SIXTH LETTER Tokyo, Saturday evening, June 16th.", "sure": "medium"}
-{"given": "snatch the plate away besore I had", "print": "snatch the plate away before I had", "sure": "high"}
-{"given": "to give it up; too, because", "print": "to give it up, too, because", "sure": "high"}
-{"given": "However, if was all made plain", "print": "However, it was all made plain", "sure": "high"}
-{"given": "four inches high front of each", "print": "four inches high in front of each", "sure": "high"}
-{"given": "and everything else likewize. The soup", "print": "and everything else likewise. The soup", "sure": "high"}

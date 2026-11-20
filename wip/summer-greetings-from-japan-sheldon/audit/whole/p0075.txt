@@ -1,5 +1,0 @@
-{"given": "bright kimonos. His morning I", "print": "bright kimonos. This morning I", "sure": "high"}
-{"given": "for the first time today, dressed", "print": "for the first time to-day, dressed", "sure": "high"}
-{"given": "A. C. H. says I have learued", "print": "A. C. H. says I have learned", "sure": "high"}
-{"given": "a famous Buddhist Sanskrit scholar;", "print": "a famous Buddhist and Sanskrit scholar;", "sure": "high"}
-{"given": "Wooyeno at A. C. H.’s; to learn", "print": "Wooyeno at A. C. H.’s, to learn", "sure": "high"}
