@@ -69,6 +69,9 @@ Do each work once and say on the queue row which entries it covers.
 - **Japanese script** (kanji, kana) printed in the text or on plates: untested (`workflow.md` §"Not yet solved").
   Look for it at the scan check; a book with more than a few characters waits until a sample has been tried.
 - **Many halftone photographs** in the books after about 1895, often with captions set among the text.
+- **Reprints**: many of the better-known titles were reprinted in facsimile in the Ganesha / Edition Synapse sets
+  *Japan in English* (2002–04; the National Diet Library catalogue lists the volumes), by Elibron, or by Kegan Paul:
+  expect rule 3 to fail often, and search those three by name.
 - **Editions**: JATSI sometimes lists a late edition (the seventh of *The Mikado's Empire*) or a reissue; the year
   in `jatsi.json` is that of the copy listed.
 
