@@ -195,5 +195,14 @@
   "Folding plates were photographed in two halves and are shown so. In the plate of five coastal views with Cape Macartney and the city of Ten-tchoo-foo a narrow strip at the fold is missing from the scan; letters lost there in two captions are supplied (marked as supplied in the JSON).",
   "Engravers’ and publishers’ lines on the plates (“Ellis sculpt.”, “Published … by G. Nicol”) are not transcribed.",
   "The leaves of pages 423–426 of the first volume are bound out of order in the scanned copy; they are read here in the right order."
- ]
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-20",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0,
+  "note": "pages p1207, p1474, p1552, p2056, p2153, p2280; no other difference reported"
+ }
 }

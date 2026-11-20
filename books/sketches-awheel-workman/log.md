@@ -8,10 +8,7 @@ text; web search finds catalogue records, short excerpts on Cervantes Virtual (a
 and Forgotten Books (print on demand). Fanny Bullock Workman 1859–1925; William Hunter Workman 1847–1937.
 
 ## Status
-**Ready to publish version 2** (2026-11-19, contents redesign, `notes/errata.md`): the contents now give every chapter its summary in full (book.json `"toc": {"subtitles": "all"}`, `notes_on_text`). Preflight PASS on
-the branch of that work; this session changed the `conservation` check (the ODT's contents list), so the
-next session publishes: `workflow.md` §"New version" (version, date, history, audit record copied, preflight,
-`publish.py`, Versions row, metrics row), after a rendered look at the book page's contents.
+**Published, version 2, 2026-11-19** (contents redesign, `notes/errata.md`): the contents now give every chapter its summary in full (book.json `"toc": {"subtitles": "all"}`, `notes_on_text`).
 **Published, version 1, 2026-11-19.** The frontispiece (p0008-1) is in the reading editions (book.json `frontispiece`),
 at the head of the first reading division as in the Rajah's diary. Rendered look (browser build): book page, Dedications
 with the frontispiece, Chapter XI at phone width, Chapter XIII's footnote (p0233), the map division; 31 figures.
