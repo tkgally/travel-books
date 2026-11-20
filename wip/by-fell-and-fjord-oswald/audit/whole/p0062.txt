@@ -1,5 +1,0 @@
-{"given": "concize force produced by the negative", "print": "concise force produced by the negative", "sure": "high"}
-{"given": "was it the twilight the gods already?", "print": "was it the twilight of the gods already?", "sure": "high"}
-{"given": "cold-wet and bittcr-sharp, heavy with", "print": "cold-wet and bitter-sharp, heavy with", "sure": "high"}
-{"given": "the earnes sit or the ash-boughs,", "print": "the earnes sit on the ash-boughs,", "sure": "high"}
-{"given": "He gives; besides, a kind of", "print": "He gives, besides, a kind of", "sure": "high"}

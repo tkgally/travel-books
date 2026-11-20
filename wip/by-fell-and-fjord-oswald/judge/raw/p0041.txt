@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "se for miles\n\n[[image: interior of a stone-walled kitchen with a pot hanging over an open fire, barrels, and a woman at a shelf holding a jug]]\n[[caption]] <i>Kitchen, Thingvellir Parsonage.</i>\n\n[[cont]]and miles ro", "sure": "high"}
-{"n": 2, "is": "A", "print": "nth century.", "sure": "high"}

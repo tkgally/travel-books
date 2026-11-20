@@ -1,5 +1,0 @@
-{"given": "had returned for us; and pushed off", "print": "had returned for us, and pushed off", "sure": "high"}
-{"given": "let go their halters then it was", "print": "let go their halters when it was", "sure": "high"}
-{"given": "over a great mouutain-bordered plain", "print": "over a great mountain-bordered plain", "sure": "high"}
-{"given": "the abode of Sira asmundur, well", "print": "the abode of Sira Asmundur, well", "sure": "high"}
-{"given": "took a pleasant stroll the sunshine", "print": "took a pleasant stroll in the sunshine", "sure": "high"}

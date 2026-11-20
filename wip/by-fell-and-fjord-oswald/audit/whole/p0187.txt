@@ -1,5 +1,0 @@
-{"given": "flung the bench down from roof and", "print": "flung the bench down from the roof and", "sure": "high"}
-{"given": "then ruuning in the smoke", "print": "then running in the smoke", "sure": "high"}
-{"given": "stayed by the ruins; when still", "print": "stayed by the ruins, when still", "sure": "high"}
-{"given": "Kári had met my neighbor Bardr,", "print": "Kári had met my neighbour Bardr,", "sure": "high"}
-{"given": "but he answered that be would harden", "print": "but he answered that he would harden", "sure": "high"}

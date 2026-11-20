@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "ate when the\n\n[[image: engraving of a waterfall pouring between great rock cliffs into a river, with a man fishing from the bank in the foreground]]\n\n[[cont]]mind refuses", "sure": "medium"}
-{"n": 2, "is": "A", "print": "ill morning.", "sure": "medium"}

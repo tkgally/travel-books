@@ -66,6 +66,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - A `toc_title` written by hand is plain text: its italics are lost.
 - Decorative chapter head-pieces and tail-pieces: drafts mark each as `[[image:]]`; keep them, crop them, list them
   in `book.json` `ornaments` (shown small; Tom, 2026-11-20).
+- A picture can split a sentence before a capitalized word ("chief of the | Easterlings", *By Fell and Fjord* p0224):
+  preflight `image-splits` looks only for lower case after the picture; read the text before each picture (for the review).
 - A frontispiece printed sideways has no caption to show which way: crop it, look at both turns.
 - Plates printed sideways: `crop_image.py --rotate 270` when the caption reads bottom to top along the right edge.
 - Set `frontispiece` in book.json, with or without a caption (preflight follows moved images since 2026-11-19).

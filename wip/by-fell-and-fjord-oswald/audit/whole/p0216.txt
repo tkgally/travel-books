@@ -1,5 +1,0 @@
-{"given": "doubt be would find his", "print": "doubt he would find his", "sure": "high"}
-{"given": "long way to thingvellir, whither", "print": "long way to Thingvellir, whither", "sure": "high"}
-{"given": "to ride through rather serious ford", "print": "to ride through a rather serious ford", "sure": "high"}
-{"given": "rapid and icy cold; and it", "print": "rapid and icy cold, and it", "sure": "high"}
-{"given": "great bog and pafsed a handsome", "print": "great bog and passed a handsome", "sure": "high"}

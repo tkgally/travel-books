@@ -1,2 +1,0 @@
-{"n": 1, "is": "A", "print": "milked,\n\n[[image: Pen sketch of a row of gabled turf-roofed farm buildings at the foot of a steep jagged mountain, with mountains beyond and a horse in the foreground]]\n\n[[cont]]and I went", "sure": "high"}
-{"n": 2, "is": "A", "print": "santly cool.", "sure": "high"}

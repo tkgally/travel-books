@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "expect to be\n\n[[image: Sketch of a fjord inlet among mountains, with rocky foreground, a small boat on the water and horses grazing on the far shore]]\n\n[[cont]]distinguishe", "sure": "high"}
-{"n": 2, "is": "A", "print": "venerable.", "sure": "high"}
