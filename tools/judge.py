@@ -75,9 +75,39 @@ def parse(reply):
     return out
 
 
+def moves(spots):
+    """Pairs of spot numbers (taken out, put in) where the verifier moved a passage: one spot removes text that
+    another spot on the page inserts (e.g. a paragraph moved from before a picture to after its caption). Judged
+    apart, such a pair can lose the passage (draft at one spot, verified at the other: *Rambles*, p0092)."""
+    def piece(long, short):
+        return long.replace(short, "", 1).strip() if short and short in long and len(long) > len(short) else ""
+    out = []
+    for s in spots:
+        gone = piece(s["find"], s["replace"])
+        if len(gone) < 20:
+            continue
+        for t in spots:
+            if t is not s and gone in t["replace"] and gone not in t["find"]:
+                out.append((s["n"], t["n"]))
+    return out
+
+
 def apply(verified_text, spots, verdicts, page):
-    """Undo the verifier's change at every spot where the judge chose the draft. Returns (text, rows)."""
+    """Undo the verifier's change at every spot where the judge chose the draft. Returns (text, rows).
+    A moved passage (`moves`) judged one way at one end and the other way at the other keeps the verifier's
+    reading at both ends, so that nothing is lost or doubled; the rows say so, for a look at the scan."""
     rows, text = [], verified_text
+
+    def side(s):
+        v = verdicts.get(s["n"])
+        if v is None or v.get("is") not in ("A", "B"):
+            return None
+        return "draft" if (v["is"] == "A") == labels(page, s["n"]) else "verified"
+    split = set()
+    for a, b in moves(spots):
+        sa, sb = (side(next(s for s in spots if s["n"] == k)) for k in (a, b))
+        if sa != sb:
+            split |= {a, b}
     for s in spots:
         v = verdicts.get(s["n"])
         a_is_draft = labels(page, s["n"])
@@ -85,6 +115,8 @@ def apply(verified_text, spots, verdicts, page):
             rows.append(("unanswered", s, None)); continue
         choice = v.get("is")
         who = "neither" if choice not in ("A", "B") else ("draft" if (choice == "A") == a_is_draft else "verified")
+        if s["n"] in split:
+            rows.append(("move judged both ways: verified kept", s, v)); continue
         if who == "draft":
             if text.count(s["replace"]) == 1:
                 text = text.replace(s["replace"], s["find"])

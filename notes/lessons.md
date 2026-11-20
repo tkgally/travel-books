@@ -28,6 +28,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 | `drive_cache.py fetch --pages a,b,c` read the list as one name and fetched the wrong parts without a word [2026-11-19] | lists and ranges accepted, anything else refused; test `DrivePages` |
 | A part title with a `[[subtitle]]` ("Flying Leaves. / From the East.") taken for a chapter, so its chapters did not nest under it [*Flying Leaves*, found 2026-11-19] | compiler; test `Contents` |
 | Side-notes (marginal notes) lost between page files and JSON, or shown in the editions [*Embassy to China*, 2026-11-20, before the first run] | preflight `conservation` (side-notes apart); test `SideNotes` |
+| A paragraph moved by the verifier (before a picture → after its caption) judged one way at one end and the other way at the other, so `judge.py` dropped it [*Rambles*, p0092, 2026-11-20] | `judge.py` keeps the verifier's reading at both ends; test `test_judge_move_judged_both_ways_keeps_text` |
 | A paragraph interrupted by an engraving in the middle of a page split in two (`[[cont]]` dropped) [*South by West*, 2026-11-19] | compiler joins it; test `ImageInParagraph` |
 
 ## Always
@@ -51,6 +52,9 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Trigger: plates (tipped-in leaves) and a frontispiece
 
+- Decorative chapter head-pieces and tail-pieces: drafts mark each as `[[image:]]`; not in the List of Illustrations,
+  so left out of the page files, with a line in `notes_on_text` [*Rambles*, 2026-11-20; assumed].
+- A frontispiece printed sideways has no caption to show which way: crop it, look at both turns.
 - Plates printed sideways: `crop_image.py --rotate 270` when the caption reads bottom to top along the right edge.
 - Set `frontispiece` in book.json, with or without a caption (preflight follows moved images since 2026-11-19).
 - A plate with a label or sub-captions on separate lines: one `[[caption]]`, parts separated by full stops; several
@@ -110,12 +114,17 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Trigger: a book about Japan (the JATSI books)
 
-- Nothing learned yet: the first one has not been done. Expected trouble, to confirm or delete after it: romanized
-  Japanese in the author's spelling turned into the modern form (Yedo → Edo, Kiôto → Kyoto, a dropped macron or
-  circumflex); crop every judge spot and audit candidate on such a word. Japanese script: `workflow.md` §"Not yet solved".
+- First one (*Rambles through Japan*, 1892, 2026-11-20): Kioto, Ozaka, Ko-ya-san, jinrikisha, *saké* all kept as
+  printed; the only judge spot on such a word (*saké* vs *sakè*) the verifier had right on the crop; audit 30/30, 0
+  candidates. Keep cropping every judge spot and audit candidate on a romanized word; Japanese script: none in it
+  (`workflow.md` §"Not yet solved").
+- The year of the journey is often not printed: work it out from weekdays given with dates and from what the
+  traveller could use (railways), and say in the summary that it is inferred.
 
 ## Trigger: Google scan (`…goog` identifiers)
 
+- Bitonal: halftones and many engravings come out blank. Good for supplying a missing leaf's text, not its picture
+  (*Rambles* p. 114, 2026-11-20). Its page images are small (767 px wide): upscale to the working height.
 - Often bilevel, with folded maps unopened and occasional pages with a hand over the text: the scan check
   must look at every sheet at a size where that would show.
 

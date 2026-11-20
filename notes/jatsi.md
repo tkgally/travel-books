@@ -88,5 +88,6 @@ Do each work once and say on the queue row which entries it covers.
 
 | Date | What |
 |---|---|
+| 2026-11-20 | First JATSI book published: *Rambles through Japan without a Guide* (n 86). One leaf missing from the UC scan, supplied from the Michigan (Google) scan; its engraving is blank there and is left out. Next due: two other books, then JATSI. |
 | 2026-11-20 | Tom's answers: the pace confirmed; rule 5 lifted for JATSI; Gutenberg and non-narrative books lower priority but to be done, afresh; round-the-world books by the general criteria. Eight more rows queued (Sheldon, Kothari, Swainson, Davidson, Fisher, Murray, McLean, Bickersteth): 21 in all. |
 | 2026-11-20 | List taken from the Sources page (247 entries); IA metadata and a Gutenberg catalogue match for all; `kind` assigned from the one-line summaries (narrative 105, mixed 39, other 103); 26 narratives vetted by Opus subagents: 13 queued (8 meet all five rules; 5 meet all but rule 3, having a Ganesha, Elibron or Cambridge reprint), the other 13 have what was found under `vetted` in `data/jatsi.json` (most are held by an author's unknown dates). First in line: *Rambles through Japan without a Guide* (n 86). Session run on Fable by Tom's choice. |

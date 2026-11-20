@@ -16,6 +16,7 @@
 | Corona and Coronet v1 | 2026-11-19 | 490 drafted of 505 | Opus draft → Sonnet corrections → Opus judge | 14 | 12 / 2 / 0 | 0 (3 printer's errors confirmed on crops) | 44.95 | 0 | PASS, 2 waived | 30/30; 0 / 6 | |
 | Corona and Coronet v2 | 2026-11-20 | 490 drafted of 505 | (no new model calls) | – | – | – | 0 | 0 | PASS, 2 waived | as v1 | one plate left out of v1 (an illustrator's unknown death date) added at Tom's word |
 | Embassy to China v1 | 2026-11-20 | 1,322 page files (3 IA items + 3 Getty leaves) | Opus draft → Sonnet corrections → Opus judge | 70 | 26 / 44 / 0 | 1 (p1259 "stalks,": judge's ";" wrong) | 140.14 | 0 | PASS, 0 waived | 30/30; 0 / 6 | |
+| Rambles through Japan without a Guide v1 | 2026-11-20 | 301 drafted (2 from a second scan) | Opus draft → Sonnet corrections → Opus judge | 25 | 15 / 8 / 0 (2 a moved paragraph judged both ways: lost by judge.py, restored, tool fixed) | 0 | 30.31 | 0 | PASS, 1 waived | 30/30 + 5/5 on the second-scan leaf; 0 / 7 | |
 
 ## Calibrations
 
@@ -38,4 +39,5 @@
 | 2026-11-19 | leaves → enforce | four books checked: 0 unexplained gaps (Flying Leaves' 5 refused pages now have fallback files). Leaves IA hides (`source.hidden_leaves`) no longer count, which clears South by West p0007–p0008 (tissue guard); Rajah p0009 (IA card, not hidden by IA) waived. Tests `Leaves`. No book published in this session. |
 | 2026-11-19 | conservation (JSON→ODT) | the ODT gets a generated contents list after the title page (Tom: contents decided book by book, the same in HTML, EPUB and ODT); its paragraph styles `Contents_20_*` are now skipped like the title page's, ordinary text beside them still counts (test `test_odt_contents_list_is_not_text`). Changed in the session that redesigned the contents: the books whose editions it changes get their new versions from a later session. |
 | 2026-11-19 | hyphen-joins (observe) | review of five books: 122 items, 6 real (compounds kept with `keep_hyphens`). Joins giving a word the book prints whole elsewhere (91) are no longer listed, only counted; a join whose hyphenated form, or whose first part with a hyphen, the book prints elsewhere is marked "keep_hyphens?". Same books: 27 items, all 6 keeps among them; verdicts unchanged. Test `HyphenJoins`. |
+| 2026-11-20 | joins (observe) | *Rambles*: 10 "[[cont]] after a closed sentence", 0 real (all flush left); 1 missing [[cont]] real (p0225). With the 37 of the first review: 47 alarms of that half, 0 real. |
 | 2026-11-19 | joins (observe) | review: 37 alarms in five books, 0 real (every one a page starting flush left: the paragraph goes on). Kept; if the next five books bring no real one, drop the "[[cont]] after a closed sentence" half. |
