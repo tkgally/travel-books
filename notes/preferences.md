@@ -229,6 +229,8 @@ How this was carried out: `RESUME.md` §"How long a session runs", `tools/sessio
   the still-small navigation text"), **but only up to level 6 of the 9 sizes**: at sizes 7, 8 and 9 the header stays
   at level 6.
 
+- **"Everything works."** One more change (same day): **on `about.html`, use series commas and curly apostrophes.**
+
 ## Questions for Tom
 
 None open.
