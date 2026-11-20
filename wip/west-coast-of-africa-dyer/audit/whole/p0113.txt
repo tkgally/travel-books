@@ -1,5 +1,0 @@
-{"given": "French house of vardier & Co.", "print": "French house of Vardier & Co.", "sure": "high"}
-{"given": "his canoemen where not afraid", "print": "his canoemen were not afraid", "sure": "high"}
-{"given": "those competent to judge; said", "print": "those competent to judge, said", "sure": "high"}
-{"given": "came up, and witbout any hesitation,", "print": "came up, and without any hesitation,", "sure": "high"}
-{"given": "they appeared receive a hearty", "print": "they appeared to receive a hearty", "sure": "high"}

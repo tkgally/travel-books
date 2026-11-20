@@ -1,5 +1,0 @@
-{"given": "carpenters, and coopcrs; how to", "print": "carpenters, and coopers; how to", "sure": "high"}
-{"given": "and rear poultry; and how", "print": "and rear poultry, and how", "sure": "high"}
-{"given": "oil from cocoa nuts seeds.", "print": "oil from cocoa nuts and seeds.", "sure": "high"}
-{"given": "American Board of missions and situated", "print": "American Board of Missions and situated", "sure": "high"}
-{"given": "and this wife has resided", "print": "and his wife has resided", "sure": "high"}

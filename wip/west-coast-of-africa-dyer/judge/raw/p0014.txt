@@ -1,4 +1,0 @@
-{"n": 1, "is": "B", "print": "[[page viii.]]\n\n## Chapter VI", "sure": "high"}
-{"n": 2, "is": "A", "print": "## Chapter VI", "sure": "low"}
-{"n": 3, "is": "A", "print": "## Chapter VI", "sure": "low"}
-{"n": 4, "is": "B", "print": "## Chapter IX", "sure": "low"}

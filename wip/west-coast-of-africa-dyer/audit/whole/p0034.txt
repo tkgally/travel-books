@@ -1,5 +1,0 @@
-{"given": "but the spaniards had very", "print": "but the Spaniards had very", "sure": "high"}
-{"given": "and bad much better not", "print": "and had much better not", "sure": "high"}
-{"given": "occasionally are offcred, and there", "print": "occasionally are offered, and there", "sure": "high"}
-{"given": "large trade here when Muni is", "print": "large trade here when the Muni is", "sure": "high"}
-{"given": "those that do so; and pay", "print": "those that do so, and pay", "sure": "high"}

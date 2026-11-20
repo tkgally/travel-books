@@ -733,11 +733,13 @@
    "place": "London and Portsmouth",
    "publisher": "J. Griffin & Co.",
    "images": 200,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-20",
    "eligibility": "Checked 2026-11-20 (Opus subagent; Gutenberg and Wikisource by the session): not in pg_catalog.csv; not on The Online Books Page; Wikisource search finds nothing; raw HathiTrust OCR on distantreader.org (not a text edition); web search of a distinctive sentence found nothing; no reprint found. Author 1832–1875 (pdavis.nl, William Loney RN); published after his death with an unsigned introduction by friends (editor not named). Not checked: WorldCat. Re-checked 2026-11-20 at the start: not in pg_catalog.csv; a web search of the title finds catalogue records only (CRL holds a microfilm).",
    "note": "Brandeis scan, 400 ppi; 171 printed pages; one uncredited engraved frontispiece printed sideways; advertisements at the end. Journal of the command of HMS Torch, 1871–73: the Congo, Angola, Liberia and the Kroomen labour traffic, the Gold Coast. Period contempt for Africans in places (a contents line), not the main matter.",
-   "started": "2026-11-20"
+   "started": "2026-11-20",
+   "version": 1,
+   "published": "2026-11-20"
   },
   {
    "order": 43,
