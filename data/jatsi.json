@@ -11,7 +11,8 @@
   "scans": "the Internet Archive items JATSI links to; images, contributor, date and page_images (a page-image archive exists) from IA's metadata on 2026-11-20. A better scan may exist: look before starting.",
   "sections": "JATSI's links to the part of a book that is about Japan",
   "gutenberg": "Project Gutenberg ebook numbers: from JATSI's own links and from a title-and-surname match against pg_catalog.csv on 2026-11-20 (no match is not proof that there is no text)",
-  "hold": "a rule-5 bar known so far (an author dead less than 70 years): not to be started before the year given"
+  "hold": "a rule-5 bar known so far (an author dead less than 70 years): not to be started before the year given",
+  "vetted": "what a vetting found for a book that was looked at and not queued (so that it is not done twice); queued books have it on their queue row"
  },
  "books": [
   {
@@ -907,7 +908,11 @@
      "label": "Japan section",
      "url": "https://archive.org/stream/cu31924023226438#page/n177/mode/2up"
     }
-   ]
+   ],
+   "vetted": {
+    "date": "2026-11-20",
+    "result": "Swainson, Letters from China & Japan: scan good (Cornell), no text elsewhere, no real reprint, first-person, about 20% Japan; the author's dates not found (an adult about 1873: birth before 1856 not shown) and the attribution of 'L. D. S.' rests on library catalogues. Not queued: rule 5 open."
+   }
   },
   {
    "n": 39,
@@ -1481,7 +1486,11 @@
      "date": "1883",
      "page_images": true
     }
-   ]
+   ],
+   "vetted": {
+    "date": "2026-11-20",
+    "result": "Crow, Highways and Byeways in Japan: the only IA scan is Google (bilevel, legible) with the folding map scanned folded; no text elsewhere; no English reprint; first-person diary, all Japan, readable. Arthur H. Crow's dates not found (born before about 1862 only). Not queued: rule 5 open, map incomplete."
+   }
   },
   {
    "n": 64,
@@ -1544,7 +1553,11 @@
      "date": "1883",
      "page_images": true
     }
-   ]
+   ],
+   "vetted": {
+    "date": "2026-11-20",
+    "result": "Holtham, Eight Years in Japan: Google scans only, text legible (eightyearsinjap01holtgoog), the three folding maps incomplete in both; no text elsewhere; reprinted (Ganesha / Edition Synapse 2004); first-person; Edmund Gregory Holtham 1841–1907. Not queued yet: maps."
+   }
   },
   {
    "n": 67,
@@ -1654,7 +1667,7 @@
    "year": 1886,
    "title": "Gleanings from Japan",
    "author": "Walter G. Dickson",
-   "kind": "narrative",
+   "kind": "mixed",
    "summary": "Twenty-two chapters from a return visit in 1883–1884 by a Yokohama resident of 1862, mostly excursions from the Kwanto [Kanto] hot springs and Nikko to the Inland Sea, Kyoto, and Koyasan [Mt. Koya], broken by two historical narratives and closed by a chapter on Buddhism",
    "scans": [
     {
@@ -1666,7 +1679,11 @@
      "date": "1889",
      "page_images": true
     }
-   ]
+   ],
+   "vetted": {
+    "date": "2026-11-20",
+    "result": "Dickson, Gleanings from Japan: Cornell scan good; no text elsewhere; reprinted (Ganesha / Edition Synapse 2004); travel chapters with essays (kind: mixed is nearer); 27 line drawings with text run round them; Walter George Dickson d. before Nov. 1895. Eligible as a JATSI book; not queued in the first batch."
+   }
   },
   {
    "n": 72,
@@ -1841,7 +1858,11 @@
      "label": "Japan section",
      "url": "https://archive.org/stream/impressionsoffir00koth#page/262/mode/2up"
     }
-   ]
+   ],
+   "vetted": {
+    "date": "2026-11-20",
+    "result": "Kothari, Impressions of a First Tour Round the World: Boston Public Library scan good; all five rules met (Sir Jehangir Kothari d. 1934); but Japan is 12 pages of about 290. Eligible; left for later with the other round-the-world books."
+   }
   },
   {
    "n": 80,
@@ -2161,7 +2182,11 @@
      "date": "1893",
      "page_images": true
     }
-   ]
+   ],
+   "vetted": {
+    "date": "2026-11-20",
+    "result": "Bickersteth, Japan As We Saw It: Toronto scan good; no text elsewhere (Wikisource's page of this title is Gardiner's book); no real reprint; first-person with about 50 pages of quoted newspaper reports; Mary Jane Bickersteth's dates not found (born 1849–73). Not queued: rule 5 open."
+   }
   },
   {
    "n": 95,
@@ -2450,7 +2475,11 @@
      "date": "1895",
      "page_images": true
     }
-   ]
+   ],
+   "vetted": {
+    "date": "2026-11-20",
+    "result": "Baxter, In Bamboo Lands: use inbamboolands00baxt (North Carolina, colour) for the halftones; no text elsewhere; reprinted (Kegan Paul 2004); first-person, about 127 halftones among the text; Katharine Schuyler Baxter b. 1845. Eligible as a JATSI book; not queued in the first batch."
+   }
   },
   {
    "n": 109,
@@ -4184,7 +4213,11 @@
      "date": "1904",
      "page_images": true
     }
-   ]
+   ],
+   "vetted": {
+    "date": "2026-11-20",
+    "result": "Davidson, Present-Day Japan: UC scan good; no text elsewhere; no real reprint; partly first-person; Augusta Murray Campbell Davidson's dates not found. Not queued: rule 5 open."
+   }
   },
   {
    "n": 180,
@@ -4480,7 +4513,11 @@
      "label": "Japan section",
      "url": "https://archive.org/stream/in.ernet.dli.2015.82990/2015.82990.My-Travel-In-China-Japan-And-Java-1903#page/n87/mode/1up"
     }
-   ]
+   ],
+   "vetted": {
+    "date": "2026-11-20",
+    "result": "Jagatjit Singh, My Travels in China, Japan and Java: only a Google scan (map folded) and a bilevel DLI scan; reprinted (Kegan Paul 2006); first-person, about 45% Japan; author 1872–1949. Eligible as a JATSI book once a scan passes; not queued in the first batch."
+   }
   },
   {
    "n": 194,
@@ -4563,7 +4600,11 @@
      "date": "[19--?]",
      "page_images": true
     }
-   ]
+   ],
+   "vetted": {
+    "date": "2026-11-20",
+    "result": "Fisher, A Woman Alone in the Heart of Japan: first edition scans womanaloneinhear00fish (LoC), womanjapan00fishiala; a ManyBooks entry could not be opened (look); no real reprint; first-person; Gertrude Adams Fisher's dates not found. Not queued: rule 5 open."
+   }
   },
   {
    "n": 198,
@@ -4705,7 +4746,11 @@
      "date": "1906",
      "page_images": true
     }
-   ]
+   ],
+   "vetted": {
+    "date": "2026-11-20",
+    "result": "Murray, The Land of the Tatami: Cornell scan good; no text elsewhere; no real reprint; first-person, all Japan, 124 pp.; George T. Murray's dates not found and his birth cannot be bounded. Not queued: rule 5 open."
+   }
   },
   {
    "n": 205,
@@ -4895,7 +4940,11 @@
      "date": "1908",
      "page_images": true
     }
-   ]
+   ],
+   "vetted": {
+    "date": "2026-11-20",
+    "result": "Sheldon, Summer Greetings from Japan: UC scan good; no text elsewhere; no reprint; first-person letters of 1906, 128 pp.; Walter L. Sheldon 1858–1907, his widow (compiler) d. 1924; but the two-page introductory letter is by Anna Cope Hartshorne (d. 1957): the book waits until 2028 unless Tom allows such a part to be left out (the open question on Corona and Coronet)."
+   }
   },
   {
    "n": 214,
@@ -5558,7 +5607,11 @@
      "date": "1912",
      "page_images": true
     }
-   ]
+   ],
+   "vetted": {
+    "date": "2026-11-20",
+    "result": "McLean, A Gentle Jehu in Japan: UC scan good (tipped-in hand-coloured photographs; a menu and a hotel bill with Japanese script); no text elsewhere; no real reprint; first-person; Ethel Louise McLean b. 1878, death not found: under rule 5 not eligible unless a death in 1955 or earlier is found."
+   }
   },
   {
    "n": 245,

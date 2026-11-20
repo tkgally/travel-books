@@ -76,4 +76,4 @@ Do each work once and say on the queue row which entries it covers.
 
 | Date | What |
 |---|---|
-| 2026-11-20 | List taken from the Sources page (247 entries); IA metadata and a Gutenberg catalogue match for all; `kind` assigned from the one-line summaries (narrative 105, mixed 39, other 103); 26 narratives vetted by Opus subagents; the first rows queued (below, in `data/queue.json`). Session run on Fable by Tom's choice. |
+| 2026-11-20 | List taken from the Sources page (247 entries); IA metadata and a Gutenberg catalogue match for all; `kind` assigned from the one-line summaries (narrative 105, mixed 39, other 103); 26 narratives vetted by Opus subagents: 13 queued (8 meet all five rules; 5 meet all but rule 3, having a Ganesha, Elibron or Cambridge reprint), the other 13 have what was found under `vetted` in `data/jatsi.json` (most are held by an author's unknown dates). First in line: *Rambles through Japan without a Guide* (n 86). Session run on Fable by Tom's choice. |
