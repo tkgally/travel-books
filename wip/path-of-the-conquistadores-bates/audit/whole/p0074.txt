@@ -1,0 +1,5 @@
+{"given": "territory into number of small sovereign", "print": "territory into a number of small sovereign", "sure": "high"}
+{"given": "He pleaded besore the Congress:", "print": "He pleaded before the Congress:", "sure": "high"}
+{"given": "a unified Republic; including what are", "print": "a unified Republic, including what are", "sure": "high"}
+{"given": "Colombia, and ecuador. Of this Empire,", "print": "Colombia, and Ecuador. Of this Empire,", "sure": "high"}
+{"given": "was yet to he conquered.", "print": "was yet to be conquered.", "sure": "high"}

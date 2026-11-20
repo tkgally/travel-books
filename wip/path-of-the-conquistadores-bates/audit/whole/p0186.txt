@@ -1,0 +1,5 @@
+{"given": "work stolidly at the pumps; for we", "print": "work stolidly at the pumps, for we", "sure": "high"}
+{"given": "that are assailiug you, every moment", "print": "that are assailing you, every moment", "sure": "high"}
+{"given": "is around you like cloud.", "print": "is around you like a cloud.", "sure": "high"}
+{"given": "bitten themselves but nor so badly", "print": "bitten themselves but not so badly", "sure": "high"}
+{"given": "The trinidad boy perceives it first.", "print": "The Trinidad boy perceives it first.", "sure": "high"}

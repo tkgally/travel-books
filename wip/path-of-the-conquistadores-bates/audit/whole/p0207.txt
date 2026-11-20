@@ -1,0 +1,5 @@
+{"given": "and I sound a Turkish woman", "print": "and I found a Turkish woman", "sure": "high"}
+{"given": "into the inn there; and I", "print": "into the inn there, and I", "sure": "high"}
+{"given": "‘That is queer,’ I tbought, and", "print": "‘That is queer,’ I thought, and", "sure": "high"}
+{"given": "The Turk told posadero, ‘I am", "print": "The Turk told the posadero, ‘I am", "sure": "high"}
+{"given": "word to the Jefe civil to", "print": "word to the Jefe Civil to", "sure": "high"}
