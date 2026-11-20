@@ -298,10 +298,11 @@
    "place": "Philadelphia",
    "publisher": "Porter & Coates",
    "images": 202,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-20",
    "eligibility": "JATSI 74. All five rules met. Rule 1: Library of Congress scan, colour 500 ppi, clean (JATSI links the Cornell scan cu31924023271152, greyscale, also clean). Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person letters home from a business journey in 1887; about 40–45% on Japan, the rest China. Rule 5: Simon Adler Stern 1838–1904 (Jewish Encyclopedia). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
-   "note": "185 pp., small format, no illustrations, an appendix; rows of asterisks as section breaks. Short."
+   "note": "185 pp., small format, no illustrations, an appendix; rows of asterisks as section breaks. Short.",
+   "started": "2026-11-20"
   },
   {
    "order": 17,

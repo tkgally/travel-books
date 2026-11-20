@@ -1,0 +1,54 @@
+{
+ "id": "jottings-of-travel-in-china-and-japan-stern",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "Jottings of Travel in China and Japan",
+ "short_title": "Jottings of Travel in China and Japan",
+ "authors": [
+  {
+   "name": "Simon Adler Stern",
+   "sort": "Stern, Simon Adler",
+   "born": 1838,
+   "died": 1904
+  }
+ ],
+ "place": "Philadelphia",
+ "publisher": "Porter & Coates",
+ "year": 1888,
+ "edition_statement": "First edition",
+ "collection": "jatsi",
+ "source": {
+  "ia_identifier": "jottingsoftravel00ster",
+  "contributor": "The Library of Congress",
+  "hidden_leaves": [
+   0,
+   201,
+   202,
+   203
+  ]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  }
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0012",
+   "why": "blank page"
+  },
+  {
+   "check": "leaves",
+   "match": "p0014",
+   "why": "blank page"
+  },
+  {
+   "check": "leaves",
+   "match": "p0018",
+   "why": "blank page"
+  }
+ ]
+}
