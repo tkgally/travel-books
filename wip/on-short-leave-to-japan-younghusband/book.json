@@ -1,0 +1,41 @@
+{
+ "id": "on-short-leave-to-japan-younghusband",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "On Short Leave to Japan",
+ "short_title": "On Short Leave to Japan",
+ "authors": [
+  {
+   "name": "G. J. Younghusband",
+   "sort": "Younghusband, G. J.",
+   "born": 1859,
+   "died": 1944
+  }
+ ],
+ "place": "London",
+ "publisher": "Sampson Low, Marston & Company",
+ "year": 1894,
+ "edition_statement": "First edition",
+ "collection": "jatsi",
+ "source": {
+  "ia_identifier": "onshortleavetoja00younrich",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": []
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  }
+ ],
+ "regions": [
+  "Japan",
+  "Malaysia",
+  "Singapore",
+  "Hong Kong",
+  "China"
+ ],
+ "period": "1893",
+ "frontispiece": "p0008-1"
+}
