@@ -46,6 +46,7 @@
 | From West Africa to Palestine v1 | 2026-11-20 | 202 | Opus draft → Sonnet corrections → Opus judge; spot-read of 34 verse and letter pages by an Opus subagent | 8 | 8 / 0 / 0 | 1 (Shāk-es-péāré: both readers wrong) | 19.97 | 0 | PASS, 0 waived | 30/30; 0 / 6 (spot-read: 1 printer’s error, 2 dashes) | |
 | My Life in Mongolia and Siberia v1 | 2026-11-20 | 192 | Opus draft → Sonnet corrections → Opus judge; spot-read of 40 front-matter, plate and footnote pages by an Opus subagent | 7 | 2 / 4 / 1 | 0 | 19.13 | 0 | PASS, 7 waived (ditto marks, one footnote table) | 30/30; 0 / 6 (spot-read: 3 printer’s errors, 1 misread accent; rendered look: a table in a footnote) | |
 | Summer Greetings from Japan v1 | 2026-11-20 | 161 | Opus draft → Sonnet corrections → Opus judge; spot-read of 49 front-matter, plate, footnote and letter-opening pages by an Opus subagent | 10 | 8 / 2 / 0 | 1 (a dropped letter heading the judge accepted, sure) | 16.03 | 0 | PASS, 0 waived | 30/30; 0 / 6 (spot-read: 4 printer’s errors, 1 dateline; a second dropped heading found by comparing headings) | |
+| Twelve Years in Canterbury v1 | 2026-11-20 | 256 | Opus draft → Sonnet corrections → Opus judge; spot-read of 73 front-matter, contents, footnote, verse and chapter-opening pages by two Opus subagents | 10 | 8 / 2 / 0 | 0 | 26.97 | 0 | PASS, 0 waived | 27/29; 0 / 6 (spot-read: 2 printer’s errors, a footnote in three paragraphs; judge crops: 1 printer’s error; rendered look: 6 stanza breaks joined at page tops) | |
 
 ## Calibrations
 

@@ -1,0 +1,46 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[       ok] audit: book.json records the sampled audit of this version
+[ look (3)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0070: …ing only three-|pence. After ab… (hyphen removed; check) — the book hyphenates other “three-” words: keep_hyphens?
+            - hyphen join at p0075: … the undiscern-|ing natives. Th… (hyphen removed; check)
+            - (and 16 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[ look (1)] folios: printed page numbers that break the sequence
+            - p0246: page 2 after page 226 (p0244)
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[look (12)] contents: entries of the printed contents with no matching heading
+            - p0013: 'Deficiency of knowledge in England respecting New Zealand—True state o'
+            - p0014: 'Departure from Christchurch—The road—Summer—The zig-zag—Adventurous fe'
+            - p0014: 'Last farewell to Christchurch—Walk over the bridle-path to Lyttelton—B'
+            - p0015: 'New Plymouth roadstead—Rough landing—Taranaki—Iron-sand—Mount Egmont—T'
+            - p0015: 'Dullness—Anticipated change—Search for new lodgings—Rats—Town walk—Foo'
+            - p0016: 'Auckland from the sea—Kawau Island—Curious rocks—A knot—Alarm in the n'
+            - p0016: 'Hobson’s Bay—The wharf—Railway to Melbourne—Search for a resting-place'
+            - p0017: 'The harbour—Curiously placed rocks—Sunday—The “Northam”—Coaling—The sh'
+            - p0017: 'Straits of Bab-el-Mandeb—Arab Pilot—Rocky Islands—Babies—Rain in the R'
+            - p0018: 'Conclusion. Quarantine 196—205'
+            - p0018: 'Poetry written on board the “Hampshire” 214'
+            - p0018: 'Poetry written for the projected “New Zealand Christian Year” 220'
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
+[ look (1)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0006, p0007, p0009, p0010, p0011, p0012…); à (p0210, p0247)
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight PASS: twelve-years-in-canterbury-thomson v1 — 0 to fix, 0 waived; to look at: hyphen-joins 3, folios 1, contents 12, accents 1 — tools@2f8c554 2026-11-20
