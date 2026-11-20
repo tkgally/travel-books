@@ -186,6 +186,18 @@ How this was carried out: `notes/jatsi.md`.
   *Rambles through Japan* left them out). A standing rule for all books: ornaments printed at chapter openings and
   ends are cropped and shown small, not left out. *Rambles through Japan* gets them in a new version.
 
+## 2026-11-20 (longer sessions; session run on Fable by Tom's choice)
+
+- **Each routine session is to run longer: more than one book per session where possible, up to a reasonable
+  fraction of the context window.** ("This project seems to be going ahead smoothly now.") `RESUME.md` and the
+  other files are to make such sessions normal.
+- He will run the new `RESUME.md` by hand a few times to see how much clock time a session takes, and then set the
+  routine's interval so that sessions do not overlap and cause merge conflicts — so every session says when it
+  started and ended (`notes/sessions.md`, and the final message).
+- The routine sessions stay on **Opus 5.5**.
+
+How this was carried out: `RESUME.md` §"How long a session runs", `tools/session_meter.py`, `improvement.md` review log.
+
 ## Questions for Tom
 
 None open.
