@@ -1,0 +1,33 @@
+{
+ "id": "japan-a-sailors-visit-cook",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "Japan",
+ "subtitle": "A Sailor’s Visit to the Island Empire",
+ "short_title": "Japan: A Sailor’s Visit",
+ "authors": [
+  {
+   "name": "M. B. Cook",
+   "sort": "Cook, M. B.",
+   "born": 1838,
+   "died": 1927
+  }
+ ],
+ "place": "New York",
+ "publisher": "John B. Alden",
+ "year": 1891,
+ "edition_statement": "First edition",
+ "collection": "jatsi",
+ "source": {
+  "ia_identifier": "japansailorsvisi00cook",
+  "contributor": "Brigham Young University",
+  "hidden_leaves": [0, 165, 166, 167]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  }
+ ]
+}
