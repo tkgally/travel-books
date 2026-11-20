@@ -41,6 +41,7 @@
 | Our Ride through Asia Minor v2 | 2026-11-20 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | accents misread (found at the review after twenty books by the new `accents` list, checked on the scan) |
 | South by West v3 | 2026-11-20 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | accents misread (found at the review after twenty books by the new `accents` list, checked on the scan) |
 | The Path of the Conquistadores v1 | 2026-11-20 | 381 drafted of 388 | Opus draft → Sonnet corrections → Opus judge; spot-read of 24 pages and accent/hyphen checks by Opus subagents | 7 | 5 / 2 / 0 | 0 | 35.57 | 0 | PASS, 2 waived (a duplicate shot, a blank frame) | 30/30; 0 / 6 | |
+| Impressions of a First Tour round the World v1 | 2026-11-20 | 300 | Opus draft → Sonnet corrections → Opus judge; spot-read of 24 pages by an Opus subagent | 5 | 4 / 1 / 0 | 1 (p0092: a faint full stop the judge read as a comma) | 29.16 | 0 | PASS, 0 waived | 30/30; 0 / 6 | |
 
 ## Calibrations
 
