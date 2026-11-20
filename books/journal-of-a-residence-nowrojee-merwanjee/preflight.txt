@@ -18,23 +18,13 @@
             - hyphen join at p0322: …hine</i>, glad-|dened our heart… (hyphen removed; check)
             - hyphen join at p0491: …lies have a go-|verness in thei… (hyphen removed; check)
             - (and 35 joins giving a word the book prints whole elsewhere: not listed)
-[look (12)] joins: page joins: missing [[cont]], or [[cont]] after a closed sentence
-            - p0078: [[cont]] after a closed sentence …'” to use their own words.' | 'Mr. Austin the master Rig'
-            - p0133: [[cont]] after a closed sentence …'dred and fifty guineas!!!' | 'Only think,—one hundred a'
-            - p0214: [[cont]] after a closed sentence …'ondon, Exeter, and Ripon.' | 'The same rule is observed'
-            - p0241: [[cont]] after a closed sentence …'at for only one shilling.' | 'Below there is a saloon, '
-            - p0249: [[cont]] after a closed sentence …'battle in Egypt, in 1801.' | 'Another to Lord Howe who '
-            - p0255: [[cont]] after a closed sentence …'cost two thousand pounds.' | 'These are working models,'
+[ look (1)] joins: page joins: missing [[cont]]
             - p0313: no [[cont]] but the page before ends …'Her home is on the deep,' and this one starts 'were truths, never more f'
-            - p0410: [[cont]] after a closed sentence …'to purchase some of them.' | 'We believe the oldest wee'
-            - p0497: [[cont]] after a closed sentence …'paint thee still as nigh.' | 'But oh, my friends on Eng'
-            - p0498: [[cont]] after a closed sentence …'d, and affection no more.' | 'From the friends that we '
-            - p0500: [[cont]] after a closed sentence …'s the harvest they yield.' | 'And such be thy type, for'
-            - p0501: [[cont]] after a closed sentence …'re blessed than the past.' | 'Though short your sojourn'
 [ look (1)] folios: printed page numbers that break the sequence
             - p0524: page 2 after page 492 (p0522)
 [       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
 [       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
 [look (26)] contents: entries of the printed contents with no matching heading
             - p0023: 'Cannanore—Cochin—Canoes—Heavy Gale off the Cape—Symonds’ Bay—Cape Town'
             - p0023: 'Steam Boat Accommodations—Traffic on the Thames—Bustle of London.'
@@ -64,4 +54,4 @@
             - p0030: 'Salutations indicative of the Climate—Ice—Beautiful appearance of Snow'
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: journal-of-a-residence-nowrojee-merwanjee v1 — 0 to fix, 8 waived; to look at: hyphen-joins 4, joins 12, folios 1, contents 26 — tools@65bef57 2026-11-20
+preflight PASS: journal-of-a-residence-nowrojee-merwanjee v2 — 0 to fix, 8 waived; to look at: hyphen-joins 4, joins 1, folios 1, contents 26 — tools@852fcc3 2026-11-20

@@ -66,11 +66,10 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 ## Trigger: eighteenth-century printing
 
 - Quotations with “ repeated at every line start: models keep the repeats, which then stand mid-sentence once lines
-  are joined; `tools/running_quotes.py` after the judge, its list looked at (*Embassy*, 2026-11-20). Only for a book
-  that prints the convention: on *South by West* (1875) it lists 6 real opening marks that follow a quotation left
-  unclosed earlier in the paragraph (p0091, p0092, p0107, p0290, p0347, p0406: printed so or a dropped ”? — to look at
-  in the next review). Also at the next review: do the published books have quotations of several paragraphs with a
-  closing mark at each inner paragraph (Tom 2026-11-20: modern practice, `style.md`)?
+  are joined; `tools/running_quotes.py` after the judge, its list looked at (*Embassy*, 2026-11-20). A listed mark
+  just after `[[cont]]` at a page top, inside a quotation still open, is a repeat: *Journal of a Residence* v1 kept two
+  as "real opening marks" (fixed in v2, review 2026-11-20). In a book without the convention the list is of real marks
+  (*South by West*'s six, checked on the scan at the review).
 - Drafts set a page-top continuation of a running-quoted passage as `<blockquote>` (21 pages of *Embassy*); the book
   sets no quotation off, so the compiler found "[[cont]] with nothing to continue". Running marks also stand at the
   start of each row of a quoted table; `running_quotes.py` does not look in tables (*Embassy*, 2026-11-20).
