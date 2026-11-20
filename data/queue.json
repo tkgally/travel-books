@@ -409,11 +409,13 @@
    "place": "New York",
    "publisher": "John B. Alden",
    "images": 166,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-20",
    "eligibility": "JATSI 83. All five rules met, rule 4 in part. Rule 1: Brigham Young University scan, colour 400 ppi, clean. Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: a ship's captain's two visits in 1889 with his wife and daughter, first-hand in part and in part compiled (legends, history, the Constitution summarized), as his introduction says. Rule 5: 'M. B. C., Friendship, Maine' is very probably Melville Bradford Cook (1838–1927; VIAF; listed aged 52 at Friendship in 1892); no source joins the name to this book in so many words, but on either reading the author was born before 1856 (rule 5, unknown death). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record. Re-checked 2026-11-20 (session): a web search of the title finds the 1891 edition, a print-on-demand paperback and the Nichibun catalogue record; no text edition.",
    "note": "About 144 pp., 14 chapters, no illustrations listed; proverbs in smaller type. Put the identification of the author in notes_on_text as probable, not as fact.",
-   "started": "2026-11-20"
+   "started": "2026-11-20",
+   "version": 1,
+   "published": "2026-11-20"
   },
   {
    "order": 23,
