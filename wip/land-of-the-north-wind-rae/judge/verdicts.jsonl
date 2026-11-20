@@ -1,0 +1,22 @@
+{"page": "p0013", "n": 1, "who": "draft", "draft": "[[center]] <sc>most gratefully and affectionately i devote my first and probably my only book</sc>", "verified": "[[center]] MOST GRATEFULLY AND AFFECTIONATELY I DEVOTE MY FIRST AND PROBABLY MY ONLY BOOK", "judge": {"n": 1, "is": "A", "print": "<sc>most gratefully and affectionately i devote my first and probably my only book</sc>", "sure": "medium"}}
+{"page": "p0018", "n": 1, "who": "verified", "draft": "Råouda", "verified": "Râouda", "judge": {"n": 1, "is": "B", "print": "Râouda", "sure": "low"}}
+{"page": "p0019", "n": 1, "who": "draft", "draft": "Aåwasaksa", "verified": "Aâwasaksa", "judge": {"n": 1, "is": "A", "print": "Aåwasaksa", "sure": "medium"}}
+{"page": "p0021", "n": 1, "who": "draft", "draft": "## Chapter XI", "verified": "# Chapter XI", "judge": {"n": 1, "is": "B", "print": "## Chapter XI", "sure": "low"}}
+{"page": "p0021", "n": 2, "who": "draft", "draft": "## Chapter XI", "verified": "# Chapter XI", "judge": {"n": 2, "is": "A", "print": "## Chapter XI", "sure": "low"}}
+{"page": "p0021", "n": 3, "who": "draft", "draft": "## Chapter XV", "verified": "# Chapter XV", "judge": {"n": 3, "is": "A", "print": "## Chapter XV", "sure": "low"}}
+{"page": "p0022", "n": 1, "who": "draft", "draft": "## Chapter XV", "verified": "# Chapter XV", "judge": {"n": 1, "is": "B", "print": "## Chapter XV", "sure": "medium"}}
+{"page": "p0022", "n": 2, "who": "draft", "draft": "## Chapter XV", "verified": "# Chapter XV", "judge": {"n": 2, "is": "A", "print": "## Chapter XV", "sure": "medium"}}
+{"page": "p0093", "n": 1, "who": "verified", "draft": "Råouda", "verified": "Râouda", "judge": {"n": 1, "is": "A", "print": "Râouda", "sure": "low"}}
+{"page": "p0123", "n": 1, "who": "verified", "draft": "Guldshmid’s", "verified": "Guldshmid’s.", "judge": {"n": 1, "is": "A", "print": "Guldshmid’s.", "sure": "high"}}
+{"page": "p0152", "n": 1, "who": "draft", "draft": "Aåwasaksa", "verified": "Aâwasaksa", "judge": {"n": 1, "is": "A", "print": "Aåwasaksa", "sure": "medium"}}
+{"page": "p0202", "n": 1, "who": "neither", "draft": "of the tchelęga, and", "verified": "of the tchelég a, and", "judge": {"n": 1, "is": "neither", "print": "of the tcheléga, and", "sure": "medium"}}
+{"page": "p0202", "n": 2, "who": "neither", "draft": "nother tchelęga and", "verified": "nother tchelég a and", "judge": {"n": 2, "is": "neither", "print": "nother tcheléga and", "sure": "medium"}}
+{"page": "p0218", "n": 1, "who": "verified", "draft": "mattrasses", "verified": "mattresses", "judge": {"n": 1, "is": "A", "print": "mattresses", "sure": "high"}}
+{"page": "p0230", "n": 1, "who": "verified", "draft": "knòut", "verified": "knóut", "judge": {"n": 1, "is": "A", "print": "knóut", "sure": "medium"}}
+{"page": "p0230", "n": 2, "who": "verified", "draft": "Akatòuia", "verified": "Akatóuia", "judge": {"n": 2, "is": "B", "print": "Akatóuia", "sure": "medium"}}
+{"page": "p0243", "n": 1, "who": "draft", "draft": "<i>Hăroshah</i>", "verified": "<i>Hároshah</i>", "judge": {"n": 1, "is": "A", "print": "<i>Hăroshah</i>", "sure": "medium"}}
+{"page": "p0243", "n": 2, "who": "draft", "draft": "<i>Săouo</i>, sai", "verified": "<i>Sâouo</i>, sai", "judge": {"n": 2, "is": "A", "print": "<i>Săouo</i>, sai", "sure": "medium"}}
+{"page": "p0279", "n": 1, "who": "verified", "draft": " which point", "verified": " which points", "judge": {"n": 1, "is": "B", "print": " which points", "sure": "high"}}
+{"page": "p0382", "n": 1, "who": "draft", "draft": "[[center]]<sc>london: printed by</sc>", "verified": "[[center]]LONDON: PRINTED BY", "judge": {"n": 1, "is": "B", "print": "[[center]]<sc>london: printed by</sc>", "sure": "low"}}
+{"page": "p0382", "n": 2, "who": "draft", "draft": "[[center]]<sc>spottiswoode and co., new-street square</sc>", "verified": "[[center]]SPOTTISWOODE AND CO., NEW-STREET SQUARE", "judge": {"n": 2, "is": "A", "print": "[[center]]<sc>spottiswoode and co., new-street square</sc>", "sure": "low"}}
+{"page": "p0382", "n": 3, "who": "draft", "draft": "[[center]]<sc>and parliament street</sc>", "verified": "[[center]]AND PARLIAMENT STREET", "judge": {"n": 3, "is": "A", "print": "[[center]]<sc>and parliament street</sc>", "sure": "low"}}

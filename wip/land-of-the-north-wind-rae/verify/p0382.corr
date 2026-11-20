@@ -1,0 +1,3 @@
+{"find": "[[center]]<sc>london: printed by</sc>", "replace": "[[center]]LONDON: PRINTED BY"}
+{"find": "[[center]]<sc>spottiswoode and co., new-street square</sc>", "replace": "[[center]]SPOTTISWOODE AND CO., NEW-STREET SQUARE"}
+{"find": "[[center]]<sc>and parliament street</sc>", "replace": "[[center]]AND PARLIAMENT STREET"}

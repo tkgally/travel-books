@@ -1,0 +1,2 @@
+{"n": 1, "is": "A", "print": "<i>Hăroshah</i>", "sure": "medium"}
+{"n": 2, "is": "A", "print": "<i>Săouo</i>, sai", "sure": "medium"}

@@ -1,0 +1,228 @@
+{
+ "p0013": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[center]] <sc>most gratefully and affectionately i devote my first and probably my only book</sc>",
+   "replace": "[[center]] MOST GRATEFULLY AND AFFECTIONATELY I DEVOTE MY FIRST AND PROBABLY MY ONLY BOOK",
+   "draft": "[[center]] <sc>most gratefully and affectionately i devote my first and probably my only book</sc>",
+   "verified": "[[center]] MOST GRATEFULLY AND AFFECTIONATELY I DEVOTE MY FIRST AND PROBABLY MY ONLY BOOK",
+   "context": "[[page ?]] ⏎  ⏎ [[center]] TO MY DEAR FATHER ⏎  ⏎ [[center]] <sc>most gratefully and affectionately i devote my first and probably my only book</sc> ⏎  ⏎ C<sc>hristmas</sc> 1874 ⏎ "
+  }
+ ],
+ "p0018": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Råouda",
+   "replace": "Râouda",
+   "draft": "Råouda",
+   "verified": "Râouda",
+   "context": "apter V. ⏎  ⏎ Farewell to Kauto-keino—Ascend Alten River—Poling—Råouda Muodki—Bivouac in Silver-birch Forests—Cross the Frontier o"
+  }
+ ],
+ "p0019": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Aåwasaksa",
+   "replace": "Aâwasaksa",
+   "draft": "Aåwasaksa",
+   "verified": "Aâwasaksa",
+   "context": "hops—Return to Torneå—Farewell to Haparanda—Embark upon the Aåwasaksa—The Last of the Midnight Sun <pref>98</pref> ⏎  ⏎ ## Chapter VI"
+  }
+ ],
+ "p0021": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "## Chapter XIII.",
+   "replace": "# Chapter XIII.",
+   "draft": "## Chapter XI",
+   "verified": "# Chapter XI",
+   "context": "[[page xiii]] ⏎  ⏎ ## Chapter XIII. ⏎  ⏎ [[right]] PAGE ⏎  ⏎ Embark upon the Kûloi River—Comforts and R"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "## Chapter XIV.",
+   "replace": "# Chapter XIV.",
+   "draft": "## Chapter XI",
+   "verified": "# Chapter XI",
+   "context": "ot upon Civilisation—The Inquisition in Poland—Siberia 183 ⏎  ⏎ ## Chapter XIV. ⏎  ⏎ Okladnikôva—Visited by Samoyedes—Their Habits and Employme"
+  },
+  {
+   "n": 3,
+   "kind": "punctuation",
+   "find": "## Chapter XV.",
+   "replace": "# Chapter XV.",
+   "draft": "## Chapter XV",
+   "verified": "# Chapter XV",
+   "context": "orials in Contemplation—The Land we are about to visit 205 ⏎  ⏎ ## Chapter XV. ⏎  ⏎ Completion of our Preparations—Sail for Kânin—Mglâu—Visit "
+  }
+ ],
+ "p0022": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "## Chapter XVI.",
+   "replace": "# Chapter XVI.",
+   "draft": "## Chapter XV",
+   "verified": "# Chapter XV",
+   "context": "ièsna River—A Quicksand—Samoyede Visitors <pref>225</pref> ⏎  ⏎ ## Chapter XVI. ⏎  ⏎ Negotiations for Journey to the Interior—Reindeer Sledges—"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "## Chapter XVII.",
+   "replace": "# Chapter XVII.",
+   "draft": "## Chapter XV",
+   "verified": "# Chapter XV",
+   "context": "ing and Sentimental Prejudices against it <pref>248</pref> ⏎  ⏎ ## Chapter XVII. ⏎  ⏎ Repose in a Samoyede Village—Magnificent Weather—An Accide"
+  }
+ ],
+ "p0093": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Råouda",
+   "replace": "Râouda",
+   "draft": "Råouda",
+   "verified": "Râouda",
+   "context": "ubtitle]] Farewell to Kauto-keino—Ascend Alten River—Poling—Råouda Muodki—Bivouac in Silver-birch Forests—Cross the Frontier o"
+  }
+ ],
+ "p0123": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "Guldshmid’s",
+   "replace": "Guldshmid’s.",
+   "draft": "Guldshmid’s",
+   "verified": "Guldshmid’s.",
+   "context": "erg at Stockholm, to ask for news, and then went out to the Guldshmid’s. ⏎ "
+  }
+ ],
+ "p0152": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Aåwasaksa",
+   "replace": "Aâwasaksa",
+   "draft": "Aåwasaksa",
+   "verified": "Aâwasaksa",
+   "context": "quaintance waiting for us on deck when we came again to the Aåwasaksa. He asked if we were too tired to go and look at some Finla"
+  }
+ ],
+ "p0202": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "out of the tchelęga, and",
+   "replace": "out of the tchelég a, and",
+   "draft": "of the tchelęga, and",
+   "verified": "of the tchelég a, and",
+   "context": "sively absorbed the gold pieces, watched him tear his horse out of the tchelęga, and then quietly arranged with the little Jew that we should dr"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "another tchelęga and",
+   "replace": "another tchelég a and",
+   "draft": "nother tchelęga and",
+   "verified": "nother tchelég a and",
+   "context": " with him to Kulogôry, and engage a boat there. ⏎  ⏎ We had got another tchelęga and were driving out of the yard, when the baffled station-mast"
+  }
+ ],
+ "p0218": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "mattrasses",
+   "replace": "mattresses",
+   "draft": "mattrasses",
+   "verified": "mattresses",
+   "context": " delicious swim after the boat, dressing comfortably on our mattrasses in the sun. We even shaved ourselves and looked our best. ⏎  ⏎ "
+  }
+ ],
+ "p0230": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "knòut",
+   "replace": "knóut",
+   "draft": "knòut",
+   "verified": "knóut",
+   "context": "expressions which even now make us shudder: banishment, the knòut, the army of the Caucasus, the dungeons of Akatòuia—frightf"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "Akatòuia",
+   "replace": "Akatóuia",
+   "draft": "Akatòuia",
+   "verified": "Akatóuia",
+   "context": "hment, the knóut, the army of the Caucasus, the dungeons of Akatòuia—frightful mysterious oubliettes, the very name of which sic"
+  }
+ ],
+ "p0243": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<i>Hăroshah</i>",
+   "replace": "<i>Hároshah</i>",
+   "draft": "<i>Hăroshah</i>",
+   "verified": "<i>Hároshah</i>",
+   "context": "the Pole and I, for we felt that the first step was gained. <i>Hăroshah</i>—Good? I asked. <i>Săouo</i>, said the woman, and we began t"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "<i>Săouo</i>, said",
+   "replace": "<i>Sâouo</i>, said",
+   "draft": "<i>Săouo</i>, sai",
+   "verified": "<i>Sâouo</i>, sai",
+   "context": "t the first step was gained. <i>Hároshah</i>—Good? I asked. <i>Săouo</i>, said the woman, and we began to get on swimmingly. No sooner had"
+  }
+ ],
+ "p0279": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "at both of which point",
+   "replace": "at both of which points",
+   "draft": " which point",
+   "verified": " which points",
+   "context": "e fur inwards. No openings except at the wrists and collar, at both of which points the fur turns over. The outer surface is carefully tanned "
+  }
+ ],
+ "p0382": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[center]]<sc>london: printed by</sc>",
+   "replace": "[[center]]LONDON: PRINTED BY",
+   "draft": "[[center]]<sc>london: printed by</sc>",
+   "verified": "[[center]]LONDON: PRINTED BY",
+   "context": "for our journey together is at an end. ⏎  ⏎ [[center]]THE END. ⏎  ⏎ [[center]]<sc>london: printed by</sc> ⏎  ⏎ [[center]]<sc>spottiswoode and co., new-street square</sc>"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "[[center]]<sc>spottiswoode and co., new-street square</sc>",
+   "replace": "[[center]]SPOTTISWOODE AND CO., NEW-STREET SQUARE",
+   "draft": "[[center]]<sc>spottiswoode and co., new-street square</sc>",
+   "verified": "[[center]]SPOTTISWOODE AND CO., NEW-STREET SQUARE",
+   "context": " an end. ⏎  ⏎ [[center]]THE END. ⏎  ⏎ [[center]]LONDON: PRINTED BY ⏎  ⏎ [[center]]<sc>spottiswoode and co., new-street square</sc> ⏎  ⏎ [[center]]<sc>and parliament street</sc> ⏎ "
+  },
+  {
+   "n": 3,
+   "kind": "words",
+   "find": "[[center]]<sc>and parliament street</sc>",
+   "replace": "[[center]]AND PARLIAMENT STREET",
+   "draft": "[[center]]<sc>and parliament street</sc>",
+   "verified": "[[center]]AND PARLIAMENT STREET",
+   "context": "NTED BY ⏎  ⏎ [[center]]SPOTTISWOODE AND CO., NEW-STREET SQUARE ⏎  ⏎ [[center]]<sc>and parliament street</sc> ⏎ "
+  }
+ ]
+}
