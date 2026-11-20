@@ -1,0 +1,5 @@
+{"find": "remarkably cheap", "replace": "remarkably cheap"}
+
+Correction: the page reads "remarkably cheap", which matches the draft. The one change is below.
+
+{"find": "this is remarkably cheap", "replace": "this is remarkably cheap"}

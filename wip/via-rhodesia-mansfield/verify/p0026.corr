@@ -1,0 +1,3 @@
+Two changes are needed. The footnote marker should read `[[fn 1]]` → `[[fn 1]]` with the page reference wrapped as `<pref>`, and the draft already has that. I compared the rest against the scan and found no other differences, so the one real fix is the footnote's page reference.
+
+{"find": "See page <pref>310</pref>.", "replace": "See page 310."}

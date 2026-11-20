@@ -11,8 +11,10 @@ illustrators under selection.md rule 5 (Tom, 2026-11-20). Medal on p0139 designe
 Taken up 2026-11-20 after *A Woman's Winter in Africa* was rejected (two leaves hidden in its only scan).
 
 ## Status
-Stage reached: (a) scan checked, draft run started 2026-11-20 (opus, --pages 1,7-455).
-Next step: Drive cache; then the Sonnet pass.
+Stage reached: (a) done: scan checked, Drive cache (30 parts), draft + fallback, normalized. (b) started: Sonnet pass
+running (--pages 1,7-455, --corrections --context-text draft); full-size leaves of the 148 picture pages extracted in the
+scratchpad; crops by three Opus subagents into images/.
+Next step: normalize verify; review.py; judge.py; scan checks; pages/; structure.
 
 ## Page map
 Scan check 2026-11-20 (Opus subagent: all 12 sheets; tesseract on the running head and folio of every leaf, 235
@@ -42,6 +44,8 @@ Drafted: p0001 and p0007–p0455 (endpapers, date slip, pastedown, back cover le
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-20 | opus | 450 (p0001, p0007–p0455) | 28.69 | 2 pages refused by the output filter (p0184, p0187: ch. XV–XVI, ordinary prose) |
+| fallback | 2026-11-20 | tesseract + opus | 2 (p0184, p0187) | 0.14 | to audit separately |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
