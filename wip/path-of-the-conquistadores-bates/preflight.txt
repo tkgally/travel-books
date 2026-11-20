@@ -1,12 +1,6 @@
 [       ok] meta: book.json: required fields present and sane
 [       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
-[ FAIL (6)] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
-            - missing image file for p0013-1 (Publisher's device: a youth seated beneath a tree playing a double pipe, with a lamp at his feet and the motto "Tout bien ou rien"; the page has a border of holly in each corner)
-            - missing image file for p0014-1 (a man in a checked shirt and cap seated in front of a river steamboat, with figures in top hats on the deck behind)
-            - missing image file for p0015-1 (circular vignette of two small children in nightclothes sitting on Santa Claus’s lap, inside a holly-cornered border)
-            - missing image file for p0016-1 (Egyptian frieze of six women musicians playing a lyre, lute, double pipes and harp, within a decorative border of holly)
-            - missing image file for p0017-1 (engraving of a ruined castle tower overgrown with ivy)
-            - missing image file for p0019-1 (night scene of a crowded open-air café on a city boulevard, with an advertising kiosk and street lamps)
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
 [       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
 [       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
 [       ok] straight-quotes: no straight ' or " in the text
@@ -18,13 +12,9 @@
 [       ok] nav: contents: at least one reading division; each has a title and text
 [       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
-[ FAIL (1)] audit: book.json records the sampled audit of this version
-            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
-[ look (9)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+[       ok] audit: book.json records the sampled audit of this version
+[ look (6)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0093: …. A naïvely un-|feeling editori… (hyphen removed; check)
-            - hyphen join at p0132: …ol even in mid-|afternoon. But … (hyphen removed; check) — the book prints “mid-afternoon” elsewhere: keep_hyphens?
-            - hyphen join at p0162: … a sulky, half-|hearted way, hi… (hyphen removed; check) — the book hyphenates other “half-” words: keep_hyphens?
-            - hyphen join at p0169: …oard a sailing-|vessel. When we… (hyphen removed; check) — the book hyphenates other “sailing-” words: keep_hyphens?
             - hyphen join at p0199: …resh-water por-|poise jumps up.… (hyphen removed; check)
             - hyphen join at p0254: …neath the arch-|way. At the win… (hyphen removed; check)
             - hyphen join at p0296: …ou his last ad-|monitions regar… (hyphen removed; check)
@@ -49,4 +39,4 @@
             - sure: sure (p0146, p0147); sûre (p0215)
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: path-of-the-conquistadores-bates v1 — 7 to fix, 2 waived; to look at: hyphen-joins 9, accents 8 — tools@67d4962 2026-11-20
+preflight PASS: path-of-the-conquistadores-bates v1 — 0 to fix, 2 waived; to look at: hyphen-joins 6, accents 8 — tools@b70f8ee 2026-11-20

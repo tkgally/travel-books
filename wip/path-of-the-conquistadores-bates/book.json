@@ -81,5 +81,18 @@
   "Transcribed from the copy at the Boston Public Library (Internet Archive: pathofconquistad00bate_0). The first page of Chapter I was photographed twice; the second shot is used.",
   "The plates and the map are printed sideways in the book and are shown upright. The book’s title, printed again above Chapter I, is left out there."
  ],
- "omitted_from_reading": "The half-title, the title page, the publisher’s advertisements, the printed contents, the list of illustrations and the index are in the JSON only."
+ "omitted_from_reading": "The half-title, the title page, the publisher’s advertisements, the printed contents, the list of illustrations and the index are in the JSON only.",
+ "keep_hyphens": [
+  "p0132",
+  "p0162",
+  "p0169"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-20",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }
