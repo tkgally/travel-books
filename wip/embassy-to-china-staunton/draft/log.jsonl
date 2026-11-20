@@ -751,3 +751,7 @@
 {"page": "p2198", "model": "opus", "corrections": null, "seconds": 5.8, "cost": 0.06653780000000001, "completion_tokens": 625, "turns": 2, "attempts": 1}
 {"page": "p2199", "model": "opus", "corrections": null, "seconds": 5.6, "cost": 0.065946, "completion_tokens": 595, "turns": 2, "attempts": 1}
 {"page": "p2200", "model": "opus", "corrections": null, "seconds": 5.6, "cost": 0.0654142, "completion_tokens": 568, "turns": 2, "attempts": 1}
+{"page": "p2201", "model": "opus", "corrections": null, "seconds": 5.5, "cost": 0.06538240000000001, "completion_tokens": 566, "turns": 2, "attempts": 1}
+{"page": "p2202", "model": "opus", "corrections": null, "seconds": 6.1, "cost": 0.065486, "completion_tokens": 572, "turns": 2, "attempts": 1}
+{"page": "p2203", "model": "opus", "corrections": null, "seconds": 6.2, "cost": 0.0663978, "completion_tokens": 618, "turns": 2, "attempts": 1}
+{"page": "p2204", "model": "opus", "corrections": null, "seconds": 7.8, "cost": 0.0700214, "completion_tokens": 800, "turns": 2, "attempts": 1}
