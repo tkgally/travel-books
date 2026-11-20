@@ -33,4 +33,4 @@
 [       ok] contents: entries of the printed contents with no matching heading
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: rambles-through-japan-tracy v1 — 0 to fix, 1 waived; to look at: hyphen-joins 2, joins 10 — tools@f98de62 2026-11-20
+preflight PASS: rambles-through-japan-tracy v2 — 0 to fix, 1 waived; to look at: hyphen-joins 2, joins 10 — tools@e3b0524 2026-11-20

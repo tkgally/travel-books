@@ -8,7 +8,7 @@ Eligibility: re-checked 2026-11-20: not in the Project Gutenberg catalogue (pg_c
 Read Books, Kessinger). JATSI 86. Albert Tracy Leffingwell 1845–1916.
 
 ## Status
-**Published, version 1** (2026-11-20). Nothing pending.
+**Published, version 2** (2026-11-20): the 37 decorative head-pieces, tail-pieces and the boat vignette (p0079) added, shown small (Tom's answer). Nothing pending.
 
 ## Page map
 p0001 front cover (cloth, decorated: a jinrikisha, title and author) · p0002 pastedown with the University of
@@ -42,8 +42,10 @@ p0163, p0195, p0220, p0239, p0289) do not cover text on the contact sheets; to b
   went from Tokyo to Honjo by stage-coach, and the railway reached Honjo in 1883; Murray's Handbook (Satow and
   Hawes, 1881) is cited in the diary. Against: on 14 July he writes that the Bastille fell "a hundred years ago"
   (loose for 1881, exact for 1889, but 19 August 1889 was a Monday). The summary says the year is inferred.
-- Decorative head-pieces and tail-pieces (36, incl. a small oval vignette of boats, p0079) left out of the page
-  files and the editions, said in `notes_on_text` (assumed; no earlier book had them).
+- Decorative head-pieces and tail-pieces (37, incl. a small oval vignette of boats, p0079): left out of v1
+  (assumed); Tom, 2026-11-20: include them, small → v2. Restored in the page files from the judged text (same
+  positions), cropped from full-size leaves (`--max 600`, grey), listed in `book.json` `ornaments`. On p0021 the
+  head-piece is placed after the half-title line (printed above it), so that it opens Chapter I.
 - The half-title over Chapter I (p0021) is a `[[center]]` line, so it falls in the front matter with the epigraph.
 - The printed contents gives Chapter III as page "2" (for 20): tagged `<pref to="20">2</pref>`, text as printed.
 - The printer's imprint at the foot of the Note (p0305) stays in the Note as printed (assumed).
@@ -73,6 +75,7 @@ p0225 lacked `[[cont]]` (added). `hyphen-joins`: door-post kept (p0146).
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
+| 2 | 2026-11-20 | preflight PASS — 0 to fix, 1 waived; look: hyphen-joins 2, joins 10 | as v1 (text unchanged) | ornaments added |
 | 1 | 2026-11-20 | preflight PASS — 0 to fix, 1 waived (leaves p0008: accession-number verso); look: hyphen-joins 2, joins 10 | 30/30, 0 real errors | first publication |
 
 ## Known issues
