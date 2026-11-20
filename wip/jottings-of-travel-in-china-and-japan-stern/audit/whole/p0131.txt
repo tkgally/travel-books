@@ -1,5 +1,0 @@
-{"given": "number of sailing vessels foreign build", "print": "number of sailing vessels of foreign build", "sure": "high"}
-{"given": "some chinese men-of-war, an English", "print": "some Chinese men-of-war, an English", "sure": "high"}
-{"given": "a host of sampaus rushing", "print": "a host of sampans rushing", "sure": "high"}
-{"given": "banks, warehouses; consular offices, hotels", "print": "banks, warehouses, consular offices, hotels", "sure": "high"}
-{"given": "In my case, his may,", "print": "In my case, this may,", "sure": "high"}

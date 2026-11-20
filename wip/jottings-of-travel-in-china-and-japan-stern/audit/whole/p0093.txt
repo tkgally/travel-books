@@ -1,5 +1,0 @@
-{"given": "whenever I visit the japanese quarter", "print": "whenever I visit the Japanese quarter", "sure": "high"}
-{"given": "distinction of the matrons; also blacken", "print": "distinction of the matrons, also blacken", "sure": "high"}
-{"given": "eyebrows. Many the married women who", "print": "eyebrows. Many of the married women who", "sure": "high"}
-{"given": "that the desired refult is thus", "print": "that the desired result is thus", "sure": "high"}
-{"given": "services. If you band", "print": "services. If you hand", "sure": "high"}

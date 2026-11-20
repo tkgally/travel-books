@@ -54,6 +54,9 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Trigger: plates (tipped-in leaves) and a frontispiece
 
+- A book with no pictures still needs `images/cover.jpg` (front cover or title page); nothing checks it (*Jottings*,
+  2026-11-20: caught by the rendered look).
+
 - Captions printed in small capitals: drafts type some as `<sc>…</sc>` in lower case and the rest in upper and lower
   case; grep `[[caption]] <sc>` and make all upper and lower case (12 of 148 in *Via Rhodesia*).
 

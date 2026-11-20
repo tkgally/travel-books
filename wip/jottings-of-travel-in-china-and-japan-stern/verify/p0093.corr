@@ -1,6 +1,0 @@
-{"find": "lest they may prove", "replace": "lest they may prove"}
-{"find": "Homura", "replace": "Homura"}
-
-Wait, those are no-ops; the draft matches the page except possibly "viz:". Checking it, the draft has "viz:" and the page has "viz:", so the draft is correct.
-
-NONE

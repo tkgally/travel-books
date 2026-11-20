@@ -1,5 +1,0 @@
-{"given": "opinion of the captain and the", "print": "opinion of the Captain and the", "sure": "high"}
-{"given": "passed through severe and dangerous storm", "print": "passed through a severe and dangerous storm", "sure": "high"}
-{"given": "as to make if difficult", "print": "as to make it difficult", "sure": "high"}
-{"given": "about to step inside; when the", "print": "about to step inside, when the", "sure": "high"}
-{"given": "in the other dircction, until", "print": "in the other direction, until", "sure": "high"}
