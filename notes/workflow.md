@@ -234,6 +234,8 @@ visibly differs from newer ones.
 - Folding maps and large plates scanned in sections; two-page spreads.
 - Eighteenth-century printing (long s, catchwords): the prompts say "long s → s, omit catchwords", untested
   here. Run the two-draft method on a sample first (p2e found Opus modernizes old spellings when drafting).
-- Multi-volume works: one book id per work, volumes as parts; untested.
+- Multi-volume works: one book id per work, volumes as parts; leaves named by item (`source.items` in
+  `book-json.md`: vol. I p1000+, vol. II p2000+), tested on invented data only; the book page still shows one
+  IA item and one viewer (to do before the first such book is published).
 - Endnotes printed at the end of the book rather than at the foot of the page.
 - Greek, Arabic or other scripts quoted in the text: transcribe in the script; untested.

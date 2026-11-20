@@ -265,13 +265,21 @@ def check_folios(pages):
     return items
 
 
-def check_leaves(pages, hidden=()):
+def check_leaves(pages, hidden=(), items=None):
     """Leaves missing from the run of page files: the folios check cannot see a gap of a few pages.
     Leaves IA's viewer hides (book.json source.hidden_leaves: colour cards, tissue guards) are not missing.
-    Anything else left out on purpose (an IA card) is waived in book.json with the reason."""
+    Anything else left out on purpose (an IA card) is waived in book.json with the reason.
+    `items` (compile_book.scan_items) for a book from several IA items: each item's run is checked apart."""
     nums = sorted(int(re.findall(r"\d+", leaf)[-1]) for leaf, _ in pages)
-    have = set(nums) | {int(h) for h in hidden}
-    return [f"p{n:04d}: no page file" for n in range(nums[0], nums[-1] + 1) if n not in have] if nums else []
+    if not items:
+        items = [(0, None, [int(h) for h in hidden])]
+    out = []
+    for k, (first, _, hid) in enumerate(sorted(items)):
+        end = sorted(items)[k + 1][0] if k + 1 < len(items) else float("inf")
+        run = [n for n in nums if first <= n < end]
+        have = set(run) | {first + h for h in hid}
+        out += [f"p{n:04d}: no page file" for n in range(run[0], run[-1] + 1) if n not in have] if run else []
+    return out
 
 
 def first_text(text):
@@ -558,7 +566,7 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
         res["hyphen-joins"] = triage_hyphen_joins([w for w in warnings if w.startswith("hyphen join")], pages)
         res["compile"] = [w for w in warnings if not w.startswith("hyphen join")]
         res["folios"] = check_folios(pages)
-        res["leaves"] = check_leaves(pages, (cfg.get("source") or {}).get("hidden_leaves", []))
+        res["leaves"] = check_leaves(pages, items=compile_book.scan_items(cfg.get("source") or {}))
         res["joins"] = check_joins(pages)
         # conservation
         pc, jc = [], []          # image captions apart: the compiler moves some images (see page_streams)

@@ -596,6 +596,32 @@ class SideNotes(unittest.TestCase):
         self.assertTrue(preflight.compare(" ".join(ps), " ".join(js), "side-notes"))
 
 
+class Volumes(unittest.TestCase):
+    """A work in several IA items, and leaves bound out of order (Staunton's Embassy, 2026-11-20)."""
+    SRC = {"ia_identifier": "vol1", "items": [
+        {"ia_identifier": "vol1", "first_leaf": "p1000", "hidden_leaves": [0, 7]},
+        {"ia_identifier": "vol2", "first_leaf": "p2000", "hidden_leaves": [0, 24, 25]}]}
+
+    def test_scan_links_per_item(self):
+        ctx = rh.Ctx({"source": self.SRC, "pages": [], "divisions": []}, "web", {})
+        self.assertEqual(ctx.scan_url("p1068"), "https://archive.org/details/vol1/page/n66/mode/1up")
+        self.assertEqual(ctx.scan_url("p2030"), "https://archive.org/details/vol2/page/n27/mode/1up")
+        one = rh.Ctx({"source": {"ia_identifier": "x", "hidden_leaves": [0]}, "pages": [], "divisions": []}, "web", {})
+        self.assertEqual(one.scan_url("p0005"), "https://archive.org/details/x/page/n4/mode/1up")
+
+    def test_leaves_checked_per_item(self):
+        items = compile_book.scan_items(self.SRC)
+        pages = [(f"p{n:04d}", "") for n in list(range(1001, 1007)) + list(range(1008, 1011)) + list(range(2001, 2024)) + [2026, 2028]]
+        self.assertEqual(preflight.check_leaves(pages, items=items), ["p2027: no page file"])
+
+    def test_leaf_order(self):
+        pages = [(f"p{n}", n) for n in (1466, 1467, 1468, 1469, 1470, 1471)]
+        out = compile_book.apply_leaf_order(pages, [["p1469", "p1470", "p1467", "p1468"]])
+        self.assertEqual([x for x, _ in out], ["p1466", "p1469", "p1470", "p1467", "p1468", "p1471"])
+        with self.assertRaises(ValueError):
+            compile_book.apply_leaf_order(pages, [["p1469", "p9999"]])
+
+
 class Fallback(unittest.TestCase):
     """Pages the output filter refuses get a machine-OCR draft that a model corrects (tools/ocr_fallback.py)."""
 

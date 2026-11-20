@@ -143,11 +143,39 @@ def join_text(prev, text, leaf, number, keep, warn, what=""):
     return prev + " " + tok + text
 
 
+def scan_items(src):
+    """The IA items a book's leaves come from: [(first leaf number, identifier, hidden leaves)], last first.
+    One item: leaf pNNNN is IA's leaf NNNN. Several (a work in volumes, book.json source.items): the leaves of
+    the item whose "first_leaf" is p2000 are p2000, p2001 … for IA's leaves 0, 1 …"""
+    items = src.get("items") or ([{"ia_identifier": src["ia_identifier"], "first_leaf": "p0000",
+                                   "hidden_leaves": src.get("hidden_leaves", [])}] if src.get("ia_identifier") else [])
+    out = [(int(re.search(r"\d+", it.get("first_leaf", "p0000")).group(0)), it["ia_identifier"], [int(h) for h in it.get("hidden_leaves", [])])
+           for it in items]
+    return sorted(out, reverse=True)
+
+
+def apply_leaf_order(pages, orders):
+    """book.json "leaf_order": [["p1469", "p1470", "p1467", "p1468"], …]: leaves bound out of order in the scanned
+    copy are read in the order given, in the places the same leaves hold in the scan."""
+    pages = list(pages)
+    idx = {leaf: i for i, (leaf, _) in enumerate(pages)}
+    for order in orders or []:
+        missing = [x for x in order if x not in idx]
+        if missing:
+            raise ValueError(f"leaf_order: no page file for {missing}")
+        slots = sorted(idx[x] for x in order)
+        moved = [pages[idx[x]] for x in order]
+        for i, pg in zip(slots, moved):
+            pages[i] = pg
+        idx = {leaf: i for i, (leaf, _) in enumerate(pages)}
+    return pages
+
+
 def load(bookdir):
     cfg = json.load(open(os.path.join(bookdir, "book.json"), encoding="utf-8"))
     pdir = os.path.join(bookdir, "pages")
     pages = [(f[:-4], open(os.path.join(pdir, f), encoding="utf-8").read()) for f in page_files(pdir)]
-    return cfg, pages
+    return cfg, apply_leaf_order(pages, cfg.get("leaf_order"))
 
 
 def compile_pages(cfg, pages, images=None):
