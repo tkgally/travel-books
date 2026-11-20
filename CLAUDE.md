@@ -15,7 +15,8 @@ the site are **public**: everything committed here can be read by anyone.
 3. The skill for the job: `digitize-book` (transcribe and publish), `select-book` (choose and vet candidates).
 4. `wip/<slug>/log.md` or `books/<slug>/log.md` if the book has been worked on before.
 
-Routine (scheduled) sessions start from `RESUME.md`.
+Routine (scheduled) sessions start from `RESUME.md`. A session normally does several pieces of work, more than
+one book where possible, and stops by its context budget (`RESUME.md` §3, `tools/session_meter.py`).
 
 ## Hard rules
 
@@ -77,9 +78,10 @@ Routine (scheduled) sessions start from `RESUME.md`.
   is links to IA and the optional IA page viewer (an iframe that loads when the reader opens it).
 - **Unfinished work is committed and pushed** as it goes: model runs and page text under `wip/<slug>/`, state
   and exact next step in `wip/<slug>/log.md`, queue row `in progress`. A session can end without warning.
-- **End of every session:** update notes/skills with what was learned, run the tests, commit, push to the
-  session branch, open a PR, merge it (the site deploys from `main` by GitHub Actions), and check that the
-  deploy succeeded when the site changed.
+- **After every published book, and at the end of every session:** update notes/skills with what was learned,
+  run the tests, commit, push to the session branch, open a PR, merge it (the site deploys from `main` by GitHub
+  Actions), and check that the deploy succeeded when the site changed. Each finished piece of work is merged
+  before the next is begun; the session's times and context use go in `notes/sessions.md`.
 - **What Tom or a reader reports** goes in `notes/errata.md` and is followed through as that file says.
 - **Tom's instructions and preferences** go in `notes/preferences.md` the moment he states them, **committed
   and pushed before acting on them** (an answer of his was lost when the session died doing what he asked).
@@ -92,11 +94,11 @@ Routine (scheduled) sessions start from `RESUME.md`.
 | `wip/<slug>/` | a book in progress: the same, plus model runs (`draft/`, `verify/`, `judge/`, `audit/`); moved to `books/` by `tools/publish.py` |
 | `data/queue.json` | the ledger: queued, in progress, published, waiting, rejected; `jatsi_policy` (the pace). Report and check: `tools/ledger.py` |
 | `data/jatsi.json`, `data/places.json` | the JATSI list as taken from Tom's page; place names → part of the world, for the site's list by place |
-| `tools/` | Get: `ia.py`, `prep_pages.py`, `drive_cache.py`, `contact_sheets.py`. Transcribe: `ocr_claude.py`, `ocr_fallback.py`, `normalize.py`, `running_quotes.py`, `review.py`, `judge.py`, `crop_spot.py`, `crop_image.py`, `corrections.py`, `ocr_openrouter.py`, `score.py`. Build: `compile_book.py` (pages → book JSON), `render_html.py`, `render_epub.py`, `render_odt.py`, `build_site.py`. **Verify: `run_tests.sh`, `preflight.py`, `audit_sample.py`.** Publish: `publish.py`. Ledger: `ledger.py`. Setup: `setup_env.sh`, `make_prompts.sh` |
+| `tools/` | Get: `ia.py`, `prep_pages.py`, `drive_cache.py`, `contact_sheets.py`. Transcribe: `ocr_claude.py`, `ocr_fallback.py`, `normalize.py`, `running_quotes.py`, `review.py`, `judge.py`, `crop_spot.py`, `crop_image.py`, `corrections.py`, `ocr_openrouter.py`, `score.py`. Session: `session_meter.py` (context used, hours run). Build: `compile_book.py` (pages → book JSON), `render_html.py`, `render_epub.py`, `render_odt.py`, `build_site.py`. **Verify: `run_tests.sh`, `preflight.py`, `audit_sample.py`.** Publish: `publish.py`. Ledger: `ledger.py`. Setup: `setup_env.sh`, `make_prompts.sh` |
 | `prompts/` | `transcribe.md`, `verify.md`, generated from `_rules.md`, `_format.md`, `_verify-task.md` by `tools/make_prompts.sh` |
 | `site/` | `assets/` (the one stylesheet pair and the small script shared by all books), `about.md`, `json-format.md` |
 | `tests/` | regression tests for the tools and an invented sample book |
-| `notes/` | Claude's memory: workflow, selection, style, page markup, book.json keys, lessons, metrics, errata, preferences, improvement, jatsi, site |
+| `notes/` | Claude's memory: workflow, selection, style, page markup, book.json keys, lessons, metrics, sessions, errata, preferences, improvement, jatsi, site |
 | `.claude/skills/` | `digitize-book`, `select-book` |
 | `.github/workflows/pages.yml` | tests, then build `_site/` and deploy to GitHub Pages on every push to `main` |
 

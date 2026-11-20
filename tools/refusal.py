@@ -1,4 +1,4 @@
-"""Recognize the API's output-filter refusal, which is never retried (RESUME.md §3: "no retries, rephrasing
+"""Recognize the API's output-filter refusal, which is never retried (RESUME.md §4: "no retries, rephrasing
 or chunking"). Used by the retry loops in ocr_claude.py, judge.py and audit_sample.py."""
 
 MARK = "content filtering"
