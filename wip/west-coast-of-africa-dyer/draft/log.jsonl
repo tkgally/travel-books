@@ -69,3 +69,14 @@
 {"page": "p0074", "model": "opus", "corrections": null, "seconds": 6.3, "cost": 0.06328639999999999, "completion_tokens": 565, "turns": 2, "attempts": 1}
 {"page": "p0075", "model": "opus", "corrections": null, "seconds": 6.5, "cost": 0.0641428, "completion_tokens": 607, "turns": 2, "attempts": 1}
 {"page": "p0076", "model": "opus", "corrections": null, "seconds": 7.7, "cost": 0.065972, "completion_tokens": 696, "turns": 2, "attempts": 1}
+{"page": "p0077", "model": "opus", "corrections": null, "seconds": 6.1, "cost": 0.0638874, "completion_tokens": 593, "turns": 2, "attempts": 1}
+{"page": "p0078", "model": "opus", "corrections": null, "seconds": 9.4, "cost": 0.0697392, "completion_tokens": 886, "turns": 2, "attempts": 1}
+{"page": "p0079", "model": "opus", "corrections": null, "seconds": 7.5, "cost": 0.0657674, "completion_tokens": 687, "turns": 2, "attempts": 1}
+{"page": "p0080", "model": "opus", "corrections": null, "seconds": 5.8, "cost": 0.06347, "completion_tokens": 575, "turns": 2, "attempts": 1}
+{"page": "p0081", "model": "opus", "corrections": null, "seconds": 5.9, "cost": 0.063471, "completion_tokens": 573, "turns": 2, "attempts": 1}
+{"page": "p0082", "model": "opus", "corrections": null, "seconds": 6.2, "cost": 0.0642182, "completion_tokens": 612, "turns": 2, "attempts": 1}
+{"page": "p0083", "model": "opus", "corrections": null, "seconds": 6.3, "cost": 0.0642756, "completion_tokens": 612, "turns": 2, "attempts": 1}
+{"page": "p0084", "model": "opus", "corrections": null, "seconds": 5.0, "cost": 0.059470999999999996, "completion_tokens": 373, "turns": 2, "attempts": 1}
+{"page": "p0085", "model": "opus", "corrections": null, "seconds": 6.1, "cost": 0.0620874, "completion_tokens": 503, "turns": 2, "attempts": 1}
+{"page": "p0086", "model": "opus", "corrections": null, "seconds": 6.0, "cost": 0.06345819999999999, "completion_tokens": 574, "turns": 2, "attempts": 1}
+{"page": "p0087", "model": "opus", "corrections": null, "seconds": 6.6, "cost": 0.0647474, "completion_tokens": 636, "turns": 2, "attempts": 1}
