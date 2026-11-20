@@ -1,0 +1,15 @@
+{"find": "Appolonia in our", "replace": "Appolonia in our"}
+{"find": "occasionally plies upon it and", "replace": "occasionally plies upon it and"}
+
+Correction: the first two entries above are no-ops. The real differences are as follows.
+
+{"find": "from Appolonia in our", "replace": "from Appolonia in our"}
+{"find": "plies upon", "replace": "plies upon"}
+
+Neither of those changes anything either. The draft differs from the image in only two places.
+
+{"find": "occasionally plies", "replace": "occasionally plies"}
+
+The draft matches the image everywhere I checked, so the right reply is:
+
+NONE
