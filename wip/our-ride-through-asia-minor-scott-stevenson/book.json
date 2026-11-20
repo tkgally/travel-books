@@ -1,0 +1,23 @@
+{
+ "id": "our-ride-through-asia-minor-scott-stevenson",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "Our Ride through Asia Minor",
+ "short_title": "Our Ride through Asia Minor",
+ "authors": [
+  {
+   "name": "Mrs. Scott-Stevenson",
+   "sort": "Scott-Stevenson, Esmé"
+  }
+ ],
+ "place": "London",
+ "publisher": "Chapman and Hall",
+ "year": 1881,
+ "edition_statement": "First edition",
+ "source": {
+  "ia_identifier": "39020025955066-ourridethrougha",
+  "contributor": "George Washington University Libraries",
+  "hidden_leaves": []
+ },
+ "history": [{"version": 1, "date": "2026-11-20", "note": "First publication."}]
+}
