@@ -778,10 +778,11 @@
    "place": "London",
    "publisher": "Sampson Low, Son, and Marston",
    "images": 268,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-20",
-   "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv; not on The Online Books Page; no Wikisource results; web search of a distinctive sentence found nothing; raw HathiTrust OCR on distantreader.org (not a text edition). Author 1809–1875 (Christchurch City Libraries heritage profile). TO CLOSE BEFORE STARTING: Early New Zealand Books (enzb.auckland.ac.nz answered 403), NZETC, the Capper Press facsimile series of the 1970s–80s (an established-press facsimile would count), WorldCat. IA's date 1850 is wrong (Spectator review, 2 Nov 1867).",
-   "note": "University of California scan, 400 ppi; no illustrations; journal with dated entries; 16 pp. of advertisements. A widow's journal: Canterbury, the other provinces, Sydney and Melbourne, the voyage home by the Red Sea and Marseilles."
+   "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv; not on The Online Books Page; no Wikisource results; web search of a distinctive sentence found nothing; raw HathiTrust OCR on distantreader.org (not a text edition). Author 1809–1875 (Christchurch City Libraries heritage profile). TO CLOSE BEFORE STARTING: Early New Zealand Books (enzb.auckland.ac.nz answered 403), NZETC, the Capper Press facsimile series of the 1970s–80s (an established-press facsimile would count), WorldCat. IA's date 1850 is wrong (Spectator review, 2 Nov 1867). Re-checked 2026-11-20 (session): web searches for a reprint, facsimile (Capper Press and others) or ISBN edition found none (only the 1867 edition in booksellers' and museum listings, HathiTrust OCR on distantreader.org); NZETC is closed (archived by the National Library); Early New Zealand Books answered 403 again (The Online Books Page, which indexes ENZB, lists nothing).",
+   "note": "University of California scan, 400 ppi; no illustrations; journal with dated entries; 16 pp. of advertisements. A widow's journal: Canterbury, the other provinces, Sydney and Melbourne, the voyage home by the Red Sea and Marseilles.",
+   "started": "2026-11-20"
   },
   {
    "order": 44,
