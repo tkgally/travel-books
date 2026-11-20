@@ -606,6 +606,141 @@
    "checked": "2026-11-20",
    "eligibility": "JATSI 94. Rules 1–4 met. Rule 1: University of Toronto scan, colour 500 ppi, clean. Rules 2, 3: no text elsewhere (Wikisource's page of this title is R. S. Gardiner's book of 1892); no real reprint. Rule 4: first-person account of the Bishop of Exeter's family's eight weeks in Japan in 1891, centred on the Anglican missions; about 50 pages (ch. X) are newspaper reports of the earthquake of 28 October. People: Mary Jane Bickersteth, dates not found (born between 1849 and 1873); Edward Henry Bickersteth (preface) 1825–1906. Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20).",
    "note": "About 345 pp. with two appendices and an index; about 38 illustrations (photographs and engravings), several on text pages. Take the form of the author's name from the title page."
+  },
+  {
+   "order": 35,
+   "ia": "landofnorthwind00raee",
+   "slug": "land-of-the-north-wind-rae",
+   "title": "The Land of the North Wind; or Travels among the Laplanders and the Samoyedes",
+   "author": "Edward Rae",
+   "year": 1875,
+   "place": "London",
+   "publisher": "John Murray",
+   "images": 390,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv; The Online Books Page lists HathiTrust page images only; Wikisource only EB1911 citations; web search of a distinctive sentence found nothing. Reprints seen: Creative Media Partners 2018, British Library Historical Print Editions, BiblioLife, Legare Street 2022 (all print on demand). Doria (Helsinki) and HathiTrust: page scans only. Author born 1847 (IA and Online Books Page authority records), death date not found: born before 1856, so rule 5 is met (Tom's rule, selection.md). Plates not credited to an artist. Not checked: WorldCat.",
+   "note": "Princeton Theological Seminary colour scan, 360 ppi; sample pages clean. Folding map of Russian Lapland captured unfolded near the end; three plates and a title vignette; a printed errata list (six items) after the list of illustrations. Two summer journeys (Finnish and Russian Lapland; Archangel, the Pinega and Mezen) with a companion, 'the Doctor'; dry, self-mocking journal."
+  },
+  {
+   "order": 36,
+   "ia": "byfellfjordorsce00oswarich",
+   "slug": "by-fell-and-fjord-oswald",
+   "title": "By Fell and Fjord; or, Scenes and Studies in Iceland",
+   "author": "E. J. Oswald [Elizabeth Jane Oswald]",
+   "year": 1882,
+   "place": "Edinburgh and London",
+   "publisher": "William Blackwood and Sons",
+   "images": 308,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv; not on The Online Books Page; Wikisource only a bibliography citation; web search of a distinctive sentence found nothing. Reprints seen: Read Books 2010 (print-on-demand facsimile). Author 1830–1905 (scholarly article on women travellers to Iceland, scancan.net). Illustrations from the author's own sketches. Not checked: WorldCat.",
+   "note": "University of California scan, 500 ppi; clean. Woodcuts after the author's sketches, one map, advertisements at the end. Chapters V–VI are an essay on the sagas; the rest is riding through Iceland over three summers (from 1875), matching places to the sagas. She prints þ and ð as th and d."
+  },
+  {
+   "order": 37,
+   "ia": "pathofconquistad00bate_0",
+   "slug": "path-of-the-conquistadores-bates",
+   "title": "The Path of the Conquistadores: Trinidad and Venezuelan Guiana",
+   "author": "Lindon Bates, Jr.",
+   "year": 1912,
+   "place": "Boston and New York",
+   "publisher": "Houghton Mifflin Company",
+   "images": 388,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv (his Russian Road to China is, #77082); The Online Books Page has nothing for this title; no Wikisource page; web search of a distinctive sentence found nothing. Reprints: only Kessinger (ISBN 9781104501358, print on demand); Open Library has only the 1912 Houghton and Methuen editions. Author 1883–1915 (LoC heading; died on the Lusitania). Frontispiece of Bolívar after a painting by Francis M. Drexel (1792–1863); one plate from an old engraving; the other photographs uncredited (presumably the author's). Not checked: Faded Page, WorldCat.",
+   "note": "Boston Public Library scan, 300 ppi. Map at end (folding? check). Chapter I (about 48 pp.) is a history of Columbus, Raleigh and the conquistadores; II–VII the author's own journey: Trinidad, the Pitch Lake, up the Orinoco by launch, Ciudad Bolívar at the independence centenary, the llanos. Much Spanish dialogue, mostly translated."
+  },
+  {
+   "order": 38,
+   "ia": "wswvoyageinthatd00elwe",
+   "slug": "wsw-voyage-to-the-west-indies-elwes",
+   "title": "W.S.W. A Voyage in That Direction to the West Indies",
+   "author": "Robert Elwes",
+   "year": 1866,
+   "place": "London",
+   "publisher": "Kerby & Son",
+   "images": 184,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv; no Online Books Page or Wikisource entry; web search of a distinctive sentence found nothing. Reprints: 1971 Lost Cause Press microfiche (not a print edition), Creative Media Partners 2023 (print on demand). Author 1819–1878 (Wikipedia, DAAO); the 14 lithographs are from his own drawings. Not checked: Faded Page, WorldCat.",
+   "note": "Library of Congress scan, 500 ppi; iv + 135 pp. and 14 plates (check all are in the scan). January 1865: Southampton to St Thomas, across Panama by rail, Jamaica (with Governor Eyre, months before Morant Bay), St Kitts, Grenada, Trinidad; a painter sketching. One footnote after Morant Bay praises Eyre's suppression (offensive now; one note)."
+  },
+  {
+   "order": 39,
+   "ia": "womanstriptoalas00coll_0",
+   "slug": "womans-trip-to-alaska-collis",
+   "title": "A Woman's Trip to Alaska: Being an Account of a Voyage through the Inland Seas of the Sitkan Archipelago in 1890",
+   "author": "Septima M. Collis",
+   "year": 1890,
+   "place": "New York",
+   "publisher": "Cassell Publishing Company",
+   "images": 226,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv (her A Woman's War Record is, #74491); The Online Books Page links only page images (IA cihm_03388, HathiTrust, Canadiana); no Wikisource page; web search of a distinctive sentence found nothing. Reprints: CIHM microfiche 1980, Kessinger 2007, Hansebooks/Scholar's Choice, a Blackwell's facsimile (all print on demand or microfiche). Author 1842–1917 (LoC heading). Prefatory letter by W. T. Sherman (1820–1891); engravings by the American Bank Note Co. (a firm); a few snapshots by Miss M. N. Beach and Miss Margaret Watson (minor, dates not found: Tom's rule of 2026-11-20); the rest by the author. Not checked: Faded Page, WorldCat.",
+   "note": "Getty scan, 500 ppi. Many small engravings and snapshots set into the text with lines running round them (broken short lines in the draft; many crops). HathiTrust records a folding plate and a map: check. Rail to Tacoma, then an excursion steamer to Wrangell, Sitka, Glacier Bay and the Muir Glacier; opens with advice on what to take; chatty."
+  },
+  {
+   "order": 40,
+   "ia": "autumntourinwest00dura",
+   "slug": "autumn-tour-in-western-persia-durand",
+   "title": "An Autumn Tour in Western Persia",
+   "author": "E. R. Durand [Ella Rebe Durand, née Sandys]",
+   "year": 1902,
+   "place": "Westminster",
+   "publisher": "Archibald Constable & Co.",
+   "images": 340,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "Checked 2026-11-20 (Opus subagent; Gutenberg re-checked by the session): not in pg_catalog.csv; The Online Books Page: a HathiTrust page-image record only; Wikisource only a bibliography line; not in A Celebration of Women Writers; Qatar Digital Library has the BL copy as page images (page answered 403); web searches of two distinctive sentences found nothing. Reprints: print on demand only (a buecher.de facsimile; ISBN 9781022495036, 2023). Author 1852–1913 (thepeerage.com; wife of Sir Mortimer Durand). Photographs by Sir Ernest Rennie (1868–1935) and Antoin Sevruguin (c.1851–1933). Not checked: WorldCat, Faded Page.",
+   "note": "UCLA scan, 400 ppi; about 30 plates, a folding route map at the end, an erratum slip (Stewart → Stuart, pp. 80, 83). A ride from Tehran through Kum, the Bakhtiari country, Shushtar, Dizful and Luristan, September–December 1899."
+  },
+  {
+   "order": 41,
+   "ia": "journeythroughca00moun",
+   "slug": "journey-through-the-caucasus-mounsey",
+   "title": "A Journey through the Caucasus and the Interior of Persia",
+   "author": "Augustus H. Mounsey",
+   "year": 1872,
+   "place": "London",
+   "publisher": "Smith, Elder & Co.",
+   "images": 364,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "Checked 2026-11-20 (Opus subagent; Gutenberg re-checked by the session): not in pg_catalog.csv; The Online Books Page: HathiTrust page images only; no Wikisource hits; web search of a distinctive sentence found nothing. Reprints: Kessinger 2008 and a buecher.de facsimile (print on demand). Author 1834–1882 (Online Books Page; DAI catalogue). Not checked: WorldCat.",
+   "note": "University of Toronto scan, 500 ppi; one folding map, no other illustrations; running heads give the topic of the page. A British diplomat through Georgia and the Caucasus in winter to Tehran, an audience with the Shah, a ride into the southern provinces (1860s)."
+  },
+  {
+   "order": 42,
+   "ia": "westcoastofafric00dyer",
+   "slug": "west-coast-of-africa-dyer",
+   "title": "The West Coast of Africa as Seen from the Deck of a Man-of-War",
+   "author": "Hugh McN. Dyer",
+   "year": 1876,
+   "place": "London and Portsmouth",
+   "publisher": "J. Griffin & Co.",
+   "images": 200,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "Checked 2026-11-20 (Opus subagent; Gutenberg and Wikisource by the session): not in pg_catalog.csv; not on The Online Books Page; Wikisource search finds nothing; raw HathiTrust OCR on distantreader.org (not a text edition); web search of a distinctive sentence found nothing; no reprint found. Author 1832–1875 (pdavis.nl, William Loney RN); published after his death with an unsigned introduction by friends (editor not named). Not checked: WorldCat.",
+   "note": "Brandeis scan, 400 ppi; 171 printed pages; one uncredited engraved frontispiece printed sideways; advertisements at the end. Journal of the command of HMS Torch, 1871–73: the Congo, Angola, Liberia and the Kroomen labour traffic, the Gold Coast. Period contempt for Africans in places (a contents line), not the main matter."
+  },
+  {
+   "order": 43,
+   "ia": "twelveyearsincan00thomiala",
+   "slug": "twelve-years-in-canterbury-thomson",
+   "title": "Twelve Years in Canterbury, New Zealand: with Visits to the Other Provinces, and Reminiscences of the Route Home through Australia, etc.",
+   "author": "Mrs. Charles Thomson [Maria Thomson]",
+   "year": 1867,
+   "place": "London",
+   "publisher": "Sampson Low, Son, and Marston",
+   "images": 268,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv; not on The Online Books Page; no Wikisource results; web search of a distinctive sentence found nothing; raw HathiTrust OCR on distantreader.org (not a text edition). Author 1809–1875 (Christchurch City Libraries heritage profile). TO CLOSE BEFORE STARTING: Early New Zealand Books (enzb.auckland.ac.nz answered 403), NZETC, the Capper Press facsimile series of the 1970s–80s (an established-press facsimile would count), WorldCat. IA's date 1850 is wrong (Spectator review, 2 Nov 1867).",
+   "note": "University of California scan, 400 ppi; no illustrations; journal with dated entries; 16 pp. of advertisements. A widow's journal: Canterbury, the other provinces, Sydney and Melbourne, the voyage home by the Red Sea and Marseilles."
   }
  ],
  "rejected": [
@@ -783,6 +918,71 @@
    "title": "Isabel Savory, A Sportswoman in India (sportswomaninind00savorich)",
    "why": "author died 1966: in copyright until 2037 where the term is life plus 70 years (Tom, 2026-11-19); eligible from 2037",
    "checked": "2026-11-19"
+  },
+  {
+   "title": "Annette Meakin, A Ribbon of Iron",
+   "why": "author died 1959; eligible from 2030 (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Harry de Windt, Through the Gold-Fields of Alaska to Bering Straits",
+   "why": "reprinted by Adamant Media (Elibron) 2001 (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "A. E. Boddy, To Kairwân the Holy",
+   "why": "Darf facsimile, London 1985 (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Charles Wenyon, Four Thousand Miles across Siberia",
+   "why": "author's dates not found (IA gives his son's); readable — worth finding his dates (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Litton Forbes, Two Years in Fiji",
+   "why": "author's dates not found; rather expository (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Florence Donaldson, Lepcha Land",
+   "why": "author's dates not found; 106 illustrations set in the text (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Agnes Macnab [Fraser], A Ride in Morocco",
+   "why": "born 1859, death date not found: rule 5 cannot be met (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Lulu Alice Craig, Glimpses of Sunshine and Shade in the Far North",
+   "why": "author's dates not found (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Rachel Wilson Moore, Journal … West Indies and South America",
+   "why": "a 2016 edition of 145 pp. may be reset type; co-editor's dates not checked (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Lady Herbert, A Search after Sunshine (searchaftersunsh00herbuoft)",
+   "why": "eligible, passed over: long quotations from a newspaper correspondent; a fallback (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Hugh Codman? / Charles Codman, Ten Months in Brazil; Amphlett, Under a Tropical Sky",
+   "why": "not fully vetted; flatter than those queued; reserves (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Frank Vincent, Norsk, Lapp, and Finn; Sherman Denton, Incidents of a Collector's Rambles",
+   "why": "not fully vetted; possible later (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Mrs H. Lloyd Evans, Last Winter in Algeria; Ellen E. Miller, Alone through Syria",
+   "why": "authors' dates not found; Evans possibly bounded by a career (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
   }
  ]
 }
