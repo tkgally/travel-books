@@ -600,7 +600,11 @@ class SiteLists(unittest.TestCase):
         self.assertIn("Journey 1", h)
         self.assertIn("Journey 2", h)
         self.assertNotIn("authors.html", h)
-        self.assertEqual(h.count('(<a href="japan-as-they-saw-it.html">about these books</a>)'), 3)   # the introduction, one book, one queue row
+        self.assertEqual(h.count('(<a href="japan-as-they-saw-it.html">about these books</a>)'), 1)   # the introduction
+        # the mark of a JATSI book in the lists is short: "JATSI (about)" (Tom, 2026-11-20): one book, one queue row
+        self.assertEqual(h.count('<a href="https://www.gally.net/jatsi/index.html" target="_blank" rel="noopener">JATSI</a> '
+                                 '(<a href="japan-as-they-saw-it.html" aria-label="about the JATSI books">about</a>)'), 2)
+        self.assertNotIn("· from <a", h)
         # the project's name links to the project, in a new tab, wherever it stands (Tom, 2026-11-20)
         self.assertEqual(h.count("Japan As They Saw It"), h.count('<a href="https://www.gally.net/jatsi/index.html" target="_blank" rel="noopener">Japan As They Saw It</a>'))
         self.assertIn("Queued Two", h)

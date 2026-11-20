@@ -18,7 +18,7 @@ for a plan for the home page as the number of books grows. This is it. Change it
 | `books/<id>/…` | a book's page, its chapters, EPUB, ODT, JSON | the book |
 
 Every line for a book, in every list, is the same (`book_line`): short title, author, year; under it the places,
-the time of the journey, and "from Japan As They Saw It" for a book of that list.
+the time of the journey, and "JATSI (about)" for a book of that list.
 
 ## Stages
 
@@ -46,7 +46,8 @@ the home page heavy and the lists harder to scan).
 ## The JATSI books on the site (Tom, 2026-11-20)
 
 The reader is told in three places, in plain words: the second paragraph of the home page; the label
-"from Japan As They Saw It (about these books)" on each such book and queue row; and the row "Why it is here" in
+"JATSI (about)" on each such book and queue row (Tom shortened it on 2026-11-20 from "from Japan As They Saw It
+(about these books)"; `jatsi_label()`); and the row "Why it is here" in
 the table on the book's own page. Wherever the name stands in running text or a label it links to Tom's project
 (<https://www.gally.net/jatsi/index.html>; `jatsi_name()` in the builder, a Markdown link in `site/*.md`), and
 "about these books" links to the page on this site.
