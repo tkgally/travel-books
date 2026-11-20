@@ -205,6 +205,14 @@ How this was carried out: `RESUME.md` §"How long a session runs", `tools/sessio
   EEBO and ECCO whose texts are not formatted for immersive reading.** "Please revise the guidelines accordingly."
   How: `selection.md` rule 2.
 
+## 2026-11-20 (display settings for the book text pages — under discussion, nothing decided to build yet)
+
+- Tom asked what controls could be added to the HTML pages of the book texts so that readers can set how the text
+  is shown (font, size, weight, light/dark, colours, line height, justification, margins, pagination, animated
+  scrolling or page turning), saved in the browser for all book pages (not necessarily the index pages).
+- **Conditions for any such feature:** no external dependencies; falls back gracefully when JavaScript is blocked;
+  an unobtrusive interface; no problems for readers using screen readers or other assistive devices or plugins.
+
 ## Questions for Tom
 
 None open.
