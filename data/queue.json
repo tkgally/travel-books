@@ -511,10 +511,11 @@
    "place": "London",
    "publisher": "printed by Simmons & Botten, for private circulation",
    "images": 302,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-20",
    "eligibility": "JATSI 79. Rules 1–4 met (and rule 5: Sir Jehangir Hormusji Kothari 1857–1934). Rule 1: Boston Public Library scan, colour 400 ppi, clean. Rules 2, 3: no text elsewhere; print-on-demand only; not in Nayar's Indian Travel Writing 1830–1947. Rule 4: a Parsi merchant's first-person diary of a tour, May 1883 to February 1884: Europe and Britain (pp. 1–226), the United States and Canada, Japan (pp. 263–275), China, the Straits, North India. Normal priority though Japan is 12 pages (Tom, 2026-11-20: round-the-world books by the general criteria). Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20).",
-   "note": "About 290 pp., no illustrations seen, no footnotes; dated entries with italic run-in dates. Much of it lists sights."
+   "note": "About 290 pp., no illustrations seen, no footnotes; dated entries with italic run-in dates. Much of it lists sights.",
+   "started": "2026-11-20"
   },
   {
    "order": 29,
