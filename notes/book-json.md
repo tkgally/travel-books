@@ -35,6 +35,7 @@
                                         entries inside a division: the block starting on page `at` whose plain text
                                         starts with `starts`; "editor": false for a title taken from the printed contents
  "frontispiece": "p0010-1",               image moved from the front matter to the start of the first reading division
+                                        after it; a list for a work in several volumes, one per volume
  "keep_hyphens": ["p0034"],             pages whose join with the previous page keeps the hyphen
  "waivers": [{"check": "…", "match": "…", "why": "…"}],
  "css_extra": ""                        rarely
