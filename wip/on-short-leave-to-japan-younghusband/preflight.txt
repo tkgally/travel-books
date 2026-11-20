@@ -1,0 +1,56 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[ FAIL (1)] audit: book.json records the sampled audit of this version
+            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[ look (4)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0053: … he drinks fre-|quently, but in… (hyphen removed; check)
+            - hyphen join at p0243: … had the grati-|fication of mee… (hyphen removed; check)
+            - hyphen join at p0258: …actically iden-|tical, three or… (hyphen removed; check)
+            - (and 6 joins giving a word the book prints whole elsewhere: not listed)
+[look (12)] joins: page joins: missing [[cont]], or [[cont]] after a closed sentence
+            - p0027: [[cont]] after a closed sentence …'as systematically seized.' | 'One party of Chinamen ove'
+            - p0031: [[cont]] after a closed sentence …'r given by the bucketful.' | 'They also squirted goat’s'
+            - p0033: [[cont]] after a closed sentence …'Acheen, laying in stores.' | 'Acheen lies at the north '
+            - p0035: [[cont]] after a closed sentence …'tarted off for the falls.' | 'But we knew the ways of t'
+            - p0091: [[cont]] after a closed sentence …'iasm of Sir Edwin Arnold.' | 'Perhaps the views of old '
+            - p0093: [[cont]] after a closed sentence …'m—probably aides-de-camp.' | 'Next came part of the esc'
+            - p0109: [[cont]] after a closed sentence …'od upright of themselves.' | 'Large swords—two apiece—a'
+            - p0111: [[cont]] after a closed sentence …'nt—and then dies finally.' | 'After which, being out of'
+            - p0161: no [[cont]] but the page before ends …'y Jingo, if we do,’ etc.—' and this one starts 'therefore invokes a real '
+            - p0191: [[cont]] after a closed sentence …'full-grown European male.' | 'Draught horses, draught d'
+            - p0236: [[cont]] after a closed sentence …'ourns of a week or under.' | 'At hotels where one atten'
+            - p0261: [[cont]] after a closed sentence …'rands of stout whip-cord.' | 'One blanket is carried un'
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[look (15)] contents: entries of the printed contents with no matching heading
+            - p0013: 'The length of India by train in the hot season—Calcutta—A cyclone in D'
+            - p0013: 'Penang—The Dutch war in Acheen—A fifty-year campaign—Enforced visit to'
+            - p0013: 'Singapore—Raffles—And Raffles Hotel—Temperature—Hosts of Celestials—Th'
+            - p0014: 'Hong Kong—Excellent hotel—The racecourse—The Chinese pony—Polo—Sikh po'
+            - p0014: 'The Inland Sea—Narrow passages—A sea train—Cold and rain in June—Kobé—'
+            - p0014: 'Sir Edwin Arnold and Mr. Clement Scott—Severe criticism of the Japanes'
+            - p0015: 'The Theatre—The Irving of Japan—A lengthy performance—The seating—Stag'
+            - p0015: 'Tokyo by night—Holiday resorts—Our old friends ‘the forty-seven’—Their'
+            - p0015: 'Nikko—The journey there—Japanese railways—A Japanese hotel—Hospitable '
+            - p0016: 'Telegrams—Postage—By train—First class or second class?—Japanese fello'
+            - p0016: 'The aboriginal inn—The Tokaido—Magnificent views—Sandals for man and b'
+            - p0016: 'The ancient capital—Mr Clement Scott again—Some reflections by an onlo'
+            - p0016: 'Osaka—Dante’s Inferno—The river by night—Nara—The Daibutsu—A mermaid—T'
+            - p0017: 'Financial—Expenses of journey to Japan—Curio buying—Hotels in India, C'
+            - p0017: 'The army of Japan—The death of feudalism—Rise of the standing army—Jap'
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight FAIL: on-short-leave-to-japan-younghusband v1 — 1 to fix, 0 waived; to look at: hyphen-joins 4, joins 12, contents 15 — tools@0df0830 2026-11-20
