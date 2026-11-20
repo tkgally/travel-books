@@ -1,0 +1,4 @@
+judge opus: 3 spots on 3 pages: {'draft': 2, 'verified': 1}; cost $0.12
+p0007 #1 [draft, sure: high] draft 'dismised' | verified 'dismissed' | judge reads 'dismised'
+p0060 #1 [verified, sure: medium] draft 'hȧd' | verified 'had' | judge reads 'had'
+p0064 #1 [draft, sure: medium] draft 'he “Mississipi’s” late o' | verified 'he “Mississippi’s” late o' | judge reads 'he “Mississipi’s” late o'
