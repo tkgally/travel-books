@@ -14,5 +14,5 @@ Nor e’en thy grey cathedrals, nor thy wells
 Of ancient learning, though for these our hearts
 May fondly yearn. True love of country tells
 A better tale—thy Church, thy laws, thy arts—
-Tis England where an English spirit dwells.
+[[corr Tis|’Tis]] England where an English spirit dwells.
 </verse>
