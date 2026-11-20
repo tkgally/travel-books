@@ -6,8 +6,9 @@ Early New Zealand Books answers 403 (The Online Books Page, which indexes it, li
 (Maggs) describes a lithographed frontispiece: the scan is checked for it.
 
 ## Status
-Stage reached: (a) scan checked, cached in Drive (folder `16ZnBYCSO1GPJJWvOcsLm50HHaeNj1p-q`, 29 parts), cover cropped; Opus draft running.
-Next step: when the draft is done: normalize, corrections pass (workflow §3).
+Stage reached: (b) draft, corrections, judge done; `pages/` is the text; structure pass done; book.json filled; spot-read by two Opus subagents running.
+Drive folder `16ZnBYCSO1GPJJWvOcsLm50HHaeNj1p-q`, 29 parts.
+Next step: apply spot-read findings; preflight; rendered look; audit; publish.
 
 ## Page map
 p0001 front cover (plain black cloth, rebound) · p0002–p0003 library endpapers · p0004 blank flyleaf · p0005 half-title (i) ·
@@ -23,10 +24,20 @@ no text cut; show-through light; library marks on p0009. Footnotes (* †) frequ
 dated journal entries; running heads; no tables, no other script, few accents. Draft: p0005–p0260.
 
 ## Decisions
+- Contents: `"toc": {"subtitles": "all"}` (every chapter has a short printed title; the long topic lists of the printed contents are left out); Chapter III's title (120 characters) given a short `title` and the full `toc_title`. The Appendix gets the four entries of the printed contents (`editor: false`).
+- The verse epigraph on the back of the half-title (p0006) is a reading division "Epigraph" (assumed: it belongs to the book, not to its front matter).
+- The half-title above Chapter I (p0019) is a `front` division (n 1); Chapter I is n 2.
+- Printed contents made plain lines (`[[center]]` numbers and titles; PAGE head and dot leaders dropped).
+- Printer's error: "thc" for "the" (p0056). "whereever" (p0036, p0116, both at a line-end hyphen "where-|ever") kept as printed.
+- Advertisements p0252: a blot covers the last letter of "Justus" (Doolittle): `[[supplied s]]`.
+- Appendix poem titles "The Tenth/Sixteenth Sunday after Trinity": "after" in lower case throughout (the drafts had both).
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-20 | opus | p0005–p0260 (256) | 17.83 | no refusals |
+| corrections | 2026-11-20 | sonnet | 256 | 8.47 | 16 changes; 10 spots |
+| judge | 2026-11-20 | opus | 10 spots | 0.31 | 8 draft, 2 verified; all 6 word spots checked on crops (1 printer's error "thc") |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
