@@ -182,4 +182,6 @@ How this was carried out: `notes/jatsi.md`.
 
 ## Questions for Tom
 
-None open.
+- **Decorative head-pieces and tail-pieces** (ornamental cuts at chapter openings and ends, not in the book's list
+  of illustrations): left out of *Rambles through Japan* and said so in its notes on the text (assumed, 2026-11-20).
+  Many JATSI books will have them. Keep leaving them out, or include them as small images?

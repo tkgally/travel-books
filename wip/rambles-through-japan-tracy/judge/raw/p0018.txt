@@ -1,4 +1,0 @@
-The difference at both spots is only the Markdown heading level (`#` vs `##`), which the scan can't settle. Both "CHAPTER XIX." and "CHAPTER XX." are printed in the same size and style inside the Contents. I chose `##` for both so they match each other as entries under a Contents heading, so confidence is low.
-
-{"n": 1, "is": "A", "print": "## Chapter XI", "sure": "low"}
-{"n": 2, "is": "B", "print": "## Chapter XX", "sure": "low"}

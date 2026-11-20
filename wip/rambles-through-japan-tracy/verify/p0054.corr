@@ -1,3 +1,0 @@
-The italic *sakè* has its comma inside the italics, and the accent is "sake," with an acute (é) in print.
-
-{"find": "<i>sakè</i>, at", "replace": "<i>saké,</i> at"}

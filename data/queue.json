@@ -247,11 +247,13 @@
    "place": "London",
    "publisher": "Sampson Low, Marston & Company",
    "images": 316,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-20",
    "eligibility": "JATSI 86. All five rules met. Rule 1: University of California scan, colour 500 ppi, clean (the author's presentation copy, signed 'Albert T. Leffingwell, M.D.' with '(pseud.)' pencilled by 'Albert Tracy'). Rules 2, 3: no text elsewhere; only print-on-demand reprints (Read Books, Forgotten Books). Rule 4: first-person diary of three months alone in Japan without guide or interpreter; all Japan. Rule 5: Albert Tracy Leffingwell 1845–1916 (LC). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record. Re-checked 2026-11-20 before starting: Gutenberg catalogue (no Leffingwell travel title), a web search (print-on-demand only: Forgotten Books, Read Books, Kessinger).",
    "note": "First edition. About 287 pp., 20 chapters with summary paragraphs, a closing Note; 14 wood-engraved plates and a frontispiece, no artist credited. A small blot on p. 41 (word still readable). A good first JATSI book: plain layout, wholly on Japan.",
-   "started": "2026-11-20"
+   "started": "2026-11-20",
+   "version": 1,
+   "published": "2026-11-20"
   },
   {
    "order": 15,
