@@ -231,6 +231,10 @@ How this was carried out: `RESUME.md` §"How long a session runs", `tools/sessio
 
 - **"Everything works."** One more change (same day): **on `about.html`, use series commas and curly apostrophes.**
 
+- **The label of a JATSI book in the lists** (same day): in the book descriptions on all pages, "from Japan As They
+  Saw It" becomes "**JATSI**" (still linked to his project) and "(about these books)" becomes "(**about**)" (still
+  linked to this site's page).
+
 ## Questions for Tom
 
 None open.
