@@ -63,6 +63,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Trigger: plates (tipped-in leaves) and a frontispiece
 
+- The verifier can leave a text cut out and the judge then agrees (*Zephyrus* p0171: the ostriches, "sure: medium"): compare the `[[image` counts of draft and judge after the judge (`grep -c`), as for `#` lines; a tool change (judge.py never drops an `[[image:]]` line of the draft) is for the next review, with a test.
 - Captions printed in small capitals: drafts type some as `<sc>…</sc>` in lower case and the rest in upper and lower
   case; grep `[[caption]] <sc>` and make all upper and lower case (12 of 148 in *Via Rhodesia*).
 
