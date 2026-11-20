@@ -1,0 +1,2 @@
+{"n": 1, "is": "A", "print": "We prefer to\n\n[[image: a Japanese peasant]]\n[[caption]] A Japanese Peasant.\n\n[[cont]]yield", "sure": "high"}
+{"n": 2, "is": "A", "print": "ance of that", "sure": "high"}

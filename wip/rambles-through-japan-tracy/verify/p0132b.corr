@@ -1,0 +1,2 @@
+{"find": "We prefer to yield", "replace": "We prefer to\n\n[[image: a Japanese peasant]]\n[[caption]] A Japanese Peasant.\n\n[[cont]]yield"}
+{"find": "instance of that\n\n[[image: illustration of a Japanese peasant (blank in this scan)]]\n[[caption]] A Japanese Peasant.", "replace": "instance of that"}

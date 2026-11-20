@@ -373,6 +373,24 @@ class Corrections(unittest.TestCase):
         self.assertEqual(text, "Here we shew it; so; then on.")
         self.assertEqual([r[0] for r in rows], ["draft", "verified"])
 
+    def test_judge_move_judged_both_ways_keeps_text(self):
+        """The verifier moved a paragraph from before a picture to after its caption: two spots. The judge took
+        the verifier's side at one and the draft's at the other, and the paragraph was lost (Rambles p0092,
+        2026-11-20). Invented text."""
+        moved = "went on to the next town, twenty miles away, and was paid for his trouble"
+        draft = f"He drew me until he had {moved}\n\n[[image: a cart]]\n[[caption]] <sc>a cart.</sc>"
+        verified = f"He drew me until he had\n\n[[image: a cart]]\n[[caption]] A Cart.\n\n[[cont]]{moved}"
+        spots = [{"n": 1, "find": f"had {moved}", "replace": "had", "draft": moved, "verified": ""},
+                 {"n": 2, "find": "[[caption]] <sc>a cart.</sc>", "replace": f"[[caption]] A Cart.\n\n[[cont]]{moved}",
+                  "draft": "<sc>a cart.</sc>", "verified": f"A Cart. {moved}"}]
+        self.assertEqual(judge.moves(spots), [(1, 2)])
+        lab = lambda n, who: ("A" if judge.labels("p0001", n) else "B") if who == "draft" else ("B" if judge.labels("p0001", n) else "A")
+        text, rows = judge.apply(verified, spots, {1: {"is": lab(1, "verified")}, 2: {"is": lab(2, "draft")}}, "p0001")
+        self.assertEqual(text.count(moved), 1)
+        self.assertTrue(all(r[0].startswith("move judged both ways") for r in rows))
+        text, rows = judge.apply(verified, spots, {1: {"is": lab(1, "draft")}, 2: {"is": lab(2, "draft")}}, "p0001")
+        self.assertEqual(text, draft)                          # judged the same way at both ends: applied as before
+
 
 class ImageInParagraph(unittest.TestCase):
     """A picture in the middle of a page that interrupts a paragraph: `[[cont]]` after it joins the paragraph again

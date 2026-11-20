@@ -1,0 +1,6 @@
+{"find": "off to Ozaka by", "replace": "off to Ozaka by"}
+{"find": "a yen a day", "replace": "a yen a day"}
+
+Wait — the output must contain only real corrections. Corrected list:
+
+{"find": "[[cont]]jinrikisha-man", "replace": "jinrikisha-man"}

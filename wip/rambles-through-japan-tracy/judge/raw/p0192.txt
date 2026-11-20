@@ -1,0 +1,2 @@
+{"n": 1, "is": "A", "print": "in both\n\n[[image: engraving of a temple hall with curved tiled roofs and a central gabled porch, approached by a paved path, with trees behind]]\n[[caption]] A Buddhist Temple, Kioto.\n\n[[cont]]languages ha", "sure": "high"}
+{"n": 2, "is": "B", "print": "his decree", "sure": "high"}
