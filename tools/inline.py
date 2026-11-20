@@ -8,6 +8,9 @@ Book JSON inline markup (documented for users in docs/json-format.md) is a well-
   <noteref to="d004-n3">*</noteref>   reference to a note of the same division
   <pageref n="34">34</pageref>        the book's own reference to one of its pages
   <corr orig="teh">the</corr>         a printer's error corrected by the editors; orig = the printed reading
+  <supplied>e of</supplied>            letters lost in the scan (a fold, a tear, a blot) and inferred from the context by the
+                                      editors; shown as plain text in the reading editions (Tom, 2026-11-20)
+  <gap>[…]</gap>                      letters lost in the scan that could not be inferred; […] everywhere
   <side>Arrival at Macao.</side>      a marginal note (side-note) printed beside the line whose first word follows it;
                                       kept in the JSON, left out of the reading editions (drop_sides) and of plain()
 """
@@ -76,6 +79,8 @@ def convert(text, warn=lambda m: None, ctx=""):
     def corr(m):
         return keep(f'<corr orig="{attr(m.group(1).strip())}">') + m.group(2).strip() + keep("</corr>")
     text = re.sub(r"\[\[corr ([^|\]]*)\|([^\]]*)\]\]", corr, text)
+    text = re.sub(r"\[\[supplied ([^\]]+)\]\]", lambda m: keep("<supplied>") + m.group(1) + keep("</supplied>"), text)
+    text = text.replace("[[gap]]", keep("<gap>[…]</gap>"))
     text = re.sub(r"\[\[fnref ([^\]]+)\]\]", lambda m: keep(f'<noteref mark="{attr(m.group(1).strip())}"/>'), text)
     text = re.sub(r'<pref to="(\w+)">(.*?)</pref>', lambda m: keep(f'<pageref n="{m.group(1)}">') + m.group(2) + keep("</pageref>"), text)
     text = re.sub(r"<pref>(.*?)</pref>",

@@ -27,6 +27,8 @@ models (`prompts/_format.md` is the wording they get), edited by the session, re
 | `<pref>34</pref>`, `<pref to="34">text</pref>` | the book's own reference to its page 34: becomes a link when page 34 is in the reading editions |
 | `[[side: text]]` | a marginal note (side-note), inside the paragraph immediately before the first word of the printed line it stands beside; kept in the JSON (`<side>`), left out of the reading editions (Tom, 2026-11-19, for Staunton's *Embassy*) and of plain text; preflight `conservation` compares the side-notes of the page files and the JSON apart |
 | `[[corr printed|corrected]]` | a printer's error corrected by us (`style.md`) |
+| `[[supplied e of]]` | letters lost in the scan (fold, tear, blot), not settled by another scan or edition, inferred from the context: marked in the JSON (`<supplied>`), plain text in the reading editions (Tom, 2026-11-20) |
+| `[[gap]]` | letters lost in the scan that cannot be inferred: `[…]` in the JSON and the editions |
 | `〓` | illegible character |
 
 Editing by hand: never "fix" the author's spelling; only fix transcription and markup. Straight quotes typed

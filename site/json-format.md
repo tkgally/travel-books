@@ -58,13 +58,15 @@ Every text string is a well-formed XML fragment. The characters `&`, `<` and `>`
 | `<noteref to="d004-n3">*</noteref>` | reference to the note with that `id` in the same division; the content is the printed mark; where the book prints two marks for one note, two `noteref`s have the same `to` |
 | `<pageref n="34">34</pageref>` | the book's own reference to its page 34 |
 | `<corr orig="teh">the</corr>` | a printer's error corrected; `orig` is the printed reading |
+| `<supplied>e of</supplied>` | letters lost in the scanned copy (at a fold, a tear or a blot) and supplied by the editors from the context; the reading editions show them without a mark |
+| `<gap>[…]</gap>` | letters lost in the scanned copy that could not be supplied; the reading editions show […] |
 | `<side>Arrival at Macao.</side>` | a marginal note (side-note) printed beside the line that starts with the word after it; the HTML, EPUB and ODT editions leave side-notes out |
 
 To get the plain text of a string, remove the elements and keep their content, except `noteref` (drop the mark) and `side` (drop the side-note, or keep it apart). To get the text exactly as printed, replace each `corr` element by its `orig`.
 
 ## What is normalized
 
-Words divided at line ends are joined. Spaces around punctuation follow modern practice, and so do quotation marks over several lines or paragraphs (an opening mark repeated at the start of each line is left out; a quotation of several paragraphs has an opening mark at each paragraph and a closing mark at the end). Ligatures such as fi are written as separate letters, and the long s is written s. Running heads, page numbers at the head or foot of the page, and printers' signature marks are left out; page numbers are kept in `pb` and `pages`. Headings, chapter summaries and captions printed in capitals are given in upper and lower case. Nothing else in the wording, spelling or punctuation is changed without a `corr` element.
+Words divided at line ends are joined. Spaces around punctuation follow modern practice, and so do quotation marks over several lines or paragraphs (an opening mark repeated at the start of each line is left out; a quotation of several paragraphs has an opening mark at each paragraph and a closing mark at the end). Ligatures such as fi are written as separate letters, and the long s is written s. Running heads, page numbers at the head or foot of the page, and printers' signature marks are left out; page numbers are kept in `pb` and `pages`. Headings, chapter summaries and captions printed in capitals are given in upper and lower case. Nothing else in the wording, spelling or punctuation is changed without a `corr` element, and letters lost in the scanned copy are marked by `supplied` or `gap`.
 
 Italics are recorded as printed. The web pages, EPUB and ODT show long italic passages in ordinary type; the JSON does not.
 

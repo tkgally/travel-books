@@ -26,7 +26,7 @@ FORMAT = "travel-books-json/1"
 KINDS = ("front", "titlepage", "dedication", "preface", "contents", "illustrations", "introduction", "part",
          "chapter", "appendix", "notes", "glossary", "index", "errata", "advertisements", "back")
 MARK = re.compile(r"\[\[(?:page [^\[\]]*|blank|break|cont|right|center|subtitle|caption|image:[^\[\]]*|fn [^\[\]]+|"
-                  r"fnref [^\[\]]+|corr [^|\[\]]*\|[^\[\]]*|side:[^\[\]]*)\]\]")
+                  r"fnref [^\[\]]+|corr [^|\[\]]*\|[^\[\]]*|side:[^\[\]]*|supplied [^\[\]]+|gap)\]\]")
 BLOCK_TAGS = ("blockquote", "verse")
 
 

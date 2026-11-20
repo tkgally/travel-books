@@ -84,6 +84,7 @@ def plain_page(t):
             continue
         s = re.sub(r"\[\[fnref [^\]]*\]\]", "", s)
         s = re.sub(r"\[\[corr ([^|\]]*)\|[^\]]*\]\]", r"\1", s)      # the audit compares the PRINTED reading
+        s = re.sub(r"\[\[supplied ([^\]]*)\]\]", r"\1", s).replace("[[gap]]", "[…]")   # letters lost in the scan
         if s.startswith("|") and s.endswith("|"):
             continue
         s = re.sub(r"\[\[[a-z]+\]\] ?", "", s)
