@@ -1,6 +1,6 @@
 [[page 427]]
 
-### K
+## K
 
 Kalomo, 162
 
@@ -26,7 +26,7 @@ Kopjes, 50, 65, 221
 
 Kota-Kota, 349
 
-### L
+## L
 
 Las Palmas, 405
 
@@ -42,7 +42,7 @@ Liwonde, 356
 
 Lyceum Club, 402 ff.
 
-### M
+## M
 
 Macheke, 78
 
