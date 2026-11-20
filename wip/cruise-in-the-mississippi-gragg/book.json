@@ -1,0 +1,51 @@
+{
+ "id": "cruise-in-the-mississippi-gragg",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "A Cruise in the U.S. Steam Frigate Mississippi, Wm. C. Nicholson, Captain, to China and Japan, from July, 1857, to February, 1860",
+ "short_title": "A Cruise in the U.S. Steam Frigate Mississippi",
+ "authors": [
+  {
+   "name": "William F. Gragg",
+   "sort": "Gragg, William F.",
+   "born": 1810,
+   "died": 1864
+  }
+ ],
+ "place": "Boston",
+ "publisher": "Damrell & Moore, printers",
+ "year": 1860,
+ "edition_statement": "First edition",
+ "collection": "jatsi",
+ "source": {
+  "ia_identifier": "cruiseinussteamf00grag",
+  "contributor": "Library of Congress",
+  "hidden_leaves": [0, 79, 80, 81, 82, 83],
+  "extra_leaves": {
+   "p0078a": {
+    "ia_identifier": "acruiseinusstea01graggoog",
+    "n": 80,
+    "what": "page 76, the last page of text, cut at the right edge in the Library of Congress copy (University of California copy)"
+   }
+  }
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  }
+ ],
+ "regions": [],
+ "period": "1857–60",
+ "divisions": [],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0078",
+   "why": "the Library of Congress leaf of page 76 is cut at the right edge and has a library label over it; the page is transcribed from the University of California copy as p0078a"
+  }
+ ],
+ "summary": [],
+ "notes_on_text": []
+}
