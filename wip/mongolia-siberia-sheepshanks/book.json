@@ -1,0 +1,44 @@
+{
+ "id": "mongolia-siberia-sheepshanks",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "My Life in Mongolia and Siberia",
+ "subtitle": "From the Great Wall of China to the Ural Mountains",
+ "short_title": "My Life in Mongolia and Siberia",
+ "authors": [
+  {
+   "name": "John Sheepshanks, Bishop of Norwich",
+   "sort": "Sheepshanks, John",
+   "born": 1834,
+   "died": 1912
+  }
+ ],
+ "place": "London",
+ "publisher": "Society for Promoting Christian Knowledge",
+ "year": 1903,
+ "edition_statement": "First edition",
+ "source": {
+  "ia_identifier": "cu31924023499498",
+  "contributor": "Cornell University Library",
+  "hidden_leaves": []
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  }
+ ],
+ "regions": [
+  "China",
+  "Mongolia",
+  "Siberia",
+  "Russia"
+ ],
+ "period": "TODO",
+ "summary": "TODO",
+ "frontispiece": "p0021-1",
+ "divisions": [],
+ "notes_on_text": [],
+ "omitted_from_reading": "The half-title, the title page, the printed contents, the list of illustrations and the printer’s imprint are in the JSON only."
+}
