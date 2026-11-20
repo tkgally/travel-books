@@ -1,0 +1,72 @@
+{
+ "id": "embassy-to-china-staunton",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "An Authentic Account of an Embassy from the King of Great Britain to the Emperor of China",
+ "short_title": "Embassy to China",
+ "authors": [
+  {
+   "name": "Sir George Staunton",
+   "sort": "Staunton, Sir George",
+   "born": 1737,
+   "died": 1801
+  }
+ ],
+ "place": "London",
+ "publisher": "G. Nicol",
+ "year": 1797,
+ "volumes": 3,
+ "source": {
+  "ia_identifier": "authenticaccount01stau",
+  "contributor": "University of California Libraries (text volumes); Getty Research Institute (plates)",
+  "items": [
+   {
+    "ia_identifier": "authenticaccount01stau",
+    "first_leaf": "p1000",
+    "hidden_leaves": [
+     0,
+     7,
+     8,
+     569,
+     570,
+     571,
+     572,
+     573
+    ]
+   },
+   {
+    "ia_identifier": "authenticaccount02stau",
+    "first_leaf": "p2000",
+    "hidden_leaves": [
+     0,
+     24,
+     25,
+     334,
+     335,
+     646,
+     647,
+     667,
+     668,
+     669,
+     670,
+     671
+    ]
+   }
+  ]
+ },
+ "leaf_order": [
+  [
+   "p1469",
+   "p1470",
+   "p1467",
+   "p1468"
+  ]
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  }
+ ]
+}
