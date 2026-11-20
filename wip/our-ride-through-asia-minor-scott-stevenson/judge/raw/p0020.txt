@@ -1,3 +1,0 @@
-{"n": 1, "is": "B", "print": "## Chapter XX", "sure": "medium"}
-{"n": 2, "is": "A", "print": "## Chapter XX", "sure": "medium"}
-{"n": 3, "is": "B", "print": "## Chapter XX", "sure": "medium"}

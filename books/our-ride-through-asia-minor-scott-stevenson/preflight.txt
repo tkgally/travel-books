@@ -1,0 +1,35 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[       ok] audit: book.json records the sampled audit of this version
+[ look (1)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - (and 7 joins giving a word the book prints whole elsewhere: not listed)
+[look (10)] joins: page joins: missing [[cont]], or [[cont]] after a closed sentence
+            - p0098: [[cont]] after a closed sentence …'l trimness of the fields.' | 'They are separated from e'
+            - p0107: [[cont]] after a closed sentence …'nd frank as my husband’s.' | 'The Turks are a peculiarl'
+            - p0128: [[cont]] after a closed sentence …'ur hat winter and summer.' | 'They are fully armed; gen'
+            - p0173: [[cont]] after a closed sentence …'m soon stopped the noise.' | 'On his return I asked if '
+            - p0196: [[cont]] after a closed sentence …'ocky ground would permit.' | 'The muleteer kept howling'
+            - p0280: [[cont]] after a closed sentence …'ur left called Gemerchin.' | 'The houses are cut out of'
+            - p0333: [[cont]] after a closed sentence …'their heads were visible.' | 'A few children or kitchen'
+            - p0347: [[cont]] after a closed sentence …'of the Seljukian sultans.' | 'The latter were distingui'
+            - p0382: [[cont]] after a closed sentence …' all sense of repetition.' | 'We were going to Ybunti t'
+            - p0403: [[cont]] after a closed sentence …'his new aspect of nature.' | 'A silence that could almo'
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] contents: entries of the printed contents with no matching heading
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight PASS: our-ride-through-asia-minor-scott-stevenson v1 — 0 to fix, 4 waived; to look at: hyphen-joins 1, joins 10 — tools@b2206d8 2026-11-20

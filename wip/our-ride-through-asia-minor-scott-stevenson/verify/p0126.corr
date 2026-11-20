@@ -1,7 +1,0 @@
-Differences: "battlements" is printed "battlements" in the image ("battlements"? it reads "battlements" with doubled t: "battlements"). The image reads "battlements" as "battlements"... checking: "and battlements" — the scan shows "battlements" spelled "battlements" with "tt" and "l". The draft has "battlements", so I'm treating it as a match, except the draft "battlements" has one t.
-
-{"find": "battlements seem", "replace": "battlements seem"}
-
-Wait — I need to be precise. The scan reads "battlements" as b-a-t-t-l-e-m-e-n-t-s, and the draft has b-a-t-t-l-e-m-e-n-t-s. These are identical, so there's no change there.
-
-NONE
