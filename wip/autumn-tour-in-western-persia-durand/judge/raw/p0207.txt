@@ -1,1 +1,0 @@
-{"n": 1, "is": "B", "print": "and this\n\n[[image: pen drawing of a pointed-arch bridge spanning a deep, narrow rocky gorge, with a small figure standing on a ledge below]]\n[[caption]] The Pul i Tang.\n\n[[cont]]was, I think, the only thing of the kind we saw in Luristan.", "sure": "high"}

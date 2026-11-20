@@ -1,3 +1,0 @@
-{"given": "Rogers (C. J.) Coin collecting in Northern India.", "print": "Rogers (C. J.) Coin Collecting in Northern India.", "sure": "high"}
-{"given": "Arnold (T. W.) The Preaching Islam.", "print": "Arnold (T. W.) The Preaching of Islam.", "sure": "high"}
-{"given": "Prichard (Hesketh) Were Black Rules White.", "print": "Prichard (Hesketh) Where Black Rules White.", "sure": "high"}

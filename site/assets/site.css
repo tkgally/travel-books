@@ -30,7 +30,7 @@ nav.toc ol { list-style: none; padding-left: 0; margin: 0; } nav.toc li { margin
 .tablewrap { overflow-x: auto; }
 table.bib, table.doc { border-collapse: collapse; font-size: 0.92rem; width: 100%; }
 table.bib th { text-align: left; font-weight: normal; color: var(--muted); padding: 0.25rem 1rem 0.25rem 0; vertical-align: top; white-space: nowrap; }
-table.bib td { padding: 0.25rem 0; }
+table.bib td { padding: 0.25rem 0; overflow-wrap: anywhere; }
 table.doc th, table.doc td { text-align: left; border-bottom: 1px solid var(--line); padding: 0.3rem 0.8rem 0.3rem 0; vertical-align: top; }
 details.viewer { margin: 1rem 0; } details.viewer summary { cursor: pointer; }
 details.viewer iframe { width: 100%; height: 75vh; min-height: 24rem; border: 1px solid var(--line); margin-top: 0.6rem; }

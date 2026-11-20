@@ -1,5 +1,0 @@
-{"given": "It lies in a hollow; sheltered", "print": "It lies in a hollow, sheltered", "sure": "high"}
-{"given": "sweeping the treeless ardal plain", "print": "sweeping the treeless Ardal plain", "sure": "high"}
-{"given": "He said they where sitting", "print": "He said they were sitting", "sure": "high"}
-{"given": "buried itself in the grouud.", "print": "buried itself in the ground.", "sure": "high"}
-{"given": "and were unable search. We", "print": "and were unable to search. We", "sure": "high"}

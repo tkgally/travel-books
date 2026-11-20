@@ -1,5 +1,0 @@
-{"given": "we were able do little or", "print": "we were able to do little or", "sure": "high"}
-{"given": "could not promize him that our", "print": "could not promise him that our", "sure": "high"}
-{"given": "We found if here a very", "print": "We found it here a very", "sure": "high"}
-{"given": "more than a goat track; and a slip", "print": "more than a goat track, and a slip", "sure": "high"}
-{"given": "one is rcally over it on", "print": "one is really over it on", "sure": "high"}

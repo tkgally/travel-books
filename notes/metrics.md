@@ -32,6 +32,7 @@
 | Diary of the Rajah of Kolhapoor v5 | 2026-11-20 | — | metadata only | 0 | — | 0 | 0 | 0 | PASS | record copied | summary and omitted_from_reading: four straight apostrophes curled (new check site-text) |
 | A Journey through the Caucasus v2 | 2026-11-20 | — | metadata only | 0 | — | 0 | 0 | 0 | PASS | record copied | summary: one straight apostrophe curled (new check site-text) |
 | A Jaunt in Japan v1 | 2026-11-20 | 176 | Opus draft → Sonnet corrections → Opus judge; spot-read of 14 pages by an Opus subagent | 1 | 1 / 0 / 0 | 0 | 15.65 | 0 | PASS, 1 waived (duplicate leaf) | 30/30; 0 / 6 (errata slip applied: 6) | |
+| An Autumn Tour in Western Persia v1 | 2026-11-20 | 331 | Opus draft → Sonnet corrections → Opus judge; spot-read of 40 pages (title, lists, captions, drawings, verse, catalogue) by an Opus subagent | 16 | 9 / 6 / 1 (9 were drop-capital openings) | 0 | 32.20 | 0 | PASS, 1 waived (blank leaf) | 28/28; 0 / 6 | |
 
 ## Calibrations
 
