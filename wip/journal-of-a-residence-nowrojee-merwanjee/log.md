@@ -37,7 +37,7 @@ Scan check: all 14 sheets looked at 2026-11-20; full size p0006; problems: none 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
-| Draft | 2026-11-20 | Opus | 529 (p0006–p0534) | 33.26 | p0212 (printed 182, Westminster Hall) refused by the output filter |
+| Draft | 2026-11-20 | Opus | 529 (p0006–p0534) | 33.26 | p0212 (printed 182, Houses of Parliament chapter, ordinary prose) refused by the output filter |
 | Fallback | 2026-11-20 | tesseract + Opus | 1 (p0212) | 0.06 | audit it with `--pages p0212` |
 
 ## Versions
