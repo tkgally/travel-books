@@ -79,6 +79,7 @@ Scan check: all 12 contact sheets looked at 2026-11-19; full size: p0025, p0116,
 |---|---|---|---|---|
 | 1 | 2026-11-19 | PASS — 0 to fix, 2 waived; to look at: hyphen-joins 26, joins 9, contents 1 (all read) — tools@6b8af86 | 30/30 and 15/15 (fallback pages); 0 real errors / 9 pages | first publication; three pages by the OCR fallback |
 | 2 | 2026-11-20 | PASS — 0 to fix, 2 waived; to look at: hyphen-joins 2, contents 1 — tools@920c2e8 | as v1 (text unchanged except the fixes) | found at the review after ten books: four paragraphs cut in two by an engraving mid-sentence (p0079, p0102, p0118, p0226: no `[[cont]]` after the caption) joined; new preflight check `image-splits` lists such cases. Built page looked at (p0079 joined). |
+| 3 | 2026-11-20 | preflight PASS: south-by-west-kingsley v3 — 0 to fix, 2 waived; to look at: hyphen-joins 2, contents 1, accents 11 — tools@9de0b2b 2026-11-20 | record copied (text unchanged except listed fixes) | Accents checked on the scan at the review after twenty books (new preflight list `accents`). p0117: “potatoës” was a speck over the e; now “potatoes” as printed. p0322: a stray acute printed over “rode” is now marked as a printer’s error (rode). |
 
 ## Known issues
 - Waivers: quote-balance p0124 (as printed), spacing p0170 (a ditto mark). The `contents` look item on p0021 is the

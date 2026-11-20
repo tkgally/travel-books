@@ -23,6 +23,20 @@
 [       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
 [ look (1)] contents: entries of the printed contents with no matching heading
             - p0021: 'The Hotel Iturbide—Flowers—Tacubaya—The Paseo—Aztec calendar stone—The'
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
+[look (11)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0009, p0010, p0013, p0014, p0015, p0016…); à (p0202)
+            - banos: banos (p0267); baños (p0288)
+            - canada: canada (p0037, p0042, p0045, p0094, p0171); cañada (p0297, p0300, p0419, p0420)
+            - canon: canon (p0009, p0441); cañon (p0018, p0019, p0025, p0073, p0078, p0079…)
+            - cortes: cortes (p0211); cortés (p0374, p0375)
+            - dare: dare (p0173, p0366, p0389); daré (p0321)
+            - e: e (p0111, p0145, p0146, p0153, p0167, p0170…); é (p0269)
+            - he: he (p0016, p0029, p0030, p0032, p0033, p0034…); hé (p0219)
+            - hotel: hotel (p0018, p0021, p0041, p0042, p0044, p0047…); hôtel (p0312, p0313)
+            - penon: penon (p0022); peñon (p0313, p0331, p0332)
+            - senor: senor (p0426); señor (p0021, p0201, p0207, p0208, p0210, p0213…)
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: south-by-west-kingsley v2 — 0 to fix, 2 waived; to look at: hyphen-joins 2, contents 1 — tools@920c2e8 2026-11-20
+preflight PASS: south-by-west-kingsley v3 — 0 to fix, 2 waived; to look at: hyphen-joins 2, contents 1, accents 11 — tools@9de0b2b 2026-11-20

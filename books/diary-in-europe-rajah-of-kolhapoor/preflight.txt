@@ -27,6 +27,10 @@
             - p0137: 'IV. The Procès-verbal of the Cremation at Florence.'
             - p0137: 'V. Resolutions passed by a Public Meeting assembled at Kolhapoor to do'
 [       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
+[ look (2)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - chateau: chateau (p0123); château (p0118)
+            - hotel: hotel (p0042, p0059, p0065, p0068, p0073, p0074…); hôtel (p0041, p0042, p0165)
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: diary-in-europe-rajah-of-kolhapoor v5 — 0 to fix, 1 waived; to look at: hyphen-joins 1, contents 5 — tools@1653f9e 2026-11-20
+preflight PASS: diary-in-europe-rajah-of-kolhapoor v6 — 0 to fix, 1 waived; to look at: hyphen-joins 1, contents 5, accents 2 — tools@9de0b2b 2026-11-20

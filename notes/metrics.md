@@ -36,6 +36,10 @@
 | The Land of the North Wind v1 | 2026-11-20 | 371 | Opus draft → Sonnet corrections → Opus judge; spot-read of special pages and an accent check of 23 variant groups on crops (Opus subagents: 35 pages fixed) | 22 | 13 / 7 / 2 | 0 | 38.68 | 0 | PASS, 6 waived (blank leaves) | 30/30 + 100/100; 2 / 26 (p0192 misreading, p0132 unmarked printer’s error) | |
 | Jottings of Travel in China and Japan v1 | 2026-11-20 | 182 | Opus draft → Sonnet corrections → Opus judge; spot-read of 22 pages by an Opus subagent | 1 | 1 / 0 / 0 | 0 | 17.12 | 0 | PASS, 3 waived (blank leaves) | 30/30; 0 / 6 | |
 | By Fell and Fjord v1 | 2026-11-20 | 293 | Opus draft → Sonnet corrections → Opus judge; spot-read and accent check of 18 variant groups on crops (Opus subagents: 3 fixed) | 30 | 3 / 27 / 0 | 0 | 31.79 | 0 | PASS, 4 waived (blank leaves, a duplicate shot) | 30/30; 0 / 6 | |
+| Diary of the Rajah of Kolhapoor v6 | 2026-11-20 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | accents misread (found at the review after twenty books by the new `accents` list, checked on the scan) |
+| Jottings of Travel in China and Japan v2 | 2026-11-20 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | accents misread (found at the review after twenty books by the new `accents` list, checked on the scan) |
+| Our Ride through Asia Minor v2 | 2026-11-20 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | accents misread (found at the review after twenty books by the new `accents` list, checked on the scan) |
+| South by West v3 | 2026-11-20 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | accents misread (found at the review after twenty books by the new `accents` list, checked on the scan) |
 
 ## Calibrations
 

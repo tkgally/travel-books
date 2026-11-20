@@ -101,6 +101,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - Preflight `accents` lists every word spelled with different accents (or with and without); send the groups to an Opus
   subagent with crops (one leaf of each rarer form): in *Land of the North Wind* 23 groups, 35 pages wrong. A wide circumflex printed over two
   letters ("oû") was read as an acute, grave or breve on one of them; the Sonnet pass and the judge did not settle it.
+- Not only foreign words: a speck or blot over a letter of an ordinary word was taken for an accent in four published
+  books (“potatoës”, “Dŭrbar”, “gaïshas”); the `accents` list shows them beside the plain form. Read it for every book.
 
 ## Trigger: drop capitals at chapter openings
 

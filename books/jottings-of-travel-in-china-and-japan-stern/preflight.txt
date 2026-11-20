@@ -28,6 +28,9 @@
             - p0013: 'The Queen’s Jubilee,'
             - p0013: 'Japanese Dress,'
 [       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
+[ look (1)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - menu: menu (p0034); ménu (p0087)
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: jottings-of-travel-in-china-and-japan-stern v1 — 0 to fix, 3 waived; to look at: hyphen-joins 5, contents 2 — tools@84fdce4 2026-11-20
+preflight PASS: jottings-of-travel-in-china-and-japan-stern v2 — 0 to fix, 3 waived; to look at: hyphen-joins 5, contents 2, accents 1 — tools@9de0b2b 2026-11-20

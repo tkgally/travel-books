@@ -55,6 +55,7 @@ no page for Ch. XX. Printer's error seen: "Jananese" p. 110 (p0118).
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
 | 1 | 2026-11-20 | PASS — 0 to fix, 3 waived (blank leaves); to look at: hyphen-joins 5 (real breaks), contents 2 (appendix pieces named differently in the printed contents) — tools@84fdce4 | 30/30; 0 real errors / 6 pages | first publication; spot-read of 22 pages (no differences); rendered look at 390 and 1280, EPUB nav |
+| 2 | 2026-11-20 | preflight PASS: jottings-of-travel-in-china-and-japan-stern v2 — 0 to fix, 3 waived; to look at: hyphen-joins 5, contents 2, accents 1 — tools@9de0b2b 2026-11-20 | record copied (text unchanged except listed fixes) | Accents checked on the scan at the review after twenty books (new preflight list `accents`). p0070: “gaïshas” was a speck beside the dot of the i; now “gaishas” as printed. |
 
 ## Known issues
 - The sign on p. 14 (four italic lines) is shown in roman in the editions by the rule for long italic passages (style.md).
