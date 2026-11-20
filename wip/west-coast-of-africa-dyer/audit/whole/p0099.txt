@@ -1,0 +1,5 @@
+{"given": "asserted his sovercignty over the", "print": "asserted his sovereignty over the", "sure": "high"}
+{"given": "the Western chiefs inform them of", "print": "the Western chiefs to inform them of", "sure": "high"}
+{"given": "Blay, to do honor to our", "print": "Blay, to do honour to our", "sure": "high"}
+{"given": "coming into Axim; when they were", "print": "coming into Axim, when they were", "sure": "high"}
+{"given": "and looked as it he could", "print": "and looked as if he could", "sure": "high"}

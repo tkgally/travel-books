@@ -1,0 +1,5 @@
+{"given": "very rare event in the bights, and", "print": "very rare event in the Bights, and", "sure": "high"}
+{"given": "for safety, to faeilitate loading operations.", "print": "for safety, to facilitate loading operations.", "sure": "high"}
+{"given": "The natives had plundered his wreck of", "print": "The natives had plundered this wreck of", "sure": "high"}
+{"given": "recouping his loss the ordinary course", "print": "recouping his loss in the ordinary course", "sure": "high"}
+{"given": "are reached, this is so; a distance", "print": "are reached, this is so, a distance", "sure": "medium"}

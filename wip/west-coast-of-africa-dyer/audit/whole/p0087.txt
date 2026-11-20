@@ -1,0 +1,5 @@
+{"given": "present on the oceasion alone", "print": "present on the occasion alone", "sure": "high"}
+{"given": "anchor off Cape coast, to", "print": "anchor off Cape Coast, to", "sure": "high"}
+{"given": "which was off Elmina; when", "print": "which was off Elmina, when", "sure": "high"}
+{"given": "about twice that a man’s body", "print": "about twice that of a man’s body", "sure": "high"}
+{"given": "water in which his took place", "print": "water in which this took place", "sure": "high"}
