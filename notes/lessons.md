@@ -69,6 +69,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - A `toc_title` written by hand is plain text: its italics are lost.
 - Decorative chapter head-pieces and tail-pieces: drafts mark each as `[[image:]]`; keep them, crop them, list them
   in `book.json` `ornaments` (shown small; Tom, 2026-11-20).
+- Captions with a straight apostrophe, or typed as `<sc>` in lower case, make preflight `conservation` (captions) fail
+  although nothing is lost (the check sorts before squashing; to be fixed): curl them and use upper and lower case (*Collis*).
 - A picture can split a sentence before a capitalized word ("chief of the | Easterlings", *By Fell and Fjord* p0224):
   preflight `image-splits` looks only for lower case after the picture; read the text before each picture (for the review).
 - A frontispiece printed sideways has no caption to show which way: crop it, look at both turns.
@@ -200,6 +202,9 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   pages are ordinary prose. `tools/ocr_fallback.py` is the route (workflow §2); the tools never retry.
 - A session that set out to type such a page itself was ended by the same filter, and every later turn of
   that session failed at once (2026-11-19). Never do it, whoever asks; say why and use the fallback.
+- *A Woman’s Trip to Alaska* (2026-11-20): 55 of 224 pages refused (a quarter of the book: ordinary prose about the
+  journey, the Tlingit villages and the ship), the most so far; the fallback did all 55 at $0.07 a page and the audit of all
+  55 found 273/275 planted errors. A book with many refusals is not a reason to stop: audit every fallback page.
 - The corrections pass, the judge and the audit were not refused on those pages.
 - *Our Ride through Asia Minor* (2026-11-20): 2 of 418 (p0347–p0348, ruins of Koniah, ordinary prose); the fallback and a 10/10 audit, no other trouble.
 

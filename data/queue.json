@@ -703,11 +703,13 @@
    "place": "New York",
    "publisher": "Cassell Publishing Company",
    "images": 226,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-20",
    "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv (her A Woman's War Record is, #74491); The Online Books Page links only page images (IA cihm_03388, HathiTrust, Canadiana); no Wikisource page; web search of a distinctive sentence found nothing. Reprints: CIHM microfiche 1980, Kessinger 2007, Hansebooks/Scholar's Choice, a Blackwell's facsimile (all print on demand or microfiche). Author 1842–1917 (LoC heading). Prefatory letter by W. T. Sherman (1820–1891); engravings by the American Bank Note Co. (a firm); a few snapshots by Miss M. N. Beach and Miss Margaret Watson (minor, dates not found: Tom's rule of 2026-11-20); the rest by the author. Not checked: Faded Page, WorldCat. Re-checked 2026-11-20 (before starting): the text is in Alexander Street's subscription database North American Women's Letters and Diaries (work 4262667): Tom answered the same day: a subscription database does not count (selection.md rule 2), so the book is eligible. The scan was fetched once from IA that day (not yet cached in Drive).",
    "note": "Getty scan, 500 ppi. Many small engravings and snapshots set into the text with lines running round them (broken short lines in the draft; many crops). HathiTrust records a folding plate and a map: check. Rail to Tacoma, then an excursion steamer to Wrangell, Sitka, Glacier Bay and the Muir Glacier; opens with advice on what to take; chatty.",
-   "started": "2026-11-20"
+   "started": "2026-11-20",
+   "version": 1,
+   "published": "2026-11-20"
   },
   {
    "order": 40,

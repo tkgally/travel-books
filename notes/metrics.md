@@ -42,6 +42,7 @@
 | South by West v3 | 2026-11-20 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | accents misread (found at the review after twenty books by the new `accents` list, checked on the scan) |
 | The Path of the Conquistadores v1 | 2026-11-20 | 381 drafted of 388 | Opus draft → Sonnet corrections → Opus judge; spot-read of 24 pages and accent/hyphen checks by Opus subagents | 7 | 5 / 2 / 0 | 0 | 35.57 | 0 | PASS, 2 waived (a duplicate shot, a blank frame) | 30/30; 0 / 6 | |
 | Impressions of a First Tour round the World v1 | 2026-11-20 | 300 | Opus draft → Sonnet corrections → Opus judge; spot-read of 24 pages by an Opus subagent | 5 | 4 / 1 / 0 | 1 (p0092: a faint full stop the judge read as a comma) | 29.16 | 0 | PASS, 0 waived | 30/30; 0 / 6 | |
+| A Woman’s Trip to Alaska v1 | 2026-11-20 | 224 | Opus draft → Sonnet corrections → Opus judge; 55 pages by the OCR fallback (tesseract + Opus); 105 crops by three Opus subagents; spot-read of front matter and all captions | 27 | 11 / 15 / 1 | 0 | 26.91 | 0 | PASS, 0 waived | 29/30 + 273/275 on the fallback pages; 0 / 61 | |
 
 ## Calibrations
 
@@ -77,3 +78,4 @@
 | 2026-11-20 | site-text → enforce | review after twenty books: 7 alarms in three books, 7 real; none in the five books since. All twenty books pass. The invented sample book had a straight apostrophe in its summary and a test's contents entry (fixed in the fixtures). Test `SiteText`. |
 | 2026-11-20 | cover (new, observe) | review after twenty books: a missing `images/cover.jpg` was caught only by the rendered look (*Jottings*). All twenty books have one. Test `Accents`. |
 | 2026-11-20 | accents (new, observe) | review after twenty books: groups of words spelled with different accents (*Land of the North Wind*: 35 pages misread, found by a hand-made list). On twenty books: 129 groups (Rae 24 and Oswald 16, already checked on the scan; many others common words such as à/a, hôtel/hotel). Test `Accents`. |
+| 2026-11-20 | conservation (pages→JSON captions) | *A Woman’s Trip to Alaska*: two items though the caption lists were equal once squashed: the check sorts the captions before squashing, so a caption with a straight apostrophe or a leading tag sorts elsewhere. The book was changed (apostrophes curled, <sc> captions in upper and lower case), no waiver. To fix: sort the squashed captions; test with invented captions. Not changed in this session. |
