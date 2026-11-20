@@ -9,6 +9,7 @@
 | `book-json.md` | keys of `book.json` and `source.json`; the book-log template |
 | `lessons.md` | checklist of things that went wrong, keyed to what a book has |
 | `metrics.md` | one row per published version; calibration results; preflight check history |
+| `sessions.md` | one row per session: start, end, hours, context used, what was done, cost |
 | `errata.md` | errors reported after publication and what was done |
 | `preferences.md` | what Tom has decided; questions waiting for him |
 | `improvement.md` | how the method itself is reviewed and changed |

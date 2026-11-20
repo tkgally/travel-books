@@ -225,7 +225,8 @@ python3 $R/tools/audit_sample.py --pages-dir $W/pages --images $B/pages --out $W
 2. `log.md`: versions row with the preflight stamp and the audit result; waivers and reasons; known issues.
    `notes/metrics.md`: one row.
 3. Tests, commit, push, PR, merge. When the Pages run finishes, open the live book page once.
-4. Final message as RESUME.md §4.
+4. `git fetch origin main && git merge --no-edit origin/main`, run `tools/session_meter.py`, and go on to the
+   next piece of work or close the session, as RESUME.md §3 says. Final message as RESUME.md §5.
 
 ## New version of a published book
 

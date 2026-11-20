@@ -8,7 +8,7 @@ import copy, json, os, re, shutil, subprocess, sys, tempfile, unittest, zipfile
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, "tools"))
-import build_site, compile_book, ledger, running_quotes, corrections, crop_image, drive_cache, inline, judge, normalize, preflight, render_epub, render_odt, review  # noqa: E402
+import build_site, compile_book, ledger, running_quotes, corrections, crop_image, drive_cache, inline, judge, normalize, preflight, render_epub, render_odt, review, session_meter  # noqa: E402
 import render_html as rh  # noqa: E402
 
 SAMPLE = os.path.join(REPO, "tests", "sample")
@@ -737,6 +737,53 @@ class Ledger(unittest.TestCase):
         q, j = ledger.load()
         self.assertEqual(ledger.check(q, j), [])
         self.assertIn("Next new book", ledger.report(q, j))
+
+
+class SessionMeter(unittest.TestCase):
+    """tools/session_meter.py: the context in use and the time elapsed, from an invented transcript."""
+
+    def lines(self, *rows):
+        d = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, d)
+        p = os.path.join(d, "t.jsonl")
+        with open(p, "w") as f:
+            for r in rows:
+                f.write((r if isinstance(r, str) else json.dumps(r)) + "\n")
+        return p
+
+    def reply(self, ts, inp, cache=0, out=0, side=False):
+        return {"type": "assistant", "isSidechain": side, "timestamp": ts,
+                "message": {"usage": {"input_tokens": inp, "cache_read_input_tokens": cache, "cache_creation_input_tokens": 0, "output_tokens": out}}}
+
+    def test_context_is_the_last_main_reply(self):
+        p = self.lines({"type": "user", "timestamp": "2026-01-01T10:00:00.000Z"},
+                       self.reply("2026-01-01T10:01:00.000Z", 10, 30000, 500),
+                       self.reply("2026-01-01T10:30:00.000Z", 5, 900000, 100, side=True),     # a subagent: not counted
+                       self.reply("2026-01-01T11:00:00.000Z", 20, 59000, 980),
+                       '{"type": "assistant", "message": {"usa')                               # a line being written
+        m = session_meter.read(p)
+        self.assertEqual((m["tokens"], m["peak"], m["compactions"]), (60000, 60000, 0))
+        import datetime
+        r = session_meter.report(m, 200000, now=datetime.datetime(2026, 1, 1, 12, 30, tzinfo=datetime.timezone.utc))
+        self.assertEqual((r["percent"], r["hours"], r["start"]), (30, 2.5, "2026-01-01 10:00"))
+
+    def test_a_summarized_conversation_is_counted(self):
+        p = self.lines(self.reply("2026-01-01T10:00:00.000Z", 0, 150000), self.reply("2026-01-01T10:05:00.000Z", 0, 40000),
+                       self.reply("2026-01-01T10:06:00.000Z", 0, 45000))
+        self.assertEqual(session_meter.read(p)["compactions"], 1)
+        p = self.lines(self.reply("2026-01-01T10:00:00.000Z", 0, 150000), {"type": "system", "subtype": "compact_boundary"},
+                       {"type": "user", "isCompactSummary": True}, self.reply("2026-01-01T10:05:00.000Z", 0, 140000))
+        self.assertGreaterEqual(session_meter.read(p)["compactions"], 1)
+
+    def test_finds_the_session_and_says_when_it_cannot(self):
+        home = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, home)
+        self.assertIsNone(session_meter.find_transcript(home, "abc"))
+        d = os.path.join(home, ".claude", "projects", "x"); os.makedirs(d)
+        for n in ("abc", "other"):
+            open(os.path.join(d, n + ".jsonl"), "w").close()
+        self.assertTrue(session_meter.find_transcript(home, "abc").endswith("abc.jsonl"))
+        self.assertEqual(session_meter.main(["--transcript", os.path.join(home, "none.jsonl")]), 2)
+        self.assertEqual(session_meter.window("1000000"), 1000000)
+        self.assertEqual(session_meter.window("x"), session_meter.WINDOW)
 
 
 if __name__ == "__main__":
