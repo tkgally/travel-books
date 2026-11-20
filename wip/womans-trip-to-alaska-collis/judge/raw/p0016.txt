@@ -1,0 +1,4 @@
+{"n": 1, "is": "neither", "print": "[[page ?]]\n\nCONTENTS.\n\n[[center]] CHAPTER V.", "sure": "medium"}
+{"n": 2, "is": "B", "print": "[[center]] CHAPTER VI.", "sure": "high"}
+{"n": 3, "is": "B", "print": "[[center]] CHAPTER VII.", "sure": "high"}
+{"n": 4, "is": "A", "print": "[[center]] CHAPTER VIII.", "sure": "high"}

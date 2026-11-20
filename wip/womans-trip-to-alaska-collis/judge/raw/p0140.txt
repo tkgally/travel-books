@@ -1,0 +1,2 @@
+{"n": 1, "is": "A", "print": " the road in\n\n[[image: a group of native boys sitting on the ground with sticks, one small child standing]]\n\n[[cont]]pursuit of a", "sure": "high"}
+{"n": 2, "is": "A", "print": "From school.", "sure": "high"}

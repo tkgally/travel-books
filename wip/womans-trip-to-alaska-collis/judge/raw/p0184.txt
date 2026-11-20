@@ -1,0 +1,2 @@
+{"n": 1, "is": "B", "print": " and", "sure": "high"}
+{"n": 2, "is": "A", "print": " Gold Mines.\n\n[[cont]]when we at last assembled, I am sure a pure spirit of sincere thanksgiving pervaded the entire congregation.", "sure": "high"}

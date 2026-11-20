@@ -1,0 +1,145 @@
+{
+ "id": "womans-trip-to-alaska-collis",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "A Woman’s Trip to Alaska: Being an Account of a Voyage through the Inland Seas of the Sitkan Archipelago in 1890",
+ "short_title": "A Woman’s Trip to Alaska",
+ "authors": [
+  {
+   "name": "Septima M. Collis",
+   "sort": "Collis, Septima M.",
+   "born": 1842,
+   "died": 1917
+  }
+ ],
+ "place": "New York",
+ "publisher": "Cassell Publishing Company",
+ "year": 1890,
+ "edition_statement": "First edition",
+ "source": {
+  "ia_identifier": "womanstriptoalas00coll_0",
+  "contributor": "Getty Research Institute",
+  "hidden_leaves": [
+   0,
+   225
+  ]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  }
+ ],
+ "regions": [
+  "United States",
+  "Canada"
+ ],
+ "period": "1890",
+ "frontispiece": "p0008-1",
+ "divisions": [
+  {
+   "at": "p0011",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0012",
+   "kind": "preface"
+  },
+  {
+   "at": "p0015",
+   "kind": "contents"
+  },
+  {
+   "at": "p0019",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0022",
+   "kind": "chapter",
+   "toc_title": "Chapter I. What to take; Philadelphia to Chicago and Minneapolis",
+   "title": "Chapter I"
+  },
+  {
+   "at": "p0032",
+   "kind": "chapter",
+   "toc_title": "Chapter II. West from Minneapolis: Bismarck, the Bad Lands, the Yellowstone Park"
+  },
+  {
+   "at": "p0056",
+   "kind": "chapter",
+   "toc_title": "Chapter III. Tacoma"
+  },
+  {
+   "at": "p0067",
+   "kind": "chapter",
+   "toc_title": "Chapter IV. The steamship Queen: Seattle, Puget Sound, Port Townsend"
+  },
+  {
+   "at": "p0079",
+   "kind": "chapter",
+   "toc_title": "Chapter V. Victoria, B. C."
+  },
+  {
+   "at": "p0089",
+   "kind": "chapter",
+   "toc_title": "Chapter VI. The Gulf of Georgia and Johnstone Straits"
+  },
+  {
+   "at": "p0098",
+   "kind": "chapter",
+   "toc_title": "Chapter VII. Fort Wrangell, and on to Sitka"
+  },
+  {
+   "at": "p0111",
+   "kind": "chapter",
+   "toc_title": "Chapter VIII. Sitka"
+  },
+  {
+   "at": "p0147",
+   "kind": "chapter",
+   "toc_title": "Chapter IX. From Sitka to the fields of ice"
+  },
+  {
+   "at": "p0166",
+   "kind": "chapter",
+   "toc_title": "Chapter X. The Muir Glacier"
+  },
+  {
+   "at": "p0181",
+   "kind": "chapter",
+   "toc_title": "Chapter XI. Douglass Island, the Treadwell Mine, Juneau"
+  },
+  {
+   "at": "p0197",
+   "kind": "chapter",
+   "toc_title": "Chapter XII. Taku Inlet, the Lynn Canal, Killisnoo, Fort Simpson"
+  },
+  {
+   "at": "p0208",
+   "kind": "chapter",
+   "toc_title": "Chapter XIII. Metlahkatlah, Nanaimo, Victoria again, and home"
+  },
+  {
+   "at": "p0217",
+   "kind": "back",
+   "title": "Map: Route of the Steamer Queen",
+   "reading": true
+  },
+  {
+   "at": "p0218",
+   "kind": "back",
+   "title": "Endpapers and back cover"
+  }
+ ],
+ "summary": [
+  "Septima Maria Collis (1842–1917), the widow of a Union general, wrote this account of a summer journey of 1890 as one long letter to her daughter. She went by train from Philadelphia through Chicago, Minneapolis and Bismarck to the Yellowstone Park and Tacoma, and from there on the excursion steamer Queen through Puget Sound and the inland passage to Victoria, Fort Wrangell, Sitka, Glacier Bay and the Muir Glacier, Juneau and the Lynn Canal, returning by Metlahkatlah and Nanaimo. She describes the ship and its passengers, the towns, the Tlingit villages and their totem poles, the missions, the gold mines and the glaciers, and begins with advice on what to wear and take. The book has many small photographs, several taken by the author with a Kodak, and a letter from General W. T. Sherman."
+ ],
+ "notes_on_text": [
+  "Transcribed from the copy at the Getty Research Institute (Internet Archive: womanstriptoalas00coll_0).",
+  "The printed contents gives each chapter a long list of topics; the contents of these editions give a short title of the editor’s, made from that list. Chapter I has no printed heading: the book opens with the letter’s salutation.",
+  "The plates printed sideways are shown upright. The portrait of the author facing the title page is in the JSON only."
+ ],
+ "omitted_from_reading": "The covers and endpapers, the portrait, the title page, the printed contents and the list of illustrations are in the JSON only.",
+ "waivers": []
+}
