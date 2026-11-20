@@ -16,7 +16,8 @@ Criteria, sources to search and how to choose: `notes/selection.md`. Read it fir
    (Tom, 2026-11-19: a wide range, no group preferred). Read the `rejected` list so nothing is checked twice.
 2. Find candidates: `tools/ia.py search '<query>'` (subjects such as "description and travel", "voyages and
    travels", a region, a decade; sort by few downloads), bibliographies of travel writing, references in
-   books already done. Well-known titles are almost always on Project Gutenberg: look for the lesser-known.
+   books already done. Well-known titles are almost always on Project Gutenberg: look for the lesser-known. A text in EEBO-TCP, ECCO-TCP or a
+   subscription database does not rule a book out (`selection.md` rule 2, Tom 2026-11-20): early books are open again.
 3. For each: `tools/ia.py meta <id>` (page-image archive present? library scan? size?), then the five checks
    of `notes/selection.md`, then **read twenty pages from the middle** of IA's OCR text
    (`https://archive.org/download/<id>/<id>_djvu.txt`). Queue it only if you would want to go on reading.

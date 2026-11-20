@@ -8,7 +8,7 @@ For now a book is included only if all of these are true:
 
 - It is a first-person, nonfiction account of the author's own travels, written in English and published before 1914.
 - A complete, good scan of it is at the [Internet Archive](https://archive.org/).
-- Its text is not available anywhere else on the Internet, apart from the Internet Archive's automatic text recognition and short excerpts.
+- No other edition of its text made for reading is freely available on the Internet. Automatic text recognition (such as the Internet Archive's), short excerpts, and texts in subscription or scholarly databases (such as EEBO and ECCO) do not count.
 - It has not been published in print since 1914, apart from short excerpts and print-on-demand copies of scans.
 - Its author died more than 70 years ago.
 

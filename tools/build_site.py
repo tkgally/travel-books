@@ -145,7 +145,7 @@ def build_index(out, books, queue):
     body = f"""<h1>{SITE}</h1>
 <p>Travel books written in English and published before 1914, transcribed from library scans at the
 Internet Archive. Each can be read on this site or downloaded as EPUB, ODT or JSON. <a href="about.html">About the project.</a></p>
-<p>Most of the books were chosen because they are first-person accounts that have no other digital text edition and were not
+<p>Most of the books were chosen because they are first-person accounts that have no other digital reading edition and were not
 reprinted after 1914. Others come from {jatsi_name()}, a list of books about Japan that is being
 added to this site a book at a time (<a href="{JATSI_PAGE}">about these books</a>); for that reason the site has more books
 about Japan than about other countries.</p>

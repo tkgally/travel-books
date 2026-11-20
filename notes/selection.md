@@ -5,8 +5,14 @@
 1. **Scan.** A high-quality, complete scan is on the Internet Archive: every page readable, no text or
    illustration missing or obscured. Checked before any transcription (`workflow.md` §1.4). If one scan is
    inadequate another IA scan of the same edition may be used.
-2. **No digital text elsewhere.** No version of the book's text is on the Internet other than IA's own OCR and
-   brief excerpts. Raw-OCR page-image services (HathiTrust, Google Books) do not count as a text edition.
+2. **No digital reading edition elsewhere.** No free text of the book made for reading is on the Internet: Project
+   Gutenberg, Wikisource, Faded Page, A Celebration of Women Writers, or any other site that offers the whole text
+   as a readable edition (web pages, EPUB and the like). Brief excerpts do not count. Nor do (Tom, 2026-11-20):
+   - raw OCR, alone or behind page images (IA's own, HathiTrust, Google Books, the Qatar Digital Library);
+   - texts in **subscription library databases** (Alexander Street, Adam Matthew, Gale and the like);
+   - texts in **online scholarly databases not formatted for immersive reading**, such as EEBO-TCP, ECCO-TCP and
+     Evans-TCP, even where they are free.
+   Record such a text in the queue row's `eligibility` when one is found; it is not a reason to reject the book.
 3. **Not reprinted.** No edition in print after 1914, other than brief excerpts. Print-on-demand reprints of
    the scan (Kessinger, Forgotten Books, Palala, Nabu, Wentworth, HardPress, Franklin Classics, BiblioLife,
    Creative Media Partners, Legare Street, Hansebooks, Sagwan, CreateSpace replicas and the like) do not
@@ -41,9 +47,9 @@ other book all five rules stand.
   Gutenberg and many other free editions; a listing that points only to page images does not disqualify.
 - **Wikisource**: title and author search; an index page with no pages transcribed does not disqualify, but
   note it and look again before starting.
-- **Faded Page / Distributed Proofreaders Canada** author list; **A Celebration of Women Writers**; for books
-  before 1800, the **Text Creation Partnership** sets (EEBO-TCP, ECCO-TCP, Evans-TCP) — they cover nearly every
-  seventeenth-century English travel book.
+- **Faded Page / Distributed Proofreaders Canada** author list; **A Celebration of Women Writers**. For books before
+  1800 the **Text Creation Partnership** sets (EEBO-TCP, ECCO-TCP, Evans-TCP) cover nearly every seventeenth-century
+  English travel book: a TCP text does not rule a book out (rule 2), but note it in the row.
 - **A web search** of a distinctive sentence from the book (in quotation marks), which finds texts on small
   sites.
 - **Reprints**: Open Library, a web search of title + author + "reprint"/"edition"; WorldCat when reachable.
