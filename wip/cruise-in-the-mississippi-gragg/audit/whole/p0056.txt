@@ -1,5 +1,0 @@
-{"given": "Joseph D. Boss; wardroom cook", "print": "Joseph D. Boss, wardroom cook", "sure": "high"}
-{"given": "They also made prcparations to attack", "print": "They also made preparations to attack", "sure": "high"}
-{"given": "and also Admiral Seymor, both of", "print": "and also Admiral Seymour, both of", "sure": "high"}
-{"given": "of his subjects to he put", "print": "of his subjects to be put", "sure": "high"}
-{"given": "hard cash was found a room", "print": "hard cash was found in a room", "sure": "high"}

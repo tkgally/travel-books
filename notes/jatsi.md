@@ -88,6 +88,7 @@ Do each work once and say on the queue row which entries it covers.
 
 | Date | What |
 |---|---|
+| 2026-11-20 | Third JATSI book published: *A Cruise in the U.S. Steam Frigate Mississippi* (n 14; Gragg, 1860), LoC scan with the cut last page from the UC (Google) scan. Romanized names as printed (Nangasaki, Simoda, Hakodadi, Jeddo, Kanagarva); no Japanese script. Next due: two other books, then JATSI. |
 | 2026-11-20 | Second JATSI book published: *On Short Leave to Japan* (n 98), from the UC scan (500 ppi; the Cornell scan JATSI links not needed). No Japanese script in the text (some on a signboard in one photograph). Next due: two other books, then JATSI. |
 | 2026-11-20 | First JATSI book published: *Rambles through Japan without a Guide* (n 86). One leaf missing from the UC scan, supplied from the Michigan (Google) scan; its engraving is blank there and is left out. Next due: two other books, then JATSI. |
 | 2026-11-20 | Tom's answers: the pace confirmed; rule 5 lifted for JATSI; Gutenberg and non-narrative books lower priority but to be done, afresh; round-the-world books by the general criteria. Eight more rows queued (Sheldon, Kothari, Swainson, Davidson, Fisher, Murray, McLean, Bickersteth): 21 in all. |

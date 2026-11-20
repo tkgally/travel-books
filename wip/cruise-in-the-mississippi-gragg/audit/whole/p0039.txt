@@ -1,5 +1,0 @@
-{"given": "A Japanese lass; of sixteen summers", "print": "A Japanese lass, of sixteen summers", "sure": "high"}
-{"given": "It is admitted by everyone who", "print": "It is admitted by every one who", "sure": "high"}
-{"given": "perfect nudity, entircly unconcerned as to", "print": "perfect nudity, entirely unconcerned as to", "sure": "high"}
-{"given": "would weigh down three a half Japan", "print": "would weigh down three and a half Japan", "sure": "high"}
-{"given": "characters stamped upcn if. All who", "print": "characters stamped upcn it. All who", "sure": "high"}

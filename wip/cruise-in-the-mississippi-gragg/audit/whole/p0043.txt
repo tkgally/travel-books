@@ -1,5 +1,0 @@
-{"given": "very arrogant and dcspotic sort of man", "print": "very arrogant and despotic sort of man", "sure": "high"}
-{"given": "stay to make fore part of", "print": "stay to make the fore part of", "sure": "high"}
-{"given": "is in the center of the city", "print": "is in the centre of the city", "sure": "high"}
-{"given": "my second visit or shore", "print": "my second visit on shore", "sure": "high"}
-{"given": "Japanese, young and old; anxious to", "print": "Japanese, young and old, anxious to", "sure": "high"}

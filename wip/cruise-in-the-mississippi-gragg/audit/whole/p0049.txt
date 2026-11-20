@@ -1,5 +1,0 @@
-{"given": "during one my visits on shore", "print": "during one of my visits on shore", "sure": "high"}
-{"given": "finished my notes, be spoke to", "print": "finished my notes, he spoke to", "sure": "high"}
-{"given": "If minister Reed or Lord", "print": "If Minister Reed or Lord", "sure": "high"}
-{"given": "large numbers of Japanese; who closely", "print": "large numbers of Japanese, who closely", "sure": "high"}
-{"given": "caps also attractcd their attention.", "print": "caps also attracted their attention.", "sure": "high"}

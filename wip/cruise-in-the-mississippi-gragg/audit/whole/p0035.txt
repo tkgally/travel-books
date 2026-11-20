@@ -1,5 +1,0 @@
-{"given": "harbor of Nangasaki belongs the good old", "print": "harbor of Nangasaki belongs to the good old", "sure": "high"}
-{"given": "sink all the surroundiug beautiful hills", "print": "sink all the surrounding beautiful hills", "sure": "high"}
-{"given": "Our sick-list bad now swelled", "print": "Our sick-list had now swelled", "sure": "high"}
-{"given": "by Captain nicholson, in the shape", "print": "by Captain Nicholson, in the shape", "sure": "high"}
-{"given": "Count Poutatain on board; arrived, when", "print": "Count Poutatain on board, arrived, when", "sure": "high"}
