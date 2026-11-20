@@ -1,5 +1,0 @@
-{"given": "to which everyone gives a push", "print": "to which every one gives a push", "sure": "high"}
-{"given": "they are usually sound slowly revolving", "print": "they are usually found slowly revolving", "sure": "high"}
-{"given": "side of the hall assembly from", "print": "side of the hall of assembly from", "sure": "high"}
-{"given": "are images of the gods; and upon", "print": "are images of the gods, and upon", "sure": "high"}
-{"given": "be “heard for their much spcaking.”", "print": "be “heard for their much speaking.”", "sure": "high"}

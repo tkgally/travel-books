@@ -1,5 +1,0 @@
-{"given": "Meanwhile recitations still continued; the only", "print": "Meanwhile the recitations still continued; the only", "sure": "high"}
-{"given": "passed it through his hands; and from", "print": "passed it through his hands, and from", "sure": "high"}
-{"given": "clashed by their mauipulator.", "print": "clashed by their manipulator.", "sure": "high"}
-{"given": "where I sound similar services", "print": "where I found similar services", "sure": "high"}
-{"given": "these in the center of the city", "print": "these in the centre of the city", "sure": "high"}

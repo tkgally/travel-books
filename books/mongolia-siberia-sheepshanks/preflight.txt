@@ -1,0 +1,41 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[       ok] audit: book.json records the sampled audit of this version
+[ look (5)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0058: …ed, being over-|spent, would co… (hyphen removed; check)
+            - hyphen join at p0075: … in the succes-|sive Dalai-Lama… (hyphen removed; check)
+            - hyphen join at p0078: …ll the ecclesi-|astical affairs… (hyphen removed; check)
+            - hyphen join at p0193: … at one's matu-|tinal ablutions… (hyphen removed; check)
+            - (and 5 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[ look (6)] contents: entries of the printed contents with no matching heading
+            - p0014: 'Elasticity of Buddhism—Its assimilating power—The great Lama, the Khut'
+            - p0014: 'Description of various temples—Finery and ornaments of a Mongolian wom'
+            - p0014: 'Kiachta and its miracle-working icon—A predicament—The Selenga—Rowing '
+            - p0015: 'The old heathen superstition—Nature-worship and demonolatry—“Heaven”—“'
+            - p0015: 'from lake baikal to the ural mountains'
+            - p0015: 'Mgr. Benjamin—The Anglican and Orthodox Churches—The “Puseyites”—Bisho'
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
+[ look (2)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - charge: charge (p0018, p0077, p0141, p0148, p0186); chargé (p0141)
+            - shakyamuni: shakyamuni (p0056); shakyamúni (p0075, p0091, p0098, p0116, p0129)
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight PASS: mongolia-siberia-sheepshanks v1 — 0 to fix, 7 waived; to look at: hyphen-joins 5, contents 6, accents 2 — tools@db27f54 2026-11-20
