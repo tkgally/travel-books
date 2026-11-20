@@ -1,10 +1,3 @@
 [[page ?]]
 
-[[image: coastal profile, low distant land along the horizon rising to a rocky headland at the right]]
-[[caption]] <i><sc>Cape Mac</sc></i>
-
-[[image: coastal profile of a mountainous headland seen across the sea, with more hills at the right]]
-[[caption]] <i><sc>Cape Macartney,</sc> bearing West by North, distant 3 or 4 leagues.</i>
-
-[[image: view of a walled city on the shore below hills, with junks and a ship at anchor in the foreground]]
-[[caption]] <i><sc>View</sc> of the <sc>City</sc> of TEN-TCHOO-FOO from the anchorag</i>
+[[image: Left half of a folding plate of five coastal views: the coast near Cape Macartney, Cape Macartney, and the city of Ten-tchoo-foo from the sea]]

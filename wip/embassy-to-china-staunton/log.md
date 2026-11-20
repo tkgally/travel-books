@@ -8,36 +8,28 @@ Macartney 1737–1806, Gower 1742–1814, William Alexander 1767–1816). The bo
 included as an exception (queue note).
 
 ## Status
-Stage reached (end of session 1, 2026-11-20): **draft (Opus), corrections (Sonnet), judge (Opus) done on all 1,321
-leaves**; `pages/` made from `judge/`; running quotation marks taken out of `pages/` (`running_quotes.py --apply`:
-248 on 67 pages, listed in `running-quotes.txt`). Drive cache complete; illustrations cropped. Nothing half-finished.
-**Next: step 3 below (scan checks), then structure.** Steps 1–2 are done.
-Next steps (exact commands; `$B` = scratchpad dir with page images: `python3 tools/drive_cache.py fetch
-wip/embassy-to-china-staunton/source.json $B/pages`):
-1. Finish any draft pages missing (resumable; skips done pages):
-   `python3 tools/ocr_claude.py --model opus --prompt prompts/transcribe.md --images $B/pages --out $W/draft --pages 3003-3110 --halves --workers 8`
-   and for p1008a, p2029a, p2029b (put only those three images in a directory of their own: `--pages 1008` would
-   also take the hidden tissue leaf p1008), then `python3 tools/normalize.py $W/draft`.
-2. Sonnet pass on every drafted page (resumable): `python3 tools/ocr_claude.py --model sonnet --prompt
-   prompts/verify.md --images $B/pages --out $W/verify --corrections --context-text $W/draft --workers 8`
-   (with no `--pages` it takes every image; the hidden leaves and covers have no draft — check that it skips them,
-   or pass the list: vol. I/II leaves in `draft/`), then normalize, `review.py`, `judge.py` (workflow §3).
-3. Scan checks: `judge/report.txt` (56 spots, on crops; above all the side-note placements the judge moved, page
-   numbers on the plates, p1322 "but"/"butt", p2095 "Col-lao"); the 7 corrections not applied in `review.py`'s list
-   (p1316, p1410, p1512, p2009, p2029a, p2054, p2593); a sample of `running-quotes.txt` on crops; the singleton side-note variants (p1268, p1467, p2073, p2128, p2161, p2215,
-   p2380, p2447, p2478, p2510: printed so, or misread?); tables (p1330, p1500, p2649–p2660, the plant lists).
-3a. Multi-paragraph quotations (Tom 2026-11-20, `style.md`): find quotations of several paragraphs (a paragraph
-   ending ” followed by one starting “ that goes on with the same quotation; the printed contents and the scan settle
-   it); drop the inner closing marks, supply missing inner opening marks. Say in `notes_on_text` that the quotation
-   marks follow modern practice.
-4. Structure: two volumes as parts (`# Volume I` …), contents, divisions (front matter, lists of plates,
-   appendix), placement of the folio plates (decide: a part of its own after vol. II, each plate with its
-   engraved caption, the vol. I "List of the Plates" kept as their description — leaning, assumed).
-5. Plate pages (p3xxx): several plates have their caption in more than one `[[caption]]` line (the two halves of
-   folding plates, and engraver/publisher lines such as "Ellis sculpt.", "Published … by G. Nicol"): one
-   `[[caption]]` per image (lessons, plates); decide whether imprint lines are kept (they are lettering on the
-   plate, not a caption: leaning, leave them out as with other books' plates, assumed). Check "Wesern Gates" (p3058)
-   on the plate.
+Stage reached (end of session 2, 2026-11-20): scan checks, structure, plate pages and metadata done; preflight
+**FAIL only on `audit`** (everything else ok or a reviewed look list: the 31 `joins` are all real continuations — page
+tops are flush, checked on the scan; the 27 `contents` items are the printed chapter summaries, false alarms; the
+`folios` items are the vol. II restart and plate numbers). Tables checked on the scan by an Opus subagent (see
+Decisions). Nothing half-finished.
+**Next (session 3):**
+0. Tables (Opus subagent, session 2; full report summarized here): fixed p2219/p2223 running marks in rows, p2658
+   1793 Dutch 2,938,530 (column total agrees), p2659 Bohea 3¾d. (arithmetic agrees). **Still to do on the scan:**
+   p2658 (the tea-ships table): the 1784 and 1785 columns are shifted by a row (1784: French 8/4,231,200, Imperial
+   5/3,428,400, Hungarian blank; 1785: Danes 4/3,158,000, Dutch 4/5,334,000, French 4/4,960,000, Portugueze
+   4/3,199,000, American 2/880,100, Swedes blank); 1791 Prussian 3/743,100 and Genoese 1/260 (not American, Spanish);
+   1792 Prussian 1/5,070, Spanish 1/—; 1793 Tuscan 1/393,870 (not Portugueze); Tuscan dashes vs Portugueze blanks
+   1786–92. Consider transposing p2658 (21 columns) to one row per year. Layout: p2303 plant list as a two-column
+   table like p2302/p2304; p2650 bracket of Siou-jou and Cho-tao (3,000 each, 402,000 together). The printer's own
+   sums (p2650 470,870; p2653; p2657; p2659 1787 bullion) are left as printed.
+1. Plates without a caption (maps and charts, folding halves: p3007/8, p3015/16, p3018, p3021/22, p3028, p3031/32,
+   p3035/36, p3039/40, p3064): read the engraved title on the plate and give the second half (or the single leaf) one
+   `[[caption]]` with it, as done for p3025/26; the vol. I "List of the Plates" (p1025–p1039) helps to read them.
+   Check "Wesern Gates" (p3058) on the plate.
+2. Preflight; rendered look (book page, a vol. I chapter, a vol. II chapter with engravings, appendix tables, plates;
+   narrow and wide); audit (`audit_sample.py --n 6`, every candidate on a crop), record in book.json.
+3. `site/about.md`: say that this book is an exception to the rules (queue note); then publish (workflow §8).
 
 ## Leaf naming (several IA items in one book)
 Vol. I IA leaf k = page file `p1000+k` (p1068 = IA leaf 68 = printed vol. I p. 24); vol. II IA leaf k = `p2000+k`;
@@ -94,6 +86,29 @@ cannot be separated). Say in `notes_on_text` which pictures come from the Getty 
   stands beside; the rule is not transcribed. In the JSON; left out of the editions (Tom).
 - Printing: Bulmer's types, no long s, no catchwords seen so far; old spellings (enterprize, expence, mandarines,
   tho) are kept as printed.
+
+- Session 2 scan checks (2026-11-20): judge spots and review list looked at on crops. Fixed: p1259 "stalks," (the
+  judge's ";" was wrong), p1217 and p1397, p2528 folios (broken types: 173, 353, 496), p1437 "rcceived" marked
+  `[[corr]]`, p2054 comma, p2009 "His Majesty's", p2095 "Colao" and p1503 "Chu-san" (line-end hyphens), italics on
+  p2029a. Kept as printed: p1322 "but" (= butt), the ten one-off side-note forms (missing hyphens/stops are the print's).
+- Side-notes always stand beside the first line of the page; three placed mid-line were moved to the line start.
+- Quotations in this book: no inner closing marks were found (paragraphs already follow modern practice). Running
+  marks also stood at the start of every table row of quoted tables (p2217–p2225, Parish's survey of the Great Wall):
+  66 removed (`running-quotes.txt`, "table row"); the centred lines of p2217 are paragraphs and keep their marks
+  (assumed).
+- `<blockquote>` on 21 page tops (drafts set the continuation of a running-quoted passage as a block quotation): the
+  book does not set quotations off, so removed; the pages join their paragraphs.
+- Structure: printed contents pages made plain lines (chapter number and title `[[center]]`, summary paragraph);
+  parts "Volume I" (p1045, the printed head "Embassy to China." stays under it), "Volume II" (p2029b), "The Folio Volume
+  of Plates" (p3007, title mine); the Appendix stands after Volume II at the top level of the contents; `toc.subtitles
+  all` (the printed contents give every chapter's title). One frontispiece per volume (`frontispiece` is now a list:
+  compiler change with a test): Qianlong before the Advertisement, Macartney at the head of Volume II.
+- Folding plate p3025/26 (five coastal views): one image per half, the five captions as one `[[caption]]` on the
+  second half; "[e of]" supplied in brackets where the fold strip is lost (assumed). Engravers' and publishers' lines
+  left out (assumed, said in `notes_on_text`). p2141 and p3010 hold two pictures each: two `[[image]]`s.
+- `running-quotes.txt`: 6 random entries looked at on crops (p1150, p1198, p1364, p1410, p2219, p2483): all are
+  repeats at a printed line start.
+- `keep_hyphens`: p1032 (Cou-pe-koo), p1105 (pratique-boat, assumed), p1194, p1364, p1525.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |

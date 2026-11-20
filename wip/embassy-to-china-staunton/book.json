@@ -53,6 +53,12 @@
      671
     ],
     "label": "Volume II"
+   },
+   {
+    "ia_identifier": "gri_33125008481562",
+    "first_leaf": "p3000",
+    "hidden_leaves": [],
+    "label": "the Volume of Plates"
    }
   ],
   "extra_leaves": {
@@ -88,5 +94,106 @@
    "note": "First publication."
   }
  ],
- "edition_statement": "First edition, in two quarto volumes with a folio volume of plates"
+ "edition_statement": "First edition, in two quarto volumes with a folio volume of plates",
+ "divisions": [
+  {
+   "at": "p1008a",
+   "kind": "front"
+  },
+  {
+   "at": "p1009",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p1011",
+   "kind": "preface"
+  },
+  {
+   "at": "p1013",
+   "kind": "contents"
+  },
+  {
+   "at": "p1025",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p1040",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p1045",
+   "n": 1,
+   "kind": "part",
+   "title": "Volume I"
+  },
+  {
+   "at": "p2008",
+   "kind": "front",
+   "title": "Front matter of Volume II"
+  },
+  {
+   "at": "p2009",
+   "kind": "titlepage",
+   "title": "Title page of Volume II"
+  },
+  {
+   "at": "p2011",
+   "kind": "contents"
+  },
+  {
+   "at": "p2029b",
+   "n": 1,
+   "kind": "part",
+   "title": "Volume II"
+  },
+  {
+   "at": "p2649",
+   "kind": "appendix"
+  },
+  {
+   "at": "p3007",
+   "kind": "part",
+   "title": "The Folio Volume of Plates"
+  }
+ ],
+ "frontispiece": [
+  "p1008a-1",
+  "p2008-1"
+ ],
+ "toc": {
+  "subtitles": "all"
+ },
+ "keep_hyphens": [
+  "p1032",
+  "p1105",
+  "p1364",
+  "p1525",
+  "p1194"
+ ],
+ "regions": [
+  "China",
+  "Portugal (Madeira)",
+  "Spain (Canary Islands)",
+  "Cape Verde",
+  "Brazil",
+  "Tristan da Cunha",
+  "Île Amsterdam",
+  "Indonesia",
+  "Vietnam",
+  "Saint Helena"
+ ],
+ "period": "1792–94",
+ "summary": [
+  "Sir George Staunton (1737–1801) was secretary to the first British embassy to China, led by George, Earl Macartney, which sailed from Portsmouth in September 1792 in HMS Lion and the East India Company’s ship Hindostan, to seek wider trade with China. This official account, compiled by Staunton chiefly from Macartney’s papers, describes the voyage by Madeira, Rio de Janeiro, Java and Cochin-China to the Yellow Sea.",
+  "The second volume covers the journey up the Pei-ho to Beijing, the audience with the Emperor at Jehol beyond the Great Wall, and the overland journey by the Grand Canal to Hangzhou and Canton, with the return home by St Helena in 1794. There is much on Chinese government, farming, plants and trade, and an appendix of tables of population, revenue and the tea trade. The folio volume of plates (many from drawings by William Alexander, the embassy’s draughtsman) is included."
+ ],
+ "omitted_from_reading": "The title pages, the printed contents of both volumes and the lists of plates and engravings are in the JSON only. The marginal notes (short titles printed beside the first line of most pages) are in the JSON only.",
+ "notes_on_text": [
+  "This book is included as an exception to the project’s usual rules, at the project owner’s choice: it has later reprints and other digital texts exist, and it was compiled by Staunton from Macartney’s and others’ papers rather than written as a plain first-person narrative.",
+  "The two quarto volumes are from the University of California copy and the folio volume of plates from the Getty Research Institute copy. Three leaves missing from the University of California copy are taken from the Getty copy of the same edition: the frontispiece of the first volume (the portrait of the Emperor), page xx of the contents of the second volume, and page 1 of its text. The pictures of the frontispiece of the second volume (Lord Macartney) and of the plate “Camellia Sesanqua” are also from the Getty copy, because they are cut off at the edge in the other.",
+  "The printer repeated the opening quotation mark at the start of every line of a quotation; these repeated marks are left out, and the quotation marks follow modern practice, as they do in all the books on this site.",
+  "Folding plates were photographed in two halves and are shown so. In the plate of five coastal views with Cape Macartney and the city of Ten-tchoo-foo a narrow strip at the fold is missing from the scan; the two letters “e of” lost there are supplied in square brackets in its caption.",
+  "Engravers’ and publishers’ lines on the plates (“Ellis sculpt.”, “Published … by G. Nicol”) are not transcribed.",
+  "The leaves of pages 423–426 of the first volume are bound out of order in the scanned copy; they are read here in the right order."
+ ]
 }

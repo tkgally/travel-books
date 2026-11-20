@@ -3,13 +3,13 @@
 [[side: View of the great Wall.]] “The towers incorporated with the great wall are distant from each other about one hundred yards; but as the plan of the wall is a curve line, this distance estimated by that line is variously, and sometimes considerably increased; when greater strength was required, they are sometimes more frequent. Their dimensions and constructions, and the positions they hold with respect to the wall, also vary considerably with their situations. The first of those which was examined consisted of one story upon a level with the terrepleine of the wall; and above this, a parapet nearly similar to that of the wall. It had three embrasures or ports below in each front, and two in each front of the parapet of its platform. Its dimensions were as follow:
 
 | | Feet. | Inches. |
-| “Length of each side of the square at the base | 40 | 0 |
-| “Length of each side at the top | 30 | 0 |
-| “Height of its stone base | 4 | 0 |
-| “Height of the brick wall from the stone base to the cordon | 28 | 4 |
-| “From the cordon to the top of the parapet | 5 | 0 |
-| “Total height of the tower | 37 | 4 |
-| “Width of the lower embrasures or ports | 3 | 0 |
-| “Their height | 3 | 0 |
+| Length of each side of the square at the base | 40 | 0 |
+| Length of each side at the top | 30 | 0 |
+| Height of its stone base | 4 | 0 |
+| Height of the brick wall from the stone base to the cordon | 28 | 4 |
+| From the cordon to the top of the parapet | 5 | 0 |
+| Total height of the tower | 37 | 4 |
+| Width of the lower embrasures or ports | 3 | 0 |
+| Their height | 3 | 0 |
 
 “The embrasures of the parapet were of the same dimensions as those of the wall.

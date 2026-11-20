@@ -4,14 +4,16 @@
 
 [[right]]<i>page</i> <pref>1</pref> <i>to</i> <pref>29</pref>.
 
-# Chapter II.
-[[subtitle]] Preparations for the Embassy.
+[[center]] Chapter II.
+
+[[center]] Preparations for the Embassy.
 
 <i>Thoughts on patronage—safely exercised in favour of popular characters—instanced in the case of Lord Macartney—his conduct in former situations—appointed Embassador to China.—All the persons composing the Embassy recommended by him—names, qualifications, and stations of most of them—difficulty of filling up the appointment of interpreter—two Chinese qualified for that purpose found at Naples, and brought to England.—Interpreters useful in the selection of presents for the Emperor—nature of them.—Intention of the Embassy announced in a letter from the Chairman of the East India Company, sent by Commissioners to Canton—extract of that letter—false alarm taken at the secret views of the Embassy by one of the diplomatic corps.—Real intent of such mission, as appears in his Majesty's private instructions to his Embassador—also in his letter to the Emperor of China.—Discretionary powers given to the Embassador to visit other countries in the East.—All the persons belonging to the Embassy meet at Portsmouth in readiness to embark—their general disposition.</i>
 
 [[right]]<i>page</i> <pref>30</pref> <i>to</i> <pref>52</pref>.
 
-# Chapter III.
-[[subtitle]] Passage to Madeira. Notices of That Island.
+[[center]] Chapter III.
+
+[[center]] Passage to Madeira. Notices of That Island.
 
 <i>Ships sail from Portsmouth—Jackall tender separated from them—are forced to anchor in Torbay.—Conveniences experienced in large ships—reflections on the situation of passengers at sea—sea-sickness—</i>

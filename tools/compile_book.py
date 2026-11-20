@@ -421,15 +421,18 @@ def compile_pages(cfg, pages, images=None):
 
     # frontispiece (book.json "frontispiece": "p0010-1"): the image is moved from the front matter to the start of
     # the first reading division, so the reading editions show it (style.md, "What goes where")
-    if cfg.get("frontispiece"):
-        want = "images/" + (images or {}).get(cfg["frontispiece"], cfg["frontispiece"] + ".jpg")
-        first = next((d for d in divs if d["reading"]), None)
-        src = next(((d, b) for d in divs if not d["reading"] for b in d["blocks"] if b["type"] == "image" and b["src"] == want), None)
-        if first is None or src is None:
-            warn(f"frontispiece {cfg['frontispiece']!r}: no such image outside the reading divisions")
+    # A list (one per volume of a work in several volumes): each goes to the first reading division after it.
+    fronts = cfg.get("frontispiece") or []
+    for fr in ([fronts] if isinstance(fronts, str) else fronts):
+        want = "images/" + (images or {}).get(fr, fr + ".jpg")
+        src = next(((i, d, b) for i, d in enumerate(divs) if not d["reading"] for b in d["blocks"]
+                    if b["type"] == "image" and b["src"] == want), None)
+        first = None if src is None else next((d for d in divs[src[0]:] if d["reading"]), None)
+        if first is None:
+            warn(f"frontispiece {fr!r}: no such image outside the reading divisions")
         else:
-            src[0]["blocks"].remove(src[1])
-            first["blocks"].insert(0, src[1])
+            src[1]["blocks"].remove(src[2])
+            first["blocks"].insert(0, src[2])
 
     # entries of the contents inside a division (book.json "toc_entries", notes/book-json.md): the printed contents'
     # titles of sections whose headings are shorter, or the editor's own entries (spans of dates and places in a
