@@ -92,12 +92,13 @@ def is_jatsi(b):
     return b.get("collection") == "jatsi" or b.get("from") == "jatsi"
 
 
-def book_line(b, href, root=""):
+def book_line(b, href, root="", mark=True):
+    """mark=False: without the mark of a JATSI book (on the JATSI page, where it would say what the page says)."""
     a = rh.authors_text(b)
     meta = [esc(", ".join(b.get("regions", [])))] if b.get("regions") else []
     if b.get("period"):
         meta.append(esc(b["period"]))
-    if is_jatsi(b):
+    if mark and is_jatsi(b):
         meta.append(jatsi_label(root))
     return (f'<li><a href="{attr(href)}"><cite>{esc(b.get("short_title") or b["title"])}</cite></a>, {esc(a)} ({b.get("year", "")})'
             + (f'<br/><span class="meta">{" · ".join(meta)}</span>' if meta else "") + "</li>")
@@ -120,15 +121,15 @@ def journey_year(b):
     return int(m.group(1)) if m else int(b.get("year") or 0)
 
 
-def books_ul(bs):
-    return '<ul class="books">' + "\n".join(book_line(b, f"books/{b['id']}/index.html") for b in bs) + "</ul>"
+def books_ul(bs, mark=True):
+    return '<ul class="books">' + "\n".join(book_line(b, f"books/{b['id']}/index.html", mark=mark) for b in bs) + "</ul>"
 
 
-def queue_line(x):
+def queue_line(x, mark=True):
     return (f'<li><cite>{esc(inline.smart_quotes(x["title"]))}</cite>, {esc(inline.smart_quotes(x.get("author", "")))} ({x.get("year", "")})'
             + (' <span class="meta">— in progress</span>' if x["status"] == "in progress" else "")
             + (f' <span class="meta"><a href="https://archive.org/details/{attr(x["ia"])}">scan</a></span>' if x.get("ia") else "")
-            + (f' <span class="meta">· {jatsi_label()}</span>' if is_jatsi(x) else "") + "</li>")
+            + (f' <span class="meta">· {jatsi_label()}</span>' if mark and is_jatsi(x) else "") + "</li>")
 
 
 def build_index(out, books, queue):
@@ -251,9 +252,9 @@ like the rest. All were published before 1914 and are in the public domain in th
 author died less than 70 years ago, so that the book may still be in copyright in some other countries, its page says so.
 The texts are transcribed and checked in the same way as all the others.</p>
 <h2 id="published">On this site</h2>
-{books_ul(sorted(done, key=sort_key)) if done else '<p>None yet.</p>'}
+{books_ul(sorted(done, key=sort_key), mark=False) if done else '<p>None yet.</p>'}
 <h2 id="queue">In the queue</h2>
-{f'<ul class="books">{chr(10).join(queue_line(x) for x in waiting)}</ul>' if waiting else '<p>None.</p>'}
+{f'<ul class="books">{chr(10).join(queue_line(x, mark=False) for x in waiting)}</ul>' if waiting else '<p>None.</p>'}
 <h2 id="list">The whole list</h2>
 <p>In the order of the original list, by year of publication of the copy listed there. The links go to the scans at the
 Internet Archive.</p>

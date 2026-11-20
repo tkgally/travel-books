@@ -729,6 +729,10 @@ class SiteLists(unittest.TestCase):
         self.assertNotIn("Elsewhere", h)
         self.assertLess(h.index('id="y1860"'), h.index('id="y1875"'))
         self.assertIn("list of 3 books", h)
+        # on this page the books do not carry the mark "JATSI (about)": it would say what the page says (Tom, 2026-11-20)
+        self.assertIn("Journey 1", h)
+        self.assertNotIn(">JATSI</a>", h)
+        self.assertNotIn(">about</a>", h)
 
     def test_book_page_says_why_a_jatsi_book_is_here(self):
         book, _ = comp(["[[page 1]]\n# ONE\n\nText."], collection="jatsi")
