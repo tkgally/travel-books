@@ -13,7 +13,7 @@
   }
  ],
  "place": "London",
- "publisher": "G. Nicol",
+ "publisher": "Printed by W. Bulmer and Co. for G. Nicol",
  "year": 1797,
  "volumes": 3,
  "source": {
@@ -32,7 +32,8 @@
      571,
      572,
      573
-    ]
+    ],
+    "label": "Volume I"
    },
    {
     "ia_identifier": "authenticaccount02stau",
@@ -50,7 +51,8 @@
      669,
      670,
      671
-    ]
+    ],
+    "label": "Volume II"
    }
   ]
  },
@@ -68,5 +70,6 @@
    "date": "2026-11-20",
    "note": "First publication."
   }
- ]
+ ],
+ "edition_statement": "First edition, in two quarto volumes with a folio volume of plates"
 }

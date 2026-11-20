@@ -614,6 +614,15 @@ class Volumes(unittest.TestCase):
         pages = [(f"p{n:04d}", "") for n in list(range(1001, 1007)) + list(range(1008, 1011)) + list(range(2001, 2024)) + [2026, 2028]]
         self.assertEqual(preflight.check_leaves(pages, items=items), ["p2027: no page file"])
 
+    def test_book_page_lists_every_item(self):
+        src = copy.deepcopy(self.SRC)
+        src["items"][0]["label"], src["items"][1]["label"] = "Volume I", "Volume II"
+        book = {"id": "t", "title": "T", "version": 1, "date": "d", "source": src, "pages": [], "divisions": []}
+        x = build_site.book_page(book, {})
+        self.assertEqual(x.count("<iframe"), 2)
+        self.assertIn("The scan of Volume II at the Internet Archive", x)
+        self.assertIn('archive.org/embed/vol2', x)
+
     def test_leaf_order(self):
         pages = [(f"p{n}", n) for n in (1466, 1467, 1468, 1469, 1470, 1471)]
         out = compile_book.apply_leaf_order(pages, [["p1469", "p1470", "p1467", "p1468"]])

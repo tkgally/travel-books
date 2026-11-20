@@ -204,16 +204,23 @@ def book_page(book, names, has_cover=False):
     row("Places", esc(", ".join(book.get("regions", []))))
     row("Time of the journey", esc(book.get("period", "")))
     row("Subjects", esc("; ".join(book.get("subjects", []))))
-    if ia:
-        row("Scan", f'<a href="https://archive.org/details/{attr(ia)}">archive.org/details/{esc(ia)}</a>'
+    # a work in several IA items (book.json source.items, each with a "label" such as "Volume I")
+    scans = [(it["ia_identifier"], it.get("label", "")) for it in src.get("items", [])] if len(src.get("items", [])) > 1 else \
+        ([(ia, "")] if ia else [])
+    if scans:
+        row("Scan" if len(scans) == 1 else "Scans",
+            "; ".join((f"{esc(lab)}: " if lab else "") + f'<a href="https://archive.org/details/{attr(i)}">archive.org/details/{esc(i)}</a>'
+                      for i, lab in scans)
             + (f', from {esc(src["contributor"])}' if src.get("contributor") else ""))
     row("This edition", f'version {book["version"]}, {esc(book["date"])}')
     summary = book.get("summary", "")
     summary = [summary] if isinstance(summary, str) else summary
     npages = sum(1 for p in book["pages"] if not p["blank"])
     first = names[rh.reading_divisions(book)[0]["id"]] if rh.reading_divisions(book) else None
-    viewer = (f'<details class="viewer"><summary>Look through the scanned pages here</summary>'
-              f'<iframe src="https://archive.org/embed/{attr(ia)}" title="Scanned pages of the book at the Internet Archive" loading="lazy" allowfullscreen=""></iframe></details>') if ia else ""
+    viewer = "".join(
+        f'<details class="viewer"><summary>Look through the scanned pages{" of " + esc(lab) if lab else ""} here</summary>'
+        f'<iframe src="https://archive.org/embed/{attr(i)}" title="Scanned pages of the book{" (" + esc(lab) + ")" if lab else ""} at the Internet Archive" loading="lazy" allowfullscreen=""></iframe></details>'
+        for i, lab in scans)
     corr = book.get("corrections", [])
     pnum = {p["leaf"]: p["number"] for p in book["pages"]}
     corr_rows = "".join(
@@ -232,7 +239,7 @@ def book_page(book, names, has_cover=False):
 <li><a href="{slug}.odt" download="">ODT</a> for word processors</li>
 <li><a href="{slug}.json">JSON</a>: the complete transcription, including the parts left out of the other versions
 (<a href="../../json-format.html">format</a>)</li>
-{f'<li><a href="https://archive.org/details/{attr(ia)}">The scan at the Internet Archive</a></li>' if ia else ''}
+{"".join(f'<li><a href="https://archive.org/details/{attr(i)}">The scan{" of " + esc(lab) if lab else ""} at the Internet Archive</a></li>' for i, lab in scans)}
 </ul>
 {viewer}
 <h2 id="contents">Contents</h2>
