@@ -1,3 +1,0 @@
-The top-right corner shows "21".
-
-{"n": 1, "is": "A", "print": "[[page 21]]", "sure": "high"}

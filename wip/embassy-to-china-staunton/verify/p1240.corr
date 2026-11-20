@@ -1,7 +1,0 @@
-{"find": "Embassador’s band", "replace": "Embassador’s band"}
-
-Wait — the scan reads "Embassador’s", so that matches. Corrections:
-
-{"find": "manœuvres", "replace": "manœuvres"}
-
-NONE

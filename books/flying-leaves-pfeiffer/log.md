@@ -7,10 +7,7 @@ books); web searches of the title and of a sentence from p. 73 ("The hotel—in 
 observatory in the howdah") find no text and no edition. Emily Pfeiffer 1827–1890 (Welsh-born poet).
 
 ## Status
-**Ready to publish version 2** (2026-11-19, contents redesign, `notes/errata.md`): the two part titles ("From the East", "From the West") are now parts and the Leaves nest under them in the contents (compiler fix); each Leaf's entry adds, in the editor's words, its places or subject (Tom asked, 2026-11-19; book.json `divisions` `toc_title`); every edition gets a generated contents (the ODT for the first time). Preflight PASS on
-the branch of that work; this session changed the `conservation` check (the ODT's contents list), so the
-next session publishes: `workflow.md` §"New version" (version, date, history, audit record copied, preflight,
-`publish.py`, Versions row, metrics row), after a rendered look at the book page's contents.
+**Published, version 2, 2026-11-19** (contents redesign, `notes/errata.md`): the two part titles ("From the East", "From the West") are now parts and the Leaves nest under them in the contents (compiler fix); each Leaf's entry adds, in the editor's words, its places or subject (Tom asked, 2026-11-19; book.json `divisions` `toc_title`); every edition gets a generated contents (the ODT for the first time).
 **Published, version 1, 2026-11-19.** The five leaves refused by the output filter (p0116–p0118, p0128–p0129) came by
 `ocr_fallback.py` and went through stage 3 in a scratch directory: Sonnet corrections pass, no change proposed on any of
 them, so 0 spots for the judge; the session compared all five with the scan (reading only): they agree, apart from the

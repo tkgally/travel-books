@@ -94,6 +94,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 - Each appendix as `## I. Title` in one Appendix division: `[[subtitle]]` after `##` renders as a plain paragraph.
 - Drafts type running heads ("APPENDIX.") as `#` headings on every page: list all `#` lines and delete them.
+- Wide tables with blank cells (no dash) among dashed ones: drafts shift whole columns up or down a row (*Embassy* p2658,
+  21 columns). Sum each column against the printed total by script, and read the blanks and dashes on a rotated crop.
 
 ## Trigger: verse and quotations over page breaks
 
