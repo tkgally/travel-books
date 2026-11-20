@@ -1,0 +1,5 @@
+{"given": "you reach the race-course; where, a few", "print": "you reach the race-course, where, a few", "sure": "high"}
+{"given": "I attended one of the mcetings.", "print": "I attended one of the meetings.", "sure": "high"}
+{"given": "hereabouts. Or the days of the", "print": "hereabouts. On the days of the", "sure": "high"}
+{"given": "we made somewhat of a detor,", "print": "we made somewhat of a detour,", "sure": "high"}
+{"given": "that lies seaward beyond Bluff.", "print": "that lies seaward beyond the Bluff.", "sure": "high"}

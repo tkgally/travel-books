@@ -1,0 +1,34 @@
+[[page ?]]
+
+# Contents.
+
+| | | <sc>page.</sc> |
+|---|---|---|
+| I. | A<sc>cross the</sc> C<sc>ontinent</sc>, | <pref>11</pref> |
+| II. | S<sc>an</sc> F<sc>rancisco</sc>, | <pref>25</pref> |
+| III. | O<sc>n the</sc> P<sc>acific</sc>, | <pref>30</pref> |
+| IV. | Y<sc>okohama</sc>, | <pref>44</pref> |
+| V. | Y<sc>okohama</sc>—T<sc>okio</sc>. | <pref>51</pref> |
+| VI. | S<sc>hiba</sc>, | <pref>65</pref> |
+| VII. | A F<sc>ire in</sc> Y<sc>okohama</sc>, | <pref>66</pref> |
+| VIII. | A J<sc>apanese</sc> R<sc>estaurant</sc>, | <pref>75</pref> |
+| IX. | S<sc>ome</sc> J<sc>apanese</sc> C<sc>ustoms</sc>, | <pref>84</pref> |
+| X. | T<sc>he</sc> B<sc>luff at</sc> Y<sc>okohama</sc>, | <pref>92</pref> |
+| XI. | T<sc>reaty</sc> R<sc>evision</sc>, | <pref>101</pref> |
+| XII. | A J<sc>apanese</sc> D<sc>inner</sc>, | <pref>104</pref> |
+| XIII. | K<sc>obé</sc>—N<sc>agasaki</sc>, | <pref>110</pref> |
+| XIV. | S<sc>hanghai</sc>, | <pref>120</pref> |
+| XV. | S<sc>treet</sc> S<sc>cenes</sc>, | <pref>131</pref> |
+| XVI. | A C<sc>hinese</sc> T<sc>heatre</sc>, | <pref>143</pref> |
+| XVII. | F<sc>oreigners in</sc> C<sc>hina</sc>—A J<sc>ewish</sc> S<sc>ynagogue</sc>, | <pref>150</pref> |
+| XVIII. | T<sc>ientsin</sc>, | <pref>157</pref> |
+| XIX. | T<sc>he</sc> R<sc>ailway</sc> P<sc>roblem</sc>, | <pref>166</pref> |
+| XX. | H<sc>omeward</sc> B<sc>ound</sc>, | |
+
+## Appendix.
+
+| | |
+|---|---|
+| C<sc>hinese</sc> P<sc>irates</sc>, | <pref>177</pref> |
+| T<sc>he</sc> Q<sc>ueen’s</sc> J<sc>ubilee</sc>, | <pref>180</pref> |
+| J<sc>apanese</sc> D<sc>ress</sc>, | <pref>184</pref> |

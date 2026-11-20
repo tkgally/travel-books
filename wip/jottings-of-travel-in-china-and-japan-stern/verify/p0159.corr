@@ -1,0 +1,13 @@
+{"find": "few and far between", "replace": "few and far between"}
+
+Wait, the print reads "few and far between" — checking the draft: it says "few and far between". Both match, so that entry is not needed. The only real difference is below.
+
+{"find": "are few and far", "replace": "are few and far"}
+
+Corrected output (the only change needed):
+
+{"find": "Public entertainments are few", "replace": "Public entertainments are few"}
+
+I have to be precise: the draft and the page agree on that phrase. The remaining difference is "ary" versus the draft's wording, and I found none. The draft appears entirely correct.
+
+NONE

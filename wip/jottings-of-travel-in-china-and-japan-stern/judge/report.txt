@@ -1,0 +1,2 @@
+judge opus: 1 spots on 1 pages: {'draft': 1}; cost $0.04
+p0015 #1 [draft, sure: medium] draft 'EARLY in February' | verified 'E<sc>arly</sc> in February' | judge reads 'EARLY in February'

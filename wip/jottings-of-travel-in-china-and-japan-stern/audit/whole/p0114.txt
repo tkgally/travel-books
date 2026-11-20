@@ -1,0 +1,5 @@
+{"given": "in the heart of tokio.", "print": "in the heart of Tokio.", "sure": "high"}
+{"given": "as is the custom of the country, the proper", "print": "as is the custom of the country; the proper", "sure": "high"}
+{"given": "friends and put or the straw sandals", "print": "friends and put on the straw sandals", "sure": "high"}
+{"given": "were not made with tbumbs, and,", "print": "were not made with thumbs, and,", "sure": "high"}
+{"given": "the evening. One our party had", "print": "the evening. One of our party had", "sure": "high"}

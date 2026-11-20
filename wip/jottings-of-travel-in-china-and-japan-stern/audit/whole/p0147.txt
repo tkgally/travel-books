@@ -1,0 +1,5 @@
+{"given": "when they have uudermined their health", "print": "when they have undermined their health", "sure": "high"}
+{"given": "by these ruinous courses; they write", "print": "by these ruinous courses, they write", "sure": "high"}
+{"given": "the Frenchman, the hindoo and the", "print": "the Frenchman, the Hindoo and the", "sure": "high"}
+{"given": "whether there ought nor to be", "print": "whether there ought not to be", "sure": "high"}
+{"given": "native against foreigner. When you", "print": "native against the foreigner. When you", "sure": "high"}
