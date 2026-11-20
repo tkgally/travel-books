@@ -1153,8 +1153,32 @@ class ImageSplits(unittest.TestCase):
                       {"type": "paragraph", "text": "The next day"})
         self.assertEqual(preflight.check_image_splits(b), [])
 
+    def test_enforced(self):
+        # review after fifteen books (2026-11-20): 10 alarms in three books, 10 real
+        self.assertEqual(preflight.CHECKS["image-splits"][0], "enforce")
+
+
+class SiteText(unittest.TestCase):
+    """*West Coast of Africa* (2026-11-20): contents titles written by hand in book.json kept straight apostrophes,
+    which reached the site and the EPUB nav; the text checks read only the page files."""
+
+    def test_straight_quotes_in_book_json_listed(self):
+        cfg = {"title": "A Book", "summary": ["He said \"no\"."], "notes_on_text": ["The book's title"],
+               "divisions": [{"at": "p0015", "toc_title": "Chapter I. A Missionary's Funeral"}],
+               "toc_entries": [{"at": "p0020", "title": "May 1872: Lagos"}]}
+        items = preflight.check_site_text(cfg)
+        self.assertEqual(len(items), 4)  # both marks of "no" count
+        self.assertTrue(any("p0015" in i for i in items))
+
+    def test_every_quote_in_a_field_listed(self):
+        self.assertEqual(len(preflight.check_site_text({"summary": "The Sun's and the Rajah's"})), 2)
+
+    def test_curly_quotes_pass(self):
+        cfg = {"title": "A Book", "summary": "The book’s “title”.", "omitted_from_reading": "All in the JSON."}
+        self.assertEqual(preflight.check_site_text(cfg), [])
+
     def test_observe(self):
-        self.assertEqual(preflight.CHECKS["image-splits"][0], "observe")
+        self.assertEqual(preflight.CHECKS["site-text"][0], "observe")
 
 
 class Contents(unittest.TestCase):
