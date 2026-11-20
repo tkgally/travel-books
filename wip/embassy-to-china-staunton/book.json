@@ -54,7 +54,24 @@
     ],
     "label": "Volume II"
    }
-  ]
+  ],
+  "extra_leaves": {
+   "p1008a": {
+    "ia_identifier": "gri_33125008481521",
+    "n": 9,
+    "what": "frontispiece of vol. I (portrait of the Emperor), missing from the UC copy"
+   },
+   "p2029a": {
+    "ia_identifier": "gri_33125008481786",
+    "n": 29,
+    "what": "vol. II contents p. xx, missing from the UC copy"
+   },
+   "p2029b": {
+    "ia_identifier": "gri_33125008481786",
+    "n": 30,
+    "what": "vol. II text p. 1, missing from the UC copy"
+   }
+  }
  },
  "leaf_order": [
   [

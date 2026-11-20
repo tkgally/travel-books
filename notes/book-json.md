@@ -22,6 +22,8 @@
             a work in several IA items (volumes) adds "items": [{"ia_identifier": "…", "first_leaf": "p1000",
             "hidden_leaves": […], "label": "Volume I"}, …]: that item's IA leaf k is page file p1000+k (scan links,
             preflight leaves; the book page links and embeds every item, by its label)
+ "source.extra_leaves": {"p2029b": {"ia_identifier": "…", "n": 30, "what": "…"}},  a leaf missing from the scan,
+                                        taken from another scan of the same edition (IA page nN): file p2029b sorts after p2029
  "leaf_order": [["p1469", "p1470", "p1467", "p1468"]],  leaves bound out of order in the scanned copy, read in this order
  "omitted_from_reading": "The half-title, printed contents, index and advertisements are in the JSON only.",
  "notes_on_text": ["…"],                anything a reader of the text should know (errata slip applied, a damaged page …)

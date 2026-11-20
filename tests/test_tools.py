@@ -609,6 +609,14 @@ class Volumes(unittest.TestCase):
         one = rh.Ctx({"source": {"ia_identifier": "x", "hidden_leaves": [0]}, "pages": [], "divisions": []}, "web", {})
         self.assertEqual(one.scan_url("p0005"), "https://archive.org/details/x/page/n4/mode/1up")
 
+    def test_leaf_from_another_copy(self):
+        src = dict(self.SRC, extra_leaves={"p2029b": {"ia_identifier": "getty2", "n": 30}})
+        ctx = rh.Ctx({"source": src, "pages": [], "divisions": []}, "web", {})
+        self.assertEqual(ctx.scan_url("p2029b"), "https://archive.org/details/getty2/page/n30/mode/1up")
+        self.assertEqual(ctx.scan_url("p2030"), "https://archive.org/details/vol2/page/n27/mode/1up")
+        self.assertEqual(compile_book.page_files_sorted(["p2030.txt", "p2029b.txt", "p2029.txt", "p2029a.txt"]),
+                         ["p2029.txt", "p2029a.txt", "p2029b.txt", "p2030.txt"])
+
     def test_leaves_checked_per_item(self):
         items = compile_book.scan_items(self.SRC)
         pages = [(f"p{n:04d}", "") for n in list(range(1001, 1007)) + list(range(1008, 1011)) + list(range(2001, 2024)) + [2026, 2028]]

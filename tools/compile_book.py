@@ -30,8 +30,14 @@ MARK = re.compile(r"\[\[(?:page [^\[\]]*|blank|break|cont|right|center|subtitle|
 BLOCK_TAGS = ("blockquote", "verse")
 
 
+def page_files_sorted(names):
+    """Page files in leaf order: p2029, p2029a, p2029b (leaves added from another scan, book.json
+    source.extra_leaves), p2030."""
+    return sorted(f for f in names if re.fullmatch(r"p\d+[a-z]?\.txt", f))
+
+
 def page_files(pdir):
-    return sorted(f for f in os.listdir(pdir) if re.fullmatch(r"p\d+[a-z]?\.txt", f))
+    return page_files_sorted(os.listdir(pdir))
 
 
 def parse_page(text, leaf):

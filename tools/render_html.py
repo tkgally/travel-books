@@ -118,8 +118,12 @@ class Ctx:
         self.seen_pg, self.seen_ref = set(), set()
         src = book.get("source", {})
         self.items = compile_book.scan_items(src)
+        self.extra = src.get("extra_leaves", {})
 
     def scan_url(self, leaf):
+        x = self.extra.get(leaf)
+        if x:                     # a leaf taken from another scan of the same edition (book.json source.extra_leaves)
+            return f"https://archive.org/details/{x['ia_identifier']}/page/n{x['n']}/mode/1up"
         n = int(re.search(r"\d+", leaf).group(0))
         for first, ia, hidden in self.items:
             if n >= first:

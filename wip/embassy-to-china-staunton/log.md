@@ -30,6 +30,23 @@ Vol. II: p2001 cover · p2009 title · p2011 contents · p2024–p2025, p2334–
 (hand in frame; good shots beside them) · printed 626 = last numbered page · appendix with tables at the end
 (p2648 ff.) · p2666 back cover · p2667–p2671 IA cards (hidden).
 
+**Missing from the UC scans, taken from the Getty copy of the same edition** (scan check 2026-11-20, subagent,
+confirmed by me on p2029/p2030): vol. I frontispiece (portrait of Qianlong, List of Engravings no. I) = Getty vol. I
+`gri_33125008481521` page n9 → `p1008a`; vol. II contents p. xx and text p. 1 (Chapter I heading) = Getty vol. II
+`gri_33125008481786` n29, n30 → `p2029a`, `p2029b`. Fetched as single page images from IA (`/page/nN.jpg`; the
+Getty text volumes are 8 GB archives); `book.json` `source.extra_leaves`. Say so in `notes_on_text`.
+Vol. I page map (scan check): p1045 = printed 1 (leaf = page + 1044); chapters II p1074, III p1097, IV p1130,
+V p1186, VI p1235, VII p1272, VIII p1362, IX p1427, X p1482; p1562 = p. 518 "End of the First Volume"; p1563–p1567
+endpapers, labels. Front: p1011 advertisement, p1013–p1023 contents, p1025–p1039 list of the folio plates,
+p1040–p1044 list of engravings in the quarto volumes. In-text engravings: p1185, p1243, p1385, p1397, p1469, p1487.
+Tables: p1330, p1500.
+Vol. II: p2008 frontispiece (Macartney); p2009 title; p2011–p2029 contents (p2024–p2025 reshoots, hidden);
+p2030 = p. 2; p2497 blank back of plate, p2498 plate "Camellia Sesanqua" facing p. 467; p2649–p2660 appendix pp.
+615–626 (p2658 a sideways table); p2660 "Finis"; p2661–p2665 endpapers, labels. Chapters II p2110, III p2196,
+IV p2305, V p2370, VI p2468, VII p2558, VIII p2627. In-text engravings: p2039, p2101, p2113, p2141, p2157, p2233,
+p2263, p2271, p2333, p2341, p2377, p2381, p2389, p2393, p2419, p2427, p2457, p2513, p2549, p2623.
+Plant lists and tables: p2193–p2195, p2217–p2225, p2302–p2304, p2465–p2467, p2556–p2557.
+
 ## Decisions
 - Side-notes: the book prints a marginal title beside the first line of most pages (repeated from page to page
   while the topic lasts), with a rule under it. Transcribed as `[[side: …]]` before the first word of the line it
