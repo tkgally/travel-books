@@ -1,0 +1,5 @@
+{"given": "more to the praise the Almighty", "print": "more to the praise of the Almighty", "sure": "high"}
+{"given": "were destroyed; but; curiously enough", "print": "were destroyed; but, curiously enough", "sure": "high"}
+{"given": "of the Popes, if is now", "print": "of the Popes, it is now", "sure": "high"}
+{"given": "where the dreadcd, terrible, and powerful", "print": "where the dreaded, terrible, and powerful", "sure": "high"}
+{"given": "A small body of swiss Guards", "print": "A small body of Swiss Guards", "sure": "high"}

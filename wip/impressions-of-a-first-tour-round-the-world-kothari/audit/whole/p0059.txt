@@ -1,0 +1,5 @@
+{"given": "We now pass the musical departmcnt—pianos", "print": "We now pass the musical department—pianos", "sure": "high"}
+{"given": "We use those instruments again", "print": "We use these instruments again", "sure": "high"}
+{"given": "Mr. Conchon, at geneva, where", "print": "Mr. Conchon, at Geneva, where", "sure": "high"}
+{"given": "holes are made with greatest care", "print": "holes are made with the greatest care", "sure": "high"}
+{"given": "by a woman, who; with the", "print": "by a woman, who, with the", "sure": "high"}

@@ -1,0 +1,5 @@
+{"given": "took a drive on Links, a", "print": "took a drive on the Links, a", "sure": "high"}
+{"given": "up to the Imperial crown of King’s", "print": "up to the Imperial Crown of King’s", "sure": "high"}
+{"given": "Indian Civil Service, is placcd at", "print": "Indian Civil Service, is placed at", "sure": "high"}
+{"given": "We saw the chapel; which contains", "print": "We saw the chapel, which contains", "sure": "high"}
+{"given": "left for Braemar the fame evening.", "print": "left for Braemar the same evening.", "sure": "high"}

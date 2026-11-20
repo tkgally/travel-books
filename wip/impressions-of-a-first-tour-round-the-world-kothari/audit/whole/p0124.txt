@@ -1,0 +1,5 @@
+{"given": "again return to if, and", "print": "again return to it, and", "sure": "high"}
+{"given": "August 5. We today visit", "print": "August 5. We to-day visit", "sure": "high"}
+{"given": "It is the Venetian Gothic", "print": "It is in the Venetian Gothic", "sure": "high"}
+{"given": "double rows of columus, as", "print": "double rows of columns, as", "sure": "high"}
+{"given": "the Giant’s Staircase; the main", "print": "the Giant’s Staircase, the main", "sure": "high"}

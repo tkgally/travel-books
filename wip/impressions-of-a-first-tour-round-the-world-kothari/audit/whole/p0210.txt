@@ -1,0 +1,5 @@
+{"given": "interested to see tea, coffee,", "print": "interested to see the tea, coffee,", "sure": "high"}
+{"given": "returned to Queen’s Hotel; and after", "print": "returned to Queen’s Hotel, and after", "sure": "high"}
+{"given": "great works of messrs. Tangye", "print": "great works of Messrs. Tangye", "sure": "high"}
+{"given": "came across such gigautic buildings,", "print": "came across such gigantic buildings,", "sure": "high"}
+{"given": "first shop we where shown", "print": "first shop we were shown", "sure": "high"}

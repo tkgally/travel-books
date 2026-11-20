@@ -1,0 +1,5 @@
+{"given": "The harbor, which I visited", "print": "The harbour, which I visited", "sure": "high"}
+{"given": "two miles in diameter; and was full", "print": "two miles in diameter, and was full", "sure": "high"}
+{"given": "I do nor think this one", "print": "I do not think this one", "sure": "high"}
+{"given": "stands on one of the large sqnares,", "print": "stands on one of the large squares,", "sure": "high"}
+{"given": "well worth trouble of visiting.", "print": "well worth the trouble of visiting.", "sure": "high"}

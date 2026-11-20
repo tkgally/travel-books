@@ -4,7 +4,7 @@ IA: impressionsoffir00koth (Boston Public Library; 302 leaves, 400 ppi). Other s
 Eligibility: re-checked 2026-11-20: web search finds no reading edition (a Scroll.in article about it only); print on demand only. JATSI 79 (Japan pp. 263–275). Author 1857–1934.
 
 ## Status
-Stage reached: (a) scan checked, draft running (--pages 1-300), Drive upload by a subagent.   Next step: normalize, Sonnet pass.
+Stage reached: (c) preflight clean except the audit; audit and spot-read running.   Next step: record audit, rendered look, publish.
 
 ## Page map
 p0000, p0301 colour cards (hidden) · p0001 front cover · p0002–p0003 endpapers, bookplate · p0004 IA leaf · p0005 half-title · p0006 blank ·
@@ -19,10 +19,20 @@ ink smear at the right edge of about 8 lines: readable; check closely.
 Features: diary dates run in, italic; running heads; signature marks; small capitals at section openings; French words (viâ, entrée).
 
 ## Decisions
+- Divisions: preface; one chapter for the text up to the Scotch Tour, titled “Europe” as in the printed contents (its heading is the
+  book's title); then the sections printed in the text. The American Tour's contents entry adds the printed contents' name.
+- Contents entries of the editor's: 15 for Europe (start date and places), 3 in America; Japan, China, Straits Settlement from the
+  printed contents (`editor: false`) where those parts begin; Northern India has no paragraph of its own (said in notes_on_text).
+- Section openings: the first word in small capitals as printed (A<sc>fter</sc>, I <sc>started</sc>).
+- p0250 “Hail” for Hall (clear on the crop): marked [[corr Hail|Hall]]. p0092 “Austrians, The”: see the spot-read.
+- Covers: front cover = cover.jpg (gilt ship, “Round the World”); back cover cropped from the working image (division “back”).
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-20 | Opus | 300 | 18.91 | no errors, none refused |
+| corrections | 2026-11-20 | Sonnet | 300 | 9.70 | 5 spots; 1 not applied (shewed→showed: the print has showed) |
+| judge | 2026-11-20 | Opus | 5 spots | 0.21 | draft 4 / verifier 1 (p0250 Hail, a printer's error); scan overturned none |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
