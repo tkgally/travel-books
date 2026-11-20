@@ -19,7 +19,10 @@
  "source": {
   "ia_identifier": "journeythroughca00moun",
   "contributor": "University of Toronto",
-  "hidden_leaves": [0, 363]
+  "hidden_leaves": [
+   0,
+   363
+  ]
  },
  "history": [
   {
@@ -28,9 +31,22 @@
    "note": "First publication."
   }
  ],
- "regions": ["Georgia", "Azerbaijan", "Russia", "Iran"],
- "period": "",
+ "regions": [
+  "Georgia",
+  "Armenia",
+  "Azerbaijan",
+  "Iran",
+  "Russia"
+ ],
+ "period": "1865–67",
  "divisions": [],
- "summary": [],
- "notes_on_text": []
+ "summary": [
+  "Augustus H. Mounsey (1834–1882), a British diplomat, set out from London in November 1865 to take up residence in Persia. He went by Vienna, Trieste and Constantinople, by steamer along the Black Sea to Poti, and in midwinter by post-cart and on horseback through Georgia and Armenia, by Tiflis and Erivan, to Tabriz and Tehran, where he lived at the British Legation.",
+  "In 1866 he rode south by Kashan and Isfahan to Persepolis and Shiraz, and in 1867 west to Kermanshah and Hamadan; in July 1867 he went home by the Caspian, Baku, Astrakhan and the Volga. Between the journeys he writes of Tehran and the Shah's court, Persian government and revenue, the Armenian church, Zoroastrians and the Bâb and his followers, with long quotations from Marco Polo in Italian. The preface (Vienna, 1872) gives advice to travellers. He generalizes harshly about the Persian character, as British writers of his time often did."
+ ],
+ "notes_on_text": [
+  "Transcribed from the copy at the University of Toronto (Internet Archive: journeythroughca00moun).",
+  "The folding map is shown in colour, with the route marked in red as in the book."
+ ],
+ "omitted_from_reading": "The title page and the printed contents (with the chapter summaries) are in the JSON only."
 }

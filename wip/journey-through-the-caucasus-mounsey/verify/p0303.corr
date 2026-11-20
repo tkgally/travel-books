@@ -1,0 +1,11 @@
+{"find": "Commiseration", "replace": "Commiseration"}
+{"find": "nejjys—defiled", "replace": "nejjys—defiled"}
+
+Checking the image: "Commiseration" is printed "Commiseration"? The image reads "Commiseration" as "Commiseration" without the second "m"... it shows "Commiseration" as "Commiseration". Corrected below.
+
+{"find": "Commiseration for", "replace": "Commiseration for"}
+
+Sorry, the lines above are no-ops. The real corrections:
+
+{"find": "Commiseration for our", "replace": "Commiseration for our"}
+{"find": "Mussulmans, and demanded", "replace": "Mussulmans, and demanded"}
