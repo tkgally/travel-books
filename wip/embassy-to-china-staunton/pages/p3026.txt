@@ -1,14 +1,4 @@
 [[page 7]]
 
-[[image: right half of a folding plate of coastal views: a mountainous coast and Staunton's Island seen from the sea]]
-[[caption]] <sc>artney</sc>, <i>bearing North-east, distant 4 leagues.</i> S<sc>taunton’s</sc> I<sc>sland</sc>, <i>bearing North-east by east, distant 4 or 5 leagues.</i>
-
-[[image: a long mountainous coastline seen from the sea]]
-[[caption]] C<sc>ape</sc> G<sc>ower</sc>, <i>bearing North-west by west, distant 4 leagues.</i>
-
-[[image: the ship Hindostan under sail in a strait, with a walled town on the shore, small boats and a sampan in the foreground]]
-[[caption]] <i>the</i> HINDOSTAN <i>in the</i> STRAIT <i>of</i> MI-A-TAU <i>bearing South-west.</i>
-
-[[caption]] <i>Ellis sculp<sup>t</sup>.</i>
-
-[[caption]] <i>ust 12. 1796, by G. Nicol.</i>
+[[image: Right half of the same plate: Staunton's Island, Cape Gower, and the Hindostan at anchor in the strait of Mi-a-tau]]
+[[caption]] <sc>Cape Macartney</sc>, <i>bearing North-east, distant 4 leagues.</i> <sc>Staunton’s Island</sc>, <i>bearing North-east by east, distant 4 or 5 leagues.</i> <sc>Cape Macartney</sc>, <i>bearing West by North, distant 3 or 4 leagues.</i> <sc>Cape Gower</sc>, <i>bearing North-west by west, distant 4 leagues.</i> <sc>View</sc> <i>of the</i> <sc>City</sc> <i>of</i> Ten-tchoo-foo <i>from the anchorag[e of]</i> <i>the</i> Hindostan <i>in the</i> Strait <i>of</i> Mi-a-tau <i>bearing South-west.</i>

@@ -115,6 +115,19 @@ class Compile(unittest.TestCase):
         _, w = comp(pages, frontispiece="p0009-1")
         self.assertTrue(any("frontispiece" in x for x in w))
 
+    def test_frontispiece_of_each_volume(self):
+        """Two volumes, each with its frontispiece in its front matter (Staunton's Embassy, 2026-11-20): each goes to
+        the first reading division after it, not both to the first of the book."""
+        pages = ["[[page ?]]\n[[image: portrait one]]", "[[page 1]]\n# ONE\n\nText.",
+                 "[[page ?]]\n[[image: portrait two]]", "[[page ?]]\nTITLE TWO", "[[page 1]]\n# TWO\n\nMore."]
+        divs = [{"at": "p0003", "kind": "front"}]
+        book, w = comp(pages, frontispiece=["p0001-1", "p0003-1"], divisions=divs)
+        self.assertEqual(w, [])
+        one, two = [d for d in book["divisions"] if d["reading"]]
+        self.assertEqual(one["blocks"][0]["src"], "images/p0001-1.jpg")
+        self.assertEqual(two["blocks"][0]["src"], "images/p0003-1.jpg")
+        self.assertFalse(any(b["type"] == "image" for d in book["divisions"] if not d["reading"] for b in d["blocks"]))
+
     def test_note_problems_reported(self):
         _, w = comp(["[[page 1]]\n# ONE\n\nA[[fnref *]] b.\n\n[[fn †]] Orphan."])
         self.assertEqual(len(w), 2)

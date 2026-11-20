@@ -53,6 +53,12 @@
      671
     ],
     "label": "Volume II"
+   },
+   {
+    "ia_identifier": "gri_33125008481562",
+    "first_leaf": "p3000",
+    "hidden_leaves": [],
+    "label": "Volume of plates"
    }
   ],
   "extra_leaves": {
@@ -88,5 +94,73 @@
    "note": "First publication."
   }
  ],
- "edition_statement": "First edition, in two quarto volumes with a folio volume of plates"
+ "edition_statement": "First edition, in two quarto volumes with a folio volume of plates",
+ "divisions": [
+  {
+   "at": "p1008a",
+   "kind": "front"
+  },
+  {
+   "at": "p1009",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p1011",
+   "kind": "preface"
+  },
+  {
+   "at": "p1013",
+   "kind": "contents"
+  },
+  {
+   "at": "p1025",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p1040",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p1045",
+   "n": 1,
+   "kind": "part",
+   "title": "Volume I"
+  },
+  {
+   "at": "p2008",
+   "kind": "front",
+   "title": "Front matter of Volume II"
+  },
+  {
+   "at": "p2009",
+   "kind": "titlepage",
+   "title": "Title page of Volume II"
+  },
+  {
+   "at": "p2011",
+   "kind": "contents"
+  },
+  {
+   "at": "p2029b",
+   "n": 1,
+   "kind": "part",
+   "title": "Volume II"
+  },
+  {
+   "at": "p2649",
+   "kind": "appendix"
+  },
+  {
+   "at": "p3007",
+   "kind": "part",
+   "title": "The Folio Volume of Plates"
+  }
+ ],
+ "frontispiece": [
+  "p1008a-1",
+  "p2008-1"
+ ],
+ "toc": {
+  "subtitles": "all"
+ }
 }
