@@ -75,3 +75,6 @@
 {"page": "p0075", "model": "opus", "corrections": null, "seconds": 5.8, "cost": 0.06299840000000001, "completion_tokens": 605, "turns": 2, "attempts": 1}
 {"page": "p0076", "model": "opus", "corrections": null, "seconds": 6.2, "cost": 0.06327479999999999, "completion_tokens": 618, "turns": 2, "attempts": 1}
 {"page": "p0077", "model": "opus", "corrections": null, "seconds": 6.0, "cost": 0.0630348, "completion_tokens": 606, "turns": 2, "attempts": 1}
+{"page": "p0078", "model": "opus", "corrections": null, "seconds": 6.2, "cost": 0.0625574, "completion_tokens": 585, "turns": 2, "attempts": 1}
+{"page": "p0079", "model": "opus", "corrections": null, "seconds": 6.0, "cost": 0.0625548, "completion_tokens": 582, "turns": 2, "attempts": 1}
+{"page": "p0080", "model": "opus", "corrections": null, "seconds": 6.1, "cost": 0.0628102, "completion_tokens": 596, "turns": 2, "attempts": 1}
