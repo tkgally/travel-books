@@ -138,6 +138,27 @@
     the built versions show only the inferred letters, with no sign that the scan was unclear or that they were
     guessed — for smooth reading.
 
+## 2026-11-20 (the books of "Japan As They Saw It" join the project; session run on Fable by Tom's choice)
+
+Tom gave a session the Sources page of his earlier project "Japan As They Saw It" (JATSI: descriptions of Japan by
+American and British visitors, 1855–1912; 247 books, each with links to its Internet Archive scans). JATSI was
+an initial inspiration for Travel Books. His instructions:
+
+- **The JATSI books are to be added to Travel Books gradually, one at a time, at about one JATSI book for every
+  three books added to the project.**
+- **Say which books came from JATSI**, on the site, so that people who come across it know why the project will
+  have a growing imbalance towards books about Japan (the imbalance itself is fine).
+- **A separate, stored list of all the JATSI books** (bibliographic information and IA links). From it, a dozen or
+  so **that meet most or all of the project's criteria** go into the main queue shown on the home page.
+- **Non-JATSI books** are chosen for the queue by the policies already established.
+- **The text policy is the same** for JATSI and non-JATSI books.
+- Notes where appropriate that Tom Gally decided to add the JATSI books gradually.
+- The same session: assess the state of the project and its workflows, improve where needed, and plan how the
+  landing page is organized as the number of books grows. That session does not do the routine work of
+  `RESUME.md`; the normal run resumes in the next session, on Opus as usual.
+
+How this was carried out: `notes/jatsi.md`.
+
 ## Questions for Tom
 
 - **An illustration by a person whose death date is unknown** (*Corona and Coronet*, 2026-11-19): one plate is "from a
