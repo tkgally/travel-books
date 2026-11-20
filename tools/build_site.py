@@ -47,6 +47,7 @@ def _page(title, body, root, crumbs=(), extra_head="", book_css=False):
 <title>{esc(full)}</title>
 <link rel="stylesheet" href="{root}assets/site.css"/>
 {css}{extra_head}
+<script src="{root}assets/site.js"></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to the text</a>
@@ -341,7 +342,7 @@ def build_book(out, bookdir, strict=True):
         html_ = page(f"{d['title']} – {short}",
                      f'{pager}\n{toggle}\n<article class="book">\n{body}\n</article>\n{pager}', "../../",
                      crumbs=[(SITE, "../../index.html"), (short, "index.html"), (d["title"], names[d["id"]])],
-                     extra_head=extra + '<script src="../../assets/site.js" defer=""></script>', book_css=True)
+                     extra_head=extra, book_css=True)
         open(os.path.join(bout, names[d["id"]]), "w", encoding="utf-8").write(html_)
     if os.path.isdir(idir):
         os.makedirs(os.path.join(bout, "images"), exist_ok=True)

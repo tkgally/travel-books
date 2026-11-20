@@ -629,6 +629,52 @@ class SiteLists(unittest.TestCase):
         z = zipfile.ZipFile(os.path.join(self.out, "site", "books", book["id"], book["id"] + ".epub"))
         self.assertNotIn('target="_blank"', "".join(z.read(n).decode() for n in z.namelist() if n.endswith(".xhtml")))
 
+    def test_display_settings_script_on_every_page_and_the_pages_work_without_it(self):
+        """Tom, 2026-11-20: the reader's display settings. The colours and the underlining of links are for every
+        page, so every page loads the one script, in the head and not deferred (the colours are set before the page
+        is drawn). Nothing in the built pages depends on it: the "Display" button is made by the script, and the
+        checkbox for the page numbers stays in the chapter pages for a browser that runs no scripts."""
+        d = os.path.join(self.out, "sample-journey-doe")
+        shutil.copytree(SAMPLE, d)
+        site = os.path.join(self.out, "site")
+        book, _ = build_site.build_book(site, d)
+        build_site.build_index(site, [shelf_book(1)], [])
+        chapter = open(os.path.join(site, "books", book["id"], "02.html"), encoding="utf-8").read()
+        landing = open(os.path.join(site, "books", book["id"], "index.html"), encoding="utf-8").read()
+        home = open(os.path.join(site, "index.html"), encoding="utf-8").read()
+        for h, root in ((chapter, "../../"), (landing, "../../"), (home, "")):
+            self.assertEqual(re.findall(r"<script[^>]*>", h), [f'<script src="{root}assets/site.js">'])
+            self.assertLess(h.index("<script"), h.index("</head>"))
+            self.assertNotIn("tb-", h)                      # no control of the settings in the page itself
+        self.assertIn('<input type="checkbox" id="showpb"/>', chapter)
+        self.assertIn('<article class="book">', chapter)   # what the script looks for before it makes the button
+        self.assertIn('<h2 id="contents">', landing)       # where "Continue reading" goes
+        self.assertIn('<nav aria-label="Site"><ul>', chapter)
+
+    def test_display_settings_use_nothing_from_outside_and_every_theme_is_complete(self):
+        assets = os.path.join(REPO, "site", "assets")
+        css = open(os.path.join(assets, "site.css"), encoding="utf-8").read()
+        js = open(os.path.join(assets, "site.js"), encoding="utf-8").read()
+        for text in (css, js):
+            self.assertIsNone(re.search(r"https?:|//[a-z]|@import|url\(|@font-face", text))
+        self.assertNotRegex(js, r"\b(fetch|XMLHttpRequest|sendBeacon|document\.cookie|eval)\b")
+        names = ["--fg", "--bg", "--muted", "--link", "--visited", "--line"]
+        rules = re.findall(r"(:root[^{]*)\{([^}]*--fg[^}]*)\}", css)
+        # light; dark for a device set to dark; dark and sepia chosen by the reader; print
+        self.assertEqual(len(rules), 5, [r[0] for r in rules])
+        for sel, body in rules:
+            self.assertEqual(re.findall(r"(--[a-z]+):", body), names, sel)
+        dark = [body for sel, body in rules if "not([data-theme])" in sel or '"dark"' in sel]
+        self.assertEqual(len(dark), 2)
+        self.assertEqual(re.findall(r"--[a-z]+: #[0-9a-f]+", dark[0]), re.findall(r"--[a-z]+: #[0-9a-f]+", dark[1]))
+        # every theme the script offers has its colours, and every attribute it sets has a rule
+        for theme in re.search(r"theme: \[([^\]]*)\]", js).group(1).replace("'", "").split(", "):
+            if theme != "auto":
+                self.assertIn(f':root[data-theme="{theme}"]', css)
+        for a in ("data-font", "data-align", "data-para", "data-corr", "data-links", "--tb-size", "--tb-lh", "--tb-width",
+                  "--tb-ls", "--tb-ws"):
+            self.assertIn(a, css)
+
     def test_home_shows_the_newest_when_there_are_many(self):
         books = [shelf_book(i) for i in range(build_site.HOME_FULL_LIST + 3)]
         build_site.build_index(self.out, books, [])

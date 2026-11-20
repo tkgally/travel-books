@@ -55,3 +55,33 @@ the table on the book's own page. Wherever the name stands in running text or a 
 rel="noopener"`, added to every page by `outside_links` in `build_site.page`); links within the site do not.
 The EPUB and ODT are not touched. `site/about.md` §"Which books" says the same. Nothing in
 the reading text of a book differs.
+
+## Display settings (Tom, 2026-11-20)
+
+What Tom decided is in `preferences.md` (2026-11-20, "display settings"). How it is built:
+
+- **One script, `site/assets/site.js`, in the head of every page, not deferred**, so that the colours are set before
+  the page is drawn. It keeps one object in `localStorage` (`tb-display`, only the values that differ from the
+  defaults) and the reader's places in another (`tb-place`: per book, the chapter file and the number of the block
+  at the top of the window; the newest 100 books). Values read back are accepted only if they are in the script's
+  own lists.
+- **The script only sets attributes and custom properties on `<html>`** (`data-theme`, `data-font`, `data-align`,
+  `data-para`, `data-corr`, `data-links`, `--tb-size`, `--tb-lh`, `--tb-width`, `--tb-ls`, `--tb-ws`, class
+  `showpb`); the rules are at the end of `site.css` ("Display settings"). The text of the page is not changed, so
+  a screen reader reads the same document. **`book.css` is not touched: it is shared with the EPUB.**
+- **Without scripts** nothing of this exists: the "Display" button and "Continue reading" (book page) are made by
+  the script, the chapter pages keep the page-number checkbox (the script removes it and offers the same in the
+  panel), and the dark colours still follow the device (`prefers-color-scheme`, `:root:not([data-theme])`).
+- **Scope:** colours and link underlining on every page; everything else on `article.book` (and the column width on
+  `body:has(article.book)`). The button is only on chapter pages, to the right of "About".
+- **The panel:** basic (colours, size, typeface, line spacing) and, behind "More settings", advanced (width,
+  justified/ragged, paragraph style, letter and word spacing, four on/off buttons, reset). Controls are pictures;
+  each has an `aria-label`, and the same words appear as a tip under it for a mouse (`hover: hover`) or keyboard
+  focus. Radio groups are real radio buttons; steppers announce the new value in a `role="status"` element.
+- **A new theme** needs its six colours in `site.css` (`:root[data-theme="…"]`), a swatch (`.tb-sw-…`) and its name
+  in `CHOICES.theme` in the script; the dark colours are written twice (device and choice) and a test keeps the two
+  the same. Print always uses black on white.
+- **Not built, by Tom's decision:** hosted fonts (so no named fonts or weights), free choice of colours,
+  pagination, scrolling settings.
+- **Checked in Chromium only** (desktop and phone widths, scripts off, dark device). Not checked: Safari, Firefox,
+  and real screen readers (VoiceOver, NVDA, TalkBack) — Tom or a reader must try those.

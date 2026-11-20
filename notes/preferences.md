@@ -205,6 +205,24 @@ How this was carried out: `RESUME.md` §"How long a session runs", `tools/sessio
   EEBO and ECCO whose texts are not formatted for immersive reading.** "Please revise the guidelines accordingly."
   How: `selection.md` rule 2.
 
+## 2026-11-20 (display settings for the book text pages)
+
+- Tom asked what controls could be added to the HTML pages of the book texts so that readers can set how the text
+  is shown (font, size, weight, light/dark, colours, line height, justification, margins, pagination, animated
+  scrolling or page turning), saved in the browser for all book pages (not necessarily the index pages).
+- **Conditions for any such feature:** no external dependencies; falls back gracefully when JavaScript is blocked;
+  an unobtrusive interface; no problems for readers using screen readers or other assistive devices or plugins.
+
+- **Decided (same day): build them.** Font size, line height, justification, column width, serif / sans serif /
+  browser default, letter spacing, word spacing, paragraph style, hiding the dotted underline on corrections,
+  remembering the reader's place in the book, and a setting to turn the underlining of links on and off
+  **throughout the site**. **No hosted fonts** (so no named fonts and no font weight). **Preset themes only** for
+  colours. **No pagination and no scrolling settings for now.** **The light/dark choice applies to the entire site.**
+- **The interface:** a "Display" button in the upper right-hand corner of the chapter pages, to the right of the
+  About link. The settings menu has two levels, basic and advanced. Controls simple and self-explanatory,
+  "avoiding words if possible (though having text appear as popovers for nontouch interfaces)".
+- He will check the result after it is merged and get back.
+
 ## Questions for Tom
 
 None open.
