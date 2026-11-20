@@ -1,5 +1,0 @@
-{"given": "an expedition be has in", "print": "an expedition he has in", "sure": "high"}
-{"given": "“This city; you know, was", "print": "“This city, you know, was", "sure": "high"}
-{"given": "during the War of independence.", "print": "during the War of Independence.", "sure": "high"}
-{"given": "street found a treasnre and left", "print": "street found a treasure and left", "sure": "high"}
-{"given": "to throw away grain each day.", "print": "to throw away a grain each day.", "sure": "high"}

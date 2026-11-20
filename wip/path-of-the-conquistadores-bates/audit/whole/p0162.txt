@@ -1,5 +1,0 @@
-{"given": "hearted way; his second cigarette", "print": "hearted way, his second cigarette", "sure": "high"}
-{"given": "few more times. Not spark.", "print": "few more times. Not a spark.", "sure": "high"}
-{"given": "the wheel!” shouts fitzgerald. Charlie", "print": "the wheel!” shouts Fitzgerald. Charlie", "sure": "high"}
-{"given": "far less strong then Joe, who", "print": "far less strong than Joe, who", "sure": "high"}
-{"given": "to run down the tronble. We", "print": "to run down the trouble. We", "sure": "high"}

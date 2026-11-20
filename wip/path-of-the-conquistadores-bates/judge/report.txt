@@ -1,7 +1,0 @@
-judge opus: 7 spots on 7 pages: {'draft': 5, 'verified': 2}; cost $0.31
-p0027 #1 [draft, sure: high] draft '[[page 1]]' | verified '[[page ?]]' | judge reads '[[page 1]]'
-p0080 #1 [draft, sure: medium] draft 'THE green slope' | verified 'T<sc>he</sc> green slope' | judge reads 'THE green slope'
-p0185 #1 [draft, sure: medium] draft 'A SHADOWY figure' | verified 'A <sc>shadowy</sc> figure' | judge reads 'A SHADOWY figure'
-p0304 #1 [draft, sure: high] draft 'chapparal-trees' | verified 'chaparral-trees' | judge reads 'chapparal-trees'
-p0376 #1 [draft, sure: medium] draft '[[blank]]' | verified '[[image: fold-out map of a river region, printed sideways]]' | judge reads '[[blank]]'
-p0381 #1 [verified, sure: medium] draft '[[page 307]]\n\nPort of Sp' | verified '[[page 307]]\n\n# Index\n\nPort of Sp' | judge reads '[[page 307]]\n\n# Index\n\nPort of Sp'

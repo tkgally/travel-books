@@ -1,5 +1,0 @@
-{"given": "they get away; but something", "print": "they get away, but something", "sure": "high"}
-{"given": "wickedly at Big guitar. You", "print": "wickedly at Big Guitar. You", "sure": "high"}
-{"given": "and flees from stage.", "print": "and flees from the stage.", "sure": "high"}
-{"given": "but that be himself will", "print": "but that he himself will", "sure": "high"}
-{"given": "smiles at the andience. The", "print": "smiles at the audience. The", "sure": "high"}

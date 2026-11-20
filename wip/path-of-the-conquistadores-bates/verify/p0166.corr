@@ -1,7 +1,0 @@
-The draft has one error: "should be Vyron" is printed without quotation marks.
-
-{"find": "should be Vyron. Long", "replace": "should be Vyron. Long"}
-
-Wait—that is identical. The image shows `should be Vyron.` without quotes, and the draft already matches it, so nothing needs to change.
-
-NONE
