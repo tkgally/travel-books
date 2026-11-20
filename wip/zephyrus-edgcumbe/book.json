@@ -1,0 +1,66 @@
+{
+ "id": "zephyrus-edgcumbe",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "Zephyrus",
+ "subtitle": "A Holiday in Brazil and on the River Plate",
+ "short_title": "Zephyrus",
+ "authors": [
+  {
+   "name": "E. R. Pearce Edgcumbe",
+   "sort": "Edgcumbe, E. R. Pearce",
+   "born": 1851,
+   "died": 1929
+  }
+ ],
+ "place": "London",
+ "publisher": "Chatto & Windus",
+ "year": 1887,
+ "edition_statement": "First edition",
+ "source": {
+  "ia_identifier": "zephyrusholidayi00edgcuoft",
+  "contributor": "University of Toronto",
+  "hidden_leaves": [],
+  "extra_leaves": {
+   "p0175a": {
+    "ia_identifier": "zephyrusholidayi00edgc",
+    "n": 175,
+    "what": "printed page 160, missing from the Toronto scan"
+   },
+   "p0175b": {
+    "ia_identifier": "zephyrusholidayi00edgc",
+    "n": 176,
+    "what": "printed page 161, missing from the Toronto scan"
+   }
+  }
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  }
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0009",
+   "why": "tissue guard before the title page: show-through of the map only"
+  },
+  {
+   "check": "leaves",
+   "match": "p0010",
+   "why": "tissue guard before the title page (verso): show-through only"
+  },
+  {
+   "check": "leaves",
+   "match": "p0178",
+   "why": "printed page 162 bound a second time in the Toronto copy (in place of page 160)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0179",
+   "why": "printed page 163 bound a second time in the Toronto copy (in place of page 161)"
+  }
+ ]
+}
