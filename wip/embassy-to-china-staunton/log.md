@@ -97,6 +97,8 @@ cannot be separated). Say in `notes_on_text` which pictures come from the Getty 
 - Folding plate p3025/26 (five coastal views): one image per half, the five captions as one `[[caption]]` on the
   second half; "[e of]" supplied in brackets where the fold strip is lost (assumed). Engravers' and publishers' lines
   left out (assumed, said in `notes_on_text`). p2141 and p3010 hold two pictures each: two `[[image]]`s.
+- `running-quotes.txt`: 6 random entries looked at on crops (p1150, p1198, p1364, p1410, p2219, p2483): all are
+  repeats at a printed line start.
 - `keep_hyphens`: p1032 (Cou-pe-koo), p1105 (pratique-boat, assumed), p1194, p1364, p1525.
 
 ## Runs
