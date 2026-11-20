@@ -632,7 +632,8 @@ class SiteLists(unittest.TestCase):
     def test_display_settings_script_on_every_page_and_the_pages_work_without_it(self):
         """Tom, 2026-11-20: the reader's display settings. The colours and the underlining of links are for every
         page, so every page loads the one script, in the head and not deferred (the colours are set before the page
-        is drawn). Nothing in the built pages depends on it: the "Display" button is made by the script, and the
+        is drawn). Nothing in the built pages depends on it: the "Display" button is made by the script on every page (it
+        looks for the list in the header), and the
         checkbox for the page numbers stays in the chapter pages for a browser that runs no scripts."""
         d = os.path.join(self.out, "sample-journey-doe")
         shutil.copytree(SAMPLE, d)
@@ -671,6 +672,12 @@ class SiteLists(unittest.TestCase):
         for theme in re.search(r"theme: \[([^\]]*)\]", js).group(1).replace("'", "").split(", "):
             if theme != "auto":
                 self.assertIn(f':root[data-theme="{theme}"]', css)
+        # the header's text follows the size of the text up to the sixth of the nine sizes, and no further (Tom, 2026-11-20)
+        sizes = [float(x) for x in re.search(r"size: \[([^\]]*)\]", js).group(1).split(", ")]
+        self.assertEqual(len(sizes), 9)
+        self.assertIn(f"--tb-hs: min(var(--tb-size, 1), {sizes[5]:g});", css)
+        self.assertRegex(css, r"header\.site \{ font-size: calc\(1rem \* var\(--tb-hs\) / var\(--tb-size, 1\)\)")
+        self.assertRegex(css, r"html \{[^}]*font-size: calc\(112\.5% \* var\(--tb-size, 1\)\)")
         for a in ("data-font", "data-align", "data-para", "data-corr", "data-links", "--tb-size", "--tb-lh", "--tb-width",
                   "--tb-ls", "--tb-ws"):
             self.assertIn(a, css)

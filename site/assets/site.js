@@ -1,5 +1,5 @@
-// Display settings: colours and underlined links for every page of the site; type, spacing, column width, page
-// numbers and the reader's place for the text of a book. The choices are kept in this browser (localStorage) and
+// Display settings for every page of the site: colours, size of text, typeface, spacing, column width, underlined
+// links; and for the text of a book justification, paragraph style, correction marks, page numbers, the reader's place. The choices are kept in this browser (localStorage) and
 // nowhere else. The site works without this file: the "Display" button is made here, so that a reader whose
 // browser does not run scripts sees no control that does nothing. Styles: site.css, "Display settings".
 (function () {
@@ -116,7 +116,7 @@
     h.parentNode.insertBefore(para, h);
   }
 
-  // ---- the "Display" button and its panel (pages with the text of a book) ----
+  // ---- the "Display" button and its panel (every page) ----
 
   var LINES = { tight: 'M4 8h16M4 12h16M4 16h16', loose: 'M4 5h16M4 12h16M4 19h16',
     narrow: 'M10 5v14M14 5v14M2 12h5M5 10l2 2-2 2M22 12h-5M19 10l-2 2 2 2',
@@ -227,7 +227,7 @@
 
     // advanced
     stepper(adv, 'width', 'Width of the column', ['Narrower column', svg('narrow')], ['Wider column', svg('wide')]);
-    var pair = el('div', { 'class': 'tb-row' });
+    var pair = el('div', { 'class': 'tb-row tb-wrap' });
     adv.appendChild(pair);
     choice(pair, 'align', 'Right-hand edge', [
       ['justify', 'Even right-hand edge (justified)', svg('justify')],
@@ -244,7 +244,7 @@
     toggle(flags, 'corr', 'Mark corrected misprints with dots', txt('tb-i-corr', 'abc'));
     toggle(flags, 'pb', 'Show the page numbers of the printed book (each links to the scanned page)', txt('tb-i-pb', '12'));
     toggle(flags, 'place', 'Remember my place in each book', svg('place'), function () {
-      if (s.place) savePlace(article); else try { localStorage.removeItem(PLACES); } catch (e) {}
+      if (s.place) { if (article && bookId) savePlace(article); } else try { localStorage.removeItem(PLACES); } catch (e) {}
     });
     adv.appendChild(flags);
     var resetRow = el('div', { 'class': 'tb-row' });
@@ -260,8 +260,6 @@
     panel.appendChild(adv);
     panel.appendChild(status);
     panel.appendChild(tip);
-    // the two pairs of pictures sit side by side as two groups
-    pair.querySelectorAll('.tb-row').forEach(function (r) { r.style.margin = '0 0.4rem'; });
 
     header.appendChild(panel);
     var old = document.querySelector('.pbtoggle');     // the checkbox for readers without the script
@@ -311,7 +309,8 @@
 
   function ready() {
     var article = document.querySelector('article.book');
-    if (article) { buildUI(article); if (bookId) chapterPlace(article); }
+    buildUI(article);
+    if (article) { if (bookId) chapterPlace(article); }
     else if (bookId && file === 'index.html') resumeLink();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ready); else ready();
