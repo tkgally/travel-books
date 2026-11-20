@@ -1,0 +1,5 @@
+judge opus: 4 spots on 4 pages: {'draft': 4}; cost $0.17
+p0017 #1 [draft, sure: high] draft '## Appendix.' | verified '## Appendix' | judge reads '## Appendix.'
+p0020 #1 [draft, sure: medium] draft 'Mr. Mounsey’s' | verified 'Mr Mounsey’s' | judge reads 'Mr. Mounsey’s'
+p0031 #1 [draft, sure: high] draft 'most westernly of' | verified 'most westerly of' | judge reads 'most westernly of'
+p0188 #1 [draft, sure: high] draft 'a and dysentry' | verified 'a and dysentery' | judge reads 'a and dysentry'

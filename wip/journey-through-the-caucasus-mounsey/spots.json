@@ -1,0 +1,46 @@
+{
+ "p0017": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "## Appendix.",
+   "replace": "## Appendix",
+   "draft": "## Appendix.",
+   "verified": "## Appendix",
+   "context": "—Turcomans—Baku, Astrakhan, and the Volga <pref>316</pref> ⏎  ⏎ ## Appendix. ⏎  ⏎ Routes <pref>335</pref> ⏎ "
+  }
+ ],
+ "p0020": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "Mr. Mounsey’s",
+   "replace": "Mr Mounsey’s",
+   "draft": "Mr. Mounsey’s",
+   "verified": "Mr Mounsey’s",
+   "context": "s through the Caucasus and Persia]] ⏎ [[caption]] Map shewing Mr. Mounsey’s Routes through the Caucasus and Persia ⏎ "
+  }
+ ],
+ "p0031": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "most westernly of",
+   "replace": "most westerly of",
+   "draft": "most westernly of",
+   "verified": "most westerly of",
+   "context": " order to obtain this object, to extend its frontier to the most westernly of the two streams. In drawing up the treaty, however, that on"
+  }
+ ],
+ "p0188": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "diarrhœa and dysentry",
+   "replace": "diarrhœa and dysentery",
+   "draft": "a and dysentry",
+   "verified": "a and dysentery",
+   "context": "uropeans, who are almost always attacked either by fever or diarrhœa and dysentry. Weakened, probably, by my long journey in the snow, I had "
+  }
+ ]
+}
