@@ -1,0 +1,223 @@
+{
+ "id": "autumn-tour-in-western-persia-durand",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "An Autumn Tour in Western Persia",
+ "short_title": "An Autumn Tour in Western Persia",
+ "authors": [
+  {
+   "name": "E. R. Durand",
+   "sort": "Durand, E. R.",
+   "born": 1852,
+   "died": 1913
+  }
+ ],
+ "place": "Westminster",
+ "publisher": "Archibald Constable & Co.",
+ "year": 1902,
+ "edition_statement": "First edition",
+ "source": {
+  "ia_identifier": "autumntourinwest00dura",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": [
+   0,
+   337,
+   338,
+   339,
+   340,
+   341
+  ]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  }
+ ],
+ "regions": [
+  "Iran"
+ ],
+ "period": "1899",
+ "subjects": [
+  "Travel on horseback",
+  "Bakhtiari"
+ ],
+ "frontispiece": "p0019-1",
+ "leaf_order": [
+  [
+   "p0019",
+   "p0020",
+   "p0003",
+   "p0004",
+   "p0005",
+   "p0006",
+   "p0007",
+   "p0008",
+   "p0009",
+   "p0010",
+   "p0011",
+   "p0012",
+   "p0013",
+   "p0014",
+   "p0015",
+   "p0016",
+   "p0017",
+   "p0018"
+  ]
+ ],
+ "divisions": [
+  {
+   "at": "p0003",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0005",
+   "kind": "preface"
+  },
+  {
+   "at": "p0007",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0008",
+   "kind": "errata"
+  },
+  {
+   "at": "p0009",
+   "kind": "chapter",
+   "title": "Chapter I",
+   "toc_title": "Chapter I. Leaving Tehran; the escort; the first camp (26 September)"
+  },
+  {
+   "at": "p0017",
+   "kind": "chapter",
+   "title": "Chapter II",
+   "toc_title": "Chapter II. The organization of the camp; Gulhek and Tehran"
+  },
+  {
+   "at": "p0045",
+   "kind": "chapter",
+   "title": "Chapter III",
+   "toc_title": "Chapter III. The road to Kum and Kashan; arrival at Ispahan (12 October)"
+  },
+  {
+   "at": "p0077",
+   "kind": "chapter",
+   "title": "Chapter IV",
+   "toc_title": "Chapter IV. Ispahan and Julfa"
+  },
+  {
+   "at": "p0084",
+   "kind": "chapter",
+   "title": "Chapter V",
+   "toc_title": "Chapter V. Ispahan to Jánagán: into the Bakhtiari country (16–19 October)"
+  },
+  {
+   "at": "p0098",
+   "kind": "chapter",
+   "title": "Chapter VI",
+   "toc_title": "Chapter VI. Over the Zirreh pass into the Bakhtiari highlands (21–25 October)"
+  },
+  {
+   "at": "p0113",
+   "kind": "chapter",
+   "title": "Chapter VII",
+   "toc_title": "Chapter VII. Dopulán and Sarkhun to Godár (from 26 October)"
+  },
+  {
+   "at": "p0132",
+   "kind": "chapter",
+   "title": "Chapter VIII",
+   "toc_title": "Chapter VIII. The bridge works at Godár; crossing the Karun"
+  },
+  {
+   "at": "p0140",
+   "kind": "chapter",
+   "title": "Chapter IX",
+   "toc_title": "Chapter IX. Godár to Malamír, Kala i Tul and Khandak (31 October–5 November)"
+  },
+  {
+   "at": "p0152",
+   "kind": "chapter",
+   "title": "Chapter X",
+   "toc_title": "Chapter X. Khandak to Weis and Ahwaz (from 6 November)"
+  },
+  {
+   "at": "p0162",
+   "kind": "chapter",
+   "title": "Chapter XI",
+   "toc_title": "Chapter XI. By steamer to Shuster; Shuster (from 10 November)"
+  },
+  {
+   "at": "p0177",
+   "kind": "chapter",
+   "title": "Chapter XII",
+   "toc_title": "Chapter XII. Dizful and Shúsh (15–17 November)"
+  },
+  {
+   "at": "p0189",
+   "kind": "chapter",
+   "title": "Chapter XIII",
+   "toc_title": "Chapter XIII. Dizful to Balarud and Kala Reza (18–20 November)"
+  },
+  {
+   "at": "p0212",
+   "kind": "chapter",
+   "title": "Chapter XIV",
+   "toc_title": "Chapter XIV. Sar i Shigaft and Chimeshk to Khurramabad"
+  },
+  {
+   "at": "p0229",
+   "kind": "chapter",
+   "title": "Chapter XV",
+   "toc_title": "Chapter XV. Khurramabad to Burujird (from 29 November)"
+  },
+  {
+   "at": "p0238",
+   "kind": "chapter",
+   "title": "Chapter XVI",
+   "toc_title": "Chapter XVI. Burujird to Sultanabad (from 3 December)"
+  },
+  {
+   "at": "p0252",
+   "kind": "chapter",
+   "title": "Chapter XVII",
+   "toc_title": "Chapter XVII. Sultanabad to Rajgird and Kum (7–10 December)"
+  },
+  {
+   "at": "p0261",
+   "kind": "chapter",
+   "title": "Chapter XVIII",
+   "toc_title": "Chapter XVIII. Kum to Tehran (13–14 December)"
+  },
+  {
+   "at": "p0269",
+   "kind": "advertisements",
+   "title": "Publisher’s Catalogue"
+  }
+ ],
+ "omitted_from_reading": "The title page, the list of illustrations, the erratum and the publisher’s catalogue are in the JSON only.",
+ "summary": "Ella Rebe Durand was the wife of Sir Mortimer Durand, British Minister at Tehran. In the autumn of 1899 they left the Legation with a party of servants, muleteers and an escort and rode for eleven weeks, about twelve hundred miles, through Western Persia: south by Kum and Kashan to Ispahan, west through the Bakhtiari mountains to the Karun river, down to Ahwaz, Shuster, Dizful and the ruins of Susa, then north through Luristan by Khurramabad, Burujird and Sultanabad, and back to Tehran in mid-December. She describes how a travelling camp was organized, the roads and river crossings, the tribal chiefs who received them, the towns and villages, and life at the Legation and at Gulhek. It has twenty-two plates from photographs by Sévroguine of Tehran and by Ernest Rennie of the Diplomatic Service, six drawings in the text, and a map of the route.",
+ "notes_on_text": [
+  "The book has no printed contents and its chapters have no titles; the contents entries after each chapter number (places and dates) are the editor’s.",
+  "The frontispiece is bound after page 20 in the scanned copy; it is placed at the front here.",
+  "The half-title leaf is missing from the scanned copy. On the title page a strip of library tape covers the first letter of “An” and of “Archibald”; they are supplied. Two words covered by tape at the edge of the last page of the publisher’s catalogue are supplied the same way.",
+  "The printed erratum (Stewart for Stuart, pages 80 and 83) has been applied."
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0267",
+   "why": "a blank leaf before the folding map; not transcribed"
+  }
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-20",
+  "pages": 6,
+  "recall": "28/28",
+  "real_errors": 0,
+  "fixed": 0
+ }
+}

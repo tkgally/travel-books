@@ -104,6 +104,11 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   title, the topics as a paragraph ending in `<pref>`), drop "PAGE" heads and dot leaders [*South by West*, 2026-11-19].
 - A page that starts flush left after a closed sentence is still a continuation (`joins` lists it): look at the indent.
 
+## Trigger: no printed contents, chapters without titles
+
+- Contents entries of the editor's: places and dates per chapter, proposed by a Sonnet subagent reading the draft text
+  (no scans), checked at each chapter opening, said in `notes_on_text` (*Autumn Tour in Western Persia*, 2026-11-20).
+
 ## Trigger: quotations set in the text type
 
 - Letters, reports and newspaper extracts printed in the text type with a little space round them: drafts make some of

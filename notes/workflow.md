@@ -242,7 +242,8 @@ visibly differs from newer ones.
 ## Not yet solved
 
 - Marginal notes: solved 2026-11-20 (`[[side: …]]`, `page-markup.md`; tests `SideNotes`).
-- Folding maps and large plates scanned in sections; two-page spreads.
+- Folding maps and large plates scanned in sections; two-page spreads. A large map is shown at the column width,
+  where its names cannot be read, and the editions do not link a picture to its full-size file (*Persia*, 2026-11-20).
 - Eighteenth-century printing (long s, catchwords): the prompts say "long s → s, omit catchwords", untested
   here. Run the two-draft method on a sample first (p2e found Opus modernizes old spellings when drafting).
 - Multi-volume works: one book id per work, volumes as parts; leaves named by item (`source.items` in
