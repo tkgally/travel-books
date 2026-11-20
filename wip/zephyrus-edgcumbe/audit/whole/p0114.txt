@@ -1,0 +1,4 @@
+{"given": "as rain had nor fallen for", "print": "as rain had not fallen for", "sure": "high"}
+{"given": "underground hewn out the rock, and", "print": "underground hewn out of the rock, and", "sure": "high"}
+{"given": "to the wall just ontside our window", "print": "to the wall just outside our window", "sure": "high"}
+{"given": "we left the island; the water", "print": "we left the island, the water", "sure": "high"}

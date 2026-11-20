@@ -1,0 +1,5 @@
+{"given": "with an elective syftem of government", "print": "with an elective system of government", "sure": "high"}
+{"given": "and in the argentine republics, the", "print": "and in the Argentine republics, the", "sure": "high"}
+{"given": "After man has been president", "print": "After a man has been president", "sure": "high"}
+{"given": "of all kinds, the army; railways,", "print": "of all kinds, the army, railways,", "sure": "high"}
+{"given": "aristocrats because be had sprung", "print": "aristocrats because he had sprung", "sure": "high"}

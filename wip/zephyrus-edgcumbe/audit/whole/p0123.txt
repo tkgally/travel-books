@@ -1,0 +1,5 @@
+{"given": "alongside the quay in monte Video", "print": "alongside the quay in Monte Video", "sure": "high"}
+{"given": "but we where prepared for it", "print": "but we were prepared for it", "sure": "high"}
+{"given": "a system of piquets; we protected", "print": "a system of piquets, we protected", "sure": "high"}
+{"given": "blacked, a procefs they had not", "print": "blacked, a process they had not", "sure": "high"}
+{"given": "for the best hotel ordered a good", "print": "for the best hotel and ordered a good", "sure": "high"}

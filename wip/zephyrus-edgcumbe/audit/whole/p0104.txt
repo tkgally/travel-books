@@ -1,0 +1,5 @@
+{"given": "for it to staguate in the", "print": "for it to stagnate in the", "sure": "high"}
+{"given": "To those contributory causes must", "print": "To these contributory causes must", "sure": "high"}
+{"given": "of the true brazilian, begotten of", "print": "of the true Brazilian, begotten of", "sure": "high"}
+{"given": "and coupled with indolence of the", "print": "and coupled with the indolence of the", "sure": "high"}
+{"given": "from yellow fever; were registered", "print": "from yellow fever, were registered", "sure": "high"}

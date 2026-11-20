@@ -1,0 +1,5 @@
+{"given": "but below those places the", "print": "but below these places the", "sure": "high"}
+{"given": "at the Cuareim River; troops coming", "print": "at the Cuareim River, troops coming", "sure": "high"}
+{"given": "additional risks atteudant upon being", "print": "additional risks attendant upon being", "sure": "high"}
+{"given": "As the harbor offered to these", "print": "As the harbour offered to these", "sure": "high"}
+{"given": "had become scandal and a transparent", "print": "had become a scandal and a transparent", "sure": "high"}
