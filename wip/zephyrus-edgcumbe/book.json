@@ -115,5 +115,13 @@
  "notes_on_text": [
   "The scanned copy (University of Toronto) lacks the leaf with pages 160–161 and has pages 162–163 twice in its place; pages 160–161 are taken from another scan of the same edition (University of California), and the repeated pages are left out.",
   "The drawings in the text are by the author."
- ]
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-20",
+  "pages": 8,
+  "recall": "29/29 (6 random pages) and 10/10 (the 2 pages from the UC scan)",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }

@@ -1,0 +1,106 @@
+{
+ "p0175a": [
+  {
+   "kind": "modernized",
+   "at": 305,
+   "was": "favour",
+   "now": "favor",
+   "context": "er thing that will operate in favor of the Uruguayan railway is, ",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "letter",
+   "at": 908,
+   "was": "s",
+   "now": "f",
+   "context": "of the River Plate, and possesfing a fine climate and good so",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "real word",
+   "at": 212,
+   "was": "be",
+   "now": "he",
+   "context": " are avoided, which would not he the case if they were sent by",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "dropped word",
+   "at": 769,
+   "was": " and ",
+   "now": " ",
+   "context": "iental has been both the cause the scene of much contention i",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "punctuation",
+   "at": 561,
+   "was": ",",
+   "now": ";",
+   "context": "h it is now a separate country; a close intercourse has been ",
+   "found_by": [
+    "whole"
+   ]
+  }
+ ],
+ "p0175b": [
+  {
+   "kind": "capital",
+   "at": 647,
+   "was": "O",
+   "now": "o",
+   "context": " the inhabitants of the Banda oriental would be glad if their",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "letter",
+   "at": 482,
+   "was": "u",
+   "now": "n",
+   "context": " Brazil, if either should in fnture infringe the integrity of",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "real word",
+   "at": 824,
+   "was": "be",
+   "now": "he",
+   "context": "n the great saving that would he effected in the cost of gover",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "dropped word",
+   "at": 714,
+   "was": " the ",
+   "now": " ",
+   "context": "ry could throw in its lot with Argentine Republic. There are ",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "punctuation",
+   "at": 940,
+   "was": ",",
+   "now": ";",
+   "context": "plomatic and consular services; and the additional expenses o",
+   "found_by": [
+    "whole"
+   ]
+  }
+ ]
+}
