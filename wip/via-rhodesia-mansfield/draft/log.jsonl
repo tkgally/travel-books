@@ -175,3 +175,12 @@
 {"page": "p0180", "model": "opus", "corrections": null, "seconds": 10.9, "cost": 0.069593, "completion_tokens": 951, "turns": 2, "attempts": 1}
 {"page": "p0181", "model": "opus", "corrections": null, "seconds": 8.0, "cost": 0.0650048, "completion_tokens": 722, "turns": 2, "attempts": 1}
 {"page": "p0182", "model": "opus", "corrections": null, "seconds": 9.5, "cost": 0.06524740000000001, "completion_tokens": 737, "turns": 2, "attempts": 1}
+{"page": "p0183", "model": "opus", "corrections": null, "seconds": 10.7, "cost": 0.0668166, "completion_tokens": 813, "turns": 2, "attempts": 1}
+{"page": "p0184", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0185", "model": "opus", "corrections": null, "seconds": 8.2, "cost": 0.0637884, "completion_tokens": 662, "turns": 2, "attempts": 1}
+{"page": "p0186", "model": "opus", "corrections": null, "seconds": 8.4, "cost": 0.06460740000000001, "completion_tokens": 705, "turns": 2, "attempts": 1}
+{"page": "p0187", "model": "opus", "error": "RuntimeError('API Error: Output blocked by content filtering policy')"}
+{"page": "p0188", "model": "opus", "corrections": null, "seconds": 8.4, "cost": 0.06491200000000001, "completion_tokens": 719, "turns": 2, "attempts": 1}
+{"page": "p0189", "model": "opus", "corrections": null, "seconds": 8.1, "cost": 0.0651602, "completion_tokens": 731, "turns": 2, "attempts": 1}
+{"page": "p0190", "model": "opus", "corrections": null, "seconds": 5.2, "cost": 0.0590284, "completion_tokens": 424, "turns": 2, "attempts": 1}
+{"page": "p0191", "model": "opus", "corrections": null, "seconds": 8.7, "cost": 0.0669202, "completion_tokens": 819, "turns": 2, "attempts": 1}
