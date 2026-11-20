@@ -12,9 +12,9 @@
 
 | | Feet. | Inches. |
 |---|---|---|
-| In relation to the embrasures, the height “of the merlons is | 2 | 0 |
-| Width of the embrasures within and with-“out | 2 | 0 |
-| Distance between them, from centre to “centre | 9 | 0 |
+| In relation to the embrasures, the height of the merlons is | 2 | 0 |
+| Width of the embrasures within and without | 2 | 0 |
+| Distance between them, from centre to centre | 9 | 0 |
 | As to the loopholes, | | |
 | Height of the opening | 1 | 0 |
 | Width of the opening | 0 | 10 |

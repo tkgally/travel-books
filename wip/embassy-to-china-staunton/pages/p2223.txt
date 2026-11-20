@@ -8,7 +8,7 @@
 | Height of the parapet of the platform | 5 | 0 |
 | Total height of the tower | 48 | 2 |
 | Length of each side of the square at top | 36 | 0 |
-| Length of each side of the square at the “base | 42 | 0 |
+| Length of each side of the square at the base | 42 | 0 |
 | Dimensions of the lower story. | | |
 | Width of the intersecting arches | 3 | 0 |
 | Length of the intersecting arches | 33 | 0 |

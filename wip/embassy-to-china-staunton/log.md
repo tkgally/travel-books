@@ -14,6 +14,15 @@ tops are flush, checked on the scan; the 27 `contents` items are the printed cha
 `folios` items are the vol. II restart and plate numbers). Tables checked on the scan by an Opus subagent (see
 Decisions). Nothing half-finished.
 **Next (session 3):**
+0. Tables (Opus subagent, session 2; full report summarized here): fixed p2219/p2223 running marks in rows, p2658
+   1793 Dutch 2,938,530 (column total agrees), p2659 Bohea 3¾d. (arithmetic agrees). **Still to do on the scan:**
+   p2658 (the tea-ships table): the 1784 and 1785 columns are shifted by a row (1784: French 8/4,231,200, Imperial
+   5/3,428,400, Hungarian blank; 1785: Danes 4/3,158,000, Dutch 4/5,334,000, French 4/4,960,000, Portugueze
+   4/3,199,000, American 2/880,100, Swedes blank); 1791 Prussian 3/743,100 and Genoese 1/260 (not American, Spanish);
+   1792 Prussian 1/5,070, Spanish 1/—; 1793 Tuscan 1/393,870 (not Portugueze); Tuscan dashes vs Portugueze blanks
+   1786–92. Consider transposing p2658 (21 columns) to one row per year. Layout: p2303 plant list as a two-column
+   table like p2302/p2304; p2650 bracket of Siou-jou and Cho-tao (3,000 each, 402,000 together). The printer's own
+   sums (p2650 470,870; p2653; p2657; p2659 1787 bullion) are left as printed.
 1. Plates without a caption (maps and charts, folding halves: p3007/8, p3015/16, p3018, p3021/22, p3028, p3031/32,
    p3035/36, p3039/40, p3064): read the engraved title on the plate and give the second half (or the single leaf) one
    `[[caption]]` with it, as done for p3025/26; the vol. I "List of the Plates" (p1025–p1039) helps to read them.
