@@ -1,0 +1,2 @@
+{"n": 1, "is": "A", "print": "naturally at\n\n[[image: photograph of a thatched round hut among trees, with a photographer's sign at left and several Africans standing and seated in the foreground]]\n[[caption]] An Artist’s Corner (By kind permission of Mr. P. M. Clark)\n\n[[cont]]present the ", "sure": "high"}
+{"n": 2, "is": "B", "print": " while", "sure": "high"}

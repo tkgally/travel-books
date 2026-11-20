@@ -1,0 +1,2 @@
+{"n": 1, "is": "B", "print": "handed down\n\n[[image: photograph looking down a broad tree-lined main street of Bulawayo, with low buildings and a monument in the foreground]]\n[[caption]] Main Street in Bulawayo (By kind permission of Father Nassau)\n\n[[cont]]from generat", "sure": "high"}
+{"n": 2, "is": "B", "print": "al sounds.\n\nAt present", "sure": "high"}

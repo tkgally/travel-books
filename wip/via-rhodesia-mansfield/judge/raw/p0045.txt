@@ -1,0 +1,2 @@
+{"n": 1, "is": "B", "print": "ountain does\n\n[[image: photograph of a quay with a large two-funnelled steamer moored alongside, a crane, a train of railway carriages, carts and a mounted policeman]]\n[[caption]] Cape Town Docks\n\n[[cont]]not overshad", "sure": "high"}
+{"n": 2, "is": "A", "print": "Africa.", "sure": "high"}

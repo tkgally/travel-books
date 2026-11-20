@@ -1,0 +1,2 @@
+{"n": 1, "is": "A", "print": "marriage, as\n\n[[image: photograph of a native village of thatched conical huts in a hilly, wooded valley]]\n[[caption]] A Mashona Kraal (By kind permission of Umtali Railway Institute)\n\n[[cont]] the case ma", "sure": "high"}
+{"n": 2, "is": "A", "print": "hidden)", "sure": "high"}

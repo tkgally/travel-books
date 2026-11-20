@@ -1,0 +1,91 @@
+{
+ "id": "via-rhodesia-mansfield",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "Via Rhodesia",
+ "subtitle": "A Journey through Southern Africa",
+ "short_title": "Via Rhodesia",
+ "authors": [
+  {
+   "name": "Charlotte Mansfield",
+   "sort": "Mansfield, Charlotte",
+   "born": 1881,
+   "died": 1936
+  }
+ ],
+ "place": "London",
+ "publisher": "Stanley Paul & Co.",
+ "year": 1911,
+ "edition_statement": "First edition (the title page is undated; 1911 from the catalogue records)",
+ "source": {
+  "ia_identifier": "viarhodesiajourn00mans",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": [
+   0,
+   459,
+   460,
+   461,
+   462,
+   463
+  ]
+ },
+ "regions": [
+  "South Africa",
+  "Zimbabwe",
+  "Zambia",
+  "Malawi",
+  "Tanzania",
+  "Mozambique"
+ ],
+ "period": "1909",
+ "frontispiece": "p0010-1",
+ "divisions": [
+  {
+   "at": "p0001",
+   "kind": "front"
+  },
+  {
+   "at": "p0011",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0013",
+   "kind": "preface",
+   "title": "Acknowledgement"
+  },
+  {
+   "at": "p0015",
+   "kind": "contents"
+  },
+  {
+   "at": "p0017",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0433",
+   "kind": "appendix",
+   "title": "Appendices"
+  },
+  {
+   "at": "p0445",
+   "kind": "back",
+   "title": "Map Showing the Position of Rhodesia",
+   "reading": true
+  },
+  {
+   "at": "p0447",
+   "kind": "index"
+  },
+  {
+   "at": "p0453",
+   "kind": "back"
+  }
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  }
+ ]
+}
