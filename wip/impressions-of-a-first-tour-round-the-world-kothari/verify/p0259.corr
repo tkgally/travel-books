@@ -1,6 +1,0 @@
-{"find": "Fifty-eighth", "replace": "Fifty-eighth"}
-{"find": "house-\n", "replace": "house-"}
-
-Wait — that second item is not a real correction. Correct output:
-
-NONE

@@ -1,8 +1,0 @@
-{"find": "poor Captain Webb took", "replace": "poor Captain Webb took"}
-{"find": "plunge, out of which he never succeeded to rise", "replace": "plunge, out of which he never succeeded to rise"}
-
-Correction: the draft already matches the image in those two places, so those entries change nothing. The only real difference is this:
-
-{"find": "Webb took his last plunge", "replace": "Webb took his last plunge"}
-
-NONE

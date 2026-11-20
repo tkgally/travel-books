@@ -1,6 +1,0 @@
-{"find": "who names were", "replace": "who names were"}
-{"find": "Giant’s", "replace": "Giant’s"}
-
-Wait — I should only report real changes. Corrected list:
-
-{"find": "[[cont]]structure;", "replace": "[[cont]]structure;"}

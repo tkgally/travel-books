@@ -1,6 +1,0 @@
-judge opus: 5 spots on 5 pages: {'draft': 4, 'verified': 1}; cost $0.21
-p0011 #1 [draft, sure: high] draft '# Contents.' | verified '# Contents' | judge reads '# Contents.'
-p0092 #1 [draft, sure: medium] draft 'Austrians, The monumen' | verified 'Austrians. The monumen' | judge reads 'Austrians, The monumen'
-p0198 #1 [draft, sure: high] draft 'ton manufactories' | verified 'ton manufacturories' | judge reads 'ton manufactories'
-p0250 #1 [verified, sure: medium] draft 'ering the Hall,' | verified 'ering the Hail,' | judge reads 'ering the Hail,'
-p0275 #1 [draft, sure: high] draft 'Eastern Tour.' | verified 'Eastern Tour' | judge reads 'Eastern Tour.'
