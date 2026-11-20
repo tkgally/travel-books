@@ -1,0 +1,274 @@
+{
+ "id": "by-fell-and-fjord-oswald",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "By Fell and Fjord",
+ "subtitle": "Or, Scenes and Studies in Iceland",
+ "short_title": "By Fell and Fjord",
+ "authors": [
+  {
+   "name": "E. J. Oswald",
+   "sort": "Oswald, E. J.",
+   "born": 1830,
+   "died": 1905
+  }
+ ],
+ "place": "Edinburgh and London",
+ "publisher": "William Blackwood and Sons",
+ "year": 1882,
+ "edition_statement": "First edition",
+ "source": {
+  "ia_identifier": "byfellfjordorsce00oswarich",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": []
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  }
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0006",
+   "why": "blank page"
+  },
+  {
+   "check": "leaves",
+   "match": "p0051",
+   "why": "blank page before the map"
+  },
+  {
+   "check": "leaves",
+   "match": "p0054",
+   "why": "blank page after the map"
+  },
+  {
+   "check": "leaves",
+   "match": "p0296",
+   "why": "a second shot of page 280 with the errata slip lying over it; not transcribed (p0294 is page 280)"
+  }
+ ],
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0007",
+   "kind": "preface"
+  },
+  {
+   "at": "p0008",
+   "kind": "introduction",
+   "title": "Note"
+  },
+  {
+   "at": "p0009",
+   "kind": "contents"
+  },
+  {
+   "at": "p0011",
+   "kind": "chapter",
+   "title": "Chapter I",
+   "toc_title": "Chapter I. Why We Go There."
+  },
+  {
+   "at": "p0014",
+   "kind": "chapter",
+   "title": "Chapter II",
+   "toc_title": "Chapter II. On the Way There—Faröe Islands."
+  },
+  {
+   "at": "p0023",
+   "kind": "chapter",
+   "title": "Chapter III",
+   "toc_title": "Chapter III. Reykjavik and the Ponies."
+  },
+  {
+   "at": "p0030",
+   "kind": "chapter",
+   "title": "Chapter IV",
+   "toc_title": "Chapter IV. Geysir."
+  },
+  {
+   "at": "p0044",
+   "kind": "chapter",
+   "title": "Chapter V",
+   "toc_title": "Chapter V. Local Origin of Icelandic Literature—Forms of Sagas."
+  },
+  {
+   "at": "p0055",
+   "kind": "chapter",
+   "title": "Chapter VI",
+   "toc_title": "Chapter VI. ‘Landnámabók’—The ‘Eddas’—Sturlunga—Women of the Sagas—Saints—Biographies—Morality—Modern Literature."
+  },
+  {
+   "at": "p0072",
+   "kind": "chapter",
+   "title": "Chapter VII",
+   "toc_title": "Chapter VII. Mossfell—Hvalfjord and its Legends—Reykholt—Kalmanstunga—Central Lava—Surtshellir."
+  },
+  {
+   "at": "p0091",
+   "kind": "chapter",
+   "title": "Chapter VIII",
+   "toc_title": "Chapter VIII. Nordtunga—Borgasyslu—Holtvördsheide—The Northern Coast."
+  },
+  {
+   "at": "p0105",
+   "kind": "chapter",
+   "title": "Chapter IX",
+   "toc_title": "Chapter IX. Fishing in Iceland—Laxdale and its Sagas—Kvennabrekka—Blàskogàeheida—Back to Thingvellir."
+  },
+  {
+   "at": "p0120",
+   "kind": "chapter",
+   "title": "Chapter X",
+   "toc_title": "Chapter X. Recent Misfortunes in Iceland—Trade—New Constitution—Pastoral Wealth—Condition of the People."
+  },
+  {
+   "at": "p0128",
+   "kind": "chapter",
+   "title": "Chapter XI",
+   "toc_title": "Chapter XI. Housekeeping—Dinners—Our Party—Society—Manners—Language."
+  },
+  {
+   "at": "p0136",
+   "kind": "chapter",
+   "title": "Chapter XII",
+   "toc_title": "Chapter XII. Krisuvik—Sulphur-Mines."
+  },
+  {
+   "at": "p0141",
+   "kind": "chapter",
+   "title": "Chapter XIII",
+   "toc_title": "Chapter XIII. Vatnsleysi—Kirkjuvogr and Reykjanes—Aurora—Home Again—Hints to Travellers."
+  },
+  {
+   "at": "p0152",
+   "kind": "chapter",
+   "title": "Chapter XIV",
+   "toc_title": "Chapter XIV. A Journey in 1878—Ulfljotsvatn—Geysir, Another Eruption—Gullfoss—Huni—Thjorsà—Storuvellir."
+  },
+  {
+   "at": "p0163",
+   "kind": "chapter",
+   "title": "Chapter XV",
+   "toc_title": "Chapter XV. Hecla—New Volcanoes—Kirkjubae—Fljotslid."
+  },
+  {
+   "at": "p0171",
+   "kind": "chapter",
+   "title": "Chapter XVI",
+   "toc_title": "Chapter XVI. Markarfljot River—Thorsmark—Floods and Fords."
+  },
+  {
+   "at": "p0183",
+   "kind": "chapter",
+   "title": "Chapter XVII",
+   "toc_title": "Chapter XVII. Over Markarfljot—Njal’s Country—Floa—Eyrabakki—to Reykjavik."
+  },
+  {
+   "at": "p0192",
+   "kind": "chapter",
+   "title": "Chapter XVIII",
+   "toc_title": "Chapter XVIII. Hvalfjord—Borgarfjord."
+  },
+  {
+   "at": "p0199",
+   "kind": "chapter",
+   "title": "Chapter XIX",
+   "toc_title": "Chapter XIX. Egil at Borgarfjord."
+  },
+  {
+   "at": "p0210",
+   "kind": "chapter",
+   "title": "Chapter XX",
+   "toc_title": "Chapter XX. Stafholt—Reykholt—Snorri Sturlason and His Fate—Gilsbakki—Pass of Ok—Benighted."
+  },
+  {
+   "at": "p0220",
+   "kind": "chapter",
+   "title": "Chapter XXI",
+   "toc_title": "Chapter XXI. Thingvellir in Former Days—The Talk of the Maidens—Solitudes—Besserstad—Dogs—Krisuvik—Home Again."
+  },
+  {
+   "at": "p0236",
+   "kind": "chapter",
+   "title": "Chapter XXII",
+   "toc_title": "Chapter XXII. Faröes—To Akureyrei—Steinstadr—Over Oxnadal Heath—Miklabæ and its Ghost—Sorcerers—Hidden Treasures—The Spectre Lover."
+  },
+  {
+   "at": "p0252",
+   "kind": "chapter",
+   "title": "Chapter XXIII",
+   "toc_title": "Chapter XXIII. Church Services—Clergy—Magistrates—Drink in Iceland and Norway—Tobacco—Beauty."
+  },
+  {
+   "at": "p0261",
+   "kind": "chapter",
+   "title": "Chapter XXIV",
+   "toc_title": "Chapter XXIV. To Bakkastadr—To the Hunafjord—Thingeyri—Vatzdale."
+  },
+  {
+   "at": "p0269",
+   "kind": "chapter",
+   "title": "Chapter XXV",
+   "toc_title": "Chapter XXV. Legends of Vatzdale—Ingmundr the Old—Halfred the Skald."
+  },
+  {
+   "at": "p0278",
+   "kind": "chapter",
+   "title": "Chapter XXVI",
+   "toc_title": "Chapter XXVI. Over Grimstungaheide to Kalmunstunga—Varmaleik—Benighted—Mossfell."
+  },
+  {
+   "at": "p0290",
+   "kind": "chapter",
+   "title": "Chapter XXVII",
+   "toc_title": "Chapter XXVII. Excursion to Reykjadal and Eyrabakki."
+  },
+  {
+   "at": "p0295",
+   "kind": "errata"
+  },
+  {
+   "at": "p0297",
+   "kind": "index"
+  },
+  {
+   "at": "p0299",
+   "kind": "advertisements"
+  }
+ ],
+ "toc": {
+  "subtitles": "all"
+ },
+ "regions": [
+  "Iceland",
+  "Faroe Islands"
+ ],
+ "period": "1875–79",
+ "omitted_from_reading": "The title page, the printed contents, the errata slip, the index and the publisher’s advertisements are in the JSON only.",
+ "summary": "Elizabeth Jane Oswald, a Scottish traveller who read the Icelandic sagas, made three summer journeys in Iceland, in 1875, 1878 and 1879, riding with companions and Icelandic guides on ponies and staying at farms and parsonages. She went from Reykjavik to Geysir, Thingvellir and the sulphur mines of Krisuvik, round Hecla and across the Markarfljot to Njal’s country, through Borgarfjord and Hvalfjord, and on the third journey by the Faröe Islands to Akureyrei in the north and over the heaths to Vatzdale and back. Throughout she connects the places with the sagas and legends set in them, and two chapters are an account of Icelandic literature. She also writes about fishing, farming, housekeeping, church services and recent hardships, with hints to travellers and translations of verse. Woodcuts after her own sketches and a map of the saga districts.",
+ "notes_on_text": [
+  "The book prints the Icelandic letters thorn and eth as “th” and “d” (its Note says so); that is kept.",
+  "The printed errata slip (four items) has been applied.",
+  "The map is printed across two pages; a narrow strip of it is lost in the binding of the scanned copy, so it is shown in two halves. The letters lost from its title (“al” of “Local”, “Ce” of “Certain”) are supplied."
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-20",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ },
+ "keep_hyphens": [
+  "p0089",
+  "p0144"
+ ]
+}

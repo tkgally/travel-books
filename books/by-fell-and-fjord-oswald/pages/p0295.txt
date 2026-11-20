@@ -1,0 +1,11 @@
+[[page ?]]
+
+# Errata.
+
+Page 57, line 8, <i>for</i> “Mattias Jochmundsen” <i>read</i> “Matthias Jochumsson.”
+
+〃 117, line 11, <i>for</i> “230” <i>read</i> “2300.”
+
+〃 146, line 24, <i>for</i> “Huni” <i>read</i> “Hruni.”
+
+〃 157, line 9, <i>for</i> “molten metallic substances” <i>read</i> “molten lavas.”
