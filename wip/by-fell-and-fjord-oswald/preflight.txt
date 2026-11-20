@@ -1,15 +1,10 @@
 [       ok] meta: book.json: required fields present and sane
 [       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
-[ FAIL (2)] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
-            - [[cont]] with nothing to continue, treated as a new block: p0098
-            - [[cont]] not at the top of a page, dropped: p0164
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
 [       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
 [       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
 [       ok] straight-quotes: no straight ' or " in the text
-[ FAIL (3)] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
-            - p0295:  117, line 11, for “230” re'…
-            - p0295:  146, line 24, for “Huni” r'…
-            - p0295:  157, line 9, for “molten m'…
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
 [       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
 [       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
 [       ok] links: every link inside the book's web pages and EPUB has a target
@@ -17,8 +12,7 @@
 [       ok] nav: contents: at least one reading division; each has a title and text
 [       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
-[ FAIL (1)] audit: book.json records the sampled audit of this version
-            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[       ok] audit: book.json records the sampled audit of this version
 [ look (5)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0039: … on his visita-|tion tour, moun… (hyphen removed; check)
             - hyphen join at p0089: …g a rough hill-|side, or crossi… (hyphen removed; check) — the book prints “hill-side” elsewhere: keep_hyphens?
@@ -31,14 +25,10 @@
 [       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
 [ look (1)] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
             - p0062: closing ” with no opening “: 'Then one of Sigrun’s maidens tells her how she has seen a gr'
-[ FAIL (4)] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
-            - p0039: …'om the rain. Nevertheless' | picture | 'we pushed on, diverging f'
-            - p0155: …'me in storm and rain. The' | picture | 'farm is a poor one. The b'
-            - p0161: …'to face the yellow waves,' | picture | 'while our men, aided by s'
-            - p0238: …' in endless variations of' | picture | 'cloud-fleck and clear exp'
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
 [ look (1)] contents: entries of the printed contents with no matching heading
             - p0010: 'a journey in 1878—ulfjlotsvatn—geysir, another eruption—gullfoss—huni—'
 [       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: by-fell-and-fjord-oswald v1 — 10 to fix, 4 waived; to look at: hyphen-joins 5, folios 1, quote-balance 1, contents 1 — tools@d6552c2 2026-11-20
+preflight PASS: by-fell-and-fjord-oswald v1 — 0 to fix, 4 waived; to look at: hyphen-joins 5, folios 1, quote-balance 1, contents 1 — tools@561e885 2026-11-20

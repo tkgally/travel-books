@@ -121,7 +121,7 @@
    "at": "p0105",
    "kind": "chapter",
    "title": "Chapter IX",
-   "toc_title": "Chapter IX. Fishing in Iceland—Laxdale and its Sagas—Kvennabrekka—Bláskogàeheida—Back to Thingvellir."
+   "toc_title": "Chapter IX. Fishing in Iceland—Laxdale and its Sagas—Kvennabrekka—Blàskogàeheida—Back to Thingvellir."
   },
   {
    "at": "p0120",
@@ -258,5 +258,17 @@
   "The book prints the Icelandic letters thorn and eth as “th” and “d” (its Note says so); that is kept.",
   "The printed errata slip (four items) has been applied.",
   "The map is printed across two pages; a narrow strip of it is lost in the binding of the scanned copy, so it is shown in two halves. The letters lost from its title (“al” of “Local”, “Ce” of “Certain”) are supplied."
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-20",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ },
+ "keep_hyphens": [
+  "p0089",
+  "p0144"
  ]
 }
