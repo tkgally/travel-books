@@ -1,7 +1,0 @@
-{"given": "Chapter I.", "print": "THE LAND OF THE NORTH WIND. CHAPTER I.", "sure": "medium"}
-{"given": "Chapter I.", "print": "CHAPTER I.", "sure": "medium"}
-{"given": "Preparations for journey to Lapland", "print": "Preparations for Journey to Lapland", "sure": "high"}
-{"given": "one. I bad the good", "print": "one. I had the good", "sure": "high"}
-{"given": "a gentleman of energy, endurance; and", "print": "a gentleman of energy, endurance, and", "sure": "high"}
-{"given": "I found a hardy patient companion,", "print": "I found a hardy and patient companion,", "sure": "high"}
-{"given": "who is now very widcly", "print": "who is now very widely", "sure": "high"}

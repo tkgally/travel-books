@@ -1,5 +1,0 @@
-{"given": "the next stage, swallow cup of milk", "print": "the next stage, swallow a cup of milk", "sure": "high"}
-{"given": "whose rider’s name was death.", "print": "whose rider’s name was Death.", "sure": "high"}
-{"given": "our baggage drawn bcside us on", "print": "our baggage drawn beside us on", "sure": "high"}
-{"given": "bring us across: when landing amid", "print": "bring us across: then landing amid", "sure": "high"}
-{"given": "looking back over it; it was", "print": "looking back over it, it was", "sure": "high"}

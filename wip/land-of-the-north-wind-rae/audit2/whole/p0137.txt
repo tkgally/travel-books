@@ -1,5 +1,0 @@
-{"given": "whom we bad engaged to", "print": "whom we had engaged to", "sure": "high"}
-{"given": "for us, and torneå from", "print": "for us, and Torneå from", "sure": "high"}
-{"given": "take the photographs first thing in", "print": "take the photographs the first thing in", "sure": "high"}
-{"given": "himself so violently; but his", "print": "himself so violently, but his", "sure": "high"}
-{"given": "told them where to dircct the", "print": "told them where to direct the", "sure": "high"}

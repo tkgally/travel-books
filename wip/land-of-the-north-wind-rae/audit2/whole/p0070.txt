@@ -1,5 +1,0 @@
-{"given": "two or three stumbles or wet rocks", "print": "two or three stumbles on wet rocks", "sure": "high"}
-{"given": "under our horses’ feet almost, as if with a broken wing; to decoy", "print": "under our horses’ feet almost, as if with a broken wing, to decoy", "sure": "high"}
-{"given": "numbers of these prctty birds", "print": "numbers of these pretty birds", "sure": "high"}
-{"given": "lakes which the alten river connects", "print": "lakes which the Alten river connects", "sure": "high"}
-{"given": "plain through which river sweeps", "print": "plain through which the river sweeps", "sure": "high"}

@@ -1,5 +1,0 @@
-{"given": "We have called; we believe,", "print": "We have called, we believe,", "sure": "high"}
-{"given": "waiting for us or deck", "print": "waiting for us on deck", "sure": "high"}
-{"given": "he chatted brightly and clcverly,", "print": "he chatted brightly and cleverly,", "sure": "high"}
-{"given": "His inability speak Finnish was", "print": "His inability to speak Finnish was", "sure": "high"}
-{"given": "not many hours from helsingfors.", "print": "not many hours from Helsingfors.", "sure": "high"}

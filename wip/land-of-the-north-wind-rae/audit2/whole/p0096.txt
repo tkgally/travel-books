@@ -1,5 +1,0 @@
-{"given": "Brick and Somerset; instead of having", "print": "Brick and Somerset, instead of having", "sure": "high"}
-{"given": "and we could bear the murmur", "print": "and we could hear the murmur", "sure": "high"}
-{"given": "Towards six o’clock undefinable Brick complained", "print": "Towards six o’clock the undefinable Brick complained", "sure": "high"}
-{"given": "relieve the poor horscs from the", "print": "relieve the poor horses from the", "sure": "high"}
-{"given": "animals to Brick and somerset, and", "print": "animals to Brick and Somerset, and", "sure": "high"}

@@ -1,5 +1,0 @@
-{"given": "old nobleman with strong Scotch accent", "print": "old nobleman with a strong Scotch accent", "sure": "high"}
-{"given": "three ladies, this wife, daughter,", "print": "three ladies, his wife, daughter,", "sure": "high"}
-{"given": "It is very fairly cold; and", "print": "It is very fairly cold, and", "sure": "high"}
-{"given": "later than ever on deck tonight,", "print": "later than ever on deck to-night,", "sure": "high"}
-{"given": "we detect and dcfeat a scheme", "print": "we detect and defeat a scheme", "sure": "high"}

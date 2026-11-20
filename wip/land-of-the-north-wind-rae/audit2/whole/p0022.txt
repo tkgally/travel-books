@@ -1,5 +1,0 @@
-{"given": "A deserted Village—A Surprize—A wealthy", "print": "A deserted Village—A Surprise—A wealthy", "sure": "high"}
-{"given": "Their Appearance, Features; and Expression", "print": "Their Appearance, Features, and Expression", "sure": "high"}
-{"given": "A Purchase and characteriftic Incident", "print": "A Purchase and characteristic Incident", "sure": "high"}
-{"given": "Reflections or the Reindeer—The only", "print": "Reflections on the Reindeer—The only", "sure": "high"}
-{"given": "The Smallest Church the World—A Samoyede", "print": "The Smallest Church in the World—A Samoyede", "sure": "high"}

@@ -1,8 +1,0 @@
-{"given": "heard it called tchelége in Archangel", "print": "heard it called tcheléga in Archangel", "sure": "high"}
-{"given": "we had not learnt beneficent secret", "print": "we had not learnt the beneficent secret", "sure": "high"}
-{"given": "hay, mattrasses, and pillows", "print": "hay, mattrasses, and pillows", "sure": "low"}
-{"given": "stimulated by russian drivers can.", "print": "stimulated by Russian drivers can.", "sure": "high"}
-{"given": "winnowing machine the tchelége flew along", "print": "winnowing machine the tcheléga flew along", "sure": "high"}
-{"given": "with humming mosquitoes; flitted past", "print": "with humming mosquitoes, flitted past", "sure": "high"}
-{"given": "now and when we caught glimpses", "print": "now and then we caught glimpses", "sure": "high"}
-{"given": "our musical bell jingliug loudly,", "print": "our musical bell jingling loudly,", "sure": "high"}

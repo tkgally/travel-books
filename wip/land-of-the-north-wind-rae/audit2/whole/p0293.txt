@@ -1,5 +1,0 @@
-{"given": "appreciate the hollowncss of Acerbi’s", "print": "appreciate the hollowness of Acerbi’s", "sure": "high"}
-{"given": "the Samoyede rites burial were", "print": "the Samoyede rites of burial were", "sure": "high"}
-{"given": "and could nor ascertain", "print": "and could not ascertain", "sure": "high"}
-{"given": "never see again; anywhere, the", "print": "never see again, anywhere, the", "sure": "high"}
-{"given": "and honor their memory long", "print": "and honour their memory long", "sure": "high"}

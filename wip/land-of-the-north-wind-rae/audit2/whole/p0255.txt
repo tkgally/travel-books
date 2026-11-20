@@ -1,5 +1,0 @@
-{"given": "deeply in the water; and we", "print": "deeply in the water, and we", "sure": "high"}
-{"given": "The men admittcd it was not", "print": "The men admitted it was not", "sure": "high"}
-{"given": "or according to orloff nine versts", "print": "or according to Orloff nine versts", "sure": "high"}
-{"given": "We talked Russian, and learned", "print": "We talked in Russian, and learned", "sure": "high"}
-{"given": "We asked where they where to", "print": "We asked where they were to", "sure": "high"}

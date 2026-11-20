@@ -1,2 +1,0 @@
-{"n": 1, "is": "neither", "print": "of the tcheléga, and", "sure": "medium"}
-{"n": 2, "is": "neither", "print": "nother tcheléga and", "sure": "medium"}

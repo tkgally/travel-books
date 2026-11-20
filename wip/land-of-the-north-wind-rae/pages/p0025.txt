@@ -1,9 +1,0 @@
-[[page ?]]
-
-# List of Illustrations.
-
-| S<sc>ledging over the</sc> T<sc>ûndras to</sc> K<sc>aroléon</sc> (p. <pref>261</pref>) | <i>Frontispiece</i> |
-| S<sc>amoyede</sc> C<sc>ostume</sc> | <i>Title-page</i> |
-| F<sc>erry on the</sc> D<sc>wina</sc> R<sc>iver</sc> | <i>to face p.</i> <pref>167</pref> |
-| S<sc>amoyede</sc> V<sc>illage</sc> | ” <pref>252</pref> |
-| M<sc>ap of</sc> A<sc>uthor’s</sc> R<sc>oute</sc> | <i>at the end</i> |

@@ -1,2 +1,0 @@
-{"n": 1, "is": "A", "print": "knóut", "sure": "medium"}
-{"n": 2, "is": "B", "print": "Akatóuia", "sure": "medium"}

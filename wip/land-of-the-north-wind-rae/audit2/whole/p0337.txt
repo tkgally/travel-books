@@ -1,5 +1,0 @@
-{"given": "the breeze from the white Sea", "print": "the breeze from the White Sea", "sure": "high"}
-{"given": "made phisophers of us; and we", "print": "made phisophers of us, and we", "sure": "high"}
-{"given": "impracticable, as we made it, for more then two", "print": "impracticable, as we made it, for more than two", "sure": "high"}
-{"given": "With every effort suggcsted by past", "print": "With every effort suggested by past", "sure": "high"}
-{"given": "the spirit ran in forked hissing tongues", "print": "the spirit ran in forked and hissing tongues", "sure": "high"}
