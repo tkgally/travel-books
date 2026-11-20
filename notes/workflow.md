@@ -253,7 +253,7 @@ visibly differs from newer ones.
 - Endnotes printed at the end of the book rather than at the foot of the page.
 - A footnote printed in more than one paragraph: the markup has none; typed as one paragraph and said in `notes_on_text`
   (*Journey through the Caucasus*, pp. 37, 123–124).
-- Greek, Arabic or other scripts quoted in the text: transcribe in the script; untested. Japanese script (kanji,
+- Greek, Arabic or other scripts quoted in the text: transcribe in the script. Tried on a few words of Arabic (*A Land of Mosques and Marabouts*, 2026-11-20): Opus drafted them letter for letter, Maghrebi letters included (ڢ, گ, ک), and an Opus spot-read on crops checked them; digits are stored in reading order (a year printed reversed was marked `[[corr]]`). Rendering checked in the browser and the EPUB; a book with long passages is still untested. Japanese script (kanji,
   kana) will come with the JATSI books (`jatsi.md`): before the first book that has more than a few characters, try
   a sample page through draft, corrections and the three builders (does the EPUB reader's font have the
   characters? does LibreOffice's?), and write the result here.

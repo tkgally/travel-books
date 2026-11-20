@@ -5,8 +5,8 @@ Eligibility: re-checked 2026-11-20: the CRL catalogue names the author Ermengard
 d. 9 July 1949, Burke's Peerage via thepeerage.com): rule 5 met. No text edition, no reprint but print on demand.
 
 ## Status
-Stage reached: (a) scan checked, Drive folder `1dy8HT1cXNt3VGLK6Hc-rJBiwB_4nAaHy` (14 parts); Opus draft running.
-Next step: corrections pass; review; judge; plate crops.
+Stage reached: (c) preflight PASS, audit 30/30; accents check and rendered look running. Drive folder `1dy8HT1cXNt3VGLK6Hc-rJBiwB_4nAaHy`, 14 parts.
+Next step: their findings; publish.
 
 ## Page map
 p0000 colour card (hidden) · p0001 cover (decorated: stamped Moorish arch) · p0002–p0003 endpapers · p0004 flyleaf (an ink
@@ -25,10 +25,21 @@ Scan check (Opus subagent, 2026-11-20): all seven sheets, a dozen pages at full 
 places (dedication, two words p0231, Appendix B). Draft: p0005–p0248 without the hidden leaves and the tissue guard.
 
 ## Decisions
+- Divisions: half-title above Chapter I (p0023, `front` n 1), parts Algeria (n 2) and Tunisia (p0176); the French poem "Étoiles Filantes" (p0017) is a reading division; the Envoi is `back` with reading true and the appendices `appendix`, so that they do not nest under the part Tunisia (only `chapter` divisions nest). Chapter titles are the first `[[subtitle]]` (short title); the topic lists are the second.
+- The dinner scene set as a play (pp. 14–16): one blockquote over the three pages (the draft had p0039 outside it); "2nd Course", "3rd Course" centred like "1st Course".
+- Ditto marks in the Appendix B tables: „ throughout (the draft had ” on p0247).
+- Judge overturned on the crop: "cortège" (p0149) is printed with a grave; the draft's acute was wrong.
+- Spot-read (Opus subagent, about 60 pages: front matter, the scene, verse, tables, Arabic, footnote pages): printer's errors marked: the year of the dedication with its digits reversed (٣٩٨١ → ١٨٩٣), "ladies," for "ladies’" (p0176). Fixed to the print: ‘Argeīr’ (macron), s<i>k</i>ion, alatia (no accent), the Appendix B cell (a stray 〓; قَتَلَ with its vowel marks). "Amiranté" (contents and the Chapter II summary; French Amirauté) left as printed: `[[corr]]` is not rendered inside a `[[subtitle]]` line (lessons). The Arabic of the dedication matches the print letter for letter (Maghrebi ڢ, گ, ک); "عمرعن" as printed.
+- Plates: 12 cropped by an Opus subagent (four turned upright: p0031, p0153, p0183, p0207); captions checked word for word; one description corrected (pack animals, not camels, p0207). Cover: the stamped arch panel of the cloth cover, cropped clear of the library barcode.
+- keep_hyphens p0216 (church-like); stoping (p0097, "stop-|ing") joined as printed.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-20 | opus | 226 | 14.29 | no refusals |
+| corrections | 2026-11-20 | sonnet | 226 | 7.12 | 10 changes; 5 spots |
+| judge | 2026-11-20 | opus | 5 spots | 0.21 | 4 draft, 1 verified; the scan overturned it once (cortège) |
+| audit | 2026-11-20 | opus | 6 | 0.34 | 30/30; 0 candidates |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
