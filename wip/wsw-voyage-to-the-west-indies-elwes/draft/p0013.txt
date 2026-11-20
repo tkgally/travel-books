@@ -1,0 +1,18 @@
+[[page ?]]
+
+# List of Illustrations.
+
+| TOWER OF ST. JEROME, OLD PANAMA | F<sc>rontispiece.</sc> | |
+| ST. THOMAS | T<sc>o face</sc> P<sc>age</sc> | <pref>6</pref> |
+| PANAMA RAILWAY | ” | <pref>22</pref> |
+| PANAMA | ” | <pref>39</pref> |
+| NEWCASTLE | ” | <pref>50</pref> |
+| THE BOG WALK | ” | <pref>56</pref> |
+| ST. THOMAS’S IN THE VALE | ” | <pref>60</pref> |
+| THE FERN WALK | ” | <pref>66</pref> |
+| ST. CHRISTOPHER’S | ” | <pref>78</pref> |
+| GRENADA | ” | <pref>92</pref> |
+| THE BOTANICAL GARDENS | ” | <pref>104</pref> |
+| CHAGUARAMOS BAY | ” | <pref>108</pref> |
+| MARRACCAS | ” | <pref>114</pref> |
+| THE BLUE BASIN | ” | <pref>116</pref> |
