@@ -27,6 +27,11 @@ wip/embassy-to-china-staunton/source.json $B/pages`):
 4. Structure: two volumes as parts (`# Volume I` …), contents, divisions (front matter, lists of plates,
    appendix), placement of the folio plates (decide: a part of its own after vol. II, each plate with its
    engraved caption, the vol. I "List of the Plates" kept as their description — leaning, assumed).
+5. Plate pages (p3xxx): several plates have their caption in more than one `[[caption]]` line (the two halves of
+   folding plates, and engraver/publisher lines such as "Ellis sculpt.", "Published … by G. Nicol"): one
+   `[[caption]]` per image (lessons, plates); decide whether imprint lines are kept (they are lettering on the
+   plate, not a caption: leaning, leave them out as with other books' plates, assumed). Check "Wesern Gates" (p3058)
+   on the plate.
 
 ## Leaf naming (several IA items in one book)
 Vol. I IA leaf k = page file `p1000+k` (p1068 = IA leaf 68 = printed vol. I p. 24); vol. II IA leaf k = `p2000+k`;
