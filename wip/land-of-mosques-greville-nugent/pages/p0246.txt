@@ -10,7 +10,7 @@ A modern Arabic verb has but one form of conjugation and two tenses, the aorist 
 
 The two following examples of the preterit of the verb “to kill” (<i>qt’l</i>) will show the difference between the “regular” and the spoken forms of Arabic:—
 
-### “<sc>Regular</sc>” <sc>Arabic</sc>.
+## “<sc>Regular</sc>” <sc>Arabic</sc>.
 
 [[center]] Verb <i>to kill</i> (Qt’l).
 
