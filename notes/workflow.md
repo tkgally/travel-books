@@ -88,7 +88,11 @@ LibreOffice (`soffice`) is in the image; preflight needs it for the ODT check.
    any page is missing (follow the printed page numbers through; `leaves.json` has IA's own numbering),
    duplicated in place of another, cut off, out of focus, hidden by a hand or a fold, or if a folding plate or
    map was not opened. A failed scan → try another IA scan of the same edition; none → queue row `rejected`
-   with the reason. Write the page map in the log: leaf ranges for cover, front matter, contents, each
+   with the reason. A few leaves missing or damaged (a missing first page, a plate cut off at the edge) can be taken from
+   another scan of the same edition, page by page, without fetching its whole archive:
+   `https://archive.org/download/<id>/page/n<N>.jpg` (n = the viewer's page index); name the leaf after the one it
+   follows with a letter (`p2029a`), record it in `book.json` `source.extra_leaves`, and say so in `notes_on_text`
+   (*Embassy to China*, 2026-11-20). Write the page map in the log: leaf ranges for cover, front matter, contents, each
    chapter start if easy, plates, appendices, index, advertisements, blanks; printed-page offset.
 5. **Cache in Drive**: create the folder `<slug>` in "Travel Books" with the Drive connector, put its id in
    `source.json` as `drive_folder_id`, then
