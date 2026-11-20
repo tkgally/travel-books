@@ -1,0 +1,5 @@
+{"given": "As we drove qnickly up", "print": "As we drove quickly up", "sure": "high"}
+{"given": "Samoyedes, who where not too busy", "print": "Samoyedes, who were not too busy", "sure": "high"}
+{"given": "look at the gigantic stranger; and entered", "print": "look at the gigantic stranger, and entered", "sure": "high"}
+{"given": "four thousand versts visit them.", "print": "four thousand versts to visit them.", "sure": "high"}
+{"given": "In vain orloff assured them", "print": "In vain Orloff assured them", "sure": "high"}

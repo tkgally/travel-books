@@ -8,14 +8,14 @@
 | Are there. | <i>Tanyâh?</i> |
 | How far. | <i>Ou sierâna?</i> |
 | Come here. | <i>Talyàndo.</i> |
-| Stop. | <i>Nôuia.</i> |
+| Stop. | <i>Noûia.</i> |
 | Bring. | <i>Taht.</i> |
 | Take. | <i>Mouette.</i> |
 | How much costs. | <i>Sian mira korma? Sia birta?</i> |
 | Will you sell that. | <i>Mirdat nada.</i> |
 | Can I buy. | <i>Nientsi.</i> |
 | When shall we eat. | <i>Siam òrtavo?</i> |
-| Can we sleep. | <i>Honyou sierto danyégôu?</i> |
+| Can we sleep. | <i>Honyou sierto danyégoû?</i> |
 | Is a good wind coming. | <i>Mertsi sâouo danyégoû.</i> |
 
 ## Auxiliary Words.

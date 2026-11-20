@@ -1,0 +1,5 @@
+{"given": "satisfied that, bad I contemplated", "print": "satisfied that, had I contemplated", "sure": "high"}
+{"given": "Finally, kind Reader; if in", "print": "Finally, kind Reader, if in", "sure": "high"}
+{"given": "So that, to use words of one", "print": "So that, to use the words of one", "sure": "high"}
+{"given": "and whosoevcr Reads and Repents", "print": "and whosoever Reads and Repents", "sure": "high"}
+{"given": "Believe me, dear reader,", "print": "Believe me, dear Reader,", "sure": "high"}

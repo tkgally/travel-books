@@ -1,0 +1,6 @@
+{"given": "Chapter XII.", "print": "CHAPTER XII.", "sure": "medium"}
+{"given": "Leave archangel for the North-east", "print": "Leave Archangel for the North-east", "sure": "high"}
+{"given": "After pleasant meal at the", "print": "After a pleasant meal at the", "sure": "high"}
+{"given": "the universal postiug vehicle", "print": "the universal posting vehicle", "sure": "high"}
+{"given": "only, save were the ground", "print": "only, save where the ground", "sure": "high"}
+{"given": "of wooden planks; over which", "print": "of wooden planks, over which", "sure": "high"}

@@ -1,0 +1,5 @@
+{"given": "and I belicve that within", "print": "and I believe that within", "sure": "high"}
+{"given": "will be more then doubled", "print": "will be more than doubled", "sure": "high"}
+{"given": "initiative, coming here; was struck", "print": "initiative, coming here, was struck", "sure": "high"}
+{"given": "neither the doctor nor I", "print": "neither the Doctor nor I", "sure": "high"}
+{"given": "and don’t mean learn superficial", "print": "and don’t mean to learn superficial", "sure": "high"}

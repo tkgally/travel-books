@@ -2,11 +2,7 @@
 [       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
 [       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
 [       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
-[ FAIL (4)] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
-            - text: …'f life: the needy persevering [[image: a musical note on a sta'…
-            - text: …'on a staff, marked with a flat]] and the impious and volatile '…
-            - text: …' and the impious and volatile [[image: a musical note on a sta'…
-            - text: …'n a staff, marked with a sharp]] were there, living through th'…
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
 [       ok] straight-quotes: no straight ' or " in the text
 [       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
 [       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
@@ -16,29 +12,19 @@
 [       ok] nav: contents: at least one reading division; each has a title and text
 [       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
-[ FAIL (1)] audit: book.json records the sampled audit of this version
-            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
-[ look (6)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+[       ok] audit: book.json records the sampled audit of this version
+[ look (4)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0042: …oing to circum-|navigate the Is… (hyphen removed; check)
-            - hyphen join at p0094: …night in Kauto-|keino, and cons… (hyphen removed; check) — the book prints “kauto-keino” elsewhere: keep_hyphens?
             - hyphen join at p0109: …ht wish to per-|form it after h… (hyphen removed; check)
-            - hyphen join at p0188: …e strange long-|cassocked men w… (hyphen removed; check) — the book hyphenates other “long-” words: keep_hyphens?
             - hyphen join at p0321: …shore by Tchôr-|naya, where we … (hyphen removed; check)
             - (and 22 joins giving a word the book prints whole elsewhere: not listed)
 [       ok] joins: page joins: missing [[cont]]
 [       ok] folios: printed page numbers that break the sequence
-[ FAIL (6)] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
-            - p0006: no page file
-            - p0007: no page file
-            - p0012: no page file
-            - p0014: no page file
-            - p0193: no page file
-            - p0282: no page file
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
 [       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
 [       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
 [       ok] contents: entries of the printed contents with no matching heading
-[ look (1)] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
-            - book.json divisions p0049 toc_title: …—Johannes Strand—We lose Jones' Services—Somerset—L…
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: land-of-the-north-wind-rae v1 — 11 to fix, 0 waived; to look at: hyphen-joins 6, site-text 1 — tools@70e52ce 2026-11-20
+preflight PASS: land-of-the-north-wind-rae v1 — 0 to fix, 6 waived; to look at: hyphen-joins 4 — tools@bceb2d7 2026-11-20

@@ -1,0 +1,5 @@
+{"given": "where we had merry and", "print": "where we had a merry and", "sure": "high"}
+{"given": "great regret from those amiable ladies", "print": "great regret from these amiable ladies", "sure": "high"}
+{"given": "once more to lapland and", "print": "once more to Lapland and", "sure": "high"}
+{"given": "The Sunday morniug was dull", "print": "The Sunday morning was dull", "sure": "high"}
+{"given": "with scarfs and handkerchiefs; and Miss", "print": "with scarfs and handkerchiefs, and Miss", "sure": "medium"}

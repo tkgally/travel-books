@@ -1,0 +1,5 @@
+{"given": "boatmen’s tube, or letting them draw", "print": "boatmen’s tube, or of letting them draw", "sure": "high"}
+{"given": "broiling day the doctor and I", "print": "broiling day the Doctor and I", "sure": "high"}
+{"given": "in fresh water: pcrhaps it was", "print": "in fresh water: perhaps it was", "sure": "high"}
+{"given": "an electro-plated spoon; which you have", "print": "an electro-plated spoon, which you have", "sure": "high"}
+{"given": "darkened your soup on strewn your", "print": "darkened your soup or strewn your", "sure": "high"}

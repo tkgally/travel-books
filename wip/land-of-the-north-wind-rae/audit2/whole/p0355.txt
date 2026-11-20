@@ -1,0 +1,5 @@
+{"given": "holding a square-folded mouchoir; and alive", "print": "holding a square-folded mouchoir, and alive", "sure": "high"}
+{"given": "appropriate and not tbeatrical attire.", "print": "appropriate and not theatrical attire.", "sure": "high"}
+{"given": "We asked with surprize how the", "print": "We asked with surprise how the", "sure": "high"}
+{"given": "yes, tight, is word—and incapable", "print": "yes, tight, is the word—and incapable", "sure": "high"}
+{"given": "cannot start until his has been done", "print": "cannot start until this has been done", "sure": "high"}

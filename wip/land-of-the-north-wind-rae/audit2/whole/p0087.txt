@@ -1,0 +1,5 @@
+{"given": "behind him the skull, feet; and horns,", "print": "behind him the skull, feet, and horns,", "sure": "high"}
+{"given": "The practize of sacrificing these", "print": "The practise of sacrificing these", "sure": "high"}
+{"given": "Another form sacrifice common among these", "print": "Another form of sacrifice common among these", "sure": "high"}
+{"given": "devoted people is his: ‘When", "print": "devoted people is this: ‘When", "sure": "high"}
+{"given": "They have no partieular names for", "print": "They have no particular names for", "sure": "high"}

@@ -1,0 +1,5 @@
+{"given": "and in the case the women,", "print": "and in the case of the women,", "sure": "high"}
+{"given": "the solitary samoyede figure upon the", "print": "the solitary Samoyede figure upon the", "sure": "high"}
+{"given": "I think be will give in", "print": "I think he will give in", "sure": "high"}
+{"given": "plunder and opprefsion of their neighbours", "print": "plunder and oppression of their neighbours", "sure": "high"}
+{"given": "and no wonder; poor people:", "print": "and no wonder, poor people:", "sure": "high"}

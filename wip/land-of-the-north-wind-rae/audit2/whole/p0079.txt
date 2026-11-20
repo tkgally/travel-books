@@ -1,0 +1,5 @@
+{"given": "continueth upon mountains winter and summer", "print": "continueth upon the mountains winter and summer", "sure": "high"}
+{"given": "lying upon them so long together; their", "print": "lying upon them so long together, their", "sure": "high"}
+{"given": "towards Norway, likewize steep and high", "print": "towards Norway, likewise steep and high", "sure": "high"}
+{"given": "the River, at leugth are carried", "print": "the River, at length are carried", "sure": "high"}
+{"given": "Sea coasts,’ saith be, ‘Northward", "print": "Sea coasts,’ saith he, ‘Northward", "sure": "high"}
