@@ -790,11 +790,13 @@
    "place": "London",
    "publisher": "Society for Promoting Christian Knowledge",
    "images": 200,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-20",
    "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv (full file from the pglaf mirror); The Online Books Page: HathiTrust page images only; Wikisource: no text; web search of a distinctive sentence: nothing. Reprints: Franklin Classics/Creative Media 2018, HardPress 2020 (print on demand); no reset or established-press facsimile found. Author John Sheepshanks 1834–1912; the illustrations are his sketches worked up by Rev. R. G. Roe (Robert Gordon Roe, 1860–1927). Not checked: Faded Page, WorldCat. Re-checked 2026-11-20 (next session): web search finds only a SOAS digital catalogue record (scan); no reprint.",
    "note": "Cornell (Wason) scan, 300 ppi; clean OCR. About 9 plates and a temple plan. Across Mongolia by camel caravan from Kalgan to Urga in the late 1860s, then by Kiakhta, Lake Baikal and the Siberian post-road to the Urals; written up from his journal in 1903. Chapter V is an essay on shamanism.",
-   "started": "2026-11-20"
+   "started": "2026-11-20",
+   "version": 1,
+   "published": "2026-11-20"
   },
   {
    "order": 45,
