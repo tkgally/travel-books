@@ -1,0 +1,11 @@
+{"find": "“Feringhee.”", "replace": "“Feringhee.”"}
+
+Wait, correct that: the page reads “Feringhee.” and the draft says “Feringhee.” — that's the same, so nothing to change there. The real difference is the spelling of the word.
+
+{"find": "that of the “Feringhee.”", "replace": "that of the “Feringhee.”"}
+
+Final answer:
+
+{"find": "“Feringhee.” The Varangians", "replace": "“Feringhee.” The Varangians"}
+
+NONE

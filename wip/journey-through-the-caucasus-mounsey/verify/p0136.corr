@@ -1,0 +1,6 @@
+{"find": "my vashlik, or hood", "replace": "my vashlik, or hood"}
+{"find": "mustachios", "replace": "mustachios"}
+
+Wait — correcting my reply: the draft's "vashlik" and "mustachios" match the image, so the first two lines are no-ops. The one real difference is the italic "2nd." in the draft, which the image also shows as italic "nd", with the "2" roman.
+
+{"find": "2<i>nd.</i>—A", "replace": "2<i>nd</i>.—A"}

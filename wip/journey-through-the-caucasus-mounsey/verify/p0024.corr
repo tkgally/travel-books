@@ -1,0 +1,13 @@
+{"find": "southernmost", "replace": "southernmost"}
+
+Correction: the page reads "southernly", and the draft has "southernly" too, so that entry is not needed. Final list:
+
+{"find": "Cape Matapan,", "replace": "Cape Matapan,"}
+
+Neither entry changes anything. Comparing the page against the draft, I found one real difference:
+
+{"find": "ill-drest", "replace": "ill-drest"}
+
+I found no actual differences between the draft and the page.
+
+NONE
