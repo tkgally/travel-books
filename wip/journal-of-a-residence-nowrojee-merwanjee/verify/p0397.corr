@@ -1,4 +1,0 @@
-Two things differ from the image. The print reads "subtile", not "subtle". The italic run includes the comma after "right".
-
-{"find": "subtile reasoning", "replace": "subtile reasoning"}
-{"find": "<i>really do think to be right</i>,", "replace": "<i>really do think to be right,</i>"}

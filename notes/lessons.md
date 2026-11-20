@@ -78,6 +78,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Trigger: broken type
 
+- A comma whose tail did not print looks like a full stop; both readers and the judge took "refreshing. and" as printed
+  (*Journal of a Residence* p0271); a full stop before a lower-case word is worth a crop (grep `[a-z]\. [a-z]`).
 - A worn or broken letter (an *n* whose stroke has gone, so it looks like *r*) is read by judges as the letter it looks like (*Asia Minor* p0119 "rame"). Look for the same break elsewhere on the page before calling it a misprint; a broken letter is transcribed as the letter set, not marked `[[corr]]`.
 
 ## Trigger: drop capitals at chapter openings
@@ -102,6 +104,10 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 - Each appendix as `## I. Title` in one Appendix division: `[[subtitle]]` after `##` renders as a plain paragraph.
 - Drafts type running heads ("APPENDIX.") as `#` headings on every page: list all `#` lines and delete them.
+- Ditto marks in tables: type them as printed (low „ or turned “) in their own cell or place; preflight `spacing` reads a
+  “ ditto as a quotation mark (waive the page, after looking), „ passes (*Journal of a Residence*, 2026-11-20).
+- Spot-read every table and verse page against the scan: an Opus subagent given the page files and images, reporting
+  differences only, did 38 pages in ten minutes and found a printer's error and a wrong join the pipeline had passed.
 - Wide tables with blank cells (no dash) among dashed ones: drafts shift whole columns up or down a row (*Embassy* p2658,
   21 columns). Sum each column against the printed total by script, and read the blanks and dashes on a rotated crop.
 

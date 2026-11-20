@@ -1,5 +1,0 @@
-{"given": "bedsteads of iron where placed in range", "print": "bedsteads of iron were placed in range", "sure": "high"}
-{"given": "a wardrobe attached to each them, where", "print": "a wardrobe attached to each of them, where", "sure": "high"}
-{"given": "in fact everyone is placed upon", "print": "in fact every one is placed upon", "sure": "high"}
-{"given": "as happy and as comsortable as possible.", "print": "as happy and as comfortable as possible.", "sure": "high"}
-{"given": "maintained for the boys, when they are ill,", "print": "maintained for the boys; when they are ill,", "sure": "high"}

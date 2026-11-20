@@ -1,5 +1,0 @@
-{"given": "had been forctold at an", "print": "had been foretold at an", "sure": "high"}
-{"given": "division the ministers the crown had", "print": "division the ministers of the crown had", "sure": "high"}
-{"given": "long speeches might have been spared; and", "print": "long speeches might have been spared, and", "sure": "high"}
-{"given": "fifty years member for middlesex, Sir", "print": "fifty years member for Middlesex, Sir", "sure": "high"}
-{"given": "We bad expected to have", "print": "We had expected to have", "sure": "high"}

@@ -1,6 +1,0 @@
-{"find": "it was determined", "replace": "it was determined"}
-{"find": "storehouse", "replace": "store-house"}
-
-Wait — "store-" / "house" is a line-end break where the hyphen is likely a line-break hyphen, so the compound is ambiguous; the draft's "storehouse" stands.
-
-NONE

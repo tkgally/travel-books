@@ -1,2 +1,0 @@
-{"n": 1, "is": "A", "print": "[[cont]]“When the tem", "sure": "high"}
-{"n": 2, "is": "A", "print": "cheerless;\nSeek", "sure": "medium"}

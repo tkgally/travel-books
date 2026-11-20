@@ -1,3 +1,0 @@
-Italic "alone," includes the comma in the image.
-
-{"find": "<i>alone</i>, and", "replace": "<i>alone,</i> and"}

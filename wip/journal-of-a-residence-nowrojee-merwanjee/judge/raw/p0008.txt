@@ -1,1 +1,0 @@
-{"n": 1, "is": "A", "print": "<sc>printed by w. nicol, 60, pall mall.</sc>", "sure": "medium"}

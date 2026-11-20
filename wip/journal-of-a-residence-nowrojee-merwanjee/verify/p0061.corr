@@ -1,9 +1,0 @@
-The draft has one error: the page prints a semicolon after "retire", where the draft has a period.
-
-{"find": "approach, and retire; appearing", "replace": "approach, and retire; appearing"}
-
-Wait — that find text matches the draft's own punctuation, so I'm correcting it properly below.
-
-{"find": "retire; appearing", "replace": "retire; appearing"}
-
-NONE
