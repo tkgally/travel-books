@@ -47,6 +47,16 @@ IV p2305, V p2370, VI p2468, VII p2558, VIII p2627. In-text engravings: p2039, p
 p2263, p2271, p2333, p2341, p2377, p2381, p2389, p2393, p2419, p2427, p2457, p2513, p2549, p2623.
 Plant lists and tables: p2193–p2195, p2217–p2225, p2302–p2304, p2465–p2467, p2556–p2557.
 
+**Illustrations** (cropped 2026-11-20 by an Opus subagent; every crop looked at on its contact sheets by me): 82
+pictures from 80 leaves plus `images/cover.jpg` (vol. I title page), in `images/`; boxes in the session scratchpad
+`crops.txt` (not kept). Two UC leaves were cut off at the edge of the scan, so their pictures come from the Getty copy
+of vol. II: `p2008-1.jpg` (Macartney frontispiece, Getty n7) and `p2498-1.jpg` (Camellia Sesanqua, Getty n503); the
+page files still come from the UC leaves. Folio plates in two halves are cropped as two images (p3007/8, 3015/16,
+3021/22, 3025/26, 3031/32, 3035/36, 3039/40); after rotation by 90° (p3031/32, p3035/36, p3039/40) the
+higher-numbered leaf is the upper half. A narrow strip at the fold is missing in p3025/26 (letters lost: "C" of
+Macartney, "e of" before "the Hindostan"); say so in `notes_on_text`. p3056 (weapons) keeps its caption and key (they
+cannot be separated). Say in `notes_on_text` which pictures come from the Getty copy.
+
 ## Decisions
 - Side-notes: the book prints a marginal title beside the first line of most pages (repeated from page to page
   while the topic lasts), with a rule under it. Transcribed as `[[side: …]]` before the first word of the line it
