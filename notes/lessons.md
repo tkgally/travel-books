@@ -24,8 +24,10 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 | A draft page refused by the output filter and left out unnoticed | `ocr_claude.py` says so at the end of the run; `ocr_fallback.py`; preflight `leaves` |
 | A frontispiece left in the front matter, so missing from the reading editions [first book, 2026-11-19] | book.json `frontispiece`; test (set it whenever the book has one) |
 | `setup_env.sh`'s https rewrite of the apt mirrors matched nothing (`\|` inside `s|…|`), so apt hung on plain http for 20 min [2026-11-19] | fixed; test `SetupEnv` |
+| `drive_cache.py fetch --pages p2029b` refused leaves with a letter (added from another scan) [*Embassy*, 2026-11-20] | accepted; test `DrivePages` |
 | `drive_cache.py fetch --pages a,b,c` read the list as one name and fetched the wrong parts without a word [2026-11-19] | lists and ranges accepted, anything else refused; test `DrivePages` |
 | A part title with a `[[subtitle]]` ("Flying Leaves. / From the East.") taken for a chapter, so its chapters did not nest under it [*Flying Leaves*, found 2026-11-19] | compiler; test `Contents` |
+| Side-notes (marginal notes) lost between page files and JSON, or shown in the editions [*Embassy to China*, 2026-11-20, before the first run] | preflight `conservation` (side-notes apart); test `SideNotes` |
 | A paragraph interrupted by an engraving in the middle of a page split in two (`[[cont]]` dropped) [*South by West*, 2026-11-19] | compiler joins it; test `ImageInParagraph` |
 
 ## Always
@@ -55,6 +57,16 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   `[[caption]]` lines fail preflight `conservation` (it compares caption lines; the compiler joins them) [*Corona and Coronet*, 2026-11-19].
 - A folding map shot in two halves: crop each half; try joining them only if the shots overlap (they did not in
   *Corona and Coronet*: a strip at the fold was missing, said in `notes_on_text`).
+
+## Trigger: eighteenth-century printing
+
+- Quotations with “ repeated at every line start: models keep the repeats, which then stand mid-sentence once lines
+  are joined; `tools/running_quotes.py` after the judge, its list looked at (*Embassy*, 2026-11-20). Only for a book
+  that prints the convention: on *South by West* (1875) it lists 6 real opening marks that follow a quotation left
+  unclosed earlier in the paragraph (p0091, p0092, p0107, p0290, p0347, p0406: printed so or a dropped ”? — to look at
+  in the next review).
+- Scans of old multi-volume sets: the scan check found a missing first page of text and a missing frontispiece
+  (UC copy) that IA's own page numbers did not show; another library's scan supplied them page by page.
 
 ## Trigger: drop capitals at chapter openings
 

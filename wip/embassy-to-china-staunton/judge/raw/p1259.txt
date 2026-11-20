@@ -1,0 +1,1 @@
+{"n": 1, "is": "B", "print": "stalks; have formed", "sure": "medium"}

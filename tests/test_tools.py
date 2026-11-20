@@ -8,7 +8,7 @@ import copy, json, os, re, shutil, subprocess, sys, tempfile, unittest, zipfile
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, "tools"))
-import build_site, compile_book, corrections, crop_image, drive_cache, inline, judge, normalize, preflight, render_epub, render_odt, review  # noqa: E402
+import build_site, compile_book, running_quotes, corrections, crop_image, drive_cache, inline, judge, normalize, preflight, render_epub, render_odt, review  # noqa: E402
 import render_html as rh  # noqa: E402
 
 SAMPLE = os.path.join(REPO, "tests", "sample")
@@ -416,6 +416,13 @@ class Drive(unittest.TestCase):
             drive_cache.setid(src, "pages-001.zip", "ID1")
             drive_cache.pack(pages, os.path.join(tmp, "parts"), src, limit=3500)      # repacking keeps the ids of unchanged parts
             self.assertEqual(json.load(open(src))["parts"][0].get("drive_id"), "ID1")
+            before = json.load(open(src))["parts"]
+            open(os.path.join(pages, "p0003a.jpg"), "wb").write(os.urandom(1000))     # a leaf added later
+            drive_cache.pack(pages, os.path.join(tmp, "parts"), src, limit=3500, append=True)
+            after = json.load(open(src))["parts"]
+            self.assertEqual(after[:len(before)], before)                            # old parts untouched
+            self.assertEqual([p["files"] for p in after[len(before):]], [["p0003a.jpg"]])
+            self.assertEqual(after[-1]["name"], f"pages-{len(before) + 1:03d}.zip")
         finally:
             shutil.rmtree(tmp, ignore_errors=True)
 
@@ -431,6 +438,12 @@ class DrivePages(unittest.TestCase):
     def test_bad_item_stops(self):
         with self.assertRaises(SystemExit):
             drive_cache.page_filter("116-118")
+
+    def test_leaves_with_a_letter(self):
+        names = ["p2028.jpg", "p2029.jpg", "p2029a.jpg", "p2029b.jpg", "p2030.jpg"]
+        self.assertEqual([f for f in names if drive_cache.page_filter("p2029b")(f)], ["p2029b.jpg"])
+        self.assertEqual([f for f in names if drive_cache.page_filter("p2029")(f)], ["p2029.jpg", "p2029a.jpg", "p2029b.jpg"])
+        self.assertEqual([f for f in names if drive_cache.page_filter("p2028-p2029")(f)], names[:4])
 
 
 class SetupEnv(unittest.TestCase):
@@ -534,6 +547,127 @@ class MovedImages(unittest.TestCase):
         items = preflight.compare(a, a.replace("word9000 ", "", 1).replace("word9005 ", "wurd9005 ", 1), "t")
         self.assertEqual(len(items), 2, items)                # close together: each is listed, so a waiver can name one
         self.assertEqual(preflight.compare(a, a, "t"), [])
+
+
+class SideNotes(unittest.TestCase):
+    """Marginal notes (Staunton's Embassy, 2026-11-20): kept in the JSON, left out of the reading editions."""
+
+    def test_convert_plain_and_drop(self):
+        s = inline.convert('at [[side: Occasion of the "Embassy."]] the Embassy was')
+        self.assertEqual(s, 'at <side>Occasion of the “Embassy.”</side>the Embassy was')
+        self.assertEqual(inline.plain(s), "at the Embassy was")
+        self.assertEqual(inline.drop_sides(s), "at the Embassy was")
+        self.assertEqual(inline.sides(s), ["Occasion of the “Embassy.”"])
+        end = inline.convert("He sailed. [[side: <i>Lion</i> sails.]]")
+        self.assertEqual((end, inline.drop_sides(end)), ("He sailed.<side><i>Lion</i> sails.</side>", "He sailed."))
+
+    def setUp(self):
+        self.tmp = tempfile.mkdtemp()
+        self.dir = os.path.join(self.tmp, "sample-journey-doe")
+        shutil.copytree(SAMPLE, self.dir)
+        p = os.path.join(self.dir, "pages", "p0004.txt")
+        t = open(p, encoding="utf-8").read()
+        old = "The carrier had promised nothing;"
+        self.assertIn(old, t)
+        t = t.replace("W<sc>e</sc> left", "[[side: Leaving the town.]] W<sc>e</sc> left", 1)
+        open(p, "w", encoding="utf-8").write(t.replace(old, "The [[side: The carrier.]] carrier had promised nothing;", 1))
+
+    def tearDown(self):
+        shutil.rmtree(self.tmp)
+
+    def test_json_keeps_editions_drop(self):
+        book, _ = compile_book.compile_book(self.dir)
+        js = [x for d in book["divisions"] for b in d["blocks"] for s in rh.strings(b) for x in inline.sides(s)]
+        self.assertEqual(js, ["Leaving the town.", "The carrier."])
+        _, report, res = preflight.run(self.dir, skip_epubcheck=True, skip_odt=True)
+        for k in ("conservation", "markup", "stray-markup", "compile"):
+            self.assertEqual(res.get(k, []), [], report)
+        out = os.path.join(self.tmp, "site")
+        build_site.build_book(out, self.dir)
+        bdir = os.path.join(out, "books", book["id"])
+        html = "".join(open(os.path.join(bdir, f), encoding="utf-8").read() for f in os.listdir(bdir) if f.endswith(".html"))
+        self.assertNotIn("Leaving the town", html)
+        self.assertIn("The carrier had promised nothing", html)
+        odt = zipfile.ZipFile(os.path.join(bdir, book["id"] + ".odt")).read("content.xml").decode("utf-8")
+        self.assertNotIn("Leaving the town", odt)
+        epub = zipfile.ZipFile(os.path.join(bdir, book["id"] + ".epub"))
+        self.assertFalse(any("Leaving the town" in epub.read(n).decode("utf-8", "replace") for n in epub.namelist() if n.endswith(".xhtml")))
+
+    def test_hyphen_join_over_a_side_note(self):
+        book, w = comp(["[[page 1]]\n# One\n\nHe was accompa-", "[[page 2]]\n[[cont]][[side: Teneriffe.]] nied by two."])
+        self.assertEqual(inline.plain(texts(book)[1]), "He was accompanied by two.")
+        self.assertIn("accompa-|nied by two", w[0])               # the word after the join, not the side-note
+        tri = preflight.triage_hyphen_joins(w, [("p0001", "x accompanied y")])
+        self.assertEqual(tri, ["(and 1 joins giving a word the book prints whole elsewhere: not listed)"])
+
+    def test_lost_side_note_is_caught(self):
+        pages = [("p0001", "[[page 1]]\n[[side: A note.]] Text.")]
+        ps, js = [], []
+        book = {"divisions": [{"reading": True, "notes": [], "blocks": [{"type": "paragraph", "text": "Text."}]}]}
+        self.assertEqual(preflight.page_streams(pages, sides=ps)[0].split(), preflight.json_streams(book, sides=js)[0].split())
+        self.assertEqual(ps, ["A note."])
+        self.assertTrue(preflight.compare(" ".join(ps), " ".join(js), "side-notes"))
+
+
+class Volumes(unittest.TestCase):
+    """A work in several IA items, and leaves bound out of order (Staunton's Embassy, 2026-11-20)."""
+    SRC = {"ia_identifier": "vol1", "items": [
+        {"ia_identifier": "vol1", "first_leaf": "p1000", "hidden_leaves": [0, 7]},
+        {"ia_identifier": "vol2", "first_leaf": "p2000", "hidden_leaves": [0, 24, 25]}]}
+
+    def test_scan_links_per_item(self):
+        ctx = rh.Ctx({"source": self.SRC, "pages": [], "divisions": []}, "web", {})
+        self.assertEqual(ctx.scan_url("p1068"), "https://archive.org/details/vol1/page/n66/mode/1up")
+        self.assertEqual(ctx.scan_url("p2030"), "https://archive.org/details/vol2/page/n27/mode/1up")
+        one = rh.Ctx({"source": {"ia_identifier": "x", "hidden_leaves": [0]}, "pages": [], "divisions": []}, "web", {})
+        self.assertEqual(one.scan_url("p0005"), "https://archive.org/details/x/page/n4/mode/1up")
+
+    def test_leaf_from_another_copy(self):
+        src = dict(self.SRC, extra_leaves={"p2029b": {"ia_identifier": "getty2", "n": 30}})
+        ctx = rh.Ctx({"source": src, "pages": [], "divisions": []}, "web", {})
+        self.assertEqual(ctx.scan_url("p2029b"), "https://archive.org/details/getty2/page/n30/mode/1up")
+        self.assertEqual(ctx.scan_url("p2030"), "https://archive.org/details/vol2/page/n27/mode/1up")
+        self.assertEqual(compile_book.page_files_sorted(["p2030.txt", "p2029b.txt", "p2029.txt", "p2029a.txt"]),
+                         ["p2029.txt", "p2029a.txt", "p2029b.txt", "p2030.txt"])
+
+    def test_leaves_checked_per_item(self):
+        items = compile_book.scan_items(self.SRC)
+        pages = [(f"p{n:04d}", "") for n in list(range(1001, 1007)) + list(range(1008, 1011)) + list(range(2001, 2024)) + [2026, 2028]]
+        self.assertEqual(preflight.check_leaves(pages, items=items), ["p2027: no page file"])
+
+    def test_book_page_lists_every_item(self):
+        src = copy.deepcopy(self.SRC)
+        src["items"][0]["label"], src["items"][1]["label"] = "Volume I", "Volume II"
+        book = {"id": "t", "title": "T", "version": 1, "date": "d", "source": src, "pages": [], "divisions": []}
+        x = build_site.book_page(book, {})
+        self.assertEqual(x.count("<iframe"), 2)
+        self.assertIn("The scan of Volume II at the Internet Archive", x)
+        self.assertIn('archive.org/embed/vol2', x)
+
+    def test_leaf_order(self):
+        pages = [(f"p{n}", n) for n in (1466, 1467, 1468, 1469, 1470, 1471)]
+        out = compile_book.apply_leaf_order(pages, [["p1469", "p1470", "p1467", "p1468"]])
+        self.assertEqual([x for x, _ in out], ["p1466", "p1469", "p1470", "p1467", "p1468", "p1471"])
+        with self.assertRaises(ValueError):
+            compile_book.apply_leaf_order(pages, [["p1469", "p9999"]])
+
+
+class RunningQuotes(unittest.TestCase):
+    """Opening marks repeated at each printed line of a quotation (1797 printing, 2026-11-20)."""
+
+    def test_repeats_removed_and_carried_over_the_page(self):
+        pages = [("p0001", '[[page 1]]\nHe wrote, “that the “bar was “crossed,” and that ‘one’ called it “a little damp.”\n\n“In the ab“sence of wind'),
+                 ("p0002", "[[page 2]]\n[[cont]][[side: Rio.]] “we lay still.”\n\n“A new paragraph.”")]
+        out, ch = running_quotes.process(pages)
+        self.assertEqual(out[0][1].split("\n")[1], "He wrote, “that the bar was crossed,” and that ‘one’ called it “a little damp.”")
+        self.assertEqual(out[0][1].split("\n")[3], "“In the absence of wind")
+        self.assertEqual(out[1][1], "[[page 2]]\n[[cont]][[side: Rio.]] we lay still.”\n\n“A new paragraph.”")
+        self.assertEqual(len(ch), 4)
+
+    def test_notes_and_new_paragraphs_untouched(self):
+        pages = [("p0001", "[[page 1]]\n“Open quote\n\n[[fn *]] “A note “with marks.")]
+        out, ch = running_quotes.process(pages)
+        self.assertEqual((out, ch), (pages, []))
 
 
 class Fallback(unittest.TestCase):

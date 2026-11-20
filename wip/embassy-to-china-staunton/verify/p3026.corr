@@ -1,0 +1,2 @@
+{"find": "[[page ?]]", "replace": "[[page 7]]"}
+{"find": "<i>il 12. 1796", "replace": "<i>ust 12. 1796"}

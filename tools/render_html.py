@@ -6,7 +6,7 @@ Used by build_site.py and render_epub.py. Nothing here reads page files: the boo
 import html, os, re, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import inline  # noqa: E402
+import compile_book, inline  # noqa: E402
 
 
 SHORT_SUBTITLE = 80
@@ -117,16 +117,20 @@ class Ctx:
         self.targets = page_targets(book, names)
         self.seen_pg, self.seen_ref = set(), set()
         src = book.get("source", {})
-        self.ia = src.get("ia_identifier")
-        self.hidden = sorted(src.get("hidden_leaves", []))
+        self.items = compile_book.scan_items(src)
+        self.extra = src.get("extra_leaves", {})
 
     def scan_url(self, leaf):
-        if not self.ia:
-            return None
-        m = re.search(r"\d+", leaf)
-        n = int(m.group(0))
-        n -= sum(1 for h in self.hidden if h < n)
-        return f"https://archive.org/details/{self.ia}/page/n{n}/mode/1up"
+        x = self.extra.get(leaf)
+        if x:                     # a leaf taken from another scan of the same edition (book.json source.extra_leaves)
+            return f"https://archive.org/details/{x['ia_identifier']}/page/n{x['n']}/mode/1up"
+        n = int(re.search(r"\d+", leaf).group(0))
+        for first, ia, hidden in self.items:
+            if n >= first:
+                n -= first
+                n -= sum(1 for h in hidden if h < n)
+                return f"https://archive.org/details/{ia}/page/n{n}/mode/1up"
+        return None
 
     def pb(self, n, leaf):
         a = anchor(n)
@@ -147,7 +151,7 @@ class Ctx:
 
     def inline(self, s):
         out, closers = [], []
-        for t in inline.tokens(s):
+        for t in inline.tokens(inline.drop_sides(s)):
             if t[0] == "text":
                 out.append(esc(t[1]))
             elif t[0] == "empty" and t[1] == "pb":

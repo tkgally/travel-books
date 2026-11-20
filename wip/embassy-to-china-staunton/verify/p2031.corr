@@ -1,0 +1,3 @@
+The draft's text matches the page, but the side-note sits in the wrong place. It stands beside the first line, so it belongs before "the stern", and `[[cont]]` stays first.
+
+{"find": "[[cont]][[side: Passage up the Pei-ho.]] the stern", "replace": "[[cont]][[side: Passage up the Pei-ho.]] the stern"}

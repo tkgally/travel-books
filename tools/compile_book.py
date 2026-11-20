@@ -26,12 +26,18 @@ FORMAT = "travel-books-json/1"
 KINDS = ("front", "titlepage", "dedication", "preface", "contents", "illustrations", "introduction", "part",
          "chapter", "appendix", "notes", "glossary", "index", "errata", "advertisements", "back")
 MARK = re.compile(r"\[\[(?:page [^\[\]]*|blank|break|cont|right|center|subtitle|caption|image:[^\[\]]*|fn [^\[\]]+|"
-                  r"fnref [^\[\]]+|corr [^|\[\]]*\|[^\[\]]*)\]\]")
+                  r"fnref [^\[\]]+|corr [^|\[\]]*\|[^\[\]]*|side:[^\[\]]*)\]\]")
 BLOCK_TAGS = ("blockquote", "verse")
 
 
+def page_files_sorted(names):
+    """Page files in leaf order: p2029, p2029a, p2029b (leaves added from another scan, book.json
+    source.extra_leaves), p2030."""
+    return sorted(f for f in names if re.fullmatch(r"p\d+[a-z]?\.txt", f))
+
+
 def page_files(pdir):
-    return sorted(f for f in os.listdir(pdir) if re.fullmatch(r"p\d+[a-z]?\.txt", f))
+    return page_files_sorted(os.listdir(pdir))
 
 
 def parse_page(text, leaf):
@@ -122,6 +128,11 @@ def parse_page(text, leaf):
     return number, blank, blocks
 
 
+def no_side(text):
+    """Text without its side-notes (for messages that quote the words of a join)."""
+    return re.sub(r"\[\[side:[^\[\]]*\]\]\s*", "", text)
+
+
 def pbtok(leaf, number):
     return f"⟦pb:{leaf}:{number}⟧"
 
@@ -131,18 +142,46 @@ def join_text(prev, text, leaf, number, keep, warn, what=""):
     if prev.endswith("-"):
         if leaf in keep:
             return prev + tok + text
-        warn(f"hyphen join{what} at {leaf}: …{prev[-15:]}|{text[:15]}… (hyphen removed; check)")
+        warn(f"hyphen join{what} at {leaf}: …{prev[-15:]}|{no_side(text)[:15]}… (hyphen removed; check)")
         return prev[:-1] + tok + text
     if prev.endswith("—") or text.startswith("—"):
         return prev + tok + text
     return prev + " " + tok + text
 
 
+def scan_items(src):
+    """The IA items a book's leaves come from: [(first leaf number, identifier, hidden leaves)], last first.
+    One item: leaf pNNNN is IA's leaf NNNN. Several (a work in volumes, book.json source.items): the leaves of
+    the item whose "first_leaf" is p2000 are p2000, p2001 … for IA's leaves 0, 1 …"""
+    items = src.get("items") or ([{"ia_identifier": src["ia_identifier"], "first_leaf": "p0000",
+                                   "hidden_leaves": src.get("hidden_leaves", [])}] if src.get("ia_identifier") else [])
+    out = [(int(re.search(r"\d+", it.get("first_leaf", "p0000")).group(0)), it["ia_identifier"], [int(h) for h in it.get("hidden_leaves", [])])
+           for it in items]
+    return sorted(out, reverse=True)
+
+
+def apply_leaf_order(pages, orders):
+    """book.json "leaf_order": [["p1469", "p1470", "p1467", "p1468"], …]: leaves bound out of order in the scanned
+    copy are read in the order given, in the places the same leaves hold in the scan."""
+    pages = list(pages)
+    idx = {leaf: i for i, (leaf, _) in enumerate(pages)}
+    for order in orders or []:
+        missing = [x for x in order if x not in idx]
+        if missing:
+            raise ValueError(f"leaf_order: no page file for {missing}")
+        slots = sorted(idx[x] for x in order)
+        moved = [pages[idx[x]] for x in order]
+        for i, pg in zip(slots, moved):
+            pages[i] = pg
+        idx = {leaf: i for i, (leaf, _) in enumerate(pages)}
+    return pages
+
+
 def load(bookdir):
     cfg = json.load(open(os.path.join(bookdir, "book.json"), encoding="utf-8"))
     pdir = os.path.join(bookdir, "pages")
     pages = [(f[:-4], open(os.path.join(pdir, f), encoding="utf-8").read()) for f in page_files(pdir)]
-    return cfg, pages
+    return cfg, apply_leaf_order(pages, cfg.get("leaf_order"))
 
 
 def compile_pages(cfg, pages, images=None):
@@ -211,7 +250,7 @@ def compile_pages(cfg, pages, images=None):
                 if (b["t"] == "p" and any(x["t"] == "image" and x["leaf"] == leaf for x in flat[j + 1:])
                         and prev is not None and prev["t"] == "p" and prev["leaf_end"] == leaf):
                     if prev["text"].endswith("-") and leaf not in keep:
-                        warn(f"hyphen join around an image at {leaf}: …{prev['text'][-15:]}|{b['text'][:15]}… (hyphen removed; check)")
+                        warn(f"hyphen join around an image at {leaf}: …{prev['text'][-15:]}|{no_side(b['text'])[:15]}… (hyphen removed; check)")
                         prev["text"] = prev["text"][:-1] + b["text"]
                     elif prev["text"].endswith(("-", "—")) or b["text"].startswith("—"):
                         prev["text"] += b["text"]

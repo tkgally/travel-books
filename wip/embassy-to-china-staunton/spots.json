@@ -1,0 +1,740 @@
+{
+ "p1008a": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "Whang Tee. Tchien",
+   "replace": "Whang Tee Tchien",
+   "draft": "Whang Tee. Tchien",
+   "verified": "Whang Tee Tchien",
+   "context": "alustrade are behind him]] ⏎ [[caption]] 乾隆大皇帝 Tchien Lung Ta Whang Tee. Tchien Lung, the Great Emperor. ⏎ "
+  }
+ ],
+ "p1067": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "[[side: Occasion of the Embassy.]]",
+   "replace": "[[side: Occasion of the Embassy]]",
+   "draft": " the Embassy.]]",
+   "verified": " the Embassy]]",
+   "context": "[[page 23]] ⏎  ⏎ [[cont]][[side: Occasion of the Embassy.]] British territories in Hindostan, of which the soil and cli"
+  }
+ ],
+ "p1117": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "[[side: Madeira.]] regent’s intention",
+   "replace": "[[side: Madeira.]] “regent’s intention",
+   "draft": " Madeira.]] regent’s int",
+   "verified": " Madeira.]] “regent’s int",
+   "context": "[[page 73]] ⏎  ⏎ [[cont]][[side: Madeira.]] regent’s intention that any Portugueze subject should suffer for years in a ri"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "should suffer for years",
+   "replace": "should “suffer for years",
+   "draft": "should suffer for y",
+   "verified": "should “suffer for y",
+   "context": " Madeira.]] “regent’s intention that any Portugueze subject should suffer for years in a rigorous prison.” ⏎  ⏎ The spirit that dictated this edict"
+  }
+ ],
+ "p1162": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "in it, for volcanic",
+   "replace": "in it, for “volcanic",
+   "draft": "in it, for volcanic",
+   "verified": "in it, for “volcanic",
+   "context": "gh the island of Teneriffe, remarked, “that the appearances in it, for volcanic formation and origin, are more numerous ⏎ "
+  }
+ ],
+ "p1198": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "[[cont]][[side: Rio de Janeiro.]] “heaving",
+   "replace": "<blockquote>\n[[cont]][[side: Rio de Janeiro.]] heaving",
+   "draft": "[[cont]][[side: Rio de Janeiro.]] “heaving",
+   "verified": "<blockquote>\n[[cont]][[side: Rio de Janeiro.]] heaving",
+   "context": "[[page 154]] ⏎  ⏎ [[cont]][[side: Rio de Janeiro.]] “heaving ships down by; but the mode of doing it alongside hulks is "
+  }
+ ],
+ "p1217": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page 173]]",
+   "replace": "[[page 175]]",
+   "draft": "[[page 173]]",
+   "verified": "[[page 175]]",
+   "context": "[[page 173]] ⏎  ⏎ [[cont]][[side: Rio de Janeiro.]] wore no appearance of wr"
+  }
+ ],
+ "p1239": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "Ocean.]] alteration",
+   "replace": "Ocean.]] “alteration",
+   "draft": "Ocean.]] alteration",
+   "verified": "Ocean.]] “alteration",
+   "context": "[[page 195]] ⏎ [[cont]][[side: Passage to the Indian Ocean.]] alteration of it in the stomach. The bare mention of food, solid or li"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "mention of food",
+   "replace": "mention of “food",
+   "draft": "mention of food",
+   "verified": "mention of “food",
+   "context": " Indian Ocean.]] “alteration of it in the stomach. The bare mention of food, solid or liquid, was loathsome to him.” Another of the pas"
+  }
+ ],
+ "p1245": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[cont]]“leagues from the general track of vessels bound to [[side: Tristan d’Acunha.]] China,",
+   "replace": "[[cont]][[side: Tristan d’Acunha.]] “leagues from the general track of vessels bound to China,",
+   "draft": "[[cont]]“leagues from the general track of vessels bound to [[side: Tristan d’Acunha.]] China,",
+   "verified": "[[cont]][[side: Tristan d’Acunha.]] “leagues from the general track of vessels bound to China,",
+   "context": "[[page 201]] ⏎  ⏎ [[cont]]“leagues from the general track of vessels bound to [[side: Tristan d’Acunha.]] China, and to the coast of Coromandel, by the outer passage. In wa"
+  }
+ ],
+ "p1248": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[side: Passage through the Ind. Ocean.]] “In the passage from Tristan d’Acunha birds and fish",
+   "replace": "“In the passage from Tristan d’Acunha birds and [[side: Passage through the Ind. Ocean.]] fish",
+   "draft": "[[side: Passage through the Ind. Ocean.]] “In the passage from Tristan d’Acunha birds and fish",
+   "verified": "“In the passage from Tristan d’Acunha birds and [[side: Passage through the Ind. Ocean.]] fish",
+   "context": "[[page 204]] ⏎  ⏎ [[side: Passage through the Ind. Ocean.]] “In the passage from Tristan d’Acunha birds and fish were seen in considerable numbers; whales almost every day."
+  }
+ ],
+ "p1253": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[cont]]in it. Perron had a share in the general adventure; [[side: Island of Amsterdam.]] but",
+   "replace": "[[cont]][[side: Island of Amsterdam.]] in it. Perron had a share in the general adventure; but",
+   "draft": "[[cont]]in it. Perron had a share in the general adventure; [[side: Island of Amsterdam.]] but",
+   "verified": "[[cont]][[side: Island of Amsterdam.]] in it. Perron had a share in the general adventure; but",
+   "context": "[[page 209]] ⏎ [[cont]]in it. Perron had a share in the general adventure; [[side: Island of Amsterdam.]] but the people with him were paid in proportion to their expert"
+  }
+ ],
+ "p1259": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "stalks, have formed",
+   "replace": "stalks; have formed",
+   "draft": "stalks, have formed",
+   "verified": "stalks; have formed",
+   "context": "ld, produced from the annual putrefaction of the leaves and stalks, have formed a layer of soil, several feet deep, all over the island. Bu"
+  }
+ ],
+ "p1281": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "in the ab“sence",
+   "replace": "in the absence",
+   "draft": "in the ab“sence",
+   "verified": "in the absence",
+   "context": "solicit an audience “from the Fouyen or Governor of Canton, in the ab“sence of the Viceroy of the province, in order to “deliver a lett"
+  }
+ ],
+ "p1322": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "must rather but like",
+   "replace": "must rather butt like",
+   "draft": "t rather but like",
+   "verified": "t rather butt like",
+   "context": " uncommonly long, turned so much backwards, that the animal must rather but like a ram, than toss with them like a bull. The other buffalo v"
+  }
+ ],
+ "p1359": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "plunder or injure",
+   "replace": "“plunder or injure",
+   "draft": "plunder or i",
+   "verified": "“plunder or i",
+   "context": "ore.]] “principles of humanity, which did not allow them to plunder or injure others, who happened to be weaker or fewer than themselves."
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "weaker or fewer",
+   "replace": "weaker “or fewer",
+   "draft": "weaker or fewer",
+   "verified": "weaker “or fewer",
+   "context": "allow them to “plunder or injure others, who happened to be weaker or fewer than themselves.” It was not likely that this letter would "
+  }
+ ],
+ "p1410": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "[[side: Cochin-china.]] “them.",
+   "replace": "[[side: Cochin-china.]] them.",
+   "draft": "in-china.]] “them.",
+   "verified": "in-china.]] them.",
+   "context": "[[page 366]] ⏎  ⏎ [[cont]][[side: Cochin-china.]] “them. A little before midnight she crossed the “bar. The Tung-qui"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "the “bar.",
+   "replace": "the bar.",
+   "draft": "the “bar.",
+   "verified": "the bar.",
+   "context": " Cochin-china.]] them. A little before midnight she crossed the “bar. The Tung-quinese, then perceiving that the “vessel was givi"
+  },
+  {
+   "n": 3,
+   "kind": "punctuation",
+   "find": "the “vessel",
+   "replace": "the vessel",
+   "draft": "the “vessel",
+   "verified": "the vessel",
+   "context": "she crossed the bar. The Tung-quinese, then perceiving that the “vessel was giving them the slip, kept up a brisk “fire till long a"
+  },
+  {
+   "n": 4,
+   "kind": "punctuation",
+   "find": "brisk “fire",
+   "replace": "brisk fire",
+   "draft": "brisk “fire",
+   "verified": "brisk fire",
+   "context": "ceiving that the vessel was giving them the slip, kept up a brisk “fire till long after she had got out of the reach of their “guns"
+  },
+  {
+   "n": 5,
+   "kind": "punctuation",
+   "find": "their “guns.”",
+   "replace": "their guns.”",
+   "draft": "their “guns.”",
+   "verified": "their guns.”",
+   "context": " brisk fire till long after she had got out of the reach of their “guns.” ⏎  ⏎ Similar instances have, probably, occurred to other nation"
+  },
+  {
+   "n": 6,
+   "kind": "punctuation",
+   "find": "well “in towards",
+   "replace": "well in towards",
+   "draft": "well “in towards",
+   "verified": "well in towards",
+   "context": "f Callao,” according to Mr. Barrow’s account, “and standing well “in towards it, they stretched along the eastern shore “of the island, "
+  },
+  {
+   "n": 7,
+   "kind": "punctuation",
+   "find": "shore “of the island",
+   "replace": "shore of the island",
+   "draft": "shore “of the islan",
+   "verified": "shore of the islan",
+   "context": "anding well in towards it, they stretched along the eastern shore “of the island, towards the southward, near enough to “perceive that, on t"
+  },
+  {
+   "n": 8,
+   "kind": "punctuation",
+   "find": "enough to “perceive",
+   "replace": "enough to perceive",
+   "draft": "enough to “perceive",
+   "verified": "enough to perceive",
+   "context": "he eastern shore of the island, towards the southward, near enough to “perceive that, on that side, from the northern to the “southern extr"
+  },
+  {
+   "n": 9,
+   "kind": "punctuation",
+   "find": "to the “southern",
+   "replace": "to the southern",
+   "draft": "to the “southern",
+   "verified": "to the southern",
+   "context": "ar enough to perceive that, on that side, from the northern to the “southern extremity, there was no landing place whatever, the shore c"
+  },
+  {
+   "n": 10,
+   "kind": "punctuation",
+   "find": "perpendicularly “out of",
+   "replace": "perpendicularly out of",
+   "draft": "endicularly “out of",
+   "verified": "endicularly out of",
+   "context": "a continued range of immense rocks, rising, in some places, perpendicularly “out of the sea, and, in others, overhanging it in such “a manner a"
+  },
+  {
+   "n": 11,
+   "kind": "punctuation",
+   "find": "in such “a manner",
+   "replace": "in such a manner",
+   "draft": "in such “a manner",
+   "verified": "in such a manner",
+   "context": "pendicularly out of the sea, and, in others, overhanging it in such “a manner as to render it completely inaccessible. ⏎ "
+  }
+ ],
+ "p1436": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "[[side: Ladrone Islands.]] King of",
+   "replace": "[[side: Ladrone Islands.]] “King of",
+   "draft": " Islands.]] King of",
+   "verified": " Islands.]] “King of",
+   "context": "[[page 392]] ⏎  ⏎ [[cont]][[side: Ladrone Islands.]] King of Great Britain, but being merely representatives of the East"
+  }
+ ],
+ "p1437": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "rceeived",
+   "replace": "rcceived",
+   "draft": "rceeived",
+   "verified": "rcceived",
+   "context": "dor’s power to admit of, a deviation from the orders he had rceeived upon that subject,” and they thought it prudent to declare "
+  }
+ ],
+ "p1511": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[cont]]the agents of the English East India Company at Canton [[side: Navigation through the Yellow sea.]] might",
+   "replace": "[[cont]][[side: Navigation through the Yellow sea.]] the agents of the English East India Company at Canton might",
+   "draft": "[[cont]]the agents of the English East India Company at Canton [[side: Navigation through the Yellow sea.]] might",
+   "verified": "[[cont]][[side: Navigation through the Yellow sea.]] the agents of the English East India Company at Canton might",
+   "context": "[[page 467]] ⏎  ⏎ [[cont]]the agents of the English East India Company at Canton [[side: Navigation through the Yellow sea.]] might experience effects conducive to their benefit and comfort. "
+  }
+ ],
+ "p1514": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page 470]]",
+   "replace": "[[page 170]]",
+   "draft": "[[page 470]]",
+   "verified": "[[page 170]]",
+   "context": "[[page 470]] ⏎  ⏎ [[side: Navigation through the Yellow sea.]] “His Excellen"
+  }
+ ],
+ "p1525": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[cont]]bottomed vessels of Europe are liable, is not very much [[side: Navigation through the Yellow sea.]] felt",
+   "replace": "[[cont]][[side: Navigation through the Yellow sea.]] bottomed vessels of Europe are liable, is not very much felt",
+   "draft": "[[cont]]bottomed vessels of Europe are liable, is not very much [[side: Navigation through the Yellow sea.]] felt",
+   "verified": "[[cont]][[side: Navigation through the Yellow sea.]] bottomed vessels of Europe are liable, is not very much felt",
+   "context": "[[page 481]] ⏎  ⏎ [[cont]]bottomed vessels of Europe are liable, is not very much [[side: Navigation through the Yellow sea.]] felt in the Chinese seas, where vessels sail generally with the "
+  }
+ ],
+ "p1557": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[cont]]to the beginning of the following May. As no [[side: Navigation through the Yellow sea.]] occasion",
+   "replace": "[[cont]][[side: Navigation through the Yellow sea.]] to the beginning of the following May. As no occasion",
+   "draft": "[[cont]]to the beginning of the following May. As no [[side: Navigation through the Yellow sea.]] occasion",
+   "verified": "[[cont]][[side: Navigation through the Yellow sea.]] to the beginning of the following May. As no occasion",
+   "context": "[[page 513]] ⏎  ⏎ [[cont]]to the beginning of the following May. As no [[side: Navigation through the Yellow sea.]] occasion was to be omitted which promised any sort of utility, or an"
+  }
+ ],
+ "p2027": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "## Chapter VII.",
+   "replace": "# Chapter VII.",
+   "draft": "## Chapter VI",
+   "verified": "# Chapter VI",
+   "context": " Quang-tung.</i> ⏎  ⏎ [[right]] <i>page</i> 439 <i>to</i> 525. ⏎  ⏎ ## Chapter VII. ⏎ [[subtitle]] Residence of the Embassy at Canton, and at Mac"
+  }
+ ],
+ "p2095": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[cont]]with the Company’s Commissioners at Canton, was like- [[side: Passage up the Pei-ho.]] wise fruitless.",
+   "replace": "[[cont]][[side: Passage up the Pei-ho.]] with the Company’s Commissioners at Canton, was likewise fruitless.",
+   "draft": "[[cont]]with the Company’s Commissioners at Canton, was like- [[side: Passage up the Pei-ho.]] wise fruitle",
+   "verified": "[[cont]][[side: Passage up the Pei-ho.]] with the Company’s Commissioners at Canton, was likewise fruitle",
+   "context": "[[page 67]] ⏎  ⏎ [[cont]]with the Company’s Commissioners at Canton, was like- [[side: Passage up the Pei-ho.]] wise fruitless. The Embassy was thus shut out from the most necessary inter"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "Col-lao",
+   "replace": "Collao",
+   "draft": "Col-lao",
+   "verified": "Collao",
+   "context": "t of redress; the Legate being the intimate creature of the Col-lao, who was the prime minister of the empire; and the intentio"
+  }
+ ],
+ "p2113": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "[[cont]]“ [[side: Tong-choo-foo.]] court-yards",
+   "replace": "[[cont]][[side: Tong-choo-foo.]] “court-yards",
+   "draft": "[[cont]]“ [[side: Tong-choo-foo.]] court-yards",
+   "verified": "[[cont]][[side: Tong-choo-foo.]] “court-yards",
+   "context": "[[page 85]] ⏎  ⏎ [[cont]]“ [[side: Tong-choo-foo.]] court-yards and low buildings for domestic uses, a “passage led to thos"
+  }
+ ],
+ "p2161": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "prevented, taken place",
+   "replace": "prevented, taken, place",
+   "draft": "ented, taken place",
+   "verified": "ented, taken, place",
+   "context": "s and adverse circumstances, which could not be foreseen or prevented, taken place, yet the advantages that might result from a direct communi"
+  }
+ ],
+ "p2195": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "Malva, several species.",
+   "replace": "Malva; several species.",
+   "draft": "Malva, several spe",
+   "verified": "Malva; several spe",
+   "context": "s balsamina. | Sempervivum tectorum. | ⏎ | Typha latifolia. | Malva, several species. | ⏎ | Xanthium strumarium. | Melissa. | ⏎ | Amaranthus caudatus"
+  }
+ ],
+ "p2216": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "great Wall.]] Toong-coo",
+   "replace": "great Wall.]] “Toong-coo",
+   "draft": "eat Wall.]] Toong-coo",
+   "verified": "eat Wall.]] “Toong-coo",
+   "context": "[[page 188]] ⏎  ⏎ [[cont]][[side: View of the great Wall.]] Toong-coo and Tien-sing; nearly one to every thirteen miles; but on t"
+  }
+ ],
+ "p2219": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "“Entire thickness of the wall, including the elevation [[side: View of the great Wall.]] “of earth,",
+   "replace": "[[side: View of the great Wall.]] “Entire thickness of the wall, including the elevation “of earth,",
+   "draft": "“Entire thickness of the wall, including the elevation [[side: View of the great Wall.]] “of earth,",
+   "verified": "[[side: View of the great Wall.]] “Entire thickness of the wall, including the elevation “of earth,",
+   "context": "[[page 191]] ⏎  ⏎ “Entire thickness of the wall, including the elevation [[side: View of the great Wall.]] “of earth, which is eleven feet thick in every part of it. ⏎  ⏎ | | Feet. "
+  }
+ ],
+ "p2328": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "government of China aware,",
+   "replace": "government of China",
+   "draft": "ent of China aware,",
+   "verified": "ent of China",
+   "context": "rom the country where it first was propagated. The cautious government of China aware, ⏎ "
+  }
+ ],
+ "p2353": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "turning his head",
+   "replace": "turning “his head",
+   "draft": "turning his head",
+   "verified": "turning “his head",
+   "context": "ceeding that of a person who would think of “the trouble of turning his head to view them.” He seemed, indeed, much gratified with the s"
+  }
+ ],
+ "p2390": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "a much greater quantity",
+   "replace": "a much “greater quantity",
+   "draft": "a much greater quan",
+   "verified": "a much “greater quan",
+   "context": "m Smith, that “a corn field of moderate fertility, produces a much greater quantity of food for man, than the best pasture of equal extent; for"
+  }
+ ],
+ "p2480": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "Chu-san.]] not pressed",
+   "replace": "Chu-san.]] “not pressed",
+   "draft": "Chu-san.]] not pressed",
+   "verified": "Chu-san.]] “not pressed",
+   "context": "[[page 450]] ⏎ [[cont]][[side: Journey to Chu-san.]] not pressed for wine, was generally planted on the sides of the canals;"
+  }
+ ],
+ "p2482": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "port of Chusan, and",
+   "replace": "port of Chu-san, and",
+   "draft": "port of Chusan, and",
+   "verified": "port of Chu-san, and",
+   "context": ": exemptions which he declared should equally extend to the port of Chusan, and to that of Canton, as, indeed, they did, as far as related "
+  }
+ ],
+ "p2486": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "distinction would be",
+   "replace": "distinction “would be",
+   "draft": "distinction would be",
+   "verified": "distinction “would be",
+   "context": "be no sort of difference between them: saying, that “such a distinction would be more discreditable to him than to the Embassador.” ⏎  ⏎ The num"
+  }
+ ],
+ "p2561": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "[[side: Canton.]] “practices",
+   "replace": "[[side: Canton.]] practices",
+   "draft": ": Canton.]] “practices",
+   "verified": ": Canton.]] practices",
+   "context": "[[page 529]] ⏎  ⏎ [[cont]][[side: Canton.]] “practices were carried on upon the coasts, and in other parts of the "
+  }
+ ],
+ "p3012": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]\n\n[[image",
+   "replace": "[[page 3]]\n\n[[image",
+   "draft": "[[page ?]]\n\n[[image",
+   "verified": "[[page 3]]\n\n[[image",
+   "context": "[[page ?]] ⏎  ⏎ [[image: Engraved chart (right half of a folding plate) of part of "
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "along the bottom]]",
+   "replace": "along the bottom]]\n[[caption]] View of the entrance into Turon Bay the South Peak of the Peninsula Tien-tcha bearing W. by N. distant 10 miles the low Isthmus between the Peninsula and the Marble Rocks not visible from the deck.",
+   "draft": "the bottom]]",
+   "verified": "the bottom]]\n[[caption]] View of the entrance into Turon Bay the South Peak of the Peninsula Tien-tcha bearing W. by N. distant 10 miles the low Isthmus between the Peninsula and the Marble Rocks not visible from the deck.",
+   "context": "ferences, and a coastal view of the entrance into Turon Bay along the bottom]] ⏎ "
+  }
+ ],
+ "p3018": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 26]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 26]]",
+   "context": "[[page ?]] ⏎ [[image: engraved chart of the islands south of Tchu-san of"
+  }
+ ],
+ "p3025": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<i>View of the City of Ten-Tchoo-Foo from",
+   "replace": "<i><sc>View</sc> of the <sc>City</sc> of TEN-TCHOO-FOO from",
+   "draft": "<i>View of the City of Ten-Tchoo-Foo from",
+   "verified": "<i><sc>View</sc> of the <sc>City</sc> of TEN-TCHOO-FOO from",
+   "context": " junks and a ship at anchor in the foreground]] ⏎ [[caption]] <i>View of the City of Ten-Tchoo-Foo from the anchorag</i> ⏎ "
+  }
+ ],
+ "p3026": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 7]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 7]]",
+   "context": "[[page ?]] ⏎  ⏎ [[image: right half of a folding plate of coastal views: a"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "<i>il 12. 1796",
+   "replace": "<i>ust 12. 1796",
+   "draft": "<i>il 12. 1796",
+   "verified": "<i>ust 12. 1796",
+   "context": "> ⏎  ⏎ [[caption]] <i>Ellis sculp<sup>t</sup>.</i> ⏎  ⏎ [[caption]] <i>il 12. 1796, by G. Nicol.</i> ⏎ "
+  }
+ ],
+ "p3028": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 8]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 8]]",
+   "context": "[[page ?]] ⏎ [[image: Map: Sketch of the Pay-Ho or White River, and of t"
+  }
+ ],
+ "p3045": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[blank]]",
+   "replace": "[[image: faint plate showing a bird perched on a rock]]",
+   "draft": "[[blank]]",
+   "verified": "[[image: faint plate showing a bird perched on a rock]]",
+   "context": "[[page ?]] ⏎ [[blank]] ⏎ "
+  }
+ ],
+ "p3060": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 21]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 21]]",
+   "context": "[[page ?]] ⏎ [[image: Engraved plan of the Hall of Audience and its cour"
+  }
+ ],
+ "p3062": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]\n[[image",
+   "replace": "[[page 22]]\n[[image",
+   "draft": "[[page ?]]\n[[image",
+   "verified": "[[page 22]]\n[[image",
+   "context": "[[page ?]] ⏎ [[image: Engraved plate, printed sideways: a large hall with a doub"
+  }
+ ],
+ "p3064": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 23]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 23]]",
+   "context": "[[page ?]] ⏎ [[image: Engraved plate of plans, sections and elevations o"
+  }
+ ],
+ "p3068": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "The Approach of the Emperor of China to his Tent in Tartary, to receive the British Embassador.",
+   "replace": "<i>The</i> APPROACH <i>of the</i> EMPEROR <i>of</i> CHINA <i>to his</i> TENT <i>in</i> TARTARY, <i>to receive the</i> BRITISH EMBASSADOR.",
+   "draft": "The Approach of the Emperor of China to his Tent in Tartary, to receive the British Embassador.",
+   "verified": "<i>The</i> APPROACH <i>of the</i> EMPEROR <i>of</i> CHINA <i>to his</i> TENT <i>in</i> TARTARY, <i>to receive the</i> BRITISH EMBASSADOR.",
+   "context": "carrying banners, and trees in the foreground]] ⏎ [[caption]] The Approach of the Emperor of China to his Tent in Tartary, to receive the British Embassador. ⏎ "
+  }
+ ],
+ "p3076": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 29]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 29]]",
+   "context": "[[page ?]] ⏎ [[image: Engraved plate, printed sideways: a lake with boat"
+  }
+ ],
+ "p3078": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 30]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 30]]",
+   "context": "[[page ?]] ⏎ [[image: Engraved plate, turned sideways on the page: actor"
+  }
+ ],
+ "p3082": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 32]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 32]]",
+   "context": "[[page ?]] ⏎ [[image: Engraved plate (printed sideways) of a Chinese man"
+  }
+ ],
+ "p3086": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 34]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 34]]",
+   "context": "[[page ?]] ⏎ [[image: Engraved plate, turned sideways on the page: plans"
+  }
+ ],
+ "p3088": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 35]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 35]]",
+   "context": "[[page ?]] ⏎ [[image: Engraved plate, printed sideways on the page: Chin"
+  }
+ ],
+ "p3090": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 36]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 36]]",
+   "context": "[[page ?]] ⏎ [[image: Engraved plate, printed sideways on the page: a wi"
+  }
+ ],
+ "p3094": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 38]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 38]]",
+   "context": "[[page ?]] ⏎ [[image: Engraved plate, printed sideways on the page: the "
+  }
+ ],
+ "p3096": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 39]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 39]]",
+   "context": "[[page ?]] ⏎ [[image: Engraved plate, printed sideways on the page: a la"
+  }
+ ],
+ "p3106": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 44]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 44]]",
+   "context": "[[page ?]] ⏎ [[image: Engraving of a large Chinese water-wheel of bamboo"
+  }
+ ]
+}

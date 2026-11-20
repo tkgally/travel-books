@@ -1,0 +1,11 @@
+The two differences I found are the side-note and the Chinese town name; the rest of the draft matches the page.
+
+{"find": "[[side: Journey to Han-choo-foo.]]", "replace": "[[side: Journey to Han-choo-foo.]]"}
+
+Actually, on reflection, the first of those is not a change. The only real corrections are these:
+
+{"find": "an hundred miles", "replace": "an hundred miles"}
+
+Those two lines were no-ops. I checked the page again, and the draft reads correctly against it throughout.
+
+NONE

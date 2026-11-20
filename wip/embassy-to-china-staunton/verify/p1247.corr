@@ -1,0 +1,5 @@
+{"find": "February, 1793.", "replace": "February, 1793."}
+
+Wait — correcting: the only change needed is the closing quote.
+
+{"find": "first of February, 1793.", "replace": "first of February, 1793."}

@@ -1,0 +1,3 @@
+{"find": "<i>Cape Mac</i>", "replace": "<i><sc>Cape Mac</sc></i>"}
+{"find": "<i>Cape Macartney, bearing", "replace": "<i><sc>Cape Macartney,</sc> bearing"}
+{"find": "<i>View of the City of Ten-Tchoo-Foo from", "replace": "<i><sc>View</sc> of the <sc>City</sc> of TEN-TCHOO-FOO from"}

@@ -1,0 +1,2 @@
+{"n": 1, "is": "B", "print": "[[page 3]]\n\n[[image", "sure": "medium"}
+{"n": 2, "is": "B", "print": "the bottom]]\n[[caption]] View of the entrance into Turon Bay the South Peak of the Peninsula Tien-tcha bearing W. by N. distant 10 miles the low Isthmus between the Peninsula and the Marble Rocks not visible from the deck.", "sure": "medium"}

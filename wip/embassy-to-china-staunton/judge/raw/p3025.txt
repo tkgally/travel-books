@@ -1,0 +1,1 @@
+{"n": 1, "is": "B", "print": "<i><sc>View</sc> of the <sc>City</sc> of TEN-TCHOO-FOO from", "sure": "medium"}

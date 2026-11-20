@@ -14,6 +14,7 @@ Output ONLY the transcription of this one page, in the plain-text markup below. 
 - Prose set off from the text (a quoted letter, an extract in smaller type): a line `<blockquote>`, its paragraphs one per line, a line `</blockquote>`.
 - Verse: a line `<verse>`, each printed line of verse on its own line, an empty line between stanzas, a line `</verse>`.
 - If a quotation or verse continues from the previous page, put `[[cont]]` at the start of its first line.
+- Marginal notes (side-notes: a few words printed in the margin beside the text, naming the place or the topic): `[[side: words as printed]]` inside the paragraph, immediately before the first word of the printed line the note stands beside (`at once, [[side: Occasion of the Embassy.]] in favour of …`; at the start of the paragraph if it stands beside its first line, after `[[cont]]` if there is one). Join the note's own printed lines; do not transcribe the rule printed under it. A side-note that is the same as the one on the previous page is still transcribed.
 - Tables: simple pipe tables, one row per line (`| a | b |`).
 - A reference to another page OF THIS SAME BOOK (`see p. 34`): wrap just the number, `p. <pref>34</pref>`. Not for pages of other books.
 - A blank page is `[[page ?]]` followed by `[[blank]]`. A page with only a picture has the `[[page ?]]` line and the `[[image: …]]` line.

@@ -1,0 +1,2 @@
+{"find": "[[cont]][[side: Course", "replace": "<blockquote>\n[[cont]][[side: Course"}
+{"find": "on the twenty-", "replace": "on the twenty-\n</blockquote>"}
