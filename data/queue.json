@@ -715,11 +715,13 @@
    "place": "London",
    "publisher": "Smith, Elder & Co.",
    "images": 364,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-20",
    "eligibility": "Checked 2026-11-20 (Opus subagent; Gutenberg re-checked by the session): not in pg_catalog.csv; The Online Books Page: HathiTrust page images only; no Wikisource hits; web search of a distinctive sentence found nothing. Reprints: Kessinger 2008 and a buecher.de facsimile (print on demand). Author 1834–1882 (Online Books Page; DAI catalogue). Not checked: WorldCat. Re-checked 2026-11-20 at the start: not in pg_catalog.csv; a web search of the title finds catalogue records, booksellers and the Kessinger print-on-demand reprint only.",
    "note": "University of Toronto scan, 500 ppi; one folding map, no other illustrations; running heads give the topic of the page. A British diplomat through Georgia and the Caucasus in winter to Tehran, an audience with the Shah, a ride into the southern provinces (1860s).",
-   "started": "2026-11-20"
+   "started": "2026-11-20",
+   "version": 1,
+   "published": "2026-11-20"
   },
   {
    "order": 42,

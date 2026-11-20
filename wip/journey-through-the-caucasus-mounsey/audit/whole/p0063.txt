@@ -1,5 +1,0 @@
-{"given": "from our reveries. Below; in the", "print": "from our reveries. Below, in the", "sure": "high"}
-{"given": "two of which descend front.", "print": "two of which descend in front.", "sure": "high"}
-{"given": "The featurcs of the wearers", "print": "The features of the wearers", "sure": "high"}
-{"given": "characteristics of his Georgian race", "print": "characteristics of this Georgian race", "sure": "high"}
-{"given": "beauty were it likewize gifted", "print": "beauty were it likewise gifted", "sure": "high"}

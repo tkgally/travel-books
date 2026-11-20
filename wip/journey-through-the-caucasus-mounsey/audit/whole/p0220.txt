@@ -1,5 +1,0 @@
-{"given": "were crocuses, hyacintbs, and scarlet tulips", "print": "were crocuses, hyacinths, and scarlet tulips", "sure": "high"}
-{"given": "and our ardor was shown", "print": "and our ardour was shown", "sure": "high"}
-{"given": "slowly to Dehbeed; the village of", "print": "slowly to Dehbeed, the village of", "sure": "high"}
-{"given": "of the numerous rills streams which", "print": "of the numerous rills and streams which", "sure": "high"}
-{"given": "slumbering next morning then the English", "print": "slumbering next morning when the English", "sure": "high"}

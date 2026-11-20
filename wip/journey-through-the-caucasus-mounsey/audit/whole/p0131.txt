@@ -1,5 +1,0 @@
-{"given": "the ancient boundary line Media and Parthia", "print": "the ancient boundary line of Media and Parthia", "sure": "high"}
-{"given": "larger and of a deeper color than", "print": "larger and of a deeper colour than", "sure": "high"}
-{"given": "I breakfasted or a heap of", "print": "I breakfasted on a heap of", "sure": "high"}
-{"given": "ascended the Koflan Kuh; or Leopard Mountain", "print": "ascended the Koflan Kuh, or Leopard Mountain", "sure": "high"}
-{"given": "was difficult and dangerons from the", "print": "was difficult and dangerous from the", "sure": "high"}
