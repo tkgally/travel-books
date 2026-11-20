@@ -34,6 +34,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 | Straight apostrophes in book.json text written by hand (summary, subtitle, contents titles), shown on the site as written [*West Coast of Africa*, 2026-11-20; three earlier books] | preflight `site-text` (enforce since the review after twenty books); test `SiteText` |
 | A book without `images/cover.jpg` [*Jottings*, 2026-11-20: caught by the rendered look] | preflight `cover` (observe); test `Accents` |
 | A word spelled with different accents in different places, misread by every stage [*Land of the North Wind*, 35 pages, 2026-11-20] | preflight `accents` (observe: a list of groups to look at on the scan); test `Accents` |
+| A footnote's table and second paragraph typed after the note on lines of their own, so set as body text [*My Life in Mongolia and Siberia*, 2026-11-20: caught only by the rendered look] | preflight `note-tail` (observe); test `NoteTail` |
+| A correction on an unnumbered page listed by its leaf name on the book page | the division's title ("Contents, unnumbered page"); test `CorrectionPage` |
 
 ## Always
 
@@ -219,6 +221,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 - Several tesseract processes at once (subagents' `crop_spot.py`, `ocr_fallback.py`, a bulk run) each take four threads
   and slowed one page to 15 minutes (2026-11-20): `OMP_THREAD_LIMIT=1` and at most four at a time.
+- A subagent's reading of a single accent is a claim, not a check: the scan check said “chargè” was printed with a grave, and
+  the session wrote it down as printed; a later spot-read found an acute (*Sheepshanks* p0141). Crop every `accents` group yourself or send it with crops.
 - A subagent's report of lost text is checked with `grep` on the page file before anything is re-run (*Land of the
   North Wind* p0317: "11 lines missing" were there; its view of the line was cut).
 
