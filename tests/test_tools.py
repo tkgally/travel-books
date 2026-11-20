@@ -8,7 +8,7 @@ import copy, json, os, re, shutil, subprocess, sys, tempfile, unittest, zipfile
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, "tools"))
-import build_site, compile_book, running_quotes, corrections, crop_image, drive_cache, inline, judge, normalize, preflight, render_epub, render_odt, review  # noqa: E402
+import build_site, compile_book, ledger, running_quotes, corrections, crop_image, drive_cache, inline, judge, normalize, preflight, render_epub, render_odt, review  # noqa: E402
 import render_html as rh  # noqa: E402
 
 SAMPLE = os.path.join(REPO, "tests", "sample")
@@ -500,6 +500,149 @@ class Books(unittest.TestCase):
             if os.path.exists(os.path.join(bdir, slug, "book.json")):
                 _, w = compile_book.compile_book(os.path.join(bdir, slug))
                 self.assertEqual([x for x in w if not x.startswith("hyphen join")], [], slug)
+
+
+def shelf_book(i, **kw):
+    """An invented book as the site lists see it (the fields of the book JSON that the lists use)."""
+    return dict({"id": f"book-{i:02d}", "title": f"Journey {i}", "year": 1850 + i, "authors": [{"name": f"Author {i}", "sort": f"{chr(65 + i % 26)}uthor, {i}"}],
+                 "regions": ["Spain"], "period": str(1840 + i), "date": f"2026-12-{i + 1:02d}",
+                 "history": [{"version": 1, "date": f"2026-12-{i + 1:02d}", "note": "First publication."}]}, **kw)
+
+
+class SiteLists(unittest.TestCase):
+    """The home page and the lists of books as the shelf grows; books from the JATSI list are marked (Tom, 2026-11-20)."""
+    PLACES = {"areas": ["East Asia", "Europe"], "regions": {"Spain": "Europe", "Japan": "East Asia", "Hokkaido": "East Asia"}}
+
+    def setUp(self):
+        self.out = tempfile.mkdtemp()
+        self.addCleanup(shutil.rmtree, self.out, True)
+
+    def read(self, name):
+        return open(os.path.join(self.out, name), encoding="utf-8").read()
+
+    def test_home_lists_every_book_while_they_are_few(self):
+        books = [shelf_book(1), shelf_book(2, collection="jatsi", regions=["Japan"])]
+        queue = [{"title": "Queued One", "author": "Q", "year": 1880, "status": "queued", "ia": "queuedone00q", "from": "jatsi", "jatsi": 3},
+                 {"title": "Queued Two", "author": "R", "year": 1881, "status": "queued", "ia": "queuedtwo00r"},
+                 {"title": "Rejected", "author": "S", "year": 1882, "status": "rejected", "ia": "x"}]
+        build_site.build_index(self.out, books, queue)
+        h = self.read("index.html")
+        self.assertIn("Journey 1", h)
+        self.assertIn("Journey 2", h)
+        self.assertNotIn("authors.html", h)
+        self.assertEqual(len(re.findall(r'<span class="meta">[^<]*from <a href="japan-as-they-saw-it.html">', h)), 2)   # one book, one queue row
+        self.assertIn("Queued Two", h)
+        self.assertNotIn("Rejected", h)
+
+    def test_home_shows_the_newest_when_there_are_many(self):
+        books = [shelf_book(i) for i in range(build_site.HOME_FULL_LIST + 3)]
+        build_site.build_index(self.out, books, [])
+        h = self.read("index.html")
+        self.assertIn('href="authors.html"', h)
+        listed = re.findall(r"<cite>Journey (\d+)</cite>", h)
+        self.assertEqual(listed, [str(i) for i in range(build_site.HOME_FULL_LIST + 2, build_site.HOME_FULL_LIST + 2 - build_site.HOME_NEWEST, -1)])
+
+    def test_lists_by_place_and_date(self):
+        books = [shelf_book(1), shelf_book(2, regions=["Japan", "Hokkaido", "Spain"], period="June 1878 to 1879"),
+                 shelf_book(3, regions=["Atlantis"], period="")]
+        build_site.build_lists(self.out, books, self.PLACES)
+        p = self.read("places.html")
+        self.assertLess(p.index('id="east-asia"'), p.index('id="europe"'))               # the order of places.json
+        self.assertEqual(p.count("Journey 2</cite>"), 2)                                # once under each area, not once per region
+        self.assertIn('id="other-places"', p)                                           # a region the table lacks is still listed
+        d = self.read("dates.html")
+        self.assertIn('id="d1840"', d)
+        self.assertIn('id="d1870"', d)                                                  # the first year of the period
+        self.assertIn('id="d1850"', d)                                                  # no period: the year of publication
+        self.assertFalse(os.path.exists(os.path.join(self.out, "authors.html")))
+
+    def test_authors_page_when_many(self):
+        build_site.build_lists(self.out, [shelf_book(i) for i in range(build_site.HOME_FULL_LIST + 1)], self.PLACES)
+        a = self.read("authors.html")
+        self.assertEqual(a.count('<li><a href="books/'), build_site.HOME_FULL_LIST + 1)
+
+    def test_jatsi_page(self):
+        j = {"books": [{"n": 1, "year": 1860, "title": "First Visit", "author": "A. One", "scans": [{"label": "scan", "ia": "firstvisit00one", "url": "https://archive.org/details/firstvisit00one"}]},
+                       {"n": 2, "year": 1860, "title": "Second Visit", "author": "B. Two", "note": "second edition", "scans": [], "gutenberg": [123]},
+                       {"n": 3, "year": 1875, "title": "Third Visit", "author": "", "scans": []}]}
+        queue = [{"slug": "book-01", "title": "First Visit", "author": "A. One", "year": 1860, "status": "published", "from": "jatsi", "jatsi": 1},
+                 {"slug": "third", "title": "Third Visit", "author": "", "year": 1875, "status": "queued", "from": "jatsi", "jatsi": 3, "ia": "t"},
+                 {"slug": "other", "title": "Elsewhere", "author": "C", "year": 1870, "status": "queued", "ia": "e"}]
+        build_site.build_jatsi(self.out, [shelf_book(1, collection="jatsi")], queue, j)
+        h = self.read("japan-as-they-saw-it.html")
+        self.assertIn('<a href="books/book-01/index.html">on this site</a>', h)
+        self.assertIn("gutenberg.org/ebooks/123", h)
+        self.assertIn("(second edition)", h)
+        self.assertEqual(h.count("— in the queue"), 1)
+        self.assertNotIn("Elsewhere", h)
+        self.assertLess(h.index('id="y1860"'), h.index('id="y1875"'))
+        self.assertIn("list of 3 books", h)
+
+    def test_book_page_says_why_a_jatsi_book_is_here(self):
+        book, _ = comp(["[[page 1]]\n# ONE\n\nText."], collection="jatsi")
+        self.assertEqual(book["collection"], "jatsi")                                    # in the book JSON
+        self.assertIn("Why it is here", build_site.book_page(book, rh.file_names(book, ".html")))
+        book, _ = comp(["[[page 1]]\n# ONE\n\nText."])
+        self.assertNotIn("Why it is here", build_site.book_page(book, rh.file_names(book, ".html")))
+
+    def test_every_region_of_a_published_book_has_its_part_of_the_world(self):
+        places = build_site.load_places()
+        bdir = os.path.join(REPO, "books")
+        for slug in sorted(os.listdir(bdir)) if os.path.isdir(bdir) else []:
+            f = os.path.join(bdir, slug, "book.json")
+            if os.path.exists(f):
+                for r in json.load(open(f, encoding="utf-8")).get("regions", []):
+                    self.assertIn(r, places["regions"], f"{slug}: add {r!r} to data/places.json")
+        self.assertEqual(set(places["regions"].values()) - set(places["areas"]), set())
+
+
+class Ledger(unittest.TestCase):
+    """data/queue.json and data/jatsi.json: which kind of book is due, and the consistency check."""
+    POLICY = {"others_before": 2, "others_per_jatsi": 2}
+
+    def q(self, *rows):
+        return {"jatsi_policy": self.POLICY, "books": [dict({"slug": f"s{i}", "title": "T", "author": "A", "year": 1900, "eligibility": "x", "ia": "i"}, **r)
+                                                         for i, r in enumerate(rows)]}
+
+    def test_one_jatsi_book_in_three(self):
+        o, j = {"status": "published"}, {"status": "published", "from": "jatsi"}
+        before = [o, o]                                       # published before the policy began: not counted
+        seq = []
+        rows = list(before)
+        for _ in range(7):
+            k = ledger.next_kind(self.q(*rows))
+            seq.append(k)
+            rows.append(j if k == "jatsi" else o)
+        self.assertEqual(seq, ["jatsi", "other", "other", "jatsi", "other", "other", "jatsi"])
+
+    def test_queued_and_waiting_books_do_not_count(self):
+        rows = [{"status": "published"}] * 2 + [{"status": "in progress", "from": "jatsi"}, {"status": "queued"}, {"status": "waiting"}]
+        self.assertEqual(ledger.next_kind(self.q(*rows)), "other")
+        self.assertEqual(ledger.next_kind({"books": []}), "other")           # no policy, no JATSI turn
+
+    def test_check_finds_what_is_wrong(self):
+        tmp = tempfile.mkdtemp()
+        self.addCleanup(shutil.rmtree, tmp, True)
+        os.makedirs(os.path.join(tmp, "books", "s0"))
+        json.dump({"id": "s0", "collection": "jatsi"}, open(os.path.join(tmp, "books", "s0", "book.json"), "w"))
+        os.makedirs(os.path.join(tmp, "wip", "stray"))
+        json.dump({"id": "stray"}, open(os.path.join(tmp, "wip", "stray", "book.json"), "w"))
+        j = {"books": [{"n": 1}, {"n": 2}]}
+        q = self.q({"status": "published"},                                  # book.json says JATSI, the row does not
+                   {"status": "queued", "from": "jatsi", "jatsi": 9},      # no such number
+                   {"status": "done"},                                       # not a status
+                   {"status": "published", "from": "jatsi", "jatsi": 2})   # published, no book
+        got = "\n".join(ledger.check(q, j, tmp))
+        for want in ("disagree about JATSI", "is not a number in data/jatsi.json", "status 'done'", "book.json is missing", "wip/stray: no row"):
+            self.assertIn(want, got)
+        good = self.q({"status": "published", "from": "jatsi", "jatsi": 1})
+        shutil.rmtree(os.path.join(tmp, "wip"))
+        self.assertEqual(ledger.check(good, j, tmp), [])
+
+    def test_the_real_ledger_is_consistent(self):
+        q, j = ledger.load()
+        self.assertEqual(ledger.check(q, j), [])
+        self.assertIn("Next new book", ledger.report(q, j))
 
 
 if __name__ == "__main__":

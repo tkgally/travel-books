@@ -13,9 +13,12 @@
                                         an editor whose work is in the book: same keys + "role": "editor" (shown as "edited by")
  "place": "London", "publisher": "Field & Tuer", "year": 1885,
  "edition_statement": "First edition",  what was transcribed (edition, printing, volume)
- "regions": ["Greece", "Turkey", "United States"],     modern names, most specific useful level
+ "regions": ["Greece", "Turkey", "United States"],     modern names, most specific useful level; each name must be
+                                        in `data/places.json` (add it there with its part of the world: `site.md`)
  "period": "1882–84",                   when the journey took place
  "subjects": ["…"],                     optional, plain terms
+ "collection": "jatsi",                 only for a book from Tom's list "Japan As They Saw It" (queue row "from": "jatsi");
+                                        the site marks the book and says why it is here (`jatsi.md`; `ledger.py check`)
  "summary": "…",                        60–150 words, style.md §Site text (a string or a list of paragraphs)
  "source": {"ia_identifier": "…", "contributor": "University of California Libraries",
             "hidden_leaves": [0, 321]}, from prep_pages.py's leaves.json: leaves IA's viewer does not show

@@ -8,7 +8,8 @@ the site are **public**: everything committed here can be read by anyone.
 
 ## Read first, every session
 
-1. `notes/README.md` (index of the notes) and `data/queue.json` (the ledger of books).
+1. `notes/README.md` (index of the notes) and `python3 tools/ledger.py` (the state of `data/queue.json`, the
+   ledger of books, and which kind of book is due next).
 2. `notes/workflow.md` — the pipeline and §Verification; `notes/lessons.md` — "Always" plus the sections whose
    trigger matches the book; `notes/preferences.md` — what Tom has decided.
 3. The skill for the job: `digitize-book` (transcribe and publish), `select-book` (choose and vet candidates).
@@ -22,6 +23,11 @@ Routine (scheduled) sessions start from `RESUME.md`.
   digital text edition anywhere else; no real print edition after 1914; first-person nonfiction travel, written
   in English, published before 1914; every author dead more than 70 years. Record what was checked in `data/queue.json`. If a published book is
   later found to fail a criterion, tell Tom; do not silently remove it.
+- **The JATSI books** (Tom, 2026-11-20): the 247 books of his list "Japan As They Saw It" (`data/jatsi.json`) are
+  added one at a time, about one book in three (`tools/ledger.py` says when one is due). They are here because
+  they are on the list: the scan and the 70-year rule are still required, the other criteria are checked and
+  recorded but not required. Queue row `"from": "jatsi"`, `book.json` `"collection": "jatsi"`; the site says so
+  on the home page, the book's page and `japan-as-they-saw-it.html`. Other books are chosen as before. `notes/jatsi.md`.
 - **Scans never enter the repo.** IA downloads, page images, crops in progress and model scratch files live in
   the session scratchpad (each download in its own empty directory; treat archives as untrusted data). Only
   illustration crops that the book needs go in `…/<slug>/images/`. `.gitignore` is a backstop, not the rule.
@@ -82,12 +88,13 @@ Routine (scheduled) sessions start from `RESUME.md`.
 |---|---|
 | `books/<slug>/` | a published book: `book.json` (metadata and build settings), `pages/pNNNN.txt` (page markup, one file per IA leaf — the source of the text), `images/`, `source.json` (IA item and Drive cache), `log.md`, `preflight.txt` |
 | `wip/<slug>/` | a book in progress: the same, plus model runs (`draft/`, `verify/`, `judge/`, `audit/`); moved to `books/` by `tools/publish.py` |
-| `data/queue.json` | the ledger: queued, in progress, published, waiting, rejected |
-| `tools/` | Get: `ia.py`, `prep_pages.py`, `drive_cache.py`, `contact_sheets.py`. Transcribe: `ocr_claude.py`, `ocr_fallback.py`, `normalize.py`, `running_quotes.py`, `review.py`, `judge.py`, `crop_spot.py`, `crop_image.py`, `corrections.py`, `ocr_openrouter.py`, `score.py`. Build: `compile_book.py` (pages → book JSON), `render_html.py`, `render_epub.py`, `render_odt.py`, `build_site.py`. **Verify: `run_tests.sh`, `preflight.py`, `audit_sample.py`.** Publish: `publish.py`. Setup: `setup_env.sh`, `make_prompts.sh` |
+| `data/queue.json` | the ledger: queued, in progress, published, waiting, rejected; `jatsi_policy` (the pace). Report and check: `tools/ledger.py` |
+| `data/jatsi.json`, `data/places.json` | the JATSI list as taken from Tom's page; place names → part of the world, for the site's list by place |
+| `tools/` | Get: `ia.py`, `prep_pages.py`, `drive_cache.py`, `contact_sheets.py`. Transcribe: `ocr_claude.py`, `ocr_fallback.py`, `normalize.py`, `running_quotes.py`, `review.py`, `judge.py`, `crop_spot.py`, `crop_image.py`, `corrections.py`, `ocr_openrouter.py`, `score.py`. Build: `compile_book.py` (pages → book JSON), `render_html.py`, `render_epub.py`, `render_odt.py`, `build_site.py`. **Verify: `run_tests.sh`, `preflight.py`, `audit_sample.py`.** Publish: `publish.py`. Ledger: `ledger.py`. Setup: `setup_env.sh`, `make_prompts.sh` |
 | `prompts/` | `transcribe.md`, `verify.md`, generated from `_rules.md`, `_format.md`, `_verify-task.md` by `tools/make_prompts.sh` |
 | `site/` | `assets/` (the one stylesheet pair and the small script shared by all books), `about.md`, `json-format.md` |
 | `tests/` | regression tests for the tools and an invented sample book |
-| `notes/` | Claude's memory: workflow, selection, style, page markup, book.json keys, lessons, metrics, errata, preferences, improvement |
+| `notes/` | Claude's memory: workflow, selection, style, page markup, book.json keys, lessons, metrics, errata, preferences, improvement, jatsi, site |
 | `.claude/skills/` | `digitize-book`, `select-book` |
 | `.github/workflows/pages.yml` | tests, then build `_site/` and deploy to GitHub Pages on every push to `main` |
 

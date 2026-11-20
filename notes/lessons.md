@@ -108,6 +108,12 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - Drafts already tag some numbers: a blanket regex double-wraps them. Do not tag years.
 - Set `[[page N]]` to the true number where the folio is misprinted, and say so in the log.
 
+## Trigger: a book about Japan (the JATSI books)
+
+- Nothing learned yet: the first one has not been done. Expected trouble, to confirm or delete after it: romanized
+  Japanese in the author's spelling turned into the modern form (Yedo → Edo, Kiôto → Kyoto, a dropped macron or
+  circumflex); crop every judge spot and audit candidate on such a word. Japanese script: `workflow.md` §"Not yet solved".
+
 ## Trigger: Google scan (`…goog` identifiers)
 
 - Often bilevel, with folded maps unopened and occasional pages with a hand over the text: the scan check

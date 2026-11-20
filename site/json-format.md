@@ -11,6 +11,7 @@ Each book has one JSON file, `books/<id>/<id>.json`. It holds everything that wa
 | `license` | `CC0-1.0` |
 | `title`, `subtitle`, `short_title`, `authors`, `place`, `publisher`, `year`, `edition_statement` | bibliographic description of the printed book that was transcribed |
 | `regions`, `period`, `subjects`, `summary` | where and when the journey took place; a short description |
+| `collection` | optional: `jatsi` for a book that is on this site because it is on the list [Japan As They Saw It](japan-as-they-saw-it.html) |
 | `source` | `ia_identifier`: the scan at the Internet Archive; `hidden_leaves`: scan images the Archive's viewer does not show |
 | `notes_on_text`, `omitted_from_reading`, `history` | editorial notes, what the reading formats leave out, and the list of versions |
 | `corrections` | printer's errors that were corrected: `leaf`, `division`, `printed`, `corrected` |

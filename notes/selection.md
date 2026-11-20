@@ -22,6 +22,12 @@
    2026, in 1955 or earlier. Death date unknown (Tom, 2026-11-19): assume the person died before the age of 100, so a person known to be born (or, from their career, certainly born) before 1856 qualifies; record the birth year or the evidence for it in the queue row. If even the birth year cannot be bounded, leave the book out.
    A book that fails only this goes under `rejected` with the year it becomes eligible.
 
+**Two kinds of exception, both Tom's.** A book he asks for by name (so far Staunton's *Embassy to China*; queue
+row `"from": "tom"`). And the books of his list "Japan As They Saw It" (2026-11-20; queue rows `"from": "jatsi"`):
+rules 1 and 5 are required of them, rules 2–4 are checked and recorded but not required, and rule 4 sets the
+order in which they are done — `jatsi.md`. Everything below about how to check applies to them too. For every
+other book all five rules stand.
+
 ## How to check (record what was searched in the queue row's `eligibility`)
 
 - **Project Gutenberg**: the site refuses scripted requests; search the catalogue file
@@ -70,5 +76,9 @@ judgement and taste, sometimes after asking Tom. So:
 - Books of their time contain views that are offensive now. That is not a reason to leave a book out or to
   alter it; the About page says so once. A book whose main matter is abuse is not chosen.
 
-Keep at least six books `queued`. Rejected candidates stay in `data/queue.json` under `rejected` with the
+The JATSI books will make Japan the largest single destination on the shelf: that is decided and is not a reason
+to pass over, or to prefer, a Japan book among the *other* candidates — but with a dozen Japan books queued from
+JATSI there is no need to look for more of them elsewhere.
+
+Keep at least six books `queued` that are not from JATSI, and four that are (`python3 tools/ledger.py`). Rejected candidates stay in `data/queue.json` under `rejected` with the
 reason, so that nobody checks them twice.

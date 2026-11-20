@@ -10,7 +10,9 @@ places where books actually go wrong. Rules: `CLAUDE.md`. Text decisions: `notes
 
 ## Before spending anything
 
-1. The book's queue row is eligible today (`notes/selection.md` §"Before starting").
+1. The book's queue row is eligible today (`notes/selection.md` §"Before starting"). Set it `in progress` with
+   `"started": "<date>"`. A JATSI row (`"from": "jatsi"`): `"collection": "jatsi"` in `book.json`, and read
+   `notes/jatsi.md` §"What these books bring" (romanized Japanese, Japanese script, a better scan than the one listed).
 2. Fetch once from IA, make page images, **look at every contact sheet** and a dozen pages at full size. A
    missing, cut-off or blurred page, or an unopened folding plate, stops the book here (try another scan).
 3. Write the page map in `wip/<slug>/log.md`; cache the page images in Drive; extract full-size leaves for the

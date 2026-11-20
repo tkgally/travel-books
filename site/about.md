@@ -12,7 +12,9 @@ For now a book is included only if all of these are true:
 - It has not been published in print since 1914, apart from short excerpts and print-on-demand copies of scans.
 - Its author died more than 70 years ago.
 
-One book is included as an exception to these rules, at Tom Gally's choice: [*An Authentic Account of an Embassy from the King of Great Britain to the Emperor of China*](books/embassy-to-china-staunton/index.html) (1797), by Sir George Staunton, which has later reprints and other digital texts. Its page says so.
+Some books are here for a different reason. [Japan As They Saw It](japan-as-they-saw-it.html) is an earlier project of Tom Gally's with a list of 247 books about Japan, published between 1855 and 1912. In November 2026 he decided to add the books of that list to this site gradually, about one in every three books published, so the site will have more books about Japan than about any other country. Those books are marked in the lists. They are included because they are on that list: some of them have been reprinted or have a digital text elsewhere, and some are not accounts of the author's own travels. The rule about the author's death applies to them as to the others, and their texts are made in the same way.
+
+One other book is included as an exception to these rules, at Tom Gally's choice: [*An Authentic Account of an Embassy from the King of Great Britain to the Emperor of China*](books/embassy-to-china-staunton/index.html) (1797), by Sir George Staunton, which has later reprints and other digital texts. Its page says so.
 
 Among the books that qualify, the choice is Claude's. The aim is a varied set of readable books that are otherwise found only in libraries or as page scans.
 
