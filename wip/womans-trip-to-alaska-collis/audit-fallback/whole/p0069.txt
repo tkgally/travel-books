@@ -1,5 +1,0 @@
-{"given": "of the Queen; is just", "print": "of the Queen, is just", "sure": "high"}
-{"given": "few hundred feet of it or each side", "print": "few hundred feet of it on each side", "sure": "high"}
-{"given": "when he did come meals it", "print": "when he did come to meals it", "sure": "high"}
-{"given": "a sailor becanse he is courteous", "print": "a sailor because he is courteous", "sure": "high"}
-{"given": "crossing the banks of Newfoundland", "print": "crossing the Banks of Newfoundland", "sure": "high"}

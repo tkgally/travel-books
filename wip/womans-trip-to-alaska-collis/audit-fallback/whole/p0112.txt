@@ -1,4 +1,0 @@
-{"given": "these were busy depots where", "print": "these were the busy depots where", "sure": "high"}
-{"given": "the town and harbor; is the", "print": "the town and harbor, is the", "sure": "high"}
-{"given": "in my opinion should he first", "print": "in my opinion should be first", "sure": "high"}
-{"given": "It is approacbed by a staircase", "print": "It is approached by a staircase", "sure": "high"}

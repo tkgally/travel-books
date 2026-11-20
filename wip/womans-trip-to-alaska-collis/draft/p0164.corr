@@ -1,6 +1,0 @@
-{"find": "[[page ?]]\n\n142 A WOMAN'S TRIP TO ALASKA.\n\nin the colder", "replace": "[[page 142]]\n\n[[cont]]in the colder"}
-{"find": "be widening ; widening", "replace": "be widening; widening"}
-{"find": "long atime", "replace": "long a time"}
-{"find": "dissolution ; but", "replace": "dissolution; but"}
-{"find": "that one hundred and sixty millions of cubic feet of ice break off from the facade of the Muir Glacier every twenty-four hours.", "replace": "that <i>one hundred and sixty millions of cubic feet of ice break off from the façade of the Muir Glacier every twenty-four hours.</i>"}
-{"find": "Swiss mer de glace will", "replace": "Swiss <i>mer de glace</i> will"}

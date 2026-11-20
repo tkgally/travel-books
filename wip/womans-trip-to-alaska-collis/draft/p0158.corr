@@ -1,7 +1,0 @@
-{"find": "[[page ?]]", "replace": "[[page 136]]"}
-{"find": "136 A WOMAN’S TRIP TO ALASKA.\n\nFarragut", "replace": "[[cont]]Farragut"}
-{"find": "afew", "replace": "a few"}
-{"find": "“ Hard-a-port", "replace": "“Hard-a-port"}
-{"find": "was the a cynosure", "replace": "was the cynosure"}
-{"find": "1am sure", "replace": "I am sure"}
-{"find": "steward ;", "replace": "steward;"}

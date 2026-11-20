@@ -1,5 +1,0 @@
-{"find": "[[page ?]]\n\n40 A WOMAN’S TRIP TO ALASKA.\n\narmy;", "replace": "[[page 40]]\n\n[[cont]] army;"}
-{"find": "direction ;", "replace": "direction;"}
-{"find": "street railys.", "replace": "street railways."}
-{"find": "beimg", "replace": "being"}
-{"find": "who have\n\nWe", "replace": "who have"}

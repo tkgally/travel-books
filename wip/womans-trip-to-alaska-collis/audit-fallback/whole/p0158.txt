@@ -1,5 +1,0 @@
-{"given": "with such dexterity mathematical precision", "print": "with such dexterity and mathematical precision", "sure": "high"}
-{"given": "ice were upturncd and fell", "print": "ice were upturned and fell", "sure": "high"}
-{"given": "In the midst of all his strain", "print": "In the midst of all this strain", "sure": "high"}
-{"given": "voyage with Captain carroll) was", "print": "voyage with Captain Carroll) was", "sure": "high"}
-{"given": "for our able commander; who at", "print": "for our able commander, who at", "sure": "high"}

@@ -1,5 +1,0 @@
-{"given": "is deeper at the center than", "print": "is deeper at the centre than", "sure": "high"}
-{"given": "the mass of ice itfelf is", "print": "the mass of ice itself is", "sure": "high"}
-{"given": "and its deep grooves furrows, to", "print": "and its deep grooves and furrows, to", "sure": "high"}
-{"given": "charged with the beat of the", "print": "charged with the heat of the", "sure": "high"}
-{"given": "the coast of Asia; until it", "print": "the coast of Asia, until it", "sure": "high"}

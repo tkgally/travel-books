@@ -1,5 +1,0 @@
-{"given": "doomed to listcn to descriptions", "print": "doomed to listen to descriptions", "sure": "high"}
-{"given": "around you, if must be", "print": "around you, it must be", "sure": "high"}
-{"given": "will not only warrant it; but make", "print": "will not only warrant it, but make", "sure": "high"}
-{"given": "in its original undisturbed grandeur", "print": "in its original and undisturbed grandeur", "sure": "high"}
-{"given": "of the Pacific ocean, but so", "print": "of the Pacific Ocean, but so", "sure": "high"}

@@ -1,5 +1,0 @@
-{"given": "drive, commanding grand view of the bay", "print": "drive, commanding a grand view of the bay", "sure": "high"}
-{"given": "should be natnralized before voting", "print": "should be naturalized before voting", "sure": "high"}
-{"given": "had fled to British columbia from slavery", "print": "had fled to British Columbia from slavery", "sure": "high"}
-{"given": "Dred Scott decision bad declared that", "print": "Dred Scott decision had declared that", "sure": "high"}
-{"given": "citizen of the United States; and the", "print": "citizen of the United States, and the", "sure": "high"}

@@ -1,5 +1,0 @@
-{"given": "Kromeskies Lobster, à la Russe,", "print": "Kromeskies of Lobster, à la Russe,", "sure": "high"}
-{"given": "Vanilla Ice Cream, Fruit, Assorted cakes,", "print": "Vanilla Ice Cream, Fruit, Assorted Cakes,", "sure": "high"}
-{"given": "water his crops; if consists,", "print": "water his crops; it consists,", "sure": "high"}
-{"given": "ground needs moisture; and I was", "print": "ground needs moisture, and I was", "sure": "high"}
-{"given": "than that providcd by nature", "print": "than that provided by nature", "sure": "high"}

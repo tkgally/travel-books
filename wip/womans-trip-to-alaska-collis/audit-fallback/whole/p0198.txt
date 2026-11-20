@@ -1,5 +1,0 @@
-{"given": "The scene along entire route is", "print": "The scene along the entire route is", "sure": "high"}
-{"given": "dense forest. His body of ice", "print": "dense forest. This body of ice", "sure": "high"}
-{"given": "the Muir is hcroic in colossal", "print": "the Muir is heroic in colossal", "sure": "high"}
-{"given": "we turn around, and; having to", "print": "we turn around, and, having to", "sure": "high"}
-{"given": "give us a surprize in a day", "print": "give us a surprise in a day", "sure": "high"}

@@ -1,5 +1,0 @@
-{"find": "[[page ?]]\n\n112 A WOMAN'S TRIP TO ALASKA.\n\nchoir", "replace": "[[page 112]]\n\n[[cont]] choir"}
-{"find": "impressive ;", "replace": "impressive;"}
-{"find": "deliyered", "replace": "delivered"}
-{"find": "ship Queen,", "replace": "ship <i>Queen</i>,"}
-{"find": "instant ;", "replace": "instant;"}

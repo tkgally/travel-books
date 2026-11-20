@@ -1,5 +1,0 @@
-{"given": "was my first experience my many voyages", "print": "was my first experience in my many voyages", "sure": "high"}
-{"given": "that the pafsengers might have", "print": "that the passengers might have", "sure": "high"}
-{"given": "to points of interest; which it", "print": "to points of interest, which it", "sure": "high"}
-{"given": "and that it I was the", "print": "and that if I was the", "sure": "high"}
-{"given": "This is the sitkan Archipelago", "print": "This is the Sitkan Archipelago", "sure": "high"}

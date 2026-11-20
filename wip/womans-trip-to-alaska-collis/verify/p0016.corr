@@ -1,4 +1,0 @@
-{"find": "[[page ?]]\n\n[[center]] CHAPTER V.", "replace": "[[page ?]]\n\n# Contents.\n\n# Chapter V."}
-{"find": "[[center]] CHAPTER VI.", "replace": "# Chapter VI."}
-{"find": "[[center]] CHAPTER VII.", "replace": "# Chapter VII."}
-{"find": "[[center]] CHAPTER VIII.", "replace": "# Chapter VIII."}

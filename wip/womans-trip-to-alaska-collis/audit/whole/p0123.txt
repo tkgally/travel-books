@@ -1,5 +1,0 @@
-{"given": "the labret, the shank which passes", "print": "the labret, the shank of which passes", "sure": "high"}
-{"given": "the powder embellishment; in which the", "print": "the powder embellishment, in which the", "sure": "high"}
-{"given": "Leaving those Indian men and", "print": "Leaving these Indian men and", "sure": "high"}
-{"given": "best clothes and prettieft adornments", "print": "best clothes and prettiest adornments", "sure": "high"}
-{"given": "home of these same siwash.", "print": "home of these same Siwash.", "sure": "high"}

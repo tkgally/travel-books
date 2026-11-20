@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "I should", "sure": "high"}
-{"n": 2, "is": "A", "print": "wonder upon\n\n[[image: View over the roofs of Seattle, with a church spire, toward the water and ships in the bay]]\n[[caption]] SEATTLE.\n\n[[cont]]what has", "sure": "high"}

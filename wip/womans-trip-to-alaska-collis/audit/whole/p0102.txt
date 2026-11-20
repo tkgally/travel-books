@@ -1,4 +1,0 @@
-{"given": "The totem pole of the alaskan Indian", "print": "The totem pole of the Alaskan Indian", "sure": "high"}
-{"given": "owes certain duties to this kin", "print": "owes certain duties to his kin", "sure": "high"}
-{"given": "totem-pole custom leads extravagant display", "print": "totem-pole custom leads to extravagant display", "sure": "high"}
-{"given": "an evidence of prospcrity for Mr.", "print": "an evidence of prosperity for Mr.", "sure": "high"}

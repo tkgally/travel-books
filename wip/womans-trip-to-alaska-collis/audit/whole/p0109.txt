@@ -1,5 +1,0 @@
-{"given": "procuring an additioual wrap and", "print": "procuring an additional wrap and", "sure": "high"}
-{"given": "days if we bad followed", "print": "days if we had followed", "sure": "high"}
-{"given": "to whom the faces their countrymen", "print": "to whom the faces of their countrymen", "sure": "high"}
-{"given": "who realized that “tomorrow will be", "print": "who realized that “to-morrow will be", "sure": "medium"}
-{"given": "of canoes, dug-outs; row-boats, and", "print": "of canoes, dug-outs, row-boats, and", "sure": "high"}

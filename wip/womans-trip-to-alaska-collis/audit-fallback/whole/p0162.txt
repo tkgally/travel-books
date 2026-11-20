@@ -1,5 +1,0 @@
-{"given": "five thousand feet above level of the ice", "print": "five thousand feet above the level of the ice", "sure": "high"}
-{"given": "Its façade at his point is", "print": "Its façade at this point is", "sure": "high"}
-{"given": "two hundred feet (Captain carroll once,", "print": "two hundred feet (Captain Carroll once,", "sure": "high"}
-{"given": "immediately in its front; and the ice,", "print": "immediately in its front, and the ice,", "sure": "high"}
-{"given": "immense bodies weighiug from one to", "print": "immense bodies weighing from one to", "sure": "high"}

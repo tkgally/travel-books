@@ -1,5 +1,0 @@
-{"given": "out on the rear platform absorbcd in", "print": "out on the rear platform absorbed in", "sure": "high"}
-{"given": "French missionaries, who sound the Indians", "print": "French missionaries, who found the Indians", "sure": "high"}
-{"given": "It is said to be the paradize of", "print": "It is said to be the paradise of", "sure": "high"}
-{"given": "and for thousands of wild ducks,", "print": "and for the thousands of wild ducks,", "sure": "high"}
-{"given": "experienced guides; dogs, and all", "print": "experienced guides, dogs, and all", "sure": "high"}

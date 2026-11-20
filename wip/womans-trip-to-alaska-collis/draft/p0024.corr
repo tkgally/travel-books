@@ -1,8 +1,0 @@
-{"find": "[[page ?]]", "replace": "[[page 2]]"}
-{"find": "2 A WOMAN’S TRIP TO ALASKA.\n\nhaving", "replace": "[[cont]] having"}
-{"find": "wouldun’t", "replace": "wouldn’t"}
-{"find": "room fora dress", "replace": "room for a dress"}
-{"find": "Tam not", "replace": "I am not"}
-{"find": "places en route", "replace": "places <i>en route</i>"}
-{"find": "conyentionalities", "replace": "conventionalities"}
-{"find": "standard ;", "replace": "standard;"}

@@ -1,5 +1,0 @@
-{"given": "and ought nor to be missed", "print": "and ought not to be missed", "sure": "high"}
-{"given": "exactly how many millious of feet", "print": "exactly how many millions of feet", "sure": "high"}
-{"given": "so I will run on say", "print": "so I will run on and say", "sure": "high"}
-{"given": "and Lake Steilacoom; which are both", "print": "and Lake Steilacoom, which are both", "sure": "high"}
-{"given": "in vain from sunrize till dark", "print": "in vain from sunrise till dark", "sure": "high"}

@@ -1,5 +1,0 @@
-{"given": "framed, as it were, with silver; the drapery", "print": "framed, as it were, with silver, the drapery", "sure": "medium"}
-{"given": "they were just as anxions to speak", "print": "they were just as anxious to speak", "sure": "high"}
-{"given": "the wives of officers the Pinta, which", "print": "the wives of officers of the Pinta, which", "sure": "high"}
-{"given": "and had been forever so long,", "print": "and had been for ever so long,", "sure": "high"}
-{"given": "apartments at a restaurant on tavern near", "print": "apartments at a restaurant or tavern near", "sure": "high"}

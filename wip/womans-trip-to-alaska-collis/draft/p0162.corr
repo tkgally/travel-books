@@ -1,5 +1,0 @@
-{"find": "[[page ?]]", "replace": "[[page 140]]"}
-{"find": "140 A WOMAN’S TRIP TO ALASKA.\n\n", "replace": ""}
-{"find": "greater number than", "replace": "[[cont]] greater number than"}
-{"find": "fagade", "replace": "façade"}
-{"find": "at the waterfront", "replace": "at the water-front"}

@@ -1,5 +1,0 @@
-{"given": "called Duke of clarence Strait)", "print": "called Duke of Clarence Strait)", "sure": "high"}
-{"given": "chat it over, were the captain", "print": "chat it over, where the captain", "sure": "high"}
-{"given": "first visit to an Alaskan town; during", "print": "first visit to an Alaskan town, during", "sure": "high"}
-{"given": "many of the intelligcnt people I met", "print": "many of the intelligent people I met", "sure": "high"}
-{"given": "information touching manners, habits, and customs", "print": "information touching the manners, habits, and customs", "sure": "high"}

@@ -1,5 +1,0 @@
-{"given": "if I can induce you make the trip", "print": "if I can induce you to make the trip", "sure": "high"}
-{"given": "then be sure to add; if they", "print": "then be sure to add, if they", "sure": "high"}
-{"given": "the following indispensablcs: A long", "print": "the following indispensables: A long", "sure": "high"}
-{"given": "entire costume; otherwize you will be", "print": "entire costume; otherwise you will be", "sure": "high"}
-{"given": "and are really nor fit to", "print": "and are really not fit to", "sure": "high"}

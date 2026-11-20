@@ -1,5 +1,0 @@
-{"given": "I knew not how often, it ever, the scene", "print": "I knew not how often, if ever, the scene", "sure": "high"}
-{"given": "a dozen or twenty pcople among whom", "print": "a dozen or twenty people among whom", "sure": "high"}
-{"given": "of amazement and surprize which I", "print": "of amazement and surprise which I", "sure": "high"}
-{"given": "that kind of molten; liquid fire which", "print": "that kind of molten, liquid fire which", "sure": "high"}
-{"given": "touch of amber almost invisible green,", "print": "touch of amber and almost invisible green,", "sure": "high"}

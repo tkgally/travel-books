@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "some of them\n\n[[image: A steamer trailing smoke on open water beside a dark wooded headland, with a range of snowy peaks on the horizon under a dark sky]]\n\n[[cont]]Icy Strait.", "sure": "high"}
-{"n": 2, "is": "B", "print": "e mountains,", "sure": "high"}

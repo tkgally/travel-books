@@ -1,5 +1,0 @@
-{"given": "at some new crcation he does", "print": "at some new creation he does", "sure": "high"}
-{"given": "stand for all time; regardless of", "print": "stand for all time, regardless of", "sure": "high"}
-{"given": "it all. If is not your", "print": "it all. It is not your", "sure": "high"}
-{"given": "from my visit your sisters in", "print": "from my visit to your sisters in", "sure": "high"}
-{"given": "as it is today! Thanks,", "print": "as it is to-day! Thanks,", "sure": "high"}

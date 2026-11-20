@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "<sc>being an account of a voyage through the inland seas of the sitkan archipelago in</sc> 1890", "sure": "low"}
-{"n": 2, "is": "B", "print": "[[center]] <sc>by</sc>", "sure": "medium"}

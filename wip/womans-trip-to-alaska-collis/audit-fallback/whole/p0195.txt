@@ -1,5 +1,0 @@
-{"given": "giving them a Santa claus expression", "print": "giving them a Santa Claus expression", "sure": "high"}
-{"given": "The peculiarity the exhibition was that", "print": "The peculiarity of the exhibition was that", "sure": "high"}
-{"given": "expression to some thonght, and", "print": "expression to some thought, and", "sure": "high"}
-{"given": "from the first. This was a dance", "print": "from the first. His was a dance", "sure": "high"}
-{"given": "his fingers clawed the air; and his", "print": "his fingers clawed the air, and his", "sure": "medium"}

@@ -1,5 +1,0 @@
-{"given": "will sometimes wish you bad pockets", "print": "will sometimes wish you had pockets", "sure": "high"}
-{"given": "A pair of broad-soled, low-heelcd shoes", "print": "A pair of broad-soled, low-heeled shoes", "sure": "high"}
-{"given": "Northern Pacific to Tacoma; we next", "print": "Northern Pacific to Tacoma, we next", "sure": "high"}
-{"given": "where we intended remain over one", "print": "where we intended to remain over one", "sure": "high"}
-{"given": "by the Pennsylvania railroad Company for", "print": "by the Pennsylvania Railroad Company for", "sure": "high"}

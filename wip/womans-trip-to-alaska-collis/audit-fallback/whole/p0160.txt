@@ -1,5 +1,0 @@
-{"given": "through through like huge white coral", "print": "through and through like huge white coral", "sure": "high"}
-{"given": "not fantastic creations; but so marked", "print": "not fantastic creations, but so marked", "sure": "high"}
-{"given": "these exquisite turquoize gems which excited", "print": "these exquisite turquoise gems which excited", "sure": "high"}
-{"given": "passed through this sea of tronbles,", "print": "passed through this sea of troubles,", "sure": "high"}
-{"given": "towards the horizon or the right", "print": "towards the horizon on the right", "sure": "high"}

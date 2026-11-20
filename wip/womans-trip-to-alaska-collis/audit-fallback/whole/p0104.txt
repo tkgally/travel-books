@@ -1,5 +1,0 @@
-{"given": "protruding from the blauket and lit", "print": "protruding from the blanket and lit", "sure": "high"}
-{"given": "misery. The siwash woman is", "print": "misery. The Siwash woman is", "sure": "high"}
-{"given": "her life; it living with her", "print": "her life; if living with her", "sure": "high"}
-{"given": "oxen or horses; to till the", "print": "oxen or horses, to till the", "sure": "high"}
-{"given": "and a couple shaggy dogs;", "print": "and a couple of shaggy dogs;", "sure": "high"}

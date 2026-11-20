@@ -1,5 +1,0 @@
-{"find": "[[page ?]]", "replace": "[[page 73]]"}
-{"find": "EXQUISITE SCENERY. 73\n\nthere they", "replace": "[[cont]]there they"}
-{"find": "fagades", "replace": "façades"}
-{"find": "transpiring ;", "replace": "transpiring;"}
-{"find": "beeomes “ Have you seen the whale ?”", "replace": "becomes “<i>Have</i> you seen the whale?”"}

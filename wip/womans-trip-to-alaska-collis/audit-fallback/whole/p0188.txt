@@ -1,5 +1,0 @@
-{"given": "history of California will he repeated", "print": "history of California will be repeated", "sure": "high"}
-{"given": "price by the exercize of patience", "print": "price by the exercise of patience", "sure": "high"}
-{"given": "it “lookcd as though it had", "print": "it “looked as though it had", "sure": "high"}
-{"given": "Tacoma, Seattle, Victoria; and other thriving", "print": "Tacoma, Seattle, Victoria, and other thriving", "sure": "high"}
-{"given": "commercial point upon entire coast.", "print": "commercial point upon the entire coast.", "sure": "high"}
