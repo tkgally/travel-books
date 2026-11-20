@@ -119,7 +119,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - A signature under a note goes inside the note.
 - A summary of 80 characters or less goes into the chapter's title (pager, breadcrumb, page title) while longer ones stay
   in `toc_title`; with `"toc": {"subtitles": "all"}` give those chapters a short `title` and the full `toc_title` in
-  `divisions` so that all chapters match (*Journey through the Caucasus*: I, XVI, Appendix).
+  `divisions` so that all chapters match (*Journey through the Caucasus*: I, XVI, Appendix). Again in *A Jaunt in Japan* (16 of 21
+  chapters): a compiler change (short titles whenever `subtitles` is `all`) would end it; for a later session, with a test.
 - Two marks in the text for one printed note: the second is `[[fnref * again]]` (the compiler warns "has no note" otherwise).
 
 ## Trigger: appendices, documents, quoted articles
