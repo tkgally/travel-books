@@ -198,11 +198,13 @@ How this was carried out: `notes/jatsi.md`.
 
 How this was carried out: `RESUME.md` §"How long a session runs", `tools/session_meter.py`, `improvement.md` review log.
 
+## 2026-11-20 (answer on texts in databases)
+
+- **Books whose text is in a subscription library database are eligible** (his answer on *A Woman's Trip to Alaska*, whose
+  text is in Alexander Street's "North American Women's Letters and Diaries"). **So are books in online databases such as
+  EEBO and ECCO whose texts are not formatted for immersive reading.** "Please revise the guidelines accordingly."
+  How: `selection.md` rule 2.
+
 ## Questions for Tom
 
-- **(2026-11-20) Does a text in a subscription database count as "a digital text edition elsewhere"?** The re-check of
-  *A Woman's Trip to Alaska* (Collis, 1890) found it in Alexander Street's "North American Women's Letters and
-  Diaries" (search.alexanderstreet.com/view/work/4262667), a keyed full-text database sold to libraries, not open to
-  the public. Rule 2 does not say. Until you answer, the book stays `queued` with a note and is not started (a book
-  whose eligibility is in doubt is not published); other books go first. If such databases do not count (the texts
-  are "available only in libraries", which was your aim), it can go ahead as normal.
+None open.
