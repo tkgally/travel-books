@@ -1,0 +1,19 @@
+{
+ "id": "impressions-of-a-first-tour-round-the-world-kothari",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "Impressions of a First Tour round the World in 1883 and 1884: Embracing Travels in Europe, the United States of America, Canada, Japan, China, the Straits Settlements, and the Northern Portions of India",
+ "short_title": "Impressions of a First Tour round the World",
+ "authors": [
+  {"name": "Jehangir H. Kothari", "sort": "Kothari, Jehangir H.", "born": 1857, "died": 1934}
+ ],
+ "place": "London",
+ "publisher": "printed by Simmons & Botten, for private circulation",
+ "year": 1889,
+ "edition_statement": "First edition (300 copies)",
+ "collection": "jatsi",
+ "source": {"ia_identifier": "impressionsoffir00koth", "contributor": "Boston Public Library", "hidden_leaves": [0, 301]},
+ "history": [{"version": 1, "date": "2026-11-20", "note": "First publication."}],
+ "regions": ["Pakistan", "India", "Egypt", "Italy", "United Kingdom", "France", "Switzerland", "Germany", "Belgium", "Netherlands", "Czech Republic", "Austria", "Ireland", "United States", "Canada", "Japan", "China", "Hong Kong", "Macau", "Singapore", "Malaysia"],
+ "period": "1883–84"
+}
