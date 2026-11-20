@@ -1,5 +1,0 @@
-judge opus: 5 spots on 5 pages: {'verified': 1, 'draft': 4}; cost $0.21
-p0074 #1 [draft, sure: low] draft '[[subtitle]] Arabs “Chez' | verified '## Arabs “Chez' | judge reads 'Arabs “Chez'
-p0079 #1 [draft, sure: high] draft '“You-you-you-you-y' | verified '“You-you-you-y' | judge reads '“You-you-you-you-y'
-p0149 #1 [draft, sure: medium] draft '<i>cortége</i>' | verified '<i>cortège</i>' | judge reads '<i>cortége</i>'
-p0246 #1 [draft, sure: medium] draft '| 3e „ | fem. | qt’lta ' | verified '| 3e „ | fém. | qt’lta ' | judge reads '| 3e „ | fem. | qt’lta '

@@ -1,3 +1,0 @@
-{"find": "<sc>Portraits</sc>", "replace": "P<sc>ortraits</sc>"}
-{"find": "<sc>Algiers in</sc> 1830", "replace": "A<sc>lgiers in</sc> 1830"}
-{"find": "A <sc>Street in the Arab Quarter</sc>", "replace": "A S<sc>treet in the</sc> A<sc>rab</sc> Q<sc>uarter</sc>"}

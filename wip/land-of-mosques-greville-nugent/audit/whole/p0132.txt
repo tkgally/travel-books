@@ -1,5 +1,0 @@
-{"given": "so well blended are color and", "print": "so well blended are colour and", "sure": "high"}
-{"given": "ceramics when so displaycd. Our hostess", "print": "ceramics when so displayed. Our hostess", "sure": "high"}
-{"given": "than was ever pleasaunce of cloistered", "print": "than was ever the pleasaunce of cloistered", "sure": "high"}
-{"given": "perhaps the ladies of old; who knew", "print": "perhaps the ladies of old, who knew", "sure": "high"}
-{"given": "forty feet by twenty. His tank, fringed", "print": "forty feet by twenty. This tank, fringed", "sure": "high"}

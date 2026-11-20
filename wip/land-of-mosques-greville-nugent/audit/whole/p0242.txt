@@ -1,5 +1,0 @@
-{"given": "And so, at last; as", "print": "And so, at last, as", "sure": "high"}
-{"given": "this country of Mosques Marabouts.", "print": "this country of Mosques and Marabouts.", "sure": "high"}
-{"given": "still, if was sadly that", "print": "still, it was sadly that", "sure": "high"}
-{"given": "Naples fishermen louuged all day", "print": "Naples fishermen lounged all day", "sure": "high"}
-{"given": "I went there. Everyone walked about", "print": "I went there. Every one walked about", "sure": "high"}
