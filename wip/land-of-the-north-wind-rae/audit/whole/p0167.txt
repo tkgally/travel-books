@@ -1,0 +1,5 @@
+{"given": "saw everything we wifhed to see.", "print": "saw everything we wished to see.", "sure": "high"}
+{"given": "in the actual flints early jewellery", "print": "in the actual flints and early jewellery", "sure": "high"}
+{"given": "such as chalices, spoons; lamps, patens", "print": "such as chalices, spoons, lamps, patens", "sure": "high"}
+{"given": "beautiful: so where the Runic calendars", "print": "beautiful: so were the Runic calendars", "sure": "high"}
+{"given": "We sailed from korsoer towards midnight", "print": "We sailed from Korsoer towards midnight", "sure": "high"}

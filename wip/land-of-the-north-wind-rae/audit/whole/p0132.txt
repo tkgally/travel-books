@@ -1,0 +1,6 @@
+{"given": "to tell his boy to meet", "print": "to tell this boy to meet", "sure": "high"}
+{"given": "so our finnish was vindicated", "print": "so our Finnish was vindicated", "sure": "high"}
+{"given": "made fast the sail; strove to", "print": "made fast the sail, strove to", "sure": "high"}
+{"given": "nasty crooked rush water, and", "print": "nasty crooked rush of water, and", "sure": "high"}
+{"given": "restore ourselves by diuing on shore", "print": "restore ourselves by dining on shore", "sure": "high"}
+{"given": "and making our way into", "print": "and makiug our way into", "sure": "low"}

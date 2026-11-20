@@ -1,0 +1,5 @@
+{"given": "and then commcnced his business", "print": "and then commenced his business", "sure": "high"}
+{"given": "down to the mouths the rivers", "print": "down to the mouths of the rivers", "sure": "high"}
+{"given": "the value of labor here", "print": "the value of labour here", "sure": "high"}
+{"given": "now if is worth a rouble", "print": "now it is worth a rouble", "sure": "high"}
+{"given": "upon Masslynnoi Point; to replace", "print": "upon Masslynnoi Point, to replace", "sure": "high"}

@@ -1,0 +1,5 @@
+{"given": "nourished the wolves ravens with my", "print": "nourished the wolves and ravens with my", "sure": "high"}
+{"given": "I said, Desire jones to step", "print": "I said, Desire Jones to step", "sure": "high"}
+{"given": "and twirling uncasily in his hands", "print": "and twirling uneasily in his hands", "sure": "high"}
+{"given": "fall upon his knees; burst into tears", "print": "fall upon his knees, burst into tears", "sure": "high"}
+{"given": "into laughter, when confessed everything, saying", "print": "into laughter, then confessed everything, saying", "sure": "high"}
