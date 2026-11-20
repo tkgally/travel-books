@@ -1,0 +1,9 @@
+[[page vii]]
+
+| | <sc>facing page</sc> |
+|---|---|
+| T<sc>he</sc> C<sc>athedral</sc>, C<sc>iudad</sc> B<sc>olivar</sc> | <pref>214</pref> |
+| “B<sc>uen</sc> M<sc>ula</sc>” | <pref>226</pref> |
+| P<sc>rimitive</sc> T<sc>ransportation</sc> | <pref>236</pref> |
+| “T<sc>he</sc> D<sc>elta</sc>” | <pref>292</pref> |
+| M<sc>ap</sc> | <i>At end</i> |
