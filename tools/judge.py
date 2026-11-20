@@ -126,6 +126,19 @@ def apply(verified_text, spots, verdicts, page):
     return text, rows
 
 
+HEADING_LINE = re.compile(r"(?m)^#")
+
+
+def must_look(who, sure, spot):
+    """A spot goes in report.txt unless the judge took the verifier's reading and was sure — and always when either
+    reading has a heading line: the verifier dropped two letter headings ("# Tenth Letter") and the judge, seeing
+    a heading in small capitals at the page top, took them for running heads and agreed, sure (*Summer Greetings
+    from Japan*, 2026-11-20)."""
+    if HEADING_LINE.search(spot.get("find", spot.get("draft", ""))) or HEADING_LINE.search(spot.get("replace", spot.get("verified", ""))):
+        return True
+    return who != "verified" or sure != "high"
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--spots", required=True); ap.add_argument("--verified", required=True)
@@ -172,7 +185,7 @@ def main():
                 tally[who] = tally.get(who, 0) + 1
                 allv.append({"page": page, "n": s["n"], "who": who, "draft": s["draft"], "verified": s["verified"], "judge": v})
                 sure = (v or {}).get("sure", "")
-                if who != "verified" or sure != "high":
+                if must_look(who, sure, s):
                     rep.append(f"{page} #{s['n']} [{who}{', sure: ' + sure if sure else ''}] draft {s['draft']!r} | verified {s['verified']!r}"
                                + (f" | judge reads {v.get('print')!r}" if v else ""))
         open(os.path.join(a.out, f), "w", encoding="utf-8").write(text)

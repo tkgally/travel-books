@@ -1,0 +1,108 @@
+{
+ "p0025": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "“Comus” and",
+   "replace": "“Comus’ and",
+   "draft": "“Comus” and",
+   "verified": "“Comus’ and",
+   "context": "ly poetry, his favorite poet being Milton. He knows lots of “Comus” and “Paradise Lost” by heart. Now ⏎ "
+  }
+ ],
+ "p0091": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "HERE I am for",
+   "replace": "H<sc>ere</sc> I am for",
+   "draft": "HERE I am for",
+   "verified": "H<sc>ere</sc> I am for",
+   "context": "] K<sc>amokura</sc> ⏎  ⏎ [[right]] Saturday, June 23. ⏎  ⏎ * * * * ⏎  ⏎ HERE I am for a little while at Kamokura, where A. C. H. has her summer h"
+  }
+ ],
+ "p0111": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "# Tenth Letter\n\n",
+   "replace": "",
+   "draft": "# Tenth Letter\n\n",
+   "verified": "",
+   "context": "[[page 83]] ⏎  ⏎ # Tenth Letter ⏎  ⏎ [[right]] T<sc>okyo</sc>, ⏎  ⏎ [[right]] June 30, Saturday A. M."
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "THAT novel",
+   "replace": "T<sc>hat</sc> novel",
+   "draft": "THAT novel",
+   "verified": "T<sc>hat</sc> novel",
+   "context": "<sc>okyo</sc>, ⏎  ⏎ [[right]] June 30, Saturday A. M. ⏎  ⏎ * * * * ⏎  ⏎ THAT novel experience I mentioned in my last letter was a “ceremonial "
+  }
+ ],
+ "p0137": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "IT would startle",
+   "replace": "I<sc>t</sc> would startle",
+   "draft": "IT would start",
+   "verified": "I<sc>t</sc> would start",
+   "context": "sc>yoto</sc> ⏎  ⏎ [[right]] Friday evening, July 6th. ⏎  ⏎ * * * * ⏎  ⏎ IT would startle you to catch a look at me to-night. I am lobster-red from a"
+  }
+ ],
+ "p0141": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Géisha dance",
+   "replace": "Geisha dance",
+   "draft": "Géisha dance",
+   "verified": "Geisha dance",
+   "context": "mber of us at the hotel clubbed together and arranged for a Géisha dance at one of the <i>tea-houses</i>. There were seven of us in "
+  }
+ ],
+ "p0145": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "# Fourteenth Letter\n\n",
+   "replace": "",
+   "draft": "# Fourteenth Letter\n\n",
+   "verified": "",
+   "context": "[[page 109]] ⏎ # Fourteenth Letter ⏎  ⏎ [[right]] K<sc>yoto</sc> ⏎  ⏎ [[right]] Monday evening, July 9th"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "THIS has been",
+   "replace": "T<sc>his</sc> has been",
+   "draft": "THIS has been",
+   "verified": "T<sc>his</sc> has been",
+   "context": ">yoto</sc> ⏎  ⏎ [[right]] Monday evening, July 9th. ⏎  ⏎ [[break]] ⏎  ⏎ THIS has been Buddhist day. I called first on the Governor of the Prefect"
+  }
+ ],
+ "p0161": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "beautful",
+   "replace": "beautiful",
+   "draft": "beautful",
+   "verified": "beautiful",
+   "context": "I will stop now, and take a stroll in the rain. This is the beautful and famous Nikko. In five days I shall be on the journey st"
+  }
+ ],
+ "p0165": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "TAKE it all",
+   "replace": "T<sc>ake</sc> it all",
+   "draft": "TAKE it all",
+   "verified": "T<sc>ake</sc> it all",
+   "context": "ht]] N<sc>ikko</sc> ⏎  ⏎ [[right]] Monday, July 16th. ⏎  ⏎ * * * * ⏎  ⏎ TAKE it all together, it can rain more here in twenty-four hours than a"
+  }
+ ]
+}

@@ -34,6 +34,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 | Straight apostrophes in book.json text written by hand (summary, subtitle, contents titles), shown on the site as written [*West Coast of Africa*, 2026-11-20; three earlier books] | preflight `site-text` (enforce since the review after twenty books); test `SiteText` |
 | A book without `images/cover.jpg` [*Jottings*, 2026-11-20: caught by the rendered look] | preflight `cover` (observe); test `Accents` |
 | A word spelled with different accents in different places, misread by every stage [*Land of the North Wind*, 35 pages, 2026-11-20] | preflight `accents` (observe: a list of groups to look at on the scan); test `Accents` |
+| The verifier dropped a letter's heading at a page top and the judge agreed, sure, taking it for a running head, so the spot never reached report.txt [*Summer Greetings from Japan*, 2026-11-20] | `judge.py` always reports a spot that touches a `#` line; test `test_judge_heading_spot_always_reported` |
 | A footnote's table and second paragraph typed after the note on lines of their own, so set as body text [*My Life in Mongolia and Siberia*, 2026-11-20: caught only by the rendered look] | preflight `note-tail` (observe); test `NoteTail` |
 | A correction on an unnumbered page listed by its leaf name on the book page | the division's title ("Contents, unnumbered page"); test `CorrectionPage` |
 

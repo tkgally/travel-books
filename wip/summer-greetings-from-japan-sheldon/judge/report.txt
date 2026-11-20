@@ -1,0 +1,10 @@
+judge opus: 10 spots on 8 pages: {'draft': 7, 'verified': 2, 'draft (could not undo: edit by hand)': 1}; cost $0.35
+p0025 #1 [draft, sure: medium] draft '“Comus” and' | verified '“Comus’ and' | judge reads '“Comus” and'
+p0091 #1 [draft, sure: medium] draft 'HERE I am for' | verified 'H<sc>ere</sc> I am for' | judge reads 'HERE I am for'
+p0111 #2 [draft, sure: medium] draft 'THAT novel' | verified 'T<sc>hat</sc> novel' | judge reads 'THAT novel'
+p0137 #1 [draft, sure: medium] draft 'IT would start' | verified 'I<sc>t</sc> would start' | judge reads 'IT would start'
+p0141 #1 [draft, sure: medium] draft 'Géisha dance' | verified 'Geisha dance' | judge reads 'Géisha dance'
+p0145 #1 [draft (could not undo: edit by hand), sure: high] draft '# Fourteenth Letter\n\n' | verified '' | judge reads '# Fourteenth Letter\n\n'
+p0145 #2 [draft, sure: medium] draft 'THIS has been' | verified 'T<sc>his</sc> has been' | judge reads 'THIS has been'
+p0161 #1 [draft, sure: medium] draft 'beautful' | verified 'beautiful' | judge reads 'beautful'
+p0165 #1 [verified, sure: medium] draft 'TAKE it all' | verified 'T<sc>ake</sc> it all' | judge reads 'T<sc>ake</sc> it all'

@@ -21,10 +21,20 @@ Scan check (Opus subagent, 2026-11-20): all sheets; printed 1–128 complete; sh
 seventeen). Three footnotes (p0074, p0082, p0102). Romanized words; no Japanese script except in the photographs.
 
 ## Decisions
+- No printed contents: entries "Nth Letter: place, date" (editor's, from each letter's heading; the fifteenth letter's Sunday = 15 July, inferred); Kamokura as printed.
+- Each letter's `#` heading moved from its first page to the plate leaf before it, so the photograph opens its letter (said in notes_on_text); plate pages normalized to heading, "(Photo. Enclosed in … Letter)", picture, caption.
+- Letter openings: full capitals after the drop capital (looked at p0019, p0091), all made alike.
+- Printer's error: "beautful" (p. 125). "Geisha" plain on p. 105 (a stray dot, not an accent; the word is plain elsewhere).
+- The verifier dropped the headings of letters 10 and 14 and the judge agreed (sure) on p0111: restored; `judge.py` now always reports a spot that touches a heading line (test).
+- keep_hyphens p0113 (twelve-year-old). Title-page ornament cropped (p0009-1, in `ornaments`).
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-20 | opus | p0008–p0168 (161) | 10.27 | no refusals |
+| corrections | 2026-11-20 | sonnet | 161 | 5.06 | 16 changes; 10 spots |
+| judge | 2026-11-20 | opus | 10 spots | 0.35 | draft 8, verifier 2; a dropped heading accepted by the judge (see Decisions) |
+| audit | 2026-11-20 | opus | 6 | 0.35 | 30/30; 2 candidates (the moved letter headings), not real |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |

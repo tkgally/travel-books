@@ -1,0 +1,6 @@
+{"given": "Nikko", "print": "SIXTEENTH LETTER Nikko", "sure": "medium"}
+{"given": "raining here since last thursday.", "print": "raining here since last Thursday.", "sure": "high"}
+{"given": "one of the most beantiful spots", "print": "one of the most beautiful spots", "sure": "high"}
+{"given": "and when if stopped I would", "print": "and when it stopped I would", "sure": "high"}
+{"given": "down through the village; stopping at", "print": "down through the village, stopping at", "sure": "high"}
+{"given": "It was novel see a father", "print": "It was novel to see a father", "sure": "high"}

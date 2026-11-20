@@ -1,0 +1,5 @@
+{"given": "We lived through it—and if was", "print": "We lived through it—and it was", "sure": "high"}
+{"given": "After the flag dance; the girls", "print": "After the flag dance, the girls", "sure": "high"}
+{"given": "end of the nail your little", "print": "end of the nail of your little", "sure": "high"}
+{"given": "I told the englishman about the", "print": "I told the Englishman about the", "sure": "high"}
+{"given": "But then I am workiug.", "print": "But then I am working.", "sure": "high"}

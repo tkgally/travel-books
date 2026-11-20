@@ -1,0 +1,5 @@
+{"given": "I enjoyed it hugcly and wished", "print": "I enjoyed it hugely and wished", "sure": "high"}
+{"given": "or carry babies or their shoulders", "print": "or carry babies on their shoulders", "sure": "high"}
+{"given": "They tell me that boy will", "print": "They tell me that a boy will", "sure": "high"}
+{"given": "tipped one youngster over today.", "print": "tipped one youngster over to-day.", "sure": "high"}
+{"given": "The man did not stop; but", "print": "The man did not stop, but", "sure": "high"}

@@ -365,6 +365,14 @@ class Corrections(unittest.TestCase):
         self.assertEqual(review.kind_of("so, then", "so; then"), "punctuation")
         self.assertEqual(review.kind_of("a <i>b</i>", "a b"), "markup")
 
+    def test_judge_heading_spot_always_reported(self):
+        s = {"n": 1, "find": "# Tenth Letter\n\n", "replace": "", "draft": "# Tenth Letter\n\n", "verified": ""}
+        self.assertTrue(judge.must_look("verified", "high", s))
+        plain = {"n": 2, "find": "THAT", "replace": "T<sc>hat</sc>", "draft": "THAT", "verified": "T<sc>hat</sc>"}
+        self.assertFalse(judge.must_look("verified", "high", plain))
+        self.assertTrue(judge.must_look("draft", "high", plain))
+        self.assertTrue(judge.must_look("verified", "medium", plain))
+
     def test_judge_apply(self):
         spots = [{"n": 1, "find": "we shew", "replace": "we show", "draft": "shew", "verified": "show"},
                  {"n": 2, "find": "so, then", "replace": "so; then", "draft": "so, t", "verified": "so; t"}]
