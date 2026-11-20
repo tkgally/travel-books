@@ -1,5 +1,0 @@
-{"given": "After the liquor is disposcd of", "print": "After the liquor is disposed of", "sure": "high"}
-{"given": "by filling the nose; ears, and", "print": "by filling the nose, ears, and", "sure": "high"}
-{"given": "he enters Paradize under a new", "print": "he enters Paradise under a new", "sure": "high"}
-{"given": "As this is so dismal subject", "print": "As this is so dismal a subject", "sure": "high"}
-{"given": "who seem to he the same", "print": "who seem to be the same", "sure": "high"}

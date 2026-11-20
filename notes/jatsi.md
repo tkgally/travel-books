@@ -88,6 +88,7 @@ Do each work once and say on the queue row which entries it covers.
 
 | Date | What |
 |---|---|
+| 2026-11-20 | *Japan: A Sailor’s Visit to the Island Empire* (Cook, 1891; n 83) published from the BYU scan: no Japanese script, romanized words without accents (one Ōtani). Next due: two other books, then JATSI. |
 | 2026-11-20 | Fourth JATSI book published: *A Jaunt in Japan* (n 142; Jackson, 1899), Cornell scan; errata slip applied; no Japanese script. Next due: two other books, then JATSI. |
 | 2026-11-20 | Third JATSI book published: *A Cruise in the U.S. Steam Frigate Mississippi* (n 14; Gragg, 1860), LoC scan with the cut last page from the UC (Google) scan. Romanized names as printed (Nangasaki, Simoda, Hakodadi, Jeddo, Kanagarva); no Japanese script. Next due: two other books, then JATSI. |
 | 2026-11-20 | Second JATSI book published: *On Short Leave to Japan* (n 98), from the UC scan (500 ppi; the Cornell scan JATSI links not needed). No Japanese script in the text (some on a signboard in one photograph). Next due: two other books, then JATSI. |

@@ -1,5 +1,0 @@
-{"given": "caused, if is said, by", "print": "caused, it is said, by", "sure": "high"}
-{"given": "and carried it his own place", "print": "and carried it to his own place", "sure": "high"}
-{"given": "Miidera,” until benkei, provoked by", "print": "Miidera,” until Benkei, provoked by", "sure": "high"}
-{"given": "a reasonable bell; and its chimes", "print": "a reasonable bell, and its chimes", "sure": "high"}
-{"given": "A few pennies will secnre the", "print": "A few pennies will secure the", "sure": "high"}

@@ -1,5 +1,0 @@
-{"given": "sand (called hibachi), or which they kept", "print": "sand (called hibachi), on which they kept", "sure": "high"}
-{"given": "with large Japanese charactcrs and figures", "print": "with large Japanese characters and figures", "sure": "high"}
-{"given": "as was also the regalia; which we", "print": "as was also the regalia, which we", "sure": "high"}
-{"given": "the smaller cup the greater honor", "print": "the smaller the cup the greater honor", "sure": "high"}
-{"given": "usher in the new constitution which would", "print": "usher in the new Constitution which would", "sure": "high"}

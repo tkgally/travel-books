@@ -1,6 +1,0 @@
-{"given": "Japanese friends, speeulating upon what", "print": "Japanese friends, speculating upon what", "sure": "high"}
-{"given": "We bad not long to", "print": "We had not long to", "sure": "high"}
-{"given": "was erected in evergreens huge torii", "print": "was erected in evergreens a huge torii", "sure": "high"}
-{"given": "“Long live the emperor,” and above", "print": "“Long live the Emperor,” and above", "sure": "high"}
-{"given": "by which to judge; after which", "print": "by which to judge, after which", "sure": "high"}
-{"given": "Chapter VIII.", "print": "CHAPTER VIII.", "sure": "low"}

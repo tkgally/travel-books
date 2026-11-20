@@ -1,5 +1,0 @@
-{"given": "to the ladies then all others", "print": "to the ladies than all others", "sure": "high"}
-{"given": "household lore, rules examples, useful knowledge", "print": "household lore, rules and examples, useful knowledge", "sure": "high"}
-{"given": "committed to mcmory by all", "print": "committed to memory by all", "sure": "high"}
-{"given": "in every respectable family; until it", "print": "in every respectable family, until it", "sure": "high"}
-{"given": "papers published in japan, almost", "print": "papers published in Japan, almost", "sure": "high"}
