@@ -159,28 +159,27 @@ an initial inspiration for Travel Books. His instructions:
 
 How this was carried out: `notes/jatsi.md`.
 
+## 2026-11-20 (answers on the JATSI questions, and on links)
+
+- **Links.** Wherever the project "Japan As They Saw It" is mentioned on the site, the name links to
+  <https://www.gally.net/jatsi/index.html>. **Every link to an outside page (IA and all others) opens in a new
+  tab or window; only links within the site stay in the same one.**
+- **The pace is as understood:** JATSI, other, other.
+- **JATSI books already on Project Gutenberg will be added eventually, digitized afresh by this project** (Gutenberg's
+  data is not used). They can have lower priority than the others.
+- **The non-narrative JATSI books also have lower priority.**
+- **Round-the-world books with a short Japan section are treated like any other book of this project:** if they meet
+  the project's criteria in other ways they are queued with normal priority (and marked as JATSI); if they do not
+  meet the general criteria, lower priority, still to be done eventually.
+- **The JATSI books are exempt from the 70-year rule** ("they should all be in the public domain in the US and Japan,
+  and I want to be able to add links to our new digitized versions from the JATSI Sources page sooner rather than later").
+- **The Thompson drawing is to be added to *Corona and Coronet*.** (So: a minor illustrator whose death date is not
+  found does not keep a drawing out.) **The Sheldon book is exempt too** (its two-page introductory letter by Anna
+  C. Hartshorne, d. 1957) and goes in the queue as appropriate.
+- **The pace of the regular sessions may be picked up**, depending on how many tokens the project uses and on the
+  models' efficiency in the months ahead: "I hope that the maturation of this project will not be 'years away'."
+  (So nothing in the notes should plan on the lower-priority JATSI books being far off.)
+
 ## Questions for Tom
 
-About the JATSI books (2026-11-20; each has an assumption that work goes on with meanwhile):
-
-- **The pace.** "One JATSI book per every three books added" is taken as one book in three (JATSI, other, other, …),
-  starting with the next new book. If it should be one after every three others, say so: it is one number
-  (`others_per_jatsi` in `data/queue.json`).
-- **JATSI books that already have a Project Gutenberg text** (44 of the 247: Bird, Hearn, Lowell's *Noto*, Mitford,
-  Scidmore, Parsons and others; `gutenberg` in `data/jatsi.json`). Assumed: they come last, after every JATSI book
-  that has no text elsewhere, and you will be asked again before the first is started. Or should they be left out?
-- **JATSI books that are not travel narratives** (about 100: histories, compilations, guidebooks, reference works,
-  Brinkley's twelve volumes). Assumed: after the narratives and the mixed books, which is years away at this pace;
-  asked again then.
-- **Round-the-world books with a chapter or two on Japan** (Carnegie, Dilke, Fogg and some thirty more). Assumed:
-  the whole book is transcribed, not only the Japan part, and they come after the books mostly about Japan.
-- **Rule 5 for JATSI books.** Assumed still required (author dead more than 70 years): Marie Stopes's *Journal from
-  Japan* waits until 2029, Franck's *Vagabond Journey* until 2033, Poe until 2035, Menpes's *Japan* (transcribed by
-  Dorothy Menpes, d. 1973) until 2044.
-
-Earlier:
-
-- **An illustration by a person whose death date is unknown** (*Corona and Coronet*, 2026-11-19): one plate is "from a
-  Drawing by Mr. Thompson", the expedition's young mechanician (born after 1856, death not found). Under rule 5 I left
-  that one drawing out of the editions (its caption and a note stay) and went on with the book. Is that right, or
-  should such a book wait, or is a minor illustrator's drawing acceptable?
+None open.
