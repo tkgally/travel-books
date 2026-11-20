@@ -1,0 +1,36 @@
+{
+ "id": "journey-through-the-caucasus-mounsey",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "A Journey through the Caucasus and the Interior of Persia",
+ "short_title": "A Journey through the Caucasus and the Interior of Persia",
+ "authors": [
+  {
+   "name": "Augustus H. Mounsey",
+   "sort": "Mounsey, Augustus H.",
+   "born": 1834,
+   "died": 1882
+  }
+ ],
+ "place": "London",
+ "publisher": "Smith, Elder & Co.",
+ "year": 1872,
+ "edition_statement": "First edition",
+ "source": {
+  "ia_identifier": "journeythroughca00moun",
+  "contributor": "University of Toronto",
+  "hidden_leaves": [0, 363]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  }
+ ],
+ "regions": ["Georgia", "Azerbaijan", "Russia", "Iran"],
+ "period": "",
+ "divisions": [],
+ "summary": [],
+ "notes_on_text": []
+}
