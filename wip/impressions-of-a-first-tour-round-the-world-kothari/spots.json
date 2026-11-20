@@ -1,0 +1,57 @@
+{
+ "p0011": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "# Contents.",
+   "replace": "# Contents",
+   "draft": "# Contents.",
+   "verified": "# Contents",
+   "context": "[[page ?]] ⏎  ⏎ # Contents. ⏎  ⏎ | | <sc>page</sc> | ⏎ |---|---| ⏎ | E<sc>urope</sc> | <pref>1<"
+  }
+ ],
+ "p0092": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "Austrians, The monument",
+   "replace": "Austrians. The monument",
+   "draft": "Austrians, The monumen",
+   "verified": "Austrians. The monumen",
+   "context": "ous intervals, the cannons captured from the French and the Austrians, The monument, it may be said, is not liked by the Germans, in consequenc"
+  }
+ ],
+ "p0198": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "cotton manufactories",
+   "replace": "cotton manufacturories",
+   "draft": "ton manufactories",
+   "verified": "ton manufacturories",
+   "context": "ry amusing. I afterwards visited the town, which is full of cotton manufactories. I was greatly pleased to see one of the largest warehouses"
+  }
+ ],
+ "p0250": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "entering the Hall,",
+   "replace": "entering the Hail,",
+   "draft": "ering the Hall,",
+   "verified": "ering the Hail,",
+   "context": "itol, one of the magnificent public edifices in America. On entering the Hall, I presented my card with the letter of General Grant, and M"
+  }
+ ],
+ "p0275": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "# Eastern Tour.",
+   "replace": "# Eastern Tour",
+   "draft": "Eastern Tour.",
+   "verified": "Eastern Tour",
+   "context": "[[page 263]] ⏎  ⏎ # Eastern Tour. ⏎  ⏎ I <sc>left</sc> San Francisco on the noon of <i>22nd Decem"
+  }
+ ]
+}

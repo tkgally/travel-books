@@ -1,0 +1,9 @@
+Comparing the draft with the page, I found two differences. The scan reads "Covent Garden" where the draft has "Covent Garden Theatre" unchanged, so that part is fine. The real differences are "Covent" and "Iolanthe".
+
+Rechecking the scan: it prints "Covent Garden Theatre" and "Iolanthe", and both match the draft. The one real difference is the italic run, which the scan shows as "6th of September," with the comma italic.
+
+{"find": "<i>6th of September,</i> 1883", "replace": "<i>6th of September,</i> 1883"}
+
+Strictly, that edit changes nothing, so the draft appears correct as written.
+
+NONE
