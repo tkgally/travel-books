@@ -1,0 +1,22 @@
+[[page vi]]
+
+| | <sc>facing page</sc> |
+|---|---|
+| T<sc>he</sc> D<sc>ragon’s</sc> M<sc>outh and</sc> M<sc>adame</sc> T<sc>etteron’s</sc> T<sc>ooth</sc> | <pref>52</pref> |
+| V<sc>illa near</sc> P<sc>ort-of-</sc>S<sc>pain</sc> | <pref>70</pref> |
+| T<sc>rinidad</sc> N<sc>egroes</sc> | <pref>74</pref> |
+| T<sc>he</sc> S<sc>weetmeat</sc> S<sc>eller</sc> | <pref>76</pref> |
+| I<sc>ndigenous</sc> C<sc>ricket</sc> | <pref>80</pref> |
+| Q<sc>ueen’s</sc> P<sc>ark</sc> | <pref>80</pref> |
+| A S<sc>treet in</sc> S<sc>an</sc> F<sc>ernando</sc> | <pref>84</pref> |
+| A M<sc>ud</sc> V<sc>olcano in the</sc> O<sc>il</sc> R<sc>egion</sc> | <pref>90</pref> |
+| T<sc>he</sc> A<sc>sphalt</sc> L<sc>ake</sc> | <pref>92</pref> |
+| C<sc>liffs near</sc> C<sc>edros</sc> P<sc>oint</sc> | <pref>124</pref> |
+| T<sc>he</sc> S<sc>erpent’s</sc> F<sc>angs</sc> | <pref>130</pref> |
+| A<sc>long the</sc> O<sc>rinoco</sc> | <pref>144</pref> |
+| A<sc>boriginal</sc> G<sc>uarano</sc> I<sc>ndians</sc> | <pref>148</pref> |
+| T<sc>he</sc> L<sc>aundry</sc> W<sc>omen of</sc> B<sc>arrancas</sc> | <pref>158</pref> |
+| M<sc>onkey</sc> S<sc>teaks</sc> | <pref>168</pref> |
+| S<sc>treet</sc> S<sc>cene in</sc> S<sc>an</sc> F<sc>elix</sc> | <pref>176</pref> |
+| C<sc>alle de</sc> O<sc>rinoco</sc>, C<sc>iudad</sc> B<sc>olivar</sc> | <pref>190</pref> |
+| A B<sc>elle of</sc> B<sc>olivar</sc> | <pref>206</pref> |
