@@ -1,0 +1,38 @@
+{
+ "id": "west-coast-of-africa-dyer",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "The West Coast of Africa as Seen from the Deck of a Man-of-War",
+ "short_title": "The West Coast of Africa",
+ "authors": [
+  {
+   "name": "Hugh McN. Dyer",
+   "sort": "Dyer, Hugh McN.",
+   "born": 1832,
+   "died": 1875
+  }
+ ],
+ "place": "London and Portsmouth",
+ "publisher": "J. Griffin & Co.",
+ "year": 1876,
+ "edition_statement": "First edition",
+ "source": {
+  "ia_identifier": "westcoastofafric00dyer",
+  "contributor": "Brandeis University",
+  "hidden_leaves": [0, 197, 198, 199, 200, 201]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  }
+ ],
+ "regions": [],
+ "period": "1871–73",
+ "frontispiece": "p0006-1",
+ "ornaments": ["p0015-1"],
+ "divisions": [],
+ "summary": [],
+ "notes_on_text": []
+}
