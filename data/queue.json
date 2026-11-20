@@ -664,10 +664,11 @@
    "place": "Boston and New York",
    "publisher": "Houghton Mifflin Company",
    "images": 388,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-20",
    "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv (his Russian Road to China is, #77082); The Online Books Page has nothing for this title; no Wikisource page; web search of a distinctive sentence found nothing. Reprints: only Kessinger (ISBN 9781104501358, print on demand); Open Library has only the 1912 Houghton and Methuen editions. Author 1883–1915 (LoC heading; died on the Lusitania). Frontispiece of Bolívar after a painting by Francis M. Drexel (1792–1863); one plate from an old engraving; the other photographs uncredited (presumably the author's). Not checked: Faded Page, WorldCat.",
-   "note": "Boston Public Library scan, 300 ppi. Map at end (folding? check). Chapter I (about 48 pp.) is a history of Columbus, Raleigh and the conquistadores; II–VII the author's own journey: Trinidad, the Pitch Lake, up the Orinoco by launch, Ciudad Bolívar at the independence centenary, the llanos. Much Spanish dialogue, mostly translated."
+   "note": "Boston Public Library scan, 300 ppi. Map at end (folding? check). Chapter I (about 48 pp.) is a history of Columbus, Raleigh and the conquistadores; II–VII the author's own journey: Trinidad, the Pitch Lake, up the Orinoco by launch, Ciudad Bolívar at the independence centenary, the llanos. Much Spanish dialogue, mostly translated.",
+   "started": "2026-11-20"
   },
   {
    "order": 38,
