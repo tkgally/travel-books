@@ -122,6 +122,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   title, the topics as a paragraph ending in `<pref>`), drop "PAGE" heads and dot leaders [*South by West*, 2026-11-19].
 - A page that starts flush left after a closed sentence is still a continuation (`joins` lists it): look at the indent.
 
+- A half-title printed above Chapter I on the same leaf: two `#` divisions at one `at`; `n` counts from 1, so the chapter is `"n": 2`. Without it the chapter's `toc_title` went to the half-title, which became a part with every chapter under it (*From West Africa to Palestine*, caught by the rendered look).
+
 ## Trigger: no printed contents, chapters without titles
 
 - Contents entries of the editor's: places and dates per chapter, proposed by a Sonnet subagent reading the draft text

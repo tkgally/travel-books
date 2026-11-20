@@ -1,5 +1,0 @@
-{"given": "and Calneh; in the land", "print": "and Calneh, in the land", "sure": "high"}
-{"given": "the city of rehoboth, and", "print": "the city of Rehoboth, and", "sure": "high"}
-{"given": "Nimrod’s kingdom was the land of", "print": "Nimrod’s kingdom was in the land of", "sure": "high"}
-{"given": "“sound a plain in the", "print": "“found a plain in the", "sure": "high"}
-{"given": "had not come in contaet with", "print": "had not come in contact with", "sure": "high"}

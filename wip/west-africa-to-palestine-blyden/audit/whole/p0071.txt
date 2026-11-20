@@ -1,5 +1,0 @@
-{"given": "“That is nor akiu to pain;”", "print": "“That is not akiu to pain;”", "sure": "high"}
-{"given": "persons subject such ennui who", "print": "persons subject to such ennui who", "sure": "high"}
-{"given": "these sorrowful and louely experiences", "print": "these sorrowful and lonely experiences", "sure": "high"}
-{"given": "on the contrary; when the", "print": "on the contrary, when the", "sure": "high"}
-{"given": "rather pleasant than otherwize—", "print": "rather pleasant than otherwise—", "sure": "high"}

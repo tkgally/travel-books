@@ -1,5 +1,0 @@
-{"given": "“were gathered togethcr into one place.”", "print": "“were gathered together into one place.”", "sure": "high"}
-{"given": "at three o’clock; the island", "print": "at three o’clock, the island", "sure": "high"}
-{"given": "the beautiful harbor of Valetta", "print": "the beautiful harbour of Valetta", "sure": "high"}
-{"given": "and, in short time after", "print": "and, in a short time after", "sure": "high"}
-{"given": "seems to he a bed", "print": "seems to be a bed", "sure": "high"}

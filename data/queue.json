@@ -865,11 +865,13 @@
    "place": "Freetown",
    "publisher": "T. J. Sawyer; Manchester: John Heywood; London: Simpkin, Marshall & Co.",
    "images": 216,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-20",
    "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv (full file); The Online Books Page: HathiTrust page images only; Wikisource API: 0 hits; web search of a preface sentence: no text (PDFs at uzh.ch and univie are copies of the IA scan). No reprint found (an unnamed print on demand only); Lynch's Black Spokesman (1971) is an anthology, not this book. Author Edward Wilmot Blyden 1832–1912 (LC authority, Online Books Page). No illustrations. Not checked: Open Library (unreachable), WorldCat. Re-checked 2026-11-20 (next session): web search found only scans (uzh.ch, univie, ATLA, NYPL Schomburg) and no reprint.",
    "note": "Princeton Theological Seminary scan, 500 ppi, clean OCR, no plates. A Liberian scholar's journal of his 1866 journey from Monrovia by Sierra Leone, Liverpool and London to Malta, Egypt, Lebanon and Jerusalem; the last chapter is on the religious sects of the Holy Land.",
-   "started": "2026-11-20"
+   "started": "2026-11-20",
+   "version": 1,
+   "published": "2026-11-20"
   },
   {
    "order": 50,

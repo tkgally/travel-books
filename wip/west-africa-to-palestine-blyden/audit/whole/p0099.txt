@@ -1,5 +1,0 @@
-{"given": "smoke offends: evcrybody takes it", "print": "smoke offends: everybody takes it", "sure": "high"}
-{"given": "that any man; however elevated", "print": "that any man, however elevated", "sure": "high"}
-{"given": "I wished thousand times during", "print": "I wished a thousand times during", "sure": "high"}
-{"given": "the Evangelical alliance in London", "print": "the Evangelical Alliance in London", "sure": "high"}
-{"given": "by whom and this associate,", "print": "by whom and his associate,", "sure": "high"}
