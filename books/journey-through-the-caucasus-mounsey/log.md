@@ -6,7 +6,7 @@ search of the title finds catalogue records, booksellers and the Kessinger print
 1834–1882. Taken up 2026-11-20.
 
 ## Status
-Published, version 1 (2026-11-20). Nothing pending.
+Published, version 2 (2026-11-20). Nothing pending.
 
 ## Page map
 Scan check 2026-11-20 (Opus subagent: all 10 sheets; full size the map, title, contents, pp. 1, 123, 181, 220, 321, 336): PASS.
@@ -59,6 +59,7 @@ sums in "l." italic. No non-Latin script, no side-notes.
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
 | 1 | 2026-11-20 | PASS — 0 to fix, 0 waived; to look at: hyphen-joins 5 (read) — tools@5aede16 | 30/30; 0 real errors / 6 pages | first publication; spot-read of 21 special pages; rendered look (Opus subagent): book page, preface, ch. I, VIII, XII, XVI, appendix at 390 and 1280, EPUB nav |
+| 2 | 2026-11-20 | PASS — 0 to fix, 0 waived; to look at: hyphen-joins 5 — tools@1653f9e | record copied (text unchanged) | summary: one straight apostrophe curled (new check site-text) |
 
 ## Known issues
 - Footnotes printed in two paragraphs (p0057, p0143–p0144) are one paragraph each: the page markup has no paragraph

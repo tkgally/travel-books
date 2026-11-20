@@ -23,21 +23,15 @@
             - hyphen join at p0323: …guages and lit-|eratures filter… (hyphen removed; check)
             - hyphen join at p0452: …he Imperial as-|toronomical hou… (hyphen removed; check)
             - (and 36 joins giving a word the book prints whole elsewhere: not listed)
-[ look (9)] joins: page joins: missing [[cont]], or [[cont]] after a closed sentence
+[ look (1)] joins: page joins: missing [[cont]]
             - p0010: no [[cont]] but the page before ends …'1898' and this one starts 'copyright, 1898, by mabel'
-            - p0052: [[cont]] after a closed sentence …'making her course safely.' | "Considering the Coronet's"
-            - p0091: [[cont]] after a closed sentence …'—and poems of much grace.' | 'Though without cheerful s'
-            - p0206: [[cont]] after a closed sentence …'whelm the beautiful land.' | 'Memories, too, of jinriki'
-            - p0220: [[cont]] after a closed sentence …'volcanoes bury provinces.' | 'Yet always energetic, hop'
-            - p0301: [[cont]] after a closed sentence …' enchantment of Miyajima.' | 'The Miyako-maru approache'
-            - p0312: [[cont]] after a closed sentence …'ted to encounter in camp.' | 'The prospect of being env'
-            - p0364: [[cont]] after a closed sentence …'stores of coronal wealth.' | 'Fastened upon one great c'
-            - p0372: [[cont]] after a closed sentence …'y continual conversation.' | 'Diagonally opposite was a'
 [       ok] folios: printed page numbers that break the sequence
 [       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
 [       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
 [ look (1)] contents: entries of the printed contents with no matching heading
             - p0017: 'Deep-Sea Yachting by A. C. James'
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: corona-and-coronet-todd v2 — 0 to fix, 2 waived; to look at: hyphen-joins 9, joins 9, contents 1 — tools@20307e9 2026-11-20
+preflight PASS: corona-and-coronet-todd v3 — 0 to fix, 2 waived; to look at: hyphen-joins 9, joins 1, contents 1 — tools@1653f9e 2026-11-20

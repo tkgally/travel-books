@@ -25,6 +25,7 @@
 [       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
 [       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
 [       ok] contents: entries of the printed contents with no matching heading
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: journey-through-the-caucasus-mounsey v1 — 0 to fix, 0 waived; to look at: hyphen-joins 5 — tools@5aede16 2026-11-20
+preflight PASS: journey-through-the-caucasus-mounsey v2 — 0 to fix, 0 waived; to look at: hyphen-joins 5 — tools@1653f9e 2026-11-20

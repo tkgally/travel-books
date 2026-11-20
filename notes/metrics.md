@@ -28,6 +28,9 @@
 | A Cruise in the U.S. Steam Frigate Mississippi v1 | 2026-11-20 | 76 | Opus draft (`--halves`) → Sonnet corrections → Opus judge | 3 | 2 / 1 / 0 | 0 | 11.08 | 0 | PASS, 0 waived | 30/30; 0 / 6 | |
 | A Journey through the Caucasus v1 | 2026-11-20 | 364 | Opus draft → Sonnet corrections → Opus judge; spot-read of 21 pages by an Opus subagent | 4 | 4 / 0 / 0 | 0 | 33.98 | 0 | PASS, 0 waived | 30/30; 0 / 6 (spot-read: 1 printer's error marked, 3 Italian elisions restored) | |
 | The West Coast of Africa v1 | 2026-11-20 | 202 | Opus draft → Sonnet corrections → Opus judge; spot-read of 17 pages by an Opus subagent | 14 | 11 / 2 / 0 (1 restored by hand) | 1 (p0166: judge took a printed stray point as text; marked as corr) | 18.97 | 0 | PASS, 0 waived | 30/30; 0 / 6 | |
+| Corona and Coronet v3 | 2026-11-20 | — | metadata only | 0 | — | 0 | 0 | 0 | PASS | record copied | subtitle: two straight apostrophes curled (new check site-text, review after fifteen books) |
+| Diary of the Rajah of Kolhapoor v5 | 2026-11-20 | — | metadata only | 0 | — | 0 | 0 | 0 | PASS | record copied | summary and omitted_from_reading: four straight apostrophes curled (new check site-text) |
+| A Journey through the Caucasus v2 | 2026-11-20 | — | metadata only | 0 | — | 0 | 0 | 0 | PASS | record copied | summary: one straight apostrophe curled (new check site-text) |
 
 ## Calibrations
 
@@ -58,3 +61,5 @@
 | 2026-11-20 | image-splits (new, observe) | review after ten books: *South by West* v1 had four paragraphs cut in two by an engraving mid-sentence (no `[[cont]]` after the caption; the compiler join of 2026-11-19 needs it). The check lists a lower-case paragraph after a picture whose paragraph before is unclosed; on the ten books: those 4, nothing else. Test `ImageSplits`. |
 | 2026-11-20 | image-splits (observe) | *Via Rhodesia*: 5 alarms, 5 real (paragraphs cut by a picture mid-sentence; `[[cont]]` added before publication). With the review's 4 in *South by West*: 9 alarms, 9 real. Candidate for enforce at the next review. |
 | 2026-11-20 | image-splits (observe) | *W.S.W.*: 1 alarm, real in kind (a stray line break inside a paragraph after a plate; joined). Running total 10 alarms, 10 real. |
+| 2026-11-20 | image-splits → enforce | review after fifteen books: 10 alarms in three books (*South by West* 4, *Via Rhodesia* 5, *W.S.W.* 1), 10 real; none in the other twelve. All fifteen books keep their verdict. Test `ImageSplits`. |
+| 2026-11-20 | site-text (new, observe) | *West Coast of Africa*: contents titles written by hand in book.json kept straight apostrophes (seen only in the rendered look). The check lists straight quotes in the book.json text the site shows (titles, summary, notes, contents entries). Sweep of fifteen books: 7 items in 3 books (*Corona and Coronet*, *Rajah*, *Journey through the Caucasus*), 7 real; fixed in new versions. Test `SiteText`. |

@@ -49,8 +49,9 @@ CHECKS = collections.OrderedDict([
     ("folios",          ("observe", "printed page numbers that break the sequence")),
     ("leaves",          ("enforce", "no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count")),
     ("quote-balance",   ("observe", "paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end")),
-    ("image-splits",    ("observe", "a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)")),
+    ("image-splits",    ("enforce", "a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)")),
     ("contents",        ("observe", "entries of the printed contents with no matching heading")),
+    ("site-text",       ("observe", "book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or \"")),
     ("images",          ("observe", "image files not used by any page")),
     ("source",          ("observe", "source.json: the Drive cache of the page images is recorded")),
 ])
@@ -518,6 +519,27 @@ def check_wellformed(out_dir, slug, epub_bytes, odt_bytes):
     return items
 
 
+def check_site_text(cfg):
+    """Straight quotes in the book.json text that the site and the editions show as it is written (the compiler
+    curls the quotes of the page files, not these): West Coast of Africa, 2026-11-20."""
+    items, fields = [], []
+    for k in ("title", "subtitle", "short_title", "summary", "notes_on_text", "omitted_from_reading", "edition_statement"):
+        v = cfg.get(k)
+        for x in (v if isinstance(v, list) else [v] if v else []):
+            fields.append((k, x))
+    for d in cfg.get("divisions", []):
+        for k in ("title", "toc_title"):
+            if d.get(k):
+                fields.append((f"divisions {d.get('at')} {k}", d[k]))
+    for e in cfg.get("toc_entries", []):
+        if e.get("title"):
+            fields.append((f"toc_entries {e.get('at')}", e["title"]))
+    for where, x in fields:
+        for m in re.finditer(r"['\"]", x if isinstance(x, str) else ""):
+            items.append(f"book.json {where}: …{x[max(0, m.start() - 30):m.end() + 20]}…")
+    return items
+
+
 def check_meta(cfg, bookdir):
     items = []
     need = ("id", "version", "date", "title", "authors", "place", "publisher", "year", "regions", "summary", "source", "history")
@@ -581,6 +603,7 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
         bdir = os.path.join(tmp, "books", slug)
         epub_path, odt_path = os.path.join(bdir, slug + ".epub"), os.path.join(bdir, slug + ".odt")
         res["meta"] = check_meta(cfg, bookdir)
+        res["site-text"] = check_site_text(cfg)
         res["markup"] = check_markup(pages)
         res["sc-caps"] = check_sc(pages)
         res["heading-caps"] = check_heading_caps(pages)
