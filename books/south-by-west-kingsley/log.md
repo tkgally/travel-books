@@ -78,6 +78,7 @@ Scan check: all 12 contact sheets looked at 2026-11-19; full size: p0025, p0116,
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
 | 1 | 2026-11-19 | PASS — 0 to fix, 2 waived; to look at: hyphen-joins 26, joins 9, contents 1 (all read) — tools@6b8af86 | 30/30 and 15/15 (fallback pages); 0 real errors / 9 pages | first publication; three pages by the OCR fallback |
+| 2 | 2026-11-20 | PASS — 0 to fix, 2 waived; to look at: hyphen-joins 2, contents 1 — tools@920c2e8 | as v1 (text unchanged except the fixes) | found at the review after ten books: four paragraphs cut in two by an engraving mid-sentence (p0079, p0102, p0118, p0226: no `[[cont]]` after the caption) joined; new preflight check `image-splits` lists such cases. Built page looked at (p0079 joined). |
 
 ## Known issues
 - Waivers: quote-balance p0124 (as printed), spacing p0170 (a ditto mark). The `contents` look item on p0021 is the

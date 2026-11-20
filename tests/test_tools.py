@@ -282,8 +282,9 @@ class Sample(unittest.TestCase):
         _, _, res = preflight.run(d, skip_epubcheck=True, skip_odt=True)
         self.assertTrue(res["compile"])
 
-    def test_join_check_sees_wrong_cont(self):
-        res = self.planted("p0004", "for an hour, while", "for an hour.")
+    def test_join_check_sees_missing_cont(self):
+        # (until the review of 2026-11-20 this planted "[[cont]] after a closed sentence"; that half was dropped)
+        res = self.planted("p0005", "[[cont]] The road", "the road")
         self.assertTrue(res["joins"])
 
     def test_waiver(self):
@@ -1114,6 +1115,46 @@ class Leaves(unittest.TestCase):
 
     def test_enforced(self):
         self.assertEqual(preflight.CHECKS["leaves"][0], "enforce")
+
+
+class Joins(unittest.TestCase):
+    """Review 2026-11-20 (ten books): the "[[cont]] after a closed sentence" half gave 65 alarms, 0 real (pages that
+    start flush left go on with the paragraph), so it was dropped; the "missing [[cont]]" half found real ones."""
+
+    def test_cont_after_closed_sentence_not_listed(self):
+        pages = [("p0010", "He went home."), ("p0011", "[[cont]] The next day it rained.")]
+        self.assertEqual(preflight.check_joins(pages), [])
+
+    def test_missing_cont_still_listed(self):
+        pages = [("p0010", "He went home and"), ("p0011", "slept till noon.")]
+        self.assertEqual(len(preflight.check_joins(pages)), 1)
+        pages = [("p0010", "a hyphen-"), ("p0011", "ated word.")]
+        self.assertEqual(len(preflight.check_joins(pages)), 1)
+
+
+class ImageSplits(unittest.TestCase):
+    """Review 2026-11-20: four paragraphs of *South by West* v1 were split in two by an engraving in mid-sentence (no
+    `[[cont]]` after the caption); the compiler cannot know, so preflight lists them."""
+
+    def book(self, *blocks):
+        return {"divisions": [{"reading": True, "blocks": [dict(b, leaf="p0001") for b in blocks]}]}
+
+    def test_split_listed(self):
+        b = self.book({"type": "paragraph", "text": "four cups, but no"}, {"type": "image", "src": "x"},
+                      {"type": "paragraph", "text": "saucers; and we"})
+        self.assertEqual(len(preflight.check_image_splits(b)), 1)
+
+    def test_closed_or_capital_or_verse_not_listed(self):
+        b = self.book({"type": "paragraph", "text": "He went home."}, {"type": "image", "src": "x"},
+                      {"type": "paragraph", "text": "and then"},
+                      {"type": "paragraph", "text": "the song goes"}, {"type": "verse", "lines": []},
+                      {"type": "paragraph", "text": "and so on"},
+                      {"type": "paragraph", "text": "so far as"}, {"type": "image", "src": "x"},
+                      {"type": "paragraph", "text": "The next day"})
+        self.assertEqual(preflight.check_image_splits(b), [])
+
+    def test_observe(self):
+        self.assertEqual(preflight.CHECKS["image-splits"][0], "observe")
 
 
 class Contents(unittest.TestCase):

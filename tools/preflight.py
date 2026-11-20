@@ -45,10 +45,11 @@ CHECKS = collections.OrderedDict([
     ("odt",             ("enforce", "LibreOffice opens the ODT and converts it to PDF")),
     ("audit",           ("enforce", "book.json records the sampled audit of this version")),
     ("hyphen-joins",    ("observe", "page-break hyphen joins (hyphen removed) that the book does not settle: read the list once")),
-    ("joins",           ("observe", "page joins: missing [[cont]], or [[cont]] after a closed sentence")),
+    ("joins",           ("observe", "page joins: missing [[cont]]")),
     ("folios",          ("observe", "printed page numbers that break the sequence")),
     ("leaves",          ("enforce", "no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count")),
     ("quote-balance",   ("observe", "paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end")),
+    ("image-splits",    ("observe", "a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)")),
     ("contents",        ("observe", "entries of the printed contents with no matching heading")),
     ("images",          ("observe", "image files not used by any page")),
     ("source",          ("observe", "source.json: the Drive cache of the page images is recorded")),
@@ -356,10 +357,9 @@ def check_joins(pages):
         pb = re.sub(r"<[^>]+>|\[\[[^\]]*\]\]", "", b).strip()
         cont = b.startswith("[[cont]]")
         closed = bool(re.search(r"[.?!][”’\")\]]*$", pa))
+        # "[[cont]] after a closed sentence" was dropped at the review of 2026-11-20: 65 alarms in ten books, 0 real.
         if not cont and (pa.endswith("-") or (not closed and pb[:1].islower())):
             items.append(f"{l1}: no [[cont]] but the page before ends …{pa[-25:]!r} and this one starts {pb[:25]!r}")
-        elif cont and closed and pb[:1].isupper() and not pa.endswith(("Mr.", "Mrs.", "Dr.", "St.")):
-            items.append(f"{l1}: [[cont]] after a closed sentence …{pa[-25:]!r} | {pb[:25]!r}")
     return items
 
 
@@ -414,6 +414,26 @@ def check_quote_balance(book):
                 items.append(f"{b['leaf']}: closing ” with no opening “: {t[:60]!r}")
             elif depth > 1:
                 items.append(f"{b['leaf']}: {depth} quotations left open: {t[:60]!r}")
+    return items
+
+
+def check_image_splits(book):
+    """Review 2026-11-20 (*South by West* v1: four paragraphs split mid-sentence by an engraving)."""
+    items = []
+    for d in book["divisions"]:
+        if not d.get("reading"):
+            continue
+        last, pic = None, False   # the last paragraph; whether only pictures have stood since it
+        for b in d["blocks"]:
+            if b["type"] == "paragraph":
+                t = inline.plain(b["text"]).strip()
+                if pic and last is not None and t[:1].islower() and not re.search(r"[.?!:;—][”’\")\]]*$", last):
+                    items.append(f"{b['leaf']}: …{last[-25:]!r} | picture | {t[:25]!r}")
+                last, pic = t, False
+            elif b["type"] == "image":
+                pic = True
+            else:
+                last, pic = None, False
     return items
 
 
@@ -606,6 +626,7 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
             res[k] = base or res[k]
         res["spacing"] = spacing_items(book)
         res["quote-balance"] = check_quote_balance(book)
+        res["image-splits"] = check_image_splits(book)
         res["contents"] = check_contents(book)
         res["links"] = check_links(tmp, slug, epub_path)
         res["wellformed"] = check_wellformed(tmp, slug, epub_path, odt_path)

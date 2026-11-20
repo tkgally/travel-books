@@ -9,3 +9,4 @@ of a book in context can be read off. Tom sets the interval of the routine from 
 
 | Start | End | Hours | Context at the close | Sum. | Model | Work (context share after each piece) | Cost, API-equivalent |
 |---|---|---|---|---|---|---|---|
+| 2026-11-20 06:57 | | | | | Opus 5.5 | (in progress) review after the tenth book | |
