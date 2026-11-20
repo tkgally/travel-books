@@ -64,7 +64,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   are joined; `tools/running_quotes.py` after the judge, its list looked at (*Embassy*, 2026-11-20). Only for a book
   that prints the convention: on *South by West* (1875) it lists 6 real opening marks that follow a quotation left
   unclosed earlier in the paragraph (p0091, p0092, p0107, p0290, p0347, p0406: printed so or a dropped ”? — to look at
-  in the next review).
+  in the next review). Also at the next review: do the published books have quotations of several paragraphs with a
+  closing mark at each inner paragraph (Tom 2026-11-20: modern practice, `style.md`)?
 - Scans of old multi-volume sets: the scan check found a missing first page of text and a missing frontispiece
   (UC copy) that IA's own page numbers did not show; another library's scan supplied them page by page.
 

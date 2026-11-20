@@ -19,10 +19,15 @@ change at the foot, and see `workflow.md` §"New version" for when earlier books
   one of `to-day`, `to-morrow`, `to-night` and the like in a book of that period; otherwise joined).
 - Quotation marks curly, as printed (single or double as the book has them). A quotation opened and never
   closed in print is left so unless it is plainly a slip (then `[[corr]]`).
-- **Running quotation marks** (assumed 2026-11-20, put to Tom): older books repeat the opening mark “ at the start
-  of every printed line of a quotation. Like line-end hyphens, the repeats belong to the printed line, not to the
-  words: the quotation keeps its opening and closing marks, the repeats are left out
-  (`tools/running_quotes.py`, which lists each one; the list is kept in the book's directory).
+- **Quotation marks across lines and paragraphs follow modern practice** (Tom, 2026-11-20):
+  - an opening mark repeated at the start of every printed line of a quotation (common before about 1800) is left
+    out; the quotation keeps its own opening and closing marks (`tools/running_quotes.py`, which lists each one;
+    the list is kept in the book's directory);
+  - a quotation of several paragraphs marked by quotation marks (not set off by indenting or a smaller type) has an
+    opening mark at the start of each paragraph and a closing mark only at the end of the whole quotation: a
+    closing mark the print puts at the end of an inner paragraph is left out, and a missing opening mark at the start
+    of an inner paragraph is supplied. These are changes of convention, not corrections: no `[[corr]]`; say in
+    `notes_on_text` that the book's quotation marks follow modern practice.
 - Long s → s; ligatures fi, fl as letters; æ, œ kept. Greek and other scripts in the script. Illegible → `〓`
   (never published: resolve from another scan, or note it in `notes_on_text` and waive).
 - Italics and small capitals as printed.

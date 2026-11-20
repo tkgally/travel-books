@@ -25,7 +25,7 @@ No transcription is free of errors. If you find one, please [report it on GitHub
 ## The text
 
 - The author's words, spelling, capital letters and punctuation are kept as printed, including old and inconsistent spellings.
-- Spaces around punctuation follow modern practice.
+- Spaces around punctuation follow modern practice. So do quotation marks that run over several lines or paragraphs: where older books repeat the opening mark at the start of every line of a quotation, only the opening and closing marks are kept, and a quotation of several paragraphs has an opening mark at each paragraph and a closing mark at the end.
 - Words divided at the ends of lines are joined.
 - Clear printer's errors are corrected. Each correction is listed on the book's page and recorded in the JSON with the printed reading.
 - Headings printed in capitals are given in upper and lower case.

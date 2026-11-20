@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Running quotation marks: older books (here, 1797) repeat the opening mark “ at the start of every printed line
 of a quotation. Joined into paragraphs, the repeats stand inside the text ('the “bar', 'ab“sence'). The text
-policy (notes/style.md §"Running quotation marks", 2026-11-20) keeps the opening and closing marks of the quotation
+policy (notes/style.md, quotation marks follow modern practice: Tom, 2026-11-20) keeps the opening and closing marks of the quotation
 and leaves out the repeats, as line-end hyphens are left out.
 
   running_quotes.py PAGES_DIR            list the repeats found (page, context)
