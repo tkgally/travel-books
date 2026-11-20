@@ -235,6 +235,9 @@ How this was carried out: `RESUME.md` §"How long a session runs", `tools/sessio
   Saw It" becomes "**JATSI**" (still linked to his project) and "(about these books)" becomes "(**about**)" (still
   linked to this site's page).
 
+- **On `japan-as-they-saw-it.html` the book descriptions have neither link** ("JATSI", "(about)"): they are
+  redundant on that page (same day).
+
 ## Questions for Tom
 
 None open.

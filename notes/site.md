@@ -47,7 +47,7 @@ the home page heavy and the lists harder to scan).
 
 The reader is told in three places, in plain words: the second paragraph of the home page; the label
 "JATSI (about)" on each such book and queue row (Tom shortened it on 2026-11-20 from "from Japan As They Saw It
-(about these books)"; `jatsi_label()`); and the row "Why it is here" in
+(about these books)"; `jatsi_label()`; not on `japan-as-they-saw-it.html` itself, where he found it redundant); and the row "Why it is here" in
 the table on the book's own page. Wherever the name stands in running text or a label it links to Tom's project
 (<https://www.gally.net/jatsi/index.html>; `jatsi_name()` in the builder, a Markdown link in `site/*.md`), and
 "about these books" links to the page on this site.
