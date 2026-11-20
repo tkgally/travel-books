@@ -58,6 +58,13 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - A folding map shot in two halves: crop each half; try joining them only if the shots overlap (they did not in
   *Corona and Coronet*: a strip at the fold was missing, said in `notes_on_text`).
 
+## Trigger: eighteenth-century printing
+
+- Quotations with “ repeated at every line start: models keep the repeats, which then stand mid-sentence once lines
+  are joined; `tools/running_quotes.py` after the judge, its list looked at (*Embassy*, 2026-11-20).
+- Scans of old multi-volume sets: the scan check found a missing first page of text and a missing frontispiece
+  (UC copy) that IA's own page numbers did not show; another library's scan supplied them page by page.
+
 ## Trigger: drop capitals at chapter openings
 
 - Drafts type the capitals after a drop capital as small capitals (`T<sc>he</sc>`) on some chapters and as capitals

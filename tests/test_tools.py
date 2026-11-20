@@ -8,7 +8,7 @@ import copy, json, os, re, shutil, subprocess, sys, tempfile, unittest, zipfile
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, "tools"))
-import build_site, compile_book, corrections, crop_image, drive_cache, inline, judge, normalize, preflight, render_epub, render_odt, review  # noqa: E402
+import build_site, compile_book, running_quotes, corrections, crop_image, drive_cache, inline, judge, normalize, preflight, render_epub, render_odt, review  # noqa: E402
 import render_html as rh  # noqa: E402
 
 SAMPLE = os.path.join(REPO, "tests", "sample")
@@ -650,6 +650,24 @@ class Volumes(unittest.TestCase):
         self.assertEqual([x for x, _ in out], ["p1466", "p1469", "p1470", "p1467", "p1468", "p1471"])
         with self.assertRaises(ValueError):
             compile_book.apply_leaf_order(pages, [["p1469", "p9999"]])
+
+
+class RunningQuotes(unittest.TestCase):
+    """Opening marks repeated at each printed line of a quotation (1797 printing, 2026-11-20)."""
+
+    def test_repeats_removed_and_carried_over_the_page(self):
+        pages = [("p0001", '[[page 1]]\nHe wrote, “that the “bar was “crossed,” and that ‘one’ called it “a little damp.”\n\n“In the ab“sence of wind'),
+                 ("p0002", "[[page 2]]\n[[cont]][[side: Rio.]] “we lay still.”\n\n“A new paragraph.”")]
+        out, ch = running_quotes.process(pages)
+        self.assertEqual(out[0][1].split("\n")[1], "He wrote, “that the bar was crossed,” and that ‘one’ called it “a little damp.”")
+        self.assertEqual(out[0][1].split("\n")[3], "“In the absence of wind")
+        self.assertEqual(out[1][1], "[[page 2]]\n[[cont]][[side: Rio.]] we lay still.”\n\n“A new paragraph.”")
+        self.assertEqual(len(ch), 4)
+
+    def test_notes_and_new_paragraphs_untouched(self):
+        pages = [("p0001", "[[page 1]]\n“Open quote\n\n[[fn *]] “A note “with marks.")]
+        out, ch = running_quotes.process(pages)
+        self.assertEqual((out, ch), (pages, []))
 
 
 class Fallback(unittest.TestCase):

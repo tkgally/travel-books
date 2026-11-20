@@ -1,0 +1,11 @@
+{"n": 1, "is": "A", "print": "in-china.]] “them.", "sure": "high"}
+{"n": 2, "is": "A", "print": "the “bar.", "sure": "high"}
+{"n": 3, "is": "A", "print": "the “vessel", "sure": "high"}
+{"n": 4, "is": "B", "print": "brisk “fire", "sure": "high"}
+{"n": 5, "is": "A", "print": "their “guns.”", "sure": "high"}
+{"n": 6, "is": "A", "print": "well “in towards", "sure": "high"}
+{"n": 7, "is": "B", "print": "shore “of the islan", "sure": "high"}
+{"n": 8, "is": "B", "print": "enough to “perceive", "sure": "high"}
+{"n": 9, "is": "A", "print": "to the “southern", "sure": "high"}
+{"n": 10, "is": "A", "print": "endicularly “out of", "sure": "high"}
+{"n": 11, "is": "B", "print": "in such “a manner", "sure": "high"}

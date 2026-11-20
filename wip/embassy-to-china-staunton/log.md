@@ -8,10 +8,10 @@ Macartney 1737–1806, Gower 1742–1814, William Alexander 1767–1816). The bo
 included as an exception (queue note).
 
 ## Status
-Stage reached (2026-11-20, session 1): tools ready; scan checked; Drive cache complete (99 parts, all with ids;
-fetch tested); illustrations cropped (83 files); **Opus draft of vols. I and II done (1,210 pages, 0 errors,
-0 refusals)**; draft of the three Getty leaves and the plates volume (p3003–p3110, `--halves`) and the Sonnet
-corrections pass of vols. I–II started at the end of session 1 (see Runs for what finished).
+Stage reached (end of session 1, 2026-11-20): **draft (Opus), corrections (Sonnet), judge (Opus) done on all 1,321
+leaves**; `pages/` made from `judge/`; running quotation marks taken out of `pages/` (`running_quotes.py --apply`:
+248 on 67 pages, listed in `running-quotes.txt`). Drive cache complete; illustrations cropped. Nothing half-finished.
+**Next: step 3 below (scan checks), then structure.** Steps 1–2 are done.
 Next steps (exact commands; `$B` = scratchpad dir with page images: `python3 tools/drive_cache.py fetch
 wip/embassy-to-china-staunton/source.json $B/pages`):
 1. Finish any draft pages missing (resumable; skips done pages):
@@ -22,7 +22,9 @@ wip/embassy-to-china-staunton/source.json $B/pages`):
    prompts/verify.md --images $B/pages --out $W/verify --corrections --context-text $W/draft --workers 8`
    (with no `--pages` it takes every image; the hidden leaves and covers have no draft — check that it skips them,
    or pass the list: vol. I/II leaves in `draft/`), then normalize, `review.py`, `judge.py` (workflow §3).
-3. Scan checks: judge report; the singleton side-note variants (p1268, p1467, p2073, p2128, p2161, p2215,
+3. Scan checks: `judge/report.txt` (56 spots, on crops; above all the side-note placements the judge moved, page
+   numbers on the plates, p1322 "but"/"butt", p2095 "Col-lao"); the 7 corrections not applied in `review.py`'s list
+   (p1316, p1410, p1512, p2009, p2029a, p2054, p2593); a sample of `running-quotes.txt` on crops; the singleton side-note variants (p1268, p1467, p2073, p2128, p2161, p2215,
    p2380, p2447, p2478, p2510: printed so, or misread?); tables (p1330, p1500, p2649–p2660, the plant lists).
 4. Structure: two volumes as parts (`# Volume I` …), contents, divisions (front matter, lists of plates,
    appendix), placement of the folio plates (decide: a part of its own after vol. II, each plate with its
@@ -78,6 +80,9 @@ Macartney, "e of" before "the Hindostan"); say so in `notes_on_text`. p3056 (wea
 cannot be separated). Say in `notes_on_text` which pictures come from the Getty copy.
 
 ## Decisions
+- Running quotation marks (the printer repeats “ at the start of every line of a quotation): left out, the
+  quotation's own opening and closing marks kept (`style.md`, assumed; question for Tom in `preferences.md`). Found by
+  the judge (p1410: the draft kept ten repeats, Sonnet dropped them, the judge sided with the draft).
 - Side-notes: the book prints a marginal title beside the first line of most pages (repeated from page to page
   while the topic lasts), with a rule under it. Transcribed as `[[side: …]]` before the first word of the line it
   stands beside; the rule is not transcribed. In the JSON; left out of the editions (Tom).
@@ -89,6 +94,9 @@ cannot be separated). Say in `notes_on_text` which pictures come from the Getty 
 |---|---|---|---|---|---|
 | Sample (draft + Sonnet) | 2026-11-20 | Opus / Sonnet | 12 | 0.90 + 0.44 | side-notes and old spellings right; Sonnet proposed no change |
 | Draft vols. I–II | 2026-11-20 | Opus | 1,210 (incl. the sample) | 82.33 | 0 errors, 0 refusals |
+| Draft plates vol. (`--halves`) + Getty leaves | 2026-11-20 | Opus | 108 + 3 | 10.27 | 0 errors |
+| Corrections | 2026-11-20 | Sonnet | 1,321 | 43.32 | 131 changes (36 punctuation, 61 markup, 34 words); 7 not applied |
+| Judge | 2026-11-20 | Opus | 70 spots on 54 pages | 2.48 | verified 44, draft 26; 56 to look at on the scan |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
