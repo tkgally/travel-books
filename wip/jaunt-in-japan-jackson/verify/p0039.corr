@@ -1,0 +1,6 @@
+{"find": "Katherine wheels", "replace": "Katherine wheels"}
+{"find": "Sloppy attendants", "replace": "Sloppy attendants"}
+
+Wait, those are no-ops. The page reads "Katherine" correctly. Corrected list:
+
+{"find": "arranging the actors’ dress", "replace": "arranging the actors’ dress"}

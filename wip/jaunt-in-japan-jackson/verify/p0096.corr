@@ -1,0 +1,6 @@
+{"find": "chaffing the Moosmes", "replace": "chaffing the Moosmes"}
+{"find": "the Moosmes, smoking, and", "replace": "the Moosmes, smoking, and"}
+
+Hmm, those are identical; the draft has "chaffing", and the page shows "chaffing". The one real difference is the following.
+
+{"find": "a bad cold;", "replace": "a bad cold ;"}

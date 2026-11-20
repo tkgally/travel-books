@@ -1,0 +1,10 @@
+[[page ?]]
+
+# Errata.
+
+| Page | 32 | line | 27 | <i>for</i> | “scenes” <i>read</i> “scene.” |
+| „ | 75 | „ | 16 | „ | “The corpse” <i>read</i> “Each corpse.” |
+| „ | 112 | „ | 15 | „ | “cost” <i>read</i> costs. |
+| „ | 125 | „ | 15 | „ | “The sacophagus” <i>read</i> “The sarcophagus.” |
+| „ | 126 | „ | 24 | „ | “have produced” <i>read</i> “has produced.” |
+| „ | 127 | „ | 7 | „ | “faith in the new” <i>read</i> “faith to the new.” |
