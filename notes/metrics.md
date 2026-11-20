@@ -24,6 +24,7 @@
 | South by West v2 | 2026-11-20 | 454 | (no new model calls) | – | – | – | 0 | 0 | PASS, 2 waived | as v1 | four paragraphs split by an engraving mid-sentence (found at the review) |
 | Journal of a Residence in Great Britain v2 | 2026-11-20 | 529 drafted of 538 | (no new model calls) | – | – | – | 0 | 0 | PASS, 8 waived | as v1 | two page-top running quotation marks kept in v1 (found at the review) |
 | Via Rhodesia v1 | 2026-11-20 | 450 drafted of 464 | Opus draft → Sonnet corrections → Opus judge; 2 pages by the OCR fallback (tesseract + Opus); 148 crops by three Opus subagents | 123 | 25+2 / 96 / 0 (most verifier wins: paragraphs rejoined round pictures) | 1 (p0124 "483." a broken comma) | 47.13 | 0 | PASS, 5 waived | 30/30 + 10/10 on the fallback pages; 0 / 8 | |
+| W.S.W. v1 | 2026-11-20 | 168 | Opus draft → Sonnet corrections → Opus judge; 14 plates cropped by an Opus subagent | 2 | 1 / 1 / 0 | 0 | 15.96 | 0 | PASS, 24 waived (ditto marks, 2 pages) | 30/30 + 10/10; 0 / 8 | |
 
 ## Calibrations
 
@@ -53,3 +54,4 @@
 | 2026-11-20 | joins (observe) | review after ten books: the "[[cont]] after a closed sentence" half dropped (65 alarms, 0 real); the "missing [[cont]]" half kept (2 real so far). Test `Joins`; the planted-error test in `Sample` now plants a missing `[[cont]]`. All ten books: verdicts unchanged. |
 | 2026-11-20 | image-splits (new, observe) | review after ten books: *South by West* v1 had four paragraphs cut in two by an engraving mid-sentence (no `[[cont]]` after the caption; the compiler join of 2026-11-19 needs it). The check lists a lower-case paragraph after a picture whose paragraph before is unclosed; on the ten books: those 4, nothing else. Test `ImageSplits`. |
 | 2026-11-20 | image-splits (observe) | *Via Rhodesia*: 5 alarms, 5 real (paragraphs cut by a picture mid-sentence; `[[cont]]` added before publication). With the review's 4 in *South by West*: 9 alarms, 9 real. Candidate for enforce at the next review. |
+| 2026-11-20 | image-splits (observe) | *W.S.W.*: 1 alarm, real in kind (a stray line break inside a paragraph after a plate; joined). Running total 10 alarms, 10 real. |

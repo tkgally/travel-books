@@ -107,6 +107,9 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Trigger: footnotes
 
+- A table inside a footnote (a ship's log) ends the page as a body block, so the next page's `[[cont]]` has nothing to
+  continue: set the table as one line of the note, entries separated by semicolons, and say so (*W.S.W.*, 2026-11-20).
+
 - A note continued over the page arrives as a note with a new mark and no reference: make it `[[fn cont]]`.
 - A signature under a note goes inside the note.
 - Two marks in the text for one printed note: the second is `[[fnref * again]]` (the compiler warns "has no note" otherwise).

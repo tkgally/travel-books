@@ -1,0 +1,102 @@
+{
+ "id": "wsw-voyage-to-the-west-indies-elwes",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "W.S.W.",
+ "subtitle": "A Voyage in That Direction to the West Indies",
+ "short_title": "W.S.W.",
+ "authors": [
+  {
+   "name": "Robert Elwes",
+   "sort": "Elwes, Robert",
+   "born": 1819,
+   "died": 1878
+  }
+ ],
+ "place": "London",
+ "publisher": "Kerby & Son",
+ "year": 1866,
+ "edition_statement": "First edition",
+ "source": {
+  "ia_identifier": "wswvoyageinthatd00elwe",
+  "contributor": "The Library of Congress",
+  "hidden_leaves": [
+   0,
+   183
+  ]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  }
+ ],
+ "regions": [
+  "US Virgin Islands",
+  "Panama",
+  "Jamaica",
+  "Saint Kitts and Nevis",
+  "Grenada",
+  "Trinidad and Tobago"
+ ],
+ "period": "1865",
+ "frontispiece": "p0008-1",
+ "divisions": [
+  {
+   "at": "p0008",
+   "kind": "front"
+  },
+  {
+   "at": "p0009",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0011",
+   "kind": "preface"
+  },
+  {
+   "at": "p0013",
+   "kind": "illustrations"
+  }
+ ],
+ "toc": {
+  "subtitles": "all"
+ },
+ "summary": [
+  "Robert Elwes (1819–1878), a Norfolk landowner and amateur painter who had already published A Sketcher’s Tour round the World, sailed from Southampton with his wife in January 1865 on a Royal Mail steamer and spent three and a half months in the West Indies and at Panama. This is his account of the journey, illustrated with fourteen lithographs from his own drawings.",
+  "From St. Thomas they crossed to Colon (Aspinwall) and by the railway to Panama, where they saw the ruins of the old city. They then spent some weeks in Jamaica, staying with Governor Eyre at Flamstead, his house in the Port Royal mountains, a few months before the Morant Bay rising, and went by the islands of St. Kitts, Antigua, Guadeloupe, Dominica, Martinique, St. Vincent and Grenada to Trinidad, where they stayed sixteen days. He writes about the scenery he sketched, plants, hotels, ships and fellow passengers. Some of his remarks on the black population, and a footnote in support of Eyre’s suppression of the rising, use the language and views of his time."
+ ],
+ "omitted_from_reading": "The title page and the list of illustrations are in the JSON only.",
+ "notes_on_text": [
+  "Transcribed from the copy at the Library of Congress (Internet Archive: wswvoyageinthatd00elwe).",
+  "The book has no table of contents; the contents of this edition give each chapter’s printed summary.",
+  "The plate of Panama (facing page 39) has no caption on the plate; the List of Illustrations calls it “Panama”.",
+  "The book title printed above Chapter I is left out (it repeats the title page).",
+  "The two footnotes giving the ship’s log (pages 3 and 135) are printed as small tables; here each is one line, the days in order, separated by semicolons."
+ ],
+ "keep_hyphens": [
+  "p0122"
+ ],
+ "waivers": [
+  {
+   "check": "spacing",
+   "match": "p0017",
+   "why": "the ship's log in the footnote: ditto marks (”) under the month, not quotation marks (checked on the scan)"
+  },
+  {
+   "check": "spacing",
+   "match": "p0175",
+   "why": "the ship's log in the footnote: ditto marks (”) under the month, not quotation marks (checked on the scan)"
+  }
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-20",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0,
+  "note": "pages p0055, p0061, p0068, p0077, p0132, p0171; 1 other difference (heading capitals, by the style rule), not an error; a second audit of the footnote-log and verse pages p0017, p0142: 10/10, 0 other differences"
+ }
+}
