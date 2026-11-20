@@ -1,0 +1,5 @@
+{"given": "for I bad scarcely reached", "print": "for I had scarcely reached", "sure": "high"}
+{"given": "just after shower, and before", "print": "just after a shower, and before", "sure": "high"}
+{"given": "relieve him tonight. The fatigue", "print": "relieve him to-night. The fatigue", "sure": "medium"}
+{"given": "which, of course; was totally", "print": "which, of course, was totally", "sure": "high"}
+{"given": "which seems rathcr an absurd", "print": "which seems rather an absurd", "sure": "high"}

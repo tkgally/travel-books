@@ -1,0 +1,6 @@
+{"given": "let go the anehor off Taranaki", "print": "let go the anchor off Taranaki", "sure": "high"}
+{"given": "There is no harbor nor any", "print": "There is no harbour nor any", "sure": "high"}
+{"given": "between the “Airdale” and brig lying", "print": "between the “Airdale” and a brig lying", "sure": "high"}
+{"given": "All the other boats; it was stated", "print": "All the other boats, it was stated", "sure": "high"}
+{"given": "the place went in his boat,", "print": "the place went in this boat,", "sure": "high"}
+{"given": "Chapter IV.", "print": "CHAPTER IV.", "sure": "low"}

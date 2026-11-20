@@ -1,0 +1,4 @@
+{"given": "for the convenience going down into", "print": "for the convenience of going down into", "sure": "high"}
+{"given": "stately, dignisied-looking beings, who", "print": "stately, dignified-looking beings, who", "sure": "high"}
+{"given": "All kinds of indian and Chinese", "print": "All kinds of Indian and Chinese", "sure": "high"}
+{"given": "working camels I bad met with", "print": "working camels I had met with", "sure": "high"}
