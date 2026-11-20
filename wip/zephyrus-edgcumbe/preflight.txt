@@ -1,137 +1,18 @@
 [       ok] meta: book.json: required fields present and sane
 [       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
-[FAIL (45)] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
-            - missing image file for p0008-1 (Outline map of South America showing the countries, the Amazon and River Plate, and towns including Pernambuco, Bahia, Rio, Santos, Monte Video and Buenos Ayres, with an inset of Great Britain and Ireland for comparison of size)
-            - missing image file for p0011-1 (a row of six ostriches or rheas standing and feeding on open ground)
-            - missing image file for p0019-1 (view of Lisbon from the river, with sailing boats and rowing boats in the foreground and the city rising on a hill behind)
-            - missing image file for p0020-1 (engraving of Lisbon on a hillside above the water, with sailing boats in the foreground)
-            - missing image file for p0024-1 (engraving of a low rocky island with a tall peak, seen across the sea under streaks of cloud)
-            - missing image file for p0026-1 (view of a flat white town across the water, with a sailing boat in the foreground and a lighthouse at the right)
-            - missing image file for p0027-1 (engraving of a harbour with sailing ships at anchor behind a low reef, buildings on the shore at right)
-            - missing image file for p0028-1 (a log raft with a tall triangular sail and a man standing beside a crate on deck, low hills and clouds behind)
-            - missing image file for p0031-1 (a thatched hut among banana palms, with two figures seated on the ground in front of it)
-            - missing image file for p0032-1 (a railway truck decorated as a hearse, with a raised altar in the centre and arched canopies at each end, standing on rails)
-            - missing image file for p0035-1 (engraving of a lighthouse on a rocky islet, with palm trees and buildings on the shore to the right)
-            - missing image file for p0036-1 (a marmoset monkey climbing a rope)
-            - missing image file for p0039-1 (engraving of a wide bay with low islands and distant mountains, seen from high ground)
-            - missing image file for p0042-1 (A bay with a tall rock rising from the water on the left, a canoe drawn up on the shore, a palm tree on the right, and mountains in the distance)
-            - missing image file for p0045-1 (drawing of a mahogany flower, with its petals and dark leaves on a branch)
-            - missing image file for p0056-1 (engraving of a large horned beetle seen from the side)
-            - missing image file for p0057-1 (engraving of a praying mantis standing on the ground, seen from the side)
-            - missing image file for p0059-1 (a hairy caterpillar lying on a flat surface, its head curled under at the front)
-            - missing image file for p0062-1 (engraving of a conical hill with palm trees on the slopes and a waterfall in a ravine in the foreground)
-            - missing image file for p0075-1 (line drawing of Santos seen from the water, buildings and palm trees along the shore, wooded hills behind)
-            - missing image file for p0091-1 (a pair of bullocks drawing a cart with large solid wooden wheels)
-            - missing image file for p0109-1 (a low island seen from the water, with long buildings and a lighthouse)
-            - missing image file for p0111-1 (a woman in a hat seated inside an open trunk, its lid shading her)
-            - missing image file for p0118-1 (A lighthouse with a domed lantern and weather-vane, low buildings at its foot, a flagstaff on the left, and rough ground and sea in the foreground)
-            - missing image file for p0119-1 (a courtyard with a low building and tiled roof at left, a long bench in the foreground, a wall and gate with ornamented pillars at right, and beyond the wall the sea and a distant building on the shore)
-            - missing image file for p0124-1 (sketch of the Monte Video waterfront seen from the sea, with domed and towered buildings and a small sailing boat)
-            - missing image file for p0126-1 (a hill crowned by a lighthouse rising above the shore, seen from the water, with a sailing boat and a ship in the foreground)
-            - missing image file for p0138-1 (Sketch map of the River Uruguay between Corrientes, Entre Rios, Brazil and the Banda Oriental, showing Uruguayana, Monte Caseros, Federation, Concordia, Salto, Paysandu and positions of troops)
-            - missing image file for p0145-1 (engraving of a wooded creek with water between steep banks and brush in the foreground)
-            - missing image file for p0151-1 (A gaucho on horseback on a flat plain dragging a dead body by a lasso; other bodies lie on the ground behind)
-            - missing image file for p0159-1 (a hanging signboard showing a coffin with a cross on its lid)
-            - missing image file for p0164-1 (two carved gourd maté bowls, one with a curled handle, and a bombilla drinking tube with a perforated bowl lying in front)
-            - missing image file for p0170-1 (line drawing of flat open grassland with cattle grazing in the foreground and a few distant buildings on the horizon)
-            - missing image file for p0171-1 (a row of six ostriches standing and feeding on open ground)
-            - missing image file for p0172-1 (two white herons wading in a marshy pool, one stooping to feed)
-            - missing image file for p0173-1 (three yoke of oxen drawing a covered two-wheeled cart)
-            - missing image file for p0181-1 (a river scene with wooded banks, reeds and a small boat on the water)
-            - missing image file for p0186-1 (a covered wagon drawn by five horses abreast, the driver holding a long whip, on open ground)
-            - missing image file for p0219-1 (engraving of a lake in a park, with trees along the far shore and reeds in the foreground)
-            - missing image file for p0230-1 (a gaucho in a broad hat and long poncho, standing with one arm resting on a rail from which hangs a whip, and wearing large spurs)
-            - missing image file for p0231-1 (engraving of an ornate horse's bit, a decorated stirrup and a large-rowelled spur lying side by side)
-            - missing image file for p0251-1 (a lighthouse on a steep rock rising from the sea, with hills behind)
-            - missing image file for p0252-1 (a steep rocky hill rising from the water, with a small building and a flagstaff on its summit, a rowing boat in the foreground)
-            - missing image file for p0259-1 (small Egyptian-style ornament of lotus flowers and buds bound together above a boat on water)
-            - missing image file for p0261-1 (Engraved frieze of classical figures dancing and making music around a potted palm)
-[ FAIL (1)] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
-            - JSON→ODT text: texts differ from character 0: …Preface.Idonotknowthatanyapolo… / …[Illustration:OutlinemapofSout…
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
 [       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
 [       ok] straight-quotes: no straight ' or " in the text
 [       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
 [       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
 [       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
-[FAIL (42)] links: every link inside the book's web pages and EPUB has a target
-            - web 12.html: missing image 'images/p0109-1.jpg'
-            - web 12.html: missing image 'images/p0111-1.jpg'
-            - web 12.html: missing image 'images/p0118-1.jpg'
-            - web 12.html: missing image 'images/p0119-1.jpg'
-            - web 01.html: missing image 'images/p0008-1.jpg'
-            - web 02.html: missing image 'images/p0019-1.jpg'
-            - web 02.html: missing image 'images/p0020-1.jpg'
-            - web 02.html: missing image 'images/p0024-1.jpg'
-            - web 03.html: missing image 'images/p0026-1.jpg'
-            - web 03.html: missing image 'images/p0027-1.jpg'
-            - web 03.html: missing image 'images/p0028-1.jpg'
-            - web 03.html: missing image 'images/p0031-1.jpg'
-            - web 03.html: missing image 'images/p0032-1.jpg'
-            - web 03.html: missing image 'images/p0035-1.jpg'
-            - web 03.html: missing image 'images/p0036-1.jpg'
-            - web 08.html: missing image 'images/p0075-1.jpg'
-            - web 04.html: missing image 'images/p0039-1.jpg'
-            - web 04.html: missing image 'images/p0042-1.jpg'
-            - web 04.html: missing image 'images/p0045-1.jpg'
-            - web 07.html: missing image 'images/p0062-1.jpg'
-            - web 22.html: missing image 'images/p0251-1.jpg'
-            - web 22.html: missing image 'images/p0252-1.jpg'
-            - web 14.html: missing image 'images/p0138-1.jpg'
-            - web 14.html: missing image 'images/p0145-1.jpg'
-            - web 14.html: missing image 'images/p0151-1.jpg'
-            - web 15.html: missing image 'images/p0159-1.jpg'
-            - web 15.html: missing image 'images/p0164-1.jpg'
-            - web 10.html: missing image 'images/p0091-1.jpg'
-            - web 13.html: missing image 'images/p0124-1.jpg'
-            - web 13.html: missing image 'images/p0126-1.jpg'
-            - web 21.html: missing image 'images/p0230-1.jpg'
-            - web 21.html: missing image 'images/p0231-1.jpg'
-            - web 16.html: missing image 'images/p0170-1.jpg'
-            - web 16.html: missing image 'images/p0171-1.jpg'
-            - web 16.html: missing image 'images/p0172-1.jpg'
-            - web 16.html: missing image 'images/p0173-1.jpg'
-            - web 17.html: missing image 'images/p0181-1.jpg'
-            - web 17.html: missing image 'images/p0186-1.jpg'
-            - web 19.html: missing image 'images/p0219-1.jpg'
-            - web 06.html: missing image 'images/p0056-1.jpg'
-            - web 06.html: missing image 'images/p0057-1.jpg'
-            - web 06.html: missing image 'images/p0059-1.jpg'
+[       ok] links: every link inside the book's web pages and EPUB has a target
 [       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
 [       ok] nav: contents: at least one reading division; each has a title and text
-[FAIL (30)] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/01.xhtml(7,277): Referenced resource "OEBPS/images/p0008-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/02.xhtml(14,171): Referenced resource "OEBPS/images/p0019-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/02.xhtml(16,137): Referenced resource "OEBPS/images/p0020-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/02.xhtml(22,142): Referenced resource "OEBPS/images/p0024-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/03.xhtml(10,161): Referenced resource "OEBPS/images/p0026-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/03.xhtml(11,152): Referenced resource "OEBPS/images/p0027-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/03.xhtml(13,159): Referenced resource "OEBPS/images/p0028-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/03.xhtml(18,137): Referenced resource "OEBPS/images/p0031-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/03.xhtml(20,173): Referenced resource "OEBPS/images/p0032-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/03.xhtml(25,149): Referenced resource "OEBPS/images/p0035-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/03.xhtml(26,83): Referenced resource "OEBPS/images/p0036-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/04.xhtml(10,135): Referenced resource "OEBPS/images/p0039-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/04.xhtml(13,194): Referenced resource "OEBPS/images/p0042-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/04.xhtml(15,123): Referenced resource "OEBPS/images/p0045-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/06.xhtml(13,103): Referenced resource "OEBPS/images/p0056-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/06.xhtml(15,122): Referenced resource "OEBPS/images/p0057-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/06.xhtml(18,129): Referenced resource "OEBPS/images/p0059-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/07.xhtml(11,153): Referenced resource "OEBPS/images/p0062-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/08.xhtml(11,155): Referenced resource "OEBPS/images/p0075-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/10.xhtml(10,114): Referenced resource "OEBPS/images/p0091-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/12.xhtml(11,120): Referenced resource "OEBPS/images/p0109-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/12.xhtml(14,115): Referenced resource "OEBPS/images/p0111-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/12.xhtml(20,196): Referenced resource "OEBPS/images/p0118-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/12.xhtml(22,251): Referenced resource "OEBPS/images/p0119-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/13.xhtml(10,163): Referenced resource "OEBPS/images/p0124-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/13.xhtml(13,174): Referenced resource "OEBPS/images/p0126-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/14.xhtml(13,242): Referenced resource "OEBPS/images/p0138-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/14.xhtml(21,136): Referenced resource "OEBPS/images/p0145-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/14.xhtml(27,158): Referenced resource "OEBPS/images/p0151-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-gknk9mi0/books/zephyrus-edgcumbe/zephyrus-edgcumbe.epub/OEBPS/text/15.xhtml(12,110): Referenced resource "OEBPS/images/p0159-1.jpg" could not be found in the EPUB.
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
-[ FAIL (1)] audit: book.json records the sampled audit of this version
-            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[       ok] audit: book.json records the sampled audit of this version
 [ look (6)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0020: …ake, the frame-|work being of w… (hyphen removed; check)
             - hyphen join at p0058: …about in an un-|seemly fashion.… (hyphen removed; check)
@@ -145,17 +26,11 @@
             - p0262: page 2 after page 242 (p0258)
 [       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
 [       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
-[ FAIL (5)] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
-            - p0024: …' these, lying in the open' | picture | 'gun-ports, shaded from th'
-            - p0056: …'t travellers home, but in' | picture | 'truth its ways are not sa'
-            - p0062: …'w. They did not even know' | picture | 'the cost of a telegram to'
-            - p0111: …'n the illustration. As we' | picture | 'were out in the full blaz'
-            - p0186: …' is one-half per cent. on' | picture | 'the capital value, or 5l.'
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
 [       ok] contents: entries of the printed contents with no matching heading
 [       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
 [       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
-[ look (1)] cover: images/cover.jpg (or .png) exists: the front cover or the title page
-            - images/cover.jpg is missing (the front cover if decorated, otherwise the title page)
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
 [ look (5)] accents: words the book spells with different accents (or with and without): look at each group on the scan
             - a: a (p0011, p0013, p0017, p0018, p0019, p0020…); à (p0159, p0166)
             - aide: aidë (p0261); aïdé (p0289)
@@ -164,4 +39,4 @@
             - o: o (p0017, p0023, p0026, p0043, p0044, p0049…); ō (p0031)
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: zephyrus-edgcumbe v1 — 124 to fix, 4 waived; to look at: hyphen-joins 6, joins 1, folios 1, cover 1, accents 5 — tools@ab6d55e 2026-11-20
+preflight PASS: zephyrus-edgcumbe v1 — 0 to fix, 4 waived; to look at: hyphen-joins 6, joins 1, folios 1, accents 5 — tools@9da3bcd 2026-11-20
