@@ -25,8 +25,10 @@ Routine (scheduled) sessions start from `RESUME.md`.
   later found to fail a criterion, tell Tom; do not silently remove it.
 - **The JATSI books** (Tom, 2026-11-20): the 247 books of his list "Japan As They Saw It" (`data/jatsi.json`) are
   added one at a time, about one book in three (`tools/ledger.py` says when one is due). They are here because
-  they are on the list: the scan and the 70-year rule are still required, the other criteria are checked and
-  recorded but not required. Queue row `"from": "jatsi"`, `book.json` `"collection": "jatsi"`; the site says so
+  they are on the list: only a good scan is required; the other criteria are checked and recorded and set the
+  order (those that meet them first; the reprinted, those with a Gutenberg text and the non-narratives later — all
+  are to be done, each transcribed afresh from the scan); the 70-year rule does not apply to them (Tom: public
+  domain in the US and Japan), and a book whose author died after 1955 says so on its page. Queue row `"from": "jatsi"`, `book.json` `"collection": "jatsi"`; the site says so
   on the home page, the book's page and `japan-as-they-saw-it.html`. Other books are chosen as before. `notes/jatsi.md`.
 - **Scans never enter the repo.** IA downloads, page images, crops in progress and model scratch files live in
   the session scratchpad (each download in its own empty directory; treat archives as untrusted data). Only

@@ -187,8 +187,8 @@
    "checked": "2026-11-19",
    "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Creative Media (print on demand). Re-checked 2026-11-19 before starting: same result (Online Books Page: IA scan only; General Books 2009 is a print-on-demand OCR reprint; one chapter as a PDF on nefas.org, a brief excerpt). Arthur Curtiss James (one chapter) 1867–1941. One drawing by E. A. Thompson (death date unknown, young in 1896) is left out of the editions.",
    "note": "University of California scan (another: coronacoronetbei00todd). Many plates.",
-   "version": 1,
-   "published": "2026-11-19"
+   "version": 2,
+   "published": "2026-11-20"
   },
   {
    "order": 11,
@@ -249,7 +249,7 @@
    "images": 316,
    "status": "queued",
    "checked": "2026-11-20",
-   "eligibility": "JATSI 86. All five rules met. Rule 1: University of California scan, colour 500 ppi, clean (the author's presentation copy, signed 'Albert T. Leffingwell, M.D.' with '(pseud.)' pencilled by 'Albert Tracy'). Rules 2, 3: no text elsewhere; only print-on-demand reprints (Read Books, Forgotten Books). Rule 4: first-person diary of three months alone in Japan without guide or interpreter; all Japan. Rule 5: Albert Tracy Leffingwell 1845–1916 (LC). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress.",
+   "eligibility": "JATSI 86. All five rules met. Rule 1: University of California scan, colour 500 ppi, clean (the author's presentation copy, signed 'Albert T. Leffingwell, M.D.' with '(pseud.)' pencilled by 'Albert Tracy'). Rules 2, 3: no text elsewhere; only print-on-demand reprints (Read Books, Forgotten Books). Rule 4: first-person diary of three months alone in Japan without guide or interpreter; all Japan. Rule 5: Albert Tracy Leffingwell 1845–1916 (LC). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
    "note": "First edition. About 287 pp., 20 chapters with summary paragraphs, a closing Note; 14 wood-engraved plates and a frontispiece, no artist credited. A small blot on p. 41 (word still readable). A good first JATSI book: plain layout, wholly on Japan."
   },
   {
@@ -266,7 +266,7 @@
    "images": 276,
    "status": "queued",
    "checked": "2026-11-20",
-   "eligibility": "JATSI 98. All five rules met. Rule 1: Cornell scan (Kirtas, greyscale), clean; onshortleavetoja00younrich (University of California, 274 images, 500 ppi) is probably better for the 8 halftone plates: compare before fetching. Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person account of a few months' leave from India in 1893; about three-quarters on Japan; the last chapter is an essay on the Japanese army. Rule 5: George John Younghusband 1859–1944 (LC). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress.",
+   "eligibility": "JATSI 98. All five rules met. Rule 1: Cornell scan (Kirtas, greyscale), clean; onshortleavetoja00younrich (University of California, 274 images, 500 ppi) is probably better for the 8 halftone plates: compare before fetching. Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person account of a few months' leave from India in 1893; about three-quarters on Japan; the last chapter is an essay on the Japanese army. Rule 5: George John Younghusband 1859–1944 (LC). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
    "note": "About 233 pp.; 8 photographic plates, no photographer named; few footnotes; publisher's advertisements at the end."
   },
   {
@@ -283,7 +283,7 @@
    "images": 202,
    "status": "queued",
    "checked": "2026-11-20",
-   "eligibility": "JATSI 74. All five rules met. Rule 1: Library of Congress scan, colour 500 ppi, clean (JATSI links the Cornell scan cu31924023271152, greyscale, also clean). Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person letters home from a business journey in 1887; about 40–45% on Japan, the rest China. Rule 5: Simon Adler Stern 1838–1904 (Jewish Encyclopedia). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress.",
+   "eligibility": "JATSI 74. All five rules met. Rule 1: Library of Congress scan, colour 500 ppi, clean (JATSI links the Cornell scan cu31924023271152, greyscale, also clean). Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person letters home from a business journey in 1887; about 40–45% on Japan, the rest China. Rule 5: Simon Adler Stern 1838–1904 (Jewish Encyclopedia). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
    "note": "185 pp., small format, no illustrations, an appendix; rows of asterisks as section breaks. Short."
   },
   {
@@ -300,7 +300,7 @@
    "images": 348,
    "status": "queued",
    "checked": "2026-11-20",
-   "eligibility": "JATSI 40. Four of five. Rule 1: Cornell scan (Kirtas, greyscale), clean and sharp. Rule 2: no text elsewhere (Wikisource has an author page only). Rule 3 NOT met: facsimile in Ganesha / Edition Synapse 'Japan in English', 2nd series vol. 32 (2004; National Diet Library catalogue), and Elibron (2002). Rule 4: first-person narrative of his command of a survey gun-vessel, 1871–74; about a third on Japan, the rest China, Formosa and the Siberian coast; chapter II is a compiled history of Formosa. Rule 5: Bonham Ward Bax 1837–1877 (AIM25). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress.",
+   "eligibility": "JATSI 40. Four of five. Rule 1: Cornell scan (Kirtas, greyscale), clean and sharp. Rule 2: no text elsewhere (Wikisource has an author page only). Rule 3 NOT met: facsimile in Ganesha / Edition Synapse 'Japan in English', 2nd series vol. 32 (2004; National Diet Library catalogue), and Elibron (2002). Rule 4: first-person narrative of his command of a survey gun-vessel, 1871–74; about a third on Japan, the rest China, Formosa and the Siberian coast; chapter II is a compiled history of Formosa. Rule 5: Bonham Ward Bax 1837–1877 (AIM25). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
    "note": "x + 287 pp.; 13 woodcuts (no artist named) and a map: look at how the map was scanned; few footnotes; Murray's advertisements at the end."
   },
   {
@@ -317,7 +317,7 @@
    "images": 326,
    "status": "queued",
    "checked": "2026-11-20",
-   "eligibility": "JATSI 130. All five rules met. Rule 1: University of California scan, colour 400 ppi, clean; the folding route map is scanned unfolded. Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person account of a tour in summer 1895 by way of Canada; about 85–90% on Japan; the last chapter (religions) is largely compiled. Rule 5: Joseph Llewelyn Thomas d. 1940 (LC heading; birth year not found). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress.",
+   "eligibility": "JATSI 130. All five rules met. Rule 1: University of California scan, colour 400 ppi, clean; the folding route map is scanned unfolded. Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person account of a tour in summer 1895 by way of Canada; about 85–90% on Japan; the last chapter (religions) is largely compiled. Rule 5: Joseph Llewelyn Thomas d. 1940 (LC heading; birth year not found). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
    "note": "251 pp. and an index; a photogravure portrait and the map (lithographer F. S. Weller: a trade credit); many long quotations in small type; footnotes. The title uses a word now offensive: kept as printed, as everywhere."
   },
   {
@@ -334,7 +334,7 @@
    "images": 176,
    "status": "queued",
    "checked": "2026-11-20",
-   "eligibility": "JATSI 142. All five rules met. Rule 1: Cornell scan (Kirtas, greyscale), clean, large type. Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person account of an officer and his wife on leave from Poona in spring 1899; about two-thirds on Japan. Rule 5: Sydney Charles Fishburn Jackson 1863–1928 (LC). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress.",
+   "eligibility": "JATSI 142. All five rules met. Rule 1: Cornell scan (Kirtas, greyscale), clean, large type. Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person account of an officer and his wife on leave from Poona in spring 1899; about two-thirds on Japan. Rule 5: Sydney Charles Fishburn Jackson 1863–1928 (LC). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
    "note": "About 154 pp., no illustrations; an errata slip of six items is tipped over the contents leaf, which is therefore scanned twice (apply the errata as `[[corr]]`? decide by style.md and say so in notes_on_text); an appendix of costs. Short."
   },
   {
@@ -351,7 +351,7 @@
    "images": 570,
    "status": "queued",
    "checked": "2026-11-20",
-   "eligibility": "JATSI 169. All five rules met. Rule 1: Library of Congress scan of the first edition (1902), colour 400 ppi, clean. JATSI links cu31924023517422, the second edition (London, A. & C. Black, 1904), which adds a 20-page preface on the war: the first edition is used because its scan shows the photographs better (jatsi.md, rule 1). Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person tour of 1898–99; about 55% on Japan (Shikoku, Kyushu, Hokkaido by road), with chapters of essay at the end. Rule 5: Walter Del Mar 1862–1944 (LC). Photographs credited to Adolfo Farsari (1841–1898) and A. W. A. Plâté (d. 1931); some uncredited. Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress.",
+   "eligibility": "JATSI 169. All five rules met. Rule 1: Library of Congress scan of the first edition (1902), colour 400 ppi, clean. JATSI links cu31924023517422, the second edition (London, A. & C. Black, 1904), which adds a 20-page preface on the war: the first edition is used because its scan shows the photographs better (jatsi.md, rule 1). Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person tour of 1898–99; about 55% on Japan (Shikoku, Kyushu, Hokkaido by road), with chapters of essay at the end. Rule 5: Walter Del Mar 1862–1944 (LC). Photographs credited to Adolfo Farsari (1841–1898) and A. W. A. Plâté (d. 1931); some uncredited. Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
    "note": "About 430 pp. and xxx of preliminaries; about 45 photographic plates. Long: two sessions for the runs."
   },
   {
@@ -368,7 +368,7 @@
    "images": 82,
    "status": "queued",
    "checked": "2026-11-20",
-   "eligibility": "JATSI 14. All five rules met. Rule 1: Library of Congress scan, colour 400 ppi, clean, EXCEPT that the last page of text (p. 76, image n77) is cut off at the right edge, losing one to three letters a line: take that leaf from acruiseinusstea01graggoog or acruiseinusstea00graggoog (`source.extra_leaves`). Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person account by the ship's surgeon's steward; about 35% on Japan (Nagasaki, Shimoda, Kanagawa, Hakodate), with the Peiho forts in 1858. Rule 5: William F. Gragg 1810–1864 (Bedford Historical Society). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress.",
+   "eligibility": "JATSI 14. All five rules met. Rule 1: Library of Congress scan, colour 400 ppi, clean, EXCEPT that the last page of text (p. 76, image n77) is cut off at the right edge, losing one to three letters a line: take that leaf from acruiseinusstea01graggoog or acruiseinusstea00graggoog (`source.extra_leaves`). Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person account by the ship's surgeon's steward; about 35% on Japan (Nagasaki, Shimoda, Kanagawa, Hakodate), with the Peiho forts in 1858. Rule 5: William F. Gragg 1810–1864 (Bedford Historical Society). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
    "note": "Only 76 printed pages, in small type on a large page, without chapters; lists of officers and of the cruise's distances. No illustrations. Shorter than the usual range: a one-session book."
   },
   {
@@ -385,7 +385,7 @@
    "images": 166,
    "status": "queued",
    "checked": "2026-11-20",
-   "eligibility": "JATSI 83. All five rules met, rule 4 in part. Rule 1: Brigham Young University scan, colour 400 ppi, clean. Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: a ship's captain's two visits in 1889 with his wife and daughter, first-hand in part and in part compiled (legends, history, the Constitution summarized), as his introduction says. Rule 5: 'M. B. C., Friendship, Maine' is very probably Melville Bradford Cook (1838–1927; VIAF; listed aged 52 at Friendship in 1892); no source joins the name to this book in so many words, but on either reading the author was born before 1856 (rule 5, unknown death). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress.",
+   "eligibility": "JATSI 83. All five rules met, rule 4 in part. Rule 1: Brigham Young University scan, colour 400 ppi, clean. Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: a ship's captain's two visits in 1889 with his wife and daughter, first-hand in part and in part compiled (legends, history, the Constitution summarized), as his introduction says. Rule 5: 'M. B. C., Friendship, Maine' is very probably Melville Bradford Cook (1838–1927; VIAF; listed aged 52 at Friendship in 1892); no source joins the name to this book in so many words, but on either reading the author was born before 1856 (rule 5, unknown death). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
    "note": "About 144 pp., 14 chapters, no illustrations listed; proverbs in smaller type. Put the identification of the author in notes_on_text as probable, not as fact."
   },
   {
@@ -402,7 +402,7 @@
    "images": 334,
    "status": "queued",
    "checked": "2026-11-20",
-   "eligibility": "JATSI 22. Four of five. Rule 1: University of California scan of the second edition (1863), colour, clean, with the chromolithographs in colour. JATSI links cu31924080948320, which is a scan of Cornell's photocopy of the same edition (plates grey): not to be used. Rule 2: no text elsewhere. Rule 3 NOT met: facsimile in Ganesha / Edition Synapse 'Japan in English' (2002). Rule 4: first-person, a Commissariat officer buying horses in Japan in 1860, then the North China campaign; about 60% on Japan. Rule 5: Edward Barrington de Fonblanque 1821–1895 (LC); John Veitch, who supplied appendix I, about 1839–1870 (to confirm at the start; born before 1856 in any case). The plates include facsimiles of Japanese prints, makers not named. Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress.",
+   "eligibility": "JATSI 22. Four of five. Rule 1: University of California scan of the second edition (1863), colour, clean, with the chromolithographs in colour. JATSI links cu31924080948320, which is a scan of Cornell's photocopy of the same edition (plates grey): not to be used. Rule 2: no text elsewhere. Rule 3 NOT met: facsimile in Ganesha / Edition Synapse 'Japan in English' (2002). Rule 4: first-person, a Commissariat officer buying horses in Japan in 1860, then the North China campaign; about 60% on Japan. Rule 5: Edward Barrington de Fonblanque 1821–1895 (LC); John Veitch, who supplied appendix I, about 1839–1870 (to confirm at the start; born before 1856 in any case). The plates include facsimiles of Japanese prints, makers not named. Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
    "note": "286 pp.; 12 plates (8 chromolithographs, a folding map, 3 lithographs of which 2 fold) and 6 woodcuts: look at every folding plate at the scan check; two appendices with tables; footnotes."
   },
   {
@@ -419,7 +419,7 @@
    "images": 356,
    "status": "queued",
    "checked": "2026-11-20",
-   "eligibility": "JATSI 6. Four of five. Rule 1: Cornell scan (Kirtas, greyscale), clean; the folding chart is in two overlapping halves (the Library of Congress scans notesonlateexped00whit, notesoflateexped00whit may show it whole). Rule 2: no text elsewhere. Rule 3 NOT met: Cambridge Library Collection reprint (2013). Rule 4: first-person, a Royal Engineers captain sailing with the Allied squadron in 1855; about 45% on Japan (Hakodate, Shimoda, Nagasaki). Rule 5: (Paul) Bernard Whittingham, dates not found ('fl. 1850'); a captain of Engineers in 1855, so born before about 1835 (rule 5, unknown death). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress.",
+   "eligibility": "JATSI 6. Four of five. Rule 1: Cornell scan (Kirtas, greyscale), clean; the folding chart is in two overlapping halves (the Library of Congress scans notesonlateexped00whit, notesoflateexped00whit may show it whole). Rule 2: no text elsewhere. Rule 3 NOT met: Cambridge Library Collection reprint (2013). Rule 4: first-person, a Royal Engineers captain sailing with the Allied squadron in 1855; about 45% on Japan (Hakodate, Shimoda, Nagasaki). Rule 5: (Paul) Bernard Whittingham, dates not found ('fl. 1850'); a captain of Engineers in 1855, so born before about 1835 (rule 5, unknown death). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
    "note": "xv + 300 pp., ten chapters with long summaries, two appendices, then a publisher's catalogue; one folding chart; few footnotes."
   },
   {
@@ -436,7 +436,7 @@
    "images": 390,
    "status": "queued",
    "checked": "2026-11-20",
-   "eligibility": "JATSI 17. Four of five. Rule 1: JATSI's link (in.ernet.dli.2015.237533) is a bilevel, blotched Digital Library of India scan: not usable. india.history.resource.89172 is the same edition at 300 ppi greyscale, clean, woodcuts present (no library named; do the full scan check; aresidenceatnag01hookgoog, Harvard/Google, is a fallback). Rule 2: no text elsewhere. Rule 3 NOT met: Ganesha / Edition Synapse 'Japan in English' (2002) and Elibron. Rule 4: the British consul's first-person account in the first five chapters, including his wife's letters; the other ten chapters are description. Rule 5: Christopher Pemberton Hodgson 1821–1865 (DNB); Mrs Hodgson, name and dates not found, a married woman with a child in 1859 (born before 1856); Sir William Jackson Hooker 1785–1865 and 'Mr. Black' of the Kew herbarium (in post in 1861; born before 1856) for the catalogue of plants. Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress.",
+   "eligibility": "JATSI 17. Four of five. Rule 1: JATSI's link (in.ernet.dli.2015.237533) is a bilevel, blotched Digital Library of India scan: not usable. india.history.resource.89172 is the same edition at 300 ppi greyscale, clean, woodcuts present (no library named; do the full scan check; aresidenceatnag01hookgoog, Harvard/Google, is a fallback). Rule 2: no text elsewhere. Rule 3 NOT met: Ganesha / Edition Synapse 'Japan in English' (2002) and Elibron. Rule 4: the British consul's first-person account in the first five chapters, including his wife's letters; the other ten chapters are description. Rule 5: Christopher Pemberton Hodgson 1821–1865 (DNB); Mrs Hodgson, name and dates not found, a married woman with a child in 1859 (born before 1856); Sir William Jackson Hooker 1785–1865 and 'Mr. Black' of the Kew herbarium (in post in 1861; born before 1856) for the catalogue of plants. Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
    "note": "xvi + about 350 pp.; 6 woodcuts, artist not named; small tables of coin values (pp. 293–299); pp. 327–350 are a catalogue of Latin plant names."
   },
   {
@@ -453,8 +453,144 @@
    "images": 401,
    "status": "queued",
    "checked": "2026-11-20",
-   "eligibility": "JATSI 73. Four of five, and the scan is a Google scan. Rule 1: the only scan at IA: text bilevel but sharp, the 7 photographic plates in greyscale and present; no _jp2 archive, only _tif.zip (89.8 MB): check that `ia.py fetch` and `prep_pages.py` take it before starting, and see lessons.md 'Google scan'. Rule 2: no text elsewhere (Wikisource has an author page only). Rule 3 NOT met: Elibron / Adamant facsimile (2003). Rule 4: first-person account of a visit from Hong Kong, from shorthand notes; all Japan; one chapter on the Japanese army. Rule 5: Sir Henry Knollys 1840–1930 (The Times obituary). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress.",
+   "eligibility": "JATSI 73. Four of five, and the scan is a Google scan. Rule 1: the only scan at IA: text bilevel but sharp, the 7 photographic plates in greyscale and present; no _jp2 archive, only _tif.zip (89.8 MB): check that `ia.py fetch` and `prep_pages.py` take it before starting, and see lessons.md 'Google scan'. Rule 2: no text elsewhere (Wikisource has an author page only). Rule 3 NOT met: Elibron / Adamant facsimile (2003). Rule 4: first-person account of a visit from Hong Kong, from shorthand notes; all Japan; one chapter on the Japanese army. Rule 5: Sir Henry Knollys 1840–1930 (The Times obituary). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
    "note": "xi + 325 pp. with two appendices and an index; 7 plates, no photographer named; footnotes; Chapman and Hall's catalogue at the end."
+  },
+  {
+   "order": 27,
+   "from": "jatsi",
+   "jatsi": 213,
+   "ia": "summergreetingsf00shel",
+   "slug": "summer-greetings-from-japan-sheldon",
+   "title": "Summer Greetings from Japan",
+   "author": "Walter L. Sheldon",
+   "year": 1908,
+   "place": "[St. Louis]",
+   "publisher": "privately printed",
+   "images": 176,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "JATSI 213. Rules 1–4 met. Rule 1: University of California scan, colour 400 ppi, clean, complete. Rules 2, 3: no text elsewhere, no reprint found. Rule 4: seventeen first-person letters to his wife, May–August 1906; about 95% Japan. People: Walter Lorenzo Sheldon 1858–1907; Anna Hartshorne Sheldon, who compiled the book, 1863–1924; Anna Cope Hartshorne, who wrote the two-page introductory letter, 1860–1957: Tom exempted the book by name (2026-11-20); say so in notes_on_text (jatsi.md, rule 5). Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20).",
+   "note": "128 pp.; a frontispiece portrait (photo by Strauss, St. Louis) and about 16 photographs, mostly Sheldon's own snapshots, some printed sideways. Short."
+  },
+  {
+   "order": 28,
+   "from": "jatsi",
+   "jatsi": 79,
+   "ia": "impressionsoffir00koth",
+   "slug": "impressions-of-a-first-tour-round-the-world-kothari",
+   "title": "Impressions of a First Tour round the World in 1883 and 1884",
+   "author": "Jehangir H. Kothari",
+   "year": 1889,
+   "place": "London",
+   "publisher": "printed by Simmons & Botten, for private circulation",
+   "images": 302,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "JATSI 79. Rules 1–4 met (and rule 5: Sir Jehangir Hormusji Kothari 1857–1934). Rule 1: Boston Public Library scan, colour 400 ppi, clean. Rules 2, 3: no text elsewhere; print-on-demand only; not in Nayar's Indian Travel Writing 1830–1947. Rule 4: a Parsi merchant's first-person diary of a tour, May 1883 to February 1884: Europe and Britain (pp. 1–226), the United States and Canada, Japan (pp. 263–275), China, the Straits, North India. Normal priority though Japan is 12 pages (Tom, 2026-11-20: round-the-world books by the general criteria). Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20).",
+   "note": "About 290 pp., no illustrations seen, no footnotes; dated entries with italic run-in dates. Much of it lists sights."
+  },
+  {
+   "order": 29,
+   "from": "jatsi",
+   "jatsi": 38,
+   "ia": "cu31924023226438",
+   "slug": "letters-from-china-and-japan-swainson",
+   "title": "Letters from China & Japan",
+   "author": "L. D. S. [Lilias Dunlop Findlay Swainson]",
+   "year": 1875,
+   "place": "London",
+   "publisher": "Henry S. King & Co.",
+   "images": 298,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "JATSI 38. Rules 1–4 met. Rule 1: Cornell scan (Kirtas, greyscale), clean. Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: forty-three first-person letters home by the wife of an instructor at the Foochow Arsenal; about 20% on Japan. People: the title page has 'L. D. S.'; the name is the attribution of the Cornell and HathiTrust catalogues, and the letters mention a separate 'Mr and Mrs S.': confirm the attribution before putting the name on the book's page, or give it as attributed. Dates not found. Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20).",
+   "note": "About 208 pp. of text, notes at the end, no illustrations; about 70 pages of the publisher's catalogue at the end of the scan are not part of the book."
+  },
+  {
+   "order": 30,
+   "from": "jatsi",
+   "jatsi": 179,
+   "ia": "presentdayjapan00davirich",
+   "slug": "present-day-japan-davidson",
+   "title": "Present-Day Japan",
+   "author": "Augusta M. Campbell Davidson",
+   "year": 1904,
+   "place": "Philadelphia and London",
+   "publisher": "J. B. Lippincott; T. Fisher Unwin",
+   "images": 364,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "JATSI 179. Rules 1–3 met, rule 4 in part. Rule 1: University of California scan, colour 500 ppi, clean, pp. 3–331 complete (presentdayjapan00davi, Toronto, is a second good copy). Rules 2, 3: no text elsewhere (a 'Distant Reader' text of the 1912 edition is raw HathiTrust OCR); no real reprint. Rule 4: letters from residence and travel rearranged by place and subject; perhaps 40% is exposition (Shinto, Buddhism, history). People: Augusta Murray Campbell Davidson, dates not found. Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20).",
+   "note": "331 pp. and an index; about 80 halftone illustrations, many on the text pages, mostly uncredited."
+  },
+  {
+   "order": 31,
+   "from": "jatsi",
+   "jatsi": 197,
+   "ia": "womanaloneinhear00fish",
+   "slug": "woman-alone-in-the-heart-of-japan-fisher",
+   "title": "A Woman Alone in the Heart of Japan",
+   "author": "Gertrude Adams Fisher",
+   "year": 1906,
+   "place": "Boston",
+   "publisher": "L. C. Page & Company",
+   "images": 390,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "JATSI 197. Rules 1, 3, 4 met; rule 2 to settle. Rule 1: Library of Congress copy of the first edition, colour, clean (JATSI links womanaloneinhear00fishiala, an undated London issue by Sisley's from the same setting). Rule 2: no text found at Gutenberg, The Online Books Page or Wikisource; a ManyBooks entry ('fishergaother08woman_alone_in_Japan') could not be opened: look at it before starting (probably IA's OCR). Rule 3: print-on-demand only. Rule 4: first-person, an American woman travelling alone about 1905; the last four chapters are reports on institutions. People: Gertrude Adams Fisher, dates not found. Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20).",
+   "note": "About 293 pp.; about 37 halftone plates, several printed sideways, uncredited (probably her own); centred italic subheadings inside chapters; much dialogue in pidgin English, to be kept as printed."
+  },
+  {
+   "order": 32,
+   "from": "jatsi",
+   "jatsi": 204,
+   "ia": "cu31924023492600",
+   "slug": "land-of-the-tatami-murray",
+   "title": "The Land of the Tatami: Travels in Japan",
+   "author": "George T. Murray",
+   "year": 1906,
+   "place": "Shanghai",
+   "publisher": "printed at the “North-China Herald” Office",
+   "images": 168,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "JATSI 204. Rules 1–4 met. Rule 1: Cornell scan (Kirtas, greyscale), clean, complete (pp. 1–124). Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person sketches of a tour of Japan in 1904–05, written for the North-China Daily News; all Japan. People: George T. Murray, a Shanghai resident; dates not found. Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20).",
+   "note": "124 pp.; 11 halftone photographs, some on text pages; title, dedication and chapter heads in blackletter; a few short verses. Short."
+  },
+  {
+   "order": 33,
+   "from": "jatsi",
+   "jatsi": 244,
+   "ia": "gentlejehuinjapa00mclerich",
+   "slug": "gentle-jehu-in-japan-mclean",
+   "title": "A Gentle Jehu in Japan",
+   "author": "Ethel L. McLean",
+   "year": 1912,
+   "place": "New York",
+   "publisher": "Dodd, Mead and Company",
+   "images": 184,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "JATSI 244. Rules 1–4 met. Rule 1: University of California scan, colour 400 ppi, clean, complete. Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person diary of two women's journey in spring 1911; about three-quarters on Japan. People: Ethel Louise McLean, born 1878 (LC), death not found: if it proves to be after 1955, notes_on_text says so (jatsi.md). Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20).",
+   "note": "About 150 pp., printed by Douglas C. McMurtrie in 1,000 copies (title page 1911, copyright 1912); about 28 tipped-in photographs, many hand-coloured, with printed captions; facsimiles of a dining-car menu and a hotel bill that contain Japanese script (as images: no transcription of the script needed beyond the alt text); decorated initials."
+  },
+  {
+   "order": 34,
+   "from": "jatsi",
+   "jatsi": 94,
+   "ia": "japanaswesawit00bick",
+   "slug": "japan-as-we-saw-it-bickersteth",
+   "title": "Japan As We Saw It",
+   "author": "M. Bickersteth",
+   "year": 1893,
+   "place": "London",
+   "publisher": "Sampson Low, Marston & Company",
+   "images": 388,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "JATSI 94. Rules 1–4 met. Rule 1: University of Toronto scan, colour 500 ppi, clean. Rules 2, 3: no text elsewhere (Wikisource's page of this title is R. S. Gardiner's book of 1892); no real reprint. Rule 4: first-person account of the Bishop of Exeter's family's eight weeks in Japan in 1891, centred on the Anglican missions; about 50 pages (ch. X) are newspaper reports of the earthquake of 28 October. People: Mary Jane Bickersteth, dates not found (born between 1849 and 1873); Edward Henry Bickersteth (preface) 1825–1906. Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20).",
+   "note": "About 345 pp. with two appendices and an index; about 38 illustrations (photographs and engravings), several on text pages. Take the form of the author's name from the title page."
   }
  ],
  "rejected": [

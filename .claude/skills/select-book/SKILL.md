@@ -8,7 +8,7 @@ description: Find and vet candidate travel books for the travel-books project (p
 Criteria, sources to search and how to choose: `notes/selection.md`. Read it first; this is the procedure.
 
 0. `python3 tools/ledger.py` shows which queue is short. For more **JATSI** books the candidates are already
-   listed: `data/jatsi.json` (`kind: narrative`, no `gutenberg`, no `hold`), chosen and recorded as
+   listed: `data/jatsi.json`, in the order of priority and recorded as
    `notes/jatsi.md` says; steps 3–6 below apply to them unchanged, and their rows get `"from": "jatsi"`,
    `"jatsi": <n>`. The rest of this procedure is for the other books.
 1. Look at what is published and queued (`data/queue.json`) so that no one kind of author, nationality or

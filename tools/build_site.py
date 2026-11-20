@@ -25,8 +25,17 @@ esc = rh.esc
 attr = rh.attr
 
 
+def outside_links(html_):
+    """Every link to another site opens in a new tab or window; links within the site stay (Tom, 2026-11-20)."""
+    return re.sub(r'<a (?![^>]*\btarget=)([^>]*\bhref="https?://[^"]*"[^>]*)>', r'<a \1 target="_blank" rel="noopener">', html_)
+
+
 def page(title, body, root, crumbs=(), extra_head="", book_css=False):
-    """root = relative path to the site root ('' or '../../')."""
+    """root = relative path to the site root ('' or '../../'). Outside links get target="_blank" here, for every page."""
+    return outside_links(_page(title, body, root, crumbs, extra_head, book_css))
+
+
+def _page(title, body, root, crumbs=(), extra_head="", book_css=False):
     nav = "".join(f'<li><a href="{attr(h)}">{esc(t)}</a></li>' for t, h in crumbs)
     css = f'<link rel="stylesheet" href="{root}assets/book.css"/>' if book_css else ""
     full = f"{title} – {SITE}" if title != SITE else SITE
@@ -65,6 +74,15 @@ HOME_FULL_LIST = 30     # up to this many books the home page lists them all; ab
 HOME_NEWEST = 10
 
 
+def jatsi_name():
+    """The name of Tom's project, linked to it wherever it is mentioned (Tom, 2026-11-20)."""
+    return f'<a href="{JATSI_HOME}">{JATSI}</a>'
+
+
+def jatsi_label(root=""):
+    return f'from {jatsi_name()} (<a href="{root}{JATSI_PAGE}">about these books</a>)'
+
+
 def is_jatsi(b):
     """A published book (book JSON, `collection`) or a queue row (`from`) that comes from the JATSI list."""
     return b.get("collection") == "jatsi" or b.get("from") == "jatsi"
@@ -76,7 +94,7 @@ def book_line(b, href, root=""):
     if b.get("period"):
         meta.append(esc(b["period"]))
     if is_jatsi(b):
-        meta.append(f'from <a href="{root}{JATSI_PAGE}">{JATSI}</a>')
+        meta.append(jatsi_label(root))
     return (f'<li><a href="{attr(href)}"><cite>{esc(b.get("short_title") or b["title"])}</cite></a>, {esc(a)} ({b.get("year", "")})'
             + (f'<br/><span class="meta">{" · ".join(meta)}</span>' if meta else "") + "</li>")
 
@@ -106,7 +124,7 @@ def queue_line(x):
     return (f'<li><cite>{esc(inline.smart_quotes(x["title"]))}</cite>, {esc(inline.smart_quotes(x.get("author", "")))} ({x.get("year", "")})'
             + (' <span class="meta">— in progress</span>' if x["status"] == "in progress" else "")
             + (f' <span class="meta"><a href="https://archive.org/details/{attr(x["ia"])}">scan</a></span>' if x.get("ia") else "")
-            + (f' <span class="meta">· from <a href="{JATSI_PAGE}">{JATSI}</a></span>' if is_jatsi(x) else "") + "</li>")
+            + (f' <span class="meta">· {jatsi_label()}</span>' if is_jatsi(x) else "") + "</li>")
 
 
 def build_index(out, books, queue):
@@ -128,8 +146,9 @@ def build_index(out, books, queue):
 <p>Travel books written in English and published before 1914, transcribed from library scans at the
 Internet Archive. Each can be read on this site or downloaded as EPUB, ODT or JSON. <a href="about.html">About the project.</a></p>
 <p>Most of the books were chosen because they are first-person accounts that have no other digital text edition and were not
-reprinted after 1914. Others come from <a href="{JATSI_PAGE}">{JATSI}</a>, a list of books about Japan that is being
-added to this site a book at a time; for that reason the site has more books about Japan than about other countries.</p>
+reprinted after 1914. Others come from {jatsi_name()}, a list of books about Japan that is being
+added to this site a book at a time (<a href="{JATSI_PAGE}">about these books</a>); for that reason the site has more books
+about Japan than about other countries.</p>
 <h2 id="books">Books</h2>
 {shelf}
 <h2 id="queue">In the queue</h2>
@@ -215,16 +234,18 @@ def build_jatsi(out, books, queue, j=None):
         years[-1][1].append(entry(e))
     whole = "\n".join(f'<h3 id="y{y}">{y}</h3>\n<ul class="books">{"".join(es)}</ul>' for y, es in years)
     body = f"""<h1>{JATSI}</h1>
-<p><a href="{JATSI_HOME}">{JATSI}</a> is an earlier project of Tom Gally, who runs this site: passages about Japan
+<p>{jatsi_name()} is an earlier project of Tom Gally, who runs this site: passages about Japan
 from books by American and British visitors, with a list of {len(j["books"])} books published between 1855 and 1912 that are
 at the Internet Archive. That project was one of the starting points of this site.</p>
 <p>In November 2026 he decided that the books on the list will be added here gradually, about one in every three books
 published. The site will therefore come to have more books about Japan than about any other country.</p>
 <p>These books are here because they are on the list. The <a href="about.html#which-books">conditions that the other books
 meet</a> are applied to them less strictly: some have been reprinted since 1914 or have a digital text elsewhere, and
-some that will be added later are histories, surveys or guidebooks, not accounts of the author’s own travels. The ones
-most like the other books on this site are being done first. A book whose author died less than 70 years ago waits until
-that time has passed. The texts are transcribed and checked in the same way as all the others.</p>
+some are histories, surveys or guidebooks, not accounts of the author’s own travels. The ones most like the other books
+on this site are being done first. Those that have a text at Project Gutenberg are transcribed afresh from the scans,
+like the rest. All were published before 1914 and are in the public domain in the United States and Japan; where an
+author died less than 70 years ago, so that the book may still be in copyright in some other countries, its page says so.
+The texts are transcribed and checked in the same way as all the others.</p>
 <h2 id="published">On this site</h2>
 {books_ul(sorted(done, key=sort_key)) if done else '<p>None yet.</p>'}
 <h2 id="queue">In the queue</h2>
@@ -354,7 +375,8 @@ def book_page(book, names, has_cover=False):
     row("Time of the journey", esc(book.get("period", "")))
     row("Subjects", esc("; ".join(book.get("subjects", []))))
     if is_jatsi(book):
-        row("Why it is here", f'It is on the list <a href="../../{JATSI_PAGE}">{JATSI}</a>, whose books are being added to this site.')
+        row("Why it is here", f'It is on the list of {jatsi_name()}, whose books are being added to this site '
+                              f'(<a href="../../{JATSI_PAGE}">about these books</a>).')
     # a work in several IA items (book.json source.items, each with a "label" such as "Volume I")
     scans = [(it["ia_identifier"], it.get("label", "")) for it in src.get("items", [])] if len(src.get("items", [])) > 1 else \
         ([(ia, "")] if ia else [])

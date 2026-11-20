@@ -46,6 +46,12 @@ the home page heavy and the lists harder to scan).
 ## The JATSI books on the site (Tom, 2026-11-20)
 
 The reader is told in three places, in plain words: the second paragraph of the home page; the label
-"from Japan As They Saw It" on each such book and queue row (a link to the page that explains it); and the row
-"Why it is here" in the table on the book's own page. `site/about.md` §"Which books" says the same. Nothing in
+"from Japan As They Saw It (about these books)" on each such book and queue row; and the row "Why it is here" in
+the table on the book's own page. Wherever the name stands in running text or a label it links to Tom's project
+(<https://www.gally.net/jatsi/index.html>; `jatsi_name()` in the builder, a Markdown link in `site/*.md`), and
+"about these books" links to the page on this site.
+
+**Links** (Tom, 2026-11-20): every link to another site opens in a new tab or window (`target="_blank"
+rel="noopener"`, added to every page by `outside_links` in `build_site.page`); links within the site do not.
+The EPUB and ODT are not touched. `site/about.md` §"Which books" says the same. Nothing in
 the reading text of a book differs.

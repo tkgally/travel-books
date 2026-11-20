@@ -11,10 +11,10 @@ Wikisource search rate-limited today (none found at the first check). Mabel Loom
 Curtiss James (author of "Deep-Sea Yachting", pp. xxiii–xxxvii) 1867–1941. **One drawing** ("Lighthouse on the
 Beach at Esashi (from a Drawing by Mr. Thompson)", p0423) is by E. A. Thompson, the expedition's mechanician,
 "a young man" in 1896 (p0074): death date not found, birth not before 1856 → under `selection.md` rule 5 the
-drawing is left out of the editions (caption kept, with a note); assumed, question for Tom.
+drawing was left out of version 1 (caption kept, with a note). Tom, 2026-11-20: add it → version 2.
 
 ## Status
-**Published, version 1** (2026-11-19, routine session). Pending: Tom's answer on the Thompson drawing (p0423).
+**Published, version 2** (2026-11-20): the Thompson drawing (p0423) added at Tom's word. Nothing pending.
 
 ## Page map
 p0001 front cover (cloth, crowns stamped; title and author) · p0002 pastedown · p0003 endpaper with an owner's
@@ -80,6 +80,7 @@ problems: none (every printed page present; the folding map was opened).
 |---|---|---|---|---|
 | 1 | 2026-11-19 | PASS — 0 to fix, 2 waived (leaves p0007 tissue guard, p0008 blank); to look at: hyphen-joins 44, joins 9, contents 1 (all read) — tools@9999377 | 30/30; 0 real errors / 6 pages | first publication; one drawing left out (Thompson) |
 
+| 2 | 2026-11-20 | PASS — 0 to fix, 2 waived; to look at: hyphen-joins 9, joins 9, contents 1 — tools@20307e9 | as v1 (text unchanged) | the plate "Lighthouse on the Beach at Esashi" added: one leaf fetched again from IA (viewer page n420, full size), cropped `0.03,0.125,0.905,0.88 --gray --rotate 270`; looked at in the browser build |
+
 ## Known issues
 - The folding map lacks a narrow strip at the fold (scan).
-- Thompson's drawing left out pending Tom's answer.

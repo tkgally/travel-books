@@ -16,7 +16,7 @@ are to be added here gradually (`preferences.md`, that date). This file says how
 
 | What | Where |
 |---|---|
-| The whole list: number, year, title, author, JATSI's one-line summary, IA scans, Gutenberg numbers, `kind`, `hold` | `data/jatsi.json` (does not change when a book is queued or published) |
+| The whole list: number, year, title, author, JATSI's one-line summary, IA scans, Gutenberg numbers, `kind`, `vetted`, `died_after_1955` | `data/jatsi.json` (does not change when a book is queued or published) |
 | A JATSI book's state | its row in `data/queue.json`: `"from": "jatsi"`, `"jatsi": <n>` |
 | The pace | `queue.json` `jatsi_policy`; `python3 tools/ledger.py` says which kind of book is due next |
 | A JATSI book in work or published | `book.json` `"collection": "jatsi"` (goes into the book JSON; the site labels the book from it) |
@@ -27,35 +27,44 @@ are to be added here gradually (`preferences.md`, that date). This file says how
 
 `jatsi_policy`: `{"since": "2026-11-20", "others_before": 6, "others_per_jatsi": 2}`. Counting only books
 started (in progress or published) since the policy began, a JATSI book is due whenever the other books started
-number at least twice the JATSI books started: JATSI, other, other, JATSI, … — one book in three. (My reading of
-"one JATSI book per every three books added"; if Tom meant one after every three others, set `others_per_jatsi`
-to 3. Asked in `preferences.md`.) It is a pace, not a lock: when the JATSI book that is due cannot be started
-(a scan problem, a tool not ready), take another book and let the count catch up.
+number at least twice the JATSI books started: JATSI, other, other, JATSI, … (confirmed by Tom, 2026-11-20).
+It is a pace, not a lock: when the JATSI book that is due cannot be started (a scan problem, a tool not ready),
+take another book and let the count catch up. Tom may run the regular sessions more often later; he does not
+want the lower-priority books to be "years away", so plan for all 247.
 
-## Which rules apply to a JATSI book (`selection.md` has the rules)
+## Which rules apply to a JATSI book (`selection.md` has the rules; Tom's answers of 2026-11-20)
 
 | Rule | For a JATSI book |
 |---|---|
 | 1. a complete, good scan at IA | **Required.** Not necessarily the scan JATSI links: look for a better one of the same edition (many JATSI links are Google or Digital Library of India scans). The edition JATSI lists is the one to transcribe when a good scan of it exists; otherwise the first edition, or the best-scanned one, said in `edition_statement` |
-| 2. no digital text elsewhere | Not required. Checked and recorded. Books without one come first; the 44 with a Project Gutenberg text (`gutenberg` in `jatsi.json`) come last (assumed; asked) |
-| 3. not reprinted after 1914 | Not required. Checked and recorded |
-| 4. a first-person account of the author's own travel | Not required, but it sets the order: `kind` `narrative` first, then `mixed`, then `other` (histories, compilations, guidebooks, reference works: years away, and Tom will be asked again before the first of them) |
-| 5. every author dead more than 70 years | **Required** (it is about copyright, not taste). `hold` in `jatsi.json` marks the ones known to fail, with the year they become free |
+| 2. no digital text elsewhere | Not required; sets priority. A book with a Project Gutenberg text (`gutenberg` in `jatsi.json`, 44 of them) is still done, **transcribed afresh from the scan by the usual pipeline — Gutenberg's text is never used**, not even as a check |
+| 3. not reprinted after 1914 | Not required; sets priority |
+| 4. a first-person account of the author's own travel | Not required; sets priority (`kind`) |
+| 5. every author dead more than 70 years | **Does not apply** (Tom: all are in the public domain in the United States and Japan, and he wants to link the new editions from the JATSI Sources page soon). Still find and record the dates. When an author, editor or credited illustrator died after 1955 (`died_after_1955` in `jatsi.json` has those known), say so in the book's `notes_on_text`: "… died in 1958; the book is in the public domain in the United States and Japan, and may still be in copyright in countries where the term is the author's life and 70 years." The site promises this |
 
 The queue row's `eligibility` says, for each rule, met or not and what was searched, exactly as for other books,
-and begins "JATSI <n>." so that nobody takes an unmet rule 2 or 3 for an oversight. Nothing on the site may say
-of a JATSI book that it has no other edition unless that was checked and is true.
+and begins "JATSI <n>." so that nobody takes an unmet rule for an oversight. Nothing on the site may say of a
+JATSI book that it has no other edition unless that was checked and is true.
 
-## Choosing the next JATSI books
+## Priority
 
-Keep at least four JATSI rows `queued` (`ledger.py` says when there are fewer). To add more: take `narrative`
-entries without `gutenberg` or `hold` from `data/jatsi.json`, vet them by the `select-book` procedure (all five
-checks, the scan looked at, twenty pages read), and prefer, in this order: books that meet all five rules; books
-wholly or mostly about Japan (the others are round-the-world books with a Japan chapter — still eligible, and
-the whole book is transcribed, not only the Japan part: assumed, asked); a spread over the decades 1855–1912 and
-over kinds of writer (naval officers, diplomats, teachers, missionaries, tourists, residents); single volumes
-within the tools' reach. Correct `kind` in `jatsi.json` when reading shows the one-line summary misled.
-A JATSI book that fails rule 1 or 5 gets a queue row `rejected` (or the `hold`), like any other.
+**Normal priority** — queued like any other book and taken in turn: a JATSI book that meets the project's general
+criteria (rules 1–4). How much of it is about Japan does not matter: a round-the-world book with one chapter on
+Japan that meets the criteria is queued like the rest, the whole book transcribed, and marked as JATSI.
+
+**Lower priority, still to be done** — in roughly this order: narratives and mixed books that were reprinted
+after 1914 (the more readable first: several are already queued, because the first batch was chosen before
+this order was settled; they may be taken after the normal-priority rows); books with a text at Project
+Gutenberg; the non-narratives (`kind: other`: histories, compilations, guidebooks, reference works, pamphlets,
+picture books; multi-volume sets last).
+
+Keep at least four JATSI rows `queued` (`ledger.py` says when there are fewer). To add more: take entries from
+`data/jatsi.json` in the order above (those with `vetted` have been looked at: read it first), vet them by the
+`select-book` procedure (the checks, the scan looked at, twenty pages read), and among equals prefer a spread
+over the decades 1855–1912 and over kinds of writer (naval officers, diplomats, teachers, missionaries,
+tourists, residents) and single volumes within the tools' reach. Correct `kind` in `jatsi.json` when reading
+shows the one-line summary misled. A JATSI book with no usable scan gets a queue row `waiting` saying what was
+looked at, to be tried again when IA has another.
 
 Two entries are the same work twice: Oliphant's *Elgin's Mission* (n 13 British edition in two volumes, n 16
 American edition in one); Dilke's "English Influence in Japan" (n 42) is a chapter of *Greater Britain* (n 25).
@@ -79,4 +88,5 @@ Do each work once and say on the queue row which entries it covers.
 
 | Date | What |
 |---|---|
+| 2026-11-20 | Tom's answers: the pace confirmed; rule 5 lifted for JATSI; Gutenberg and non-narrative books lower priority but to be done, afresh; round-the-world books by the general criteria. Eight more rows queued (Sheldon, Kothari, Swainson, Davidson, Fisher, Murray, McLean, Bickersteth): 21 in all. |
 | 2026-11-20 | List taken from the Sources page (247 entries); IA metadata and a Gutenberg catalogue match for all; `kind` assigned from the one-line summaries (narrative 105, mixed 39, other 103); 26 narratives vetted by Opus subagents: 13 queued (8 meet all five rules; 5 meet all but rule 3, having a Ganesha, Elibron or Cambridge reprint), the other 13 have what was found under `vetted` in `data/jatsi.json` (most are held by an author's unknown dates). First in line: *Rambles through Japan without a Guide* (n 86). Session run on Fable by Tom's choice. |
