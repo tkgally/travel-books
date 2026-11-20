@@ -1,7 +1,0 @@
-Differences: "thee" vs "thou'st"... check: line 1 "call thee" in draft is "call thee" — fine. "gulf thee" — fine. "thou’st go" — image "thou’st" fine. Draft "elements crash" fine.
-
-{"find": "those mysterious", "replace": "those mysterious"}
-
-Actually, nothing else differs except the page content: the page's first line begins a new stanza, and the draft's `[[cont]]` is wrong.
-
-{"find": "<verse>\n[[cont]]Arise", "replace": "<verse>\nArise"}

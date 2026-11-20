@@ -169,6 +169,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Trigger: verse and quotations over page breaks
 
+- A stanza that ends at a page foot: drafts put `[[cont]]` on the next page's first stanza, so the editions run two stanzas together (*Twelve Years in Canterbury*: 6 of 13 page-top joins in the Appendix poems; only the rendered look saw it). For every `[[cont]]` inside `<verse>` at a page top, compare the stanza lengths and the rhymes on each side.
 - `[[cont]]` goes on the first line inside the second block, not before `<blockquote>`.
 - A sentence that resumes after a set-off block at a page top must not get `[[cont]]`: it would be joined to
   the paragraph before the block [p2e].

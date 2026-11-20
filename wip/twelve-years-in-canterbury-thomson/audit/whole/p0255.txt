@@ -1,5 +1,0 @@
-{"given": "Science and Discovery.", "print": "SCIENCE AND DISCOVERY.", "sure": "low"}
-{"given": "the Sea and its meteorology; or,", "print": "the Sea and its Meteorology; or,", "sure": "high"}
-{"given": "Archaia; on, Studies of the", "print": "Archaia; or, Studies of the", "sure": "high"}
-{"given": "Manual Mineralogy, including Observations on", "print": "Manual of Mineralogy, including Observations on", "sure": "high"}
-{"given": "New Edition, revised and enlargcd. 12mo.", "print": "New Edition, revised and enlarged. 12mo.", "sure": "high"}

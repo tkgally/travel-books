@@ -1,6 +1,0 @@
-{"given": "the dullest place or earth;", "print": "the dullest place on earth;", "sure": "high"}
-{"given": "for I discovered today—the eighth", "print": "for I discovered to-day—the eighth", "sure": "high"}
-{"given": "that the business the boarding-house in", "print": "that the business of the boarding-house in", "sure": "high"}
-{"given": "to take this concern; or keep", "print": "to take this concern, or keep", "sure": "high"}
-{"given": "smelling extremcly damp and musty.", "print": "smelling extremely damp and musty.", "sure": "high"}
-{"given": "Chapter V.", "print": "CHAPTER V.", "sure": "low"}

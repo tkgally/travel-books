@@ -1,4 +1,0 @@
-{"given": "“Oh, no; it’s all right,”", "print": "“Oh, no, it’s all right,”", "sure": "high"}
-{"given": "at a boarding-house for candle in", "print": "at a boarding-house for a candle in", "sure": "high"}
-{"given": "I certainly shall nor pay for", "print": "I certainly shall not pay for", "sure": "high"}
-{"given": "stuck it for a candlestiek, and", "print": "stuck it for a candlestick, and", "sure": "high"}
