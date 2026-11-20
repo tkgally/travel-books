@@ -34,8 +34,12 @@ Features: menu (p0045), dance programme (p0193), verse (p0215, p. 63), quoted pr
 - Printed so and kept: “Chaper II.” (contents), “W. B. Washburn” (caption), p0194's caption without its opening parenthesis.
 - Corrected misreadings: p0068 “fête” (judge had “féte”), p0096 “ones” (draft “onés”), p0139 caption “Sitka” (draft “Sitká”).
 - keep_hyphens p0100 (major-general). p0038 “water-marks” at a line end: the book hyphenates every water- compound (assumed).
-- Waiver: preflight `conservation` captions: a false alarm of the check (captions beginning with <sc> sort differently);
-  the two caption lists checked equal. The check to be fixed, with a test, by a later session.
+- Preflight `conservation` (captions) failed though the caption lists were equal once squashed: the check sorts the captions
+  before squashing them, and page captions with a straight apostrophe or a leading tag sort differently. Fixed in the book by
+  curling the apostrophes in the captions and typing the <sc> captions in upper and lower case (lessons); no waiver. The
+  check itself is to be fixed (sort after squashing), with a test, by a later session (metrics.md).
+- Captions typed as <sc> in lower case (7) made upper and lower case, like the others (lessons: plates).
+- p0049: `[[cont]]` added before “Brown, two leading citizens” (a paragraph cut by a picture before a capital; rendered look).
 - Back cover not shown (cropped, not used); the endpapers after the map are blank leaves in the map's division.
 
 ## Runs

@@ -138,13 +138,7 @@
   "Fifty-five pages that the transcribing model was not allowed to type were first read by machine OCR (tesseract) and then corrected by a model against the page image: printed pages 2–3, 8, 11, 15–16, 26, 28, 31, 36, 39–41, 43, 46–47, 51–54, 58, 64, 73–74, 80, 82, 84, 87, 90, 95, 98, 108, 112, 114–116, 119, 127, 130, 133–134, 136, 138, 140–142, 161, 164, 166, 173, 176, 179, 181, 183 and 190."
  ],
  "omitted_from_reading": "The covers and endpapers, the portrait, the title page, the printed contents and the list of illustrations are in the JSON only.",
- "waivers": [
-  {
-   "check": "conservation",
-   "match": "pages→JSON captions",
-   "why": "false alarm of the check: the captions of the page files and of the JSON are the same multiset when squashed (checked 2026-11-20); the check sorts them before squashing, and captions that begin with <sc> keep a leading space, so the order differs. To fix in the check, with a test, by a later session."
-  }
- ],
+ "waivers": [],
  "ornaments": [
   "p0010-1",
   "p0023-1",
