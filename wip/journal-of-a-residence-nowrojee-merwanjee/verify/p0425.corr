@@ -1,0 +1,7 @@
+Differences: "polished;" has a semicolon in print.
+
+{"find": "it may be polished; but", "replace": "it may be polished; but"}
+
+Wait, the draft reads "polished; but" already. Checking the rest: "the shives" appears in the print where the draft has "shives" too, so nothing else differs.
+
+NONE
