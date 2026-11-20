@@ -56,6 +56,10 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - Captions printed in small capitals: drafts type some as `<sc>…</sc>` in lower case and the rest in upper and lower
   case; grep `[[caption]] <sc>` and make all upper and lower case (12 of 148 in *Via Rhodesia*).
 
+- A picture printed beside or above the `#` heading of a division left out of the reading editions (advertisements,
+  title page) belongs after that heading in the page file; before it, it ends the previous chapter (*West Coast of
+  Africa*: the royal arms of the advertisements showed at the end of the last chapter).
+- A `toc_title` written by hand is plain text: curl its apostrophes (the compiler does not), and its italics are lost.
 - Decorative chapter head-pieces and tail-pieces: drafts mark each as `[[image:]]`; keep them, crop them, list them
   in `book.json` `ornaments` (shown small; Tom, 2026-11-20).
 - A frontispiece printed sideways has no caption to show which way: crop it, look at both turns.
