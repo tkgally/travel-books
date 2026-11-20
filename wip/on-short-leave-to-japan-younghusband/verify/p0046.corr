@@ -1,7 +1,0 @@
-The quotation closes after "carriage." and "I fetch" starts a new sentence, so the single quote in the draft is misplaced.
-
-{"find": "hired carriage. I fetch good carriage for master,’", "replace": "hired carriage.’ I fetch good carriage for master,’"}
-
-Wait — on the scan the opening quote is before "Not" and there is no quote after "carriage."; the closing quote comes after "master,". The draft's reading matches the scan on that point, so that correction is wrong. Please ignore it. The draft is otherwise correct.
-
-NONE

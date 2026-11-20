@@ -80,6 +80,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 - A comma whose tail did not print looks like a full stop; both readers and the judge took "refreshing. and" as printed
   (*Journal of a Residence* p0271); a full stop before a lower-case word is worth a crop (grep `[a-z]\. [a-z]`).
+- A letter dropped out of the type leaves a gap at the line start (*Short Leave* p0214 " anguage"): mark it `[[corr]]`
+  even inside a quotation of broken English; the gap is the evidence.
 - A worn or broken letter (an *n* whose stroke has gone, so it looks like *r*) is read by judges as the letter it looks like (*Asia Minor* p0119 "rame"). Look for the same break elsewhere on the page before calling it a misprint; a broken letter is transcribed as the letter set, not marked `[[corr]]`.
 
 ## Trigger: drop capitals at chapter openings
@@ -128,6 +130,9 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   printed; the only judge spot on such a word (*saké* vs *sakè*) the verifier had right on the crop; audit 30/30, 0
   candidates. Keep cropping every judge spot and audit candidate on a romanized word; Japanese script: none in it
   (`workflow.md` §"Not yet solved").
+- Second (*On Short Leave to Japan*, 1894): no romanized word reached the judge; the judge's only wrong call was a
+  closing quote the verifier added (p0046). A plate the List of Illustrations places in the text may be bound as the
+  frontispiece in every copy: check a second scan before moving it.
 - The year of the journey is often not printed: work it out from weekdays given with dates and from what the
   traveller could use (railways), and say in the summary that it is inferred.
 

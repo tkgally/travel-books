@@ -20,6 +20,7 @@
 | Rambles through Japan without a Guide v2 | 2026-11-20 | 301 drafted (2 from a second scan) | (no new model calls) | – | – | – | 0 | 0 | PASS, 1 waived | as v1 | head- and tail-pieces added at Tom's word |
 | Our Ride through Asia Minor v1 | 2026-11-20 | 418 drafted of 430 | Opus draft → Sonnet corrections → Opus judge; 2 pages by the OCR fallback (tesseract + Opus) | 11 | 9 / 2 / 0 | 1 (p0119 "rame": a broken n, judge sided with the verifier) | 42.13 | 0 | PASS, 4 waived | 30/30 + 10/10 on the fallback pages; 0 / 8 | |
 | Journal of a Residence in Great Britain v1 | 2026-11-20 | 529 drafted of 538 | Opus draft → Sonnet corrections → Opus judge; 1 page by the OCR fallback (tesseract + Opus); Opus subagent spot-read of 38 table and verse pages | 20 | 14 / 6 / 0 | 2 (p0212 a speck read as a full stop; p0499 “yield,” for “yield.”) | 50.78 | 0 | PASS, 8 waived | 30/30 + 5/5 on the fallback page; 0 / 7 | |
+| On Short Leave to Japan v1 | 2026-11-20 | 262 | Opus draft → Sonnet corrections → Opus judge | 10 | 9 / 1 / 0 (7 structural, contents) | 1 (p0046: the verifier's added closing quote; the print has none) | 24.38 | 0 | PASS, 0 waived | 30/30; 0 / 6 | |
 
 ## Calibrations
 
@@ -44,4 +45,5 @@
 | 2026-11-19 | hyphen-joins (observe) | review of five books: 122 items, 6 real (compounds kept with `keep_hyphens`). Joins giving a word the book prints whole elsewhere (91) are no longer listed, only counted; a join whose hyphenated form, or whose first part with a hyphen, the book prints elsewhere is marked "keep_hyphens?". Same books: 27 items, all 6 keeps among them; verdicts unchanged. Test `HyphenJoins`. |
 | 2026-11-20 | joins (observe) | *Rambles*: 10 "[[cont]] after a closed sentence", 0 real (all flush left); 1 missing [[cont]] real (p0225). With the 37 of the first review: 47 alarms of that half, 0 real. |
 | 2026-11-20 | joins (observe) | *Journal of a Residence*: 7 “[[cont]] after a closed sentence”, 0 real (all flush left); 1 missing [[cont]] real (p0199). That half now 54 alarms, 0 real: drop it at the next review. |
+| 2026-11-20 | joins (observe) | *On Short Leave to Japan*: 11 “[[cont]] after a closed sentence”, 0 real (all flush left, checked on the scan); 1 “missing [[cont]]” after a verse at a page top, correct by the rule. That half now 65 alarms, 0 real. |
 | 2026-11-19 | joins (observe) | review: 37 alarms in five books, 0 real (every one a page starting flush left: the paragraph goes on). Kept; if the next five books bring no real one, drop the "[[cont]] after a closed sentence" half. |

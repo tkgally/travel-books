@@ -273,11 +273,13 @@
    "place": "London",
    "publisher": "Sampson Low, Marston & Company",
    "images": 274,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-20",
    "eligibility": "JATSI 98. All five rules met. Rule 1: Cornell scan (Kirtas, greyscale), clean; onshortleavetoja00younrich (University of California, 274 images, 500 ppi) is probably better for the 8 halftone plates: compare before fetching. Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person account of a few months' leave from India in 1893; about three-quarters on Japan; the last chapter is an essay on the Japanese army. Rule 5: George John Younghusband 1859–1944 (LC). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record. Re-checked 2026-11-20 (session): web search of the title found library records, a Spectator review (12 May 1894) and raw HathiTrust OCR (distantreader.org, not an edition); no text edition, no reprint. Scan chosen: onshortleavetoja00younrich (University of California, 500 ppi), complete pp. 1-233 and 8 plates; the Cornell scan cu31924023219748 not fetched.",
    "note": "About 233 pp.; 8 photographic plates, no photographer named; few footnotes; publisher's advertisements at the end.",
-   "started": "2026-11-20"
+   "started": "2026-11-20",
+   "version": 1,
+   "published": "2026-11-20"
   },
   {
    "order": 16,
