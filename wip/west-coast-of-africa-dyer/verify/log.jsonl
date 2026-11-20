@@ -1,0 +1,4 @@
+{"page": "p0006", "model": "sonnet", "corrections": 0, "seconds": 3.8, "cost": 0.0298857, "completion_tokens": 174, "turns": 2, "attempts": 1}
+{"page": "p0007", "model": "sonnet", "corrections": 0, "seconds": 5.2, "cost": 0.032907900000000004, "completion_tokens": 377, "turns": 2, "attempts": 1}
+{"page": "p0008", "model": "sonnet", "corrections": 1, "seconds": 4.0, "cost": 0.0303202, "completion_tokens": 240, "turns": 2, "attempts": 1}
+{"page": "p0009", "model": "sonnet", "corrections": 0, "seconds": 4.3, "cost": 0.0319291, "completion_tokens": 225, "turns": 2, "attempts": 1}
