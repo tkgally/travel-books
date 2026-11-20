@@ -20,10 +20,26 @@ Features: drop capitals at chapter openings; verse at p0040, p0164, p0166, p0205
 (Raleigh, Las Casas, pp. 7–10); index in two columns; no footnotes seen; no ornaments.
 
 ## Decisions
+- p0025 (second shot of p. 1) and p0026 (blank frame) not drafted; waived in `leaves`.
+- The book's title printed again above Chapter I is left out (as in *West Coast of Africa*); said in `notes_on_text`.
+- Drop capitals: the rest of the first word is printed in full capitals (crops of pp. 50 and 97); all seven openings typed so.
+- Running heads typed as headings by the drafts removed (p0023, p0085, p0379, p0381); VII's title made a `[[subtitle]]` like the others.
+- Captions as printed: “Simon Bolivar” without accents, “Guarano”, “Tetteron’s”. Bolívar caption's two lines joined with a full stop.
+- keep_hyphens p0132 (mid-afternoon, printed so on p0095), p0162 (half-hearted: the book hyphenates half- compounds), p0169
+  (sailing-vessel: sailing-ships, sailing-time); archway and unfeeling closed (assumed for archway: not printed elsewhere).
+- Accents list (8 groups) checked on the scan: balata/balatá, ò, sûre, qué/que, Senor/Señor, pièce de résistance all as printed.
+- Contents: the seven chapters with their titles, as printed; nothing added. Year of the journey (1911) inferred from the
+  centenary of independence (plate and text), said in the summary.
+- The publisher's device on the title page and the six advertisement pictures cropped (in the JSON only).
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-20 | Opus | 381 | 23.16 | no errors, none refused |
+| corrections | 2026-11-20 | Sonnet | 381 | 11.77 | 12 changes (5 markup, 7 words); started on the first half while the draft ran |
+| judge | 2026-11-20 | Opus | 7 spots | 0.31 | draft 5 / verifier 2; scan overturned none (p0381 '# Index' is a running head: removed) |
+| audit | 2026-11-20 | Opus | 6 | 0.33 | p0074, p0162, p0186, p0207, p0237, p0273: 30/30, 0 candidates |
+| spot-read | 2026-11-20 | Opus subagent | 24 | – | front matter, old quotations, verse, Spanish/French, index: no differences |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
