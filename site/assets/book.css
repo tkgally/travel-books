@@ -21,6 +21,8 @@
 .book .sc { font-variant: small-caps; letter-spacing: 0.03em; }
 .book figure { text-align: center; margin: 1.5em 0; page-break-inside: avoid; break-inside: avoid; }
 .book figure img { max-width: 100%; max-height: 90vh; height: auto; width: auto; }
+.book figure.ornament { margin: 1em 0; }
+.book figure.ornament img { max-width: 12em; max-height: 5em; }
 .book figcaption { font-size: 0.88em; margin-top: 0.4em; text-align: center; }
 .book hr.break { border: 0; height: 0; margin: 0 0 1.6em 0; }
 .book .tablewrap { overflow-x: auto; margin: 1em 0; }
