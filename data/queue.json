@@ -830,7 +830,7 @@
    "status": "queued",
    "checked": "2026-11-20",
    "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv (full file, pglaf mirror); The Online Books Page: HathiTrust scans only; Wikisource: none; Open Library: 1887 and Read Books 2010 (print on demand); web searches of the title and of a sentence from ch. XI: no text. Author and illustrator Sir Edward Robert Pearce Edgcumbe 1851–1929 (Online Books Page authority). Not checked: Faded Page.",
-   "note": "University of Toronto scan, 500 ppi; a second copy zephyrusholidayi00edgc (UC, 400 ppi) as a fallback. A map and the author's text illustrations; a Chatto catalogue at the end. A banker and his wife by Royal Mail steamer to Rio, Santos and São Paulo, then the River Plate, Uruguay and Buenos Aires; a week of quarantine on the Isla de Flores. Some chapters on railways and loans."
+   "note": "University of Toronto scan, 500 ppi; a second copy zephyrusholidayi00edgc (UC, 400 ppi) as a fallback. A map and the author's text illustrations; a Chatto catalogue at the end. A banker and his wife by Royal Mail steamer to Rio, Santos and São Paulo, then the River Plate, Uruguay and Buenos Aires; a week of quarantine on the Isla de Flores. Some chapters on railways and loans. Scan check 2026-11-20 (Opus subagent, full): the Toronto copy lacks the leaf pp. 160–161 and has pp. 162–163 twice (p0178–p0179); the UC scan has the leaf (its n178–n179): take those two pages as extra leaves. Map p0008 and Uruguay map p0138 clear; 41 text cuts, all clear. Re-checked 2026-11-20: web search finds no text edition or reprint; Faded Page search: none."
   },
   {
    "order": 47,

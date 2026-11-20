@@ -6,3 +6,16 @@
 {"page": "p0010", "model": "sonnet", "corrections": 0, "seconds": 3.5, "cost": 0.029956499999999997, "completion_tokens": 134, "turns": 2, "attempts": 1}
 {"page": "p0011", "model": "sonnet", "corrections": 0, "seconds": 4.3, "cost": 0.0318433, "completion_tokens": 262, "turns": 2, "attempts": 1}
 {"page": "p0012", "model": "sonnet", "corrections": 0, "seconds": 3.2, "cost": 0.031096299999999997, "completion_tokens": 134, "turns": 2, "attempts": 1}
+{"page": "p0013", "model": "sonnet", "corrections": 0, "seconds": 4.4, "cost": 0.0329304, "completion_tokens": 317, "turns": 2, "attempts": 1}
+{"page": "p0014", "model": "sonnet", "corrections": 2, "seconds": 5.1, "cost": 0.0350909, "completion_tokens": 408, "turns": 2, "attempts": 1}
+{"page": "p0015", "model": "sonnet", "corrections": 0, "seconds": 4.9, "cost": 0.0352982, "completion_tokens": 448, "turns": 2, "attempts": 1}
+{"page": "p0016", "model": "sonnet", "corrections": 2, "seconds": 5.0, "cost": 0.035595, "completion_tokens": 458, "turns": 2, "attempts": 1}
+{"page": "p0017", "model": "sonnet", "corrections": 0, "seconds": 4.5, "cost": 0.0350636, "completion_tokens": 386, "turns": 2, "attempts": 1}
+{"page": "p0018", "model": "sonnet", "corrections": 0, "seconds": 5.3, "cost": 0.0331249, "completion_tokens": 400, "turns": 2, "attempts": 1}
+{"page": "p0019", "model": "sonnet", "corrections": 0, "seconds": 3.4, "cost": 0.0310786, "completion_tokens": 213, "turns": 2, "attempts": 1}
+{"page": "p0020", "model": "sonnet", "corrections": 0, "seconds": 3.7, "cost": 0.032145099999999996, "completion_tokens": 211, "turns": 2, "attempts": 1}
+{"page": "p0021", "model": "sonnet", "corrections": 0, "seconds": 3.1, "cost": 0.031821999999999996, "completion_tokens": 134, "turns": 2, "attempts": 1}
+{"page": "p0022", "model": "sonnet", "corrections": 0, "seconds": 3.6, "cost": 0.032475199999999996, "completion_tokens": 219, "turns": 2, "attempts": 1}
+{"page": "p0023", "model": "sonnet", "corrections": 0, "seconds": 3.2, "cost": 0.0313833, "completion_tokens": 134, "turns": 2, "attempts": 1}
+{"page": "p0024", "model": "sonnet", "corrections": 0, "seconds": 3.0, "cost": 0.0317277, "completion_tokens": 134, "turns": 2, "attempts": 1}
+{"page": "p0025", "model": "sonnet", "corrections": 0, "seconds": 3.1, "cost": 0.0319391, "completion_tokens": 174, "turns": 2, "attempts": 1}
