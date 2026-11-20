@@ -5,8 +5,8 @@ one leaf. Eligibility: re-checked 2026-11-20: web search finds no text edition o
 none. Author and illustrator 1851–1929.
 
 ## Status
-Stage reached: (a) scan checked, extra leaf added, Drive folder `1pPElfqAvtAicImSEXSrEn1OvsyFTAbGB` (23 parts uploading); Opus draft running.
-Next step: corrections pass; review; judge; crops (workflow §3, §5).
+Stage reached: (c) preflight PASS, audit done; rendered look running. Drive folder `1pPElfqAvtAicImSEXSrEn1OvsyFTAbGB`, 23 parts.
+Next step: rendered look findings; publish.
 
 ## Page map
 p0001 cover · p0002 bookplate (Brascan, Toronto) · p0003 blank · p0004 IA digitization sheet · p0005 series half-title
@@ -28,10 +28,21 @@ Portuguese and Spanish names with accents (preflight `accents`). Draft: p0005–
 p0180–p0292.
 
 ## Decisions
+- Pages 160–161 (one leaf) are missing from the Toronto copy, which has 162–163 twice: taken from the UC scan (n175, n176, checked by their page numbers) as p0175a, p0175b (`source.extra_leaves`); the repeated p0178–p0179 and the tissue guard p0009–p0010 are not transcribed (waivers `leaves`). Audit of the two UC pages: 10/10.
+- Contents: chapter number and title for every chapter (the printed contents gives titles only). Series half-title, title page, contents, the half-title above Chapter I (p0017, `front` n 1), index and the catalogue: JSON only. Frontispiece map p0008-1 moved to the start of Chapter I.
+- Cover: the decorated cloth cover, in colour, cropped above the library barcode.
+- 45 pictures cropped by an Opus subagent (all looked at; descriptions checked against the drawings: none wrong). The catalogue frieze (p0261) had the printed date "July, 1887" touching its corner: painted out in the crop (the date is in the text).
+- The judge dropped the ostrich picture on p0171 (the verifier had left it out): the draft's page used. Printer's error: "râtes" (p0238, a stray accent, crop). Five paragraphs split by a picture (`image-splits`) and one after the Uruguay map (spot-read): `[[cont]]` added.
+- Spot-read (Opus subagent, 38 pages in full and every caption): "Our Light Van" has a damaged full stop (supplied); "Clearly this the place to" (p0024) is as printed and left; tables p0189, p0241 and all accents (Măc-ē-ō, Cĕdŭlas, Paysandù, Santa Fé, Paraná, bonâ fide, μάντις) as printed. Captions made title case throughout (five were typed in lower case).
+- Hyphens at page joins: tea-caddy, dining-room kept (keep_hyphens); framework, unseemly, insufferably joined.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-20 | opus | 286 | 19.63 | no refusals |
+| corrections | 2026-11-20 | sonnet | 286 | 9.38 | 55 changes; 46 spots |
+| judge | 2026-11-20 | opus | 46 spots | 1.25 | 5 draft, 41 verified; 11 reported; one dropped picture restored; 1 printer's error (crop) |
+| audit | 2026-11-20 | opus | 6 + 2 | 0.46 | 29/29 and 10/10 (UC pages); 0 candidates |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
