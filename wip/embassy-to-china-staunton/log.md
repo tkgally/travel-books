@@ -26,6 +26,10 @@ wip/embassy-to-china-staunton/source.json $B/pages`):
    numbers on the plates, p1322 "but"/"butt", p2095 "Col-lao"); the 7 corrections not applied in `review.py`'s list
    (p1316, p1410, p1512, p2009, p2029a, p2054, p2593); a sample of `running-quotes.txt` on crops; the singleton side-note variants (p1268, p1467, p2073, p2128, p2161, p2215,
    p2380, p2447, p2478, p2510: printed so, or misread?); tables (p1330, p1500, p2649–p2660, the plant lists).
+3a. Multi-paragraph quotations (Tom 2026-11-20, `style.md`): find quotations of several paragraphs (a paragraph
+   ending ” followed by one starting “ that goes on with the same quotation; the printed contents and the scan settle
+   it); drop the inner closing marks, supply missing inner opening marks. Say in `notes_on_text` that the quotation
+   marks follow modern practice.
 4. Structure: two volumes as parts (`# Volume I` …), contents, divisions (front matter, lists of plates,
    appendix), placement of the folio plates (decide: a part of its own after vol. II, each plate with its
    engraved caption, the vol. I "List of the Plates" kept as their description — leaning, assumed).
@@ -81,7 +85,9 @@ cannot be separated). Say in `notes_on_text` which pictures come from the Getty 
 
 ## Decisions
 - Running quotation marks (the printer repeats “ at the start of every line of a quotation): left out, the
-  quotation's own opening and closing marks kept (`style.md`, assumed; question for Tom in `preferences.md`). Found by
+  quotation's own opening and closing marks kept. **Confirmed by Tom 2026-11-20**, who added: quotations of several
+  paragraphs marked by quotation marks follow modern practice (opening mark at each paragraph, closing mark only at
+  the end of the whole quotation) — `style.md`. Found by
   the judge (p1410: the draft kept ten repeats, Sonnet dropped them, the judge sided with the draft).
 - Side-notes: the book prints a marginal title beside the first line of most pages (repeated from page to page
   while the topic lasts), with a rule under it. Transcribed as `[[side: …]]` before the first word of the line it
