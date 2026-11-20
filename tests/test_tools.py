@@ -1219,6 +1219,44 @@ class ImageSplits(unittest.TestCase):
         self.assertEqual(preflight.CHECKS["image-splits"][0], "enforce")
 
 
+class CorrectionPage(unittest.TestCase):
+    """A correction on an unnumbered page was listed on the book page by its leaf name ("p0013"), which means
+    nothing to a reader (*Cruise*, *West Coast*, *From West Africa to Palestine*; open since the review of 2026-11-19)."""
+
+    def test_unnumbered_page_named_by_division(self):
+        book = {"divisions": [{"id": "d005", "title": "Contents."}]}
+        c = {"leaf": "p0013", "division": "d005", "printed": "Maderia", "corrected": "Madeira"}
+        self.assertEqual(build_site.correction_page(book, c, {"p0013": ""}), "Contents, unnumbered page")
+
+    def test_abbreviation_kept(self):
+        book = {"divisions": [{"id": "d020", "title": "Publications of J. Griffin & Co.,"}]}
+        c = {"leaf": "p0400", "division": "d020", "printed": "x", "corrected": "y"}
+        self.assertEqual(build_site.correction_page(book, c, {}), "Publications of J. Griffin & Co., unnumbered page")
+
+    def test_numbered_page_keeps_number(self):
+        c = {"leaf": "p0042", "division": "d009", "printed": "a", "corrected": "b"}
+        self.assertEqual(build_site.correction_page({"divisions": []}, c, {"p0042": "36"}), "36")
+
+
+class NoteTail(unittest.TestCase):
+    """*My Life in Mongolia and Siberia* (2026-11-20): a footnote with a table and a second paragraph typed on lines
+    of their own after `[[fn 1]]`; the compiler set them as body text (caught only by the rendered look)."""
+
+    def test_table_after_note_listed(self):
+        pages = [("p0011", "[[page viii]]\nText.[[fnref 1]]\n\n[[fn 1]] Figures for the years.\n| a | 1 |\nMore of the note.\n")]
+        items = preflight.check_note_tail(pages)
+        self.assertEqual(len(items), 1)
+        self.assertIn("p0011", items[0])
+
+    def test_notes_only_pass(self):
+        pages = [("p0012", "[[page ix]]\nText.[[fnref *]] More.[[fnref †]]\n\n[[fn *]] One.\n\n[[fn †]] Two.\n"),
+                 ("p0013", "[[page x]]\n[[fn cont]] the rest of a note.\n")]
+        self.assertEqual(preflight.check_note_tail(pages), [])
+
+    def test_observe(self):
+        self.assertEqual(preflight.CHECKS["note-tail"][0], "observe")
+
+
 class SiteText(unittest.TestCase):
     """*West Coast of Africa* (2026-11-20): contents titles written by hand in book.json kept straight apostrophes,
     which reached the site and the EPUB nav; the text checks read only the page files."""

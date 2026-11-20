@@ -357,6 +357,19 @@ def build_book(out, bookdir, strict=True):
     return book, warnings
 
 
+def correction_page(book, c, pnum):
+    """The page of a correction as the book's page list names it: the printed number, or for an unnumbered page the
+    division it is in ("Contents, unnumbered page"), not the scan's leaf name (reviews of 2026-11-20)."""
+    n = pnum.get(c["leaf"], "")
+    if n:
+        return n
+    title = next((d.get("title") for d in book.get("divisions", []) if d.get("id") == c.get("division")), "")
+    title = (title or "").rstrip(",;: ")
+    if title.endswith(".") and not re.search(r"\b\w{1,3}\.$", title):   # "Contents." → "Contents"; keep "& Co."
+        title = title[:-1]
+    return f"{title}, unnumbered page" if title else "unnumbered page"
+
+
 def book_page(book, names, has_cover=False):
     src = book.get("source", {})
     ia = src.get("ia_identifier")
@@ -402,7 +415,7 @@ def book_page(book, names, has_cover=False):
     corr = book.get("corrections", [])
     pnum = {p["leaf"]: p["number"] for p in book["pages"]}
     corr_rows = "".join(
-        f'<tr><td>{esc(pnum.get(c["leaf"], "") or c["leaf"])}</td><td>{esc(c["printed"])}</td><td>{esc(c["corrected"])}</td></tr>' for c in corr)
+        f'<tr><td>{esc(correction_page(book, c, pnum))}</td><td>{esc(c["printed"])}</td><td>{esc(c["corrected"])}</td></tr>' for c in corr)
     notes = "".join(f"<li>{esc(n)}</li>" for n in book.get("notes_on_text", []))
     hist = "".join(f'<li>Version {h["version"]}, {esc(h["date"])}: {esc(h["note"])}</li>' for h in book.get("history", []))
     cover = '<img class="cover" src="images/cover.jpg" alt="Cover of the book"/>' if has_cover else ""
