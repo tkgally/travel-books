@@ -52,8 +52,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Trigger: plates (tipped-in leaves) and a frontispiece
 
-- Decorative chapter head-pieces and tail-pieces: drafts mark each as `[[image:]]`; not in the List of Illustrations,
-  so left out of the page files, with a line in `notes_on_text` [*Rambles*, 2026-11-20; assumed].
+- Decorative chapter head-pieces and tail-pieces: drafts mark each as `[[image:]]`; keep them, crop them, list them
+  in `book.json` `ornaments` (shown small; Tom, 2026-11-20).
 - A frontispiece printed sideways has no caption to show which way: crop it, look at both turns.
 - Plates printed sideways: `crop_image.py --rotate 270` when the caption reads bottom to top along the right edge.
 - Set `frontispiece` in book.json, with or without a caption (preflight follows moved images since 2026-11-19).

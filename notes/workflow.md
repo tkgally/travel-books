@@ -184,7 +184,9 @@ mkdir -p $W/pages && cp $W/judge/p*.txt $W/pages/
 
 For each `[[image: …]]`: crop from the full-size leaf (`crop_image.py`, box in fractions of the leaf worked out
 on the small image), save as `$W/images/pNNNN-k.jpg`, and look at every crop. Engravings and line drawings:
-`--gray`. Longest side 1600 px, so a book with 100 plates stays under ~30 MB. `images/cover.jpg`: the front
+`--gray`. Longest side 1600 px, so a book with 100 plates stays under ~30 MB. Decorative head-pieces and tail-pieces
+(ornamental cuts at chapter openings and ends) are cropped too (`--max 600`) and listed in `book.json` `ornaments`:
+the editions show them small (Tom, 2026-11-20). `images/cover.jpg`: the front
 cover if it is decorated, otherwise the title page. Alt text = the `[[image: …]]` description: say what is
 shown, in a few plain words.
 
