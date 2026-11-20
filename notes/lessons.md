@@ -92,6 +92,12 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   even inside a quotation of broken English; the gap is the evidence.
 - A worn or broken letter (an *n* whose stroke has gone, so it looks like *r*) is read by judges as the letter it looks like (*Asia Minor* p0119 "rame"). Look for the same break elsewhere on the page before calling it a misprint; a broken letter is transcribed as the letter set, not marked `[[corr]]`.
 
+## Trigger: accented names and foreign words (many diacritics)
+
+- List every accented word by its base form (accents stripped) and send the groups spelled differently to an Opus
+  subagent with crops: in *Land of the North Wind* 23 groups, 35 pages wrong. A wide circumflex printed over two
+  letters ("oû") was read as an acute, grave or breve on one of them; the Sonnet pass and the judge did not settle it.
+
 ## Trigger: drop capitals at chapter openings
 
 - Drafts type the capitals after a drop capital as small capitals (`T<sc>he</sc>`) on some chapters and as capitals
@@ -193,6 +199,11 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - Model names change monthly: read `/api/v1/models` first.
 
 ## Environment
+
+- Several tesseract processes at once (subagents' `crop_spot.py`, `ocr_fallback.py`, a bulk run) each take four threads
+  and slowed one page to 15 minutes (2026-11-20): `OMP_THREAD_LIMIT=1` and at most four at a time.
+- A subagent's report of lost text is checked with `grep` on the page file before anything is re-run (*Land of the
+  North Wind* p0317: "11 lines missing" were there; its view of the line was cut).
 
 - CI (`pages.yml`) installs only Pillow before the tests: a test that needs another package must add it there (a test importing `crop_image` broke the deploy on 2026-11-19).
 - `sleep` in a foreground command is blocked: run long commands in the background and do other work meanwhile.

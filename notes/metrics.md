@@ -33,6 +33,7 @@
 | A Journey through the Caucasus v2 | 2026-11-20 | — | metadata only | 0 | — | 0 | 0 | 0 | PASS | record copied | summary: one straight apostrophe curled (new check site-text) |
 | A Jaunt in Japan v1 | 2026-11-20 | 176 | Opus draft → Sonnet corrections → Opus judge; spot-read of 14 pages by an Opus subagent | 1 | 1 / 0 / 0 | 0 | 15.65 | 0 | PASS, 1 waived (duplicate leaf) | 30/30; 0 / 6 (errata slip applied: 6) | |
 | An Autumn Tour in Western Persia v1 | 2026-11-20 | 331 | Opus draft → Sonnet corrections → Opus judge; spot-read of 40 pages (title, lists, captions, drawings, verse, catalogue) by an Opus subagent | 16 | 9 / 6 / 1 (9 were drop-capital openings) | 0 | 32.20 | 0 | PASS, 1 waived (blank leaf) | 28/28; 0 / 6 | |
+| The Land of the North Wind v1 | 2026-11-20 | 371 | Opus draft → Sonnet corrections → Opus judge; spot-read of special pages and an accent check of 23 variant groups on crops (Opus subagents: 35 pages fixed) | 22 | 13 / 7 / 2 | 0 | 38.68 | 0 | PASS, 6 waived (blank leaves) | 30/30 + 100/100; 2 / 26 (p0192 misreading, p0132 unmarked printer’s error) | |
 
 ## Calibrations
 
