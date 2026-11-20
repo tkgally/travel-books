@@ -80,7 +80,8 @@
   "Transcribed from the copy at the Getty Research Institute (Internet Archive: journalofresiden00jaha).",
   "Printed page 182 was first read by an OCR program (Tesseract), because the Claude models would not transcribe it; that reading was corrected against the page image by a Claude model and then proofread like the other pages.",
   "Chapter XXXIII is headed “Chapter XXXII.” in the print; corrected here, as in the printed contents.",
-  "The publisher’s line under the frontispiece (“Published by W. H. Allen & Co. Leadenhall Street, April, 1841.”) and the artists’ names (G. Bragg, del.; J. R. Jobbins, Litho.) are left out of the caption."
+  "The publisher’s line under the frontispiece (“Published by W. H. Allen & Co. Leadenhall Street, April, 1841.”) and the artists’ names (G. Bragg, del.; J. R. Jobbins, Litho.) are left out of the caption.",
+  "The contents add entries of the editor’s, by date and place, for the long Chapter XXXI (the tour of the dockyards and seaports, October–December 1840)."
  ],
  "ornaments": [
   "p0523-1"
@@ -110,5 +111,37 @@
  "keep_hyphens": [
   "p0251",
   "p0454"
+ ],
+ "toc_entries": [
+  {
+   "at": "p0420",
+   "starts": "We started exactly at eleven",
+   "title": "October 1840: Southampton, Portsmouth and Gosport"
+  },
+  {
+   "at": "p0432",
+   "starts": "On the 29th of October we left Portsmouth",
+   "title": "29 October–5 November: Plymouth and Devonport"
+  },
+  {
+   "at": "p0442",
+   "starts": "We were very much pleased with our visit",
+   "title": "5–8 November: Bristol"
+  },
+  {
+   "at": "p0447",
+   "starts": "On the 8th of November we left Bristol",
+   "title": "8–14 November: Gloucester, Birmingham and Liverpool"
+  },
+  {
+   "at": "p0458",
+   "starts": "On the 14th of November we left Liverpool",
+   "title": "From 14 November: Glasgow and Greenock"
+  },
+  {
+   "at": "p0478",
+   "starts": "We left Glasgow at twelve",
+   "title": "Return by Liverpool to London, 1 December; the time and cost of the tour"
+  }
  ]
 }
