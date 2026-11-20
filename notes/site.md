@@ -72,8 +72,14 @@ What Tom decided is in `preferences.md` (2026-11-20, "display settings"). How it
 - **Without scripts** nothing of this exists: the "Display" button and "Continue reading" (book page) are made by
   the script, the chapter pages keep the page-number checkbox (the script removes it and offers the same in the
   panel), and the dark colours still follow the device (`prefers-color-scheme`, `:root:not([data-theme])`).
-- **Scope:** colours and link underlining on every page; everything else on `article.book` (and the column width on
-  `body:has(article.book)`). The button is only on chapter pages, to the right of "About".
+- **Scope** (Tom's second message, after seeing it): the button is on every page, to the right of "About". Colours,
+  size, typeface, line, letter and word spacing, column width and link underlining apply to every page;
+  justification, paragraph style and correction marks only to `article.book`.
+- **Size:** `--tb-size` multiplies the root font size, so everything in `rem` grows with it (the column width too:
+  the number of letters in a line stays about the same). **The header, the breadcrumbs and the panel follow it only
+  up to 1.4, the sixth of the nine sizes** (`--tb-hs`; their font size is `1rem * hs / size`, and the panel's
+  measures are in `em` for that reason). The side padding of the page does not grow. New rules for the site pages
+  should use `rem` or `em`, not `px`, or they will not follow the setting.
 - **The panel:** basic (colours, size, typeface, line spacing) and, behind "More settings", advanced (width,
   justified/ragged, paragraph style, letter and word spacing, four on/off buttons, reset). Controls are pictures;
   each has an `aria-label`, and the same words appear as a tip under it for a mouse (`hover: hover`) or keyboard
