@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "", "sure": "medium"}
-{"n": 2, "is": "A", "print": "h Rhodesia\n\n[[cont]]the Pamparway and the M’lomwa, and lies about 4800 feet above sea-level, and the air is invigorating.\n\nTwo days’", "sure": "medium"}

@@ -86,7 +86,8 @@ LibreOffice (`soffice`) is in the image; preflight needs it for the ODT check.
 4. **Completeness and quality check — before anything is spent.** Look at ALL the contact sheets, and at full
    size at a dozen pages spread through the book plus anything that looks odd on the sheets. The scan fails if
    any page is missing (follow the printed page numbers through; `leaves.json` has IA's own numbering),
-   duplicated in place of another, cut off, out of focus, hidden by a hand or a fold, or if a folding plate or
+   duplicated in place of another, cut off, out of focus, hidden by a hand, a fold or a loose slip of paper (IA's page
+   numbers count straight through such a leaf: *A Woman's Winter in Africa*, rejected 2026-11-20), or if a folding plate or
    map was not opened. A failed scan → try another IA scan of the same edition; none → queue row `rejected`
    with the reason. A few leaves missing or damaged (a missing first page, a plate cut off at the edge) can be taken from
    another scan of the same edition, page by page, without fetching its whole archive:

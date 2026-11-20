@@ -1,8 +1,0 @@
-Draft omits "for." at end of first paragraph.
-
-{"find": "not being cared for.", "replace": "not being cared for."}
-{"find": "his not being cared", "replace": "his not being cared"}
-
-Wait — correcting: the draft ends "cared" without "for."
-
-{"find": "being cared for.", "replace": "being cared for."}

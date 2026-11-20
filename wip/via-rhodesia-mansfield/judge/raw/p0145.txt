@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "Arriving\n\n[[image: photograph of a small corrugated-iron hut with a veranda, a European man and an African man holding up a dead crocodile beside it]]\n[[caption]] Crocodile Shot on Railway Bridge at Victoria Falls (By kind permission of the shot, Mr. Sloper)\n\n[[cont]]at the bridg", "sure": "high"}
-{"n": 2, "is": "A", "print": "the gorge.\n\nOn the way", "sure": "high"}

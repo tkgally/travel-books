@@ -1,1 +1,0 @@
-{"n": 1, "is": "B", "print": "[[image: faint folded map]]", "sure": "medium"}

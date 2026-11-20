@@ -1,2 +1,0 @@
-{"n": 1, "is": "A", "print": "carried\n\n[[image: photograph of a line of African carriers squatting in front of a tent, with the author seated in the tent doorway]]\n[[caption]] My Carriers. To author's right the machilla, to author's left the tanga-tanga boys\n\n[[cont]]on elsewhere", "sure": "high"}
-{"n": 2, "is": "B", "print": "crowd of men", "sure": "high"}

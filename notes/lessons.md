@@ -53,6 +53,9 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Trigger: plates (tipped-in leaves) and a frontispiece
 
+- Captions printed in small capitals: drafts type some as `<sc>…</sc>` in lower case and the rest in upper and lower
+  case; grep `[[caption]] <sc>` and make all upper and lower case (12 of 148 in *Via Rhodesia*).
+
 - Decorative chapter head-pieces and tail-pieces: drafts mark each as `[[image:]]`; keep them, crop them, list them
   in `book.json` `ornaments` (shown small; Tom, 2026-11-20).
 - A frontispiece printed sideways has no caption to show which way: crop it, look at both turns.
@@ -95,6 +98,12 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   others), and `[[cont]]` lands mid-page after a heading. Make it plain lines as printed (`[[center]]` number and
   title, the topics as a paragraph ending in `<pref>`), drop "PAGE" heads and dot leaders [*South by West*, 2026-11-19].
 - A page that starts flush left after a closed sentence is still a continuation (`joins` lists it): look at the indent.
+
+## Trigger: quotations set in the text type
+
+- Letters, reports and newspaper extracts printed in the text type with a little space round them: drafts make some of
+  them `<blockquote>` and not others, and a `[[cont]]` at the top of the next page then has nothing to continue (compile
+  warning). Look at the scan: same type and measure → plain paragraphs throughout (*Via Rhodesia*, 2026-11-20).
 
 ## Trigger: footnotes
 

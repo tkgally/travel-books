@@ -1,1 +1,0 @@
-{"n": 1, "is": "A", "print": "[[caption]] <sc>fire-drill on board “kronprinz”</sc>", "sure": "medium"}

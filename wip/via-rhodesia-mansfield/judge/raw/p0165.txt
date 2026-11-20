@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "and will\n\n[[image: photograph of a woman in a white dress and large hat standing beside a seated man in a wicker chair, in a garden before a brick building]]\n[[caption]] H.H. Mr. Wallace, Administrator of Northern Rhodesia, and Mrs. Wallace\n\n[[cont]]remember the", "sure": "high"}
-{"n": 2, "is": "A", "print": "ea at little", "sure": "high"}

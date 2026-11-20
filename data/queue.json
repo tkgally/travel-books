@@ -124,11 +124,13 @@
    "place": "London",
    "publisher": "Stanley Paul & Co.",
    "images": 462,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-19",
    "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. No reprint found. Re-checked 2026-11-20: not in pg_catalog.csv; web search: only second-hand copies, a HathiTrust record and a Forgotten Books listing (print-on-demand facsimile); author Charlotte Mansfield 1881–1936 (Wikipedia; married name Raffalovich): more than 70 years. One IA scan.",
    "note": "University of California scan. 144 illustrations: much cropping work.",
-   "started": "2026-11-20"
+   "started": "2026-11-20",
+   "version": 1,
+   "published": "2026-11-20"
   },
   {
    "order": 7,

@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "is a very\n\n[[image: photograph of Bushman rock paintings of human figures and a giraffe on a cave wall]]\n[[caption]] Paintings in Bushman Cave on Mt. Silozwane (By kind permission of Messrs. Mennel and Chubb)\n\n[[cont]]beautiful ma", "sure": "high"}
-{"n": 2, "is": "A", "print": "oote Schuur.", "sure": "high"}
