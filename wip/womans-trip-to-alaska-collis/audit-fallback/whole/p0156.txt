@@ -1,0 +1,5 @@
+{"given": "imagined. The captain had been", "print": "imagined. The Captain had been", "sure": "high"}
+{"given": "for he told me so; that he", "print": "for he told me so, that he", "sure": "high"}
+{"given": "I learned that if was of", "print": "I learned that it was of", "sure": "high"}
+{"given": "measured only by inchcs, so that", "print": "measured only by inches, so that", "sure": "high"}
+{"given": "current was carrying ice so fast", "print": "current was carrying the ice so fast", "sure": "high"}

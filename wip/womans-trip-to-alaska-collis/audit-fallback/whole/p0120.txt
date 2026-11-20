@@ -1,0 +1,5 @@
+{"given": "a dozen Indians; each asking three", "print": "a dozen Indians, each asking three", "sure": "high"}
+{"given": "superior to those at wrangell, and", "print": "superior to those at Wrangell, and", "sure": "high"}
+{"given": "in a great measnre to the", "print": "in a great measure to the", "sure": "high"}
+{"given": "while their ears wrists were ornamented", "print": "while their ears and wrists were ornamented", "sure": "high"}
+{"given": "invariably brushed on oiled smoothly", "print": "invariably brushed or oiled smoothly", "sure": "high"}

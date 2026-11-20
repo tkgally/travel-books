@@ -1,0 +1,5 @@
+{"given": "it was patcnt to every", "print": "it was patent to every", "sure": "high"}
+{"given": "save perhaps moon. For", "print": "save perhaps the moon. For", "sure": "high"}
+{"given": "threatening the bergs; many of them", "print": "threatening the bergs, many of them", "sure": "high"}
+{"given": "unlimited and nor misplaced confidence", "print": "unlimited and not misplaced confidence", "sure": "high"}
+{"given": "seamanship, otherwize I should have", "print": "seamanship, otherwise I should have", "sure": "high"}

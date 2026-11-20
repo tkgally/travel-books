@@ -1,0 +1,5 @@
+{"given": "the road is school-house. Of course", "print": "the road is the school-house. Of course", "sure": "high"}
+{"given": "the home of a dccaying race", "print": "the home of a decaying race", "sure": "high"}
+{"given": "the lives, the bodies; and the souls", "print": "the lives, the bodies, and the souls", "sure": "high"}
+{"given": "in accord with these christian men", "print": "in accord with these Christian men", "sure": "high"}
+{"given": "I wish I had bad more time", "print": "I wish I had had more time", "sure": "high"}

@@ -1,0 +1,5 @@
+{"given": "If I had been captain Carroll", "print": "If I had been Captain Carroll", "sure": "high"}
+{"given": "for which it was nor possible", "print": "for which it was not possible", "sure": "high"}
+{"given": "salmon-spawn, yet well proportioned egg", "print": "salmon-spawn, yet the well proportioned egg", "sure": "high"}
+{"given": "There is a little fish in these waters callcd the oulikon", "print": "There is a little fish in these waters called the oulikon", "sure": "high"}
+{"given": "City of Topeka northward bound; we saw", "print": "City of Topeka northward bound, we saw", "sure": "high"}

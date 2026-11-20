@@ -1,0 +1,5 @@
+{"given": "city in the world; replied:", "print": "city in the world, replied:", "sure": "high"}
+{"given": "that the Indian river in the", "print": "that the Indian River in the", "sure": "high"}
+{"given": "carriages) we came a really very", "print": "carriages) we came to a really very", "sure": "high"}
+{"given": "brightest green and vclvet mosses", "print": "brightest green and velvet mosses", "sure": "high"}
+{"given": "By all means stroll through if, if", "print": "By all means stroll through it, if", "sure": "high"}

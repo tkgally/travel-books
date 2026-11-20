@@ -1,0 +1,5 @@
+{"given": "left Fort Tongas behind us; and were", "print": "left Fort Tongas behind us, and were", "sure": "high"}
+{"given": "pilgrim Indians who bad fled from", "print": "pilgrim Indians who had fled from", "sure": "high"}
+{"given": "dropped down among these indians, living", "print": "dropped down among these Indians, living", "sure": "high"}
+{"given": "for it is home of the totem-pole", "print": "for it is the home of the totem-pole", "sure": "high"}
+{"given": "Prince Rupert, giviug him exclusive right", "print": "Prince Rupert, giving him exclusive right", "sure": "high"}

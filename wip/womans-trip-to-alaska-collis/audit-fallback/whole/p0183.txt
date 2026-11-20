@@ -1,0 +1,5 @@
+{"given": "and the whole amphitheater bounded by", "print": "and the whole amphitheatre bounded by", "sure": "high"}
+{"given": "the startling novelty of his first view", "print": "the startling novelty of this first view", "sure": "high"}
+{"given": "away up into fiords and rocky", "print": "away up into the fiords and rocky", "sure": "high"}
+{"given": "this Lake of the Gods; as I", "print": "this Lake of the Gods, as I", "sure": "high"}
+{"given": "out-pictures it all a hundrcd-fold.", "print": "out-pictures it all a hundred-fold.", "sure": "high"}

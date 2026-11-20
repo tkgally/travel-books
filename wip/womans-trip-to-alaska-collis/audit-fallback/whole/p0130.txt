@@ -1,0 +1,5 @@
+{"given": "but they were far from if.", "print": "but they were far from it.", "sure": "high"}
+{"given": "upon which were tbrown, not with", "print": "upon which were thrown, not with", "sure": "high"}
+{"given": "recommended by Oscar wilde, but in", "print": "recommended by Oscar Wilde, but in", "sure": "high"}
+{"given": "people had been able procure by buying", "print": "people had been able to procure by buying", "sure": "high"}
+{"given": "baskets of potatoes; nets and ropes", "print": "baskets of potatoes, nets and ropes", "sure": "high"}

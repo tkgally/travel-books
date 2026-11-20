@@ -1,0 +1,5 @@
+{"given": "Queen, was very tall, rather", "print": "Queen, was a very tall, rather", "sure": "high"}
+{"given": "a cape to this elbows", "print": "a cape to his elbows", "sure": "high"}
+{"given": "broad-brimmed, low-crowued felt hat", "print": "broad-brimmed, low-crowned felt hat", "sure": "high"}
+{"given": "ideal picture in the center of", "print": "ideal picture in the centre of", "sure": "high"}
+{"given": "simple, instructive; and loving.", "print": "simple, instructive, and loving.", "sure": "high"}

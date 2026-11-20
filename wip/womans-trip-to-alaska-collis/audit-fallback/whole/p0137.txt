@@ -1,0 +1,5 @@
+{"given": "across the street a couple of", "print": "across the street in a couple of", "sure": "high"}
+{"given": "over a creaky; tumble-down staircase", "print": "over a creaky, tumble-down staircase", "sure": "high"}
+{"given": "Now sitka is very beautiful", "print": "Now Sitka is very beautiful", "sure": "high"}
+{"given": "no diversion on amusement whatever", "print": "no diversion or amusement whatever", "sure": "high"}
+{"given": "with fishing and huuting, and", "print": "with fishing and hunting, and", "sure": "high"}

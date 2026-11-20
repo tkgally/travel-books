@@ -1,0 +1,5 @@
+{"given": "into the mill, were two hundred", "print": "into the mill, where two hundred", "sure": "high"}
+{"given": "we moved on to juneau, a", "print": "we moved on to Juneau, a", "sure": "high"}
+{"given": "is nestled at foot of a", "print": "is nestled at the foot of a", "sure": "high"}
+{"given": "what would bccome of the adults", "print": "what would become of the adults", "sure": "high"}
+{"given": "tops of the mountains; which abruptly", "print": "tops of the mountains, which abruptly", "sure": "high"}

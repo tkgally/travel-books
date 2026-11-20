@@ -1,0 +1,5 @@
+{"given": "badges where nailed on the homes", "print": "badges were nailed on the homes", "sure": "high"}
+{"given": "to our great disgust; that it", "print": "to our great disgust, that it", "sure": "high"}
+{"given": "Indians’ staple food; black color, and", "print": "Indians’ staple food; black in color, and", "sure": "high"}
+{"given": "it is made of seawced, and", "print": "it is made of seaweed, and", "sure": "high"}
+{"given": "William Duncan arrived from scotland, he", "print": "William Duncan arrived from Scotland, he", "sure": "high"}

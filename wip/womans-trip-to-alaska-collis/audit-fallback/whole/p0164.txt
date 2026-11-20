@@ -1,0 +1,5 @@
+{"given": "now ice-clogged; into nourishing rivers", "print": "now ice-clogged, into nourishing rivers", "sure": "high"}
+{"given": "taken for the glaeier to fall", "print": "taken for the glacier to fall", "sure": "high"}
+{"given": "at what rate speed the vast", "print": "at what rate of speed the vast", "sure": "high"}
+{"given": "as fast in the center as", "print": "as fast in the centre as", "sure": "high"}
+{"given": "phenomena. This paper, published by", "print": "phenomena. His paper, published by", "sure": "high"}
