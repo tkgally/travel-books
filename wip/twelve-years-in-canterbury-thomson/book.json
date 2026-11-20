@@ -1,0 +1,32 @@
+{
+ "id": "twelve-years-in-canterbury-thomson",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "Twelve Years in Canterbury, New Zealand",
+ "subtitle": "With Visits to the Other Provinces, and Reminiscences of the Route Home through Australia, etc. (From a Lady’s Journal.)",
+ "short_title": "Twelve Years in Canterbury",
+ "authors": [
+  {
+   "name": "Mrs. Charles Thomson",
+   "sort": "Thomson, Mrs. Charles",
+   "born": 1809,
+   "died": 1875
+  }
+ ],
+ "place": "London",
+ "publisher": "Sampson Low, Son, and Marston",
+ "year": 1867,
+ "edition_statement": "First edition (undated; published 1867)",
+ "source": {
+  "ia_identifier": "twelveyearsincan00thomiala",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": []
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  }
+ ]
+}
