@@ -1,7 +1,0 @@
-{"find": "imperceptibly acquired", "replace": "imperceptibly acquired"}
-
-Checking the draft against the image, I see "imperceptibly" in both, so that line is not a change. The only difference I found is the "[[cont]]" marker order.
-
-{"find": "[[cont]][[side: Canton.]] character", "replace": "[[cont]][[side: Canton.]] character"}
-
-NONE

@@ -1,7 +1,0 @@
-The side-note is "Han-choo-foo." in print, which differs from the draft's "Han-choo-foo", so I corrected that. The rest of the draft matches the page.
-
-{"find": "[[side: Journey to Han-choo-foo.]]", "replace": "[[side: Journey to Han-choo-foo.]]"}
-
-Wait — that is identical to the draft, so it isn't a correction. The draft already has the full stop, so the whole page matches.
-
-NONE

@@ -16,10 +16,12 @@
    "place": "London",
    "publisher": "G. Nicol",
    "images": 1350,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-19",
    "eligibility": "Added at Tom's request as an exception to the selection rules (notes/preferences.md, 2026-11-19): not checked against rules 2–4 (it is known to have later reprints and is compiled from Macartney's and others' papers). Rule 5 met: Staunton 1737–1801, Macartney 1737–1806, Gower 1742–1814; William Alexander (drawings) 1767–1816. Not in the Project Gutenberg catalogue.",
-   "note": "Three IA items made into one book: vol. I (UC, 572 images, 300 ppi), vol. II (UC, 664 images, 500 ppi), folio of plates and maps (Getty, 114 images; its page images come as a 1.2 GB _images.zip, not _jp2.zip: ia.py may need a change). Tom: leave the marginal titles out of the built versions (JSON keeps them) — needs side-note markup first (workflow 'Not yet solved'); 1797 printing (long s): run the two-draft calibration on a sample first; multi-volume: volumes as parts. Several sessions. The landing page and site/about.md say every book has no other digital text and no reprint: when this book is published, say on its page (and in about.md) that it is included as an exception."
+   "note": "Three IA items made into one book: vol. I (UC, 572 images, 300 ppi), vol. II (UC, 664 images, 500 ppi), folio of plates and maps (Getty, 114 images; its page images come as a 1.2 GB _images.zip, not _jp2.zip: ia.py may need a change). Tom: leave the marginal titles out of the built versions (JSON keeps them) — needs side-note markup first (workflow 'Not yet solved'); 1797 printing (long s): run the two-draft calibration on a sample first; multi-volume: volumes as parts. Several sessions. The landing page and site/about.md say every book has no other digital text and no reprint: when this book is published, say on its page (and in about.md) that it is included as an exception.",
+   "version": 1,
+   "published": "2026-11-20"
   },
   {
    "order": 1,

@@ -1,0 +1,97 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[       ok] audit: book.json records the sampled audit of this version
+[look (10)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p1285: … Orange, Stadt-|holder of the U… (hyphen removed; check)
+            - hyphen join at p1470: …rthy of associ-|ating with the … (hyphen removed; check)
+            - hyphen join at p2133: …d by the epide-|mical diseases,… (hyphen removed; check)
+            - hyphen join at p2155: …ediately inter-|changed; and th… (hyphen removed; check)
+            - hyphen join at p2208: …ot equally per-|fected througho… (hyphen removed; check)
+            - hyphen join at p2416: …praying for be-|nediction. It i… (hyphen removed; check)
+            - hyphen join at p2529: …nity of betray-|ing. There was … (hyphen removed; check)
+            - hyphen join at p2566: …paratus for re-|storing suspend… (hyphen removed; check)
+            - hyphen join at p2607: …ture to be com-|pounded, form s… (hyphen removed; check)
+            - (and 130 joins giving a word the book prints whole elsewhere: not listed)
+[look (31)] joins: page joins: missing [[cont]], or [[cont]] after a closed sentence
+            - p1035: [[cont]] after a closed sentence …'ts of both man and horse.' | 'The letter bound across h'
+            - p1073: [[cont]] after a closed sentence …'ur of instant advantages.' | 'It was an office, of whic'
+            - p1114: [[cont]] after a closed sentence …'tal remaining unemployed.' | 'The average price on ever'
+            - p1121: [[cont]] after a closed sentence …'pringing from the joints.' | 'The middle of the stem fu'
+            - p1135: [[cont]] after a closed sentence …'little cable as possible.' | 'The place is defended by '
+            - p1147: [[cont]] after a closed sentence …'est in upon the mountain.' | 'This circumstance, howeve'
+            - p1195: [[cont]] after a closed sentence …' forty-five seconds west.' | 'In sailing westward towar'
+            - p1212: [[cont]] after a closed sentence …' fly with two wings only.' | 'The larva, or caterpillar'
+            - p1233: [[cont]] after a closed sentence …'thing ready very quickly.' | 'Wood, water, and provisio'
+            - p1310: [[cont]] after a closed sentence …'onuments to their memory.' | 'Every family above indige'
+            - p1339: [[cont]] after a closed sentence …'tmosphere to dispel them.' | 'The darkest of these clou'
+            - p1345: [[cont]] after a closed sentence …'he water, near the shore.' | 'No part of the Straits of'
+            - p1407: [[cont]] after a closed sentence …'order to take the vessel.' | 'A civil answer was return'
+            - p1411: [[cont]] after a closed sentence …' completely inaccessible.' | 'About half a mile from th'
+            - p2039: [[cont]] after a closed sentence …'of that troubled element.' | 'The circumstance of the d'
+            - p2096: [[cont]] after a closed sentence …'ourse to foreign markets.' | 'Upon the deck of each of '
+            - p2134: [[cont]] after a closed sentence …'ford to bestow upon them.' | 'They visit them annually,'
+            - p2205: [[cont]] after a closed sentence …'sometimes blue and white.' | 'On the top of the highest'
+            - p2259: [[cont]] after a closed sentence …'rtion of the human frame.' | 'This sentiment, to which '
+            - p2261: [[cont]] after a closed sentence …'ed by them of high value.' | 'It was upwards of a foot '
+            - p2281: [[cont]] after a closed sentence …'completely formed hernia.' | 'Had he been punctured as '
+            - p2350: [[cont]] after a closed sentence …'tly suffered to go alone.' | 'Every morning he received'
+            - p2362: [[cont]] after a closed sentence …'easing and vivid colours.' | 'The answer was placed in '
+            - p2397: [[cont]] after a closed sentence …'the powerful and opulent.' | 'Accident had thrown a few'
+            - p2413: [[cont]] after a closed sentence …'flood-gate on this canal.' | 'Some skill is required to'
+            - p2474: [[cont]] after a closed sentence …'ish, on which they dined.' | 'It was in most places sha'
+            - p2478: [[cont]] after a closed sentence …'immediately against them.' | 'The centinel obeyed, and '
+            - p2490: [[cont]] after a closed sentence …'er language of their own.' | 'They said, that no Europe'
+            - p2505: [[cont]] after a closed sentence …'coarse-grained limestone.' | 'Beyond these were quarrie'
+            - p2539: [[cont]] after a closed sentence …'therly from Han-choo-foo.' | 'Their basis is of granite'
+            - p2604: [[cont]] after a closed sentence …'antity of the same thing.' | 'The character of moo, sin'
+[ look (5)] folios: printed page numbers that break the sequence
+            - p2030: page 2 after page 518 (p1562)
+            - p3012: page 3 after page 626 (p2660)
+            - p3018: page 26 after page 3 (p3012)
+            - p3026: page 7 after page 26 (p3018)
+            - p3060: page 21 after page 8 (p3028)
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[look (27)] contents: entries of the printed contents with no matching heading
+            - p1013: 'Introduction.—Privileges granted by the Chinese government to the Port'
+            - p1014: 'page 1 to 29.'
+            - p1014: 'Thoughts on patronage—safely exercised in favour of popular characters'
+            - p1014: 'page 30 to 52.'
+            - p1014: 'Ships sail from Portsmouth—Jackall tender separated from them—are forc'
+            - p1015: 'page 53 to 85.'
+            - p1015: 'Conjectures relative to the origin of islands lying off the coast of A'
+            - p1016: 'Observations on the relative position of the African and American cont'
+            - p1017: 'Uniformity of the winds within and near the tropics—preparations made '
+            - p1018: 'Lion and Hindostan separate in attempting to discover vessels bound fo'
+            - p1020: 'Sickly state of the squadron.—Turon bay in Cochin-china a desirable pl'
+            - p1021: 'Conjectures on height and irregularity of tides in gulf of Tung-quin.—'
+            - p1022: 'Extent of the Chinese coast.—Boundaries of the Yellow sea.—Conduct of '
+            - p1023: 'page 438 to 518.'
+            - p2011: 'Safety of the Embassy in China—its arrival at Ta-coo within the mouth '
+            - p2012: 'page 1 to 81.'
+            - p2013: 'Great plain of Pe-che-lee an interesting object—conjectures as to its '
+            - p2015: 'page 82 to 167.'
+            - p2015: 'Road beyond Pekin—travelled by the Embassador in an English carriage—i'
+            - p2018: 'Page 168 to 276.'
+            - p2019: 'Departure from Zhe-hol.—Difference of treatment to different Embassado'
+            - p2020: 'Principal mode of travelling in China.—Northern rivers of China become'
+            - p2023: 'Description of Han-choo-foo—river between it and the sea—dress of the '
+            - p2027: 'page 439 to 525.'
+            - p2027: 'Temperature of Canton—effect of foreigners resorting to it.—Trade carr'
+            - p2029: 'Departure from Macao.—Disposition of the fleet.—Monsoons.—Effect of we'
+            - p2029: 'No. I. Table of extent and population of China Proper, from official p'
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight PASS: embassy-to-china-staunton v1 — 0 to fix, 0 waived; to look at: hyphen-joins 10, joins 31, folios 5, contents 27 — tools@8ce06b8 2026-11-20

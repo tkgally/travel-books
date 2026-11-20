@@ -1,5 +1,0 @@
-{"given": "were equally amazcd at what", "print": "were equally amazed at what", "sure": "high"}
-{"given": "applied the fore-finger his right hand", "print": "applied the fore-finger of his right hand", "sure": "high"}
-{"given": "right ankle, and sound, to his", "print": "right ankle, and found, to his", "sure": "high"}
-{"given": "the Doctor's questions, and upon a", "print": "the Doctor's questions; and upon a", "sure": "high"}
-{"given": "appeared to labor under two", "print": "appeared to labour under two", "sure": "high"}
