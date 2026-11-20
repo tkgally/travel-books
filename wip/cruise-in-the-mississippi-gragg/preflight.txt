@@ -1,0 +1,28 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[ FAIL (1)] audit: book.json records the sampled audit of this version
+            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[ look (2)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0068: … place of meet-|ing, the minist… (hyphen removed; check)
+            - (and 3 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[       ok] contents: entries of the printed contents with no matching heading
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight FAIL: cruise-in-the-mississippi-gragg v1 — 1 to fix, 0 waived; to look at: hyphen-joins 2 — tools@9d8b5a9 2026-11-20

@@ -20,7 +20,14 @@
  "source": {
   "ia_identifier": "cruiseinussteamf00grag",
   "contributor": "Library of Congress",
-  "hidden_leaves": [0, 79, 80, 81, 82, 83],
+  "hidden_leaves": [
+   0,
+   79,
+   80,
+   81,
+   82,
+   83
+  ],
   "extra_leaves": {
    "p0078a": {
     "ia_identifier": "acruiseinusstea01graggoog",
@@ -36,16 +43,110 @@
    "note": "First publication."
   }
  ],
- "regions": [],
+ "regions": [
+  "Japan",
+  "Hokkaido",
+  "China",
+  "Hong Kong",
+  "Macau",
+  "Philippines",
+  "Singapore",
+  "Indonesia",
+  "Malaysia",
+  "Mauritius",
+  "South Africa",
+  "Saint Helena",
+  "Madeira",
+  "Barbados",
+  "United States Virgin Islands"
+ ],
  "period": "1857–60",
- "divisions": [],
- "waivers": [
+ "divisions": [
   {
-   "check": "leaves",
-   "match": "p0078",
-   "why": "the Library of Congress leaf of page 76 is cut at the right edge and has a library label over it; the page is transcribed from the University of California copy as p0078a"
+   "at": "p0001",
+   "kind": "front"
+  },
+  {
+   "at": "p0003",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0004",
+   "kind": "dedication"
+  },
+  {
+   "at": "p0005",
+   "kind": "preface"
   }
  ],
- "summary": [],
- "notes_on_text": []
+ "summary": [
+  "William F. Gragg (1810–1864) sailed in the United States steam frigate Mississippi, Captain William C. Nicholson, on her cruise of 1857–60, and wrote this account for his shipmates. The ship left New York in August 1857 and went by Madeira, St. Helena, Cape Town, Mauritius, Batavia and Singapore to Hong Kong. In 1858 she lay in the Gulf of Pechili while the British and French took the forts at the mouth of the Peiho.",
+  "Much of the book is about Japan in the first years after the treaties: Nagasaki, Shimoda and Hakodate in 1858, Kanagawa and the Bay of Edo in 1859, with Townsend Harris often on board or ashore nearby. Gragg writes in the order of the cruise, of ports, people, salutes, deaths and funerals, sickness and the life of the crew; the last page gives the distance sailed and the stores used. He writes of the Chinese with contempt, in the language of his time."
+ ],
+ "notes_on_text": [
+  "Transcribed from the copy at the Library of Congress (Internet Archive: cruiseinussteamf00grag). The last page (page 76) is cut off at the right edge in that copy and is transcribed from the University of California copy (acruiseinusstea01graggoog, page n80).",
+  "In the list of officers on page 5 an initial is hidden by a blot in the Library of Congress copy (“G. N. Bacon”); it is read from the University of California copy.",
+  "The book has no chapters and no contents. The entries in the contents of this edition (dates and places) are the editor’s."
+ ],
+ "toc_entries": [
+  {
+   "at": "p0007",
+   "starts": "The “Mississippi” was put",
+   "title": "July–October 1857: Brooklyn, Madeira and St. Helena"
+  },
+  {
+   "at": "p0012",
+   "starts": "Here we took in coal",
+   "title": "October–November 1857: Cape Town and Mauritius"
+  },
+  {
+   "at": "p0014",
+   "starts": "Our coal being all on board",
+   "title": "November 1857–January 1858: Batavia and Singapore"
+  },
+  {
+   "at": "p0017",
+   "starts": "On the fourteenth, Hon. William",
+   "title": "January–March 1858: Hong Kong, Macao, Woosung and Manilla"
+  },
+  {
+   "at": "p0024",
+   "starts": "Took a pilot on board",
+   "title": "April–June 1858: the Gulf of Pachelie and the Peiho forts"
+  },
+  {
+   "at": "p0033",
+   "starts": "On the fifteenth of June",
+   "title": "June–August 1858: Nangasaki and Simoda"
+  },
+  {
+   "at": "p0041",
+   "starts": "At six,",
+   "title": "August–October 1858: Hakodadi"
+  },
+  {
+   "at": "p0052",
+   "starts": "October first, preparing for sea",
+   "title": "October 1858–February 1859: Nangasaki, Ningpo, Amoy, Hong Kong and Canton"
+  },
+  {
+   "at": "p0059",
+   "starts": "We arrived in Simoda at six",
+   "title": "February–April 1859: Simoda and the Bay of Jeddo"
+  },
+  {
+   "at": "p0065",
+   "starts": "We arrived in Nangasaki at half-past",
+   "title": "April–September 1859: Nangasaki, Shanghae, Jeddo and Hong Kong"
+  },
+  {
+   "at": "p0073",
+   "starts": "We arrived at Singapore on",
+   "title": "October 1859–January 1860: the voyage home to Boston"
+  }
+ ],
+ "omitted_from_reading": "The printed paper cover and the title page are in the JSON only.",
+ "keep_hyphens": [
+  "p0008"
+ ]
 }
