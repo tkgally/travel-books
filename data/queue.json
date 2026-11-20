@@ -494,10 +494,11 @@
    "place": "[St. Louis]",
    "publisher": "privately printed",
    "images": 176,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-20",
-   "eligibility": "JATSI 213. Rules 1–4 met. Rule 1: University of California scan, colour 400 ppi, clean, complete. Rules 2, 3: no text elsewhere, no reprint found. Rule 4: seventeen first-person letters to his wife, May–August 1906; about 95% Japan. People: Walter Lorenzo Sheldon 1858–1907; Anna Hartshorne Sheldon, who compiled the book, 1863–1924; Anna Cope Hartshorne, who wrote the two-page introductory letter, 1860–1957: Tom exempted the book by name (2026-11-20); say so in notes_on_text (jatsi.md, rule 5). Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20).",
-   "note": "128 pp.; a frontispiece portrait (photo by Strauss, St. Louis) and about 16 photographs, mostly Sheldon's own snapshots, some printed sideways. Short."
+   "eligibility": "JATSI 213. Rules 1–4 met. Rule 1: University of California scan, colour 400 ppi, clean, complete. Rules 2, 3: no text elsewhere, no reprint found. Rule 4: seventeen first-person letters to his wife, May–August 1906; about 95% Japan. People: Walter Lorenzo Sheldon 1858–1907; Anna Hartshorne Sheldon, who compiled the book, 1863–1924; Anna Cope Hartshorne, who wrote the two-page introductory letter, 1860–1957: Tom exempted the book by name (2026-11-20); say so in notes_on_text (jatsi.md, rule 5). Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20). Re-checked 2026-11-20 (next session): a web search of the title finds no text or reprint.",
+   "note": "128 pp.; a frontispiece portrait (photo by Strauss, St. Louis) and about 16 photographs, mostly Sheldon's own snapshots, some printed sideways. Short.",
+   "started": "2026-11-20"
   },
   {
    "order": 28,
