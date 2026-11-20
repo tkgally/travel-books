@@ -1,6 +1,6 @@
 {
  "id": "diary-in-europe-rajah-of-kolhapoor",
- "version": 5,
+ "version": 6,
  "date": "2026-11-20",
  "title": "Diary of the Late Rajah of Kolhapoor, during His Visit to Europe in 1870",
  "short_title": "Diary of the Rajah of Kolhapoor",
@@ -62,6 +62,11 @@
    "version": 5,
    "date": "2026-11-20",
    "note": "Straight apostrophes in the omitted_from_reading, summary curled (found by a new check). Text unchanged."
+  },
+  {
+   "version": 6,
+   "date": "2026-11-20",
+   "note": "Accents checked on the scan at the review after twenty books (new preflight list `accents`). p0184: “Dŭrbar” was a blot over the u, read as a breve; now “Durbar” as printed elsewhere."
   }
  ],
  "divisions": [
@@ -220,7 +225,7 @@
   "The printed contents has one entry for the diary. The contents of these editions add the editor’s entries for spans of dates and the places visited, and list the appendices under the titles the printed contents gives them."
  ],
  "audit": {
-  "version": 5,
+  "version": 6,
   "date": "2026-11-19",
   "pages": 6,
   "recall": "30/30",

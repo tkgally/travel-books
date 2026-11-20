@@ -36,6 +36,10 @@
 | The Land of the North Wind v1 | 2026-11-20 | 371 | Opus draft → Sonnet corrections → Opus judge; spot-read of special pages and an accent check of 23 variant groups on crops (Opus subagents: 35 pages fixed) | 22 | 13 / 7 / 2 | 0 | 38.68 | 0 | PASS, 6 waived (blank leaves) | 30/30 + 100/100; 2 / 26 (p0192 misreading, p0132 unmarked printer’s error) | |
 | Jottings of Travel in China and Japan v1 | 2026-11-20 | 182 | Opus draft → Sonnet corrections → Opus judge; spot-read of 22 pages by an Opus subagent | 1 | 1 / 0 / 0 | 0 | 17.12 | 0 | PASS, 3 waived (blank leaves) | 30/30; 0 / 6 | |
 | By Fell and Fjord v1 | 2026-11-20 | 293 | Opus draft → Sonnet corrections → Opus judge; spot-read and accent check of 18 variant groups on crops (Opus subagents: 3 fixed) | 30 | 3 / 27 / 0 | 0 | 31.79 | 0 | PASS, 4 waived (blank leaves, a duplicate shot) | 30/30; 0 / 6 | |
+| Diary of the Rajah of Kolhapoor v6 | 2026-11-20 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | accents misread (found at the review after twenty books by the new `accents` list, checked on the scan) |
+| Jottings of Travel in China and Japan v2 | 2026-11-20 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | accents misread (found at the review after twenty books by the new `accents` list, checked on the scan) |
+| Our Ride through Asia Minor v2 | 2026-11-20 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | accents misread (found at the review after twenty books by the new `accents` list, checked on the scan) |
+| South by West v3 | 2026-11-20 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | accents misread (found at the review after twenty books by the new `accents` list, checked on the scan) |
 
 ## Calibrations
 
@@ -68,3 +72,6 @@
 | 2026-11-20 | image-splits (observe) | *W.S.W.*: 1 alarm, real in kind (a stray line break inside a paragraph after a plate; joined). Running total 10 alarms, 10 real. |
 | 2026-11-20 | image-splits → enforce | review after fifteen books: 10 alarms in three books (*South by West* 4, *Via Rhodesia* 5, *W.S.W.* 1), 10 real; none in the other twelve. All fifteen books keep their verdict. Test `ImageSplits`. |
 | 2026-11-20 | site-text (new, observe) | *West Coast of Africa*: contents titles written by hand in book.json kept straight apostrophes (seen only in the rendered look). The check lists straight quotes in the book.json text the site shows (titles, summary, notes, contents entries). Sweep of fifteen books: 7 items in 3 books (*Corona and Coronet*, *Rajah*, *Journey through the Caucasus*), 7 real; fixed in new versions. Test `SiteText`. |
+| 2026-11-20 | site-text → enforce | review after twenty books: 7 alarms in three books, 7 real; none in the five books since. All twenty books pass. The invented sample book had a straight apostrophe in its summary and a test's contents entry (fixed in the fixtures). Test `SiteText`. |
+| 2026-11-20 | cover (new, observe) | review after twenty books: a missing `images/cover.jpg` was caught only by the rendered look (*Jottings*). All twenty books have one. Test `Accents`. |
+| 2026-11-20 | accents (new, observe) | review after twenty books: groups of words spelled with different accents (*Land of the North Wind*: 35 pages misread, found by a hand-made list). On twenty books: 129 groups (Rae 24 and Oswald 16, already checked on the scan; many others common words such as à/a, hôtel/hotel). Test `Accents`. |

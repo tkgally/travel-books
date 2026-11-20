@@ -1238,8 +1238,32 @@ class SiteText(unittest.TestCase):
         cfg = {"title": "A Book", "summary": "The book’s “title”.", "omitted_from_reading": "All in the JSON."}
         self.assertEqual(preflight.check_site_text(cfg), [])
 
+    def test_enforced(self):
+        # review after twenty books (2026-11-20): 7 alarms in three books, 7 real; the other books none
+        self.assertEqual(preflight.CHECKS["site-text"][0], "enforce")
+
+
+class Accents(unittest.TestCase):
+    """*Land of the North Wind* (2026-11-20): 23 words spelled with different accents in different places, 35 pages
+    misread; found only by a hand-made list. Review after twenty books: preflight lists such groups."""
+
+    def test_variant_groups_listed(self):
+        pages = [("p0010", "The village of Kuhrúd lay *below* the pass."), ("p0011", "We left Kuhrud at dawn; the café."),
+                 ("p0012", "[[corr Tehrán|Tehran]] and Tehran."), ("p0013", "A colossál statue, a colossal one.")]
+        items = preflight.check_accents(pages)
+        self.assertEqual(len(items), 2)
+        self.assertTrue(items[0].startswith("colossal: colossal (p0013); colossál (p0013)"))
+        self.assertIn("kuhrud (p0011); kuhrúd (p0010)", items[1])
+
+    def test_consistent_or_unaccented_not_listed(self):
+        pages = [("p0001", "The café and the café; a cafe-chantant."), ("p0002", "Plain words only, Words.")]
+        # "cafe" (from the hyphened compound) against "café" is a real variant group
+        self.assertEqual(len(preflight.check_accents(pages)), 1)
+        self.assertEqual(preflight.check_accents([("p0001", "Saké and saké. Words and WORDS.")]), [])
+
     def test_observe(self):
-        self.assertEqual(preflight.CHECKS["site-text"][0], "observe")
+        self.assertEqual(preflight.CHECKS["accents"][0], "observe")
+        self.assertEqual(preflight.CHECKS["cover"][0], "observe")
 
 
 class Contents(unittest.TestCase):
@@ -1302,7 +1326,7 @@ class Contents(unittest.TestCase):
             shutil.copytree(SAMPLE, d)
             cfg = json.load(open(os.path.join(d, "book.json")))
             cfg["toc"] = {"subtitles": "all"}
-            cfg["toc_entries"] = [{"at": "p0006", "starts": "The road is long", "title": "The carrier's song"}]
+            cfg["toc_entries"] = [{"at": "p0006", "starts": "The road is long", "title": "The carrier’s song"}]
             json.dump(cfg, open(os.path.join(d, "book.json"), "w"))
             verdict, report, res = preflight.run(d, skip_epubcheck=True, skip_odt=True)
             enforce = {k: v for k, v in res.items() if preflight.CHECKS[k][0] == "enforce" and v}

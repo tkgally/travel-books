@@ -21,7 +21,7 @@ notes/metrics.md, fix the check (with a test) in a later session.
 
 The last line printed is the stamp: copy it into the book's log.md.
 """
-import argparse, collections, datetime, difflib, json, os, re, shutil, subprocess, sys, tempfile, zipfile
+import argparse, collections, datetime, difflib, json, os, re, shutil, subprocess, sys, tempfile, unicodedata, zipfile
 import xml.etree.ElementTree as ET
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -51,7 +51,9 @@ CHECKS = collections.OrderedDict([
     ("quote-balance",   ("observe", "paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end")),
     ("image-splits",    ("enforce", "a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)")),
     ("contents",        ("observe", "entries of the printed contents with no matching heading")),
-    ("site-text",       ("observe", "book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or \"")),
+    ("site-text",       ("enforce", "book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or \"")),
+    ("cover",           ("observe", "images/cover.jpg (or .png) exists: the front cover or the title page")),
+    ("accents",         ("observe", "words the book spells with different accents (or with and without): look at each group on the scan")),
     ("images",          ("observe", "image files not used by any page")),
     ("source",          ("observe", "source.json: the Drive cache of the page images is recorded")),
 ])
@@ -318,6 +320,29 @@ def word_forms(pages):
             else:
                 whole[w] += 1
     return whole, hyph, first
+
+
+def base_form(w):
+    return "".join(c for c in unicodedata.normalize("NFD", w) if not unicodedata.combining(c))
+
+
+def check_accents(pages, limit=6):
+    """Words printed with accents that the page files spell in more than one way (different accents, or with and
+    without): *Land of the North Wind* had 23 such groups and 35 pages wrong, read by drafts, verifier and judge
+    alike (2026-11-20). One item a group, with the leaves of each form, for a look on the scan."""
+    forms = collections.defaultdict(lambda: collections.defaultdict(list))
+    for leaf, t in pages:
+        t = re.sub(r"<[^>]+>|\[\[(?!corr )[^\]]*\]\]", " ", t)
+        t = re.sub(r"\[\[corr [^|\]]*\|([^\]]*)\]\]", r"\1", t)
+        for w in re.findall(WORD, t):
+            b = base_form(w).lower()
+            forms[b][w.lower()].append(leaf)
+    items = []
+    for b, f in sorted(forms.items()):
+        if len(f) > 1 and any(base_form(w) != w for w in f):
+            items.append(f"{b}: " + "; ".join(f"{w} ({', '.join(sorted(set(ls))[:limit])}{'…' if len(set(ls)) > limit else ''})"
+                                               for w, ls in sorted(f.items())))
+    return items
 
 
 def triage_hyphen_joins(items, pages):
@@ -605,6 +630,9 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
         res["meta"] = check_meta(cfg, bookdir)
         res["site-text"] = check_site_text(cfg)
         res["markup"] = check_markup(pages)
+        res["accents"] = check_accents(pages)
+        if not any(os.path.exists(os.path.join(bookdir, "images", f)) for f in ("cover.jpg", "cover.png")):
+            res["cover"].append("images/cover.jpg is missing (the front cover if decorated, otherwise the title page)")
         res["sc-caps"] = check_sc(pages)
         res["heading-caps"] = check_heading_caps(pages)
         res["hyphen-joins"] = triage_hyphen_joins([w for w in warnings if w.startswith("hyphen join")], pages)

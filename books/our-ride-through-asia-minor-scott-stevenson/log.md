@@ -52,6 +52,7 @@ full size: the map (p0023–p0024). Problems: none in the text; the map's fold s
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
 | 1 | 2026-11-20 | PASS, 4 waived (blank leaves p0007, p0021, p0022, p0025) — tools@b2206d8 | 30/30; 0 real / 6 pages; fallback pages 10/10 | total Claude cost $42.13 |
+| 2 | 2026-11-20 | preflight PASS: our-ride-through-asia-minor-scott-stevenson v2 — 0 to fix, 4 waived; to look at: hyphen-joins 1, accents 10 — tools@9de0b2b 2026-11-20 | record copied (text unchanged except listed fixes) | Accents checked on the scan at the review after twenty books (new preflight list `accents`). p0410: “Zêna” corrected to “Zéna” as printed (a clear acute). |
 
 ## Known issues
 - The map's fold strip is missing from the scan (`notes_on_text`).

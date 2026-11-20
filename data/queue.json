@@ -44,7 +44,7 @@
    "checked": "2026-11-19",
    "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Creative Media, CreateSpace, Forgotten Books (print on demand). A Marathi translation (2025) is not an English edition. Re-checked 2026-11-19: Gutenberg catalogue, web search (only the 1872 edition, a Forgotten Books print-on-demand reprint, and the 2025 Marathi translation). Editor's death date not found: see the book log and Questions for Tom. Tom, 2026-11-19: publish; a person whose death date is unknown is assumed to have died before age 100 (West, a captain by 1870, was born about 1840 or earlier).",
    "note": "Using the University of California scan diaryoflaterajah00rajarich (200 leaves) rather than the Google scan. Short; a Google scan of a Michigan copy (greyscale, clean on the sampled page): check every page before starting. Editor's introduction and notes are part of the book.",
-   "version": 5,
+   "version": 6,
    "published": "2026-11-20"
   },
   {
@@ -78,7 +78,7 @@
    "checked": "2026-11-19",
    "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Kessinger, Creative Media (print on demand). Re-checked 2026-11-19: not in pg_catalog.csv (Rose Kingsley's other books are); The Online Books Page lists page images only (Germany); web search finds only Kessinger (2007/2010), Creative Media Partners (2023) and other print-on-demand reprints. An ISBN 0-87380-148-2 (Rio Grande Press, a real reprint house) seen near it in results is Schwatka's In the Land of Cave and Cliff Dwellers, not this book. Editor Charles Kingsley d. 1875; author d. 1925; the engravers are not named in the book (work done by 1874, so its makers died before 1955 under rule 5).",
    "note": "University of California scan. Preface by Charles Kingsley; some plates.",
-   "version": 2,
+   "version": 3,
    "published": "2026-11-20"
   },
   {
@@ -164,7 +164,7 @@
    "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Forgotten Books, Creative Media (print on demand). The Online Books Page not checked. Re-checked 2026-11-20: web search finds no text edition (Gutenberg results are Burnaby's different book) and only Forgotten Books (print on demand). Author: Mary Esmé Gwendoline Grogan, married Andrew Scott-Stevenson 19 October 1871 (thepeerage.com), so born before 1856; death date not found: rule 5 met by the assumption of death before 100. Map drawn by Lieut. H. H. Kitchener, R.E. (d. 1916).",
    "note": "George Washington University scan (39020025955066-ourridethrougha, 430 leaves, crisp, map opened in two halves with a strip at the fold not shown) used; the Google scan (ourridethrougha01stevgoog) is bilevel and its map unopened.",
    "started": "2026-11-20",
-   "version": 1,
+   "version": 2,
    "published": "2026-11-20"
   },
   {
@@ -303,7 +303,7 @@
    "eligibility": "JATSI 74. All five rules met. Rule 1: Library of Congress scan, colour 500 ppi, clean (JATSI links the Cornell scan cu31924023271152, greyscale, also clean). Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person letters home from a business journey in 1887; about 40–45% on Japan, the rest China. Rule 5: Simon Adler Stern 1838–1904 (Jewish Encyclopedia). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
    "note": "185 pp., small format, no illustrations, an appendix; rows of asterisks as section breaks. Short.",
    "started": "2026-11-20",
-   "version": 1,
+   "version": 2,
    "published": "2026-11-20"
   },
   {
@@ -664,10 +664,11 @@
    "place": "Boston and New York",
    "publisher": "Houghton Mifflin Company",
    "images": 388,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-20",
    "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv (his Russian Road to China is, #77082); The Online Books Page has nothing for this title; no Wikisource page; web search of a distinctive sentence found nothing. Reprints: only Kessinger (ISBN 9781104501358, print on demand); Open Library has only the 1912 Houghton and Methuen editions. Author 1883–1915 (LoC heading; died on the Lusitania). Frontispiece of Bolívar after a painting by Francis M. Drexel (1792–1863); one plate from an old engraving; the other photographs uncredited (presumably the author's). Not checked: Faded Page, WorldCat.",
-   "note": "Boston Public Library scan, 300 ppi. Map at end (folding? check). Chapter I (about 48 pp.) is a history of Columbus, Raleigh and the conquistadores; II–VII the author's own journey: Trinidad, the Pitch Lake, up the Orinoco by launch, Ciudad Bolívar at the independence centenary, the llanos. Much Spanish dialogue, mostly translated."
+   "note": "Boston Public Library scan, 300 ppi. Map at end (folding? check). Chapter I (about 48 pp.) is a history of Columbus, Raleigh and the conquistadores; II–VII the author's own journey: Trinidad, the Pitch Lake, up the Orinoco by launch, Ciudad Bolívar at the independence centenary, the llanos. Much Spanish dialogue, mostly translated.",
+   "started": "2026-11-20"
   },
   {
    "order": 38,

@@ -31,7 +31,9 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 | A paragraph moved by the verifier (before a picture → after its caption) judged one way at one end and the other way at the other, so `judge.py` dropped it [*Rambles*, p0092, 2026-11-20] | `judge.py` keeps the verifier's reading at both ends; test `test_judge_move_judged_both_ways_keeps_text` |
 | A paragraph interrupted by an engraving in the middle of a page split in two (`[[cont]]` dropped) [*South by West*, 2026-11-19] | compiler joins it; test `ImageInParagraph` |
 | A paragraph cut in two by an engraving mid-sentence: no `[[cont]]` after the caption, so the compiler cannot join it [*South by West* v1, four pages, found at the review of 2026-11-20] | preflight `image-splits` (enforce since the review after fifteen books); test `ImageSplits` |
-| Straight apostrophes in book.json text written by hand (summary, subtitle, contents titles), shown on the site as written [*West Coast of Africa*, 2026-11-20; three earlier books] | preflight `site-text` (observe); test `SiteText` |
+| Straight apostrophes in book.json text written by hand (summary, subtitle, contents titles), shown on the site as written [*West Coast of Africa*, 2026-11-20; three earlier books] | preflight `site-text` (enforce since the review after twenty books); test `SiteText` |
+| A book without `images/cover.jpg` [*Jottings*, 2026-11-20: caught by the rendered look] | preflight `cover` (observe); test `Accents` |
+| A word spelled with different accents in different places, misread by every stage [*Land of the North Wind*, 35 pages, 2026-11-20] | preflight `accents` (observe: a list of groups to look at on the scan); test `Accents` |
 
 ## Always
 
@@ -53,9 +55,6 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   whether that reader can see (first calibration: Sonnet 27/30, Opus 30/30).
 
 ## Trigger: plates (tipped-in leaves) and a frontispiece
-
-- A book with no pictures still needs `images/cover.jpg` (front cover or title page); nothing checks it (*Jottings*,
-  2026-11-20: caught by the rendered look).
 
 - Captions printed in small capitals: drafts type some as `<sc>…</sc>` in lower case and the rest in upper and lower
   case; grep `[[caption]] <sc>` and make all upper and lower case (12 of 148 in *Via Rhodesia*).
@@ -99,9 +98,11 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Trigger: accented names and foreign words (many diacritics)
 
-- List every accented word by its base form (accents stripped) and send the groups spelled differently to an Opus
-  subagent with crops: in *Land of the North Wind* 23 groups, 35 pages wrong. A wide circumflex printed over two
+- Preflight `accents` lists every word spelled with different accents (or with and without); send the groups to an Opus
+  subagent with crops (one leaf of each rarer form): in *Land of the North Wind* 23 groups, 35 pages wrong. A wide circumflex printed over two
   letters ("oû") was read as an acute, grave or breve on one of them; the Sonnet pass and the judge did not settle it.
+- Not only foreign words: a speck or blot over a letter of an ordinary word was taken for an accent in four published
+  books (“potatoës”, “Dŭrbar”, “gaïshas”); the `accents` list shows them beside the plain form. Read it for every book.
 
 ## Trigger: drop capitals at chapter openings
 
