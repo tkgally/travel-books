@@ -1,15 +1,15 @@
 [[page ?]]
 # Contents.
 
-## Chapter I.—p. <pref>1</pref>.
-[[subtitle]] Voyage from Bombay to England.
+[[center]] Chapter I.—p. <pref>1</pref>.
+[[center]] Voyage from Bombay to England.
 
 Cannanore—Cochin—Canoes—Heavy Gale off the Cape—Symonds’ Bay—Cape Town—St. Helena—Strange Sail—Dover—Gravesend.
 
-## Chapter II.—p. <pref>26</pref>.
-[[subtitle]] Arrival at Gravesend, and Passage to London.
+[[center]] Chapter II.—p. <pref>26</pref>.
+[[center]] Arrival at Gravesend, and Passage to London.
 
 Steam Boat Accommodations—Traffic on the Thames—Bustle of London.
 
-## Chapter III.—p. <pref>30</pref>.
-[[subtitle]] Introduction to Sir Charles Forbes.—The Diorama and the Zoological Gardens.
+[[center]] Chapter III.—p. <pref>30</pref>.
+[[center]] Introduction to Sir Charles Forbes.—The Diorama and the Zoological Gardens.
