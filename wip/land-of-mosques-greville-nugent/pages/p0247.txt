@@ -4,9 +4,9 @@
 
 | 1re personne |  | qt’lna | <i>nous avons tué.</i> |
 | 2e „ | masc. | qt’ltoum | <i>vous avez tué.</i> |
-| 2e ” | fém. | qt’ltoun | <i>vous avez tué</i> (fém.). |
-| 3e ” | masc. | qt’lou | <i>ils ont tué.</i> |
-| 3e ” | fém. | qt’lu | <i>elles ont tué.</i> |
+| 2e „ | fém. | qt’ltoun | <i>vous avez tué</i> (fém.). |
+| 3e „ | masc. | qt’lou | <i>ils ont tué.</i> |
+| 3e „ | fém. | qt’lu | <i>elles ont tué.</i> |
 
 ## Modern or Spoken Arabic.
 
@@ -15,10 +15,10 @@
 [[center]] <i>Singulier.</i>
 
 | 1re personne |  | qt’lt | <i>j’ai tué.</i> |
-| 2e ” | masc. | qt’lt | <i>tu as tué.</i> |
-| 2e ” | fém. | qt’lti | <i>tu as tué</i> (fém.). |
-| 3e ” | masc. | qt’l | <i>il a tué.</i> |
-| 3e ” | fém. | qt’let | <i>elle a tué.</i> |
+| 2e „ | masc. | qt’lt | <i>tu as tué.</i> |
+| 2e „ | fém. | qt’lti | <i>tu as tué</i> (fém.). |
+| 3e „ | masc. | qt’l | <i>il a tué.</i> |
+| 3e „ | fém. | qt’let | <i>elle a tué.</i> |
 
 [[center]] <i>Duel.</i>
 
