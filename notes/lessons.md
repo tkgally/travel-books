@@ -121,6 +121,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Trigger: a printed contents with chapter summaries
 
+- `[[corr]]` inside a `[[subtitle]]` line is not rendered: the editions showed the markup (*A Land of Mosques*, “Amiranté”, preflight `stray-markup`). Leave a heading as printed, or fix the compiler with a test.
 - Drafts type such contents page by page differently (`##` headings and `[[subtitle]]`s on some pages, tables on
   others), and `[[cont]]` lands mid-page after a heading. Make it plain lines as printed (`[[center]]` number and
   title, the topics as a paragraph ending in `<pref>`), drop "PAGE" heads and dot leaders [*South by West*, 2026-11-19].
