@@ -1,9 +1,9 @@
 {
  "id": "corona-and-coronet-todd",
- "version": 2,
+ "version": 3,
  "date": "2026-11-20",
  "title": "Corona and Coronet",
- "subtitle": "Being a Narrative of the Amherst Eclipse Expedition to Japan, in Mr. James's Schooner-Yacht Coronet, to Observe the Sun's Total Obscuration, 9th August, 1896",
+ "subtitle": "Being a Narrative of the Amherst Eclipse Expedition to Japan, in Mr. James’s Schooner-Yacht Coronet, to Observe the Sun’s Total Obscuration, 9th August, 1896",
  "short_title": "Corona and Coronet",
  "authors": [
   {
@@ -32,6 +32,11 @@
    "version": 2,
    "date": "2026-11-20",
    "note": "The plate “Lighthouse on the Beach at Esashi”, left out of version 1, added."
+  },
+  {
+   "version": 3,
+   "date": "2026-11-20",
+   "note": "Straight apostrophes in the subtitle curled (found by a new check). Text unchanged."
   }
  ],
  "regions": [
@@ -121,12 +126,12 @@
   "p0457"
  ],
  "audit": {
-  "version": 2,
+  "version": 3,
   "date": "2026-11-19",
   "pages": 6,
   "recall": "30/30",
   "real_errors": 0,
   "fixed": 0,
-  "note": "text unchanged; one plate added. Version 1: pages p0150, p0176, p0191, p0217, p0252, p0467; one other difference reported (p0467 “Chapter XXXIII” printed in capitals: headings are in upper and lower case by policy), not an error"
+  "note": "text unchanged except listed fixes"
  }
 }

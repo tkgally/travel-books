@@ -16,8 +16,7 @@ born about 1840 or earlier and cannot have been alive in 1955. Tom, 2026-11-19: 
 quotes at length from an article in *Good Words* (June 1871) by Lady Verney (Frances Parthenope Verney, d. 1890).
 
 ## Status
-**Published, version 4, 2026-11-19** (contents redesign, `notes/errata.md`): the contents now have the editor's 15 entries for spans of dates and places in the diary, and the seven appendices under the printed contents' titles (book.json `toc_entries`, `notes_on_text`).
-Published, version 3, 2026-11-19. Nothing open.
+Published, version 5 (2026-11-20). Nothing pending.
 
 ## Page map
 p0001 front cover (decorated cloth) · p0002 front pastedown with bookplate · p0003–p0006 endpapers/flyleaves ·
@@ -76,6 +75,7 @@ to be confirmed by preflight `folios`).
 | 1 | 2026-11-19 | preflight PASS: diary-in-europe-rajah-of-kolhapoor v1 — 0 to fix, 1 waived; to look at: hyphen-joins 3, joins 8, contents 5 — tools@5c27d52 2026-11-19 | 6 pages, recall 30/30, 0 real errors | First publication. Waiver: conservation JSON→ODT (second reference to a footnote, p0037, p0049) |
 | 2 | 2026-11-19 | preflight PASS: diary-in-europe-rajah-of-kolhapoor v2 — 0 to fix, 1 waived; to look at: hyphen-joins 3, joins 8, contents 5 — tools@6c5ee39 2026-11-19 | copied from v1 (text unchanged) | Frontispiece shown in the reading editions (new book.json key `frontispiece`); found on the live site after v1 |
 | 3 | 2026-11-19 | preflight PASS: diary-in-europe-rajah-of-kolhapoor v3 — 0 to fix, 0 waived; to look at: hyphen-joins 3, joins 8, contents 5 — tools@15199cb 2026-11-19 | copied from v1 (text unchanged) | Waiver dropped: preflight now skips the ODT cross-reference (`text:note-ref`) for a second mark to one note (session of South by West). |
+| 5 | 2026-11-20 | PASS — 0 to fix, 1 waived; to look at: hyphen-joins 1, contents 5 — tools@1653f9e | record copied (text unchanged) | summary and omitted_from_reading: four straight apostrophes curled (new check site-text) |
 
 Waiver added 2026-11-19 without a new version (text and editions unchanged): `leaves` p0009, the IA card left
 out on purpose, when the leaves check became enforced.

@@ -30,7 +30,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 | Side-notes (marginal notes) lost between page files and JSON, or shown in the editions [*Embassy to China*, 2026-11-20, before the first run] | preflight `conservation` (side-notes apart); test `SideNotes` |
 | A paragraph moved by the verifier (before a picture → after its caption) judged one way at one end and the other way at the other, so `judge.py` dropped it [*Rambles*, p0092, 2026-11-20] | `judge.py` keeps the verifier's reading at both ends; test `test_judge_move_judged_both_ways_keeps_text` |
 | A paragraph interrupted by an engraving in the middle of a page split in two (`[[cont]]` dropped) [*South by West*, 2026-11-19] | compiler joins it; test `ImageInParagraph` |
-| A paragraph cut in two by an engraving mid-sentence: no `[[cont]]` after the caption, so the compiler cannot join it [*South by West* v1, four pages, found at the review of 2026-11-20] | preflight `image-splits` (observe); test `ImageSplits` |
+| A paragraph cut in two by an engraving mid-sentence: no `[[cont]]` after the caption, so the compiler cannot join it [*South by West* v1, four pages, found at the review of 2026-11-20] | preflight `image-splits` (enforce since the review after fifteen books); test `ImageSplits` |
+| Straight apostrophes in book.json text written by hand (summary, subtitle, contents titles), shown on the site as written [*West Coast of Africa*, 2026-11-20; three earlier books] | preflight `site-text` (observe); test `SiteText` |
 
 ## Always
 
@@ -59,7 +60,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - A picture printed beside or above the `#` heading of a division left out of the reading editions (advertisements,
   title page) belongs after that heading in the page file; before it, it ends the previous chapter (*West Coast of
   Africa*: the royal arms of the advertisements showed at the end of the last chapter).
-- A `toc_title` written by hand is plain text: curl its apostrophes (the compiler does not), and its italics are lost.
+- A `toc_title` written by hand is plain text: its italics are lost.
 - Decorative chapter head-pieces and tail-pieces: drafts mark each as `[[image:]]`; keep them, crop them, list them
   in `book.json` `ornaments` (shown small; Tom, 2026-11-20).
 - A frontispiece printed sideways has no caption to show which way: crop it, look at both turns.

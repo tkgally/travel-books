@@ -28,6 +28,9 @@
 | A Cruise in the U.S. Steam Frigate Mississippi v1 | 2026-11-20 | 76 | Opus draft (`--halves`) → Sonnet corrections → Opus judge | 3 | 2 / 1 / 0 | 0 | 11.08 | 0 | PASS, 0 waived | 30/30; 0 / 6 | |
 | A Journey through the Caucasus v1 | 2026-11-20 | 364 | Opus draft → Sonnet corrections → Opus judge; spot-read of 21 pages by an Opus subagent | 4 | 4 / 0 / 0 | 0 | 33.98 | 0 | PASS, 0 waived | 30/30; 0 / 6 (spot-read: 1 printer's error marked, 3 Italian elisions restored) | |
 | The West Coast of Africa v1 | 2026-11-20 | 202 | Opus draft → Sonnet corrections → Opus judge; spot-read of 17 pages by an Opus subagent | 14 | 11 / 2 / 0 (1 restored by hand) | 1 (p0166: judge took a printed stray point as text; marked as corr) | 18.97 | 0 | PASS, 0 waived | 30/30; 0 / 6 | |
+| Corona and Coronet v3 | 2026-11-20 | — | metadata only | 0 | — | 0 | 0 | 0 | PASS | record copied | subtitle: two straight apostrophes curled (new check site-text, review after fifteen books) |
+| Diary of the Rajah of Kolhapoor v5 | 2026-11-20 | — | metadata only | 0 | — | 0 | 0 | 0 | PASS | record copied | summary and omitted_from_reading: four straight apostrophes curled (new check site-text) |
+| A Journey through the Caucasus v2 | 2026-11-20 | — | metadata only | 0 | — | 0 | 0 | 0 | PASS | record copied | summary: one straight apostrophe curled (new check site-text) |
 
 ## Calibrations
 
