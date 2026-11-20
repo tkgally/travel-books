@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": " in the open\n\n[[image: engraving of a low rocky island with a tall peak, seen across the sea under streaks of cloud]]\n[[caption]] Fernando Noronha.\n\ngun-ports,", "sure": "high"}
-{"n": 2, "is": "A", "print": "the ship's", "sure": "high"}

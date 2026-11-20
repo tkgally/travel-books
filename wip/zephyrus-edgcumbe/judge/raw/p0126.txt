@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "0 feet high,\n\n[[image: a hill crowned by a lighthouse rising above the shore, seen from the water, with a sailing boat and a ship in the foreground]]\n[[caption]] The Cerro.\n\n[[cont]]crowned by a lighthouse.", "sure": "high"}
-{"n": 2, "is": "B", "print": "f the Church", "sure": "high"}

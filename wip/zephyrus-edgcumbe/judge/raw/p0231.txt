@@ -1,2 +1,0 @@
-{"n": 1, "is": "A", "print": "lined with\n\n[[image: engraving of an ornate horse's bit, a decorated stirrup and a large-rowelled spur lying side by side]]\n[[caption]] Bit, Stirrup, and Spur.\n\n[[cont]]red. Round", "sure": "high"}
-{"n": 2, "is": "B", "print": "completes", "sure": "high"}

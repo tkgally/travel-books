@@ -1,3 +1,0 @@
-{"n": 1, "is": "B", "print": "[[center]] <sc>printed by</sc>", "sure": "medium"}
-{"n": 2, "is": "B", "print": "[[center]] <sc>spottiswoode and co., new-street square</sc>", "sure": "medium"}
-{"n": 3, "is": "B", "print": "[[center]] <sc>london</sc>", "sure": "medium"}

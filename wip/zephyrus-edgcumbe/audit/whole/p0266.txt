@@ -1,5 +1,0 @@
-{"given": "post 8vo, illnstrated bds., 2s. each", "print": "post 8vo, illustrated bds., 2s. each", "sure": "high"}
-{"given": "Man Wife. Illust. by W.", "print": "Man and Wife. Illust. by W.", "sure": "high"}
-{"given": "A Fight with Fortune. Post 8vo; illustrated", "print": "A Fight with Fortune. Post 8vo, illustrated", "sure": "medium"}
-{"given": "West of England; on, The Drolls,", "print": "West of England; or, The Drolls,", "sure": "high"}
-{"given": "The Prophet of the great Smoky Mountains", "print": "The Prophet of the Great Smoky Mountains", "sure": "high"}

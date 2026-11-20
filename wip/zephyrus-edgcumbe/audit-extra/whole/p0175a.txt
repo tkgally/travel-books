@@ -1,5 +1,0 @@
-{"given": "which would not he the case", "print": "which would not be the case", "sure": "high"}
-{"given": "will operate in favor of the", "print": "will operate in favour of the", "sure": "high"}
-{"given": "it is now a separate country; a close", "print": "it is now a separate country, a close", "sure": "high"}
-{"given": "both the cause the scene of", "print": "both the cause and the scene of", "sure": "high"}
-{"given": "Plate, and possesfing a fine climate", "print": "Plate, and possessing a fine climate", "sure": "high"}

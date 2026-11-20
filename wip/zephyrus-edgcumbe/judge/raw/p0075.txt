@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "the hour\n\n[[image: line drawing of Santos seen from the water, buildings and palm trees along the shore, wooded hills behind]]\n[[caption]] Santos.\n\n[[cont]]of four. The", "sure": "high"}
-{"n": 2, "is": "A", "print": "waters. We", "sure": "high"}

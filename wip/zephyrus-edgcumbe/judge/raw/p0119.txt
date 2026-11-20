@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "on the oppo-\n\n[[image: a courtyard with a low building and tiled roof at left, a long bench in the foreground, a wall and gate with ornamented pillars at right, and beyond the wall the sea and a distant building on the shore]]\n[[caption]] Court of the Lazaretto.\n\n[[cont]]site side of", "sure": "high"}
-{"n": 2, "is": "A", "print": "he hospital,", "sure": "high"}

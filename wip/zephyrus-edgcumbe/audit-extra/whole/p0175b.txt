@@ -1,5 +1,0 @@
-{"given": "if either should in fnture infringe", "print": "if either should in future infringe", "sure": "high"}
-{"given": "Many of the inhabitants of the Banda oriental would", "print": "Many of the inhabitants of the Banda Oriental would", "sure": "high"}
-{"given": "throw in its lot with Argentine Republic.", "print": "throw in its lot with the Argentine Republic.", "sure": "high"}
-{"given": "that would he effected in", "print": "that would be effected in", "sure": "high"}
-{"given": "diplomatic and consular services; and the", "print": "diplomatic and consular services, and the", "sure": "high"}

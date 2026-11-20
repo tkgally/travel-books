@@ -1,2 +1,0 @@
-{"n": 1, "is": "A", "print": "no purpose,\n\n[[image: A lighthouse with a domed lantern and weather-vane, low buildings at its foot, a flagstaff on the left, and rough ground and sea in the foreground]]\n[[caption]] Lighthouse, from our window in the Lazaretto.\n\n[[cont]]they brought", "sure": "high"}
-{"n": 2, "is": "B", "print": "and with", "sure": "high"}
