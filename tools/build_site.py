@@ -81,7 +81,10 @@ def jatsi_name():
 
 
 def jatsi_label(root=""):
-    return f'from {jatsi_name()} (<a href="{root}{JATSI_PAGE}">about these books</a>)'
+    """The mark of a JATSI book in the lists: "JATSI (about)" (Tom, 2026-11-20; before: "from Japan As They Saw It
+    (about these books)"). The short link says where it goes to a screen reader."""
+    return (f'<a href="{JATSI_HOME}">JATSI</a> '
+            f'(<a href="{root}{JATSI_PAGE}" aria-label="about the JATSI books">about</a>)')
 
 
 def is_jatsi(b):
