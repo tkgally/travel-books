@@ -1,0 +1,23 @@
+{
+ "id": "rambles-through-japan-tracy",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "Rambles through Japan without a Guide",
+ "short_title": "Rambles through Japan",
+ "authors": [{"name": "Albert Tracy", "sort": "Tracy, Albert", "born": 1845, "died": 1916}],
+ "place": "London",
+ "publisher": "Sampson Low, Marston & Company",
+ "year": 1892,
+ "edition_statement": "First edition",
+ "collection": "jatsi",
+ "source": {
+  "ia_identifier": "ramblesthroughja00leffrich",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": [],
+  "extra_leaves": {
+   "p0132a": {"ia_identifier": "ramblesthroughj00leffgoog", "n": 134, "what": "printed page 113, missing from the UC scan"},
+   "p0132b": {"ia_identifier": "ramblesthroughj00leffgoog", "n": 135, "what": "printed page 114, missing from the UC scan"}
+  }
+ },
+ "history": [{"version": 1, "date": "2026-11-20", "note": "First publication."}]
+}
