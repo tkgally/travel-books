@@ -383,10 +383,11 @@
    "place": "Boston",
    "publisher": "Damrell & Moore, printers",
    "images": 82,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-20",
-   "eligibility": "JATSI 14. All five rules met. Rule 1: Library of Congress scan, colour 400 ppi, clean, EXCEPT that the last page of text (p. 76, image n77) is cut off at the right edge, losing one to three letters a line: take that leaf from acruiseinusstea01graggoog or acruiseinusstea00graggoog (`source.extra_leaves`). Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person account by the ship's surgeon's steward; about 35% on Japan (Nagasaki, Shimoda, Kanagawa, Hakodate), with the Peiho forts in 1858. Rule 5: William F. Gragg 1810–1864 (Bedford Historical Society). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
-   "note": "Only 76 printed pages, in small type on a large page, without chapters; lists of officers and of the cruise's distances. No illustrations. Shorter than the usual range: a one-session book."
+   "eligibility": "JATSI 14. All five rules met. Rule 1: Library of Congress scan, colour 400 ppi, clean, EXCEPT that the last page of text (p. 76, image n77) is cut off at the right edge, losing one to three letters a line: take that leaf from acruiseinusstea01graggoog or acruiseinusstea00graggoog (`source.extra_leaves`). Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person account by the ship's surgeon's steward; about 35% on Japan (Nagasaki, Shimoda, Kanagawa, Hakodate), with the Peiho forts in 1858. Rule 5: William F. Gragg 1810–1864 (Bedford Historical Society). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record. Re-checked 2026-11-20 at the start: not in pg_catalog.csv; a web search of the title finds only the IA scans.",
+   "note": "Only 76 printed pages, in small type on a large page, without chapters; lists of officers and of the cruise's distances. No illustrations. Shorter than the usual range: a one-session book.",
+   "started": "2026-11-20"
   },
   {
    "order": 22,
