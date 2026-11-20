@@ -13,48 +13,16 @@
 [       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
 [       ok] audit: book.json records the sampled audit of this version
-[look (44)] hyphen-joins: page-break hyphen joins (hyphen removed): read the list once
-            - hyphen join at p0036: … results in ex-|tending geograp… (hyphen removed; check)
-            - hyphen join at p0048: …o seek his for-|tune in far lan… (hyphen removed; check)
-            - hyphen join at p0064: …f braves. Occa-|sionally a cowb… (hyphen removed; check)
-            - hyphen join at p0075: …expected gener-|osity in space … (hyphen removed; check)
-            - hyphen join at p0076: …t Survey steam-|ship MacArthur,… (hyphen removed; check)
-            - hyphen join at p0101: …ry for the pas-|senger (the isl… (hyphen removed; check)
+[ look (9)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0102: …fruits,—alliga-|tor pears, <i>p… (hyphen removed; check)
-            - hyphen join at p0122: …apan, unclassi-|fied crustacean… (hyphen removed; check)
             - hyphen join at p0150: …l arts and pre-|cepts; one maid… (hyphen removed; check)
-            - hyphen join at p0159: …em is responsi-|ble for a great… (hyphen removed; check)
-            - hyphen join at p0161: …nd all tempera-|tures. Naturall… (hyphen removed; check)
-            - hyphen join at p0162: …at she was rap-|idly dying, and… (hyphen removed; check)
-            - hyphen join at p0181: …hat it was use-|less; and as he… (hyphen removed; check)
-            - hyphen join at p0194: …ous names, how-|ever, seemed to… (hyphen removed; check)
-            - hyphen join at p0209: …n northern dis-|tricts of the m… (hyphen removed; check)
-            - hyphen join at p0211: …id show a grow-|ing affinity fo… (hyphen removed; check)
-            - hyphen join at p0224: …oreigners. Dur-|ing 1893, 1894,… (hyphen removed; check)
-            - hyphen join at p0234: …ately conversa-|tion with his a… (hyphen removed; check)
-            - hyphen join at p0237: … dainty refine-|ment. Late in t… (hyphen removed; check)
             - hyphen join at p0252: …gnal flags. Em-|barrassing ques… (hyphen removed; check)
-            - hyphen join at p0254: …ronet was beat-|ing up the beau… (hyphen removed; check)
             - hyphen join at p0270: …manifest appro-|priateness to h… (hyphen removed; check)
             - hyphen join at p0279: …hine was blind-|ingly hot, the … (hyphen removed; check)
-            - hyphen join at p0284: …anship. He con-|structed the al… (hyphen removed; check)
-            - hyphen join at p0294: …; and on reach-|ing a land-lock… (hyphen removed; check)
             - hyphen join at p0309: …ith sad counte-|nances. It natu… (hyphen removed; check)
-            - hyphen join at p0315: …. . This after-|noon the report… (hyphen removed; check)
-            - hyphen join at p0316: …hen I play car-|penter, and scr… (hyphen removed; check)
             - hyphen join at p0323: …guages and lit-|eratures filter… (hyphen removed; check)
-            - hyphen join at p0342: …igure in my ex-|perience. With … (hyphen removed; check)
-            - hyphen join at p0363: … Paris Observa-|tory by his suc… (hyphen removed; check)
-            - hyphen join at p0377: …-looking Japan-|ese with a spar… (hyphen removed; check)
-            - hyphen join at p0381: … time for offi-|cial calls. A k… (hyphen removed; check)
-            - hyphen join at p0385: …illages. He en-|tertained us by… (hyphen removed; check)
-            - hyphen join at p0394: … nearly a thou-|sand years ago … (hyphen removed; check)
-            - hyphen join at p0413: …ing, it has ac-|quired a rich a… (hyphen removed; check)
-            - hyphen join at p0420: …lated into Jap-|anese, printed … (hyphen removed; check)
-            - hyphen join at p0432: …d deeply inter-|ested in educat… (hyphen removed; check)
-            - hyphen join at p0441: …nd discriminat-|ing collector o… (hyphen removed; check)
-            - hyphen join at p0448: …in those peace-|ful waters, as … (hyphen removed; check)
-            … 4 more (-v)
+            - hyphen join at p0452: …he Imperial as-|toronomical hou… (hyphen removed; check)
+            - (and 36 joins giving a word the book prints whole elsewhere: not listed)
 [ look (9)] joins: page joins: missing [[cont]], or [[cont]] after a closed sentence
             - p0010: no [[cont]] but the page before ends …'1898' and this one starts 'copyright, 1898, by mabel'
             - p0052: [[cont]] after a closed sentence …'making her course safely.' | "Considering the Coronet's"
@@ -72,4 +40,4 @@
             - p0017: 'Deep-Sea Yachting by A. C. James'
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: corona-and-coronet-todd v1 — 0 to fix, 2 waived; to look at: hyphen-joins 44, joins 9, contents 1 — tools@9999377 2026-11-19
+preflight PASS: corona-and-coronet-todd v2 — 0 to fix, 2 waived; to look at: hyphen-joins 9, joins 9, contents 1 — tools@20307e9 2026-11-20

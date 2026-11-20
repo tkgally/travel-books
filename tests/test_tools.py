@@ -530,9 +530,34 @@ class SiteLists(unittest.TestCase):
         self.assertIn("Journey 1", h)
         self.assertIn("Journey 2", h)
         self.assertNotIn("authors.html", h)
-        self.assertEqual(len(re.findall(r'<span class="meta">[^<]*from <a href="japan-as-they-saw-it.html">', h)), 2)   # one book, one queue row
+        self.assertEqual(h.count('(<a href="japan-as-they-saw-it.html">about these books</a>)'), 3)   # the introduction, one book, one queue row
+        # the project's name links to the project, in a new tab, wherever it stands (Tom, 2026-11-20)
+        self.assertEqual(h.count("Japan As They Saw It"), h.count('<a href="https://www.gally.net/jatsi/index.html" target="_blank" rel="noopener">Japan As They Saw It</a>'))
         self.assertIn("Queued Two", h)
         self.assertNotIn("Rejected", h)
+
+    def test_outside_links_open_in_a_new_tab_and_inside_links_do_not(self):
+        build_site.build_index(self.out, [shelf_book(1, collection="jatsi")], [{"title": "Q", "author": "Q", "year": 1880, "status": "queued", "ia": "q00q"}])
+        build_site.md_page(self.out, "about.html", "About", os.path.join(REPO, "site", "about.md"))
+        for name in ("index.html", "about.html"):
+            links = re.findall(r"<a [^>]*>", self.read(name))
+            outside = [a for a in links if re.search(r'href="https?://', a)]
+            self.assertTrue(outside and len(outside) < len(links), name)
+            for a in links:
+                self.assertEqual('target="_blank" rel="noopener"' in a, a in outside, a)
+                self.assertEqual(a.count("target="), 1 if a in outside else 0, a)
+        self.assertEqual(build_site.outside_links('<a target="x" href="https://e.org/">'), '<a target="x" href="https://e.org/">')
+
+    def test_page_numbers_linking_to_the_scan_open_in_a_new_tab(self):
+        d = os.path.join(self.out, "sample-journey-doe")
+        shutil.copytree(SAMPLE, d)
+        book, _ = build_site.build_book(os.path.join(self.out, "site"), d)
+        h = open(os.path.join(self.out, "site", "books", book["id"], "02.html"), encoding="utf-8").read()
+        pbs = re.findall(r'<a class="pb"[^>]*>', h)
+        self.assertTrue(pbs and all('target="_blank"' in a for a in pbs))
+        self.assertNotIn("target=", "".join(re.findall(r'<a [^>]*href="(?!https?://)[^>]*>', h)))
+        z = zipfile.ZipFile(os.path.join(self.out, "site", "books", book["id"], book["id"] + ".epub"))
+        self.assertNotIn('target="_blank"', "".join(z.read(n).decode() for n in z.namelist() if n.endswith(".xhtml")))
 
     def test_home_shows_the_newest_when_there_are_many(self):
         books = [shelf_book(i) for i in range(build_site.HOME_FULL_LIST + 3)]

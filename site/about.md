@@ -12,7 +12,7 @@ For now a book is included only if all of these are true:
 - It has not been published in print since 1914, apart from short excerpts and print-on-demand copies of scans.
 - Its author died more than 70 years ago.
 
-Some books are here for a different reason. [Japan As They Saw It](japan-as-they-saw-it.html) is an earlier project of Tom Gally's with a list of 247 books about Japan, published between 1855 and 1912. In November 2026 he decided to add the books of that list to this site gradually, about one in every three books published, so the site will have more books about Japan than about any other country. Those books are marked in the lists. They are included because they are on that list: some of them have been reprinted or have a digital text elsewhere, and some are not accounts of the author's own travels. The rule about the author's death applies to them as to the others, and their texts are made in the same way.
+Some books are here for a different reason. [Japan As They Saw It](https://www.gally.net/jatsi/index.html) is an earlier project of Tom Gally's with a list of 247 books about Japan, published between 1855 and 1912 ([the list, and which of its books are here](japan-as-they-saw-it.html)). In November 2026 he decided to add the books of that list to this site gradually, about one in every three books published, so the site will have more books about Japan than about any other country. Those books are marked in the lists. They are included because they are on that list: some of them have been reprinted or have a digital text elsewhere, and some are not accounts of the author's own travels. Nor does the rule about the author's death apply to them: all are in the public domain in the United States and Japan, and where an author died less than 70 years ago the book's page says so. Their texts are made in the same way as the others.
 
 One other book is included as an exception to these rules, at Tom Gally's choice: [*An Authentic Account of an Embassy from the King of Great Britain to the Emperor of China*](books/embassy-to-china-staunton/index.html) (1797), by Sir George Staunton, which has later reprints and other digital texts. Its page says so.
 
@@ -48,7 +48,7 @@ On the web pages you can show the page numbers of the printed book. Each number 
 
 ## Copyright
 
-The books were published before 1914. The transcriptions, the markup, the text of this site and the software that builds it are dedicated to the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). You may copy, change and republish them without asking. The scans belong to the Internet Archive's collections and the libraries that made them; this site links to them and does not copy them, except for the illustrations.
+The books were published before 1914. Apart from a few books of the Japan As They Saw It list, whose pages say so, every author died more than 70 years ago. The transcriptions, the markup, the text of this site and the software that builds it are dedicated to the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). You may copy, change and republish them without asking. The scans belong to the Internet Archive's collections and the libraries that made them; this site links to them and does not copy them, except for the illustrations.
 
 ## How the site is built
 
