@@ -175,6 +175,8 @@ class Ctx:
                     web = self.flavor == "web"
                     out.append(f'<span class="corr" title="Printed: {attr(a.get("orig", ""))}">' if web else "")
                     close = "</span>" if web else ""
+                elif name in ("supplied", "gap"):     # the reading editions show the letters only (Tom, 2026-11-20)
+                    out.append(""); close = ""
                 else:
                     out.append(f"<{name}>")
                 closers.append(close)

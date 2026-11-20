@@ -90,6 +90,7 @@ def page_streams(pages, captions=None, sides=None):
             if m:
                 tgt, s = notes, m.group(2)
             s = re.sub(r"\[\[corr [^|\]]*\|([^\]]*)\]\]", r"\1", s)
+            s = re.sub(r"\[\[supplied ([^\]]*)\]\]", r"\1", s).replace("[[gap]]", "[…]")
             if sides is not None:                       # side-notes apart: the JSON keeps them out of plain text
                 sides += [re.sub(r"<[^<>]+>", "", x) for x in SIDE.findall(s)]
             s = SIDE.sub(" ", s)
@@ -367,7 +368,7 @@ def check_joins(pages):
 def check_text(streams):
     stray, straight, spacing = [], [], []
     for label, text in streams:
-        for m in re.finditer(r"\[\[|\]\]|</?(?:i|b|sc|sup|sub|pref|blockquote|verse|pb|corr|noteref|pageref|side)\b|〓|[⟦⟧]|&(?:lt|gt|amp);", text):
+        for m in re.finditer(r"\[\[|\]\]|</?(?:i|b|sc|sup|sub|pref|blockquote|verse|pb|corr|noteref|pageref|side|supplied|gap)\b|〓|[⟦⟧]|&(?:lt|gt|amp);", text):
             stray.append(f"{label}: …{text[max(0, m.start() - 30):m.end() + 30]!r}…")
         for m in re.finditer(r"['\"]", text):
             straight.append(f"{label}: …{text[max(0, m.start() - 25):m.end() + 25]!r}…")

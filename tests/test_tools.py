@@ -622,6 +622,47 @@ class SideNotes(unittest.TestCase):
         self.assertTrue(preflight.compare(" ".join(ps), " ".join(js), "side-notes"))
 
 
+class LostText(unittest.TestCase):
+    """Text lost in the scan (Tom, 2026-11-20): letters inferred from the context are marked in the JSON only
+    ([[supplied …]] → <supplied>, plain in the editions); a loss that cannot be inferred is [[gap]] → […] everywhere."""
+
+    def test_convert_and_plain(self):
+        s = inline.convert("from the anchorag[[supplied e of]] the Hindostan and [[gap]] by sea")
+        self.assertEqual(s, "from the anchorag<supplied>e of</supplied> the Hindostan and <gap>[…]</gap> by sea")
+        self.assertEqual(inline.plain(s), "from the anchorage of the Hindostan and […] by sea")
+
+    def test_editions_and_preflight(self):
+        tmp = tempfile.mkdtemp()
+        try:
+            d = os.path.join(tmp, "sample-journey-doe")
+            shutil.copytree(SAMPLE, d)
+            p = os.path.join(d, "pages", "p0004.txt")
+            t = open(p, encoding="utf-8").read()
+            old = "The carrier had promised nothing;"
+            self.assertIn(old, t)
+            open(p, "w", encoding="utf-8").write(t.replace(old, "The car[[supplied rier]] had promised [[gap]] nothing;", 1))
+            book, _ = compile_book.compile_book(d)
+            js = " ".join(s for dv in book["divisions"] for b in dv["blocks"] for s in rh.strings(b))
+            self.assertIn("car<supplied>rier</supplied> had promised <gap>[…]</gap> nothing", js)
+            _, report, res = preflight.run(d, skip_epubcheck=True, skip_odt=True)
+            for k in ("conservation", "markup", "stray-markup", "compile"):
+                self.assertEqual(res.get(k, []), [], report)
+            out = os.path.join(tmp, "site")
+            build_site.build_book(out, d)
+            bdir = os.path.join(out, "books", book["id"])
+            html = "".join(open(os.path.join(bdir, f), encoding="utf-8").read() for f in os.listdir(bdir) if f.endswith(".html"))
+            self.assertIn("The carrier had promised […] nothing", html)
+            self.assertNotIn("supplied", html)
+            odt = zipfile.ZipFile(os.path.join(bdir, book["id"] + ".odt")).read("content.xml").decode("utf-8")
+            self.assertIn("The carrier had promised […] nothing", odt)
+            epub = zipfile.ZipFile(os.path.join(bdir, book["id"] + ".epub"))
+            x = "".join(epub.read(n).decode("utf-8") for n in epub.namelist() if n.endswith(".xhtml"))
+            self.assertIn("The carrier had promised […] nothing", x)
+            self.assertNotIn("supplied", x)
+        finally:
+            shutil.rmtree(tmp)
+
+
 class Volumes(unittest.TestCase):
     """A work in several IA items, and leaves bound out of order (Staunton's Embassy, 2026-11-20)."""
     SRC = {"ia_identifier": "vol1", "items": [

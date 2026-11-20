@@ -28,6 +28,10 @@ change at the foot, and see `workflow.md` §"New version" for when earlier books
     closing mark the print puts at the end of an inner paragraph is left out, and a missing opening mark at the start
     of an inner paragraph is supplied. These are changes of convention, not corrections: no `[[corr]]`; say in
     `notes_on_text` that the book's quotation marks follow modern practice.
+- **Text lost in the scan** (Tom, 2026-11-20): letters lost at a fold, tear or blot, not settled by another scan or
+  edition. Inferred reasonably well from the context → `[[supplied …]]`: the JSON marks them as supplied, the
+  editions show them plainly (smooth reading). Not inferable → `[[gap]]`: `[…]` in the JSON and the editions. Only
+  for short losses (about a word); a longer loss is a scan problem (`workflow.md` §1.4).
 - Long s → s; ligatures fi, fl as letters; æ, œ kept. Greek and other scripts in the script. Illegible → `〓`
   (never published: resolve from another scan, or note it in `notes_on_text` and waive).
 - Italics and small capitals as printed.
@@ -88,3 +92,4 @@ Plain and minimal. Say what the thing is; a reader should learn the facts and de
 - 2026-11-19: first version.
 - 2026-11-19: headings, chapter titles and captions in upper and lower case, not as printed in capitals (no book yet published, none to redo).
 - 2026-11-19: long italic passages roman in the built versions, italic in the JSON.
+- 2026-11-20: text lost in the scan: `[[supplied …]]` and `[[gap]]` (Tom).

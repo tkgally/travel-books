@@ -104,11 +104,12 @@ cannot be separated). Say in `notes_on_text` which pictures come from the Getty 
   all` (the printed contents give every chapter's title). One frontispiece per volume (`frontispiece` is now a list:
   compiler change with a test): Qianlong before the Advertisement, Macartney at the head of Volume II.
 - Folding plate p3025/26 (five coastal views): one image per half, the five captions as one `[[caption]]` on the
-  second half; "[e of]" supplied in brackets where the fold strip is lost (assumed). Engravers' and publishers' lines
-  left out (assumed, said in `notes_on_text`). p2141 and p3010 hold two pictures each: two `[[image]]`s.
+  second half. Letters lost at the fold ("c" of Macartney, "e of" after "anchorag") marked `[[supplied …]]` (Tom's
+  rule of 2026-11-20: marked in the JSON, plain in the editions). Engravers' and publishers' lines
+  left out (confirmed by Tom 2026-11-20; said in `notes_on_text`). p2141 and p3010 hold two pictures each: two `[[image]]`s.
 - `running-quotes.txt`: 6 random entries looked at on crops (p1150, p1198, p1364, p1410, p2219, p2483): all are
   repeats at a printed line start.
-- `keep_hyphens`: p1032 (Cou-pe-koo), p1105 (pratique-boat, assumed), p1194, p1364, p1525.
+- `keep_hyphens`: p1032 (Cou-pe-koo), p1105 (pratique-boat, confirmed by Tom), p1194, p1364, p1525.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
