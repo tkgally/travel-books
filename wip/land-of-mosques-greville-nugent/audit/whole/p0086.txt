@@ -1,0 +1,5 @@
+{"given": "the performances of zorah and others", "print": "the performances of Zorah and others", "sure": "high"}
+{"given": "In the latter, the trcble usually", "print": "In the latter, the treble usually", "sure": "high"}
+{"given": "independent of the rest; and with", "print": "independent of the rest, and with", "sure": "high"}
+{"given": "nothing to mark time but regular beat", "print": "nothing to mark time but the regular beat", "sure": "high"}
+{"given": "in a row on semicircle", "print": "in a row or semicircle", "sure": "high"}

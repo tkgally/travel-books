@@ -1,0 +1,5 @@
+{"given": "I could have stayed forever feasting", "print": "I could have stayed for ever feasting", "sure": "high"}
+{"given": "to my former conductress; who piloted", "print": "to my former conductress, who piloted", "sure": "high"}
+{"given": "room where men were entertaining", "print": "room where the men were entertaining", "sure": "high"}
+{"given": "who blindfold and conduet him silently", "print": "who blindfold and conduct him silently", "sure": "high"}
+{"given": "hung with arras, were the", "print": "hung with arras, where the", "sure": "high"}

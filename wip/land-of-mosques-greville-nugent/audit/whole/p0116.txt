@@ -1,0 +1,5 @@
+{"given": "the plot, the turkish soldier", "print": "the plot, the Turkish soldier", "sure": "high"}
+{"given": "a high wooden pinnacle; and is", "print": "a high wooden pinnacle, and is", "sure": "high"}
+{"given": "took six months to conftruct, being", "print": "took six months to construct, being", "sure": "high"}
+{"given": "and itself covers all, with its", "print": "and itself covers in all, with its", "sure": "high"}
+{"given": "paths. His is the most", "print": "paths. This is the most", "sure": "high"}

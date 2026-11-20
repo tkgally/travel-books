@@ -1,0 +1,5 @@
+{"given": "might peep; but most bizarre", "print": "might peep; but the most bizarre", "sure": "high"}
+{"given": "rendered by little fatma (she", "print": "rendered by little Fatma (she", "sure": "high"}
+{"given": "glare of the noouday sun.", "print": "glare of the noonday sun.", "sure": "high"}
+{"given": "the cemetery or the mosque; sedately", "print": "the cemetery or the mosque, sedately", "sure": "high"}
+{"given": "make you this wife and slave", "print": "make you his wife and slave", "sure": "high"}
