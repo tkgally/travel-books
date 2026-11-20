@@ -271,3 +271,14 @@
 {"page": "p1272", "model": "opus", "corrections": null, "seconds": 7.0, "cost": 0.06738240000000001, "completion_tokens": 744, "turns": 2, "attempts": 1}
 {"page": "p1273", "model": "opus", "corrections": null, "seconds": 6.5, "cost": 0.06547420000000001, "completion_tokens": 649, "turns": 2, "attempts": 1}
 {"page": "p1274", "model": "opus", "corrections": null, "seconds": 6.6, "cost": 0.0653896, "completion_tokens": 646, "turns": 2, "attempts": 1}
+{"page": "p1275", "model": "opus", "corrections": null, "seconds": 6.7, "cost": 0.0657988, "completion_tokens": 664, "turns": 2, "attempts": 1}
+{"page": "p1276", "model": "opus", "corrections": null, "seconds": 6.3, "cost": 0.0643824, "completion_tokens": 594, "turns": 2, "attempts": 1}
+{"page": "p1277", "model": "opus", "corrections": null, "seconds": 5.9, "cost": 0.064387, "completion_tokens": 593, "turns": 2, "attempts": 1}
+{"page": "p1278", "model": "opus", "corrections": null, "seconds": 7.5, "cost": 0.0665578, "completion_tokens": 704, "turns": 2, "attempts": 1}
+{"page": "p1279", "model": "opus", "corrections": null, "seconds": 5.6, "cost": 0.0640906, "completion_tokens": 579, "turns": 2, "attempts": 1}
+{"page": "p1280", "model": "opus", "corrections": null, "seconds": 5.6, "cost": 0.0641024, "completion_tokens": 580, "turns": 2, "attempts": 1}
+{"page": "p1281", "model": "opus", "corrections": null, "seconds": 9.1, "cost": 0.0700742, "completion_tokens": 879, "turns": 2, "attempts": 1}
+{"page": "p1282", "model": "opus", "corrections": null, "seconds": 8.1, "cost": 0.0673542, "completion_tokens": 743, "turns": 2, "attempts": 1}
+{"page": "p1283", "model": "opus", "corrections": null, "seconds": 9.2, "cost": 0.069746, "completion_tokens": 863, "turns": 2, "attempts": 1}
+{"page": "p1284", "model": "opus", "corrections": null, "seconds": 8.0, "cost": 0.0682542, "completion_tokens": 788, "turns": 2, "attempts": 1}
+{"page": "p1285", "model": "opus", "corrections": null, "seconds": 5.6, "cost": 0.0640578, "completion_tokens": 579, "turns": 2, "attempts": 1}
