@@ -1,0 +1,5 @@
+{"n": 1, "is": "B", "print": "[[center]] CHAPTER VII\n\nThe Theatre", "sure": "high"}
+{"n": 2, "is": "B", "print": "[[center]] CHAPTER VIII\n\nTokyo", "sure": "high"}
+{"n": 3, "is": "A", "print": "[[center]] CHAPTER IX\n\nNikko", "sure": "high"}
+{"n": 4, "is": "A", "print": "[[center]] CHAPTER X\n\nThe tomb", "sure": "high"}
+{"n": 5, "is": "A", "print": "[[center]] CHAPTER XI\n\nHot springs", "sure": "high"}

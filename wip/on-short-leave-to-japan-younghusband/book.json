@@ -37,5 +37,32 @@
   "China"
  ],
  "period": "1893",
- "frontispiece": "p0008-1"
+ "frontispiece": "p0008-1",
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "front"
+  },
+  {
+   "at": "p0009",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0011",
+   "kind": "preface"
+  },
+  {
+   "at": "p0013",
+   "kind": "contents"
+  },
+  {
+   "at": "p0018",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0266",
+   "kind": "back"
+  }
+ ],
+ "omitted_from_reading": "The half-title, the title page, the printed contents (with the topics of each chapter), the list of illustrations and the printer’s imprint are in the JSON only."
 }

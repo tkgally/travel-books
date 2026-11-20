@@ -1,0 +1,104 @@
+{
+ "p0009": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<sc>queen’s own corps of guides</sc>",
+   "replace": "<sc>Queen’s own corps of guides</sc>",
+   "draft": "<sc>queen’s own c",
+   "verified": "<sc>Queen’s own c",
+   "context": "ter]] BY ⏎  ⏎ [[center]] CAPTAIN G. J. YOUNGHUSBAND ⏎  ⏎ [[center]] <sc>queen’s own corps of guides</sc> ⏎  ⏎ [[center]] <sc>author of ‘eighteen hundred miles on a burm"
+  }
+ ],
+ "p0013": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "tragic end, | 1 |",
+   "replace": "tragic end, | I |",
+   "draft": "agic end, | 1 |",
+   "verified": "agic end, | I |",
+   "context": "the <i>Namoa</i>—The captain’s yarns—His poor horse and its tragic end, | 1 | ⏎  ⏎ ## Chapter II ⏎  ⏎ | | | ⏎ |---|---| ⏎ | Penang—The Dutch war in A"
+  }
+ ],
+ "p0015": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[center]] CHAPTER VII\n\nThe Theatre",
+   "replace": "# Chapter VII\n[[subtitle]] The Theatre",
+   "draft": "[[center]] CHAPTER VII\n\nThe Theatre",
+   "verified": "# Chapter VII\n[[subtitle]] The Theatre",
+   "context": "[[page ix]] ⏎  ⏎ [[center]] CHAPTER VII ⏎  ⏎ The Theatre—The Irving of Japan—A lengthy performance—The seating—Stage"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "[[center]] CHAPTER VIII\n\nTokyo",
+   "replace": "# Chapter VIII\n[[subtitle]] Tokyo",
+   "draft": "[[center]] CHAPTER VIII\n\nTokyo",
+   "verified": "# Chapter VIII\n[[subtitle]] Tokyo",
+   "context": " suicide—An account from <i>Old Japan</i>, <pref>82</pref> ⏎  ⏎ [[center]] CHAPTER VIII ⏎  ⏎ Tokyo by night—Holiday resorts—Our old friends ‘the forty-seven’—"
+  },
+  {
+   "n": 3,
+   "kind": "words",
+   "find": "[[center]] CHAPTER IX\n\nNikko",
+   "replace": "# Chapter IX\n[[subtitle]] Nikko",
+   "draft": "[[center]] CHAPTER IX\n\nNikko",
+   "verified": "# Chapter IX\n[[subtitle]] Nikko",
+   "context": "ises—Colonel Fukushima and his reception, <pref>100</pref> ⏎  ⏎ [[center]] CHAPTER IX ⏎  ⏎ Nikko—The journey there—Japanese railways—A Japanese hotel—Hospit"
+  },
+  {
+   "n": 4,
+   "kind": "words",
+   "find": "[[center]] CHAPTER X\n\nThe tomb",
+   "replace": "# Chapter X\n[[subtitle]] The tomb",
+   "draft": "[[center]] CHAPTER X\n\nThe tomb",
+   "verified": "# Chapter X\n[[subtitle]] The tomb",
+   "context": "ers—The mausolea—Short history of Ieyasu, <pref>110</pref> ⏎  ⏎ [[center]] CHAPTER X ⏎  ⏎ The tomb of a great soldier—Described in detail—Rainiest place in Ja"
+  },
+  {
+   "n": 5,
+   "kind": "words",
+   "find": "[[center]] CHAPTER XI\n\nHot springs",
+   "replace": "# Chapter XI\n[[subtitle]] Hot springs",
+   "draft": "[[center]] CHAPTER XI\n\nHot springs",
+   "verified": "# Chapter XI\n[[subtitle]] Hot springs",
+   "context": "ddess ‘Jingo’—Fur slippers—Nikko scenery, <pref>119</pref> ⏎  ⏎ [[center]] CHAPTER XI ⏎  ⏎ Hot springs in the hills—Ikao—A tedious journey—A courteous stationmast"
+  }
+ ],
+ "p0017": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "## Chapter XVII",
+   "replace": "# Chapter XVII",
+   "draft": "## Chapter XV",
+   "verified": "# Chapter XV",
+   "context": ", summer, autumn, or winter?—With an unbiassed mind, . 197 ⏎  ⏎ ## Chapter XVII ⏎  ⏎ The army of Japan—The death of feudalism—Rise of the stand"
+  }
+ ],
+ "p0046": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "hired carriage. I fetch good carriage for master,’",
+   "replace": "hired carriage.’ I fetch good carriage for master,’",
+   "draft": "ed carriage. I fetch goo",
+   "verified": "ed carriage.’ I fetch goo",
+   "context": "ell. He said, ‘Not proper great lady and gentleman drive in hired carriage. I fetch good carriage for master,’ which he accordingly did, bringing a private ⏎ "
+  }
+ ],
+ "p0138": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[blank]]",
+   "replace": "[[image: faded plate, almost entirely blank]]",
+   "draft": "[[blank]]",
+   "verified": "[[image: faded plate, almost entirely blank]]",
+   "context": "[[page ?]] ⏎ [[blank]] ⏎ "
+  }
+ ]
+}

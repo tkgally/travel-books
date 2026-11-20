@@ -1,0 +1,10 @@
+{"page": "p0009", "n": 1, "who": "draft", "draft": "<sc>queen’s own c", "verified": "<sc>Queen’s own c", "judge": {"n": 1, "is": "A", "print": "<sc>queen’s own c", "sure": "medium"}}
+{"page": "p0013", "n": 1, "who": "draft", "draft": "agic end, | 1 |", "verified": "agic end, | I |", "judge": {"n": 1, "is": "A", "print": "agic end, | 1 |", "sure": "medium"}}
+{"page": "p0015", "n": 1, "who": "draft", "draft": "[[center]] CHAPTER VII\n\nThe Theatre", "verified": "# Chapter VII\n[[subtitle]] The Theatre", "judge": {"n": 1, "is": "B", "print": "[[center]] CHAPTER VII\n\nThe Theatre", "sure": "high"}}
+{"page": "p0015", "n": 2, "who": "draft", "draft": "[[center]] CHAPTER VIII\n\nTokyo", "verified": "# Chapter VIII\n[[subtitle]] Tokyo", "judge": {"n": 2, "is": "B", "print": "[[center]] CHAPTER VIII\n\nTokyo", "sure": "high"}}
+{"page": "p0015", "n": 3, "who": "draft", "draft": "[[center]] CHAPTER IX\n\nNikko", "verified": "# Chapter IX\n[[subtitle]] Nikko", "judge": {"n": 3, "is": "A", "print": "[[center]] CHAPTER IX\n\nNikko", "sure": "high"}}
+{"page": "p0015", "n": 4, "who": "draft", "draft": "[[center]] CHAPTER X\n\nThe tomb", "verified": "# Chapter X\n[[subtitle]] The tomb", "judge": {"n": 4, "is": "A", "print": "[[center]] CHAPTER X\n\nThe tomb", "sure": "high"}}
+{"page": "p0015", "n": 5, "who": "draft", "draft": "[[center]] CHAPTER XI\n\nHot springs", "verified": "# Chapter XI\n[[subtitle]] Hot springs", "judge": {"n": 5, "is": "A", "print": "[[center]] CHAPTER XI\n\nHot springs", "sure": "high"}}
+{"page": "p0017", "n": 1, "who": "draft", "draft": "## Chapter XV", "verified": "# Chapter XV", "judge": {"n": 1, "is": "B", "print": "## Chapter XV", "sure": "medium"}}
+{"page": "p0046", "n": 1, "who": "verified", "draft": "ed carriage. I fetch goo", "verified": "ed carriage.’ I fetch goo", "judge": {"n": 1, "is": "B", "print": "ed carriage.’ I fetch goo", "sure": "low"}}
+{"page": "p0138", "n": 1, "who": "draft", "draft": "[[blank]]", "verified": "[[image: faded plate, almost entirely blank]]", "judge": {"n": 1, "is": "A", "print": "[[blank]]", "sure": "medium"}}

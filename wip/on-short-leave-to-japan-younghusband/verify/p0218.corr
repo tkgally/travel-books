@@ -1,0 +1,7 @@
+{"find": "wings. After some delay a mild-looking person in the corner beat", "replace": "wings. After some delay a mild-looking person in the corner beat"}
+
+Correction: the draft's last line is "arrival" in the image, not "arrival" cut off. Therefore:
+
+{"find": "the arrival", "replace": "the arrival"}
+
+NONE
