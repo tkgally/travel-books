@@ -1,0 +1,5 @@
+{"given": "Yokohama is an excellent center from which", "print": "Yokohama is an excellent centre from which", "sure": "high"}
+{"given": "has not to depend on rickshaw, this", "print": "has not to depend on a rickshaw, this", "sure": "high"}
+{"given": "which can be obtained or a fine morning", "print": "which can be obtained on a fine morning", "sure": "high"}
+{"given": "and we were in time; too, to see", "print": "and we were in time, too, to see", "sure": "high"}
+{"given": "These plauts attain a great age", "print": "These plants attain a great age", "sure": "high"}
