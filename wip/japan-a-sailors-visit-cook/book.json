@@ -72,5 +72,13 @@
   "The author signs the introduction “M. B. C., Friendship, Maine, 1890”. He was very probably Melville Bradford Cook (1838–1927) of Friendship; no source found names him as the author in so many words.",
   "A reader’s pencil marks on pages 140–141 of the scanned copy are not part of the text.",
   "Quotation marks follow modern practice: in a quotation of more than one paragraph each paragraph opens with a quotation mark (page 116)."
- ]
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-20",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }
