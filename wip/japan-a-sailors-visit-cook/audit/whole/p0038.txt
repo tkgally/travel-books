@@ -1,0 +1,5 @@
+{"given": "ritual, beating drums; ringing bells,", "print": "ritual, beating drums, ringing bells,", "sure": "high"}
+{"given": "probably for fear of exeiting our mirth,", "print": "probably for fear of exciting our mirth,", "sure": "high"}
+{"given": "then the gates of Paradize were opened", "print": "then the gates of Paradise were opened", "sure": "high"}
+{"given": "The gongs sounded, drums again heat,", "print": "The gongs sounded, drums again beat,", "sure": "high"}
+{"given": "Near this place is small cluster", "print": "Near this place is a small cluster", "sure": "high"}
