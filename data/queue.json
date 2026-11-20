@@ -646,10 +646,11 @@
    "place": "Edinburgh and London",
    "publisher": "William Blackwood and Sons",
    "images": 308,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-20",
    "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv; not on The Online Books Page; Wikisource only a bibliography citation; web search of a distinctive sentence found nothing. Reprints seen: Read Books 2010 (print-on-demand facsimile). Author 1830–1905 (scholarly article on women travellers to Iceland, scancan.net). Illustrations from the author's own sketches. Not checked: WorldCat.",
-   "note": "University of California scan, 500 ppi; clean. Woodcuts after the author's sketches, one map, advertisements at the end. Chapters V–VI are an essay on the sagas; the rest is riding through Iceland over three summers (from 1875), matching places to the sagas. She prints þ and ð as th and d."
+   "note": "University of California scan, 500 ppi; clean. Woodcuts after the author's sketches, one map, advertisements at the end. Chapters V–VI are an essay on the sagas; the rest is riding through Iceland over three summers (from 1875), matching places to the sagas. She prints þ and ð as th and d.",
+   "started": "2026-11-20"
   },
   {
    "order": 37,
