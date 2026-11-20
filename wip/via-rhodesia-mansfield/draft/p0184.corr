@@ -1,0 +1,5 @@
+{"find": "[[page ?]]\n\n162 Via Rhodesia\n\nRhodesia, but", "replace": "[[page 162]]\n\n[[cont]] Rhodesia, but"}
+{"find": "he replied :", "replace": "he replied:"}
+{"find": "“Tf I thought", "replace": "“If I thought"}
+{"find": "“ But I should", "replace": "“But I should"}
+{"find": "him “ Ugly.”", "replace": "him “Ugly.”"}
