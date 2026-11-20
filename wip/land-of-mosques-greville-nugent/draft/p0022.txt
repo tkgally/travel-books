@@ -1,0 +1,18 @@
+[[page ?]]
+
+# List of Illustrations.
+
+| | | PAGE |
+|---|---|---|
+| <sc>Portraits</sc> | (<i>See page</i> <pref>37</pref>) | <i>Frontispiece</i> |
+| <sc>Algiers in</sc> 1830 | <i>To face</i> | <pref>8</pref> |
+| A <sc>Street in the Arab Quarter</sc> | „ | <pref>35</pref> |
+| C<sc>ourt of a</sc> H<sc>ouse in</sc> O<sc>ld</sc> A<sc>lgiers</sc> | „ | <pref>57</pref> |
+| M<sc>osque of</sc> S<sc>idi</sc> A<sc>bderrahman</sc> | „ | <pref>90</pref> |
+| A<sc>rab</sc> G<sc>raves at</sc> B<sc>ou</sc>-Z<sc>areah</sc> | „ | <pref>102</pref> |
+| K<sc>abyle</sc> V<sc>illage</sc> | „ | <pref>116</pref> |
+| A<sc>rab</sc> B<sc>oy at</sc> W<sc>ell</sc> | „ | <pref>127</pref> |
+| B<sc>oys’</sc> S<sc>chool at</sc> B<sc>izerta</sc> | „ | <pref>138</pref> |
+| T<sc>unisian</sc> S<sc>ouks</sc> | „ | <pref>146</pref> |
+| T<sc>he</sc> C<sc>ity of</sc> T<sc>unis</sc> | „ | <pref>156</pref> |
+| B<sc>ey’s</sc> B<sc>ed</sc>, P<sc>alace of</sc> K<sc>assar</sc>-S<sc>aïd</sc> | „ | <pref>167</pref> |
