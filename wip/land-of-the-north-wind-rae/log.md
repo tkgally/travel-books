@@ -7,8 +7,7 @@ article on the book's publication; no text edition. Author born 1847, death date
 (selection.md). Plates not credited to an artist. Taken up 2026-11-20.
 
 ## Status
-Stage reached: (a) scan checked, cached in Drive (27 parts); Opus draft running (p0005, p0008, p0011, p0013,
-p0015–p0192, p0194–p0281, p0283–p0383).
+Stage reached: (c) preflight PASS, audit recorded; rendered look next, then publish.
 
 ## Page map
 Scan check 2026-11-20 (Opus subagent: all 10 sheets; folio of every text leaf on crops; full size 4, 5, 8, 11, 13,
@@ -32,10 +31,38 @@ bottom quay on → quay in (p0153); p. 150 last line we did → we do (p0176); p
 p. 291 l. 9 I accuse them → I accused them (p0321).
 
 ## Decisions
+- Drafted p0005, p0008, p0011, p0013, p0015–p0192, p0194–p0281, p0283–p0383; blanks p0006, p0007, p0012, p0014, p0193,
+  p0282 waived; covers, boards, endpapers not transcribed.
+- Judge: 22 spots (draft 13, verifier 7, neither 2); most were accents and contents heading levels.
+- **Accents** (the book's weak spot): all accented words listed by base form; 23 groups spelled differently in
+  different places went to an Opus subagent on crops. The book prints a single wide circumflex over "ou" (knout,
+  moujik, Tjouma, Moudiuga, Samoyede words); the readers took it for an acute, grave or breve on one letter. Given as
+  "oû" throughout (assumed: a convention; said in `notes_on_text`); 35 pages changed. Also Aåwasaksa → Aâwasaksa
+  (5 pages), Kanúshin → Kanûshin (p0300), Lúûkos → Lûukos (p0130), "tchelég a" → tcheléga (p0202), the frontispiece
+  caption Tûndras, five vocabulary words on p0243. Real variants in the book kept: Solómbola/Solômbola,
+  Pietasâari/Piétasâari, tchaï/tchâi. Not checked: Sŭuari (one place).
+- Printed contents (p0017–p0024): re-set as plain lines (centred chapter number, topics with page reference); "PAGE"
+  heads and table rows removed; page numbers the draft had left bare made `<pref>`.
+- Book title above Chapter I (p0027) left out (as in *A Jaunt in Japan*).
+- Errata applied as `[[corr]]`: p0050, p0069, p0153, p0176 (p. 150, last line: "we did not mind"), p0187, p0321.
+- Printer's error p0132 "makiug" (turned n; the draft had silently corrected it; found by the audit) → `[[corr]]`.
+- p0272: two musical figures in the line (a crotchet marked flat, one marked sharp: the slang B-flat = bug,
+  F-sharp = flea) given as ♭ and ♯, said in `notes_on_text`.
+- p0015 "may of the most humble nature" is printed so (no "be"); kept.
+- keep_hyphens p0094 (Kauto-keino), p0188 (long-cassocked).
+- Contents: the printed summaries in full (`toc.subtitles all`), short titles "Chapter N".
+- A spot-read subagent reported 11 lines missing on p0317; they were in the page file (its view was cut). An
+  `ocr_fallback.py` re-reading of the page, made before that was seen, matched the page file and was discarded.
 
 ## Runs
 | Run | Model | Pages | Cost |
 |---|---|---|---|
+| draft | Opus | 371 | $24.33 (0 refused) |
+| corrections | Sonnet | 371 | $12.09 (16 word, 6 punctuation, 11 markup changes) |
+| judge | Opus | 22 spots | $0.64 |
+| audit | Opus | 6 (p0065, p0132, p0152, p0167, p0192, p0223) | $0.35: 30/30; 3 candidates, 2 real (p0192 tcheléga ×2, p0132 printer's error) |
+| audit, 20 more | Opus | 20 | $1.17: 100/100; 2 candidates, none real (the left-out book title on p0027) |
+| fallback re-reading p0317 | tesseract + Opus | 1 | about $0.10 (log discarded with the run) |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
