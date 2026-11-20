@@ -1,0 +1,6 @@
+{"find": "I left in the afternoon", "replace": "I left in the afternoon"}
+{"find": "I once and for all time", "replace": "I once and for all time"}
+
+Wait — checking the image: "I once and for all time" matches, and "I left in the afternoon" matches. Neither needs a change, so the only differences are these:
+
+{"find": "pièce de résistance", "replace": "pièce de resistance"}

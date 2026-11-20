@@ -1,0 +1,10 @@
+{"find": "a sort of veneer", "replace": "a sort of veneer"}
+{"find": "“a sort\n", "replace": "“a sort\n"}
+
+Wait — I need to give only corrections. The draft says "a sort of veneer"? The draft reads "‘a sort of veneer of Christianity" — checking against the image: it is the same, so no change there. The real differences are these:
+
+{"find": "noticed ‘a sort of veneer of Christianity, which made a show and looked satisfactory only when described in a missionary magazine.’", "replace": "noticed ‘a sort of veneer of Christianity, which made a show and looked satisfactory only when described in a missionary magazine.’"}
+{"find": "Miss Mansfield’s on", "replace": "Miss Mansfield’s on"}
+{"find": "[[fnref 1]]\n\nIn", "replace": "[[fnref 1]]\n\nIn"}
+
+NONE
