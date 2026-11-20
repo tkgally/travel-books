@@ -26,6 +26,7 @@
 | Via Rhodesia v1 | 2026-11-20 | 450 drafted of 464 | Opus draft → Sonnet corrections → Opus judge; 2 pages by the OCR fallback (tesseract + Opus); 148 crops by three Opus subagents | 123 | 25+2 / 96 / 0 (most verifier wins: paragraphs rejoined round pictures) | 1 (p0124 "483." a broken comma) | 47.13 | 0 | PASS, 5 waived | 30/30 + 10/10 on the fallback pages; 0 / 8 | |
 | W.S.W. v1 | 2026-11-20 | 168 | Opus draft → Sonnet corrections → Opus judge; 14 plates cropped by an Opus subagent | 2 | 1 / 1 / 0 | 0 | 15.96 | 0 | PASS, 24 waived (ditto marks, 2 pages) | 30/30 + 10/10; 0 / 8 | |
 | A Cruise in the U.S. Steam Frigate Mississippi v1 | 2026-11-20 | 76 | Opus draft (`--halves`) → Sonnet corrections → Opus judge | 3 | 2 / 1 / 0 | 0 | 11.08 | 0 | PASS, 0 waived | 30/30; 0 / 6 | |
+| A Journey through the Caucasus v1 | 2026-11-20 | 364 | Opus draft → Sonnet corrections → Opus judge; spot-read of 21 pages by an Opus subagent | 4 | 4 / 0 / 0 | 0 | 33.98 | 0 | PASS, 0 waived | 30/30; 0 / 6 (spot-read: 1 printer's error marked, 3 Italian elisions restored) | |
 
 ## Calibrations
 

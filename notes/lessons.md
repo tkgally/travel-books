@@ -112,6 +112,9 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 - A note continued over the page arrives as a note with a new mark and no reference: make it `[[fn cont]]`.
 - A signature under a note goes inside the note.
+- A summary of 80 characters or less goes into the chapter's title (pager, breadcrumb, page title) while longer ones stay
+  in `toc_title`; with `"toc": {"subtitles": "all"}` give those chapters a short `title` and the full `toc_title` in
+  `divisions` so that all chapters match (*Journey through the Caucasus*: I, XVI, Appendix).
 - Two marks in the text for one printed note: the second is `[[fnref * again]]` (the compiler warns "has no note" otherwise).
 
 ## Trigger: appendices, documents, quoted articles
@@ -124,6 +127,11 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   differences only, did 38 pages in ten minutes and found a printer's error and a wrong join the pipeline had passed.
 - Wide tables with blank cells (no dash) among dashed ones: drafts shift whole columns up or down a row (*Embassy* p2658,
   21 columns). Sum each column against the printed total by script, and read the blanks and dashes on a rotated crop.
+
+## Trigger: quotations in another language
+
+- Drafts close up the printed space after an elided Italian article ("l’ affare" → "l’affare") in some places and keep it
+  in others (*Journey through the Caucasus*, 3 of about 20): a spot-read on the scan finds them; make them all as printed.
 
 ## Trigger: verse and quotations over page breaks
 
