@@ -1,0 +1,12 @@
+judge opus: 11 spots on 6 pages: {'draft': 9, 'verified': 2}; cost $0.28
+p0016 #1 [draft, sure: medium] draft '<sc>armenian and turk</sc>' | verified 'ARMENIAN AND TURK' | judge reads '<sc>armenian and turk</sc>'
+p0016 #2 [draft, sure: medium] draft '<sc>a day of peril</sc>' | verified 'A DAY OF PERIL' | judge reads '<sc>a day of peril</sc>'
+p0016 #3 [draft, sure: medium] draft '<sc>urgub and nem shehr</sc>' | verified 'URGUB AND NEM SHEHR' | judge reads '<sc>urgub and nem shehr</sc>'
+p0019 #1 [draft, sure: medium] draft '## Chapter XX' | verified '# Chapter XX' | judge reads '## Chapter XX'
+p0019 #2 [draft, sure: medium] draft '## Chapter XX' | verified '# Chapter XX' | judge reads '## Chapter XX'
+p0020 #1 [draft, sure: medium] draft '## Chapter XX' | verified '# Chapter XX' | judge reads '## Chapter XX'
+p0020 #2 [draft, sure: medium] draft '## Chapter XX' | verified '# Chapter XX' | judge reads '## Chapter XX'
+p0020 #3 [draft, sure: medium] draft '## Chapter XX' | verified '# Chapter XX' | judge reads '## Chapter XX'
+p0102 #1 [draft, sure: high] draft 'mattrasses' | verified 'mattresses' | judge reads 'mattrasses'
+p0119 #1 [verified, sure: medium] draft 'the name given' | verified 'the rame given' | judge reads 'the rame given'
+p0142 #1 [verified, sure: medium] draft 'Mr. Davis had written' | verified 'Mr. Davis’ had written' | judge reads 'Mr. Davis’ had written'

@@ -1,0 +1,3 @@
+{"n": 1, "is": "A", "print": "<sc>armenian and turk</sc>", "sure": "medium"}
+{"n": 2, "is": "B", "print": "<sc>a day of peril</sc>", "sure": "medium"}
+{"n": 3, "is": "B", "print": "<sc>urgub and nem shehr</sc>", "sure": "medium"}

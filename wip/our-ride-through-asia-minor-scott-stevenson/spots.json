@@ -1,0 +1,113 @@
+{
+ "p0016": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<sc>armenian and turk</sc>",
+   "replace": "ARMENIAN AND TURK",
+   "draft": "<sc>armenian and turk</sc>",
+   "verified": "ARMENIAN AND TURK",
+   "context": "araba, or native waggon—We charter one. ⏎  ⏎ ## Chapter XIV. ⏎  ⏎ | <sc>armenian and turk</sc> | 210 | ⏎  ⏎ The Armenians—Their control of commerce—Reputation"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "<sc>a day of peril</sc>",
+   "replace": "A DAY OF PERIL",
+   "draft": "<sc>a day of peril</sc>",
+   "verified": "A DAY OF PERIL",
+   "context": " of our inquiry: sympathy with the Turk. ⏎  ⏎ ## Chapter XV. ⏎  ⏎ | <sc>a day of peril</sc> | 224 | ⏎  ⏎ The araba and its driver—The muleteer again—How he"
+  },
+  {
+   "n": 3,
+   "kind": "words",
+   "find": "<sc>urgub and nem shehr</sc>",
+   "replace": "URGUB AND NEM SHEHR",
+   "draft": "<sc>urgub and nem shehr</sc>",
+   "verified": "URGUB AND NEM SHEHR",
+   "context": " visitors—A welcome voice—Help at last. ⏎  ⏎ ## Chapter XVI. ⏎  ⏎ | <sc>urgub and nem shehr</sc> | 239 | ⏎  ⏎ Approach to Urgub—A troglodyte city—A friendly cai"
+  }
+ ],
+ "p0019": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "## Chapter XXIII.",
+   "replace": "# Chapter XXIII.",
+   "draft": "## Chapter XX",
+   "verified": "# Chapter XX",
+   "context": "of the Turk—A contrast in this respect with the Christian. ⏎  ⏎ ## Chapter XXIII. ⏎  ⏎ <sc>due south to karaman</sc> . . . . . . . . . <pref>337<"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "## Chapter XXIV.",
+   "replace": "# Chapter XXIV.",
+   "draft": "## Chapter XX",
+   "verified": "# Chapter XX",
+   "context": "culty of repaying it—His appreciation of small attentions. ⏎  ⏎ ## Chapter XXIV. ⏎  ⏎ <sc>a night in the forest</sc> . . . . . . . . . <pref>355"
+  }
+ ],
+ "p0020": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "## Chapter XXV.",
+   "replace": "# Chapter XXV.",
+   "draft": "## Chapter XX",
+   "verified": "# Chapter XX",
+   "context": "[[page xix]] ⏎  ⏎ ## Chapter XXV. ⏎  ⏎ [[right]] PAGE ⏎  ⏎ <sc>Mout and Zéna</sc> <pref>368</pref> ⏎  ⏎ T"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "## Chapter XXVI.",
+   "replace": "# Chapter XXVI.",
+   "draft": "## Chapter XX",
+   "verified": "# Chapter XX",
+   "context": ", stream, and woodland—A placid life—A lingering farewell. ⏎  ⏎ ## Chapter XXVI. ⏎  ⏎ <sc>A Beautiful Ride</sc> <pref>380</pref> ⏎  ⏎ A fortunate of"
+  },
+  {
+   "n": 3,
+   "kind": "punctuation",
+   "find": "## Chapter XXVII.",
+   "replace": "# Chapter XXVII.",
+   "draft": "## Chapter XX",
+   "verified": "# Chapter XX",
+   "context": "Souris”—I am at last satisfied that I have done something. ⏎  ⏎ ## Chapter XXVII. ⏎  ⏎ <sc>Killindryeh and our Voyage Home</sc> <pref>390</pref> ⏎ "
+  }
+ ],
+ "p0102": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "mattrasses",
+   "replace": "mattresses",
+   "draft": "mattrasses",
+   "verified": "mattresses",
+   "context": "[[page 77]] ⏎ [[cont]]on the floor of the reception-room; mattrasses piled one on the top of the other in true Turkish fashion, "
+  }
+ ],
+ "p0119": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "the name given",
+   "replace": "the rame given",
+   "draft": "the name given",
+   "verified": "the rame given",
+   "context": "o fall by their own weight, and then cut up into “tcheragh”—the name given by the natives to the wood used as torches; candles and oil"
+  }
+ ],
+ "p0142": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "Mr. Davis had written",
+   "replace": "Mr. Davis’ had written",
+   "draft": "Mr. Davis had written",
+   "verified": "Mr. Davis’ had written",
+   "context": "ld go no farther, we were delighted to hurry his departure. Mr. Davis had written to me from Alexandria about a man called Nahli Sabbagh who "
+  }
+ ]
+}
