@@ -200,7 +200,9 @@ def build_jatsi(out, books, queue, j=None):
         else:
             state = ""
         links = [f'<a href="{attr(s["url"])}">{esc(s["label"])}</a>' for s in e.get("scans", [])]
-        links += [f'<a href="https://www.gutenberg.org/ebooks/{int(g)}">text at Project Gutenberg</a>' for g in e.get("gutenberg", [])]
+        gs = e.get("gutenberg", [])
+        links += [f'<a href="https://www.gutenberg.org/ebooks/{int(g)}">text at Project Gutenberg{f" ({k})" if len(gs) > 1 else ""}</a>'
+                  for k, g in enumerate(gs, 1)]
         return (f'<li><cite>{esc(inline.smart_quotes(e["title"]))}</cite>'
                 + (f' ({esc(inline.smart_quotes(e["note"]))})' if e.get("note") else "")
                 + (f', {esc(inline.smart_quotes(e["author"]))}' if e.get("author") else "") + state
