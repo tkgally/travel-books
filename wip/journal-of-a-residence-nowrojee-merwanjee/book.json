@@ -1,0 +1,17 @@
+{
+ "id": "journal-of-a-residence-nowrojee-merwanjee",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "Journal of a Residence of Two Years and a Half in Great Britain",
+ "short_title": "Journal of a Residence in Great Britain",
+ "authors": [
+  {"name": "Jehangeer Nowrojee", "sort": "Nowrojee, Jehangeer"},
+  {"name": "Hirjeebhoy Merwanjee", "sort": "Merwanjee, Hirjeebhoy"}
+ ],
+ "place": "London",
+ "publisher": "Wm. H. Allen and Co.",
+ "year": 1841,
+ "edition_statement": "First edition",
+ "source": {"ia_identifier": "journalofresiden00jaha", "contributor": "Getty Research Institute"},
+ "history": [{"version": 1, "date": "2026-11-20", "note": "First publication."}]
+}
