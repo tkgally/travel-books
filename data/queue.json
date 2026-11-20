@@ -625,10 +625,11 @@
    "place": "London",
    "publisher": "John Murray",
    "images": 390,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-20",
    "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv; The Online Books Page lists HathiTrust page images only; Wikisource only EB1911 citations; web search of a distinctive sentence found nothing. Reprints seen: Creative Media Partners 2018, British Library Historical Print Editions, BiblioLife, Legare Street 2022 (all print on demand). Doria (Helsinki) and HathiTrust: page scans only. Author born 1847 (IA and Online Books Page authority records), death date not found: born before 1856, so rule 5 is met (Tom's rule, selection.md). Plates not credited to an artist. Not checked: WorldCat.",
-   "note": "Princeton Theological Seminary colour scan, 360 ppi; sample pages clean. Folding map of Russian Lapland captured unfolded near the end; three plates and a title vignette; a printed errata list (six items) after the list of illustrations. Two summer journeys (Finnish and Russian Lapland; Archangel, the Pinega and Mezen) with a companion, 'the Doctor'; dry, self-mocking journal."
+   "note": "Princeton Theological Seminary colour scan, 360 ppi; sample pages clean. Folding map of Russian Lapland captured unfolded near the end; three plates and a title vignette; a printed errata list (six items) after the list of illustrations. Two summer journeys (Finnish and Russian Lapland; Archangel, the Pinega and Mezen) with a companion, 'the Doctor'; dry, self-mocking journal.",
+   "started": "2026-11-20"
   },
   {
    "order": 36,
