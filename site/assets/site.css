@@ -1,8 +1,12 @@
 /* Site pages. Book text styles are in book.css. */
-:root { --fg: #1c1c1c; --bg: #fdfdfb; --muted: #5a5a5a; --link: #0b4f9e; --visited: #5b3a8c; --line: #c9c9c4; }
+:root { color-scheme: light dark; --fg: #1c1c1c; --bg: #fdfdfb; --muted: #5a5a5a; --link: #0b4f9e; --visited: #5b3a8c; --line: #c9c9c4; }
+/* The dark colours are written twice: for a device set to dark (no choice made, or no script), and for the reader's own choice. */
 @media (prefers-color-scheme: dark) {
-  :root { --fg: #e6e6e1; --bg: #161616; --muted: #a8a8a3; --link: #8fbcf5; --visited: #c3a6ec; --line: #444; }
+  :root:not([data-theme]) { --fg: #e6e6e1; --bg: #161616; --muted: #a8a8a3; --link: #8fbcf5; --visited: #c3a6ec; --line: #444; }
 }
+:root[data-theme="dark"] { color-scheme: dark; --fg: #e6e6e1; --bg: #161616; --muted: #a8a8a3; --link: #8fbcf5; --visited: #c3a6ec; --line: #444; }
+:root[data-theme="light"] { color-scheme: light; }
+:root[data-theme="sepia"] { color-scheme: light; --fg: #33291c; --bg: #f4ecd8; --muted: #62533f; --link: #0b4a8f; --visited: #5b3a8c; --line: #cfc2a2; }
 * { box-sizing: border-box; }
 html { font-size: 112.5%; -webkit-text-size-adjust: 100%; }
 body { margin: 0 auto; padding: 0 1rem 3rem 1rem; max-width: 36rem; color: var(--fg); background: var(--bg);
@@ -47,5 +51,67 @@ html.showpb article.book .pb { display: inline; }
 article.book .corr { text-decoration: underline dotted var(--muted); text-underline-offset: 0.2em; }
 article.book :target { background: rgba(255, 221, 87, 0.35); }
 footer.site { border-top: 1px solid var(--line); margin-top: 3rem; padding-top: 0.6rem; font-size: 0.85rem; color: var(--muted); }
-@media print { header.site nav, nav.pager, .pbtoggle, footer.site, .skip, details.viewer { display: none; } body { max-width: none; } }
+body:has(#showpb:checked) article.book .pb { display: inline; }
+
+/* Display settings (site.js). Without the script none of these rules applies and the pages look as they always did.
+   The script sets attributes and custom properties on <html>; the colours and the underlining of links apply to
+   every page, the rest to the text of a book. The EPUB does not use this file. */
+html.tb-js .pbtoggle { display: none; }
+body:has(article.book) { max-width: var(--tb-width, 36rem); }
+article.book { font-size: calc(1em * var(--tb-size, 1)); line-height: var(--tb-lh, 1.6); letter-spacing: var(--tb-ls, normal);
+  word-spacing: var(--tb-ws, normal); }
+html[data-font="sans"] article.book { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+html[data-font="default"] article.book { font-family: initial; }
+html[data-align="left"] article.book { -webkit-hyphens: manual; hyphens: manual; }
+:where(html[data-align="left"]) article.book p { text-align: left; }
+:where(html[data-para="block"]) article.book p { text-indent: 0; margin-bottom: 0.8em; }
+html[data-corr="off"] article.book .corr { text-decoration: none; }
+html[data-links="off"] a { text-decoration: none; }
+html[data-links="off"] a:not(.pb):hover, html[data-links="off"] a:not(.pb):focus-visible { text-decoration: underline; }
+header.site { position: relative; }
+.tb-btn { font: inherit; color: var(--link); background: none; border: 1px solid var(--line); border-radius: 0.3rem;
+  padding: 0 0.5rem; cursor: pointer; }
+.tb-btn[aria-expanded="true"] { border-color: var(--link); }
+.tb-panel { position: absolute; z-index: 10; top: 100%; right: 0; width: 17.5rem; max-width: 100%; margin-top: 0.3rem; padding: 0.6rem;
+  color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 0.4rem; box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.25);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: 0.9rem; line-height: 1.2; }
+.tb-panel[hidden], .tb-adv[hidden], .tb-tip[hidden] { display: none; }
+.tb-row { display: flex; align-items: center; justify-content: center; gap: 0.4rem; margin: 0 0 0.5rem 0; }
+.tb-adv { border-top: 1px solid var(--line); padding-top: 0.5rem; }
+.tb-adv .tb-row:last-child, .tb-panel > .tb-row:last-child { margin-bottom: 0; }
+.tb-panel button, .tb-opt > span { display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box;
+  min-width: 2.5rem; height: 2.5rem; padding: 0 0.3rem; margin: 0; font: inherit; color: var(--fg); background: none;
+  border: 1px solid var(--line); border-radius: 0.3rem; cursor: pointer; white-space: nowrap; }
+.tb-panel button:disabled { opacity: 0.35; cursor: default; }
+.tb-panel button:focus-visible, .tb-opt input:focus-visible + span, .tb-btn:focus-visible { outline: 3px solid var(--link); outline-offset: 2px; }
+.tb-panel button[aria-pressed="true"], .tb-opt input:checked + span { border: 2px solid var(--link); }
+.tb-panel button[aria-pressed="false"] { opacity: 0.6; }
+.tb-panel button[aria-pressed="false"] > * { text-decoration: none; border-color: transparent; }
+.tb-opt { position: relative; display: inline-flex; }
+.tb-opt input { position: absolute; opacity: 0; width: 100%; height: 100%; margin: 0; cursor: pointer; }
+.tb-panel svg { width: 1.5rem; height: 1.5rem; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.tb-dots { flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.35rem; }
+.tb-dots i { forced-color-adjust: none; width: 0.4rem; height: 0.4rem; border-radius: 50%; border: 1px solid var(--muted); }
+.tb-dots i.on { width: 0.65rem; height: 0.65rem; background: var(--fg); border-color: var(--fg); }
+.tb-sw { forced-color-adjust: none; font-family: Georgia, serif; font-size: 1.1rem; }
+.tb-opt > .tb-sw-light { color: #1c1c1c; background: #fdfdfb; }
+.tb-opt > .tb-sw-sepia { color: #33291c; background: #f4ecd8; }
+.tb-opt > .tb-sw-dark { color: #e6e6e1; background: #161616; }
+.tb-opt > .tb-sw-auto { background: linear-gradient(135deg, #fdfdfb 50%, #161616 50%); }
+.tb-f-serif { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif; font-size: 1.1rem; }
+.tb-f-sans { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 1.1rem; }
+.tb-f-default { font-family: initial; font-size: 1.1rem; }
+.tb-a-small { font-size: 0.8rem; } .tb-a-large { font-size: 1.4rem; }
+.tb-i-corr { text-decoration: underline dotted; text-underline-offset: 0.2em; }
+.tb-i-link { color: var(--link); text-decoration: underline; }
+.tb-i-pb { font-size: 0.7rem; color: var(--muted); border: 1px solid var(--line); border-radius: 0.2rem; padding: 0 0.25rem; }
+.tb-tip { position: absolute; z-index: 11; padding: 0.2rem 0.45rem; color: var(--bg); background: var(--fg); border-radius: 0.25rem;
+  font-size: 0.78rem; white-space: nowrap; pointer-events: none; }
+.tb-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.tb-resume { margin: 1rem 0; }
+@media print {
+  :root, :root[data-theme] { --fg: #000; --bg: #fff; --muted: #444; --link: #000; --visited: #000; --line: #999; }
+  header.site nav, nav.pager, .pbtoggle, footer.site, .skip, details.viewer, .tb-panel, .tb-resume { display: none; }
+  body, body:has(article.book) { max-width: none; }
+}
 body:has(#showpb:checked) article.book .pb { display: inline; }

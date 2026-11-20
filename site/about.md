@@ -53,3 +53,9 @@ The books were published before 1914. Apart from a few books of the Japan As The
 ## How the site is built
 
 The source of every book, the tools and the working notes are in the [GitHub repository](https://github.com/tkgally/travel-books). The site uses no trackers, no cookies, and no fonts or scripts from other sites. The only outside content is the optional viewer of scanned pages on each book's page, which comes from the Internet Archive when you open it.
+
+## Display settings
+
+The pages with the text of a book have a "Display" button at the top right. It opens a panel of settings: the colours (light, sepia, dark, or as your device is set), the size of the text, the typeface (serif, sans serif, or the one set in your browser) and the space between lines. Under "More settings" are the width of the column, justified or ragged lines, indented or spaced paragraphs, the space between letters and between words, the underlining of links, the dotted marks under corrected misprints, the page numbers of the printed book, and whether your place in each book is remembered. The last button puts everything back as it was. The colours and the underlining of links apply to every page of the site; the rest applies to the text of the books.
+
+The settings and your place in each book are kept in your own browser and are sent nowhere. If your browser does not run scripts, the button does not appear and the pages are shown with the site's own settings, in light or dark colours as your device is set.
