@@ -6,8 +6,7 @@ translations of Auerbach); a web search of the title finds catalogue records, a 
 Judaica bibliography entry; no text edition. Author 1838–1904. Taken up 2026-11-20.
 
 ## Status
-Stage reached: (a) scan checked, cached in Drive (14 parts); Opus draft running (p0009–p0011, p0013, p0015–p0017,
-p0019–p0193).
+Published, version 1 (2026-11-20). Nothing pending.
 
 ## Page map
 Scan check 2026-11-20 (Opus subagent: all 6 sheets; every folio on crops; full size 9, 13, 15, 19, 22, 41, 50, 118, 153,
@@ -30,13 +29,32 @@ italic lines p0022. No Chinese or Japanese script. The printed contents gives Ch
 no page for Ch. XX. Printer's error seen: "Jananese" p. 110 (p0118).
 
 ## Decisions
+- Drafted p0009–p0011, p0013, p0015–p0017, p0019–p0193; blanks p0012, p0014, p0018 waived; covers, endpapers and
+  flyleaves not transcribed.
+- Judge: 1 spot (p0015 drop-capital opening "EARLY": full capitals, as the draft had). The Sonnet pass changed 1 word
+  and 9 markup places.
+- Chapter headings made alike: "# I. Across the Continent." (the drafts mixed small capitals and title case); "etc."
+  in lower case; four chapters ending in "etc." get a `title` so that the full stop stays.
+- The untitled preface: a division at p0015 with the editor's title "Preface" (said in `notes_on_text`).
+- Appendix: one division; its three pieces as `##` sections with contents entries from their headings (`toc_entries`,
+  `"editor": false`; the printed contents names two of them differently: "The Queen's Jubilee", "Japanese Dress").
+- Printer's error p0118 "Jananese" → `[[corr]]`.
+- Cover: the front cover (dark cloth, title in gilt letters made to look like brush strokes); missed at first (no
+  pictures in the book, so no crop job) and caught by the rendered look.
+- Contents errors of the print (Ch. VII p. 66 for 69; Ch. XX no page): kept in the JSON, said in `notes_on_text`.
 
 ## Runs
 | Run | Model | Pages | Cost |
 |---|---|---|---|
+| draft | Opus | 182 | $11.11 (0 refused) |
+| corrections | Sonnet | 182 | $5.64 (1 word, 9 markup changes) |
+| judge | Opus | 1 spot | $0.04 |
+| audit | Opus | 6 (p0047, p0093, p0104, p0114, p0131, p0147) | $0.33: 30/30, 0 candidates |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
+| 1 | 2026-11-20 | PASS — 0 to fix, 3 waived (blank leaves); to look at: hyphen-joins 5 (real breaks), contents 2 (appendix pieces named differently in the printed contents) — tools@84fdce4 | 30/30; 0 real errors / 6 pages | first publication; spot-read of 22 pages (no differences); rendered look at 390 and 1280, EPUB nav |
 
 ## Known issues
+- The sign on p. 14 (four italic lines) is shown in roman in the editions by the rule for long italic passages (style.md).
