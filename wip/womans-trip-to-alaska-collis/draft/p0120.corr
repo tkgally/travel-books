@@ -1,0 +1,4 @@
+{"find": "[[page ?]]\n\n98 A WOMAN’S TRIP TO ALASKA,\n\nall kinds", "replace": "[[page 98]]\n\n[[cont]] all kinds"}
+{"find": "“dolla,” dollar, Whether", "replace": "“dolla,” dollar. Whether"}
+{"find": "demand ;", "replace": "demand;"}
+{"find": "jewelry ;", "replace": "jewelry;"}

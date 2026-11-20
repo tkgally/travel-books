@@ -1,0 +1,4 @@
+{"find": "[[page ?]]\n\n166 A WOMAN’S TRIP TO ALASKA.\n\nattain", "replace": "[[page 166]]\n\n[[cont]] attain"}
+{"find": "vicinity ;", "replace": "vicinity;"}
+{"find": "Iam told", "replace": "I am told"}
+{"find": "“orowed", "replace": "“growed"}

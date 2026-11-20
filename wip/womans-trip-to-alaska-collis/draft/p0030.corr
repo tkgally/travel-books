@@ -1,0 +1,4 @@
+{"find": "[[page ?]]\n\n8 A WOMAN'S TRIP TO ALASKA\n\ning the", "replace": "[[page 8]]\n\n[[cont]]ing the"}
+{"find": "her début this", "replace": "her <i>début</i> this"}
+{"find": "host en vrai prince, placing", "replace": "host <i>en vrai prince</i>, placing"}
+{"find": "half adozen", "replace": "half a dozen"}

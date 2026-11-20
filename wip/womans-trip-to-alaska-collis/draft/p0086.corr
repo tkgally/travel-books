@@ -1,0 +1,7 @@
+{"find": "[[page ?]]\n\n64 A WOMAN’S TRIP TO ALASKA, 1\n\nRiche;", "replace": "[[page 64]]\n\n[[cont]] Riche;"}
+{"find": "The maitre hotel served it in propria persona, and", "replace": "The <i>maître d’hôtel</i> served it <i>in propria persona</i>, and"}
+{"find": "with an \\ appetite", "replace": "with an appetite"}
+{"find": "these came\n\nOlympia", "replace": "these came Olympia"}
+{"find": "host in- | formed", "replace": "host informed"}
+{"find": "desired. “ Roast\n\nit before", "replace": "desired. “Roast it before"}
+{"find": "was the !", "replace": "was the"}

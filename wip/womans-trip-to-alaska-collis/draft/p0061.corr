@@ -1,0 +1,4 @@
+{"find": "[[page ?]]\n\nTACOMA. 30\n\nand: Mrs.", "replace": "[[page 39]]\n\n[[cont]] and Mrs."}
+{"find": "porch and-a shingle", "replace": "porch and a shingle"}
+{"find": "with the cuisine or", "replace": "with the <i>cuisine</i> or"}
+{"find": "private, im these", "replace": "private, in these"}

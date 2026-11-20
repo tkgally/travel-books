@@ -1,0 +1,7 @@
+{"find": "[[page ?]]\n\n26 A WOMAN'S TRIP TO ALASKA,\n\n", "replace": "[[page 26]]\n\n"}
+{"find": "my bedside;", "replace": "my bedside,"}
+{"find": "toilet, 1 was", "replace": "toilet, I was"}
+{"find": "Pend WOreille", "replace": "Pend d’Oreille"}
+{"find": "missionaries, Who", "replace": "missionaries, who"}
+{"find": "“ glassing", "replace": "“glassing"}
+{"find": "I xan vouch", "replace": "I can vouch"}

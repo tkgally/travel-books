@@ -1,0 +1,8 @@
+{"find": "[[page ?]]\n\nTHE COMFORTS OF TRAVEL. ii\n\npassage-way", "replace": "[[page 11]]\n\n[[cont]]passage-way"}
+{"find": "delicious wafiles", "replace": "delicious waffles"}
+{"find": "bill. [really", "replace": "bill. I really"}
+{"find": "nine o'clock", "replace": "nine o’clock"}
+{"find": "one arriére pensée, one", "replace": "one <i>arrière pensée</i>, one"}
+{"find": "paregoric ?", "replace": "paregoric?"}
+{"find": "deliciously ;", "replace": "deliciously;"}
+{"find": "temperature ;", "replace": "temperature;"}

@@ -1,0 +1,9 @@
+{"find": "[[page ?]]\n\nFORT SIMPSON. 181\n\n", "replace": "[[page 181]]\n\n[[cont]] "}
+{"find": "see amass", "replace": "see a mass"}
+{"find": "“ Piedmont”", "replace": "“Piedmont”"}
+{"find": "and areal treat", "replace": "and a real treat"}
+{"find": "kin at\n\nFort Simpson, was", "replace": "kin at Fort Simpson, was"}
+{"find": "govefniment", "replace": "government"}
+{"find": "there afew", "replace": "there a few"}
+{"find": "our samera", "replace": "our camera"}
+{"find": "Charles IT.", "replace": "Charles II."}

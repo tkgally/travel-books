@@ -1,0 +1,7 @@
+{"find": "[[page ?]]\n\n108 A WOMAN’S TRIP TO ALASKA.\n\nto excite", "replace": "[[page 108]]\n\n[[cont]] to excite"}
+{"find": "a mniddle-aged", "replace": "a middle-aged"}
+{"find": "pockets ; encircling", "replace": "pockets; encircling"}
+{"find": "clothes ; on", "replace": "clothes; on"}
+{"find": "mud ; cans", "replace": "mud; cans"}
+{"find": "soap-boxes ; and", "replace": "soap-boxes; and"}
+{"find": "distinet smells |", "replace": "distinct smells I"}

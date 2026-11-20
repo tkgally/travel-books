@@ -1,0 +1,5 @@
+{"find": "[[page ?]]", "replace": "[[page 190]]"}
+{"find": "190 A WOMAN'S TRIP TO ALASKA.\n\nnow reached", "replace": "[[cont]]now reached"}
+{"find": "the faroff Olympic", "replace": "the far-off Olympic"}
+{"find": "was nof a", "replace": "was <i>not</i> a"}
+{"find": "a cause célébre,", "replace": "a <i>cause célèbre</i>,"}

@@ -1,0 +1,6 @@
+{"find": "[[page ?]]\n\n46 A WOMAN’S TRIP TO ALASKA,\n\ntiers", "replace": "[[page 46]]\n\n[[cont]] tiers"}
+{"find": "voyage for as fresh", "replace": "voyage for the season she was fresh"}
+{"find": "a féte-champétre effect", "replace": "a <i>féte-champêtre</i> effect"}
+{"find": "added “ our", "replace": "added “our"}
+{"find": "room, and\n\nthe season she w\n\ngiven", "replace": "room, and given"}
+{"find": "baggage ;", "replace": "baggage;"}

@@ -1,0 +1,6 @@
+{"find": "[[page ?]]\n\nPEBRDING THE WHALES. 179\n\nbay,", "replace": "[[page 179]]\n\n[[cont]] bay,"}
+{"find": "river ;", "replace": "river;"}
+{"find": "well proportioned ege", "replace": "well proportioned egg"}
+{"find": "vertebree", "replace": "vertebræ"}
+{"find": "en route,", "replace": "<i>en route</i>,"}
+{"find": "the City of Topeka northward", "replace": "the <i>City of Topeka</i> northward"}

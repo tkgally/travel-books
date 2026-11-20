@@ -1,0 +1,3 @@
+{"find": "[[page ?]]\n\nFORT SIMPSON. 183\n\nbadges", "replace": "[[page 183]]\n\n[[cont]]badges"}
+{"find": "heaven aboye,", "replace": "heaven above,"}
+{"find": "Mr. Wilham Dunean arrived", "replace": "Mr. William Duncan arrived"}

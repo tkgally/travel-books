@@ -1,0 +1,5 @@
+{"find": "[[page ?]]\n\nPUGET SOUND. 53\n\ning, Iam told", "replace": "[[page 53]]\n\n[[cont]] ing, I am told"}
+{"find": "often fogey,", "replace": "often foggy,"}
+{"find": "periodieally", "replace": "periodically"}
+{"find": "hotels and stages", "replace": "hotels and stages."}
+{"find": "length ;", "replace": "length;"}

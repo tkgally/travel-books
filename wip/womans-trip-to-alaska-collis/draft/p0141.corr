@@ -1,0 +1,9 @@
+{"find": "[[page ?]]", "replace": "[[page 119]]"}
+{"find": "THE PRESBYTERIAN MISSION SCHOOLS. 119\n\nThese", "replace": "[[cont]] These"}
+{"find": "this Mission ;", "replace": "this Mission;"}
+{"find": "departed empire ;", "replace": "departed empire;"}
+{"find": "aborigines ;", "replace": "aborigines;"}
+{"find": "“ Mission ” [ had", "replace": "“Mission” I had"}
+{"find": "very confirmed ;", "replace": "very confirmed;"}
+{"find": "I am nota Christian woman ;", "replace": "I am not a Christian woman;"}
+{"find": "pillar of cloud ;", "replace": "pillar of cloud;"}

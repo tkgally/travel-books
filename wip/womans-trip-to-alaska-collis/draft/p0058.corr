@@ -1,0 +1,5 @@
+{"find": "[[page ?]]", "replace": "[[page 36]]"}
+{"find": "36 A WOMAN'S TRIP TO ALASKA.\n\ntree-stumps", "replace": "[[cont]] tree-stumps"}
+{"find": "then ; not", "replace": "then; not"}
+{"find": "“ growing", "replace": "“growing"}
+{"find": "conyventionalities", "replace": "conventionalities"}

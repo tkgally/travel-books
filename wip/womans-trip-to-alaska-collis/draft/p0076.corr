@@ -1,0 +1,7 @@
+{"find": "[[page ?]]\n\n54 A WOMAN’S TRIP TO ALASKA.\n\nships", "replace": "[[page 54]]\n\n[[cont]] ships"}
+{"find": "mountains.\n\nWhat", "replace": "mountains. What"}
+{"find": "timber iM on all sides—trees of enormous height and thickness, | and such millions 6f them that you wonder how many |\n\ngenerations", "replace": "timber on all sides—trees of enormous height and thickness, and such millions of them that you wonder how many generations"}
+{"find": "North Pole ; in", "replace": "North Pole; in"}
+{"find": "much about : it", "replace": "much about it"}
+{"find": "that was over a", "replace": "that was <i>over</i> a"}
+{"find": "has two | hotels", "replace": "has two hotels"}

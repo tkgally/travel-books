@@ -1,0 +1,4 @@
+{"find": "[[page ?]]\n\n90 A WOMAN'S TRIP TO ALASKA’\n\nits convulsive", "replace": "[[page 90]]\n\n[[cont]] its convulsive"}
+{"find": "come again ;", "replace": "come again;"}
+{"find": "the Zinterprise, one", "replace": "the <i>Enterprise</i>, one"}
+{"find": "by a. staircase", "replace": "by a staircase"}

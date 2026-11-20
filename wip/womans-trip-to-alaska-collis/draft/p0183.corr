@@ -1,0 +1,8 @@
+{"find": "[[page ?]]\n\nLAKE OF THE GODS. 161\n\nsong;", "replace": "[[page 161]]\n\n[[cont]] song;"}
+{"find": "the Rey. Dr.", "replace": "the Rev. Dr."}
+{"find": "“T did not", "replace": "“I did not"}
+{"find": "that He could.”", "replace": "that He <i>could.</i>”"}
+{"find": "Rhine ; earry", "replace": "Rhine; carry"}
+{"find": "Swiss me de glace", "replace": "Swiss <i>mer de glace</i>"}
+{"find": "o'clock ;", "replace": "o’clock;"}
+{"find": "asteamer", "replace": "a steamer"}

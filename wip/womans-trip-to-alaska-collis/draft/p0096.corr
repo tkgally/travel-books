@@ -1,0 +1,6 @@
+{"find": "[[page ?]]\n\n74 A WOMAN'S. TRIP TO ALASKA;\n\nan hour, “ Did you", "replace": "[[page 74]]\n\n[[cont]]an hour, “<i>Did</i> you"}
+{"find": "Mr. B,,", "replace": "Mr. B.,"}
+{"find": "June 4th—", "replace": "June 4th.—"}
+{"find": "how poorly\n\nthe very", "replace": "how poorly the very"}
+{"find": "paint them, This", "replace": "paint them. This"}
+{"find": "disappear ;", "replace": "disappear;"}

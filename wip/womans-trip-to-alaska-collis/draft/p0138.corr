@@ -1,0 +1,7 @@
+{"find": "[[page ?]]\n\n116 A WOMAN'S TRIP TO ALASKA:\n\n", "replace": "[[page 116]]\n\n"}
+{"find": "call “ Boston”;", "replace": "call “Boston”;"}
+{"find": "themselves “ Boston Siwashes ” ;", "replace": "themselves “Boston Siwashes”;"}
+{"find": "as “ Boston men,”", "replace": "as “Boston men,”"}
+{"find": "as “ Boston ships”", "replace": "as “Boston ships”"}
+{"find": "young gitl", "replace": "young girl"}
+{"find": "exquisite color, By", "replace": "exquisite color. By"}

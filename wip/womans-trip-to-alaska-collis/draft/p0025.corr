@@ -1,0 +1,4 @@
+{"find": "[[page ?]]\n\nPREPARATIONS FOR DEPARTURE. 3\n\nwill", "replace": "[[page 3]]\n\n[[cont]] will"}
+{"find": "lowheeled", "replace": "low-heeled"}
+{"find": "<A pair of smoked", "replace": "A pair of smoked"}
+{"find": "simply ¢mpedimenta.", "replace": "simply <i>impedimenta</i>."}

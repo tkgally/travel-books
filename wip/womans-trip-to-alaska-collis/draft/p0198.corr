@@ -1,0 +1,5 @@
+{"find": "[[page ?]]\n\n176 A WOMAN’S TRIP TO ALASKA.\n\nChilcat", "replace": "[[page 176]]\n\n[[cont]] Chilcat"}
+{"find": "exeursion", "replace": "excursion"}
+{"find": "Harbor, en route, is", "replace": "Harbor, <i>en route</i>, is"}
+{"find": "scerery", "replace": "scenery"}
+{"find": "favored it. Killisnoo", "replace": "favored it.\n\nKillisnoo"}

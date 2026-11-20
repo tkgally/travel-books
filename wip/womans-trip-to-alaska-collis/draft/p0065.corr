@@ -1,0 +1,5 @@
+{"find": "[[page ?]]\n\nMOUNT TACOMA. 43\n\nhe traced", "replace": "[[page 43]]\n\n[[cont]]he traced"}
+{"find": "almost. breathlessly", "replace": "almost breathlessly"}
+{"find": "grand ! majestic", "replace": "grand! majestic"}
+{"find": "mountain !_ There", "replace": "mountain! There"}
+{"find": "to-day ! Thanks", "replace": "to-day! Thanks"}

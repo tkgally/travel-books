@@ -1,0 +1,8 @@
+{"find": "[[page ?]]", "replace": "[[page 114]]"}
+{"find": "114 A WOMAN'S TRIP TO ALASKA’\n\n", "replace": ""}
+{"find": "painter, and bear", "replace": "[[cont]] painter, and bear"}
+{"find": "fast friends. for", "replace": "fast friends for"}
+{"find": "of the Pinta, which", "replace": "of the <i>Pinta</i>, which"}
+{"find": "“social life” ;", "replace": "“social life”;"}
+{"find": "restaurant or ‘ tavern", "replace": "restaurant or tavern"}
+{"find": "familiavity", "replace": "familiarity"}

@@ -1,0 +1,3 @@
+{"find": "[[page ?]]\n\nTHE MUIR GLACIER. 141\n\nOwing", "replace": "[[page 141]]\n\n[[cont]] Owing"}
+{"find": "viz.: first,", "replace": "viz.: <i>first,</i>"}
+{"find": "and second,", "replace": "and <i>second,</i>"}

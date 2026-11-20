@@ -1,0 +1,6 @@
+{"find": "[[page ?]]\n\nOUR CAPTAIN. 47\n\n", "replace": "[[page 47]]\n\n"}
+{"find": "of the Queen, is", "replace": "of the <i>Queen</i>, is"}
+{"find": "on “ the bridge ” ; but", "replace": "on “the bridge”; but"}
+{"find": "information. T have", "replace": "information. I have"}
+{"find": "his passenger’ ; brusqueness", "replace": "his passengers; brusqueness"}
+{"find": "a drawingroom as ina gale", "replace": "a drawing-room as in a gale"}

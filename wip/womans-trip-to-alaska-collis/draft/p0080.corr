@@ -1,0 +1,7 @@
+{"find": "[[page ?]]\n\n58 A WOMAN'S TRIP TO ALASKA:\n\nthe chef of", "replace": "[[page 58]]\n\n[[cont]] the <i>chef</i> of"}
+{"find": "oecasion", "replace": "occasion"}
+{"find": "show—-beautiful", "replace": "show—beautiful"}
+{"find": "all so English", "replace": "all <i>so</i> English"}
+{"find": "“ May”", "replace": "“May”"}
+{"find": "in June. Tow can", "replace": "in <i>June.</i> How can"}
+{"find": "Victoria\n\nas a matter", "replace": "Victoria as a matter"}

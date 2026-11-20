@@ -1,0 +1,6 @@
+{"find": "[[page ?]]", "replace": "[[page 133]]"}
+{"find": "AMIDSL THE ICEBERGS. 133\n\nwhen I", "replace": "[[cont]] when I"}
+{"find": "course ; at", "replace": "course; at"}
+{"find": "studies ; I", "replace": "studies; I"}
+{"find": "the moon, For", "replace": "the moon. For"}
+{"find": "filled me,", "replace": "filled me."}
