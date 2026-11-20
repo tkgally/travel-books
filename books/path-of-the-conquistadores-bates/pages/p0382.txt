@@ -1,0 +1,33 @@
+[[page ?]]
+
+| | PAGE |
+|---|---|
+| Trinidad— | |
+| Named by Columbus | <pref>3</pref> |
+| Spanish conquest | <pref>9</pref> |
+| Captured by Raleigh | <pref>17</pref> |
+| Spanish occupation | <pref>22</pref> |
+| English conquest | <pref>24</pref> |
+| Population 1911 | <pref>76</pref> |
+| V<sc>enezuela</sc>— | |
+| Named after Venice | <pref>7</pref> |
+| Spanish conquest | <pref>8</pref> |
+| Independence declared | <pref>28</pref> |
+| National Government | <pref>280</pref>, <pref>294</pref>, <pref>288</pref> |
+| State Government | <pref>199</pref>, <pref>216</pref> |
+| Local administration | <pref>142</pref>, <pref>152</pref>, <pref>279</pref>, <pref>282</pref> |
+| Trade | <pref>300</pref> |
+| Population | <pref>284</pref> |
+| W<sc>elzers</sc>— | |
+| Granted Venezuela concession | <pref>15</pref> |
+| White population— | |
+| Of Trinidad, 163 in 1773 | <pref>23</pref> |
+| Of Trinidad 1911 | <pref>76</pref> |
+| Of Venezuela 1817 | <pref>33</pref> |
+| Of Venezuela 1911 | <pref>284</pref> |
+| Woods— | |
+| Of Trinidad | <pref>86</pref> |
+| Of the Orinoco | <pref>170</pref> |
+| Of the Llanos | <pref>272</pref> |
+
+[[center]] <sc>unwin brothers, limited, the gresham press, woking and london.</sc>
