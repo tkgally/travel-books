@@ -270,6 +270,7 @@ def compile_pages(cfg, pages, images=None):
     h1_leaves = {b["leaf"] for b in flat if b["t"] == "h" and b["level"] == 1}
     forced = {d["at"] for d in cfg.get("divisions", [])} - h1_leaves
     divs, cur, count_at = [], None, {}
+    ornaments = set(cfg.get("ornaments", []))   # decorative head- and tail-pieces: shown small (Tom, 2026-11-20)
 
     def start(leaf, title, from_heading):
         nonlocal cur
@@ -290,8 +291,14 @@ def compile_pages(cfg, pages, images=None):
     for b in flat:
         leaf = b["leaf"]
         if b["t"] == "h" and b["level"] == 1:
+            # a head-piece (book.json "ornaments") printed just above the heading opens the new division
+            moved = []
+            while cur is not None and cur["blocks"] and cur["blocks"][-1]["t"] == "image" \
+                    and cur["blocks"][-1]["file"] in ornaments and cur["blocks"][-1]["leaf"] == leaf:
+                moved.insert(0, cur["blocks"].pop())
             start(leaf, None, True)
             seen_leaf_start.add(leaf)
+            cur["blocks"].extend(moved)
         elif cur is None:
             start(leaf, "Front matter", False)
             seen_leaf_start.add(leaf)
@@ -350,6 +357,8 @@ def compile_pages(cfg, pages, images=None):
                 if images is not None and not f:
                     warn(f"missing image file for {b['file']} ({b['alt']})")
                 nb.update(type="image", src="images/" + (f or b["file"] + ".jpg"), alt=inline.smart_quotes(b["alt"]))
+                if b["file"] in ornaments:
+                    nb["ornament"] = True
                 if b.get("caption"):
                     nb["caption"] = conv(b["caption"], b["leaf"])
             elif t == "table":

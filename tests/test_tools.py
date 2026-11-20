@@ -392,6 +392,57 @@ class Corrections(unittest.TestCase):
         self.assertEqual(text, draft)                          # judged the same way at both ends: applied as before
 
 
+class Ornaments(unittest.TestCase):
+    """Decorative head-pieces and tail-pieces (Tom, 2026-11-20: include them, small). book.json "ornaments" lists
+    their image ids; a head-piece printed above a chapter heading opens that chapter. Invented text."""
+
+    def setUp(self):
+        self.tmp = tempfile.mkdtemp()
+        self.dir = os.path.join(self.tmp, "sample-journey-doe")
+        shutil.copytree(SAMPLE, self.dir)
+        pages = os.path.join(self.dir, "pages")
+        p = os.path.join(pages, "p0004.txt")
+        t = open(p, encoding="utf-8").read()
+        self.assertTrue(t.startswith("[[page 1]]\n# Chapter I."))
+        open(p, "w", encoding="utf-8").write(t.replace("[[page 1]]\n", "[[page 1]]\n[[image: head-piece: a bird among leaves]]\n\n", 1))
+        p = os.path.join(pages, "p0003.txt")
+        open(p, "a", encoding="utf-8").write("\n[[image: tail-piece: a spray of flowers]]\n")
+        for f in ("p0004-1.jpg", "p0003-1.jpg"):
+            shutil.copy(os.path.join(self.dir, "images", "p0007-1.jpg"), os.path.join(self.dir, "images", f))
+        bj = os.path.join(self.dir, "book.json")
+        cfg = json.load(open(bj, encoding="utf-8"))
+        cfg["ornaments"] = ["p0004-1", "p0003-1"]
+        json.dump(cfg, open(bj, "w", encoding="utf-8"))
+
+    def tearDown(self):
+        shutil.rmtree(self.tmp)
+
+    def test_head_piece_opens_the_chapter_and_both_are_small(self):
+        book, w = compile_book.compile_book(self.dir)
+        self.assertEqual([x for x in w if "image" in x], [])
+        ch1 = next(d for d in book["divisions"] if d["first_leaf"] == "p0004")
+        self.assertEqual(ch1["blocks"][0]["type"], "image")
+        self.assertTrue(ch1["blocks"][0].get("ornament"))
+        self.assertEqual(ch1["blocks"][1]["type"], "heading")
+        self.assertTrue(ch1["title"].startswith("Chapter I"))
+        tail = [b for d in book["divisions"] for b in d["blocks"] if b.get("src") == "images/p0003-1.jpg"]
+        self.assertEqual(len(tail), 1)
+        self.assertTrue(tail[0].get("ornament"))
+        plain = [b for d in book["divisions"] for b in d["blocks"] if b.get("src") == "images/p0007-1.jpg"]
+        self.assertFalse(plain[0].get("ornament"))            # an ordinary illustration is not one
+        html = rh.Ctx(book, "web", {d["id"]: d["id"] + ".html" for d in book["divisions"]}).blocks(ch1)
+        self.assertIn('<figure class="ornament">', html)
+        odt = render_odt.render(book, os.path.join(self.dir, "images"))
+        x = zipfile.ZipFile(__import__("io").BytesIO(odt)).read("content.xml").decode()
+        frames = re.findall(r'svg:width="([\d.]+)cm"[^>]*>\s*<draw:image xlink:href="Pictures/([^"]+)"', x)
+        size = {f: float(w) for w, f in frames}
+        self.assertLessEqual(size["p0004-1.jpg"], 5.0)
+        self.assertGreater(size["p0007-1.jpg"], 5.0)
+        _, report, res = preflight.run(self.dir, skip_epubcheck=True, skip_odt=True)
+        self.assertEqual(res["conservation"], [], report)
+        self.assertEqual(res["images"], [], report)
+
+
 class ImageInParagraph(unittest.TestCase):
     """A picture in the middle of a page that interrupts a paragraph: `[[cont]]` after it joins the paragraph again
     (the compiler dropped it and split the paragraph; South by West, 2026-11-19). Invented text."""

@@ -180,8 +180,12 @@ How this was carried out: `notes/jatsi.md`.
   models' efficiency in the months ahead: "I hope that the maturation of this project will not be 'years away'."
   (So nothing in the notes should plan on the lower-priority JATSI books being far off.)
 
+## 2026-11-20 (answer on decorative head-pieces and tail-pieces)
+
+- **Include the decorative head-pieces and tail-pieces as small images in the built versions** (asked after
+  *Rambles through Japan* left them out). A standing rule for all books: ornaments printed at chapter openings and
+  ends are cropped and shown small, not left out. *Rambles through Japan* gets them in a new version.
+
 ## Questions for Tom
 
-- **Decorative head-pieces and tail-pieces** (ornamental cuts at chapter openings and ends, not in the book's list
-  of illustrations): left out of *Rambles through Japan* and said so in its notes on the text (assumed, 2026-11-20).
-  Many JATSI books will have them. Keep leaving them out, or include them as small images?
+None open.

@@ -219,7 +219,8 @@ class Ctx:
                 body.append('<div class="verse">' + "".join(st) + "</div>")
             elif t == "image":
                 cap = f'<figcaption>{self.inline(b["caption"])}</figcaption>' if b.get("caption") else ""
-                body.append(f'<figure>{pbs}<img src="{attr(b["src"])}" alt="{attr(b["alt"])}"/>{cap}</figure>')
+                fc = ' class="ornament"' if b.get("ornament") else ""
+                body.append(f'<figure{fc}>{pbs}<img src="{attr(b["src"])}" alt="{attr(b["alt"])}"/>{cap}</figure>')
             elif t == "table":
                 trs = "".join("<tr>" + "".join(f"<td>{self.inline(c)}</td>" for c in r) + "</tr>" for r in b["rows"])
                 body.append(f'<div class="tablewrap">{pbs}<table>{trs}</table></div>')

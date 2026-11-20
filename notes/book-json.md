@@ -39,6 +39,9 @@
                                         starts with `starts`; "editor": false for a title taken from the printed contents
  "frontispiece": "p0010-1",               image moved from the front matter to the start of the first reading division
                                         after it; a list for a work in several volumes, one per volume
+ "ornaments": ["p0021-1", "p0039-1"],   decorative head-pieces and tail-pieces (the [[image:]] ids): cropped like any
+                                        picture (`images/pNNNN-k.jpg`), shown small in the editions; a head-piece
+                                        printed above a `#` heading on the same page opens that division (Tom, 2026-11-20)
  "keep_hyphens": ["p0034"],             pages whose join with the previous page keeps the hyphen
  "waivers": [{"check": "…", "match": "…", "why": "…"}],
  "css_extra": ""                        rarely

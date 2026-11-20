@@ -231,6 +231,8 @@ class Odt:
                     self.pics[f] = data
                     w, h = image_size(data)
                     scale = min(14.0 / w, 19.0 / h, 2.54 / 110)
+                    if b.get("ornament"):            # a decorative head- or tail-piece: small
+                        scale = min(scale, 5.0 / w, 2.5 / h)
                     self.nfig += 1
                     frame = (f'<draw:frame draw:style-name="Graphics" draw:name="Figure{self.nfig}" text:anchor-type="as-char" '
                              f'svg:width="{w * scale:.2f}cm" svg:height="{h * scale:.2f}cm">'
