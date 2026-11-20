@@ -2,14 +2,14 @@
 
 | [[side: View of the great Wall.]] | Feet. | Inches. |
 |---|---|---|
-| “Height of the same | 8 | 0 |
-| “Length of the piers of masonry | 5 | 7 |
-| “Breadth of the piers | 5 | 0 |
-| “Width of recess for embrasures | 4 | 0 |
-| “Depth of recess | 2 | 6 |
-| “Height of recess | 8 | 0 |
-| “Width of the embrasures | 2 | 0 |
-| “Height of the embrasures | 4 | 0 |
+| Height of the same | 8 | 0 |
+| Length of the piers of masonry | 5 | 7 |
+| Breadth of the piers | 5 | 0 |
+| Width of recess for embrasures | 4 | 0 |
+| Depth of recess | 2 | 6 |
+| Height of recess | 8 | 0 |
+| Width of the embrasures | 2 | 0 |
+| Height of the embrasures | 4 | 0 |
 
 “The dimensions of the parapets, embrasures, and loopholes, are as in the first tower.
 
