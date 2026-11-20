@@ -8,10 +8,25 @@ Macartney 1737–1806, Gower 1742–1814, William Alexander 1767–1816). The bo
 included as an exception (queue note).
 
 ## Status
-Stage reached (2026-11-20, session 1): tools ready (side-notes `[[side: …]]`; several IA items in one book:
-`source.items`, `leaf_order`); vols. I and II fetched from IA, page images made; scan check of the contact sheets
-(subagent) and Drive cache upload running; sample of 12 pages drafted (Opus) and corrected (Sonnet).
-Next step: see the end of this section (updated as the session goes).
+Stage reached (2026-11-20, session 1): tools ready; scan checked; Drive cache complete (99 parts, all with ids;
+fetch tested); illustrations cropped (83 files); **Opus draft of vols. I and II done (1,210 pages, 0 errors,
+0 refusals)**; draft of the three Getty leaves and the plates volume (p3003–p3110, `--halves`) and the Sonnet
+corrections pass of vols. I–II started at the end of session 1 (see Runs for what finished).
+Next steps (exact commands; `$B` = scratchpad dir with page images: `python3 tools/drive_cache.py fetch
+wip/embassy-to-china-staunton/source.json $B/pages`):
+1. Finish any draft pages missing (resumable; skips done pages):
+   `python3 tools/ocr_claude.py --model opus --prompt prompts/transcribe.md --images $B/pages --out $W/draft --pages 3003-3110 --halves --workers 8`
+   and for p1008a, p2029a, p2029b (put only those three images in a directory of their own: `--pages 1008` would
+   also take the hidden tissue leaf p1008), then `python3 tools/normalize.py $W/draft`.
+2. Sonnet pass on every drafted page (resumable): `python3 tools/ocr_claude.py --model sonnet --prompt
+   prompts/verify.md --images $B/pages --out $W/verify --corrections --context-text $W/draft --workers 8`
+   (with no `--pages` it takes every image; the hidden leaves and covers have no draft — check that it skips them,
+   or pass the list: vol. I/II leaves in `draft/`), then normalize, `review.py`, `judge.py` (workflow §3).
+3. Scan checks: judge report; the singleton side-note variants (p1268, p1467, p2073, p2128, p2161, p2215,
+   p2380, p2447, p2478, p2510: printed so, or misread?); tables (p1330, p1500, p2649–p2660, the plant lists).
+4. Structure: two volumes as parts (`# Volume I` …), contents, divisions (front matter, lists of plates,
+   appendix), placement of the folio plates (decide: a part of its own after vol. II, each plate with its
+   engraved caption, the vol. I "List of the Plates" kept as their description — leaning, assumed).
 
 ## Leaf naming (several IA items in one book)
 Vol. I IA leaf k = page file `p1000+k` (p1068 = IA leaf 68 = printed vol. I p. 24); vol. II IA leaf k = `p2000+k`;
@@ -66,6 +81,9 @@ cannot be separated). Say in `notes_on_text` which pictures come from the Getty 
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
+|---|---|---|---|---|---|
+| Sample (draft + Sonnet) | 2026-11-20 | Opus / Sonnet | 12 | 0.90 + 0.44 | side-notes and old spellings right; Sonnet proposed no change |
+| Draft vols. I–II | 2026-11-20 | Opus | 1,210 (incl. the sample) | 82.33 | 0 errors, 0 refusals |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
