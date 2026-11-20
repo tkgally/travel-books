@@ -1,0 +1,5 @@
+{"given": "is to us (who course have", "print": "is to us (who of course have", "sure": "high"}
+{"given": "to compete with the times, a", "print": "to compete with the Times, a", "sure": "high"}
+{"given": "it is generally managcd by a", "print": "it is generally managed by a", "sure": "high"}
+{"given": "own form of words; whether they", "print": "own form of words, whether they", "sure": "high"}
+{"given": "or to write if down.", "print": "or to write it down.", "sure": "high"}

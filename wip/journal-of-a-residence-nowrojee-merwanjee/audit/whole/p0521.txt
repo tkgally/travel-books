@@ -1,0 +1,5 @@
+{"given": "it was only whilft relaxing", "print": "it was only whilst relaxing", "sure": "high"}
+{"given": "the things we have mentioned; and", "print": "the things we have mentioned, and", "sure": "high"}
+{"given": "but if everyone visiting England", "print": "but if every one visiting England", "sure": "medium"}
+{"given": "take the trouble, it they", "print": "take the trouble, if they", "sure": "high"}
+{"given": "acquaintance with English language, we", "print": "acquaintance with the English language, we", "sure": "high"}

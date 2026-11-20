@@ -1,0 +1,5 @@
+{"given": "work machinery; that allows you", "print": "work machinery, that allows you", "sure": "high"}
+{"given": "to sell if there much cheaper", "print": "to sell it there much cheaper", "sure": "high"}
+{"given": "Continent of Europe offer cloths", "print": "Continent of Europe to offer cloths", "sure": "high"}
+{"given": "places were labor is cheap", "print": "places were labour is cheap", "sure": "high"}
+{"given": "order that their manufactorics may not", "print": "order that their manufactories may not", "sure": "high"}

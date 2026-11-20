@@ -1,0 +1,5 @@
+{"given": "a person whispering one, is", "print": "a person whispering to one, is", "sure": "high"}
+{"given": "down from this gallcry upon", "print": "down from this gallery upon", "sure": "high"}
+{"given": "our voyage from india to England.", "print": "our voyage from India to England.", "sure": "high"}
+{"given": "who devoted this energies to the", "print": "who devoted his energies to the", "sure": "high"}
+{"given": "acquire practical information; connected with", "print": "acquire practical information, connected with", "sure": "high"}

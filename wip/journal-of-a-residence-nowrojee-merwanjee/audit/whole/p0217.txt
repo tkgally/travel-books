@@ -1,0 +1,5 @@
+{"given": "upon the Christians New testament of", "print": "upon the Christians New Testament of", "sure": "high"}
+{"given": "previous evening at very late hour", "print": "previous evening at a very late hour", "sure": "high"}
+{"given": "his foreman were comiug down Cheapside", "print": "his foreman were coming down Cheapside", "sure": "high"}
+{"given": "put her arm once on twice", "print": "put her arm once or twice", "sure": "high"}
+{"given": "missed his purse; that he called", "print": "missed his purse, that he called", "sure": "high"}
