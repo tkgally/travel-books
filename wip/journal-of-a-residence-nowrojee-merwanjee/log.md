@@ -9,10 +9,9 @@ preface: sons/nephew of the master builder Nowrojee Jamsetjee, 1774–1860), so 
 frontispiece lithograph: G. Bragg del., J. R. Jobbins litho. (minor illustrators: Tom 2026-11-20, no bar).
 
 ## Status
-Stage reached: draft running (Opus, p0006–p0534, 529 pages); Drive upload of 41 parts by a subagent;
-frontispiece and cover cropped.
-Next step: when the draft is done, `ocr_fallback.py` for any refused pages, `normalize.py`, commit; then the
-Sonnet pass (workflow §3).
+Stage reached: draft done (Opus, 529 pages; p0212 refused by the output filter → `ocr_fallback.py`),
+normalized; Sonnet corrections pass running. Page images cached in Drive (41 parts, fetch tested).
+Next step: when `verify/` is complete: `normalize.py $W/verify`, `review.py`, `judge.py`, as workflow §3.
 Half-finished: —
 
 ## Page map
@@ -38,6 +37,8 @@ Scan check: all 14 sheets looked at 2026-11-20; full size p0006; problems: none 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| Draft | 2026-11-20 | Opus | 529 (p0006–p0534) | 33.26 | p0212 (printed 182, Westminster Hall) refused by the output filter |
+| Fallback | 2026-11-20 | tesseract + Opus | 1 (p0212) | 0.06 | audit it with `--pages p0212` |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
