@@ -1,0 +1,38 @@
+{
+ "id": "jaunt-in-japan-jackson",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "A Jaunt in Japan",
+ "subtitle": "Ninety Days’ Leave in the Far East",
+ "short_title": "A Jaunt in Japan",
+ "authors": [
+  {
+   "name": "S. C. F. Jackson",
+   "sort": "Jackson, S. C. F.",
+   "born": 1863,
+   "died": 1928
+  }
+ ],
+ "place": "Calcutta",
+ "publisher": "Thacker, Spink & Co.",
+ "year": 1899,
+ "edition_statement": "First edition",
+ "collection": "jatsi",
+ "source": {
+  "ia_identifier": "cu31924023490471",
+  "contributor": "Cornell University Library",
+  "hidden_leaves": []
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  }
+ ],
+ "regions": [],
+ "period": "1899",
+ "divisions": [],
+ "summary": [],
+ "notes_on_text": []
+}
