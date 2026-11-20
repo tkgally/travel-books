@@ -6,8 +6,7 @@ the title finds catalogue records and the Strasbourg "Mythemes" corpus page (wor
 edition. Author 1830–1905. Taken up 2026-11-20.
 
 ## Status
-Stage reached: (a) scan checked, cached in Drive (31 parts); Opus draft running (p0005, p0007–p0050, p0052–p0053,
-p0055–p0300).
+Stage reached: (c) preflight PASS, audit recorded; rendered look, then publish.
 
 ## Page map
 Scan check 2026-11-20 (Opus subagent: all 8 sheets; every folio p0011–p0300 on strips; about 45 leaves full or half
@@ -31,10 +30,32 @@ Errata slip: p. 57 Mattias Jochmundsen → Matthias Jochumsson (p0071); p. 117 2
 (p0160); p. 157 molten metallic substances → molten lavas (p0171).
 
 ## Decisions
+- Drafted p0005, p0007–p0050, p0052–p0053, p0055–p0300; blanks p0006, p0051, p0054 waived; p0296 (a second shot of
+  p. 280 with the errata slip over it) drafted and then deleted, waived; covers and library leaves not transcribed.
+- Judge: 30 spots (verifier 27, draft 3): mostly the verifier's words on the map half and accents.
+- **Accents** (as in *Land of the North Wind*): all accented words grouped by base form, 18 groups checked on crops by an
+  Opus subagent. The book itself mixes Kári/Kàri, Laxà/Laxá, Thjorsà/Thjorsá, Jón/Jon, Faröe/Faroe: kept as printed.
+  Fixed: Blàskogàeheida (p0105), Hjārdarholt (p0115, a macron as on p0112–p0113), "cône" → cone (p0031, an ink speck).
+  Its Note says à is the Icelandic river word (Hvità etc.): all 15 Hvità checked, grave.
+- Errata slip (p0295) typed as the slip only (the index under it is p0297) and applied: p0071, p0131, p0160, p0171.
+  Its ditto marks (two short vertical strokes) typed 〃.
+- Map (p0052–p0053, two pages, a strip lost in the gutter): two crops; one caption on p0053 with the lost letters
+  supplied ("Loc[al]", "[Ce]rtain"); the engraver's line left out.
+- Chapter VI's summary was typed in small capitals: made title case like the rest. Book title over Chapter I left out.
+- Picture splits: `[[cont]]` after the picture on p0039, p0155, p0161, p0238 (preflight `image-splits`); p0098 and
+  p0164 `[[cont]]` removed (a new sentence after verse).
+- p0294 "cod-|fish" at a line end: given as "cod-fish", as the book prints "cod-fishing" (p0143) (assumed).
+- keep_hyphens p0089 (hill-side), p0144 (black-and-white). p0010 page numbers made `<pref>`; p0300 small capitals.
+- Contents: printed summaries in full (`toc.subtitles all`), short titles "Chapter N".
+- Cover: the front board (title "Scenes and Studies in Iceland" in gilt; a library label on it).
 
 ## Runs
 | Run | Model | Pages | Cost |
 |---|---|---|---|
+| draft | Opus | 293 | $20.71 (0 refused) |
+| corrections | Sonnet | 293 | $9.86 (30 word, 8 markup changes) |
+| judge | Opus | 30 spots | $0.85 |
+| audit | Opus | 6 (p0062, p0129, p0148, p0162, p0187, p0216) | $0.37: 30/30, 0 candidates |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
