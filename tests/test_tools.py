@@ -439,6 +439,12 @@ class DrivePages(unittest.TestCase):
         with self.assertRaises(SystemExit):
             drive_cache.page_filter("116-118")
 
+    def test_leaves_with_a_letter(self):
+        names = ["p2028.jpg", "p2029.jpg", "p2029a.jpg", "p2029b.jpg", "p2030.jpg"]
+        self.assertEqual([f for f in names if drive_cache.page_filter("p2029b")(f)], ["p2029b.jpg"])
+        self.assertEqual([f for f in names if drive_cache.page_filter("p2029")(f)], ["p2029.jpg", "p2029a.jpg", "p2029b.jpg"])
+        self.assertEqual([f for f in names if drive_cache.page_filter("p2028-p2029")(f)], names[:4])
+
 
 class SetupEnv(unittest.TestCase):
     """setup_env.sh must turn the Ubuntu apt mirrors to https (plain http hangs behind the proxy); the first

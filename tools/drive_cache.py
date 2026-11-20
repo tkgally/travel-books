@@ -103,17 +103,21 @@ def setid(source, name, drive_id):
 
 def page_filter(pages):
     """--pages: 'p0036', 'p0030-p0040' or a comma list of either. Returns a test on file names (None = all).
-    Before 2026-11-19 a comma list was taken as one name and fetched the wrong parts without a word."""
+    Before 2026-11-19 a comma list was taken as one name and fetched the wrong parts without a word.
+    Leaves added from another scan have a letter (p2029b, book-json.md source.extra_leaves): 'p2029' alone or as
+    the end of a range takes them too (they were refused, 2026-11-20)."""
     if not pages:
         return None
     spans = []
     for item in pages.split(","):
         item = item.strip()
-        m = re.fullmatch(r"(p\d{4})(?:-(p\d{4}))?", item)
+        m = re.fullmatch(r"(p\d{4}[a-z]?)(?:-(p\d{4}[a-z]?))?", item)
         if not m:
             sys.exit(f"--pages: '{item}' is not pNNNN or pNNNN-pNNNN")
         spans.append((m.group(1), m.group(2) or m.group(1)))
-    return lambda f: not f.startswith("p") or any(lo <= f.split(".")[0] <= hi for lo, hi in spans)
+    def inside(stem, lo, hi):
+        return lo <= stem and (stem <= hi or (len(hi) == 5 and stem[:5] == hi))
+    return lambda f: not f.startswith("p") or any(inside(f.split(".")[0], lo, hi) for lo, hi in spans)
 
 
 def fetch(source, dest, pages=None):
