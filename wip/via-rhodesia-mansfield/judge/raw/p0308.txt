@@ -1,0 +1,2 @@
+{"n": 1, "is": "B", "print": "been away\n\n[[image: photograph of a man in a sun helmet standing on the verandah of a brick building, with a row of antelope heads and horns laid in front of him]]\n[[caption]] Mr. Averay Jones, Acting Magistrate at Kasama, with his Hunting Trophies, outside Post Office\n\n[[cont]]and had retu", "sure": "high"}
+{"n": 2, "is": "B", "print": "boma.\n\nIt is", "sure": "high"}

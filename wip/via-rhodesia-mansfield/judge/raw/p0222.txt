@@ -1,0 +1,2 @@
+{"n": 1, "is": "A", "print": "villages\n\n[[image: photograph of a field of cotton plants with open bolls, a low hill behind]]\n[[caption]] The Cotton Plant\n\n[[cont]]have separat", "sure": "high"}
+{"n": 2, "is": "B", "print": "nty fires.\n\nHow", "sure": "high"}

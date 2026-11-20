@@ -1,0 +1,2 @@
+{"n": 1, "is": "B", "print": "wood in\n\n[[image: photograph of a herd of horned cattle grazing in scrub, with an African herdsman standing at the right]]\n[[caption]] Fine cows in N.E. Rhodesia\n\n[[cont]]their ears", "sure": "high"}
+{"n": 2, "is": "B", "print": "village", "sure": "high"}

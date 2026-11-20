@@ -1,0 +1,2 @@
+{"n": 1, "is": "A", "print": "nd I thought\n\n[[image: photograph of a crowd of natives running along a path among trees, one man in the foreground running after them]]\n[[caption]] Natives Running to See Lion Just Killed (By kind permission of Mr. Stuart Wells)\n\n[[cont]]I must put h", "sure": "high"}
+{"n": 2, "is": "B", "print": "neck!\n\nInstead", "sure": "high"}

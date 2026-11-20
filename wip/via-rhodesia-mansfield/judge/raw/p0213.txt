@@ -1,0 +1,2 @@
+{"n": 1, "is": "B", "print": "er travelled\n\n[[image: photograph of two cone-shaped bird traps made of bundled grass stalks, standing on open ground]]\n[[caption]] Traps for Catching Birds (By kind permission of Mr. Stuart Wells)\n\n[[cont]]further than", "sure": "high"}
+{"n": 2, "is": "B", "print": "o eat him.\n\n“And", "sure": "high"}
