@@ -1,0 +1,3 @@
+Two differences from the image: "these places" is printed where the draft has "because these places", and "he is often" where the draft has "he is often"… checking: the image reads "because these places are always resorted to by the humbler classes", and the draft has "because these places are always resorted to by the humbler classes". Those match. The real difference is "he is often teased" in the image against "he is often teased" in the draft, which also matches. The only mismatch is "pick-pockets", which the draft gives as "pickpockets".
+
+{"find": "pickpockets", "replace": "pick-pockets"}

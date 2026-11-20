@@ -1,0 +1,12 @@
+The last word on the page is broken ("coun-"), so the draft needs the trailing hyphen kept.
+
+{"find": "their coun-", "replace": "their coun-"}
+
+Wait, that edit is identical, so it changes nothing. The real differences are:
+
+{"find": "[[cont]]this is called", "replace": "this is called"}
+{"find": "legislation of their coun-", "replace": "legislation of their coun-"}
+
+Actually, "this is called" starts the page with the previous paragraph continuing, so `[[cont]]` stays. The draft otherwise matches the image, so no corrections are needed.
+
+NONE

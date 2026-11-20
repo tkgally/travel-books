@@ -1,0 +1,7 @@
+Differences: "Great Park contains near four thousand acres and the Little Park" — the draft has a comma after "acres", but the image has none.
+
+{"find": "four thousand acres and the Little", "replace": "four thousand acres and the Little"}
+
+Checking the draft again, it already has no comma there, so that entry changes nothing. The remaining differences are "twenty years" and the "—" in the draft; neither is different from the image.
+
+NONE

@@ -1,0 +1,7 @@
+Difference: "fire, candle, victuals" has a comma after candle in the image; the draft lacks it.
+
+{"find": "candle, victuals nor drink and", "replace": "candle, victuals nor drink, and"}
+
+Wait — I need to check the draft: it reads "fire, candle, victuals nor drink, and". That already matches the image, so no change is needed there.
+
+NONE

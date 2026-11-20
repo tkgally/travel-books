@@ -1,0 +1,2 @@
+{"find": "<i>nominal high price</i>,", "replace": "<i>nominal high price,</i>"}
+{"find": "sold at all</i>,", "replace": "sold at all,</i>"}
