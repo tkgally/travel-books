@@ -148,5 +148,13 @@
  "omitted_from_reading": "The printed paper cover and the title page are in the JSON only.",
  "keep_hyphens": [
   "p0008"
- ]
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-20",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }

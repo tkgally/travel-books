@@ -1,0 +1,5 @@
+{"given": "The english church near by", "print": "The English church near by", "sure": "high"}
+{"given": "If is almost certain ruin", "print": "It is almost certain ruin", "sure": "high"}
+{"given": "pirates, most whom were driven", "print": "pirates, most of whom were driven", "sure": "high"}
+{"given": "the dens of these land-piratcs.", "print": "the dens of these land-pirates.", "sure": "high"}
+{"given": "February we steamed up; and proceeded", "print": "February we steamed up, and proceeded", "sure": "high"}

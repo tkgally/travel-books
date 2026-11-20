@@ -12,8 +12,7 @@
 [       ok] nav: contents: at least one reading division; each has a title and text
 [       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
-[ FAIL (1)] audit: book.json records the sampled audit of this version
-            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[       ok] audit: book.json records the sampled audit of this version
 [ look (2)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0068: … place of meet-|ing, the minist… (hyphen removed; check)
             - (and 3 joins giving a word the book prints whole elsewhere: not listed)
@@ -25,4 +24,4 @@
 [       ok] contents: entries of the printed contents with no matching heading
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: cruise-in-the-mississippi-gragg v1 — 1 to fix, 0 waived; to look at: hyphen-joins 2 — tools@9d8b5a9 2026-11-20
+preflight PASS: cruise-in-the-mississippi-gragg v1 — 0 to fix, 0 waived; to look at: hyphen-joins 2 — tools@23a823a 2026-11-20
