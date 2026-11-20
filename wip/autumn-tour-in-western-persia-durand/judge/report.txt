@@ -1,0 +1,12 @@
+judge opus: 16 spots on 14 pages: {'draft': 9, 'verified': 6, 'neither': 1}; cost $0.63
+p0005 #1 [draft, sure: medium] draft 'THIS book' | verified 'T<sc>his</sc> book' | judge reads 'THIS book'
+p0007 #1 [draft, sure: medium] draft 'B<sc>alutak</sc>' | verified 'B<sc>alutak.</sc>' | judge reads 'B<sc>alutak</sc>'
+p0008 #1 [verified, sure: medium] draft '[[page ?]]' | verified '[[page 10]]' | judge reads '[[page 10]]'
+p0017 #1 [draft, sure: medium] draft 'THE organizatio' | verified 'T<sc>he</sc> organizatio' | judge reads 'THE organizatio'
+p0059 #1 [neither, sure: medium] draft 'A Valley near Gulhek.' | verified 'A Valley Near Gulhek.' | judge reads 'A VALLEY NEAR GULHEK.'
+p0077 #1 [draft, sure: medium] draft 'WE remained' | verified 'W<sc>e</sc> remained' | judge reads 'WE remained'
+p0098 #1 [draft, sure: medium] draft 'ON the 21st' | verified 'O<sc>n</sc> the 21st' | judge reads 'ON the 21st'
+p0132 #1 [draft, sure: medium] draft 'WHEN we had' | verified 'W<sc>hen</sc> we had' | judge reads 'WHEN we had'
+p0177 #1 [draft, sure: medium] draft 'ALL the 15th' | verified 'A<sc>ll</sc> the 15th' | judge reads 'ALL the 15th'
+p0261 #1 [draft, sure: medium] draft 'WE had only' | verified 'W<sc>e</sc> had only' | judge reads 'WE had only'
+p0334 #1 [draft, sure: medium] draft 'Edition of 〓 WALTER SCOT' | verified 'Edition of WALTER SCOT' | judge reads 'Edition of 〓 WALTER SCOT'

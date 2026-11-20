@@ -1,0 +1,7 @@
+Comma after "hours" is missing in the draft.
+
+{"find": "for hours, crouching", "replace": "for hours, crouching"}
+
+Wait — the draft has "for hours, crouching" already; the page matches. Checking the rest, I find no other differences.
+
+NONE
