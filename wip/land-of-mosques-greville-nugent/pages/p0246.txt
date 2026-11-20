@@ -20,8 +20,8 @@ The two following examples of the preterit of the verb “to kill” (<i>qt’l<
 
 | 1re personne | قتلت | qt’lt | <i>j’ai tué.</i> |
 | 2e „ | masc. | qt’lt | <i>tu as tué.</i> |
-| 2e „ | fém. | qt’lti 〓 | <i>tu as tué</i> (fém.). |
-| 3e „ | masc. | qt’l (قتل, infinitive) | <i>il a tué.</i> |
+| 2e „ | fém. | qt’lti | <i>tu as tué</i> (fém.). |
+| 3e „ | masc. | qt’l (قَتَلَ, infinitive) | <i>il a tué.</i> |
 | 3e „ | fém. | qt’let | <i>elle a tué.</i> |
 
 [[center]] <i>Duel.</i>

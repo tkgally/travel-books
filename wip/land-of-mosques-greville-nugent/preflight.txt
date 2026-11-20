@@ -1,21 +1,10 @@
 [       ok] meta: book.json: required fields present and sane
-[ FAIL (1)] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
-            - p0246: illegible mark 〓: '| 2e „ | fém. | qt’lti 〓 | <i>tu as tué</i> (fém.). |'
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
 [       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
 [       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
-[ FAIL (1)] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
-            - text: …'t tu as tué. 2e „ fém. qt’lti 〓 tu as tué (fém.). 3e „ masc. '…
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
 [       ok] straight-quotes: no straight ' or " in the text
-[ FAIL (9)] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
-            - p0078: ceeded by the Ouled-Naïls  with their accustomed dans'…
-            - p0107: he Marabouts  are “saints,” or holy men '…
-            - p0247: e ”'…
-            - p0247: e ”'…
-            - p0247: e ”'…
-            - p0247: e ”'…
-            - p0247: e ”'…
-            - p0247: e ”'…
-            - p0247: e ”'…
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
 [       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
 [       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
 [       ok] links: every link inside the book's web pages and EPUB has a target
@@ -24,12 +13,11 @@
 [       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
 [       ok] audit: book.json records the sampled audit of this version
-[ look (6)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+[ look (5)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0097: …ls. Never stop-|ing for an inst… (hyphen removed; check)
             - hyphen join at p0144: …at Menier” pre-|dominates with … (hyphen removed; check)
             - hyphen join at p0172: …d so many land-|marks and tradi… (hyphen removed; check)
             - hyphen join at p0181: …s very delight-|ful to wander a… (hyphen removed; check)
-            - hyphen join at p0216: …gives a church-|like effect to … (hyphen removed; check) — the book hyphenates other “church-” words: keep_hyphens?
             - (and 5 joins giving a word the book prints whole elsewhere: not listed)
 [       ok] joins: page joins: missing [[cont]]
 [       ok] folios: printed page numbers that break the sequence
@@ -63,4 +51,4 @@
             - said: said (p0026, p0034, p0051, p0053, p0058, p0062…); saïd (p0021, p0211, p0219, p0222, p0227, p0232)
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: land-of-mosques-greville-nugent v1 — 11 to fix, 2 waived; to look at: hyphen-joins 6, quote-balance 1, accents 19 — tools@5a5ca9c 2026-11-20
+preflight PASS: land-of-mosques-greville-nugent v1 — 0 to fix, 2 waived; to look at: hyphen-joins 5, quote-balance 1, accents 19 — tools@985d96c 2026-11-20
