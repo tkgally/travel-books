@@ -25,6 +25,7 @@
 | Journal of a Residence in Great Britain v2 | 2026-11-20 | 529 drafted of 538 | (no new model calls) | – | – | – | 0 | 0 | PASS, 8 waived | as v1 | two page-top running quotation marks kept in v1 (found at the review) |
 | Via Rhodesia v1 | 2026-11-20 | 450 drafted of 464 | Opus draft → Sonnet corrections → Opus judge; 2 pages by the OCR fallback (tesseract + Opus); 148 crops by three Opus subagents | 123 | 25+2 / 96 / 0 (most verifier wins: paragraphs rejoined round pictures) | 1 (p0124 "483." a broken comma) | 47.13 | 0 | PASS, 5 waived | 30/30 + 10/10 on the fallback pages; 0 / 8 | |
 | W.S.W. v1 | 2026-11-20 | 168 | Opus draft → Sonnet corrections → Opus judge; 14 plates cropped by an Opus subagent | 2 | 1 / 1 / 0 | 0 | 15.96 | 0 | PASS, 24 waived (ditto marks, 2 pages) | 30/30 + 10/10; 0 / 8 | |
+| A Cruise in the U.S. Steam Frigate Mississippi v1 | 2026-11-20 | 76 | Opus draft (`--halves`) → Sonnet corrections → Opus judge | 3 | 2 / 1 / 0 | 0 | 11.08 | 0 | PASS, 0 waived | 30/30; 0 / 6 | |
 
 ## Calibrations
 
