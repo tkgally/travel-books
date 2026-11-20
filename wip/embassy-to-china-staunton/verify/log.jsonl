@@ -9,3 +9,4 @@
 {"page": "p2300", "model": "sonnet", "corrections": 2, "seconds": 2.9, "cost": 0.0327125, "completion_tokens": 202, "turns": 2, "attempts": 1}
 {"page": "p2500", "model": "sonnet", "corrections": 0, "seconds": 3.0, "cost": 0.0327634, "completion_tokens": 187, "turns": 2, "attempts": 1}
 {"page": "p2600", "model": "sonnet", "corrections": 0, "seconds": 2.6, "cost": 0.031914, "completion_tokens": 116, "turns": 2, "attempts": 1}
+{"page": "p2649", "model": "sonnet", "corrections": 0, "seconds": 5.4, "cost": 0.04069059999999999, "completion_tokens": 450, "turns": 2, "attempts": 1}
