@@ -200,4 +200,9 @@ How this was carried out: `RESUME.md` §"How long a session runs", `tools/sessio
 
 ## Questions for Tom
 
-None open.
+- **(2026-11-20) Does a text in a subscription database count as "a digital text edition elsewhere"?** The re-check of
+  *A Woman's Trip to Alaska* (Collis, 1890) found it in Alexander Street's "North American Women's Letters and
+  Diaries" (search.alexanderstreet.com/view/work/4262667), a keyed full-text database sold to libraries, not open to
+  the public. Rule 2 does not say. Until you answer, the book stays `queued` with a note and is not started (a book
+  whose eligibility is in doubt is not published); other books go first. If such databases do not count (the texts
+  are "available only in libraries", which was your aim), it can go ahead as normal.
