@@ -1,0 +1,9 @@
+{"find": "brick-bat will not", "replace": "brick-bat will not"}
+
+Wait — I need to be accurate: the image reads "brick-bat" and the draft has "brick-bat". Both match, so that entry is not a correction. The only differences are listed below.
+
+{"find": "I like to eat mangoes", "replace": "I like to eat mangoes"}
+
+I should not emit no-op entries. Here is the final list:
+
+NONE
