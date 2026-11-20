@@ -1,0 +1,5 @@
+{"given": "he was very dcpressed. The", "print": "he was very depressed. The", "sure": "high"}
+{"given": "every one still does here; nearly", "print": "every one still does here, nearly", "sure": "high"}
+{"given": "I wonder if anyone reads now", "print": "I wonder if any one reads now", "sure": "high"}
+{"given": "wife. If is a very", "print": "wife. It is a very", "sure": "high"}
+{"given": "almost deafened with noise of the", "print": "almost deafened with the noise of the", "sure": "high"}

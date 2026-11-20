@@ -1,0 +1,5 @@
+{"given": "we passed through; and all", "print": "we passed through, and all", "sure": "high"}
+{"given": "deep claret color, like dark", "print": "deep claret colour, like dark", "sure": "high"}
+{"given": "thought them a nuisauce and left", "print": "thought them a nuisance and left", "sure": "high"}
+{"given": "we had one of these incidents", "print": "we had one of those incidents", "sure": "high"}
+{"given": "we climbed out a deep ravine", "print": "we climbed out of a deep ravine", "sure": "high"}

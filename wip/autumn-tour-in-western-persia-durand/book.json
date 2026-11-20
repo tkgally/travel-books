@@ -211,5 +211,13 @@
    "match": "p0267",
    "why": "a blank leaf before the folding map; not transcribed"
   }
- ]
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-20",
+  "pages": 6,
+  "recall": "28/28",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }

@@ -1,0 +1,5 @@
+{"given": "The grain camels bad knocked down", "print": "The grain camels had knocked down", "sure": "high"}
+{"given": "who are always wild set, had", "print": "who are always a wild set, had", "sure": "high"}
+{"given": "The great Indo-European telcgraph line, which", "print": "The great Indo-European telegraph line, which", "sure": "high"}
+{"given": "telegrams between england and India,", "print": "telegrams between England and India,", "sure": "high"}
+{"given": "especially in winter; when the snow", "print": "especially in winter, when the snow", "sure": "high"}

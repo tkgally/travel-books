@@ -32,10 +32,33 @@ Drawings in the text: p0198, p0203 (text round it), p0205 (text round it), p0207
 Verse p0188. No footnotes or tables seen. Persian words romanized with accents; no Persian script in the text.
 
 ## Decisions
+- Drafted p0003–p0266 and p0268–p0334 (p0267 blank, waived; covers, endpaper and pastedown not transcribed).
+- Judge: 16 spots (draft 9, verifier 6, neither 1): 9 were the drop-capital openings (verifier typed small capitals);
+  the print has full capitals (two openings looked at): all 18 chapter openings made full capitals. p0059 caption
+  "near" kept lower case (title case as in the other captions).
+- Captions: the two plates whose credit line the draft set as a second `[[caption]]` (p0025, p0135) joined into one;
+  italics of the credit lines made alike (“<i>From a Photograph by</i> Sévroguine”, as printed); two drawing captions
+  put in title case like the rest.
+- Erratum (p0008) applied: Stewart → Stuart, three times on p0080 and once on p0083, as `[[corr]]`.
+- Text lost in the scan (Tom's rule, 2026-11-20): title page "[A]n", "[A]rchibald" under library tape; catalogue p. 64
+  (p0334) "of [Sir] Walter Scott", "Original Pl[ates]" in the gutter: `[[supplied]]`.
+- The frontispiece (p0019–p0020, bound after p. 20) put before the title page by `leaf_order`, then moved to the start
+  of the first reading division by `frontispiece`.
+- No printed contents and no chapter titles: the contents give the editor's places and dates for each chapter (`toc_title`;
+  proposed by a Sonnet subagent from the draft text, checked against the chapter openings; said in `notes_on_text`).
+- Publisher's catalogue (p0269–p0334): one `advertisements` division; its other `#` headings made `##`, `##` made `###`.
+  p0290's folio read as 29 by the draft: no folio is printed there (between 19 and 21): `[[page ?]]`.
+- p0217: the acorn drawing interrupts a sentence: `[[cont]]` after the caption (preflight `image-splits`).
+- Line drawings: the cropped drawings showed text through the paper; levels lightened (paper to white).
+- The folding map has no caption; it stays at the end of Chapter XVIII, where the book places it.
 
 ## Runs
 | Run | Model | Pages | Cost |
 |---|---|---|---|
+| draft | Opus | 331 | $20.90 (0 refused) |
+| corrections | Sonnet | 331 | $10.34 (14 word, 2 punctuation, 12 markup changes) |
+| judge | Opus | 16 spots | $0.63 |
+| audit | Opus | 6 (p0104, p0114, p0128, p0146, p0255, p0330) | $0.33: 28/28, 0 candidates |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
