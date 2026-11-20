@@ -1,0 +1,8 @@
+{"find": "Matsy’s", "replace": "Matsy’s"}
+{"find": "“Wauxhall,”", "replace": "“Wauxhall,”"}
+
+Let me be precise: the draft's "Matsy’s" and "Wauxhall" match the scan, so only the following change is needed.
+
+{"find": "“Worshipping by", "replace": "“Worshipping by"}
+
+NONE
