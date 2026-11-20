@@ -58,8 +58,9 @@ Every text string is a well-formed XML fragment. The characters `&`, `<` and `>`
 | `<noteref to="d004-n3">*</noteref>` | reference to the note with that `id` in the same division; the content is the printed mark; where the book prints two marks for one note, two `noteref`s have the same `to` |
 | `<pageref n="34">34</pageref>` | the book's own reference to its page 34 |
 | `<corr orig="teh">the</corr>` | a printer's error corrected; `orig` is the printed reading |
+| `<side>Arrival at Macao.</side>` | a marginal note (side-note) printed beside the line that starts with the word after it; the HTML, EPUB and ODT editions leave side-notes out |
 
-To get the plain text of a string, remove the elements and keep their content, except `noteref` (drop the mark). To get the text exactly as printed, replace each `corr` element by its `orig`.
+To get the plain text of a string, remove the elements and keep their content, except `noteref` (drop the mark) and `side` (drop the side-note, or keep it apart). To get the text exactly as printed, replace each `corr` element by its `orig`.
 
 ## What is normalized
 

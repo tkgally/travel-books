@@ -230,13 +230,7 @@ visibly differs from newer ones.
 
 ## Not yet solved
 
-- Marginal notes (side-notes), common in older books: no markup yet. Choose such a book only after adding it.
-  Staunton's *Embassy to China* (top of the queue) has them: Tom wants them in the JSON and left out of the
-  built editions. Look at a dozen of its pages first (do they sit beside paragraph openings or mid-paragraph?),
-  then add the markup as a tool change with tests, before the first model run. Leaning (review 2026-11-19): an
-  inline `[[side: …]]` at the point in the paragraph where the note stands, kept in the JSON text and dropped
-  by the renderers, so the paragraph and `[[cont]]` logic are untouched; preflight `markup` and `conservation`
-  (pages→JSON keeps it, JSON→editions drops it) updated with it. The prompts then need a line for it.
+- Marginal notes: solved 2026-11-20 (`[[side: …]]`, `page-markup.md`; tests `SideNotes`).
 - Folding maps and large plates scanned in sections; two-page spreads.
 - Eighteenth-century printing (long s, catchwords): the prompts say "long s → s, omit catchwords", untested
   here. Run the two-draft method on a sample first (p2e found Opus modernizes old spellings when drafting).

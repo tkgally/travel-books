@@ -26,7 +26,7 @@ FORMAT = "travel-books-json/1"
 KINDS = ("front", "titlepage", "dedication", "preface", "contents", "illustrations", "introduction", "part",
          "chapter", "appendix", "notes", "glossary", "index", "errata", "advertisements", "back")
 MARK = re.compile(r"\[\[(?:page [^\[\]]*|blank|break|cont|right|center|subtitle|caption|image:[^\[\]]*|fn [^\[\]]+|"
-                  r"fnref [^\[\]]+|corr [^|\[\]]*\|[^\[\]]*)\]\]")
+                  r"fnref [^\[\]]+|corr [^|\[\]]*\|[^\[\]]*|side:[^\[\]]*)\]\]")
 BLOCK_TAGS = ("blockquote", "verse")
 
 
@@ -122,6 +122,11 @@ def parse_page(text, leaf):
     return number, blank, blocks
 
 
+def no_side(text):
+    """Text without its side-notes (for messages that quote the words of a join)."""
+    return re.sub(r"\[\[side:[^\[\]]*\]\]\s*", "", text)
+
+
 def pbtok(leaf, number):
     return f"⟦pb:{leaf}:{number}⟧"
 
@@ -131,7 +136,7 @@ def join_text(prev, text, leaf, number, keep, warn, what=""):
     if prev.endswith("-"):
         if leaf in keep:
             return prev + tok + text
-        warn(f"hyphen join{what} at {leaf}: …{prev[-15:]}|{text[:15]}… (hyphen removed; check)")
+        warn(f"hyphen join{what} at {leaf}: …{prev[-15:]}|{no_side(text)[:15]}… (hyphen removed; check)")
         return prev[:-1] + tok + text
     if prev.endswith("—") or text.startswith("—"):
         return prev + tok + text
@@ -211,7 +216,7 @@ def compile_pages(cfg, pages, images=None):
                 if (b["t"] == "p" and any(x["t"] == "image" and x["leaf"] == leaf for x in flat[j + 1:])
                         and prev is not None and prev["t"] == "p" and prev["leaf_end"] == leaf):
                     if prev["text"].endswith("-") and leaf not in keep:
-                        warn(f"hyphen join around an image at {leaf}: …{prev['text'][-15:]}|{b['text'][:15]}… (hyphen removed; check)")
+                        warn(f"hyphen join around an image at {leaf}: …{prev['text'][-15:]}|{no_side(b['text'])[:15]}… (hyphen removed; check)")
                         prev["text"] = prev["text"][:-1] + b["text"]
                     elif prev["text"].endswith(("-", "—")) or b["text"].startswith("—"):
                         prev["text"] += b["text"]

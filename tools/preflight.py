@@ -64,7 +64,10 @@ def squash(s):
 
 # ---------------------------------------------------------------- text streams
 
-def page_streams(pages, captions=None):
+SIDE = re.compile(r"\s*\[\[side:\s*([^\[\]]*?)\s*\]\]\s*")
+
+
+def page_streams(pages, captions=None, sides=None):
     """(main, notes) text of the page files, markup removed. With `captions` (a list), the captions of images
     are collected there instead of in main: the compiler may move an image (a plate inside a paragraph that
     runs over the page goes after the paragraph; the frontispiece goes to the start of the reading text)."""
@@ -87,6 +90,9 @@ def page_streams(pages, captions=None):
             if m:
                 tgt, s = notes, m.group(2)
             s = re.sub(r"\[\[corr [^|\]]*\|([^\]]*)\]\]", r"\1", s)
+            if sides is not None:                       # side-notes apart: the JSON keeps them out of plain text
+                sides += [re.sub(r"<[^<>]+>", "", x) for x in SIDE.findall(s)]
+            s = SIDE.sub(" ", s)
             s = re.sub(r"\[\[fnref [^\]]+\]\]", "", s)
             s = re.sub(r"\[\[(cont|right|center|subtitle|caption)\]\]", "", s)
             s = PAGE_TAG.sub("", s)
@@ -99,8 +105,9 @@ def page_streams(pages, captions=None):
     return " ".join(main), " ".join(notes)
 
 
-def json_streams(book, reading_only=False, captions=None):
-    """With `captions` (a list), image captions are collected there instead of in main (see page_streams)."""
+def json_streams(book, reading_only=False, captions=None, sides=None):
+    """With `captions` (a list), image captions are collected there instead of in main (see page_streams);
+    with `sides`, the side-notes are collected there (plain text leaves them out)."""
     main, notes = [], []
     for d in book["divisions"]:
         if reading_only and not d.get("reading"):
@@ -108,6 +115,8 @@ def json_streams(book, reading_only=False, captions=None):
         for b in d["blocks"]:
             tgt = captions if captions is not None and b.get("type") == "image" else main
             tgt += [inline.plain(s) for s in rh.strings(b)]
+            if sides is not None:
+                sides += [x for s in rh.strings(b) for x in inline.sides(s)]
         notes += [inline.plain(n["text"]) for n in d["notes"]]
     return " ".join(main), " ".join(notes)
 
@@ -350,7 +359,7 @@ def check_joins(pages):
 def check_text(streams):
     stray, straight, spacing = [], [], []
     for label, text in streams:
-        for m in re.finditer(r"\[\[|\]\]|</?(?:i|b|sc|sup|sub|pref|blockquote|verse|pb|corr|noteref|pageref)\b|〓|[⟦⟧]|&(?:lt|gt|amp);", text):
+        for m in re.finditer(r"\[\[|\]\]|</?(?:i|b|sc|sup|sub|pref|blockquote|verse|pb|corr|noteref|pageref|side)\b|〓|[⟦⟧]|&(?:lt|gt|amp);", text):
             stray.append(f"{label}: …{text[max(0, m.start() - 30):m.end() + 30]!r}…")
         for m in re.finditer(r"['\"]", text):
             straight.append(f"{label}: …{text[max(0, m.start() - 25):m.end() + 25]!r}…")
@@ -553,8 +562,10 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
         res["joins"] = check_joins(pages)
         # conservation
         pc, jc = [], []          # image captions apart: the compiler moves some images (see page_streams)
-        pm, pn = page_streams(pages, captions=pc)
-        jm, jn = json_streams(book, captions=jc)
+        ps, js = [], []          # side-notes: in the JSON, not in the reading editions
+        pm, pn = page_streams(pages, captions=pc, sides=ps)
+        jm, jn = json_streams(book, captions=jc, sides=js)
+        res["conservation"] += compare(" ".join(ps), " ".join(js), "pages→JSON side-notes")
         res["conservation"] += compare(pm, jm, "pages→JSON text") + compare(pn, jn, "pages→JSON notes")
         res["conservation"] += compare(" ".join(sorted(pc)), " ".join(sorted(jc)), "pages→JSON captions")
         jm, jn = json_streams(book)

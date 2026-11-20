@@ -26,6 +26,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 | `setup_env.sh`'s https rewrite of the apt mirrors matched nothing (`\|` inside `s|…|`), so apt hung on plain http for 20 min [2026-11-19] | fixed; test `SetupEnv` |
 | `drive_cache.py fetch --pages a,b,c` read the list as one name and fetched the wrong parts without a word [2026-11-19] | lists and ranges accepted, anything else refused; test `DrivePages` |
 | A part title with a `[[subtitle]]` ("Flying Leaves. / From the East.") taken for a chapter, so its chapters did not nest under it [*Flying Leaves*, found 2026-11-19] | compiler; test `Contents` |
+| Side-notes (marginal notes) lost between page files and JSON, or shown in the editions [*Embassy to China*, 2026-11-20, before the first run] | preflight `conservation` (side-notes apart); test `SideNotes` |
 | A paragraph interrupted by an engraving in the middle of a page split in two (`[[cont]]` dropped) [*South by West*, 2026-11-19] | compiler joins it; test `ImageInParagraph` |
 
 ## Always

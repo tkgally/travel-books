@@ -8,6 +8,8 @@ Book JSON inline markup (documented for users in docs/json-format.md) is a well-
   <noteref to="d004-n3">*</noteref>   reference to a note of the same division
   <pageref n="34">34</pageref>        the book's own reference to one of its pages
   <corr orig="teh">the</corr>         a printer's error corrected by the editors; orig = the printed reading
+  <side>Arrival at Macao.</side>      a marginal note (side-note) printed beside the line whose first word follows it;
+                                      kept in the JSON, left out of the reading editions (drop_sides) and of plain()
 """
 import html, re
 
@@ -57,6 +59,10 @@ def attr(s):
 def convert(text, warn=lambda m: None, ctx=""):
     """Page-markup inline text -> book-JSON inline markup.
     Note references come out as <noteref mark="*"/> placeholders; compile_book resolves them."""
+    # a side-note stands before the word it is printed beside: the space after it goes, so that dropping it
+    # leaves the sentence as printed; one at the end of a paragraph takes the space before it instead
+    text = re.sub(r"\s*\[\[side:\s*([^\[\]]*?)\s*\]\]\s*$", r"⟦side⟧\1⟦/side⟧", text)
+    text = re.sub(r"\[\[side:\s*([^\[\]]*?)\s*\]\]\s*", r"⟦side⟧\1⟦/side⟧", text)
     text = smart_quotes(text)
     hold = []
 
@@ -74,6 +80,7 @@ def convert(text, warn=lambda m: None, ctx=""):
     text = re.sub(r'<pref to="(\w+)">(.*?)</pref>', lambda m: keep(f'<pageref n="{m.group(1)}">') + m.group(2) + keep("</pageref>"), text)
     text = re.sub(r"<pref>(.*?)</pref>",
                   lambda m: keep('<pageref n="%s">' % re.sub(r"[^0-9A-Za-z]", "", m.group(1))) + m.group(1) + keep("</pageref>"), text)
+    text = text.replace("⟦side⟧", keep("<side>")).replace("⟦/side⟧", keep("</side>"))
     text = re.sub(r"⟦pb:([^:⟧]*):([^⟧]*)⟧", lambda m: keep(f'<pb n="{attr(m.group(2))}" leaf="{m.group(1)}"/>'), text)
     parts = TAG_RE.split(text)
     stack, out, ok = [], [], True
@@ -141,10 +148,10 @@ def italic_share(s):
     for t in tokens(s):
         if t[0] == "open":
             depth += t[1] == "i"
-            skip += t[1] == "noteref"
+            skip += t[1] in ("noteref", "side")
         elif t[0] == "close":
             depth -= t[1] == "i"
-            skip -= t[1] == "noteref"
+            skip -= t[1] in ("noteref", "side")
         elif t[0] == "text" and not skip:
             n = sum(c.isalpha() for c in t[1])
             tot += n
@@ -175,8 +182,22 @@ def swap_italics(s):
     return untokens([t for t in out if not (t[0] == "text" and t[1] == "")])
 
 
+def drop_sides(s):
+    """An inline string without its side-notes (the reading editions leave them out: Tom, 2026-11-19)."""
+    if "<side>" not in s:
+        return s
+    out = re.sub(r"<side>.*?</side>", "", s, flags=re.S)
+    return out.rstrip() if s.rstrip().endswith("</side>") else out
+
+
+def sides(s):
+    """The plain text of each side-note in an inline string."""
+    return [plain(m.group(1)) for m in re.finditer(r"<side>(.*?)</side>", s, flags=re.S)]
+
+
 def plain(s, corrected=True):
-    """The words of an inline string, markup removed. corrected=False gives the printed readings."""
+    """The words of an inline string, markup removed; side-notes left out (sides() gives them).
+    corrected=False gives the printed readings."""
     out, skip = [], 0
     for t in tokens(s):
         if t[0] == "text":
@@ -187,8 +208,8 @@ def plain(s, corrected=True):
                 out.append(t[2].get("orig", "")); skip += 1
         elif t[0] == "close" and t[1] == "corr":
             skip = max(0, skip - 1)
-        elif t[0] == "open" and t[1] == "noteref":
+        elif t[0] == "open" and t[1] in ("noteref", "side"):
             skip += 1
-        elif t[0] == "close" and t[1] == "noteref":
+        elif t[0] == "close" and t[1] in ("noteref", "side"):
             skip = max(0, skip - 1)
     return "".join(out)

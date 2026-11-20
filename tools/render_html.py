@@ -147,7 +147,7 @@ class Ctx:
 
     def inline(self, s):
         out, closers = [], []
-        for t in inline.tokens(s):
+        for t in inline.tokens(inline.drop_sides(s)):
             if t[0] == "text":
                 out.append(esc(t[1]))
             elif t[0] == "empty" and t[1] == "pb":

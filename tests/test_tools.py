@@ -536,6 +536,66 @@ class MovedImages(unittest.TestCase):
         self.assertEqual(preflight.compare(a, a, "t"), [])
 
 
+class SideNotes(unittest.TestCase):
+    """Marginal notes (Staunton's Embassy, 2026-11-20): kept in the JSON, left out of the reading editions."""
+
+    def test_convert_plain_and_drop(self):
+        s = inline.convert('at [[side: Occasion of the "Embassy."]] the Embassy was')
+        self.assertEqual(s, 'at <side>Occasion of the “Embassy.”</side>the Embassy was')
+        self.assertEqual(inline.plain(s), "at the Embassy was")
+        self.assertEqual(inline.drop_sides(s), "at the Embassy was")
+        self.assertEqual(inline.sides(s), ["Occasion of the “Embassy.”"])
+        end = inline.convert("He sailed. [[side: <i>Lion</i> sails.]]")
+        self.assertEqual((end, inline.drop_sides(end)), ("He sailed.<side><i>Lion</i> sails.</side>", "He sailed."))
+
+    def setUp(self):
+        self.tmp = tempfile.mkdtemp()
+        self.dir = os.path.join(self.tmp, "sample-journey-doe")
+        shutil.copytree(SAMPLE, self.dir)
+        p = os.path.join(self.dir, "pages", "p0004.txt")
+        t = open(p, encoding="utf-8").read()
+        old = "The carrier had promised nothing;"
+        self.assertIn(old, t)
+        t = t.replace("W<sc>e</sc> left", "[[side: Leaving the town.]] W<sc>e</sc> left", 1)
+        open(p, "w", encoding="utf-8").write(t.replace(old, "The [[side: The carrier.]] carrier had promised nothing;", 1))
+
+    def tearDown(self):
+        shutil.rmtree(self.tmp)
+
+    def test_json_keeps_editions_drop(self):
+        book, _ = compile_book.compile_book(self.dir)
+        js = [x for d in book["divisions"] for b in d["blocks"] for s in rh.strings(b) for x in inline.sides(s)]
+        self.assertEqual(js, ["Leaving the town.", "The carrier."])
+        _, report, res = preflight.run(self.dir, skip_epubcheck=True, skip_odt=True)
+        for k in ("conservation", "markup", "stray-markup", "compile"):
+            self.assertEqual(res.get(k, []), [], report)
+        out = os.path.join(self.tmp, "site")
+        build_site.build_book(out, self.dir)
+        bdir = os.path.join(out, "books", book["id"])
+        html = "".join(open(os.path.join(bdir, f), encoding="utf-8").read() for f in os.listdir(bdir) if f.endswith(".html"))
+        self.assertNotIn("Leaving the town", html)
+        self.assertIn("The carrier had promised nothing", html)
+        odt = zipfile.ZipFile(os.path.join(bdir, book["id"] + ".odt")).read("content.xml").decode("utf-8")
+        self.assertNotIn("Leaving the town", odt)
+        epub = zipfile.ZipFile(os.path.join(bdir, book["id"] + ".epub"))
+        self.assertFalse(any("Leaving the town" in epub.read(n).decode("utf-8", "replace") for n in epub.namelist() if n.endswith(".xhtml")))
+
+    def test_hyphen_join_over_a_side_note(self):
+        book, w = comp(["[[page 1]]\n# One\n\nHe was accompa-", "[[page 2]]\n[[cont]][[side: Teneriffe.]] nied by two."])
+        self.assertEqual(inline.plain(texts(book)[1]), "He was accompanied by two.")
+        self.assertIn("accompa-|nied by two", w[0])               # the word after the join, not the side-note
+        tri = preflight.triage_hyphen_joins(w, [("p0001", "x accompanied y")])
+        self.assertEqual(tri, ["(and 1 joins giving a word the book prints whole elsewhere: not listed)"])
+
+    def test_lost_side_note_is_caught(self):
+        pages = [("p0001", "[[page 1]]\n[[side: A note.]] Text.")]
+        ps, js = [], []
+        book = {"divisions": [{"reading": True, "notes": [], "blocks": [{"type": "paragraph", "text": "Text."}]}]}
+        self.assertEqual(preflight.page_streams(pages, sides=ps)[0].split(), preflight.json_streams(book, sides=js)[0].split())
+        self.assertEqual(ps, ["A note."])
+        self.assertTrue(preflight.compare(" ".join(ps), " ".join(js), "side-notes"))
+
+
 class Fallback(unittest.TestCase):
     """Pages the output filter refuses get a machine-OCR draft that a model corrects (tools/ocr_fallback.py)."""
 

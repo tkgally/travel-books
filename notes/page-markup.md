@@ -25,6 +25,7 @@ models (`prompts/_format.md` is the wording they get), edited by the session, re
 | `[[cont]]` at the start of a paragraph right after an `[[image: …]]` (and caption) in the middle of a page | the paragraph the picture interrupts goes on: joined to the paragraph before the picture, and the picture follows that paragraph in the editions |
 | pipe rows `| a | b |` | table |
 | `<pref>34</pref>`, `<pref to="34">text</pref>` | the book's own reference to its page 34: becomes a link when page 34 is in the reading editions |
+| `[[side: text]]` | a marginal note (side-note), inside the paragraph immediately before the first word of the printed line it stands beside; kept in the JSON (`<side>`), left out of the reading editions (Tom, 2026-11-19, for Staunton's *Embassy*) and of plain text; preflight `conservation` compares the side-notes of the page files and the JSON apart |
 | `[[corr printed|corrected]]` | a printer's error corrected by us (`style.md`) |
 | `〓` | illegible character |
 
