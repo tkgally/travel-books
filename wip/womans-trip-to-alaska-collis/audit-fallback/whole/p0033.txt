@@ -1,0 +1,5 @@
+{"given": "pint of Zinfandel (a california claret)", "print": "pint of Zinfandel (a California claret)", "sure": "high"}
+{"given": "no dinner parties; theatres, or balls", "print": "no dinner parties, theatres, or balls", "sure": "high"}
+{"given": "will I grow fat on his calm", "print": "will I grow fat on this calm", "sure": "high"}
+{"given": "I made good use the extra blanket", "print": "I made good use of the extra blanket", "sure": "high"}
+{"given": "straight line aeross this vast expanse", "print": "straight line across this vast expanse", "sure": "high"}

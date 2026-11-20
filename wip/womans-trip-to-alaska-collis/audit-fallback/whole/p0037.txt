@@ -1,0 +1,5 @@
+{"given": "reliability; and I am among", "print": "reliability, and I am among", "sure": "high"}
+{"given": "cross the muddy missouri on a", "print": "cross the muddy Missouri on a", "sure": "high"}
+{"given": "desert the tomb Cecilia Metella", "print": "desert the tomb of Cecilia Metella", "sure": "high"}
+{"given": "and its battlemeuts. Now and", "print": "and its battlements. Now and", "sure": "high"}
+{"given": "which is frequently sound and sometimes", "print": "which is frequently found and sometimes", "sure": "high"}

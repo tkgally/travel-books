@@ -1,0 +1,5 @@
+{"given": "below the steps of the acropolis;", "print": "below the steps of the Acropolis;", "sure": "high"}
+{"given": "the silent magnificence the Coliseum,", "print": "the silent magnificence of the Coliseum,", "sure": "high"}
+{"given": "avalanche of snow curviug over a", "print": "avalanche of snow curving over a", "sure": "high"}
+{"given": "of what is transpiring, for instance,", "print": "of what is transpiring; for instance,", "sure": "high"}
+{"given": "and when in half", "print": "and then in half", "sure": "high"}

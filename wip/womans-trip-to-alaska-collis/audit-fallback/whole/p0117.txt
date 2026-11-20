@@ -1,0 +1,5 @@
+{"given": "passed from the control the most", "print": "passed from the control of the most", "sure": "high"}
+{"given": "be without parallel, and thus the", "print": "be without parallel; and thus the", "sure": "high"}
+{"given": "and let if be seen", "print": "and let it be seen", "sure": "high"}
+{"given": "like the beautiful princess Maksoutoff", "print": "like the beautiful Princess Maksoutoff", "sure": "high"}
+{"given": "as the enfign of her", "print": "as the ensign of her", "sure": "high"}

@@ -1,0 +1,5 @@
+{"given": "Riche, and the labor of", "print": "Riche; and the labor of", "sure": "high"}
+{"given": "performed some deed martyrdom. I have", "print": "performed some deed of martyrdom. I have", "sure": "high"}
+{"given": "my gastronomy should he well cared", "print": "my gastronomy should be well cared", "sure": "high"}
+{"given": "these came olympia oysters, in the", "print": "these came Olympia oysters, in the", "sure": "high"}
+{"given": "of which was largcr than a nickel", "print": "of which was larger than a nickel", "sure": "high"}

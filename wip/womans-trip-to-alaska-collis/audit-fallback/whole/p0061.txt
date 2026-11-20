@@ -1,0 +1,5 @@
+{"given": "say they built it from cellar garret", "print": "say they built it from cellar to garret", "sure": "high"}
+{"given": "a porch and a shingle roof; and", "print": "a porch and a shingle roof, and", "sure": "high"}
+{"given": "I found if attributable to", "print": "I found it attributable to", "sure": "high"}
+{"given": "securing competent scrvants; in fact", "print": "securing competent servants; in fact", "sure": "high"}
+{"given": "General sherman tells me", "print": "General Sherman tells me", "sure": "high"}

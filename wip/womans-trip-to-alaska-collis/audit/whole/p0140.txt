@@ -1,0 +1,6 @@
+{"given": "that Alaska, like ireland, has", "print": "that Alaska, like Ireland, has", "sure": "high"}
+{"given": "And now; quite by accident,", "print": "And now, quite by accident,", "sure": "high"}
+{"given": "made an everlasting imprefsion upon my", "print": "made an everlasting impression upon my", "sure": "high"}
+{"given": "a volume to do if approximate", "print": "a volume to do it approximate", "sure": "high"}
+{"given": "joyous shouting of half hundred boys,", "print": "joyous shouting of half a hundred boys,", "sure": "high"}
+{"given": "across the road in pursuit of a", "print": "across the road in pursuit of a", "sure": "medium"}

@@ -1,0 +1,5 @@
+{"given": "mind saturated with wonders of nature", "print": "mind saturated with the wonders of nature", "sure": "high"}
+{"given": "the German gentleman; who has left", "print": "the German gentleman, who has left", "sure": "high"}
+{"given": "that tomorrow will be a much", "print": "that to-morrow will be a much", "sure": "high"}
+{"given": "June 4th.—Can if be possible", "print": "June 4th.—Can it be possible", "sure": "high"}
+{"given": "trees or aronnd the rocks", "print": "trees or around the rocks", "sure": "high"}

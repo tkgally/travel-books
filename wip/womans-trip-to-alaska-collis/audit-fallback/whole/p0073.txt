@@ -1,0 +1,5 @@
+{"given": "the rooms of those lofty structures", "print": "the rooms of these lofty structures", "sure": "high"}
+{"given": "It is certainly the paradize of", "print": "It is certainly the paradise of", "sure": "high"}
+{"given": "including cats and dogs; being housed", "print": "including cats and dogs, being housed", "sure": "high"}
+{"given": "open-air sleeping and drcssing room, that", "print": "open-air sleeping and dressing room, that", "sure": "high"}
+{"given": "a very respectable important function. The", "print": "a very respectable and important function. The", "sure": "high"}

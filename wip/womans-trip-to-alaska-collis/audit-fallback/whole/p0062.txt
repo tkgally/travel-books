@@ -1,0 +1,5 @@
+{"given": "been the condition this great Northwest", "print": "been the condition of this great Northwest", "sure": "high"}
+{"given": "had failed, nor wbether the Russian", "print": "had failed, nor whether the Russian", "sure": "high"}
+{"given": "on the Madison avenue Railway, which", "print": "on the Madison Avenue Railway, which", "sure": "high"}
+{"given": "if speed if can be called", "print": "if speed it can be called", "sure": "high"}
+{"given": "one or two colleges; perhaps universities", "print": "one or two colleges, perhaps universities", "sure": "high"}

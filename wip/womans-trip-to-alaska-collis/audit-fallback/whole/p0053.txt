@@ -1,0 +1,5 @@
+{"given": "and we missed wonderful feats of", "print": "and we missed the wonderful feats of", "sure": "high"}
+{"given": "It is simply marvcllous, and", "print": "It is simply marvellous, and", "sure": "high"}
+{"given": "from the window or the left", "print": "from the window on the", "sure": "high"}
+{"given": "and all around you; as though", "print": "and all around you, as though", "sure": "high"}
+{"given": "enter the famous stampede tunnel, almost", "print": "enter the famous Stampede tunnel, almost", "sure": "high"}

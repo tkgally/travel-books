@@ -1,0 +1,5 @@
+{"given": "through similar movements; and when", "print": "through similar movements, and when", "sure": "high"}
+{"given": "in a scarlet pea-green dress", "print": "in a scarlet and pea-green dress", "sure": "high"}
+{"given": "this was a specimcn of life", "print": "this was a specimen of life", "sure": "high"}
+{"given": "the use we where making of", "print": "the use we were making of", "sure": "high"}
+{"given": "we lived on the queen we", "print": "we lived on the Queen we", "sure": "high"}

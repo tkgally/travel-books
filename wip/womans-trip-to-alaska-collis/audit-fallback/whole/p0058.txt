@@ -1,0 +1,5 @@
+{"given": "tree-stumps; still marking the recent", "print": "tree-stumps, still marking the recent", "sure": "high"}
+{"given": "snowy hood were all myth.", "print": "snowy hood were all a myth.", "sure": "high"}
+{"given": "starting life and “growiug up with", "print": "starting life and “growing up with", "sure": "high"}
+{"given": "dine with us tomorrow at seven", "print": "dine with us to-morrow at seven", "sure": "high"}
+{"given": "much better and heartier then “Mr.", "print": "much better and heartier than “Mr.", "sure": "high"}

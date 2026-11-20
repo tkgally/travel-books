@@ -1,0 +1,6 @@
+{"given": "failure of supply; they gradually", "print": "failure of supply, they gradually", "sure": "high"}
+{"given": "thinking of if, however,", "print": "thinking of it, however,", "sure": "high"}
+{"given": "Here is the wreck a once", "print": "Here is the wreck of a once", "sure": "high"}
+{"given": "founded by marquis de Mores", "print": "founded by Marquis de Mores", "sure": "high"}
+{"given": "he ultimatcly abandoned the scheme", "print": "he ultimately abandoned the scheme", "sure": "high"}
+{"given": "leaving these watermarks upon the", "print": "leaving these water-marks upon the", "sure": "low"}

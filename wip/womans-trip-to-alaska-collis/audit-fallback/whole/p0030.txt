@@ -1,0 +1,5 @@
+{"given": "placing us in this phaeton, behind", "print": "placing us in his phaeton, behind", "sure": "high"}
+{"given": "particularly struck me; especially a remarkable", "print": "particularly struck me, especially a remarkable", "sure": "high"}
+{"given": "the unfortunate owner haviug come to", "print": "the unfortunate owner having come to", "sure": "medium"}
+{"given": "to rows of brick brown stone,", "print": "to rows of brick and brown stone,", "sure": "high"}
+{"given": "nevertheless the minneapolis homes impressed me", "print": "nevertheless the Minneapolis homes impressed me", "sure": "high"}

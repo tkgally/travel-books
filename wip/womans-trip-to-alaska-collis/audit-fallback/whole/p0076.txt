@@ -1,0 +1,6 @@
+{"given": "water and dressed such gorgeous colors", "print": "water and dressed in such gorgeous colors", "sure": "high"}
+{"given": "how many generations if will take", "print": "how many generations it will take", "sure": "high"}
+{"given": "up by the North Pole, in fact", "print": "up by the North Pole; in fact", "sure": "high"}
+{"given": "century ago), yet today I am", "print": "century ago), yet to-day I am", "sure": "high"}
+{"given": "lest somebody shonld accuse me", "print": "lest somebody should accuse me", "sure": "high"}
+{"given": "there is no foothold on them", "print": "there is no foot-hold on them", "sure": "low"}

@@ -1,0 +1,6 @@
+{"given": "Chapter VI.", "print": "CHAPTER VI.", "sure": "low"}
+{"given": "resumed our voyage, and; as I", "print": "resumed our voyage, and, as I", "sure": "high"}
+{"given": "I was up and walking deck before six", "print": "I was up and walking the deck before six", "sure": "high"}
+{"given": "one particle. It you do not", "print": "one particle. If you do not", "sure": "high"}
+{"given": "the effect of the sunrize may have", "print": "the effect of the sunrise may have", "sure": "high"}
+{"given": "group of three, sbaring with us", "print": "group of three, sharing with us", "sure": "high"}

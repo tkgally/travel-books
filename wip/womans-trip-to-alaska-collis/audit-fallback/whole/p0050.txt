@@ -1,0 +1,5 @@
+{"given": "though now millionaires, ofsered to sell", "print": "though now millionaires, offered to sell", "sure": "high"}
+{"given": "Last year if was supposed", "print": "Last year it was supposed", "sure": "high"}
+{"given": "the town, but today, as", "print": "the town, but to-day, as", "sure": "high"}
+{"given": "replacing the shanties the past, the", "print": "replacing the shanties of the past, the", "sure": "high"}
+{"given": "Spokane Falls to Pasco; it was", "print": "Spokane Falls to Pasco, it was", "sure": "high"}

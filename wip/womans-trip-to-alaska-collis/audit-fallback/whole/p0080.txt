@@ -1,0 +1,5 @@
+{"given": "the chef of the Driard house.", "print": "the chef of the Driard House.", "sure": "high"}
+{"given": "On this occasion there where shrimps", "print": "On this occasion there were shrimps", "sure": "high"}
+{"given": "As I was debating whetber we", "print": "As I was debating whether we", "sure": "high"}
+{"given": "Fortunately (so thought men), the shops", "print": "Fortunately (so thought the men), the shops", "sure": "high"}
+{"given": "gates—all so English; you know!", "print": "gates—all so English, you know!", "sure": "high"}

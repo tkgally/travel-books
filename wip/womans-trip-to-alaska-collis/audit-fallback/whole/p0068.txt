@@ -1,0 +1,5 @@
+{"given": "fresh, sweet, and clean; entirely free", "print": "fresh, sweet, and clean, entirely free", "sure": "high"}
+{"given": "kindness which everyone aboard experienced", "print": "kindness which every one aboard experienced", "sure": "high"}
+{"given": "both officers and servauts, from the", "print": "both officers and servants, from the", "sure": "high"}
+{"given": "and to these of us who", "print": "and to those of us who", "sure": "high"}
+{"given": "mood to appreciate surroundings.", "print": "mood to appreciate the surroundings.", "sure": "high"}
