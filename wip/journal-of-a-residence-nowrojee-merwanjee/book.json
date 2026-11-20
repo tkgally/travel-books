@@ -89,11 +89,6 @@
  "waivers": [
   {
    "check": "spacing",
-   "match": "p0092",
-   "why": "table of corn duties: ditto marks („) printed under the words they repeat; not quotation marks (checked on the scan)"
-  },
-  {
-   "check": "spacing",
    "match": "p0299",
    "why": "table of dockyard salaries: ditto marks (“) printed under the words they repeat; not quotation marks (checked on the scan)"
   },
@@ -143,5 +138,14 @@
    "starts": "We left Glasgow at twelve",
    "title": "Return by Liverpool to London, 1 December; the time and cost of the tour"
   }
- ]
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-20",
+  "pages": 7,
+  "recall": "35/35",
+  "real_errors": 0,
+  "fixed": 0,
+  "note": "6 random pages (p0150, p0164, p0188, p0217, p0396, p0521) 30/30, and the fallback page p0212 5/5; no other differences reported"
+ }
 }

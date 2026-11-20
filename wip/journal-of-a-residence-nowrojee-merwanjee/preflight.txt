@@ -12,19 +12,15 @@
 [       ok] nav: contents: at least one reading division; each has a title and text
 [       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
-[ FAIL (1)] audit: book.json records the sampled audit of this version
-            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
-[ look (6)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+[       ok] audit: book.json records the sampled audit of this version
+[ look (4)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0239: … they were pro-|fessedly built … (hyphen removed; check)
-            - hyphen join at p0251: …h, and the saw-|mills at Chatha… (hyphen removed; check) — the book prints “saw-mills” elsewhere: keep_hyphens?
             - hyphen join at p0322: …hine</i>, glad-|dened our heart… (hyphen removed; check)
-            - hyphen join at p0454: … stands a well-|executed monume… (hyphen removed; check) — the book hyphenates other “well-” words: keep_hyphens?
             - hyphen join at p0491: …lies have a go-|verness in thei… (hyphen removed; check)
             - (and 35 joins giving a word the book prints whole elsewhere: not listed)
-[look (13)] joins: page joins: missing [[cont]], or [[cont]] after a closed sentence
+[look (12)] joins: page joins: missing [[cont]], or [[cont]] after a closed sentence
             - p0078: [[cont]] after a closed sentence …'” to use their own words.' | 'Mr. Austin the master Rig'
             - p0133: [[cont]] after a closed sentence …'dred and fifty guineas!!!' | 'Only think,—one hundred a'
-            - p0199: no [[cont]] but the page before ends …'oney for their votes. But' and this one starts 'this is called bribery, a'
             - p0214: [[cont]] after a closed sentence …'ondon, Exeter, and Ripon.' | 'The same rule is observed'
             - p0241: [[cont]] after a closed sentence …'at for only one shilling.' | 'Below there is a saloon, '
             - p0249: [[cont]] after a closed sentence …'battle in Egypt, in 1801.' | 'Another to Lord Howe who '
@@ -38,8 +34,7 @@
 [ look (1)] folios: printed page numbers that break the sequence
             - p0524: page 2 after page 492 (p0522)
 [       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
-[ look (1)] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
-            - p0309: 2 quotations left open: '“For a few minutes before the launch the coup d’œil presente'
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
 [look (26)] contents: entries of the printed contents with no matching heading
             - p0023: 'Cannanore—Cochin—Canoes—Heavy Gale off the Cape—Symonds’ Bay—Cape Town'
             - p0023: 'Steam Boat Accommodations—Traffic on the Thames—Bustle of London.'
@@ -69,5 +64,4 @@
             - p0030: 'Salutations indicative of the Climate—Ice—Beautiful appearance of Snow'
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-[   unused] waiver matches nothing: {'check': 'spacing', 'match': 'p0092', 'why': 'table of corn duties: ditto marks („) printed under the words they repeat; not quotation marks (checked on the scan)'}
-preflight FAIL: journal-of-a-residence-nowrojee-merwanjee v1 — 1 to fix, 7 waived; to look at: hyphen-joins 6, joins 13, folios 1, quote-balance 1, contents 26 — tools@dcb9635 2026-11-20
+preflight PASS: journal-of-a-residence-nowrojee-merwanjee v1 — 0 to fix, 8 waived; to look at: hyphen-joins 4, joins 12, folios 1, contents 26 — tools@363be09 2026-11-20
