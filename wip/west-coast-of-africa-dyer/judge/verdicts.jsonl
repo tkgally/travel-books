@@ -1,0 +1,14 @@
+{"page": "p0008", "n": 1, "who": "draft", "draft": "<sc>printed at the office of the publishers</sc>", "verified": "PRINTED AT THE OFFICE OF THE PUBLISHERS", "judge": {"n": 1, "is": "A", "print": "<sc>printed at the office of the publishers</sc>", "sure": "medium"}}
+{"page": "p0010", "n": 1, "who": "draft", "draft": "[[page iv.]]", "verified": "[[page iv]]", "judge": {"n": 1, "is": "B", "print": "[[page iv.]]", "sure": "high"}}
+{"page": "p0014", "n": 1, "who": "draft", "draft": "[[page viii.]]\n\n## Chapter VI", "verified": "[[page viii]]\n\n# Chapter VI", "judge": {"n": 1, "is": "B", "print": "[[page viii.]]\n\n## Chapter VI", "sure": "high"}}
+{"page": "p0014", "n": 2, "who": "draft", "draft": "## Chapter VI", "verified": "# Chapter VI", "judge": {"n": 2, "is": "A", "print": "## Chapter VI", "sure": "low"}}
+{"page": "p0014", "n": 3, "who": "draft", "draft": "## Chapter VI", "verified": "# Chapter VI", "judge": {"n": 3, "is": "A", "print": "## Chapter VI", "sure": "low"}}
+{"page": "p0014", "n": 4, "who": "draft", "draft": "## Chapter IX", "verified": "# Chapter IX", "judge": {"n": 4, "is": "B", "print": "## Chapter IX", "sure": "low"}}
+{"page": "p0019", "n": 1, "who": "draft", "draft": "round whicb we", "verified": "round which we", "judge": {"n": 1, "is": "A", "print": "round whicb we", "sure": "medium"}}
+{"page": "p0088", "n": 1, "who": "draft", "draft": "diffculty", "verified": "difficulty", "judge": {"n": 1, "is": "A", "print": "diffculty", "sure": "medium"}}
+{"page": "p0110", "n": 1, "who": "draft", "draft": "accacia", "verified": "accaccia", "judge": {"n": 1, "is": "B", "print": "accacia", "sure": "high"}}
+{"page": "p0155", "n": 1, "who": "draft", "draft": "elswhere", "verified": "elsewhere", "judge": {"n": 1, "is": "B", "print": "elswhere", "sure": "high"}}
+{"page": "p0166", "n": 1, "who": "verified", "draft": "some remaining t", "verified": "some. remaining t", "judge": {"n": 1, "is": "B", "print": "some. remaining t", "sure": "medium"}}
+{"page": "p0172", "n": 1, "who": "verified", "draft": "great grief. but", "verified": "great grief, but", "judge": {"n": 1, "is": "B", "print": "great grief, but", "sure": "medium"}}
+{"page": "p0187", "n": 1, "who": "draft (could not undo: edit by hand)", "draft": "\n\n[[center]]GRIFFIN AND CO, THE HARD, PORTSMOUTH, AND COCKSPUR STREET, LONDON, S.W.", "verified": "", "judge": {"n": 1, "is": "A", "print": "\n\n[[center]]GRIFFIN AND CO, THE HARD, PORTSMOUTH, AND COCKSPUR STREET, LONDON, S.W.", "sure": "high"}}
+{"page": "p0191", "n": 1, "who": "draft", "draft": "triumpth", "verified": "triumph", "judge": {"n": 1, "is": "B", "print": "triumpth", "sure": "high"}}

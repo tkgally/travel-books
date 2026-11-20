@@ -19,7 +19,14 @@
  "source": {
   "ia_identifier": "westcoastofafric00dyer",
   "contributor": "Brandeis University",
-  "hidden_leaves": [0, 197, 198, 199, 200, 201]
+  "hidden_leaves": [
+   0,
+   197,
+   198,
+   199,
+   200,
+   201
+  ]
  },
  "history": [
   {
@@ -28,11 +35,113 @@
    "note": "First publication."
   }
  ],
- "regions": [],
+ "regions": [
+  "Ghana",
+  "Angola",
+  "Democratic Republic of the Congo",
+  "Nigeria",
+  "Liberia",
+  "Gabon",
+  "Equatorial Guinea",
+  "South Africa",
+  "Saint Helena",
+  "Ascension Island",
+  "Senegal"
+ ],
  "period": "1871–73",
  "frontispiece": "p0006-1",
- "ornaments": ["p0015-1"],
- "divisions": [],
- "summary": [],
- "notes_on_text": []
+ "ornaments": [
+  "p0015-1"
+ ],
+ "divisions": [
+  {
+   "at": "p0006",
+   "kind": "front"
+  },
+  {
+   "at": "p0007",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0009",
+   "kind": "introduction"
+  },
+  {
+   "at": "p0013",
+   "kind": "contents"
+  },
+  {
+   "at": "p0015",
+   "kind": "chapter",
+   "title": "Chapter I",
+   "toc_title": "Chapter I. Leave Southampton in the Cape Mail Steamer Cambrian, on the 25th September, 1871.—Arrive at Table Bay on the 8th November.—Four days Quarantine at St. Helena.—Relieve Commander Evans and take command of Torch.—Heavy Gale at the “Bellows.”—The River Congo.—Curious Native Certificates of Negro Washermen at Banana.—King Peter and Capita in Kabenda.—Punishing Pirates and Destroying Native Villages.—The Mail Steamer Magregor Laird on the Rocks.—Attack upon the Crew.—Marketing with Natives at Jellah Coffee.—Ludicrous scenes on board"
+  },
+  {
+   "at": "p0042",
+   "kind": "chapter",
+   "title": "Chapter II",
+   "toc_title": "Chapter II. Anchoring at Cape Coast.—Surf Boats.—Native Singing.—Imitation of Modern European Fashions.—Love of Jewellery.—Riot at Elmina.—Lieutenant Joorst assassinated.—Sanitary Measures.—Dance by the Houssa Tribe: amusing performances.—British recognition of Slavery on the Gold Coast.—Dangerous Surfs.—Conceit and Impertinence of the Negroes"
+  },
+  {
+   "at": "p0066",
+   "kind": "chapter",
+   "title": "Chapter III",
+   "toc_title": "Chapter III. The Slave Traffic.—A Missionary's Funeral.—Crossing the Bar at Lagos.—The Marina at Lagos.—Introduced to a God-daughter of Her Majesty Queen Victoria.—French and American Missionary Stations at Lagos.—Entering the Gaboon.—The Game of the Country.—Adaptability of Kroomen for Coast Work—Their Powers of Endurance"
+  },
+  {
+   "at": "p0085",
+   "kind": "chapter",
+   "title": "Chapter IV",
+   "toc_title": "Chapter IV. Mr. Joorst's assassins hanged.—Fantee ideas of a future state.—A Dismal Prison at Accra.—Transfer of Dutch Forts to the British.—Hoisting English Flag at Bootry.—Amusing and ignorant mode of firing by Native Gunners.—Civil appointments on the Coast.—Palaver with the King of Axim.—Causes of War between the Tribes"
+  },
+  {
+   "at": "p0100",
+   "kind": "chapter",
+   "title": "Chapter V",
+   "toc_title": "Chapter V. Arrive at Assama.—Grand Review and Sham Fight by the Native Troops.—Palaver with King Blay.—Inefficiency of Fantee Guards.—Trading with Elmina Boatmen.—Method pursued by Native Assayers"
+  },
+  {
+   "at": "p0111",
+   "kind": "chapter",
+   "title": "Chapter VI",
+   "toc_title": "Chapter VI. Anchoring at Appolonia.—Surf boat capsized—the Doctor nearly drowned.—Grand Dance outside our quarters by Torchlight.—Imperfect sanitary arrangements.—Visit from an Ashanti Commander and Taniki the King’s Nephew.—Palaver with King Amakee.—Negociations for peace between Blay and Amakee.—Etiquette at the Ashanti Court.—Return to Axim and make amicable arrangements with Amakee"
+  },
+  {
+   "at": "p0125",
+   "kind": "chapter",
+   "title": "Chapter VII",
+   "toc_title": "Chapter VII. On board the Druid at Cape Coast Castle.—Butterfly hunting.—Description of the Towns on the Gold Coast.—Curious incident.—Cruising between Jellah Coffee and Kabenda.—Visit the British Factories at Ambrizette.—Barter with Spirits.—Dearness of Provisions at St. Paul’s de Loando. Penal Colony.—Shooting Koodoos and surprising Baboons.—Enjoying the hospitality of the Portuguese.—Convict Settlements at Benguela.—Statement of a Convict.—Mode of Punishing.—Treaty with King Antonio"
+  },
+  {
+   "at": "p0153",
+   "kind": "chapter",
+   "title": "Chapter VIII",
+   "toc_title": "Chapter VIII. Fever on board.—Picturesque scenery at Kabenda.—Fetish men.—The Chief of Kabenda and his minister.—Buying wives.—Robbery of 50 Ivory Tusks.—Naval Court Martial.—Chase after a Portuguese Trader.—Absence of constituted authority on the South Coast.—Arrival of Commodore Commerell.—Visit M’Boma, the Great Slave Market.—Punishment of Natives for stealing.—Depart from the South-Coast with the Commodore.—Causes of war between the Bonny and Opobo men.—Palaver with King George on board the Torch.—Human Sacrifices.—Return of the Commodore to Bonny in the Torch.—Fire at Bonny.—Attempted Suicide.—Negociations for peace by the several Tribes.—We Convoy the Supply to Cadiz.—Anchor at Anno Bom"
+  },
+  {
+   "at": "p0177",
+   "kind": "chapter",
+   "title": "Chapter IX",
+   "toc_title": "Chapter IX. Description of Anno Bom.—Cupidity of King David Carter.—Start for Ascension.—The “Rollers” at Ascension.—Sailing to Dâker and thence to Gibraltar.—Conclusions"
+  },
+  {
+   "at": "p0189",
+   "kind": "advertisements"
+  }
+ ],
+ "summary": [
+  "Hugh McNeile Dyer (1832–1875), a commander in the Royal Navy, commanded H.M.S. Torch on the West Coast of Africa in 1871–73. He went out by mail steamer to the Cape and St. Helena, took over the ship, and for about a year cruised from the Congo and Angola to the Gold Coast, Lagos, the Bonny, Fernando Po and Liberia, going home by Ascension, Dakar and Gibraltar. The journal was published after his sudden death, with an unsigned introduction by a friend.",
+  "He describes surf landings, palavers with chiefs, the transfer of the Dutch forts to Britain, quarrels between neighbouring chiefs, the punishment of river pirates by burning villages, the Kroomen who worked on ships, the Portuguese convicts and slaves in Angola, and fever on board. He writes of Africans with the open contempt of his time and service, and the text uses racial slurs."
+ ],
+ "notes_on_text": [
+  "Transcribed from the copy at Brandeis University (Internet Archive: westcoastofafric00dyer).",
+  "The two plates are printed sideways in the book and are shown upright. The book's title, repeated over Chapter I, is left out there.",
+  "The chapters have no headings beyond their numbers; the entries in this edition's contents are the chapter summaries of the printed contents."
+ ],
+ "omitted_from_reading": "The title page, the printed contents and the publisher's advertisements are in the JSON only.",
+ "keep_hyphens": [
+  "p0034",
+  "p0039",
+  "p0040"
+ ]
 }

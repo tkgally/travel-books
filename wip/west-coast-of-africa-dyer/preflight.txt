@@ -1,0 +1,42 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[ FAIL (1)] audit: book.json records the sampled audit of this version
+            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[ look (4)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0034: …and his fellow-|countrymen woul… (hyphen removed; check)
+            - hyphen join at p0039: …itution. Where-|ever I paid a v… (hyphen removed; check)
+            - hyphen join at p0040: …me being south-|westerly, it is… (hyphen removed; check) — the book hyphenates other “south-” words: keep_hyphens?
+            - (and 1 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[ look (3)] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+            - p0010: closing ” with no opening “: 'The Journal ends with the arrival of the Torch at Gibraltar,'
+            - p0141: closing ” with no opening “: 'As I did not understand Portuguese, I did not know what was '
+            - p0175: closing ” with no opening “: 'destroy me; may my bones rot in my body before I die; and ma'
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[ look (9)] contents: entries of the printed contents with no matching heading
+            - p0013: 'Leave Southampton in the Cape Mail Steamer Cambrian, on the 25th Septe'
+            - p0013: 'Anchoring at Cape Coast.—Surf Boats.—Native Singing.—Imitation of Mode'
+            - p0013: 'The Slave Traffic.—A Missionary’s Funeral.—Crossing the Bar at Lagos.—'
+            - p0013: 'Mr. Joorst’s assassins hanged.—Fantee ideas of a future state.—A Disma'
+            - p0013: 'Arrive at Assama.—Grand Review and Sham Fight by the Native Troops.—Pa'
+            - p0014: 'Anchoring at Appolonia.—Surf boat capsized—the Doctor nearly drowned.—'
+            - p0014: 'On board the Druid at Cape Coast Castle.—Butterfly hunting.—Descriptio'
+            - p0014: 'Fever on board.—Picturesque scenery at Kabenda.—Fetish men.—The Chief '
+            - p0014: 'Description of Anno Bom.—Cupidity of King David Carter.—Start for Asce'
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight FAIL: west-coast-of-africa-dyer v1 — 1 to fix, 0 waived; to look at: hyphen-joins 4, quote-balance 3, contents 9 — tools@fc44913 2026-11-20

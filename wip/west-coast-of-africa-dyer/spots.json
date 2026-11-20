@@ -1,0 +1,150 @@
+{
+ "p0008": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<sc>printed at the office of the publishers</sc>",
+   "replace": "PRINTED AT THE OFFICE OF THE PUBLISHERS",
+   "draft": "<sc>printed at the office of the publishers</sc>",
+   "verified": "PRINTED AT THE OFFICE OF THE PUBLISHERS",
+   "context": "[[page ?]] ⏎  ⏎ [[center]] <sc>printed at the office of the publishers</sc> ⏎ "
+  }
+ ],
+ "p0010": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "[[page iv.]]",
+   "replace": "[[page iv]]",
+   "draft": "[[page iv.]]",
+   "verified": "[[page iv]]",
+   "context": "[[page iv.]] ⏎ [[cont]]spare time, and gave occupation to his active mind,"
+  }
+ ],
+ "p0014": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "[[page viii.]]\n\n## Chapter VI.",
+   "replace": "[[page viii]]\n\n# Chapter VI.",
+   "draft": "[[page viii.]]\n\n## Chapter VI",
+   "verified": "[[page viii]]\n\n# Chapter VI",
+   "context": "[[page viii.]] ⏎  ⏎ ## Chapter VI. ⏎  ⏎ Anchoring at Appolonia.—Surf boat capsized—the Doctor near"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "## Chapter VII.",
+   "replace": "# Chapter VII.",
+   "draft": "## Chapter VI",
+   "verified": "# Chapter VI",
+   "context": "rn to Axim and make amicable arrangements with Amakee. 108 ⏎  ⏎ ## Chapter VII. ⏎  ⏎ On board the <i>Druid</i> at Cape Coast Castle.—Butterfly "
+  },
+  {
+   "n": 3,
+   "kind": "punctuation",
+   "find": "## Chapter VIII.",
+   "replace": "# Chapter VIII.",
+   "draft": "## Chapter VI",
+   "verified": "# Chapter VI",
+   "context": " Convict.—Mode of Punishing.—Treaty with King Antonio. 136 ⏎  ⏎ ## Chapter VIII. ⏎  ⏎ Fever on board.—Picturesque scenery at Kabenda.—Fetish men"
+  },
+  {
+   "n": 4,
+   "kind": "punctuation",
+   "find": "## Chapter IX.",
+   "replace": "# Chapter IX.",
+   "draft": "## Chapter IX",
+   "verified": "# Chapter IX",
+   "context": "Convoy the <i>Supply</i> to Cadiz.—Anchor at Anno Bom. 160 ⏎  ⏎ ## Chapter IX. ⏎  ⏎ Description of Anno Bom.—Cupidity of King David Carter.—St"
+  }
+ ],
+ "p0019": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "round whicb we",
+   "replace": "round which we",
+   "draft": "round whicb we",
+   "verified": "round which we",
+   "context": ". Just as we reached the “Bellows” rock off the Cape point, round whicb we had to proceed to Simons’ Bay, a heavy gale came on, and wi"
+  }
+ ],
+ "p0088": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "diffculty",
+   "replace": "difficulty",
+   "draft": "diffculty",
+   "verified": "difficulty",
+   "context": "t India Regiment and some Fantee police for Accra, a slight diffculty having arisen between two neighbouring tribes. We arrived n"
+  }
+ ],
+ "p0110": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "accacia",
+   "replace": "accaccia",
+   "draft": "accacia",
+   "verified": "accaccia",
+   "context": "ies, often only an “akie” or two at a time. An “akie” is an accacia seed weighing a few grains. Accounts with natives on this c"
+  }
+ ],
+ "p0155": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "elswhere",
+   "replace": "elsewhere",
+   "draft": "elswhere",
+   "verified": "elsewhere",
+   "context": " sometimes not. I noticed this also near Antonio's town and elswhere. The graves are also sometimes railed round. In the centre "
+  }
+ ],
+ "p0166": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "some remaining two",
+   "replace": "some. remaining two",
+   "draft": "some remaining t",
+   "verified": "some. remaining t",
+   "context": "neighbourhood went there for a short period of their lives, some remaining two years. During this time they never washed, kept apart from "
+  }
+ ],
+ "p0172": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "great grief. but",
+   "replace": "great grief, but",
+   "draft": "great grief. but",
+   "verified": "great grief, but",
+   "context": "'s portion. We went on shore, and found the poor old man in great grief. but bearing up stoically. His women were weeping and screaming "
+  }
+ ],
+ "p0187": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "\n\n[[center]]GRIFFIN AND CO, THE HARD, PORTSMOUTH, AND COCKSPUR STREET, LONDON, S.W.",
+   "replace": "",
+   "draft": "\n\n[[center]]GRIFFIN AND CO, THE HARD, PORTSMOUTH, AND COCKSPUR STREET, LONDON, S.W.",
+   "verified": "",
+   "context": "espondents, of the present abnormal state of the Gold Coast. ⏎  ⏎ [[center]]GRIFFIN AND CO, THE HARD, PORTSMOUTH, AND COCKSPUR STREET, LONDON, S.W. ⏎ "
+  }
+ ],
+ "p0191": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "triumpth",
+   "replace": "triumph",
+   "draft": "triumpth",
+   "verified": "triumph",
+   "context": " Memoir of the famous ship in which Nelson won his crowning triumpth and death. Price 1s. cloth. ⏎  ⏎ ## The Arctic Navy List: ⏎  ⏎ [[ce"
+  }
+ ]
+}
