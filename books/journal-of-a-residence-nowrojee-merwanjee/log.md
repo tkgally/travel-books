@@ -56,6 +56,7 @@ Scan check: all 14 sheets looked at 2026-11-20; full size p0006; problems: none 
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
 | 1 | 2026-11-20 | preflight PASS — 0 to fix, 8 waived; look: hyphen-joins 4, joins 12, folios 1, contents 26 — tools@65bef57 | 30/30 (p0150, p0164, p0188, p0217, p0396, p0521) + 5/5 on p0212; 0 real errors | first publication; Claude ≈ $50.78 |
+| 2 | 2026-11-20 | PASS — 0 to fix, 8 waived; to look at: hyphen-joins 4, joins 1, folios 1, contents 26 — tools@852fcc3 | as v1 (text unchanged except the fixes) | found at the review after ten books (an Opus subagent on the scan): two of the six marks `running_quotes.py` listed were page-top repeats inside an open quotation, not opening marks (p0220 “stand charged…”, p0223 “Yes, I'd swear…”): removed; notes_on_text says the quotation marks follow modern practice. |
 | Draft | 2026-11-20 | Opus | 529 (p0006–p0534) | 33.26 | p0212 (printed 182, Houses of Parliament chapter, ordinary prose) refused by the output filter |
 | Fallback | 2026-11-20 | tesseract + Opus | 1 (p0212) | 0.06 | audited with `--pages p0212`: 5/5 |
 | Corrections | 2026-11-20 | Sonnet | 529 | 16.56 | 38 changes (2 words, 18 punctuation, 18 markup); 5 not applied (already in the draft) |
