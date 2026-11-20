@@ -779,6 +779,126 @@
    "checked": "2026-11-20",
    "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv; not on The Online Books Page; no Wikisource results; web search of a distinctive sentence found nothing; raw HathiTrust OCR on distantreader.org (not a text edition). Author 1809–1875 (Christchurch City Libraries heritage profile). TO CLOSE BEFORE STARTING: Early New Zealand Books (enzb.auckland.ac.nz answered 403), NZETC, the Capper Press facsimile series of the 1970s–80s (an established-press facsimile would count), WorldCat. IA's date 1850 is wrong (Spectator review, 2 Nov 1867).",
    "note": "University of California scan, 400 ppi; no illustrations; journal with dated entries; 16 pp. of advertisements. A widow's journal: Canterbury, the other provinces, Sydney and Melbourne, the voyage home by the Red Sea and Marseilles."
+  },
+  {
+   "order": 44,
+   "ia": "cu31924023499498",
+   "slug": "mongolia-siberia-sheepshanks",
+   "title": "My Life in Mongolia and Siberia, from the Great Wall of China to the Ural Mountains",
+   "author": "John, Bishop of Norwich [John Sheepshanks]",
+   "year": 1903,
+   "place": "London",
+   "publisher": "Society for Promoting Christian Knowledge",
+   "images": 200,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv (full file from the pglaf mirror); The Online Books Page: HathiTrust page images only; Wikisource: no text; web search of a distinctive sentence: nothing. Reprints: Franklin Classics/Creative Media 2018, HardPress 2020 (print on demand); no reset or established-press facsimile found. Author John Sheepshanks 1834–1912; the illustrations are his sketches worked up by Rev. R. G. Roe (Robert Gordon Roe, 1860–1927). Not checked: Faded Page, WorldCat.",
+   "note": "Cornell (Wason) scan, 300 ppi; clean OCR. About 9 plates and a temple plan. Across Mongolia by camel caravan from Kalgan to Urga in the late 1860s, then by Kiakhta, Lake Baikal and the Siberian post-road to the Urals; written up from his journal in 1903. Chapter V is an essay on shamanism."
+  },
+  {
+   "order": 45,
+   "ia": "transcaspiaseale00shoe",
+   "slug": "trans-caspia-shoemaker",
+   "title": "Trans-Caspia: The Sealed Provinces of the Czar",
+   "author": "Michael Myers Shoemaker",
+   "year": 1895,
+   "place": "Cincinnati",
+   "publisher": "The Robert Clarke Company",
+   "images": 334,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv (two other books of his are); The Online Books Page: HathiTrust page images only; Wikisource lists it on the author page without a text; web search of a distinctive sentence: nothing. Reprints: a Podi Books facsimile (print on demand). Author 1853–1924 (Wikisource, LC heading). Not checked: Faded Page, WorldCat.",
+   "note": "UCLA/SRLF scan, 400 ppi; clean OCR after library-stamp leaves. Photographic plates, frontispiece 'Schamyl'. A diary of a summer 1894 journey: St Petersburg, the Dariel Pass and Tiflis, Baku, the Transcaspian railway, Bokhara, Samarkand, Tashkend, Kokand, over the Alai into Kashgaria, home by Trebizond."
+  },
+  {
+   "order": 46,
+   "ia": "zephyrusholidayi00edgcuoft",
+   "slug": "zephyrus-edgcumbe",
+   "title": "Zephyrus: A Holiday in Brazil and on the River Plate",
+   "author": "E. R. Pearce Edgcumbe",
+   "year": 1887,
+   "place": "London",
+   "publisher": "Chatto & Windus",
+   "images": 300,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv (full file, pglaf mirror); The Online Books Page: HathiTrust scans only; Wikisource: none; Open Library: 1887 and Read Books 2010 (print on demand); web searches of the title and of a sentence from ch. XI: no text. Author and illustrator Sir Edward Robert Pearce Edgcumbe 1851–1929 (Online Books Page authority). Not checked: Faded Page.",
+   "note": "University of Toronto scan, 500 ppi; a second copy zephyrusholidayi00edgc (UC, 400 ppi) as a fallback. A map and the author's text illustrations; a Chatto catalogue at the end. A banker and his wife by Royal Mail steamer to Rio, Santos and São Paulo, then the River Plate, Uruguay and Buenos Aires; a week of quarantine on the Isla de Flores. Some chapters on railways and loans."
+  },
+  {
+   "order": 47,
+   "ia": "argentineplainsa00lardrich",
+   "slug": "argentine-plains-larden",
+   "title": "Argentine Plains and Andine Glaciers: Life on an Estancia, and an Expedition into the Andes",
+   "author": "Walter Larden",
+   "year": 1911,
+   "place": "London",
+   "publisher": "T. Fisher Unwin",
+   "images": 430,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv; The Online Books Page: HathiTrust scans only; Wikisource: only an Alumni Oxonienses entry; Open Library: 1911 Scribner/Unwin only; web search of the title and a sentence: nothing. Author Walter Larden 1855–1919 (Online Books Page authority, Alumni Oxonienses). Photographs the author's, except two of 1869 by his brother, who went to Argentina in 1868 (so born before about 1850; name not found). Not checked: Faded Page. Check before starting: the IA copy is the New York (Scribner) issue of the same year.",
+   "note": "UC Berkeley scan, 500 ppi; 91 photographs and a sketch map. Two long stays (1888–9 and 1908–9) on his brother's estancia Santa Isabel, with notes on work, animals and insects, then an expedition into the Chilean Andes."
+  },
+  {
+   "order": 48,
+   "ia": "yachtingcruisein00wood",
+   "slug": "yachting-cruise-wood",
+   "title": "A Yachting Cruise in the South Seas",
+   "author": "C. F. Wood",
+   "year": 1875,
+   "place": "London",
+   "publisher": "Henry S. King & Co.",
+   "images": 262,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv; The Online Books Page: none; Wikisource: bibliography mentions only; Open Library: 1875 only; web search of a sentence: nothing. Author's dates not found: he bought and commanded his own schooner at Auckland in 1873 after several South Sea voyages over eight years, so born before about 1850 (rule 5 by career). Six photographic plates by 'Mr. George Smith', working professionally in 1873 (born before about 1856, inferred: settle before starting, or treat as a minor illustrator). Not checked: Faded Page.",
+   "note": "Getty scan, 500 ppi, complete to p. 221, with a King & Co. catalogue at the front. Six photographic plates. An 1873 cruise from Auckland to Rotuma, Fiji, the New Hebrides, the Solomons and Micronesia: canoes, trade, photographing islanders, the labour trade."
+  },
+  {
+   "order": 49,
+   "ia": "fromwestafricato00blyd",
+   "slug": "west-africa-to-palestine-blyden",
+   "title": "From West Africa to Palestine",
+   "author": "Edward W. Blyden",
+   "year": 1873,
+   "place": "Freetown",
+   "publisher": "T. J. Sawyer; Manchester: John Heywood; London: Simpkin, Marshall & Co.",
+   "images": 216,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv (full file); The Online Books Page: HathiTrust page images only; Wikisource API: 0 hits; web search of a preface sentence: no text (PDFs at uzh.ch and univie are copies of the IA scan). No reprint found (an unnamed print on demand only); Lynch's Black Spokesman (1971) is an anthology, not this book. Author Edward Wilmot Blyden 1832–1912 (LC authority, Online Books Page). No illustrations. Not checked: Open Library (unreachable), WorldCat.",
+   "note": "Princeton Theological Seminary scan, 500 ppi, clean OCR, no plates. A Liberian scholar's journal of his 1866 journey from Monrovia by Sierra Leone, Liverpool and London to Malta, Egypt, Lebanon and Jerusalem; the last chapter is on the religious sects of the Holy Land."
+  },
+  {
+   "order": 50,
+   "ia": "nilewithoutdrago00eden",
+   "slug": "nile-without-dragoman-eden",
+   "title": "The Nile without a Dragoman",
+   "author": "Frederic Eden",
+   "year": 1871,
+   "place": "London",
+   "publisher": "Henry S. King & Co.",
+   "images": 326,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv; The Online Books Page: none; web search of a mid-book sentence: nothing. Reprints: HardPress 2019, British Library Historical Print Editions 2011, Anatiposi 2023 (all print on demand). Wikisource only by a site-restricted web search. Author 1828–1916 (a bookseller's note: lived in Venice, author of A Garden in Venice): confirm the dates before starting. No illustrations. Not checked: Open Library, Faded Page.",
+   "note": "Library of Congress scan, 600 ppi, good OCR, no plates. The author hired his own dahabeah without a dragoman, from Alexandria to Wadi Halfa and back: fitting out, money, crews, the boat hauled up the cataract at Aswan."
+  },
+  {
+   "order": 51,
+   "ia": "landofmosquesmar00nugeuoft",
+   "slug": "land-of-mosques-greville-nugent",
+   "title": "A Land of Mosques and Marabouts",
+   "author": "The Hon. Mrs. Greville-Nugent",
+   "year": 1894,
+   "place": "London",
+   "publisher": "Chapman & Hall",
+   "images": 242,
+   "status": "queued",
+   "checked": "2026-11-20",
+   "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv; The Online Books Page: none; not in A Celebration of Women Writers; web search of a sentence: nothing (Distant Reader has raw HathiTrust OCR). Reprint: Leopold Classic Library (print on demand). Author taken to be Ermengarde (née Ogilvy), who married the Hon. Patrick Greville-Nugent (1852–1925) in 1882 and died 9 July 1949 (thepeerage.com, citing Burke's Peerage 2003): inferred, confirm before starting. Twelve illustrations, mostly photographs, uncredited.",
+   "note": "University of Toronto scan, 400 ppi, readable OCR; library stamps on the title page; look at the frontispiece. About 130 pages on Algiers, Blidah and the Kabyles, then Bizerta, Tunis, the Bardo and Carthage; street scenes, Arab music lessons, local legends."
   }
  ],
  "rejected": [
@@ -1020,6 +1140,71 @@
   {
    "title": "Mrs H. Lloyd Evans, Last Winter in Algeria; Ellen E. Miller, Alone through Syria",
    "why": "authors' dates not found; Evans possibly bounded by a career (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Siberia: Price, From the Arctic Ocean to the Yellow Sea; Michie; Vanderlip; Ready; Lansdell; F. E. Clark; Jefferson, Roughing It in Siberia; Kennan; Knox; Wellby; Burnes; Vámbéry; Landor's Tibet books",
+   "why": "on Project Gutenberg (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Phibbs, A Visit to the Russians in Central Asia (1899)",
+   "why": "much compiled history; author's dates not found (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Perowne, Russian Hosts and English Guests in Central Asia (1898)",
+   "why": "author 1863–1954 qualifies, but many photographs by Miss Carey and the Hon. A. Capell, whose dates are not settled: possible later (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Churchill, Samoa 'Uma (1902)",
+   "why": "Llewella Pierce Churchill's dates not found, probably born after 1856 (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Senn, Tahiti; Duffield, Peru in the Guano Age; Wilkins, By Desert Ways to Baghdad",
+   "why": "on Project Gutenberg (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Edwin Clark, A Visit to South America (1878); Newman, Thrones and Palaces of Babylon and Nineveh (1876)",
+   "why": "not mainly travel narrative (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "W. Powell, Wanderings in a Wild Country (1883)",
+   "why": "illustrator J. Medland unidentified: a reserve if he can be (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Sartorius, Three Months in the Soudan (1885)",
+   "why": "full text at A Celebration of Women Writers (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "From Monte to Mosul (1909)",
+   "why": "anonymous: birth year cannot be bounded (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Shoemaker, Islam Lands (1910)",
+   "why": "plates by Lehnert & Landrock (Landrock d. 1966) (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Bulpett, A Picnic Party in Wildest Africa (1907)",
+   "why": "much from Lucie McMillan's journal (d. 1957, not confirmed); drawings by Jessen, dates unknown (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Pillai, London and Paris through Indian Spectacles (1897)",
+   "why": "only scan is 72 ppi (vetting by subagents, 2026-11-20)",
+   "checked": "2026-11-20"
+  },
+  {
+   "title": "Southworth, Four Thousand Miles of African Travel (1875)",
+   "why": "only a Google scan without a JP2 archive (vetting by subagents, 2026-11-20)",
    "checked": "2026-11-20"
   }
  ]
