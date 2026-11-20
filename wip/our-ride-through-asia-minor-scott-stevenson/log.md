@@ -10,7 +10,7 @@ her death date was not found: rule 5 met by the standing assumption (death befor
 Lieut. [H. H.] Kitchener, R.E. (d. 1916).
 
 ## Status
-Stage reached: scan checked; Opus draft started 2026-11-20 (`--pages 4-6,8-20,23-24,26-425`).
+Stage reached: scan checked; Drive cache done (37 parts); map halves and cover (title page) cropped; book.json metadata and summary written; Opus draft started 2026-11-20 (`--pages 4-6,8-20,23-24,26-425`).
 Next step: finish the draft (`python3 tools/ocr_claude.py --model opus --prompt prompts/transcribe.md --images $B/pages --out $W/draft --workers 6 --pages 4-6,8-20,23-24,26-425`, resumable), `normalize.py`, then the Sonnet corrections pass (workflow §3).
 
 ## Page map
@@ -29,6 +29,9 @@ Scan check: all 11 contact sheets looked at 2026-11-20; folios followed through 
 full size: the map (p0023–p0024). Problems: none in the text; the map's fold strip (as in *Corona and Coronet*).
 
 ## Decisions
+- Cover: the title page (the binding is plain half leather with a library label).
+- The map (two halves, p0023-1 and p0024-1) is shown as two images; not joined, since the strip at the fold is missing (as *Corona and Coronet*).
+- Contents: printed contents pages to be made plain lines as printed (lessons, trigger "a printed contents with chapter summaries").
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
