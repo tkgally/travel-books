@@ -126,6 +126,18 @@
   follow standard modern practice: an opening mark at the start of each paragraph, a closing mark only at the end
   of the whole quotation.
 
+## 2026-11-20 (answers on the *Embassy to China* assumptions, and text lost in the scan)
+
+- **Confirmed** the session-2 assumptions for *Embassy to China*: engravers' and publishers' lines on plates left out;
+  the letters lost at the fold of the coastal-views plate supplied; "pratique-boat" keeps its hyphen; the part title
+  "The Folio Volume of Plates".
+- **Text lost or obscured in the scan** (a short piece, typically a word or less), when no other scan or edition
+  settles it — a standing rule for all books:
+  - **cannot be inferred:** the gap is marked, in the JSON and in the built versions (e.g. square brackets);
+  - **can be inferred reasonably well from the context:** the JSON marks the gap and says the letters are inferred;
+    the built versions show only the inferred letters, with no sign that the scan was unclear or that they were
+    guessed — for smooth reading.
+
 ## Questions for Tom
 
 - **An illustration by a person whose death date is unknown** (*Corona and Coronet*, 2026-11-19): one plate is "from a
