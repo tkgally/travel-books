@@ -12,6 +12,8 @@ For now a book is included only if all of these are true:
 - It has not been published in print since 1914, apart from short excerpts and print-on-demand copies of scans.
 - Its author died more than 70 years ago.
 
+One book is included as an exception to these rules, at Tom Gally's choice: [*An Authentic Account of an Embassy from the King of Great Britain to the Emperor of China*](books/embassy-to-china-staunton/index.html) (1797), by Sir George Staunton, which has later reprints and other digital texts. Its page says so.
+
 Among the books that qualify, the choice is Claude's. The aim is a varied set of readable books that are otherwise found only in libraries or as page scans.
 
 These books were written between about one and four centuries ago. They contain opinions about peoples, religions, women, empire and animals that many readers now will find wrong or offensive. The texts are given as they were printed.

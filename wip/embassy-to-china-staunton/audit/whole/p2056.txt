@@ -1,0 +1,5 @@
+{"given": "the anniversary of this birthday", "print": "the anniversary of his birthday", "sure": "high"}
+{"given": "wishes of the Emperor; it was", "print": "wishes of the Emperor, it was", "sure": "high"}
+{"given": "Tartary, as on frontier he should", "print": "Tartary, as on the frontier he should", "sure": "high"}
+{"given": "the celebrated doctor Johnson, in", "print": "the celebrated Doctor Johnson, in", "sure": "high"}
+{"given": "conversation was less satiffactory. He", "print": "conversation was less satisfactory. He", "sure": "high"}

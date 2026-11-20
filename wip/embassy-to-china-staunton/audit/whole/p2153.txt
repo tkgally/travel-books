@@ -1,0 +1,5 @@
+{"given": "after passing thro pekin. They were", "print": "after passing thro Pekin. They were", "sure": "high"}
+{"given": "but what they had seen; except in", "print": "but what they had seen, except in", "sure": "high"}
+{"given": "The Embassy sound, in proceeding north-west", "print": "The Embassy found, in proceeding north-west", "sure": "high"}
+{"given": "containing few other bnildings than those", "print": "containing few other buildings than those", "sure": "high"}
+{"given": "and trifles, calculated amuse the rich", "print": "and trifles, calculated to amuse the rich", "sure": "high"}

@@ -1,0 +1,5 @@
+{"given": "already serviug in the Lion", "print": "already serving in the Lion", "sure": "high"}
+{"given": "his Excellency would; for the", "print": "his Excellency would, for the", "sure": "high"}
+{"given": "expected to derive from attendance of", "print": "expected to derive from the attendance of", "sure": "high"}
+{"given": "by him, be was to", "print": "by him, he was to", "sure": "high"}
+{"given": "The harbor of Cavita, at", "print": "The harbour of Cavita, at", "sure": "high"}

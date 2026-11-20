@@ -1,0 +1,5 @@
+{"given": "like, what England are called", "print": "like, what in England are called", "sure": "high"}
+{"given": "views of the harbor, and", "print": "views of the harbour, and", "sure": "high"}
+{"given": "large black whale; which formerly", "print": "large black whale, which formerly", "sure": "high"}
+{"given": "the cornices where portrayed the", "print": "the cornices were portrayed the", "sure": "high"}
+{"given": "curiously arrauged in their natural", "print": "curiously arranged in their natural", "sure": "high"}

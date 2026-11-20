@@ -1,0 +1,5 @@
+{"given": "Chu-san islands.", "print": "Chu-san Islands.", "sure": "medium"}
+{"given": "a quantity of clay, on mold,", "print": "a quantity of clay, or mold,", "sure": "high"}
+{"given": "intended to be taken; and close", "print": "intended to be taken, and close", "sure": "high"}
+{"given": "cotton, cloth, and be carefully kept", "print": "cotton, cloth, and to be carefully kept", "sure": "high"}
+{"given": "continued sometimcs above a twelvemonth,", "print": "continued sometimes above a twelvemonth,", "sure": "high"}
