@@ -1,6 +1,0 @@
-{"find": "Manilla, where", "replace": "Manilla, where"}
-{"find": "Phillippine", "replace": "Phillippine"}
-
-Wait, the image shows "Manilla" with two l's and "Phillippine" with two l's, so both match the draft. The correct output is:
-
-NONE

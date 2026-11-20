@@ -1,5 +1,0 @@
-{"given": "on the hillside, are neat houses", "print": "on the hillside, are the neat houses", "sure": "high"}
-{"given": "what it is, the center of", "print": "what it is, the centre of", "sure": "high"}
-{"given": "crowded with passengers; ply every", "print": "crowded with passengers, ply every", "sure": "high"}
-{"given": "best efforts of the aetors.", "print": "best efforts of the actors.", "sure": "high"}
-{"given": "Tea and pipes were when served", "print": "Tea and pipes were then served", "sure": "high"}

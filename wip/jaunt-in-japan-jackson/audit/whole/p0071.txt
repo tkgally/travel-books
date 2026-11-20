@@ -1,5 +1,0 @@
-{"given": "immediately bchind it extensive", "print": "immediately behind it extensive", "sure": "high"}
-{"given": "and, when completed; the water-supply", "print": "and, when completed, the water-supply", "sure": "high"}
-{"given": "when making purchases this highly decorated", "print": "when making purchases of this highly decorated", "sure": "high"}
-{"given": "this can now he rarely obtained", "print": "this can now be rarely obtained", "sure": "high"}
-{"given": "the curio shops in japan, but", "print": "the curio shops in Japan, but", "sure": "high"}

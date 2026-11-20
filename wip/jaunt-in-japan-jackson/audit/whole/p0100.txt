@@ -1,5 +1,0 @@
-{"given": "and a heap gravel on the quay", "print": "and a heap of gravel on the quay", "sure": "high"}
-{"given": "as our inn rather pomponsly styled itself", "print": "as our inn rather pompously styled itself", "sure": "high"}
-{"given": "miserable existence. His establishment combined the", "print": "miserable existence. This establishment combined the", "sure": "high"}
-{"given": "with the prices of a Grand hotel.", "print": "with the prices of a Grand Hotel.", "sure": "high"}
-{"given": "in another chamber upstairs; attended by Haloo", "print": "in another chamber upstairs, attended by Haloo", "sure": "high"}

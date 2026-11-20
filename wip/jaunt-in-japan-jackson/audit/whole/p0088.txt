@@ -1,5 +1,0 @@
-{"given": "made from kioto between breakfast", "print": "made from Kioto between breakfast", "sure": "high"}
-{"given": "After railway journey of an", "print": "After a railway journey of an", "sure": "high"}
-{"given": "station of Nara, were rickshaws were", "print": "station of Nara, where rickshaws were", "sure": "high"}
-{"given": "sole remaining strcet of this", "print": "sole remaining street of this", "sure": "high"}
-{"given": "Nara is very extensive; and contains", "print": "Nara is very extensive, and contains", "sure": "high"}

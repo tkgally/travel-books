@@ -1,5 +1,0 @@
-{"given": "temporarily extinct, one on mayurama.", "print": "temporarily extinct, one on Mayurama.", "sure": "high"}
-{"given": "attractions are so numcrous, that", "print": "attractions are so numerous, that", "sure": "high"}
-{"given": "account of the sights this charming place.", "print": "account of the sights of this charming place.", "sure": "high"}
-{"given": "twenty nights only at his season.", "print": "twenty nights only at this season.", "sure": "high"}
-{"given": "Little groups are formed; tea is con-", "print": "Little groups are formed, tea is con-", "sure": "medium"}

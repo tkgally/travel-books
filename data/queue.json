@@ -349,11 +349,13 @@
    "place": "Calcutta",
    "publisher": "Thacker, Spink & Co.",
    "images": 176,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-20",
    "eligibility": "JATSI 142. All five rules met. Rule 1: Cornell scan (Kirtas, greyscale), clean, large type. Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person account of an officer and his wife on leave from Poona in spring 1899; about two-thirds on Japan. Rule 5: Sydney Charles Fishburn Jackson 1863–1928 (LC). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record. Re-checked 2026-11-20 at the start: not in pg_catalog.csv; a web search of the title finds a print-on-demand listing only.",
    "note": "About 154 pp., no illustrations; an errata slip of six items is tipped over the contents leaf, which is therefore scanned twice (apply the errata as `[[corr]]`? decide by style.md and say so in notes_on_text); an appendix of costs. Short.",
-   "started": "2026-11-20"
+   "started": "2026-11-20",
+   "version": 1,
+   "published": "2026-11-20"
   },
   {
    "order": 20,
