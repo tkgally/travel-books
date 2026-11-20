@@ -1,0 +1,1 @@
+{"n": 1, "is": "A", "print": "do it.\n\nThe result is that mariners still steer by\n\n[[image: engraving of a lighthouse on a rocky islet, with palm trees and buildings on the shore to the right]]\n[[caption]] Bahia Lighthouse.\n\n[[cont]]the chart", "sure": "high"}

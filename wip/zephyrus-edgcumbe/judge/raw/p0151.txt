@@ -1,0 +1,2 @@
+{"n": 1, "is": "B", "print": "ground,\n\n[[image: A gaucho on horseback on a flat plain dragging a dead body by a lasso; other bodies lie on the ground behind]]\n[[caption]] Gaucho lassoing the dead.\n\n[[cont]]scattered", "sure": "high"}
+{"n": 2, "is": "B", "print": "given by", "sure": "high"}

@@ -1,0 +1,8 @@
+{"find": "<sc>B. Montgomerie Ranking</sc>", "replace": "B. <sc>Montgomerie Ranking</sc>"}
+{"find": "<sc>E. Clarke</sc>", "replace": "E. <sc>Clarke</sc>"}
+{"find": "<sc>E. Evans</sc>", "replace": "E. <sc>Evans</sc>"}
+{"find": "<sc>S. C. Hall</sc>", "replace": "S. C. <sc>Hall</sc>"}
+{"find": "<sc>W. Koner</sc>", "replace": "W. <sc>Koner</sc>"}
+{"find": "<sc>F. Hueffer</sc>", "replace": "F. <sc>Hueffer</sc>"}
+{"find": "<sc>W. H. Cremer</sc>", "replace": "W. H. <sc>Cremer</sc>"}
+{"find": "<sc>T. M’Crie</sc>", "replace": "T. M’<sc>Crie</sc>"}

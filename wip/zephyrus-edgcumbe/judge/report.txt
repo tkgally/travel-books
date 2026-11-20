@@ -1,0 +1,12 @@
+judge opus: 46 spots on 27 pages: {'draft': 5, 'verified': 41}; cost $1.25
+p0006 #1 [draft, sure: medium] draft '[[center]] <sc>printed by</sc>' | verified '[[center]] PRINTED BY' | judge reads '[[center]] <sc>printed by</sc>'
+p0006 #2 [draft, sure: medium] draft '[[center]] <sc>spottiswoode and co., new-street square</sc>' | verified '[[center]] SPOTTISWOODE AND CO., NEW-STREET SQUARE' | judge reads '[[center]] <sc>spottiswoode and co., new-street square</sc>'
+p0006 #3 [draft, sure: medium] draft '[[center]] <sc>london</sc>' | verified '[[center]] LONDON' | judge reads '[[center]] <sc>london</sc>'
+p0171 #1 [verified, sure: medium] draft 'full blaze\n\n[[image: a row of six ostriches standing and feeding on open ground]]\n[[caption]] Ostriches.' | verified 'full blaze' | judge reads 'full blaze'
+p0186 #1 [verified, sure: medium] draft 'drawn by four horses abre' | verified 'drawn by five horses abre' | judge reads 'drawn by five horses abre'
+p0220 #1 [verified, sure: medium] draft '6.000<i>l</i>' | verified '6,000<i>l</i>' | judge reads '6,000<i>l</i>'
+p0238 #1 [draft, sure: medium] draft 'râtes' | verified 'rates' | judge reads 'râtes'
+p0265 #1 [verified, sure: medium] draft 'In the press</i>.' | verified 'In the press,</i>' | judge reads 'In the press,</i>'
+p0276 #1 [draft, sure: low] draft ': A Faerie Roma' | verified ': <sc>a</sc> Faerie Roma' | judge reads ': A Faerie Roma'
+p0278 #1 [verified, sure: medium] draft 'xas Siftings.” With' | verified 'xas Siftings” With' | judge reads 'xas Siftings” With'
+p0282 #1 [verified, sure: medium] draft '. boards, 2s; cloth limp' | verified '. boards, 2s.; cloth limp' | judge reads '. boards, 2s.; cloth limp'

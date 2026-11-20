@@ -1,0 +1,470 @@
+{
+ "p0006": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[center]] <sc>printed by</sc>",
+   "replace": "[[center]] PRINTED BY",
+   "draft": "[[center]] <sc>printed by</sc>",
+   "verified": "[[center]] PRINTED BY",
+   "context": "[[page ?]] ⏎  ⏎ [[center]] <sc>printed by</sc> ⏎  ⏎ [[center]] <sc>spottiswoode and co., new-street square</sc"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "[[center]] <sc>spottiswoode and co., new-street square</sc>",
+   "replace": "[[center]] SPOTTISWOODE AND CO., NEW-STREET SQUARE",
+   "draft": "[[center]] <sc>spottiswoode and co., new-street square</sc>",
+   "verified": "[[center]] SPOTTISWOODE AND CO., NEW-STREET SQUARE",
+   "context": "[[page ?]] ⏎  ⏎ [[center]] PRINTED BY ⏎  ⏎ [[center]] <sc>spottiswoode and co., new-street square</sc> ⏎  ⏎ [[center]] <sc>london</sc> ⏎ "
+  },
+  {
+   "n": 3,
+   "kind": "words",
+   "find": "[[center]] <sc>london</sc>",
+   "replace": "[[center]] LONDON",
+   "draft": "[[center]] <sc>london</sc>",
+   "verified": "[[center]] LONDON",
+   "context": "TED BY ⏎  ⏎ [[center]] SPOTTISWOODE AND CO., NEW-STREET SQUARE ⏎  ⏎ [[center]] <sc>london</sc> ⏎ "
+  }
+ ],
+ "p0019": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "up and down the sides of a house.",
+   "replace": "up and down\n\n[[image: view of Lisbon from the river, with sailing boats and rowing boats in the foreground and the city rising on a hill behind]]\n[[caption]] Lisbon.\n\n[[cont]]the sides of a house.",
+   "draft": "up and down the sides of",
+   "verified": "up and down\n\n[[image: view of Lisbon from the river, with sailing boats and rowing boats in the foreground and the city rising on a hill behind]]\n[[caption]] Lisbon.\n\n[[cont]]the sides of",
+   "context": " have been done to modify the gradients. It is like walking up and down the sides of a house. The vehicles are splendidly horsed, which is, indeed, a mat"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "the frame-\n\n[[image: view of Lisbon from the river, with sailing boats and rowing boats in the foreground and the city rising on a hill behind]]\n[[caption]] Lisbon.",
+   "replace": "the frame-",
+   "draft": "the frame-\n\n[[image: view of Lisbon from the river, with sailing boats and rowing boats in the foreground and the city rising on a hill behind]]\n[[caption]] Lisbon.",
+   "verified": "the frame-",
+   "context": " The houses are built in expectation of another earthquake, the frame- ⏎  ⏎ [[image: view of Lisbon from the river, with sailing boats and rowing boats in the foreground and the city rising on a hill behind]] ⏎ [[caption]] Lisbon. ⏎ "
+  }
+ ],
+ "p0024": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "lying in the open gun-ports,",
+   "replace": "lying in the open\n\n[[image: engraving of a low rocky island with a tall peak, seen across the sea under streaks of cloud]]\n[[caption]] Fernando Noronha.\n\ngun-ports,",
+   "draft": " in the open gun-ports,",
+   "verified": " in the open\n\n[[image: engraving of a low rocky island with a tall peak, seen across the sea under streaks of cloud]]\n[[caption]] Fernando Noronha.\n\ngun-ports,",
+   "context": "rs in mind and body. Yet delightful dreamy days were these, lying in the open gun-ports, shaded from the sun, with the breezes playing over the smil"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "the ship's\n\n[[image: engraving of a low rocky island with a tall peak, seen across the sea under streaks of cloud]]\n[[caption]] Fernando Noronha.",
+   "replace": "the ship's",
+   "draft": "the ship's\n\n[[image: engraving of a low rocky island with a tall peak, seen across the sea under streaks of cloud]]\n[[caption]] Fernando Noronha.",
+   "verified": "the ship's",
+   "context": "ake in my berth by the open port, I could hear in answer to the ship's ⏎  ⏎ [[image: engraving of a low rocky island with a tall peak, seen across the sea under streaks of cloud]] ⏎ [[caption]] Fernando Noronha. ⏎ "
+  }
+ ],
+ "p0026": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "sky, while stretching",
+   "replace": "sky, while\n\n[[image: view of a flat white town across the water, with a sailing boat in the foreground and a lighthouse at the right]]\n[[caption]] Pernambuco.\n\n[[cont]] stretching",
+   "draft": "sky, while stretching",
+   "verified": "sky, while\n\n[[image: view of a flat white town across the water, with a sailing boat in the foreground and a lighthouse at the right]]\n[[caption]] Pernambuco.\n\n[[cont]] stretching",
+   "context": " water, simmering up all white and hot just between sea and sky, while stretching far away on either hand along the coast, stand forests of s"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "old town,\n\n[[image: view of a flat white town across the water, with a sailing boat in the foreground and a lighthouse at the right]]\n[[caption]] Pernambuco.",
+   "replace": "old town,",
+   "draft": "old town,\n\n[[image: view of a flat white town across the water, with a sailing boat in the foreground and a lighthouse at the right]]\n[[caption]] Pernambuco.",
+   "verified": "old town,",
+   "context": "en. We went ashore and saw the narrow, crowded, picturesque old town, ⏎  ⏎ [[image: view of a flat white town across the water, with a sailing boat in the foreground and a lighthouse at the right]] ⏎ [[caption]] Pernambuco. ⏎ "
+  }
+ ],
+ "p0027": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "trot from house to house, and doing its work to all appearance most efficiently.",
+   "replace": "trot",
+   "draft": "trot from house to house, and doing its work to all appearance most efficiently.",
+   "verified": "trot",
+   "context": " a little cart, going round with the dusky baker at a brisk trot from house to house, and doing its work to all appearance most efficiently. ⏎  ⏎ [[image: engraving of a harbour with sailing ships at anch"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "Breakwater, Pernambuco.",
+   "replace": "Breakwater, Pernambuco.\n\n[[cont]]from house to house, and doing its work to all appearance most efficiently.",
+   "draft": " Pernambuco.",
+   "verified": " Pernambuco.\n\n[[cont]]from house to house, and doing its work to all appearance most efficiently.",
+   "context": "reef, buildings on the shore at right]] ⏎ [[caption]] Natural Breakwater, Pernambuco. ⏎  ⏎ Pernambuco owes its importance as a seaport to a long stra"
+  }
+ ],
+ "p0028": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "go to sea on little rafts called janguardas, consisting",
+   "replace": "go to sea on little rafts\n\n[[image: a log raft with a tall triangular sail and a man standing beside a crate on deck, low hills and clouds behind]]\n[[caption]] Janguardas.\n\n[[cont]]called janguardas, consisting",
+   "draft": "little rafts called jangu",
+   "verified": "little rafts\n\n[[image: a log raft with a tall triangular sail and a man standing beside a crate on deck, low hills and clouds behind]]\n[[caption]] Janguardas.\n\n[[cont]]called jangu",
+   "context": "ke nimbleness of hand and foot. The fishermen of this coast go to sea on little rafts called janguardas, consisting of four or five logs braced together, propelled by a triang"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "by the water.\n\n[[image: a log raft with a tall triangular sail and a man standing beside a crate on deck, low hills and clouds behind]]\n[[caption]] Janguardas.",
+   "replace": "by the water.",
+   "draft": "y the water.\n\n[[image: a log raft with a tall triangular sail and a man standing beside a crate on deck, low hills and clouds behind]]\n[[caption]] Janguardas.",
+   "verified": "y the water.",
+   "context": "like mere white pinions, the log deck being entirely hidden by the water. ⏎  ⏎ [[image: a log raft with a tall triangular sail and a man standing beside a crate on deck, low hills and clouds behind]] ⏎ [[caption]] Janguardas. ⏎ "
+  }
+ ],
+ "p0035": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "do it.\n\n[[image: engraving of a lighthouse on a rocky islet, with palm trees and buildings on the shore to the right]]\n[[caption]] Bahia Lighthouse.\n\nThe result is that mariners still steer by the chart",
+   "replace": "do it.\n\nThe result is that mariners still steer by\n\n[[image: engraving of a lighthouse on a rocky islet, with palm trees and buildings on the shore to the right]]\n[[caption]] Bahia Lighthouse.\n\n[[cont]]the chart",
+   "draft": "do it.\n\n[[image: engraving of a lighthouse on a rocky islet, with palm trees and buildings on the shore to the right]]\n[[caption]] Bahia Lighthouse.\n\nThe result is that mariners still steer by the chart",
+   "verified": "do it.\n\nThe result is that mariners still steer by\n\n[[image: engraving of a lighthouse on a rocky islet, with palm trees and buildings on the shore to the right]]\n[[caption]] Bahia Lighthouse.\n\n[[cont]]the chart",
+   "context": "t as they have no mercantile navy they are not concerned to do it. ⏎  ⏎ [[image: engraving of a lighthouse on a rocky islet, with palm trees and buildings on the shore to the right]] ⏎ [[caption]] Bahia Lighthouse. ⏎  ⏎ The result is that mariners still steer by the chart made by Captain Fitzroy (with whom sailed Darwin in the ‘Be"
+  }
+ ],
+ "p0042": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "balls. This we found to be quite the usual",
+   "replace": "balls. This we\n\n[[image: A bay with a tall rock rising from the water on the left, a canoe drawn up on the shore, a palm tree on the right, and mountains in the distance]]\n[[caption]] Bay of Rio, with Corco Vada and Peak of Tijuca in the Background.\n\n[[cont]]found to be quite the usual",
+   "draft": "lls. This we found to be ",
+   "verified": "lls. This we\n\n[[image: A bay with a tall rock rising from the water on the left, a canoe drawn up on the shore, a palm tree on the right, and mountains in the distance]]\n[[caption]] Bay of Rio, with Corco Vada and Peak of Tijuca in the Background.\n\n[[cont]]found to be ",
+   "context": "yhow, and bumped up and down on our seats like india-rubber balls. This we found to be quite the usual style of driving, yet accidents seldom happen unless a whee"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "what I thought\n\n[[image: A bay with a tall rock rising from the water on the left, a canoe drawn up on the shore, a palm tree on the right, and mountains in the distance]]\n[[caption]] Bay of Rio, with Corco Vada and Peak of Tijuca in the Background.",
+   "replace": "what I thought",
+   "draft": "at I thought\n\n[[image: A bay with a tall rock rising from the water on the left, a canoe drawn up on the shore, a palm tree on the right, and mountains in the distance]]\n[[caption]] Bay of Rio, with Corco Vada and Peak of Tijuca in the Background.",
+   "verified": "at I thought",
+   "context": "monstrate with the driver for descending a mountain road at what I thought ⏎  ⏎ [[image: A bay with a tall rock rising from the water on the left, a canoe drawn up on the shore, a palm tree on the right, and mountains in the distance]] ⏎ [[caption]] Bay of Rio, with Corco Vada and Peak of Tijuca in the Background. ⏎ "
+  }
+ ],
+ "p0059": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "on the side towards the Atlantic",
+   "replace": "on the side\n\n[[image: a hairy caterpillar lying on a flat surface, its head curled under at the front]]\n[[caption]] Caterpillar (life size).\n\n[[cont]]towards the Atlantic",
+   "draft": "on the side towards the ",
+   "verified": "on the side\n\n[[image: a hairy caterpillar lying on a flat surface, its head curled under at the front]]\n[[caption]] Caterpillar (life size).\n\n[[cont]]towards the ",
+   "context": "d for a day or two, by fever. ⏎  ⏎ About two miles from Tijuca, on the side towards the Atlantic, and well worthy of a visit, are several boulders of enormo"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "tilted\n\n[[image: a hairy caterpillar lying on a flat surface, its head curled under at the front]]\n[[caption]] <sc>caterpillar (life size).</sc>",
+   "replace": "tilted",
+   "draft": "tilted\n\n[[image: a hairy caterpillar lying on a flat surface, its head curled under at the front]]\n[[caption]] <sc>caterpillar (life size).</sc>",
+   "verified": "tilted",
+   "context": "der covers a space sixty feet long by forty-five feet wide, tilted ⏎  ⏎ [[image: a hairy caterpillar lying on a flat surface, its head curled under at the front]] ⏎ [[caption]] <sc>caterpillar (life size).</sc> ⏎ "
+  }
+ ],
+ "p0075": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "the hour of four. The darkness",
+   "replace": "the hour\n\n[[image: line drawing of Santos seen from the water, buildings and palm trees along the shore, wooded hills behind]]\n[[caption]] Santos.\n\n[[cont]]of four. The darkness",
+   "draft": "the hour of four. The",
+   "verified": "the hour\n\n[[image: line drawing of Santos seen from the water, buildings and palm trees along the shore, wooded hills behind]]\n[[caption]] Santos.\n\n[[cont]]of four. The",
+   "context": "s the clocks of Santos were telling across the silent water the hour of four. The darkness was only relieved by the faint light of the stars, Mars shi"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "waters. We\n\n[[image: line drawing of Santos seen from the water, buildings and palm trees along the shore, wooded hills behind]]\n[[caption]] Santos.",
+   "replace": "waters. We",
+   "draft": "waters. We\n\n[[image: line drawing of Santos seen from the water, buildings and palm trees along the shore, wooded hills behind]]\n[[caption]] Santos.",
+   "verified": "waters. We",
+   "context": "d of the oars in the rowlocks and their plash in the placid waters. We ⏎  ⏎ [[image: line drawing of Santos seen from the water, buildings and palm trees along the shore, wooded hills behind]] ⏎ [[caption]] Santos. ⏎ "
+  }
+ ],
+ "p0118": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "no purpose, they brought out",
+   "replace": "no purpose,\n\n[[image: A lighthouse with a domed lantern and weather-vane, low buildings at its foot, a flagstaff on the left, and rough ground and sea in the foreground]]\n[[caption]] Lighthouse, from our window in the Lazaretto.\n\n[[cont]]they brought out",
+   "draft": "no purpose, they brought",
+   "verified": "no purpose,\n\n[[image: A lighthouse with a domed lantern and weather-vane, low buildings at its foot, a flagstaff on the left, and rough ground and sea in the foreground]]\n[[caption]] Lighthouse, from our window in the Lazaretto.\n\n[[cont]]they brought",
+   "context": "veral men had spent quite half an hour chasing the sheep to no purpose, they brought out a lasso. I thought it would be all over with the sheep then"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "and with\n\n[[image: A lighthouse with a domed lantern and weather-vane, low buildings at its foot, a flagstaff on the left, and rough ground and sea in the foreground]]\n[[caption]] Lighthouse, from our window in the Lazaretto.",
+   "replace": "and with",
+   "draft": "and with\n\n[[image: A lighthouse with a domed lantern and weather-vane, low buildings at its foot, a flagstaff on the left, and rough ground and sea in the foreground]]\n[[caption]] Lighthouse, from our window in the Lazaretto.",
+   "verified": "and with",
+   "context": "re was no other way of capturing it, a gun was brought out, and with ⏎  ⏎ [[image: A lighthouse with a domed lantern and weather-vane, low buildings at its foot, a flagstaff on the left, and rough ground and sea in the foreground]] ⏎ [[caption]] Lighthouse, from our window in the Lazaretto. ⏎ "
+  }
+ ],
+ "p0119": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "on the opposite side of our room",
+   "replace": "on the oppo-\n\n[[image: a courtyard with a low building and tiled roof at left, a long bench in the foreground, a wall and gate with ornamented pillars at right, and beyond the wall the sea and a distant building on the shore]]\n[[caption]] Court of the Lazaretto.\n\n[[cont]]site side of our room",
+   "draft": "on the opposite side of",
+   "verified": "on the oppo-\n\n[[image: a courtyard with a low building and tiled roof at left, a long bench in the foreground, a wall and gate with ornamented pillars at right, and beyond the wall the sea and a distant building on the shore]]\n[[caption]] Court of the Lazaretto.\n\n[[cont]]site side of",
+   "context": "use, but we were not allowed to go there. From the doorway, on the opposite side of our room, we looked across the yard, as shown in the above illustrat"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "of the hospital,\n\n[[image: a courtyard with a low building and tiled roof at left, a long bench in the foreground, a wall and gate with ornamented pillars at right, and beyond the wall the sea and a distant building on the shore]]\n[[caption]] Court of the Lazaretto.",
+   "replace": "of the hospital,",
+   "draft": "he hospital,\n\n[[image: a courtyard with a low building and tiled roof at left, a long bench in the foreground, a wall and gate with ornamented pillars at right, and beyond the wall the sea and a distant building on the shore]]\n[[caption]] Court of the Lazaretto.",
+   "verified": "he hospital,",
+   "context": "hird of a mile away, is the hospital, and on the other side of the hospital, ⏎  ⏎ [[image: a courtyard with a low building and tiled roof at left, a long bench in the foreground, a wall and gate with ornamented pillars at right, and beyond the wall the sea and a distant building on the shore]] ⏎ [[caption]] Court of the Lazaretto. ⏎ "
+  }
+ ],
+ "p0126": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "about 500 feet high, crowned by a lighthouse.",
+   "replace": "about 500 feet high,\n\n[[image: a hill crowned by a lighthouse rising above the shore, seen from the water, with a sailing boat and a ship in the foreground]]\n[[caption]] The Cerro.\n\n[[cont]]crowned by a lighthouse.",
+   "draft": "0 feet high, crowned by a lighthouse.",
+   "verified": "0 feet high,\n\n[[image: a hill crowned by a lighthouse rising above the shore, seen from the water, with a sailing boat and a ship in the foreground]]\n[[caption]] The Cerro.\n\n[[cont]]crowned by a lighthouse.",
+   "context": "left of Monte Video, as seen from the sea, rises the Cerro, about 500 feet high, crowned by a lighthouse. From this hill, the ‘green hill,’ the city obtains its name"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "exception of the Church\n\n[[image: a hill crowned by a lighthouse rising above the shore, seen from the water, with a sailing boat and a ship in the foreground]]\n[[caption]] The Cerro.",
+   "replace": "exception of the Church",
+   "draft": "f the Church\n\n[[image: a hill crowned by a lighthouse rising above the shore, seen from the water, with a sailing boat and a ship in the foreground]]\n[[caption]] The Cerro.",
+   "verified": "f the Church",
+   "context": "ge kind. The others are few in number, and, with the single exception of the Church ⏎  ⏎ [[image: a hill crowned by a lighthouse rising above the shore, seen from the water, with a sailing boat and a ship in the foreground]] ⏎ [[caption]] The Cerro. ⏎ "
+  }
+ ],
+ "p0145": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "betrayed the insurgents",
+   "replace": "betrayed the\n\n[[image: engraving of a wooded creek with water between steep banks and brush in the foreground]]\n[[caption]] View of Creek where Insurgents Landed.\n\n[[cont]]insurgents",
+   "draft": "betrayed the insurgents",
+   "verified": "betrayed the\n\n[[image: engraving of a wooded creek with water between steep banks and brush in the foreground]]\n[[caption]] View of Creek where Insurgents Landed.\n\n[[cont]]insurgents",
+   "context": "r the estanciero near Salto who had agreed to provide them, betrayed the insurgents at the last moment, drove off his horses, and left only a s"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "They might have gone\n\n[[image: engraving of a wooded creek with water between steep banks and brush in the foreground]]\n[[caption]] View of Creek where Insurgents Landed.",
+   "replace": "They might have gone",
+   "draft": "ht have gone\n\n[[image: engraving of a wooded creek with water between steep banks and brush in the foreground]]\n[[caption]] View of Creek where Insurgents Landed.",
+   "verified": "ht have gone",
+   "context": "to strike northwards from Guabiù in the direction of Salto. They might have gone ⏎  ⏎ [[image: engraving of a wooded creek with water between steep banks and brush in the foreground]] ⏎ [[caption]] View of Creek where Insurgents Landed. ⏎ "
+  }
+ ],
+ "p0151": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "ground, scattered",
+   "replace": "ground,\n\n[[image: A gaucho on horseback on a flat plain dragging a dead body by a lasso; other bodies lie on the ground behind]]\n[[caption]] Gaucho lassoing the dead.\n\n[[cont]]scattered",
+   "draft": "ground, scattered",
+   "verified": "ground,\n\n[[image: A gaucho on horseback on a flat plain dragging a dead body by a lasso; other bodies lie on the ground behind]]\n[[caption]] Gaucho lassoing the dead.\n\n[[cont]]scattered",
+   "context": "e dead, dragged the bodies to some convenient hollow in the ground, scattered a few spits of earth over them, and the sepulture was compl"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "given by\n\n[[image: A gaucho on horseback on a flat plain dragging a dead body by a lasso; other bodies lie on the ground behind]]\n[[caption]] Gaucho lassoing the dead.",
+   "replace": "given by",
+   "draft": "given by\n\n[[image: A gaucho on horseback on a flat plain dragging a dead body by a lasso; other bodies lie on the ground behind]]\n[[caption]] Gaucho lassoing the dead.",
+   "verified": "given by",
+   "context": "been sent down to Monte Video, and entertained at a banquet given by ⏎  ⏎ [[image: A gaucho on horseback on a flat plain dragging a dead body by a lasso; other bodies lie on the ground behind]] ⏎ [[caption]] Gaucho lassoing the dead. ⏎ "
+  }
+ ],
+ "p0170": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "general depression, the River",
+   "replace": "general\n\n[[image: line drawing of flat open grassland with cattle grazing in the foreground and a few distant buildings on the horizon]]\n[[caption]] The Plains.\n\n[[cont]]depression, the River",
+   "draft": "general depression, ",
+   "verified": "general\n\n[[image: line drawing of flat open grassland with cattle grazing in the foreground and a few distant buildings on the horizon]]\n[[caption]] The Plains.\n\n[[cont]]depression, ",
+   "context": " his use. No wonder that during the last few years of great general depression, the River Plate country has come through it almost untouched. ⏎  ⏎ [[imag"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "untouched.\n\n[[image: line drawing of flat open grassland with cattle grazing in the foreground and a few distant buildings on the horizon]]\n[[caption]] The Plains.\n\nOn these",
+   "replace": "untouched.\n\nOn these",
+   "draft": "untouched.\n\n[[image: line drawing of flat open grassland with cattle grazing in the foreground and a few distant buildings on the horizon]]\n[[caption]] The Plains.\n\nOn these",
+   "verified": "untouched.\n\nOn these",
+   "context": "ression, the River Plate country has come through it almost untouched. ⏎  ⏎ [[image: line drawing of flat open grassland with cattle grazing in the foreground and a few distant buildings on the horizon]] ⏎ [[caption]] The Plains. ⏎  ⏎ On these endless grassy downs there are no trees, save just along th"
+  }
+ ],
+ "p0171": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "full blaze\n\n[[image: a row of six ostriches standing and feeding on open ground]]\n[[caption]] Ostriches.",
+   "replace": "full blaze",
+   "draft": "full blaze\n\n[[image: a row of six ostriches standing and feeding on open ground]]\n[[caption]] Ostriches.",
+   "verified": "full blaze",
+   "context": "any small eminence they could find, and blinked away in the full blaze ⏎  ⏎ [[image: a row of six ostriches standing and feeding on open ground]] ⏎ [[caption]] Ostriches. ⏎ "
+  }
+ ],
+ "p0172": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "close up to them. We passed",
+   "replace": "close up to\n\n[[image: two white herons wading in a marshy pool, one stooping to feed]]\n[[caption]] White Herons.\n\n[[cont]]them. We passed",
+   "draft": "close up to them. We pas",
+   "verified": "close up to\n\n[[image: two white herons wading in a marshy pool, one stooping to feed]]\n[[caption]] White Herons.\n\n[[cont]]them. We pas",
+   "context": "we saw some beautiful white herons which allowed us to come close up to them. We passed many of the carts of the country drawn by long teams of oxe"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "<i>en route</i>\n\n[[image: two white herons wading in a marshy pool, one stooping to feed]]\n[[caption]] White Herons.",
+   "replace": "<i>en route</i>",
+   "draft": "en route</i>\n\n[[image: two white herons wading in a marshy pool, one stooping to feed]]\n[[caption]] White Herons.",
+   "verified": "en route</i>",
+   "context": "rande to the saladeros of Northern Uruguay. These also feed <i>en route</i> ⏎  ⏎ [[image: two white herons wading in a marshy pool, one stooping to feed]] ⏎ [[caption]] White Herons. ⏎ "
+  }
+ ],
+ "p0186": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "drawn by four horses abreast",
+   "replace": "drawn by five horses abreast",
+   "draft": "drawn by four horses abre",
+   "verified": "drawn by five horses abre",
+   "context": "nual tax is one-half per cent. on ⏎  ⏎ [[image: a covered wagon drawn by four horses abreast, the driver holding a long whip, on open ground]] ⏎ [[caption"
+  }
+ ],
+ "p0219": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "small zoological garden, restricted",
+   "replace": "small zoological\n\n[[image: engraving of a lake in a park, with trees along the far shore and reeds in the foreground]]\n[[caption]] Palermo Park.\n\n[[cont]]garden, restricted",
+   "draft": "l zoological garden, rest",
+   "verified": "l zoological\n\n[[image: engraving of a lake in a park, with trees along the far shore and reeds in the foreground]]\n[[caption]] Palermo Park.\n\n[[cont]]garden, rest",
+   "context": "cres, are beautifully laid out. In the park of Palermo is a small zoological garden, restricted almost entirely to the Argentine fauna. In the centre of th"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "cob-nut.\n\n[[image: engraving of a lake in a park, with trees along the far shore and reeds in the foreground]]\n[[caption]] Palermo Park.",
+   "replace": "cob-nut.",
+   "draft": "cob-nut.\n\n[[image: engraving of a lake in a park, with trees along the far shore and reeds in the foreground]]\n[[caption]] Palermo Park.",
+   "verified": "cob-nut.",
+   "context": "it is of a pale yellow, oval shape, about the size of a big cob-nut. ⏎  ⏎ [[image: engraving of a lake in a park, with trees along the far shore and reeds in the foreground]] ⏎ [[caption]] Palermo Park. ⏎  ⏎ Belgrano is the next station, about five miles from Buenos"
+  }
+ ],
+ "p0220": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "6.000<i>l</i>",
+   "replace": "6,000<i>l</i>",
+   "draft": "6.000<i>l</i>",
+   "verified": "6,000<i>l</i>",
+   "context": "ar. It is a line which might have been made and coached for 6.000<i>l</i>. a mile; 10,000<i>l</i>. a mile would be a handsome figure "
+  }
+ ],
+ "p0231": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "lined with red. Round",
+   "replace": "lined with\n\n[[image: engraving of an ornate horse's bit, a decorated stirrup and a large-rowelled spur lying side by side]]\n[[caption]] Bit, Stirrup, and Spur.\n\n[[cont]]red. Round",
+   "draft": "lined with red. Round",
+   "verified": "lined with\n\n[[image: engraving of an ornate horse's bit, a decorated stirrup and a large-rowelled spur lying side by side]]\n[[caption]] Bit, Stirrup, and Spur.\n\n[[cont]]red. Round",
+   "context": "Occasionally a circular poncho is worn of a dark blue cloth lined with red. Round the neck is tied a bright coloured silk scarf, and about th"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "completes\n\n[[image: engraving of an ornate horse's bit, a decorated stirrup and a large-rowelled spur lying side by side]]\n[[caption]] Bit, Stirrup, and Spur.",
+   "replace": "completes",
+   "draft": "completes\n\n[[image: engraving of an ornate horse's bit, a decorated stirrup and a large-rowelled spur lying side by side]]\n[[caption]] Bit, Stirrup, and Spur.",
+   "verified": "completes",
+   "context": "wels two to three inches in diameter. A silver-mounted whip completes ⏎  ⏎ [[image: engraving of an ornate horse's bit, a decorated stirrup and a large-rowelled spur lying side by side]] ⏎ [[caption]] Bit, Stirrup, and Spur. ⏎ "
+  }
+ ],
+ "p0238": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "râtes",
+   "replace": "rates",
+   "draft": "râtes",
+   "verified": "rates",
+   "context": " production than any other young country, and pay with ease râtes of interest for the loan of money, which English people wou"
+  }
+ ],
+ "p0265": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "[<i>In the press</i>.",
+   "replace": "[<i>In the press,</i>",
+   "draft": "In the press</i>.",
+   "verified": "In the press,</i>",
+   "context": "# City (The) of Dream: A Poem. ⏎  ⏎ Fcap. 8vo, cloth extra, 6s. [<i>In the press</i>. ⏎ "
+  }
+ ],
+ "p0276": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": ": A Faerie Romance",
+   "replace": ": <sc>a</sc> Faerie Romance",
+   "draft": ": A Faerie Roma",
+   "verified": ": <sc>a</sc> Faerie Roma",
+   "context": "otch</sc> S<sc>ongs</sc>.—Vols. 5 and 6. P<sc>hantastes</sc>: A Faerie Romance.—Vol. 7. T<sc>he</sc> P<sc>ortent</sc>.—Vol. 8. T<sc>he</sc"
+  }
+ ],
+ "p0278": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "“Texas Siftings.” With",
+   "replace": "“Texas Siftings” With",
+   "draft": "xas Siftings.” With",
+   "verified": "xas Siftings” With",
+   "context": ">Alex. E. Sweet</sc> and <sc>J. Armoy Knox</sc>, Editors of “Texas Siftings.” With 265 Illusts. Cr. 8vo, cloth extra, 7s. 6d. ⏎  ⏎ Middlemass (Jea"
+  }
+ ],
+ "p0282": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "illust. boards, 2s; cloth limp",
+   "replace": "illust. boards, 2s.; cloth limp",
+   "draft": ". boards, 2s; cloth limp",
+   "verified": ". boards, 2s.; cloth limp",
+   "context": "rnard</sc>. Large 4to, 1s. ⏎  ⏎ Rogues and Vagabonds. Post 8vo, illust. boards, 2s; cloth limp, 2s 6d. ⏎  ⏎ The Ring o' Bells. Post 8vo, illust. bds., 2s.; cl"
+  }
+ ]
+}

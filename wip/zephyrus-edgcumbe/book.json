@@ -62,5 +62,58 @@
    "match": "p0179",
    "why": "printed page 163 bound a second time in the Toronto copy (in place of page 161)"
   }
+ ],
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "front"
+  },
+  {
+   "at": "p0011",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0013",
+   "kind": "preface"
+  },
+  {
+   "at": "p0015",
+   "kind": "contents"
+  },
+  {
+   "at": "p0017",
+   "kind": "front",
+   "n": 1
+  },
+  {
+   "at": "p0255",
+   "kind": "index"
+  },
+  {
+   "at": "p0261",
+   "kind": "advertisements",
+   "title": "Publisher’s Catalogue"
+  }
+ ],
+ "frontispiece": "p0008-1",
+ "regions": [
+  "Portugal",
+  "Brazil",
+  "Uruguay",
+  "Argentina"
+ ],
+ "period": "1886–87",
+ "subjects": [
+  "Brazil",
+  "River Plate",
+  "Slavery",
+  "Railways",
+  "Quarantine"
+ ],
+ "summary": "E. R. Pearce Edgcumbe, a Dorset banker, and his wife sailed by the Royal Mail Line for South America late in 1886. By Lisbon they reached Pernambuco, Bahia and Rio de Janeiro, where yellow fever was killing many; he describes Rio and Tijuca, Brazilian society, slavery, which was still lawful, and the railway from Santos to San Paulo. Arriving at Monte Video, the two were held for six days in the quarantine station on the Isla de Flores. They went up the Uruguay to Salto, crossed the plains, and spent time in Buenos Ayres, the new city of La Plata and its port of Ensenada, on an estancia in the camp, and on the Paraná, with a chapter on the gaucho. As the preface warns, he writes much about money: banks, loans, railways, taxes and the cost of farming. The drawings in the text are the author’s own.",
+ "omitted_from_reading": "The series half-title, title page, printed contents, half-title before Chapter I, index and the publisher’s catalogue are in the JSON only.",
+ "notes_on_text": [
+  "The scanned copy (University of Toronto) lacks the leaf with pages 160–161 and has pages 162–163 twice in its place; pages 160–161 are taken from another scan of the same edition (University of California), and the repeated pages are left out.",
+  "The drawings in the text are by the author."
  ]
 }

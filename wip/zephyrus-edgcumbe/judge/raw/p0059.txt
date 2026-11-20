@@ -1,0 +1,2 @@
+{"n": 1, "is": "A", "print": "on the side\n\n[[image: a hairy caterpillar lying on a flat surface, its head curled under at the front]]\n[[caption]] CATERPILLAR (LIFE SIZE).\n\n[[cont]]towards the ", "sure": "high"}
+{"n": 2, "is": "A", "print": "tilted", "sure": "high"}

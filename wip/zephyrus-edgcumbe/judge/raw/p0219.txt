@@ -1,0 +1,2 @@
+{"n": 1, "is": "B", "print": "l zoological\n\n[[image: engraving of a lake in a park, with trees along the far shore and reeds in the foreground]]\n[[caption]] Palermo Park.\n\n[[cont]]garden, rest", "sure": "high"}
+{"n": 2, "is": "B", "print": "cob-nut.", "sure": "high"}

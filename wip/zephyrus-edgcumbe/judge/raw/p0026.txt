@@ -1,0 +1,2 @@
+{"n": 1, "is": "B", "print": "sky, while\n\n[[image: view of a flat white town across the water, with a sailing boat in the foreground and a lighthouse at the right]]\n[[caption]] Pernambuco.\n\n[[cont]] stretching", "sure": "high"}
+{"n": 2, "is": "B", "print": "old town,", "sure": "high"}
