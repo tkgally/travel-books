@@ -7,8 +7,9 @@ and the procedures in `notes/` and the skills.
 
 ## 1. Orient
 
-1. Read `CLAUDE.md`, `notes/README.md`, `data/queue.json`, `notes/preferences.md`, `notes/workflow.md`,
-   `notes/lessons.md` ("Always" first).
+1. Read `CLAUDE.md`, `notes/README.md`, `notes/preferences.md`, `notes/workflow.md`, `notes/lessons.md`
+   ("Always" first). Run `python3 tools/ledger.py`: the state of every book in a screenful, which kind of book
+   is due next, and whether a queue is short (then read the rows you need in `data/queue.json`).
 2. `tools/setup_env.sh <scratch>/epubcheck`, `export EPUBCHECK_JAR=…` as it prints, then `tools/run_tests.sh`
    must say OK. If it does not, fix the tool (not the test) before anything else, or stop and report.
 3. Check that the last deploy of the site succeeded (GitHub Actions run of "Build and deploy the site" on
@@ -26,14 +27,17 @@ and the procedures in `notes/` and the skills.
 3. **A `waiting` book** whose question Tom has answered (`notes/preferences.md`, the queue row, the book log).
    A book Tom set aside to "try again in the future" (`waiting_for` in its queue row) is taken up again once
    at least two other books have been published since (assumed), or sooner if he says so.
-4. **A new book** from the queue (skill `digitize-book`). Choose by your own judgement — `order` in the
+4. **A new book** from the queue (skill `digitize-book`). Tom's list "Japan As They Saw It" (JATSI) supplies
+   about one book in three (`notes/jatsi.md`): `tools/ledger.py` says whether the next book is to be a JATSI
+   row or another; follow it unless the book that is due cannot be started. Within the kind, choose by your own judgement — `order` in the
    queue is a suggestion — aiming for a wide range of authors, nationalities, destinations and periods
    across what is already published, without preferring any group (never by the author's gender), and preferring books that the current tools handle. Re-check eligibility first
    (`notes/selection.md` §"Before starting"): things change, and the first check may have gaps. Every question
    of eligibility (a death date of an author or editor, a later edition) is settled or put to Tom **before
    the first model run**, not after the book is finished.
-5. **Fewer than six books `queued`**: spend the session (or its remainder) finding and vetting more (skill
-   `select-book`).
+5. **Fewer than six other books `queued`, or fewer than four JATSI books** (`ledger.py` says so): spend the
+   session (or its remainder) finding and vetting more (skill `select-book`; for JATSI, `notes/jatsi.md`
+   §"Choosing the next JATSI books").
 6. **Every fifth published book, or when `notes/metrics.md` shows a problem**: a review session
    (`notes/improvement.md`) instead of a new book.
 

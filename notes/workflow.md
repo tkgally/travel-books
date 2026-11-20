@@ -71,8 +71,8 @@ LibreOffice (`soffice`) is in the image; preflight needs it for the ODT check.
 
 ## 1. Start a book
 
-1. Choose it (RESUME.md §2) and re-check eligibility (`selection.md` §"Before starting"). Set its queue row
-   to `in progress`.
+1. Choose it (RESUME.md §2; `python3 tools/ledger.py` says whether a JATSI book or another is due) and re-check
+   eligibility (`selection.md` §"Before starting"). Set its queue row to `in progress` with `"started": "<date>"`.
 2. `mkdir -p $W`; write `$W/book.json` (keys: `book-json.md`; version 1) and `$W/log.md` from the template in
    `book-json.md`; `$W/source.json` = `{"ia_identifier": "…"}`.
 3. Fetch once from IA into a directory of its own, make the working page images:
@@ -192,7 +192,9 @@ shown, in a few plain words.
 
 Fill `book.json` (`book-json.md`): bibliographic fields from the title page (not from IA's catalogue record,
 which is often wrong about dates and editions), author dates from a reliable source, regions, period of the
-journey, the summary (`style.md` §Site text), `omitted_from_reading`, `notes_on_text`, `history`.
+journey, the summary (`style.md` §Site text), `omitted_from_reading`, `notes_on_text`, `history`. Every name
+in `regions` must be in `data/places.json` (the site's list by place; a test says which is missing); `period`
+needs a four-digit year (the list by date). A JATSI book has `"collection": "jatsi"`.
 
 ## 7. Build and verify
 
@@ -242,4 +244,7 @@ visibly differs from newer ones.
 - Multi-volume works: one book id per work, volumes as parts; leaves named by item (`source.items` in
   `book-json.md`: vol. I p1000+, vol. II p2000+), tested on invented data only; the book page links and embeds every item.
 - Endnotes printed at the end of the book rather than at the foot of the page.
-- Greek, Arabic or other scripts quoted in the text: transcribe in the script; untested.
+- Greek, Arabic or other scripts quoted in the text: transcribe in the script; untested. Japanese script (kanji,
+  kana) will come with the JATSI books (`jatsi.md`): before the first book that has more than a few characters, try
+  a sample page through draft, corrections and the three builders (does the EPUB reader's font have the
+  characters? does LibreOffice's?), and write the result here.

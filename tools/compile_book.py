@@ -488,7 +488,7 @@ def compile_pages(cfg, pages, images=None):
         for b in d["blocks"] + d["notes"]:
             collect(b, b["leaf"], d["id"])
     meta_keys = ("title", "subtitle", "short_title", "authors", "author_note", "publisher", "place", "year", "edition_statement",
-                 "volumes", "language", "regions", "period", "subjects", "summary", "source", "notes_on_text",
+                 "volumes", "language", "regions", "period", "subjects", "collection", "summary", "source", "notes_on_text",
                  "omitted_from_reading", "history")
     book = {"format": FORMAT, "id": cfg["id"], "version": cfg["version"], "date": cfg["date"],
             "license": "CC0-1.0",

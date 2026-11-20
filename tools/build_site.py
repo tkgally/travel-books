@@ -9,7 +9,8 @@ For every book in books/<slug>/ (or the one given with --bookdir, e.g. a book st
   books/<slug>/<slug>.json    the book JSON (base of everything else)
   books/<slug>/<slug>.epub, <slug>.odt
   books/<slug>/images/
-Plus index.html, about.html, json-format.html, assets/. Standard library only; output is deterministic.
+Plus index.html, places.html, dates.html (authors.html when there are many books), japan-as-they-saw-it.html,
+about.html, json-format.html, assets/. Standard library only; output is deterministic.
 """
 import argparse, html, json, os, re, shutil, sys
 
@@ -57,36 +58,182 @@ Found an error? <a href="{REPO_URL}/issues">Report it on GitHub</a>.</p>
 """
 
 
-def book_line(b, href):
+JATSI = "Japan As They Saw It"
+JATSI_PAGE = "japan-as-they-saw-it.html"
+JATSI_HOME = "https://www.gally.net/jatsi/index.html"
+HOME_FULL_LIST = 30     # up to this many books the home page lists them all; above it, the newest and links to the lists
+HOME_NEWEST = 10
+
+
+def is_jatsi(b):
+    """A published book (book JSON, `collection`) or a queue row (`from`) that comes from the JATSI list."""
+    return b.get("collection") == "jatsi" or b.get("from") == "jatsi"
+
+
+def book_line(b, href, root=""):
     a = rh.authors_text(b)
-    regions = ", ".join(b.get("regions", []))
+    meta = [esc(", ".join(b.get("regions", [])))] if b.get("regions") else []
+    if b.get("period"):
+        meta.append(esc(b["period"]))
+    if is_jatsi(b):
+        meta.append(f'from <a href="{root}{JATSI_PAGE}">{JATSI}</a>')
     return (f'<li><a href="{attr(href)}"><cite>{esc(b.get("short_title") or b["title"])}</cite></a>, {esc(a)} ({b.get("year", "")})'
-            + (f'<br/><span class="meta">{esc(regions)}</span>' if regions else "") + "</li>")
+            + (f'<br/><span class="meta">{" · ".join(meta)}</span>' if meta else "") + "</li>")
 
 
 def sort_key(b):
     a = (b.get("authors") or [{}])[0]
-    return (a.get("sort") or a.get("name") or "", b.get("year") or 0)
+    return (a.get("sort") or a.get("name") or "", b.get("year") or 0, b.get("id", ""))
+
+
+def first_published(b):
+    """The date the book first appeared on the site (version 1), for 'newest'."""
+    h = b.get("history") or []
+    return (h[0].get("date") if h else None) or b.get("date") or ""
+
+
+def journey_year(b):
+    """The first year in `period` (when the journey took place); the year of publication if there is none."""
+    m = re.search(r"\b(1[5-9]\d\d)\b", str(b.get("period", "")))
+    return int(m.group(1)) if m else int(b.get("year") or 0)
+
+
+def books_ul(bs):
+    return '<ul class="books">' + "\n".join(book_line(b, f"books/{b['id']}/index.html") for b in bs) + "</ul>"
+
+
+def queue_line(x):
+    return (f'<li><cite>{esc(inline.smart_quotes(x["title"]))}</cite>, {esc(inline.smart_quotes(x.get("author", "")))} ({x.get("year", "")})'
+            + (' <span class="meta">— in progress</span>' if x["status"] == "in progress" else "")
+            + (f' <span class="meta"><a href="https://archive.org/details/{attr(x["ia"])}">scan</a></span>' if x.get("ia") else "")
+            + (f' <span class="meta">· from <a href="{JATSI_PAGE}">{JATSI}</a></span>' if is_jatsi(x) else "") + "</li>")
 
 
 def build_index(out, books, queue):
-    items = "\n".join(book_line(b, f"books/{b['id']}/index.html") for b in sorted(books, key=sort_key))
+    """The home page. Up to HOME_FULL_LIST books: all of them, by author. More: the newest, and links to the full
+    lists (by author, by place, by date of the journey), which build_lists writes. Plan: notes/site.md."""
+    books = sorted(books, key=sort_key)
+    lists = 'by <a href="places.html">place</a> and by <a href="dates.html">date of the journey</a>'
+    if not books:
+        shelf = "<p>No books have been published yet.</p>"
+    elif len(books) <= HOME_FULL_LIST:
+        shelf = f'<p class="meta">By author. Also listed {lists}.</p>\n{books_ul(books)}'
+    else:
+        newest = sorted(books, key=lambda b: (first_published(b), b["id"]), reverse=True)[:HOME_NEWEST]
+        shelf = (f'<p>{len(books)} books, listed by <a href="authors.html">author</a>, {lists}.</p>\n'
+                 f'<h3 id="newest">Newest</h3>\n{books_ul(newest)}')
     q = [x for x in queue if x.get("status") in ("queued", "in progress")]
-    qitems = "\n".join(
-        f'<li><cite>{esc(inline.smart_quotes(x["title"]))}</cite>, {esc(inline.smart_quotes(x.get("author", "")))} ({x.get("year", "")})'
-        + (' <span class="meta">— in progress</span>' if x["status"] == "in progress" else "")
-        + (f' <span class="meta"><a href="https://archive.org/details/{attr(x["ia"])}">scan</a></span>' if x.get("ia") else "") + "</li>"
-        for x in q)
+    qitems = "\n".join(queue_line(x) for x in q)
     body = f"""<h1>{SITE}</h1>
-<p>First-person travel books written in English and published before 1914, transcribed from library scans at the
-Internet Archive. The books here have no other digital text edition and were not reprinted after 1914.
-Each can be read on this site or downloaded as EPUB, ODT or JSON. <a href="about.html">About the project.</a></p>
+<p>Travel books written in English and published before 1914, transcribed from library scans at the
+Internet Archive. Each can be read on this site or downloaded as EPUB, ODT or JSON. <a href="about.html">About the project.</a></p>
+<p>Most of the books were chosen because they are first-person accounts that have no other digital text edition and were not
+reprinted after 1914. Others come from <a href="{JATSI_PAGE}">{JATSI}</a>, a list of books about Japan that is being
+added to this site a book at a time; for that reason the site has more books about Japan than about other countries.</p>
 <h2 id="books">Books</h2>
-{f'<ul class="books">{items}</ul>' if items else '<p>No books have been published yet.</p>'}
+{shelf}
 <h2 id="queue">In the queue</h2>
 {f'<p>Books chosen for transcription, not yet published.</p><ul class="books">{qitems}</ul>' if qitems else '<p>The queue is empty.</p>'}
 """
     open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page(SITE, body, ""))
+
+
+def load_places():
+    f = os.path.join(REPO, "data", "places.json")
+    return json.load(open(f, encoding="utf-8")) if os.path.exists(f) else {"areas": [], "regions": {}}
+
+
+def build_lists(out, books, places=None):
+    """places.html and dates.html (always), authors.html (when the home page no longer lists every book)."""
+    places = places or load_places()
+    books = sorted(books, key=sort_key)
+    crumb = [(SITE, "index.html")]
+
+    def write(name, title, intro, groups):
+        toc = " · ".join(f'<a href="#{attr(i)}">{esc(t)}</a>' for i, t, bs in groups)
+        body = (f"<h1>{esc(title)}</h1>\n<p>{intro}</p>\n" + (f'<p class="meta">{toc}</p>\n' if len(groups) > 1 else "")
+                + "\n".join(f'<h2 id="{attr(i)}">{esc(t)}</h2>\n{books_ul(bs)}' for i, t, bs in groups))
+        open(os.path.join(out, name), "w", encoding="utf-8").write(page(title, body, "", crumbs=crumb + [(title, name)]))
+
+    def ident(t):
+        return re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
+    other = "Other places"
+    by_area = {}
+    for b in books:
+        for area in dict.fromkeys(places["regions"].get(r, other) for r in b.get("regions", []) or [None]):
+            by_area.setdefault(area, []).append(b)
+    order = [a for a in places["areas"] if a in by_area] + sorted(a for a in by_area if a not in places["areas"])
+    write("places.html", "Books by place",
+          "A book that covers several parts of the world is listed under each. The places are given by their present names.",
+          [(ident(a), a, by_area[a]) for a in order])
+    by_dec = {}
+    for b in sorted(books, key=lambda b: (journey_year(b),) + sort_key(b)):
+        by_dec.setdefault(journey_year(b) // 10 * 10, []).append(b)
+    write("dates.html", "Books by date of the journey",
+          "By the decade in which the journey began, or in which the book was published when the journey is not dated.",
+          [(f"d{d}", f"{d}s", bs) for d, bs in sorted(by_dec.items())])
+    if len(books) > HOME_FULL_LIST:
+        by_letter = {}
+        for b in books:
+            by_letter.setdefault((sort_key(b)[0][:1] or "?").upper(), []).append(b)
+        write("authors.html", "Books by author", "By the first author's surname.",
+              [(f"a-{ident(k) or 'x'}", k, bs) for k, bs in sorted(by_letter.items())])
+
+
+def build_jatsi(out, books, queue, j=None):
+    """The page about the JATSI list: why its books are here, which are published or queued, and the whole list."""
+    f = os.path.join(REPO, "data", "jatsi.json")
+    if j is None and not os.path.exists(f):
+        return
+    j = j or json.load(open(f, encoding="utf-8"))
+    rows = {x["jatsi"]: x for x in queue if is_jatsi(x) and "jatsi" in x}
+    pub = {b["id"]: b for b in books}
+    done = [pub[x["slug"]] for x in rows.values() if x.get("status") == "published" and x.get("slug") in pub]
+    waiting = [x for x in queue if is_jatsi(x) and x.get("status") in ("queued", "in progress")]
+
+    def entry(e):
+        r = rows.get(e["n"])
+        if r and r.get("status") == "published" and r.get("slug") in pub:
+            state = f' <span class="meta">— <a href="books/{attr(r["slug"])}/index.html">on this site</a></span>'
+        elif r and r.get("status") in ("queued", "in progress"):
+            state = ' <span class="meta">— in the queue</span>'
+        else:
+            state = ""
+        links = [f'<a href="{attr(s["url"])}">{esc(s["label"])}</a>' for s in e.get("scans", [])]
+        links += [f'<a href="https://www.gutenberg.org/ebooks/{int(g)}">text at Project Gutenberg</a>' for g in e.get("gutenberg", [])]
+        return (f'<li><cite>{esc(inline.smart_quotes(e["title"]))}</cite>'
+                + (f' ({esc(inline.smart_quotes(e["note"]))})' if e.get("note") else "")
+                + (f', {esc(inline.smart_quotes(e["author"]))}' if e.get("author") else "") + state
+                + (f'<br/><span class="meta">{" · ".join(links)}</span>' if links else "") + "</li>")
+    years, cur = [], None
+    for e in j["books"]:
+        if e["year"] != cur:
+            cur = e["year"]
+            years.append((cur, []))
+        years[-1][1].append(entry(e))
+    whole = "\n".join(f'<h3 id="y{y}">{y}</h3>\n<ul class="books">{"".join(es)}</ul>' for y, es in years)
+    body = f"""<h1>{JATSI}</h1>
+<p><a href="{JATSI_HOME}">{JATSI}</a> is an earlier project of Tom Gally, who runs this site: passages about Japan
+from books by American and British visitors, with a list of {len(j["books"])} books published between 1855 and 1912 that are
+at the Internet Archive. That project was one of the starting points of this site.</p>
+<p>In November 2026 he decided that the books on the list will be added here gradually, about one in every three books
+published. The site will therefore come to have more books about Japan than about any other country.</p>
+<p>These books are here because they are on the list. The <a href="about.html#which-books">conditions that the other books
+meet</a> are applied to them less strictly: some have been reprinted since 1914 or have a digital text elsewhere, and
+some that will be added later are histories, surveys or guidebooks, not accounts of the author’s own travels. The ones
+most like the other books on this site are being done first. A book whose author died less than 70 years ago waits until
+that time has passed. The texts are transcribed and checked in the same way as all the others.</p>
+<h2 id="published">On this site</h2>
+{books_ul(sorted(done, key=sort_key)) if done else '<p>None yet.</p>'}
+<h2 id="queue">In the queue</h2>
+{f'<ul class="books">{chr(10).join(queue_line(x) for x in waiting)}</ul>' if waiting else '<p>None.</p>'}
+<h2 id="list">The whole list</h2>
+<p>In the order of the original list, by year of publication of the copy listed there. The links go to the scans at the
+Internet Archive.</p>
+{whole}
+"""
+    open(os.path.join(out, JATSI_PAGE), "w", encoding="utf-8").write(
+        page(JATSI, body, "", crumbs=[(SITE, "index.html"), (JATSI, JATSI_PAGE)]))
 
 
 def md_page(out, name, title, src):
@@ -204,6 +351,8 @@ def book_page(book, names, has_cover=False):
     row("Places", esc(", ".join(book.get("regions", []))))
     row("Time of the journey", esc(book.get("period", "")))
     row("Subjects", esc("; ".join(book.get("subjects", []))))
+    if is_jatsi(book):
+        row("Why it is here", f'It is on the list <a href="../../{JATSI_PAGE}">{JATSI}</a>, whose books are being added to this site.')
     # a work in several IA items (book.json source.items, each with a "label" such as "Volume I")
     scans = [(it["ia_identifier"], it.get("label", "")) for it in src.get("items", [])] if len(src.get("items", [])) > 1 else \
         ([(ia, "")] if ia else [])
@@ -282,6 +431,8 @@ def main():
     qf = os.path.join(REPO, "data", "queue.json")
     queue = json.load(open(qf, encoding="utf-8"))["books"] if os.path.exists(qf) else []
     build_index(out, books, queue)
+    build_lists(out, books)
+    build_jatsi(out, books, queue)
     md_page(out, "about.html", "About", os.path.join(REPO, "site", "about.md"))
     md_page(out, "json-format.html", "The JSON format", os.path.join(REPO, "site", "json-format.md"))
     print(f"site written to {out}: {len(books)} books")

@@ -1,5 +1,11 @@
 {
- "about": "The ledger of books: chosen (queued), being transcribed (in progress), published, waiting for an answer from Tom, and rejected. Rules: notes/selection.md. `order` is a suggestion, not an obligation.",
+ "about": "The ledger of books: chosen (queued), being transcribed (in progress), published, waiting for an answer from Tom, and rejected. Rules: notes/selection.md. `order` is a suggestion, not an obligation. Books from Tom's list \"Japan As They Saw It\" have \"from\": \"jatsi\" and \"jatsi\": their number in data/jatsi.json (notes/jatsi.md); a book Tom asked for by name has \"from\": \"tom\". `jatsi_policy`: the pace at which JATSI books are started (tools/ledger.py). A row gets \"started\": the date, when it goes in progress.",
+ "jatsi_policy": {
+  "since": "2026-11-20",
+  "others_before": 6,
+  "others_per_jatsi": 2,
+  "note": "Tom, 2026-11-20: about one JATSI book in every three. Of the books started since then, a JATSI book is due when the others number at least others_per_jatsi times the JATSI books; the six books published before do not count."
+ },
  "books": [
   {
    "order": 0,
@@ -21,7 +27,8 @@
    "eligibility": "Added at Tom's request as an exception to the selection rules (notes/preferences.md, 2026-11-19): not checked against rules 2–4 (it is known to have later reprints and is compiled from Macartney's and others' papers). Rule 5 met: Staunton 1737–1801, Macartney 1737–1806, Gower 1742–1814; William Alexander (drawings) 1767–1816. Not in the Project Gutenberg catalogue.",
    "note": "Three IA items made into one book: vol. I (UC, 572 images, 300 ppi), vol. II (UC, 664 images, 500 ppi), folio of plates and maps (Getty, 114 images; its page images come as a 1.2 GB _images.zip, not _jp2.zip: ia.py may need a change). Tom: leave the marginal titles out of the built versions (JSON keeps them) — needs side-note markup first (workflow 'Not yet solved'); 1797 printing (long s): run the two-draft calibration on a sample first; multi-volume: volumes as parts. Several sessions. The landing page and site/about.md say every book has no other digital text and no reprint: when this book is published, say on its page (and in about.md) that it is included as an exception.",
    "version": 1,
-   "published": "2026-11-20"
+   "published": "2026-11-20",
+   "from": "tom"
   },
   {
    "order": 1,
