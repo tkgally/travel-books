@@ -1,6 +1,0 @@
-{"find": "[[cont]]return ticket,", "replace": "[[cont]]return ticket,"}
-{"find": "“No; that because", "replace": "“No; that because"}
-
-Wait — corrections needed:
-
-{"find": "[[cont]]return ticket, the", "replace": "[[cont]]return ticket, the"}

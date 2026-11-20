@@ -664,11 +664,13 @@
    "place": "London",
    "publisher": "Kerby & Son",
    "images": 184,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-20",
    "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv; no Online Books Page or Wikisource entry; web search of a distinctive sentence found nothing. Reprints: 1971 Lost Cause Press microfiche (not a print edition), Creative Media Partners 2023 (print on demand). Author 1819–1878 (Wikipedia, DAAO); the 14 lithographs are from his own drawings. Not checked: Faded Page, WorldCat. Scan checked 2026-11-20: complete (135 pp., 14 plates).",
    "note": "Library of Congress scan, 500 ppi; iv + 135 pp. and 14 plates (check all are in the scan). January 1865: Southampton to St Thomas, across Panama by rail, Jamaica (with Governor Eyre, months before Morant Bay), St Kitts, Grenada, Trinidad; a painter sketching. One footnote after Morant Bay praises Eyre's suppression (offensive now; one note).",
-   "started": "2026-11-20"
+   "started": "2026-11-20",
+   "version": 1,
+   "published": "2026-11-20"
   },
   {
    "order": 39,
