@@ -1,0 +1,5 @@
+{"given": "ranges of hills or the banks", "print": "ranges of hills on the banks", "sure": "high"}
+{"given": "followers of Joseph smith.", "print": "followers of Joseph Smith.", "sure": "high"}
+{"given": "I might visit temples and see", "print": "I might visit the temples and see", "sure": "high"}
+{"given": "with very long shasts, and", "print": "with very long shafts, and", "sure": "high"}
+{"given": "They appeared to me; from my", "print": "They appeared to me, from my", "sure": "high"}

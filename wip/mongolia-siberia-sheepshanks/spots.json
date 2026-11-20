@@ -1,0 +1,75 @@
+{
+ "p0006": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[center]] <sc>by</sc>",
+   "replace": "[[center]] BY",
+   "draft": "[[center]] <sc>by</sc>",
+   "verified": "[[center]] BY",
+   "context": " <i>From the Great Wall of China to the Ural Mountains</i> ⏎  ⏎ [[center]] <sc>by</sc> ⏎  ⏎ [[center]] JOHN, BISHOP OF NORWICH ⏎  ⏎ [[center]] With Illust"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "<sc>published under the direction of the tract committee</sc>",
+   "replace": "PUBLISHED UNDER THE DIRECTION OF THE TRACT COMMITTEE",
+   "draft": "<sc>published under the direction of the tract committee</sc>",
+   "verified": "PUBLISHED UNDER THE DIRECTION OF THE TRACT COMMITTEE",
+   "context": "ISHOP OF NORWICH ⏎  ⏎ [[center]] With Illustrations ⏎  ⏎ [[center]] <sc>published under the direction of the tract committee</sc> ⏎  ⏎ [[center]] LONDON: ⏎  ⏎ [[center]] SOCIETY FOR PROMOTING CHRIS"
+  }
+ ],
+ "p0015": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "## Chapter V\n\n[[subtitle]] “Shamanism”",
+   "replace": "# Chapter V\n\n[[subtitle]] “Shamanism”",
+   "draft": "## Chapter V\n",
+   "verified": "# Chapter V\n",
+   "context": "[[page xii]] ⏎  ⏎ ## Chapter V ⏎  ⏎ [[subtitle]] “Shamanism” ⏎  ⏎ The old heathen superstition—Nature-worship and demonolatr"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "## Chapter VI",
+   "replace": "# Chapter VI",
+   "draft": "## Chapter VI",
+   "verified": "# Chapter VI",
+   "context": "an” of North-West America—Cannibals . . . <pref>131</pref> ⏎  ⏎ ## Chapter VI ⏎  ⏎ [[subtitle]] From Lake Baikal to the Ural Mountains ⏎  ⏎ Mgr. "
+  }
+ ],
+ "p0035": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "these entrails, in the case",
+   "replace": "these entrails; in the case",
+   "draft": "ese entrails, in the case",
+   "verified": "ese entrails; in the case",
+   "context": "bove the forehead, ⏎  ⏎ [[fn 1]] They also have another use for these entrails, in the case of some diseases, colic <i>e. g.</i>, teeming them warm fro"
+  }
+ ],
+ "p0072": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "(Kuren).",
+   "replace": "(Kuren).\n\n[[right]] [<i>To face page</i> <pref>66</pref>,",
+   "draft": "(Kuren).",
+   "verified": "(Kuren).\n\n[[right]] [<i>To face page</i> <pref>66</pref>,",
+   "context": "ls behind]] ⏎ [[caption]] Dolmen-Memorial of a Buddhist Saint (Kuren). ⏎ "
+  }
+ ],
+ "p0094": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "(<i>f</i>) Huts for the Lamas.\n",
+   "replace": "(<i>f</i>) Huts for the Lamas.\n\n[[right]] [<i>To face page</i> <pref>84</pref>.]\n",
+   "draft": " the Lamas.\n",
+   "verified": " the Lamas.\n\n[[right]] [<i>To face page</i> <pref>84</pref>.]\n",
+   "context": "assembly. ⏎  ⏎ (<i>d</i>) Dome. ⏎  ⏎ (<i>e</i>) Shrine with idols. ⏎  ⏎ (<i>f</i>) Huts for the Lamas. ⏎ "
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+{"given": "are especially obnoxious to englishmen.", "print": "are especially obnoxious to Englishmen.", "sure": "high"}
+{"given": "two Chinamen or Frazer River,", "print": "two Chinamen on Frazer River,", "sure": "high"}
+{"given": "invited me to their houses tea.", "print": "invited me to their houses to tea.", "sure": "high"}
+{"given": "China have become; perhaps almost without", "print": "China have become, perhaps almost without", "sure": "high"}
+{"given": "fond of the pcople among whom", "print": "fond of the people among whom", "sure": "high"}

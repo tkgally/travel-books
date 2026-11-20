@@ -1,0 +1,9 @@
+{"find": "perhaps begun frequently, but not always, in imposture", "replace": "perhaps begun frequently, but not always, in imposture"}
+
+Wait — checking differences: the image reads "perhaps begun fre-quently", so that matches. The remaining difference is "not being able".
+
+{"find": "apparently not being able", "replace": "apparently not being able"}
+
+Neither of those is a real change. The only difference I found is "tcwards", which is a scan flaw for "towards", so no correction is needed.
+
+NONE

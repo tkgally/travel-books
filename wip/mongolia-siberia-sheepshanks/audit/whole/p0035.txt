@@ -1,0 +1,5 @@
+{"given": "we killed a sheep; ladies were", "print": "we killed a sheep, ladies were", "sure": "high"}
+{"given": "and reeeive their portions together.", "print": "and receive their portions together.", "sure": "high"}
+{"given": "generally in color of a faded", "print": "generally in colour of a faded", "sure": "high"}
+{"given": "it is much like that the men,", "print": "it is much like that of the men,", "sure": "high"}
+{"given": "Warwickshire cattle. Those braids are fastened", "print": "Warwickshire cattle. These braids are fastened", "sure": "high"}

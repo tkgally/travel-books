@@ -20,10 +20,19 @@ Scan check (Opus subagent, 2026-11-20): all five sheets, 21 leaves at full size;
 "Pages from my Note-book" / "In Mongolia". Footnotes numbered; a table in the footnote on p0011; Horace on p0029.
 
 ## Decisions
+- Contents: the chapter titles as printed at the chapters (III “The Veneration of the Fire”, VI “Lake Baikal to the Ural Mountains”, which the printed contents gives a little differently); the topics stay in the printed contents (JSON only). The heading above Chapter I is a `front` division (`n` 1; the chapter `n` 2).
+- “To face page” lines on the plates left out, as in the other books; captions in the case of the printed list of illustrations; the key of the temple plan (p0094) joined into its caption. The frontispiece and the Maidra plate stay where the scanned copy binds them (assumed; said in notes_on_text).
+- keep_hyphens p0053 (prayer-wheel), p0127 (good-sized). “over-spent” (p0058) joined as “overspent” (the book does not settle it).
+- Shakyamuni without accent on p0056 as printed (the line-end form; elsewhere Shakyamúni). chargè (p0141) as printed.
+- Waiver: spacing on p0011 (ditto marks in the footnote table).
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-20 | opus | p0004–p0195 (192) | 12.34 | no refusals |
+| corrections | 2026-11-20 | sonnet | 192 | 6.22 | 10 changes; 7 spots |
+| judge | 2026-11-20 | opus | 7 spots | 0.23 | verifier 4, draft 2, neither 1 (plate lines, later removed) |
+| audit | 2026-11-20 | opus | 6 | 0.34 | 30/30; 0 candidates |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |

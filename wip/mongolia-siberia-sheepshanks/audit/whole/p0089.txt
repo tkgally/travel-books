@@ -1,0 +1,5 @@
+{"given": "the trumpets were again sounded; we were", "print": "the trumpets were again sounded, we were", "sure": "high"}
+{"given": "lifted on high or the shoulders", "print": "lifted on high on the shoulders", "sure": "high"}
+{"given": "kneeling or prostrating themfelves upon the", "print": "kneeling or prostrating themselves upon the", "sure": "high"}
+{"given": "there was attached small bunch of", "print": "there was attached a small bunch of", "sure": "high"}
+{"given": "moved onwards, the lamas touched rapidly", "print": "moved onwards, the Lamas touched rapidly", "sure": "high"}
