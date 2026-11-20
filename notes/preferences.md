@@ -223,6 +223,12 @@ How this was carried out: `RESUME.md` §"How long a session runs", `tools/sessio
   "avoiding words if possible (though having text appear as popovers for nontouch interfaces)".
 - He will check the result after it is merged and get back.
 
+- **After seeing it (same day):** the Display button goes on **all of the index pages as well**, and the settings
+  apply to those pages similarly. **When the font size is changed, the title and navigation text in the page headers
+  change too** ("a person with inhibited vision who sets the reading print size very large would have trouble reading
+  the still-small navigation text"), **but only up to level 6 of the 9 sizes**: at sizes 7, 8 and 9 the header stays
+  at level 6.
+
 ## Questions for Tom
 
 None open.
