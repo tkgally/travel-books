@@ -188,3 +188,6 @@
 {"page": "p0191", "model": "opus", "corrections": null, "seconds": 6.3, "cost": 0.062345199999999996, "completion_tokens": 511, "turns": 2, "attempts": 1}
 {"page": "p0192", "model": "opus", "corrections": null, "seconds": 7.1, "cost": 0.0635488, "completion_tokens": 572, "turns": 2, "attempts": 1}
 {"page": "p0193", "model": "opus", "corrections": null, "seconds": 8.7, "cost": 0.0657488, "completion_tokens": 682, "turns": 2, "attempts": 1}
+{"page": "p0194", "model": "opus", "corrections": null, "seconds": 8.3, "cost": 0.0659124, "completion_tokens": 691, "turns": 2, "attempts": 1}
+{"page": "p0195", "model": "opus", "corrections": null, "seconds": 6.4, "cost": 0.0623098, "completion_tokens": 508, "turns": 2, "attempts": 1}
+{"page": "p0196", "model": "opus", "corrections": null, "seconds": 7.0, "cost": 0.0633688, "completion_tokens": 563, "turns": 2, "attempts": 1}
