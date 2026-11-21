@@ -1,0 +1,212 @@
+{
+ "id": "trans-caspia-shoemaker",
+ "version": 1,
+ "date": "2026-11-21",
+ "title": "Trans-Caspia",
+ "subtitle": "The Sealed Provinces of the Czar",
+ "short_title": "Trans-Caspia",
+ "authors": [
+  {
+   "name": "Michael Myers Shoemaker",
+   "sort": "Shoemaker, Michael Myers",
+   "born": 1853,
+   "died": 1924
+  }
+ ],
+ "place": "Cincinnati",
+ "publisher": "The Robert Clarke Company",
+ "year": 1895,
+ "edition_statement": "First edition",
+ "regions": [
+  "Russia",
+  "Georgia",
+  "Azerbaijan",
+  "Turkmenistan",
+  "Uzbekistan",
+  "Kyrgyzstan",
+  "China",
+  "Turkey"
+ ],
+ "period": "1894",
+ "summary": "Michael Myers Shoemaker, an American from Cincinnati, travelled in the summer of 1894 through the Caucasus and the Russian provinces of Central Asia, which few foreigners were then allowed to enter. The book is written as a diary. With a companion, “B.”, he went from Berlin and St. Petersburg over the Dariel Pass to Tiflis, then to the oil fields of Baku, across the Caspian, and by the Trans-Caspian railway to Bokhara and Samarkand. By tarantass he went on to Tashkend, Kokand, Marghilan and Osh, and then on horseback over the mountains into Chinese territory, where he fell ill and turned back. He came home by the railway and the Caspian, Trebizond, the cholera quarantine at Sinope, and Constantinople, where the book ends with a chapter on the city. It has fifty-three photographs.",
+ "source": {
+  "ia_identifier": "transcaspiaseale00shoe",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": [
+   0,
+   331,
+   332,
+   333,
+   334,
+   335
+  ]
+ },
+ "omitted_from_reading": "The frontispiece leaf’s place, the title page, copyright page, printed contents and the book title repeated above Chapter I are in the JSON only; the frontispiece itself opens the reading editions.",
+ "notes_on_text": [
+  "The chapter titles in the contents are those of the printed contents; in the text most chapters have a number only.",
+  "The facsimile signature on the title page is shown as a picture."
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-21",
+   "note": "First publication."
+  }
+ ],
+ "divisions": [
+  {
+   "at": "p0008",
+   "kind": "front",
+   "title": "Frontispiece"
+  },
+  {
+   "at": "p0009",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0011",
+   "kind": "preface"
+  },
+  {
+   "at": "p0013",
+   "kind": "contents"
+  },
+  {
+   "at": "p0015",
+   "kind": "front",
+   "n": 1
+  },
+  {
+   "at": "p0015",
+   "kind": "chapter",
+   "toc_title": "Chapter I. St. Petersburg",
+   "n": 2
+  },
+  {
+   "at": "p0029",
+   "kind": "chapter",
+   "toc_title": "Chapter II. Russian Red Tape"
+  },
+  {
+   "at": "p0035",
+   "kind": "chapter",
+   "toc_title": "Chapter III. Over the Dariel Pass"
+  },
+  {
+   "at": "p0056",
+   "kind": "chapter",
+   "toc_title": "Chapter IV. Tiflis"
+  },
+  {
+   "at": "p0070",
+   "kind": "chapter",
+   "toc_title": "Chapter V. En Route to Baku"
+  },
+  {
+   "at": "p0077",
+   "kind": "chapter",
+   "toc_title": "Chapter VI. The Oil Regions and the Caspian"
+  },
+  {
+   "at": "p0088",
+   "kind": "chapter",
+   "toc_title": "Chapter VII. Usin-ada, the Portal of Trans-Caspia"
+  },
+  {
+   "at": "p0095",
+   "kind": "chapter",
+   "toc_title": "Chapter VIII. The Plains of Turkistan"
+  },
+  {
+   "at": "p0098",
+   "kind": "chapter",
+   "toc_title": "Chapter IX. Goek Tepe and the Desert of the Black Sands"
+  },
+  {
+   "at": "p0108",
+   "kind": "chapter",
+   "toc_title": "Chapter X. Bokhara the Noble"
+  },
+  {
+   "at": "p0133",
+   "kind": "chapter",
+   "toc_title": "Chapter XI. Samarkand and the Kok Tash"
+  },
+  {
+   "at": "p0166",
+   "kind": "chapter",
+   "toc_title": "Chapter XII. The Shah Zindeh and the Cholera"
+  },
+  {
+   "at": "p0175",
+   "kind": "chapter",
+   "toc_title": "Chapter XIII. Over the Famished Steppes to Tashkend"
+  },
+  {
+   "at": "p0188",
+   "kind": "chapter",
+   "toc_title": "Chapter XIV. Ancient Kokand and Modern Marghilan"
+  },
+  {
+   "at": "p0203",
+   "kind": "chapter",
+   "toc_title": "Chapter XV. Osh and our Departure for the Mountains"
+  },
+  {
+   "at": "p0216",
+   "kind": "chapter",
+   "toc_title": "Chapter XVI. Through “Paradise” to the Deserts of China"
+  },
+  {
+   "at": "p0239",
+   "kind": "chapter",
+   "toc_title": "Chapter XVII. Ill in the Desert"
+  },
+  {
+   "at": "p0257",
+   "kind": "chapter",
+   "toc_title": "Chapter XVIII. “Jorneoff,” the Conqueror of the Pamirs"
+  },
+  {
+   "at": "p0272",
+   "kind": "chapter",
+   "toc_title": "Chapter XIX. The Gates and Tablets of Tamerlane"
+  },
+  {
+   "at": "p0288",
+   "kind": "chapter",
+   "toc_title": "Chapter XX. The Deserted Cities of the Turkomans"
+  },
+  {
+   "at": "p0302",
+   "kind": "chapter",
+   "toc_title": "Chapter XXI. Trebizond and the Cholera Lazarettos of Sinope"
+  },
+  {
+   "at": "p0315",
+   "kind": "chapter",
+   "toc_title": "Chapter XXII. The Dying Czar"
+  },
+  {
+   "at": "p0318",
+   "kind": "chapter",
+   "toc_title": "Chapter XXIII. Stamboul as it Was and Is"
+  }
+ ],
+ "frontispiece": "p0008-1",
+ "toc": {
+  "subtitles": "all"
+ },
+ "keep_hyphens": [
+  "p0039",
+  "p0277"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-21",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
+}

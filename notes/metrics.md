@@ -54,6 +54,7 @@
 | Journal of a Residence in Great Britain v3 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | stanza breaks at page tops joined (found at the review after thirty books by the new `verse-joins` list, checked on the scan) |
 | South by West v4 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | stanza breaks at page tops joined (found at the review after thirty books by the new `verse-joins` list, checked on the scan) |
 | Letters from China & Japan v1 | 2026-11-21 | 290 | Opus draft → Sonnet corrections → Opus judge; spot-read of ~60 pages (front matter, every letter opening, the notice, Note A) and the accents list by an Opus subagent | 6 | 2 / 4 / 0 | 0 | 30.25 | 0 | PASS, 0 waived | 30/30; 0 / 6 (spot-read: 2 accent misprints, 2 small-capital headings, an italic run; preflight: 2 missing opening quotes) | |
+| Trans-Caspia v1 | 2026-11-21 | 317 | Opus draft → Sonnet corrections → Opus judge; 54 crops, spot-read of ~45 pages (front matter, verse, footnotes, chapter openings) and the rendered look by Opus subagents | 32 | 10 / 22 / 0 | 0 | 31.53 | 0 | PASS, 0 waived | 30/30; 0 / 6 (spot-read: 2 printer’s errors, a quote mark; judge crops: 1 printer’s error; rendered look: a head-piece before its heading) | |
 
 ## Calibrations
 

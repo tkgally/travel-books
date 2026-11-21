@@ -820,11 +820,13 @@
    "place": "Cincinnati",
    "publisher": "The Robert Clarke Company",
    "images": 334,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-20",
    "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv (two other books of his are); The Online Books Page: HathiTrust page images only; Wikisource lists it on the author page without a text; web search of a distinctive sentence: nothing. Reprints: a Podi Books facsimile (print on demand). Author 1853–1924 (Wikisource, LC heading). Not checked: Faded Page, WorldCat.",
    "note": "UCLA/SRLF scan, 400 ppi; clean OCR after library-stamp leaves. Photographic plates, frontispiece 'Schamyl'. A diary of a summer 1894 journey: St Petersburg, the Dariel Pass and Tiflis, Baku, the Transcaspian railway, Bokhara, Samarkand, Tashkend, Kokand, over the Alai into Kashgaria, home by Trebizond.",
-   "started": "2026-11-21"
+   "started": "2026-11-21",
+   "version": 1,
+   "published": "2026-11-21"
   },
   {
    "order": 46,
