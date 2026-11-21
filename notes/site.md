@@ -32,6 +32,13 @@ Not planned until a reader or Tom asks: a subject index (`subjects` in `book.jso
 need a fixed list of terms, as `regions` has in `data/places.json`); feeds; covers in the lists (they would make
 the home page heavy and the lists harder to scan).
 
+## The logo (Tom, 2026-11-21)
+
+A stack of three books, chosen by Tom from twenty proposals. `site/assets/logo.svg` is the favicon (`<link
+rel="icon">` in `build_site._page`), with its own light and dark colours; the same drawing is inline in the header
+(`build_site.LOGO`, coloured by `.logo-*` in `site.css` so that it follows the reader's light, sepia or dark
+setting). Change the two together: the test `test_logo_and_favicon_on_every_page` compares them.
+
 ## Rules for the lists
 
 - A new place name in a book's `regions` must be added to `data/places.json` with its part of the world (the

@@ -723,6 +723,29 @@ class SiteLists(unittest.TestCase):
         self.assertIn('<h2 id="contents">', landing)       # where "Continue reading" goes
         self.assertIn('<nav aria-label="Site"><ul>', chapter)
 
+    def test_logo_and_favicon_on_every_page(self):
+        """Tom, 2026-11-21: a logo (a stack of books) as the favicon and beside the name of the site on every page.
+        The favicon is the one file assets/logo.svg; the header copy is inline, in the page's colours, and hidden
+        from screen readers, whose name for the link stays "Travel Books"."""
+        d = os.path.join(self.out, "sample-journey-doe")
+        shutil.copytree(SAMPLE, d)
+        site = os.path.join(self.out, "site")
+        book, _ = build_site.build_book(site, d)
+        build_site.build_index(site, [shelf_book(1)], [])
+        for name, root in ((os.path.join("books", book["id"], "02.html"), "../../"),
+                           (os.path.join("books", book["id"], "index.html"), "../../"), ("index.html", "")):
+            h = open(os.path.join(site, name), encoding="utf-8").read()
+            head = h[:h.index("</head>")]
+            self.assertEqual(re.findall(r'<link rel="icon"[^>]*>', head),
+                             [f'<link rel="icon" href="{root}assets/logo.svg" type="image/svg+xml"/>'])
+            self.assertIn(f'<p class="sitename"><a href="{root}index.html">{build_site.LOGO}Travel Books</a></p>', h)
+        self.assertIn('aria-hidden="true"', build_site.LOGO)
+        svg = open(os.path.join(REPO, "site", "assets", "logo.svg"), encoding="utf-8").read()
+        self.assertNotIn("href", svg)                       # nothing from outside
+        self.assertLess(len(svg), 2000)
+        for shape in re.findall(r"<(?:rect|path) [^>]*>", build_site.LOGO):   # the same drawing in both
+            self.assertIn(re.sub(r'class="logo-(\w)"', r'class="\1"', shape), svg)
+
     def test_reading_bar_is_made_by_the_script_from_the_pager_of_a_chapter(self):
         """Tom, 2026-11-21: a bar at the top of the chapter pages once the reader has scrolled down — the book's
         contents, the previous and next chapter, the Display settings — which a setting switches off. The script
