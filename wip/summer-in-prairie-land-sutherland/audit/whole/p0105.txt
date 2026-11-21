@@ -1,0 +1,5 @@
+{"given": "I believe if is because", "print": "I believe it is because", "sure": "high"}
+{"given": "religion—because the interest felt", "print": "religion—because of the interest felt", "sure": "high"}
+{"given": "you are with us today.", "print": "you are with us to-day.", "sure": "high"}
+{"given": "about the cattle promiscd by", "print": "about the cattle promised by", "sure": "high"}
+{"given": "not seen them yet, and now", "print": "not seen them yet; and now", "sure": "high"}

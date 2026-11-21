@@ -1,0 +1,5 @@
+{"given": "or avaricious neighbor covetous of its", "print": "or avaricious neighbour covetous of its", "sure": "high"}
+{"given": "speed’ from great sisterhood of nations", "print": "speed’ from the great sisterhood of nations", "sure": "high"}
+{"given": "Adherent still, yet happier then alone,", "print": "Adherent still, yet happier than alone,", "sure": "high"}
+{"given": "But unadorned, rough; cold and often", "print": "But unadorned, rough, cold and often", "sure": "high"}
+{"given": "boast those skies of mildcr ray,", "print": "boast those skies of milder ray,", "sure": "high"}
