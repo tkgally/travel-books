@@ -110,6 +110,19 @@ def roman_long_italics(div):
     return out
 
 
+AR = "\u0600-\u06ff\u0750-\u077f\u08a0-\u08ff\ufb50-\ufdff\ufe70-\ufeff"
+SCRIPT_RUNS = [(re.compile(f"[{AR}](?:[{AR}\\s\u200c\u200d]*[{AR}])?"), "ar"),
+               (re.compile("[\u0590-\u05ff](?:[\u0590-\u05ff\\s]*[\u0590-\u05ff])?"), "he")]
+
+
+def tag_scripts(s):
+    """Words in Arabic or Hebrew script get lang and dir="rtl", so that a screen reader picks a voice for them and
+    the browser sets them right to left (*A Land of Mosques and Marabouts*, 2026-11-20; review 2026-11-21)."""
+    for rx, lang in SCRIPT_RUNS:
+        s = rx.sub(lambda m: f'<span lang="{lang}" dir="rtl">{m.group(0)}</span>', s)
+    return s
+
+
 class Ctx:
     """What differs between the website and the EPUB."""
     def __init__(self, book, flavor, names):
@@ -153,7 +166,7 @@ class Ctx:
         out, closers = [], []
         for t in inline.tokens(inline.drop_sides(s)):
             if t[0] == "text":
-                out.append(esc(t[1]))
+                out.append(tag_scripts(esc(t[1])))
             elif t[0] == "empty" and t[1] == "pb":
                 out.append(self.pb(t[2].get("n", ""), t[2].get("leaf", "")))
             elif t[0] == "open":
@@ -166,7 +179,10 @@ class Ctx:
                     # a second reference to the same note ([[fnref * again]]) gets no id: ids must be unique
                     ident = "" if a["to"] in self.seen_ref else f' id="r-{a["to"]}"'
                     self.seen_ref.add(a["to"])
-                    out.append(f'<a class="noteref"{et} role="doc-noteref" href="#{a["to"]}"{ident}>'); close = "</a>"
+                    # a screen reader reads a bare mark ("1", "*") as a digit or a star: name it (review 2026-11-21)
+                    num = re.search(r"-n(\d+)$", a["to"])
+                    label = f' aria-label="Note {num.group(1)}"' if num else ' aria-label="Note"'
+                    out.append(f'<a class="noteref"{et} role="doc-noteref" href="#{a["to"]}"{ident}{label}>'); close = "</a>"
                 elif name == "pageref":
                     tgt = self.targets.get(a.get("n", ""))
                     out.append(f'<a class="pageref" href="{attr(tgt)}">' if tgt else "")

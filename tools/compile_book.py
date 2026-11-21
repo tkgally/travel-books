@@ -413,7 +413,10 @@ def compile_pages(cfg, pages, images=None):
             if h and i < len(d["blocks"]) and d["blocks"][i].get("role") == "subtitle":
                 sub = inline.plain(d["blocks"][i]["text"]).strip()
                 whole = t.rstrip(".") + ". " + sub
-                if len(sub) <= 80:
+                # with "toc": {"subtitles": "all"} every title stays the heading alone, so that the pager and page
+                # titles are alike (*Caucasus*, *Jaunt in Japan*, *Sailor's Visit*: short summaries had gone into
+                # some titles and long ones not; review 2026-11-21)
+                if len(sub) <= 80 and toc_cfg.get("subtitles") != "all":
                     t = whole
             d["title"] = t.rstrip(".") if t else f"[Untitled, {d['first_leaf']}]"
             # book.json "toc": {"subtitles": "all"}: the contents show every chapter summary in full, so that the

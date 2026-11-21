@@ -117,6 +117,11 @@ def apply(verified_text, spots, verdicts, page):
         who = "neither" if choice not in ("A", "B") else ("draft" if (choice == "A") == a_is_draft else "verified")
         if s["n"] in split:
             rows.append(("move judged both ways: verified kept", s, v)); continue
+        if who != "draft" and dropped_images(s, spots):
+            if text.count(s["replace"]) == 1 and s["replace"]:
+                text = text.replace(s["replace"], s["find"]); who = "draft kept: the verifier dropped a picture"
+            else:
+                who = "the verifier dropped a picture (could not undo: edit by hand)"
         if who == "draft":
             if text.count(s["replace"]) == 1:
                 text = text.replace(s["replace"], s["find"])
@@ -127,6 +132,21 @@ def apply(verified_text, spots, verdicts, page):
 
 
 HEADING_LINE = re.compile(r"(?m)^#")
+IMAGE_LINE = re.compile(r"\[\[image:[^\]]*\]\]")
+
+
+def dropped_images(spot, spots):
+    """The draft's [[image: …]] lines that the verifier's reading at this spot leaves out and that no spot on the
+    page puts in elsewhere (a move): the verifier left a picture out and the judge agreed, "sure: medium"
+    (*Zephyrus* p0171, 2026-11-20). A picture is never dropped by the judge."""
+    out = []
+    for m in IMAGE_LINE.findall(spot.get("find", "")):
+        if m in spot.get("replace", ""):
+            continue
+        if any(m in t.get("replace", "") for t in spots if t is not spot):
+            continue
+        out.append(m)
+    return out
 
 
 def must_look(who, sure, spot):
@@ -135,6 +155,8 @@ def must_look(who, sure, spot):
     a heading in small capitals at the page top, took them for running heads and agreed, sure (*Summer Greetings
     from Japan*, 2026-11-20)."""
     if HEADING_LINE.search(spot.get("find", spot.get("draft", ""))) or HEADING_LINE.search(spot.get("replace", spot.get("verified", ""))):
+        return True
+    if IMAGE_LINE.search(spot.get("find", spot.get("draft", ""))) or IMAGE_LINE.search(spot.get("replace", spot.get("verified", ""))):
         return True
     return who != "verified" or sure != "high"
 
