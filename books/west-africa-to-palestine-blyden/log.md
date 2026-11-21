@@ -39,5 +39,6 @@ p0194–p0196); a litany p0188–p0189. No tables, no non-Latin script, few acce
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
+| 2 | 2026-11-21 | PASS, 0 waived — tools@9cff7459 | as v1 (text unchanged except the fix) | p0022 (p. 16): `[[cont]]` restored; the corrections pass had removed it unjudged (found at the review after thirty-five books, checked on the scan) |
 
 ## Known issues

@@ -40,6 +40,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 | Captions with a straight apostrophe or a leading tag made `conservation` (captions) fail though nothing was lost [*Alaska*, 2026-11-20] | captions sorted by their squashed text; test `CaptionOrder` |
 | A stanza ending at a page foot joined to the next page's first stanza by `[[cont]]` [*Twelve Years in Canterbury*, 2026-11-20: caught by the rendered look] | preflight `verse-joins` (observe: stanza lengths on both sides); test `VerseJoins` |
 | A book without `images/cover.jpg` | preflight `cover` (enforce since the review after thirty books) |
+| The verifier dropped two page-top `[[cont]]` marks, applied unjudged as a markup change [*Nile without a Dragoman*, 2026-11-21] | `review.py` lists every `[[cont]]` added or removed; test `test_review_cont_changes` |
 
 ## Always
 

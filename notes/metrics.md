@@ -58,6 +58,7 @@
 | A Yachting Cruise in the South Seas v1 | 2026-11-21 | 243 | Opus draft → Sonnet corrections → Opus judge; 23 crops, spot-read of ~25 pages and the rendered look by Opus subagents | 6 | 4 / 2 / 0 | 1 (a dropped heading, could not be undone by the judge) | 22.96 | 0 | PASS, 0 waived | 29/29; 0 / 6 (spot-read: 2 chapter openings) | |
 | The Land of the Tatami v1 | 2026-11-21 | 156 | Opus draft → Sonnet corrections → Opus judge; 24 crops, spot-read of ~50 pages, accent check of 21 groups and the rendered look by Opus subagents | 9 | 2 / 7 / 0 | 0 | 16.64 | 0 | PASS, 0 waived | 30/30; 1 / 6 (fixed); accent check: 8 õ typed ō, 1 speck; spot-read: 1 heading, 11 printer’s errors; verse-joins: 3 | |
 | The Nile without a Dragoman v1 | 2026-11-21 | 320 | Opus draft → Sonnet corrections → Opus judge; spot-read of 13 pages and every accent group, rendered look, by Opus subagents | 3 | 1 / 2 / 0 | 1 (a misread printed word) | 31.33 | 0 | PASS, 0 waived | 30/30; 1 / 6 (fixed: a turned n); spot-read: a brace group; the corrections pass dropped 2 page-top [[cont]] | |
+| From West Africa to Palestine v2 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | a page-top join removed by the corrections pass (found at the review after thirty-five books, checked on the scan) |
 
 ## Calibrations
 
@@ -99,3 +100,4 @@
 | 2026-11-21 | cover → enforce | review after thirty books: 0 alarms since the check began (all thirty books have a cover); the invented sample book now has one. |
 | 2026-11-21 | conservation (captions) | the captions are sorted by their squashed text, so a straight apostrophe or a leading tag no longer gives a false item (*Alaska*, 2026-11-20). Test `CaptionOrder`. All thirty books keep PASS. |
 | 2026-11-21 | verse-joins (observe) | *The Land of the Tatami*: 3 items, 3 real (numbered stanzas). Running total since the check began: 10 real of 20 outside *Canterbury*. |
+| 2026-11-21 | images, source → enforce | review after thirty-five books: 0 alarms in 35 books for either; the invented sample book now has a source.json. All 35 books keep PASS. |

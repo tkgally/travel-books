@@ -56,8 +56,8 @@ CHECKS = collections.OrderedDict([
     ("verse-joins",     ("observe", "verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan")),
     ("cover",           ("enforce", "images/cover.jpg (or .png) exists: the front cover or the title page")),
     ("accents",         ("observe", "words the book spells with different accents (or with and without): look at each group on the scan")),
-    ("images",          ("observe", "image files not used by any page")),
-    ("source",          ("observe", "source.json: the Drive cache of the page images is recorded")),
+    ("images",          ("enforce", "image files not used by any page")),
+    ("source",          ("enforce", "source.json: the Drive cache of the page images is recorded")),
 ])
 INLINE_TAGS = inline.INLINE
 PAGE_TAG = re.compile(r'</?(?:%s|blockquote|verse)>|<pref(?: to="\w+")?>|</pref>' % "|".join(INLINE_TAGS))

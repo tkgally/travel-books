@@ -367,6 +367,14 @@ class Corrections(unittest.TestCase):
         out, n, sk = corrections.apply("the cat sat on the mat", '{"find": "cat sat", "replace": "cat sits"}\n{"find": "the", "replace": "a"}\nNONE')
         self.assertEqual((out, n, len(sk)), ("the cat sits on the mat", 1, 1))
 
+    def test_review_cont_changes(self):
+        """The corrections pass dropped two page-top [[cont]] marks as a 'markup' change, applied without a spot and
+        never listed (*The Nile without a Dragoman* p0038, p0064, 2026-11-21). Invented text."""
+        d = "[[page 4]]\n\n[[cont]]and so we went on.\n\nThen we stopped."
+        self.assertEqual(review.cont_change(d, d.replace("[[cont]]", "")), "removed")
+        self.assertEqual(review.cont_change(d.replace("[[cont]]", ""), d), "added")
+        self.assertIsNone(review.cont_change(d, d.replace("Then", "So")))
+
     def test_review_kinds(self):
         self.assertEqual(review.kind_of("shew", "show"), "words")
         self.assertEqual(review.kind_of("so, then", "so; then"), "punctuation")

@@ -151,7 +151,8 @@ python3 $R/tools/judge.py --spots $W/spots.json --verified $W/verify --images $B
 python3 $R/tools/normalize.py $W/judge
 mkdir -p $W/pages && cp $W/judge/p*.txt $W/pages/
 ```
-- `review.py`: look at every correction that was not applied, every length outlier, every page with an error.
+- `review.py`: look at every correction that was not applied, every length outlier, every page with an error,
+  and every `[[cont]]` the verifier added or removed (applied unjudged as markup): the indent on the scan settles it.
 - `judge/report.txt`: every "neither", every spot not marked sure, every case where the judge sided with the
   draft, and every change towards a more modern or more usual spelling is looked at on a crop
   (`crop_spot.py $B/pages/pNNNN.jpg 'three words there' $S/c.png`) and the page file in `$W/pages` edited.

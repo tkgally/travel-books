@@ -36,9 +36,11 @@
             - p0014: 'Entrance into Jerusalem—Bishop Gobat—Visit to Church of Holy Sepulchre'
             - p0014: 'Political and Religious Condition of the Holy Land—Description of the '
 [       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
 [ look (1)] accents: words the book spells with different accents (or with and without): look at each group on the scan
             - beirut: beirut (p0014, p0019); beirût (p0136, p0137, p0138, p0139, p0140, p0145…)
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: west-africa-to-palestine-blyden v1 — 0 to fix, 0 waived; to look at: hyphen-joins 1, joins 2, contents 12, accents 1 — tools@6d0b9f2 2026-11-20
+preflight PASS: west-africa-to-palestine-blyden v2 — 0 to fix, 0 waived; to look at: hyphen-joins 1, joins 2, contents 12, accents 1 — tools@9cff7459 2026-11-21
