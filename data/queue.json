@@ -591,11 +591,13 @@
    "place": "Shanghai",
    "publisher": "printed at the “North-China Herald” Office",
    "images": 168,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-20",
    "eligibility": "JATSI 204. Rules 1–4 met. Rule 1: Cornell scan (Kirtas, greyscale), clean, complete (pp. 1–124). Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person sketches of a tour of Japan in 1904–05, written for the North-China Daily News; all Japan. People: George T. Murray, a Shanghai resident; dates not found. Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20).",
    "note": "124 pp.; 11 halftone photographs, some on text pages; title, dedication and chapter heads in blackletter; a few short verses. Short.",
-   "started": "2026-11-21"
+   "started": "2026-11-21",
+   "version": 1,
+   "published": "2026-11-21"
   },
   {
    "order": 33,
