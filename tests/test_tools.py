@@ -1739,25 +1739,37 @@ class Carousel(unittest.TestCase):
         self.assertEqual(len(carousel.check(self.repo)), 3)                    # nothing decided yet
         w, h = carousel.add("book-01", "cover", repo=self.repo)
         self.assertTrue(w <= carousel.BOX[0] and h <= carousel.BOX[1] and h == carousel.BOX[1])
-        other = os.path.join(self.repo, "p0009.jpg")                           # a title page from the scan, outside books/
-        shutil.copyfile(os.path.join(self.repo, "books", "book-02", "images", "cover.jpg"), other)
-        carousel.add("book-02", "title", other, "the cover has no title", repo=self.repo)
-        carousel.omit("book-03", "no cover or title page with a readable title", repo=self.repo)
-        d = carousel.load(self.repo)
-        self.assertEqual(d["books"]["book-01"], {"image": "cover", "from": "images/cover.jpg", "width": w, "height": h})
-        self.assertEqual((d["books"]["book-02"]["image"], d["books"]["book-02"]["from"]), ("title page", "scan p0009.jpg"))
-        self.assertEqual(list(d["omitted"]), ["book-03"])
+        carousel.add("book-02", "title", "the cover has no title", repo=self.repo)
+        carousel.add("book-03", "page", repo=self.repo)        # no readable title anywhere: a page of the text (Tom, 2026-11-21)
+        d = carousel.load(self.repo)["books"]
+        cover = os.path.join(self.repo, "books", "book-01", "images", "cover.jpg")
+        self.assertEqual(d["book-01"], {"image": "cover", "width": w, "height": h, "sha256": carousel.sha(cover)})
+        self.assertEqual((d["book-02"]["image"], d["book-02"]["note"], d["book-03"]["image"]), ("title page", "the cover has no title", "page of the text"))
         self.assertEqual(carousel.check(self.repo), [])
-        self.assertEqual(sorted(os.listdir(os.path.join(self.repo, "site", "carousel"))), ["book-01.jpg", "book-02.jpg"])
-        # a book left out after it was in: its thumbnail goes; a thumbnail lost, a book unpublished: reported
-        carousel.omit("book-02", "changed", repo=self.repo)
-        self.assertEqual(os.listdir(os.path.join(self.repo, "site", "carousel")), ["book-01.jpg"])
-        os.remove(os.path.join(self.repo, "site", "carousel", "book-01.jpg"))
+        self.assertEqual(sorted(os.listdir(os.path.join(self.repo, "site", "carousel"))), ["book-01.jpg", "book-02.jpg", "book-03.jpg"])
+        # the book's picture replaced (the thumbnail must be the same picture as on the book's page), a thumbnail
+        # lost, a book unpublished: each reported
+        from PIL import Image
+        Image.new("RGB", (700, 1100), "#eee").save(cover)
+        os.remove(os.path.join(self.repo, "site", "carousel", "book-02.jpg"))
         shutil.rmtree(os.path.join(self.repo, "books", "book-03"))
-        self.assertEqual(carousel.check(self.repo), ["in the record but not a published book: book-03",
-                                                     "thumbnail missing: site/carousel/book-01.jpg"])
+        self.assertEqual(carousel.check(self.repo), [
+            "in the record but not a published book: book-03",
+            "thumbnail missing: site/carousel/book-02.jpg",
+            "the picture has changed since the thumbnail was made: books/book-01/images/cover.jpg (look at it; carousel.py add)"])
+        carousel.add("book-01", "title", repo=self.repo)
+        self.assertEqual(len(carousel.check(self.repo)), 2)
         with self.assertRaises(SystemExit):
             carousel.add("book-09", "cover", repo=self.repo)
+
+    def test_the_picture_on_the_book_page_is_named_for_what_it_is(self):
+        d = os.path.join(self.repo, "sample-journey-doe")
+        shutil.copytree(SAMPLE, d)
+        book, _ = compile_book.compile_book(d)
+        names = rh.file_names(book, ".html")
+        for kind, alt in ((None, "Cover of the book"), ("cover", "Cover of the book"), ("title page", "Title page of the book"),
+                          ("page of the text", "A page of the book")):
+            self.assertIn(f'<img class="cover" src="images/cover.jpg" alt="{alt}"/>', build_site.book_page(book, names, True, kind))
 
     def test_home_page_has_the_row_above_the_title_outside_main(self):
         books = [shelf_book(2, title='A "Quoted" Journey'), shelf_book(1), shelf_book(3), shelf_book(4)]
@@ -1804,3 +1816,14 @@ class Carousel(unittest.TestCase):
         for piece in ("Math.random()", "'aria-label': 'More books'", "'aria-label': 'Earlier books in the row'",
                       "prefers-reduced-motion", "p < 0.5 ? 4 * p * p * p"):
             self.assertIn(piece, fn)
+        # the row has no end: whole groups go from one end of the list to the other (no book twice in the page),
+        # but not under a reader who is going through the links with the Tab key
+        for piece in ("list.insertBefore(list.lastElementChild, list.firstElementChild)", "list.appendChild(list.firstElementChild)",
+                      "* n;", "f.matches(':focus-visible')) return;"):
+            self.assertIn(piece, fn)
+        self.assertNotIn("cloneNode", fn)
+        self.assertNotIn("disabled", fn)
+        # arrows only where there is a mouse (Tom: on phones and tablets readers swipe); their disks let the page show through
+        self.assertRegex(rules, r"\.carousel button \{[^}]*display: none;")
+        self.assertIn("@media (hover: hover) and (pointer: fine) { .carousel button { display: block; } }", rules)
+        self.assertIn("color-mix(in srgb, var(--bg) 62%, transparent)", rules)

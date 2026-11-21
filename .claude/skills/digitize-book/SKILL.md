@@ -16,7 +16,8 @@ places where books actually go wrong. Rules: `CLAUDE.md`. Text decisions: `notes
 2. Fetch once from IA, make page images, **look at every contact sheet** and a dozen pages at full size. A
    missing, cut-off or blurred page, or an unopened folding plate, stops the book here (try another scan).
 3. Write the page map in `wip/<slug>/log.md`; cache the page images in Drive; extract full-size leaves for the
-   plates and the cover; commit.
+   plates and the book's picture (`images/cover.jpg`: the cover if the title is clearly readable on it, otherwise
+   the title page — `notes/workflow.md` §5); commit.
 4. Read `notes/lessons.md` "Always" and the triggers this book has. If the book has something in
    `notes/workflow.md` §"Not yet solved", either add the support first (tool + test + markup doc) or choose
    another book.

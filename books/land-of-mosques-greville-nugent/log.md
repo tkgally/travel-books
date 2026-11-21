@@ -49,3 +49,5 @@ places (dedication, two words p0231, Appendix B). Draft: p0005–p0248 without t
 | 1 | 2026-11-20 | preflight PASS v1, 2 waived (leaves: tissue guard) (tools@a8d0460) | 30/30, 0 real | look items: hyphen-joins (decided), quote-balance p0057 (balanced line by line), accents (as printed) |
 
 ## Known issues
+
+- 2026-11-21 (Tom's session on the home page): `images/cover.jpg` is now the title page (leaf p0013, from the Drive cache), not the front cover, on which no title can be read (Tom: the picture on the book's page and in the carousel must have a readable title). No new version: the text is unchanged; the EPUB's cover picture changes with it.

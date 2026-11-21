@@ -86,3 +86,5 @@ Scan check: all 12 contact sheets looked at 2026-11-19; full size: p0025, p0116,
 ## Known issues
 - Waivers: quote-balance p0124 (as printed), spacing p0170 (a ditto mark). The `contents` look item on p0021 is the
   Chapter XIX topics running over to p0022 (the check reads one page at a time).
+
+- 2026-11-21 (Tom's session on the home page): `images/cover.jpg` is now the title page (leaf p0009, from the Drive cache), not the front cover, on which no title can be read (Tom: the picture on the book's page and in the carousel must have a readable title). No new version: the text is unchanged; the EPUB's cover picture changes with it.
