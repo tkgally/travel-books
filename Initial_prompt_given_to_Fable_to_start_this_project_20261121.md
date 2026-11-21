@@ -11,6 +11,7 @@ The cost for this project is being covered by my Ultra subscription to Claude ($
 According to Claude’s reports at the end of each session, if I were paying for the use of Claude models through the API instead of my subscription, each book would cost between about $20 and $100 dollars to convert to text using this workflow. That’s more than I would be willing to pay.
 
 Tom Gally
+
 November 21, 2026
 
 ## Prompt to Fable 5.2
