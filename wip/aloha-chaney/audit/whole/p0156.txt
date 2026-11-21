@@ -1,5 +1,0 @@
-{"given": "Puna and onomea.", "print": "PUNA AND ONOMEA.", "sure": "high"}
-{"given": "where Mr. L—— has house and", "print": "where Mr. L—— has a house and", "sure": "high"}
-{"given": "when mounted on one of this horses,", "print": "when mounted on one of his horses,", "sure": "high"}
-{"given": "the cattle on a thousand hills; but", "print": "the cattle on a thousand hills, but", "sure": "high"}
-{"given": "He is the eldcst son of", "print": "He is the eldest son of", "sure": "high"}

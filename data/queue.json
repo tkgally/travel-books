@@ -1115,11 +1115,13 @@
    "place": "Boston",
    "publisher": "Roberts Brothers",
    "images": 336,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-21",
    "eligibility": "Checked 2026-11-21 (Opus subagent): not in pg_catalog.csv (whole file); The Online Books Page (title and author) and Wikisource: nothing; web search of a sentence (p. 135): nothing. Only Forgotten Books (print on demand). Chaney 1836–1922 (LoC, Michigan records). No illustrator credited. Not checked: Faded Page, WorldCat.",
    "note": "Library of Congress scan, 300 ppi; a Michigan copy (aba2387.0001.001.umich.edu, 600 ppi, probably bilevel) as a fallback: compare at the scan check. About 300 pp.: a journal of a winter in Hawaii about 1878–79: Honolulu and Waikiki, a voyage with the Prince, Hilo, Kilauea, Puna, Kona, Hualalai, Haleakala, round Oahu. Hawaiian words (check the ʻokina/apostrophes as printed).",
-   "started": "2026-11-21"
+   "started": "2026-11-21",
+   "version": 1,
+   "published": "2026-11-21"
   },
   {
    "order": 62,

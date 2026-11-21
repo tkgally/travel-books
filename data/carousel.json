@@ -1,5 +1,12 @@
 {
  "books": {
+  "aloha-chaney": {
+   "image": "title page",
+   "width": 257,
+   "height": 450,
+   "sha256": "890002bc839c618ba51b59d4de5667e9d622132b50f21aab8ddc0116cf767e29",
+   "note": "plain cloth cover"
+  },
   "argentine-plains-larden": {
    "image": "cover",
    "width": 267,

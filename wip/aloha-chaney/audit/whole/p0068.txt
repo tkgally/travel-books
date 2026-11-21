@@ -1,5 +1,0 @@
-{"given": "declivity. When we tie the horses", "print": "declivity. Then we tie the horses", "sure": "high"}
-{"given": "hirta, and today we hardly", "print": "hirta, and to-day we hardly", "sure": "high"}
-{"given": "we could see; on the under side", "print": "we could see, on the under side", "sure": "high"}
-{"given": "the thought in natnre, more", "print": "the thought in nature, more", "sure": "high"}
-{"given": "pleasure than magnificent specimens we", "print": "pleasure than the magnificent specimens we", "sure": "high"}
