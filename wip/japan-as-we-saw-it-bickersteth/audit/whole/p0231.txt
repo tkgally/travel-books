@@ -1,0 +1,5 @@
+{"given": "shared that little space common by", "print": "shared that little space in common by", "sure": "high"}
+{"given": "we perhaps were iuwardly delighted", "print": "we perhaps were inwardly delighted", "sure": "high"}
+{"given": "insisted on the japanese setting up", "print": "insisted on the Japanese setting up", "sure": "high"}
+{"given": "to keep the people or the alert", "print": "to keep the people on the alert", "sure": "high"}
+{"given": "The screams of the people; and", "print": "The screams of the people, and", "sure": "high"}

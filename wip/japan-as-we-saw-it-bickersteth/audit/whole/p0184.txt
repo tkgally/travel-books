@@ -1,0 +1,4 @@
+{"given": "desire that if pofsible your Lordship", "print": "desire that if possible your Lordship", "sure": "high"}
+{"given": "Mrs. and Miss bickersteth may be", "print": "Mrs. and Miss Bickersteth may be", "sure": "high"}
+{"given": "476,000 inhabitants) on sea-coast, and only", "print": "476,000 inhabitants) on the sea-coast, and only", "sure": "high"}
+{"given": "We bad a pleasant journey from", "print": "We had a pleasant journey from", "sure": "high"}
