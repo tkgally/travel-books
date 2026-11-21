@@ -4,7 +4,7 @@ I began this project on November 19, 2026, by giving the following prompt to Cla
 
 I had run similar experiments on and off for more than a year with having AI agents transcribe and proofread book scans. The most recent models and harnesses had improved enough to produce digital books that are, in my opinion, sufficiently accurate and well-formatted for smooth reading and online publication.
 
-There was some later back-and-forth with Claude about details of the workflow, my preferred style guidelines, the interface, etc. But the the prompt gives the main framework. Perhaps the most novel aspect of this framework is how it asks Claude to continually monitor, adjust, and improve the workflow itself. In subsequent sessions, it seems to be doing just that.
+There was some later back-and-forth with Claude about details of the workflow, my preferred style guidelines, the interface, etc. But the prompt gives the main framework. Perhaps the most novel part is how it asks Claude to continually monitor, adjust, and improve the workflow itself. In subsequent sessions, it seems to be doing just that.
 
 The cost for this project is being covered by my Ultra subscription to Claude ($200 a month), which I also use for other projects. I am monitoring how much of my subscription this project consumes, and I will adjust the frequency of scheduled runs accordingly.
 
