@@ -1,6 +1,6 @@
 ## Background
 
-I began this project on November 19, 2026, by giving the following prompt to Claude Fable 5.2. I was sitting in a Doutour coffee shop in Isezakicho, Yokohama, and the prompt took me about an hour to write.
+I began this project on November 19, 2026, by giving the prompt below to Claude Fable 5.2. I wrote it in a Doutour coffee shop in Isezakicho, Yokohama, Japan. The prompt took me about an hour to write.
 
 I had run similar experiments on and off for more than a year with having AI agents transcribe and proofread book scans. The most recent models and harnesses had improved enough to produce digital books that are, in my opinion, sufficiently accurate and well-formatted for smooth reading and online publication.
 
@@ -14,7 +14,7 @@ Tom Gally
 
 November 21, 2026
 
-## Prompt to Fable 5.2
+## Initial prompt to Fable 5.2
 
 The connected repo travel-books, which I created just now, is for a new long-term, open-ended public project. The goal of the project is to create and publish to the public domain highly accurate and readable digital versions of first-person nonfiction travel books written and published in English before 1914. The books can be from any era, by any author or authors, and about travel to or in any part of the world. For the time being, the conditions for choosing books are as follows:
 
