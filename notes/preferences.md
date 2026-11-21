@@ -287,6 +287,11 @@ How this was carried out: `RESUME.md` §"How long a session runs", `tools/sessio
 - **Less space between a decorative banner above a chapter title and the title** (e.g. *A Yachting Cruise in the
   South Seas*): there was too much.
 
+- **Later the same day, the home page's second paragraph ends:** "Books are also being added from the project
+  Japan As They Saw It, so the site has more books about Japan than about other countries." — the name linked
+  to `japan-as-they-saw-it.html` on this site (not, here, to his project's own site), in place of "Others come
+  from … (about these books); for that reason …".
+
 ## Questions for Tom
 
 None open.
