@@ -57,6 +57,7 @@
 | Trans-Caspia v1 | 2026-11-21 | 317 | Opus draft → Sonnet corrections → Opus judge; 54 crops, spot-read of ~45 pages (front matter, verse, footnotes, chapter openings) and the rendered look by Opus subagents | 32 | 10 / 22 / 0 | 0 | 31.53 | 0 | PASS, 0 waived | 30/30; 0 / 6 (spot-read: 2 printer’s errors, a quote mark; judge crops: 1 printer’s error; rendered look: a head-piece before its heading) | |
 | A Yachting Cruise in the South Seas v1 | 2026-11-21 | 243 | Opus draft → Sonnet corrections → Opus judge; 23 crops, spot-read of ~25 pages and the rendered look by Opus subagents | 6 | 4 / 2 / 0 | 1 (a dropped heading, could not be undone by the judge) | 22.96 | 0 | PASS, 0 waived | 29/29; 0 / 6 (spot-read: 2 chapter openings) | |
 | The Land of the Tatami v1 | 2026-11-21 | 156 | Opus draft → Sonnet corrections → Opus judge; 24 crops, spot-read of ~50 pages, accent check of 21 groups and the rendered look by Opus subagents | 9 | 2 / 7 / 0 | 0 | 16.64 | 0 | PASS, 0 waived | 30/30; 1 / 6 (fixed); accent check: 8 õ typed ō, 1 speck; spot-read: 1 heading, 11 printer’s errors; verse-joins: 3 | |
+| The Nile without a Dragoman v1 | 2026-11-21 | 320 | Opus draft → Sonnet corrections → Opus judge; spot-read of 13 pages and every accent group, rendered look, by Opus subagents | 3 | 1 / 2 / 0 | 1 (a misread printed word) | 31.33 | 0 | PASS, 0 waived | 30/30; 1 / 6 (fixed: a turned n); spot-read: a brace group; the corrections pass dropped 2 page-top [[cont]] | |
 
 ## Calibrations
 
