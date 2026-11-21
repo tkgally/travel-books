@@ -88,6 +88,7 @@ Do each work once and say on the queue row which entries it covers.
 
 | Date | What |
 |---|---|
+| 2026-11-21 | *The Eastern Seas* (Bax, 1875; n 40) published from the Cornell scan: Japan is about a third (Kobé, Nagasaki, Fusi-yama, Yesso), the rest China, Formosa and Siberia; romanized names as printed (Haconé and Hacone both); no Japanese script. *Sketches of Life in Japan* (Knollys, n 73) set `waiting`: the only scan has lost parts of ten pages. Next due: two other books, then JATSI. |
 | 2026-11-20 | *Japan: A Sailor’s Visit to the Island Empire* (Cook, 1891; n 83) published from the BYU scan: no Japanese script, romanized words without accents (one Ōtani). Next due: two other books, then JATSI. |
 | 2026-11-20 | Fourth JATSI book published: *A Jaunt in Japan* (n 142; Jackson, 1899), Cornell scan; errata slip applied; no Japanese script. Next due: two other books, then JATSI. |
 | 2026-11-20 | Third JATSI book published: *A Cruise in the U.S. Steam Frigate Mississippi* (n 14; Gragg, 1860), LoC scan with the cut last page from the UC (Google) scan. Romanized names as printed (Nangasaki, Simoda, Hakodadi, Jeddo, Kanagarva); no Japanese script. Next due: two other books, then JATSI. |
