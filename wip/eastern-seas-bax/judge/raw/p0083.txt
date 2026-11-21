@@ -1,0 +1,1 @@
+{"n": 1, "is": "B", "print": "of those\n\n[[image: two Chinese men standing beside a small open stone tomb holding large earthen pots, with water, hills and a house flying a flag behind]]\n[[caption]] Potted Ancestors, Amoy.\n\n[[cont]]that have been collected and placed in earthen pots.", "sure": "high"}

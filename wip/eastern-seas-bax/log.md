@@ -4,7 +4,7 @@ IA: cu31924023270782 (Cornell University Library, Wason Collection; 348 leaves, 
 Eligibility: JATSI row (vetted 2026-11-20): a good scan is the requirement; facsimile reprints (Ganesha 2004, Elibron 2002) noted. Bax 1837–1877.
 
 ## Status
-Stage reached: (a) scan checked; draft started.            Next step: Drive cache, crops, corrections pass.
+Stage reached: (c) structure, metadata, audit done; spot-read and rendered look running.            Next step: apply their findings, preflight, publish.
 
 ## Page map
 **Correction (session, from the draft and the crops): the scan check's leaf numbers below are one too high from p0005 to about p0037 and for some later leaves.** Actual: p0003 IA card · p0004 half-title · p0005 inscription · p0006 signature (both library material, not drafted) · p0007 frontispiece · p0008 title · p0010 Preface · p0014–p0015 Contents · p0016 List of Illustrations · p0018 Chapter I (with the running title) · chapters as drafted: I p0018, II p0054, III p0076, IV p0124, V p0157, VI p0178, VII p0216, VIII p0240, IX p0270, X p0298 · woodcuts p0036 0046 0052 0080 0083 0143 0186 0222 0245; plates p0075, p0173 (upright), p0182; map p0053 · Murray's list p0312–p0343. Drafted: p0004, p0007–p0343 (p0005 drafted by mistake as blank; its file is removed).
@@ -16,10 +16,19 @@ Woodcuts in the text: p0037 0046 0052 0080 0083 0143 0186 0222 0245; plates (sid
 Has: a footnote p0198; a translated Chinese proclamation pp. 264–266 (p0287–); an inscription p. 282 (p0305); romanized names (Kobé, Hakodaté, Fusi-yama); no non-Latin script.
 
 ## Decisions
+- Draft p0004 (half-title), p0007–p0343; p0005 (inscription) and p0006 (signature) waived as library material.
+- Contents chapter lines typed `[[center]]`; editions' contents: every chapter with its printed summary. "The Eastern Seas." above Chapter I: a front division (n 1), Chapter I n 2. Murray's list (p0312–p0343) as advertisements, JSON only.
+- The corrections pass moved six woodcuts to where they stand on the page, inside the paragraph, with `[[cont]]` after the caption; the judge agreed (high); p0143 and p0245 needed the `[[cont]]` too (preflight `image-splits`).
+- Judge spots on crops: "Takeäng" (draft right), "fir trees" (line end without hyphen; judge's "fir-trees" undone), "Remains, A" (comma printed).
+- Accents as printed (crops): Ch‘ên-an-shêng, depôt/dépôt, Hacone/Haconé. Folio p0291 printed with a broken 6: [[page 268]]. keep_hyphens p0262 (Meac-sima).
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-21 | opus | 339 | 22.75 | no page refused (p0004, p0007 drafted later) |
+| corrections | 2026-11-21 | sonnet | 339 | 11.06 | 25 changes (6 woodcuts moved into their paragraphs) |
+| judge | 2026-11-21 | opus | 18 spots / 14 pp. | 0.62 | 12 verifier, 6 draft; 1 overturned on the crop |
+| audit | 2026-11-21 | opus | 6 | 0.34 | 30/30; 0 candidates (p0066 p0135 p0155 p0170 p0198 p0229) |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |

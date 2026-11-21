@@ -1,0 +1,5 @@
+{"given": "stones. If is shaded by", "print": "stones. It is shaded by", "sure": "high"}
+{"given": "at a very good harbor called", "print": "at a very good harbour called", "sure": "high"}
+{"given": "there were deer on it; and other game.", "print": "there were deer on it, and other game.", "sure": "high"}
+{"given": "partially cultivated with rice sweet potato.", "print": "partially cultivated with rice and sweet potato.", "sure": "high"}
+{"given": "foreign vessels when passiug through the", "print": "foreign vessels when passing through the", "sure": "high"}

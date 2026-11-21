@@ -1,0 +1,5 @@
+{"given": "good-fellowship and hospitality each other and", "print": "good-fellowship and hospitality to each other and", "sure": "high"}
+{"given": "who kindly asked the ofsicers of the", "print": "who kindly asked the officers of the", "sure": "high"}
+{"given": "capital theatricals at the French theater attached", "print": "capital theatricals at the French theatre attached", "sure": "high"}
+{"given": "having found out that those were feast", "print": "having found out that these were feast", "sure": "high"}
+{"given": "a large godown or store-house; which was", "print": "a large godown or store-house, which was", "sure": "high"}

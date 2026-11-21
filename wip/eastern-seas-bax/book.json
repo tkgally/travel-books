@@ -6,7 +6,7 @@
  "collection": "jatsi",
  "authors": [
   {
-   "name": "B. W. Bax",
+   "name": "Captain B. W. Bax, R.N.",
    "sort": "Bax, B. W.",
    "born": 1837,
    "died": 1877
@@ -16,5 +16,112 @@
  "source": {
   "ia_identifier": "cu31924023270782",
   "contributor": "Cornell University Library"
+ },
+ "subtitle": "Being a Narrative of the Voyage of H.M.S. “Dwarf” in China, Japan, and Formosa. With a Description of the Coast of Russian Tartary and Eastern Siberia, from the Corea to the River Amur",
+ "short_title": "The Eastern Seas",
+ "place": "London",
+ "publisher": "John Murray",
+ "edition_statement": "First edition",
+ "regions": [
+  "China",
+  "Taiwan",
+  "Japan",
+  "Okinawa",
+  "Siberia",
+  "Russia",
+  "Hong Kong",
+  "Saint Helena",
+  "South Africa",
+  "Mauritius",
+  "Singapore"
+ ],
+ "period": "1871–1874",
+ "subjects": [
+  "Royal Navy",
+  "Surveying",
+  "Missions",
+  "Japanese expedition to Formosa, 1874"
+ ],
+ "summary": "Bonham Ward Bax commanded the gun-vessel H.M.S. Dwarf on the China station from July 1871 to November 1874, and wrote this account of the commission. After the passage out by troopship round the Cape, the book follows the Dwarf along the coast of China and Formosa: Amoy and the North River, mission stations, Foo-chow, Kelung, the Loo-choo Islands, a visit to the hill tribes of Formosa and a search for shipwrecked crews. Chapter II is a history of Formosa compiled from other writers. In Japan he visits Kobé and Nagasaki and climbs Fuji (Fusi-yama), and he describes a voyage to the Russian harbours on the coast of Tartary and Eastern Siberia and to Yesso. Later chapters cover the Japanese expedition to Formosa in 1874, with a translated Chinese proclamation, and a last round of Shanghai, Nanking and Ningpo.",
+ "frontispiece": "p0007-1",
+ "toc": {
+  "subtitles": "all"
+ },
+ "omitted_from_reading": "The half-title, the title page, the printed contents, the list of illustrations, the running title “The Eastern Seas” above Chapter I and the publisher’s list of works at the end are in the JSON only; the frontispiece opens the reading editions.",
+ "notes_on_text": [
+  "The contents entries give each chapter’s printed summary.",
+  "The map of Formosa, not in the list of illustrations, is bound after p. 35 at the end of Chapter I and is shown there."
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-21",
+   "note": "First publication."
+  }
+ ],
+ "divisions": [
+  {
+   "at": "p0004",
+   "kind": "front",
+   "title": "Half-title"
+  },
+  {
+   "at": "p0007",
+   "kind": "front",
+   "title": "Frontispiece"
+  },
+  {
+   "at": "p0008",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0010",
+   "kind": "preface"
+  },
+  {
+   "at": "p0014",
+   "kind": "contents"
+  },
+  {
+   "at": "p0016",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0018",
+   "kind": "front",
+   "n": 1
+  },
+  {
+   "at": "p0018",
+   "kind": "chapter",
+   "n": 2
+  },
+  {
+   "at": "p0312",
+   "kind": "advertisements"
+  }
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0005",
+   "why": "a handwritten presentation inscription of 1877 (library material, not part of the book); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0006",
+   "why": "a leaf blank but for an owner's signature (library material); not transcribed"
+  }
+ ],
+ "keep_hyphens": [
+  "p0262"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-21",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
  }
 }

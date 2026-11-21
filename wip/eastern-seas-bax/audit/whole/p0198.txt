@@ -1,0 +1,5 @@
+{"given": "and have pavcments of wooden planks", "print": "and have pavements of wooden planks", "sure": "high"}
+{"given": "commenced removing to vladivostok to prepare", "print": "commenced removing to Vladivostok to prepare", "sure": "high"}
+{"given": "from the dockyard bad also been", "print": "from the dockyard had also been", "sure": "high"}
+{"given": "belonging to some of the houses, in them", "print": "belonging to some of the houses; in them", "sure": "high"}
+{"given": "which appeared grow very well.", "print": "which appeared to grow very well.", "sure": "high"}

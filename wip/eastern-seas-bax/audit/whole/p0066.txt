@@ -1,0 +1,5 @@
+{"given": "If not, set them only", "print": "If not, let them only", "sure": "high"}
+{"given": "a more vigorons defence", "print": "a more vigorous defence", "sure": "high"}
+{"given": "began a close blockade; and meanwhile", "print": "began a close blockade, and meanwhile", "sure": "high"}
+{"given": "parishioners to kill Chinese residing", "print": "parishioners to kill the Chinese residing", "sure": "high"}
+{"given": "crucified by the chinese, and", "print": "crucified by the Chinese, and", "sure": "high"}
