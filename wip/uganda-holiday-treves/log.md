@@ -4,9 +4,8 @@ IA: cu31924028599680 (Cornell University Library; 340 leaves; the New York, E. P
 Eligibility: vetted 2026-11-21 (queue row); re-checked 2026-11-21: web search of the title finds only booksellers, catalogue records, a library's page-image scan (Qatar National Library) and print-on-demand reprints; no reading edition. Treves 1853–1923.
 
 ## Status
-Stage reached: (a) scan checked and cached in Drive (25 parts); no model runs. **Tom answered 2026-11-21: yes, publish
-without the folding map** (`notes/preferences.md`). Next step: draft p0004–p0332 less blanks (`ocr_claude.py … --pages`);
-say in `notes_on_text` that the map named in the list of illustrations is not in the scans.
+Stage reached: (c) preflight clean except the audit (now recorded), audit 35/35, 0 candidates. Waiting for the rendered look and
+the spot-read of front matter, footnote, table and verse pages (Opus subagents), then preflight, publish.
 
 ## Page map
 Scan check (Opus subagent, 2026-11-21; all sheets, header OCR of every leaf): every printed page 1–233 present; no
@@ -25,10 +24,21 @@ Plates (41; blank back after each, except p0162/p0163 and p0254/p0255 blank firs
 Has: numbered footnotes; a game-licence table p. 82 (p0123); verse p. 221; italics for Latin names; æ.
 
 ## Decisions
+- Published without the folding map (Tom, 2026-11-21); said in `notes_on_text`.
+- “Uganda for a Holiday” printed above Chapter I on p. 1: a `front` division (`n` 1) with Chapter I as `n` 2 (lessons).
+- Blank leaves get `[[blank]]` page files; full-size plate leaves fetched page by page from IA (`page/nN.jpg`, 42 leaves) because the
+  first session cached only the working images (allowed: workflow §1.6).
+- Judge: p0251 “débouchure” and p0292 “opéra” (accents preflight) — the draft read é as ê in italics; p0232 caption: a speck read as “(”.
+- p0314: the paragraph after the verse quotation on p. 221 starts flush but cannot be continued (workflow “Not yet solved”).
+- Period “1910” inferred (figures for 1909 quoted; preface August 1910); said in the summary.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-21 | opus | 282 | 18.35 | p0226 refused → fallback ($0.07) |
+| corrections | 2026-11-21 | sonnet | 282 | 9.25 | 13 changes |
+| judge | 2026-11-21 | opus | 5 spots | 0.22 | 4 to look at; 1 judge wrong (p0251) |
+| audit | 2026-11-21 | opus | 6 + p0226 | 0.41 | 30/30, 5/5; 0 candidates |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
