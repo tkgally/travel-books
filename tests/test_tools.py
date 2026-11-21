@@ -986,6 +986,20 @@ class Ledger(unittest.TestCase):
         shutil.rmtree(os.path.join(tmp, "wip"))
         self.assertEqual(ledger.check(good, j, tmp), [])
 
+    def test_waiting_book_may_keep_its_wip_folder(self):
+        """A book set to `waiting` mid-way keeps wip/<slug>/ and its log (RESUME.md §2.3; *Uganda for a Holiday*,
+        2026-11-21: the check called that an error)."""
+        tmp = tempfile.mkdtemp()
+        self.addCleanup(shutil.rmtree, tmp, True)
+        for d in ("wip", "books"):
+            os.makedirs(os.path.join(tmp, d, "s0"))
+            json.dump({"id": "s0"}, open(os.path.join(tmp, d, "s0", "book.json"), "w"))
+        shutil.rmtree(os.path.join(tmp, "books"))
+        self.assertEqual(ledger.check(self.q({"status": "waiting"}), {"books": []}, tmp), [])
+        os.makedirs(os.path.join(tmp, "books", "s0"))
+        json.dump({"id": "s0"}, open(os.path.join(tmp, "books", "s0", "book.json"), "w"))
+        self.assertIn("is in books/", "\n".join(ledger.check(self.q({"status": "waiting"}), {"books": []}, tmp)))
+
     def test_the_real_ledger_is_consistent(self):
         q, j = ledger.load()
         self.assertEqual(ledger.check(q, j), [])

@@ -955,11 +955,12 @@
    "place": "London (scan is the New York, E. P. Dutton issue)",
    "publisher": "Smith, Elder & Co. / E. P. Dutton",
    "images": 340,
-   "status": "in progress",
+   "status": "waiting",
    "checked": "2026-11-21",
    "eligibility": "Checked 2026-11-21 (Opus subagent): PG catalogue (author and title): his other books are there, not this one. Online Books Page: none. Wikisource: no work or Index page (Author:Frederick Treves does not list it). Faded Page: web search found nothing; direct search not possible. Web search of the title and of the sentence 'a land as green as Devonshire in June': no text found. Reprints: Forgotten Books 'Classic Reprint' and HardPress 2013 only (both print-on-demand). Treves 1853-1923 (IA, PG catalogue). Photographs are the author's own.",
    "note": "Cornell scan, 300 ppi, JP2 zip. Text 233 pp. 72 photographs on 42 plates and a folding map at the end (check it is shown unfolded). From Mombasa by the Uganda Railway to Nairobi, a safari in the Rift Valley, round Lake Victoria to Kampala and the source of the Nile. Some quoted game laws and one table.",
-   "started": "2026-11-21"
+   "started": "2026-11-21",
+   "waiting_for": "Tom: publish without the folding map? It is not in either IA scan (Cornell: not there; NYPL Google scan: folded, not opened). Text and all 41 plates complete in the Cornell scan."
   },
   {
    "order": 53,
