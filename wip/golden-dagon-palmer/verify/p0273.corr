@@ -1,0 +1,11 @@
+{"find": "occupied, in his turn", "replace": "occupied, in his turn"}
+
+Wait — I need to check this against the image. The draft has "occupied, in his turn" and the image reads "occupied, in his turn", so that line is fine.
+
+Comparing the rest of the page, the differences I see are:
+
+{"find": "shoot, and run", "replace": "shoot, and run"}
+
+That one matches too. Taking the whole page word by word, I found no differences.
+
+NONE

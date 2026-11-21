@@ -1,0 +1,77 @@
+{
+ "p0203": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "by <i>riksha</i> along",
+   "replace": "by <i>ricksha</i> along",
+   "draft": "by <i>riksha</i> alo",
+   "verified": "by <i>ricksha</i> alo",
+   "context": "acred island of Miyajima. The first part of the journey was by <i>riksha</i> along an excellent road about ten miles to Ajina. My <i>riksha</i"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "<i>riksha</i>-man",
+   "replace": "<i>ricksha</i>-man",
+   "draft": "<i>riksha</i>-man",
+   "verified": "<i>ricksha</i>-man",
+   "context": "ha</i> along an excellent road about ten miles to Ajina. My <i>riksha</i>-man wore the usual hat, which has been compared to a washing-ba"
+  }
+ ],
+ "p0207": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<i>riksha</i>-man",
+   "replace": "<i>ricksha</i>-man",
+   "draft": "<i>riksha</i>-man",
+   "verified": "<i>ricksha</i>-man",
+   "context": "ling on the part of two men and a boy to get us across. The <i>riksha</i>-man was again soon in a profound sleep, laying in a store of fr"
+  }
+ ],
+ "p0294": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<i>Cæsar's Column</i>",
+   "replace": "<i>Cœsar's Column</i>",
+   "draft": "<i>Cæsar's Column",
+   "verified": "<i>Cœsar's Column",
+   "context": "ntis, the Antediluvian World</i>, 12<i>s.</i> 6<i>d.</i> ⏎  ⏎ ——<i>Cæsar's Column</i>, authorised edition, 3<i>s.</i> 6<i>d.</i> ⏎  ⏎ ——<i>Doctor Hug"
+  }
+ ],
+ "p0296": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "illust. by E. A. Abbey, 84<i>s.</i>",
+   "replace": "illust. by E. A. Abbey, 81<i>s.</i>",
+   "draft": " A. Abbey, 84<i>s.</i>",
+   "verified": " A. Abbey, 81<i>s.</i>",
+   "context": "DSMITH, O., <i>She Stoops to Conquer</i>, by Austin Dobson, illust. by E. A. Abbey, 84<i>s.</i> ⏎  ⏎ —— See also Choice Editions. ⏎ "
+  }
+ ],
+ "p0309": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "Anti-Jacobin</i>, 7<i>s.</i> 6<i>d.</i>",
+   "replace": "Anti-Jacobin</i>. 7<i>s.</i> 6<i>d.</i>",
+   "draft": "-Jacobin</i>, 7<i>s.</i> ",
+   "verified": "-Jacobin</i>. 7<i>s.</i> ",
+   "context": "i>Poems of the Inner Life</i>, 5<i>s.</i> ⏎  ⏎ <i>Poetry of the Anti-Jacobin</i>, 7<i>s.</i> 6<i>d.</i> ⏎  ⏎ POPE, W. H., <i>Fly Fisher’s Register</i>, 4<i>s.</i> ⏎  ⏎ —— "
+  }
+ ],
+ "p0314": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "THORODSEN, J. P.,",
+   "replace": "THORODSEN, J P.,",
+   "draft": "THORODSEN, J. P.,",
+   "verified": "THORODSEN, J P.,",
+   "context": "s.</i> ⏎  ⏎ THOREAU, H. D., <i>Life</i>, 2<i>s.</i> 6<i>d.</i> ⏎  ⏎ THORODSEN, J. P., <i>Lad and Lass</i>, 6<i>s.</i> ⏎  ⏎ TILESTON, M<sc>ary</sc> W."
+  }
+ ]
+}
