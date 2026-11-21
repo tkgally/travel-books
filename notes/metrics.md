@@ -99,3 +99,4 @@
 | 2026-11-21 | cover → enforce | review after thirty books: 0 alarms since the check began (all thirty books have a cover); the invented sample book now has one. |
 | 2026-11-21 | conservation (captions) | the captions are sorted by their squashed text, so a straight apostrophe or a leading tag no longer gives a false item (*Alaska*, 2026-11-20). Test `CaptionOrder`. All thirty books keep PASS. |
 | 2026-11-21 | verse-joins (observe) | *The Land of the Tatami*: 3 items, 3 real (numbered stanzas). Running total since the check began: 10 real of 20 outside *Canterbury*. |
+| 2026-11-21 | images, source → enforce | review after thirty-five books: 0 alarms in 35 books for either; the invented sample book now has a source.json. All 35 books keep PASS. |
