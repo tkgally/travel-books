@@ -57,6 +57,7 @@ No footnotes, no tables. "neeé Briton" p. 1 (misprint?). Running heads to drop.
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
 | 1 | 2026-11-20 | PASS — 0 to fix, 0 waived; to look at: hyphen-joins 1, quote-balance 3, contents 9 (read: the contents items are the summaries, which have no heading in the text) | 30/30; 0 real errors / 6 pages | first publication; spot-read of 17 pages; rendered look (Opus subagent) at 390 and 1280, EPUB nav |
+| 2 | 2026-11-21 | west-coast-of-africa-dyer v2 — 0 to fix, 0 waived; to look at: hyphen-joins 1, quote-balance 3, contents 9 — tools@28b48c1e 2026-11-21 | as v1 (text unchanged except listed fixes) | pp. 107, 137 printed “aud”, “conld” → [[corr]] (sweep after issue #100) |
 
 ## Known issues
 - The list of corrections names the advertisement correction (triumpth) by its leaf, p0191: the page has no number

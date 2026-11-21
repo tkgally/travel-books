@@ -26,6 +26,24 @@
 [       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
 [       ok] contents: entries of the printed contents with no matching heading
 [       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
+[look (14)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0007, p0009, p0010, p0011, p0012, p0013…); à (p0049, p0050, p0056, p0062, p0063, p0069…); á (p0110)
+            - bab: bâb (p0103, p0124, p0125, p0126, p0127); bāb (p0016)
+            - cioe: cioè (p0057); cioé (p0113)
+            - dejeuner: dejeuner (p0062); déjeuner (p0030)
+            - di: di (p0080, p0096, p0113, p0114, p0141, p0142…); dì (p0080, p0142)
+            - e: e (p0049, p0057, p0080, p0106, p0113, p0114…); è (p0080, p0096, p0141, p0142, p0143); é (p0113)
+            - hotel: hotel (p0035, p0046, p0050, p0061, p0081); hôtel (p0035)
+            - kurab: kurâb (p0224); kurāb (p0060)
+            - la: la (p0058, p0110, p0113, p0143, p0197); là (p0142)
+            - mamaceni: mamaceni (p0276); mâmaceni (p0253)
+            - ne: ne (p0023, p0080, p0141, p0142); nè (p0080, p0143)
+            - re: re (p0057, p0144, p0154, p0198, p0262, p0325…); rè (p0057, p0143)
+            - si: si (p0057, p0080, p0096, p0113, p0142); sì (p0142, p0143)
+            - theatre: theatre (p0015, p0057, p0058, p0062, p0063, p0332); théâtre (p0062)
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: journey-through-the-caucasus-mounsey v2 — 0 to fix, 0 waived; to look at: hyphen-joins 5 — tools@1653f9e 2026-11-20
+preflight PASS: journey-through-the-caucasus-mounsey v3 — 0 to fix, 0 waived; to look at: hyphen-joins 5, accents 14 — tools@28b48c1e 2026-11-21

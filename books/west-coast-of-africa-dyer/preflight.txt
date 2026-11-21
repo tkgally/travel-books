@@ -33,6 +33,11 @@
             - p0014: 'On board the Druid at Cape Coast Castle.—Butterfly hunting.—Descriptio'
             - p0014: 'Fever on board.—Picturesque scenery at Kabenda.—Fetish men.—The Chief '
             - p0014: 'Description of Anno Bom.—Cupidity of King David Carter.—Start for Asce'
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
+[       ok] accents: words the book spells with different accents (or with and without): look at each group on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: west-coast-of-africa-dyer v1 — 0 to fix, 0 waived; to look at: hyphen-joins 1, quote-balance 3, contents 9 — tools@eccd556 2026-11-20
+preflight PASS: west-coast-of-africa-dyer v2 — 0 to fix, 0 waived; to look at: hyphen-joins 1, quote-balance 3, contents 9 — tools@28b48c1e 2026-11-21

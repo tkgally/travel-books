@@ -1406,6 +1406,25 @@ class Accents(unittest.TestCase):
         self.assertEqual(preflight.CHECKS["cover"][0], "enforce")
 
 
+class Misprints(unittest.TestCase):
+    """*Trans-Caspia* “we ean not” (a reader, issue #100, 2026-11-21): a printed turned letter copied faithfully by
+    every stage and never marked. Preflight lists such forms of common words."""
+
+    def test_listed(self):
+        pages = [("p0001", "We ean not go; tbe road is shut, aud it rains."), ("p0002", "All is well <i>iu</i> here.")]
+        items = preflight.check_misprints(pages)
+        self.assertEqual([i.split(":")[0] for i in items], ["p0001", "p0001", "p0001", "p0002"])
+        self.assertIn("“ean”", items[0])
+
+    def test_marked_or_real_words_not_listed(self):
+        pages = [("p0001", "We [[corr ean|can]] not; the tide; Kiushiu and Tean; audible; [[page 12]] and."),
+                 ("p0002", "[[image: tbe house]] The house of Aud; M<sc>c</sc>L<sc>ean</sc>.")]
+        self.assertEqual(preflight.check_misprints(pages), [])
+
+    def test_observe(self):
+        self.assertEqual(preflight.CHECKS["misprints"][0], "observe")
+
+
 class Contents(unittest.TestCase):
     """Contents decided book by book (Tom, 2026-11-19): full summaries, entries inside a division, parts."""
     LONG = "The Start—" + "A Very Long Morning on the Road—" * 3 + "The Inn"

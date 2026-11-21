@@ -31,5 +31,6 @@ Scan check: all 5 sheets 2026-11-21 (Opus subagent); header strip of every text 
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
 | 1 | 2026-11-21 | land-of-the-tatami-murray v1 — 0 to fix, 0 waived; to look at: hyphen-joins 1, quote-balance 3, contents 2, accents 20 — tools@76e9e33 2026-11-21 | 30/30; 1 real error / 6 pages (fixed) | first publication; quote-balance 3 and contents 2 read (as printed) |
+| 2 | 2026-11-21 | land-of-the-tatami-murray v2 — 0 to fix, 0 waived; to look at: hyphen-joins 1, quote-balance 3, contents 2, accents 20 — tools@28b48c1e 2026-11-21 | as v1 (text unchanged except listed fixes) | pp. 46, 65 printed “aud”, “iu” → [[corr]] (sweep after issue #100) |
 
 ## Known issues

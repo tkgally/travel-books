@@ -54,4 +54,4 @@
             - medresse: medresse (p0154); medressé (p0191)
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: trans-caspia-shoemaker v1 — 0 to fix, 0 waived; to look at: hyphen-joins 4, quote-balance 1, contents 21, accents 1 — tools@048be88 2026-11-21
+preflight PASS: trans-caspia-shoemaker v2 — 0 to fix, 0 waived; to look at: hyphen-joins 4, quote-balance 1, contents 21, accents 1 — tools@28b48c1e 2026-11-21

@@ -56,6 +56,7 @@ CHECKS = collections.OrderedDict([
     ("verse-joins",     ("observe", "verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan")),
     ("cover",           ("enforce", "images/cover.jpg (or .png) exists: the front cover or the title page")),
     ("accents",         ("observe", "words the book spells with different accents (or with and without): look at each group on the scan")),
+    ("misprints",       ("observe", "common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan")),
     ("images",          ("enforce", "image files not used by any page")),
     ("source",          ("enforce", "source.json: the Drive cache of the page images is recorded")),
 ])
@@ -352,6 +353,31 @@ def check_accents(pages, limit=6):
             items.append(f"{b}: " + "; ".join(f"{w} ({', '.join(sorted(set(ls))[:limit])}{'…' if len(set(ls)) > limit else ''})"
                                                for w, ls in sorted(f.items())))
     return items
+
+
+# Common English words with a turned, wrong-fount or broken letter, as printed or as misread. None is an English
+# word. Reported by a reader (*Trans-Caspia* “ean”, issue #100, 2026-11-21); the sweep that followed found six more
+# in four published books (five printed, one a misreading), none listed by any stage of the pipeline.
+MISPRINTS = {
+    "tbe", "tlie", "thc", "tbat", "tliat", "wbich", "wliich", "wben", "tben", "aud", "aiid", "iu", "ean",
+    "conld", "wonld", "shonld", "bnt", "uot", "fiom", "frorn", "rnore", "liave", "liis", "witli", "wbo", "wliat",
+    "tbis", "tliis", "tbey", "tliey", "tbere", "tliere", "tbeir", "tlieir", "witb", "mncb", "mnch", "verv",
+    "aaid", "beeu", "tbem", "tliem", "ouly", "anv", "bave",
+}
+
+
+def check_misprints(pages):
+    """Every word of `MISPRINTS` in the text outside [[corr]]: a misprint the book prints (mark it [[corr]]) or a
+    misreading (fix it). The readers copy a printed turned letter faithfully and the judge never sees it."""
+    out = []
+    for leaf, t in pages:
+        t = re.sub(r"\[\[corr [^\]]*\]\]|\[\[[^\]]*\]\]", " ", t)
+        t = re.sub(r"<[^>]+>", "", t)                 # M<sc>c</sc>L<sc>ean</sc> is one word
+        for m in re.finditer(WORD, t):
+            w = m.group(0)
+            if w.lower() in MISPRINTS and w != "Aud":      # Aud the Deeply Wealthy (*By Fell and Fjord*)
+                out.append(f"{leaf}: “{m.group(0)}” in …{t[max(0, m.start() - 25):m.end() + 25].strip()}…")
+    return out
 
 
 def triage_hyphen_joins(items, pages):
@@ -681,6 +707,7 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
         res["site-text"] = check_site_text(cfg)
         res["markup"] = check_markup(pages)
         res["accents"] = check_accents(pages)
+        res["misprints"] = check_misprints(pages)
         if not any(os.path.exists(os.path.join(bookdir, "images", f)) for f in ("cover.jpg", "cover.png")):
             res["cover"].append("images/cover.jpg is missing (the front cover if decorated, otherwise the title page)")
         res["sc-caps"] = check_sc(pages)

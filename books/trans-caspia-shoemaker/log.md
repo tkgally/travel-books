@@ -34,5 +34,6 @@ Scan check: all 9 sheets 2026-11-21 (Opus subagent); ~25 pages at full or half s
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
 | 1 | 2026-11-21 | trans-caspia-shoemaker v1 — 0 to fix, 0 waived; to look at: hyphen-joins 4, quote-balance 1, contents 21, accents 1 — tools@048be88 2026-11-21 | 30/30; 0 real errors / 6 pages | first publication; contents 21 = the printed contents' titles not in the text (expected); hyphen-joins read |
+| 2 | 2026-11-21 | trans-caspia-shoemaker v2 — 0 to fix, 0 waived; to look at: hyphen-joins 4, quote-balance 1, contents 21, accents 1 — tools@28b48c1e 2026-11-21 | as v1 (text unchanged except listed fixes) | p. 30 “ean” → [[corr]] can (reader, issue #100) |
 
 ## Known issues

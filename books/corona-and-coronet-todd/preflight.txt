@@ -32,6 +32,19 @@
 [ look (1)] contents: entries of the printed contents with no matching heading
             - p0017: 'Deep-Sea Yachting by A. C. James'
 [       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[ look (2)] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+            - p0090: verse continued from p0089: stanzas before [10] | here [3] (a stanza ending at the page foot needs no [[cont]])
+            - p0186: verse continued from p0185: stanzas before [4] | here [2] (a stanza ending at the page foot needs no [[cont]])
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
+[ look (7)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0009, p0013, p0014, p0015, p0016, p0017…); à (p0440)
+            - canon: canon (p0444); cañon (p0473, p0475, p0481, p0483, p0484, p0492)
+            - charge: charge (p0033, p0074, p0143, p0246, p0340, p0362…); chargé (p0015, p0238)
+            - cloisonne: cloisonné (p0207, p0246, p0271, p0492); cloïsonné (p0272)
+            - general: general (p0014, p0015, p0045, p0064, p0071, p0081…); général (p0444)
+            - himiongami: himiongami (p0493); himiōngami (p0287)
+            - la: la (p0355, p0357, p0440, p0443, p0444, p0494); là (p0440)
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: corona-and-coronet-todd v3 — 0 to fix, 2 waived; to look at: hyphen-joins 9, joins 1, contents 1 — tools@1653f9e 2026-11-20
+preflight PASS: corona-and-coronet-todd v4 — 0 to fix, 2 waived; to look at: hyphen-joins 9, joins 1, contents 1, verse-joins 2, accents 7 — tools@28b48c1e 2026-11-21

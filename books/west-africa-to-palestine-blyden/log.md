@@ -40,5 +40,6 @@ p0194–p0196); a litany p0188–p0189. No tables, no non-Latin script, few acce
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
 | 2 | 2026-11-21 | PASS, 0 waived — tools@9cff7459 | as v1 (text unchanged except the fix) | p0022 (p. 16): `[[cont]]` restored; the corrections pass had removed it unjudged (found at the review after thirty-five books, checked on the scan) |
+| 3 | 2026-11-21 | west-africa-to-palestine-blyden v3 — 0 to fix, 0 waived; to look at: hyphen-joins 1, joins 2, contents 12, accents 1 — tools@28b48c1e 2026-11-21 | as v2 (text unchanged except listed fixes) | p. 128 printed “ont he” → [[corr]] on the (sweep after issue #100) |
 
 ## Known issues
