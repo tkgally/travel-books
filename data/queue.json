@@ -641,10 +641,11 @@
    "place": "London",
    "publisher": "Sampson Low, Marston & Company",
    "images": 388,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-20",
    "eligibility": "JATSI 94. Rules 1–4 met. Rule 1: University of Toronto scan, colour 500 ppi, clean. Rules 2, 3: no text elsewhere (Wikisource's page of this title is R. S. Gardiner's book of 1892); no real reprint. Rule 4: first-person account of the Bishop of Exeter's family's eight weeks in Japan in 1891, centred on the Anglican missions; about 50 pages (ch. X) are newspaper reports of the earthquake of 28 October. People: Mary Jane Bickersteth, dates not found (born between 1849 and 1873); Edward Henry Bickersteth (preface) 1825–1906. Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20).",
-   "note": "About 345 pp. with two appendices and an index; about 38 illustrations (photographs and engravings), several on text pages. Take the form of the author's name from the title page."
+   "note": "About 345 pp. with two appendices and an index; about 38 illustrations (photographs and engravings), several on text pages. Take the form of the author's name from the title page.",
+   "started": "2026-11-21"
   },
   {
    "order": 35,
