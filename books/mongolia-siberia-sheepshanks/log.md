@@ -37,5 +37,6 @@ Scan check (Opus subagent, 2026-11-20): all five sheets, 21 leaves at full size;
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
+| 2 | 2026-11-21 | mongolia-siberia-sheepshanks v2 — 0 to fix, 7 waived; to look at: hyphen-joins 5, contents 6, accents 2 — tools@636b1b8d 2026-11-21 | as v1 (text unchanged except listed fixes) | “langhing” for “laughing” (p. 88) (review after forty books, sweep checked on the scan) |
 
 ## Known issues

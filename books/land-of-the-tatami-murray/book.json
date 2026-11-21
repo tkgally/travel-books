@@ -1,6 +1,6 @@
 {
  "id": "land-of-the-tatami-murray",
- "version": 2,
+ "version": 3,
  "date": "2026-11-21",
  "title": "The Land of the Tatami",
  "subtitle": "Travels in Japan",
@@ -42,6 +42,11 @@
    "version": 2,
    "date": "2026-11-21",
    "note": "Two printer’s errors corrected: “aud” for “and” (p. 46), “iu” for “in” (p. 65)."
+  },
+  {
+   "version": 3,
+   "date": "2026-11-21",
+   "note": "Printer’s errors corrected: “ofter” for “other” (p. 69); “perfeet” for “perfect” (p. 69) (found by a sweep of all the books at the review after forty books)."
   }
  ],
  "divisions": [
@@ -95,7 +100,7 @@
   "p0160"
  ],
  "audit": {
-  "version": 2,
+  "version": 3,
   "date": "2026-11-21",
   "pages": 6,
   "recall": "30/30",

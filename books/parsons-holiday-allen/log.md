@@ -46,5 +46,6 @@ Scan check: all sheets, 23 folios at full size (Opus subagent), 2026-11-21: GOOD
 |---|---|---|---|---|
 | 1 | 2026-11-21 | PASS, 0 waived; look: hyphen-joins 7, joins 1 (dedication), contents 11 (summaries in toc_title), verse-joins 1 (one stanza, checked), accents 10 (as printed) — tools@ae7a41bc | 30/30 + 5/5; 0 real | Claude $24.34 |
 | 2 | 2026-11-21 | parsons-holiday-allen v2 — 0 to fix, 0 waived; to look at: hyphen-joins 7, joins 1, contents 11, verse-joins 1, accents 10 — tools@28b48c1e 2026-11-21 | as v1 (text unchanged except listed fixes) | p. 85 printed “wbo” → [[corr]] (new `misprints` list) |
+| 3 | 2026-11-21 | parsons-holiday-allen v3 — 0 to fix, 0 waived; to look at: hyphen-joins 7, joins 1, contents 11, verse-joins 1, accents 10 — tools@636b1b8d 2026-11-21 | as v2 (text unchanged except listed fixes) | “ignorancc” for “ignorance” (p. 222) (review after forty books, sweep checked on the scan) |
 
 ## Known issues

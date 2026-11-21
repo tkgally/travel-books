@@ -47,7 +47,7 @@ them and never type them yourself (it ends the session). Name them in the log an
 - **Notes**: marks pair; continued notes; notes on plates.
 - **Verse, letters, inscriptions, tables, front matter, footnote pages**: spot-read against the scan (Opus subagent).
 - **Illustrations**: every `[[image:]]` has a crop that was looked at; captions; alt text says what is shown. A frontispiece in the front matter: set `frontispiece` in book.json.
-- **Printer's errors**: few, certain, each `[[corr printed|corrected]]`.
+- **Printer's errors**: few, certain, each `[[corr printed|corrected]]`. A turned or wrong letter is printed faithfully by every stage and never marked unless looked for: crop every item of preflight `misprints` and `rare-forms`.
 
 ## Metadata and summary
 

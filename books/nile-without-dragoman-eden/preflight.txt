@@ -34,6 +34,7 @@
             - e: e (p0009, p0010, p0028, p0144, p0146, p0179…); è (p0238, p0255, p0268); é (p0133, p0314, p0318)
             - said: said (p0014, p0019, p0022, p0028, p0044, p0055…); saïd (p0060, p0098, p0249)
             - zayat: zayat (p0133); zayát (p0050, p0314, p0318)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: nile-without-dragoman-eden v1 — 0 to fix, 0 waived; to look at: hyphen-joins 4, accents 5 — tools@367c4352 2026-11-21
+preflight PASS: nile-without-dragoman-eden v2 — 0 to fix, 0 waived; to look at: hyphen-joins 4, accents 5 — tools@636b1b8d 2026-11-21

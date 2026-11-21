@@ -24,38 +24,7 @@
             - hyphen join at p2566: …paratus for re-|storing suspend… (hyphen removed; check)
             - hyphen join at p2607: …ture to be com-|pounded, form s… (hyphen removed; check)
             - (and 130 joins giving a word the book prints whole elsewhere: not listed)
-[look (31)] joins: page joins: missing [[cont]], or [[cont]] after a closed sentence
-            - p1035: [[cont]] after a closed sentence …'ts of both man and horse.' | 'The letter bound across h'
-            - p1073: [[cont]] after a closed sentence …'ur of instant advantages.' | 'It was an office, of whic'
-            - p1114: [[cont]] after a closed sentence …'tal remaining unemployed.' | 'The average price on ever'
-            - p1121: [[cont]] after a closed sentence …'pringing from the joints.' | 'The middle of the stem fu'
-            - p1135: [[cont]] after a closed sentence …'little cable as possible.' | 'The place is defended by '
-            - p1147: [[cont]] after a closed sentence …'est in upon the mountain.' | 'This circumstance, howeve'
-            - p1195: [[cont]] after a closed sentence …' forty-five seconds west.' | 'In sailing westward towar'
-            - p1212: [[cont]] after a closed sentence …' fly with two wings only.' | 'The larva, or caterpillar'
-            - p1233: [[cont]] after a closed sentence …'thing ready very quickly.' | 'Wood, water, and provisio'
-            - p1310: [[cont]] after a closed sentence …'onuments to their memory.' | 'Every family above indige'
-            - p1339: [[cont]] after a closed sentence …'tmosphere to dispel them.' | 'The darkest of these clou'
-            - p1345: [[cont]] after a closed sentence …'he water, near the shore.' | 'No part of the Straits of'
-            - p1407: [[cont]] after a closed sentence …'order to take the vessel.' | 'A civil answer was return'
-            - p1411: [[cont]] after a closed sentence …' completely inaccessible.' | 'About half a mile from th'
-            - p2039: [[cont]] after a closed sentence …'of that troubled element.' | 'The circumstance of the d'
-            - p2096: [[cont]] after a closed sentence …'ourse to foreign markets.' | 'Upon the deck of each of '
-            - p2134: [[cont]] after a closed sentence …'ford to bestow upon them.' | 'They visit them annually,'
-            - p2205: [[cont]] after a closed sentence …'sometimes blue and white.' | 'On the top of the highest'
-            - p2259: [[cont]] after a closed sentence …'rtion of the human frame.' | 'This sentiment, to which '
-            - p2261: [[cont]] after a closed sentence …'ed by them of high value.' | 'It was upwards of a foot '
-            - p2281: [[cont]] after a closed sentence …'completely formed hernia.' | 'Had he been punctured as '
-            - p2350: [[cont]] after a closed sentence …'tly suffered to go alone.' | 'Every morning he received'
-            - p2362: [[cont]] after a closed sentence …'easing and vivid colours.' | 'The answer was placed in '
-            - p2397: [[cont]] after a closed sentence …'the powerful and opulent.' | 'Accident had thrown a few'
-            - p2413: [[cont]] after a closed sentence …'flood-gate on this canal.' | 'Some skill is required to'
-            - p2474: [[cont]] after a closed sentence …'ish, on which they dined.' | 'It was in most places sha'
-            - p2478: [[cont]] after a closed sentence …'immediately against them.' | 'The centinel obeyed, and '
-            - p2490: [[cont]] after a closed sentence …'er language of their own.' | 'They said, that no Europe'
-            - p2505: [[cont]] after a closed sentence …'coarse-grained limestone.' | 'Beyond these were quarrie'
-            - p2539: [[cont]] after a closed sentence …'therly from Han-choo-foo.' | 'Their basis is of granite'
-            - p2604: [[cont]] after a closed sentence …'antity of the same thing.' | 'The character of moo, sin'
+[       ok] joins: page joins: missing [[cont]]
 [ look (5)] folios: printed page numbers that break the sequence
             - p2030: page 2 after page 518 (p1562)
             - p3012: page 3 after page 626 (p2660)
@@ -64,6 +33,7 @@
             - p3060: page 21 after page 8 (p3028)
 [       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
 [       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
 [look (27)] contents: entries of the printed contents with no matching heading
             - p1013: 'Introduction.—Privileges granted by the Chinese government to the Port'
             - p1014: 'page 1 to 29.'
@@ -92,6 +62,19 @@
             - p2027: 'Temperature of Canton—effect of foreigners resorting to it.—Trade carr'
             - p2029: 'Departure from Macao.—Disposition of the fleet.—Monsoons.—Effect of we'
             - p2029: 'No. I. Table of extent and population of China Proper, from official p'
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
+[ look (7)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - camoens: camoens (p2621); camoëns (p1044)
+            - hotel: hotel (p1033); hôtel (p2015, p2016, p2019, p2310, p2313, p2314…)
+            - hue: hue (p1222, p2120, p2342, p2475); hué (p1390, p1404, p1405, p1406, p1407)
+            - san: san (p1021, p1022, p1026, p1037, p1161, p1180…); sán (p1380, p1400)
+            - te: te (p1493, p2500, p2572, p2573); té (p1499)
+            - tong: tong (p1035, p1041, p1042, p1492, p2012, p2013…); tòng (p2095)
+            - tse: tse (p2021, p2022, p2447, p2452, p2454, p2455…); tsé (p1037)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: embassy-to-china-staunton v1 — 0 to fix, 0 waived; to look at: hyphen-joins 10, joins 31, folios 5, contents 27 — tools@8ce06b8 2026-11-20
+preflight PASS: embassy-to-china-staunton v2 — 0 to fix, 0 waived; to look at: hyphen-joins 10, folios 5, contents 27, accents 7 — tools@636b1b8d 2026-11-21

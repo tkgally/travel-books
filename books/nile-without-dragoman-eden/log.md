@@ -46,6 +46,7 @@ about p0215, text complete. Cover: the title page (p0005, full size), the cloth 
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
 | 1 | 2026-11-21 | PASS, 0 to fix, 0 waived; look: hyphen-joins 4 (all real joins), accents 5 (all as printed) — tools@367c4352 | 30/30; 1 real, fixed | Claude $31.33 |
+| 2 | 2026-11-21 | nile-without-dragoman-eden v2 — 0 to fix, 0 waived; to look at: hyphen-joins 4, accents 5 — tools@636b1b8d 2026-11-21 | as v1 (text unchanged except listed fixes) | a broken “l” read as “i”: “ali” for “all” (p. 125); “coutract” for “contract” (p. 3) (review after forty books, sweep checked on the scan) |
 
 ## Known issues
 - The list of stores is two tables (one per printed page).

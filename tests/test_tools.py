@@ -1425,6 +1425,26 @@ class Misprints(unittest.TestCase):
         self.assertEqual(preflight.CHECKS["misprints"][0], "observe")
 
 
+class RareForms(unittest.TestCase):
+    """Review after forty books: 15 printed misprints in 11 books (“hnndred”, “numher”, “entranee”), none marked;
+    the collection itself serves as the dictionary."""
+
+    def test_listed_against_corpus(self):
+        import collections
+        corpus = collections.Counter({"hundred": 50, "number": 45, "the": 900, "fell": 3})
+        pages = [("p0001", "Five hnndred men and a large numher of boats."),
+                 ("p0002", "[[cont]][[side: A note.]] numher fell; <i>hnndred</i> and [[corr numher|number]] and the hnn-")]
+        items = preflight.check_rare_forms(pages, corpus)
+        self.assertEqual([i.split(":")[0] for i in items], ["p0001", "p0001"])
+        self.assertIn("“hnndred” — “hundred”", items[0])
+
+    def test_common_or_far_words_not_listed(self):
+        import collections
+        corpus = collections.Counter({"hundred": 50, "hnndred": 5, "tea": 100})
+        self.assertEqual(preflight.check_rare_forms([("p0001", "A hnndred cups; a zebra.")], corpus), [])
+        self.assertEqual(preflight.CHECKS["rare-forms"][0], "observe")
+
+
 class Contents(unittest.TestCase):
     """Contents decided book by book (Tom, 2026-11-19): full summaries, entries inside a division, parts."""
     LONG = "The Start—" + "A Very Long Morning on the Road—" * 3 + "The Inn"
