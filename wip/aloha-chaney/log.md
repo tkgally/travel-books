@@ -4,7 +4,7 @@ IA: alohahawaiiansal00chan_0 (Library of Congress; 336 leaves, 300 ppi). Other s
 Eligibility: vetted 2026-11-21 (queue row); re-checked 2026-11-21: web search finds the IA scans and excerpts on surfresearch.com.au; no reading edition. Chaney 1836–1922.
 
 ## Status
-Stage reached: (a) scan checked (Opus subagent, 2026-11-21). Next: Drive cache; draft.
+Stage reached: (c) preflight PASS, audit 30/30; waiting for the rendered look, then publish.
 
 ## Page map
 Scan check (Opus subagent): pp. vii–ix, 1–299 present, no gaps, duplicates, cut-offs or blur; light water stains at corners, not on text; folding map opened.
@@ -19,13 +19,29 @@ Has: drop capitals; datelines at some chapter heads; footnotes p0087, p0135; ver
 (p0079), a full page of a Hawaiian song with words on p. 64 (p0086); no head- or tail-pieces, no tables, no index.
 
 ## Decisions
+- Printed music (a line on p. 57, a page on p. 64) kept as pictures; the p. 64 description gives the Hawaiian words printed under the notes.
+- “Aloha!” printed above the first chapter: a `front` division (`n` 1), the chapter `n` 2; the folding map (p0022) its own reading division
+  “Map of the Hawaiian Archipelago”; the frontispiece opens the Dedication (the first reading division after it).
+- Chapter titles as printed, without numbers (the book has none). Drop-capital openings typed with the first word in capitals throughout.
+- The dedication’s small capitals typed as `<sc>` with real capitals (Hawaiian Islands, I).
+- Accents as printed (spot-read on the scan): Haleàkalà and Kilauèa (the ship) in places, Kamèhamèha (p0074; the draft had a breve), mailé; p0275
+  “guava” (a speck, not an accent). Misprints in print kept unmarked: an unclosed speech (p0087), an unopened quotation (p0225).
+- `[[cont]]` removed at the top of p0155, p0208 (verse beginning after prose) and p0209–p0211 (each page top begins a new stanza).
+- keep_hyphens: state-room (the book prints it so), verbena-grass, sun-capped.
+- Period 1876 from the dates and weekdays (“Friday, January 14”, “Monday, April 24, 1876”).
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-21 | opus | 311 | 19.88 | none refused |
+| corrections | 2026-11-21 | sonnet | 311 | 9.85 | 19 changes |
+| judge | 2026-11-21 | opus | 8 spots | 0.27 | drop capitals and the dedication’s capitals |
+| audit | 2026-11-21 | opus | 6 | 0.35 | 30/30; 0 candidates |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
 
 ## Known issues
+- The music is shown as pictures only.
+- Verse indentation is not kept.
