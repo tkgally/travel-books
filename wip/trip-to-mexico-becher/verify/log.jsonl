@@ -1,0 +1,15 @@
+{"page": "p0006", "model": "sonnet", "corrections": 0, "seconds": 4.1, "cost": 0.031205300000000002, "completion_tokens": 219, "turns": 2, "attempts": 1}
+{"page": "p0007", "model": "sonnet", "corrections": 0, "seconds": 5.0, "cost": 0.0324323, "completion_tokens": 335, "turns": 2, "attempts": 1}
+{"page": "p0008", "model": "sonnet", "corrections": 0, "seconds": 4.2, "cost": 0.031439, "completion_tokens": 219, "turns": 2, "attempts": 1}
+{"page": "p0009", "model": "sonnet", "corrections": 0, "seconds": 4.8, "cost": 0.0323188, "completion_tokens": 327, "turns": 2, "attempts": 1}
+{"page": "p0010", "model": "sonnet", "corrections": 0, "seconds": 5.9, "cost": 0.0353069, "completion_tokens": 516, "turns": 2, "attempts": 1}
+{"page": "p0011", "model": "sonnet", "corrections": 0, "seconds": 5.3, "cost": 0.034656, "completion_tokens": 348, "turns": 2, "attempts": 1}
+{"page": "p0012", "model": "sonnet", "corrections": 0, "seconds": 5.0, "cost": 0.0368134, "completion_tokens": 476, "turns": 2, "attempts": 1}
+{"page": "p0013", "model": "sonnet", "corrections": 0, "seconds": 4.2, "cost": 0.0347788, "completion_tokens": 316, "turns": 2, "attempts": 1}
+{"page": "p0014", "model": "sonnet", "corrections": 0, "seconds": 3.0, "cost": 0.0305391, "completion_tokens": 186, "turns": 2, "attempts": 1}
+{"page": "p0015", "model": "sonnet", "corrections": 0, "seconds": 4.0, "cost": 0.0326587, "completion_tokens": 293, "turns": 2, "attempts": 1}
+{"page": "p0016", "model": "sonnet", "corrections": 0, "seconds": 3.1, "cost": 0.031935399999999996, "completion_tokens": 185, "turns": 2, "attempts": 1}
+{"page": "p0017", "model": "sonnet", "corrections": 0, "seconds": 3.6, "cost": 0.0322543, "completion_tokens": 205, "turns": 2, "attempts": 1}
+{"page": "p0018", "model": "sonnet", "corrections": 0, "seconds": 3.2, "cost": 0.0323126, "completion_tokens": 226, "turns": 2, "attempts": 1}
+{"page": "p0019", "model": "sonnet", "corrections": 0, "seconds": 3.3, "cost": 0.0320718, "completion_tokens": 197, "turns": 2, "attempts": 1}
+{"page": "p0020", "model": "sonnet", "corrections": 0, "seconds": 2.5, "cost": 0.0309928, "completion_tokens": 126, "turns": 2, "attempts": 1}
