@@ -9,7 +9,7 @@ For every book in books/<slug>/ (or the one given with --bookdir, e.g. a book st
   books/<slug>/<slug>.json    the book JSON (base of everything else)
   books/<slug>/<slug>.epub, <slug>.odt
   books/<slug>/images/
-Plus index.html, places.html, dates.html (authors.html when there are many books), japan-as-they-saw-it.html,
+Plus index.html, books.html, places.html, dates.html (authors.html when there are many books), japan-as-they-saw-it.html,
 about.html, json-format.html, assets/. Standard library only; output is deterministic.
 """
 import argparse, html, json, os, re, shutil, sys
@@ -38,8 +38,13 @@ def outside_links(html_):
     return re.sub(r'<a (?![^>]*\btarget=)([^>]*\bhref="https?://[^"]*"[^>]*)>', r'<a \1 target="_blank" rel="noopener">', html_)
 
 
+BOOKS_PAGE = "books.html"
+
+
 def page(title, body, root, crumbs=(), extra_head="", book_css=False):
-    """root = relative path to the site root ('' or '../../'). Outside links get target="_blank" here, for every page."""
+    """root = relative path to the site root ('' or '../../'). Outside links get target="_blank" here, for every page.
+    The logo and the name in the header are the link to the home page from every page; `crumbs` (the book, the
+    chapter) is given for the chapter pages only (Tom, 2026-11-21)."""
     return outside_links(_page(title, body, root, crumbs, extra_head, book_css))
 
 
@@ -62,7 +67,7 @@ def _page(title, body, root, crumbs=(), extra_head="", book_css=False):
 <a class="skip" href="#main">Skip to the text</a>
 <header class="site">
 <p class="sitename"><a href="{root}index.html">{LOGO}{SITE}</a></p>
-<nav aria-label="Site"><ul><li><a href="{root}index.html#books">Books</a></li><li><a href="{root}about.html">About</a></li></ul></nav>
+<nav aria-label="Site"><ul><li><a href="{root}{BOOKS_PAGE}">Books</a></li><li><a href="{root}about.html">About</a></li></ul></nav>
 </header>
 {f'<nav class="crumbs" aria-label="Breadcrumb"><ol>{nav}</ol></nav>' if nav else ''}
 <main id="main">
@@ -90,9 +95,9 @@ def jatsi_name():
 
 
 def jatsi_label(root=""):
-    """The mark of a JATSI book in the lists: "(JATSI)", the word linked to this site's page about those books
-    (Tom, 2026-11-21; before: "JATSI (about)", and first "from Japan As They Saw It (about these books)")."""
-    return f'(<a href="{root}{JATSI_PAGE}">JATSI</a>)'
+    """The mark of a JATSI book in the lists: "JATSI", linked to this site's page about those books
+    (Tom, 2026-11-21; before: "(JATSI)", "JATSI (about)", and first "from Japan As They Saw It (about these books)")."""
+    return f'<a href="{root}{JATSI_PAGE}">JATSI</a>'
 
 
 def is_jatsi(b):
@@ -140,9 +145,22 @@ def queue_line(x, mark=True):
             + (f' <span class="meta">· {jatsi_label()}</span>' if mark and is_jatsi(x) else "") + "</li>")
 
 
-def build_index(out, books, queue):
-    """The home page. Up to HOME_FULL_LIST books: all of them, by author. More: the newest, and links to the full
-    lists (by author, by place, by date of the journey), which build_lists writes. Plan: notes/site.md."""
+def build_index(out):
+    """The home page: the name and what the site is (Tom, 2026-11-21; the lists are on the Books page)."""
+    body = f"""<h1>{SITE}</h1>
+<p>Travel books written in English and published before 1914, transcribed from library scans at the
+Internet Archive. Each can be read on this site or downloaded as EPUB, ODT or JSON. <a href="about.html">About the project.</a></p>
+<p>Most of the books were chosen because they are first-person accounts that have no other digital reading edition and were not
+reprinted after 1914. Others come from {jatsi_name()}, a list of books about Japan that are being
+added to this site one at a time (<a href="{JATSI_PAGE}">about these books</a>); for that reason the site has more books
+about Japan than about other countries.</p>
+"""
+    open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page(SITE, body, ""))
+
+
+def build_books(out, books, queue):
+    """The Books page. Up to HOME_FULL_LIST books: all of them, by author. More: the newest, and links to the full
+    lists (by author, by place, by date of the journey), which build_lists writes; then the queue. Plan: notes/site.md."""
     books = sorted(books, key=sort_key)
     lists = 'by <a href="places.html">place</a> and by <a href="dates.html">date of the journey</a>'
     if not books:
@@ -155,19 +173,12 @@ def build_index(out, books, queue):
                  f'<h3 id="newest">Newest</h3>\n{books_ul(newest)}')
     q = [x for x in queue if x.get("status") in ("queued", "in progress")]
     qitems = "\n".join(queue_line(x) for x in q)
-    body = f"""<h1>{SITE}</h1>
-<p>Travel books written in English and published before 1914, transcribed from library scans at the
-Internet Archive. Each can be read on this site or downloaded as EPUB, ODT or JSON. <a href="about.html">About the project.</a></p>
-<p>Most of the books were chosen because they are first-person accounts that have no other digital reading edition and were not
-reprinted after 1914. Others come from {jatsi_name()}, a list of books about Japan that are being
-added to this site one at a time (<a href="{JATSI_PAGE}">about these books</a>); for that reason the site has more books
-about Japan than about other countries.</p>
-<h2 id="books">Books</h2>
+    body = f"""<h1>Books</h1>
 {shelf}
 <h2 id="queue">In the queue</h2>
 {f'<p>Books chosen for transcription, not yet published.</p><ul class="books">{qitems}</ul>' if qitems else '<p>The queue is empty.</p>'}
 """
-    open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page(SITE, body, ""))
+    open(os.path.join(out, BOOKS_PAGE), "w", encoding="utf-8").write(page("Books", body, ""))
 
 
 def load_places():
@@ -176,16 +187,18 @@ def load_places():
 
 
 def build_lists(out, books, places=None):
-    """places.html and dates.html (always), authors.html (when the home page no longer lists every book)."""
+    """places.html and dates.html (always), authors.html (when the Books page no longer lists every book)."""
     places = places or load_places()
     books = sorted(books, key=sort_key)
-    crumb = [(SITE, "index.html")]
+    many = len(books) > HOME_FULL_LIST
+    kinds = [("authors.html" if many else BOOKS_PAGE, "author"), ("places.html", "place"), ("dates.html", "date of the journey")]
 
     def write(name, title, intro, groups):
         toc = " · ".join(f'<a href="#{attr(i)}">{esc(t)}</a>' for i, t, bs in groups)
-        body = (f"<h1>{esc(title)}</h1>\n<p>{intro}</p>\n" + (f'<p class="meta">{toc}</p>\n' if len(groups) > 1 else "")
+        also = " and by ".join(f'<a href="{h}">{t}</a>' for h, t in kinds if h != name)
+        body = (f"<h1>{esc(title)}</h1>\n<p>{intro}</p>\n<p class=\"meta\">Also listed by {also}.</p>\n" + (f'<p class="meta">{toc}</p>\n' if len(groups) > 1 else "")
                 + "\n".join(f'<h2 id="{attr(i)}">{esc(t)}</h2>\n{books_ul(bs)}' for i, t, bs in groups))
-        open(os.path.join(out, name), "w", encoding="utf-8").write(page(title, body, "", crumbs=crumb + [(title, name)]))
+        open(os.path.join(out, name), "w", encoding="utf-8").write(page(title, body, ""))
 
     def ident(t):
         return re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
@@ -204,7 +217,7 @@ def build_lists(out, books, places=None):
     write("dates.html", "Books by date of the journey",
           "By the decade in which the journey began, or in which the book was published when the journey is not dated.",
           [(f"d{d}", f"{d}s", bs) for d, bs in sorted(by_dec.items())])
-    if len(books) > HOME_FULL_LIST:
+    if many:
         by_letter = {}
         for b in books:
             by_letter.setdefault((sort_key(b)[0][:1] or "?").upper(), []).append(b)
@@ -268,8 +281,7 @@ The texts are transcribed and checked in the same way as all the others.</p>
 Internet Archive.</p>
 {whole}
 """
-    open(os.path.join(out, JATSI_PAGE), "w", encoding="utf-8").write(
-        page(JATSI, body, "", crumbs=[(SITE, "index.html"), (JATSI, JATSI_PAGE)]))
+    open(os.path.join(out, JATSI_PAGE), "w", encoding="utf-8").write(page(JATSI, body, ""))
 
 
 def md_page(out, name, title, src):
@@ -324,7 +336,7 @@ def md_page(out, name, title, src):
                 para.append(lines[i].strip())
                 i += 1
             outl.append("<p>" + inl(" ".join(para)) + "</p>")
-    open(os.path.join(out, name), "w", encoding="utf-8").write(page(title, "\n".join(outl), "", crumbs=[(SITE, "index.html"), (title, name)]))
+    open(os.path.join(out, name), "w", encoding="utf-8").write(page(title, "\n".join(outl), ""))
 
 
 def build_book(out, bookdir, strict=True):
@@ -353,7 +365,7 @@ def build_book(out, bookdir, strict=True):
                   "(each links to the scanned page)</label></p>")
         html_ = page(f"{d['title']} – {short}",
                      f'{pager}\n{toggle}\n<article class="book">\n{body}\n</article>\n{pager}', "../../",
-                     crumbs=[(SITE, "../../index.html"), (short, "index.html"), (d["title"], names[d["id"]])],
+                     crumbs=[(short, "index.html"), (d["title"], names[d["id"]])],
                      extra_head=extra, book_css=True)
         open(os.path.join(bout, names[d["id"]]), "w", encoding="utf-8").write(html_)
     if os.path.isdir(idir):
@@ -426,7 +438,10 @@ def book_page(book, names, has_cover=False):
         f'<tr><td>{esc(correction_page(book, c, pnum))}</td><td>{esc(c["printed"])}</td><td>{esc(c["corrected"])}</td></tr>' for c in corr)
     notes = "".join(f"<li>{esc(n)}</li>" for n in book.get("notes_on_text", []))
     hist = "".join(f'<li>Version {h["version"]}, {esc(h["date"])}: {esc(h["note"])}</li>' for h in book.get("history", []))
+    # the picture is a link to where "Read on this site" goes (Tom, 2026-11-21)
     cover = '<img class="cover" src="images/cover.jpg" alt="Cover of the book"/>' if has_cover else ""
+    if cover and first:
+        cover = f'<a class="cover" href="{first}" title="Read on this site">{cover}</a>'
     body = f"""<h1><cite>{esc(book.get("short_title") or book["title"])}</cite></h1>
 <p class="byline">{esc(rh.authors_text(book))}, {book.get("year", "")}</p>
 {cover}
@@ -452,8 +467,7 @@ spaces around punctuation follow modern practice. {esc(book.get("omitted_from_re
 {f'<h3>Printer’s errors corrected</h3><div class="tablewrap"><table class="doc"><thead><tr><th scope="col">Page</th><th scope="col">Printed</th><th scope="col">Corrected to</th></tr></thead><tbody>{corr_rows}</tbody></table></div>' if corr else '<p>No corrections were made to the printed text.</p>'}
 {f'<h3>Versions</h3><ul>{hist}</ul>' if hist else ''}
 """
-    return page(book.get("short_title") or book["title"], body, "../../",
-                crumbs=[(SITE, "../../index.html"), (book.get("short_title") or book["title"], "index.html")])
+    return page(book.get("short_title") or book["title"], body, "../../")
 
 
 def main():
@@ -480,7 +494,8 @@ def main():
         print(f"built {book['id']} v{book['version']}: {len(rh.reading_divisions(book))} reading divisions, {len(warnings)} compile warnings")
     qf = os.path.join(REPO, "data", "queue.json")
     queue = json.load(open(qf, encoding="utf-8"))["books"] if os.path.exists(qf) else []
-    build_index(out, books, queue)
+    build_index(out)
+    build_books(out, books, queue)
     build_lists(out, books)
     build_jatsi(out, books, queue)
     md_page(out, "about.html", "About", os.path.join(REPO, "site", "about.md"))

@@ -267,6 +267,26 @@ How this was carried out: `RESUME.md` §"How long a session runs", `tools/sessio
   the favicon of every page and beside "Travel Books" in the header of every page. It follows the reader's
   light, sepia and dark setting.
 
+## 2026-11-21 (header and navigation simplified)
+
+- **The logo and "Travel Books" in the header are the link to the home page from every page.** The breadcrumb
+  line therefore no longer begins "Travel Books ›": on chapter pages it begins with the book's title, and it does
+  **not appear at all** on the book index pages, About, the Books page or the JATSI page.
+- **"Display" in the header is replaced by the settings icon of the chapter bar**, on all pages, and it is in
+  exactly the same position at the top of the page and in the bar when scrolled down, so that it seems fixed.
+- **The left-most icon of the chapter bar opens a drop-down menu** (a new simple icon, designed by Claude) of
+  three lines: (1) the site logo and "Travel Books" → the home page; (2) an open-book icon and the title of the
+  book → the book's index page; a title too long for the menu (mobile) fades out over its last few letters at
+  the right edge; (3) the three-line icon and "Contents" → the table of contents on the book's index page.
+- **On a book's index page the picture of the cover or title page is a link** to the same page as "Read on this
+  site", which stays as it is.
+- **A new page "Books"** has the "Books" and "In the queue" sections that were on the home page; "Books" in
+  every header links to it. The home page is the header, the title, the two paragraphs and the footer.
+- The footer (public domain, report an error) stays on all pages.
+- **In the lists of books "(JATSI)" becomes "JATSI"**, without parentheses, linked as before.
+- **Less space between a decorative banner above a chapter title and the title** (e.g. *A Yachting Cruise in the
+  South Seas*): there was too much.
+
 ## Questions for Tom
 
 None open.

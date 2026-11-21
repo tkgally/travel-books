@@ -1,7 +1,7 @@
 // Display settings for every page of the site: colours, size of text, typeface, spacing, column width, underlined
 // links; and for the text of a book justification, paragraph style, correction marks, page numbers, the reader's place
 // and the bar of buttons that appears at the top of a chapter when the reader has scrolled down. The choices are kept in this browser (localStorage) and
-// nowhere else. The site works without this file: the "Display" button is made here, so that a reader whose
+// nowhere else. The site works without this file: the settings button is made here, so that a reader whose
 // browser does not run scripts sees no control that does nothing. Styles: site.css, "Display settings".
 (function () {
   'use strict';
@@ -160,7 +160,7 @@
     h.parentNode.insertBefore(para, h);
   }
 
-  // ---- the "Display" button and its panel (every page) ----
+  // ---- the settings button and its panel (every page) ----
 
   var LINES = { tight: 'M4 8h16M4 12h16M4 16h16', loose: 'M4 5h16M4 12h16M4 19h16',
     narrow: 'M10 5v14M14 5v14M2 12h5M5 10l2 2-2 2M22 12h-5M19 10l-2 2 2 2',
@@ -169,9 +169,13 @@
     indent: 'M8 4h13M3 8h18M3 12h11M8 16h13M3 20h18', block: 'M3 4h18M3 8h11M3 15h18M3 19h11',
     place: 'M7 3h10v18l-5-4-5 4z', reset: 'M4 12a8 8 0 1 0 2.6-5.9M4 4v5h5',
     more: 'M5 9l7 7 7-7', bar: 'M4 5h16v14H4zM4 9h16M7 7h.01M11 7h2M17 7h.01',
+    menu: 'M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18M15.6 8.4l-2.1 5.1-5.1 2.1 2.1-5.1z',
+    book: 'M12 7v13M12 7C10 5.6 7 5 3 5v13c4 0 7 .6 9 2c2-1.4 5-2 9-2V5c-4 0-7 .6-9 2z',
     contents: 'M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01', prev: 'M15 5l-7 7 7 7', next: 'M9 5l7 7-7 7',
     display: 'M4 7h8M16 7h4M4 17h4M12 17h8M12 7a2 2 0 1 0 4 0a2 2 0 1 0-4 0M8 17a2 2 0 1 0 4 0a2 2 0 1 0-4 0' };
-  function svg(name) { return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="' + LINES[name] + '"/></svg>'; }
+  function svg(name, cls) {
+    return '<svg' + (cls ? ' class="' + cls + '"' : '') + ' viewBox="0 0 24 24" aria-hidden="true"><path d="' + LINES[name] + '"/></svg>';
+  }
   function txt(cls, text, style) {
     return '<span aria-hidden="true" class="' + cls + '"' + (style ? ' style="' + style + '"' : '') + '>' + text + '</span>';
   }
@@ -185,18 +189,19 @@
   }
 
   function buildUI(article) {
-    var header = document.querySelector('header.site'), list = header && header.querySelector('nav ul');
-    if (!list) return;
+    var header = document.querySelector('header.site');
+    if (!header) return;
     var refreshers = [];
-    var li = el('li'), btn = el('button', { type: 'button', 'class': 'tb-btn', 'aria-expanded': 'false', 'aria-controls': 'tb-panel' });
-    btn.textContent = 'Display';
-    li.appendChild(btn);
-    list.appendChild(li);
+    // The same picture as in the bar of a chapter, and in the same place in the window (site.css).
+    var btn = el('button', { type: 'button', 'class': 'tb-btn', 'aria-expanded': 'false', 'aria-controls': 'tb-panel',
+                             'aria-label': 'Display settings', title: 'Display settings' }, svg('display'));
+    header.appendChild(btn);
     var panel = el('div', { id: 'tb-panel', 'class': 'tb-panel', role: 'group', 'aria-label': 'Display settings', hidden: '' });
     var adv = el('div', { id: 'tb-adv', 'class': 'tb-adv', hidden: '' });
     var status = el('span', { 'class': 'tb-sr', role: 'status' });
     var tip = el('div', { 'class': 'tb-tip', 'aria-hidden': 'true', hidden: '' });
     var barBtn = null, opener = btn, showBar = function () {};
+    var menu = null, menuBtn = null;      // the menu of the bar (the site, the book, its contents) and its button
 
     // A change of size, spacing or width moves the text: the reader of a chapter stays at the same words.
     function changed() {
@@ -339,13 +344,32 @@
       function words(a) { return a ? a.textContent.replace(/^[←\s]+|[→\s]+$/g, '') : ''; }
       var prev = pager.querySelector('a[rel=prev]'), next = pager.querySelector('a[rel=next]');
       bar = el('nav', { 'class': 'tb-bar', 'aria-label': 'This book' });
-      inner.appendChild(link('contents', 'This book: its page and contents', pager.querySelector('a:not([rel])')));
+      // On the left, a menu of three lines: the site, the book, its contents (Tom, 2026-11-21).
+      var home = header.querySelector('.sitename a'), logo = home && home.querySelector('svg');
+      var crumb = document.querySelector('.crumbs a'), toc = pager.querySelector('a:not([rel])'), ul = el('ul');
+      function line(href, picture, text) {
+        var li = el('li'), a = el('a', { href: href }), words = el('span');
+        if (typeof picture === 'string') a.innerHTML = picture; else if (picture) a.appendChild(picture.cloneNode(true));
+        words.textContent = text;
+        a.appendChild(words);
+        li.appendChild(a);
+        ul.appendChild(li);
+      }
+      if (home) line(home.getAttribute('href'), logo, home.textContent);
+      if (crumb) line(crumb.getAttribute('href'), svg('book', 'tb-ic'), crumb.textContent);
+      if (toc) line(toc.getAttribute('href'), svg('contents', 'tb-ic'), 'Contents');
+      menuBtn = el('button', { type: 'button', 'class': 'tb-nav-btn', 'aria-expanded': 'false', 'aria-controls': 'tb-menu',
+                               'aria-label': 'This site and this book', title: 'This site and this book' }, svg('menu'));
+      menu = el('div', { id: 'tb-menu', 'class': 'tb-menu', hidden: '' });
+      menu.appendChild(ul);
+      inner.appendChild(menuBtn);
       mid.appendChild(link('prev', 'Previous: ' + words(prev), prev));
       mid.appendChild(link('next', 'Next: ' + words(next), next));
       inner.appendChild(mid);
-      barBtn = el('button', { type: 'button', 'aria-expanded': 'false', 'aria-controls': 'tb-panel', 'aria-label': 'Display settings',
+      barBtn = el('button', { type: 'button', 'class': 'tb-set-btn', 'aria-expanded': 'false', 'aria-controls': 'tb-panel', 'aria-label': 'Display settings',
                               title: 'Display settings' }, svg('display'));
       inner.appendChild(barBtn);
+      inner.appendChild(menu);
       bar.appendChild(inner);
       header.parentNode.insertBefore(bar, header.nextSibling);
       root.classList.add('tb-hasbar');
@@ -355,19 +379,33 @@
       }
       // In view: the reader has it switched on and the header is out of view; and as long as the panel is open in it.
       showBar = function () {
-        var held = !panel.hidden && panel.parentNode !== header;
+        var held = !menu.hidden || (!panel.hidden && panel.parentNode !== header);
         bar.classList.toggle('tb-on', held || (!!s.bar && header.getBoundingClientRect().bottom < 0));
       };
       window.addEventListener('scroll', showBar, { passive: true });
       window.addEventListener('resize', showBar);
       barBtn.addEventListener('click', function () { open(panel.hidden || opener !== barBtn, barBtn); });
+      menuBtn.addEventListener('click', function () { openMenu(menu.hidden); });
+      showBar();
+    }
+
+    function openMenu(yes) {
+      var i, t;
+      if (!menu || menu.hidden === !yes) return;
+      if (yes) open(false);
+      menu.hidden = !yes;
+      menuBtn.setAttribute('aria-expanded', yes ? 'true' : 'false');
+      if (yes) for (i = 0; i < menu.querySelectorAll('span').length; i++) {     // a title too long for the menu fades out
+        t = menu.querySelectorAll('span')[i];
+        t.classList.toggle('tb-cut', t.scrollWidth > t.clientWidth + 1);
+      }
       showBar();
     }
 
     function open(yes, from) {
       var home = from === barBtn ? bar.firstChild : header;
       if (yes && panel.parentNode !== home) home.appendChild(panel);
-      if (yes) opener = from;
+      if (yes) { opener = from; openMenu(false); }
       panel.hidden = !yes;
       btn.setAttribute('aria-expanded', yes && opener === btn ? 'true' : 'false');
       if (barBtn) barBtn.setAttribute('aria-expanded', yes && opener === barBtn ? 'true' : 'false');
@@ -377,9 +415,11 @@
     btn.addEventListener('click', function () { open(panel.hidden || opener !== btn, btn); });
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape' && !panel.hidden) { open(false); opener.focus(); }
+      else if (e.key === 'Escape' && menu && !menu.hidden) { openMenu(false); menuBtn.focus(); }
     });
     document.addEventListener('click', function (e) {
       if (!panel.hidden && !panel.contains(e.target) && !btn.contains(e.target) && !(barBtn && barBtn.contains(e.target))) open(false);
+      if (menu && !menu.hidden && !menu.contains(e.target) && !menuBtn.contains(e.target)) openMenu(false);
     });
     buildBar();
 

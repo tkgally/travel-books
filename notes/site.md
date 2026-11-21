@@ -9,28 +9,35 @@ for a plan for the home page as the number of books grows. This is it. Change it
 
 | Page | What | Built from |
 |---|---|---|
-| `index.html` | what the site is (two short paragraphs); the books; the queue | `books/*/book.json`, `data/queue.json` |
+| `index.html` | what the site is: the name and two short paragraphs, nothing else (Tom, 2026-11-21) | |
+| `books.html` | the books; the queue ("Books" in the header of every page) | `books/*/book.json`, `data/queue.json` |
 | `places.html` | the books by part of the world; a book is listed under each part it covers | `regions` in `book.json` + `data/places.json` |
 | `dates.html` | the books by the decade in which the journey began (first year in `period`; else the year of publication) | `period`, `year` |
-| `authors.html` | the books by author, under letters — only when the home page no longer lists every book | `authors[0].sort` |
+| `authors.html` | the books by author, under letters — only when the Books page no longer lists every book | `authors[0].sort` |
 | `japan-as-they-saw-it.html` | why some books come from the JATSI list; those published and queued; the whole list with scan links | `data/jatsi.json`, the queue |
 | `about.html`, `json-format.html` | | `site/*.md` |
 | `books/<id>/…` | a book's page, its chapters, EPUB, ODT, JSON | the book |
 
 Every line for a book, in every list, is the same (`book_line`): short title, author, year; under it the places,
-the time of the journey, and "(JATSI)" for a book of that list.
+the time of the journey, and "JATSI" for a book of that list.
+
+**Header and way home (Tom, 2026-11-21).** The logo and "Travel Books" in the header are the link to the home page
+from every page; beside them "Books" (`books.html`), "About" and the settings button. The breadcrumb line exists
+only on chapter pages and is the book's title (→ its page) › the chapter; no other page has one (`crumbs` of
+`build_site.page`). `places.html`, `dates.html` and `authors.html` each say "Also listed by …" with links to the
+other lists. On a book's page the picture of the cover links to the first chapter, as "Read on this site" does.
 
 ## Stages
 
-| Published books | Home page | To do when the stage is reached |
+| Published books | Books page (until 2026-11-21 these lists were on the home page) | To do when the stage is reached |
 |---|---|---|
 | up to 30 (`HOME_FULL_LIST`) | every book, by author; a line linking the lists by place and by date; the whole queue | nothing: this is now |
-| 31 to about 150 | the ten newest (`HOME_NEWEST`, by date of version 1) and links to the three full lists; the whole queue | automatic. In the review session after the thirtieth book: look at the home page and the three lists on a narrow and a wide screen; move the queue to a page of its own (`queue.html`, one line on the home page) if it has more than about 25 rows |
+| 31 to about 150 | the ten newest (`HOME_NEWEST`, by date of version 1) and links to the three full lists; the whole queue | automatic. In the review session after the thirtieth book: look at the home page and the three lists on a narrow and a wide screen; move the queue to a page of its own (`queue.html`, one line on the Books page) if it has more than about 25 rows |
 | about 150 and more | the same | a part of the world in `places.html` with more than about 40 books gets its countries as sub-headings (East Asia will be first, because of JATSI: Japan, then the rest); `dates.html` by decade stays. Consider one page per part of the world. Consider a search box only if Tom asks: it needs a script and an index file, and the rule is "JS only if needed" |
 
 Not planned until a reader or Tom asks: a subject index (`subjects` in `book.json` is free text and would first
 need a fixed list of terms, as `regions` has in `data/places.json`); feeds; covers in the lists (they would make
-the home page heavy and the lists harder to scan).
+the Books page heavy and the lists harder to scan).
 
 ## The logo (Tom, 2026-11-21)
 
@@ -53,8 +60,8 @@ setting). Change the two together: the test `test_logo_and_favicon_on_every_page
 ## The JATSI books on the site (Tom, 2026-11-20)
 
 The reader is told in three places, in plain words: the second paragraph of the home page; the label
-"(JATSI)", linked to `japan-as-they-saw-it.html`, on each such book and queue row (Tom, 2026-11-21; before that
-"JATSI (about)", and first "from Japan As They Saw It (about these books)"; `jatsi_label()`; not on `japan-as-they-saw-it.html` itself, where he found it redundant); and the row "Why it is here" in
+"JATSI", linked to `japan-as-they-saw-it.html`, on each such book and queue row (Tom, 2026-11-21; before that
+"(JATSI)", "JATSI (about)", and first "from Japan As They Saw It (about these books)"; `jatsi_label()`; not on `japan-as-they-saw-it.html` itself, where he found it redundant); and the row "Why it is here" in
 the table on the book's own page. Wherever the name stands in running text or a label it links to Tom's project
 (<https://www.gally.net/jatsi/index.html>; `jatsi_name()` in the builder, a Markdown link in `site/*.md`), and
 "about these books" links to the page on this site.
@@ -97,15 +104,27 @@ What Tom decided is in `preferences.md` (2026-11-20, "display settings"). How it
   the same. Print always uses black on white.
 - **The bar at the top of a chapter (Tom, 2026-11-21):** `nav.tb-bar`, made by the script on pages that have
   `article.book` and `nav.pager`, placed after the header, `position: fixed`. Four pictures, no words (each with an
-  `aria-label` and a `title`): the book's page at `#contents`, previous, next (their addresses are read from the
+  `aria-label` and a `title`): a compass that opens a menu (below), previous, next (their addresses are read from the
   page's pager; at the first or last chapter the arrow is a dimmed `span`), and a button that opens the same
   Display panel, which is moved into the bar while opened from there. In view (`tb-on`) when the header is out of
-  view and the flag `bar` is on (default; `data-bar="off"` otherwise), and as long as the panel is open in it — so
+  view and the flag `bar` is on (default; `data-bar="off"` otherwise), and as long as the panel or the menu is open in it — so
   switching the bar off from the bar does not take the panel away. `scroll-padding-top` on `<html>` keeps anchors
   and keyboard focus from landing under it. Index pages have no bar.
   An arrow of the bar leaves the file name it goes to in `sessionStorage` (`tb-bar-nav`); the chapter that finds its
   own name there opens at the reader's place in it or, with none, just above its title, with the bar in view at
   once (`tb-now`: no sliding in), so the controls do not move (Tom, 2026-11-21). The pager's own links do not do this.
+- **The menu of the bar (Tom, 2026-11-21):** `#tb-menu`, three links made from what the page already has: the logo
+  and name (copied from the header's `.sitename a`) → home; an open book and the book's title (the first link of
+  the breadcrumbs) → the book's page; the three-line picture and "Contents" → the pager's contents link. It is as
+  wide as its longest line, at most the column; a title that does not fit is cut and its last 3em fade out
+  (`tb-cut`, set when the menu opens, a CSS mask). Escape or a click elsewhere closes it; it and the panel are
+  never open together.
+- **The settings button is in the same place in the header and in the bar** (Tom, 2026-11-21: it should seem
+  fixed). The header's (`.tb-btn`, the two-sliders picture, no word) is positioned from the top right corner of
+  the header, the bar's by the bar's grid: both 2.4em square, the same distance from the top (a test compares the
+  two numbers) and 0.5em beyond the column's right edge, with the same font size. If the header, the bar or
+  either button is restyled, measure both pictures in a browser at the top of a chapter and scrolled down: they
+  must have the same rectangle. The header has `padding-right` for it (only with the script).
 - **The place in each chapter:** `tb-place` holds for each book `f`, `b`, `t` as before and `c`: chapter file →
   [block at the top of the reading area, the part of it (0–0.99) above the top]. Saved on scroll (every 400 ms)
   and on `pagehide`; a chapter opened by a link goes to its own saved place. A change in the panel keeps the same
