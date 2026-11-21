@@ -665,12 +665,13 @@ class SiteLists(unittest.TestCase):
         build_site.build_books(self.out, books, queue)
         # the home page: the header, the title, two paragraphs, the footer; the lists are on the Books page (Tom, 2026-11-21)
         home = self.read("index.html")
-        self.assertEqual(home.count('(<a href="japan-as-they-saw-it.html">about these books</a>)'), 1)   # the introduction
-        self.assertIn("a list of books about Japan that are being\nadded to this site one at a time (", home)
+        # the introduction: the name of the list links to this site's page about it (Tom, 2026-11-21)
+        self.assertIn('Books are also being added from the project <a href="japan-as-they-saw-it.html">Japan As They Saw It</a>, so the site\n'
+                      'has more books about Japan than about other countries.</p>', home)
+        self.assertNotIn("about these books", home)
         main = home[home.index("<main"):home.index("</main>")]
         self.assertEqual((main.count("<h1>"), main.count("<p>"), main.count("<h2"), main.count("<li")), (1, 2, 0, 0))
         self.assertIn("The transcriptions on this site are in the public domain", home)
-        self.assertEqual(home.count("Japan As They Saw It"), home.count('<a href="https://www.gally.net/jatsi/index.html" target="_blank" rel="noopener">Japan As They Saw It</a>'))
         h = self.read("books.html")
         self.assertIn("<h1>Books</h1>", h)
         self.assertIn('<h2 id="queue">In the queue</h2>', h)

@@ -62,7 +62,7 @@ setting). Change the two together: the test `test_logo_and_favicon_on_every_page
 The reader is told in three places, in plain words: the second paragraph of the home page; the label
 "JATSI", linked to `japan-as-they-saw-it.html`, on each such book and queue row (Tom, 2026-11-21; before that
 "(JATSI)", "JATSI (about)", and first "from Japan As They Saw It (about these books)"; `jatsi_label()`; not on `japan-as-they-saw-it.html` itself, where he found it redundant); and the row "Why it is here" in
-the table on the book's own page. Wherever the name stands in running text or a label it links to Tom's project
+the table on the book's own page. On the home page the name links to `japan-as-they-saw-it.html` (Tom, 2026-11-21); wherever else the name stands in running text or a label it links to Tom's project
 (<https://www.gally.net/jatsi/index.html>; `jatsi_name()` in the builder, a Markdown link in `site/*.md`), and
 "about these books" links to the page on this site.
 
