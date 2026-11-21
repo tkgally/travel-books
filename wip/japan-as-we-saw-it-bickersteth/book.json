@@ -97,5 +97,13 @@
   "p0081",
   "p0139",
   "p0297"
- ]
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-21",
+  "pages": 6,
+  "recall": "29/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }
