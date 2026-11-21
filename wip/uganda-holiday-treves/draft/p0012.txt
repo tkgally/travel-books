@@ -1,0 +1,28 @@
+[[page ?]]
+
+# Contents
+
+| <sc>chapter</sc> | | <sc>page</sc> |
+| I. | T<sc>he</sc> L<sc>yons</sc> M<sc>ail</sc> | <pref>1</pref> |
+| II. | T<sc>he</sc> S<sc>hip of</sc> G<sc>ood</sc> H<sc>ope</sc> | <pref>8</pref> |
+| III. | T<sc>he</sc> F<sc>ag</sc> E<sc>nd of the</sc> W<sc>orld</sc> | <pref>13</pref> |
+| IV. | T<sc>he</sc> C<sc>ape</sc> | <pref>23</pref> |
+| V. | T<sc>he</sc> S<sc>ea</sc> G<sc>ate</sc> | <pref>26</pref> |
+| VI. | M<sc>ombasa</sc> | <pref>33</pref> |
+| VII. | T<sc>he</sc> A<sc>rab</sc> T<sc>own and the</sc> O<sc>ld</sc> F<sc>ort</sc> | <pref>40</pref> |
+| VIII. | A F<sc>ever</sc> D<sc>ance</sc> | <pref>49</pref> |
+| IX. | T<sc>he</sc> U<sc>ganda</sc> R<sc>ailway</sc> | <pref>55</pref> |
+| X. | T<sc>he</sc> R<sc>ed</sc> D<sc>esert</sc> | <pref>61</pref> |
+| XI. | C<sc>oncerning</sc> L<sc>ions</sc> | <pref>68</pref> |
+| XII. | T<sc>he</sc> G<sc>ame</sc> C<sc>ountry</sc> | <pref>76</pref> |
+| XIII. | M<sc>asai and</sc> M<sc>anners</sc> | <pref>86</pref> |
+| XIV. | N<sc>airobi</sc> | <pref>98</pref> |
+| XV. | T<sc>he</sc> P<sc>rehistoric</sc> M<sc>en</sc> | <pref>107</pref> |
+| XVI. | T<sc>he</sc> G<sc>reat</sc> R<sc>ift</sc> V<sc>alley</sc> | <pref>112</pref> |
+| XVII. | A S<sc>afari in the</sc> R<sc>ift</sc> V<sc>alley</sc> | <pref>117</pref> |
+| XVIII. | T<sc>he</sc> F<sc>urther</sc> P<sc>rogress of the</sc> S<sc>afari</sc> | <pref>126</pref> |
+| XIX. | N<sc>akuru and the</sc> R<sc>oad</sc> W<sc>estward</sc> | <pref>133</pref> |
+| XX. | P<sc>ort</sc> F<sc>lorence</sc> | <pref>144</pref> |
+| XXI. | T<sc>he</sc> L<sc>ake</sc> V<sc>ictoria</sc> N<sc>yanza</sc> | <pref>149</pref> |
+| XXII. | R<sc>usinga</sc> I<sc>sland</sc> | <pref>155</pref> |
+| XXIII. | T<sc>he</sc> E<sc>ast</sc> S<sc>hore of the</sc> L<sc>ake</sc> | <pref>166</pref> |
