@@ -1,0 +1,9 @@
+{"find": "he says, of quite", "replace": "he says, of quite"}
+
+Wait — check differences: the draft has "are, he says, of quite", and the image says "of quite recent origin". Draft says "of quite recent origin" too.
+
+{"find": "he says, of quite recent", "replace": "he says, of quite recent"}
+
+I'll give the actual correction:
+
+{"find": "are, he says, though", "replace": "are, he says, of quite recent origin, though"}

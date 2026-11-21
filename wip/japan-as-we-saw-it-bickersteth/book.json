@@ -46,5 +46,48 @@
    "date": "2026-11-21",
    "note": "First publication."
   }
+ ],
+ "frontispiece": "p0006-1",
+ "divisions": [
+  {
+   "at": "p0009",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0013",
+   "kind": "preface"
+  },
+  {
+   "at": "p0019",
+   "kind": "contents"
+  },
+  {
+   "at": "p0023",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0026",
+   "kind": "front",
+   "title": "Map of Japan",
+   "reading": true
+  },
+  {
+   "at": "p0027",
+   "kind": "front",
+   "title": "Half-title above Chapter I"
+  },
+  {
+   "at": "p0027",
+   "n": 2,
+   "kind": "chapter"
+  },
+  {
+   "at": "p0361",
+   "kind": "appendix"
+  },
+  {
+   "at": "p0373",
+   "kind": "index"
+  }
  ]
 }
