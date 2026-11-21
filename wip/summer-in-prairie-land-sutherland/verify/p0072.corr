@@ -1,9 +1,0 @@
-Two differences from the image: "waggon" should be "waggon" → "waggon" in the draft but the page prints "waggon" as "waggon"? The page reads "waggon" with a "w-a-g-g-o-n" shape. Checking the scan, it reads "waggon", so the only real differences are these:
-
-{"find": "his other waggon", "replace": "his other waggon"}
-
-Actually, on a closer look the scan reads "waggon" as "waggon", so that entry changes nothing. The corrections that matter are:
-
-{"find": "D. McDougall’s four", "replace": "D. McDougall’s four"}
-
-NONE

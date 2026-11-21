@@ -1064,11 +1064,13 @@
    "place": "Toronto",
    "publisher": "Printed for the author, at the Methodist Book and Publishing House",
    "images": 220,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-21",
    "eligibility": "Checked 2026-11-21 (Opus subagent): not in pg_catalog.csv (whole file); The Online Books Page: nothing; Wikisource: nothing; web search of a sentence: nothing. Canadiana page images and a PDF of the same scan at electriccanadian.com (not reading editions). Editions: 2nd ed. 1882; Palala Press 2016 (print on demand); no real edition after 1914 found. Sutherland 1833–1910. No illustrator. Not checked: Faded Page, WorldCat.",
    "note": "Vancouver Public Library scan, 500 ppi, very clean (a library stamp in the front matter). About 198 pp., 19 chapters: rail across Dakota to Bismarck, steamer up the Missouri, Fort Benton to Fort Macleod by waggon, Morley (Stoney mission, the McDougalls), the trail to Edmonton and back. Partly a missions report; frank about Indian agents.",
-   "started": "2026-11-21"
+   "started": "2026-11-21",
+   "version": 1,
+   "published": "2026-11-21"
   },
   {
    "order": 59,
