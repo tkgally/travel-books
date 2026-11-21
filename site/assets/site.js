@@ -65,6 +65,9 @@
   var where = location.pathname.match(/\/books\/([^\/]+)\/([^\/]*)$/);
   var bookId = where && where[1], file = where && (where[2] || 'index.html');
   var bar = null;     // the bar at the top of a chapter, once it exists
+  // Set when the reader came here by an arrow of that bar: the chapter then opens with the bar still in view.
+  var BARNAV = 'tb-bar-nav', fromBar = false;
+  try { fromBar = !!file && sessionStorage.getItem(BARNAV) === file; sessionStorage.removeItem(BARNAV); } catch (e) {}
 
   function places() {
     var p;
@@ -115,9 +118,19 @@
       if (c && c.length === 2 && c[0] >= 0 && c[1] >= 0 && c[1] < 1) at = { i: Math.floor(c[0]), o: +c[1] };
       else if (p.f === file && p.b > 0) at = { i: p.b, o: 0 };
     }
-    function go() { if (!touched) toSpot(article, at); }
+    var title = false;
+    if (!(s.place && at && (at.i || at.o))) {
+      // No place kept in this chapter. Reached by an arrow of the bar: to just above its title, the bar still in view.
+      at = fromBar && bar ? { i: 0, o: 0 } : null;
+      title = !!at;
+    }
+    function go() {
+      if (touched) return;
+      toSpot(article, at);
+      if (title) window.scrollBy(0, -Math.min(16, Math.max(0, article.getBoundingClientRect().top - covered() + 16)));
+    }
     // Back, forward and reload are left to the browser, which returns to the place itself.
-    if (s.place && at && (at.i || at.o) && !location.hash && (!nav || nav.type === 'navigate')) {
+    if (at && !location.hash && (!nav || nav.type === 'navigate')) {
       ['wheel', 'touchstart', 'keydown', 'mousedown'].forEach(function (ev) {
         window.addEventListener(ev, function () { touched = true; }, { passive: true, once: true });
       });
@@ -315,7 +328,12 @@
       function link(name, label, from) {
         var a = from ? el('a', { href: from.getAttribute('href'), 'aria-label': label, title: label }, svg(name))
                      : el('span', { 'class': 'tb-none', 'aria-hidden': 'true' }, svg(name));
-        if (from && from.rel) a.rel = from.rel;
+        if (from && from.rel) {
+          a.rel = from.rel;
+          a.addEventListener('click', function () {
+            try { sessionStorage.setItem(BARNAV, from.getAttribute('href')); } catch (e) {}
+          });
+        }
         return a;
       }
       function words(a) { return a ? a.textContent.replace(/^[←\s]+|[→\s]+$/g, '') : ''; }
@@ -331,6 +349,10 @@
       bar.appendChild(inner);
       header.parentNode.insertBefore(bar, header.nextSibling);
       root.classList.add('tb-hasbar');
+      if (fromBar) {      // it was in view in the chapter just left: here it is in place at once, without sliding in
+        bar.classList.add('tb-now');
+        setTimeout(function () { bar.classList.remove('tb-now'); }, 500);
+      }
       // In view: the reader has it switched on and the header is out of view; and as long as the panel is open in it.
       showBar = function () {
         var held = !panel.hidden && panel.parentNode !== header;
@@ -392,7 +414,7 @@
   function ready() {
     var article = document.querySelector('article.book');
     buildUI(article);
-    if (article) { if (bookId) chapterPlace(article); }
+    if (article) { if (bookId) { chapterPlace(article); if (ui) ui.refresh(); } }     // the bar: in view at once if the page opened scrolled
     else if (bookId && file === 'index.html') resumeLink();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ready); else ready();
