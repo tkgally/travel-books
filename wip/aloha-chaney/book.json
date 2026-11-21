@@ -92,5 +92,10 @@
   "recall": "30/30",
   "real_errors": 0,
   "fixed": 0
- }
+ },
+ "keep_hyphens": [
+  "p0025",
+  "p0090",
+  "p0227"
+ ]
 }
