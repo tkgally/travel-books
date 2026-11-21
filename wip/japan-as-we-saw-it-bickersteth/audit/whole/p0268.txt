@@ -1,0 +1,6 @@
+{"given": "Chapter XII.", "print": "CHAPTER XII.", "sure": "low"}
+{"given": "on the Inland Sea of Japan; only", "print": "on the Inland Sea of Japan, only", "sure": "high"}
+{"given": "though they had left osaka at", "print": "though they had left Osaka at", "sure": "high"}
+{"given": "the congregation bad grown year by", "print": "the congregation had grown year by", "sure": "high"}
+{"given": "have a resident clcrgyman to direct", "print": "have a resident clergyman to direct", "sure": "high"}
+{"given": "It was the stone this Church", "print": "It was the stone of this Church", "sure": "high"}
