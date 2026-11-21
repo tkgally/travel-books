@@ -1,10 +1,8 @@
 [       ok] meta: book.json: required fields present and sane
-[ FAIL (1)] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
-            - p0139: illegible mark 〓: 'Such is the greeting: “A Happy New Year.” Each caller brings with him '
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
 [       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
 [       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
-[ FAIL (1)] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
-            - text: …'lly tickled them were the litt〓e curly tails of these brutes.'…
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
 [       ok] straight-quotes: no straight ' or " in the text
 [       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
 [       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
@@ -14,11 +12,8 @@
 [       ok] nav: contents: at least one reading division; each has a title and text
 [       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
-[ FAIL (1)] audit: book.json records the sampled audit of this version
-            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
-[ look (3)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
-            - hyphen join at p0066: … from a gentle-|hearted people … (hyphen removed; check)
-            - hyphen join at p0160: …together. Kite-|flying is pract… (hyphen removed; check) — the book prints “kite-flying” elsewhere: keep_hyphens?
+[       ok] audit: book.json records the sampled audit of this version
+[ look (1)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - (and 3 joins giving a word the book prints whole elsewhere: not listed)
 [       ok] joins: page joins: missing [[cont]]
 [       ok] folios: printed page numbers that break the sequence
@@ -28,39 +23,34 @@
             - p0045: closing ” with no opening “: 'There are three semi-foreign hotels here, the Sugimoto, the '
             - p0116: closing ” with no opening “: 'Assuming my very lordliest air and puffing vigorously at my '
 [       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
-[ look (3)] contents: entries of the printed contents with no matching heading
-            - p0014: 'Nikko and Chiuzenji'
+[ look (2)] contents: entries of the printed contents with no matching heading
             - p0014: 'The Imperial Palace and Nijo Castle'
             - p0014: 'Kumamoto and the Volcano Aso San. Hakata, Takeo, Nagasaki, and—Adieu!'
 [       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
 [       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
-[ look (3)] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
-            - p0040: verse continued from p0039: stanzas before [4, 4, 4] | here [4, 4, 4] (a stanza ending at the page foot needs no [[cont]])
-            - p0134: verse continued from p0133: stanzas before [10, 8] | here [8, 9] (a stanza ending at the page foot needs no [[cont]])
-            - p0139: verse continued from p0138: stanzas before [8, 8, 8] | here [8, 8, 3] (a stanza ending at the page foot needs no [[cont]])
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
-[look (21)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+[look (20)] accents: words the book spells with different accents (or with and without): look at each group on the scan
             - a: a (p0014, p0016, p0017, p0018, p0019, p0020…); à (p0026, p0051, p0082, p0114, p0146, p0154)
-            - daimio: daimio (p0023, p0076); daimiõ (p0132); daimiö (p0106); daimiō (p0044, p0060, p0117)
-            - daimios: daimios (p0087, p0144, p0145, p0151); daimiōs (p0086)
+            - daimio: daimio (p0023, p0076); daimiõ (p0060, p0132); daimiö (p0106); daimiō (p0044, p0060, p0117)
+            - daimios: daimios (p0087, p0144, p0145, p0151); daimiõs (p0086)
             - do: do (p0021, p0022, p0024, p0025, p0026, p0028…); dō (p0049); dŏ (p0026)
             - gotzo: gotzo (p0055); gotzŏ (p0055)
             - hakone: hakone (p0087); hakoné (p0090, p0091, p0093)
             - hikone: hikone (p0132); hikoné (p0133, p0135)
             - kamo: kamo (p0099, p0100); kamō (p0089)
-            - kioto: kioto (p0015, p0018, p0035, p0048, p0049, p0050…); kiòto (p0135)
             - no: no (p0016, p0017, p0018, p0020, p0022, p0023…); nõ (p0081); nō (p0054, p0096); nŏ (p0100)
             - o: o (p0009, p0010, p0014, p0015, p0017, p0030…); ŏ (p0127)
             - piece: piece (p0034, p0080, p0098, p0102, p0106, p0157…); pièce (p0155)
             - resistance: resistance (p0018); résistance (p0155)
-            - saigo: saigo (p0061); saigō (p0082)
+            - saigo: saigo (p0061); saigõ (p0082)
             - sake: sake (p0031, p0071, p0079); sakè (p0104); saké (p0017, p0018, p0030, p0031, p0051, p0056…); sakê (p0160)
             - sayonara: sayonara (p0015); sayônara (p0018, p0025)
-            - shinto: shinto (p0049, p0060, p0067, p0071, p0081, p0100…); shintō (p0061)
-            - shogun: shogun (p0035, p0048, p0051, p0079, p0087, p0088…); shōgun (p0151)
+            - shinto: shinto (p0049, p0060, p0067, p0071, p0081, p0100…); shintõ (p0061)
+            - shogun: shogun (p0035, p0048, p0051, p0079, p0087, p0088…); shõgun (p0151)
             - taiko: taiko (p0050, p0051); taikō (p0038)
             - takusan: takusan (p0031, p0160); takŭsan (p0055)
-            - tenno: tenno (p0018); tennō (p0064, p0099, p0128)
+            - tenno: tenno (p0018); tennõ (p0128); tennō (p0064, p0099)
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: land-of-the-tatami-murray v1 — 3 to fix, 0 waived; to look at: hyphen-joins 3, quote-balance 3, contents 3, verse-joins 3, accents 21 — tools@4973d04 2026-11-21
+preflight PASS: land-of-the-tatami-murray v1 — 0 to fix, 0 waived; to look at: hyphen-joins 1, quote-balance 3, contents 2, accents 20 — tools@6f0eedc 2026-11-21
