@@ -1,0 +1,35 @@
+[[page ?]]
+
+# Contents
+
+[[center]] Chapter I.
+
+A<sc>cross</sc> C<sc>anada</sc> <pref>1</pref>
+
+[[center]] Chapter II.
+
+T<sc>he</sc> N<sc>orth</sc> P<sc>acific</sc> <pref>13</pref>
+
+[[center]] Chapter III.
+
+Y<sc>okohama</sc> <pref>29</pref>
+
+[[center]] Chapter IV.
+
+K<sc>amakura and</sc> E<sc>noshima</sc> <pref>42</pref>
+
+[[center]] Chapter V.
+
+T<sc>he</sc> H<sc>akone</sc> H<sc>ills</sc> <pref>58</pref>
+
+[[center]] Chapter VI.
+
+T<sc>ôkyô</sc> <pref>78</pref>
+
+[[center]] Chapter VII.
+
+T<sc>ôkyô</sc> <i>(continued)</i> <pref>91</pref>
+
+[[center]] Chapter VIII.
+
+T<sc>ôkyô</sc> <i>(continued)</i> <pref>103</pref>

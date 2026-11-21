@@ -1,0 +1,5 @@
+{"given": "An amusiug mistake", "print": "An amusing mistake", "sure": "high"}
+{"given": "The Lochs Katrine and Vennachar Japan", "print": "The Lochs Katrine and Vennachar of Japan", "sure": "high"}
+{"given": "from the Foreign office of Tôkyô", "print": "from the Foreign Office of Tôkyô", "sure": "high"}
+{"given": "embassy, I let out for Uyeno", "print": "embassy, I set out for Uyeno", "sure": "high"}
+{"given": "was the regular time; but the", "print": "was the regular time, but the", "sure": "high"}

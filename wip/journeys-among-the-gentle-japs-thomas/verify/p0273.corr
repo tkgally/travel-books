@@ -1,0 +1,5 @@
+{"find": "Mrs., <i>née</i> Miss", "replace": "Mrs., <i>née</i> Miss"}
+
+Wait — the draft has no italics on "née" and it is italic in the print. The corrected entry:
+
+{"find": "Mrs., née Miss Bird", "replace": "Mrs., <i>née</i> Miss Bird"}

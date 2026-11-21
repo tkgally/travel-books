@@ -1,0 +1,2 @@
+{"find": "<i>40,000 Miles over Land and Water</i>", "replace": "40,000 <i>Miles over Land and Water</i>"}
+{"find": "<i>Postage Stamps</i>, 5s.", "replace": "<i>Postage Stamps</i>, 5<i>s</i>."}
