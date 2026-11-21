@@ -1,0 +1,6 @@
+{"page": "p0009", "n": 1, "who": "draft (could not undo: edit by hand)", "draft": "# <i>New Books of Travel.</i>\n\n", "verified": "", "judge": {"n": 1, "is": "A", "print": "# <i>NEW BOOKS OF TRAVEL.</i>\n\n", "sure": "medium"}}
+{"page": "p0010", "n": 1, "who": "draft (could not undo: edit by hand)", "draft": "# <i>New Books of Travel.</i>\n\n", "verified": "", "judge": {"n": 1, "is": "B", "print": "# <i>New Books of Travel.</i>\n\n", "sure": "high"}}
+{"page": "p0038", "n": 1, "who": "draft", "draft": "DURING my sta", "verified": "URING my sta", "judge": {"n": 1, "is": "B", "print": "DURING my sta", "sure": "medium"}}
+{"page": "p0238", "n": 1, "who": "draft", "draft": "Chapter VIII.", "verified": "Chapter VIII", "judge": {"n": 1, "is": "B", "print": "Chapter VIII.", "sure": "high"}}
+{"page": "p0251", "n": 1, "who": "verified", "draft": "<sc>chiswick press:—printed by whittingham and wilkins,</sc>", "verified": "CHISWICK PRESS:—PRINTED BY WHITTINGHAM AND WILKINS,", "judge": {"n": 1, "is": "B", "print": "CHISWICK PRESS:—PRINTED BY WHITTINGHAM AND WILKINS,", "sure": "low"}}
+{"page": "p0251", "n": 2, "who": "verified", "draft": "<sc>tooks court, chancery lane.</sc>", "verified": "TOOKS COURT, CHANCERY LANE.", "judge": {"n": 2, "is": "B", "print": "TOOKS COURT, CHANCERY LANE.", "sure": "low"}}

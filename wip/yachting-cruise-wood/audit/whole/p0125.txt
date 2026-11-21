@@ -1,0 +1,5 @@
+{"given": "slightest interest the stranger vessel", "print": "slightest interest in the stranger vessel", "sure": "high"}
+{"given": "had entered the harbor, and dropped", "print": "had entered the harbour, and dropped", "sure": "high"}
+{"given": "green boughs, on other signs", "print": "green boughs, or other signs", "sure": "high"}
+{"given": "looked at us in silence; all armed", "print": "looked at us in silence, all armed", "sure": "high"}
+{"given": "I believe that everyoue on board", "print": "I believe that everyone on board", "sure": "high"}

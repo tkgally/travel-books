@@ -1,0 +1,4 @@
+{"given": "surface to advance over mud, but", "print": "surface to advance over the mud, but", "sure": "high"}
+{"given": "of being smothcred in this awful", "print": "of being smothered in this awful", "sure": "high"}
+{"given": "It appeared to he deep, for", "print": "It appeared to be deep, for", "sure": "high"}
+{"given": "with four of my boys; went to", "print": "with four of my boys, went to", "sure": "high"}
