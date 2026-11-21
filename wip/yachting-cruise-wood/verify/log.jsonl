@@ -10,3 +10,7 @@
 {"page": "p0018", "model": "sonnet", "corrections": 0, "seconds": 3.3, "cost": 0.028903900000000003, "completion_tokens": 159, "turns": 2, "attempts": 1}
 {"page": "p0019", "model": "sonnet", "corrections": 0, "seconds": 3.7, "cost": 0.030069, "completion_tokens": 189, "turns": 2, "attempts": 1}
 {"page": "p0020", "model": "sonnet", "corrections": 0, "seconds": 3.1, "cost": 0.0301165, "completion_tokens": 163, "turns": 2, "attempts": 1}
+{"page": "p0021", "model": "sonnet", "corrections": 0, "seconds": 4.1, "cost": 0.0309164, "completion_tokens": 268, "turns": 2, "attempts": 1}
+{"page": "p0022", "model": "sonnet", "corrections": 0, "seconds": 5.5, "cost": 0.032207200000000005, "completion_tokens": 336, "turns": 2, "attempts": 1}
+{"page": "p0023", "model": "sonnet", "corrections": 0, "seconds": 5.1, "cost": 0.0321426, "completion_tokens": 332, "turns": 2, "attempts": 1}
+{"page": "p0024", "model": "sonnet", "corrections": 0, "seconds": 3.1, "cost": 0.0300632, "completion_tokens": 122, "turns": 2, "attempts": 1}
