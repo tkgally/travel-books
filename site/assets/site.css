@@ -19,7 +19,7 @@ header.site { font-size: calc(1rem * var(--tb-hs) / var(--tb-size, 1)); display:
   border-bottom: 1px solid var(--line); padding: 0.8rem 0 0.6rem 0; }
 header.site .sitename { margin: 0; font-size: 1.1em; } header.site .sitename a { color: inherit; text-decoration: none; }
 /* The logo beside the name of the site (build_site.LOGO); the favicon is logo.svg. */
-header.site .logo { width: 1.45em; height: 1.45em; vertical-align: -0.33em; margin-right: 0.4em; }
+header.site .logo { width: 1.45em; height: 1.337em; vertical-align: baseline; margin-right: 0.6em; }  /* the books stand on the baseline */
 .logo-i { fill: var(--fg); } .logo-a { fill: var(--link); } .logo-k { stroke: var(--bg); }
 @media (forced-colors: active) { .logo-i, .logo-a { fill: CanvasText; } .logo-k { stroke: Canvas; } }
 header.site ul, .crumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0 1.2rem; }
