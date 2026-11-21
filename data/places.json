@@ -17,6 +17,7 @@
  ],
  "regions": {
   "Alaska": "North America",
+  "Albania": "Europe",
   "Algeria": "Africa",
   "Angola": "Africa",
   "Arabia": "Western Asia",
@@ -35,6 +36,7 @@
   "Chile": "South America",
   "China": "East Asia",
   "Colorado": "North America",
+  "Croatia": "Europe",
   "Cuba": "Central America and the Caribbean",
   "Cyprus": "Western Asia",
   "Czech Republic": "Europe",
@@ -84,6 +86,7 @@
   "Mauritius": "Atlantic and Indian Ocean islands",
   "Mexico": "North America",
   "Mongolia": "East Asia",
+  "Montenegro": "Europe",
   "Morocco": "Africa",
   "Mozambique": "Africa",
   "Myanmar": "Southeast Asia",
