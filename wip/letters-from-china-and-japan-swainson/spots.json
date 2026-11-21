@@ -1,0 +1,68 @@
+{
+ "p0051": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "very marvelous to",
+   "replace": "very marvellous to",
+   "draft": "very marvelous to",
+   "verified": "very marvellous to",
+   "context": " can ever come safely through the perils of the deep, seems very marvelous to my ignorant female mind. ⏎  ⏎ The native city is on the right s"
+  }
+ ],
+ "p0226": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "customs. . . A genuine",
+   "replace": "customs. . A genuine",
+   "draft": "customs. . . A genuin",
+   "verified": "customs. . A genuin",
+   "context": "ower in not a few graphic descriptions of manners and local customs. . . A genuine sketch.”—<i>Spectator.</i> ⏎ “Possesses the merit of care, in"
+  }
+ ],
+ "p0235": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "Godfrey), Author",
+   "replace": "Godfrey),’ Author",
+   "draft": "Godfrey), Author",
+   "verified": "Godfrey),’ Author",
+   "context": "bout them.”—<i>Spectator.</i> ⏎ </blockquote> ⏎  ⏎ ## Clerk (Mrs. Godfrey), Author of “The Antipodes and Round the World.” ⏎  ⏎ ’ILÂM ĔN NÂS. Hist"
+  }
+ ],
+ "p0260": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Rècamier",
+   "replace": "Récamier",
+   "draft": "Rècamier",
+   "verified": "Récamier",
+   "context": "</i> 6<i>d.</i> ⏎  ⏎ C<sc>ontents</sc>.—Vittoria Colonna—Madame Rècamier—A Daughter of the Stuarts—Dante—Madame de Sévigné—Geoffrey "
+  }
+ ],
+ "p0272": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Serguevitch",
+   "replace": "Sergueviteh",
+   "draft": "Serguevitch",
+   "verified": "Sergueviteh",
+   "context": "e frequently amusing.”—<i>Hour.</i> ⏎  ⏎ ## Poushkin (Alexander Serguevitch). ⏎  ⏎ RUSSIAN ROMANCE. Translated from the Tales of Belkin, &c"
+  }
+ ],
+ "p0284": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "## THOUGHTS IN VERSE.",
+   "replace": "THOUGHTS IN VERSE.",
+   "draft": "## THOUGHTS IN ",
+   "verified": "THOUGHTS IN ",
+   "context": "trated by Elizabeth Thompson (Painter of “The Roll Call”). ⏎  ⏎ ## THOUGHTS IN VERSE. Small crown 8vo. 1<i>s.</i> 6<i>d.</i> ⏎  ⏎ This is a collectio"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+[       ok] meta: book.json: required fields present and sane
+[ FAIL (1)] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+            - p0273: illegible mark 〓: '“There is plenty of vivacity in Mr. Bramble’s nar〓〓〓〓ve.”—<i>Athenæum.'
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[ FAIL (4)] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+            - text: …' vivacity in Mr. Bramble’s nar〓〓〓〓ve.”—Athenæum. “Written in '…
+            - text: …'vivacity in Mr. Bramble’s nar〓〓〓〓ve.”—Athenæum. “Written in a'…
+            - text: …'ivacity in Mr. Bramble’s nar〓〓〓〓ve.”—Athenæum. “Written in a '…
+            - text: …'vacity in Mr. Bramble’s nar〓〓〓〓ve.”—Athenæum. “Written in a l'…
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[ FAIL (1)] audit: book.json records the sampled audit of this version
+            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[look (10)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0016: …ing reduced to-|morrow to “<i>s… (hyphen removed; check) — the book prints “to-morrow” elsewhere: keep_hyphens?
+            - hyphen join at p0020: … possessors re-|appeared, first… (hyphen removed; check) — the book prints “re-appeared” elsewhere: keep_hyphens?
+            - hyphen join at p0039: …ocess of “chin-|chinning” is ac… (hyphen removed; check) — the book prints “chin-chinning” elsewhere: keep_hyphens?
+            - hyphen join at p0083: …friends at Foo-|chow to have hi… (hyphen removed; check) — the book prints “foo-chow” elsewhere: keep_hyphens?
+            - hyphen join at p0087: … these solemni-|ties, and have … (hyphen removed; check)
+            - hyphen join at p0092: …miles from Foo-|Chow with the w… (hyphen removed; check) — the book prints “foo-chow” elsewhere: keep_hyphens?
+            - hyphen join at p0123: …very devout be-|liever in his f… (hyphen removed; check)
+            - hyphen join at p0168: …l of the opium-|smoking Chinese… (hyphen removed; check) — the book hyphenates other “opium-” words: keep_hyphens?
+            - hyphen join at p0280: … which has pre-|vailed, that ev… (hyphen removed; check)
+            - (and 4 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[ look (1)] folios: printed page numbers that break the sequence
+            - p0223: page 2 after page 210 (p0219)
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[ look (2)] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+            - p0083: closing ” with no opening “: 'Circumstantial evidence was strongly against the Boy; he, be'
+            - p0149: closing ” with no opening “: 'One day, when he called to another of them to know what was '
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[       ok] contents: entries of the printed contents with no matching heading
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
+[look (13)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0005, p0008, p0009, p0010, p0011, p0012…); à (p0038, p0214); á (p0166)
+            - an: an (p0005, p0008, p0012, p0017, p0018, p0019…); ân (p0271)
+            - bunnett: bunnett (p0233); bunnètt (p0232, p0241)
+            - charge: charge (p0064); chargé (p0222)
+            - en: en (p0035, p0036, p0074, p0150, p0151, p0167…); ĕn (p0235)
+            - hote: hote (p0017); hôte (p0169)
+            - hygiene: hygiene (p0264); hygiène (p0241)
+            - naake: naake (p0268); naaké (p0268)
+            - rechauffe: rechauffé (p0176); réchauffé (p0109)
+            - resume: resume (p0044, p0102); résumé (p0259)
+            - sun: sun (p0017, p0024, p0033, p0051, p0055, p0070…); sûn (p0085, p0087, p0109)
+            - yamun: yamun (p0062); yamûn (p0037, p0038, p0079, p0080, p0085, p0110); yamūn (p0128, p0129)
+            - yung: yûng (p0154, p0157, p0158); yūng (p0159)
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight FAIL: letters-from-china-and-japan-swainson v1 — 6 to fix, 0 waived; to look at: hyphen-joins 10, folios 1, quote-balance 2, accents 13 — tools@0c510c4 2026-11-21
