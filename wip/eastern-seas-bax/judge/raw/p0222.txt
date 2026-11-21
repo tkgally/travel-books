@@ -1,2 +1,0 @@
-{"n": 1, "is": "A", "print": "to get the\n\n[[image: a Japanese coolie in a broad conical hat and a shaggy straw rain-cape, leaning on a staff]]\n[[caption]] Japanese Mountain Coolie.\n\n[[cont]]key. Althoug", "sure": "high"}
-{"n": 2, "is": "B", "print": "during the", "sure": "high"}

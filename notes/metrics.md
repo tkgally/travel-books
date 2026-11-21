@@ -96,6 +96,7 @@
 | The West Coast of Africa v3 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | “jury” for “jury.” (p. 107) (issue #117 and the `missing-stop` sweep, checked on the scan) |
 | A Woman’s Trip to Alaska v2 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | “diminishes” for “diminishes.” (p. 143) (issue #117 and the `missing-stop` sweep, checked on the scan) |
 | Argentine Plains and Andine Glaciers v1 | 2026-11-21 | 413 | Opus draft → Sonnet corrections → Opus judge; scan check, 91 photo crops, spot-read (56 pages: front matter, tables, notes, glossary) and rendered look by Opus subagents; accents on crops by the session | 9 | 5 / 4 / 0 | 0 | 40.11 | 0 | PASS, 14 waived (tissue guard, ditto marks) | 30/30; 0 / 6 (spot-read: a misread fraction, an accent, 2 misprints; preflight lists: a misread umlaut, a stop left out; rendered look: 26 “To face” lines catching split paragraphs) | |
+| The Eastern Seas v1 | 2026-11-21 | 339 | Opus draft → Sonnet corrections → Opus judge; scan check, 14 woodcut and map crops, spot-read (41 pages) and rendered look by Opus subagents; judge spots and accents on crops by the session | 18 | 6 / 12 / 0 | 1 | 34.77 | 0 | PASS, 2 waived (library leaves) | 30/30; 0 / 6 (scan check's leaf numbers one off in the front matter: 2 leaves drafted late; rendered look: the publisher's dateline ending the last chapter) | |
 
 ## Calibrations
 

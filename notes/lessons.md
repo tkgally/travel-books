@@ -243,6 +243,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   and slowed one page to 15 minutes (2026-11-20): `OMP_THREAD_LIMIT=1` and at most four at a time.
 - A subagent's reading of a single accent is a claim, not a check: the scan check said “chargè” was printed with a grave, and
   the session wrote it down as printed; a later spot-read found an acute (*Sheepshanks* p0141). Crop every `accents` group yourself or send it with crops.
+- A subagent's page map can be one leaf off (*The Eastern Seas*: frontispiece, title and Chapter I each given one leaf late, so the frontispiece was not drafted): open the images of the frontispiece, title page and Chapter I yourself before setting the draft's `--pages`.
 - A subagent's report of lost text is checked with `grep` on the page file before anything is re-run (*Land of the
   North Wind* p0317: "11 lines missing" were there; its view of the line was cut).
 

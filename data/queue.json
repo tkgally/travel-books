@@ -321,11 +321,13 @@
    "place": "London",
    "publisher": "John Murray",
    "images": 348,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-20",
    "eligibility": "JATSI 40. Four of five. Rule 1: Cornell scan (Kirtas, greyscale), clean and sharp. Rule 2: no text elsewhere (Wikisource has an author page only). Rule 3 NOT met: facsimile in Ganesha / Edition Synapse 'Japan in English', 2nd series vol. 32 (2004; National Diet Library catalogue), and Elibron (2002). Rule 4: first-person narrative of his command of a survey gun-vessel, 1871–74; about a third on Japan, the rest China, Formosa and the Siberian coast; chapter II is a compiled history of Formosa. Rule 5: Bonham Ward Bax 1837–1877 (AIM25). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
    "note": "x + 287 pp.; 13 woodcuts (no artist named) and a map: look at how the map was scanned; few footnotes; Murray's advertisements at the end.",
-   "started": "2026-11-21"
+   "started": "2026-11-21",
+   "version": 1,
+   "published": "2026-11-21"
   },
   {
    "order": 18,

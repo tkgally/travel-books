@@ -1,5 +1,0 @@
-{"given": "ascend Fusi-yama once sixty years", "print": "ascend Fusi-yama once in sixty years", "sure": "high"}
-{"given": "a rich black soil; which is", "print": "a rich black soil, which is", "sure": "high"}
-{"given": "the vine might he brought", "print": "the vine might be brought", "sure": "high"}
-{"given": "if skilled labor were employed", "print": "if skilled labour were employed", "sure": "high"}
-{"given": "mountain was perfcctly lovely, with", "print": "mountain was perfectly lovely, with", "sure": "high"}

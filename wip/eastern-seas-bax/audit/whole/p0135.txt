@@ -1,5 +1,0 @@
-{"given": "time. Or this the mandarins", "print": "time. On this the mandarins", "sure": "high"}
-{"given": "a guard of chinese soldiers", "print": "a guard of Chinese soldiers", "sure": "high"}
-{"given": "carefully read inscription on each cangue", "print": "carefully read the inscription on each cangue", "sure": "high"}
-{"given": "the season for firiug and shipping", "print": "the season for firing and shipping", "sure": "high"}
-{"given": "fortunately not dangerous, he recovered after", "print": "fortunately not dangerous; he recovered after", "sure": "high"}
