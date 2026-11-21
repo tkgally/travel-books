@@ -1,0 +1,10 @@
+judge opus: 9 spots on 9 pages: {'verified': 7, 'draft': 2}; cost $0.39
+p0010 #1 [verified, sure: medium] draft '[[center]] TRAVELS IN JAPAN.' | verified '[[center]] T<sc>ravels in</sc> J<sc>apan</sc>.' | judge reads '[[center]] T<sc>ravels in</sc> J<sc>apan</sc>.'
+p0027 #1 [draft, sure: high] draft 'lian gentleman, who' | verified 'lian gentlemen, who' | judge reads 'lian gentleman, who'
+p0048 #1 [draft, sure: high] draft 'ecstacy' | verified 'ecstasy' | judge reads 'ecstacy'
+p0049 #1 [verified, sure: low] draft 'San-ū-san-gen-dō' | verified 'San-û-san-gen-dō' | judge reads 'San-û-san-gen-dō'
+p0080 #1 [verified, sure: low] draft 'woonded' | verified 'wounded' | judge reads 'wounded'
+p0118 #1 [verified, sure: medium] draft 'well, too well' | verified 'well; too well' | judge reads 'well; too well'
+p0132 #1 [verified, sure: medium] draft 'Daimiō' | verified 'Daimiõ' | judge reads 'Daimiõ'
+p0151 #1 [verified, sure: medium] draft 'old grandee as' | verified 'old grandée as' | judge reads 'old grandée as'
+p0153 #1 [verified, sure: medium] draft 'friendliness' | verified 'friendiness' | judge reads 'friendiness'
