@@ -1,0 +1,20 @@
+[[page xvi]]
+
+| | <sc>page</sc> |
+|---|---|
+| I<sc>nterior of</sc> M<sc>ill at</sc> O<sc>saka after the</sc> E<sc>arthquake</sc> | <pref>175</pref> |
+| S<sc>treet in</sc> O<sc>gaki after the</sc> E<sc>arthquake</sc> | <pref>189</pref> |
+| N<sc>agarawa</sc> B<sc>ridge after the</sc> E<sc>arthquake</sc> | <pref>198</pref> |
+| T<sc>emple at</sc> G<sc>ifu after the</sc> E<sc>arthquake</sc> | <pref>203</pref> |
+| J<sc>apanese</sc> C<sc>hildren</sc> | <pref>214</pref> |
+| G<sc>ifu after the</sc> E<sc>arthquake</sc> | <pref>219</pref> |
+| J<sc>inriksha</sc> R<sc>unner</sc> | <pref>229</pref> |
+| S<sc>hinto</sc> P<sc>riests and</sc> S<sc>hrine</sc> | <pref>233</pref> |
+| J<sc>apanese</sc> B<sc>room</sc> M<sc>erchant</sc> | <pref>240</pref> |
+| J<sc>apanese</sc> F<sc>ishing</sc> B<sc>oat</sc> | <pref>255</pref> |
+| S<sc>ilk-spinning</sc> | <pref>263</pref> |
+| A M<sc>erchant in the</sc> O<sc>ld</sc> D<sc>ays of</sc> J<sc>apan</sc> | <pref>275</pref> |
+| J<sc>apanese</sc> T<sc>ea-house</sc> | <pref>279</pref> |
+| J<sc>apanese</sc> B<sc>ed</sc> | <pref>304</pref> |
+| A B<sc>lind</sc> S<sc>hampooer</sc> | <pref>306</pref> |
+| J<sc>apanese</sc> P<sc>ilgrims</sc> | <pref>330</pref> |
