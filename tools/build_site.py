@@ -122,10 +122,18 @@ def sort_key(b):
     return (a.get("sort") or a.get("name") or "", b.get("year") or 0, b.get("id", ""))
 
 
-def first_published(b):
-    """The date the book first appeared on the site (version 1), for 'newest'."""
+def first_published(b, times=None):
+    """When the book first appeared on the site (version 1), for 'newest': the time in data/published.json
+    (written by publish.py), else the date of version 1. A new version does not move a book."""
+    if times and b.get("id") in times:
+        return times[b["id"]]
     h = b.get("history") or []
     return (h[0].get("date") if h else None) or b.get("date") or ""
+
+
+def load_published_times():
+    f = os.path.join(REPO, "data", "published.json")
+    return json.load(open(f, encoding="utf-8")) if os.path.exists(f) else {}
 
 
 def journey_year(b):
@@ -157,7 +165,7 @@ has more books about Japan than about other countries.</p>
     open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page(SITE, body, ""))
 
 
-def build_books(out, books, queue):
+def build_books(out, books, queue, times=None):
     """The Books page. Up to HOME_FULL_LIST books: all of them, by author. More: the newest, and links to the full
     lists (by author, by place, by date of the journey), which build_lists writes; then the queue. Plan: notes/site.md."""
     books = sorted(books, key=sort_key)
@@ -167,7 +175,7 @@ def build_books(out, books, queue):
     elif len(books) <= HOME_FULL_LIST:
         shelf = f'<p class="meta">By author. Also listed {lists}.</p>\n{books_ul(books)}'
     else:
-        newest = sorted(books, key=lambda b: (first_published(b), b["id"]), reverse=True)[:HOME_NEWEST]
+        newest = sorted(books, key=lambda b: (first_published(b, times), b["id"]), reverse=True)[:HOME_NEWEST]
         shelf = (f'<p>{len(books)} books, listed by <a href="authors.html">author</a>, {lists}.</p>\n'
                  f'<h3 id="newest">Newest</h3>\n{books_ul(newest)}')
     q = [x for x in queue if x.get("status") in ("queued", "in progress")]
@@ -494,7 +502,7 @@ def main():
     qf = os.path.join(REPO, "data", "queue.json")
     queue = json.load(open(qf, encoding="utf-8"))["books"] if os.path.exists(qf) else []
     build_index(out)
-    build_books(out, books, queue)
+    build_books(out, books, queue, load_published_times())
     build_lists(out, books)
     build_jatsi(out, books, queue)
     md_page(out, "about.html", "About", os.path.join(REPO, "site", "about.md"))

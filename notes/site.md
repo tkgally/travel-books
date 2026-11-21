@@ -32,7 +32,7 @@ other lists. On a book's page the picture of the cover links to the first chapte
 | Published books | Books page (until 2026-11-21 these lists were on the home page) | To do when the stage is reached |
 |---|---|---|
 | up to 30 (`HOME_FULL_LIST`) | every book, by author; a line linking the lists by place and by date; the whole queue | nothing: this is now |
-| 31 to about 150 | the ten newest (`HOME_NEWEST`, by date of version 1) and links to the three full lists; the whole queue | automatic. In the review session after the thirtieth book: look at the home page and the three lists on a narrow and a wide screen; move the queue to a page of its own (`queue.html`, one line on the Books page) if it has more than about 25 rows |
+| 31 to about 150 | the ten newest (`HOME_NEWEST`, by the time version 1 was published: `data/published.json`, written by `publish.py`; a new version does not move a book) and links to the three full lists; the whole queue | automatic. In the review session after the thirtieth book: look at the home page and the three lists on a narrow and a wide screen; move the queue to a page of its own (`queue.html`, one line on the Books page) if it has more than about 25 rows |
 | about 150 and more | the same | a part of the world in `places.html` with more than about 40 books gets its countries as sub-headings (East Asia will be first, because of JATSI: Japan, then the rest); `dates.html` by decade stays. Consider one page per part of the world. Consider a search box only if Tom asks: it needs a script and an index file, and the rule is "JS only if needed" |
 
 Not planned until a reader or Tom asks: a subject index (`subjects` in `book.json` is free text and would first
@@ -47,6 +47,8 @@ rel="icon">` in `build_site._page`), with its own light and dark colours; the sa
 setting). Change the two together: the test `test_logo_and_favicon_on_every_page` compares them.
 
 ## Rules for the lists
+
+- **Newest** is ordered by `data/published.json` (slug → UTC time of version 1). Until 2026-11-21 it used the date of version 1, and books first published on the same day were ordered by id, so the day's newest books could be missing from the ten (*Argentine Plains* and *The Eastern Seas* were). Backfilled from the commit that added each `books/<slug>/book.json` (needs the full git history: `git fetch --unshallow`); `ledger.py check` reports a published book without a time.
 
 - A new place name in a book's `regions` must be added to `data/places.json` with its part of the world (the
   test `test_every_region_of_a_published_book_has_its_part_of_the_world` fails otherwise). Use the names already
