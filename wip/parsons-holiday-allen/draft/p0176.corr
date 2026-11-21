@@ -1,5 +1,0 @@
-{"find": "[[page ?]]\n\n162 A PARSON’S HOLIDAY.\n\n“‘A type of gloom and decay and death, And happiness overcast, Is this bungalow lonely And tenanted only By memories of the past. Peace to the shades of the three who died In that lonely house by the Cauvery’s tide!”", "replace": "[[page 162]]\n\n<verse>\n“A type of gloom and decay and death,\nAnd happiness overcast,\nIs this bungalow lonely\nAnd tenanted only\nBy memories of the past.\nPeace to the shades of the three who died\nIn that lonely house by the Cauvery’s tide!”\n</verse>"}
-{"find": "all highcaste", "replace": "all high-caste"}
-{"find": "no “ bhisti”", "replace": "no “bhîsti”"}
-{"find": "though the bhisti at", "replace": "though the bhîsti at"}
-{"find": "than the bhisti at", "replace": "than the bhîsti at"}

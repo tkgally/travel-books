@@ -61,6 +61,7 @@
 | From West Africa to Palestine v2 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | a page-top join removed by the corrections pass (found at the review after thirty-five books, checked on the scan) |
 | Between Two Oceans v1 | 2026-11-21 | 380 | Opus draft → Sonnet corrections → Opus judge; spot-read of 36 pages (front matter, verse, footnote) and every accent group, rendered look, by Opus subagents | 5 | 1 / 4 / 0 | 0 | 37.17 | 0 | PASS, 0 waived | 30/30; 0 / 6; spot-read: a stanza joined at a page top, a misprint (Entaw); a misnumbered folio | |
 | A Gentle Jehu in Japan v1 | 2026-11-21 | 166 | Opus draft → Sonnet corrections → Opus judge; spot-read (front matter, chapter openings, captions, every macron) and rendered look by Opus subagents; 26 colour crops by an Opus subagent | 3 | 3 / 0 / 0 | 0 | 15.64 | 0 | PASS, 0 waived | 30/30; 0 / 6; spot-read: 2 misprints; a correction not applied (a dropped word) | |
+| A Parson’s Holiday v1 | 2026-11-21 | 237 | Opus draft (1 page by the fallback) → Sonnet corrections → Opus judge; spot-read of ~40 pages (front matter, verse, every footnote page, the fallback page, accents) and rendered look by Opus subagents | 3 | 3 / 0 / 0 | 1 (an accent) | 24.34 | 0 | PASS, 0 waived | 30/30 + 5/5 (fallback page); 0 / 7; spot-read: 4 misprints, 2 accents | |
 
 ## Calibrations
 

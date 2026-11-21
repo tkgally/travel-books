@@ -1,4 +1,0 @@
-judge opus: 3 spots on 3 pages: {'draft': 3}; cost $0.12
-p0064 #1 [draft, sure: medium] draft 'Pathân' | verified 'Pathán' | judge reads 'Pathân'
-p0075 #1 [draft, sure: high] draft 'Portugese' | verified 'Portuguese' | judge reads 'Portugese'
-p0182 #1 [draft, sure: high] draft '# Chapter IX.' | verified '# Chapter IX' | judge reads '# Chapter IX.'

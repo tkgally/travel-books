@@ -1,5 +1,0 @@
-{"given": "Beat like the mouth of a hell", "print": "Heat like the mouth of a hell", "sure": "high"}
-{"given": "Valor of delicate women who tended", "print": "Valour of delicate women who tended", "sure": "high"}
-{"given": "Havelock baffled; or beaten, or butcher’d", "print": "Havelock baffled, or beaten, or butcher’d", "sure": "high"}
-{"given": "The grouud all round has been", "print": "The ground all round has been", "sure": "high"}
-{"given": "within the precincts rise ruins of the", "print": "within the precincts rise the ruins of the", "sure": "high"}

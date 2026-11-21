@@ -1,0 +1,146 @@
+{
+ "id": "parsons-holiday-allen",
+ "version": 1,
+ "date": "2026-11-21",
+ "title": "A Parson’s Holiday",
+ "subtitle": "Being an Account of a Tour in India, Burma, and Ceylon, in the Winter of 1882–83",
+ "short_title": "A Parson’s Holiday",
+ "authors": [
+  {
+   "name": "W. Osborn B. Allen",
+   "sort": "Allen, W. Osborn B.",
+   "born": 1849
+  }
+ ],
+ "place": "Tenby",
+ "publisher": "F. B. Mason",
+ "year": 1885,
+ "edition_statement": "First edition",
+ "source": {
+  "ia_identifier": "parsonsholidaybe00alle",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": [
+   0,
+   247,
+   248,
+   249,
+   250,
+   251
+  ]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-21",
+   "note": "First publication."
+  }
+ ],
+ "regions": [
+  "India",
+  "Myanmar",
+  "Sri Lanka"
+ ],
+ "period": "1882–83",
+ "summary": "W. Osborn B. Allen, vicar of Shirburn in Oxfordshire and the son of a member of the Legislative Council of India, spent the winter of 1882–83 touring India, Burma and Ceylon, and published this account of it in 1885 from what his preface calls a parson’s standpoint. He goes out by Brindisi and the P. and O. steamer to Bombay, Poona and Rajputana, then to Delhi, Agra, Cawnpore and Lucknow, Benares, Darjeeling and Calcutta; by sea to Rangoon, Prome and Moulmein; and back to Madras and the south, Mysore, Trichinopoly, Madura and the mission villages of Tinnevelly, ending in Ceylon at Colombo, Kandy and Anuradhapura. He looks closely at missions, schools, native clergy and the religions he meets, with long passages on Buddhism in Burma; there are also histories of places, and the return to England is by Egypt. A folding map of India and Ceylon shows the route.",
+ "divisions": [
+  {
+   "at": "p0006",
+   "kind": "front",
+   "title": "Map"
+  },
+  {
+   "at": "p0007",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0009",
+   "kind": "dedication"
+  },
+  {
+   "at": "p0011",
+   "kind": "preface"
+  },
+  {
+   "at": "p0013",
+   "kind": "contents"
+  },
+  {
+   "at": "p0015",
+   "kind": "chapter",
+   "toc_title": "Chapter I. Introduction, Voyage, Bombay, Towers of Silence, Caves of Elephanta, Poona, Temple of Parvathi, Leprous Hospital, Missionaries, Cowley Fathers, Education, Schools, Breaking-up Day at High School.",
+   "title": "Chapter I"
+  },
+  {
+   "at": "p0037",
+   "kind": "chapter",
+   "toc_title": "Chapter II. Karli Cave, Railway Travelling, Station Life, Baroda, Rajputana, The Clans, Ajmere, Mayo College, The Eurasians, Jeypore, Maharajah’s Palace, Ambir, Feudatory States."
+  },
+  {
+   "at": "p0056",
+   "kind": "chapter",
+   "toc_title": "Chapter III. Delhi, History of the Mogul Empire, Mohammedans in India, Palace, Jumma Musjid, Kutub Minar, Cambridge Mission, S. Stephen’s College, Agra, Palace, Tombs, Taj Mahal, Futtehpore Sikri, Sekundra."
+  },
+  {
+   "at": "p0077",
+   "kind": "chapter",
+   "toc_title": "Chapter IV. Cawnpore, The Mutiny, The Massacre, Memorial Well, Lucknow, History of Oudh, Imambara, Residency, Viceroy’s Camp, Durbar, Martinière College, Government of India, Indian Civil Service."
+  },
+  {
+   "at": "p0098",
+   "kind": "chapter",
+   "toc_title": "Chapter V. Benares, Illumination of Ghâts, Idolatry, Manufactures, Journey to Calcutta, Darjeeling, The Himalayas, Tibetan Lamaism, Calcutta, Government House, Buildings, Gardens, Oxford Mission."
+  },
+  {
+   "at": "p0119",
+   "kind": "chapter",
+   "toc_title": "Chapter VI. History of Burma, Rangoon, The Burmese, Buddhism, History and Doctrines of Gautama, Pagodas, Statues, Kioungs, Monks, Offerings, Christianity and Buddhism compared."
+  },
+  {
+   "at": "p0141",
+   "kind": "chapter",
+   "toc_title": "Chapter VII. Missionaries in Burma, Dr. Marks, Christmas Day at Rangoon, Prome, Independent Burma, Nga-pee, Moulmein, Caves, Timber Yards, Elephants, Pegu, A Difficult Journey, Voyage from Rangoon to Madras, Salt Tax."
+  },
+  {
+   "at": "p0162",
+   "kind": "chapter",
+   "toc_title": "Chapter VIII. Madras, Tamils, Native Christians, Bangalore, Native Clergymen, Mysore, Seringapatam, Tipu Saib, Tomb of Hyder Ali, The Deserted Bungalow, Caste Rules, Tanjore, Temples of Southern India, Schwartz, Decayed Royalty."
+  },
+  {
+   "at": "p0182",
+   "kind": "chapter",
+   "toc_title": "Chapter IX. Trichinopoly, Srirangham, Mission Work, Schools, An Evening Meeting, Madura, Trimul Naik, The Church Establishment, Tinnevelly, History of its Missions, The Effect of the Famine, Statistics."
+  },
+  {
+   "at": "p0200",
+   "kind": "chapter",
+   "toc_title": "Chapter X. Tinnevelly, Palamcottah, A Drive in a “Bandy,” Nazareth, Sunday in a Native Christian Village, Mission Life, Orphanages, Evangelistic Work, Life of a Missionary, Sir R. Temple on Missions, Mudalûr, Mengnanapuram, A Self-denying Life, “Society Bishops,” Tuticorin, Leave India."
+  },
+  {
+   "at": "p0222",
+   "kind": "chapter",
+   "toc_title": "Chapter XI. Colombo, Inhabitants of Ceylon, Kandy, Failure of Coffee Shrub, Tooth Temple, Anaradhapura, Dagobas, Ruins, Sacred Bo Tree, Proposed Annexation to India, Oil Factory, Homeward Voyage, Egypt, Cairo, Ismailya, Block in the Canal, Discoverer of Pithom, Return to England."
+  },
+  {
+   "at": "p0240",
+   "kind": "index"
+  }
+ ],
+ "frontispiece": "p0006-1",
+ "omitted_from_reading": "The title page, the printed contents and the index are in the JSON only; the folding map opens the reading editions.",
+ "audit": {
+  "version": 1,
+  "date": "2026-11-21",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0,
+  "note": "and the page first read by OCR (p0176): 5/5, 0 candidates"
+ },
+ "notes_on_text": [
+  "Printed page 162 (leaf p0176) was first read by machine OCR (tesseract) and corrected by Claude against the scan, because the model would not transcribe the page directly; it was then checked like the others."
+ ],
+ "keep_hyphens": [
+  "p0033",
+  "p0212"
+ ]
+}

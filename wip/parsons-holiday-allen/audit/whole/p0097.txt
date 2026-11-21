@@ -1,5 +1,0 @@
-{"given": "lonely; the climate in the", "print": "lonely, the climate in the", "sure": "medium"}
-{"given": "leave his mark or the district", "print": "leave his mark on the district", "sure": "high"}
-{"given": "daily carried on in india by", "print": "daily carried on in India by", "sure": "high"}
-{"given": "of our Indian adminiftrators have the", "print": "of our Indian administrators have the", "sure": "high"}
-{"given": "do their best to improve condition of", "print": "do their best to improve the condition of", "sure": "high"}

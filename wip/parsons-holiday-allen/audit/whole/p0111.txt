@@ -1,5 +1,0 @@
-{"given": "I had to he content with", "print": "I had to be content with", "sure": "high"}
-{"given": "valleys were in deep sbadow, and", "print": "valleys were in deep shadow, and", "sure": "high"}
-{"given": "from the lower grounds; and the light", "print": "from the lower grounds, and the light", "sure": "high"}
-{"given": "the Civil Service in india, and", "print": "the Civil Service in India, and", "sure": "high"}
-{"given": "native quarter I heard gong beaten in front", "print": "native quarter I heard a gong beaten in front", "sure": "high"}

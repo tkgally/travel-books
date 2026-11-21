@@ -1,5 +1,0 @@
-{"given": "as charges for doctors on pensions", "print": "as charges for doctors or pensions", "sure": "high"}
-{"given": "take into consideration; when they determine", "print": "take into consideration, when they determine", "sure": "high"}
-{"given": "At madura the resident civilians", "print": "At Madura the resident civilians", "sure": "high"}
-{"given": "and have seeured the services", "print": "and have secured the services", "sure": "high"}
-{"given": "This is name most often heard", "print": "This is the name most often heard", "sure": "high"}

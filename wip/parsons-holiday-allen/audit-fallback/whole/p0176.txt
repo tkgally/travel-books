@@ -1,5 +1,0 @@
-{"given": "the South of india. One", "print": "the South of India. One", "sure": "high"}
-{"given": "an intelligent, courteous person; speaking good", "print": "an intelligent, courteous person, speaking good", "sure": "high"}
-{"given": "but the younger the two men", "print": "but the younger of the two men", "sure": "high"}
-{"given": "he shook this head. He", "print": "he shook his head. He", "sure": "high"}
-{"given": "station of high enongh caste", "print": "station of high enough caste", "sure": "high"}

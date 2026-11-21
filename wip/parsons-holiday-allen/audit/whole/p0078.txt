@@ -1,5 +1,0 @@
-{"given": "their head; and raised the standard", "print": "their head, and raised the standard", "sure": "high"}
-{"given": "with their women and childrcn they", "print": "with their women and children they", "sure": "high"}
-{"given": "a siege, holding lines of their", "print": "a siege, holding the lines of their", "sure": "high"}
-{"given": "children in the center, marched", "print": "children in the centre, marched", "sure": "high"}
-{"given": "at the time, where marched back", "print": "at the time, were marched back", "sure": "high"}
