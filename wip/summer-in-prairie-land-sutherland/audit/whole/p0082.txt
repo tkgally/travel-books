@@ -1,5 +1,0 @@
-{"given": "Another spot no small interest", "print": "Another spot of no small interest", "sure": "high"}
-{"given": "the three churches be labored so", "print": "the three churches he labored so", "sure": "high"}
-{"given": "establish—namely, at morley, Edmonton", "print": "establish—namely, at Morley, Edmonton", "sure": "high"}
-{"given": "choice which had loeated a mission", "print": "choice which had located a mission", "sure": "high"}
-{"given": "It must not be supposed; however,", "print": "It must not be supposed, however,", "sure": "high"}

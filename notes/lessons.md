@@ -140,6 +140,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   title, the topics as a paragraph ending in `<pref>`), drop "PAGE" heads and dot leaders [*South by West*, 2026-11-19].
 - A page that starts flush left after a closed sentence is still a continuation (`joins` lists it): look at the indent.
 
+- A head-piece printed above such a half-title goes after the half-title's `#` line, just above the chapter's: before it, it falls into the omitted division and the chapter opens without it (*A Summer in Prairie-Land*: caught by the rendered look).
 - A half-title printed above Chapter I on the same leaf: two `#` divisions at one `at`; `n` counts from 1, so the chapter is `"n": 2`. Without it the chapter's `toc_title` went to the half-title, which became a part with every chapter under it (*From West Africa to Palestine*, caught by the rendered look).
 
 ## Trigger: no printed contents, chapters without titles

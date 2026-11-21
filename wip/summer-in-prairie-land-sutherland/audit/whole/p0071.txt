@@ -1,5 +1,0 @@
-{"given": "and all spare horses stampeding", "print": "and all the spare horses stampeding", "sure": "high"}
-{"given": "of the standing wagons they suddenly", "print": "of the standing waggons they suddenly", "sure": "high"}
-{"given": "on one of the whcels, bending", "print": "on one of the wheels, bending", "sure": "high"}
-{"given": "These, terrified in their turn; wheeled", "print": "These, terrified in their turn, wheeled", "sure": "high"}
-{"given": "family, overturning if in an instant.", "print": "family, overturning it in an instant.", "sure": "high"}

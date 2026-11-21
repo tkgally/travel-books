@@ -1,5 +1,0 @@
-{"given": "A few had horses; but the", "print": "A few had horses, but the", "sure": "high"}
-{"given": "Farther or we passed several", "print": "Farther on we passed several", "sure": "high"}
-{"given": "we found ourfelves on the", "print": "we found ourselves on the", "sure": "high"}
-{"given": "side. One the Company’s inland", "print": "side. One of the Company’s inland", "sure": "high"}
-{"given": "obtained; two wagons, loads and", "print": "obtained; two waggons, loads and", "sure": "high"}

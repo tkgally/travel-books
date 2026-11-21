@@ -1,5 +1,0 @@
-{"given": "whosoever trusts in him obeys his voice", "print": "whosoever trusts in him and obeys his voice", "sure": "high"}
-{"given": "came into your camp today; but", "print": "came into your camp to-day; but", "sure": "high"}
-{"given": "accompanied us; but then we came", "print": "accompanied us; but when we came", "sure": "high"}
-{"given": "of our craft sbowed two small", "print": "of our craft showed two small", "sure": "high"}
-{"given": "fibres of deer’s sinew; and in", "print": "fibres of deer’s sinew, and in", "sure": "high"}
