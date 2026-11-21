@@ -203,3 +203,6 @@
 {"page": "p0207", "model": "opus", "corrections": null, "seconds": 7.1, "cost": 0.06347900000000001, "completion_tokens": 618, "turns": 2, "attempts": 1}
 {"page": "p0208", "model": "opus", "corrections": null, "seconds": 7.6, "cost": 0.06339539999999999, "completion_tokens": 561, "turns": 2, "attempts": 1}
 {"page": "p0209", "model": "opus", "corrections": null, "seconds": 7.0, "cost": 0.0639354, "completion_tokens": 640, "turns": 2, "attempts": 1}
+{"page": "p0210", "model": "opus", "corrections": null, "seconds": 9.3, "cost": 0.0667236, "completion_tokens": 779, "turns": 2, "attempts": 1}
+{"page": "p0211", "model": "opus", "corrections": null, "seconds": 8.8, "cost": 0.0668062, "completion_tokens": 786, "turns": 2, "attempts": 1}
+{"page": "p0212", "model": "opus", "corrections": null, "seconds": 13.3, "cost": 0.0750462, "completion_tokens": 1198, "turns": 2, "attempts": 1}
