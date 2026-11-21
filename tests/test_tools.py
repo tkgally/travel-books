@@ -659,9 +659,10 @@ class SiteLists(unittest.TestCase):
         self.assertIn("Journey 2", h)
         self.assertNotIn("authors.html", h)
         self.assertEqual(h.count('(<a href="japan-as-they-saw-it.html">about these books</a>)'), 1)   # the introduction
-        # the mark of a JATSI book in the lists is short: "JATSI (about)" (Tom, 2026-11-20): one book, one queue row
-        self.assertEqual(h.count('<a href="https://www.gally.net/jatsi/index.html" target="_blank" rel="noopener">JATSI</a> '
-                                 '(<a href="japan-as-they-saw-it.html" aria-label="about the JATSI books">about</a>)'), 2)
+        # the mark of a JATSI book in the lists: "(JATSI)", linked to this site's page (Tom, 2026-11-21): one book, one queue row
+        self.assertEqual(h.count('(<a href="japan-as-they-saw-it.html">JATSI</a>)'), 2)
+        self.assertNotIn(">about</a>", h)
+        self.assertIn("a list of books about Japan that are being\nadded to this site one at a time (", h)
         self.assertNotIn("· from <a", h)
         # the project's name links to the project, in a new tab, wherever it stands (Tom, 2026-11-20)
         self.assertEqual(h.count("Japan As They Saw It"), h.count('<a href="https://www.gally.net/jatsi/index.html" target="_blank" rel="noopener">Japan As They Saw It</a>'))
@@ -714,6 +715,35 @@ class SiteLists(unittest.TestCase):
         self.assertIn('<h2 id="contents">', landing)       # where "Continue reading" goes
         self.assertIn('<nav aria-label="Site"><ul>', chapter)
 
+    def test_reading_bar_is_made_by_the_script_from_the_pager_of_a_chapter(self):
+        """Tom, 2026-11-21: a bar at the top of the chapter pages once the reader has scrolled down — the book's
+        contents, the previous and next chapter, the Display settings — which a setting switches off. The script
+        makes it from the links of the page's own pager, so a page without scripts has nothing that does nothing."""
+        d = os.path.join(self.out, "sample-journey-doe")
+        shutil.copytree(SAMPLE, d)
+        site = os.path.join(self.out, "site")
+        book, _ = build_site.build_book(site, d)
+        chapter = open(os.path.join(site, "books", book["id"], "02.html"), encoding="utf-8").read()
+        pager = re.search(r'<nav class="pager" aria-label="Chapters">(.*?)</nav>', chapter).group(1)
+        self.assertRegex(pager, r'<a rel="prev" href="01\.html">← [^<]+</a><a href="index\.html#contents">Contents</a>'
+                                r'<a rel="next" href="03\.html">[^<]+ →</a>')
+        assets = os.path.join(REPO, "site", "assets")
+        js = open(os.path.join(assets, "site.js"), encoding="utf-8").read()
+        css = open(os.path.join(assets, "site.css"), encoding="utf-8").read()
+        for q in ("'nav.pager'", "'a[rel=prev]'", "'a[rel=next]'", "'a:not([rel])'"):
+            self.assertIn(q, js)
+        self.assertRegex(js, r"DEF = \{[^}]*\bbar: 1 \}")                    # shown unless the reader switches it off
+        self.assertRegex(js, r"FLAGS = \[[^\]]*'bar'\]")
+        self.assertIn("if (!article || !pager) return;", js)                 # chapter pages only
+        for name in ("contents", "prev", "next", "display"):                 # pictures, no words: each has its drawing
+            self.assertRegex(js, rf"\b{name}: 'M")
+        self.assertEqual(len(re.findall(r"'aria-label': [^,]+,\s+title: ", js)), 2)   # and each its name, read out and on hover
+        self.assertIn('html.tb-hasbar:not([data-bar="off"]) { scroll-padding-top:', css)
+        self.assertRegex(css, r"@media print \{[^@]*\.tb-bar[^@]*display: none")
+        self.assertIn("prefers-reduced-motion", css)
+        # the reader's place is kept for each chapter of a book, not only the last one read
+        self.assertIn("c[file] = [at.i, at.o]", js)
+
     def test_display_settings_use_nothing_from_outside_and_every_theme_is_complete(self):
         assets = os.path.join(REPO, "site", "assets")
         css = open(os.path.join(assets, "site.css"), encoding="utf-8").read()
@@ -740,7 +770,7 @@ class SiteLists(unittest.TestCase):
         self.assertIn(f"--tb-hs: min(var(--tb-size, 1), {sizes[5]:g});", css)
         self.assertRegex(css, r"header\.site \{ font-size: calc\(1rem \* var\(--tb-hs\) / var\(--tb-size, 1\)\)")
         self.assertRegex(css, r"html \{[^}]*font-size: calc\(112\.5% \* var\(--tb-size, 1\)\)")
-        for a in ("data-font", "data-align", "data-para", "data-corr", "data-links", "--tb-size", "--tb-lh", "--tb-width",
+        for a in ("data-font", "data-align", "data-para", "data-corr", "data-links", "data-bar", "--tb-size", "--tb-lh", "--tb-width",
                   "--tb-ls", "--tb-ws"):
             self.assertIn(a, css)
 
@@ -787,9 +817,11 @@ class SiteLists(unittest.TestCase):
         self.assertNotIn("Elsewhere", h)
         self.assertLess(h.index('id="y1860"'), h.index('id="y1875"'))
         self.assertIn("list of 3 books", h)
-        # on this page the books do not carry the mark "JATSI (about)": it would say what the page says (Tom, 2026-11-20)
+        # on this page the books do not carry the mark "(JATSI)": it would say what the page says (Tom, 2026-11-20)
         self.assertIn("Journey 1", h)
         self.assertNotIn(">JATSI</a>", h)
+        # the name with its short form; the link to Tom's project is on the name only (Tom, 2026-11-21)
+        self.assertIn('<p><a href="https://www.gally.net/jatsi/index.html" target="_blank" rel="noopener">Japan As They Saw It</a> (JATSI) is an earlier project of Tom Gally', h)
         self.assertNotIn(">about</a>", h)
 
     def test_book_page_says_why_a_jatsi_book_is_here(self):

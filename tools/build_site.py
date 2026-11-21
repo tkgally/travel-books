@@ -81,10 +81,9 @@ def jatsi_name():
 
 
 def jatsi_label(root=""):
-    """The mark of a JATSI book in the lists: "JATSI (about)" (Tom, 2026-11-20; before: "from Japan As They Saw It
-    (about these books)"). The short link says where it goes to a screen reader."""
-    return (f'<a href="{JATSI_HOME}">JATSI</a> '
-            f'(<a href="{root}{JATSI_PAGE}" aria-label="about the JATSI books">about</a>)')
+    """The mark of a JATSI book in the lists: "(JATSI)", the word linked to this site's page about those books
+    (Tom, 2026-11-21; before: "JATSI (about)", and first "from Japan As They Saw It (about these books)")."""
+    return f'(<a href="{root}{JATSI_PAGE}">JATSI</a>)'
 
 
 def is_jatsi(b):
@@ -151,8 +150,8 @@ def build_index(out, books, queue):
 <p>Travel books written in English and published before 1914, transcribed from library scans at the
 Internet Archive. Each can be read on this site or downloaded as EPUB, ODT or JSON. <a href="about.html">About the project.</a></p>
 <p>Most of the books were chosen because they are first-person accounts that have no other digital reading edition and were not
-reprinted after 1914. Others come from {jatsi_name()}, a list of books about Japan that is being
-added to this site a book at a time (<a href="{JATSI_PAGE}">about these books</a>); for that reason the site has more books
+reprinted after 1914. Others come from {jatsi_name()}, a list of books about Japan that are being
+added to this site one at a time (<a href="{JATSI_PAGE}">about these books</a>); for that reason the site has more books
 about Japan than about other countries.</p>
 <h2 id="books">Books</h2>
 {shelf}
@@ -239,7 +238,7 @@ def build_jatsi(out, books, queue, j=None):
         years[-1][1].append(entry(e))
     whole = "\n".join(f'<h3 id="y{y}">{y}</h3>\n<ul class="books">{"".join(es)}</ul>' for y, es in years)
     body = f"""<h1>{JATSI}</h1>
-<p>{jatsi_name()} is an earlier project of Tom Gally, who runs this site: passages about Japan
+<p>{jatsi_name()} (JATSI) is an earlier project of Tom Gally, who runs this site: passages about Japan
 from books by American and British visitors, with a list of {len(j["books"])} books published between 1855 and 1912 that are
 at the Internet Archive. That project was one of the starting points of this site.</p>
 <p>In November 2026 he decided that the books on the list will be added here gradually, about one in every three books
