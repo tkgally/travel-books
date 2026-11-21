@@ -73,7 +73,7 @@ def check(q, j, repo=REPO):
             out.append(f"{name}: has a `jatsi` number but not \"from\": \"jatsi\"")
         elif r.get("from") not in (None, "tom"):
             out.append(f"{name}: `from` is {r.get('from')!r}; known values: jatsi, tom")
-        where = {"published": "books", "in progress": "wip"}.get(r.get("status"))
+        where = {"published": "books", "in progress": "wip", "waiting": "wip"}.get(r.get("status"))
         cfg = None
         for d in ("books", "wip"):
             f = os.path.join(repo, d, r.get("slug") or "?", "book.json")
