@@ -8,7 +8,7 @@ import copy, json, os, re, shutil, subprocess, sys, tempfile, unittest, zipfile
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, "tools"))
-import build_site, compile_book, ledger, running_quotes, corrections, crop_image, drive_cache, inline, judge, normalize, preflight, render_epub, render_odt, review, session_meter  # noqa: E402
+import build_site, carousel, compile_book, ledger, running_quotes, corrections, crop_image, drive_cache, inline, judge, normalize, preflight, render_epub, render_odt, review, session_meter  # noqa: E402
 import render_html as rh  # noqa: E402
 
 SAMPLE = os.path.join(REPO, "tests", "sample")
@@ -1719,3 +1719,88 @@ class ShortSubtitle(unittest.TestCase):
         odt = zipfile.ZipFile(__import__("io").BytesIO(render_odt.render(book, None))).read("content.xml").decode()
         self.assertIn('text:style-name="Chapter_20_Title">A Hawaiian Journey', odt)
         self.assertIn('text:style-name="Chapter_20_Summary">Topic', odt)
+
+
+class Carousel(unittest.TestCase):
+    """The carousel of covers on the home page (Tom, 2026-11-21): the record and thumbnails (tools/carousel.py), the
+    row of links in the page, and the styles and script that make a swipe or a click move one group of books."""
+
+    def setUp(self):
+        self.repo = tempfile.mkdtemp()
+        self.addCleanup(shutil.rmtree, self.repo, True)
+        from PIL import Image
+        for slug in ("book-01", "book-02", "book-03"):
+            d = os.path.join(self.repo, "books", slug, "images")
+            os.makedirs(d)
+            open(os.path.join(self.repo, "books", slug, "book.json"), "w").write("{}")
+            Image.new("RGB", (800, 1400), "#234").save(os.path.join(d, "cover.jpg"))
+
+    def test_record_thumbnails_and_check(self):
+        self.assertEqual(len(carousel.check(self.repo)), 3)                    # nothing decided yet
+        w, h = carousel.add("book-01", "cover", repo=self.repo)
+        self.assertTrue(w <= carousel.BOX[0] and h <= carousel.BOX[1] and h == carousel.BOX[1])
+        other = os.path.join(self.repo, "p0009.jpg")                           # a title page from the scan, outside books/
+        shutil.copyfile(os.path.join(self.repo, "books", "book-02", "images", "cover.jpg"), other)
+        carousel.add("book-02", "title", other, "the cover has no title", repo=self.repo)
+        carousel.omit("book-03", "no cover or title page with a readable title", repo=self.repo)
+        d = carousel.load(self.repo)
+        self.assertEqual(d["books"]["book-01"], {"image": "cover", "from": "images/cover.jpg", "width": w, "height": h})
+        self.assertEqual((d["books"]["book-02"]["image"], d["books"]["book-02"]["from"]), ("title page", "scan p0009.jpg"))
+        self.assertEqual(list(d["omitted"]), ["book-03"])
+        self.assertEqual(carousel.check(self.repo), [])
+        self.assertEqual(sorted(os.listdir(os.path.join(self.repo, "site", "carousel"))), ["book-01.jpg", "book-02.jpg"])
+        # a book left out after it was in: its thumbnail goes; a thumbnail lost, a book unpublished: reported
+        carousel.omit("book-02", "changed", repo=self.repo)
+        self.assertEqual(os.listdir(os.path.join(self.repo, "site", "carousel")), ["book-01.jpg"])
+        os.remove(os.path.join(self.repo, "site", "carousel", "book-01.jpg"))
+        shutil.rmtree(os.path.join(self.repo, "books", "book-03"))
+        self.assertEqual(carousel.check(self.repo), ["in the record but not a published book: book-03",
+                                                     "thumbnail missing: site/carousel/book-01.jpg"])
+        with self.assertRaises(SystemExit):
+            carousel.add("book-09", "cover", repo=self.repo)
+
+    def test_home_page_has_the_row_above_the_title_outside_main(self):
+        books = [shelf_book(2, title='A "Quoted" Journey'), shelf_book(1), shelf_book(3), shelf_book(4)]
+        record = {f"book-{i:02d}": {"image": "cover", "width": 300, "height": 450} for i in (1, 2, 3)}     # 4: not in the record
+        html_ = build_site.carousel_html(books, record, {"book-01.jpg", "book-02.jpg"})                    # 3: no thumbnail
+        self.assertEqual(re.findall(r'<li><a href="books/(book-\d\d)/index.html">', html_), ["book-01", "book-02"])
+        self.assertIn('<img src="carousel/book-01.jpg" alt="Journey 1, by Author 1" width="300" height="450" loading="lazy"', html_)
+        self.assertIn('alt="A &quot;Quoted&quot; Journey, by Author 2"', html_)
+        self.assertEqual(re.sub(r"<[^>]+>|\s", "", html_), "")              # no visible text: the titles are alt text only
+        self.assertEqual(build_site.carousel_html(books, {}, set()), "")
+        build_site.build_index(self.repo, html_)
+        home = open(os.path.join(self.repo, "index.html"), encoding="utf-8").read()
+        self.assertLess(home.index("</header>"), home.index('<nav class="carousel" aria-label="Some of the books">'))
+        self.assertLess(home.index('<nav class="carousel"'), home.index('<main id="main">'))
+        self.assertLess(home.index("</ul></nav>"), home.index("<h1>Travel Books</h1>"))
+        build_site.build_index(self.repo)
+        self.assertNotIn("carousel", open(os.path.join(self.repo, "index.html"), encoding="utf-8").read())
+
+    def test_every_recorded_book_is_published_and_has_its_thumbnail(self):
+        """The repository itself: nothing in the record without a book and a thumbnail of the recorded size, no
+        stray thumbnails. (A published book not yet decided is not an error: the review session decides it.)"""
+        self.assertEqual([x for x in carousel.check() if not x.startswith("not decided")], [])
+        from PIL import Image
+        for slug, r in carousel.load()["books"].items():
+            im = Image.open(os.path.join(REPO, "site", "carousel", slug + ".jpg"))
+            self.assertEqual(im.size, (r["width"], r["height"]), slug)
+            self.assertTrue(im.size[0] <= carousel.BOX[0] and im.size[1] <= carousel.BOX[1], slug)
+
+    def test_styles_and_script(self):
+        css = open(os.path.join(REPO, "site", "assets", "site.css"), encoding="utf-8").read()
+        js = open(os.path.join(REPO, "site", "assets", "site.js"), encoding="utf-8").read()
+        # three, four or five in view, and a stop at the first book of each group, so that a swipe moves one group
+        self.assertEqual(re.findall(r"\.carousel \{ --n: (\d); \}", css), ["4", "5"])
+        self.assertIn(".carousel { --n: 3;", css)
+        for n in (3, 4, 5):
+            self.assertIn(f".carousel li:nth-child({n}n+1) {{ scroll-snap-align: start; scroll-snap-stop: always; }}", css)
+        self.assertIn("scroll-snap-type: x mandatory", css)
+        rules = css[css.index("/* The carousel of covers"):css.index("@media print")]
+        self.assertNotIn("border:", rules.replace("border: 0", ""))            # no borders (Tom)
+        self.assertIn("box-shadow", rules)
+        self.assertIn(".carousel { display: none; }", css[css.index("@media print"):])
+        # a new order on every load; the arrows have names for screen readers; slow-fast-slow, and no motion if not wanted
+        fn = js[js.index("function carousel()"):]
+        for piece in ("Math.random()", "'aria-label': 'More books'", "'aria-label': 'Earlier books in the row'",
+                      "prefers-reduced-motion", "p < 0.5 ? 4 * p * p * p"):
+            self.assertIn(piece, fn)

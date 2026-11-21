@@ -41,14 +41,14 @@ def outside_links(html_):
 BOOKS_PAGE = "books.html"
 
 
-def page(title, body, root, crumbs=(), extra_head="", book_css=False):
+def page(title, body, root, crumbs=(), extra_head="", book_css=False, before_main=""):
     """root = relative path to the site root ('' or '../../'). Outside links get target="_blank" here, for every page.
     The logo and the name in the header are the link to the home page from every page; `crumbs` (the book, the
     chapter) is given for the chapter pages only (Tom, 2026-11-21)."""
-    return outside_links(_page(title, body, root, crumbs, extra_head, book_css))
+    return outside_links(_page(title, body, root, crumbs, extra_head, book_css, before_main))
 
 
-def _page(title, body, root, crumbs=(), extra_head="", book_css=False):
+def _page(title, body, root, crumbs=(), extra_head="", book_css=False, before_main=""):
     nav = "".join(f'<li><a href="{attr(h)}">{esc(t)}</a></li>' for t, h in crumbs)
     css = f'<link rel="stylesheet" href="{root}assets/book.css"/>' if book_css else ""
     full = f"{title} – {SITE}" if title != SITE else SITE
@@ -70,7 +70,7 @@ def _page(title, body, root, crumbs=(), extra_head="", book_css=False):
 <nav aria-label="Site"><ul><li><a href="{root}{BOOKS_PAGE}">Books</a></li><li><a href="{root}about.html">About</a></li></ul></nav>
 </header>
 {f'<nav class="crumbs" aria-label="Breadcrumb"><ol>{nav}</ol></nav>' if nav else ''}
-<main id="main">
+{before_main}<main id="main">
 {body}
 </main>
 <footer class="site">
@@ -153,8 +153,36 @@ def queue_line(x, mark=True):
             + (f' <span class="meta">· {jatsi_label()}</span>' if mark and is_jatsi(x) else "") + "</li>")
 
 
-def build_index(out):
-    """The home page: the name and what the site is (Tom, 2026-11-21; the lists are on the Books page)."""
+CAROUSEL_DIR = "carousel"       # site/carousel/<slug>.jpg → _site/carousel/
+
+
+def load_carousel():
+    f = os.path.join(REPO, "data", "carousel.json")
+    return json.load(open(f, encoding="utf-8")).get("books", {}) if os.path.exists(f) else {}
+
+
+def carousel_html(books, record, have):
+    """The row of covers above the title of the home page (Tom, 2026-11-21): a list of links, each a picture of the
+    cover or title page whose alt text is the title and author (the only text: for screen readers). `record` is
+    data/carousel.json "books" (tools/carousel.py), `have` the thumbnails that exist. In the page the books are in
+    the order of their ids; site.js shuffles them on every load and adds the arrows. No book, no carousel."""
+    items = []
+    for b in sorted(books, key=lambda b: b["id"]):
+        r = record.get(b["id"])
+        if not r or b["id"] + ".jpg" not in have:
+            continue
+        a = rh.authors_text(b)
+        alt = (b.get("short_title") or b["title"]) + (f", by {a}" if a else "")
+        items.append(f'<li><a href="books/{attr(b["id"])}/index.html"><img src="{CAROUSEL_DIR}/{attr(b["id"])}.jpg" alt="{attr(alt)}" '
+                     f'width="{int(r["width"])}" height="{int(r["height"])}" loading="lazy" decoding="async"/></a></li>')
+    if not items:
+        return ""
+    return '<nav class="carousel" aria-label="Some of the books"><ul>\n' + "\n".join(items) + "\n</ul></nav>\n"
+
+
+def build_index(out, carousel=""):
+    """The home page: the name and what the site is (Tom, 2026-11-21; the lists are on the Books page), and above
+    the name the carousel of covers (`carousel_html`), outside <main> so that "Skip to the text" passes it."""
     body = f"""<h1>{SITE}</h1>
 <p>Travel books written in English and published before 1914, transcribed from library scans at the
 Internet Archive. Each can be read on this site or downloaded as EPUB, ODT or JSON. <a href="about.html">About the project.</a></p>
@@ -162,7 +190,7 @@ Internet Archive. Each can be read on this site or downloaded as EPUB, ODT or JS
 reprinted after 1914. Books are also being added from the project <a href="{JATSI_PAGE}">{JATSI}</a>, so the site
 has more books about Japan than about other countries.</p>
 """
-    open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page(SITE, body, ""))
+    open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page(SITE, body, "", before_main=carousel))
 
 
 def build_books(out, books, queue, times=None):
@@ -501,7 +529,14 @@ def main():
         print(f"built {book['id']} v{book['version']}: {len(rh.reading_divisions(book))} reading divisions, {len(warnings)} compile warnings")
     qf = os.path.join(REPO, "data", "queue.json")
     queue = json.load(open(qf, encoding="utf-8"))["books"] if os.path.exists(qf) else []
-    build_index(out)
+    record, cdir, have = load_carousel(), os.path.join(REPO, "site", CAROUSEL_DIR), set()
+    shown = {b["id"] for b in books} & set(record)
+    for f in sorted(os.listdir(cdir)) if os.path.isdir(cdir) else []:
+        if f.endswith(".jpg") and f[:-4] in shown:
+            os.makedirs(os.path.join(out, CAROUSEL_DIR), exist_ok=True)
+            shutil.copyfile(os.path.join(cdir, f), os.path.join(out, CAROUSEL_DIR, f))
+            have.add(f)
+    build_index(out, carousel_html(books, record, have))
     build_books(out, books, queue, load_published_times())
     build_lists(out, books)
     build_jatsi(out, books, queue)

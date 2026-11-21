@@ -9,7 +9,7 @@ for a plan for the home page as the number of books grows. This is it. Change it
 
 | Page | What | Built from |
 |---|---|---|
-| `index.html` | what the site is: the name and two short paragraphs, nothing else (Tom, 2026-11-21) | |
+| `index.html` | what the site is: a row of covers (the carousel, below), the name and two short paragraphs, nothing else (Tom, 2026-11-21) | `data/carousel.json`, `site/carousel/` |
 | `books.html` | the books; the queue ("Books" in the header of every page) | `books/*/book.json`, `data/queue.json` |
 | `places.html` | the books by part of the world; a book is listed under each part it covers | `regions` in `book.json` + `data/places.json` |
 | `dates.html` | the books by the decade in which the journey began (first year in `period`; else the year of publication) | `period`, `year` |
@@ -36,8 +36,39 @@ other lists. On a book's page the picture of the cover links to the first chapte
 | about 150 and more | the same | a part of the world in `places.html` with more than about 40 books gets its countries as sub-headings (East Asia will be first, because of JATSI: Japan, then the rest); `dates.html` by decade stays. Consider one page per part of the world. Consider a search box only if Tom asks: it needs a script and an index file, and the rule is "JS only if needed" |
 
 Not planned until a reader or Tom asks: a subject index (`subjects` in `book.json` is free text and would first
-need a fixed list of terms, as `regions` has in `data/places.json`); feeds; covers in the lists (they would make
+need a fixed list of terms, as `regions` has in `data/places.json`); feeds; covers in the lists (the home page has a row of them: below; in the lists they would make
 the Books page heavy and the lists harder to scan).
+
+## The carousel of covers on the home page (Tom, 2026-11-21)
+
+His brief is in `preferences.md` (2026-11-21, "a carousel"). How it is built:
+
+- **Which books, which picture:** the cover if the title is clearly readable on it, otherwise the title page; a book
+  with neither is left out. Someone looks at each picture and records the decision with `tools/carousel.py add SLUG
+  --kind cover|title` (default picture: the book's `images/cover.jpg`, which is the one or the other) or `omit SLUG
+  --note …`. When `cover.jpg` is a cover without a readable title, the title-page leaf is fetched from the Drive
+  cache into the scratchpad (`drive_cache.py fetch … --pages pNNNN-pNNNN`; the leaf is in the page map of the book's
+  log, but look at it: in *The Eastern Seas* the map was one leaf out) and given with `--from`. The record is
+  `data/carousel.json`; the thumbnails (at most 300 × 450, about 20 KB) are `site/carousel/<slug>.jpg`, the only
+  pictures in the repo outside a book's `images/`. First set: 43 books, 17 covers and 26 title pages, none left
+  out; title pages from the scan for *Autumn Tour in Western Persia* (library tape covers the first letter of the
+  title), *The Eastern Seas*, *A Land of Mosques*, *South by West*, *Zephyrus*.
+- **Brought up to date in the review session** (`improvement.md` step 6; Tom: "once every five sessions, when other
+  maintenance tasks are run"): `tools/carousel.py check` lists the published books not yet decided. A new book is
+  therefore not in the row until the next review. The build shows only books that are published, recorded and have
+  a thumbnail, so nothing breaks in between.
+- **The page:** `<nav class="carousel" aria-label="Some of the books">` between the header and `<main>` (so "Skip to
+  the text" passes it), a list of links to the books' pages; each link is the picture, whose alt text ("Title, by
+  Author") is the only text. In the page the books are in the order of their ids (the build stays deterministic);
+  `site.js` shuffles them on every load and adds the two arrow buttons.
+- **Motion:** the row is an ordinary scrolling list with `scroll-snap-type: x mandatory`; three, four or five books
+  are in view (`--n`, by the width of the window: under 26em, under 36em, wider) and the first book of each group
+  has `scroll-snap-stop: always`, so a swipe moves one group and stops, by the browser alone. An arrow moves the
+  row by one group in 650 ms with a slow–fast–slow curve (the script; at once if the device asks for reduced
+  motion); an arrow fades out at its end of the row. Nothing moves by itself.
+- **Without scripts:** the same row in the order of the page, with its scroll bar and no arrows.
+- **Checked in Chromium only** (wide, tablet and phone widths, light and dark, touch swipes, scripts off).
+  Not checked: Safari and Firefox (both support the snap properties used), real screen readers.
 
 ## The logo (Tom, 2026-11-21)
 
