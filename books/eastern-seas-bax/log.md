@@ -37,3 +37,5 @@ Has: a footnote p0198; a translated Chinese proclamation pp. 264–266 (p0287–
 | 1 | 2026-11-21 | PASS — eastern-seas-bax v1 — 0 to fix, 2 waived; to look at: hyphen-joins 4, folios 1, quote-balance 1, accents 3, rare-forms 1, missing-stop 1 — tools@cfc7cfc0 2026-11-21 | 30/30; 0 real errors / 6 pages | first publication; spot-read of 41 pages and rendered look (Opus subagent) at 390 and 1280, EPUB nav |
 
 ## Known issues
+
+- 2026-11-21 (Tom's session on the home page): `images/cover.jpg` is now the title page (leaf p0008, from the Drive cache), not the front cover, on which no title can be read (Tom: the picture on the book's page and in the carousel must have a readable title). No new version: the text is unchanged; the EPUB's cover picture changes with it.

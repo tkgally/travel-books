@@ -6,7 +6,7 @@ The box is in fractions of the leaf (0-1), as the leaf is scanned: work it out o
 at the result. A plate printed sideways is turned upright after cropping: --rotate N turns it N degrees
 counter-clockwise (caption reading bottom to top along the right edge: 270; top to bottom along the left: 90).
 Longest side is reduced to --max pixels. Naming: images/pNNNN-k.jpg = k-th [[image:]] on leaf pNNNN;
-images/cover.jpg = the front cover (or the title page if the binding is a plain library one).
+images/cover.jpg = the front cover if the title is clearly readable on it, otherwise the title page (notes/workflow.md §5).
 """
 import argparse
 from PIL import Image, ImageOps

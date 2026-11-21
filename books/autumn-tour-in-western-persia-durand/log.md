@@ -68,3 +68,5 @@ Verse p0188. No footnotes or tables seen. Persian words romanized with accents; 
 - The folding map is shown at the width of the text column, where its place names cannot be read; the image file is
   2400 px wide. The site has no way yet to open a picture at full size (a renderer change for a later session).
 - The small drawings (acorn “life size”, pillar, bridge) are shown at the full column width.
+
+- 2026-11-21 (Tom's session on the home page): `images/cover.jpg` is now the title page (leaf p0003, from the Drive cache), not the front cover, on which no title can be read (Tom: the picture on the book's page and in the carousel must have a readable title). No new version: the text is unchanged; the EPUB's cover picture changes with it.

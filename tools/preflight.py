@@ -54,7 +54,7 @@ CHECKS = collections.OrderedDict([
     ("site-text",       ("enforce", "book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or \"")),
     ("note-tail",       ("observe", "text after a page's notes that is not a note (a table or paragraph of a note set as body text)")),
     ("verse-joins",     ("observe", "verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan")),
-    ("cover",           ("enforce", "images/cover.jpg (or .png) exists: the front cover or the title page")),
+    ("cover",           ("enforce", "images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page")),
     ("accents",         ("observe", "words the book spells with different accents (or with and without): look at each group on the scan")),
     ("misprints",       ("observe", "common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan")),
     ("rare-forms",      ("observe", "words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan")),
@@ -795,7 +795,7 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
             corpus.subtract(w for _, w in _plain_words(pages))   # a published book is not counted twice
         res["rare-forms"] = check_rare_forms(pages, corpus)
         if not any(os.path.exists(os.path.join(bookdir, "images", f)) for f in ("cover.jpg", "cover.png")):
-            res["cover"].append("images/cover.jpg is missing (the front cover if decorated, otherwise the title page)")
+            res["cover"].append("images/cover.jpg is missing (the front cover if the title is clearly readable on it, otherwise the title page)")
         res["sc-caps"] = check_sc(pages)
         res["heading-caps"] = check_heading_caps(pages)
         res["hyphen-joins"] = triage_hyphen_joins([w for w in warnings if w.startswith("hyphen join")], pages)

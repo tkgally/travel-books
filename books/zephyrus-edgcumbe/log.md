@@ -51,3 +51,5 @@ p0180–p0292.
 | 1 | 2026-11-20 | preflight PASS v1, 4 waived (leaves: tissue guard, two repeated pages) (tools@1df1656) | 29/29 + 10/10, 0 real | look items: hyphen-joins (decided), joins p0006 (imprint page), folios (catalogue), accents (as printed) |
 
 ## Known issues
+
+- 2026-11-21 (Tom's session on the home page): `images/cover.jpg` is now the title page (leaf p0011, from the Drive cache), not the front cover, on which no title can be read (Tom: the picture on the book's page and in the carousel must have a readable title). No new version: the text is unchanged; the EPUB's cover picture changes with it.

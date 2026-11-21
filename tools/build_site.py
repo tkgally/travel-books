@@ -163,7 +163,7 @@ def load_carousel():
 
 def carousel_html(books, record, have):
     """The row of covers above the title of the home page (Tom, 2026-11-21): a list of links, each a picture of the
-    cover or title page whose alt text is the title and author (the only text: for screen readers). `record` is
+    cover or title page (made from the book's images/cover.jpg, the picture on its own page) whose alt text is the title and author (the only text: for screen readers). `record` is
     data/carousel.json "books" (tools/carousel.py), `have` the thumbnails that exist. In the page the books are in
     the order of their ids; site.js shuffles them on every load and adds the arrows. No book, no carousel."""
     items = []
@@ -408,7 +408,8 @@ def build_book(out, bookdir, strict=True):
         for f in sorted(used | ({"cover.jpg"} & set(os.listdir(idir)))):
             if os.path.exists(os.path.join(idir, f)):
                 shutil.copyfile(os.path.join(idir, f), os.path.join(bout, "images", f))
-    open(os.path.join(bout, "index.html"), "w", encoding="utf-8").write(book_page(book, names, os.path.exists(os.path.join(idir, "cover.jpg"))))
+    open(os.path.join(bout, "index.html"), "w", encoding="utf-8").write(book_page(book, names, os.path.exists(os.path.join(idir, "cover.jpg")),
+                                                                                           (load_carousel().get(slug) or {}).get("image")))
     return book, warnings
 
 
@@ -425,7 +426,12 @@ def correction_page(book, c, pnum):
     return f"{title}, unnumbered page" if title else "unnumbered page"
 
 
-def book_page(book, names, has_cover=False):
+COVER_ALT = {"cover": "Cover of the book", "title page": "Title page of the book", "page of the text": "A page of the book"}
+
+
+def book_page(book, names, has_cover=False, kind=None):
+    """kind: what images/cover.jpg shows, from data/carousel.json ("cover", "title page", "page of the text"); it
+    words the alt text. Not yet recorded (a new book, until the next review): "Cover of the book"."""
     src = book.get("source", {})
     ia = src.get("ia_identifier")
     slug = book["id"]
@@ -474,7 +480,7 @@ def book_page(book, names, has_cover=False):
     notes = "".join(f"<li>{esc(n)}</li>" for n in book.get("notes_on_text", []))
     hist = "".join(f'<li>Version {h["version"]}, {esc(h["date"])}: {esc(h["note"])}</li>' for h in book.get("history", []))
     # the picture is a link to where "Read on this site" goes (Tom, 2026-11-21)
-    cover = '<img class="cover" src="images/cover.jpg" alt="Cover of the book"/>' if has_cover else ""
+    cover = f'<img class="cover" src="images/cover.jpg" alt="{COVER_ALT.get(kind, COVER_ALT["cover"])}"/>' if has_cover else ""
     if cover and first:
         cover = f'<a class="cover" href="{first}" title="Read on this site">{cover}</a>'
     body = f"""<h1><cite>{esc(book.get("short_title") or book["title"])}</cite></h1>

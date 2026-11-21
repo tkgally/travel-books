@@ -310,11 +310,24 @@ How this was carried out: `RESUME.md` §"How long a session runs", `tools/sessio
   other maintenance tasks are run.
 - **Design: plain and simple, no borders**; the books and the arrows look as though they float slightly above the
   page, with faint shadows. **The motion is smooth, with gradual acceleration and deceleration.**
+- **Later the same day, after trying it** (it works in Chrome and Firefox on the Mac and in Safari on the Mac and
+  iOS):
+  - **No arrows on smartphones and tablets**: readers will notice that they can swipe.
+  - **On the desktop the arrows' disks are about 30% more transparent.**
+  - **The carousel is continuous on every platform**: it does not end at the last book in either direction; the
+    sequence goes on from the beginning. The desktop arrows are therefore always in view.
+  - **The picture on a book's index page is the same as the one in the carousel** (they differed for *An Autumn Tour
+    in Western Persia*, for example). **For the index pages, retroactively and from now on, the picture is chosen by
+    the carousel's rule: the title must be readable** (the cover if it is, otherwise the title page).
+  - **A future book with no cover or title page with a readable title: the first page of the first chapter, or a
+    similar representative page, for both the index page and the carousel.** (This replaces "is not in the
+    carousel" above.)
+
+## 2026-11-21 (answer on *Uganda for a Holiday*)
+
+- **Yes: *Uganda for a Holiday* (Treves, 1910) can be published without its folding map**, which is in neither IA
+  scan. The book says that the map is missing from the scans (`notes_on_text`).
 
 ## Questions for Tom
 
-- **2026-11-21, *Uganda for a Holiday* (Treves, 1910): publish it without its folding map?** The list of illustrations has
-  "Map of Uganda … At end of volume"; IA has two scans, both of the New York (Dutton) issue: Cornell's has no map (six
-  blank leaves after the index), the NYPL Google scan has it folded and not opened (and bilevel). The text (233 pp.) and
-  all 41 photograph plates are complete and good in the Cornell scan. If yes, the book would say that the map is
-  missing from the scans. Queue row `waiting`; page map and Drive cache are done (`wip/uganda-holiday-treves/log.md`).
+None at present.

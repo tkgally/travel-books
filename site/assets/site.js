@@ -459,14 +459,17 @@
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ready); else ready();
 
-  // ---- the carousel of covers on the home page: a new order on every load, and two arrows. Each click moves the row
-  // on by as many books as are in view, starting and stopping gently; a swipe does the same by the page's own
-  // styles (site.css). The pictures are links with the titles as their alt text; nothing here changes that. ----
+  // ---- the carousel of covers on the home page: a new order on every load, a row without an end, and two arrows
+  // (shown only where there is a mouse: site.css). Each click moves the row on by as many books as are in view,
+  // starting and stopping gently; a swipe does the same by the page's own styles. The row has no end because, each
+  // time it comes to rest, books are moved from the far end of the list to the other, a whole group at a time, so
+  // that the group in view stays in the middle; no book is in the page twice. The pictures are links with the
+  // titles as their alt text; nothing here changes that. ----
 
   function carousel() {
     var box = document.querySelector('nav.carousel'), list = box && box.querySelector('ul');
     if (!list) return;
-    var items = Array.prototype.slice.call(list.children), i, j, t, run = 0;
+    var items = Array.prototype.slice.call(list.children), i, j, t, run = 0, moving = false, touching = false, timer = 0;
     for (i = items.length - 1; i > 0; i--) {
       j = Math.floor(Math.random() * (i + 1));
       t = items[i]; items[i] = items[j]; items[j] = t;
@@ -474,23 +477,49 @@
     items.forEach(function (li) { list.appendChild(li); });
     list.scrollLeft = 0;
 
-    // The distance from one group of books to the next: the width of a book and a gap, times the number in view.
-    function step() {
-      var a = list.children[0], b = list.children[1], one = b ? b.offsetLeft - a.offsetLeft : list.clientWidth;
-      return one * Math.max(1, Math.round(list.clientWidth / one));
+    // The distance from one book to the next, and the number of books in view.
+    function one() {
+      var a = list.children[0], b = list.children[1];
+      return b ? b.getBoundingClientRect().left - a.getBoundingClientRect().left : list.clientWidth;
     }
-    function max() { return list.scrollWidth - list.clientWidth; }
+    function inView(w) { return Math.max(1, Math.round(list.clientWidth / w)); }
+
+    // Bring the group in view to the middle of the list by moving whole groups from one end to the other; the
+    // row is shifted by the same distance in the same moment, so nothing is seen to move. Not while a reader is
+    // going through the links with the keyboard: the Tab key must come to the end of the list.
+    function centre() {
+      var w = one(), n = inView(w), total = list.children.length, at, k, f;
+      if (w <= 0 || total < 4 * n) return;
+      f = document.activeElement;
+      if (f && list.contains(f) && f.matches && f.matches(':focus-visible')) return;
+      at = Math.round(list.scrollLeft / w);
+      k = Math.round((Math.floor((total - n) / 2) - at) / n) * n;      // books to bring to the front (or, negative, to send to the back)
+      if (!k) return;
+      list.style.scrollSnapType = 'none';
+      for (i = 0; i < Math.abs(k); i++) {
+        if (k > 0) list.insertBefore(list.lastElementChild, list.firstElementChild);
+        else list.appendChild(list.firstElementChild);
+      }
+      list.scrollLeft = (at + k) * w;
+      if (!moving) list.style.scrollSnapType = '';
+    }
+
+    function rest() {
+      clearTimeout(timer);
+      timer = setTimeout(function () { if (!moving && !touching) centre(); }, 140);
+    }
+
     var prev = el('button', { type: 'button', 'class': 'tb-prev', title: 'Back', 'aria-label': 'Earlier books in the row' }, svg('prev'));
     var next = el('button', { type: 'button', 'class': 'tb-next', title: 'More books', 'aria-label': 'More books' }, svg('next'));
-    function ends() {
-      prev.disabled = list.scrollLeft < 2;
-      next.disabled = list.scrollLeft > max() - 2;
-    }
     function move(dir) {
-      var from = list.scrollLeft, w = step(), id = ++run, start = 0, DUR = 650;
-      var to = Math.max(0, Math.min(max(), (Math.round(from / w) + dir) * w));
+      var id = ++run, start = 0, DUR = 650, from, to, w, n;
+      centre();
+      w = one(); n = inView(w);
+      from = list.scrollLeft;
+      to = Math.max(0, Math.min(list.scrollWidth - list.clientWidth, (Math.round(from / (w * n)) + dir) * w * n));
       if (to === from) return;
-      if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) { list.scrollLeft = to; return; }
+      if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) { list.scrollLeft = to; rest(); return; }
+      moving = true;
       list.style.scrollSnapType = 'none';         // or the browser pulls the row back between frames
       function frame(now) {
         if (id !== run) return;                   // another click has taken over
@@ -498,17 +527,24 @@
         var p = Math.min(1, (now - start) / DUR);
         p = p < 0.5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2;      // slow, fast, slow
         list.scrollLeft = from + (to - from) * p;
-        if (p < 1) requestAnimationFrame(frame); else list.style.scrollSnapType = '';
+        if (p < 1) { requestAnimationFrame(frame); return; }
+        moving = false;
+        list.style.scrollSnapType = '';
+        centre();
       }
       requestAnimationFrame(frame);
     }
     prev.addEventListener('click', function () { move(-1); });
     next.addEventListener('click', function () { move(1); });
-    list.addEventListener('scroll', ends, { passive: true });
-    window.addEventListener('resize', ends);
+    list.addEventListener('scroll', rest, { passive: true });
+    list.addEventListener('touchstart', function () { touching = true; }, { passive: true });
+    ['touchend', 'touchcancel'].forEach(function (ev) {
+      list.addEventListener(ev, function () { touching = false; rest(); }, { passive: true });
+    });
+    window.addEventListener('resize', rest);
     box.insertBefore(prev, list);
     box.appendChild(next);
-    ends();
+    centre();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', carousel); else carousel();
 
