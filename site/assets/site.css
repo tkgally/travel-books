@@ -15,14 +15,14 @@ body { margin: 0 auto; padding: 0 calc(1rem / var(--tb-size, 1)) 3rem calc(1rem 
 a { color: var(--link); } a:visited { color: var(--visited); }
 a:focus-visible, summary:focus-visible, input:focus-visible { outline: 3px solid var(--link); outline-offset: 2px; }
 .skip { position: absolute; left: -999rem; } .skip:focus { position: static; }
-header.site { font-size: calc(1rem * var(--tb-hs) / var(--tb-size, 1)); display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.5rem 1.5rem;
-  border-bottom: 1px solid var(--line); padding: 0.8rem 0 0.6rem 0; }
-header.site .sitename { margin: 0; font-size: 1.1em; } header.site .sitename a { color: inherit; text-decoration: none; }
+header.site { font-size: calc(1rem * var(--tb-hs) / var(--tb-size, 1)); display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.3em 1em;
+  border-bottom: 1px solid var(--line); padding: 0.25em 0 0.35em 0; }
+header.site .sitename { margin: 0; font-size: 1.1em; line-height: 1.55; } header.site .sitename a { color: inherit; text-decoration: none; }
 /* The logo beside the name of the site (build_site.LOGO); the favicon is logo.svg. */
 header.site .logo { width: 1.45em; height: 1.337em; vertical-align: baseline; margin-right: 0.6em; }  /* the books stand on the baseline */
 .logo-i { fill: var(--fg); } .logo-a { fill: var(--link); } .logo-k { stroke: var(--bg); }
 @media (forced-colors: active) { .logo-i, .logo-a { fill: CanvasText; } .logo-k { stroke: Canvas; } }
-header.site ul, .crumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0 1.2rem; }
+header.site ul, .crumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0 1em; }
 .crumbs { font-size: calc(0.85rem * var(--tb-hs) / var(--tb-size, 1)); margin-top: 0.6rem; color: var(--muted); }
 .crumbs ol { gap: 0; }
 .crumbs li + li::before { content: "›"; margin: 0 0.45rem; }
@@ -34,6 +34,7 @@ main > h3 { font-size: 1.05rem; margin: 1.4rem 0 0.4rem 0; }
 .meta { color: var(--muted); font-size: 0.9rem; }
 ul.books { list-style: none; padding: 0; } ul.books li { margin: 0.7rem 0; }
 ul.actions { padding-left: 1.2rem; } ul.actions li { margin: 0.3rem 0; }
+a.cover { display: block; width: -moz-fit-content; width: fit-content; margin: 1rem 0; } a.cover img.cover { margin: 0; }
 img.cover { display: block; max-width: 11rem; height: auto; margin: 1rem 0; border: 1px solid var(--line); }
 nav.toc ol { list-style: none; padding-left: 0; margin: 0; } nav.toc li { margin: 0.35rem 0; } nav.toc ol ol { padding-left: 1.3rem; }
 .tablewrap { overflow-x: auto; }
@@ -74,9 +75,15 @@ html[data-corr="off"] article.book .corr { text-decoration: none; }
 html[data-links="off"] a { text-decoration: none; }
 html[data-links="off"] a:not(.pb):hover, html[data-links="off"] a:not(.pb):focus-visible { text-decoration: underline; }
 header.site { position: relative; }
-.tb-btn { font: inherit; color: var(--link); background: none; border: 1px solid var(--line); border-radius: 0.3em;
-  padding: 0 0.5em; cursor: pointer; }
-.tb-btn[aria-expanded="true"] { border-color: var(--link); }
+/* The settings button of the header: the same picture, in the same place in the window, as the one in the bar of a
+   chapter (below), so that it seems not to move when the bar comes into view (Tom, 2026-11-21). Both buttons are 0.2em
+   from the top of the window, and the picture ends at the right-hand edge of the column. */
+html.tb-js header.site { padding-right: 2.2em; }
+.tb-btn { position: absolute; top: 0.2em; right: -0.5em; display: inline-flex; align-items: center; justify-content: center;
+  width: 2.4em; height: 2.4em; padding: 0; margin: 0; font: inherit; color: var(--muted); background: none; border: 0;
+  border-radius: 0.3em; cursor: pointer; }
+.tb-btn:hover, .tb-btn[aria-expanded="true"] { color: var(--link); }
+.tb-btn svg { width: 1.4em; height: 1.4em; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 .tb-panel { position: absolute; z-index: 10; top: 100%; right: 0; width: 19.5em; max-width: 100%; margin-top: 0.3em; padding: 0.6em;
   color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 0.4em; box-shadow: 0 0.2em 0.8em rgba(0, 0, 0, 0.25);
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: 0.9em; line-height: 1.2;
@@ -118,7 +125,7 @@ header.site { position: relative; }
 .tb-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .tb-resume { margin: 1em 0; }
 /* The bar at the top of a chapter, in view once the header has scrolled away (site.js makes it; the reader can switch it off). */
-html.tb-hasbar:not([data-bar="off"]) { scroll-padding-top: calc(2.6rem * var(--tb-hs) / var(--tb-size, 1)); }
+html.tb-hasbar:not([data-bar="off"]) { scroll-padding-top: calc(3rem * var(--tb-hs) / var(--tb-size, 1)); }
 .tb-bar { position: fixed; z-index: 9; top: 0; left: 0; right: 0; font-size: calc(1rem * var(--tb-hs) / var(--tb-size, 1));
   color: var(--muted); background: var(--bg); border-bottom: 1px solid var(--line);
   visibility: hidden; transform: translateY(-100%); transition: transform 0.2s, visibility 0s 0.2s; }
@@ -126,22 +133,38 @@ html.tb-hasbar:not([data-bar="off"]) { scroll-padding-top: calc(2.6rem * var(--t
 .tb-bar > div { position: relative; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; margin: 0 auto;
   max-width: var(--tb-width, 36rem); padding: 0 calc(1rem / var(--tb-size, 1)); }
 .tb-bar > div > span { display: flex; gap: 1.2em; }
-.tb-bar > div > a { justify-self: start; margin-left: -0.5em; } .tb-bar > div > button { justify-self: end; margin-right: -0.5em; }
-.tb-bar a, .tb-bar > div > button, .tb-none { display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box;
-  width: 2.4em; height: 2.4em; padding: 0; margin: 0; font: inherit; color: inherit; background: none; border: 0; border-radius: 0.3em; cursor: pointer; }
+.tb-bar > div > .tb-nav-btn { justify-self: start; margin-left: -0.5em; } .tb-bar > div > .tb-set-btn { justify-self: end; margin-right: -0.5em; }
+.tb-bar > div > span a, .tb-bar > div > button, .tb-none { display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box;
+  width: 2.4em; height: 2.4em; padding: 0; margin: 0.2em 0; font: inherit; color: inherit; background: none; border: 0; border-radius: 0.3em; cursor: pointer; }
 .tb-bar a:visited { color: inherit; }
 .tb-bar a:hover, .tb-bar > div > button:hover, .tb-bar > div > button[aria-expanded="true"] { color: var(--link); }
 .tb-bar a:focus-visible, .tb-bar > div > button:focus-visible { outline: 3px solid var(--link); outline-offset: -3px; }
 .tb-none { opacity: 0.3; cursor: default; }
-.tb-bar > div > a svg, .tb-bar > div > span svg, .tb-bar > div > button svg { width: 1.4em; height: 1.4em; fill: none; stroke: currentColor;
+.tb-bar > div > span svg, .tb-bar > div > button svg, .tb-menu svg.tb-ic { width: 1.4em; height: 1.4em; fill: none; stroke: currentColor;
   stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 .tb-bar .tb-panel { right: calc(1rem / var(--tb-size, 1)); max-width: calc(100% - 2rem / var(--tb-size, 1)); margin-top: 1px;
   max-height: calc(100vh - 3.4em); overflow-y: auto; }
+/* The menu under the left-hand button of the bar: the site, the book, its contents (Tom, 2026-11-21). A title too long
+   for it is cut at the right-hand edge, where its last letters fade out (the class is set by the script when it is). */
+.tb-menu { position: absolute; z-index: 10; top: 100%; left: calc(1rem / var(--tb-size, 1)); max-width: calc(100% - 2rem / var(--tb-size, 1));
+  margin-top: 1px; padding: 0.3em 0; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 0.4em;
+  box-shadow: 0 0.2em 0.8em rgba(0, 0, 0, 0.25); }
+.tb-menu[hidden] { display: none; }
+.tb-menu ul { list-style: none; margin: 0; padding: 0; }
+.tb-menu a { display: flex; align-items: center; gap: 0.7em; padding: 0.5em 0.9em; color: var(--fg); text-decoration: none; white-space: nowrap; }
+.tb-menu a:visited { color: var(--fg); }
+.tb-menu a:hover { color: var(--link); }
+.tb-menu a:focus-visible { outline: 3px solid var(--link); outline-offset: -3px; }
+.tb-menu a > svg.logo, .tb-menu a > svg.tb-ic { flex: none; width: 1.45em; height: 1.4em; color: var(--muted); }
+.tb-menu a:hover > svg { color: inherit; }
+.tb-menu a > span { flex: 1; min-width: 0; overflow: hidden; }
+.tb-menu a > span.tb-cut { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 3em), transparent);
+  mask-image: linear-gradient(to right, #000 calc(100% - 3em), transparent); }
 .tb-bar.tb-now, .tb-bar.tb-now.tb-on { transition: none; }
 @media (prefers-reduced-motion: reduce) { .tb-bar, .tb-bar.tb-on { transition: none; } }
 @media print {
   :root, :root[data-theme] { --fg: #000; --bg: #fff; --muted: #444; --link: #000; --visited: #000; --line: #999; }
-  header.site nav, nav.pager, .pbtoggle, footer.site, .skip, details.viewer, .tb-panel, .tb-resume, .tb-bar { display: none; }
+  header.site nav, nav.pager, .pbtoggle, footer.site, .skip, details.viewer, .tb-panel, .tb-resume, .tb-bar, .tb-btn { display: none; }
   body { max-width: none; }
 }
 body:has(#showpb:checked) article.book .pb { display: inline; }
