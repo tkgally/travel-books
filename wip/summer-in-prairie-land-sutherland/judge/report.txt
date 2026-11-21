@@ -1,0 +1,6 @@
+judge opus: 6 spots on 6 pages: {'verified': 1, 'draft': 5}; cost $0.25
+p0084 #1 [draft, sure: medium] draft 'thcse who' | verified 'these who' | judge reads 'thcse who'
+p0110 #1 [draft, sure: medium] draft 'OUR week' | verified 'O<sc>ur</sc> week' | judge reads 'OUR week'
+p0166 #1 [draft, sure: high] draft 'chwood Hills.' | verified 'chwood Hills' | judge reads 'chwood Hills.'
+p0186 #1 [draft, sure: low] draft 'Portage la Prairie.' | verified 'Portage La Prairie.' | judge reads 'PORTAGE LA PRAIRIE.'
+p0199 #1 [draft, sure: high] draft 'agreeable fello' | verified 'agreeeable fello' | judge reads 'agreeable fello'
