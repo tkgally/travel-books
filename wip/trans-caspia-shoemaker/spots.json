@@ -1,0 +1,332 @@
+{
+ "p0015": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "SECURING the",
+   "replace": "S<sc>ecuring</sc> the",
+   "draft": "SECURING the",
+   "verified": "S<sc>ecuring</sc> the",
+   "context": "! Gosudar! ⏎ </verse> ⏎  ⏎ [[right]] B<sc>erlin</sc>, May, 1894. ⏎  ⏎ SECURING the proper document this morning at the consulate of our countr"
+  }
+ ],
+ "p0056": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "IT is a vast",
+   "replace": "I<sc>t</sc> is a vast",
+   "draft": "IT is a vast",
+   "verified": "I<sc>t</sc> is a vast",
+   "context": "[[page 42]] ⏎  ⏎ # Chapter IV. ⏎  ⏎ [[subtitle]] Tiflis. ⏎  ⏎ IT is a vast comfort after the inferior hotels of Russia—inferior not so"
+  }
+ ],
+ "p0067": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "dance. But no; neither",
+   "replace": "dance. But\n\n[[image: a column of Russian soldiers in white caps marching along a road, officers at their side]]\n\n[[cont]]no; neither",
+   "draft": "dance. But no; neither",
+   "verified": "dance. But\n\n[[image: a column of Russian soldiers in white caps marching along a road, officers at their side]]\n\n[[cont]]no; neither",
+   "context": "rticular saint in a long purple garment strike into a skirt dance. But no; neither does he drift into a waltz as the tender notes of “Auf Weid"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "obliterated that\n\n[[image: a column of Russian soldiers in white caps marching along a road, officers at their side]]",
+   "replace": "obliterated that",
+   "draft": "terated that\n\n[[image: a column of Russian soldiers in white caps marching along a road, officers at their side]]",
+   "verified": "terated that",
+   "context": "hieftain. Chief of Daghestan was Schamyl, and as Russia has obliterated that ⏎  ⏎ [[image: a column of Russian soldiers in white caps marching along a road, officers at their side]] ⏎ "
+  }
+ ],
+ "p0077": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "OIL, oil,",
+   "replace": "O<sc>il</sc>, oil,",
+   "draft": "OIL, oil,",
+   "verified": "O<sc>il</sc>, oil,",
+   "context": "3]] ⏎  ⏎ # Chapter VI. ⏎  ⏎ [[right]] B<sc>aku</sc>, June 3, 1894. ⏎  ⏎ OIL, oil, every-where! in the gutters, in the mud of the streets, in "
+  }
+ ],
+ "p0088": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "IT has taken",
+   "replace": "I<sc>t</sc> has taken",
+   "draft": "IT has taken",
+   "verified": "I<sc>t</sc> has taken",
+   "context": "e.” ⏎  ⏎ [[right]] U<sc>sin-ada</sc>,[[fnref *]] June 5, 1894. ⏎  ⏎ IT has taken us twenty-two hours to run the width of this sea, one hundr"
+  }
+ ],
+ "p0108": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "THE name of this",
+   "replace": "T<sc>he</sc> name of this",
+   "draft": "THE name of thi",
+   "verified": "T<sc>he</sc> name of thi",
+   "context": "e this world possessed.” ⏎ </verse> ⏎  ⏎ [[right]] June 8, 1894. ⏎  ⏎ THE name of this ancient metropolis is derived from the Sanskrit “Vihara,” a"
+  }
+ ],
+ "p0109": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "past houses and gardens,",
+   "replace": "past houses\n\n[[image: photograph of a person in a large fur-trimmed hat and loose robe, raising the hands to the face in greeting]]\n[[caption]] A “Good Morning” at Bokhara.\n\n[[cont]]and gardens,",
+   "draft": "past houses and gardens,",
+   "verified": "past houses\n\n[[image: photograph of a person in a large fur-trimmed hat and loose robe, raising the hands to the face in greeting]]\n[[caption]] A “Good Morning” at Bokhara.\n\n[[cont]]and gardens,",
+   "context": "y car, but the train rushes onward past minarets and domes, past houses and gardens, until one feels that some mistake has been made and that th"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "placed at\n\n[[image: photograph of a person in a large fur-trimmed hat and loose robe, raising the hands to the face in greeting]]\n[[caption]] A “Good Morning” at Bokhara.",
+   "replace": "placed at",
+   "draft": "placed at\n\n[[image: photograph of a person in a large fur-trimmed hat and loose robe, raising the hands to the face in greeting]]\n[[caption]] A “Good Morning” at Bokhara.",
+   "verified": "placed at",
+   "context": "e ten miles east of the city the station is reached. It was placed at ⏎  ⏎ [[image: photograph of a person in a large fur-trimmed hat and loose robe, raising the hands to the face in greeting]] ⏎ [[caption]] A “Good Morning” at Bokhara. ⏎ "
+  }
+ ],
+ "p0113": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "endevoring",
+   "replace": "endeavoring",
+   "draft": "endevoring",
+   "verified": "endeavoring",
+   "context": "aded in 1842.” Dr. Wolff barely escaped with his life while endevoring to clear up their fates. For centuries Bokhara has been hid"
+  }
+ ],
+ "p0131": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "dangerous at all times, though",
+   "replace": "dangerous at all\n\n[[image: a massive crenellated mud gateway flanked by round towers, with a few figures at its foot]]\n[[caption]] M<sc>ud</sc> G<sc>ateway at</sc> B<sc>okhara</sc>.\n\n[[cont]]times, though",
+   "draft": "erous at all times, thoug",
+   "verified": "erous at all\n\n[[image: a massive crenellated mud gateway flanked by round towers, with a few figures at its foot]]\n[[caption]] M<sc>ud</sc> G<sc>ateway at</sc> B<sc>okhara</sc>.\n\n[[cont]]times, thoug",
+   "context": "er anxious about B. He is threatened with an ulcerated ear, dangerous at all times, though I don't tell him so, and doubly so here, where I fear we sh"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "a doctor and where\n\n[[image: a massive crenellated mud gateway flanked by round towers, with a few figures at its foot]]\n[[caption]] M<sc>ud</sc> G<sc>ateway at</sc> B<sc>okhara</sc>.",
+   "replace": "a doctor and where",
+   "draft": "or and where\n\n[[image: a massive crenellated mud gateway flanked by round towers, with a few figures at its foot]]\n[[caption]] M<sc>ud</sc> G<sc>ateway at</sc> B<sc>okhara</sc>.",
+   "verified": "or and where",
+   "context": "ch Samarkand at 11 this <sc>a. m.</sc>, where we shall find a doctor and where ⏎  ⏎ [[image: a massive crenellated mud gateway flanked by round towers, with a few figures at its foot]] ⏎ [[caption]] M<sc>ud</sc> G<sc>ateway at</sc> B<sc>okhara</sc>. ⏎ "
+  }
+ ],
+ "p0137": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "to entirely satisfy these",
+   "replace": "to entirely\n\n[[image: a Russian church with onion domes and a central bell tower, among trees]]\n[[caption]] Russian Church, Samarkand.\n\n[[cont]]satisfy these",
+   "draft": "to entirely satisfy thes",
+   "verified": "to entirely\n\n[[image: a Russian church with onion domes and a central bell tower, among trees]]\n[[caption]] Russian Church, Samarkand.\n\n[[cont]]satisfy thes",
+   "context": "hey are subjected to almost an autopsy on arrival, in order to entirely satisfy these servants of the Czar that their internal construction does "
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "stopped at Bokhara,\n\n[[image: a Russian church with onion domes and a central bell tower, among trees]]\n[[caption]] Russian Church, Samarkand.\n",
+   "replace": "stopped at Bokhara,\n",
+   "draft": "at Bokhara,\n\n[[image: a Russian church with onion domes and a central bell tower, among trees]]\n[[caption]] Russian Church, Samarkand.\n",
+   "verified": "at Bokhara,\n",
+   "context": "rain comes in, which it does three times a week. We, having stopped at Bokhara, ⏎  ⏎ [[image: a Russian church with onion domes and a central bell tower, among trees]] ⏎ [[caption]] Russian Church, Samarkand. ⏎ "
+  }
+ ],
+ "p0159": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Count R., the governor of Samarkand, at “Government House.” Russia houses her officials well, and his quarters are delightfully situated in a",
+   "replace": "Count",
+   "draft": "Count R., the governor of Samarkand, at “Government House.” Russia houses her officials well, and his quarters are delightfully situated in a",
+   "verified": "Count",
+   "context": "is not on the street. ⏎  ⏎ We spent an hour this afternoon with Count R., the governor of Samarkand, at “Government House.” Russia houses her officials well, and his quarters are delightfully situated in a ⏎  ⏎ [[image: a veiled woman in a long robe; behind her a man i"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "A Samarkand Maiden.</sc>",
+   "replace": "A Samarkand Maiden.</sc>\n\n[[cont]]R., the governor of Samarkand, at “Government House.” Russia houses her officials well, and his quarters are delightfully situated in a",
+   "draft": "Maiden.</sc>",
+   "verified": "Maiden.</sc>\n\n[[cont]]R., the governor of Samarkand, at “Government House.” Russia houses her officials well, and his quarters are delightfully situated in a",
+   "context": "rse, and a boy in a skullcap, under trees]] ⏎ [[caption]] <sc>A Samarkand Maiden.</sc> ⏎ "
+  }
+ ],
+ "p0183": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "9 <sc>p. m.</sc> of our second day",
+   "replace": "9 <sc>p. m.</sc> of\n\n[[image: photograph of a flat open steppe with a line of camels crossing it on the horizon]]\n[[caption]] T<sc>he</sc> F<sc>amished</sc> S<sc>teppe</sc>.\n\n[[cont]]our second day",
+   "draft": ". m.</sc> of our second d",
+   "verified": ". m.</sc> of\n\n[[image: photograph of a flat open steppe with a line of camels crossing it on the horizon]]\n[[caption]] T<sc>he</sc> F<sc>amished</sc> S<sc>teppe</sc>.\n\n[[cont]]our second d",
+   "context": "th the prospect of its long journey through the deserts. At 9 <sc>p. m.</sc> of our second day, we reached Tashkend, forty hours out, which is about as fa"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "One can see even in\n\n[[image: photograph of a flat open steppe with a line of camels crossing it on the horizon]]\n[[caption]] T<sc>he</sc> F<sc>amished</sc> S<sc>teppe</sc>.\n",
+   "replace": "One can see even in\n",
+   "draft": "see even in\n\n[[image: photograph of a flat open steppe with a line of camels crossing it on the horizon]]\n[[caption]] T<sc>he</sc> F<sc>amished</sc> S<sc>teppe</sc>.\n",
+   "verified": "see even in\n",
+   "context": "own, are very wide, and are bordered by many rows of trees. One can see even in ⏎  ⏎ [[image: photograph of a flat open steppe with a line of camels crossing it on the horizon]] ⏎ [[caption]] T<sc>he</sc> F<sc>amished</sc> S<sc>teppe</sc>. ⏎ "
+  }
+ ],
+ "p0185": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "than in Egypt or Turkey.",
+   "replace": "than in Egypt\n\n[[image: a broad tree-lined street with tall poplars and low buildings on either side]]\n[[caption]] T<sc>ashkend.</sc>\n\n[[cont]]or Turkey.",
+   "draft": "han in Egypt or Turkey.",
+   "verified": "han in Egypt\n\n[[image: a broad tree-lined street with tall poplars and low buildings on either side]]\n[[caption]] T<sc>ashkend.</sc>\n\n[[cont]]or Turkey.",
+   "context": "at among the native cafés there is much greater cleanliness than in Egypt or Turkey. Rich rugs cover clean floors, and the attendants seem to ha"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "roué to\n\n[[image: a broad tree-lined street with tall poplars and low buildings on either side]]\n[[caption]] T<sc>ashkend.</sc>\n",
+   "replace": "roué to\n",
+   "draft": "roué to\n\n[[image: a broad tree-lined street with tall poplars and low buildings on either side]]\n[[caption]] T<sc>ashkend.</sc>\n",
+   "verified": "roué to\n",
+   "context": "irls strewn around everywhere; and I defy the most hardened roué to ⏎  ⏎ [[image: a broad tree-lined street with tall poplars and low buildings on either side]] ⏎ [[caption]] T<sc>ashkend.</sc> ⏎ "
+  }
+ ],
+ "p0188": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "HAVING ordered",
+   "replace": "H<sc>aving</sc> ordered",
+   "draft": "HAVING ordered",
+   "verified": "H<sc>aving</sc> ordered",
+   "context": "[[page 174]] ⏎  ⏎ # Chapter XIV. ⏎  ⏎ [[right]] June 22d. ⏎  ⏎ HAVING ordered horses for our tarantass at 10 <sc>p. m.</sc>, they of cour"
+  }
+ ],
+ "p0203": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "THIS little",
+   "replace": "T<sc>his</sc> little",
+   "draft": "THIS little",
+   "verified": "T<sc>his</sc> little",
+   "context": "e 189]] ⏎  ⏎ # Chapter XV. ⏎  ⏎ [[right]] O<sc>sh</sc>, June 30th. ⏎  ⏎ THIS little hamlet of Osh is placed just where the land “quivers on the"
+  }
+ ],
+ "p0213": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "after which a dome-like top of staves, open in the center, is bound on with rope. Around the frame is stretched a bamboo screen, and over that skins",
+   "replace": "after which a",
+   "draft": "fter which a dome-like top of staves, open in the center, is bound on with rope. Around the frame is stretched a bamboo screen, and over that skins",
+   "verified": "fter which a",
+   "context": " The rack-like framework is first erected in circular form, after which a dome-like top of staves, open in the center, is bound on with rope. Around the frame is stretched a bamboo screen, and over that skins ⏎  ⏎ [[image: Photograph of men standing inside the bare lattic"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "“Y<sc>ourt</sc>.”",
+   "replace": "“Y<sc>ourt</sc>.”\n\n[[cont]]dome-like top of staves, open in the center, is bound on with rope. Around the frame is stretched a bamboo screen, and over that skins",
+   "draft": ">ourt</sc>.”",
+   "verified": ">ourt</sc>.”\n\n[[cont]]dome-like top of staves, open in the center, is bound on with rope. Around the frame is stretched a bamboo screen, and over that skins",
+   "context": "hills behind]] ⏎ [[caption]] T<sc>he</sc> F<sc>rame of a</sc> “Y<sc>ourt</sc>.” ⏎ "
+  }
+ ],
+ "p0228": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "“sent for.” If not, I",
+   "replace": "“sent for.” If\n\n[[image: photograph of a long, low walled fort on open ground at the foot of a large bare hill, with mountains beyond]]\n[[caption]] “I<sc>rkeshtan</sc>,” R<sc>ussia’s</sc> L<sc>ast</sc> F<sc>ort</sc>.\n\n[[cont]]not, I",
+   "draft": "ent for.” If not, I",
+   "verified": "ent for.” If\n\n[[image: photograph of a long, low walled fort on open ground at the foot of a large bare hill, with mountains beyond]]\n[[caption]] “I<sc>rkeshtan</sc>,” R<sc>ussia’s</sc> L<sc>ast</sc> F<sc>ort</sc>.\n\n[[cont]]not, I",
+   "context": "he pack has gone forward to effect a passage, and I will be “sent for.” If not, I shall return to Fort Irkeshtan, which we have left but two "
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "hospitality,\n\n[[image: photograph of a long, low walled fort on open ground at the foot of a large bare hill, with mountains beyond]]\n[[caption]] “I<sc>rkeshtan</sc>,” R<sc>ussia’s</sc> L<sc>ast</sc> F<sc>ort</sc>.",
+   "replace": "hospitality,",
+   "draft": "hospitality,\n\n[[image: photograph of a long, low walled fort on open ground at the foot of a large bare hill, with mountains beyond]]\n[[caption]] “I<sc>rkeshtan</sc>,” R<sc>ussia’s</sc> L<sc>ast</sc> F<sc>ort</sc>.",
+   "verified": "hospitality,",
+   "context": "thods of government, I have nothing save praise for Russian hospitality, ⏎  ⏎ [[image: photograph of a long, low walled fort on open ground at the foot of a large bare hill, with mountains beyond]] ⏎ [[caption]] “I<sc>rkeshtan</sc>,” R<sc>ussia’s</sc> L<sc>ast</sc> F<sc>ort</sc>. ⏎ "
+  }
+ ],
+ "p0231": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "too much of patriarchal life, as I discovered on awakening from a nap this afternoon and finding a bearded goat in my tent, calmly devouring a trunk strap. He moved off with extreme dignity when I, shameful to relate, kicked him out.",
+   "replace": "too much",
+   "draft": "too much of patriarchal life, as I discovered on awakening from a nap this afternoon and finding a bearded goat in my tent, calmly devouring a trunk strap. He moved off with extreme dignity when I, shameful to relate, kicked him out.",
+   "verified": "too much",
+   "context": "ilence of these mountains. ⏎  ⏎ There is such a thing as having too much of patriarchal life, as I discovered on awakening from a nap this afternoon and finding a bearded goat in my tent, calmly devouring a trunk strap. He moved off with extreme dignity when I, shameful to relate, kicked him out. ⏎  ⏎ [[image: photograph of a low flat-roofed mud and stone bui"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "Rachmed has been",
+   "replace": "[[cont]]of patriarchal life, as I discovered on awakening from a nap this afternoon and finding a bearded goat in my tent, calmly devouring a trunk strap. He moved off with extreme dignity when I, shameful to relate, kicked him out.\n\nRachmed has been",
+   "draft": "Rachmed has ",
+   "verified": "[[cont]]of patriarchal life, as I discovered on awakening from a nap this afternoon and finding a bearded goat in my tent, calmly devouring a trunk strap. He moved off with extreme dignity when I, shameful to relate, kicked him out.\n\nRachmed has ",
+   "context": "c>he</sc> F<sc>irst</sc> P<sc>oint in</sc> C<sc>hina</sc>. ⏎  ⏎ Rachmed has been in for his usual evening ⏎ "
+  }
+ ],
+ "p0279": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "One is shaped like",
+   "replace": "One is\n\n[[image: a small naked boy standing beside the large spoked wheel of a cart]]\n[[caption]] A F<sc>uture</sc> P<sc>ost</sc> D<sc>river</sc>.\n\n[[cont]]shaped like",
+   "draft": "One is shaped like",
+   "verified": "One is\n\n[[image: a small naked boy standing beside the large spoked wheel of a cart]]\n[[caption]] A F<sc>uture</sc> P<sc>ost</sc> D<sc>river</sc>.\n\n[[cont]]shaped like",
+   "context": "e, though neither of them bears the name of that conqueror. One is shaped like an old-fashioned headstone, round at the top, while the oth"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "state that:\n\n[[image: a small naked boy standing beside the large spoked wheel of a cart]]\n[[caption]] A F<sc>uture</sc> P<sc>ost</sc> D<sc>river</sc>.",
+   "replace": "state that:",
+   "draft": "state that:\n\n[[image: a small naked boy standing beside the large spoked wheel of a cart]]\n[[caption]] A F<sc>uture</sc> P<sc>ost</sc> D<sc>river</sc>.",
+   "verified": "state that:",
+   "context": "e the other is square. The inscriptions are in Persian, and state that: ⏎  ⏎ [[image: a small naked boy standing beside the large spoked wheel of a cart]] ⏎ [[caption]] A F<sc>uture</sc> P<sc>ost</sc> D<sc>river</sc>. ⏎ "
+  }
+ ],
+ "p0315": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "STAMBOUL, and",
+   "replace": "S<sc>tamboul</sc>, and",
+   "draft": "STAMBOUL, and",
+   "verified": "S<sc>tamboul</sc>, and",
+   "context": "[[page 301]] ⏎  ⏎ # Chapter XXII. ⏎  ⏎ STAMBOUL, and not Central Asia, is the end and aim of Russia's ambitions."
+  }
+ ],
+ "p0318": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "LET those",
+   "replace": "L<sc>et</sc> those",
+   "draft": "LET those",
+   "verified": "L<sc>et</sc> those",
+   "context": "XXIII. ⏎  ⏎ [[right]] C<sc>onstantinople</sc>, August 2, 1894. ⏎  ⏎ LET those who possess the memory of this Ottoman capital as it was tw"
+  }
+ ]
+}

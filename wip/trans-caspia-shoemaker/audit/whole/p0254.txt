@@ -1,0 +1,5 @@
+{"given": "easily see that; though young", "print": "easily see that, though young", "sure": "high"}
+{"given": "Czar. This name, like all", "print": "Czar. His name, like all", "sure": "high"}
+{"given": "impossible to do otherwize.", "print": "impossible to do otherwise.", "sure": "high"}
+{"given": "evidently regardiug it with great", "print": "evidently regarding it with great", "sure": "high"}
+{"given": "it is not tempting shoot.", "print": "it is not tempting to shoot.", "sure": "high"}

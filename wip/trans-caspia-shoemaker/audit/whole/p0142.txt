@@ -1,0 +1,5 @@
+{"given": "must leave youth behind me; before", "print": "must leave youth behind me, before", "sure": "high"}
+{"given": "If is in the adjoining", "print": "It is in the adjoining", "sure": "high"}
+{"given": "my bed-room window pour them", "print": "my bed-room window to pour them", "sure": "high"}
+{"given": "dignified brethren in egypt; but", "print": "dignified brethren in Egypt; but", "sure": "high"}
+{"given": "self-contained my brcthren are in", "print": "self-contained my brethren are in", "sure": "high"}

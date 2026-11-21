@@ -1,0 +1,5 @@
+{"given": "glance up as wretches come hurtling", "print": "glance up as the wretches come hurtling", "sure": "high"}
+{"given": "when one reaches china, one finds", "print": "when one reaches China, one finds", "sure": "high"}
+{"given": "quartered and when thrown to the dogs", "print": "quartered and then thrown to the dogs", "sure": "high"}
+{"given": "a little river ruuning through the", "print": "a little river running through the", "sure": "high"}
+{"given": "betwixt the flesh and the skinne; and", "print": "betwixt the flesh and the skinne, and", "sure": "high"}
