@@ -292,6 +292,25 @@ How this was carried out: `RESUME.md` §"How long a session runs", `tools/sessio
   to `japan-as-they-saw-it.html` on this site (not, here, to his project's own site), in place of "Others come
   from … (about these books); for that reason …".
 
+## 2026-11-21 (a carousel of book covers on the home page; a session with Claude Fable, by Tom's choice)
+
+- **The home page gets a carousel of thumbnails** of the covers or title pages of most or all of the books, to show
+  people who happen upon the page a selection of what is on the site. It stands below the header and above the
+  title "Travel Books".
+- **Random order, shuffled each time the page loads.** Three to five thumbnails are in view, depending on the
+  width of the window.
+- **Unobtrusive arrows at the left and right sides**; a click scrolls that way and reveals more books. On tablets
+  and phones the reader swipes. **Either way the action reveals as many books as were in view and then stops**: the
+  scrolling does not go on indefinitely.
+- **A click on a book goes to the book's index page.**
+- **The picture is the cover if the title is clearly readable on it, otherwise the title page.** A book with
+  neither a cover nor a title page with a readable title is not in the carousel.
+- **Titles are text only for screen readers**, not visible.
+- **The books in the carousel and their thumbnails are brought up to date once every five sessions**, when the
+  other maintenance tasks are run.
+- **Design: plain and simple, no borders**; the books and the arrows look as though they float slightly above the
+  page, with faint shadows. **The motion is smooth, with gradual acceleration and deceleration.**
+
 ## Questions for Tom
 
 - **2026-11-21, *Uganda for a Holiday* (Treves, 1910): publish it without its folding map?** The list of illustrations has
