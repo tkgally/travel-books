@@ -1,0 +1,34 @@
+{
+ "id": "nile-without-dragoman-eden",
+ "version": 1,
+ "date": "2026-11-21",
+ "title": "The Nile without a Dragoman",
+ "short_title": "The Nile without a Dragoman",
+ "authors": [
+  {
+   "name": "Frederic Eden",
+   "sort": "Eden, Frederic",
+   "born": 1829,
+   "died": 1916
+  }
+ ],
+ "place": "London",
+ "publisher": "Henry S. King & Co.",
+ "year": 1871,
+ "edition_statement": "First edition",
+ "source": {
+  "ia_identifier": "nilewithoutdrago00eden",
+  "contributor": "The Library of Congress"
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-21",
+   "note": "First publication."
+  }
+ ],
+ "regions": ["Egypt", "Sudan"],
+ "period": "",
+ "summary": "",
+ "divisions": []
+}
