@@ -1,0 +1,5 @@
+{"given": "the pencil of resined art", "print": "the pencil of refined art", "sure": "high"}
+{"given": "Above it talipot-tree, a tall,", "print": "Above it a talipot-tree, a tall,", "sure": "high"}
+{"given": "with his own band, even", "print": "with his own hand, even", "sure": "high"}
+{"given": "war-boats were at rangoon, to watch", "print": "war-boats were at Rangoon, to watch", "sure": "high"}
+{"given": "by Nya-Myat-Toon; the jungle chief", "print": "by Nya-Myat-Toon, the jungle chief", "sure": "high"}

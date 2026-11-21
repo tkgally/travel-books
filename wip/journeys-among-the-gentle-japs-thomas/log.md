@@ -18,6 +18,10 @@ Watch: footnotes (* †); long quotations in small type (some French, p0093, p02
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-21 | opus | 312 | 22.20 | leaves 5–8, 11–318; no page refused |
+| corrections | 2026-11-21 | sonnet | 312 | 10.32 | 15 changes |
+| judge | 2026-11-21 | opus | 7 spots / 6 pp. | 0.26 | 4 verifier, 3 draft |
+| audit | 2026-11-21 | opus | 6 | 0.36 | 30/30; 1 candidate, not real |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |

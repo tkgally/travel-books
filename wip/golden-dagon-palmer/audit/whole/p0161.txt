@@ -1,0 +1,5 @@
+{"given": "confessed to their hen-roofts and wood-piles", "print": "confessed to their hen-roosts and wood-piles", "sure": "high"}
+{"given": "our coops and bunkers forthwith; provided", "print": "our coops and bunkers forthwith, provided", "sure": "high"}
+{"given": "in a happy plan theirs for", "print": "in a happy plan of theirs for", "sure": "high"}
+{"given": "of their myosugi or Mayor", "print": "of their Myosugi or Mayor", "sure": "high"}
+{"given": "and then the moon rose we", "print": "and when the moon rose we", "sure": "high"}

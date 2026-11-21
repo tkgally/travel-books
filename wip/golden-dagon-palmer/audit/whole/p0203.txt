@@ -1,0 +1,5 @@
+{"given": "gilded, containcd the young Rajah", "print": "gilded, contained the young Rajah", "sure": "high"}
+{"given": "his women and servants; and the others", "print": "his women and servants, and the others", "sure": "high"}
+{"given": "and was or his way up", "print": "and was on his way up", "sure": "high"}
+{"given": "the Woons of martaban and Dallah", "print": "the Woons of Martaban and Dallah", "sure": "high"}
+{"given": "his gold umbrella a fine dhar", "print": "his gold umbrella and a fine dhar", "sure": "high"}

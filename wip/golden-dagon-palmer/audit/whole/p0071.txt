@@ -1,0 +1,6 @@
+{"given": "so are all burmese villages", "print": "so are all Burmese villages", "sure": "high"}
+{"given": "Flank it or either side", "print": "Flank it on either side", "sure": "high"}
+{"given": "In front all, train a", "print": "In front of all, train a", "sure": "high"}
+{"given": "with alligators, water-oxen; and other", "print": "with alligators, water-oxen, and other", "sure": "high"}
+{"given": "and with picturcsque", "print": "and with picturesque", "sure": "high"}
+{"given": "Chapter VII.", "print": "CHAPTER VII.", "sure": "low"}

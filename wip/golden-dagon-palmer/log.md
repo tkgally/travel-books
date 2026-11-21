@@ -21,6 +21,10 @@ Watch: black-letter subtitle; small capitals at chapter openings and in summarie
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-21 | opus | 332 | 20.75 | leaves 9–340; no page refused |
+| corrections | 2026-11-21 | sonnet | 332 | 10.37 | 41 changes |
+| judge | 2026-11-21 | opus | 37 spots / 15 pp. | 0.68 | 7 verifier, 29 draft, 1 by hand |
+| audit | 2026-11-21 | opus | 6 | 0.35 | 30/30; 1 candidate, not real |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |

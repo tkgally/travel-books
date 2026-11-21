@@ -1,0 +1,5 @@
+{"given": "jewels, the offeriugs—partly voluntary", "print": "jewels, the offerings—partly voluntary", "sure": "high"}
+{"given": "and the curses their priests.", "print": "and the curses of their priests.", "sure": "high"}
+{"given": "between great balustrades; mottled green", "print": "between great balustrades, mottled green", "sure": "high"}
+{"given": "reared to the stagnant Calm.", "print": "reared to the Stagnant Calm.", "sure": "high"}
+{"given": "Shway-Dagoung in all this golden glory", "print": "Shway-Dagoung in all his golden glory", "sure": "high"}
