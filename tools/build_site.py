@@ -23,7 +23,8 @@ SITE = "Travel Books"
 REPO_URL = "https://github.com/tkgally/travel-books"
 # The logo (Tom, 2026-11-21: a stack of three books). The favicon is assets/logo.svg, which has its own light and
 # dark colours; the copy in the header is drawn inline so that it takes the page's colours (light, sepia, dark).
-LOGO = ('<svg class="logo" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true" focusable="false">'
+# Its box ends at the foot of the lowest book, so that the books stand on the baseline of the name (Tom, 2026-11-21).
+LOGO = ('<svg class="logo" viewBox="0 0 32 29.5" width="32" height="29.5" aria-hidden="true" focusable="false">'
         '<rect class="logo-i" x="2.5" y="23" width="27" height="6.5" rx="1"/>'
         '<rect class="logo-a" x="5" y="15.5" width="23" height="6.5" rx="1"/>'
         '<rect class="logo-i" x="3.5" y="8" width="21" height="6.5" rx="1" transform="rotate(-6 14 11.25)"/>'
