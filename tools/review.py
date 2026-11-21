@@ -38,11 +38,19 @@ def kind_of(a, b):
     return "markup"
 
 
+def cont_change(draft, verified):
+    """'removed' / 'added' when the verified text has fewer / more [[cont]] marks than the draft, else None.
+    Such a change is 'markup' and is applied without a spot, so it is listed for a look at the indent on the scan
+    (*The Nile without a Dragoman*, 2026-11-21: two page-top joins dropped unseen)."""
+    a, b = draft.count("[[cont]]"), verified.count("[[cont]]")
+    return None if a == b else ("removed" if b < a else "added")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("draft"); ap.add_argument("verified"); ap.add_argument("--out")
     a = ap.parse_args()
-    kinds, skipped, spots, outliers, missing = {}, [], {}, [], []
+    kinds, skipped, spots, outliers, missing, conts = {}, [], {}, [], [], []
     for f in sorted(os.listdir(a.draft)):
         if not re.fullmatch(r"p\d+[a-z]?\.txt", f):
             continue
@@ -73,7 +81,11 @@ def main():
                                                  "draft": fnd[max(0, i1 - 12):i2 + 12], "verified": rep[max(0, j1 - 12):j2 + 12],
                                                  "context": ctx})
             cur = cur.replace(fnd, rep)
-        la, lb = len(nospace(draft)), len(nospace(open(vf, encoding="utf-8").read()))
+        vtext = open(vf, encoding="utf-8").read()
+        cc = cont_change(draft, vtext)
+        if cc:
+            conts.append(f"{pg}: [[cont]] {cc}")
+        la, lb = len(nospace(draft)), len(nospace(vtext))
         if abs(la - lb) > 0.05 * max(la, 1) + 10:
             outliers.append((pg, la, lb))
     lf = os.path.join(a.verified, "log.jsonl")
@@ -82,6 +94,9 @@ def main():
     print(f"not applied ({len(skipped)}):")
     for s in skipped:
         print("  ", s)
+    print(f"[[cont]] added or removed by the verifier, applied unjudged: look at the indent on the scan ({len(conts)}):")
+    for c in conts:
+        print("  ", c)
     print("length outliers (page, draft chars, verified chars):", outliers)
     print("pages without a verified text:", missing)
     print("pages with an error in log.jsonl (re-run them):", errs)
