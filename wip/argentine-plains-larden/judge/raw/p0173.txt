@@ -1,0 +1,2 @@
+{"n": 1, "is": "B", "print": "SCOOPING UP SALTONAS WITH THE CARCARAÑÁ.", "sure": "low"}
+{"n": 2, "is": "A", "print": "DRIVING SALTONAS INTO PITS.\n\n[[right]] To face p. <pref>126</pref>.", "sure": "medium"}

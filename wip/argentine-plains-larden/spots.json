@@ -1,0 +1,95 @@
+{
+ "p0018": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "## Chapter III",
+   "replace": "# Chapter III",
+   "draft": "## Chapter II",
+   "verified": "# Chapter II",
+   "context": " | ⏎ | Improvement in the estancia house | <pref>50</pref> | ⏎  ⏎ ## Chapter III ⏎  ⏎ [[subtitle]] The Estancia Santa Isabel in 1908—Changes and"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "## Chapter IV",
+   "replace": "# Chapter IV",
+   "draft": "## Chapter IV",
+   "verified": "# Chapter IV",
+   "context": "f> | ⏎ | Changes visible round the house | <pref>58</pref> | ⏎  ⏎ ## Chapter IV ⏎  ⏎ [[subtitle]] The Population of Argentina—Natives and Colon"
+  }
+ ],
+ "p0019": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "## Chapter V\n",
+   "replace": "# Chapter V\n",
+   "draft": "## Chapter V\n",
+   "verified": "# Chapter V\n",
+   "context": "[[page 11]] ⏎  ⏎ ## Chapter V ⏎  ⏎ [[subtitle]] T<sc>he</sc> S<sc>taff and the</sc> W<sc>ork o"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "## Chapter VI",
+   "replace": "# Chapter VI",
+   "draft": "## Chapter VI",
+   "verified": "# Chapter VI",
+   "context": " | <pref>99</pref> | ⏎ | Sowing alfalfa | <pref>100</pref> | ⏎  ⏎ ## Chapter VI ⏎  ⏎ [[subtitle]] M<sc>iscellaneous</sc> M<sc>atters connected "
+  }
+ ],
+ "p0103": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "a family of eleven posed",
+   "replace": "a family of nine posed",
+   "draft": "a family of eleven posed",
+   "verified": "a family of nine posed",
+   "context": "[[page ?]] ⏎ [[image: a family of eleven posed in front of a brick house with a corrugated-iron awning, wi"
+  }
+ ],
+ "p0173": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Scooping up saltonas with the carcarañá.",
+   "replace": "Scooping up Saltonas with the Carcarañá.",
+   "draft": "Scooping up saltonas with the carcarañá.",
+   "verified": "Scooping up Saltonas with the Carcarañá.",
+   "context": "on open grassland, one gesturing with his arm]] ⏎ [[caption]] Scooping up saltonas with the carcarañá. ⏎  ⏎ [[image: a mass of young locusts packed into a pit edged w"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "Driving saltonas into pits.",
+   "replace": "Driving Saltonas into Pits.\n\n[[right]] To face p. <pref>126</pref>.",
+   "draft": "Driving saltonas into pits.",
+   "verified": "Driving Saltonas into Pits.\n\n[[right]] To face p. <pref>126</pref>.",
+   "context": "ed into a pit edged with sheet-metal barriers]] ⏎ [[caption]] Driving saltonas into pits. ⏎ "
+  }
+ ],
+ "p0193": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<i>i.e.</i>,",
+   "replace": "<i>I.E.</i>,",
+   "draft": "<i>i.e.</i>,",
+   "verified": "<i>I.E.</i>,",
+   "context": "ng its skin for the last time]] ⏎ [[caption]] Change to Last, <i>i.e.</i>, Voladora, Stage. ⏎ [[image: Photograph of a newly changed loc"
+  }
+ ],
+ "p0379": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "out of these have had made",
+   "replace": "of these have had made",
+   "draft": "out of these hav",
+   "verified": "of these hav",
+   "context": "ts remain; for I have the hundred and eighty negatives, and out of these have had made a large number of very good lantern-slides. ⏎ "
+  }
+ ]
+}

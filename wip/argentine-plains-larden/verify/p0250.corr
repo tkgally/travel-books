@@ -1,0 +1,3 @@
+Two differences from the image: "Curiously" is printed where the draft has "Curiously", which is fine, so no change there, but the italic run "not—cardo negro," needs its comma handled differently.
+
+{"find": "<i>not—cardo negro</i>, <i>cardo blanco</i>, &c.,", "replace": "<i>not—cardo negro, cardo blanco,</i> &c.,"}

@@ -1,0 +1,9 @@
+{"page": "p0018", "n": 1, "who": "draft", "draft": "## Chapter II", "verified": "# Chapter II", "judge": {"n": 1, "is": "A", "print": "## Chapter III", "sure": "low"}}
+{"page": "p0018", "n": 2, "who": "draft", "draft": "## Chapter IV", "verified": "# Chapter IV", "judge": {"n": 2, "is": "B", "print": "## Chapter IV", "sure": "low"}}
+{"page": "p0019", "n": 1, "who": "draft", "draft": "## Chapter V\n", "verified": "# Chapter V\n", "judge": {"n": 1, "is": "A", "print": "## Chapter V", "sure": "low"}}
+{"page": "p0019", "n": 2, "who": "draft", "draft": "## Chapter VI", "verified": "# Chapter VI", "judge": {"n": 2, "is": "B", "print": "## Chapter VI", "sure": "low"}}
+{"page": "p0103", "n": 1, "who": "verified", "draft": "a family of eleven posed", "verified": "a family of nine posed", "judge": {"n": 1, "is": "B", "print": "a family of nine posed (this is a description of the photograph, not printed text; nine people are visible)", "sure": "medium"}}
+{"page": "p0173", "n": 1, "who": "verified", "draft": "Scooping up saltonas with the carcarañá.", "verified": "Scooping up Saltonas with the Carcarañá.", "judge": {"n": 1, "is": "B", "print": "SCOOPING UP SALTONAS WITH THE CARCARAÑÁ.", "sure": "low"}}
+{"page": "p0173", "n": 2, "who": "verified", "draft": "Driving saltonas into pits.", "verified": "Driving Saltonas into Pits.\n\n[[right]] To face p. <pref>126</pref>.", "judge": {"n": 2, "is": "A", "print": "DRIVING SALTONAS INTO PITS.\n\n[[right]] To face p. <pref>126</pref>.", "sure": "medium"}}
+{"page": "p0193", "n": 1, "who": "verified", "draft": "<i>i.e.</i>,", "verified": "<i>I.E.</i>,", "judge": {"n": 1, "is": "B", "print": "<i>I.E.</i>,", "sure": "medium"}}
+{"page": "p0379", "n": 1, "who": "draft", "draft": "out of these hav", "verified": "of these hav", "judge": {"n": 1, "is": "A", "print": "out of these have", "sure": "high"}}

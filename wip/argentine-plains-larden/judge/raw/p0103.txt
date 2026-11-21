@@ -1,0 +1,1 @@
+{"n": 1, "is": "B", "print": "a family of nine posed (this is a description of the photograph, not printed text; nine people are visible)", "sure": "medium"}
