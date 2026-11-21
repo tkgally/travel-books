@@ -52,5 +52,6 @@ cost → costs (p0127); p. 125 l. 15 sacophagus → sarcophagus (p0140); p. 126 
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
 | 1 | 2026-11-20 | PASS — 0 to fix, 1 waived (leaves p0011: a duplicate shot); to look at: hyphen-joins 1 — tools@3170c6d | 30/30; 0 real errors / 6 pages | first publication; spot-read of 14 pages; rendered look (Opus subagent) at 390 and 1280, EPUB nav |
+| 2 | 2026-11-21 | jaunt-in-japan-jackson v2 — 0 to fix, 1 waived; to look at: hyphen-joins 1, accents 3, rare-forms 1 — tools@7614af67 2026-11-21 | as v1 (text unchanged except listed fixes) | “midnight” for “midnight.” (p. 26) (found by a sweep of all the books after a reader’s report (issue #117), checked on the scan). |
 
 ## Known issues

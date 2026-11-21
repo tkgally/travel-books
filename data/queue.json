@@ -78,7 +78,7 @@
    "checked": "2026-11-19",
    "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Kessinger, Creative Media (print on demand). Re-checked 2026-11-19: not in pg_catalog.csv (Rose Kingsley's other books are); The Online Books Page lists page images only (Germany); web search finds only Kessinger (2007/2010), Creative Media Partners (2023) and other print-on-demand reprints. An ISBN 0-87380-148-2 (Rio Grande Press, a real reprint house) seen near it in results is Schwatka's In the Land of Cave and Cliff Dwellers, not this book. Editor Charles Kingsley d. 1875; author d. 1925; the engravers are not named in the book (work done by 1874, so its makers died before 1955 under rule 5).",
    "note": "University of California scan. Preface by Charles Kingsley; some plates.",
-   "version": 4,
+   "version": 5,
    "published": "2026-11-21"
   },
   {
@@ -729,8 +729,8 @@
    "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv (her A Woman's War Record is, #74491); The Online Books Page links only page images (IA cihm_03388, HathiTrust, Canadiana); no Wikisource page; web search of a distinctive sentence found nothing. Reprints: CIHM microfiche 1980, Kessinger 2007, Hansebooks/Scholar's Choice, a Blackwell's facsimile (all print on demand or microfiche). Author 1842–1917 (LoC heading). Prefatory letter by W. T. Sherman (1820–1891); engravings by the American Bank Note Co. (a firm); a few snapshots by Miss M. N. Beach and Miss Margaret Watson (minor, dates not found: Tom's rule of 2026-11-20); the rest by the author. Not checked: Faded Page, WorldCat. Re-checked 2026-11-20 (before starting): the text is in Alexander Street's subscription database North American Women's Letters and Diaries (work 4262667): Tom answered the same day: a subscription database does not count (selection.md rule 2), so the book is eligible. The scan was fetched once from IA that day (not yet cached in Drive).",
    "note": "Getty scan, 500 ppi. Many small engravings and snapshots set into the text with lines running round them (broken short lines in the draft; many crops). HathiTrust records a folding plate and a map: check. Rail to Tacoma, then an excursion steamer to Wrangell, Sitka, Glacier Bay and the Muir Glacier; opens with advice on what to take; chatty.",
    "started": "2026-11-20",
-   "version": 1,
-   "published": "2026-11-20"
+   "version": 2,
+   "published": "2026-11-21"
   },
   {
    "order": 40,
@@ -783,7 +783,7 @@
    "eligibility": "Checked 2026-11-20 (Opus subagent; Gutenberg and Wikisource by the session): not in pg_catalog.csv; not on The Online Books Page; Wikisource search finds nothing; raw HathiTrust OCR on distantreader.org (not a text edition); web search of a distinctive sentence found nothing; no reprint found. Author 1832–1875 (pdavis.nl, William Loney RN); published after his death with an unsigned introduction by friends (editor not named). Not checked: WorldCat. Re-checked 2026-11-20 at the start: not in pg_catalog.csv; a web search of the title finds catalogue records only (CRL holds a microfilm).",
    "note": "Brandeis scan, 400 ppi; 171 printed pages; one uncredited engraved frontispiece printed sideways; advertisements at the end. Journal of the command of HMS Torch, 1871–73: the Congo, Angola, Liberia and the Kroomen labour traffic, the Gold Coast. Period contempt for Africans in places (a contents line), not the main matter.",
    "started": "2026-11-20",
-   "version": 2,
+   "version": 3,
    "published": "2026-11-21"
   },
   {
@@ -801,8 +801,8 @@
    "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv; not on The Online Books Page; no Wikisource results; web search of a distinctive sentence found nothing; raw HathiTrust OCR on distantreader.org (not a text edition). Author 1809–1875 (Christchurch City Libraries heritage profile). TO CLOSE BEFORE STARTING: Early New Zealand Books (enzb.auckland.ac.nz answered 403), NZETC, the Capper Press facsimile series of the 1970s–80s (an established-press facsimile would count), WorldCat. IA's date 1850 is wrong (Spectator review, 2 Nov 1867). Re-checked 2026-11-20 (session): web searches for a reprint, facsimile (Capper Press and others) or ISBN edition found none (only the 1867 edition in booksellers' and museum listings, HathiTrust OCR on distantreader.org); NZETC is closed (archived by the National Library); Early New Zealand Books answered 403 again (The Online Books Page, which indexes ENZB, lists nothing).",
    "note": "University of California scan, 400 ppi; no illustrations; journal with dated entries; 16 pp. of advertisements. A widow's journal: Canterbury, the other provinces, Sydney and Melbourne, the voyage home by the Red Sea and Marseilles.",
    "started": "2026-11-20",
-   "version": 1,
-   "published": "2026-11-20"
+   "version": 2,
+   "published": "2026-11-21"
   },
   {
    "order": 44,
@@ -1009,7 +1009,7 @@
    "eligibility": "Checked 2026-11-21 (Opus subagent): PG catalogue: none. Online Books Page: none. Wikisource search: none. Faded Page: not properly checked (scripted search returns nothing; a site: web search found nothing). Web search of title and of a preface sentence found only scans and raw OCR (HathiTrust, Cornell Southeast Asia Visions, a Tamil Digital Library PDF, distantreader.org): none disqualify. No reprint of any kind found. Author born 1849 (accessgenealogy.com 'Allen of Bicton'), son of Charles Allen of the Legislative Council of India (matches the dedication); death date not found, so rule 5 by the birth year (before 1856). Not checked: WorldCat, Crockford, Venn: look for the death date before starting. Re-checked 2026-11-21 (the session): not in pg_catalog.csv; death date still not found (Allen of Bicton genealogy: born 1849, married 1890); rule 5 met by the birth year.",
    "note": "UC Libraries (Los Angeles) scan, 400 ppi; clean OCR; one map, footnotes at page foot. A vicar's six-month tour, Egypt on the way out, then India, Burma (the Shwe Dagon, monasteries) and Ceylon, written with an eye to missions and the Church.",
    "started": "2026-11-21",
-   "version": 3,
+   "version": 4,
    "published": "2026-11-21"
   },
   {

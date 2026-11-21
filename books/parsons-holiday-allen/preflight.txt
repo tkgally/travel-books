@@ -56,6 +56,10 @@
             - rajput: rajput (p0044, p0045, p0046, p0047, p0057); rájput (p0165)
             - tipu: tipu (p0014, p0023, p0163, p0242); tipú (p0170, p0171, p0173, p0174)
 [       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[ look (1)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0182: “talc” — “tale” is common (101)
+[ look (1)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+            - p0190: “doctrines He” in …ow far superior were the doctrines He taught to those…
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: parsons-holiday-allen v3 — 0 to fix, 0 waived; to look at: hyphen-joins 7, joins 1, contents 11, verse-joins 1, accents 10 — tools@636b1b8d 2026-11-21
+preflight PASS: parsons-holiday-allen v4 — 0 to fix, 0 waived; to look at: hyphen-joins 7, joins 1, contents 11, verse-joins 1, accents 10, rare-forms 1, missing-stop 1 — tools@25267f47 2026-11-21

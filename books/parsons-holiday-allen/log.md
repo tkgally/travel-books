@@ -47,5 +47,6 @@ Scan check: all sheets, 23 folios at full size (Opus subagent), 2026-11-21: GOOD
 | 1 | 2026-11-21 | PASS, 0 waived; look: hyphen-joins 7, joins 1 (dedication), contents 11 (summaries in toc_title), verse-joins 1 (one stanza, checked), accents 10 (as printed) — tools@ae7a41bc | 30/30 + 5/5; 0 real | Claude $24.34 |
 | 2 | 2026-11-21 | parsons-holiday-allen v2 — 0 to fix, 0 waived; to look at: hyphen-joins 7, joins 1, contents 11, verse-joins 1, accents 10 — tools@28b48c1e 2026-11-21 | as v1 (text unchanged except listed fixes) | p. 85 printed “wbo” → [[corr]] (new `misprints` list) |
 | 3 | 2026-11-21 | parsons-holiday-allen v3 — 0 to fix, 0 waived; to look at: hyphen-joins 7, joins 1, contents 11, verse-joins 1, accents 10 — tools@636b1b8d 2026-11-21 | as v2 (text unchanged except listed fixes) | “ignorancc” for “ignorance” (p. 222) (review after forty books, sweep checked on the scan) |
+| 4 | 2026-11-21 | parsons-holiday-allen v4 — 0 to fix, 0 waived; to look at: hyphen-joins 7, joins 1, contents 11, verse-joins 1, accents 10, rare-forms 1, missing-stop 1 — tools@25267f47 2026-11-21 | as v3 (text unchanged except listed fixes) | “service” for “service.” (p. 35); “courtyard” for “courtyard.” (p. 40); “dismouted” for “dismounted” (p. 40) (found by a sweep of all the books after a reader’s report (issue #117), checked on the scan). |
 
 ## Known issues

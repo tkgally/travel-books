@@ -58,5 +58,6 @@ Features: menu (p0045), dance programme (p0193), verse (p0215, p. 63), quoted pr
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
+| 2 | 2026-11-21 | womans-trip-to-alaska-collis v2 — 0 to fix, 0 waived; to look at: hyphen-joins 7, contents 14, accents 5 — tools@25267f47 2026-11-21 | as v1 (text unchanged except listed fixes) | “diminishes” for “diminishes.” (p. 143) (found by a sweep of all the books after a reader’s report (issue #117), checked on the scan). |
 
 ## Known issues
