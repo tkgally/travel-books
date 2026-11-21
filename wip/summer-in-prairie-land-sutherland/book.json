@@ -1,0 +1,23 @@
+{
+ "id": "summer-in-prairie-land-sutherland",
+ "version": 1,
+ "date": "2026-11-21",
+ "title": "A Summer in Prairie-Land",
+ "subtitle": "Notes of a Tour through the North-West Territory",
+ "short_title": "A Summer in Prairie-Land",
+ "authors": [
+  {
+   "name": "Rev. A. Sutherland, D.D.",
+   "sort": "Sutherland, Alexander",
+   "born": 1833,
+   "died": 1910
+  }
+ ],
+ "place": "Toronto",
+ "publisher": "Printed for the author, at the Methodist Book and Publishing House",
+ "year": 1881,
+ "source": {
+  "ia_identifier": "31383026813751",
+  "contributor": "Vancouver Public Library"
+ }
+}
