@@ -53,7 +53,8 @@ CHECKS = collections.OrderedDict([
     ("contents",        ("observe", "entries of the printed contents with no matching heading")),
     ("site-text",       ("enforce", "book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or \"")),
     ("note-tail",       ("observe", "text after a page's notes that is not a note (a table or paragraph of a note set as body text)")),
-    ("cover",           ("observe", "images/cover.jpg (or .png) exists: the front cover or the title page")),
+    ("verse-joins",     ("observe", "verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan")),
+    ("cover",           ("enforce", "images/cover.jpg (or .png) exists: the front cover or the title page")),
     ("accents",         ("observe", "words the book spells with different accents (or with and without): look at each group on the scan")),
     ("images",          ("observe", "image files not used by any page")),
     ("source",          ("observe", "source.json: the Drive cache of the page images is recorded")),
@@ -182,6 +183,13 @@ def odt_streams(data):
                 walk(c)
     walk(body)
     return " ".join(main), " ".join(notes)
+
+
+def caption_key(c):
+    """The order in which captions are compared (the compiler moves some images, so captions are compared as a
+    sorted list): by their squashed text without tags or case, so that a straight apostrophe or a leading <sc>
+    does not sort a caption elsewhere and raise a false item (*A Woman’s Trip to Alaska*, 2026-11-20)."""
+    return squash(re.sub(r"<[^>]*>", "", c)).lower()
 
 
 def compare(a, b, label, limit=12):
@@ -388,6 +396,30 @@ def check_note_tail(pages):
             elif seen and s:
                 out.append(f"{leaf}: after the notes: {s[:60]!r}")
                 break
+    return out
+
+
+def _verse_stanzas(text, first):
+    """Line counts of the stanzas of the first (first=True) or last <verse> block of a page."""
+    blocks = re.findall(r"<verse>\n?(.*?)\n?</verse>", text, flags=re.S)
+    if not blocks:
+        return []
+    b = blocks[0] if first else blocks[-1]
+    return [len([x for x in st.splitlines() if x.strip()]) for st in re.split(r"\n\s*\n", b) if st.strip()]
+
+
+def check_verse_joins(pages):
+    """Every verse block at a page top that begins with [[cont]]: it joins the first stanza of this page to the
+    last stanza of the page before. Drafts put [[cont]] there when a stanza had ended at the page foot, so two
+    stanzas ran together (*Twelve Years in Canterbury*: 6 of 13; only the rendered look saw it). The item gives
+    the line counts of the two stanzas (and of the stanzas round them): compare them and the rhymes on the scan."""
+    out = []
+    for (l0, t0), (l1, t1) in zip(pages, pages[1:]):
+        body = re.sub(r"^\s*(\[\[page [^\]]*\]\]\s*)?", "", t1)
+        if not re.match(r"<verse>\s*\[\[cont\]\]", body):
+            continue
+        before, here = _verse_stanzas(t0, first=False), _verse_stanzas(t1, first=True)
+        out.append(f"{l1}: verse continued from {l0}: stanzas before {before[-3:]} | here {here[:3]} (a stanza ending at the page foot needs no [[cont]])")
     return out
 
 
@@ -659,6 +691,7 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
         res["leaves"] = check_leaves(pages, items=compile_book.scan_items(cfg.get("source") or {}))
         res["joins"] = check_joins(pages)
         res["note-tail"] = check_note_tail(pages)
+        res["verse-joins"] = check_verse_joins(pages)
         # conservation
         pc, jc = [], []          # image captions apart: the compiler moves some images (see page_streams)
         ps, js = [], []          # side-notes: in the JSON, not in the reading editions
@@ -666,7 +699,7 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
         jm, jn = json_streams(book, captions=jc, sides=js)
         res["conservation"] += compare(" ".join(ps), " ".join(js), "pages→JSON side-notes")
         res["conservation"] += compare(pm, jm, "pages→JSON text") + compare(pn, jn, "pages→JSON notes")
-        res["conservation"] += compare(" ".join(sorted(pc)), " ".join(sorted(jc)), "pages→JSON captions")
+        res["conservation"] += compare(" ".join(sorted(pc, key=caption_key)), " ".join(sorted(jc, key=caption_key)), "pages→JSON captions")
         jm, jn = json_streams(book)
         rm, rn = json_streams(book, reading_only=True)
         names = rh.file_names(book, ".html")

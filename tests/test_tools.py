@@ -94,11 +94,18 @@ class Compile(unittest.TestCase):
         html = rh.Ctx(book, "web", {d["id"]: "d001.html" for d in book["divisions"]}).inline(t)
         self.assertEqual(html.count('id="r-d001-n1"'), 1)      # ids stay unique
         self.assertEqual(html.count('href="#d001-n1"'), 2)
+        self.assertEqual(html.count('aria-label="Note 1"'), 2)  # a screen reader says "Note 1", not "star"
         o = render_odt.Odt(book, None)
         o.notes = {n["id"]: n for n in d["notes"]}
         x = o.inline(t)
         self.assertEqual(x.count("<text:note "), 1)  # the note is placed once
         self.assertEqual(x.count('text:ref-name="d001-n1">*</text:note-ref>'), 1)
+
+    def test_arabic_script_tagged(self):
+        """Arabic script in the text is tagged with lang and dir (review 2026-11-21). Invented text."""
+        h = rh.tag_scripts("he wrote بسم الله, then left")
+        self.assertEqual(h, 'he wrote <span lang="ar" dir="rtl">بسم الله</span>, then left')
+        self.assertEqual(rh.tag_scripts("Kairwan, 1894"), "Kairwan, 1894")
 
     def test_editor_role(self):
         b = {"authors": [{"name": "A. Writer"}, {"name": "E. Ditor", "role": "editor"}]}
@@ -399,6 +406,49 @@ class Corrections(unittest.TestCase):
         self.assertTrue(all(r[0].startswith("move judged both ways") for r in rows))
         text, rows = judge.apply(verified, spots, {1: {"is": lab(1, "draft")}, 2: {"is": lab(2, "draft")}}, "p0001")
         self.assertEqual(text, draft)                          # judged the same way at both ends: applied as before
+
+    def test_judge_never_drops_a_picture(self):
+        """The verifier left out a picture line and the judge agreed (Zephyrus p0171, 2026-11-20). Invented text."""
+        img = "[[image: two ostriches by a fence]]\n[[caption]] Ostriches."
+        draft = f"We rode on.\n\n{img}\n\nAt noon we halted."
+        verified = "We rode on.\n\nAt noon we halted."
+        spots = [{"n": 1, "find": f"on.\n\n{img}\n\nAt", "replace": "on.\n\nAt", "draft": img, "verified": ""}]
+        ver = "B" if judge.labels("p0001", 1) else "A"
+        text, rows = judge.apply(verified, spots, {1: {"is": ver, "sure": "high"}}, "p0001")
+        self.assertEqual(text, draft)
+        self.assertTrue(rows[0][0].startswith("draft kept"))
+        self.assertTrue(judge.must_look("verified", "high", spots[0]))
+        # a picture the verifier moved (taken out here, put in at another spot) is not doubled
+        spots2 = spots + [{"n": 2, "find": "halted.", "replace": f"halted.\n\n{img}", "draft": "", "verified": img}]
+        self.assertEqual(judge.dropped_images(spots2[0], spots2), [])
+
+
+
+class CaptionOrder(unittest.TestCase):
+    """Captions are compared as a sorted list; sorting before squashing put a caption with a straight apostrophe
+    or a leading tag elsewhere, so equal lists gave items (Alaska, 2026-11-20). Invented captions."""
+
+    def test_equal_lists_with_quotes_and_tags(self):
+        pc = ["The Captain's House", "The Captains Mule", "A Mule"]
+        jc = ["The Captain’s House", "The Captains Mule", "A Mule"]
+        self.assertNotEqual(preflight.compare(" ".join(sorted(pc)), " ".join(sorted(jc)), "c"), [])   # the old way
+        k = preflight.caption_key
+        self.assertEqual(preflight.compare(" ".join(sorted(pc, key=k)), " ".join(sorted(jc, key=k)), "c"), [])
+        self.assertNotEqual(preflight.compare(" ".join(sorted(pc, key=k)), " ".join(sorted(jc[:2], key=k)), "c"), [])
+
+
+
+class VerseJoins(unittest.TestCase):
+    """A verse block at a page top that begins with [[cont]] is listed with the stanza lengths on both sides
+    (Twelve Years in Canterbury: stanzas ending at the page foot were joined). Invented verse."""
+
+    def test_listed_with_stanza_lengths(self):
+        p1 = "Prose.\n\n<verse>\nOne line\nTwo line\n\nThree line\nFour line\n</verse>"
+        p2 = "[[page 9]]\n<verse>\n[[cont]]Five line\nSix line\n</verse>\n\nMore prose."
+        items = preflight.check_verse_joins([("p0001", p1), ("p0002", p2)])
+        self.assertEqual(len(items), 1)
+        self.assertIn("[2, 2] | here [2]", items[0])
+        self.assertEqual(preflight.check_verse_joins([("p0001", p1), ("p0002", p2.replace("[[cont]]", ""))]), [])
 
 
 class Ornaments(unittest.TestCase):
@@ -1309,7 +1359,7 @@ class Accents(unittest.TestCase):
 
     def test_observe(self):
         self.assertEqual(preflight.CHECKS["accents"][0], "observe")
-        self.assertEqual(preflight.CHECKS["cover"][0], "observe")
+        self.assertEqual(preflight.CHECKS["cover"][0], "enforce")
 
 
 class Contents(unittest.TestCase):
@@ -1325,7 +1375,8 @@ class Contents(unittest.TestCase):
         d1, d2 = book["divisions"]
         self.assertEqual(d1["title"], "Chapter I")                     # pager and page title stay short
         self.assertEqual(d1["toc_title"], "Chapter I. " + self.LONG)
-        self.assertNotIn("toc_title", d2)                              # already whole
+        self.assertEqual(d2["title"], "Chapter II")                    # short summaries too: titles alike (2026-11-21)
+        self.assertEqual(d2["toc_title"], "Chapter II. The River")
         self.assertEqual([n[0] for n in rh.toc_tree(book)], ["Chapter I. " + self.LONG, "Chapter II. The River"])
 
     def test_toc_title_in_divisions(self):

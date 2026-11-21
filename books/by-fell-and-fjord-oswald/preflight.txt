@@ -27,6 +27,32 @@
 [ look (1)] contents: entries of the printed contents with no matching heading
             - p0010: 'a journey in 1878—ulfjlotsvatn—geysir, another eruption—gullfoss—huni—'
 [       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[ look (6)] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+            - p0038: verse continued from p0037: stanzas before [12, 10, 4] | here [8] (a stanza ending at the page foot needs no [[cont]])
+            - p0175: verse continued from p0174: stanzas before [2] | here [4] (a stanza ending at the page foot needs no [[cont]])
+            - p0189: verse continued from p0188: stanzas before [6, 6, 3] | here [3, 6, 6] (a stanza ending at the page foot needs no [[cont]])
+            - p0237: verse continued from p0236: stanzas before [8, 8, 4] | here [4] (a stanza ending at the page foot needs no [[cont]])
+            - p0272: verse continued from p0271: stanzas before [4] | here [3] (a stanza ending at the page foot needs no [[cont]])
+            - p0277: verse continued from p0276: stanzas before [2] | here [6] (a stanza ending at the page foot needs no [[cont]])
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
+[look (16)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0007, p0008, p0010, p0011, p0012, p0013…); à (p0008, p0032)
+            - asvaldr: asvaldr (p0064); ásvaldr (p0064)
+            - faroe: faroe (p0200); faröe (p0009, p0014, p0015, p0019, p0021, p0056…)
+            - fru: fru (p0169, p0170); frù (p0240)
+            - hjardarholt: hjardarholt (p0104); hjārdarholt (p0112, p0113, p0115)
+            - holtvordsheide: holtvordsheide (p0281); holtvördsheide (p0009, p0091, p0099, p0297)
+            - hord: hord (p0078, p0079, p0080); hörd (p0078)
+            - jon: jon (p0189, p0241, p0283); jón (p0068, p0173, p0226, p0255)
+            - kari: kari (p0187, p0297); kàri (p0233, p0234, p0235); kári (p0019, p0186, p0187, p0188, p0189, p0223)
+            - laxa: laxà (p0110); laxá (p0167)
+            - odde: odde (p0189, p0190); oddé (p0298)
+            - ranga: rangà (p0173); rangá (p0164, p0167, p0169, p0190)
+            - skogar: skogar (p0180); skógar (p0196)
+            - ther: thèr (p0062); thér (p0062)
+            - thjorsa: thjorsà (p0008, p0010, p0152, p0160, p0161, p0164…); thjorsá (p0050)
+            - troll: troll (p0017, p0079, p0180, p0182, p0217); tröll (p0245)
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: by-fell-and-fjord-oswald v1 — 0 to fix, 4 waived; to look at: hyphen-joins 3, folios 1, quote-balance 1, contents 1 — tools@bf70933 2026-11-20
+preflight PASS: by-fell-and-fjord-oswald v2 — 0 to fix, 4 waived; to look at: hyphen-joins 3, folios 1, quote-balance 1, contents 1, verse-joins 6, accents 16 — tools@d6d9a1f 2026-11-21

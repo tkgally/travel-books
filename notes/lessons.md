@@ -32,11 +32,14 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 | A paragraph interrupted by an engraving in the middle of a page split in two (`[[cont]]` dropped) [*South by West*, 2026-11-19] | compiler joins it; test `ImageInParagraph` |
 | A paragraph cut in two by an engraving mid-sentence: no `[[cont]]` after the caption, so the compiler cannot join it [*South by West* v1, four pages, found at the review of 2026-11-20] | preflight `image-splits` (enforce since the review after fifteen books); test `ImageSplits` |
 | Straight apostrophes in book.json text written by hand (summary, subtitle, contents titles), shown on the site as written [*West Coast of Africa*, 2026-11-20; three earlier books] | preflight `site-text` (enforce since the review after twenty books); test `SiteText` |
-| A book without `images/cover.jpg` [*Jottings*, 2026-11-20: caught by the rendered look] | preflight `cover` (observe); test `Accents` |
 | A word spelled with different accents in different places, misread by every stage [*Land of the North Wind*, 35 pages, 2026-11-20] | preflight `accents` (observe: a list of groups to look at on the scan); test `Accents` |
 | The verifier dropped a letter's heading at a page top and the judge agreed, sure, taking it for a running head, so the spot never reached report.txt [*Summer Greetings from Japan*, 2026-11-20] | `judge.py` always reports a spot that touches a `#` line; test `test_judge_heading_spot_always_reported` |
 | A footnote's table and second paragraph typed after the note on lines of their own, so set as body text [*My Life in Mongolia and Siberia*, 2026-11-20: caught only by the rendered look] | preflight `note-tail` (observe); test `NoteTail` |
 | A correction on an unnumbered page listed by its leaf name on the book page | the division's title ("Contents, unnumbered page"); test `CorrectionPage` |
+| The verifier left out a picture and the judge agreed, "sure: medium" [*Zephyrus* p0171, 2026-11-20] | `judge.py` keeps the draft's `[[image:]]` line unless the verifier put it elsewhere, and reports the spot; test `test_judge_never_drops_a_picture` |
+| Captions with a straight apostrophe or a leading tag made `conservation` (captions) fail though nothing was lost [*Alaska*, 2026-11-20] | captions sorted by their squashed text; test `CaptionOrder` |
+| A stanza ending at a page foot joined to the next page's first stanza by `[[cont]]` [*Twelve Years in Canterbury*, 2026-11-20: caught by the rendered look] | preflight `verse-joins` (observe: stanza lengths on both sides); test `VerseJoins` |
+| A book without `images/cover.jpg` | preflight `cover` (enforce since the review after thirty books) |
 
 ## Always
 
@@ -63,7 +66,6 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Trigger: plates (tipped-in leaves) and a frontispiece
 
-- The verifier can leave a text cut out and the judge then agrees (*Zephyrus* p0171: the ostriches, "sure: medium"): compare the `[[image` counts of draft and judge after the judge (`grep -c`), as for `#` lines; a tool change (judge.py never drops an `[[image:]]` line of the draft) is for the next review, with a test.
 - Captions printed in small capitals: drafts type some as `<sc>…</sc>` in lower case and the rest in upper and lower
   case; grep `[[caption]] <sc>` and make all upper and lower case (12 of 148 in *Via Rhodesia*).
 
@@ -73,8 +75,6 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - A `toc_title` written by hand is plain text: its italics are lost.
 - Decorative chapter head-pieces and tail-pieces: drafts mark each as `[[image:]]`; keep them, crop them, list them
   in `book.json` `ornaments` (shown small; Tom, 2026-11-20).
-- Captions with a straight apostrophe, or typed as `<sc>` in lower case, make preflight `conservation` (captions) fail
-  although nothing is lost (the check sorts before squashing; to be fixed): curl them and use upper and lower case (*Collis*).
 - A picture can split a sentence before a capitalized word ("chief of the | Easterlings", *By Fell and Fjord* p0224):
   preflight `image-splits` looks only for lower case after the picture; read the text before each picture (for the review).
 - A frontispiece printed sideways has no caption to show which way: crop it, look at both turns.
@@ -148,9 +148,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - A note continued over the page arrives as a note with a new mark and no reference: make it `[[fn cont]]`.
 - A signature under a note goes inside the note.
 - A summary of 80 characters or less goes into the chapter's title (pager, breadcrumb, page title) while longer ones stay
-  in `toc_title`; with `"toc": {"subtitles": "all"}` give those chapters a short `title` and the full `toc_title` in
-  `divisions` so that all chapters match (*Journey through the Caucasus*: I, XVI, Appendix). Again in *A Jaunt in Japan* (16 of 21
-  chapters) and *Japan: A Sailor’s Visit* (4 of 14): a compiler change (short titles whenever `subtitles` is `all`) would end it; for a later session, with a test.
+  in `toc_title`, so titles differ in length; with `"toc": {"subtitles": "all"}` the compiler keeps every title short (since 2026-11-21).
 - Two marks in the text for one printed note: the second is `[[fnref * again]]` (the compiler warns "has no note" otherwise).
 
 ## Trigger: appendices, documents, quoted articles
@@ -171,7 +169,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Trigger: verse and quotations over page breaks
 
-- A stanza that ends at a page foot: drafts put `[[cont]]` on the next page's first stanza, so the editions run two stanzas together (*Twelve Years in Canterbury*: 6 of 13 page-top joins in the Appendix poems; only the rendered look saw it). For every `[[cont]]` inside `<verse>` at a page top, compare the stanza lengths and the rhymes on each side.
+- A stanza that ends at a page foot: drafts put `[[cont]]` on the next page's first stanza, so the editions run two stanzas together (*Twelve Years in Canterbury*): preflight `verse-joins` lists each such join with the stanza lengths; look at every item on the scan.
 - `[[cont]]` goes on the first line inside the second block, not before `<blockquote>`.
 - A sentence that resumes after a set-off block at a page top must not get `[[cont]]`: it would be joined to
   the paragraph before the block [p2e].

@@ -67,6 +67,7 @@ Scan check: all 14 sheets looked at 2026-11-20; full size p0006; problems: none 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
+| 3 | 2026-11-21 | journal-of-a-residence-nowrojee-merwanjee v3 — 0 to fix, 8 waived; to look at: hyphen-joins 4, joins 1, folios 1, contents 26, verse-joins 2, accents 1 — tools@d6d9a1f 2026-11-21 | as v1 (text unchanged except listed fixes) | stanza break(s) at page tops restored (review after thirty books, `verse-joins`, checked on the scan) |
 
 ## Known issues
 - Waivers: spacing on p0299 and p0300 (6 items: ditto marks “); quote-balance p0309 (printed so).

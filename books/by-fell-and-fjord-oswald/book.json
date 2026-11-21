@@ -1,7 +1,7 @@
 {
  "id": "by-fell-and-fjord-oswald",
- "version": 1,
- "date": "2026-11-20",
+ "version": 2,
+ "date": "2026-11-21",
  "title": "By Fell and Fjord",
  "subtitle": "Or, Scenes and Studies in Iceland",
  "short_title": "By Fell and Fjord",
@@ -27,6 +27,11 @@
    "version": 1,
    "date": "2026-11-20",
    "note": "First publication."
+  },
+  {
+   "version": 2,
+   "date": "2026-11-21",
+   "note": "Verse: a stanza that began at the top of a page had been joined to the last stanza of the page before (leaf p0232); now set as a new stanza, as printed. Found at the review after thirty books by the new preflight list `verse-joins`, checked on the scan."
   }
  ],
  "waivers": [
@@ -260,12 +265,13 @@
   "The map is printed across two pages; a narrow strip of it is lost in the binding of the scanned copy, so it is shown in two halves. The letters lost from its title (“al” of “Local”, “Ce” of “Certain”) are supplied."
  ],
  "audit": {
-  "version": 1,
+  "version": 2,
   "date": "2026-11-20",
   "pages": 6,
   "recall": "30/30",
   "real_errors": 0,
-  "fixed": 0
+  "fixed": 0,
+  "note": "text unchanged except listed fixes"
  },
  "keep_hyphens": [
   "p0089",

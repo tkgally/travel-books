@@ -1,7 +1,7 @@
 {
  "id": "journal-of-a-residence-nowrojee-merwanjee",
- "version": 2,
- "date": "2026-11-20",
+ "version": 3,
+ "date": "2026-11-21",
  "title": "Journal of a Residence of Two Years and a Half in Great Britain",
  "short_title": "Journal of a Residence in Great Britain",
  "authors": [
@@ -32,6 +32,11 @@
    "version": 2,
    "date": "2026-11-20",
    "note": "Two quotation marks removed at the tops of printed pages (leaves p0220 and p0223): repeats of the running marks the book prints at every line of a quotation, left in by mistake in version 1. A note on the quotation marks added to the notes on the text."
+  },
+  {
+   "version": 3,
+   "date": "2026-11-21",
+   "note": "Verse: 5 stanzas that began at the top of a page had been joined to the last stanza of the page before (leaf p0315, p0497, p0498, p0500, p0501); now set as a new stanza, as printed. Found at the review after thirty books by the new preflight list `verse-joins`, checked on the scan."
   }
  ],
  "regions": [
@@ -146,12 +151,12 @@
   }
  ],
  "audit": {
-  "version": 2,
+  "version": 3,
   "date": "2026-11-20",
   "pages": 7,
   "recall": "35/35",
   "real_errors": 0,
   "fixed": 0,
-  "note": "text unchanged except listed fixes; v1: 6 random pages (p0150, p0164, p0188, p0217, p0396, p0521) 30/30, and the fallback page p0212 5/5; no other differences reported"
+  "note": "text unchanged except listed fixes"
  }
 }
