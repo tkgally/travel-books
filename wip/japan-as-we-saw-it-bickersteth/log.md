@@ -4,7 +4,7 @@ IA: japanaswesawit00bick (University of Toronto; 390 leaves, colour 500 ppi). JA
 Eligibility: vetted 2026-11-20 (queue row); re-checked 2026-11-21: web search of the title finds only IA, a catalogue record (Nichibunken) and The Spectator's review of 1893; no reading edition. Mary Jane Bickersteth, dates not found (JATSI: rule 5 does not apply); E. H. Bickersteth (preface) 1825–1906.
 
 ## Status
-Stage reached: (a) scan checked (Opus subagent, 2026-11-21). Next: Drive cache; draft.
+Stage reached: (c) preflight PASS, audit 29/30 (0 real errors); waiting for the rendered look, then publish.
 
 ## Page map
 Scan check (Opus subagent; all sheets, header OCR of every leaf 27–384, a dozen leaves at full size): pages iii–xvi, 1–354 present; no duplicates, cut-offs, blur; the folding map photographed open.
@@ -22,13 +22,27 @@ Blank: p0004 0005 0025 0062 0070 0074 0084 0096 0104 0124 0144 0150 0156 0160 01
 Has: footnotes (frequent); verse p. 297; quoted letters; tables in Notes A–C; romanized Japanese in italics, no Japanese script; no ornaments or drop capitals.
 
 ## Decisions
+- “Japan as We Saw It.” printed above Chapter I: a `front` division (`n` 1), Chapter I `n` 2. The folding map (p0026) is its own reading
+  division “Map of Japan” before Chapter I; the frontispiece opens the Preface.
+- Printed contents set as plain lines (the draft mixed centred capitals and `##` headings): `[[center]]` “Chapter N.” and title, summary with `<pref>`.
+- Notes A–E: `##` per note, `###` for their sections (Clergy, Lay Workers; S. Andrew’s, S. Hilda’s; the three Synods).
+- Captions in upper and lower case throughout (two had been typed in small capitals).
+- Printer’s errors marked: “donc” (p0253), “Asscciation”, “Toyko” (p0363), “Dispensparies” (p0368), a full stop after “brother” (p0294).
+- Kept as printed: Chō and Cho, Dōshisha and Doshisha, Père and Pére, sakè and saké (each checked on the scan); p0151 “Yumoto”: the mark over the o
+  is a speck. The portraits’ facsimile signatures are described in the pictures’ text, not set as captions; imprint lines under p0189 left out.
+- keep_hyphens: horse-shoe, sitting-room, sixty-six, Maebashi-train (hyphen at the line end; kept), drawing-room, non-Episcopalians.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-21 | opus | 351 | 22.64 | none refused |
+| corrections | 2026-11-21 | sonnet | 351 | 11.17 | 39 changes; 9 `[[cont]]` added after pictures (all right on the scan) |
+| judge | 2026-11-21 | opus | 34 spots | 0.86 | 31 to look at; none overturned |
+| audit | 2026-11-21 | opus | 6 | 0.34 | 29/30; 1 candidate (heading capitals, by policy) |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
 
 ## Known issues
+- Verse indentation (p. 297) is not kept.

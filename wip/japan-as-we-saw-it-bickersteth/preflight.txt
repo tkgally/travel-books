@@ -4,8 +4,7 @@
 [       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
 [       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
 [       ok] straight-quotes: no straight ' or " in the text
-[ FAIL (1)] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
-            - p0140: pointed three Archdeacons  to help him in the general'…
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
 [       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
 [       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
 [       ok] links: every link inside the book's web pages and EPUB has a target
@@ -13,26 +12,17 @@
 [       ok] nav: contents: at least one reading division; each has a title and text
 [       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
-[ FAIL (1)] audit: book.json records the sampled audit of this version
-            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
-[look (10)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+[       ok] audit: book.json records the sampled audit of this version
+[ look (4)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0016: …their Constitu-|tion, their Par… (hyphen removed; check)
-            - hyphen join at p0030: …d at the Horse-|shoe Falls, all… (hyphen removed; check) — the book prints “horse-shoe” elsewhere: keep_hyphens?
-            - hyphen join at p0046: …n as a sitting-|room. The large… (hyphen removed; check) — the book prints “sitting-room” elsewhere: keep_hyphens?
-            - hyphen join at p0057: …le, with sixty-|six oblong room… (hyphen removed; check) — the book prints “sixty-six” elsewhere: keep_hyphens?
-            - hyphen join at p0081: …r the Maebashi-|train. In many … (hyphen removed; check)
-            - hyphen join at p0139: …in the drawing-|room for tea an… (hyphen removed; check) — the book prints “drawing-room” elsewhere: keep_hyphens?
             - hyphen join at p0248: …gned the agree-|ment to stay a … (hyphen removed; check)
-            - hyphen join at p0297: …e American non-|Episcopalians h… (hyphen removed; check)
             - hyphen join at p0305: …owed by an out-|break of indepe… (hyphen removed; check)
             - (and 5 joins giving a word the book prints whole elsewhere: not listed)
 [       ok] joins: page joins: missing [[cont]]
 [       ok] folios: printed page numbers that break the sequence
 [       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
 [       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
-[ FAIL (2)] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
-            - p0205: …'d, the huge weight of the' | picture | 'machinery pulled the roof'
-            - p0336: …'ffin basket, and with its' | picture | 'assistance, and some Japa'
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
 [look (20)] contents: entries of the printed contents with no matching heading
             - p0019: 'Preface. By the Rt. Rev. Lord Bishop of Exeter. Page v'
             - p0019: 'Liverpool to Quebec—Niagara—The Canadian Lakes—The Rocky Mountains—Van'
@@ -59,18 +49,16 @@
 [       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
 [       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
-[ look (6)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+[ look (5)] accents: words the book spells with different accents (or with and without): look at each group on the scan
             - cho: cho (p0065, p0108, p0247, p0364, p0378); chō (p0055, p0092, p0380)
             - doshisha: doshisha (p0375); dōshisha (p0173)
             - osaka: osaka (p0020, p0021, p0090, p0140, p0157, p0179…); ōsaka (p0373)
             - pere: père (p0092); pére (p0380)
             - sake: sake (p0048, p0330); sakè (p0131); saké (p0094, p0299)
-            - yumoto: yumoto (p0142, p0148, p0384); yumōto (p0151)
 [       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
 [       ok] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
-[ look (2)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+[ look (1)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
             - p0248: “all He” in …h the heathen that above all He is God.…
-            - p0294: “brother He” in …ened to a sermon from my brother He spoke to them f…
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: japan-as-we-saw-it-bickersteth v1 — 4 to fix, 0 waived; to look at: hyphen-joins 10, contents 20, accents 6, missing-stop 2 — tools@ee5093b8 2026-11-21
+preflight PASS: japan-as-we-saw-it-bickersteth v1 — 0 to fix, 0 waived; to look at: hyphen-joins 4, contents 20, accents 5, missing-stop 1 — tools@14a08f2a 2026-11-21
