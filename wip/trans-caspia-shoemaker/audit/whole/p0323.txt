@@ -1,5 +1,0 @@
-{"given": "This has escaped destroying tooth of", "print": "This has escaped the destroying tooth of", "sure": "high"}
-{"given": "face the Holy of holies, bring", "print": "face the Holy of Holies, bring", "sure": "high"}
-{"given": "and calms one’s foul. Through", "print": "and calms one’s soul. Through", "sure": "high"}
-{"given": "the Virgin’s figure; lasting through", "print": "the Virgin’s figure, lasting through", "sure": "high"}
-{"given": "you will liuger long, from", "print": "you will linger long, from", "sure": "high"}

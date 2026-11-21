@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "dance. But\n\n[[image: a column of Russian soldiers in white caps marching along a road, officers at their side]]\n\n[[cont]]no; neither", "sure": "high"}
-{"n": 2, "is": "A", "print": "terated that", "sure": "high"}

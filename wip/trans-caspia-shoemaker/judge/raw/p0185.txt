@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "han in Egypt\n\n[[image: a broad tree-lined street with tall poplars and low buildings on either side]]\n[[caption]] T<sc>ashkend.</sc>\n\n[[cont]]or Turkey.", "sure": "high"}
-{"n": 2, "is": "B", "print": "roué to\n", "sure": "high"}

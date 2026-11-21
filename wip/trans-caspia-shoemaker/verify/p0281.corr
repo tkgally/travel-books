@@ -1,6 +1,0 @@
-{"find": "Ferghana", "replace": "Ferghana"}
-{"find": "[[cont]]of the Sultan", "replace": "[[cont]]of the Sultan"}
-
-Wait—correct list:
-
-{"find": "Tashkend, Ferghana,", "replace": "Tashkend, Ferghana,"}

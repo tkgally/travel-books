@@ -1,2 +1,0 @@
-{"n": 1, "is": "A", "print": "to entirely\n\n[[image: a Russian church with onion domes and a central bell tower, among trees]]\n[[caption]] Russian Church, Samarkand.\n\n[[cont]]satisfy thes", "sure": "high"}
-{"n": 2, "is": "A", "print": "at Bokhara,\n", "sure": "high"}

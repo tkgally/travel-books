@@ -1,5 +1,0 @@
-{"given": "life and freshness, this is death.", "print": "life and freshness; this is death.", "sure": "high"}
-{"given": "What does russia make by the", "print": "What does Russia make by the", "sure": "high"}
-{"given": "which is to he completed in", "print": "which is to be completed in", "sure": "high"}
-{"given": "within the Russian dominious its entire course,", "print": "within the Russian dominions its entire course,", "sure": "high"}
-{"given": "to this. There cars are roomy", "print": "to this. There the cars are roomy", "sure": "high"}

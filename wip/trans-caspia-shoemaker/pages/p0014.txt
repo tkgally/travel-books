@@ -1,9 +1,0 @@
-[[page viii]]
-
-| <sc>Chapter</sc> | | <sc>Page</sc> |
-|---|---|---|
-| XIX. | <sc>The Gates and Tablets of Tamerlane</sc>, | <pref>258</pref> |
-| XX. | <sc>The Deserted Cities of the Turkomans</sc>, | <pref>274</pref> |
-| XXI. | <sc>Trebizond and the Cholera Lazarettos of Sinope</sc>, | <pref>288</pref> |
-| XXII. | <sc>The Dying Czar</sc>, | <pref>301</pref> |
-| XXIII. | <sc>Stamboul as it was and is</sc>, | <pref>304</pref> |

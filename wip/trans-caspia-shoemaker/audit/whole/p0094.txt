@@ -1,5 +1,0 @@
-{"given": "I must; however, add, in", "print": "I must, however, add, in", "sure": "high"}
-{"given": "and the town stauds in imminent", "print": "and the town stands in imminent", "sure": "high"}
-{"given": "I wanted to stop at old city", "print": "I wanted to stop at the old city", "sure": "high"}
-{"given": "The beat is not unbearable", "print": "The heat is not unbearable", "sure": "high"}
-{"given": "whether we cross the pamirs or not", "print": "whether we cross the Pamirs or not", "sure": "high"}
