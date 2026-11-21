@@ -1,0 +1,3 @@
+{"find": "<sc>london</sc>", "replace": "LONDON"}
+{"find": "<sc>printed by spottiswoode and co.</sc>", "replace": "PRINTED BY SPOTTISWOODE AND CO."}
+{"find": "<sc>new-street square</sc>", "replace": "NEW-STREET SQUARE"}
