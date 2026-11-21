@@ -1,0 +1,33 @@
+[[page 20]]
+
+| | <sc>facing page</sc> |
+|---|---|
+| <sc>Carting away the Wool</sc> | <pref>92</pref> |
+| <sc>Dipping Sheep for Scab</sc> | <pref>92</pref> |
+| <sc>The Lazo falling on a Calf</sc> | <pref>94</pref> |
+| <sc>Dragging a Lazo’d Calf</sc> | <pref>94</pref> |
+| <sc>Pielar-ing a Lazo’d Calf</sc> | <pref>96</pref> |
+| <sc>Pielar-ing a Young Mule (already lazo’d)</sc> | <pref>96</pref> |
+| <sc>Palenquear-ing Horses (2½ Years)</sc> | <pref>102</pref> |
+| <sc>Beginning to Break-in a 3½ Years Mare</sc> | <pref>102</pref> |
+| <sc>Estancia in “Indian” Times; from a Photo taken in</sc> 1869 | <pref>110</pref> |
+| <sc>A Relic of “Indian” Times; Spy-tower still standing at Melincué, F.C.C.A., in</sc> 1909 | <pref>110</pref> |
+| <sc>The Locust of Argentina</sc> | <pref>118</pref> |
+| <sc>Cutting-jaws of the Locust</sc> | <pref>118</pref> |
+| [[corr Entensibility|Extensibility]] <sc>of Female’s Body</sc> | <pref>118</pref> |
+| <sc>A Bunch of Locust’s Eggs</sc> | <pref>118</pref> |
+| <sc>The Hatching-out of the Locusts</sc> | <pref>124</pref> |
+| <sc>Burning Young Locusts</sc> | <pref>124</pref> |
+| <sc>Scooping-up Saltonas</sc> | <pref>126</pref> |
+| <sc>Driving Saltonas into Pits</sc> | <pref>126</pref> |
+| <sc>Change into Last Stage of Saltona</sc> | <pref>128</pref> |
+| <sc>Last Stage of Saltona</sc> | <pref>128</pref> |
+| <sc>March of Saltonas (Last Stage)</sc> | <pref>128</pref> |
+| <sc>Saltonas on the Wall of the House</sc> | <pref>130</pref> |
+| <sc>Maize Before, and the Same After, the Locusts have reached it</sc> | <pref>132</pref> |
+| <sc>Saltonas eating Maize-cobs</sc> | <pref>134</pref> |
+| <sc>Willow-twig barked and gnawed by Locusts</sc> | <pref>134</pref> |
+| <sc>Change to Last,</sc> <i><sc>i.e.</sc></i>, <sc>to Voladora, Stage</sc> | <pref>136</pref> |
+| <sc>New Voladora drying Wings and Legs</sc> | <pref>136</pref> |
+| <sc>Cock-ostrich</sc> (<i><sc>rhea</sc></i>) | <pref>138</pref> |
+| <sc>Baby Ostriches</sc> | <pref>138</pref> |

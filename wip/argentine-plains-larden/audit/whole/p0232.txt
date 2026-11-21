@@ -1,5 +1,0 @@
-{"given": "tarantula, I chose; for reproduction,", "print": "tarantula, I chose, for reproduction,", "sure": "high"}
-{"given": "sacs and needles at ends of", "print": "sacs and needles at the ends of", "sure": "high"}
-{"given": "had killed with ammouia had gathered", "print": "had killed with ammonia had gathered", "sure": "high"}
-{"given": "spider of about the fame size", "print": "spider of about the same size", "sure": "high"}
-{"given": "his “Naturalist in La plata”", "print": "his “Naturalist in La Plata”", "sure": "high"}

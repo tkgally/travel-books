@@ -1,5 +1,0 @@
-{"given": "there were a nnmber of the", "print": "there were a number of the", "sure": "high"}
-{"given": "wings. The color was blue-black", "print": "wings. The colour was blue-black", "sure": "high"}
-{"given": "that of the swift, they had", "print": "that of the swift; they had", "sure": "high"}
-{"given": "eaves and appeared be of hay", "print": "eaves and appeared to be of hay", "sure": "high"}
-{"given": "a bird smaller then a martin", "print": "a bird smaller than a martin", "sure": "high"}

@@ -1,5 +1,0 @@
-{"find": "In the <i>S. Y.B.</i>, then", "replace": "In the <i>S. Y.B.</i>, then"}
-
-Wait, correction: the draft has `In the S. Y.B., then` without italics, so the correct entry is:
-
-{"find": "In the S. Y.B., then", "replace": "In the <i>S. Y.B.</i>, then"}

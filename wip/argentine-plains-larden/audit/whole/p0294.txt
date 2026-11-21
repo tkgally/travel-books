@@ -1,6 +1,0 @@
-{"given": "one down, exhausted, to valley-bottom, where", "print": "one down, exhausted, to the valley-bottom, where", "sure": "high"}
-{"given": "photographed Tupungato from the ridge", "print": "photographed Tupungato from the ridge", "sure": "low"}
-{"given": "In the evening he retnrned.", "print": "In the evening he returned.", "sure": "high"}
-{"given": "Aconcagua that an italian guide,", "print": "Aconcagua that an Italian guide,", "sure": "high"}
-{"given": "much more warmly clad than usual; was frost-bitten,", "print": "much more warmly clad than usual, was frost-bitten,", "sure": "high"}
-{"given": "and nearly lost this legs.", "print": "and nearly lost his legs.", "sure": "high"}

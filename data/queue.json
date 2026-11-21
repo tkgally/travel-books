@@ -870,11 +870,13 @@
    "place": "London",
    "publisher": "T. Fisher Unwin",
    "images": 430,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-20",
    "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv; The Online Books Page: HathiTrust scans only; Wikisource: only an Alumni Oxonienses entry; Open Library: 1911 Scribner/Unwin only; web search of the title and a sentence: nothing. Author Walter Larden 1855–1919 (Online Books Page authority, Alumni Oxonienses). Photographs the author's, except two of 1869 by his brother, who went to Argentina in 1868 (so born before about 1850; name not found). Not checked: Faded Page. Check before starting: the IA copy is the New York (Scribner) issue of the same year.",
    "note": "UC Berkeley scan, 500 ppi; 91 photographs and a sketch map. Two long stays (1888–9 and 1908–9) on his brother's estancia Santa Isabel, with notes on work, animals and insects, then an expedition into the Chilean Andes.",
-   "started": "2026-11-21"
+   "started": "2026-11-21",
+   "version": 1,
+   "published": "2026-11-21"
   },
   {
    "order": 48,

@@ -1,5 +1,0 @@
-{"given": "occur I bad no personal experience", "print": "occur I had no personal experience", "sure": "high"}
-{"given": "protected with wire netting, and I", "print": "protected with wire netting; and I", "sure": "high"}
-{"given": "should be listed off. A pause", "print": "should be lifted off. A pause", "sure": "high"}
-{"given": "the wind, was common feature.", "print": "the wind, was a common feature.", "sure": "high"}
-{"given": "Day-mirage; the earth hot.", "print": "Day-mirage; the Earth hot.", "sure": "high"}
