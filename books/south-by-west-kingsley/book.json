@@ -1,7 +1,7 @@
 {
  "id": "south-by-west-kingsley",
- "version": 3,
- "date": "2026-11-20",
+ "version": 4,
+ "date": "2026-11-21",
  "title": "South by West; or, Winter in the Rocky Mountains and Spring in Mexico",
  "short_title": "South by West",
  "authors": [
@@ -64,6 +64,11 @@
    "version": 3,
    "date": "2026-11-20",
    "note": "Accents checked on the scan at the review after twenty books (new preflight list `accents`). p0117: “potatoës” was a speck over the e; now “potatoes” as printed. p0322: a stray acute printed over “rode” is now marked as a printer’s error (rode)."
+  },
+  {
+   "version": 4,
+   "date": "2026-11-21",
+   "note": "Verse: a stanza that began at the top of a page had been joined to the last stanza of the page before (leaf p0192); now set as a new stanza, as printed. Found at the review after thirty books by the new preflight list `verse-joins`, checked on the scan."
   }
  ],
  "divisions": [
@@ -120,7 +125,7 @@
   }
  ],
  "audit": {
-  "version": 3,
+  "version": 4,
   "date": "2026-11-19",
   "pages": 6,
   "recall": "30/30",
