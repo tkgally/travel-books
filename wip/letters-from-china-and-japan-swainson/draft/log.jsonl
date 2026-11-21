@@ -245,3 +245,7 @@
 {"page": "p0248", "model": "opus", "corrections": null, "seconds": 13.1, "cost": 0.0817016, "completion_tokens": 1478, "turns": 2, "attempts": 1}
 {"page": "p0249", "model": "opus", "corrections": null, "seconds": 14.5, "cost": 0.0828842, "completion_tokens": 1540, "turns": 2, "attempts": 1}
 {"page": "p0250", "model": "opus", "corrections": null, "seconds": 14.5, "cost": 0.08339239999999999, "completion_tokens": 1565, "turns": 2, "attempts": 1}
+{"page": "p0251", "model": "opus", "corrections": null, "seconds": 15.3, "cost": 0.085697, "completion_tokens": 1679, "turns": 2, "attempts": 1}
+{"page": "p0252", "model": "opus", "corrections": null, "seconds": 14.5, "cost": 0.0834216, "completion_tokens": 1564, "turns": 2, "attempts": 1}
+{"page": "p0253", "model": "opus", "corrections": null, "seconds": 17.8, "cost": 0.0914134, "completion_tokens": 1964, "turns": 2, "attempts": 1}
+{"page": "p0254", "model": "opus", "corrections": null, "seconds": 14.4, "cost": 0.0848852, "completion_tokens": 1638, "turns": 2, "attempts": 1}
