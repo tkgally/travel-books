@@ -27,8 +27,39 @@
    "note": "First publication."
   }
  ],
- "regions": ["Egypt", "Sudan"],
- "period": "",
+ "regions": [
+  "Egypt",
+  "Sudan"
+ ],
+ "period": "1869–70",
  "summary": "",
- "divisions": []
+ "divisions": [
+  {
+   "at": "p0003",
+   "kind": "front"
+  },
+  {
+   "at": "p0005",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0007",
+   "kind": "dedication"
+  },
+  {
+   "at": "p0009",
+   "kind": "contents"
+  },
+  {
+   "at": "p0011",
+   "kind": "front",
+   "n": 1
+  },
+  {
+   "at": "p0011",
+   "kind": "chapter",
+   "n": 2
+  }
+ ],
+ "omitted_from_reading": "The half-title, the title page and its back, the printed contents and the book title repeated above Chapter I are in the JSON only."
 }

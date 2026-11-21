@@ -1,0 +1,35 @@
+{
+ "p0056": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "reis asbore",
+   "replace": "reis ashore",
+   "draft": "reis asbore",
+   "verified": "reis ashore",
+   "context": "ally, for our return. A toll had to be paid, and we put the reis asbore to pay it. There are lock-gates at either side of the river"
+  }
+ ],
+ "p0228": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "Assouan to Thebes.",
+   "replace": "Assouan to Thebes",
+   "draft": "an to Thebes.",
+   "verified": "an to Thebes",
+   "context": "[[page ?]] ⏎  ⏎ # Chapter XVII. ⏎  ⏎ [[subtitle]] Assouan to Thebes. ⏎  ⏎ O<sc>n</sc> the 11th February we left Assouan. Crossing ov"
+  }
+ ],
+ "p0243": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "rinsing this",
+   "replace": "riusing this",
+   "draft": "rinsing this",
+   "verified": "riusing this",
+   "context": "f he had picked up, as salad, in the other, and dipping and rinsing this frugal fare, he eats. Pausing for a moment in his meal, he "
+  }
+ ]
+}

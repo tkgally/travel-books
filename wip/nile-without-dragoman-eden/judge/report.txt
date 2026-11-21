@@ -1,0 +1,4 @@
+judge opus: 3 spots on 3 pages: {'verified': 2, 'draft': 1}; cost $0.13
+p0056 #1 [verified, sure: medium] draft 'reis asbore' | verified 'reis ashore' | judge reads 'reis ashore'
+p0228 #1 [draft, sure: high] draft 'an to Thebes.' | verified 'an to Thebes' | judge reads 'an to Thebes.'
+p0243 #1 [verified, sure: medium] draft 'rinsing this' | verified 'riusing this' | judge reads 'riusing this'
