@@ -40,6 +40,23 @@ def page_files(pdir):
     return page_files_sorted(os.listdir(pdir))
 
 
+def split_row(r):
+    """A table row's cells; a | inside [[…]] (a [[corr printed|corrected]]) does not split a cell."""
+    cells, cur, depth, i, r = [], "", 0, 0, r.strip()[1:-1] if r.strip().endswith("|") else r.strip()[1:]
+    while i < len(r):
+        if r.startswith("[[", i):
+            depth += 1; cur += "[["; i += 2; continue
+        if r.startswith("]]", i) and depth:
+            depth -= 1; cur += "]]"; i += 2; continue
+        if r[i] == "|" and not depth:
+            cells.append(cur.strip()); cur = ""
+        else:
+            cur += r[i]
+        i += 1
+    cells.append(cur.strip())
+    return cells
+
+
 def parse_page(text, leaf):
     """One page file -> (printed number, blank?, list of raw blocks)."""
     lines = text.splitlines()
@@ -108,7 +125,7 @@ def parse_page(text, leaf):
             while i < len(lines) and lines[i].strip().startswith("|"):
                 rows.append(lines[i].strip())
                 i += 1
-            rows = [[c.strip() for c in r.strip("|").split("|")] for r in rows if not re.fullmatch(r"\|[-| :]+\|", r)]
+            rows = [split_row(r) for r in rows if not re.fullmatch(r"\|[-| :]+\|", r)]
             blocks.append({"t": "table", "rows": rows})
             continue
         if s == "[[break]]":
