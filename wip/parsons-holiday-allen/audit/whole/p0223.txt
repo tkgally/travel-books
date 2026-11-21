@@ -1,0 +1,5 @@
+{"given": "The harbor is well protected", "print": "The harbour is well protected", "sure": "high"}
+{"given": "As soon as our stcamer anchored", "print": "As soon as our steamer anchored", "sure": "high"}
+{"given": "surrounded by small boats catamarans, anxious", "print": "surrounded by small boats and catamarans, anxious", "sure": "high"}
+{"given": "a little smaller then Ireland", "print": "a little smaller than Ireland", "sure": "high"}
+{"given": "effeminate in appearance; and the Tamils", "print": "effeminate in appearance, and the Tamils", "sure": "high"}
