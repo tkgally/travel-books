@@ -285,7 +285,8 @@
   },
   {
    "at": "p0218",
-   "kind": "appendix"
+   "kind": "appendix",
+   "title": "Note A"
   },
   {
    "at": "p0220",
@@ -309,5 +310,13 @@
   "p0083",
   "p0092",
   "p0168"
- ]
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-21",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }
