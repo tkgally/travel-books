@@ -614,11 +614,13 @@
    "place": "New York",
    "publisher": "Dodd, Mead and Company",
    "images": 184,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-20",
    "eligibility": "JATSI 244. Rules 1–4 met. Rule 1: University of California scan, colour 400 ppi, clean, complete. Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person diary of two women's journey in spring 1911; about three-quarters on Japan. People: Ethel Louise McLean, born 1878 (LC), death not found: if it proves to be after 1955, notes_on_text says so (jatsi.md). Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20). Re-checked 2026-11-21: not in pg_catalog.csv; web search of the title: a bookseller's listing only. Death date still not found.",
    "note": "About 150 pp., printed by Douglas C. McMurtrie in 1,000 copies (title page 1911, copyright 1912); about 28 tipped-in photographs, many hand-coloured, with printed captions; facsimiles of a dining-car menu and a hotel bill that contain Japanese script (as images: no transcription of the script needed beyond the alt text); decorated initials.",
-   "started": "2026-11-21"
+   "started": "2026-11-21",
+   "version": 1,
+   "published": "2026-11-21"
   },
   {
    "order": 34,
