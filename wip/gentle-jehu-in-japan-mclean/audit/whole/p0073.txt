@@ -1,5 +1,0 @@
-{"given": "behind at the hotel; to be", "print": "behind at the hotel, to be", "sure": "high"}
-{"given": "surprised to find meal so tasty", "print": "surprised to find the meal so tasty", "sure": "high"}
-{"given": "unable to find evian, or any", "print": "unable to find Evian, or any", "sure": "high"}
-{"given": "and are lcarning not to mind", "print": "and are learning not to mind", "sure": "high"}
-{"given": "time that we where alone and", "print": "time that we were alone and", "sure": "high"}

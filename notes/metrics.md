@@ -60,6 +60,7 @@
 | The Nile without a Dragoman v1 | 2026-11-21 | 320 | Opus draft → Sonnet corrections → Opus judge; spot-read of 13 pages and every accent group, rendered look, by Opus subagents | 3 | 1 / 2 / 0 | 1 (a misread printed word) | 31.33 | 0 | PASS, 0 waived | 30/30; 1 / 6 (fixed: a turned n); spot-read: a brace group; the corrections pass dropped 2 page-top [[cont]] | |
 | From West Africa to Palestine v2 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | a page-top join removed by the corrections pass (found at the review after thirty-five books, checked on the scan) |
 | Between Two Oceans v1 | 2026-11-21 | 380 | Opus draft → Sonnet corrections → Opus judge; spot-read of 36 pages (front matter, verse, footnote) and every accent group, rendered look, by Opus subagents | 5 | 1 / 4 / 0 | 0 | 37.17 | 0 | PASS, 0 waived | 30/30; 0 / 6; spot-read: a stanza joined at a page top, a misprint (Entaw); a misnumbered folio | |
+| A Gentle Jehu in Japan v1 | 2026-11-21 | 166 | Opus draft → Sonnet corrections → Opus judge; spot-read (front matter, chapter openings, captions, every macron) and rendered look by Opus subagents; 26 colour crops by an Opus subagent | 3 | 3 / 0 / 0 | 0 | 15.64 | 0 | PASS, 0 waived | 30/30; 0 / 6; spot-read: 2 misprints; a correction not applied (a dropped word) | |
 
 ## Calibrations
 

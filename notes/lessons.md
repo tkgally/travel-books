@@ -51,6 +51,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - **Readers and judges are wrong about 1 time in 6–30** on the changes they propose [p2e]. A proposed change
   to a letter is looked at on a crop before it is accepted, above all one towards the more usual form.
 - A page whose two readings differ in length by more than 5% needs a look (`review.py`).
+- `review.py`'s "not applied" corrections are unjudged and can be real: a dropped word (*Gentle Jehu* p0089 “are”) and a
+  misread word (*Nile* p0206 “outang”). Crop every one.
 - More reasoning effort is not better OCR; text-only clean-up without the image is not worth doing [p2e].
 - Take the bibliographic facts from the title page, not from IA's record.
 - Start the model runs first and do page-map work while they run.

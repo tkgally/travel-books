@@ -1,5 +1,0 @@
-{"given": "covered settees so placcd as", "print": "covered settees so placed as", "sure": "high"}
-{"given": "put his feet or the highest", "print": "put his feet on the highest", "sure": "high"}
-{"given": "good Christian people, live do neighborhood", "print": "good Christian people, live and do neighborhood", "sure": "high"}
-{"given": "of Venice, in Japanese; translated", "print": "of Venice, in Japanese, translated", "sure": "high"}
-{"given": "realistic that anyone at all", "print": "realistic that any one at all", "sure": "high"}

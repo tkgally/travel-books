@@ -1,5 +1,0 @@
-{"given": "a car belonging to the oriental.", "print": "a car belonging to the Oriental.", "sure": "high"}
-{"given": "as to exactly were to go,", "print": "as to exactly where to go,", "sure": "high"}
-{"given": "we were free talk without having", "print": "we were free to talk without having", "sure": "high"}
-{"given": "willows and cherry trees; till it", "print": "willows and cherry trees, till it", "sure": "high"}
-{"given": "and out through back strcets until", "print": "and out through back streets until", "sure": "high"}
