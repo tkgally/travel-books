@@ -883,6 +883,26 @@ class SiteLists(unittest.TestCase):
         listed = re.findall(r"<cite>Journey (\d+)</cite>", h)
         self.assertEqual(listed, [str(i) for i in range(build_site.HOME_FULL_LIST + 2, build_site.HOME_FULL_LIST + 2 - build_site.HOME_NEWEST, -1)])
 
+    def test_newest_follows_the_time_of_first_publication(self):
+        """2026-11-21: fourteen books were first published on one day, so the date tied and the id decided the order
+        ("Yachting" before the day's last books). data/published.json keeps the time; new versions do not move a book."""
+        books = [shelf_book(i, date="2026-12-09", history=[{"version": 1, "date": "2026-12-01"}, {"version": 2, "date": "2026-12-09"}])
+                 for i in range(build_site.HOME_FULL_LIST + 3)]
+        times = {b["id"]: f"2026-12-01T{10 + i % 12:02d}:{i:02d}:00Z" for i, b in enumerate(books)}
+        build_site.build_books(self.out, books, [], times)
+        listed = re.findall(r"<cite>Journey (\d+)</cite>", self.read("books.html"))
+        want = [b["id"] for b in sorted(books, key=lambda b: times[b["id"]], reverse=True)][:build_site.HOME_NEWEST]
+        self.assertEqual(["book-%02d" % int(n) for n in listed], want)
+
+    def test_publish_records_the_first_publication_time_once(self):
+        import publish
+        d = tempfile.mkdtemp(); self.addCleanup(shutil.rmtree, d)
+        f = os.path.join(d, "published.json")
+        publish.record_first_publication(f, "a-book", 1, "2026-12-01T10:00:00Z")
+        publish.record_first_publication(f, "a-book", 2, "2026-12-05T10:00:00Z")    # a new version: unchanged
+        publish.record_first_publication(f, "b-book", 1, "2026-12-02T10:00:00Z")
+        self.assertEqual(json.load(open(f)), {"a-book": "2026-12-01T10:00:00Z", "b-book": "2026-12-02T10:00:00Z"})
+
     def test_lists_by_place_and_date(self):
         books = [shelf_book(1), shelf_book(2, regions=["Japan", "Hokkaido", "Spain"], period="June 1878 to 1879"),
                  shelf_book(3, regions=["Atlantis"], period="")]
@@ -980,10 +1000,13 @@ class Ledger(unittest.TestCase):
                    {"status": "done"},                                       # not a status
                    {"status": "published", "from": "jatsi", "jatsi": 2})   # published, no book
         got = "\n".join(ledger.check(q, j, tmp))
-        for want in ("disagree about JATSI", "is not a number in data/jatsi.json", "status 'done'", "book.json is missing", "wip/stray: no row"):
+        for want in ("disagree about JATSI", "is not a number in data/jatsi.json", "status 'done'", "book.json is missing", "wip/stray: no row",
+                     "s0: published but has no time in data/published.json"):
             self.assertIn(want, got)
         good = self.q({"status": "published", "from": "jatsi", "jatsi": 1})
         shutil.rmtree(os.path.join(tmp, "wip"))
+        os.makedirs(os.path.join(tmp, "data"))
+        json.dump({"s0": "2026-12-01T10:00:00Z"}, open(os.path.join(tmp, "data", "published.json"), "w"))
         self.assertEqual(ledger.check(good, j, tmp), [])
 
     def test_waiting_book_may_keep_its_wip_folder(self):

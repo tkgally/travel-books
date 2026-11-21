@@ -9,12 +9,22 @@ to books/<slug>/ (model runs and everything else in wip/<slug>/ stay in git hist
 preflight report to books/<slug>/preflight.txt, and sets the book's row in data/queue.json to "published".
 The site is rebuilt and deployed by GitHub Actions when the change reaches main.
 """
-import argparse, json, os, shutil, sys
+import argparse, datetime, json, os, shutil, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 import preflight  # noqa: E402
+
+
+def record_first_publication(path, slug, version, when):
+    """data/published.json: slug → the UTC time version 1 was published (the order of the Books page's "Newest").
+    Written once per book; new versions leave it alone."""
+    times = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
+    if version == 1 and slug not in times:
+        times[slug] = when
+        json.dump(dict(sorted(times.items())), open(path, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+        open(path, "a").write("\n")
 
 
 def main():
@@ -48,6 +58,8 @@ def main():
             b["published"] = cfg["date"]
     json.dump(q, open(qf, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     open(qf, "a").write("\n")
+    record_first_publication(os.path.join(REPO, "data", "published.json"), a.slug, cfg["version"],
+                             datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
     print(f"published books/{a.slug} v{cfg['version']}: commit, push, PR, merge; then check the live page")
 
 

@@ -85,6 +85,11 @@ def check(q, j, repo=REPO):
             out.append(f"{name}: published but books/{r.get('slug')}/book.json is missing")
         if cfg is not None and (cfg.get("collection") == "jatsi") != is_jatsi(r):
             out.append(f"{name}: book.json `collection` and the queue row's `from` disagree about JATSI")
+    pf = os.path.join(repo, "data", "published.json")
+    times = json.load(open(pf, encoding="utf-8")) if os.path.exists(pf) else {}
+    for r in q["books"]:
+        if r.get("status") == "published" and r.get("slug") not in times:
+            out.append(f"{r.get('slug')}: published but has no time in data/published.json (publish.py writes it; the Books page's Newest)")
     for d in ("books", "wip"):
         dd = os.path.join(repo, d)
         for slug in sorted(os.listdir(dd)) if os.path.isdir(dd) else []:

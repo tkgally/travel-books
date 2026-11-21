@@ -225,7 +225,7 @@ python3 $R/tools/audit_sample.py --pages-dir $W/pages --images $B/pages --out $W
 
 ## 8. Publish
 
-1. `python3 $R/tools/publish.py <slug>` (runs preflight again; moves `wip/<slug>` → `books/<slug>`; queue row).
+1. `python3 $R/tools/publish.py <slug>` (runs preflight again; moves `wip/<slug>` → `books/<slug>`; queue row; for version 1, the time in `data/published.json`, which orders the Books page's Newest — commit it).
 2. `log.md`: versions row with the preflight stamp and the audit result; waivers and reasons; known issues.
    `notes/metrics.md`: one row.
 3. Tests, commit, push, PR, merge. When the Pages run finishes, open the live book page once.
