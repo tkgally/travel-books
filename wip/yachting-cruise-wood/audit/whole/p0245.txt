@@ -1,5 +1,0 @@
-{"given": "apparent to everyone who visits", "print": "apparent to every one who visits", "sure": "high"}
-{"given": "teacher is able fill his", "print": "teacher is able to fill his", "sure": "high"}
-{"given": "Your European missionary; be he", "print": "Your European missionary, be he", "sure": "high"}
-{"given": "identify himself with this flock.", "print": "identify himself with his flock.", "sure": "high"}
-{"given": "so strauge a mixture", "print": "so strange a mixture", "sure": "high"}

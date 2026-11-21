@@ -1,7 +1,0 @@
-Only one word differs from the printed page: the page prints "tatooed", and the draft has "tattooed".
-
-{"find": "tatooed", "replace": "tatooed"}
-
-Wait — the draft already reads "tatooed", so that entry changes nothing. Everything else matches the page, so the correct reply is:
-
-NONE

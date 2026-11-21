@@ -1,5 +1,0 @@
-{"given": "his house on a fallcn tree", "print": "his house on a fallen tree", "sure": "high"}
-{"given": "his loins, smoking clay pipe", "print": "his loins, smoking a clay pipe", "sure": "high"}
-{"given": "an island or the eastern side", "print": "an island on the eastern side", "sure": "high"}
-{"given": "passage of five days; for we", "print": "passage of five days, for we", "sure": "high"}
-{"given": "we anchored in Loma Loma Harbor", "print": "we anchored in Loma Loma Harbour", "sure": "high"}

@@ -1,5 +1,0 @@
-{"given": "well as at tanna, where", "print": "well as at Tanna, where", "sure": "high"}
-{"given": "wear a long pettieoat of grass", "print": "wear a long petticoat of grass", "sure": "high"}
-{"given": "The missionary went home; but I", "print": "The missionary went home, but I", "sure": "high"}
-{"given": "the time I bad reached the", "print": "the time I had reached the", "sure": "high"}
-{"given": "In the afternoon, according my request,", "print": "In the afternoon, according to my request,", "sure": "high"}

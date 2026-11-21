@@ -1,7 +1,0 @@
-judge opus: 6 spots on 5 pages: {'draft (could not undo: edit by hand)': 2, 'draft': 2, 'verified': 2}; cost $0.22
-p0009 #1 [draft (could not undo: edit by hand), sure: medium] draft '# <i>New Books of Travel.</i>\n\n' | verified '' | judge reads '# <i>NEW BOOKS OF TRAVEL.</i>\n\n'
-p0010 #1 [draft (could not undo: edit by hand), sure: high] draft '# <i>New Books of Travel.</i>\n\n' | verified '' | judge reads '# <i>New Books of Travel.</i>\n\n'
-p0038 #1 [draft, sure: medium] draft 'DURING my sta' | verified 'URING my sta' | judge reads 'DURING my sta'
-p0238 #1 [draft, sure: high] draft 'Chapter VIII.' | verified 'Chapter VIII' | judge reads 'Chapter VIII.'
-p0251 #1 [verified, sure: low] draft '<sc>chiswick press:—printed by whittingham and wilkins,</sc>' | verified 'CHISWICK PRESS:—PRINTED BY WHITTINGHAM AND WILKINS,' | judge reads 'CHISWICK PRESS:—PRINTED BY WHITTINGHAM AND WILKINS,'
-p0251 #2 [verified, sure: low] draft '<sc>tooks court, chancery lane.</sc>' | verified 'TOOKS COURT, CHANCERY LANE.' | judge reads 'TOOKS COURT, CHANCERY LANE.'

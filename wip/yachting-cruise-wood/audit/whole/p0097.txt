@@ -1,5 +1,0 @@
-{"given": "the remainder of my crew; for", "print": "the remainder of my crew, for", "sure": "high"}
-{"given": "had with me wifhed to remain", "print": "had with me wished to remain", "sure": "high"}
-{"given": "were always a source amusement to", "print": "were always a source of amusement to", "sure": "high"}
-{"given": "of Rotumah, one from rorotonga, and", "print": "of Rotumah, one from Rorotonga, and", "sure": "high"}
-{"given": "fellows, and gave nor the slightest", "print": "fellows, and gave not the slightest", "sure": "high"}

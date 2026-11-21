@@ -1,7 +1,0 @@
-Two differences from the page image: the italic "homo" has no comma after it, and the "M" signature mark is correctly left out of the draft. The only change needed is in the first paragraph:
-
-{"find": "<i>homo</i> now", "replace": "<i>homo</i> now"}
-
-Checking the rest of the text against the image, that entry is a no-op. The draft otherwise matches the scan, so the only real finding is that no correction is needed.
-
-NONE
