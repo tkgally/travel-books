@@ -1,7 +1,0 @@
-Checking the draft against the scan, I found "impenetrable" printed as "impenetrable" in the draft but "impenetrable" on the page reads "impenetrable"... Looking at the shapes, the page has "impenetrable" with an "e" after "imp", so the draft's spelling is wrong.
-
-{"find": "impenetrable", "replace": "impenetrable"}
-
-Re-checking that: the scan reads "impenetrable" as i-m-p-e-n-e-t-r-a-b-l-e, while the draft has i-m-p-e-n-e-t-r-a-b-l-e. The two are identical, so that correction changes nothing and the draft is correct as it stands.
-
-NONE

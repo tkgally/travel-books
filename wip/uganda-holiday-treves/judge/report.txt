@@ -1,5 +1,0 @@
-judge opus: 5 spots on 5 pages: {'draft': 4, 'verified': 1}; cost $0.22
-p0016 #1 [draft, sure: medium] draft '* The illustr' | verified '[[fn *]] The illustr' | judge reads '* The illustr'
-p0070 #1 [draft, sure: medium] draft '<i>näiveté</i>' | verified '<i>näivetê</i>' | judge reads '<i>näiveté</i>'
-p0232 #1 [draft, sure: medium] draft '(Chess Board ' | verified 'Chess Board ' | judge reads '(Chess Board '
-p0251 #1 [draft, sure: low] draft '<i>dêbouchure</i>' | verified '<i>débouchure</i>' | judge reads '<i>dêbouchure</i>'

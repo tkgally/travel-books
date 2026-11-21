@@ -1,5 +1,0 @@
-{"given": "Kiu is in the center of", "print": "Kiu is in the centre of", "sure": "high"}
-{"given": "as to whether be will see", "print": "as to whether he will see", "sure": "high"}
-{"given": "and the German fronticr respectively", "print": "and the German frontier respectively", "sure": "high"}
-{"given": "it occupies about same area as", "print": "it occupies about the same area as", "sure": "high"}
-{"given": "roan, waterbuck; hartebeest,", "print": "roan, waterbuck, hartebeest,", "sure": "high"}

@@ -1,5 +1,0 @@
-{"given": "within a comparatively small area; a circumstance", "print": "within a comparatively small area, a circumstance", "sure": "high"}
-{"given": "from time to time experience need of change.", "print": "from time to time experience the need of change.", "sure": "high"}
-{"given": "Although british East Africa is fortunate", "print": "Although British East Africa is fortunate", "sure": "high"}
-{"given": "more monotonous still. Those conditions are recognised", "print": "more monotonous still. These conditions are recognised", "sure": "high"}
-{"given": "to provide tbemselves with substantial houses", "print": "to provide themselves with substantial houses", "sure": "high"}

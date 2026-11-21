@@ -1,0 +1,9 @@
+{"find": "Little Saskatchewan,", "replace": "Little Saskatchewan,"}
+
+Wait, I need to check this: the page reads "Saskatchewan" in the draft and "Saskatchewan" in the image? The image reads "Saskatchewan" as "Saskatchewan"... Let me state the correction properly.
+
+{"find": "Saskatchewan, I saw", "replace": "Saskatchewan, I saw"}
+
+Both of the entries above are no-ops, so ignore them. The image reads "Saskatchewan" as "Saskatchewan", so I found no differences.
+
+NONE

@@ -1,5 +1,0 @@
-{"given": "save for holes made by", "print": "save for the holes made by", "sure": "high"}
-{"given": "tusks on seizing him; and lay", "print": "tusks on seizing him, and lay", "sure": "high"}
-{"given": "into a state of hidcous panic.", "print": "into a state of hideous panic.", "sure": "high"}
-{"given": "before the eyes of this comrades,", "print": "before the eyes of his comrades,", "sure": "high"}
-{"given": "head towards the center of the", "print": "head towards the centre of the", "sure": "high"}

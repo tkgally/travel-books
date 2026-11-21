@@ -1,0 +1,68 @@
+{
+ "p0005": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[center]] <i>A SUMMER IN PRAIRIE-LAND.</i>\n\n",
+   "replace": "",
+   "draft": "[[center]] <i>A SUMMER IN PRAIRIE-LAND.</i>\n\n",
+   "verified": "",
+   "context": "[[page ?]] ⏎ [[center]] <i>A SUMMER IN PRAIRIE-LAND.</i> ⏎  ⏎ [[center]] NOTES OF A TOUR ⏎  ⏎ [[center]] <sc>through the</sc> ⏎ "
+  }
+ ],
+ "p0084": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "thcse who",
+   "replace": "these who",
+   "draft": "thcse who",
+   "verified": "these who",
+   "context": "ating themselves on the floor in true Indian fashion, while thcse who sat on the benches by the wall manifested a strong disposit"
+  }
+ ],
+ "p0110": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "OUR week",
+   "replace": "O<sc>ur</sc> week",
+   "draft": "OUR week",
+   "verified": "O<sc>ur</sc> week",
+   "context": " between scrolls]] ⏎  ⏎ # X. ⏎  ⏎ [[subtitle]] Morley to Edmonton. ⏎  ⏎ OUR week of rest and recreation at Morley passed away all too soon; "
+  }
+ ],
+ "p0166": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "Touchwood Hills.",
+   "replace": "Touchwood Hills",
+   "draft": "chwood Hills.",
+   "verified": "chwood Hills",
+   "context": " face in a medallion]] ⏎  ⏎ # XV. ⏎ [[subtitle]] Prince Albert to Touchwood Hills. ⏎  ⏎ THE morning of Monday, September 6th, was bright and beaut"
+  }
+ ],
+ "p0186": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Portage la Prairie.",
+   "replace": "Portage La Prairie.",
+   "draft": "Portage la Prairie.",
+   "verified": "Portage La Prairie.",
+   "context": "ng a pitcher among reeds]] ⏎  ⏎ # XVII. ⏎  ⏎ [[subtitle]] Birtle to Portage la Prairie. ⏎  ⏎ LEFT Birtle on Monday morning, Sept. 10th, at 8 a. m. The "
+  }
+ ],
+ "p0199": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "agreeable fellow-traveller",
+   "replace": "agreeeable fellow-traveller",
+   "draft": "agreeable fello",
+   "verified": "agreeeable fello",
+   "context": "d for immigration. Mr. Cubbit proved a most intelligent and agreeable fellow-traveller, and his views in regard to immigration were worthy of atte"
+  }
+ ]
+}
