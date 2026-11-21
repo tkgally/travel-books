@@ -1,0 +1,9 @@
+judge opus: 8 spots on 6 pages: {'verified': 4, 'draft': 4}; cost $0.27
+p0013 #1 [verified, sure: medium] draft '<sc>without whose kind persuasion my visit to the hawaiian islands would not have been made,</sc>' | verified 'WITHOUT WHOSE KIND PERSUASION MY VISIT TO THE HAWAIIAN ISLANDS WOULD NOT HAVE BEEN MADE,' | judge reads 'WITHOUT WHOSE KIND PERSUASION MY VISIT TO THE HAWAIIAN ISLANDS WOULD NOT HAVE BEEN MADE,'
+p0013 #2 [verified, sure: medium] draft '<sc>and whose gracious entertainment and guidance while i was there, did so much to make the memory of that visit a lasting pleasure,</sc>' | verified 'AND WHOSE GRACIOUS ENTERTAINMENT AND GUIDANCE WHILE I WAS THERE, DID SO MUCH TO MAKE THE MEMORY OF THAT VISIT A LASTING PLEASURE,' | judge reads 'AND WHOSE GRACIOUS ENTERTAINMENT AND GUIDANCE WHILE I WAS THERE, DID SO MUCH TO MAKE THE MEMORY OF THAT VISIT A LASTING PLEASURE,'
+p0013 #3 [verified, sure: medium] draft '<sc>this book is respectfully dedicated.</sc>' | verified 'THIS BOOK IS RESPECTFULLY DEDICATED.' | judge reads 'THIS BOOK IS RESPECTFULLY DEDICATED.'
+p0031 #1 [draft, sure: medium] draft 'THE trade-wind' | verified 'T<sc>he</sc> trade-wind' | judge reads 'THE trade-wind'
+p0088 #1 [draft, sure: medium] draft 'WE had two hom' | verified 'W<sc>e</sc> had two hom' | judge reads 'WE had two hom'
+p0231 #1 [draft, sure: medium] draft 'WE found two' | verified 'W<sc>e</sc> found two' | judge reads 'WE found two'
+p0262 #1 [verified, sure: medium] draft 'aiian spoken) he' | verified 'aiian spoken.) he' | judge reads 'aiian spoken.) he'
+p0294 #1 [draft, sure: medium] draft 'THE thought of ' | verified 'T<sc>he</sc> thought of ' | judge reads 'THE thought of '

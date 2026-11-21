@@ -44,5 +44,45 @@
    "date": "2026-11-21",
    "note": "First publication."
   }
+ ],
+ "frontispiece": "p0008-1",
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "front",
+   "title": "Half-title"
+  },
+  {
+   "at": "p0011",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0013",
+   "kind": "dedication"
+  },
+  {
+   "at": "p0015",
+   "kind": "preface"
+  },
+  {
+   "at": "p0019",
+   "kind": "contents"
+  },
+  {
+   "at": "p0022",
+   "kind": "front",
+   "title": "Map of the Hawaiian Archipelago",
+   "reading": true
+  },
+  {
+   "at": "p0023",
+   "kind": "front",
+   "title": "Half-title above the first chapter"
+  },
+  {
+   "at": "p0023",
+   "n": 2,
+   "kind": "chapter"
+  }
  ]
 }
