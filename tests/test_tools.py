@@ -883,6 +883,13 @@ class SiteLists(unittest.TestCase):
         listed = re.findall(r"<cite>Journey (\d+)</cite>", h)
         self.assertEqual(listed, [str(i) for i in range(build_site.HOME_FULL_LIST + 2, build_site.HOME_FULL_LIST + 2 - build_site.HOME_NEWEST, -1)])
 
+    def test_books_page_headings_in_order(self):
+        """Review after forty-five books (live pass): "Newest" was an h3 straight after the page's h1."""
+        books = [shelf_book(i) for i in range(build_site.HOME_FULL_LIST + 3)]
+        build_site.build_books(self.out, books, [])
+        levels = [int(x) for x in re.findall(r"<h([1-6])[ >]", self.read("books.html"))]
+        self.assertTrue(all(b - a <= 1 for a, b in zip(levels, levels[1:])), levels)
+
     def test_newest_follows_the_time_of_first_publication(self):
         """2026-11-21: fourteen books were first published on one day, so the date tied and the id decided the order
         ("Yachting" before the day's last books). data/published.json keeps the time; new versions do not move a book."""
@@ -1483,6 +1490,27 @@ class NoteTail(unittest.TestCase):
 
     def test_observe(self):
         self.assertEqual(preflight.CHECKS["note-tail"][0], "observe")
+
+
+class CaptionTail(unittest.TestCase):
+    """*Uganda for a Holiday* (2026-11-21): a plate's cross-reference ("[See page 107.") typed as a `[[right]]` line
+    after the caption became a paragraph that the next page's `[[cont]]` joined, so text was right-aligned under the
+    picture; *Argentine Plains* the same with "To face p. N" lines. Only the rendered look saw it."""
+
+    def test_line_after_caption_listed(self):
+        pages = [("p0118", "[[page ?]]\n[[image: men]]\n[[caption]] Kikuyu Station.\n\n[[right]] [<i>See</i> page <pref>107</pref>.\n"),
+                 ("p0119", "[[page 79]]\n[[cont]]zebras in thousands.\n"),
+                 ("p0120", "[[page ?]]\n[[image: a lake]]\n[[caption]] The Lake.\nTo face p. 80.\n")]
+        items = preflight.check_caption_tail(pages)
+        self.assertEqual([i.split(":")[0] for i in items], ["p0118", "p0120"])
+
+    def test_caption_then_picture_or_text_pass(self):
+        pages = [("p0140", "[[page ?]]\n[[image: a street]]\n[[caption]] Nairobi.\n[[image: a lake]]\n[[caption]] Lake Naivasha. [<i>See</i> page <pref>115</pref>.\n"),
+                 ("p0141", "[[page 9]]\n[[image: a hut]]\n[[caption]] A hut.\n\nThe road went on for many miles through the long grass, and we saw no one.\n")]
+        self.assertEqual(preflight.check_caption_tail(pages), [])
+
+    def test_observe(self):
+        self.assertEqual(preflight.CHECKS["caption-tail"][0], "observe")
 
 
 class SiteText(unittest.TestCase):

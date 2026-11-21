@@ -44,6 +44,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 | A printed turned or wrong letter in a common word (“ean” for “can”, “aud”, “iu”, “conld”) copied faithfully by draft, verifier and judge and never marked [*Trans-Caspia*, a reader, 2026-11-21; 7 more in 6 books] | preflight `misprints` (observe: every item looked at on the scan); test `Misprints` |
 | Printed misprints in less common words (“hnndred”, “numher”, “entranee”, “pertorm”) kept faithfully and never marked: 15 in 11 books [review after forty books] | preflight `rare-forms` (observe: the collection as dictionary); test `RareForms` |
 | A full stop left out in print (“hard work and privation His orders”) copied faithfully by every stage and never marked [*The Golden Dagon*, a reader, issue #117, 2026-11-21; 15 more in 12 books] | preflight `missing-stop` (observe: every item looked at on the scan); test `MissingStop` |
+| A plate's cross-reference (“[*See* page 107.”) or “To face p. N” typed as a line of its own after the caption, so the next page's `[[cont]]` text was right-aligned under the picture [*Uganda for a Holiday*, 3 plates; *Argentine Plains*, 26 lines: caught by the rendered look] | preflight `caption-tail` (observe); test `CaptionTail` |
 
 ## Always
 
@@ -88,7 +89,6 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   preflight `image-splits` looks only for lower case after the picture; read the text before each picture (for the review).
 - A frontispiece printed sideways has no caption to show which way: crop it, look at both turns.
 - Plates printed sideways: `crop_image.py --rotate 270` when the caption reads bottom to top along the right edge.
-- A cross-reference under a plate's caption (“[*See* page 107.”) typed as a `[[right]]` line of its own becomes a paragraph that the next page's `[[cont]]` joins, so a run of text was right-aligned under the picture (*Uganda for a Holiday*, 3 plates: caught by the rendered look). Put it in the `[[caption]]` line; grep `^\[\[right\]\] \[` after the judge.
 - “To face p. N” under a plate: not transcribed (the earlier books never kept it; the prompt says so since 2026-11-21). *Argentine Plains* kept 26, and the paragraph a plate interrupts was joined to that line, right-aligned (caught by the rendered look).
 - Set `frontispiece` in book.json, with or without a caption (preflight follows moved images since 2026-11-19).
 - A plate with a label or sub-captions on separate lines: one `[[caption]]`, parts separated by full stops; several

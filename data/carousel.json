@@ -202,6 +202,13 @@
    "height": 450,
    "sha256": "fe8bc3de9083923fc72cb0a4927ad3f8647921bb4c86c55671e3360de23f4560"
   },
+  "summer-in-prairie-land-sutherland": {
+   "image": "title page",
+   "width": 271,
+   "height": 450,
+   "sha256": "0d47b1163cc0c651a293b055b149c60290734ae6361a432f0bf20b0d023a39bb",
+   "note": "plain cloth cover"
+  },
   "trans-caspia-shoemaker": {
    "image": "title page",
    "width": 280,
@@ -219,6 +226,13 @@
    "width": 284,
    "height": 450,
    "sha256": "d1060d541921ee8828ae89ce87a9d105bb890c5592d07253974bea6c901db66c"
+  },
+  "uganda-holiday-treves": {
+   "image": "title page",
+   "width": 289,
+   "height": 450,
+   "sha256": "a6a30363180d2e072c767c7cf8cdd027918180d5b4220065c9a42a7ebb3dada2",
+   "note": "the cover's title is faint and runs off the edge"
   },
   "via-rhodesia-mansfield": {
    "image": "cover",

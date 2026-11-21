@@ -53,6 +53,7 @@ CHECKS = collections.OrderedDict([
     ("contents",        ("observe", "entries of the printed contents with no matching heading")),
     ("site-text",       ("enforce", "book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or \"")),
     ("note-tail",       ("observe", "text after a page's notes that is not a note (a table or paragraph of a note set as body text)")),
+    ("caption-tail",    ("observe", "a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?")),
     ("verse-joins",     ("observe", "verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan")),
     ("cover",           ("enforce", "images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page")),
     ("accents",         ("observe", "words the book spells with different accents (or with and without): look at each group on the scan")),
@@ -505,6 +506,23 @@ def check_note_tail(pages):
     return out
 
 
+def check_caption_tail(pages):
+    """A short line straight after a `[[caption]]` (a `[[right]]` or `[[center]]` line, or under 40 letters of text):
+    a cross-reference ("[See page 107.") or "To face p. N" typed as a paragraph of its own. Set apart, it took the
+    next page's `[[cont]]` text with it, right-aligned under the picture (*Uganda for a Holiday*, 3 plates;
+    *Argentine Plains*, 26 lines): it belongs in the caption line, or is left out ("To face")."""
+    out = []
+    for leaf, text in pages:
+        lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
+        for a, b in zip(lines, lines[1:]):
+            if not a.startswith("[[caption]]") or b.startswith(("[[image", "[[caption", "[[page", "#", "[[fn", "<")):
+                continue
+            plain = re.sub(r"\[\[[^\]]*\]\]|<[^>]+>", "", b).strip()
+            if b.startswith(("[[right]]", "[[center]]")) or len(plain) < 40:
+                out.append(f"{leaf}: after the caption: {b[:60]!r}")
+    return out
+
+
 def _verse_stanzas(text, first):
     """Line counts of the stanzas of the first (first=True) or last <verse> block of a page."""
     blocks = re.findall(r"<verse>\n?(.*?)\n?</verse>", text, flags=re.S)
@@ -805,6 +823,7 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
         res["joins"] = check_joins(pages)
         res["note-tail"] = check_note_tail(pages)
         res["verse-joins"] = check_verse_joins(pages)
+        res["caption-tail"] = check_caption_tail(pages)
         # conservation
         pc, jc = [], []          # image captions apart: the compiler moves some images (see page_streams)
         ps, js = [], []          # side-notes: in the JSON, not in the reading editions
