@@ -1,0 +1,7 @@
+{"find": "<i>Trypanosoma gambiense</i>", "replace": "<i>Trypanosoma gambiense</i>"}
+
+Wait, that's identical; the page reads "gambiense" so no change is needed there. The other differences:
+
+{"find": "housefly", "replace": "housefly"}
+
+NONE

@@ -62,6 +62,16 @@
    "kind": "illustrations"
   },
   {
+   "at": "p0018",
+   "kind": "front",
+   "title": "Half-title above Chapter I"
+  },
+  {
+   "at": "p0018",
+   "n": 2,
+   "kind": "chapter"
+  },
+  {
    "at": "p0330",
    "kind": "index"
   }
