@@ -12,34 +12,20 @@
 [       ok] nav: contents: at least one reading division; each has a title and text
 [       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
-[ FAIL (1)] audit: book.json records the sampled audit of this version
-            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
-[look (11)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
-            - hyphen join at p0041: …n those tumble-|down streets in… (hyphen removed; check) — the book prints “tumble-down” elsewhere: keep_hyphens?
+[       ok] audit: book.json records the sampled audit of this version
+[ look (8)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0056: …lings of trepi-|dation that, be… (hyphen removed; check)
             - hyphen join at p0069: …raternity—mani-|fested a frater… (hyphen removed; check)
             - hyphen join at p0088: …is is a digres-|sion, as other … (hyphen removed; check)
             - hyphen join at p0129: … cast deep pur-|plish-blue shad… (hyphen removed; check)
-            - hyphen join at p0134: … in the eating-|room, pick our … (hyphen removed; check) — the book prints “eating-room” elsewhere: keep_hyphens?
             - hyphen join at p0224: …prismatic tran-|sparencies of t… (hyphen removed; check)
             - hyphen join at p0273: …ard, not reluc-|tantly, albeit … (hyphen removed; check)
             - hyphen join at p0295: …s, seizing bed-|ding, blankets,… (hyphen removed; check)
-            - hyphen join at p0352: …h-red or shell-|pink or wax-whi… (hyphen removed; check)
             - (and 28 joins giving a word the book prints whole elsewhere: not listed)
 [       ok] joins: page joins: missing [[cont]]
-[ look (3)] folios: printed page numbers that break the sequence
-            - p0111: page 59 after page 94 (p0110)
-            - p0112: page 96 after page 59 (p0111)
+[ look (1)] folios: printed page numbers that break the sequence
             - p0379: page 1 after page 355 (p0377)
-[ FAIL (8)] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
-            - p0058: no page file
-            - p0059: no page file
-            - p0326: no page file
-            - p0327: no page file
-            - p0328: no page file
-            - p0329: no page file
-            - p0332: no page file
-            - p0333: no page file
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
 [       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
 [       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
 [look (17)] contents: entries of the printed contents with no matching heading
@@ -62,8 +48,7 @@
             - p0013: '3. On Board the Okeehumkee'
 [       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
 [       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
-[ look (1)] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
-            - p0286: verse continued from p0285: stanzas before [8] | here [8, 12] (a stanza ending at the page foot needs no [[cont]])
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
 [ look (6)] accents: words the book spells with different accents (or with and without): look at each group on the scan
             - a: a (p0013, p0015, p0016, p0017, p0018, p0019…); à (p0110, p0182, p0367)
@@ -74,4 +59,4 @@
             - melee: melée (p0097); mêlée (p0036)
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: between-two-oceans-hardy v1 — 9 to fix, 0 waived; to look at: hyphen-joins 11, folios 3, contents 17, verse-joins 1, accents 6 — tools@f8f0fe89 2026-11-21
+preflight PASS: between-two-oceans-hardy v1 — 0 to fix, 0 waived; to look at: hyphen-joins 8, folios 1, contents 17, accents 6 — tools@7ebe7382 2026-11-21
