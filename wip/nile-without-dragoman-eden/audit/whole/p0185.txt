@@ -1,6 +1,0 @@
-{"given": "curb the impatieuce of the pilot", "print": "curb the impatience of the pilot", "sure": "high"}
-{"given": "paid at so much per day; had", "print": "paid at so much per day, had", "sure": "high"}
-{"given": "counting the miles to be traversed", "print": "countiug the miles to be traversed", "sure": "medium"}
-{"given": "we came the conclusion that", "print": "we came to the conclusion that", "sure": "high"}
-{"given": "His was more difficult. There", "print": "This was more difficult. There", "sure": "high"}
-{"given": "to enable anyone to reach the", "print": "to enable any one to reach the", "sure": "high"}

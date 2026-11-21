@@ -1,5 +1,0 @@
-{"given": "laid aside when be commenced work", "print": "laid aside when he commenced work", "sure": "high"}
-{"given": "and tbirty or forty men", "print": "and thirty or forty men", "sure": "high"}
-{"given": "sway from side side with her", "print": "sway from side to side with her", "sure": "high"}
-{"given": "the sheiks in command; their boys", "print": "the sheiks in command, their boys", "sure": "high"}
-{"given": "The english dahabeah, to whom", "print": "The English dahabeah, to whom", "sure": "high"}

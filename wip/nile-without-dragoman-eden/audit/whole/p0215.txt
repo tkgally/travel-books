@@ -1,5 +1,0 @@
-{"given": "Either we where unlucky in our", "print": "Either we were unlucky in our", "sure": "high"}
-{"given": "stops at one the two landing-places", "print": "stops at one of the two landing-places", "sure": "high"}
-{"given": "since lcaving some place below Thebes", "print": "since leaving some place below Thebes", "sure": "high"}
-{"given": "to sleep in armor, and besides", "print": "to sleep in armour, and besides", "sure": "high"}
-{"given": "first rays of the sun; and about seven", "print": "first rays of the sun, and about seven", "sure": "high"}

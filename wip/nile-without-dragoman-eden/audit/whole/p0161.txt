@@ -1,5 +1,0 @@
-{"given": "So conservative is the climate of nubia,", "print": "So conservative is the climate of Nubia,", "sure": "high"}
-{"given": "are as sharp as it they had", "print": "are as sharp as if they had", "sure": "high"}
-{"given": "every mark of his chisel is distinct its incision.", "print": "every mark of his chisel is distinct in its incision.", "sure": "high"}
-{"given": "Then perhaps; we expected too much.", "print": "Then perhaps, we expected too much.", "sure": "high"}
-{"given": "full of beauty and rcpose.", "print": "full of beauty and repose.", "sure": "high"}

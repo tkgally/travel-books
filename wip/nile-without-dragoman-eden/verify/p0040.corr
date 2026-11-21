@@ -1,7 +1,0 @@
-The page prints "backshish", and the draft has "backsheesh", so that word needs correcting.
-
-{"find": "backshish turn", "replace": "backshish turn"}
-
-Wait — I need to check the draft text itself: it reads "backshish turn Egypt", which already matches the print.
-
-NONE
