@@ -1514,6 +1514,28 @@ class Misprints(unittest.TestCase):
         self.assertEqual(preflight.CHECKS["misprints"][0], "observe")
 
 
+class MissingStop(unittest.TestCase):
+    """*The Golden Dagon* p. 7 “hard work and privation His orders” (a reader, issue #117, 2026-11-21): a full stop
+    left out in print, copied faithfully by every stage and never marked. Preflight lists a sentence-opening word
+    after a lower-case word with no stop between."""
+
+    def test_listed(self):
+        pages = [("p0001", "A season of privation His orders were plain.\n\nWe sat till midnight It was late."),
+                 ("p0002", "[[cont]]all day There we stayed.")]
+        items = preflight.check_missing_stop(pages)
+        self.assertEqual([i.split(":")[0] for i in items], ["p0001", "p0001", "p0002"])
+        self.assertIn("privation His", items[0])
+
+    def test_marked_or_set_apart_not_listed(self):
+        pages = [("p0001", "of [[corr privation|privation.]] His orders; <i>sur la mer The</i> x; the story. It was; thank God that He has given; the veil of His protection."),
+                 ("p0002", "<verse>\nO for a lodge in some vast wilderness\nThe boundless contiguity of shade\n</verse>"),
+                 ("p0003", "| a field | The house |\n# Chapter the First The end\n[[image: a field The house]]")]
+        self.assertEqual(preflight.check_missing_stop(pages), [])
+
+    def test_observe(self):
+        self.assertEqual(preflight.CHECKS["missing-stop"][0], "observe")
+
+
 class RareForms(unittest.TestCase):
     """Review after forty books: 15 printed misprints in 11 books (“hnndred”, “numher”, “entranee”), none marked;
     the collection itself serves as the dictionary."""
