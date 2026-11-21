@@ -1,0 +1,21 @@
+{
+ "id": "argentine-plains-larden",
+ "version": 1,
+ "date": "2026-11-21",
+ "title": "Argentine Plains and Andine Glaciers",
+ "subtitle": "Life on an Estancia, and an Expedition into the Andes",
+ "short_title": "Argentine Plains and Andine Glaciers",
+ "authors": [
+  {
+   "name": "Walter Larden",
+   "sort": "Larden, Walter",
+   "born": 1855,
+   "died": 1919
+  }
+ ],
+ "year": 1911,
+ "source": {
+  "ia_identifier": "argentineplainsa00lardrich",
+  "contributor": "University of California Libraries"
+ }
+}
