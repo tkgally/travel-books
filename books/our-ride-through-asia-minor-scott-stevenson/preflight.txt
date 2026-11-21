@@ -37,6 +37,12 @@
             - kilisse: kilisse (p0019, p0294, p0361); kilissé (p0368)
             - medjidies: medjidies (p0102, p0142, p0219, p0251, p0343); medjidiés (p0396)
 [       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[ look (4)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0073: “hags” — “bags” is common (98)
+            - p0134: “wails” — “walls” is common (707)
+            - p0236: “hoarding” — “boarding” is common (68)
+            - p0262: “hag” — “bag” is common (96)
+[       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: our-ride-through-asia-minor-scott-stevenson v3 — 0 to fix, 4 waived; to look at: hyphen-joins 1, accents 10 — tools@636b1b8d 2026-11-21
+preflight PASS: our-ride-through-asia-minor-scott-stevenson v4 — 0 to fix, 4 waived; to look at: hyphen-joins 1, accents 10, rare-forms 4 — tools@7614af67 2026-11-21

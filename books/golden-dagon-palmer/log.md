@@ -39,6 +39,7 @@ Watch: black-letter subtitle; small capitals at chapter openings and in summarie
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
 | 1 | 2026-11-21 | golden-dagon-palmer v1 — 0 to fix, 2 waived; to look at: hyphen-joins 9, contents 1, verse-joins 2, accents 1 — tools@eda5ef90 2026-11-21 | 30/30; 0 real errors / 6 pages | first publication; waivers: spacing p0340 (ditto marks in the advertisements); contents 1 = “Ingeeboo” in the printed contents, “Ingeboo” in the heading (both as printed) |
+| 2 | 2026-11-21 | golden-dagon-palmer v2 — 0 to fix, 2 waived; to look at: hyphen-joins 9, contents 1, verse-joins 2, accents 1, rare-forms 1 — tools@7614af67 2026-11-21 | as v1 (text unchanged except listed fixes) | “privation” for “privation.” (p. 9; a reader, issue #117); “closing” for “closing.” (p. 254) (found by a reader’s report (issue #117) and the sweep that followed, checked on the scan). |
 
 ## Known issues
 - p. 63 (leaf p0082): the sentence after a one-line verse quotation runs on flush left in print; the markup cannot continue a paragraph after mid-page verse, so it starts a new paragraph (workflow §"Not yet solved").

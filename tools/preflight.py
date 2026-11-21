@@ -58,6 +58,7 @@ CHECKS = collections.OrderedDict([
     ("accents",         ("observe", "words the book spells with different accents (or with and without): look at each group on the scan")),
     ("misprints",       ("observe", "common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan")),
     ("rare-forms",      ("observe", "words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan")),
+    ("missing-stop",    ("observe", "a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan")),
     ("images",          ("enforce", "image files not used by any page")),
     ("source",          ("enforce", "source.json: the Drive cache of the page images is recorded")),
 ])
@@ -378,6 +379,36 @@ def check_misprints(pages):
             w = m.group(0)
             if w.lower() in MISPRINTS and w != "Aud":      # Aud the Deeply Wealthy (*By Fell and Fjord*)
                 out.append(f"{leaf}: “{m.group(0)}” in …{t[max(0, m.start() - 25):m.end() + 25].strip()}…")
+    return out
+
+
+STARTERS = ("The", "He", "His", "She", "We", "They", "It", "But", "This", "There", "Our", "Then", "When", "After")
+# “of His mercy”, “that He has”: a capital pronoun after such a word is the divine one, not a new sentence.
+DIVINE_AFTER = {"of", "to", "in", "on", "by", "at", "as", "with", "into", "unto", "upon", "that", "which", "whereby",
+                "where", "here", "are", "beneath", "behold", "led", "for", "from", "whom", "and"}
+MISSING_STOP = re.compile(r"\b([a-z]{2,})\s+(" + "|".join(STARTERS) + r")\s+([a-z]+)")
+
+
+def check_missing_stop(pages):
+    """A lower-case word followed by a sentence-opening word with no punctuation between, in prose outside verse,
+    tables, headings, italics and markup: a full stop left out in print (mark it [[corr]]) or lost in reading.
+    *The Golden Dagon* p. 7 “privation His orders” (a reader, issue #117, 2026-11-21). Divine pronouns (“that He
+    has”) are listed too: they are looked at and passed."""
+    out = []
+    for leaf, t in pages:
+        t = re.sub(r"<verse>.*?</verse>", "\n", t, flags=re.S)
+        t = re.sub(r"<i>.*?</i>", " ; ", t, flags=re.S)
+        for line in t.splitlines():
+            if line.lstrip().startswith(("|", "#")):
+                continue
+            line = re.sub(r"\[\[corr [^\]]*\]\]", " ; ", line)
+            line = re.sub(r"\[\[image:[^\]]*\]\]|\[\[side:[^\]]*\]\]", " ; ", line)
+            line = re.sub(r"\[\[[^\]]*\]\]", " ", line)
+            line = re.sub(r"<[^>]+>", "", line)
+            for m in MISSING_STOP.finditer(line):
+                if m.group(2) in ("He", "His") and m.group(1) in DIVINE_AFTER:
+                    continue
+                out.append(f"{leaf}: “{m.group(1)} {m.group(2)}” in …{line[max(0, m.start() - 25):m.end() + 10].strip()}…")
     return out
 
 
@@ -757,6 +788,7 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
         res["markup"] = check_markup(pages)
         res["accents"] = check_accents(pages)
         res["misprints"] = check_misprints(pages)
+        res["missing-stop"] = check_missing_stop(pages)
         pub = os.path.join(os.path.dirname(HERE), "books")
         corpus = corpus_counts(pub)
         if os.path.normpath(os.path.dirname(bookdir)) == os.path.normpath(pub):

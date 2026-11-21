@@ -118,5 +118,6 @@ cannot be separated). Say in `notes_on_text` which pictures come from the Getty 
 |---|---|---|---|---|
 | 1 | 2026-11-20 | PASS — 0 to fix, 0 waived; to look at: hyphen-joins 10, joins 31, folios 5, contents 27 (all read) — tools@8ce06b8 | 30/30; 0 real errors / 6 pages | first publication; an exception to the selection rules (Tom) |
 | 2 | 2026-11-21 | embassy-to-china-staunton v2 — 0 to fix, 0 waived; to look at: hyphen-joins 10, folios 5, contents 27, accents 7 — tools@636b1b8d 2026-11-21 | as v1 (text unchanged except listed fixes) | “entranee” for “entrance” (p. xviii) (review after forty books, sweep checked on the scan) |
+| 3 | 2026-11-21 | embassy-to-china-staunton v3 — 0 to fix, 0 waived; to look at: hyphen-joins 10, folios 5, contents 27, accents 7, rare-forms 3 — tools@7614af67 2026-11-21 | as v2 (text unchanged except listed fixes) | “lake” for “lake.” (vol. I, p. 165) (found by a sweep of all the books after a reader’s report (issue #117), checked on the scan). |
 
 ## Known issues

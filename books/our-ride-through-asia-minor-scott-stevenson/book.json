@@ -1,6 +1,6 @@
 {
  "id": "our-ride-through-asia-minor-scott-stevenson",
- "version": 3,
+ "version": 4,
  "date": "2026-11-21",
  "title": "Our Ride through Asia Minor",
  "short_title": "Our Ride through Asia Minor",
@@ -34,6 +34,11 @@
    "version": 3,
    "date": "2026-11-21",
    "note": "A printer’s error corrected: “eame” for “came” (p. 100) (found by a sweep of all the books at the review after forty books)."
+  },
+  {
+   "version": 4,
+   "date": "2026-11-21",
+   "note": "A printer’s error corrected: “all” for “all.” (p. 247) (found by a sweep of all the books after a reader’s report (issue #117), checked on the scan)."
   }
  ],
  "regions": [
@@ -115,8 +120,8 @@
   }
  ],
  "audit": {
-  "version": 3,
-  "date": "2026-11-20",
+  "version": 4,
+  "date": "2026-11-21",
   "pages": 6,
   "recall": "30/30",
   "real_errors": 0,

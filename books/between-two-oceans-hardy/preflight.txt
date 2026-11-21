@@ -57,6 +57,9 @@
             - lager: lager (p0085, p0095, p0112); läger (p0246)
             - madrono: madrono (p0211); madroño (p0259)
             - melee: melée (p0097); mêlée (p0036)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[       ok] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+[       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: between-two-oceans-hardy v1 — 0 to fix, 0 waived; to look at: hyphen-joins 8, folios 1, contents 17, accents 6 — tools@628383af 2026-11-21
+preflight PASS: between-two-oceans-hardy v2 — 0 to fix, 0 waived; to look at: hyphen-joins 8, folios 1, contents 17, accents 6 — tools@7614af67 2026-11-21

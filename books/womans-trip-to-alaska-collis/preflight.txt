@@ -42,6 +42,8 @@
             - p0017: 'Taku Inlet.—Up the Lynn Canal to Chilcat, above the 59th Degree of Lat'
             - p0018: 'Metlahkatlah, B. C.—An Indian Village with a Good Government.—Their Wr'
 [       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
 [ look (5)] accents: words the book spells with different accents (or with and without): look at each group on the scan
             - a: a (p0001, p0011, p0012, p0013, p0014, p0015…); à (p0045)
@@ -49,6 +51,9 @@
             - hotel: hotel (p0015, p0016, p0027, p0028, p0044, p0048…); hôtel (p0086)
             - piece: piece (p0059, p0083, p0102, p0110, p0122, p0144…); pièce (p0087)
             - si: si (p0074, p0105); sì (p0207)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[       ok] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+[       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: womans-trip-to-alaska-collis v1 — 0 to fix, 0 waived; to look at: hyphen-joins 7, contents 14, accents 5 — tools@7073865 2026-11-20
+preflight PASS: womans-trip-to-alaska-collis v2 — 0 to fix, 0 waived; to look at: hyphen-joins 7, contents 14, accents 5 — tools@25267f47 2026-11-21
