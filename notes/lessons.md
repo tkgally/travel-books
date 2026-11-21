@@ -106,6 +106,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   even inside a quotation of broken English; the gap is the evidence.
 - A worn or broken letter (an *n* whose stroke has gone, so it looks like *r*) is read by judges as the letter it looks like (*Asia Minor* p0119 "rame"). Look for the same break elsewhere on the page before calling it a misprint; a broken letter is transcribed as the letter set, not marked `[[corr]]`.
 
+- An opening quotation mark left out in print (a reply set as “guns, They’re dreaming, Sir,”): preflight `quote-balance` lists it; look on the scan and mark `[[corr They’re|“They’re]]` (*Letters from China & Japan*, 2 places).
+
 ## Trigger: accented names and foreign words (many diacritics)
 
 - Preflight `accents` lists every word spelled with different accents (or with and without); send the groups to an Opus

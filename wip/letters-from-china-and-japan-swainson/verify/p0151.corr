@@ -1,7 +1,0 @@
-The image shows "was wet, and as the Guard", with no comma after "and". The draft has "wet, and as the Guard of Honour appointed to meet them was, as usual,", so the only difference is the comma after "and".
-
-{"find": "was wet, and as the Guard", "replace": "was wet, and as the Guard"}
-
-I need to check that again. The draft reads "wet, and as the Guard", which matches the image, so that entry is a no-op and no correction is needed.
-
-NONE

@@ -1,7 +1,0 @@
-judge opus: 6 spots on 6 pages: {'draft': 2, 'verified': 4}; cost $0.26
-p0051 #1 [draft, sure: high] draft 'very marvelous to' | verified 'very marvellous to' | judge reads 'very marvelous to'
-p0226 #1 [verified, sure: medium] draft 'customs. . . A genuin' | verified 'customs. . A genuin' | judge reads 'customs. . A genuin'
-p0235 #1 [verified, sure: medium] draft 'Godfrey), Author' | verified 'Godfrey),’ Author' | judge reads 'Godfrey),’ Author'
-p0260 #1 [verified, sure: low] draft 'Rècamier' | verified 'Récamier' | judge reads 'Récamier'
-p0272 #1 [draft, sure: high] draft 'Serguevitch' | verified 'Sergueviteh' | judge reads 'Serguevitch'
-p0284 #1 [verified, sure: medium] draft '## THOUGHTS IN ' | verified 'THOUGHTS IN ' | judge reads 'THOUGHTS IN '

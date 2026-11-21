@@ -1,5 +1,0 @@
-{"given": "We have just returned from ten days’ visit", "print": "We have just returned from a ten days’ visit", "sure": "high"}
-{"given": "It was a glorious day; and the ascent", "print": "It was a glorious day, and the ascent", "sure": "high"}
-{"given": "as far as the Buddhist monastery half-way up", "print": "as far as the Buddhist Monastery half-way up", "sure": "high"}
-{"given": "even then feeling so cold, if was difficult", "print": "even then feeling so cold, it was difficult", "sure": "high"}
-{"given": "many of these were azalcas, orange trees", "print": "many of these were azaleas, orange trees", "sure": "high"}
