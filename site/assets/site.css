@@ -113,9 +113,30 @@ header.site { position: relative; }
   font-size: 0.78em; white-space: nowrap; pointer-events: none; }
 .tb-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .tb-resume { margin: 1em 0; }
+/* The bar at the top of a chapter, in view once the header has scrolled away (site.js makes it; the reader can switch it off). */
+html.tb-hasbar:not([data-bar="off"]) { scroll-padding-top: calc(2.6rem * var(--tb-hs) / var(--tb-size, 1)); }
+.tb-bar { position: fixed; z-index: 9; top: 0; left: 0; right: 0; font-size: calc(1rem * var(--tb-hs) / var(--tb-size, 1));
+  color: var(--muted); background: var(--bg); border-bottom: 1px solid var(--line);
+  visibility: hidden; transform: translateY(-100%); transition: transform 0.2s, visibility 0s 0.2s; }
+.tb-bar.tb-on { visibility: visible; transform: none; transition: transform 0.2s; }
+.tb-bar > div { position: relative; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; margin: 0 auto;
+  max-width: var(--tb-width, 36rem); padding: 0 calc(1rem / var(--tb-size, 1)); }
+.tb-bar > div > span { display: flex; gap: 1.2em; }
+.tb-bar > div > a { justify-self: start; margin-left: -0.5em; } .tb-bar > div > button { justify-self: end; margin-right: -0.5em; }
+.tb-bar a, .tb-bar > div > button, .tb-none { display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box;
+  width: 2.4em; height: 2.4em; padding: 0; margin: 0; font: inherit; color: inherit; background: none; border: 0; border-radius: 0.3em; cursor: pointer; }
+.tb-bar a:visited { color: inherit; }
+.tb-bar a:hover, .tb-bar > div > button:hover, .tb-bar > div > button[aria-expanded="true"] { color: var(--link); }
+.tb-bar a:focus-visible, .tb-bar > div > button:focus-visible { outline: 3px solid var(--link); outline-offset: -3px; }
+.tb-none { opacity: 0.3; cursor: default; }
+.tb-bar > div > a svg, .tb-bar > div > span svg, .tb-bar > div > button svg { width: 1.4em; height: 1.4em; fill: none; stroke: currentColor;
+  stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.tb-bar .tb-panel { right: calc(1rem / var(--tb-size, 1)); max-width: calc(100% - 2rem / var(--tb-size, 1)); margin-top: 1px;
+  max-height: calc(100vh - 3.4em); overflow-y: auto; }
+@media (prefers-reduced-motion: reduce) { .tb-bar, .tb-bar.tb-on { transition: none; } }
 @media print {
   :root, :root[data-theme] { --fg: #000; --bg: #fff; --muted: #444; --link: #000; --visited: #000; --line: #999; }
-  header.site nav, nav.pager, .pbtoggle, footer.site, .skip, details.viewer, .tb-panel, .tb-resume { display: none; }
+  header.site nav, nav.pager, .pbtoggle, footer.site, .skip, details.viewer, .tb-panel, .tb-resume, .tb-bar { display: none; }
   body { max-width: none; }
 }
 body:has(#showpb:checked) article.book .pb { display: inline; }

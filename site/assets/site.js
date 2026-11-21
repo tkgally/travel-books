@@ -1,5 +1,6 @@
 // Display settings for every page of the site: colours, size of text, typeface, spacing, column width, underlined
-// links; and for the text of a book justification, paragraph style, correction marks, page numbers, the reader's place. The choices are kept in this browser (localStorage) and
+// links; and for the text of a book justification, paragraph style, correction marks, page numbers, the reader's place
+// and the bar of buttons that appears at the top of a chapter when the reader has scrolled down. The choices are kept in this browser (localStorage) and
 // nowhere else. The site works without this file: the "Display" button is made here, so that a reader whose
 // browser does not run scripts sees no control that does nothing. Styles: site.css, "Display settings".
 (function () {
@@ -7,13 +8,13 @@
   var KEY = 'tb-display', PLACES = 'tb-place', KEEP = 100;
   var root = document.documentElement;
   var DEF = { theme: 'auto', font: 'serif', align: 'justify', para: 'indent', size: 1, lh: 1.6, width: 36, ls: 0, ws: 0,
-              corr: 1, links: 1, pb: 0, place: 1 };
+              corr: 1, links: 1, pb: 0, place: 1, bar: 1 };
   var CHOICES = { theme: ['auto', 'light', 'sepia', 'dark'], font: ['serif', 'sans', 'default'],
                   align: ['justify', 'left'], para: ['indent', 'block'] };
   var STEPS = { size: [0.8, 0.9, 1, 1.1, 1.25, 1.4, 1.6, 1.8, 2], lh: [1.3, 1.45, 1.6, 1.8, 2, 2.3],
                 width: [24, 30, 36, 44, 54, 66], ls: [0, 0.03, 0.06, 0.09, 0.12], ws: [0, 0.08, 0.16, 0.24, 0.32] };
   var UNIT = { size: '', lh: '', width: 'rem', ls: 'em', ws: 'em' };
-  var FLAGS = ['corr', 'links', 'pb', 'place'];
+  var FLAGS = ['corr', 'links', 'pb', 'place', 'bar'];
   var s = load();
 
   function get(key) { try { return localStorage.getItem(key); } catch (e) { return null; } }
@@ -47,6 +48,7 @@
     attr('data-para', s.para === DEF.para ? '' : s.para);
     attr('data-corr', s.corr ? '' : 'off');
     attr('data-links', s.links ? '' : 'off');
+    attr('data-bar', s.bar ? '' : 'off');
     for (k in STEPS) {
       if (s[k] === DEF[k]) root.style.removeProperty('--tb-' + k);
       else root.style.setProperty('--tb-' + k, s[k] + UNIT[k]);
@@ -57,10 +59,12 @@
   root.classList.add('tb-js');
   apply();                       // before the page is drawn: this file is loaded in the head, without "defer"
 
-  // ---- the reader's place: the chapter and the paragraph last read, for each book ----
+  // ---- the reader's place: for each book the chapter last read, and in each chapter the block at the top of the
+  // window and how far down that block the window is (c: { file: [block, part] }) ----
 
   var where = location.pathname.match(/\/books\/([^\/]+)\/([^\/]*)$/);
   var bookId = where && where[1], file = where && (where[2] || 'index.html');
+  var bar = null;     // the bar at the top of a chapter, once it exists
 
   function places() {
     var p;
@@ -68,11 +72,33 @@
     return p && typeof p === 'object' ? p : {};
   }
 
+  // The height that the bar covers at the top of the window (the same whether it is in view or not).
+  function covered() { return bar && s.bar ? bar.offsetHeight : 0; }
+
+  // The first block not wholly above the top of the reading area, and the part of it (0 to 1) that is above.
+  function spot(article) {
+    var kids = article.children, top = covered(), i, r;
+    for (i = 0; i < kids.length; i++) {
+      r = kids[i].getBoundingClientRect();
+      if (r.bottom > top) return { i: i, o: r.height > 0 ? Math.max(0, Math.min(0.99, (top - r.top) / r.height)) : 0 };
+    }
+    return { i: Math.max(0, kids.length - 1), o: 0 };
+  }
+
+  function toSpot(article, at) {
+    var e = article.children[at.i], r;
+    if (!e) return;
+    r = e.getBoundingClientRect();
+    window.scrollBy(0, r.top + at.o * r.height - covered());
+  }
+
   function savePlace(article) {
-    var kids = article.children, i, p, ids;
-    for (i = 0; i < kids.length; i++) if (kids[i].getBoundingClientRect().bottom > 0) break;
-    p = places();
-    p[bookId] = { f: file, b: i, t: Date.now() };
+    var at = spot(article), p = places(), old = p[bookId], c = old && typeof old.c === 'object' && old.c || {}, ids;
+    if (old && old.f && !(old.f in c) && old.b > 0) c[old.f] = [old.b, 0];     // a place kept before the chapters had their own
+    at.o = Math.round(at.o * 100) / 100;
+    if (window.pageYOffset < 2) at = { i: 0, o: 0 };
+    if (at.i || at.o) c[file] = [at.i, at.o]; else delete c[file];
+    p[bookId] = { f: file, b: at.i, t: Date.now(), c: c };
     ids = Object.keys(p);
     if (ids.length > KEEP) {
       ids.sort(function (a, b) { return (p[a].t || 0) - (p[b].t || 0); });
@@ -83,13 +109,15 @@
 
   function chapterPlace(article) {
     var p = places()[bookId], nav = performance.getEntriesByType && performance.getEntriesByType('navigation')[0];
-    var touched = false, timer = 0;
-    function go() {
-      var el = article.children[p.b];
-      if (el && !touched) el.scrollIntoView();
+    var touched = false, moved = false, timer = 0, at = null, c;
+    if (p) {
+      c = p.c && p.c[file];
+      if (c && c.length === 2 && c[0] >= 0 && c[1] >= 0 && c[1] < 1) at = { i: Math.floor(c[0]), o: +c[1] };
+      else if (p.f === file && p.b > 0) at = { i: p.b, o: 0 };
     }
+    function go() { if (!touched) toSpot(article, at); }
     // Back, forward and reload are left to the browser, which returns to the place itself.
-    if (s.place && p && p.f === file && p.b > 0 && !location.hash && (!nav || nav.type === 'navigate')) {
+    if (s.place && at && (at.i || at.o) && !location.hash && (!nav || nav.type === 'navigate')) {
       ['wheel', 'touchstart', 'keydown', 'mousedown'].forEach(function (ev) {
         window.addEventListener(ev, function () { touched = true; }, { passive: true, once: true });
       });
@@ -97,9 +125,12 @@
       window.addEventListener('load', go);      // again when the pictures above have taken their room
     }
     window.addEventListener('scroll', function () {
+      moved = true;
       if (!s.place || timer) return;
       timer = setTimeout(function () { timer = 0; if (s.place) savePlace(article); }, 400);
     }, { passive: true });
+    // Leaving the page (the next chapter, say) within that time: keep the place as it is now.
+    window.addEventListener('pagehide', function () { if (s.place && moved) savePlace(article); });
   }
 
   function resumeLink() {
@@ -124,7 +155,9 @@
     justify: 'M3 6h18M3 10h18M3 14h18M3 18h18', left: 'M3 6h18M3 10h12M3 14h16M3 18h9',
     indent: 'M8 4h13M3 8h18M3 12h11M8 16h13M3 20h18', block: 'M3 4h18M3 8h11M3 15h18M3 19h11',
     place: 'M7 3h10v18l-5-4-5 4z', reset: 'M4 12a8 8 0 1 0 2.6-5.9M4 4v5h5',
-    more: 'M5 9l7 7 7-7' };
+    more: 'M5 9l7 7 7-7', bar: 'M4 5h16v14H4zM4 9h16M7 7h.01M11 7h2M17 7h.01',
+    contents: 'M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01', prev: 'M15 5l-7 7 7 7', next: 'M9 5l7 7-7 7',
+    display: 'M4 7h8M16 7h4M4 17h4M12 17h8M12 7a2 2 0 1 0 4 0a2 2 0 1 0-4 0M8 17a2 2 0 1 0 4 0a2 2 0 1 0-4 0' };
   function svg(name) { return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="' + LINES[name] + '"/></svg>'; }
   function txt(cls, text, style) {
     return '<span aria-hidden="true" class="' + cls + '"' + (style ? ' style="' + style + '"' : '') + '>' + text + '</span>';
@@ -150,8 +183,15 @@
     var adv = el('div', { id: 'tb-adv', 'class': 'tb-adv', hidden: '' });
     var status = el('span', { 'class': 'tb-sr', role: 'status' });
     var tip = el('div', { 'class': 'tb-tip', 'aria-hidden': 'true', hidden: '' });
+    var barBtn = null, opener = btn, showBar = function () {};
 
-    function changed() { apply(); save(); refresh(); }
+    // A change of size, spacing or width moves the text: the reader of a chapter stays at the same words.
+    function changed() {
+      var at = article && window.pageYOffset > 0 ? spot(article) : null;
+      apply(); save(); refresh();
+      if (at) toSpot(article, at);
+      showBar();
+    }
     function refresh() { refreshers.forEach(function (f) { f(); }); }
 
     function choice(parent, key, label, options) {       // options: [value, name, picture]
@@ -246,6 +286,7 @@
     toggle(flags, 'place', 'Remember my place in each book', svg('place'), function () {
       if (s.place) { if (article && bookId) savePlace(article); } else try { localStorage.removeItem(PLACES); } catch (e) {}
     });
+    toggle(flags, 'bar', 'Show a bar of buttons at the top of a chapter when I have scrolled down', svg('bar'));
     adv.appendChild(flags);
     var resetRow = el('div', { 'class': 'tb-row' });
     var reset = el('button', { type: 'button', 'aria-label': 'Back to the settings the site starts with',
@@ -266,18 +307,59 @@
     if (old) old.parentNode.removeChild(old);
     refresh();
 
-    function open(yes) {
-      panel.hidden = !yes;
-      btn.setAttribute('aria-expanded', yes ? 'true' : 'false');
-      tip.hidden = true;
+    // The bar at the top of a chapter (Tom, 2026-11-21): made here, like the button, and only where there is a text
+    // to read. It comes into view when the header has gone out of it. Its links are those of the page's own pager.
+    function buildBar() {
+      var pager = document.querySelector('nav.pager'), inner = el('div'), mid = el('span');
+      if (!article || !pager) return;
+      function link(name, label, from) {
+        var a = from ? el('a', { href: from.getAttribute('href'), 'aria-label': label, title: label }, svg(name))
+                     : el('span', { 'class': 'tb-none', 'aria-hidden': 'true' }, svg(name));
+        if (from && from.rel) a.rel = from.rel;
+        return a;
+      }
+      function words(a) { return a ? a.textContent.replace(/^[←\s]+|[→\s]+$/g, '') : ''; }
+      var prev = pager.querySelector('a[rel=prev]'), next = pager.querySelector('a[rel=next]');
+      bar = el('nav', { 'class': 'tb-bar', 'aria-label': 'This book' });
+      inner.appendChild(link('contents', 'This book: its page and contents', pager.querySelector('a:not([rel])')));
+      mid.appendChild(link('prev', 'Previous: ' + words(prev), prev));
+      mid.appendChild(link('next', 'Next: ' + words(next), next));
+      inner.appendChild(mid);
+      barBtn = el('button', { type: 'button', 'aria-expanded': 'false', 'aria-controls': 'tb-panel', 'aria-label': 'Display settings',
+                              title: 'Display settings' }, svg('display'));
+      inner.appendChild(barBtn);
+      bar.appendChild(inner);
+      header.parentNode.insertBefore(bar, header.nextSibling);
+      root.classList.add('tb-hasbar');
+      // In view: the reader has it switched on and the header is out of view; and as long as the panel is open in it.
+      showBar = function () {
+        var held = !panel.hidden && panel.parentNode !== header;
+        bar.classList.toggle('tb-on', held || (!!s.bar && header.getBoundingClientRect().bottom < 0));
+      };
+      window.addEventListener('scroll', showBar, { passive: true });
+      window.addEventListener('resize', showBar);
+      barBtn.addEventListener('click', function () { open(panel.hidden || opener !== barBtn, barBtn); });
+      showBar();
     }
-    btn.addEventListener('click', function () { open(panel.hidden); });
+
+    function open(yes, from) {
+      var home = from === barBtn ? bar.firstChild : header;
+      if (yes && panel.parentNode !== home) home.appendChild(panel);
+      if (yes) opener = from;
+      panel.hidden = !yes;
+      btn.setAttribute('aria-expanded', yes && opener === btn ? 'true' : 'false');
+      if (barBtn) barBtn.setAttribute('aria-expanded', yes && opener === barBtn ? 'true' : 'false');
+      tip.hidden = true;
+      showBar();
+    }
+    btn.addEventListener('click', function () { open(panel.hidden || opener !== btn, btn); });
     document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && !panel.hidden) { open(false); btn.focus(); }
+      if (e.key === 'Escape' && !panel.hidden) { open(false); opener.focus(); }
     });
     document.addEventListener('click', function (e) {
-      if (!panel.hidden && !panel.contains(e.target) && !btn.contains(e.target)) open(false);
+      if (!panel.hidden && !panel.contains(e.target) && !btn.contains(e.target) && !(barBtn && barBtn.contains(e.target))) open(false);
     });
+    buildBar();
 
     // The names of the controls, shown beside them for a mouse or a keyboard (a touch screen has no hovering).
     function showTip(target) {
@@ -291,7 +373,7 @@
       left = r.left - p.left + r.width / 2 - tip.offsetWidth / 2;
       left = Math.max(4, Math.min(left, p.width - tip.offsetWidth - 6));
       tip.style.left = left + 'px';
-      tip.style.top = (r.bottom - p.top + 4) + 'px';
+      tip.style.top = (r.bottom - p.top + panel.scrollTop + 4) + 'px';
     }
     if (window.matchMedia && matchMedia('(hover: hover)').matches) {
       panel.addEventListener('mouseover', function (e) { showTip(e.target); });
@@ -304,7 +386,7 @@
     });
     panel.addEventListener('focusout', function () { tip.hidden = true; });
 
-    ui = { refresh: refresh };
+    ui = { refresh: function () { refresh(); showBar(); } };
   }
 
   function ready() {

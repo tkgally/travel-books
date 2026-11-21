@@ -18,7 +18,7 @@ for a plan for the home page as the number of books grows. This is it. Change it
 | `books/<id>/…` | a book's page, its chapters, EPUB, ODT, JSON | the book |
 
 Every line for a book, in every list, is the same (`book_line`): short title, author, year; under it the places,
-the time of the journey, and "JATSI (about)" for a book of that list.
+the time of the journey, and "(JATSI)" for a book of that list.
 
 ## Stages
 
@@ -46,8 +46,8 @@ the home page heavy and the lists harder to scan).
 ## The JATSI books on the site (Tom, 2026-11-20)
 
 The reader is told in three places, in plain words: the second paragraph of the home page; the label
-"JATSI (about)" on each such book and queue row (Tom shortened it on 2026-11-20 from "from Japan As They Saw It
-(about these books)"; `jatsi_label()`; not on `japan-as-they-saw-it.html` itself, where he found it redundant); and the row "Why it is here" in
+"(JATSI)", linked to `japan-as-they-saw-it.html`, on each such book and queue row (Tom, 2026-11-21; before that
+"JATSI (about)", and first "from Japan As They Saw It (about these books)"; `jatsi_label()`; not on `japan-as-they-saw-it.html` itself, where he found it redundant); and the row "Why it is here" in
 the table on the book's own page. Wherever the name stands in running text or a label it links to Tom's project
 (<https://www.gally.net/jatsi/index.html>; `jatsi_name()` in the builder, a Markdown link in `site/*.md`), and
 "about these books" links to the page on this site.
@@ -88,6 +88,18 @@ What Tom decided is in `preferences.md` (2026-11-20, "display settings"). How it
 - **A new theme** needs its six colours in `site.css` (`:root[data-theme="…"]`), a swatch (`.tb-sw-…`) and its name
   in `CHOICES.theme` in the script; the dark colours are written twice (device and choice) and a test keeps the two
   the same. Print always uses black on white.
+- **The bar at the top of a chapter (Tom, 2026-11-21):** `nav.tb-bar`, made by the script on pages that have
+  `article.book` and `nav.pager`, placed after the header, `position: fixed`. Four pictures, no words (each with an
+  `aria-label` and a `title`): the book's page at `#contents`, previous, next (their addresses are read from the
+  page's pager; at the first or last chapter the arrow is a dimmed `span`), and a button that opens the same
+  Display panel, which is moved into the bar while opened from there. In view (`tb-on`) when the header is out of
+  view and the flag `bar` is on (default; `data-bar="off"` otherwise), and as long as the panel is open in it — so
+  switching the bar off from the bar does not take the panel away. `scroll-padding-top` on `<html>` keeps anchors
+  and keyboard focus from landing under it. Index pages have no bar.
+- **The place in each chapter:** `tb-place` holds for each book `f`, `b`, `t` as before and `c`: chapter file →
+  [block at the top of the reading area, the part of it (0–0.99) above the top]. Saved on scroll (every 400 ms)
+  and on `pagehide`; a chapter opened by a link goes to its own saved place. A change in the panel keeps the same
+  words at the top of the window (`spot`, `toSpot`).
 - **Not built, by Tom's decision:** hosted fonts (so no named fonts or weights), free choice of colours,
   pagination, scrolling settings.
 - **Checked in Chromium only** (desktop and phone widths, scripts off, dark device). Not checked: Safari, Firefox,

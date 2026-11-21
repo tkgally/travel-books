@@ -238,6 +238,24 @@ How this was carried out: `RESUME.md` §"How long a session runs", `tools/sessio
 - **On `japan-as-they-saw-it.html` the book descriptions have neither link** ("JATSI", "(about)"): they are
   redundant on that page (same day).
 
+## 2026-11-21 (interface: JATSI wording and a reading bar; a session with Claude Fable, by Tom's choice)
+
+- Tom ran this session with Claude Fable himself ("this special Fable session"), for changes to the interface and
+  the site text only. The rule against Fable for the books stands.
+- **Home page:** "a list of books about Japan that is being added to this site a book at a time" becomes "a list of
+  books about Japan that are being added to this site one at a time."
+- **The mark of a JATSI book in the lists** is now "**(JATSI)**", the word JATSI linked to
+  `japan-as-they-saw-it.html` (before: "JATSI (about)", the word linked to his project).
+- **`japan-as-they-saw-it.html` begins** "Japan As They Saw It (JATSI) is an earlier project of Tom Gally": the link
+  to his site on the words "Japan As They Saw It" only, not on "(JATSI)".
+- **A bar at the top of the chapter pages** (the pages with the text of a book; not the index pages), unobtrusive,
+  which appears when the reader scrolls down. No words, only simple icons: on the far left, to the book's own
+  page, at the top of its table of contents; in the middle, left and right arrows to the previous and next
+  chapter; on the right, the Display settings, so that they can be changed while scrolled down in a page. With
+  "Remember my place in each book" on, **the place in each chapter is remembered**, so that going to the next
+  chapter and coming back returns to where the reader was. **A setting in the Display panel shows or hides the bar
+  on all pages.**
+
 ## Questions for Tom
 
 None open.
