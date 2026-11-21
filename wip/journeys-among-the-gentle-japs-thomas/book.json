@@ -1,0 +1,15 @@
+{
+ "id": "journeys-among-the-gentle-japs-thomas",
+ "version": 1,
+ "date": "2026-11-21",
+ "title": "Journeys among the Gentle Japs in the Summer of 1895",
+ "short_title": "Journeys among the Gentle Japs",
+ "authors": [{"name": "J. Ll. Thomas", "sort": "Thomas, J. Ll.", "died": 1940}],
+ "place": "London",
+ "publisher": "Sampson Low, Marston & Company",
+ "year": 1897,
+ "edition_statement": "First edition",
+ "collection": "jatsi",
+ "source": {"ia_identifier": "journeysamonggen00thom", "contributor": "University of California Libraries", "hidden_leaves": [0, 9, 10, 323, 324, 325, 326, 327]},
+ "history": [{"version": 1, "date": "2026-11-21", "note": "First publication."}]
+}
