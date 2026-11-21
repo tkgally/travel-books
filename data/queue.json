@@ -78,8 +78,8 @@
    "checked": "2026-11-19",
    "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Kessinger, Creative Media (print on demand). Re-checked 2026-11-19: not in pg_catalog.csv (Rose Kingsley's other books are); The Online Books Page lists page images only (Germany); web search finds only Kessinger (2007/2010), Creative Media Partners (2023) and other print-on-demand reprints. An ISBN 0-87380-148-2 (Rio Grande Press, a real reprint house) seen near it in results is Schwatka's In the Land of Cave and Cliff Dwellers, not this book. Editor Charles Kingsley d. 1875; author d. 1925; the engravers are not named in the book (work done by 1874, so its makers died before 1955 under rule 5).",
    "note": "University of California scan. Preface by Charles Kingsley; some plates.",
-   "version": 3,
-   "published": "2026-11-20"
+   "version": 4,
+   "published": "2026-11-21"
   },
   {
    "order": 4,
@@ -96,8 +96,8 @@
    "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Creative Media (print on demand). An excerpt is in an anthology. Re-checked 2026-11-20: not in pg_catalog.csv; a web search found only catalogue records and scan-based e-books.",
    "note": "Getty Research Institute scan, crisp. About 500 pages.",
    "started": "2026-11-20",
-   "version": 2,
-   "published": "2026-11-20"
+   "version": 3,
+   "published": "2026-11-21"
   },
   {
    "order": 5,
@@ -660,8 +660,8 @@
    "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv; not on The Online Books Page; Wikisource only a bibliography citation; web search of a distinctive sentence found nothing. Reprints seen: Read Books 2010 (print-on-demand facsimile). Author 1830–1905 (scholarly article on women travellers to Iceland, scancan.net). Illustrations from the author's own sketches. Not checked: WorldCat.",
    "note": "University of California scan, 500 ppi; clean. Woodcuts after the author's sketches, one map, advertisements at the end. Chapters V–VI are an essay on the sagas; the rest is riding through Iceland over three summers (from 1875), matching places to the sagas. She prints þ and ð as th and d.",
    "started": "2026-11-20",
-   "version": 1,
-   "published": "2026-11-20"
+   "version": 2,
+   "published": "2026-11-21"
   },
   {
    "order": 37,

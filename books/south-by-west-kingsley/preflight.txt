@@ -24,6 +24,8 @@
 [ look (1)] contents: entries of the printed contents with no matching heading
             - p0021: 'The Hotel Iturbide—Flowers—Tacubaya—The Paseo—Aztec calendar stone—The'
 [       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
 [look (11)] accents: words the book spells with different accents (or with and without): look at each group on the scan
             - a: a (p0009, p0010, p0013, p0014, p0015, p0016…); à (p0202)
@@ -39,4 +41,4 @@
             - senor: senor (p0426); señor (p0021, p0201, p0207, p0208, p0210, p0213…)
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: south-by-west-kingsley v3 — 0 to fix, 2 waived; to look at: hyphen-joins 2, contents 1, accents 11 — tools@9de0b2b 2026-11-20
+preflight PASS: south-by-west-kingsley v4 — 0 to fix, 2 waived; to look at: hyphen-joins 2, contents 1, accents 11 — tools@d6d9a1f 2026-11-21

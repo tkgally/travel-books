@@ -52,6 +52,14 @@
             - p0029: 'Southampton Railway—Southampton—Portsmouth—Dock Yard—Plymouth—Devonpor'
             - p0029: 'Customs, and Manners, Education, &c.'
             - p0030: 'Salutations indicative of the Climate—Ice—Beautiful appearance of Snow'
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[ look (2)] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+            - p0298: verse continued from p0297: stanzas before [22] | here [2] (a stanza ending at the page foot needs no [[cont]])
+            - p0507: verse continued from p0506: stanzas before [4] | here [4] (a stanza ending at the page foot needs no [[cont]])
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
+[ look (1)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0007, p0009, p0010, p0011, p0012, p0013…); à (p0306)
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: journal-of-a-residence-nowrojee-merwanjee v2 — 0 to fix, 8 waived; to look at: hyphen-joins 4, joins 1, folios 1, contents 26 — tools@852fcc3 2026-11-20
+preflight PASS: journal-of-a-residence-nowrojee-merwanjee v3 — 0 to fix, 8 waived; to look at: hyphen-joins 4, joins 1, folios 1, contents 26, verse-joins 2, accents 1 — tools@d6d9a1f 2026-11-21
