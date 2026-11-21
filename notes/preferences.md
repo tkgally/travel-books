@@ -260,6 +260,13 @@ How this was carried out: `RESUME.md` §"How long a session runs", `tools/sessio
   its arrows, the chapter that appears is scrolled either to just above its title or to the reader's earlier place
   in it, and **the bar stays in view**, so that the controls are visible and in the same position.
 
+## 2026-11-21 (a logo and favicon)
+
+- **The site has a logo and favicon: a stack of three books** (candidate 19 of twenty Tom was shown; the
+  proposals are in the project files, `logo-proposals/`). One SVG, in the site's own ink and link blue, used as
+  the favicon of every page and beside "Travel Books" in the header of every page. It follows the reader's
+  light, sepia and dark setting.
+
 ## Questions for Tom
 
 None open.

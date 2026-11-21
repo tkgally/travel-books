@@ -21,6 +21,13 @@ import compile_book, inline, render_html as rh, render_epub, render_odt  # noqa:
 
 SITE = "Travel Books"
 REPO_URL = "https://github.com/tkgally/travel-books"
+# The logo (Tom, 2026-11-21: a stack of three books). The favicon is assets/logo.svg, which has its own light and
+# dark colours; the copy in the header is drawn inline so that it takes the page's colours (light, sepia, dark).
+LOGO = ('<svg class="logo" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true" focusable="false">'
+        '<rect class="logo-i" x="2.5" y="23" width="27" height="6.5" rx="1"/>'
+        '<rect class="logo-a" x="5" y="15.5" width="23" height="6.5" rx="1"/>'
+        '<rect class="logo-i" x="3.5" y="8" width="21" height="6.5" rx="1" transform="rotate(-6 14 11.25)"/>'
+        '<path class="logo-k" stroke-width="1.4" d="M7 23V29.5M9.5 15.5V22"/></svg>')
 esc = rh.esc
 attr = rh.attr
 
@@ -45,6 +52,7 @@ def _page(title, body, root, crumbs=(), extra_head="", book_css=False):
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>{esc(full)}</title>
+<link rel="icon" href="{root}assets/logo.svg" type="image/svg+xml"/>
 <link rel="stylesheet" href="{root}assets/site.css"/>
 {css}{extra_head}
 <script src="{root}assets/site.js"></script>
@@ -52,7 +60,7 @@ def _page(title, body, root, crumbs=(), extra_head="", book_css=False):
 <body>
 <a class="skip" href="#main">Skip to the text</a>
 <header class="site">
-<p class="sitename"><a href="{root}index.html">{SITE}</a></p>
+<p class="sitename"><a href="{root}index.html">{LOGO}{SITE}</a></p>
 <nav aria-label="Site"><ul><li><a href="{root}index.html#books">Books</a></li><li><a href="{root}about.html">About</a></li></ul></nav>
 </header>
 {f'<nav class="crumbs" aria-label="Breadcrumb"><ol>{nav}</ol></nav>' if nav else ''}
