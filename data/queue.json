@@ -338,11 +338,13 @@
    "place": "London",
    "publisher": "Sampson Low, Marston & Company",
    "images": 326,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-20",
    "eligibility": "JATSI 130. All five rules met. Rule 1: University of California scan, colour 400 ppi, clean; the folding route map is scanned unfolded. Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person account of a tour in summer 1895 by way of Canada; about 85–90% on Japan; the last chapter (religions) is largely compiled. Rule 5: Joseph Llewelyn Thomas d. 1940 (LC heading; birth year not found). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
    "note": "251 pp. and an index; a photogravure portrait and the map (lithographer F. S. Weller: a trade credit); many long quotations in small type; footnotes. The title uses a word now offensive: kept as printed, as everywhere.",
-   "started": "2026-11-21"
+   "started": "2026-11-21",
+   "version": 1,
+   "published": "2026-11-21"
   },
   {
    "order": 19,

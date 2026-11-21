@@ -1,5 +1,0 @@
-{"given": "When we where quite five", "print": "When we were quite five", "sure": "high"}
-{"given": "was an uuconscionably long time", "print": "was an unconscionably long time", "sure": "high"}
-{"given": "When at length; after long", "print": "When at length, after long", "sure": "high"}
-{"given": "experience of underground japan, after", "print": "experience of underground Japan, after", "sure": "high"}
-{"given": "minutes’ absence daylight, however, we", "print": "minutes’ absence of daylight, however, we", "sure": "high"}

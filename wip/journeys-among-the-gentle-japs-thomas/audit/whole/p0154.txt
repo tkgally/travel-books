@@ -1,6 +1,0 @@
-{"given": "“The Peerless mountain”—The earthquake", "print": "“The Peerless Mountain”—The earthquake", "sure": "high"}
-{"given": "to inquire, as railway arrangements were", "print": "to inquire, as the railway arrangements were", "sure": "high"}
-{"given": "no reliance could he placed", "print": "no reliance could be placed", "sure": "high"}
-{"given": "on the Tôkaidô platform; surrounded by", "print": "on the Tôkaidô platform, surrounded by", "sure": "high"}
-{"given": "squatting in groups, myfelf and a", "print": "squatting in groups, myself and a", "sure": "high"}
-{"given": "Chapter X.", "print": "CHAPTER X.", "sure": "low"}

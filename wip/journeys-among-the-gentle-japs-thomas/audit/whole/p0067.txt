@@ -1,5 +1,0 @@
-{"given": "and Yedo became capital. The", "print": "and Yedo became the capital. The", "sure": "high"}
-{"given": "Kwannon, the Goddess of mercy.", "print": "Kwannon, the Goddess of Mercy.", "sure": "high"}
-{"given": "end of the twelfth ccntury, occupies", "print": "end of the twelfth century, occupies", "sure": "high"}
-{"given": "the Ryobu Shintô, on mixed Shintô", "print": "the Ryobu Shintô, or mixed Shintô", "sure": "high"}
-{"given": "religious systems of Japan; and shall", "print": "religious systems of Japan, and shall", "sure": "high"}
