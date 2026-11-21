@@ -997,11 +997,13 @@
    "place": "Tenby",
    "publisher": "F. B. Mason",
    "images": 250,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-21",
    "eligibility": "Checked 2026-11-21 (Opus subagent): PG catalogue: none. Online Books Page: none. Wikisource search: none. Faded Page: not properly checked (scripted search returns nothing; a site: web search found nothing). Web search of title and of a preface sentence found only scans and raw OCR (HathiTrust, Cornell Southeast Asia Visions, a Tamil Digital Library PDF, distantreader.org): none disqualify. No reprint of any kind found. Author born 1849 (accessgenealogy.com 'Allen of Bicton'), son of Charles Allen of the Legislative Council of India (matches the dedication); death date not found, so rule 5 by the birth year (before 1856). Not checked: WorldCat, Crockford, Venn: look for the death date before starting. Re-checked 2026-11-21 (the session): not in pg_catalog.csv; death date still not found (Allen of Bicton genealogy: born 1849, married 1890); rule 5 met by the birth year.",
    "note": "UC Libraries (Los Angeles) scan, 400 ppi; clean OCR; one map, footnotes at page foot. A vicar's six-month tour, Egypt on the way out, then India, Burma (the Shwe Dagon, monasteries) and Ceylon, written with an eye to missions and the Church.",
-   "started": "2026-11-21"
+   "started": "2026-11-21",
+   "version": 1,
+   "published": "2026-11-21"
   },
   {
    "order": 56,
