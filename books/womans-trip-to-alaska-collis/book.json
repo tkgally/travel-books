@@ -1,7 +1,7 @@
 {
  "id": "womans-trip-to-alaska-collis",
- "version": 1,
- "date": "2026-11-20",
+ "version": 2,
+ "date": "2026-11-21",
  "title": "A Woman’s Trip to Alaska: Being an Account of a Voyage through the Inland Seas of the Sitkan Archipelago in 1890",
  "short_title": "A Woman’s Trip to Alaska",
  "authors": [
@@ -29,6 +29,11 @@
    "version": 1,
    "date": "2026-11-20",
    "note": "First publication."
+  },
+  {
+   "version": 2,
+   "date": "2026-11-21",
+   "note": "A printer’s error corrected: “diminishes” for “diminishes.” (p. 143) (found by a sweep of all the books after a reader’s report (issue #117), checked on the scan)."
   }
  ],
  "regions": [
@@ -159,12 +164,13 @@
   "p0208-1"
  ],
  "audit": {
-  "version": 1,
-  "date": "2026-11-20",
+  "version": 2,
+  "date": "2026-11-21",
   "pages": 61,
   "recall": "29/30 + 273/275 on the 55 fallback pages",
   "real_errors": 0,
-  "fixed": 0
+  "fixed": 0,
+  "note": "text unchanged except listed fixes"
  },
  "keep_hyphens": [
   "p0100"

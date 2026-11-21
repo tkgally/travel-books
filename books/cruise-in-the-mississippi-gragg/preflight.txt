@@ -28,6 +28,8 @@
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
 [       ok] accents: words the book spells with different accents (or with and without): look at each group on the scan
 [       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[       ok] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+[       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: cruise-in-the-mississippi-gragg v2 — 0 to fix, 0 waived; to look at: hyphen-joins 2 — tools@636b1b8d 2026-11-21
+preflight PASS: cruise-in-the-mississippi-gragg v3 — 0 to fix, 0 waived; to look at: hyphen-joins 2 — tools@7614af67 2026-11-21

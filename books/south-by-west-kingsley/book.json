@@ -1,6 +1,6 @@
 {
  "id": "south-by-west-kingsley",
- "version": 4,
+ "version": 5,
  "date": "2026-11-21",
  "title": "South by West; or, Winter in the Rocky Mountains and Spring in Mexico",
  "short_title": "South by West",
@@ -69,6 +69,11 @@
    "version": 4,
    "date": "2026-11-21",
    "note": "Verse: a stanza that began at the top of a page had been joined to the last stanza of the page before (leaf p0192); now set as a new stanza, as printed. Found at the review after thirty books by the new preflight list `verse-joins`, checked on the scan."
+  },
+  {
+   "version": 5,
+   "date": "2026-11-21",
+   "note": "A printer’s error corrected: “water” for “water.” (p. 368) (found by a sweep of all the books after a reader’s report (issue #117), checked on the scan)."
   }
  ],
  "divisions": [
@@ -125,8 +130,8 @@
   }
  ],
  "audit": {
-  "version": 4,
-  "date": "2026-11-19",
+  "version": 5,
+  "date": "2026-11-21",
   "pages": 6,
   "recall": "30/30",
   "real_errors": 0,

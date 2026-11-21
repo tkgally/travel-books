@@ -1,7 +1,7 @@
 {
  "id": "jaunt-in-japan-jackson",
- "version": 1,
- "date": "2026-11-20",
+ "version": 2,
+ "date": "2026-11-21",
  "title": "A Jaunt in Japan",
  "subtitle": "Ninety Days’ Leave in the Far East",
  "short_title": "A Jaunt in Japan",
@@ -28,6 +28,11 @@
    "version": 1,
    "date": "2026-11-20",
    "note": "First publication."
+  },
+  {
+   "version": 2,
+   "date": "2026-11-21",
+   "note": "A printer’s error corrected: “midnight” for “midnight.” (p. 26) (found by a sweep of all the books after a reader’s report (issue #117), checked on the scan)."
   }
  ],
  "regions": [
@@ -177,11 +182,12 @@
   "p0143"
  ],
  "audit": {
-  "version": 1,
-  "date": "2026-11-20",
+  "version": 2,
+  "date": "2026-11-21",
   "pages": 6,
   "recall": "30/30",
   "real_errors": 0,
-  "fixed": 0
+  "fixed": 0,
+  "note": "text unchanged except listed fixes"
  }
 }

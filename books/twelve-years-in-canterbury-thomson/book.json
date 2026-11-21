@@ -1,7 +1,7 @@
 {
  "id": "twelve-years-in-canterbury-thomson",
- "version": 1,
- "date": "2026-11-20",
+ "version": 2,
+ "date": "2026-11-21",
  "title": "Twelve Years in Canterbury, New Zealand",
  "subtitle": "With Visits to the Other Provinces, and Reminiscences of the Route Home through Australia, etc. (From a Lady’s Journal.)",
  "short_title": "Twelve Years in Canterbury",
@@ -27,6 +27,11 @@
    "version": 1,
    "date": "2026-11-20",
    "note": "First publication."
+  },
+  {
+   "version": 2,
+   "date": "2026-11-21",
+   "note": "A printer’s error corrected: “manner” for “manner.” (p. 162) (found by a sweep of all the books after a reader’s report (issue #117), checked on the scan)."
   }
  ],
  "divisions": [
@@ -135,11 +140,12 @@
   "p0218"
  ],
  "audit": {
-  "version": 1,
-  "date": "2026-11-20",
+  "version": 2,
+  "date": "2026-11-21",
   "pages": 6,
   "recall": "27/29",
   "real_errors": 0,
-  "fixed": 0
+  "fixed": 0,
+  "note": "text unchanged except listed fixes"
  }
 }
