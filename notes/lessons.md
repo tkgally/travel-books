@@ -202,6 +202,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   letter; move the letter's `#` heading onto the plate leaf and say so in `notes_on_text`. Compare the `#` lines of draft and
   judge (`grep -c '^#'`) after the judge: the verifier dropped two letter headings.
 - A book that prints two marks for the long vowel (ō and a tilde-like õ, even in the same word): the draft made most õ into ō (*Land of the Tatami*: 8, and the audit found a ninth). Send the `accents` groups and every õ/ō word to a subagent with enlarged crops.
+- A long quotation in small type that fills whole pages: drafts set the full pages as body text and the part pages as `<blockquote>` (*Gentle Japs*: 4 pages; the compiler warned “[[cont]] with nothing to continue”). Look at each such warning on the scan.
+- Preflight `misprints` lists “iu”: in a Japanese phrase it is a real word (*Gentle Japs* p. 117).
 - The year of the journey is often not printed: work it out from weekdays given with dates and from what the
   traveller could use (railways), and say in the summary that it is inferred.
 

@@ -1,5 +1,0 @@
-{"given": "a student arrived upon scene who", "print": "a student arrived upon the scene who", "sure": "high"}
-{"given": "Turning to the bewildered coolies; he", "print": "Turning to the bewildered coolies, he", "sure": "high"}
-{"given": "competition for the honor. I selected", "print": "competition for the honour. I selected", "sure": "high"}
-{"given": "just in time to he told", "print": "just in time to be told", "sure": "high"}
-{"given": "Kyôto, tbough not as large", "print": "Kyôto, though not as large", "sure": "high"}

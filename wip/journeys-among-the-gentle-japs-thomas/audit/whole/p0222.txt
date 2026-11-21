@@ -1,5 +1,0 @@
-{"given": "‘Westward the Far East’", "print": "‘Westward to the Far East’", "sure": "high"}
-{"given": "Manners rather then morals", "print": "Manners rather than morals", "sure": "high"}
-{"given": "Back in hiroshima—The happiest", "print": "Back in Hiroshima—The happiest", "sure": "high"}
-{"given": "two or three days besore they", "print": "two or three days before they", "sure": "high"}
-{"given": "at a high-class restaurant; to the", "print": "at a high-class restaurant, to the", "sure": "high"}

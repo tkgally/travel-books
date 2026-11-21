@@ -70,6 +70,7 @@
 | A Parson’s Holiday v2 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | p. 85 printed “wbo” → [[corr]] (new `misprints` list) |
 | From West Africa to Palestine v3 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | p. 128 printed “ont he” → [[corr]] on the (sweep after issue #100) |
 | The Golden Dagon v1 | 2026-11-21 | 332 | Opus draft → Sonnet corrections → Opus judge; spot-read of ~55 pages (front matter, verse, quotations, the oath chapter, appendix) and rendered look by Opus subagents | 37 | 29 / 7 / 0 (+1 by hand) | 2 (printed misprints “scarely”, “disengnge” marked) | 32.15 | 0 | PASS, 2 waived (ditto marks in advertisements) | 30/30; 0 / 6 (spot-read: 1 heading mark-up; preflight: 1 folio misread, 2 stanza joins, 1 page join) | |
+| Journeys among the Gentle Japs v1 | 2026-11-21 | 312 | Opus draft → Sonnet corrections → Opus judge; spot-read of ~30 pages (front matter, footnotes, verse), the 32 accents groups, a small-type sweep of every page and rendered look by Opus subagents | 7 | 3 / 4 / 0 | 0 | 33.14 | 0 | PASS, 0 waived | 30/30; 0 / 6 (spot-read: 1 speck read as an accent; session: 4 pages of small type not set as quotations, 2 misprints, 1 lost letter) | |
 
 ## Calibrations
 

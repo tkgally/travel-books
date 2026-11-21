@@ -1,7 +1,0 @@
-Differences: "This is but" vs draft "This is but" — the draft has "This is but", which matches. Checking the rest: "temple-yard" matches, and "lord's" matches.
-
-{"find": "the temple-yard", "replace": "the temple-yard"}
-
-Correction: that entry changes nothing. The draft matches the page, so:
-
-NONE
