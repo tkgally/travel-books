@@ -4,7 +4,8 @@ IA: argentineplainsa00lardrich (University of California Libraries; 431 leaves, 
 Eligibility: vetted 2026-11-20 (queue row); re-checked 2026-11-21: web search of the title finds no text. Larden 1855–1919. Two photographs (1869) by his brother, who went to Argentina in 1868: born before about 1850, so dead by 1950 under the rule for unknown dates (selection.md rule 5).
 
 ## Status
-Stage reached: (a) scan checked; draft started.            Next step: Drive cache; corrections pass.
+Stage reached: (b)–(c): pages, structure, metadata, crops done; preflight fixes applied; spot-read, audit and rendered look running.            Next step: apply spot-read findings, audit candidates on crops, audit record, preflight, publish.
+Meter at this checkpoint: context 282,895 (28%), 0 summaries, 0.9 h.
 
 ## Page map
 Scan check (Opus subagent, 2026-11-21: all 11 sheets, running heads of every leaf by tesseract, a dozen leaves at full size): PASS. Pages 1–320 complete; offset +8 at p. 25, +2 at each of 47 plates; no p0000; leaf 427 absent from IA's zip (after the back board: nothing lost).
@@ -14,10 +15,22 @@ Plates (47, blank back on the next leaf, no tissue except the frontispiece): p00
 Has: footnotes; tables (pp. 76, 77, 82–83, 121, 300–307 with „ dittos); italic side-heads; Spanish words with accents printed inconsistently (follow exactly); verse p. 69 (Spanish), p. 122; glossary; pencil marks pp. 120–135, 299 (not text).
 
 ## Decisions
+- Half-title "Argentine Plains" above Chapter I: a front division at p0031 (n 1), Chapter I n 2; left out of the reading editions.
+- Printed contents (p0017–p0026): chapter lines typed as `[[center]]` (the draft mixed `#` and `##`); the topic tables kept. Editions' contents: every chapter with its printed summary (`toc: subtitles all`); "Appendices" is a part with Appendix I and II under it.
+- Italic side-heads inside chapters as `##` (a few `###` where the print sets a smaller head); five drafted without italics were italic on the scan (p0124 ×2, p0212 ×2, p0333).
+- The plates of four locust photographs (p0161) and of two maize photographs (p0185) are cropped whole, with their printed numbers, as their captions refer to them; the other plates one crop per photograph.
+- Caption p0193 prints "VOL'ADORA" (a displaced accent): typed "Voládora" as the draft read it, not marked (assumed).
+- Accents checked on crops by the session: àguila/Águila, Cénso, màs, dō, mèdano/médano, Melincuê, mètres/metres, guia (p0267) as printed; "Lüis" in the index misread → Luis. Guía (p0412, bold) left as the judge read it.
+- Printer's errors: p0353 "way It" (full stop left out) → [[corr]].
+- p0409: "as accurate enough." resumes a paragraph after a centred equation; the markup cannot continue it, so it is a paragraph of its own (known issue). p0407: second note mark "1" for one note → `[[fnref 1 again]]`.
+- Inch marks after fractions in the locust table (p0163) closed up; ditto marks ” in the stock table (p0406) kept, spacing waived.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-21 | opus | 413 | 26.46 | no page refused |
+| corrections | 2026-11-21 | sonnet | 413 | 13.04 | 15 changes (2 not applied, 1 [[cont]] added) |
+| judge | 2026-11-21 | opus | 9 spots / 6 pp. | 0.27 | 4 verifier, 5 draft |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |

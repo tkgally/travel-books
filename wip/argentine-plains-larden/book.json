@@ -90,5 +90,27 @@
    "at": "p0417",
    "kind": "index"
   }
+ ],
+ "keep_hyphens": [
+  "p0044",
+  "p0116",
+  "p0348"
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0009",
+   "why": "tissue guard over the frontispiece (shows the plate through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0010",
+   "why": "tissue guard over the frontispiece, back; not transcribed"
+  },
+  {
+   "check": "spacing",
+   "match": "p0406",
+   "why": "ditto marks (”) in the stock table, printed as such"
+  }
  ]
 }

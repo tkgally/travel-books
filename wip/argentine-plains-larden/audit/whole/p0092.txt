@@ -1,0 +1,5 @@
+{"given": "To this lower middle class provincial priests", "print": "To this lower middle class the provincial priests", "sure": "high"}
+{"given": "one must conelude that (to", "print": "one must conclude that (to", "sure": "high"}
+{"given": "the camp towns (were no one", "print": "the camp towns (where no one", "sure": "high"}
+{"given": "each in the center of a huge", "print": "each in the centre of a huge", "sure": "high"}
+{"given": "where stock is raised, here too", "print": "where stock is raised; here too", "sure": "high"}

@@ -1,0 +1,5 @@
+{"given": "had not the same tone of color; there", "print": "had not the same tone of colour; there", "sure": "high"}
+{"given": "covered the ground everywhere rose in short", "print": "covered the ground everywhere and rose in short", "sure": "high"}
+{"given": "I learned that, all February; voladoras", "print": "I learned that, all February, voladoras", "sure": "high"}
+{"given": "to south-west, west, on north-west, though", "print": "to south-west, west, or north-west, though", "sure": "high"}
+{"given": "A noticeable fcature this year appears", "print": "A noticeable feature this year appears", "sure": "high"}

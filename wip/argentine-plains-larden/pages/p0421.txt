@@ -88,7 +88,7 @@ in Buenos Aires, Province of, <pref>289</pref>
 
 in Chile, <pref>266</pref>, <pref>271</pref>
 
-in San Lüis, Province of, <pref>248</pref>, <pref>281</pref>, <pref>285</pref>
+in San Luis, Province of, <pref>248</pref>, <pref>281</pref>, <pref>285</pref>
 
 Sand-dunes, <i>see</i> Médanos
 
