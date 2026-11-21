@@ -88,6 +88,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   preflight `image-splits` looks only for lower case after the picture; read the text before each picture (for the review).
 - A frontispiece printed sideways has no caption to show which way: crop it, look at both turns.
 - Plates printed sideways: `crop_image.py --rotate 270` when the caption reads bottom to top along the right edge.
+- “To face p. N” under a plate: not transcribed (the earlier books never kept it; the prompt says so since 2026-11-21). *Argentine Plains* kept 26, and the paragraph a plate interrupts was joined to that line, right-aligned (caught by the rendered look).
 - Set `frontispiece` in book.json, with or without a caption (preflight follows moved images since 2026-11-19).
 - A plate with a label or sub-captions on separate lines: one `[[caption]]`, parts separated by full stops; several
   `[[caption]]` lines fail preflight `conservation` (it compares caption lines; the compiler joins them) [*Corona and Coronet*, 2026-11-19].

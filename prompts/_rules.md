@@ -8,5 +8,5 @@ You are transcribing one scanned page of a travel book printed in English before
 - Typographic characters as printed: curly quotes “ ” ‘ ’, em dash —, accented letters, £, ½, °. Ligatures as plain letters (fi, fl, æ and œ stay as æ, œ). Long s (ſ) is written s.
 - Italics: mark every italic run with `<i>…</i>` (ship names, foreign words, titles, emphasis), with punctuation inside the tag only if it too is italic.
 - Small capitals: wrap in `<sc>…</sc>` and type them in lower case, with a capital only where the print has a visibly taller full capital (`<sc>Constantinople</sc>`, a chapter's opening words `T<sc>he</sc>`). Text in full-size capitals stays as plain capitals, without the tag.
-- OMIT: running heads and feet, the page number, printers' signature marks at the foot of the page (`B 2`, `VOL. I. C`), catchwords, library stamps and pencil marks.
+- OMIT: running heads and feet, the page number, printers' signature marks at the foot of the page (`B 2`, `VOL. I. C`), catchwords, the “To face p. N” line printed under a plate, library stamps and pencil marks.
 - Quotation marks repeated at the start of each printed line of a quotation (an old printing convention): type only the quotation's own opening mark and its closing mark, not the repeats.

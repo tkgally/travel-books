@@ -4,21 +4,7 @@
 [       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
 [       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
 [       ok] straight-quotes: no straight ' or " in the text
-[FAIL (14)] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
-            - p0163: ¹³⁄₁₆ ”'…
-            - p0163: ¼ ”'…
-            - p0163: ver 2¼ ”'…
-            - p0406: ,084,517 ” ”'…
-            - p0406: 79,540 ” ”'…
-            - p0406: 7,216 ” ”'…
-            - p0406: ,196,226 ” ”'…
-            - p0406: 50,825 ” ”'…
-            - p0406: 9·2 ”'…
-            - p0406: 5·1 ”'…
-            - p0406: ·6 ”'…
-            - p0406: ·2 ”'…
-            - p0407: space at the start or end of a block: 'Maize '
-            - p0407: space at the start or end of a block: 'Vines '
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
 [       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
 [       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
 [       ok] links: every link inside the book's web pages and EPUB has a target
@@ -26,24 +12,17 @@
 [       ok] nav: contents: at least one reading division; each has a title and text
 [       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
-[ FAIL (1)] audit: book.json records the sampled audit of this version
-            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
-[ look (8)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
-            - hyphen join at p0044: …hour and three-|quarters to the… (hyphen removed; check) — the book prints “three-quarters” elsewhere: keep_hyphens?
+[       ok] audit: book.json records the sampled audit of this version
+[ look (5)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0100: …e of the patri-|archal spirit. … (hyphen removed; check)
-            - hyphen join at p0116: …a about twenty-|eight natives, … (hyphen removed; check) — the book hyphenates other “twenty-” words: keep_hyphens?
             - hyphen join at p0221: …are the embank-|ments of Austra… (hyphen removed; check)
             - hyphen join at p0231: …eeming, and in-|human, anything… (hyphen removed; check)
-            - hyphen join at p0348: … mostly German-|Argentines, up … (hyphen removed; check)
             - hyphen join at p0395: … and the enter-|prising—for tho… (hyphen removed; check)
             - (and 4 joins giving a word the book prints whole elsewhere: not listed)
 [       ok] joins: page joins: missing [[cont]]
 [       ok] folios: printed page numbers that break the sequence
-[ FAIL (2)] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
-            - p0009: no page file
-            - p0010: no page file
-[ look (1)] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
-            - p0289: closing ” with no opening “: 'To face p. 214. no penitentes there”) was equivalent to “The'
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
 [       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
 [look (266)] contents: entries of the printed contents with no matching heading
             - p0017: 'Small lines of steamers, advantages and disadvantages'
@@ -91,14 +70,13 @@
 [       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
 [       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
-[look (12)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+[look (11)] accents: words the book spells with different accents (or with and without): look at each group on the scan
             - a: a (p0011, p0013, p0014, p0015, p0016, p0017…); à (p0067, p0120)
             - aguila: àguila (p0380, p0385, p0391); águila (p0417)
             - censo: censo (p0403, p0404); cénso (p0397)
             - debris: debris (p0311); débris (p0029, p0239, p0268, p0269, p0281, p0283…)
             - do: do (p0023, p0045, p0046, p0054, p0070, p0083…); dō (p0415)
             - guia: guia (p0267); guía (p0412)
-            - luis: luis (p0025, p0030, p0077, p0080, p0101, p0215…); lüis (p0421)
             - mas: mas (p0095); màs (p0415)
             - medano: mèdano (p0380); médano (p0385)
             - melincue: melincué (p0022, p0027, p0028, p0062, p0064, p0065…); melincuê (p0150)
@@ -107,8 +85,7 @@
 [       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
 [ look (1)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
             - p0414: “bangs” — “hangs” is common (41)
-[ look (1)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
-            - p0353: “way It” in …saw none come the other way It was a strikin…
+[       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: argentine-plains-larden v1 — 17 to fix, 0 waived; to look at: hyphen-joins 8, quote-balance 1, contents 266, accents 12, rare-forms 1, missing-stop 1 — tools@d4e81dc0 2026-11-21
+preflight PASS: argentine-plains-larden v1 — 0 to fix, 11 waived; to look at: hyphen-joins 5, contents 266, accents 11, rare-forms 1 — tools@1ce1290b 2026-11-21
