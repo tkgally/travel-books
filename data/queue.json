@@ -199,8 +199,8 @@
    "checked": "2026-11-19",
    "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Creative Media (print on demand). Re-checked 2026-11-19 before starting: same result (Online Books Page: IA scan only; General Books 2009 is a print-on-demand OCR reprint; one chapter as a PDF on nefas.org, a brief excerpt). Arthur Curtiss James (one chapter) 1867–1941. One drawing by E. A. Thompson (death date unknown, young in 1896) is left out of the editions.",
    "note": "University of California scan (another: coronacoronetbei00todd). Many plates.",
-   "version": 3,
-   "published": "2026-11-20"
+   "version": 4,
+   "published": "2026-11-21"
   },
   {
    "order": 11,
@@ -599,7 +599,7 @@
    "eligibility": "JATSI 204. Rules 1–4 met. Rule 1: Cornell scan (Kirtas, greyscale), clean, complete (pp. 1–124). Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person sketches of a tour of Japan in 1904–05, written for the North-China Daily News; all Japan. People: George T. Murray, a Shanghai resident; dates not found. Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20).",
    "note": "124 pp.; 11 halftone photographs, some on text pages; title, dedication and chapter heads in blackletter; a few short verses. Short.",
    "started": "2026-11-21",
-   "version": 1,
+   "version": 2,
    "published": "2026-11-21"
   },
   {
@@ -762,8 +762,8 @@
    "eligibility": "Checked 2026-11-20 (Opus subagent; Gutenberg re-checked by the session): not in pg_catalog.csv; The Online Books Page: HathiTrust page images only; no Wikisource hits; web search of a distinctive sentence found nothing. Reprints: Kessinger 2008 and a buecher.de facsimile (print on demand). Author 1834–1882 (Online Books Page; DAI catalogue). Not checked: WorldCat. Re-checked 2026-11-20 at the start: not in pg_catalog.csv; a web search of the title finds catalogue records, booksellers and the Kessinger print-on-demand reprint only.",
    "note": "University of Toronto scan, 500 ppi; one folding map, no other illustrations; running heads give the topic of the page. A British diplomat through Georgia and the Caucasus in winter to Tehran, an audience with the Shah, a ride into the southern provinces (1860s).",
    "started": "2026-11-20",
-   "version": 2,
-   "published": "2026-11-20"
+   "version": 3,
+   "published": "2026-11-21"
   },
   {
    "order": 42,
@@ -780,8 +780,8 @@
    "eligibility": "Checked 2026-11-20 (Opus subagent; Gutenberg and Wikisource by the session): not in pg_catalog.csv; not on The Online Books Page; Wikisource search finds nothing; raw HathiTrust OCR on distantreader.org (not a text edition); web search of a distinctive sentence found nothing; no reprint found. Author 1832–1875 (pdavis.nl, William Loney RN); published after his death with an unsigned introduction by friends (editor not named). Not checked: WorldCat. Re-checked 2026-11-20 at the start: not in pg_catalog.csv; a web search of the title finds catalogue records only (CRL holds a microfilm).",
    "note": "Brandeis scan, 400 ppi; 171 printed pages; one uncredited engraved frontispiece printed sideways; advertisements at the end. Journal of the command of HMS Torch, 1871–73: the Congo, Angola, Liberia and the Kroomen labour traffic, the Gold Coast. Period contempt for Africans in places (a contents line), not the main matter.",
    "started": "2026-11-20",
-   "version": 1,
-   "published": "2026-11-20"
+   "version": 2,
+   "published": "2026-11-21"
   },
   {
    "order": 43,
@@ -834,7 +834,7 @@
    "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv (two other books of his are); The Online Books Page: HathiTrust page images only; Wikisource lists it on the author page without a text; web search of a distinctive sentence: nothing. Reprints: a Podi Books facsimile (print on demand). Author 1853–1924 (Wikisource, LC heading). Not checked: Faded Page, WorldCat.",
    "note": "UCLA/SRLF scan, 400 ppi; clean OCR after library-stamp leaves. Photographic plates, frontispiece 'Schamyl'. A diary of a summer 1894 journey: St Petersburg, the Dariel Pass and Tiflis, Baku, the Transcaspian railway, Bokhara, Samarkand, Tashkend, Kokand, over the Alai into Kashgaria, home by Trebizond.",
    "started": "2026-11-21",
-   "version": 1,
+   "version": 2,
    "published": "2026-11-21"
   },
   {
@@ -903,7 +903,7 @@
    "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv (full file); The Online Books Page: HathiTrust page images only; Wikisource API: 0 hits; web search of a preface sentence: no text (PDFs at uzh.ch and univie are copies of the IA scan). No reprint found (an unnamed print on demand only); Lynch's Black Spokesman (1971) is an anthology, not this book. Author Edward Wilmot Blyden 1832–1912 (LC authority, Online Books Page). No illustrations. Not checked: Open Library (unreachable), WorldCat. Re-checked 2026-11-20 (next session): web search found only scans (uzh.ch, univie, ATLA, NYPL Schomburg) and no reprint.",
    "note": "Princeton Theological Seminary scan, 500 ppi, clean OCR, no plates. A Liberian scholar's journal of his 1866 journey from Monrovia by Sierra Leone, Liverpool and London to Malta, Egypt, Lebanon and Jerusalem; the last chapter is on the religious sects of the Holy Land.",
    "started": "2026-11-20",
-   "version": 2,
+   "version": 3,
    "published": "2026-11-21"
   },
   {
@@ -1002,7 +1002,7 @@
    "eligibility": "Checked 2026-11-21 (Opus subagent): PG catalogue: none. Online Books Page: none. Wikisource search: none. Faded Page: not properly checked (scripted search returns nothing; a site: web search found nothing). Web search of title and of a preface sentence found only scans and raw OCR (HathiTrust, Cornell Southeast Asia Visions, a Tamil Digital Library PDF, distantreader.org): none disqualify. No reprint of any kind found. Author born 1849 (accessgenealogy.com 'Allen of Bicton'), son of Charles Allen of the Legislative Council of India (matches the dedication); death date not found, so rule 5 by the birth year (before 1856). Not checked: WorldCat, Crockford, Venn: look for the death date before starting. Re-checked 2026-11-21 (the session): not in pg_catalog.csv; death date still not found (Allen of Bicton genealogy: born 1849, married 1890); rule 5 met by the birth year.",
    "note": "UC Libraries (Los Angeles) scan, 400 ppi; clean OCR; one map, footnotes at page foot. A vicar's six-month tour, Egypt on the way out, then India, Burma (the Shwe Dagon, monasteries) and Ceylon, written with an eye to missions and the Church.",
    "started": "2026-11-21",
-   "version": 1,
+   "version": 2,
    "published": "2026-11-21"
   },
   {

@@ -1,6 +1,6 @@
 {
  "id": "west-africa-to-palestine-blyden",
- "version": 2,
+ "version": 3,
  "date": "2026-11-21",
  "title": "From West Africa to Palestine",
  "short_title": "From West Africa to Palestine",
@@ -34,6 +34,11 @@
    "version": 2,
    "date": "2026-11-21",
    "note": "Printed page 16: the paragraph continued from the page before is joined to it again (the corrections pass had split it)."
+  },
+  {
+   "version": 3,
+   "date": "2026-11-21",
+   "note": "A printer’s error corrected: “ont he” for “on the” (p. 128)."
   }
  ],
  "regions": [
@@ -167,7 +172,7 @@
   "p0036"
  ],
  "audit": {
-  "version": 2,
+  "version": 3,
   "date": "2026-11-20",
   "pages": 6,
   "recall": "30/30",

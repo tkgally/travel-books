@@ -62,6 +62,13 @@
 | Between Two Oceans v1 | 2026-11-21 | 380 | Opus draft → Sonnet corrections → Opus judge; spot-read of 36 pages (front matter, verse, footnote) and every accent group, rendered look, by Opus subagents | 5 | 1 / 4 / 0 | 0 | 37.17 | 0 | PASS, 0 waived | 30/30; 0 / 6; spot-read: a stanza joined at a page top, a misprint (Entaw); a misnumbered folio | |
 | A Gentle Jehu in Japan v1 | 2026-11-21 | 166 | Opus draft → Sonnet corrections → Opus judge; spot-read (front matter, chapter openings, captions, every macron) and rendered look by Opus subagents; 26 colour crops by an Opus subagent | 3 | 3 / 0 / 0 | 0 | 15.64 | 0 | PASS, 0 waived | 30/30; 0 / 6; spot-read: 2 misprints; a correction not applied (a dropped word) | |
 | A Parson’s Holiday v1 | 2026-11-21 | 237 | Opus draft (1 page by the fallback) → Sonnet corrections → Opus judge; spot-read of ~40 pages (front matter, verse, every footnote page, the fallback page, accents) and rendered look by Opus subagents | 3 | 3 / 0 / 0 | 1 (an accent) | 24.34 | 0 | PASS, 0 waived | 30/30 + 5/5 (fallback page); 0 / 7; spot-read: 4 misprints, 2 accents | |
+| Trans-Caspia v2 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | p. 30 “ean” → [[corr]] can (reader, issue #100) |
+| Corona and Coronet v4 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | p. 255 “tbe” misread for “the” (found by the sweep after issue #100) |
+| A Journey through the Caucasus v3 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | p. 71 printed “tbe” → [[corr]] (sweep after issue #100) |
+| The Land of the Tatami v2 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | pp. 46, 65 printed “aud”, “iu” → [[corr]] (sweep after issue #100) |
+| The West Coast of Africa v2 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | pp. 107, 137 printed “aud”, “conld” → [[corr]] (sweep after issue #100) |
+| A Parson’s Holiday v2 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | p. 85 printed “wbo” → [[corr]] (new `misprints` list) |
+| From West Africa to Palestine v3 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | p. 128 printed “ont he” → [[corr]] on the (sweep after issue #100) |
 
 ## Calibrations
 
@@ -104,3 +111,4 @@
 | 2026-11-21 | conservation (captions) | the captions are sorted by their squashed text, so a straight apostrophe or a leading tag no longer gives a false item (*Alaska*, 2026-11-20). Test `CaptionOrder`. All thirty books keep PASS. |
 | 2026-11-21 | verse-joins (observe) | *The Land of the Tatami*: 3 items, 3 real (numbered stanzas). Running total since the check began: 10 real of 20 outside *Canterbury*. |
 | 2026-11-21 | images, source → enforce | review after thirty-five books: 0 alarms in 35 books for either; the invented sample book now has a source.json. All 35 books keep PASS. |
+| 2026-11-21 | misprints (new, observe) | after a reader found “ean” for “can” in *Trans-Caspia* (issue #100): common words with a turned or wrong letter (tbe, aud, iu, conld, wbo …) outside `[[corr]]`. On the 38 books: 8 real (7 printed, 1 misread) of 8 after dropping “ont” (French) and the name Aud; one more (“ont he”) found by hand. Test `Misprints`. |

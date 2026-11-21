@@ -53,4 +53,4 @@
             - tenno: tenno (p0018); tennõ (p0128); tennō (p0064, p0099)
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: land-of-the-tatami-murray v1 — 0 to fix, 0 waived; to look at: hyphen-joins 1, quote-balance 3, contents 2, accents 20 — tools@76e9e33 2026-11-21
+preflight PASS: land-of-the-tatami-murray v2 — 0 to fix, 0 waived; to look at: hyphen-joins 1, quote-balance 3, contents 2, accents 20 — tools@28b48c1e 2026-11-21

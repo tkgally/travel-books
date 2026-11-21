@@ -1,7 +1,7 @@
 {
  "id": "journey-through-the-caucasus-mounsey",
- "version": 2,
- "date": "2026-11-20",
+ "version": 3,
+ "date": "2026-11-21",
  "title": "A Journey through the Caucasus and the Interior of Persia",
  "short_title": "A Journey through the Caucasus and the Interior of Persia",
  "authors": [
@@ -34,6 +34,11 @@
    "version": 2,
    "date": "2026-11-20",
    "note": "Straight apostrophes in the summary curled (found by a new check). Text unchanged."
+  },
+  {
+   "version": 3,
+   "date": "2026-11-21",
+   "note": "A printer’s error corrected: “tbe” for “the” (p. 71)."
   }
  ],
  "regions": [
@@ -97,7 +102,7 @@
   "p0158"
  ],
  "audit": {
-  "version": 2,
+  "version": 3,
   "date": "2026-11-20",
   "pages": 6,
   "recall": "30/30",

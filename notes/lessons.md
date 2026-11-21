@@ -41,6 +41,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 | A stanza ending at a page foot joined to the next page's first stanza by `[[cont]]` [*Twelve Years in Canterbury*, 2026-11-20: caught by the rendered look] | preflight `verse-joins` (observe: stanza lengths on both sides); test `VerseJoins` |
 | A book without `images/cover.jpg` | preflight `cover` (enforce since the review after thirty books) |
 | The verifier dropped two page-top `[[cont]]` marks, applied unjudged as a markup change [*Nile without a Dragoman*, 2026-11-21] | `review.py` lists every `[[cont]]` added or removed; test `test_review_cont_changes` |
+| A printed turned or wrong letter in a common word (“ean” for “can”, “aud”, “iu”, “conld”) copied faithfully by draft, verifier and judge and never marked [*Trans-Caspia*, a reader, 2026-11-21; 7 more in 6 books] | preflight `misprints` (observe: every item looked at on the scan); test `Misprints` |
 
 ## Always
 
