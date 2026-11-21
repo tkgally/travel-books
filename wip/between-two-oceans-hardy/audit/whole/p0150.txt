@@ -1,0 +1,5 @@
+{"given": "The government disfrauchises polygamists.", "print": "The government disfranchises polygamists.", "sure": "high"}
+{"given": "But; if the government pronounces", "print": "But, if the government pronounces", "sure": "high"}
+{"given": "‘married’ to more then one wife?", "print": "‘married’ to more than one wife?", "sure": "high"}
+{"given": "The Mormon wife of today may", "print": "The Mormon wife of to-day may", "sure": "high"}
+{"given": "the happier home her Gentile sister.", "print": "the happier home of her Gentile sister.", "sure": "high"}

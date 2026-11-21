@@ -1,0 +1,5 @@
+{"given": "three hundred feet in height; straight", "print": "three hundred feet in height, straight", "sure": "high"}
+{"given": "almost impossible to realize the full", "print": "almost impossible to realise the full", "sure": "high"}
+{"given": "the Redwoods, we realifed for the", "print": "the Redwoods, we realised for the", "sure": "high"}
+{"given": "we found to he fully fifty", "print": "we found to be fully fifty", "sure": "high"}
+{"given": "paying flying visits Monterey, the Carmel", "print": "paying flying visits to Monterey, the Carmel", "sure": "high"}
