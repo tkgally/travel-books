@@ -1,5 +1,0 @@
-{"given": "May if please you, sho-kun", "print": "May it please you, sho-kun", "sure": "high"}
-{"given": "Hinomisake, he saw young and lovely", "print": "Hinomisake, he saw the young and lovely", "sure": "high"}
-{"given": "her in peace; with the husband", "print": "her in peace, with the husband", "sure": "high"}
-{"given": "Shortly aftcrwards a false charge", "print": "Shortly afterwards a false charge", "sure": "high"}
-{"given": "suffered death before dishonor.", "print": "suffered death before dishonour.", "sure": "high"}

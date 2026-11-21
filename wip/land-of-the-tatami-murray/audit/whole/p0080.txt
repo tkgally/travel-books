@@ -1,5 +1,0 @@
-{"given": "in grace; refinement, and beauty", "print": "in grace, refinement, and beauty", "sure": "high"}
-{"given": "she has taken in band the", "print": "she has taken in hand the", "sure": "high"}
-{"given": "bring help the wounded, and glory", "print": "bring help to the wounded, and glory", "sure": "high"}
-{"given": "May his Imperial line reign forever,", "print": "May his Imperial line reign for ever,", "sure": "high"}
-{"given": "Ou the ontskirts of the city", "print": "Ou the outskirts of the city", "sure": "high"}

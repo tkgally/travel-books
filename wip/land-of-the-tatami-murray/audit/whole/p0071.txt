@@ -1,6 +1,0 @@
-{"given": "a beautiful handmaiden drowned herself", "print": "a beautiful bandmaiden drowned herself", "sure": "medium"}
-{"given": "How well would it be it parents", "print": "How well would it be if parents", "sure": "high"}
-{"given": "from these kind artistic people,", "print": "from these kind and artistic people,", "sure": "high"}
-{"given": "would make them charming; honest, aud", "print": "would make them charming, honest, aud", "sure": "high"}
-{"given": "the Shinto shrines of japan.", "print": "the Shinto shrines of Japan.", "sure": "high"}
-{"given": "and much less forcign—are not", "print": "and much less foreign—are not", "sure": "high"}
