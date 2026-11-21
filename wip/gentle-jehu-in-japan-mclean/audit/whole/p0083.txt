@@ -1,0 +1,5 @@
+{"given": "any other in Japan, the temple", "print": "any other in Japan; the temple", "sure": "high"}
+{"given": "unusual interests, historical and otherwize.", "print": "unusual interests, historical and otherwise.", "sure": "high"}
+{"given": "anything behind, where all bewilderingly alluring.", "print": "anything behind, were all bewilderingly alluring.", "sure": "high"}
+{"given": "or being carried a chair swung", "print": "or being carried in a chair swung", "sure": "high"}
+{"given": "accompanying a pricst in a sam", "print": "accompanying a priest in a sam", "sure": "high"}

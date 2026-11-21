@@ -1,0 +1,6 @@
+{"given": "Yokohama", "print": "YOKOHAMA", "sure": "medium"}
+{"given": "here and at Kobe; and the fact", "print": "here and at Kobe, and the fact", "sure": "high"}
+{"given": "schedule time, the captain received orders", "print": "schedule time, the Captain received orders", "sure": "high"}
+{"given": "shirts something like French student’s blouse", "print": "shirts something like a French student’s blouse", "sure": "high"}
+{"given": "Bright paper lanterns flittcd about from", "print": "Bright paper lanterns flitted about from", "sure": "high"}
+{"given": "a little slower then ours at home.", "print": "a little slower than ours at home.", "sure": "high"}

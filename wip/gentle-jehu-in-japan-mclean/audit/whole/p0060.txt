@@ -1,0 +1,5 @@
+{"given": "Some of the signs are rather unique; as:", "print": "Some of the signs are rather unique, as:", "sure": "high"}
+{"given": "took possession of the center compartment", "print": "took possession of the centre compartment", "sure": "high"}
+{"given": "as long each as one our old-fashioned", "print": "as long each as one of our old-fashioned", "sure": "high"}
+{"given": "nine on a side. If did not seem", "print": "nine on a side. It did not seem", "sure": "high"}
+{"given": "and the childrcn kept quiet", "print": "and the children kept quiet", "sure": "high"}

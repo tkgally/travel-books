@@ -1,0 +1,4 @@
+judge opus: 3 spots on 3 pages: {'draft': 3}; cost $0.13
+p0015 #1 [draft, sure: medium] draft '[[center]] <sc>affectionately dedicated to</sc>' | verified '[[center]] AFFECTIONATELY DEDICATED TO' | judge reads '[[center]] <sc>affectionately dedicated to</sc>'
+p0058 #1 [draft, sure: high] draft 'exhaused' | verified 'exhausted' | judge reads 'exhaused'
+p0156 #1 [draft, sure: medium] draft 'THE Japanese' | verified 'T<sc>he</sc> Japanese' | judge reads 'THE Japanese'

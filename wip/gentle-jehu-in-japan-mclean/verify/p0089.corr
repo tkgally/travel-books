@@ -1,0 +1,8 @@
+{"find": "both are well", "replace": "both are well"}
+{"find": "Tokyo, both well", "replace": "Tokyo, both are well"}
+
+Wait — correcting my output: the draft reads "both, are well"? Draft text is "Tokyo, both are well worth". The only issues are below.
+
+{"find": "Tokyo, both are well worth", "replace": "Tokyo, both are well worth"}
+
+NONE

@@ -1,0 +1,47 @@
+{
+ "id": "gentle-jehu-in-japan-mclean",
+ "version": 1,
+ "date": "2026-11-21",
+ "title": "A Gentle Jehu in Japan",
+ "short_title": "A Gentle Jehu in Japan",
+ "authors": [
+  {
+   "name": "Ethel L. McLean",
+   "sort": "McLean, Ethel L.",
+   "born": 1878
+  }
+ ],
+ "place": "New York",
+ "publisher": "Dodd, Mead and Company",
+ "year": 1912,
+ "edition_statement": "First edition, printed by Douglas C. McMurtrie in one thousand copies (copy number 7)",
+ "collection": "jatsi",
+ "source": {
+  "ia_identifier": "gentlejehuinjapa00mclerich",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": [0, 181, 182, 183, 184, 185]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-21",
+   "note": "First publication."
+  }
+ ],
+ "regions": ["Canada", "United States", "Japan"],
+ "period": "c. 1911",
+ "subjects": ["Japan", "Hawaii", "Diaries"],
+ "summary": "A diary of a spring journey to Japan made by the author and a woman companion, published in a limited edition in 1912; the year of the journey is not printed and was probably 1911. They cross Canada by the Canadian Pacific in February, sail to Honolulu, where Hawaii is described as an American territory, and on to Yokohama. In Japan they travel by the Inland Sea to Kobe and Kyoto, see the cherry dance, temples and gardens, go to Otsu and Karasaki and shoot the rapids at Arashiyama, and spend the cherry-blossom season in Tokyo, with an Easter service, Japanese hospitality and a view of Fujiyama, before sailing home across the Pacific. The book has twenty-one photographs and facsimiles of a dining-car menu, a theatre bill and a hotel bill.",
+ "frontispiece": "p0012-1",
+ "divisions": [
+  {"at": "p0009", "kind": "front"},
+  {"at": "p0012", "kind": "front", "title": "Frontispiece"},
+  {"at": "p0013", "kind": "titlepage"},
+  {"at": "p0015", "kind": "dedication"},
+  {"at": "p0017", "kind": "contents"},
+  {"at": "p0019", "kind": "front", "n": 1},
+  {"at": "p0019", "kind": "chapter", "n": 2}
+ ],
+ "omitted_from_reading": "The half-title, the limitation notice, the title page and its back, the printed contents and the book title repeated above Chapter I are in the JSON only; the frontispiece opens the reading editions.",
+ "notes_on_text": ["The photographs are printed in decorative frames with a small chrysanthemum ornament below each; the editions show the photographs without the frames and ornaments. The facsimiles contain Japanese script, which is shown only in the pictures.", "Each chapter opens with a decorated initial, given here as an ordinary capital."]
+}
