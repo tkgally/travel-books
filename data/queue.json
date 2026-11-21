@@ -1037,6 +1037,81 @@
    "started": "2026-11-21",
    "version": 2,
    "published": "2026-11-21"
+  },
+  {
+   "order": 57,
+   "ia": "letterswrittendu00willrich",
+   "slug": "letters-southern-india-ceylon-williams",
+   "title": "Letters Written during a Trip to Southern India & Ceylon in the Winter of 1876–1877",
+   "author": "C. R. Williams [Charles Reynolds Williams]",
+   "year": 1877,
+   "place": "London",
+   "publisher": "Printed by C. Roworth & Sons (for private circulation)",
+   "images": 196,
+   "status": "queued",
+   "checked": "2026-11-21",
+   "eligibility": "Checked 2026-11-21 (Opus subagent): not in pg_catalog.csv (whole file); The Online Books Page: HathiTrust page images only; Wikisource: nothing; web search of a sentence: nothing. Reprints: Kessinger, BiblioLife, Nabu, Legare Street, Hansebooks (print on demand only). Rule 5: death date not found; birth bounded about 1825 or earlier (the preface: 'thirty-five years and upwards' of professional life in London by 1876); brother of Monier Monier-Williams (b. 1819). Illustrations the author's own. Not checked: Faded Page (search not scriptable), WorldCat.",
+   "note": "UC Berkeley scan, 300 ppi, clean. iv + 157 pp.; dated letters home. With his brother the Boden Professor of Sanskrit: Bombay, Ahmedabad, Poona, Mahabaleshwar, Madras in the famine of 1876–77, the Nilgiris, Tanjore, Madura, a night crossing to Tuticorin, Tinnevelly missions, Ceylon; back alone by coasting steamer, Ellora, Cairo. Plates are the author's sketches (count at the scan check). Folios printed in parentheses."
+  },
+  {
+   "order": 58,
+   "ia": "31383026813751",
+   "slug": "summer-in-prairie-land-sutherland",
+   "title": "A Summer in Prairie-Land: Notes of a Tour through the North-West Territory",
+   "author": "Rev. A. Sutherland, D.D. [Alexander Sutherland]",
+   "year": 1881,
+   "place": "Toronto",
+   "publisher": "Printed for the author, at the Methodist Book and Publishing House",
+   "images": 220,
+   "status": "queued",
+   "checked": "2026-11-21",
+   "eligibility": "Checked 2026-11-21 (Opus subagent): not in pg_catalog.csv (whole file); The Online Books Page: nothing; Wikisource: nothing; web search of a sentence: nothing. Canadiana page images and a PDF of the same scan at electriccanadian.com (not reading editions). Editions: 2nd ed. 1882; Palala Press 2016 (print on demand); no real edition after 1914 found. Sutherland 1833–1910. No illustrator. Not checked: Faded Page, WorldCat.",
+   "note": "Vancouver Public Library scan, 500 ppi, very clean (a library stamp in the front matter). About 198 pp., 19 chapters: rail across Dakota to Bismarck, steamer up the Missouri, Fort Benton to Fort Macleod by waggon, Morley (Stoney mission, the McDougalls), the trail to Edmonton and back. Partly a missions report; frank about Indian agents."
+  },
+  {
+   "order": 59,
+   "ia": "westernwandering00bodd_0",
+   "slug": "western-wanderings-boddam-whetham",
+   "title": "Western Wanderings: A Record of Travel in the Evening Land",
+   "author": "J. W. Boddam-Whetham",
+   "year": 1874,
+   "place": "London",
+   "publisher": "Richard Bentley and Son",
+   "images": 412,
+   "status": "queued",
+   "checked": "2026-11-21",
+   "eligibility": "Checked 2026-11-21 (Opus subagent): not in pg_catalog.csv (his Roraima and British Guiana is; this book is not); The Online Books Page: HathiTrust page images only; Wikisource: nothing; web search of a sentence: nothing. Only a University Microfilms reel (not a print edition); no print-on-demand reprints found. Boddam-Whetham 1843–1918 (LC authority). About 11 plates, no artist named. Not checked: Faded Page, WorldCat.",
+   "note": "Getty scan, 350 ppi, excellent (395 pages, 2 tissues). xii + 364 pp.: New York, Niagara, Chicago, Omaha, the Union Pacific to Salt Lake City, Virginia City, California (stage-driving, Yosemite, the Big Trees, the Geysers), Oregon, Puget Sound, Victoria, up the Fraser, Nanaimo, back to San Francisco. A lively, opinionated voice."
+  },
+  {
+   "order": 60,
+   "ia": "throughbuffersta00macg",
+   "slug": "through-the-buffer-state-macgregor",
+   "title": "Through the Buffer State: A Record of Recent Travels through Borneo, Siam and Cambodia",
+   "author": "Surgeon-Major John MacGregor, M.D., Indian Medical Service",
+   "year": 1896,
+   "place": "London",
+   "publisher": "F. V. White & Co.",
+   "images": 346,
+   "status": "queued",
+   "checked": "2026-11-21",
+   "eligibility": "Checked 2026-11-21 (Opus subagent): not in pg_catalog.csv (whole file); The Online Books Page and Wikisource: nothing; web search of a sentence (p. 177): nothing. Only Hansebooks 2016 (print on demand). MacGregor 1848–1932 (Wellcome Collection record; IA's '1896-' is a cataloguing slip). Photographs and sketches, no artist named. Not checked: Faded Page, WorldCat.",
+   "note": "UBC scan (Toronto), 400 ppi. Fallbacks: throughbuffersta00macgiala (UC), throughbuffersta1896macg (Countway). About 290 pp.; frontispiece (Prince Damrong), 11 plates, a map of southern Siam, a plan of Angkor Wat. Kuching and the Sarawak interior, Singapore, Bangkok in the Franco-Siamese crisis of 1893, overland by bullock cart through Laos and Khmer country, across the Tonle Sap to Angkor, Johore. A verse epigraph to each chapter; some dialect."
+  },
+  {
+   "order": 61,
+   "ia": "alohahawaiiansal00chan_0",
+   "slug": "aloha-chaney",
+   "title": "“Alo'ha!” A Hawaiian Salutation",
+   "author": "George Leonard Chaney",
+   "year": 1880,
+   "place": "Boston",
+   "publisher": "Roberts Brothers",
+   "images": 336,
+   "status": "queued",
+   "checked": "2026-11-21",
+   "eligibility": "Checked 2026-11-21 (Opus subagent): not in pg_catalog.csv (whole file); The Online Books Page (title and author) and Wikisource: nothing; web search of a sentence (p. 135): nothing. Only Forgotten Books (print on demand). Chaney 1836–1922 (LoC, Michigan records). No illustrator credited. Not checked: Faded Page, WorldCat.",
+   "note": "Library of Congress scan, 300 ppi; a Michigan copy (aba2387.0001.001.umich.edu, 600 ppi, probably bilevel) as a fallback: compare at the scan check. About 300 pp.: a journal of a winter in Hawaii about 1878–79: Honolulu and Waikiki, a voyage with the Prince, Hilo, Kilauea, Puna, Kona, Hualalai, Haleakala, round Oahu. Hawaiian words (check the ʻokina/apostrophes as printed)."
   }
  ],
  "rejected": [
@@ -1368,6 +1443,31 @@
   {
    "title": "Lucas, Australia and Homeward",
    "why": "largely compiled from other writers (vetting by subagents)",
+   "checked": "2026-11-21"
+  },
+  {
+   "title": "Cowley Lambert, A Trip to Cashmere and Ladâk (1877), triptocashmerela00lambrich",
+   "why": "reprinted: Jaykay Books, Srinagar, 2014 (hardcover marked 'Reprint')",
+   "checked": "2026-11-21"
+  },
+  {
+   "title": "S. J. Stone, In and Beyond the Himálayas (1896), inbeyondhimlay00stonrich",
+   "why": "reprinted: John Culler & Sons, 1994",
+   "checked": "2026-11-21"
+  },
+  {
+   "title": "Caddy, To Siam and Malaya in the Duke of Sutherland's Yacht (1889), cu31924084657141",
+   "why": "reprinted: OUP Singapore, 1992 (ed. Gullick)",
+   "checked": "2026-11-21"
+  },
+  {
+   "title": "Kinloch, De Zieke Reiziger; or, Rambles in Java and the Straits in 1852 (1853)",
+   "why": "reprinted: OUP, 1987",
+   "checked": "2026-11-21"
+  },
+  {
+   "title": "Mather, One Summer in Hawaii (1891), onesummerinhawai00math",
+   "why": "author's dates not found (rule 5 cannot be checked)",
    "checked": "2026-11-21"
   }
  ]
