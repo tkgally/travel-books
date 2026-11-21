@@ -14,9 +14,19 @@
  "publisher": "Henry S. King & Co.",
  "year": 1875,
  "edition_statement": "First edition",
- "regions": [],
+ "regions": [
+  "New Zealand",
+  "Fiji",
+  "Wallis and Futuna",
+  "Samoa",
+  "Vanuatu",
+  "Solomon Islands",
+  "Federated States of Micronesia",
+  "Marshall Islands",
+  "Tuvalu"
+ ],
  "period": "1873",
- "summary": "",
+ "summary": "In 1873 C. F. Wood, who had made several earlier voyages in the South Seas, bought a ninety-two-ton schooner at Auckland and sailed in her for eight months among the islands, with a photographer, George Smith, and a crew of Pacific islanders. He went by Rotumah, Futuna, Samoa and Fiji to the New Hebrides and the Solomons, then north to Bonabi (Ponape) and Strong’s Island (Kosrae) in the Carolines, the Marshall Islands and the Ellice Islands, returning to Auckland in December. He writes about trading, canoes, chiefs and customs, the stone ruins at Bonabi, beachcombers and traders, the missions, of which he is often critical, and the labour traffic to Fiji. The six plates are photographs from the voyage.",
  "source": {
   "ia_identifier": "yachtingcruisein00wood",
   "contributor": "Getty Research Institute",
@@ -67,7 +77,43 @@
   {
    "at": "p0021",
    "kind": "chapter",
+   "toc_title": "Chapter I. Auckland, Kawau, Sunday Island, Rotumah; April–May 1873",
    "n": 2
+  },
+  {
+   "at": "p0038",
+   "kind": "chapter",
+   "toc_title": "Chapter II. Rotumah: chiefs, customs, tombs and stories; May 1873"
+  },
+  {
+   "at": "p0062",
+   "kind": "chapter",
+   "toc_title": "Chapter III. Futuna, Wallis Island, Savaii, Apia, Niuafu, Fiji, Rotumah; May–August 1873"
+  },
+  {
+   "at": "p0099",
+   "kind": "chapter",
+   "toc_title": "Chapter IV. Tanna, Erromango, Vaté, Mallicolo, Espiritu Santo; August 1873"
+  },
+  {
+   "at": "p0135",
+   "kind": "chapter",
+   "toc_title": "Chapter V. San Christoval and Malanta; August–September 1873"
+  },
+  {
+   "at": "p0167",
+   "kind": "chapter",
+   "toc_title": "Chapter VI. Bonabi and the ruins of Metalanien; September–October 1873"
+  },
+  {
+   "at": "p0204",
+   "kind": "chapter",
+   "toc_title": "Chapter VII. Strong’s Island, Namarik and the Mulgrave Islands; October–November 1873"
+  },
+  {
+   "at": "p0238",
+   "kind": "chapter",
+   "toc_title": "Chapter VIII. Nukufatau, Rotumah and back to Auckland; November–December 1873"
   }
  ],
  "frontispiece": "p0014-1",
@@ -89,5 +135,13 @@
   "p0204-1",
   "p0237-1",
   "p0238-1"
- ]
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-21",
+  "pages": 6,
+  "recall": "29/29",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }
