@@ -1528,6 +1528,17 @@ class Misprints(unittest.TestCase):
         self.assertEqual(preflight.CHECKS["misprints"][0], "observe")
 
 
+class TableCorr(unittest.TestCase):
+    """*Argentine Plains* p0028 (2026-11-21): a printer's error marked [[corr a|b]] in a table cell (the list of
+    illustrations) was split at the | of the mark, so the markup showed in the editions."""
+
+    def test_corr_inside_a_cell_stays_whole(self):
+        _, _, blocks = compile_book.parse_page("| [[corr Entensibilty|Extensibility]] of a Body | <pref>18</pref> |\n| Plain | 2 |", "p0001")
+        rows = [b for b in blocks if b["t"] == "table"][0]["rows"]
+        self.assertEqual(rows[0], ["[[corr Entensibilty|Extensibility]] of a Body", "<pref>18</pref>"])
+        self.assertEqual(rows[1], ["Plain", "2"])
+
+
 class MissingStop(unittest.TestCase):
     """*The Golden Dagon* p. 7 “hard work and privation His orders” (a reader, issue #117, 2026-11-21): a full stop
     left out in print, copied faithfully by every stage and never marked. Preflight lists a sentence-opening word

@@ -95,6 +95,7 @@
 | Twelve Years in Canterbury v2 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | “manner” for “manner.” (p. 162) (issue #117 and the `missing-stop` sweep, checked on the scan) |
 | The West Coast of Africa v3 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | “jury” for “jury.” (p. 107) (issue #117 and the `missing-stop` sweep, checked on the scan) |
 | A Woman’s Trip to Alaska v2 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | “diminishes” for “diminishes.” (p. 143) (issue #117 and the `missing-stop` sweep, checked on the scan) |
+| Argentine Plains and Andine Glaciers v1 | 2026-11-21 | 413 | Opus draft → Sonnet corrections → Opus judge; scan check, 91 photo crops, spot-read (56 pages: front matter, tables, notes, glossary) and rendered look by Opus subagents; accents on crops by the session | 9 | 5 / 4 / 0 | 0 | 40.11 | 0 | PASS, 14 waived (tissue guard, ditto marks) | 30/30; 0 / 6 (spot-read: a misread fraction, an accent, 2 misprints; preflight lists: a misread umlaut, a stop left out; rendered look: 26 “To face” lines catching split paragraphs) | |
 
 ## Calibrations
 
