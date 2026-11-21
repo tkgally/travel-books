@@ -743,6 +743,10 @@ class SiteLists(unittest.TestCase):
         self.assertIn("prefers-reduced-motion", css)
         # the reader's place is kept for each chapter of a book, not only the last one read
         self.assertIn("c[file] = [at.i, at.o]", js)
+        # a chapter reached by an arrow of the bar opens with the bar in view, at its title or the reader's place there
+        self.assertIn("sessionStorage.setItem(BARNAV, from.getAttribute('href'))", js)
+        self.assertIn("sessionStorage.removeItem(BARNAV)", js)
+        self.assertIn(".tb-bar.tb-now, .tb-bar.tb-now.tb-on { transition: none; }", css)
 
     def test_display_settings_use_nothing_from_outside_and_every_theme_is_complete(self):
         assets = os.path.join(REPO, "site", "assets")

@@ -96,6 +96,9 @@ What Tom decided is in `preferences.md` (2026-11-20, "display settings"). How it
   view and the flag `bar` is on (default; `data-bar="off"` otherwise), and as long as the panel is open in it — so
   switching the bar off from the bar does not take the panel away. `scroll-padding-top` on `<html>` keeps anchors
   and keyboard focus from landing under it. Index pages have no bar.
+  An arrow of the bar leaves the file name it goes to in `sessionStorage` (`tb-bar-nav`); the chapter that finds its
+  own name there opens at the reader's place in it or, with none, just above its title, with the bar in view at
+  once (`tb-now`: no sliding in), so the controls do not move (Tom, 2026-11-21). The pager's own links do not do this.
 - **The place in each chapter:** `tb-place` holds for each book `f`, `b`, `t` as before and `c`: chapter file →
   [block at the top of the reading area, the part of it (0–0.99) above the top]. Saved on scroll (every 400 ms)
   and on `pagehide`; a chapter opened by a link goes to its own saved place. A change in the panel keeps the same

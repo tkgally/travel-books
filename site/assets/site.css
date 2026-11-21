@@ -133,6 +133,7 @@ html.tb-hasbar:not([data-bar="off"]) { scroll-padding-top: calc(2.6rem * var(--t
   stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 .tb-bar .tb-panel { right: calc(1rem / var(--tb-size, 1)); max-width: calc(100% - 2rem / var(--tb-size, 1)); margin-top: 1px;
   max-height: calc(100vh - 3.4em); overflow-y: auto; }
+.tb-bar.tb-now, .tb-bar.tb-now.tb-on { transition: none; }
 @media (prefers-reduced-motion: reduce) { .tb-bar, .tb-bar.tb-on { transition: none; } }
 @media print {
   :root, :root[data-theme] { --fg: #000; --bg: #fff; --muted: #444; --link: #000; --visited: #000; --line: #999; }
