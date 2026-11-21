@@ -1,0 +1,6 @@
+{"given": "I had the honor of meeting", "print": "I had the honour of meeting", "sure": "high"}
+{"given": "shed some more of this noble blood", "print": "shed some more of his noble blood", "sure": "high"}
+{"given": "Biwa Karasaki, Katata; and with avenues", "print": "Biwa Karasaki, Katata, and with avenues", "sure": "high"}
+{"given": "Kondo, with its famons well", "print": "Kondo, with its famous well", "sure": "high"}
+{"given": "collections of antiquities art treasures", "print": "collections of antiquities and art treasures", "sure": "high"}
+{"given": "occupied by Tenchi Tennō in", "print": "occupied by Tenchi Tennõ in", "sure": "low"}

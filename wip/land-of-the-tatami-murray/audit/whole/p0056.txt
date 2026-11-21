@@ -1,0 +1,5 @@
+{"given": "material, are brougbt in, one", "print": "material, are brought in, one", "sure": "high"}
+{"given": "vegetables, omelettes; skyaki (a very", "print": "vegetables, omelettes, skyaki (a very", "sure": "high"}
+{"given": "in soya, with layers rice), and", "print": "in soya, with layers of rice), and", "sure": "high"}
+{"given": "and they honor you by occasionally", "print": "and they honour you by occasionally", "sure": "high"}
+{"given": "In his you rinse your cup", "print": "In this you rinse your cup", "sure": "high"}

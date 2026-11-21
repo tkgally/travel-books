@@ -1,0 +1,5 @@
+{"given": "as he does today against a", "print": "as he does to-day against a", "sure": "high"}
+{"given": "remains for thirty days; and is", "print": "remains for thirty days, and is", "sure": "high"}
+{"given": "death may have no rccord on", "print": "death may have no record on", "sure": "high"}
+{"given": "kneeling at shrines in humble prayers", "print": "kneeling at the shrines in humble prayers", "sure": "high"}
+{"given": "they do nor adopt our", "print": "they do not adopt our", "sure": "high"}

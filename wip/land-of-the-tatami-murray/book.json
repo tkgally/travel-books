@@ -20,7 +20,7 @@
   "Japan"
  ],
  "period": "1904–05",
- "summary": "Sketches of a tour of Japan by George T. Murray, a resident of Shanghai, written for the Shanghai newspaper the North-China Daily News and collected in this small book. He travelled during the Russo-Japanese War of 1904–05, and the war is often in view: Russian prisoners, the Red Cross, a patriotic song. He went by Kobe, Osaka, Arima, Kioto, Nara and Ise, Nagoya, Yokohama and Tokio, Nikko and the Hakone district, and Lake Biwa, and at the New Year by railway to Shimonoseki, Kumamoto, the volcano Aso and Nagasaki. He writes about hotels, temples, geisha parties, shop signs in English and the people he met, and adds verses of his own. The book has twelve photographs, one of the author.",
+ "summary": "Sketches of a tour of Japan by George T. Murray, a resident of Shanghai, written for the Shanghai newspaper the North-China Daily News and collected in this small book. He travelled during the Russo-Japanese War of 1904–05, and the war is often in view: Russian prisoners, the Red Cross, a patriotic song. He went by Kobe, Osaka, Arima, Kioto, Nara and Ise, Nagoya, Yokohama and Tokio, Nikko and the Hakone district, and Lake Biwa, and by railway to Shimonoseki, Kumamoto, the volcano Aso and Nagasaki. He writes about hotels, temples, geisha parties, shop signs in English and the people he met, and adds verses of his own. The book has twelve photographs, one of the author.",
  "source": {
   "ia_identifier": "cu31924023492600",
   "contributor": "Cornell University Library",
@@ -83,5 +83,9 @@
  ],
  "toc": {
   "subtitles": "all"
- }
+ },
+ "keep_hyphens": [
+  "p0066",
+  "p0160"
+ ]
 }
