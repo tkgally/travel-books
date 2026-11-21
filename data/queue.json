@@ -537,10 +537,11 @@
    "place": "London",
    "publisher": "Henry S. King & Co.",
    "images": 298,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-20",
    "eligibility": "JATSI 38. Rules 1–4 met. Rule 1: Cornell scan (Kirtas, greyscale), clean. Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: forty-three first-person letters home by the wife of an instructor at the Foochow Arsenal; about 20% on Japan. People: the title page has 'L. D. S.'; the name is the attribution of the Cornell and HathiTrust catalogues, and the letters mention a separate 'Mr and Mrs S.': confirm the attribution before putting the name on the book's page, or give it as attributed. Dates not found. Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20).",
-   "note": "About 208 pp. of text, notes at the end, no illustrations; about 70 pages of the publisher's catalogue at the end of the scan are not part of the book."
+   "note": "About 208 pp. of text, notes at the end, no illustrations; about 70 pages of the publisher's catalogue at the end of the scan are not part of the book.",
+   "started": "2026-11-21"
   },
   {
    "order": 30,
