@@ -1,0 +1,5 @@
+{"given": "during the beat of the day", "print": "during the heat of the day", "sure": "high"}
+{"given": "probably our friends England, with the", "print": "probably our friends in England, with the", "sure": "high"}
+{"given": "seen us a few moruings ago", "print": "seen us a few mornings ago", "sure": "high"}
+{"given": "juvenile mining population of Scotland; nor does", "print": "juvenile mining population of Scotland, nor does", "sure": "medium"}
+{"given": "and on tuesday morning awoke", "print": "and on Tuesday morning awoke", "sure": "high"}

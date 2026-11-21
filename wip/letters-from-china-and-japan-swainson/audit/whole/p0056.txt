@@ -1,0 +1,5 @@
+{"given": "immense bunch of gardcnias this morning", "print": "immense bunch of gardenias this morning", "sure": "high"}
+{"given": "of this part China, having seen", "print": "of this part of China, having seen", "sure": "high"}
+{"given": "had quite failed to recognize it", "print": "had quite failed to recognise it", "sure": "high"}
+{"given": "My walks have nor yet been", "print": "My walks have not yet been", "sure": "high"}
+{"given": "often accompany me; his time between", "print": "often accompany me, his time between", "sure": "high"}

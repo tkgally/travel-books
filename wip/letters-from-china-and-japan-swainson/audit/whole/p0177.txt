@@ -1,0 +1,6 @@
+{"given": "that to the snowy vallcy is", "print": "that to the snowy valley is", "sure": "high"}
+{"given": "at 7 a.m. or the 12th", "print": "at 7 a.m. on the 12th", "sure": "high"}
+{"given": "in the same predicament, and it was", "print": "in the same predicament; and it was", "sure": "high"}
+{"given": "we sailed into harbour at Nagasaki", "print": "we sailed into the harbour at Nagasaki", "sure": "high"}
+{"given": "surrounded by an amphitheater of hills", "print": "surrounded by an amphitheatre of hills", "sure": "high"}
+{"given": "Letter XXXVII.", "print": "LETTER XXXVII.", "sure": "low"}

@@ -1,0 +1,6 @@
+{"given": "experiences of japan, ere we", "print": "experiences of Japan, ere we", "sure": "high"}
+{"given": "just in time prevent our passage", "print": "just in time to prevent our passage", "sure": "high"}
+{"given": "reaching England witbout any trans-shipment", "print": "reaching England without any trans-shipment", "sure": "high"}
+{"given": "self and husband; all fairly", "print": "self and husband, all fairly", "sure": "high"}
+{"given": "Our route is to he rather", "print": "Our route is to be rather", "sure": "high"}
+{"given": "Letter XLIII.", "print": "LETTER XLIII.", "sure": "low"}

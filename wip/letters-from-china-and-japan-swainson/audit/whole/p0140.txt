@@ -1,0 +1,6 @@
+{"given": "the children of Israel, then they", "print": "the children of Israel, when they", "sure": "high"}
+{"given": "Letter XXX.", "print": "LETTER XXX.", "sure": "medium"}
+{"given": "at the time at a neighbor’s house", "print": "at the time at a neighbour’s house", "sure": "high"}
+{"given": "an inch into the roscwood case", "print": "an inch into the rosewood case", "sure": "high"}
+{"given": "It was vain think of returning", "print": "It was vain to think of returning", "sure": "high"}
+{"given": "have been shipwrecked; so when the", "print": "have been shipwrecked, so when the", "sure": "high"}
