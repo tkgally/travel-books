@@ -1,0 +1,5 @@
+{"given": "he should do so, or if", "print": "he should do so; or if", "sure": "high"}
+{"given": "make certain of Achmet’s preseuce.", "print": "make certain of Achmet’s presence.", "sure": "high"}
+{"given": "close to it, half mile off,", "print": "close to it, half a mile off,", "sure": "high"}
+{"given": "at all; this children were well,", "print": "at all; his children were well,", "sure": "high"}
+{"given": "So we slowly passed etfoo; and", "print": "So we slowly passed Etfoo; and", "sure": "high"}

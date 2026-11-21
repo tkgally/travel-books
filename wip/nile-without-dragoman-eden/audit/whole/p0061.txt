@@ -1,0 +1,5 @@
+{"given": "It was but a moment; and then", "print": "It was but a moment, and then", "sure": "high"}
+{"given": "The body makes no effort conceal how", "print": "The body makes no effort to conceal how", "sure": "high"}
+{"given": "as the point was turued, and", "print": "as the point was turned, and", "sure": "high"}
+{"given": "when he recovered this breath, burst", "print": "when he recovered his breath, burst", "sure": "high"}
+{"given": "to get to cairo, and took", "print": "to get to Cairo, and took", "sure": "high"}
