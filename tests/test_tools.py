@@ -1485,6 +1485,27 @@ class NoteTail(unittest.TestCase):
         self.assertEqual(preflight.CHECKS["note-tail"][0], "observe")
 
 
+class CaptionTail(unittest.TestCase):
+    """*Uganda for a Holiday* (2026-11-21): a plate's cross-reference ("[See page 107.") typed as a `[[right]]` line
+    after the caption became a paragraph that the next page's `[[cont]]` joined, so text was right-aligned under the
+    picture; *Argentine Plains* the same with "To face p. N" lines. Only the rendered look saw it."""
+
+    def test_line_after_caption_listed(self):
+        pages = [("p0118", "[[page ?]]\n[[image: men]]\n[[caption]] Kikuyu Station.\n\n[[right]] [<i>See</i> page <pref>107</pref>.\n"),
+                 ("p0119", "[[page 79]]\n[[cont]]zebras in thousands.\n"),
+                 ("p0120", "[[page ?]]\n[[image: a lake]]\n[[caption]] The Lake.\nTo face p. 80.\n")]
+        items = preflight.check_caption_tail(pages)
+        self.assertEqual([i.split(":")[0] for i in items], ["p0118", "p0120"])
+
+    def test_caption_then_picture_or_text_pass(self):
+        pages = [("p0140", "[[page ?]]\n[[image: a street]]\n[[caption]] Nairobi.\n[[image: a lake]]\n[[caption]] Lake Naivasha. [<i>See</i> page <pref>115</pref>.\n"),
+                 ("p0141", "[[page 9]]\n[[image: a hut]]\n[[caption]] A hut.\n\nThe road went on for many miles through the long grass, and we saw no one.\n")]
+        self.assertEqual(preflight.check_caption_tail(pages), [])
+
+    def test_observe(self):
+        self.assertEqual(preflight.CHECKS["caption-tail"][0], "observe")
+
+
 class SiteText(unittest.TestCase):
     """*West Coast of Africa* (2026-11-20): contents titles written by hand in book.json kept straight apostrophes,
     which reached the site and the EPUB nav; the text checks read only the page files."""
