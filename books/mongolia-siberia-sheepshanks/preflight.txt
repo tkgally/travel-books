@@ -32,10 +32,13 @@
             - p0015: 'from lake baikal to the ural mountains'
             - p0015: 'Mgr. Benjamin—The Anglican and Orthodox Churches—The “Puseyites”—Bisho'
 [       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
 [ look (2)] accents: words the book spells with different accents (or with and without): look at each group on the scan
             - charge: charge (p0018, p0077, p0141, p0148, p0186); chargé (p0141)
             - shakyamuni: shakyamuni (p0056); shakyamúni (p0075, p0091, p0098, p0116, p0129)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: mongolia-siberia-sheepshanks v1 — 0 to fix, 7 waived; to look at: hyphen-joins 5, contents 6, accents 2 — tools@db27f54 2026-11-20
+preflight PASS: mongolia-siberia-sheepshanks v2 — 0 to fix, 7 waived; to look at: hyphen-joins 5, contents 6, accents 2 — tools@636b1b8d 2026-11-21

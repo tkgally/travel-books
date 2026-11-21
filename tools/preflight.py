@@ -21,7 +21,7 @@ notes/metrics.md, fix the check (with a test) in a later session.
 
 The last line printed is the stamp: copy it into the book's log.md.
 """
-import argparse, collections, datetime, difflib, json, os, re, shutil, subprocess, sys, tempfile, unicodedata, zipfile
+import argparse, collections, datetime, difflib, glob, json, os, re, shutil, subprocess, sys, tempfile, unicodedata, zipfile
 import xml.etree.ElementTree as ET
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -57,6 +57,7 @@ CHECKS = collections.OrderedDict([
     ("cover",           ("enforce", "images/cover.jpg (or .png) exists: the front cover or the title page")),
     ("accents",         ("observe", "words the book spells with different accents (or with and without): look at each group on the scan")),
     ("misprints",       ("observe", "common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan")),
+    ("rare-forms",      ("observe", "words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan")),
     ("images",          ("enforce", "image files not used by any page")),
     ("source",          ("enforce", "source.json: the Drive cache of the page images is recorded")),
 ])
@@ -377,6 +378,54 @@ def check_misprints(pages):
             w = m.group(0)
             if w.lower() in MISPRINTS and w != "Aud":      # Aud the Deeply Wealthy (*By Fell and Fjord*)
                 out.append(f"{leaf}: “{m.group(0)}” in …{t[max(0, m.start() - 25):m.end() + 25].strip()}…")
+    return out
+
+
+CONFUSABLE = [("n", "u"), ("u", "n"), ("h", "b"), ("b", "h"), ("e", "c"), ("c", "e"), ("i", "l"), ("t", "f")]
+
+
+def _plain_words(pages):
+    """(leaf, word) for each lower-case word outside italics, notes markup and [[corr]], leaving out the first word
+    of a page that continues the last (it may be the end of a hyphenated word) and a word ending in a hyphen."""
+    for leaf, t in pages:
+        t = re.sub(r"\[\[corr [^\]]*\]\]|\[\[side:[^\]]*\]\]|<i>.*?</i>", " ", t, flags=re.S)
+        t = re.sub(r"\[\[cont\]\]\s*\S*", " ", t)
+        t = re.sub(r"\[\[[^\]]*\]\]", " ", t)
+        t = re.sub(r"<[^>]+>", "", t)
+        t = re.sub(r"[^\W\d_]+-\s*$", " ", t)
+        for w in re.findall(WORD, t):
+            if w.islower():
+                yield leaf, w
+
+
+def corpus_counts(root=None):
+    """Lower-case word counts over every published book's page files (the collection is the dictionary)."""
+    root = root or os.path.join(os.path.dirname(HERE), "books")
+    cnt = collections.Counter()
+    for d in sorted(glob.glob(os.path.join(root, "*", "pages"))):
+        pages = [(os.path.basename(f)[:-4], open(f, encoding="utf-8").read()) for f in sorted(glob.glob(os.path.join(d, "p*.txt")))]
+        cnt.update(w for _, w in _plain_words(pages))
+    return cnt
+
+
+def check_rare_forms(pages, corpus, rare=2, common=40):
+    """Words of this book seen at most `rare` times in the whole collection (with this book) that become a word seen
+    `common` times or more when one confusable letter is changed: “hnndred”, “numher”, “entranee”, “wili”. The review
+    after forty books found 15 such printed misprints (and 2 misreadings) in 11 published books, unmarked; about one
+    item in five was real (the rest names, dialect, foreign words)."""
+    own = collections.Counter(w for _, w in _plain_words(pages))
+    total = corpus + own if corpus is not None else own
+    out, seen = [], set()
+    for leaf, w in _plain_words(pages):
+        if w in seen or total[w] > rare or len(w) < 3:
+            continue
+        for a, b in CONFUSABLE:
+            hits = [w[:m.start()] + b + w[m.end():] for m in re.finditer(a, w)]
+            best = max(hits, key=lambda v: total[v], default=None)
+            if best and total[best] >= common:
+                seen.add(w)
+                out.append(f"{leaf}: “{w}” — “{best}” is common ({total[best]})")
+                break
     return out
 
 
@@ -708,6 +757,11 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
         res["markup"] = check_markup(pages)
         res["accents"] = check_accents(pages)
         res["misprints"] = check_misprints(pages)
+        pub = os.path.join(os.path.dirname(HERE), "books")
+        corpus = corpus_counts(pub)
+        if os.path.normpath(os.path.dirname(bookdir)) == os.path.normpath(pub):
+            corpus.subtract(w for _, w in _plain_words(pages))   # a published book is not counted twice
+        res["rare-forms"] = check_rare_forms(pages, corpus)
         if not any(os.path.exists(os.path.join(bookdir, "images", f)) for f in ("cover.jpg", "cover.png")):
             res["cover"].append("images/cover.jpg is missing (the front cover if decorated, otherwise the title page)")
         res["sc-caps"] = check_sc(pages)

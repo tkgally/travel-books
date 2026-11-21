@@ -26,8 +26,8 @@
    "checked": "2026-11-19",
    "eligibility": "Added at Tom's request as an exception to the selection rules (notes/preferences.md, 2026-11-19): not checked against rules 2–4 (it is known to have later reprints and is compiled from Macartney's and others' papers). Rule 5 met: Staunton 1737–1801, Macartney 1737–1806, Gower 1742–1814; William Alexander (drawings) 1767–1816. Not in the Project Gutenberg catalogue.",
    "note": "Three IA items made into one book: vol. I (UC, 572 images, 300 ppi), vol. II (UC, 664 images, 500 ppi), folio of plates and maps (Getty, 114 images; its page images come as a 1.2 GB _images.zip, not _jp2.zip: ia.py may need a change). Tom: leave the marginal titles out of the built versions (JSON keeps them) — needs side-note markup first (workflow 'Not yet solved'); 1797 printing (long s): run the two-draft calibration on a sample first; multi-volume: volumes as parts. Several sessions. The landing page and site/about.md say every book has no other digital text and no reprint: when this book is published, say on its page (and in about.md) that it is included as an exception.",
-   "version": 1,
-   "published": "2026-11-20",
+   "version": 2,
+   "published": "2026-11-21",
    "from": "tom"
   },
   {
@@ -96,7 +96,7 @@
    "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Creative Media (print on demand). An excerpt is in an anthology. Re-checked 2026-11-20: not in pg_catalog.csv; a web search found only catalogue records and scan-based e-books.",
    "note": "Getty Research Institute scan, crisp. About 500 pages.",
    "started": "2026-11-20",
-   "version": 3,
+   "version": 4,
    "published": "2026-11-21"
   },
   {
@@ -167,8 +167,8 @@
    "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Forgotten Books, Creative Media (print on demand). The Online Books Page not checked. Re-checked 2026-11-20: web search finds no text edition (Gutenberg results are Burnaby's different book) and only Forgotten Books (print on demand). Author: Mary Esmé Gwendoline Grogan, married Andrew Scott-Stevenson 19 October 1871 (thepeerage.com), so born before 1856; death date not found: rule 5 met by the assumption of death before 100. Map drawn by Lieut. H. H. Kitchener, R.E. (d. 1916).",
    "note": "George Washington University scan (39020025955066-ourridethrougha, 430 leaves, crisp, map opened in two halves with a strip at the fold not shown) used; the Google scan (ourridethrougha01stevgoog) is bilevel and its map unopened.",
    "started": "2026-11-20",
-   "version": 2,
-   "published": "2026-11-20"
+   "version": 3,
+   "published": "2026-11-21"
   },
   {
    "order": 9,
@@ -400,8 +400,8 @@
    "eligibility": "JATSI 14. All five rules met. Rule 1: Library of Congress scan, colour 400 ppi, clean, EXCEPT that the last page of text (p. 76, image n77) is cut off at the right edge, losing one to three letters a line: take that leaf from acruiseinusstea01graggoog or acruiseinusstea00graggoog (`source.extra_leaves`). Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person account by the ship's surgeon's steward; about 35% on Japan (Nagasaki, Shimoda, Kanagawa, Hakodate), with the Peiho forts in 1858. Rule 5: William F. Gragg 1810–1864 (Bedford Historical Society). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record. Re-checked 2026-11-20 at the start: not in pg_catalog.csv; a web search of the title finds only the IA scans.",
    "note": "Only 76 printed pages, in small type on a large page, without chapters; lists of officers and of the cruise's distances. No illustrations. Shorter than the usual range: a one-session book.",
    "started": "2026-11-20",
-   "version": 1,
-   "published": "2026-11-20"
+   "version": 2,
+   "published": "2026-11-21"
   },
   {
    "order": 22,
@@ -548,7 +548,7 @@
    "eligibility": "JATSI 38. Rules 1–4 met. Rule 1: Cornell scan (Kirtas, greyscale), clean. Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: forty-three first-person letters home by the wife of an instructor at the Foochow Arsenal; about 20% on Japan. People: the title page has 'L. D. S.'; the name is the attribution of the Cornell and HathiTrust catalogues, and the letters mention a separate 'Mr and Mrs S.': confirm the attribution before putting the name on the book's page, or give it as attributed. Dates not found. Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20).",
    "note": "About 208 pp. of text, notes at the end, no illustrations; about 70 pages of the publisher's catalogue at the end of the scan are not part of the book.",
    "started": "2026-11-21",
-   "version": 1,
+   "version": 2,
    "published": "2026-11-21"
   },
   {
@@ -602,7 +602,7 @@
    "eligibility": "JATSI 204. Rules 1–4 met. Rule 1: Cornell scan (Kirtas, greyscale), clean, complete (pp. 1–124). Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person sketches of a tour of Japan in 1904–05, written for the North-China Daily News; all Japan. People: George T. Murray, a Shanghai resident; dates not found. Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20).",
    "note": "124 pp.; 11 halftone photographs, some on text pages; title, dedication and chapter heads in blackletter; a few short verses. Short.",
    "started": "2026-11-21",
-   "version": 2,
+   "version": 3,
    "published": "2026-11-21"
   },
   {
@@ -819,8 +819,8 @@
    "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv (full file from the pglaf mirror); The Online Books Page: HathiTrust page images only; Wikisource: no text; web search of a distinctive sentence: nothing. Reprints: Franklin Classics/Creative Media 2018, HardPress 2020 (print on demand); no reset or established-press facsimile found. Author John Sheepshanks 1834–1912; the illustrations are his sketches worked up by Rev. R. G. Roe (Robert Gordon Roe, 1860–1927). Not checked: Faded Page, WorldCat. Re-checked 2026-11-20 (next session): web search finds only a SOAS digital catalogue record (scan); no reprint.",
    "note": "Cornell (Wason) scan, 300 ppi; clean OCR. About 9 plates and a temple plan. Across Mongolia by camel caravan from Kalgan to Urga in the late 1860s, then by Kiakhta, Lake Baikal and the Siberian post-road to the Urals; written up from his journal in 1903. Chapter V is an essay on shamanism.",
    "started": "2026-11-20",
-   "version": 1,
-   "published": "2026-11-20"
+   "version": 2,
+   "published": "2026-11-21"
   },
   {
    "order": 45,
@@ -837,7 +837,7 @@
    "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv (two other books of his are); The Online Books Page: HathiTrust page images only; Wikisource lists it on the author page without a text; web search of a distinctive sentence: nothing. Reprints: a Podi Books facsimile (print on demand). Author 1853–1924 (Wikisource, LC heading). Not checked: Faded Page, WorldCat.",
    "note": "UCLA/SRLF scan, 400 ppi; clean OCR after library-stamp leaves. Photographic plates, frontispiece 'Schamyl'. A diary of a summer 1894 journey: St Petersburg, the Dariel Pass and Tiflis, Baku, the Transcaspian railway, Bokhara, Samarkand, Tashkend, Kokand, over the Alai into Kashgaria, home by Trebizond.",
    "started": "2026-11-21",
-   "version": 2,
+   "version": 3,
    "published": "2026-11-21"
   },
   {
@@ -924,7 +924,7 @@
    "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv; The Online Books Page: none; web search of a mid-book sentence: nothing. Reprints: HardPress 2019, British Library Historical Print Editions 2011, Anatiposi 2023 (all print on demand). Wikisource only by a site-restricted web search. Author 1828–1916 (a bookseller's note: lived in Venice, author of A Garden in Venice): confirm the dates before starting. No illustrations. Not checked: Open Library, Faded Page. Re-checked 2026-11-21: not in pg_catalog.csv (fresh copy); web search of the title: no text online. Author Frederic Eden d. 1916 in Venice (Wikipedia, Garden of Eden (Venice); Frederick Eden (cricketer), b. 1829); creator of the Giudecca garden.",
    "note": "Library of Congress scan, 600 ppi, good OCR, no plates. The author hired his own dahabeah without a dragoman, from Alexandria to Wadi Halfa and back: fitting out, money, crews, the boat hauled up the cataract at Aswan.",
    "started": "2026-11-21",
-   "version": 1,
+   "version": 2,
    "published": "2026-11-21"
   },
   {
@@ -1005,7 +1005,7 @@
    "eligibility": "Checked 2026-11-21 (Opus subagent): PG catalogue: none. Online Books Page: none. Wikisource search: none. Faded Page: not properly checked (scripted search returns nothing; a site: web search found nothing). Web search of title and of a preface sentence found only scans and raw OCR (HathiTrust, Cornell Southeast Asia Visions, a Tamil Digital Library PDF, distantreader.org): none disqualify. No reprint of any kind found. Author born 1849 (accessgenealogy.com 'Allen of Bicton'), son of Charles Allen of the Legislative Council of India (matches the dedication); death date not found, so rule 5 by the birth year (before 1856). Not checked: WorldCat, Crockford, Venn: look for the death date before starting. Re-checked 2026-11-21 (the session): not in pg_catalog.csv; death date still not found (Allen of Bicton genealogy: born 1849, married 1890); rule 5 met by the birth year.",
    "note": "UC Libraries (Los Angeles) scan, 400 ppi; clean OCR; one map, footnotes at page foot. A vicar's six-month tour, Egypt on the way out, then India, Burma (the Shwe Dagon, monasteries) and Ceylon, written with an eye to missions and the Church.",
    "started": "2026-11-21",
-   "version": 2,
+   "version": 3,
    "published": "2026-11-21"
   },
   {

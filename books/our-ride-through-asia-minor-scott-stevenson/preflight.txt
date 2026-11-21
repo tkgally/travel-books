@@ -22,6 +22,8 @@
 [       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
 [       ok] contents: entries of the printed contents with no matching heading
 [       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
 [look (10)] accents: words the book spells with different accents (or with and without): look at each group on the scan
             - a: a (p0006, p0008, p0009, p0010, p0012, p0013…); à (p0223, p0396)
@@ -34,6 +36,7 @@
             - ketran: ketran (p0170); ketrân (p0388)
             - kilisse: kilisse (p0019, p0294, p0361); kilissé (p0368)
             - medjidies: medjidies (p0102, p0142, p0219, p0251, p0343); medjidiés (p0396)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: our-ride-through-asia-minor-scott-stevenson v2 — 0 to fix, 4 waived; to look at: hyphen-joins 1, accents 10 — tools@9de0b2b 2026-11-20
+preflight PASS: our-ride-through-asia-minor-scott-stevenson v3 — 0 to fix, 4 waived; to look at: hyphen-joins 1, accents 10 — tools@636b1b8d 2026-11-21

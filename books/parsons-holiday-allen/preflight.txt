@@ -58,4 +58,4 @@
 [       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: parsons-holiday-allen v2 — 0 to fix, 0 waived; to look at: hyphen-joins 7, joins 1, contents 11, verse-joins 1, accents 10 — tools@28b48c1e 2026-11-21
+preflight PASS: parsons-holiday-allen v3 — 0 to fix, 0 waived; to look at: hyphen-joins 7, joins 1, contents 11, verse-joins 1, accents 10 — tools@636b1b8d 2026-11-21

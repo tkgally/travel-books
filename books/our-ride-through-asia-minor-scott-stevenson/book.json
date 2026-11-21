@@ -1,7 +1,7 @@
 {
  "id": "our-ride-through-asia-minor-scott-stevenson",
- "version": 2,
- "date": "2026-11-20",
+ "version": 3,
+ "date": "2026-11-21",
  "title": "Our Ride through Asia Minor",
  "short_title": "Our Ride through Asia Minor",
  "authors": [
@@ -29,6 +29,11 @@
    "version": 2,
    "date": "2026-11-20",
    "note": "Accents checked on the scan at the review after twenty books (new preflight list `accents`). p0410: “Zêna” corrected to “Zéna” as printed (a clear acute)."
+  },
+  {
+   "version": 3,
+   "date": "2026-11-21",
+   "note": "A printer’s error corrected: “eame” for “came” (p. 100) (found by a sweep of all the books at the review after forty books)."
   }
  ],
  "regions": [
@@ -110,7 +115,7 @@
   }
  ],
  "audit": {
-  "version": 2,
+  "version": 3,
   "date": "2026-11-20",
   "pages": 6,
   "recall": "30/30",
