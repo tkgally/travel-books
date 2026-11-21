@@ -486,10 +486,11 @@
    "place": "London",
    "publisher": "Chapman and Hall",
    "images": 401,
-   "status": "queued",
+   "status": "waiting",
    "checked": "2026-11-20",
    "eligibility": "JATSI 73. Four of five, and the scan is a Google scan. Rule 1: the only scan at IA: text bilevel but sharp, the 7 photographic plates in greyscale and present; no _jp2 archive, only _tif.zip (89.8 MB): check that `ia.py fetch` and `prep_pages.py` take it before starting, and see lessons.md 'Google scan'. Rule 2: no text elsewhere (Wikisource has an author page only). Rule 3 NOT met: Elibron / Adamant facsimile (2003). Rule 4: first-person account of a visit from Hong Kong, from shorthand notes; all Japan; one chapter on the Japanese army. Rule 5: Sir Henry Knollys 1840–1930 (The Times obituary). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
-   "note": "xi + 325 pp. with two appendices and an index; 7 plates, no photographer named; footnotes; Chapman and Hall's catalogue at the end."
+   "note": "xi + 325 pp. with two appendices and an index; 7 plates, no photographer named; footnotes; Chapman and Hall's catalogue at the end.",
+   "waiting_for": "A better scan: the only IA scan (Google, bilevel) has lost most of pp. 16 and 296 and parts of pp. 80, 130, 172, 250, 252, 268, 320, 324 (scan check 2026-11-21). Take up again if another scan of the 1887 edition appears at IA."
   },
   {
    "order": 27,
