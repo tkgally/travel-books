@@ -30,6 +30,7 @@ Has: footnotes; tables (pp. 76, 77, 82–83, 121, 300–307 with „ dittos); it
 |---|---|---|---|---|---|
 | draft | 2026-11-21 | opus | 413 | 26.46 | no page refused |
 | corrections | 2026-11-21 | sonnet | 413 | 13.04 | 15 changes (2 not applied, 1 [[cont]] added) |
+| audit | 2026-11-21 | opus | 6 | 0.34 | 30/30; 0 candidates (p0092 p0184 p0212 p0232 p0257 p0294) |
 | judge | 2026-11-21 | opus | 9 spots / 6 pp. | 0.27 | 4 verifier, 5 draft |
 
 ## Versions
