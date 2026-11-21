@@ -883,6 +883,13 @@ class SiteLists(unittest.TestCase):
         listed = re.findall(r"<cite>Journey (\d+)</cite>", h)
         self.assertEqual(listed, [str(i) for i in range(build_site.HOME_FULL_LIST + 2, build_site.HOME_FULL_LIST + 2 - build_site.HOME_NEWEST, -1)])
 
+    def test_books_page_headings_in_order(self):
+        """Review after forty-five books (live pass): "Newest" was an h3 straight after the page's h1."""
+        books = [shelf_book(i) for i in range(build_site.HOME_FULL_LIST + 3)]
+        build_site.build_books(self.out, books, [])
+        levels = [int(x) for x in re.findall(r"<h([1-6])[ >]", self.read("books.html"))]
+        self.assertTrue(all(b - a <= 1 for a, b in zip(levels, levels[1:])), levels)
+
     def test_newest_follows_the_time_of_first_publication(self):
         """2026-11-21: fourteen books were first published on one day, so the date tied and the id decided the order
         ("Yachting" before the day's last books). data/published.json keeps the time; new versions do not move a book."""

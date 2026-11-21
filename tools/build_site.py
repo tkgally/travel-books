@@ -205,7 +205,7 @@ def build_books(out, books, queue, times=None):
     else:
         newest = sorted(books, key=lambda b: (first_published(b, times), b["id"]), reverse=True)[:HOME_NEWEST]
         shelf = (f'<p>{len(books)} books, listed by <a href="authors.html">author</a>, {lists}.</p>\n'
-                 f'<h3 id="newest">Newest</h3>\n{books_ul(newest)}')
+                 f'<h2 id="newest">Newest</h2>\n{books_ul(newest)}')
     q = [x for x in queue if x.get("status") in ("queued", "in progress")]
     qitems = "\n".join(queue_line(x) for x in q)
     body = f"""<h1>Books</h1>
