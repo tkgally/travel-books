@@ -1112,6 +1112,36 @@
    "checked": "2026-11-21",
    "eligibility": "Checked 2026-11-21 (Opus subagent): not in pg_catalog.csv (whole file); The Online Books Page (title and author) and Wikisource: nothing; web search of a sentence (p. 135): nothing. Only Forgotten Books (print on demand). Chaney 1836–1922 (LoC, Michigan records). No illustrator credited. Not checked: Faded Page, WorldCat.",
    "note": "Library of Congress scan, 300 ppi; a Michigan copy (aba2387.0001.001.umich.edu, 600 ppi, probably bilevel) as a fallback: compare at the scan check. About 300 pp.: a journal of a winter in Hawaii about 1878–79: Honolulu and Waikiki, a voyage with the Prince, Hilo, Kilauea, Puna, Kona, Hualalai, Haleakala, round Oahu. Hawaiian words (check the ʻokina/apostrophes as printed)."
+  },
+  {
+   "order": 62,
+   "ia": "bridalbridleorou00harwiala",
+   "slug": "bridal-and-bridle-harwood",
+   "title": "The Bridal and the Bridle: or, Our Honeymoon-Trip in the East, in 1850",
+   "author": "[John Berwick Harwood]",
+   "year": 1851,
+   "place": "London",
+   "publisher": "Richard Bentley",
+   "images": 266,
+   "status": "queued",
+   "checked": "2026-11-21",
+   "eligibility": "Checked 2026-11-21 (Opus subagent): not in pg_catalog.csv (whole file); The Online Books Page: HathiTrust page images only; Wikisource: nothing; Open Library: the 1851 records only; web searches: no reprint, no text (raw HathiTrust OCR at distantreader.org does not count). Anonymous; attributed to John Berwick Harwood (1828–1899; Wikipedia; another source b. 1829): he married Emily Trollope at Ostend on 24 April 1850, and the book opens with a marriage in Belgium on 24 April 1850, the wife called Emily. No illustrator. Not checked: Faded Page, WorldCat.",
+   "note": "UC scan (Microsoft), JP2. About 249 small pages, 9 chapters, no plates seen. A honeymoon ride from Trieste through Croatia (Karlstadt) to Semlin, Belgrade, Nish, Sofia and Adrianople to Constantinople; a timid courier, Hussein Pacha. Comic first person. Dedicated to Consul-General de Fonblanque. Scan completeness judged from the OCR only: full scan check needed."
+  },
+  {
+   "order": 63,
+   "ia": "scoutingforstanl00stev",
+   "slug": "scouting-for-stanley-stevens",
+   "title": "Scouting for Stanley in East Africa",
+   "author": "Thomas Stevens",
+   "year": 1890,
+   "place": "New York",
+   "publisher": "Cassell Publishing Company",
+   "images": 348,
+   "status": "queued",
+   "checked": "2026-11-21",
+   "eligibility": "Checked 2026-11-21 (Opus subagent): not in pg_catalog.csv (only his bicycle books); The Online Books Page: nothing; Wikisource author page lists it with an external scan only; Open Library and web: print-on-demand only (Franklin Classics, Wentworth, Legare Street, Kessinger). Stevens 1854–1935. Photographs, no artist named. Risk: Negro Universities Press reprinted many Africa books in the 1960s–70s; WorldCat not checked — check before starting. Not checked: Faded Page.",
+   "note": "UCLA scan, JP2. About 288 pp., 18 chapters, 16 photographic plates. A New York World correspondent in 1889: Zanzibar and Mombasa, Taveta and Kilimanjaro, Masai-land hunting with Dr W. L. Abbott, held on parole by the Germans, then inland to reach Stanley and Emin Pasha and march with them to Bagamoyo."
   }
  ],
  "rejected": [
@@ -1468,6 +1498,31 @@
   {
    "title": "Mather, One Summer in Hawaii (1891), onesummerinhawai00math",
    "why": "author's dates not found (rule 5 cannot be checked)",
+   "checked": "2026-11-21"
+  },
+  {
+   "title": "Frank L. James, The Wild Tribes of the Soudan (1883), wildtribesofsoud00jame",
+   "why": "reprinted: Negro Universities Press, 1969",
+   "checked": "2026-11-21"
+  },
+  {
+   "title": "M. S. Wellby, 'Twixt Sirdar & Menelik (1901), twixtsirdarmenel00welliala",
+   "why": "reprinted (ISBN 0-8371-1760-7, Negro Universities Press/Greenwood)",
+   "checked": "2026-11-21"
+  },
+  {
+   "title": "Caroline Kirkland, Some African Highways (1908)",
+   "why": "text at A Celebration of Women Writers",
+   "checked": "2026-11-21"
+  },
+  {
+   "title": "F. Harrison Smith, Through Abyssinia (1890), throughabyssinia00smit",
+   "why": "the author's birth cannot be bounded",
+   "checked": "2026-11-21"
+  },
+  {
+   "title": "James Albert Harrison, Greek Vignettes (1878), greekvignettessa00harr",
+   "why": "qualifies on the five rules (Harrison d. 1911; Kessinger only) but more essay than journey: not queued for now",
    "checked": "2026-11-21"
   }
  ]
