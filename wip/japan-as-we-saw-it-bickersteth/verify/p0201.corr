@@ -1,7 +1,0 @@
-The scan reads "narrow hall below", but the draft has "the narrow hall below".
-
-{"find": "into the narrow hall below", "replace": "into the narrow hall below"}
-
-Checking again: the scan reads "go down into the narrow hall below", which matches the draft, so that correction was wrong and the draft needs no change there.
-
-NONE

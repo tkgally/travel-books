@@ -1,1 +1,0 @@
-{"n": 1, "is": "B", "print": "in armour, seated, holding a ", "sure": "medium"}

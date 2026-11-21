@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "that our\n\n[[image: A Japanese fishing boat with a large square sail, its crew seated aboard, lying among reeds on calm water]]\n[[caption]] Japanese Fishing Boat.\n\n[[cont]]ship should", "sure": "high"}
-{"n": 2, "is": "B", "print": "boatman", "sure": "high"}

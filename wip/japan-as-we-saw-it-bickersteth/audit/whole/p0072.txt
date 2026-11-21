@@ -1,5 +1,0 @@
-{"given": "sharp zigzag path into valley, our", "print": "sharp zigzag path into the valley, our", "sure": "high"}
-{"given": "how my next neighbor endured each", "print": "how my next neighbour endured each", "sure": "high"}
-{"given": "they find stimulants shortcn their lives.)", "print": "they find stimulants shorten their lives.)", "sure": "high"}
-{"given": "a somewhat severe one; which made", "print": "a somewhat severe one, which made", "sure": "high"}
-{"given": "But we bad quite mistaken", "print": "But we had quite mistaken", "sure": "high"}

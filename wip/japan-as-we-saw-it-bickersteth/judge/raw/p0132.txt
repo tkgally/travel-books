@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "emptation is\n\n[[image: a Japanese fish-seller squatting between two wooden tubs, cutting a large fish with a knife, before a painted backdrop of trees]]\n[[caption]] Japanese Fish Merchant.\n\n[[cont]]intense to s", "sure": "high"}
-{"n": 2, "is": "B", "print": "Tokyo—", "sure": "high"}

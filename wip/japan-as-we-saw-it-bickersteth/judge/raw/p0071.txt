@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "untain side,\n\n[[image: carved wooden panel showing a monkey with its young among flowers and leaves]]\n[[caption]] From a photograph of carving at Nikko.\n\n[[cont]]stopping now", "sure": "high"}
-{"n": 2, "is": "A", "print": "to start\n", "sure": "high"}

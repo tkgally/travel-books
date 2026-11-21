@@ -1,5 +1,0 @@
-{"given": "which rumor, with its wonted", "print": "which rumour, with its wonted", "sure": "high"}
-{"given": "it was only tenth of", "print": "it was only a tenth of", "sure": "high"}
-{"given": "cracked and disjointed; but still stood", "print": "cracked and disjointed, but still stood", "sure": "high"}
-{"given": "in a very precarious pofition.", "print": "in a very precarious position.", "sure": "high"}
-{"given": "as we neared if was thronged", "print": "as we neared it was thronged", "sure": "high"}

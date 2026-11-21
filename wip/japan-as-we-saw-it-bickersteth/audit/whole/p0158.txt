@@ -1,5 +1,0 @@
-{"given": "and furniture, but sliding screens between", "print": "and furniture, but the sliding screens between", "sure": "high"}
-{"given": "explained was produccd by some", "print": "explained was produced by some", "sure": "high"}
-{"given": "over the softly-matted floors; and could", "print": "over the softly-matted floors, and could", "sure": "high"}
-{"given": "art and courtesy—all bad left", "print": "art and courtesy—all had left", "sure": "high"}
-{"given": "that Japan of today will not be", "print": "that Japan of to-day will not be", "sure": "high"}

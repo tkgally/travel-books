@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "scene.\n\nAt Ureshi", "sure": "high"}
-{"n": 2, "is": "A", "print": "It was\n\n[[image: two Japanese women asleep on quilted bedding on the floor, a paper lantern stand and a small brazier beside them, a hanging scroll on the wall behind]]\n[[caption]] Japanese Bed.\n\n[[cont]]larger than", "sure": "high"}
