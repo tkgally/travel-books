@@ -1,5 +1,0 @@
-{"given": "brilliant varying shades green, here", "print": "brilliant varying shades of green, here", "sure": "high"}
-{"given": "add to his the brightest", "print": "add to this the brightest", "sure": "high"}
-{"given": "it somewhat bewildered; charmed the", "print": "it somewhat bewildered, charmed the", "sure": "high"}
-{"given": "Some excellent coffce and a roll", "print": "Some excellent coffee and a roll", "sure": "high"}
-{"given": "the embrasure, spanish fashion, and", "print": "the embrasure, Spanish fashion, and", "sure": "high"}

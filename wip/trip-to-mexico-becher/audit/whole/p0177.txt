@@ -1,4 +1,0 @@
-{"given": "rights in rcgard to the fathers", "print": "rights in regard to the fathers", "sure": "high"}
-{"given": "its rows of cocoa-trees; and the Indian", "print": "its rows of cocoa-trees, and the Indian", "sure": "high"}
-{"given": "and bought a lot chocolate, famously", "print": "and bought a lot of chocolate, famously", "sure": "high"}
-{"given": "the city of the “True cross,” or", "print": "the city of the “True Cross,” or", "sure": "high"}

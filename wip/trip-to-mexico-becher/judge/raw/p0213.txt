@@ -1,2 +1,0 @@
-{"n": 1, "is": "A", "print": "THE mountainous", "sure": "high"}
-{"n": 2, "is": "B", "print": "[[image: decorative ornamental header band]]\n\n# Appendix.", "sure": "high"}

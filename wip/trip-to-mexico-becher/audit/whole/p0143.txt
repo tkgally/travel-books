@@ -1,5 +1,0 @@
-{"given": "and we where taken from", "print": "and we were taken from", "sure": "high"}
-{"given": "he is of middle hcight,", "print": "he is of middle height,", "sure": "high"}
-{"given": "graceful, genial in manner; a pure Indian,", "print": "graceful, genial in manner, a pure Indian,", "sure": "high"}
-{"given": "who tells the president in Spanish", "print": "who tells the President in Spanish", "sure": "high"}
-{"given": "that well-bred ease repose about his", "print": "that well-bred ease and repose about his", "sure": "high"}

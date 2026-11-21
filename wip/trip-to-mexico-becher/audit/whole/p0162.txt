@@ -1,5 +1,0 @@
-{"given": "making a motion with the band which", "print": "making a motion with the hand which", "sure": "high"}
-{"given": "A pretty hand; flashing diamond rings", "print": "A pretty hand, flashing diamond rings", "sure": "high"}
-{"given": "caballeros passing repassing that the twirling", "print": "caballeros passing and repassing that the twirling", "sure": "high"}
-{"given": "prove that the Mexican ladics are", "print": "prove that the Mexican ladies are", "sure": "high"}
-{"given": "but none are extraordinary otherwize.", "print": "but none are extraordinary otherwise.", "sure": "high"}

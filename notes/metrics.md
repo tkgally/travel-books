@@ -81,6 +81,7 @@
 | A Parson’s Holiday v3 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | “ignorancc” for “ignorance” (p. 222) (found by the review after forty books: corpus sweep, checked on the scan) |
 | Letters from China & Japan v2 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | “pertorm” for “perform” (p. 46) (found by the review after forty books: corpus sweep, checked on the scan) |
 | My Life in Mongolia and Siberia v2 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | “langhing” for “laughing” (p. 88) (found by the review after forty books: corpus sweep, checked on the scan) |
+| A Trip to Mexico v1 | 2026-11-21 | 234 | Opus draft → Sonnet corrections → Opus judge; scan check, plate and ornament crops, spot-read (front matter, letter openings, verse, tables, chronology, notes, captions, the accents and rare-forms lists) and rendered look by Opus subagents | 8 | 3 / 5 / 0 | 0 | 24.17 | 0 | PASS, 33 waived (32 tissue guards, a ditto mark) | 29/29; 0 / 6 (spot-read: 2 misprints by rare-forms, 2 more, 2 table fractions, a caption; rendered look: 3 plates ending the division before → leaf_order) | |
 
 ## Calibrations
 

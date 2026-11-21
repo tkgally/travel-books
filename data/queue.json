@@ -970,11 +970,13 @@
    "place": "Toronto",
    "publisher": "Willing and Williamson",
    "images": 280,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-21",
    "eligibility": "Checked 2026-11-21 (Opus subagent): PG catalogue: none. Online Books Page: none. Wikisource search: none. Faded Page: web search only, nothing. Web search of the title and of a sentence from the middle: no text found. Canadiana (CIHM 08352) has page images only. Reprints: Hansebooks 2017 and Forgotten Books only (print on demand). Becher 1817-1885 (Wikipedia; Dictionary of Canadian Biography vol. 11). The preface credits Kilburn Brothers (photographers: Benjamin W. Kilburn 1827-1909, Edward Kilburn 1830-1884) and copies after Stephens, Waldeck and Humboldt.",
    "note": "Vancouver Public Library scan, 500 ppi, JP2 zip; other library copies exist on IA. About 20 mounted photographs and 2 lithographs. Letters home: New Orleans, Vera Cruz, Orizaba, Mexico City (the lakes, Chapultepec, an interview with President Díaz), Puebla and Jalapa. About 140 pp. of narrative, then an Appendix of about 40 pp. on ancient Mexico, mostly drawn from other writers.",
-   "started": "2026-11-21"
+   "started": "2026-11-21",
+   "version": 1,
+   "published": "2026-11-21"
   },
   {
    "order": 54,

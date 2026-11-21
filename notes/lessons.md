@@ -77,6 +77,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - A picture printed beside or above the `#` heading of a division left out of the reading editions (advertisements,
   title page) belongs after that heading in the page file; before it, it ends the previous chapter (*West Coast of
   Africa*: the royal arms of the advertisements showed at the end of the last chapter).
+- A plate bound just before the page it faces, where a letter or section begins, ends the division before; `leaf_order` reads it after that page (*A Trip to Mexico*: 3 plates; caught by the rendered look).
+- Tissue guards over plates show the plate or the facing text through: leave them out of the draft (they invite ghost text) and waive each in `leaves`.
 - A picture printed above a chapter's `#` heading (a head-piece photograph) ends the previous chapter unless it is an ornament: put its `[[image:]]` after the heading (*Trans-Caspia* p0166: caught by the rendered look).
 - A `toc_title` written by hand is plain text: its italics are lost.
 - Decorative chapter head-pieces and tail-pieces: drafts mark each as `[[image:]]`; keep them, crop them, list them
