@@ -910,10 +910,11 @@
    "place": "London",
    "publisher": "Henry S. King & Co.",
    "images": 326,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-20",
-   "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv; The Online Books Page: none; web search of a mid-book sentence: nothing. Reprints: HardPress 2019, British Library Historical Print Editions 2011, Anatiposi 2023 (all print on demand). Wikisource only by a site-restricted web search. Author 1828–1916 (a bookseller's note: lived in Venice, author of A Garden in Venice): confirm the dates before starting. No illustrations. Not checked: Open Library, Faded Page.",
-   "note": "Library of Congress scan, 600 ppi, good OCR, no plates. The author hired his own dahabeah without a dragoman, from Alexandria to Wadi Halfa and back: fitting out, money, crews, the boat hauled up the cataract at Aswan."
+   "eligibility": "Checked 2026-11-20 (Opus subagent): not in pg_catalog.csv; The Online Books Page: none; web search of a mid-book sentence: nothing. Reprints: HardPress 2019, British Library Historical Print Editions 2011, Anatiposi 2023 (all print on demand). Wikisource only by a site-restricted web search. Author 1828–1916 (a bookseller's note: lived in Venice, author of A Garden in Venice): confirm the dates before starting. No illustrations. Not checked: Open Library, Faded Page. Re-checked 2026-11-21: not in pg_catalog.csv (fresh copy); web search of the title: no text online. Author Frederic Eden d. 1916 in Venice (Wikipedia, Garden of Eden (Venice); Frederick Eden (cricketer), b. 1829); creator of the Giudecca garden.",
+   "note": "Library of Congress scan, 600 ppi, good OCR, no plates. The author hired his own dahabeah without a dragoman, from Alexandria to Wadi Halfa and back: fitting out, money, crews, the boat hauled up the cataract at Aswan.",
+   "started": "2026-11-21"
   },
   {
    "order": 51,
