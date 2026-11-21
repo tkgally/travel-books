@@ -59,6 +59,7 @@
 | The Land of the Tatami v1 | 2026-11-21 | 156 | Opus draft → Sonnet corrections → Opus judge; 24 crops, spot-read of ~50 pages, accent check of 21 groups and the rendered look by Opus subagents | 9 | 2 / 7 / 0 | 0 | 16.64 | 0 | PASS, 0 waived | 30/30; 1 / 6 (fixed); accent check: 8 õ typed ō, 1 speck; spot-read: 1 heading, 11 printer’s errors; verse-joins: 3 | |
 | The Nile without a Dragoman v1 | 2026-11-21 | 320 | Opus draft → Sonnet corrections → Opus judge; spot-read of 13 pages and every accent group, rendered look, by Opus subagents | 3 | 1 / 2 / 0 | 1 (a misread printed word) | 31.33 | 0 | PASS, 0 waived | 30/30; 1 / 6 (fixed: a turned n); spot-read: a brace group; the corrections pass dropped 2 page-top [[cont]] | |
 | From West Africa to Palestine v2 | 2026-11-21 | — | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | a page-top join removed by the corrections pass (found at the review after thirty-five books, checked on the scan) |
+| Between Two Oceans v1 | 2026-11-21 | 380 | Opus draft → Sonnet corrections → Opus judge; spot-read of 36 pages (front matter, verse, footnote) and every accent group, rendered look, by Opus subagents | 5 | 1 / 4 / 0 | 0 | 37.17 | 0 | PASS, 0 waived | 30/30; 0 / 6; spot-read: a stanza joined at a page top, a misprint (Entaw); a misnumbered folio | |
 
 ## Calibrations
 

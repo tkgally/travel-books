@@ -1,0 +1,20 @@
+[[page ?]]
+
+# Contents
+
+| | | <sc>page</sc> |
+|---|---|---|
+| I | A<sc>cross the</sc> C<sc>ontinent</sc> | <pref>1</pref> |
+| II | T<sc>he</sc> P<sc>acific</sc> | <pref>12</pref> |
+| III | A<sc>n</sc> A<sc>merican</sc> T<sc>erritory</sc> | <pref>16</pref> |
+| IV | O<sc>n to</sc> J<sc>apan</sc> | <pref>33</pref> |
+| V | Y<sc>okohama</sc> | <pref>38</pref> |
+| VI | T<sc>he</sc> I<sc>nland</sc> S<sc>ea</sc> | <pref>47</pref> |
+| VII | K<sc>yoto</sc> | <pref>62</pref> |
+| VIII | T<sc>he</sc> C<sc>herry</sc> D<sc>ance</sc> | <pref>78</pref> |
+| IX | H<sc>uman</sc> T<sc>andems</sc> | <pref>88</pref> |
+| X | T<sc>he</sc> C<sc>apital</sc> | <pref>106</pref> |
+| XI | E<sc>aster</sc> | <pref>120</pref> |
+| XII | H<sc>ospitality and</sc> C<sc>eremonial</sc> | <pref>130</pref> |
+| XIII | F<sc>ujiyama</sc> | <pref>138</pref> |
+| XIV | F<sc>arewell to</sc> N<sc>ippon</sc> | <pref>144</pref> |

@@ -1,0 +1,62 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[       ok] audit: book.json records the sampled audit of this version
+[ look (8)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0056: …lings of trepi-|dation that, be… (hyphen removed; check)
+            - hyphen join at p0069: …raternity—mani-|fested a frater… (hyphen removed; check)
+            - hyphen join at p0088: …is is a digres-|sion, as other … (hyphen removed; check)
+            - hyphen join at p0129: … cast deep pur-|plish-blue shad… (hyphen removed; check)
+            - hyphen join at p0224: …prismatic tran-|sparencies of t… (hyphen removed; check)
+            - hyphen join at p0273: …ard, not reluc-|tantly, albeit … (hyphen removed; check)
+            - hyphen join at p0295: …s, seizing bed-|ding, blankets,… (hyphen removed; check)
+            - (and 28 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[ look (1)] folios: printed page numbers that break the sequence
+            - p0379: page 1 after page 355 (p0377)
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[look (17)] contents: entries of the printed contents with no matching heading
+            - p0013: '1. Ninety-five in the Shade'
+            - p0013: '2. The City in Sorrow'
+            - p0013: '3. Blackwell’s Island'
+            - p0013: '4. In the Indian Summer'
+            - p0013: '5. The Sleighing Season'
+            - p0013: '1. In ‘The Golden City’'
+            - p0013: '2. China Town'
+            - p0013: '3. The Chinese New Year'
+            - p0013: '4. San Francisco Life'
+            - p0013: '5. Among the Redwoods'
+            - p0013: '1. The City by the Sea'
+            - p0013: '2. The Trip to Fort Sumter'
+            - p0013: '3. Under the Palmetto Flag'
+            - p0013: '4. Columbia'
+            - p0013: '1. Jacksonville'
+            - p0013: '2. The Oldest City in the States'
+            - p0013: '3. On Board the Okeehumkee'
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
+[ look (6)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0013, p0015, p0016, p0017, p0018, p0019…); à (p0110, p0182, p0367)
+            - apropos: apropos (p0203); àpropos (p0287)
+            - depot: dépot (p0078); dépôt (p0087, p0088, p0137, p0168, p0295, p0300…)
+            - lager: lager (p0085, p0095, p0112); läger (p0246)
+            - madrono: madrono (p0211); madroño (p0259)
+            - melee: melée (p0097); mêlée (p0036)
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight PASS: between-two-oceans-hardy v1 — 0 to fix, 0 waived; to look at: hyphen-joins 8, folios 1, contents 17, accents 6 — tools@628383af 2026-11-21

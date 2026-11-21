@@ -109,11 +109,13 @@
    "place": "London",
    "publisher": "Hurst & Blackett",
    "images": 394,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-19",
    "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Kessinger (print on demand). Re-checked 2026-11-21: not in pg_catalog.csv (fresh copy); web search of the title: no text online (only an 1884 Spectator review). Iza Duffus Hardy d. 1922.",
    "note": "Boston Public Library scan (another: cu31924023242104). Sketches rather than one continuous narrative.",
-   "started": "2026-11-21"
+   "started": "2026-11-21",
+   "version": 1,
+   "published": "2026-11-21"
   },
   {
    "order": 6,
@@ -612,10 +614,11 @@
    "place": "New York",
    "publisher": "Dodd, Mead and Company",
    "images": 184,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-20",
-   "eligibility": "JATSI 244. Rules 1–4 met. Rule 1: University of California scan, colour 400 ppi, clean, complete. Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person diary of two women's journey in spring 1911; about three-quarters on Japan. People: Ethel Louise McLean, born 1878 (LC), death not found: if it proves to be after 1955, notes_on_text says so (jatsi.md). Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20).",
-   "note": "About 150 pp., printed by Douglas C. McMurtrie in 1,000 copies (title page 1911, copyright 1912); about 28 tipped-in photographs, many hand-coloured, with printed captions; facsimiles of a dining-car menu and a hotel bill that contain Japanese script (as images: no transcription of the script needed beyond the alt text); decorated initials."
+   "eligibility": "JATSI 244. Rules 1–4 met. Rule 1: University of California scan, colour 400 ppi, clean, complete. Rules 2, 3: no text elsewhere; print-on-demand only. Rule 4: first-person diary of two women's journey in spring 1911; about three-quarters on Japan. People: Ethel Louise McLean, born 1878 (LC), death not found: if it proves to be after 1955, notes_on_text says so (jatsi.md). Searched 2026-11-20 (Opus subagent): Project Gutenberg catalogue, The Online Books Page, Wikisource, a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 does not apply to JATSI books (Tom, 2026-11-20). Re-checked 2026-11-21: not in pg_catalog.csv; web search of the title: a bookseller's listing only. Death date still not found.",
+   "note": "About 150 pp., printed by Douglas C. McMurtrie in 1,000 copies (title page 1911, copyright 1912); about 28 tipped-in photographs, many hand-coloured, with printed captions; facsimiles of a dining-car menu and a hotel bill that contain Japanese script (as images: no transcription of the script needed beyond the alt text); decorated initials.",
+   "started": "2026-11-21"
   },
   {
    "order": 34,
@@ -936,6 +939,81 @@
    "started": "2026-11-20",
    "version": 1,
    "published": "2026-11-20"
+  },
+  {
+   "order": 52,
+   "ia": "cu31924028599680",
+   "slug": "uganda-holiday-treves",
+   "title": "Uganda for a Holiday",
+   "author": "Sir Frederick Treves",
+   "year": 1910,
+   "place": "London (scan is the New York, E. P. Dutton issue)",
+   "publisher": "Smith, Elder & Co. / E. P. Dutton",
+   "images": 340,
+   "status": "queued",
+   "checked": "2026-11-21",
+   "eligibility": "Checked 2026-11-21 (Opus subagent): PG catalogue (author and title): his other books are there, not this one. Online Books Page: none. Wikisource: no work or Index page (Author:Frederick Treves does not list it). Faded Page: web search found nothing; direct search not possible. Web search of the title and of the sentence 'a land as green as Devonshire in June': no text found. Reprints: Forgotten Books 'Classic Reprint' and HardPress 2013 only (both print-on-demand). Treves 1853-1923 (IA, PG catalogue). Photographs are the author's own.",
+   "note": "Cornell scan, 300 ppi, JP2 zip. Text 233 pp. 72 photographs on 42 plates and a folding map at the end (check it is shown unfolded). From Mombasa by the Uganda Railway to Nairobi, a safari in the Rift Valley, round Lake Victoria to Kampala and the source of the Nile. Some quoted game laws and one table."
+  },
+  {
+   "order": 53,
+   "ia": "31383026826019",
+   "slug": "trip-to-mexico-becher",
+   "title": "A Trip to Mexico, Being Notes of a Journey from Lake Erie to Lake Tezcuco and Back",
+   "author": "Henry C. R. Becher",
+   "year": 1880,
+   "place": "Toronto",
+   "publisher": "Willing and Williamson",
+   "images": 280,
+   "status": "queued",
+   "checked": "2026-11-21",
+   "eligibility": "Checked 2026-11-21 (Opus subagent): PG catalogue: none. Online Books Page: none. Wikisource search: none. Faded Page: web search only, nothing. Web search of the title and of a sentence from the middle: no text found. Canadiana (CIHM 08352) has page images only. Reprints: Hansebooks 2017 and Forgotten Books only (print on demand). Becher 1817-1885 (Wikipedia; Dictionary of Canadian Biography vol. 11). The preface credits Kilburn Brothers (photographers: Benjamin W. Kilburn 1827-1909, Edward Kilburn 1830-1884) and copies after Stephens, Waldeck and Humboldt.",
+   "note": "Vancouver Public Library scan, 500 ppi, JP2 zip; other library copies exist on IA. About 20 mounted photographs and 2 lithographs. Letters home: New Orleans, Vera Cruz, Orizaba, Mexico City (the lakes, Chapultepec, an interview with President Díaz), Puebla and Jalapa. About 140 pp. of narrative, then an Appendix of about 40 pp. on ancient Mexico, mostly drawn from other writers."
+  },
+  {
+   "order": 54,
+   "ia": "easternshoresofa0000stra",
+   "slug": "eastern-shores-adriatic-strangford",
+   "title": "The Eastern Shores of the Adriatic in 1863, with a Visit to Montenegro",
+   "author": "Viscountess Strangford [Emily Anne Beaufort Smythe]; three chapters by Viscount Strangford",
+   "year": 1864,
+   "place": "London",
+   "publisher": "Richard Bentley",
+   "images": 414,
+   "status": "queued",
+   "checked": "2026-11-21",
+   "eligibility": "Checked 2026-11-21 (Opus subagent): PG catalogue: none. Online Books Page: page images only (Google, IA, HathiTrust). Wikisource: no work or Index page. Faded Page: web search only, nothing. Web search of the title and of a sentence from the middle: no text found. Reprints: Kessinger 2010, Legare Street 2023 and an Antigonos listing (not confirmed whether a scan reprint; check before starting). Lady Strangford d. 1887 (ODNB); Percy Smythe, 8th Viscount Strangford, 1826-1869 (DNB).",
+   "note": "Trent University copy scanned by IA, 300 ppi, JP2 zip (the other IA copies are Google scans). Text 386 pp. 5 lithograph plates. Southern Albania (Ioannina), Ragusa, three days at the Montenegrin court at Cetinje, and Dalmatia. Her husband's political chapters (II, V, VII) fill about a third of the book."
+  },
+  {
+   "order": 55,
+   "ia": "parsonsholidaybe00alle",
+   "slug": "parsons-holiday-allen",
+   "title": "A Parson's Holiday; Being an Account of a Tour in India, Burma, and Ceylon, in the Winter of 1882-83",
+   "author": "W. Osborn B. Allen [William Osborn Bird Allen]",
+   "year": 1885,
+   "place": "Tenby",
+   "publisher": "F. B. Mason",
+   "images": 250,
+   "status": "queued",
+   "checked": "2026-11-21",
+   "eligibility": "Checked 2026-11-21 (Opus subagent): PG catalogue: none. Online Books Page: none. Wikisource search: none. Faded Page: not properly checked (scripted search returns nothing; a site: web search found nothing). Web search of title and of a preface sentence found only scans and raw OCR (HathiTrust, Cornell Southeast Asia Visions, a Tamil Digital Library PDF, distantreader.org): none disqualify. No reprint of any kind found. Author born 1849 (accessgenealogy.com 'Allen of Bicton'), son of Charles Allen of the Legislative Council of India (matches the dedication); death date not found, so rule 5 by the birth year (before 1856). Not checked: WorldCat, Crockford, Venn: look for the death date before starting.",
+   "note": "UC Libraries (Los Angeles) scan, 400 ppi; clean OCR; one map, footnotes at page foot. A vicar's six-month tour, Egypt on the way out, then India, Burma (the Shwe Dagon, monasteries) and Ceylon, written with an eye to missions and the Church."
+  },
+  {
+   "order": 56,
+   "ia": "goldendagon00palm",
+   "slug": "golden-dagon-palmer",
+   "title": "The Golden Dagon; or, Up and Down the Irrawaddi. Being Passages of Adventure in the Burman Empire",
+   "author": "[John Williamson Palmer] ('An American')",
+   "year": 1856,
+   "place": "New York",
+   "publisher": "Dix, Edwards & Co.",
+   "images": 350,
+   "status": "queued",
+   "checked": "2026-11-21",
+   "eligibility": "Checked 2026-11-21 (Opus subagent): PG catalogue: none. Online Books Page: none. Wikisource: passing mentions only. Faded Page: not properly checked. Web search: only print-on-demand copies under the 1859 title 'Up and Down the Irrawaddi' (Kessinger; a 2023 facsimile, ISBN 9781021017130: check whether it is a scan reprint before starting). Exact-phrase search of a sentence: no hits. Author 1825-1906 (LC catalogue; DocSouth UNC). Surgeon on the East India Company steamer Phlegethon in the Second Burmese War, 1852. Not checked: WorldCat.",
+   "note": "Library of Congress scan of the first edition, 500 ppi. Other copies: goldendagonorupd00palmiala (UC), updownirrawaddi00palm (LC, the 1859 retitled issue). Small pages, plain layout, no plates listed. An American ship's surgeon's account of Singapore, Penang, Moulmein and the 1852 campaign on the Irrawaddi. One chapter is a Burmese tale read aloud to him."
   }
  ],
  "rejected": [
@@ -1243,6 +1321,31 @@
    "title": "Southworth, Four Thousand Miles of African Travel (1875)",
    "why": "only a Google scan without a JP2 archive (vetting by subagents, 2026-11-20)",
    "checked": "2026-11-20"
+  },
+  {
+   "title": "Thomsett, A Trip through the Balkan States (1909)",
+   "why": "chatty and thin; much of it is Boulogne, Venice and Milan (vetting by subagents)",
+   "checked": "2026-11-21"
+  },
+  {
+   "title": "W. W. Newton, A Run through Russia (1894)",
+   "why": "a short visit to Tolstoy padded with quoted newspaper reports (vetting by subagents)",
+   "checked": "2026-11-21"
+  },
+  {
+   "title": "Ballantine, On India's Frontier; or, Nepal",
+   "why": "reprinted by Daya Publishing House, Delhi, 1985 (vetting by subagents)",
+   "checked": "2026-11-21"
+  },
+  {
+   "title": "Taunton, Australind",
+   "why": "author's dates not found; birth before 1856 cannot be shown (vetting by subagents)",
+   "checked": "2026-11-21"
+  },
+  {
+   "title": "Lucas, Australia and Homeward",
+   "why": "largely compiled from other writers (vetting by subagents)",
+   "checked": "2026-11-21"
   }
  ]
 }
