@@ -1,0 +1,35 @@
+{
+ "id": "parsons-holiday-allen",
+ "version": 1,
+ "date": "2026-11-21",
+ "title": "A Parson’s Holiday",
+ "subtitle": "Being an Account of a Tour in India, Burma, and Ceylon, in the Winter of 1882–83",
+ "short_title": "A Parson’s Holiday",
+ "authors": [
+  {
+   "name": "W. Osborn B. Allen",
+   "sort": "Allen, W. Osborn B.",
+   "born": 1849
+  }
+ ],
+ "place": "Tenby",
+ "publisher": "F. B. Mason",
+ "year": 1885,
+ "edition_statement": "First edition",
+ "source": {
+  "ia_identifier": "parsonsholidaybe00alle",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": [0, 247, 248, 249, 250, 251]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-21",
+   "note": "First publication."
+  }
+ ],
+ "regions": ["India", "Myanmar", "Sri Lanka"],
+ "period": "1882–83",
+ "summary": "",
+ "divisions": []
+}
