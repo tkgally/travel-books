@@ -1,0 +1,15 @@
+{
+ "id": "golden-dagon-palmer",
+ "version": 1,
+ "date": "2026-11-21",
+ "title": "The Golden Dagon",
+ "subtitle": "Or, Up and Down the Irrawaddi. Being Passages of Adventure in the Burman Empire",
+ "short_title": "The Golden Dagon",
+ "authors": [{"name": "John Williamson Palmer", "sort": "Palmer, John Williamson", "born": 1825, "died": 1906}],
+ "place": "New York",
+ "publisher": "Dix, Edwards & Co.",
+ "year": 1856,
+ "edition_statement": "First edition",
+ "source": {"ia_identifier": "goldendagon00palm", "contributor": "The Library of Congress"},
+ "history": [{"version": 1, "date": "2026-11-21", "note": "First publication."}]
+}
