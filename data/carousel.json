@@ -86,6 +86,13 @@
    "height": 450,
    "sha256": "3ae4f33a9944e8e9c033035aef196479e0ba6f7324fc913a642ac6fa4168fd98"
   },
+  "japan-as-we-saw-it-bickersteth": {
+   "image": "title page",
+   "width": 239,
+   "height": 450,
+   "sha256": "660a6f8a35f20b53b8507071256c215a3ae9683646cff7345b797f114390fbd8",
+   "note": "the cover has no title"
+  },
   "jaunt-in-japan-jackson": {
    "image": "cover",
    "width": 269,

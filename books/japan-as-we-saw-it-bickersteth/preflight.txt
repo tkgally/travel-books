@@ -1,0 +1,64 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[       ok] audit: book.json records the sampled audit of this version
+[ look (4)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0016: …their Constitu-|tion, their Par… (hyphen removed; check)
+            - hyphen join at p0248: …gned the agree-|ment to stay a … (hyphen removed; check)
+            - hyphen join at p0305: …owed by an out-|break of indepe… (hyphen removed; check)
+            - (and 5 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[look (20)] contents: entries of the printed contents with no matching heading
+            - p0019: 'Preface. By the Rt. Rev. Lord Bishop of Exeter. Page v'
+            - p0019: 'Liverpool to Quebec—Niagara—The Canadian Lakes—The Rocky Mountains—Van'
+            - p0019: 'The City of Tokyo—S. Andrew’s House—S. Hilda’s Mission—Ushigome Church'
+            - p0019: 'Nikko—Temple of Iyeyasu—Lake Chusenji—A Night in a Japanese Inn—Ikao—T'
+            - p0019: 'The Tokyo Kwankoba—The Greek Cathedral—Shopping in the Ginza—The Imper'
+            - p0020: 'Japanese Photographs—The Keiogijiku College—The Imperial University—A '
+            - p0020: 'The Church in Japan—Miyanoshita—Mount Fuji—Hakone—Ojigoku—Nagoya—Japan'
+            - p0020: 'A Buddhist Graveyard—New Buddhist Temple—The Imperial Garden—The Rapid'
+            - p0020: 'A Sunday at Osaka—Bishop Poole’s Girls’ School—A Picnic at Mino 157'
+            - p0020: 'The Great Earthquake—Narrow Escape of the Bishop of Exeter and Mrs. Bi'
+            - p0021: 'Terrible Loss of Life and Property in the Earthquake—Letters from Gifu'
+            - p0021: 'The Temples of Nara—Shinto Priests—The Great Dai Butsu—Buddhist Bells.'
+            - p0021: 'The Mission Church in Fukuyama—Laying of Foundation Stone by the Bisho'
+            - p0021: 'All Saints’ Day at Kobe—Thanksgiving Service—The Emperor’s Birthday—Ar'
+            - p0021: 'The Island of Kiushiu—Fukuoka—A Sunday at Fukuoka—Oyamadā, or the Chri'
+            - p0022: 'The Old Castle—A Japanese Giant—Reception by Christian Converts—The Gr'
+            - p0022: 'A Shinto Funeral—A Buddhist Funeral—The Paradise of Buddhism—Japanese '
+            - p0022: 'Japanese Inn at Ureshino—Sonogi and Tokitsu Water—Nagasaki—Farewell to'
+            - p0022: 'Hong-Kong—A Day in Canton—Singapore—Colombo—Pleasant Days in the Valet'
+            - p0022: 'Appendices 331'
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
+[ look (5)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - cho: cho (p0065, p0108, p0247, p0364, p0378); chō (p0055, p0092, p0380)
+            - doshisha: doshisha (p0375); dōshisha (p0173)
+            - osaka: osaka (p0020, p0021, p0090, p0140, p0157, p0179…); ōsaka (p0373)
+            - pere: père (p0092); pére (p0380)
+            - sake: sake (p0048, p0330); sakè (p0131); saké (p0094, p0299)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[       ok] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+[ look (1)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+            - p0248: “all He” in …h the heathen that above all He is God.…
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight PASS: japan-as-we-saw-it-bickersteth v1 — 0 to fix, 0 waived; to look at: hyphen-joins 4, contents 20, accents 5, missing-stop 1 — tools@e0615bae 2026-11-21
