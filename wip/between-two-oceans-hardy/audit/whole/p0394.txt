@@ -1,7 +1,0 @@
-{"given": "The New and Popular Novels.", "print": "THE NEW AND POPULAR NOVELS.", "sure": "medium"}
-{"given": "Published by Hurst & Blackett.", "print": "PUBLISHED BY HURST & BLACKETT.", "sure": "medium"}
-{"given": "a good deal of promize.", "print": "a good deal of promise.", "sure": "high"}
-{"given": "might well be pleased achieve such", "print": "might well be pleased to achieve such", "sure": "high"}
-{"given": "fine perception and caudid reproduction", "print": "fine perception and candid reproduction", "sure": "high"}
-{"given": "has the right to he considered", "print": "has the right to be considered", "sure": "high"}
-{"given": "nothing but what is good; even", "print": "nothing but what is good, even", "sure": "high"}

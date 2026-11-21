@@ -1,5 +1,0 @@
-{"given": "The foot is not; as we", "print": "The foot is not, as we", "sure": "high"}
-{"given": "a friend of this, a merchant,", "print": "a friend of his, a merchant,", "sure": "high"}
-{"given": "Sing Yang, then, was very fine specimen", "print": "Sing Yang, then, was a very fine specimen", "sure": "high"}
-{"given": "many guests were assembled, chinese, of course;", "print": "many guests were assembled, Chinese, of course;", "sure": "high"}
-{"given": "and the host salaamcd, and everybody", "print": "and the host salaamed, and everybody", "sure": "high"}

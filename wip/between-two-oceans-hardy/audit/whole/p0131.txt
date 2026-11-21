@@ -1,5 +1,0 @@
-{"given": "her ‘fonrth-floor back’ room", "print": "her ‘fourth-floor back’ room", "sure": "high"}
-{"given": "she was distressed in tears, she", "print": "she was distressed and in tears, she", "sure": "high"}
-{"given": "particular hardship, not complained at all", "print": "particular hardship, nor complained at all", "sure": "high"}
-{"given": "just as in outcast London, the", "print": "just as in Outcast London, the", "sure": "high"}
-{"given": "ragged children, unsexed women; to whom,", "print": "ragged children, unsexed women, to whom,", "sure": "high"}

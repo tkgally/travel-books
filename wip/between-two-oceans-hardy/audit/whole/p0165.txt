@@ -1,5 +1,0 @@
-{"given": "El capitan swarm along the wharf", "print": "El Capitan swarm along the wharf", "sure": "high"}
-{"given": "barriers into first; second, and third", "print": "barriers into first, second, and third", "sure": "high"}
-{"given": "seat between one the fair leaders", "print": "seat between one of the fair leaders", "sure": "high"}
-{"given": "with market basket or her check apron", "print": "with market basket on her check apron", "sure": "high"}
-{"given": "may easily be distiuguished from the ordinary", "print": "may easily be distinguished from the ordinary", "sure": "high"}
