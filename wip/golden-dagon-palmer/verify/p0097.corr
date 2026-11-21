@@ -1,7 +1,0 @@
-The only difference is the punctuation after "($100)": the page prints "($100)," with the comma outside the parenthesis, and the draft has the comma before it.
-
-{"find": "rupees, ($100),", "replace": "rupees, ($100),"}
-
-Checking again: the draft reads "rupees, ($100), the Burmese", which matches the page, so that entry is a no-op. Nothing else differs.
-
-NONE

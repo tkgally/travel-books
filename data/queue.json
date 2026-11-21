@@ -1016,11 +1016,13 @@
    "place": "New York",
    "publisher": "Dix, Edwards & Co.",
    "images": 350,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-21",
    "eligibility": "Checked 2026-11-21 (Opus subagent): PG catalogue: none. Online Books Page: none. Wikisource: passing mentions only. Faded Page: not properly checked. Web search: only print-on-demand copies under the 1859 title 'Up and Down the Irrawaddi' (Kessinger; a 2023 facsimile, ISBN 9781021017130: check whether it is a scan reprint before starting). Exact-phrase search of a sentence: no hits. Author 1825-1906 (LC catalogue; DocSouth UNC). Surgeon on the East India Company steamer Phlegethon in the Second Burmese War, 1852. Not checked: WorldCat.",
    "note": "Library of Congress scan of the first edition, 500 ppi. Other copies: goldendagonorupd00palmiala (UC), updownirrawaddi00palm (LC, the 1859 retitled issue). Small pages, plain layout, no plates listed. An American ship's surgeon's account of Singapore, Penang, Moulmein and the 1852 campaign on the Irrawaddi. One chapter is a Burmese tale read aloud to him.",
-   "started": "2026-11-21"
+   "started": "2026-11-21",
+   "version": 1,
+   "published": "2026-11-21"
   }
  ],
  "rejected": [

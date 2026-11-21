@@ -1,9 +1,0 @@
-{"n": 1, "is": "B", "print": "## Chapter XV", "sure": "medium"}
-{"n": 2, "is": "B", "print": "## Chapter XI", "sure": "medium"}
-{"n": 3, "is": "B", "print": "## Chapter XX", "sure": "medium"}
-{"n": 4, "is": "B", "print": "## Chapter XX", "sure": "medium"}
-{"n": 5, "is": "A", "print": "## Chapter XX", "sure": "medium"}
-{"n": 6, "is": "B", "print": "## Chapter XX", "sure": "medium"}
-{"n": 7, "is": "A", "print": "## Chapter XX", "sure": "medium"}
-{"n": 8, "is": "B", "print": "## Chapter XX", "sure": "medium"}
-{"n": 9, "is": "B", "print": "## Chapter XX", "sure": "medium"}

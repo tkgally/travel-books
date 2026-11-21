@@ -1,9 +1,0 @@
-{"find": "to follow the others.", "replace": "to follow the others."}
-
-Wait — the draft ends at "follow the others." only if present; it does not. The correction:
-
-{"find": "us to follow the\n", "replace": "us to follow the others.\n"}
-
-Let me give the accurate list:
-
-{"find": "shipped with us to follow the others.", "replace": "shipped with us to follow the others."}

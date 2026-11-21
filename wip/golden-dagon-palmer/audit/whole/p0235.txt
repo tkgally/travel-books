@@ -1,5 +1,0 @@
-{"given": "abreast the ghauts of prome.", "print": "abreast the ghauts of Prome.", "sure": "high"}
-{"given": "With the insane coufidence peculiar", "print": "With the insane confidence peculiar", "sure": "high"}
-{"given": "They bad guns enough, but", "print": "They had guns enough, but", "sure": "high"}
-{"given": "taken it all with him; assuring", "print": "taken it all with him, assuring", "sure": "high"}
-{"given": "they came down the bank and", "print": "they came down to the bank and", "sure": "high"}
