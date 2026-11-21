@@ -98,3 +98,4 @@
 {"page": "p0103", "model": "opus", "corrections": null, "seconds": 10.3, "cost": 0.0705362, "completion_tokens": 949, "turns": 2, "attempts": 1}
 {"page": "p0104", "model": "opus", "corrections": null, "seconds": 10.2, "cost": 0.0721398, "completion_tokens": 1030, "turns": 2, "attempts": 1}
 {"page": "p0105", "model": "opus", "corrections": null, "seconds": 9.1, "cost": 0.06917519999999999, "completion_tokens": 883, "turns": 2, "attempts": 1}
+{"page": "p0106", "model": "opus", "corrections": null, "seconds": 9.8, "cost": 0.072107, "completion_tokens": 1030, "turns": 2, "attempts": 1}
