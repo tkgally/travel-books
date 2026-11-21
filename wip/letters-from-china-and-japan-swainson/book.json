@@ -1,0 +1,43 @@
+{
+ "id": "letters-from-china-and-japan-swainson",
+ "version": 1,
+ "date": "2026-11-21",
+ "title": "Letters from China & Japan",
+ "short_title": "Letters from China & Japan",
+ "authors": [
+  {
+   "name": "L. D. S. [Lilias Dunlop Findlay Swainson]",
+   "sort": "Swainson, Lilias Dunlop Findlay"
+  }
+ ],
+ "place": "London",
+ "publisher": "Henry S. King & Co.",
+ "year": 1875,
+ "edition_statement": "First edition",
+ "collection": "jatsi",
+ "regions": [
+  "China",
+  "Hong Kong",
+  "Japan"
+ ],
+ "period": "1870–72 (inferred)",
+ "summary": [
+  "Forty-three letters home by an Englishwoman who in 1870 travelled out alone to join her husband, “H.”, a teacher of English and navigation to Chinese pupils at the Imperial Arsenal at Foochow. She went by Paris, Marseilles, Suez, Ceylon and Singapore to Hong Kong, and lived about two and a half years at the Arsenal. The letters describe her house and servants, the French and English staff, the pupils, festivals, a typhoon, the news of the Tientsin massacre and the Franco-Prussian war, missions, and a house-boat trip up the Min. The last seven letters cover about six weeks in Japan late in 1872: Yokohama, Yedo, the new railway and the Daibutsu at Kamakura.",
+  "The years, printed as “187-”, are inferred from events the letters mention. The title page names the author only as “L. D. S.”; the name is the library catalogue’s attribution."
+ ],
+ "source": {
+  "ia_identifier": "cu31924023226438",
+  "contributor": "Cornell University Library",
+  "hidden_leaves": []
+ },
+ "omitted_from_reading": "The half-title, the publisher’s advertisements and catalogue are in the JSON only.",
+ "notes_on_text": [],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-21",
+   "note": "First publication."
+  }
+ ],
+ "divisions": []
+}
