@@ -459,6 +459,59 @@
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ready); else ready();
 
+  // ---- the carousel of covers on the home page: a new order on every load, and two arrows. Each click moves the row
+  // on by as many books as are in view, starting and stopping gently; a swipe does the same by the page's own
+  // styles (site.css). The pictures are links with the titles as their alt text; nothing here changes that. ----
+
+  function carousel() {
+    var box = document.querySelector('nav.carousel'), list = box && box.querySelector('ul');
+    if (!list) return;
+    var items = Array.prototype.slice.call(list.children), i, j, t, run = 0;
+    for (i = items.length - 1; i > 0; i--) {
+      j = Math.floor(Math.random() * (i + 1));
+      t = items[i]; items[i] = items[j]; items[j] = t;
+    }
+    items.forEach(function (li) { list.appendChild(li); });
+    list.scrollLeft = 0;
+
+    // The distance from one group of books to the next: the width of a book and a gap, times the number in view.
+    function step() {
+      var a = list.children[0], b = list.children[1], one = b ? b.offsetLeft - a.offsetLeft : list.clientWidth;
+      return one * Math.max(1, Math.round(list.clientWidth / one));
+    }
+    function max() { return list.scrollWidth - list.clientWidth; }
+    var prev = el('button', { type: 'button', 'class': 'tb-prev', title: 'Back', 'aria-label': 'Earlier books in the row' }, svg('prev'));
+    var next = el('button', { type: 'button', 'class': 'tb-next', title: 'More books', 'aria-label': 'More books' }, svg('next'));
+    function ends() {
+      prev.disabled = list.scrollLeft < 2;
+      next.disabled = list.scrollLeft > max() - 2;
+    }
+    function move(dir) {
+      var from = list.scrollLeft, w = step(), id = ++run, start = 0, DUR = 650;
+      var to = Math.max(0, Math.min(max(), (Math.round(from / w) + dir) * w));
+      if (to === from) return;
+      if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) { list.scrollLeft = to; return; }
+      list.style.scrollSnapType = 'none';         // or the browser pulls the row back between frames
+      function frame(now) {
+        if (id !== run) return;                   // another click has taken over
+        if (!start) start = now;
+        var p = Math.min(1, (now - start) / DUR);
+        p = p < 0.5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2;      // slow, fast, slow
+        list.scrollLeft = from + (to - from) * p;
+        if (p < 1) requestAnimationFrame(frame); else list.style.scrollSnapType = '';
+      }
+      requestAnimationFrame(frame);
+    }
+    prev.addEventListener('click', function () { move(-1); });
+    next.addEventListener('click', function () { move(1); });
+    list.addEventListener('scroll', ends, { passive: true });
+    window.addEventListener('resize', ends);
+    box.insertBefore(prev, list);
+    box.appendChild(next);
+    ends();
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', carousel); else carousel();
+
   // A change made in another tab or window reaches this one.
   window.addEventListener('storage', function (e) {
     if (e.key !== KEY && e.key !== null) return;

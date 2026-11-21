@@ -30,6 +30,8 @@ No new book. Read `metrics.md`, `errata.md`, `lessons.md` and the last five book
    current pipeline fix a significant number of errors in it? If so, add a row to the queue to redo it.
 6. **Site:** open the live site on a narrow and a wide screen; check the landing page, one book page, one
    chapter; run an accessibility pass (headings in order, link text, contrast, keyboard focus).
+   **The carousel of covers** (Tom, 2026-11-21): `tools/carousel.py check`; look at the cover of each book it lists
+   and add it (cover with a readable title, else the title page) or leave it out, as `site.md` §"The carousel" says.
 7. **Session length:** read `sessions.md`. What does a book cost in context and in hours; did any session get
    summarized, end without closing, or meet another session; were books begun that had to be left half-way?
    Change the table in `RESUME.md` §3 (and tell Tom if the interval of the routine no longer fits the hours).

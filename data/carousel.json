@@ -1,0 +1,268 @@
+{
+ "books": {
+  "argentine-plains-larden": {
+   "image": "cover",
+   "from": "images/cover.jpg",
+   "width": 267,
+   "height": 450
+  },
+  "autumn-tour-in-western-persia-durand": {
+   "image": "title page",
+   "from": "scan p0003.jpg",
+   "width": 271,
+   "height": 450,
+   "note": "the cover has no readable title"
+  },
+  "between-two-oceans-hardy": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 288,
+   "height": 450
+  },
+  "by-fell-and-fjord-oswald": {
+   "image": "cover",
+   "from": "images/cover.jpg",
+   "width": 298,
+   "height": 450
+  },
+  "corona-and-coronet-todd": {
+   "image": "cover",
+   "from": "images/cover.jpg",
+   "width": 259,
+   "height": 450
+  },
+  "cruise-in-the-mississippi-gragg": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 269,
+   "height": 450
+  },
+  "diary-in-europe-rajah-of-kolhapoor": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 300,
+   "height": 420
+  },
+  "eastern-seas-bax": {
+   "image": "title page",
+   "from": "scan p0008.jpg",
+   "width": 282,
+   "height": 450,
+   "note": "the cover has no readable title"
+  },
+  "embassy-to-china-staunton": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 300,
+   "height": 442
+  },
+  "flying-leaves-pfeiffer": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 300,
+   "height": 411
+  },
+  "gentle-jehu-in-japan-mclean": {
+   "image": "cover",
+   "from": "images/cover.jpg",
+   "width": 246,
+   "height": 450
+  },
+  "golden-dagon-palmer": {
+   "image": "cover",
+   "from": "images/cover.jpg",
+   "width": 300,
+   "height": 414
+  },
+  "impressions-of-a-first-tour-round-the-world-kothari": {
+   "image": "cover",
+   "from": "images/cover.jpg",
+   "width": 282,
+   "height": 450
+  },
+  "japan-a-sailors-visit-cook": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 290,
+   "height": 450
+  },
+  "jaunt-in-japan-jackson": {
+   "image": "cover",
+   "from": "images/cover.jpg",
+   "width": 269,
+   "height": 450
+  },
+  "jottings-of-travel-in-china-and-japan-stern": {
+   "image": "cover",
+   "from": "images/cover.jpg",
+   "width": 274,
+   "height": 450
+  },
+  "journal-of-a-residence-nowrojee-merwanjee": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 258,
+   "height": 450
+  },
+  "journey-through-the-caucasus-mounsey": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 292,
+   "height": 450
+  },
+  "journeys-among-the-gentle-japs-thomas": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 281,
+   "height": 450
+  },
+  "land-of-mosques-greville-nugent": {
+   "image": "title page",
+   "from": "scan p0013.jpg",
+   "width": 264,
+   "height": 450,
+   "note": "the cover has no readable title"
+  },
+  "land-of-the-north-wind-rae": {
+   "image": "cover",
+   "from": "images/cover.jpg",
+   "width": 279,
+   "height": 450
+  },
+  "land-of-the-tatami-murray": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 273,
+   "height": 450
+  },
+  "letters-from-china-and-japan-swainson": {
+   "image": "cover",
+   "from": "images/cover.jpg",
+   "width": 287,
+   "height": 450
+  },
+  "mongolia-siberia-sheepshanks": {
+   "image": "cover",
+   "from": "images/cover.jpg",
+   "width": 276,
+   "height": 450
+  },
+  "nile-without-dragoman-eden": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 300,
+   "height": 436
+  },
+  "on-short-leave-to-japan-younghusband": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 269,
+   "height": 450
+  },
+  "our-ride-through-asia-minor-scott-stevenson": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 277,
+   "height": 450
+  },
+  "parsons-holiday-allen": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 279,
+   "height": 450
+  },
+  "path-of-the-conquistadores-bates": {
+   "image": "cover",
+   "from": "images/cover.jpg",
+   "width": 286,
+   "height": 450
+  },
+  "rambles-through-japan-tracy": {
+   "image": "cover",
+   "from": "images/cover.jpg",
+   "width": 288,
+   "height": 450
+  },
+  "sketches-awheel-workman": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 270,
+   "height": 450
+  },
+  "south-by-west-kingsley": {
+   "image": "title page",
+   "from": "scan p0009.jpg",
+   "width": 277,
+   "height": 450,
+   "note": "the cover has no readable title"
+  },
+  "summer-greetings-from-japan-sheldon": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 274,
+   "height": 450
+  },
+  "trans-caspia-shoemaker": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 280,
+   "height": 450
+  },
+  "trip-to-mexico-becher": {
+   "image": "cover",
+   "from": "images/cover.jpg",
+   "width": 300,
+   "height": 435
+  },
+  "twelve-years-in-canterbury-thomson": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 284,
+   "height": 450
+  },
+  "via-rhodesia-mansfield": {
+   "image": "cover",
+   "from": "images/cover.jpg",
+   "width": 280,
+   "height": 450
+  },
+  "west-africa-to-palestine-blyden": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 293,
+   "height": 450
+  },
+  "west-coast-of-africa-dyer": {
+   "image": "cover",
+   "from": "images/cover.jpg",
+   "width": 284,
+   "height": 450
+  },
+  "womans-trip-to-alaska-collis": {
+   "image": "cover",
+   "from": "images/cover.jpg",
+   "width": 300,
+   "height": 419
+  },
+  "wsw-voyage-to-the-west-indies-elwes": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 264,
+   "height": 450
+  },
+  "yachting-cruise-wood": {
+   "image": "title page",
+   "from": "images/cover.jpg",
+   "width": 289,
+   "height": 450
+  },
+  "zephyrus-edgcumbe": {
+   "image": "title page",
+   "from": "scan p0011.jpg",
+   "width": 289,
+   "height": 450,
+   "note": "the cover has no readable title"
+  }
+ },
+ "omitted": {}
+}
