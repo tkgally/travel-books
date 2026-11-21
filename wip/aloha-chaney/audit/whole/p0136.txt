@@ -1,0 +1,5 @@
+{"given": "we shall be sure to find prettiest possible", "print": "we shall be sure to find the prettiest possible", "sure": "high"}
+{"given": "To make their projeets go.", "print": "To make their projects go.", "sure": "high"}
+{"given": "to Oahu and back or a pressed fern", "print": "to Oahu and back on a pressed fern", "sure": "high"}
+{"given": "Mistress Mary; still in her most", "print": "Mistress Mary, still in her most", "sure": "high"}
+{"given": "family of ferns, the polypodium. We had", "print": "family of ferns, the Polypodium. We had", "sure": "high"}

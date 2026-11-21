@@ -1,0 +1,60 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[ FAIL (1)] audit: book.json records the sampled audit of this version
+            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[look (10)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0025: …, in her state-|room. Later in … (hyphen removed; check) — the book prints “state-room” elsewhere: keep_hyphens?
+            - hyphen join at p0064: …lace and agita-|tors there. The… (hyphen removed; check)
+            - hyphen join at p0072: …ccumulated mis-|chief best seen… (hyphen removed; check)
+            - hyphen join at p0089: …ion and assist-|ant in all his … (hyphen removed; check)
+            - hyphen join at p0090: …mps of verbena-|grass, geranium… (hyphen removed; check)
+            - hyphen join at p0188: …ents, but, con-|vinced and conv… (hyphen removed; check)
+            - hyphen join at p0189: …ake that objec-|tion. It is not… (hyphen removed; check)
+            - hyphen join at p0227: …, sea, and sun-|capped sky are … (hyphen removed; check)
+            - hyphen join at p0249: … and the where-|withal to satis… (hyphen removed; check)
+            - (and 16 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[ look (1)] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+            - p0224: closing ” with no opening “: 'I could have hugged him when he came ashore the next day, an'
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[       ok] contents: entries of the printed contents with no matching heading
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
+[ look (3)] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+            - p0209: verse continued from p0208: stanzas before [4, 4] | here [4, 4, 4] (a stanza ending at the page foot needs no [[cont]])
+            - p0210: verse continued from p0209: stanzas before [4, 4, 4] | here [4, 4, 4] (a stanza ending at the page foot needs no [[cont]])
+            - p0211: verse continued from p0210: stanzas before [4, 4, 4] | here [4, 4, 4] (a stanza ending at the page foot needs no [[cont]])
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
+[look (10)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0011, p0013, p0015, p0016, p0019, p0023…); à (p0030, p0141)
+            - guava: guava (p0043, p0068); guavá (p0275)
+            - haleakala: haleakala (p0268, p0269, p0279, p0283, p0284, p0285…); haleàkalà (p0083, p0140)
+            - haleakalense: haleakalense (p0288); haleàkalense (p0140)
+            - kamehameha: kamehameha (p0274, p0315); kamĕhamĕha (p0074)
+            - kilauea: kilauea (p0075, p0084, p0087, p0088, p0106, p0107…); kilauèa (p0082)
+            - la: la (p0030, p0100); là (p0141)
+            - maile: maile (p0246); mailé (p0027, p0046, p0273)
+            - maui: maui (p0081, p0083, p0132, p0195, p0197, p0198…); maüi (p0132)
+            - ti: ti (p0303); tí (p0109)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[ look (1)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0118: “biding” — “hiding” is common (46)
+[       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight FAIL: aloha-chaney v1 — 1 to fix, 0 waived; to look at: hyphen-joins 10, quote-balance 1, verse-joins 3, accents 10, rare-forms 1 — tools@5f11e9dc 2026-11-21

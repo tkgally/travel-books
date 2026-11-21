@@ -1,0 +1,5 @@
+{"given": "the packing-room; where the sugar", "print": "the packing-room, where the sugar", "sure": "high"}
+{"given": "treaty with the united States were", "print": "treaty with the United States were", "sure": "high"}
+{"given": "must change social and political status", "print": "must change the social and political status", "sure": "high"}
+{"given": "and in the uneertain issue of", "print": "and in the uncertain issue of", "sure": "high"}
+{"given": "I look to those men whom", "print": "I look to these men whom", "sure": "high"}

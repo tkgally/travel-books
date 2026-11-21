@@ -84,5 +84,13 @@
    "n": 2,
    "kind": "chapter"
   }
- ]
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-21",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }

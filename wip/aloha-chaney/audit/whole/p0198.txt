@@ -1,0 +1,6 @@
+{"given": "On compariug our spoils, after", "print": "On comparing our spoils, after", "sure": "high"}
+{"given": "In Kona, in Maui; in Oahu,", "print": "In Kona, in Maui, in Oahu,", "sure": "high"}
+{"given": "we picked finer specimens Botrychium literally", "print": "we picked finer specimens of Botrychium literally", "sure": "high"}
+{"given": "from the Natural bridge, that afternoon,", "print": "from the Natural Bridge, that afternoon,", "sure": "high"}
+{"given": "the Wailuku spreads as if nears", "print": "the Wailuku spreads as it nears", "sure": "high"}
+{"given": "the filmy Trichomenes enwreathing the dead", "print": "the filmy Trichomenes enwreathing the dead", "sure": "low"}

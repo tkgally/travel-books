@@ -1,0 +1,5 @@
+{"given": "the struggliug of ocean currents", "print": "the struggling of ocean currents", "sure": "high"}
+{"given": "as the Hawaiians say, on towards", "print": "as the Hawaiians say, or towards", "sure": "high"}
+{"given": "and shut out mountain’s majesty", "print": "and shut out the mountain’s majesty", "sure": "high"}
+{"given": "the third mountain in height in Hawaii;", "print": "the third mountain in height in Hawaii,", "sure": "high"}
+{"given": "its two rivals, mauna Loa", "print": "its two rivals, Mauna Loa", "sure": "high"}
