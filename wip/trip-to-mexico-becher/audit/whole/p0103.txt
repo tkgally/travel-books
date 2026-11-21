@@ -1,0 +1,6 @@
+{"given": "We were politely shown about building.", "print": "We were politely shown about the building.", "sure": "high"}
+{"given": "they where all old fashioned.", "print": "they were all old fashioned.", "sure": "high"}
+{"given": "went to guadalupe, and during", "print": "went to Guadalupe, and during", "sure": "high"}
+{"given": "had her pocket picked; the only theft", "print": "had her pocket picked, the only theft", "sure": "high"}
+{"given": "Why will women wear poekets behind them?", "print": "Why will women wear pockets behind them?", "sure": "high"}
+{"given": "an old palace built by Cortés:", "print": "an old palace built by Cortês:", "sure": "low"}

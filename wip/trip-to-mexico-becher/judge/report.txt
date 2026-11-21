@@ -1,0 +1,8 @@
+judge opus: 8 spots on 7 pages: {'verified': 5, 'draft': 3}; cost $0.31
+p0048 #1 [verified, sure: medium] draft 'of the Andes.' | verified 'of the Andes,' | judge reads 'of the Andes,'
+p0075 #1 [draft, sure: medium] draft 'Teothihuacan' | verified 'Teotihuacan' | judge reads 'Teothihuacan'
+p0083 #1 [verified, sure: high] draft '[[page ?]]\n\n# Letter' | verified '[[page ?]]\n\n[[image: ornamental scrollwork header band]]\n\n# Letter' | judge reads '[[page ?]]\n\n[[image: ornamental scrollwork header band]]\n\n# Letter'
+p0213 #1 [draft, sure: high] draft 'THE mountainous' | verified 'T<sc>he</sc> mountainous' | judge reads 'THE mountainous'
+p0213 #2 [verified, sure: high] draft '# Appendix.' | verified '[[image: decorative ornamental header band]]\n\n# Appendix.' | judge reads '[[image: decorative ornamental header band]]\n\n# Appendix.'
+p0235 #1 [verified, sure: low] draft ' miles northeast of' | verified ' miles north-east of' | judge reads ' miles north-east of'
+p0262 #1 [draft, sure: high] draft 'Herrara' | verified 'Herrera' | judge reads 'Herrara'

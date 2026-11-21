@@ -1,0 +1,48 @@
+[[page 17]]
+
+| Estaciones. (Stations.) | <sc>Distancias.</sc> kilómetros. (kilometres.) | <sc>Distancias.</sc> millas inglesas. (English miles.) | T<sc>rain to</sc> M<sc>exico</sc>. |
+|---|---|---|---|
+| | | | noche. |
+| Vera Cruz | | | 12 00 |
+| Tejería | 15½ | 9½ | 12 45 |
+| Soledad | 42 | 26 | 1 45 |
+| Camaron | 63¼ | 39¼ | 2 45 |
+| Paso del Macho | 76 | 47¼ | 3 15 |
+| Paso del Macho | 76 | 47¼ | 3 30 |
+| Atoyac | 86 | 53½ | 4 00 |
+| Córdova | 105¾ | 65¾ | 4 55 |
+| Fortin | 113¾ | 70¾ | 5 30 |
+| Orizaba | 132 | 82 | 6 20 |
+| Orizaba | 132 | 82 | 6 35 |
+| Encinal | 142½ | 88½ | |
+| Maltrata | 152¼ | 94¼ | 7 30 |
+| Bota | 157¼ | 97¼ | |
+| Alta Luz | 165¾ | 103 | |
+| Boca del Monte | 172½ | 107¼ | 9 00 |
+| Boca del Monte | 172½ | 107¼ | 9 40 |
+| San Andrés | 203¼ | 126¼ | 10 40 |
+| Rinconada | 223¾ | 139 | 11 15 |
+| San Màrcos | 241¾ | 150¼ | 11 50 |
+| Huamantla | 259 | 161 | 12 30 |
+| Apizaco | 284½ | 176¾ | 1 20 |
+| Apizaco | 284½ | 176¾ | 1 50 |
+| Guadalupe (hacienda) | 299¾ | 186¼ | 2 30 |
+| Soltepec | 311½ | 192½ | 3 00 |
+| Apam | 331 | 205¾ | 3 40 |
+| Irolo | 346½ | 215½ | 4 10 |
+| Ometusco | 356¼ | 221¼ | 4 35 |
+| La Palma | 362½ | 225¼ | 4 50 |
+| Otumba | 368½ | 229 | 5 05 |
+| San Juan Teotihuacan | 380 | 236 | 5 25 |
+| Tepexpan | 391¼ | 243 | 5 50 |
+| Mexico | 423¾ | 263¼ | 6 50 |
+
+## Trenes a Puebla.
+
+| Estaciones. | Distancias en kilómts. | Distancias en mls. ing. | <sc>tren de mexico</sc> | <sc>tren de vera cruz.</sc> |
+|---|---|---|---|---|
+| | | | mana. | tarde. |
+| APIZACO | | | 5 30 | 1 55 |
+| Santa-Ana | 16¾ | 10½ | 6 10 | 2 35 |
+| Panzacola | 35 | 12¾ | 6 50 | 3 15 |
+| PUEBLA | 47 | 29¼ | 7 20 | 3 45 |

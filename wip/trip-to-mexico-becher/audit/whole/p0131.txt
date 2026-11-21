@@ -1,0 +1,5 @@
+{"given": "The rooms are, some them, fine,", "print": "The rooms are, some of them, fine,", "sure": "high"}
+{"given": "grounds; beyoud, the villas.", "print": "grounds; beyond, the villas.", "sure": "high"}
+{"given": "vistas of the lakes; intensely brilliant", "print": "vistas of the lakes, intensely brilliant", "sure": "high"}
+{"given": "rich in color and bold", "print": "rich in colour and bold", "sure": "high"}
+{"given": "noticing now, it we have not", "print": "noticing now, if we have not", "sure": "high"}
