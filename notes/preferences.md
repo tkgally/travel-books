@@ -323,10 +323,11 @@ How this was carried out: `RESUME.md` §"How long a session runs", `tools/sessio
     similar representative page, for both the index page and the carousel.** (This replaces "is not in the
     carousel" above.)
 
+## 2026-11-21 (answer on *Uganda for a Holiday*)
+
+- **Yes: *Uganda for a Holiday* (Treves, 1910) can be published without its folding map**, which is in neither IA
+  scan. The book says that the map is missing from the scans (`notes_on_text`).
+
 ## Questions for Tom
 
-- **2026-11-21, *Uganda for a Holiday* (Treves, 1910): publish it without its folding map?** The list of illustrations has
-  "Map of Uganda … At end of volume"; IA has two scans, both of the New York (Dutton) issue: Cornell's has no map (six
-  blank leaves after the index), the NYPL Google scan has it folded and not opened (and bilevel). The text (233 pp.) and
-  all 41 photograph plates are complete and good in the Cornell scan. If yes, the book would say that the map is
-  missing from the scans. Queue row `waiting`; page map and Drive cache are done (`wip/uganda-holiday-treves/log.md`).
+None at present.

@@ -4,9 +4,9 @@ IA: cu31924028599680 (Cornell University Library; 340 leaves; the New York, E. P
 Eligibility: vetted 2026-11-21 (queue row); re-checked 2026-11-21: web search of the title finds only booksellers, catalogue records, a library's page-image scan (Qatar National Library) and print-on-demand reprints; no reading edition. Treves 1853–1923.
 
 ## Status
-Stage reached: (a) scan checked and cached in Drive (25 parts); no model runs. **Waiting** for Tom: publish without the
-folding map? (`notes/preferences.md`, 2026-11-21). If yes: draft p0004–p0332 less blanks (`ocr_claude.py … --pages`),
-say in `notes_on_text` that the map is not in the scans. If no: reject, with the reason.
+Stage reached: (a) scan checked and cached in Drive (25 parts); no model runs. **Tom answered 2026-11-21: yes, publish
+without the folding map** (`notes/preferences.md`). Next step: draft p0004–p0332 less blanks (`ocr_claude.py … --pages`);
+say in `notes_on_text` that the map named in the list of illustrations is not in the scans.
 
 ## Page map
 Scan check (Opus subagent, 2026-11-21; all sheets, header OCR of every leaf): every printed page 1–233 present; no
