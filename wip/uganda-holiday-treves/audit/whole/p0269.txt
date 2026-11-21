@@ -1,0 +1,5 @@
+{"given": "so that many claim settlement to", "print": "so that many claim the settlement to", "sure": "high"}
+{"given": "greasy and the color of Thames", "print": "greasy and the colour of Thames", "sure": "high"}
+{"given": "an open strctch of white sand", "print": "an open stretch of white sand", "sure": "high"}
+{"given": "of like shape; some of which", "print": "of like shape, some of which", "sure": "high"}
+{"given": "The wind instruments where horns which", "print": "The wind instruments were horns which", "sure": "high"}

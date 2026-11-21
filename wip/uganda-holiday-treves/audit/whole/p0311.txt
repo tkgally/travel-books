@@ -1,0 +1,6 @@
+{"given": "The People the Country", "print": "The People of the Country", "sure": "high"}
+{"given": "have been cited as examplcs of", "print": "have been cited as examples of", "sure": "high"}
+{"given": "Being a person of humor and", "print": "Being a person of humour and", "sure": "high"}
+{"given": "He becomes a Catholic on a Protestant", "print": "He becomes a Catholic or a Protestant", "sure": "high"}
+{"given": "he is glad to oblige anyone; and thus", "print": "he is glad to oblige anyone, and thus", "sure": "high"}
+{"given": "Chapter XXX", "print": "CHAPTER XXX", "sure": "low"}

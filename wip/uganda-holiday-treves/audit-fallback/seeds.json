@@ -1,0 +1,54 @@
+{
+ "p0226": [
+  {
+   "kind": "modernized",
+   "at": 1003,
+   "was": "labour",
+   "now": "labor",
+   "context": "power whose insigne is ‘cheap labor.’ He will be living not in a ",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "letter",
+   "at": 41,
+   "was": "n",
+   "now": "u",
+   "context": " object of socialism is to maiutain the level, the dead low-w",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "real word",
+   "at": 854,
+   "was": "his",
+   "now": "this",
+   "context": " humanity as exists—will lose this cunning as a hunter and his s",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "dropped word",
+   "at": 92,
+   "was": " of ",
+   "now": " ",
+   "context": "dead low-water level.  The man enterprise in Rusinga, the man",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "punctuation",
+   "at": 1461,
+   "was": ",",
+   "now": ";",
+   "context": "runk but to become unconscious; and this without difficulty. ",
+   "found_by": [
+    "whole"
+   ]
+  }
+ ]
+}

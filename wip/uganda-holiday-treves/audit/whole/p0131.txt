@@ -1,0 +1,5 @@
+{"given": "at Rome as the roman does.", "print": "at Rome as the Roman does.", "sure": "high"}
+{"given": "‘Spitting,’ he explaius, ‘has a", "print": "‘Spitting,’ he explains, ‘has a", "sure": "high"}
+{"given": "With them if expresses the greatest", "print": "With them it expresses the greatest", "sure": "high"}
+{"given": "this accomplishment also his medical work,", "print": "this accomplishment also in his medical work,", "sure": "high"}
+{"given": "besides themselves, as garbage; or at least", "print": "besides themselves, as garbage, or at least", "sure": "high"}

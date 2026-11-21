@@ -1,0 +1,5 @@
+{"given": "socialism is to maiutain the level", "print": "socialism is to maintain the level", "sure": "high"}
+{"given": "The man enterprise in Rusinga", "print": "The man of enterprise in Rusinga", "sure": "high"}
+{"given": "will lose this cunning as a", "print": "will lose his cunning as a", "sure": "high"}
+{"given": "insigne is ‘cheap labor.’", "print": "insigne is ‘cheap labour.’", "sure": "high"}
+{"given": "to become unconscious; and this without", "print": "to become unconscious, and this without", "sure": "high"}
