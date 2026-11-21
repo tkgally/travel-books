@@ -1,0 +1,5 @@
+{"page": "p0048", "n": 1, "who": "draft", "draft": "the wayside stall, laid", "verified": "the wayside-stall, laid", "judge": {"n": 1, "is": "A", "print": "the wayside stall, laid", "sure": "low"}}
+{"page": "p0083", "n": 1, "who": "verified", "draft": "uctor coolly turned", "verified": "uctor coolly-turned", "judge": {"n": 1, "is": "B", "print": "uctor coolly-turned", "sure": "medium"}}
+{"page": "p0379", "n": 1, "who": "verified", "draft": "Mycenæ and", "verified": "Mycenœ and", "judge": {"n": 1, "is": "B", "print": "Mycenœ and", "sure": "medium"}}
+{"page": "p0379", "n": 2, "who": "verified", "draft": "<i>Athenæum.</i>", "verified": "<i>Athenœum.</i>", "judge": {"n": 2, "is": "B", "print": "<i>Athenœum.</i>", "sure": "medium"}}
+{"page": "p0381", "n": 1, "who": "verified", "draft": "well drawn.”—", "verified": "well drawn”—", "judge": {"n": 1, "is": "A", "print": "well drawn”—", "sure": "medium"}}

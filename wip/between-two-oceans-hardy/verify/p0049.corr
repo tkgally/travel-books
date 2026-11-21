@@ -1,0 +1,11 @@
+{"find": "or rather, along which our", "replace": "or rather, along which our"}
+
+Wait — the draft reads "or rather, along which our"? Checking the draft: it has "or rather, along which our waggon". That matches the page, so the line above is not a real correction. The real differences are these:
+
+{"find": "or rather, along which our", "replace": "or rather, along which our"}
+
+I can't output a no-op as a correction. The draft's actual text is "or rather, along which our waggon". It matches the scan.
+
+Comparing the rest of the draft word by word, I found one difference: the draft reads "undertake a ‘pleasure excursion’", but the page has a space-free form, so that matches too.
+
+NONE

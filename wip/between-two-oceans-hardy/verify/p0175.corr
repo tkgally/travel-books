@@ -1,0 +1,6 @@
+{"find": "Everywhere, dirt", "replace": "Everywhere, dirt"}
+{"find": "Everywhere the wretched", "replace": "Everywhere the wretched"}
+
+Wait — those are no-ops; the real corrections are:
+
+{"find": "the strange, secretive eyes", "replace": "the strange, secretive eyes"}

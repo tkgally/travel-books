@@ -1,0 +1,6 @@
+judge opus: 5 spots on 4 pages: {'draft': 1, 'verified': 4}; cost $0.17
+p0048 #1 [draft, sure: low] draft 'the wayside stall, laid' | verified 'the wayside-stall, laid' | judge reads 'the wayside stall, laid'
+p0083 #1 [verified, sure: medium] draft 'uctor coolly turned' | verified 'uctor coolly-turned' | judge reads 'uctor coolly-turned'
+p0379 #1 [verified, sure: medium] draft 'Mycenæ and' | verified 'Mycenœ and' | judge reads 'Mycenœ and'
+p0379 #2 [verified, sure: medium] draft '<i>Athenæum.</i>' | verified '<i>Athenœum.</i>' | judge reads '<i>Athenœum.</i>'
+p0381 #1 [verified, sure: medium] draft 'well drawn.”—' | verified 'well drawn”—' | judge reads 'well drawn”—'
