@@ -1,0 +1,11 @@
+{"find": "Meg Merrilies", "replace": "Meg Merrilies"}
+{"find": "kindly-hearted", "replace": "kindly-hearted"}
+
+Wait — corrections must change something. Correct list:
+
+{"find": "[[cont]]waists of the passers-by", "replace": "waists of the passers-by"}
+{"find": "Aref by name: a tall", "replace": "Aref by name: a tall"}
+
+Final answer:
+
+{"find": "[[cont]]waists of the passers-by", "replace": "waists of the passers-by"}
