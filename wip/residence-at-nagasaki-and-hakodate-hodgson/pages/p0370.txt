@@ -34,7 +34,7 @@ Cymopteris littoralis, (<i>A. Gray.</i>)
 
 glaber, (<i>A. Gray.</i>)
 
-[[center]] A<sc>raliaceæ.</sc>
+[[center]] A<sc>raliaceæ</sc>.
 
 Panax innovans, <i>S. & Z.</i>
 
@@ -62,7 +62,7 @@ rhombea, <i>S. & Z.</i>
 
 Trochodendron aralioides, <i>S. & Z.</i>
 
-[[center]] L<sc>oranthaceæ.</sc>
+[[center]] L<sc>oranthaceæ</sc>.
 
 Viscum japonicum, <i>Thbg.</i>
 
@@ -70,7 +70,7 @@ Kæmpferi, <i>D. C.</i>
 
 Loranthus Jodoniki, <i>Sieb.</i>
 
-[[center]] C<sc>ompositæ.</sc>
+[[center]] C<sc>ompositæ</sc>.
 
 Adenostemma viscosum, <i>Forst.</i>
 

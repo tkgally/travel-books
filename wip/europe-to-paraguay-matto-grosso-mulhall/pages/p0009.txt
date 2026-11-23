@@ -1,6 +1,6 @@
 [[page ?]]
 
-# Contents.
+# Contents
 
 [[center]] <sc>Preface</sc>
 

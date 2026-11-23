@@ -1,6 +1,6 @@
 [[page 338]]
 
-[[center]] Primulaceæ.
+[[center]] P<sc>rimulaceæ</sc>.
 
 Primula cortusioides, <i>L.</i>
 
@@ -22,11 +22,11 @@ Anagallis arvensis, <i>L.</i>
 
 (<i>a</i>) floribus phœniceis, <i>Thbg.</i>
 
-(<i>b</i>) „ cœruleis, <i>Sieb.</i>
+(<i>b</i>) „ cæruleis, <i>Sieb.</i>
 
 Naumburgia *thyrsiflora, <i>Moench.</i>
 
-[[center]] Jasmineæ.
+[[center]] J<sc>asmineæ</sc>.
 
 Jasminium grandiflorum, <i>L.</i>
 
@@ -38,7 +38,7 @@ Sieboldianum, <i>Bl.</i>
 
 floridum, <i>Bunge.</i>
 
-[[center]] Oleaceæ.
+[[center]] O<sc>leaceæ</sc>.
 
 Olea aquifolium, <i>S. & Z.</i>
 
@@ -72,11 +72,11 @@ obovata, <i>Bl.</i> (<i>Cult.</i>)
 
 Forsythia suspensa, <i>Vahl.</i>
 
-[[center]] Loganiaceæ.
+[[center]] L<sc>oganiaceæ</sc>.
 
 Gardneria nutans, <i>S. & Z.</i>
 
-[[center]] Gentianeæ.
+[[center]] G<sc>entianeæ</sc>.
 
 Gentiana Thunbergii, <i>Griseb.</i>
 
@@ -92,7 +92,7 @@ Limnanthemum peltatum, <i>Griseb.</i>
 
 Menyanthes *trifoliata, <i>L.</i>
 
-[[center]] Apocyneæ.
+[[center]] A<sc>pocyneæ</sc>.
 
 Vinca rosea, <i>L.</i>
 
@@ -106,7 +106,7 @@ Rhynchospermum jasminoides, <i>Ldl.</i>
 
 Amsonia elliptica, <i>R. & S.</i>
 
-[[center]] Asclepiadaceæ.
+[[center]] A<sc>sclepiadaceæ</sc>.
 
 Metaplaxis *chinensis, <i>R. Br.</i>
 
@@ -130,7 +130,7 @@ Pycnostelma chinense, <i>Bunge.</i>
 
 Marsdenia tomentosa, <i>Morr. & Dcne.</i>
 
-[[center]] Boragineæ.
+[[center]] B<sc>oragineæ</sc>.
 
 Lithospermum erythrorhizon, <i>S. & Z.</i>
 
@@ -156,11 +156,11 @@ pedunculare, <i>D. C.</i>
 
 Heliotropium japonicum, <i>A. Gray.</i>
 
-[[center]] Cordiaceæ.
+[[center]] C<sc>ordiaceæ</sc>.
 
 Cordia thyrsiflora, <i>S. & Z.</i>
 
-[[center]] Labiatæ.
+[[center]] L<sc>abiatæ</sc>.
 
 Plectranthus, *2 spp.
 
@@ -172,7 +172,7 @@ Perilla arguta, <i>Benth.</i>
 
 Salvia japonica, <i>Thbg.</i>
 
-plebeia, <i>R. Ba.</i>
+plebeia, <i>R. [[corr Ba|Br]].</i>
 
 Melissa Clinopodium, <i>Bth.</i>
 

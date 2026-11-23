@@ -70,13 +70,13 @@ Cunninghamia sinensis, <i>R. Br.</i>
 
 Sciadopitys verticillata, <i>S. & Z.</i>
 
-[[center]] <sc>Cycadaceæ.</sc>
+[[center]] C<sc>ycadaceæ</sc>.
 
 Cycas revoluta, <i>L.</i>, <i>Thbg.</i>
 
 β prolifera, <i>S. & Z.</i>
 
-[[center]] <sc>Palmeæ.</sc>
+[[center]] P<sc>almeæ</sc>.
 
 Chamærops excelsa, <i>Thunb.</i>
 
@@ -84,13 +84,13 @@ Chamærops excelsa, <i>Thunb.</i>
 
 Rhapis flabelliformis, <i>Lin. fil.</i>
 
-Sjurotsik, <i>Siob.</i>
+Sjurotsik, <i>[[corr Siob|Sieb]].</i>
 
 aspera, <i>Sieb.</i>
 
 Kwauwon, <i>Sieb.</i>
 
-[[center]] <sc>Aroideæ.</sc>
+[[center]] A<sc>roideæ</sc>.
 
 Arisæma amplissimum, <i>Bl.</i>
 
@@ -114,7 +114,7 @@ Arctiodracon japonicum, <i>A. Gray.</i>
 
 Acorus gramineus, <i>Ait.</i>
 
-[[center]] <sc>Orchideæ.</sc>
+[[center]] O<sc>rchideæ</sc>.
 
 Dendrobium catenatum, <i>Lindl.</i>
 
@@ -172,7 +172,7 @@ minor, <i>Bl.</i>
 
 Lecanorchis japonica, <i>Bl.</i>
 
-[[center]] <sc>Iridaceæ.</sc>
+[[center]] I<sc>ridaceæ</sc>.
 
 Iris setosa, <i>Pall.</i>
 
@@ -186,7 +186,7 @@ japonica, <i>Thbg.</i>
 
 versicolor, <i>Thbg.</i>
 
-[[center]] <sc>Alsismaceæ.</sc>
+[[center]] A<sc>lsismaceæ</sc>.
 
 Sagittaria sagittifolia, <i>L.</i>
 

@@ -8,11 +8,11 @@ Skimmia japonica, <i>Thbg.</i>
 
 Evodia ramiflora, <i>A. Gray.</i>
 
-[[center]] S<sc>imarubaceæ.</sc>
+[[center]] S<sc>imarubaceæ</sc>.
 
 Picrasma japonica, <i>A. Gray.</i>
 
-[[center]] C<sc>elastrineæ.</sc>
+[[center]] C<sc>elastrineæ</sc>.
 
 Elæodendron, sp.
 
@@ -44,7 +44,7 @@ simplicifolia, <i>S. & Z.</i>
 
 Staphylea *Bumalda, <i>S. & Z.</i>
 
-[[center]] A<sc>quifoliaceæ.</sc>
+[[center]] A<sc>quifoliaceæ</sc>.
 
 Ilex crenata, <i>Thbg.</i>
 
@@ -62,7 +62,7 @@ aquifolium, <i>L.</i>
 
 <i>var.</i> heterophylla.
 
-[[center]] R<sc>hamneæ.</sc>
+[[center]] R<sc>hamneæ</sc>.
 
 Rhamnus globosus, <i>Bunge.</i>
 
@@ -80,7 +80,7 @@ nitida, <i>Roxb.</i>
 
 Paliurus Aubletia, <i>R. & S.</i>?
 
-[[center]] T<sc>erebinthaceæ.</sc>
+[[center]] T<sc>erebinthaceæ</sc>.
 
 Rhus semialata, <i>Murr.</i>
 
@@ -94,7 +94,7 @@ vernicifera, <i>D. C.</i>
 
 Toxicodendron, <i>L. var.</i>
 
-[[center]] J<sc>uglandaceæ.</sc>
+[[center]] J<sc>uglandaceæ</sc>.
 
 Platycarya strobilacea, <i>S. & Z.</i>
 
@@ -106,7 +106,7 @@ rhoifolia, <i>S. & Z.</i>
 
 Juglans, 3 spp.
 
-[[center]] L<sc>eguminosæ.</sc>
+[[center]] L<sc>eguminosæ</sc>.
 
 Thermopsis fabacea, <i>D. C.</i>
 

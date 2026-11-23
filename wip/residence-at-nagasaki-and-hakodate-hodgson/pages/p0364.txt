@@ -46,7 +46,7 @@ albiflora, <i>Pall.</i>
 
 Glaucidium *palmatum, <i>S. & Z.</i>
 
-[[center]] Magnoliaceæ.
+[[center]] M<sc>agnoliaceæ</sc>.
 
 Illicium religiosum, <i>S. & Z.</i>
 
@@ -66,7 +66,7 @@ parviflora, <i>S. & Z.</i>
 
 Michelia, sp.
 
-[[center]] Berberidaceæ.
+[[center]] B<sc>erberidaceæ</sc>.
 
 Berberis Thunbergii, <i>D. C.</i>
 
@@ -92,7 +92,7 @@ Caulophyllum *thalictroides, <i>Mich.</i>
 
 Diphylleia cymosa, <i>Mich.</i>
 
-[[center]] Schizandraceæ.
+[[center]] S<sc>chizandraceæ</sc>.
 
 Kadsura japonica, <i>S. & Z.</i>
 
@@ -102,7 +102,7 @@ Sphærostemma repandum, <i>S. & Z.</i> (<i>Trochostigma repandum, S. & Z.</i>)
 
 *japonicum, <i>A. Gray.</i> (<i>Maximowiczia chinensis, Rupr.?</i>)
 
-[[center]] Menispermaceæ.
+[[center]] M<sc>enispermaceæ</sc>.
 
 Cocculus japonicus, <i>D. C.</i>
 
@@ -110,7 +110,7 @@ Thunbergii, <i>D. C.</i>
 
 Stephania hernandifolia, <i>Walp.</i>
 
-[[center]] Lardizabaleæ.
+[[center]] L<sc>ardizabaleæ</sc>.
 
 Akebia quinata, <i>Dcne.</i>
 
@@ -122,7 +122,7 @@ quercifolia, <i>S. & Z.</i>
 
 Stauntonia hexaphylla, <i>Dcne.</i>
 
-[[center]] Nymphæaceæ.
+[[center]] N<sc>ymphæaceæ</sc>.
 
 Nelumbium speciosum, <i>Wild.</i>
 
@@ -132,7 +132,7 @@ Nymphæa, *2 spp.
 
 Nuphar japonica, <i>D. C.</i>
 
-[[center]] Papaveraceæ.
+[[center]] P<sc>apaveraceæ</sc>.
 
 Papaver somniferum, <i>L.</i>
 
@@ -144,7 +144,7 @@ uniflorum, <i>S. & Z.</i>
 
 (<i>japonicum, Thbg.</i>)
 
-[[center]] Fumariaceæ.
+[[center]] F<sc>umariaceæ</sc>.
 
 Pteridophyllum racemosum, <i>S. & Z.</i>
 
@@ -168,7 +168,7 @@ linearifolia, <i>S. & Z.</i>
 
 orthoceras, <i>S. & Z.</i>
 
-[[center]] Cruciferæ.
+[[center]] C<sc>ruciferæ</sc>.
 
 Nasturtium amphibium, <i>L.</i>
 

@@ -26,7 +26,7 @@ Fimbristylis japonica, <i>Steud.</i>
 
 capillacea, <i>Hochst.</i>
 
-meliacea, <i>Valh.</i>
+meliacea, <i>[[corr Valh|Vahl]].</i>
 
 Goeringeana, <i>Steud.</i>
 
@@ -124,7 +124,7 @@ vesicaria, <i>L.</i>
 
 wahuensis, <i>Mey.</i>
 
-[[center]] Gramineæ.
+[[center]] G<sc>ramineæ</sc>.
 
 Ehrharta caudata, <i>Munro.</i>
 

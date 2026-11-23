@@ -10,7 +10,7 @@ volubilis.
 
 Stachyurus præcox, <i>S. & Z.</i>
 
-[[center]] Aurantiaceæ.
+[[center]] A<sc>urantiaceæ</sc>.
 
 Aegle sepiaria, <i>L.</i>
 
@@ -22,11 +22,11 @@ aurantium, <i>L.</i>
 
 Decumana, <i>L.</i>
 
-[[center]] Olacineæ.
+[[center]] O<sc>lacineæ</sc>.
 
 Schoepfia Jasminodora, <i>S. & Z.</i>
 
-[[center]] Hypericineæ.
+[[center]] H<sc>ypericineæ</sc>.
 
 Hypericum patulum, <i>Thbg.</i>
 
@@ -54,7 +54,7 @@ Elodea japonica, <i>Bl.</i>
 
 crassifolia, <i>Bl.</i>
 
-[[center]] Acerineæ.
+[[center]] A<sc>cerineæ</sc>.
 
 Acer distylum, <i>S. & Z.</i>
 
@@ -84,11 +84,11 @@ dissectum, <i>Thunb.</i>
 
 Negundo cissifolium, <i>S. & Z.</i>
 
-[[center]] Coriarieæ.
+[[center]] C<sc>oriarieæ</sc>.
 
 Coriaria japonica, <i>A. Gray.</i>
 
-[[center]] Sapindaceæ.
+[[center]] S<sc>apindaceæ</sc>.
 
 Sapindus Mukorossi, <i>Gærtn.</i>
 
@@ -100,13 +100,13 @@ Koelreuteria paniculata, <i>Laxm.</i>
 
 dissimilis, <i>A. Gray.</i>
 
-[[center]] Meliosmeæ.
+[[center]] M<sc>eliosmeæ</sc>.
 
 Meliosma rigida, <i>S. & Z.</i>
 
 myriantha, <i>S. & Z.</i>
 
-[[center]] Meliaceæ.
+[[center]] M<sc>eliaceæ</sc>.
 
 Melia Azederach, <i>L.</i>
 
@@ -116,7 +116,7 @@ japonica, <i>Don.</i>
 
 Piptosacca hypophyllantha, <i>Turcz.</i>
 
-[[center]] Ampelideæ.
+[[center]] A<sc>mpelideæ</sc>.
 
 Cissus Thunbergii, <i>S. & Z.</i>
 
@@ -142,37 +142,37 @@ Thunbergii, <i>S. & Z.</i>
 
 (<i>ficifolia, Bunge.</i>)
 
-[[center]] Geraniaceæ.
+[[center]] G<sc>eraniaceæ</sc>.
 
 Geranium Thunbergii, <i>S. & Z.</i>
 
 *erianthum, <i>Fisch.</i>
 
-[[center]] Oxalideæ.
+[[center]] O<sc>xalideæ</sc>.
 
 Oxalis *corniculata, <i>L.</i>
 
-[[center]] Balsamineæ.
+[[center]] B<sc>alsamineæ</sc>.
 
 Impatiens Balsamina, <i>Thbg.</i> sp.
 
 *noli-tangere, <i>L.</i>
 
-[[center]] Zygophylleæ.
+[[center]] Z<sc>ygophylleæ</sc>.
 
 Zygophyllum, sp., <i>S. & Z.</i>
 
-[[center]] Rutaceæ.
+[[center]] R<sc>utaceæ</sc>.
 
 Bœnninghausenia albiflora, <i>Steud.</i>
 
 Ruta, sp.
 
-[[center]] Diosmeæ.
+[[center]] D<sc>iosmeæ</sc>.
 
 Dictamnus, <i>vix a D. Fraxinella diversus.</i>
 
-[[center]] Zanthoxyleæ.
+[[center]] Z<sc>anthoxyleæ</sc>.
 
 Zanthoxylum piperitum, <i>D. C.</i>
 

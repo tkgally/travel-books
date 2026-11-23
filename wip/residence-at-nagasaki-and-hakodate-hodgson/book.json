@@ -38,7 +38,8 @@
   "The scan is of the Royal Asiatic Society’s copy in Bombay (Digital Library of India). Three blank pages within the book were scanned as black leaves; the scan check confirmed they fall where blank pages belong.",
   "A weather table in the footnote on p. 20 is given as one line of the note, its entries separated by semicolons.",
   "The family names in the catalogue of plants are shown as centred lines, not as headings, so that the contents do not list them.",
-  "Japanese words are marked with long and short vowel signs as printed, which vary from page to page."
+  "Japanese words are marked with long and short vowel signs as printed, which vary from page to page.",
+  "The footnote on “Tēmpŏ” on p. 23 has no reference mark in the print; it is linked from the word “Tēmpŏ’s” on that page."
  ],
  "history": [
   {
@@ -82,5 +83,8 @@
  "ornaments": [
   "p0385-1"
  ],
- "waivers": []
+ "waivers": [],
+ "keep_hyphens": [
+  "p0242"
+ ]
 }

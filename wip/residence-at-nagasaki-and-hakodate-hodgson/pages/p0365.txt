@@ -28,15 +28,15 @@ Turritis glabra, <i>L.</i>
 
 Matthiola annua, <i>Sweet.</i>
 
-[[center]] Capparideæ.
+[[center]] C<sc>apparideæ</sc>.
 
 Gynandropsis viscida, <i>Bunge.</i>
 
-[[center]] Bixaceæ.
+[[center]] B<sc>ixaceæ</sc>.
 
 Hisingera japonica, <i>S. & Z.</i>
 
-[[center]] Violaceæ.
+[[center]] V<sc>iolaceæ</sc>.
 
 Viola canina, <i>L.</i>
 
@@ -62,17 +62,17 @@ laciniosa, <i>A. Gray.</i>
 
 Selkirki, <i>Pursh.</i>
 
-[[center]] Polygalaceæ.
+[[center]] P<sc>olygalaceæ</sc>.
 
 Salomonia striata, <i>Juss.</i>
 
 Polygala japonica, <i>Houtt.</i>
 
-[[center]] Pittosporeæ.
+[[center]] P<sc>ittosporeæ</sc>.
 
 Pittosporum Tobira, <i>Ait.</i>
 
-[[center]] Caryophylleæ.
+[[center]] C<sc>aryophylleæ</sc>.
 
 Stellaria uliginosa, <i>L.</i>
 
@@ -108,11 +108,11 @@ Cerastium viscosum, <i>L.</i>
 
 *Fischerianum, <i>Seringe.</i>
 
-[[center]] Lineæ.
+[[center]] L<sc>ineæ</sc>.
 
 Linum, 2 spp.
 
-[[center]] Malvaceæ.
+[[center]] M<sc>alvaceæ</sc>.
 
 Malva Mauritiana, <i>L.</i>?
 
@@ -130,27 +130,27 @@ syriacus, <i>L.</i>
 
 Gossypium herbaceum, <i>Thbg.</i>
 
-[[center]] Sterculiaceæ.
+[[center]] S<sc>terculiaceæ</sc>.
 
 Sterculia japonica.
 
-[[center]] Elæocapeæ.
+[[center]] E<sc>læocapeæ</sc>.
 
 Elæocarpus photiniæfolius, <i>Hook.</i>
 
 japonicus, <i>S. & Z.</i>
 
-[[center]] Tiliaceæ.
+[[center]] T<sc>iliaceæ</sc>.
 
 Tilia, 2 spp.
 
 Corchoropsis crenata, <i>S. & Z.</i>
 
-[[center]] Byttneriaceæ.
+[[center]] B<sc>yttneriaceæ</sc>.
 
 Pentapetes phœnicea, <i>Thbg.</i>
 
-[[center]] Ternstrœmiaceæ.
+[[center]] T<sc>ernstrœmiaceæ</sc>.
 
 Ternstrœmia japonica, <i>Thbg.</i>
 

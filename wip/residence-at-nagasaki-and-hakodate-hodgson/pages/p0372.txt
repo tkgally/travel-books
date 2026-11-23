@@ -6,7 +6,7 @@ remotiflora, <i>S. & Z.</i>
 
 punctata, <i>Lam.</i>
 
-[[center]] <sc>Rubiaceæ.</sc>
+[[center]] R<sc>ubiaceæ</sc>.
 
 Asperula *odorata, <i>L.</i>
 
@@ -52,7 +52,7 @@ radicans, <i>Thbg.</i>
 
 Oldenlandia paniculata, <i>L.</i>
 
-[[center]] <sc>Vaccineæ.</sc>
+[[center]] V<sc>accineæ</sc>.
 
 Vaccinium bracteatum, <i>Thbg.</i>
 
@@ -66,7 +66,7 @@ macrocarpum, <i>Ait.</i>
 
 sp. nov.?
 
-[[center]] <sc>Ericaceæ.</sc>
+[[center]] E<sc>ricaceæ</sc>.
 
 Clethra barbinervis, <i>S. & Z.</i>
 
@@ -112,7 +112,7 @@ Enkianthus, sp.?
 
 Hymenanthes japonica, <i>Bl.</i>
 
-[[center]] <sc>Pyrolaceæ.</sc>
+[[center]] P<sc>yrolaceæ</sc>.
 
 Pyrola media, <i>Sm.</i>
 
@@ -122,11 +122,11 @@ rotundifolia, <i>L.</i>
 
 Moneses grandiflora, <i>Salisb.</i>
 
-[[center]] <sc>Diapensiaceæ.</sc>
+[[center]] D<sc>iapensiaceæ</sc>.
 
 Diapensia lapponica, <i>L.</i>
 
-[[center]] <sc>Styraceæ.</sc>
+[[center]] S<sc>tyraceæ</sc>.
 
 Styrax japonicum, <i>S. & Z.</i>
 
@@ -152,19 +152,19 @@ theophrastæfolia, <i>S. & Z.</i>
 
 neriifolia, <i>S. & Z.</i>
 
-[[center]] <sc>Ebenaceæ.</sc>
+[[center]] E<sc>benaceæ</sc>.
 
 Diospyros Kaki, <i>L.</i>
 
 japonica, <i>S. & Z.</i>
 
-[[center]] <sc>Sapotaceæ.</sc>
+[[center]] S<sc>apotaceæ</sc>.
 
 Achras Sapota, <i>L.</i>
 
 Sideroxylon, sp.
 
-[[center]] <sc>Myrsineæ.</sc>
+[[center]] M<sc>yrsineæ</sc>.
 
 Myrsine neriifolia, <i>S. & Z.</i>
 

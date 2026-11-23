@@ -1,6 +1,6 @@
 [[page 340]]
 
-[[center]] O<sc>robancheæ.</sc>
+[[center]] O<sc>robancheæ</sc>.
 
 Boschniackia, sp., <i>S. & Z.</i>
 
@@ -8,19 +8,19 @@ Boschniackia, sp., <i>S. & Z.</i>
 
 Phacellanthus tubiflorus, <i>S. & Z.</i>
 
-[[center]] U<sc>tricularieæ.</sc>
+[[center]] U<sc>tricularieæ</sc>.
 
 Utricularia intermedia, <i>Hayne.</i>
 
-[[center]] P<sc>lantagineæ.</sc>
+[[center]] P<sc>lantagineæ</sc>.
 
 Plantago *major, <i>L.</i>
 
-[[center]] P<sc>lumbagineæ.</sc> <i>R. Br.</i>
+[[center]] P<sc>lumbagineæ</sc>. <i>R. Br.</i>
 
 Statice Japonica, <i>S. & Z.</i>
 
-[[center]] P<sc>olygoneæ.</sc>
+[[center]] P<sc>olygoneæ</sc>.
 
 Rheum palmatum, <i>L.</i>
 
@@ -68,7 +68,7 @@ persicarioides, <i>L.</i>
 
 acetosa, <i>L.</i>
 
-[[center]] N<sc>yctagineæ.</sc>
+[[center]] N<sc>yctagineæ</sc>.
 
 Mirabilis Jalapa, <i>L.</i>, <i>Thbg.</i>
 
@@ -84,7 +84,7 @@ Achyranthes *aspera, <i>Linn.</i>
 
 Amaranthus Blitum, <i>L.</i>
 
-[[center]] C<sc>henopodeæ.</sc>
+[[center]] C<sc>henopodeæ</sc>.
 
 Chenopodina maritima, <i>Moq.</i>
 
@@ -106,13 +106,13 @@ Salsola Soda, <i>Sieb.</i>
 
 Basella rubra, <i>L.</i>
 
-[[center]] P<sc>hytolacceæ.</sc>
+[[center]] P<sc>hytolacceæ</sc>.
 
 Phytolacca octandra, <i>L.</i>
 
 Kæmpferi, <i>A. Gray.</i>
 
-[[center]] L<sc>aurineæ.</sc>
+[[center]] L<sc>aurineæ</sc>.
 
 Cinnamomum dulce, <i>Nees.</i>
 
@@ -166,7 +166,7 @@ foliosa, <i>S. & Z.</i>, <i>non Nees.</i>
 
 aciculata, <i>Bl.</i>
 
-[[center]] S<sc>antalaceæ.</sc>
+[[center]] S<sc>antalaceæ</sc>.
 
 Thesium, sp., <i>S. & Z.</i>
 
@@ -174,11 +174,11 @@ alpinum, <i>L.</i>
 
 decurrens, <i>Bl.</i>
 
-[[center]] H<sc>elwingiaceæ.</sc>
+[[center]] H<sc>elwingiaceæ</sc>.
 
 Helwingia japonica, <i>Morr. & Dcne.</i>
 
-[[center]] E<sc>læagneæ.</sc>
+[[center]] E<sc>læagneæ</sc>.
 
 Elæagnus macrophylla, <i>Thbg.</i>
 

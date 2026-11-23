@@ -1,16 +1,16 @@
 [[page 344]]
 
-[[center]] Najadeæ.
+[[center]] N<sc>ajadeæ</sc>.
 
 Potamogeton natans, <i>L.</i>
 
 Zostera marina, <i>L.</i>
 
-[[center]] Hæmodoraceæ.
+[[center]] H<sc>æmodoraceæ</sc>.
 
 Aletris japonica, <i>Lamb.</i>
 
-[[center]] Liliaceæ.
+[[center]] L<sc>iliaceæ</sc>.
 
 Paris *hexaphylla, <i>Cham.</i>
 
@@ -120,7 +120,7 @@ Heterosmilax japonica, <i>Kth.</i>
 
 Caprosmanthus consanguineus, <i>Kth.</i>
 
-[[center]] Dioscoreæ.
+[[center]] D<sc>ioscoreæ</sc>.
 
 Dioscorea japonica, <i>Thunb.</i>
 
@@ -130,17 +130,17 @@ quinqueloba, <i>Thunb.</i>
 
 Batatas, <i>Dcne. var.</i>
 
-[[center]] Roxburghiaceæ.
+[[center]] R<sc>oxburghiaceæ</sc>.
 
 Roxburghia Japonica, <i>Bl.</i>
 
-[[center]] Ophiopogoneæ.
+[[center]] O<sc>phiopogoneæ</sc>.
 
 Fluggea japonica, <i>Rich.</i>
 
 Ophiopogon spicatus, <i>Ker.</i>
 
-[[center]] Melanthaceæ.
+[[center]] M<sc>elanthaceæ</sc>.
 
 Heloniopsis panciflora, <i>A. Gray.</i>
 
@@ -154,7 +154,7 @@ Rhodea japonica, <i>Roth.</i>
 
 Aspidistra elatior, <i>Bl.</i>
 
-[[center]] Junceæ.
+[[center]] J<sc>unceæ</sc>.
 
 Juncus effusus, <i>L.</i>
 
@@ -166,19 +166,19 @@ xyphioides, <i>Miq.</i>
 
 Luzula campestris, <i>L.</i>
 
-[[center]] Eriocauloneæ.
+[[center]] E<sc>riocauloneæ</sc>.
 
 Eriocaulon sexangulare, <i>L.</i>
 
 Sieboldianum, <i>S. & Z.</i>
 
-[[center]] Commelyneæ.
+[[center]] C<sc>ommelyneæ</sc>.
 
 Commelyna polygama, <i>Roth.</i>
 
 (<i>communis, L.</i>)
 
-[[center]] Cyperaceæ.
+[[center]] C<sc>yperaceæ</sc>.
 
 Cyperus piptolepis, <i>Steud.</i>
 
@@ -186,4 +186,4 @@ xanthopus, <i>Steud.</i>
 
 lævissimus, <i>Steud.</i>
 
-(<i>rotundus, L.?</i>)
+(rotundus, <i>L.?</i>)

@@ -68,11 +68,11 @@ Lampsana *parviflora, <i>A. Gray.</i>
 
 Sonchus oleraceus, <i>Thbg.</i>
 
-[[center]] B<sc>alsamifluæ.</sc>
+[[center]] B<sc>alsamifluæ</sc>.
 
 Liquidambar, sp.
 
-[[center]] H<sc>amamelideæ.</sc>
+[[center]] H<sc>amamelideæ</sc>.
 
 Hamamelis japonica, <i>S. & Z.</i>
 
@@ -82,7 +82,7 @@ pauciflora, <i>S. & Z.</i>
 
 Distylium racemosum, <i>S. & Z.</i>
 
-[[center]] C<sc>orneæ.</sc>
+[[center]] C<sc>orneæ</sc>.
 
 Benthamia japonica, <i>S. & Z.</i>
 
@@ -100,13 +100,13 @@ Aucuba japonica, <i>Thbg.</i>
 
 Quadriala lanceolata, <i>S. & Z.</i>
 
-[[center]] A<sc>langieæ.</sc>
+[[center]] A<sc>langieæ</sc>.
 
 Marlea platanifolia, <i>S. & Z.</i>
 
 macrophylla, <i>S. & Z.</i>
 
-[[center]] C<sc>aprifoliaceæ.</sc>
+[[center]] C<sc>aprifoliaceæ</sc>.
 
 Linnæa <i>borealis</i>, <i>Gronov.</i>
 
@@ -118,7 +118,7 @@ Diervilla hortensis, <i>S. & Z.</i>
 
 grandiflora, <i>S. & Z.</i>
 
-versioolor, <i>S. & Z.</i>
+[[corr versioolor|versicolor]], <i>S. & Z.</i>
 
 floribunda, <i>S. & Z.</i>
 
@@ -162,7 +162,7 @@ japonica, <i>Thbg.</i>
 
 *pubens, <i>Michx.</i>
 
-[[center]] V<sc>alerianaceæ.</sc>
+[[center]] V<sc>alerianaceæ</sc>.
 
 Patrinia villosa, <i>Sieb.</i>
 
@@ -170,17 +170,17 @@ Patrinia villosa, <i>Sieb.</i>
 
 Valeriana dioica, <i>L.</i>
 
-[[center]] D<sc>ipsaceæ.</sc>
+[[center]] D<sc>ipsaceæ</sc>.
 
 Scabiosa maritima, <i>Thbg.</i>
 
-[[center]] L<sc>obeliaceæ.</sc>
+[[center]] L<sc>obeliaceæ</sc>.
 
 Isolobus campanuloides, <i>D. C.</i>
 
 radicans, <i>A. D. C.</i>
 
-[[center]] C<sc>ampanulaceæ.</sc>
+[[center]] C<sc>ampanulaceæ</sc>.
 
 Campanumæa *lanceolata, <i>S. & Z.</i>
 
