@@ -1,0 +1,79 @@
+{
+ "p0009": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "OUR start is made",
+   "replace": "O<sc>ur</sc> start is made",
+   "draft": "OUR start is ma",
+   "verified": "O<sc>ur</sc> start is ma",
+   "context": "[[page ?]] ⏎  ⏎ # Our Journey to Japan ⏎  ⏎ OUR start is made on February 22d in the early forenoon. The grandchildren, C"
+  }
+ ],
+ "p0032": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "some young Japanese geisha",
+   "replace": "some young, Japanese geisha",
+   "draft": "some young Japanese ge",
+   "verified": "some young, Japanese ge",
+   "context": "nsuous show, which is rather unsympathetic. Following this, some young Japanese geisha girls appear who, it is explained, are to perform a dance, "
+  }
+ ],
+ "p0042": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "\n[[caption]] Korekiyo Takahashi",
+   "replace": "",
+   "draft": "\n[[caption]] Korekiyo Takahashi",
+   "verified": "",
+   "context": " in a dark kimono, with a facsimile of his signature below]] ⏎ [[caption]] Korekiyo Takahashi ⏎ "
+  }
+ ],
+ "p0060": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Loeb &amp; Co.",
+   "replace": "Loeb & Co.",
+   "draft": "Loeb &amp; Co.",
+   "verified": "Loeb & Co.",
+   "context": "le, to the efforts of the influential firm of Messrs. Kuhn, Loeb &amp; Co. and their associates who have such a large fol-</i> ⏎ "
+  }
+ ],
+ "p0080": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Invitation to Ball given by Marquis and Marchioness Nabeshima",
+   "replace": "Invitation to Ball Given by Marquis and Marchioness Nabeshima",
+   "draft": "ion to Ball given by Marq",
+   "verified": "ion to Ball Given by Marq",
+   "context": "nd the names of the guests brushed in by hand]] ⏎ [[caption]] Invitation to Ball given by Marquis and Marchioness Nabeshima ⏎ "
+  }
+ ],
+ "p0089": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "\n[[caption]] I. Oyama",
+   "replace": "",
+   "draft": "\n[[caption]] I. Oyama",
+   "verified": "",
+   "context": "s hand on his sword hilt, beside a table with a plumed hat]] ⏎ [[caption]] I. Oyama ⏎ "
+  }
+ ],
+ "p0115": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Chargé d’Affaires",
+   "replace": "Charge d’Affaires",
+   "draft": "Chargé d’Affaires",
+   "verified": "Charge d’Affaires",
+   "context": "ew demonstration of this. However, Mr. Wilson, the American Chargé d’Affaires, said to me at the Mitsui dinner to-night that many people "
+  }
+ ]
+}

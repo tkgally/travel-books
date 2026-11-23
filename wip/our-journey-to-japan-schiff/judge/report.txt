@@ -1,0 +1,7 @@
+judge opus: 7 spots on 7 pages: {'draft': 3, 'verified': 2, 'the verifier dropped a picture (could not undo: edit by hand)': 1, 'draft (could not undo: edit by hand)': 1}; cost $0.32
+p0009 #1 [draft, sure: medium] draft 'OUR start is ma' | verified 'O<sc>ur</sc> start is ma' | judge reads 'OUR start is ma'
+p0032 #1 [verified, sure: medium] draft 'some young Japanese ge' | verified 'some young, Japanese ge' | judge reads 'some young, Japanese ge'
+p0042 #1 [the verifier dropped a picture (could not undo: edit by hand), sure: medium] draft '\n[[caption]] Korekiyo Takahashi' | verified '' | judge reads ''
+p0080 #1 [draft, sure: medium] draft 'ion to Ball given by Marq' | verified 'ion to Ball Given by Marq' | judge reads 'ION TO BALL GIVEN BY MARQ'
+p0089 #1 [draft (could not undo: edit by hand), sure: medium] draft '\n[[caption]] I. Oyama' | verified '' | judge reads '\n[[caption]] I. Oyama'
+p0115 #1 [draft, sure: high] draft 'Chargé d’Affaires' | verified 'Charge d’Affaires' | judge reads 'Chargé d’Affaires'

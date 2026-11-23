@@ -1,0 +1,10 @@
+{"find": "three and a half hours", "replace": "three and a half hours"}
+{"find": "about three and a half hours", "replace": "about three and a half hours"}
+
+Correction: the draft reads "three and a half hours", but the page reads "three and a half hours" too, so I need to be more careful. Re-checking the text, the difference is "three" versus "three": the draft has "three and a half hours" at its start. Here is the actual list:
+
+{"find": "lasts about three and a half hours", "replace": "lasts about three and a half hours"}
+
+I can't find a real difference in that phrase. Checking the rest of the page, I found one more candidate: "one-act" is printed "one-act", and the draft matches.
+
+NONE
