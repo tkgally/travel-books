@@ -95,5 +95,8 @@
    "match": "p0007",
    "why": "blank verso of the map"
   }
+ ],
+ "keep_hyphens": [
+  "p0035"
  ]
 }

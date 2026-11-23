@@ -1,5 +1,4 @@
-[ FAIL (1)] meta: book.json: required fields present and sane
-            - book.json: missing 'summary'
+[       ok] meta: book.json: required fields present and sane
 [       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
 [       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
 [       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
@@ -53,33 +52,24 @@
 [       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
 [       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
-[look (15)] accents: words the book spells with different accents (or with and without): look at each group on the scan
-            - buenos: buenos (p0008, p0009, p0041, p0044, p0045, p0047…); buénos (p0078); büenos (p0049)
+[ look (9)] accents: words the book spells with different accents (or with and without): look at each group on the scan
             - canada: canada (p0065); cañada (p0051)
-            - cerro: cerro (p0009, p0032, p0034, p0038, p0040, p0041…); çerro (p0090)
             - charge: charge (p0061, p0140); chargé (p0133)
-            - cover: cover (p0012, p0066, p0086, p0093, p0125); covér (p0055)
             - coxipo: coxipo (p0106, p0132); coxipó (p0122)
             - curumba: curumba (p0009, p0092, p0106, p0107, p0131); curumbá (p0092, p0102, p0103, p0104, p0105, p0106…)
-            - cuyaba: cuyaba (p0009, p0104, p0105, p0106, p0110, p0123); cuyabà (p0128); cuyabá (p0008, p0064, p0065, p0110, p0115, p0118…); cuyabä (p0127)
-            - globe: globe (p0029); globé (p0044)
+            - cuyaba: cuyaba (p0009, p0104, p0105, p0106, p0110, p0123); cuyabá (p0008, p0064, p0065, p0110, p0115, p0118…)
             - humaita: humaita (p0079); humaitá (p0079, p0145)
             - jauru: jauru (p0141); jaurú (p0065, p0104, p0129)
             - mate: mate (p0056, p0081); maté (p0135); máte (p0090, p0093)
-            - negroes: negroes (p0020, p0026, p0114, p0115, p0124, p0129); négroes (p0021)
             - parana: parana (p0072); paraná (p0045, p0046, p0050, p0064, p0066, p0067…)
-            - the: the (p0008, p0009, p0010, p0011, p0012, p0013…); thé (p0065)
 [       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
-[ look (4)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
-            - p0026a: “litle” — “little” is common (8300; a letter dropped or transposed?)
-            - p0032: “calle” — “called” is common (3711; a letter dropped or transposed?)
-            - p0058: “autorities” — “authorities” is common (302; a letter dropped or transposed?)
-            - p0058: “rnined” — “ruined” is common (250)
+[ look (1)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0032: “calle” — “called” is common (3728; a letter dropped or transposed?)
 [       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
-[       ok] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
-[ look (2)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
-            - p0076: “manner The” in …mingly unfastened in any manner The occupants of these…
-            - p0104: “days We” in …yaba, a journey of eight days We have met with…
+[ look (2)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: …shwoman living in Buenos Aires, describes a journey made about 1876 from Lisbon to Brazil and the River Plate, and…
+            - book.json summary: … to Brazil and the River Plate, and then some two thousand miles up the Paraná and Paraguay rivers to A…
+[       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: europe-to-paraguay-matto-grosso-mulhall v1 — 2 to fix, 3 waived; to look at: hyphen-joins 6, quote-balance 2, contents 17, accents 15, rare-forms 4, missing-stop 2 — tools@47516985 2026-11-23
+preflight FAIL: europe-to-paraguay-matto-grosso-mulhall v1 — 1 to fix, 3 waived; to look at: hyphen-joins 6, quote-balance 2, contents 17, accents 9, rare-forms 1, serial-commas 2 — tools@5e31ae21 2026-11-23
