@@ -1,0 +1,79 @@
+{
+ "p0008": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "# Preface.",
+   "replace": "# Preface",
+   "draft": "# Preface.",
+   "verified": "# Preface",
+   "context": "[[page ?]] ⏎  ⏎ # Preface. ⏎  ⏎ The fact of having travelled over 30,000 miles does not of"
+  }
+ ],
+ "p0018": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "battlements, of the Tagus",
+   "replace": "battlements. of the Tagus",
+   "draft": "battlements, of the Tagu",
+   "verified": "battlements. of the Tagu",
+   "context": "e ramparts. Crossing the court-yard we have a view from the battlements, of the Tagus and coast. We are at an elêvation of more than three thousa"
+  }
+ ],
+ "p0041": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "next the Comandancia.",
+   "replace": "next the Commandancia.",
+   "draft": "next the Comandancia.",
+   "verified": "next the Commandancia.",
+   "context": "the Argentine coast are several guns and soldiers quarters, next the Comandancia. When Rosas was Dictator of Buenos Aires he sent ⏎ "
+  }
+ ],
+ "p0055": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "## A Night in the Sierra of Cordoba",
+   "replace": "[[subtitle]] A Night in the Sierra of Cordoba",
+   "draft": "## A Night in ",
+   "verified": "[[subtitle]] A Night in ",
+   "context": "[[page 42]] ⏎  ⏎ # X. ⏎  ⏎ ## A Night in the Sierra of Cordoba ⏎  ⏎ Before leaving the quaint old city of the Jesuits, which s"
+  }
+ ],
+ "p0077": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Humbold, lived",
+   "replace": "Humboldt, lived",
+   "draft": "Humbold, lived",
+   "verified": "Humboldt, lived",
+   "context": "rong enough to catch birds. ⏎  ⏎ Mr. Bompland, the companion of Humbold, lived here for many years. They tell us the great French botanist"
+  }
+ ],
+ "p0098": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "somê",
+   "replace": "some",
+   "draft": "somê",
+   "verified": "some",
+   "context": " his waist and a tall black hat, which is evidently part of somê spoil taken in one of their raids against the Paraguayans: "
+  }
+ ],
+ "p0111": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Piransis'",
+   "replace": "Pirausis'",
+   "draft": "Piransis'",
+   "verified": "Pirausis'",
+   "context": "ians rasp it for use upon the rough tongue of a fish called Piransis'. (We used a nutmeg grater). A table spoonful of this powder"
+  }
+ ]
+}

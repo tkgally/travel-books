@@ -1,0 +1,99 @@
+{
+ "id": "europe-to-paraguay-matto-grosso-mulhall",
+ "version": 1,
+ "date": "2026-11-23",
+ "title": "From Europe to Paraguay and Matto-Grosso",
+ "short_title": "From Europe to Paraguay and Matto-Grosso",
+ "authors": [
+  {
+   "name": "Mrs. M. G. Mulhall",
+   "sort": "Mulhall, Marion McMurrough",
+   "born": 1844,
+   "died": 1922
+  }
+ ],
+ "place": "London",
+ "publisher": "Edward Stanford",
+ "year": 1877,
+ "source": {
+  "ia_identifier": "cu31924021183177",
+  "contributor": "Cornell University Library",
+  "hidden_leaves": [],
+  "extra_leaves": {
+   "p0026a": {
+    "ia_identifier": "fromeuropetopar00mulhgoog",
+    "n": 28,
+    "what": "printed page 16, a blank leaf in the Cornell copy"
+   }
+  }
+ },
+ "edition_statement": "First edition",
+ "regions": [
+  "Portugal",
+  "Brazil",
+  "Uruguay",
+  "Argentina",
+  "Paraguay"
+ ],
+ "period": "about 1876",
+ "subjects": [
+  "Paraná River",
+  "Paraguay River",
+  "Cuiabá",
+  "Jesuit missions"
+ ],
+ "summary": "Marion Mulhall (about 1844–1922), an Irishwoman living in Buenos Aires, describes a journey made about 1876 from Lisbon to Brazil and the River Plate, and then some two thousand miles up the Paraná and Paraguay rivers to Asunción, Corumbá, and Cuiabá, in the Brazilian province of Mato Grosso, where, by her account, no Englishwoman had been before. On the way she visits Sintra, Rio de Janeiro, Montevideo, an estancia in Uruguay, General Urquiza on the river Uruguay, Buenos Aires, and Córdoba. She writes about the towns, the river steamers, Paraguay after its war, the Guaycurú, Payaguá, Guató, and other Indian peoples, and the ruins of the Jesuit missions. Her husband gave her his notes to compare with hers. The book has ten engravings, a map, and a table of distances.",
+ "omitted_from_reading": "The printed contents are in the JSON only.",
+ "notes_on_text": [
+  "Printed page 16 is a blank leaf in the scanned copy (Cornell University); it is taken from the Oxford copy scanned by Google.",
+  "The four errors listed in the book’s errata are corrected in the text and marked; so are a few stray accents and points that the printer left in English words.",
+  "The chapter headings give only the chapter’s place or subject; the printed contents give longer titles."
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-23",
+   "note": "First publication."
+  }
+ ],
+ "divisions": [
+  {
+   "at": "p0004",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0006",
+   "kind": "front",
+   "title": "Map"
+  },
+  {
+   "at": "p0008",
+   "kind": "preface"
+  },
+  {
+   "at": "p0009",
+   "kind": "contents"
+  },
+  {
+   "at": "p0145",
+   "kind": "appendix"
+  }
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0027",
+   "why": "a blank leaf in the Cornell copy where printed page 16 should be; p. 16 is taken from the Oxford copy as p0026a"
+  },
+  {
+   "check": "leaves",
+   "match": "p0005",
+   "why": "blank verso of the title page"
+  },
+  {
+   "check": "leaves",
+   "match": "p0007",
+   "why": "blank verso of the map"
+  }
+ ]
+}

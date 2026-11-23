@@ -1,3 +1,0 @@
-The word is split across a line ending ("sugar-" / "cane"), so the scan can't show whether the hyphen belongs to the word or was only added at the line break. I've chosen B as the slightly more likely reading, with low confidence.
-
-{"n": 1, "is": "B", "print": "sugar-cane", "sure": "low"}
