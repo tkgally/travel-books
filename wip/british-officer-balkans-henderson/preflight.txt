@@ -1,5 +1,4 @@
-[ FAIL (1)] meta: book.json: required fields present and sane
-            - book.json: missing 'summary'
+[       ok] meta: book.json: required fields present and sane
 [       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
 [       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
 [       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
@@ -15,15 +14,8 @@
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
 [ FAIL (1)] audit: book.json records the sampled audit of this version
             - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
-[ look (9)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
-            - hyphen join at p0062: …he stony, rock-|strewn heights … (hyphen removed; check) — the book prints “rock-strewn” elsewhere: keep_hyphens?
-            - hyphen join at p0070: …nd yellow sign-|posts ceased, t… (hyphen removed; check) — the book hyphenates other “sign-” words: keep_hyphens?
-            - hyphen join at p0075: …ers is the leg-|irons they wear… (hyphen removed; check)
-            - hyphen join at p0096: …Turkish coffee-|house and garde… (hyphen removed; check) — the book prints “coffee-house” elsewhere: keep_hyphens?
+[ look (2)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0109: …hem, the ultra-|marine of the n… (hyphen removed; check) — the book hyphenates other “ultra-” words: keep_hyphens?
-            - hyphen join at p0139: …age of the fat-|tailed sheep of… (hyphen removed; check)
-            - hyphen join at p0153: …and has leg-of-|mutton sleeves.… (hyphen removed; check)
-            - hyphen join at p0314: …oked a bowling-|alley. There wa… (hyphen removed; check)
             - (and 5 joins giving a word the book prints whole elsewhere: not listed)
 [       ok] joins: page joins: missing [[cont]]
 [ look (1)] folios: printed page numbers that break the sequence
@@ -40,18 +32,17 @@
 [       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
 [       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
-[look (31)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+[look (30)] accents: words the book spells with different accents (or with and without): look at each group on the scan
             - a: a (p0007, p0009, p0011, p0015, p0016, p0017…); à (p0017, p0096, p0184, p0187, p0202, p0291…)
             - bobovac: bobovac (p0347, p0357, p0367); bobovač (p0020)
             - bocac: bocac (p0226, p0230, p0367); bočac (p0018)
             - bosna: bosna (p0019, p0221, p0224, p0258, p0271, p0274…); bosnà (p0174, p0184, p0187, p0364, p0367)
-            - c: c (p0021, p0022, p0112, p0137, p0141, p0151…); č (p0021, p0022, p0123, p0137)
+            - c: c (p0021, p0022, p0112, p0131, p0137, p0141…); č (p0021, p0022, p0123, p0137)
             - cajnica: cajnica (p0259, p0265, p0368); čajnica (p0019)
             - canon: canon (p0378, p0388, p0392); cañon (p0019, p0296)
             - catici: catici (p0347, p0352, p0357, p0368); čatiči (p0020)
             - depot: depot (p0271); depôt (p0019, p0035, p0176, p0265, p0276, p0278…)
             - equestrienne: equestrienne (p0315); équestrienne (p0019)
-            - ferediza: ferediza (p0134); feredíza (p0369)
             - foca: foca (p0296, p0311); foča (p0019, p0296, p0305, p0308, p0309, p0310…)
             - goles: goles (p0254); goleš (p0369)
             - gorazda: gorazda (p0069); goražda (p0265, p0276, p0277, p0278, p0309, p0315…)
@@ -78,9 +69,11 @@
             - p0281: “tailing” — “failing” is common (71)
             - p0378: “inset” — “insect” is common (115; a letter dropped or transposed?)
 [       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
-[       ok] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+[ look (3)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: …alkans a few years before 1909, when Bosnia and Hercegovina were und…
+            - book.json summary: …ve up to Cetinje in Montenegro, and then go inland to Mostar and Sarajevo, where they…
+            - book.json summary: … markets, festivals, dervishes, the government carpet and cigarette factories,…
 [       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-[   unused] waiver matches nothing: {'check': 'leaves', 'match': 'p0001', 'why': 'front cover, plain cloth with no text'}
-preflight FAIL: british-officer-balkans-henderson v1 — 2 to fix, 2 waived; to look at: hyphen-joins 9, folios 1, contents 2, accents 31, rare-forms 3 — tools@444baf86 2026-11-23
+preflight FAIL: british-officer-balkans-henderson v1 — 1 to fix, 2 waived; to look at: hyphen-joins 2, folios 1, contents 2, accents 30, rare-forms 3, serial-commas 3 — tools@9f512e7e 2026-11-23
