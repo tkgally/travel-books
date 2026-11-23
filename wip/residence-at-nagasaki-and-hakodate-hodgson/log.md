@@ -14,10 +14,25 @@ Cuts in the text: p0097 (p. 62, seaweed pole, no caption), p0194 (p. 159, demon 
 Scan check: all 10 sheets and full-size leaves by an Opus subagent 2026-11-23: GOOD; minor blots p0021 (“dozen”), p0194 line 1, p0220, p0385 (“lepi[d]a”, “porph[y]ra”: check); illustrated leaves scanned in photo mode (grey ground, show-through).
 
 ## Decisions
+- 2026-11-23: the black leaves p0009, p0013, p0361 set `[[blank]]` (the draft had written a note to the reader on each; the scan check confirmed they fall where blanks belong).
+- The head-title above Chapter I left out (as in other books). Second and Fourth Excursion made `##` like the Third (sections of Chapter III).
+- The frontispiece is one plate with two figures and two captions: one picture, one caption line.
+- The family names of the plant catalogue made `[[center]]` lines (small capitals as printed), not headings, so the contents list only the catalogue.
+- The weather table in the footnote on p. 20 made one line of the note, entries separated by semicolons (lessons: a table in a footnote); its two “†” notes (“High winds.”) joined to the end of that note.
+- p. 23 (p0058): the note on “Tēmpŏ” has no reference mark in the print; linked from “Tēmpŏ’s” and said in notes_on_text.
+- p0220: a table row continued from p0219 had `[[cont]]` inside a cell; removed (the table continues on the next page with its header repeated, as printed).
+- p0250 “use[[supplied d]]”: the letter lost in print.
+- p0045 “merchant’s” (printed apostrophe) marked [[corr]]; the two proofreading subagents disagreed; settled on the scan by the session.
+- “retiré” (p0343) kept as printed (French).
+- Crops from the colour JP2s; woodcuts and the printer's device in grey; cover.jpg = the title page (the cover has no title).
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-23 | Opus | 381 | 26.37 | 0 errors; 1 〓 (a letter lost in print) |
+| corrections | 2026-11-23 | Sonnet | 381 | 12.80 | 42 spots |
+| judge | 2026-11-23 | Opus | 42 spots | 1.39 | verified 29, draft 10, neither 3 |
+| audit | 2026-11-23 | Opus | 6 | 0.35 | 30/30; 1 candidate (p0190 Ōchāu: the page file is right) |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
