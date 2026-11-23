@@ -15,10 +15,18 @@ Stages: Salt Lake City p0010 · San Francisco p0015 · Honolulu p0024 · Yokoham
 Scan check: Opus subagent 2026-11-23: complete by continuity of every page join and of the dates; sharp. Old-style figures: read dates from the image.
 
 ## Decisions
+- 2026-11-23: the diary (one division, no chapters, no page numbers) divided into ten sections at date headings, titled by dates and places (`toc_entries`; Tom 2026-11-22); places chosen by counting names in each stretch.
+- Portraits: the sitters' signatures are part of the pictures; no captions typed (the draft had typed two, inconsistently); the alt text names the sitter. The invitations keep their printed captions.
+- The title page transcribed as text; the cherry-blossom border is the book's picture (cover.jpg), not repeated as an image on the title page.
+- The farewell speech over p0169–p0172: each page's part wrapped in <blockquote> with `[[cont]]`, as page-markup.md says (p0170–p0171 had none: compile warnings).
+- Photographs and facsimiles in colour (brown halftone ink).
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-23 | Opus | 190 | 13.06 | 0 errors |
+| corrections | 2026-11-23 | Sonnet | 190 | 6.55 | 7 spots |
+| judge | 2026-11-23 | Opus | 7 spots | 0.32 | draft 3, verified 2, could not undo 2 (signature captions) |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
