@@ -79,7 +79,8 @@ one book where possible, and stops by its context budget (`RESUME.md` §3, `tool
   left out. A long text without chapters is divided into titled sections, a page each; the JSON keeps the
   book's own structure (Tom, 2026-11-22; `notes/style.md` §Editions).
 - **The site has no external dependencies**: no web fonts, scripts, trackers or CDNs. The only outside content
-  is links to IA and the optional IA page viewer (an iframe that loads when the reader opens it).
+  is links to IA, the optional IA page viewer (an iframe that loads when the reader opens it), and the EPUB and ODT
+  downloads, which are GitHub Release files of this repository (Tom, 2026-11-23: the site must stay under 1 GB).
 - **Unfinished work is committed and pushed** as it goes: model runs and page text under `wip/<slug>/`, state
   and exact next step in `wip/<slug>/log.md`, queue row `in progress`. A session can end without warning.
 - **After every published book, and at the end of every session:** update notes/skills with what was learned,
