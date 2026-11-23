@@ -28,8 +28,9 @@ data lives in that reader's browser.
 
 **Done in part (Tom, 2026-11-23):** every picture reduced to at most 1000 px, quality 75 (726 MB → 267 MB); the
 built site is now **869 MB** (EPUB 267 MB, ODT 260 MB). Still close to 1 GB and growing about 11 MB a book, so
-0.1 below will be needed before long. A new single-commit repository is to replace this one so that the old
-pictures leave the history.
+0.1 below will be needed before long. The same day the repository was recreated with a single commit, so that the
+old full-size pictures left its history (about 853 MB → about 350 MB); the old history, issues and pull requests are in
+the archived `tkgally/travel-books-old`.
 
 **The built site is about 2.2 GB** (measured 2026-11-23: EPUBs 702 MB, ODTs 683 MB, the rest mostly the same pictures
 in the HTML). GitHub documents a **1 GB limit for a published Pages site** and recommends source repositories under
