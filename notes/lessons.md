@@ -178,6 +178,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   (no scans), checked at each chapter opening, said in `notes_on_text` (*Autumn Tour in Western Persia*, 2026-11-20).
 
 ## Trigger: quotations set in the text type
+- Speeches or letters printed full width in italic are italic paragraphs, not `<blockquote>`: the drafts wrap some pages' parts and not others (*Our Journey to Japan*, 2026-11-23: caught by the rendered look). Check the indent on the scan before keeping a blockquote.
 
 - Letters, reports and newspaper extracts printed in the text type with a little space round them: drafts make some of
   them `<blockquote>` and not others, and a `[[cont]]` at the top of the next page then has nothing to continue (compile
