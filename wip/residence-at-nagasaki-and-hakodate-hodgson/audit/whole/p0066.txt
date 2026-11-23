@@ -1,5 +1,0 @@
-{"given": "But what pleases foreigner most", "print": "But what pleases the foreigner most", "sure": "high"}
-{"given": "are those appareutly fragile and sweetly", "print": "are those apparently fragile and sweetly", "sure": "high"}
-{"given": "as in their picture-books; it behoves", "print": "as in their picture-books, it behoves", "sure": "high"}
-{"given": "visits Yedo, or kanagowa, where he", "print": "visits Yedo, or Kanagowa, where he", "sure": "high"}
-{"given": "few other curiosities to be sound at", "print": "few other curiosities to be found at", "sure": "high"}

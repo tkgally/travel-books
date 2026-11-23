@@ -1,5 +1,0 @@
-{"given": "Here I am at last in Japan, haviug left", "print": "Here I am at last in Japan, having left", "sure": "high"}
-{"given": "favourable, and rain never ceased falling", "print": "favourable, and the rain never ceased falling", "sure": "high"}
-{"given": "completely lost in his great Japanese", "print": "completely lost in this great Japanese", "sure": "high"}
-{"given": "shape his course to nagasaki.", "print": "shape his course to Nagasaki.", "sure": "high"}
-{"given": "steal our way into this port; where", "print": "steal our way into this port, where", "sure": "high"}

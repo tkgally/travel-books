@@ -476,11 +476,13 @@
    "place": "London",
    "publisher": "Richard Bentley",
    "images": 390,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-20",
    "eligibility": "JATSI 17. Four of five. Rule 1: JATSI's link (in.ernet.dli.2015.237533) is a bilevel, blotched Digital Library of India scan: not usable. india.history.resource.89172 is the same edition at 300 ppi greyscale, clean, woodcuts present (no library named; do the full scan check; aresidenceatnag01hookgoog, Harvard/Google, is a fallback). Rule 2: no text elsewhere. Rule 3 NOT met: Ganesha / Edition Synapse 'Japan in English' (2002) and Elibron. Rule 4: the British consul's first-person account in the first five chapters, including his wife's letters; the other ten chapters are description. Rule 5: Christopher Pemberton Hodgson 1821–1865 (DNB); Mrs Hodgson, name and dates not found, a married woman with a child in 1859 (born before 1856); Sir William Jackson Hooker 1785–1865 and 'Mr. Black' of the Kew herbarium (in post in 1861; born before 1856) for the catalogue of plants. Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record. Re-checked 2026-11-23: scan check (Opus subagent) of india.history.resource.89172: all pages present (Royal Asiatic Society, Bombay, copy; DLI scan, JP2s in colour); no other free text found.",
    "note": "xvi + about 350 pp.; 6 woodcuts, artist not named; small tables of coin values (pp. 293–299); pp. 327–350 are a catalogue of Latin plant names.",
-   "started": "2026-11-23"
+   "started": "2026-11-23",
+   "version": 1,
+   "published": "2026-11-23"
   },
   {
    "order": 26,

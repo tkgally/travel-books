@@ -1,5 +1,0 @@
-{"given": "gratification, and nor vastly, I imagine", "print": "gratification, and not vastly, I imagine", "sure": "high"}
-{"given": "and loyal to mark day.", "print": "and loyal to mark the day.", "sure": "high"}
-{"given": "a glimpse of mysclf, Eva, and Sarah", "print": "a glimpse of myself, Eva, and Sarah", "sure": "high"}
-{"given": "had been the empress of France", "print": "had been the Empress of France", "sure": "high"}
-{"given": "invariably offered me tea; calling it", "print": "invariably offered me tea, calling it", "sure": "high"}

@@ -1,2 +1,0 @@
-{"find": "[[page ?]]` / `[[blank]]`, because that could quietly drop a page of text from the edition.", "replace": "[[page ?]]\n[[blank]]"}
-{"find": "\n\nThe next step is to re-extract or re-download this page from the source scan and check that the file isn't corrupt. Once a readable image is in place I'll transcribe it.", "replace": ""}

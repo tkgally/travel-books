@@ -1,3 +1,0 @@
-{"n": 1, "is": "A", "print": "The Tēră is genera", "sure": "medium"}
-{"n": 2, "is": "A", "print": "when the Tēră is open", "sure": "medium"}
-{"n": 3, "is": "A", "print": "in the Tēră, to feed", "sure": "medium"}

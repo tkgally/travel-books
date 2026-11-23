@@ -1,7 +1,0 @@
-Differences: "noble was esteemed" (draft lacks "was"). "Tȳcŏsāmă" looks like "Tycŏsāmă" with a y-breve; leave it.
-
-{"find": "a noble was esteemed", "replace": "a noble was esteemed"}
-
-Checking that again, the draft reads "a noble was esteemed and courted", so it already has "was". No change is needed there. Everything else matches.
-
-NONE

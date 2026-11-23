@@ -1,6 +1,0 @@
-{"given": "hold of by discontented daimios, for", "print": "hold of by discontented Daimios, for", "sure": "high"}
-{"given": "benefit and advancement office, I fear", "print": "benefit and advancement in office, I fear", "sure": "high"}
-{"given": "The priests manfnlly support their", "print": "The priests manfully support their", "sure": "high"}
-{"given": "so in Japan; there would be", "print": "so in Japan, there would be", "sure": "high"}
-{"given": "all foreigners where allowed to enter", "print": "all foreigners were allowed to enter", "sure": "high"}
-{"given": "to my Ōchāu with the French", "print": "to my Ŏchāu with the French", "sure": "low"}

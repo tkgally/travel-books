@@ -1,5 +1,0 @@
-{"given": "three in number, the forehead each", "print": "three in number; the forehead each", "sure": "high"}
-{"given": "publicly made, it I except", "print": "publicly made, if I except", "sure": "high"}
-{"given": "at the door, seated rows, on mats", "print": "at the door, seated in rows, on mats", "sure": "high"}
-{"given": "but if anyone passes by these", "print": "but if any one passes by these", "sure": "high"}
-{"given": "their rights must be maintaincd: it", "print": "their rights must be maintained: it", "sure": "high"}

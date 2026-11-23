@@ -1,3 +1,0 @@
-[[page ?]]` / `[[blank]]` would probably be wrong here. I've left the page out rather than guess at its contents.
-
-If you re-export or re-scan p0009 from the source, I'll transcribe it.
