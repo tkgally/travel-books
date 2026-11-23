@@ -1,0 +1,3 @@
+I couldn't zoom into the scan, so the accents on this word are hard to make out and I'm not confident. To me the mark over the "o" looks curved like a breve (ŏ), and the marks over both "a"s look like macrons (ā). That matches neither reading exactly.
+
+{"n": 1, "is": "neither", "print": "Ty̆cŏsāmā", "sure": "low"}
