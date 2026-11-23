@@ -1,0 +1,133 @@
+{
+ "id": "our-journey-to-japan-schiff",
+ "version": 1,
+ "date": "2026-11-23",
+ "title": "Our Journey to Japan",
+ "short_title": "Our Journey to Japan",
+ "authors": [
+  {
+   "name": "Jacob H. Schiff",
+   "sort": "Schiff, Jacob H.",
+   "born": 1847,
+   "died": 1920
+  }
+ ],
+ "place": "New York",
+ "publisher": "The New York Co-operative Society",
+ "year": 1907,
+ "source": {
+  "ia_identifier": "ourjourneytojapa01schi",
+  "contributor": "The Library of Congress",
+  "hidden_leaves": [
+   0,
+   201
+  ]
+ },
+ "edition_statement": "Privately printed, 1907",
+ "collection": "jatsi",
+ "regions": [
+  "Japan",
+  "Korea",
+  "Hawaii",
+  "United States",
+  "Canada"
+ ],
+ "period": "1906",
+ "subjects": [
+  "Tokyo",
+  "Kyoto",
+  "Russo-Japanese War loans"
+ ],
+ "summary": "Jacob H. Schiff (1847–1920), a New York banker whose firm had raised loans for Japan during the war with Russia of 1904–05, kept this diary of a journey to Japan with his wife and a small party from February to June 1906. They go by train to San Francisco and by steamer to Honolulu and Yokohama, and spend about eight weeks in Japan: in Tokyo he is received by the Emperor and given a decoration, and there are dinners and speeches with ministers and bankers, some printed in full. They also visit Nikko, Kyoto, Osaka, Miyajima, and Nagoya, and go on to Seoul in Korea, then return by Vancouver and Canada. His family had the diary printed for him as a surprise in 1907. It has photographs and two facsimile invitations.",
+ "omitted_from_reading": "The printer’s imprint at the end is in the JSON only.",
+ "notes_on_text": [
+  "The book has no chapters and no page numbers. The diary is divided here into ten sections by dates and places; each is a page of the editions. The JSON keeps it as one text.",
+  "The portraits carry their sitters’ signatures, which are part of the pictures; the book prints no captions for them."
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-23",
+   "note": "First publication."
+  }
+ ],
+ "divisions": [
+  {
+   "at": "p0007",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0009",
+   "kind": "chapter"
+  },
+  {
+   "at": "p0196",
+   "kind": "back",
+   "title": "Imprint"
+  }
+ ],
+ "toc_entries": [
+  {
+   "at": "p0009",
+   "starts": "OUR start",
+   "title": "22 February–25 March: San Francisco, Honolulu, and the voyage to Yokohama"
+  },
+  {
+   "at": "p0039",
+   "starts": "Monday, March 26th.",
+   "title": "26–28 March: Tokyo and the audience with the Emperor"
+  },
+  {
+   "at": "p0057",
+   "starts": "Thursday, March 29th.",
+   "title": "29 March–3 April: Tokyo and Miyanoshita"
+  },
+  {
+   "at": "p0074",
+   "starts": "Wednesday, April 4th.",
+   "title": "4–11 April: Tokyo and Hakone"
+  },
+  {
+   "at": "p0100",
+   "starts": "Thursday, April 12th.",
+   "title": "12–21 April: Nikko and Tokyo"
+  },
+  {
+   "at": "p0122",
+   "starts": "Sunday, April 22d.",
+   "title": "22–30 April: Kyoto, Osaka, and Miyajima"
+  },
+  {
+   "at": "p0142",
+   "starts": "Tuesday, May 1st.",
+   "title": "1–8 May: Moji and Korea"
+  },
+  {
+   "at": "p0157",
+   "starts": "Wednesday, May 9th.",
+   "title": "9–14 May: Osaka, Nagoya, and Tokyo"
+  },
+  {
+   "at": "p0173",
+   "starts": "Tuesday, May 15th.",
+   "title": "15–18 May: Tokyo, Kamakura, and Yokohama"
+  },
+  {
+   "at": "p0181",
+   "starts": "Saturday, May 19th, to Monday, May 28th.",
+   "title": "19 May–8 June: Across the Pacific and Canada, and home"
+  }
+ ],
+ "waivers": [],
+ "keep_hyphens": [
+  "p0147"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-23",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
+}
