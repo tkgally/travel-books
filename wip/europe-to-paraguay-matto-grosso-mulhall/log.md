@@ -16,10 +16,20 @@ Errata (p0144): p. 16 l. 15 “views”; p. 22 l. 21 “inn”; p. 71 l. 20 “F
 Scan check: Opus subagent 2026-11-23: all pages but p. 16 present and sharp; contact sheets mislabelled after p0024 (use pages/).
 
 ## Decisions
+- 2026-11-23: p. 16 from the Oxford/Google copy (IA page n28) as p0026a (`source.extra_leaves`); p0027 (blank leaf in its place) waived.
+- The head-title above Chapter I left out. Chapter titles are the headings as printed (a place or subject); the printed contents' longer titles are in the JSON only (said in notes_on_text).
+- Run-in place headings in Chapter III (Cape Verde Islands, Pernambuco, Bahia) set `[[right]]` as printed.
+- The errata (p. 115) applied as [[corr]] at their places; the errata list stays at the end of Chapter XX as printed.
+- Stray accents on English words (the printer's: “globé”, “négroes”, “thé”…) marked [[corr]]; the spot-read found about 25, a second subagent pass went through every page for more and re-judged the faint ones against the full-resolution JP2s.
+- Alt text of four plates corrected from the crop subagent's descriptions (p0068, p0116, p0120, p0138).
+- Crops grey; nine plates printed sideways turned upright; cover.jpg = the front cover (gilt title readable).
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-23 | Opus | 140 | 9.45 | 0 errors |
+| corrections | 2026-11-23 | Sonnet | 140 | 4.65 | 7 spots |
+| judge | 2026-11-23 | Opus | 7 spots | 0.30 | verified 4, draft 2, could not undo 1 |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
