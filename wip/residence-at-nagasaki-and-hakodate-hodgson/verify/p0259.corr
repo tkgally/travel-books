@@ -1,0 +1,6 @@
+{"find": "penny!", "replace": "penny !"}
+
+Wait — spacing before "!" is modernized, so no change is needed there. These are the real corrections:
+
+{"find": "unpatented articles is proportionably exorbitant", "replace": "unpatented articles is proportionably exorbitant"}
+{"find": "bathing-houses to be met with", "replace": "bathing-houses to be met with"}
