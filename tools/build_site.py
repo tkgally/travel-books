@@ -7,7 +7,9 @@ For every book in books/<slug>/ (or the one given with --bookdir, e.g. a book st
   books/<slug>/index.html     the book's page
   books/<slug>/NN.html        the reading text, one file per division
   books/<slug>/<slug>.json    the book JSON (base of everything else)
-  books/<slug>/<slug>.epub, <slug>.odt
+  books/<slug>/<slug>.epub, <slug>.odt   for preflight and the tests; the Pages workflow uploads them to GitHub
+                              Releases and removes them from the site (tools/releases.py), and the book's page
+                              links to the release files (download_url)
   books/<slug>/images/
 Plus index.html, books.html, places.html, dates.html (authors.html when there are many books), japan-as-they-saw-it.html,
 about.html, json-format.html, assets/. Standard library only; output is deterministic.
@@ -17,10 +19,16 @@ import argparse, html, json, os, re, shutil, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
-import compile_book, inline, render_html as rh, render_epub, render_odt  # noqa: E402
+import compile_book, inline, releases, render_html as rh, render_epub, render_odt  # noqa: E402
 
 SITE = "Travel Books"
 REPO_URL = "https://github.com/tkgally/travel-books"
+
+
+def download_url(book, ext):
+    """Where the book's EPUB or ODT is: a file of the book's GitHub Release (Tom, 2026-11-23; tools/releases.py)."""
+    return (f"{REPO_URL}/releases/download/{releases.tag_for(book['id'])}/"
+            f"{releases.asset_name(book['id'], book['version'], ext)}")
 # The logo (Tom, 2026-11-21: a stack of three books). The favicon is assets/logo.svg, which has its own light and
 # dark colours; the copy in the header is drawn inline so that it takes the page's colours (light, sepia, dark).
 # Its box ends at the foot of the lowest book, so that the books stand on the baseline of the name (Tom, 2026-11-21).
@@ -516,8 +524,8 @@ def book_page(book, names, has_cover=False, kind=None):
 <h2 id="read">Read</h2>
 <ul class="actions">
 {f'<li><a href="{first}">Read on this site</a> (contents below)</li>' if first else ''}
-<li><a href="{slug}.epub" download="">EPUB</a> for e-readers</li>
-<li><a href="{slug}.odt" download="">ODT</a> for word processors</li>
+<li><a href="{attr(download_url(book, ".epub"))}">EPUB</a> for e-readers</li>
+<li><a href="{attr(download_url(book, ".odt"))}">ODT</a> for word processors</li>
 <li><a href="{slug}.json">JSON</a>: the complete transcription, including the parts left out of the other versions
 (<a href="../../json-format.html">format</a>)</li>
 {"".join(f'<li><a href="https://archive.org/details/{attr(i)}">The scan{" of " + esc(lab) if lab else ""} at the Internet Archive</a></li>' for i, lab in scans)}

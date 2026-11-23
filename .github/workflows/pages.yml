@@ -13,6 +13,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write        # to make the releases that hold the EPUB and ODT files
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -24,6 +26,17 @@ jobs:
         run: tools/run_tests.sh
       - name: Build
         run: python3 tools/build_site.py --out _site
+      # The EPUB and ODT files go to GitHub Releases (one per book; only changed files are uploaded) and are removed
+      # from the site, which must stay under GitHub Pages' 1 GB limit (Tom, 2026-11-23; tools/releases.py).
+      - name: EPUB and ODT to GitHub Releases
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 tools/releases.py _site --upload --remove
+      - name: Size of the site
+        run: |
+          kb=$(du -sk _site | cut -f1)
+          echo "site: $((kb / 1024)) MB"
+          if [ "$kb" -gt 850000 ]; then echo "::warning::the site is $((kb / 1024)) MB; GitHub Pages allows 1 GB (Ideas_for_enhancements.md §0)"; fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

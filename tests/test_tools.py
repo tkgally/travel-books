@@ -8,7 +8,7 @@ import copy, json, os, re, shutil, subprocess, sys, tempfile, unittest, zipfile
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, "tools"))
-import build_site, carousel, compile_book, ledger, running_quotes, corrections, crop_image, drive_cache, inline, judge, normalize, preflight, render_epub, render_odt, review, session_meter  # noqa: E402
+import build_site, carousel, compile_book, releases, ledger, running_quotes, corrections, crop_image, drive_cache, inline, judge, normalize, preflight, render_epub, render_odt, review, session_meter  # noqa: E402
 import render_html as rh  # noqa: E402
 
 SAMPLE = os.path.join(REPO, "tests", "sample")
@@ -703,6 +703,126 @@ class CropImage(unittest.TestCase):
             self.assertIsNone(crop_image.within_limits(fine))
         finally:
             shutil.rmtree(tmp, ignore_errors=True)
+
+
+class FakeGitHub:
+    """Stands in for releases.GitHub: keeps releases in memory and counts the calls that change them."""
+    def __init__(self):
+        self.rels, self.calls, self.next = [], [], 1
+
+    def _id(self):
+        self.next += 1
+        return self.next
+
+    def list_releases(self):
+        return json.loads(json.dumps(self.rels))
+
+    def create_release(self, tag, name, body):
+        self.calls.append(("create", tag))
+        r = {"id": self._id(), "tag_name": tag, "name": name, "body": body, "assets": [],
+             "upload_url": "https://uploads.example/x{?name,label}"}
+        self.rels.append(r)
+        return json.loads(json.dumps(r))
+
+    def _rel(self, rid):
+        return next(r for r in self.rels if r["id"] == rid)
+
+    def update_release(self, rid, body):
+        self.calls.append(("update", rid))
+        self._rel(rid)["body"] = body
+
+    def delete_asset(self, aid):
+        self.calls.append(("delete", aid))
+        for r in self.rels:
+            r["assets"] = [a for a in r["assets"] if a["id"] != aid]
+
+    def upload_asset(self, rel, name, path, ctype):
+        self.calls.append(("upload", name, ctype))
+        self._rel(rel["id"])["assets"].append({"id": self._id(), "name": name, "state": "uploaded",
+                                               "data": open(path, "rb").read().decode("latin-1")})
+
+
+class Releases(unittest.TestCase):
+    """Tom, 2026-11-23: the EPUB and ODT are GitHub Release files (one release per book); the site keeps under 1 GB."""
+    def setUp(self):
+        self.tmp = tempfile.mkdtemp()
+        self.site = os.path.join(self.tmp, "site")
+
+    def tearDown(self):
+        shutil.rmtree(self.tmp, ignore_errors=True)
+
+    def put(self, slug, version, epub=b"E", odt=b"O"):
+        d = os.path.join(self.site, "books", slug)
+        os.makedirs(d, exist_ok=True)
+        json.dump({"id": slug, "version": version, "short_title": slug.title()}, open(os.path.join(d, slug + ".json"), "w"))
+        open(os.path.join(d, slug + ".epub"), "wb").write(epub)
+        open(os.path.join(d, slug + ".odt"), "wb").write(odt)
+
+    def test_first_upload_then_nothing_when_unchanged(self):
+        self.put("a-book", 2)
+        self.put("b-book", 1)
+        gh = FakeGitHub()
+        self.assertEqual(releases.sync(self.site, gh, log=lambda *_: None), 4)
+        self.assertEqual(sorted(r["tag_name"] for r in gh.rels), ["book-a-book", "book-b-book"])
+        a = next(r for r in gh.rels if r["tag_name"] == "book-a-book")
+        self.assertEqual(sorted(x["name"] for x in a["assets"]), ["a-book-v2.epub", "a-book-v2.odt"])
+        self.assertEqual(sorted(releases.recorded(a["body"])), ["a-book-v2.epub", "a-book-v2.odt"])
+        self.assertIn(("upload", "a-book-v2.epub", "application/epub+zip"), gh.calls)
+        gh.calls = []
+        self.assertEqual(releases.sync(self.site, gh, log=lambda *_: None), 0)
+        self.assertEqual(gh.calls, [])
+
+    def test_changed_bytes_replace_the_file_and_a_new_version_keeps_the_old(self):
+        self.put("a-book", 1)
+        gh = FakeGitHub()
+        releases.sync(self.site, gh, log=lambda *_: None)
+        self.put("a-book", 1, epub=b"E2")                   # the renderer changed: same version, new bytes
+        gh.calls = []
+        self.assertEqual(releases.sync(self.site, gh, log=lambda *_: None), 1)
+        self.assertEqual([c[0] for c in gh.calls], ["delete", "upload", "update"])
+        self.assertEqual(next(x for x in gh.rels[0]["assets"] if x["name"] == "a-book-v1.epub")["data"], "E2")
+        self.put("a-book", 2, epub=b"E3", odt=b"O3")
+        releases.sync(self.site, gh, log=lambda *_: None)
+        self.assertEqual(sorted(x["name"] for x in gh.rels[0]["assets"]),
+                         ["a-book-v1.epub", "a-book-v1.odt", "a-book-v2.epub", "a-book-v2.odt"])
+        self.assertEqual(len(releases.recorded(gh.rels[0]["body"])), 4)
+
+    def test_a_failed_upload_is_done_again(self):
+        self.put("a-book", 1)
+        gh = FakeGitHub()
+        releases.sync(self.site, gh, log=lambda *_: None)
+        gh.rels[0]["assets"][0]["state"] = "starter"        # GitHub's state for an upload that did not finish
+        gh.calls = []
+        self.assertEqual(releases.sync(self.site, gh, log=lambda *_: None), 1)
+        self.assertEqual(gh.calls[0][0], "delete")
+
+    def test_dry_run_and_remove(self):
+        self.put("a-book", 1)
+        gh = FakeGitHub()
+        self.assertEqual(releases.sync(self.site, gh, upload=False, log=lambda *_: None), 2)
+        self.assertEqual(gh.calls, [])
+        self.assertEqual(releases.remove(self.site), 2)
+        self.assertEqual(sorted(os.listdir(os.path.join(self.site, "books", "a-book"))), ["a-book.json"])
+
+    def test_book_page_links_to_the_release_files(self):
+        d = os.path.join(self.tmp, "sample-journey-doe")
+        shutil.copytree(SAMPLE, d)
+        book, _ = build_site.build_book(self.site, d)
+        h = open(os.path.join(self.site, "books", book["id"], "index.html"), encoding="utf-8").read()
+        for ext in (".epub", ".odt"):
+            url = (f"https://github.com/tkgally/travel-books/releases/download/book-{book['id']}/"
+                   f"{book['id']}-v{book['version']}{ext}")
+            self.assertIn(f'href="{url}"', h)
+            self.assertEqual(build_site.download_url(book, ext), url)
+            self.assertTrue(os.path.exists(os.path.join(self.site, "books", book["id"], book["id"] + ext)))  # for preflight
+        self.assertNotIn('.epub" download', h)
+
+    def test_refuses_to_delete_the_real_releases(self):
+        env = dict(os.environ, GITHUB_TOKEN="x", GITHUB_REPOSITORY="o/r")
+        r = subprocess.run([sys.executable, os.path.join(REPO, "tools", "releases.py"), "--delete-prefix", "book-"],
+                           capture_output=True, text=True, env=env)
+        self.assertNotEqual(r.returncode, 0)
+        self.assertIn("refusing", r.stderr)
 
 
 class ImageLimits(unittest.TestCase):

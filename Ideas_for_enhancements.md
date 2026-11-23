@@ -45,6 +45,8 @@ Ways to shrink it, which can be combined:
 - **Smaller pictures in the EPUB and ODT** (Moderate, done once). For example, at most 1600 px on the long side
   and JPEG quality about 80, so a phone reader gets a file of a few MB. *Pros:* probably halves the site; smaller
   downloads for readers. *Cons:* plates lose detail; folding maps (§2.6) need the full size somewhere.
+- **Done 2026-11-23 (Tom):** the EPUB and ODT files are GitHub Release files (`tools/releases.py`), uploaded by
+  the Pages workflow; the site keeps only the web pages, pictures and JSON.
 - **EPUB and ODT as GitHub Release files** instead of files on the site (Moderate, done once, plus a step in
   `publish.py`). Releases are still GitHub, not an outside service, allow files up to 2 GB each, and have no
   documented total. *Pros:* the site drops to well under 1 GB. *Cons:* the download links point to

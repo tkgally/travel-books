@@ -17,6 +17,7 @@ for a plan for the home page as the number of books grows. This is it. Change it
 | `japan-as-they-saw-it.html` | why some books come from the JATSI list; those published and queued; the whole list with scan links | `data/jatsi.json`, the queue |
 | `about.html`, `json-format.html` | | `site/*.md` |
 | `books/<id>/…` | a book's page, its chapters, EPUB, ODT, JSON | the book |
+| GitHub Releases, tag `book-<id>` | the book's EPUB and ODT, named `<id>-v<N>.epub`/`.odt` (earlier versions kept); the book page links there. The Pages workflow uploads what changed and removes the files from the site, which must stay under 1 GB (Tom, 2026-11-23; `tools/releases.py`, tests `Releases`; the workflow warns above about 830 MB). Tried on the real API before merging (2026-11-23): a file replaced under the same name is served old from the download address for about 40 s | the build |
 
 Every line for a book, in every list, is the same (`book_line`): short title, author, year; under it the places,
 the time of the journey, and "JATSI" for a book of that list.
