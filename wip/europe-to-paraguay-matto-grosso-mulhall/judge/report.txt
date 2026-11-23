@@ -1,7 +1,0 @@
-judge opus: 7 spots on 7 pages: {'verified': 4, 'draft': 2, 'draft (could not undo: edit by hand)': 1}; cost $0.30
-p0008 #1 [verified, sure: high] draft '# Preface.' | verified '# Preface' | judge reads '# Preface'
-p0018 #1 [verified, sure: medium] draft 'battlements, of the Tagu' | verified 'battlements. of the Tagu' | judge reads 'battlements. of the Tagu'
-p0055 #1 [draft, sure: low] draft '## A Night in ' | verified '[[subtitle]] A Night in ' | judge reads 'A NIGHT IN'
-p0077 #1 [draft, sure: high] draft 'Humbold, lived' | verified 'Humboldt, lived' | judge reads 'Humbold, lived'
-p0098 #1 [draft (could not undo: edit by hand), sure: medium] draft 'somê' | verified 'some' | judge reads 'somê'
-p0111 #1 [verified, sure: medium] draft "Piransis'" | verified "Pirausis'" | judge reads "Pirausis'"
