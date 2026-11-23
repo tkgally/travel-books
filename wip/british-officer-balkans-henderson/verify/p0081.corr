@@ -1,0 +1,11 @@
+{"find": "unfrequented", "replace": "unfrequented"}
+
+Wait, that is not a change. Checking carefully against the image, the differences are:
+
+{"find": "Ghetaldi’s garden, which we had visited", "replace": "Ghetaldi’s garden, which we had visited"}
+
+Final, real corrections only:
+
+{"find": "(about two miles) on foot", "replace": "(about two miles) on foot"}
+
+NONE
