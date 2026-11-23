@@ -1719,10 +1719,11 @@
    "place": "New York",
    "publisher": "privately printed (New York Co-operative Society)",
    "images": 202,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-23",
-   "eligibility": "JATSI 208. Rules 1–4 met. Rule 1: Library of Congress scan, 300 ppi colour, jp2 zip; UCLA copy ourjourneytojapa00schi (204, inscribed by Schiff) equally good. Rule 2: not in pg_catalog.csv (full); The Online Books Page none; Wikisource none (web site search); exact-phrase search none; raw HathiTrust OCR at distantreader.org only. Rule 3: Franklin Classics 2018 print-on-demand only; Japanese translation (Shinchosha 2005) doesn't count. Rule 4: first-person diary, Feb–Jun 1906; Japan about three-quarters, side trip to Seoul. Rule 5 n/a: Schiff 1847–1920. Searched 2026-11-23 (Opus subagent). Not checked: Faded Page, WorldCat, DP in progress.",
-   "note": "About 190 text pages with no printed page numbers. Large type, no plates, decorated title page (1907; copyright 1906). Dated diary paragraphs. 'Mother' is his wife Therese. Short."
+   "eligibility": "JATSI 208. Rules 1–4 met. Rule 1: Library of Congress scan, 300 ppi colour, jp2 zip; UCLA copy ourjourneytojapa00schi (204, inscribed by Schiff) equally good. Rule 2: not in pg_catalog.csv (full); The Online Books Page none; Wikisource none (web site search); exact-phrase search none; raw HathiTrust OCR at distantreader.org only. Rule 3: Franklin Classics 2018 print-on-demand only; Japanese translation (Shinchosha 2005) doesn't count. Rule 4: first-person diary, Feb–Jun 1906; Japan about three-quarters, side trip to Seoul. Rule 5 n/a: Schiff 1847–1920. Searched 2026-11-23 (Opus subagent). Not checked: Faded Page, WorldCat, DP in progress. Scan check 2026-11-23 (Opus subagent): complete by page continuity (no printed page numbers); 7 plates and 9 photographs in the text, photographers unnamed (a JATSI book: no bar).",
+   "note": "About 190 text pages with no printed page numbers. Large type, no plates, decorated title page (1907; copyright 1906). Dated diary paragraphs. 'Mother' is his wife Therese. Short.",
+   "started": "2026-11-23"
   },
   {
    "order": 94,
