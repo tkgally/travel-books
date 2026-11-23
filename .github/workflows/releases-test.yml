@@ -36,9 +36,17 @@ jobs:
           printf 'x' >> "_t/books/$SLUG/$SLUG.odt"
           python3 tools/releases.py _t --upload --tag-prefix test- --only "$SLUG" | tee third.txt && grep -q "^1 files uploaded" third.txt
           v=$(python3 -c "import json;print(json.load(open('_t/books/$SLUG/$SLUG.json'))['version'])")
-          sleep 5
-          curl -sSfL -o got2.odt "https://github.com/$GITHUB_REPOSITORY/releases/download/test-$SLUG/$SLUG-v$v.odt"
-          cmp got2.odt "_t/books/$SLUG/$SLUG.odt" && echo "odt: replaced"
+          size=$(stat -c %s "_t/books/$SLUG/$SLUG.odt")
+          got=$(curl -sSf -H "Authorization: Bearer $GITHUB_TOKEN" "https://api.github.com/repos/$GITHUB_REPOSITORY/releases/tags/test-$SLUG" \
+                | python3 -c "import json,sys;print([a['size'] for a in json.load(sys.stdin)['assets'] if a['name']=='$SLUG-v$v.odt'])")
+          echo "release record: $got, local: $size"
+          [ "$got" = "[$size]" ]
+          # The download address may serve the old bytes for a while (a cache): report how long, do not fail on it.
+          for i in $(seq 1 30); do
+            curl -sSfL -o got2.odt "https://github.com/$GITHUB_REPOSITORY/releases/download/test-$SLUG/$SLUG-v$v.odt"
+            if cmp -s got2.odt "_t/books/$SLUG/$SLUG.odt"; then echo "download replaced after about $((i * 10)) s"; break; fi
+            sleep 10
+          done
       - name: Remove from the site
         run: python3 tools/releases.py _t --remove && ! ls _t/books/$SLUG/*.epub 2>/dev/null
       - name: Delete the test release
