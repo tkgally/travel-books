@@ -1,0 +1,122 @@
+[ FAIL (1)] meta: book.json: required fields present and sane
+            - book.json: missing 'summary'
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[ FAIL (1)] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+            - [[cont]] with nothing to continue, treated as a new block: p0056
+[ FAIL (1)] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+            - pages→JSON text: insert …rationagainsttheMen.[]→[[[cont]]]…
+[ FAIL (2)] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+            - text: …'onstration against the   Men. [[cont]] secular and temporal au'…
+            - text: …'tion against the   Men. [[cont]] secular and temporal authorit'…
+[       ok] straight-quotes: no straight ' or " in the text
+[FAIL (11)] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+            - p0039: en a bulky silk portfolio  was leisurely drawn from t'…
+            - p0041: sipping his tea or sherry , and looking into his pip'…
+            - p0041: e to speak to the Bōunĭgo , and, last of all, after '…
+            - p0054:  passing the prison gates , we walked through the de'…
+            - p0054: y at Nagasaki was intense , and no one moved out, ex'…
+            - p0056:  with the trefoil upon it ; and over this we often c'…
+            - p0065: s with large round dishes , bowls, cups, vases, litt'…
+            - p0065:  plates, and saki bottles , of all variety and colou'…
+            - p0284: failing piece of sea-weed , neatly wrapped up in cle'…
+            - p0306: to the law of Great Japan , no firearms should be di'…
+            - p0339: d plates and other relics  with Russian hieroglyphs?)'…
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[ FAIL (1)] audit: book.json records the sampled audit of this version
+            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[ look (8)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0077: …ted to the pro-|pagation of veg… (hyphen removed; check)
+            - hyphen join at p0142: …e musical mono-|tony of numerou… (hyphen removed; check)
+            - hyphen join at p0240: …on à la jardin-|nière,” then “a… (hyphen removed; check)
+            - hyphen join at p0242: …the Lieutenant-|governor, who i… (hyphen removed; check) — the book prints “lieutenant-governor” elsewhere: keep_hyphens?
+            - hyphen join at p0286: …e was never so-|lemnised, for I… (hyphen removed; check)
+            - hyphen join at p0336: …ck, but miracu-|lously saved to… (hyphen removed; check)
+            - hyphen join at p0363: …m Lugduno-Bata-|vum,” and in hi… (hyphen removed; check)
+            - (and 27 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[ FAIL (2)] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+            - p0317: …' they do not much relish,' | picture | 'and on the march, and par'
+            - p0322: …'rd, the traveller pursues' | picture | 'his course, and can for a'
+[       ok] contents: entries of the printed contents with no matching heading
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[ look (1)] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+            - p0055: after the notes: '| August 15 | 82° | 94° | S.W. | August 31 | 82° | 85° | S.W'
+[       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
+[       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
+[look (49)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0005, p0006, p0010, p0011, p0014, p0015…); à (p0103, p0146, p0148, p0212, p0239, p0243…)
+            - bougnio: bougnio (p0128, p0234, p0236); bōugniō (p0046)
+            - castera: castera (p0041, p0145, p0247); cāstĕră (p0169)
+            - charge: charge (p0037, p0140, p0177, p0216, p0251, p0282…); chargé (p0125)
+            - chateau: chateau (p0233); château (p0123, p0126)
+            - crepe: crèpe (p0144); crêpe (p0172)
+            - dairi: dairi (p0021, p0163, p0164, p0184); daïri (p0189); dăīrī (p0256, p0295); dăīrĭ (p0207)
+            - erico: erico (p0067, p0093, p0097, p0360); erĭco (p0257)
+            - fee: fee (p0254, p0312); fée (p0382)
+            - gadgio: gādgĭŏ (p0252); gădgĭŏ (p0251)
+            - gadjios: gādjĭōs (p0247); gādjĭŏs (p0248)
+            - gorrogio: gōrrogĭō (p0207); gōrrōgīo (p0125); gōrrōgĭō (p0196); gōrrŏgĭō (p0204, p0212, p0223, p0229); gŏrrōgĭŏ (p0189); gŏrrŏgiō (p0220)
+            - goteiro: goteiro (p0118); goteirō (p0212); gŏteirŏ (p0300); gŏteīro (p0201); gŏteīrō (p0208, p0209)
+            - hakodate: hakodate (p0006, p0010, p0014, p0015, p0016, p0017…); hakódate (p0359)
+            - hiogo: hiogo (p0016, p0164); hiōgŏ (p0067)
+            - hotel: hotel (p0077, p0271, p0282); hôtel (p0103)
+            - ishaas: ishāas (p0254, p0257); ĭshāas (p0248)
+            - ito: ito (p0234, p0263); itŏ (p0201)
+            - kagosima: kagosima (p0019, p0164); kāgŏsĭmă (p0217)
+            - kami: kami (p0126, p0191, p0346); kāmi (p0057); kāmī (p0038, p0234); kāmĭ (p0057)
+            - kamis: kamis (p0191); kāmĭs (p0291)
+            - kanagowa: kanagowa (p0036, p0044, p0048, p0053, p0060, p0066…); kanagŏwa (p0350)
+            - kiusiu: kiusiu (p0019, p0024, p0071, p0193); kiūsiū (p0044, p0065); kiūsĭū (p0053, p0067)
+            - kowatchi: kōwātchī (p0245, p0251, p0252); kōwătchī (p0250)
+            - miako: miako (p0021, p0163, p0164, p0171, p0190, p0215…); mīākŏ (p0193)
+            - mito: mito (p0118, p0120, p0201, p0208, p0209, p0210…); mītŏ (p0201)
+            - muhl: muhl (p0380); mühl (p0369)
+            - nambu: nambu (p0210, p0234, p0263, p0297, p0339, p0340…); nambŭ (p0346); nāmbŭ (p0217)
+            - obangs: obangs (p0211, p0346); ōbāngs (p0328)
+            - ochau: ōchāu (p0169, p0180, p0184, p0185, p0186); ōchău (p0183, p0310); ŏchāu (p0190)
+            - ohio: ohīŏ (p0037); ŏhīō (p0245)
+            - ometske: omētske (p0237); omētskĕ (p0041); omĕtskĕ (p0039); ómētske (p0233); ōmētskĕ (p0192); ŏmētske (p0233, p0234)
+            - osaka: osaka (p0016, p0164); osākă (p0067); ōsākă (p0192); ŏsākă (p0193)
+            - otonos: ōtŏnōs (p0264, p0266); ŏtŏnŏs (p0263)
+            - oy: ōy (p0127); ŏy (p0252)
+            - retire: retire (p0221, p0222, p0237, p0251, p0316, p0317); retiré (p0343)
+            - rosa: rosa (p0368); rosâ (p0046)
+            - sama: sama (p0025, p0128); sămă (p0254, p0255)
+            - san: san (p0245, p0352); săn (p0282, p0283)
+            - satsuma: satsuma (p0210); sātsŭmā (p0201)
+            … 9 more (-v)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[look (15)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0022: “hostie” — “hostile” is common (96; a letter dropped or transposed?)
+            - p0052: “ordre” — “order” is common (1743; a letter dropped or transposed?)
+            - p0086: “vasty” — “vastly” is common (48; a letter dropped or transposed?)
+            - p0100: “anima” — “animal” is common (585; a letter dropped or transposed?)
+            - p0105: “propre” — “proper” is common (509; a letter dropped or transposed?)
+            - p0117: “garde” — “garden” is common (973; a letter dropped or transposed?)
+            - p0150: “visite” — “visited” is common (994; a letter dropped or transposed?)
+            - p0188: “disant” — “distant” is common (889; a letter dropped or transposed?)
+            - p0195: “sapan” — “sampan” is common (69; a letter dropped or transposed?)
+            - p0196: “bails” — “balls” is common (128)
+            - p0234: “perit” — “permit” is common (174; a letter dropped or transposed?)
+            - p0241: “salut” — “salute” is common (148; a letter dropped or transposed?)
+            - p0363: “stans” — “stands” is common (872; a letter dropped or transposed?)
+            - p0378: “teres” — “trees” is common (2953; a letter dropped or transposed?)
+            - p0380: “conica” — “conical” is common (80; a letter dropped or transposed?)
+[       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
+[       ok] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+[ look (1)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+            - p0031: “all His” in …come, perhaps, to gather all His sheep into one…
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight FAIL: residence-at-nagasaki-and-hakodate-hodgson v1 — 19 to fix, 0 waived; to look at: hyphen-joins 8, note-tail 1, accents 49, rare-forms 15, missing-stop 1 — tools@9f512e7e 2026-11-23

@@ -1,0 +1,6 @@
+{"find": "[[subtitle]] Buenos Ayres", "replace": "[[subtitle]] Buenos Ayres"}
+{"find": "We anchored in front of Buenos Ayres", "replace": "We anchored in front of Buenos Ayres"}
+
+Wait — correcting properly:
+
+{"find": "Buenos Ayres on a cold", "replace": "Buenos Ayres on a cold"}
