@@ -394,6 +394,14 @@ goes to the to-do list for those sessions (`RESUME.md`).
 
 - **Publish de Fonblanque's *Niphon and Pe-che-li* (JATSI 22) from the University of California scan** (`niphonpecheliort00deforich`), with the folding map shown only in part, the folding plate of deities only partly opened, and the plates the copy lacks: all said in `notes_on_text`. A task for a future session (queue row `queued` again).
 
+## 2026-11-23 (EPUB and ODT files as GitHub Release downloads)
+
+- **The EPUB and ODT files move off the site to GitHub Releases of this repository**, so that the published site
+  stays under GitHub Pages' 1 GB limit (it was 869 MB with 77 books, growing about 11 MB a book, at 5–10 books a
+  day). He asked for it to be done at once, in a session with him present.
+- **He allows download links to `github.com`** (the release files) — an exception to "the only outside content is
+  links to IA" (CLAUDE.md), and **accepts a long list of releases** on the repository's Releases page (one per book).
+
 ## Questions for Tom
 
 - **Side-notes that date the entries of a letter or diary** (*Letters from Southern India & Ceylon*, Williams, 1877; 2026-11-22). The book prints
