@@ -1,5 +1,0 @@
-{"find": "curious old tabernacle of black wood inlaid in a very curious fashion", "replace": "curious old tabernacle of black wood inlaid in a very curious fashion"}
-
-Wait—the draft has "a curious old tabernacle" correctly. Let me recheck: the image reads "there is a curious old tabernacle of black wood inlaid in a very curious fashion with silver." The draft has "a very curious old tabernacle of black wood", so the extra "very" needs to be removed.
-
-{"find": "a very curious old tabernacle", "replace": "a curious old tabernacle"}

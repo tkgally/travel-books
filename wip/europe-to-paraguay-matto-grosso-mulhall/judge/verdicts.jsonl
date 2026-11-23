@@ -1,7 +1,0 @@
-{"page": "p0008", "n": 1, "who": "verified", "draft": "# Preface.", "verified": "# Preface", "judge": {"n": 1, "is": "B", "print": "# Preface", "sure": "high"}}
-{"page": "p0018", "n": 1, "who": "verified", "draft": "battlements, of the Tagu", "verified": "battlements. of the Tagu", "judge": {"n": 1, "is": "B", "print": "battlements. of the Tagu", "sure": "medium"}}
-{"page": "p0041", "n": 1, "who": "verified", "draft": "next the Comandancia.", "verified": "next the Commandancia.", "judge": {"n": 1, "is": "B", "print": "next the Commandancia.", "sure": "high"}}
-{"page": "p0055", "n": 1, "who": "draft", "draft": "## A Night in ", "verified": "[[subtitle]] A Night in ", "judge": {"n": 1, "is": "B", "print": "A NIGHT IN", "sure": "low"}}
-{"page": "p0077", "n": 1, "who": "draft", "draft": "Humbold, lived", "verified": "Humboldt, lived", "judge": {"n": 1, "is": "B", "print": "Humbold, lived", "sure": "high"}}
-{"page": "p0098", "n": 1, "who": "draft (could not undo: edit by hand)", "draft": "somê", "verified": "some", "judge": {"n": 1, "is": "B", "print": "somê", "sure": "medium"}}
-{"page": "p0111", "n": 1, "who": "verified", "draft": "Piransis'", "verified": "Pirausis'", "judge": {"n": 1, "is": "A", "print": "Pirausis'", "sure": "medium"}}

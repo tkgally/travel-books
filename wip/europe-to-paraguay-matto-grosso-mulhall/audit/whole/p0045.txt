@@ -1,5 +1,0 @@
-{"given": "brought forward this name as a", "print": "brought forward his name as a", "sure": "high"}
-{"given": "underwent a complcte transformation", "print": "underwent a complete transformation", "sure": "high"}
-{"given": "the army Rosas broke and fled", "print": "the army of Rosas broke and fled", "sure": "high"}
-{"given": "as an English sailor; escaped on", "print": "as an English sailor, escaped on", "sure": "high"}
-{"given": "General Urquiza provisional Dictator till", "print": "General Urquiza Provisional Dictator till", "sure": "high"}

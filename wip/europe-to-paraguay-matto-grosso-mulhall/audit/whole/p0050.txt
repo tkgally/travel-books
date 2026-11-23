@@ -1,5 +1,0 @@
-{"given": "it has no mane; and is", "print": "it has no mane, and is", "sure": "high"}
-{"given": "I have seen if chained up", "print": "I have seen it chained up", "sure": "high"}
-{"given": "and haunts the iflands of the", "print": "and haunts the islands of the", "sure": "high"}
-{"given": "are a dark gray one about", "print": "are a dark grey one about", "sure": "high"}
-{"given": "from its having cross on its", "print": "from its having a cross on its", "sure": "high"}
