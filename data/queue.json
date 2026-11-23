@@ -441,10 +441,11 @@
    "place": "London",
    "publisher": "Saunders, Otley, and Co.",
    "images": 334,
-   "status": "queued",
+   "status": "waiting",
    "checked": "2026-11-20",
    "eligibility": "JATSI 22. Four of five. Rule 1: University of California scan of the second edition (1863), colour, clean, with the chromolithographs in colour. JATSI links cu31924080948320, which is a scan of Cornell's photocopy of the same edition (plates grey): not to be used. Rule 2: no text elsewhere. Rule 3 NOT met: facsimile in Ganesha / Edition Synapse 'Japan in English' (2002). Rule 4: first-person, a Commissariat officer buying horses in Japan in 1860, then the North China campaign; about 60% on Japan. Rule 5: Edward Barrington de Fonblanque 1821–1895 (LC); John Veitch, who supplied appendix I, about 1839–1870 (to confirm at the start; born before 1856 in any case). The plates include facsimiles of Japanese prints, makers not named. Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
-   "note": "286 pp.; 12 plates (8 chromolithographs, a folding map, 3 lithographs of which 2 fold) and 6 woodcuts: look at every folding plate at the scan check; two appendices with tables; footnotes."
+   "note": "286 pp.; 12 plates (8 chromolithographs, a folding map, 3 lithographs of which 2 fold) and 6 woodcuts: look at every folding plate at the scan check; two appendices with tables; footnotes.",
+   "waiting_for": "Tom's answer (asked 2026-11-23): scan check of niphonpecheliort00deforich found the text complete (pp. 1–287) but the folding map photographed folded (right panel only), the folding plate of deities (leaf 171) only partly opened (left figure cut off), and probably two plates missing (10 of 12; Perreau's sketch of the Pappenberg, p. 173, not present). The Cornell copy (cu31924080948320) is a photocopy with grey plates. Publish with what this copy has, saying so in notes_on_text, or wait for a better scan?"
   },
   {
    "order": 24,

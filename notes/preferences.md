@@ -397,3 +397,8 @@ goes to the to-do list for those sessions (`RESUME.md`).
   *Embassy to China*: side-notes are left out of the reading editions) they are in the JSON only, so the reading editions lose the dates of the
   entries; the book page says so. Should such side-notes be shown in the editions (for example as a small line or a run-in date at the start of
   the paragraph), for this book and others like it? Assumed for now: the standing rule; a new version can show them.
+- **De Fonblanque, *Niphon and Pe-che-li* (JATSI 22; 2026-11-23).** The only usable scan (University of California, `niphonpecheliort00deforich`)
+  has the whole text (pp. 1–287), but its folding map was photographed folded (only the right panel), a folding plate of Japanese deities
+  (at p. 146) is only partly opened (the left figure cut off at the fold), and two of the twelve plates seem to be missing (the text
+  mentions a sketch of the Pappenberg that is not in this copy). The other IA copy (Cornell) is a photocopy with grey plates. Publish from
+  this copy with those gaps said in `notes_on_text`, or wait for a better scan? Meanwhile the book is `waiting`; the next JATSI book was taken instead.
