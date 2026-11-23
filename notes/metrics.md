@@ -180,6 +180,7 @@
 | Para v1 | 2026-11-23 | 271 | Opus draft → Sonnet corrections → Opus judge; scan check, spot-read (with tesseract), rendered look by Opus subagents; Drive uploads (Haiku) | 3 | 2 / 1 / 0 | 1 (p0059 Roscénia: no accent printed) | 26.50 | 0 | PASS, 0 waived | 30/30; 0 / 6 (spot-read: 2 printed misprints marked, 3 misreadings) | |
 | Wanderings & Wonderings v1 | 2026-11-23 | 556 | Opus draft → Sonnet corrections → Opus judge; scan check, crops, spot-read (with tesseract), rendered look by Opus subagents; Drive uploads (Haiku) | 19 | 8 / 11 / 0 | 0 | 60.44 | 0 | PASS, 0 waived | 30/30; 0 / 6 (spot-read: 8 printed misprints marked, broken type, an accent) | |
 | Sunny Australia v1 | 2026-11-23 | 350 | Opus draft → Sonnet corrections → Opus judge; scan check, crops, section titles, spot-read (with tesseract), rendered look by Opus subagents; Drive uploads (Haiku) | 12 | 10 / 2 / 0 | 0 | 34.05 | 0 | PASS, 0 waived | 30/30; 0 / 6 (spot-read: 3 printed misprints marked; the tissue guard drafted from show-through, emptied) | |
+| A British Officer in the Balkans v1 | 2026-11-23 | 398 | Opus draft → Sonnet corrections → Opus judge; scan check, crops, spot-read (with tesseract), rendered look by Opus subagents | 22 | 12 / 5 / 3 (2 running heads could not be undone) | 0 | 43.67 | 0 | PASS, 2 waived | 30/30; 0 / 6 (spot-read: 1 printed misprint marked, 15 fixes, mostly small capitals in captions and contents) | |
 
 ## Calibrations
 

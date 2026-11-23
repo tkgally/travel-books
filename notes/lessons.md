@@ -109,6 +109,9 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 - A cut at the top of a page with the paragraph from the page before running on under it: the verifier types `[[image]]`, caption, then `[[cont]]` text, which the compiler drops (“[[cont]] not at the top of a page”; *Camps in the Caribbees*: ten pages). Move the picture after the continued paragraph, which is where the editions would put it.
 
+- A plate caption printed as a title and a descriptive sentence is one `[[caption]]` line: the drafts type two, the compiler joins them, and preflight `conservation` (captions compared line by line) fails (*A British Officer in the Balkans*, 2026-11-23: 26 plates).
+- Leaves scanned all black (blank pages masked by the scanner, Digital Library of India): the Opus draft writes a note to the reader instead of `[[blank]]`; review.py lists them as length outliers; set them `[[blank]]` after the scan check confirms they fall where blanks belong (*A Residence at Nagasaki*, 2026-11-23).
+
 ## Trigger: eighteenth-century printing
 
 - Quotations with “ repeated at every line start: models keep the repeats, which then stand mid-sentence once lines
