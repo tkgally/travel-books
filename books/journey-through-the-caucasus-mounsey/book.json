@@ -1,0 +1,118 @@
+{
+ "id": "journey-through-the-caucasus-mounsey",
+ "version": 4,
+ "date": "2026-11-22",
+ "title": "A Journey through the Caucasus and the Interior of Persia",
+ "short_title": "A Journey through the Caucasus and the Interior of Persia",
+ "authors": [
+  {
+   "name": "Augustus H. Mounsey",
+   "sort": "Mounsey, Augustus H.",
+   "born": 1834,
+   "died": 1882
+  }
+ ],
+ "place": "London",
+ "publisher": "Smith, Elder & Co.",
+ "year": 1872,
+ "edition_statement": "First edition",
+ "source": {
+  "ia_identifier": "journeythroughca00moun",
+  "contributor": "University of Toronto",
+  "hidden_leaves": [
+   0,
+   363
+  ]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  },
+  {
+   "version": 2,
+   "date": "2026-11-20",
+   "note": "Straight apostrophes in the summary curled (found by a new check). Text unchanged."
+  },
+  {
+   "version": 3,
+   "date": "2026-11-21",
+   "note": "A printer’s error corrected: “tbe” for “the” (p. 71)."
+  },
+  {
+   "version": 4,
+   "date": "2026-11-22",
+   "note": "Title page typed line by line as printed."
+  }
+ ],
+ "regions": [
+  "Georgia",
+  "Armenia",
+  "Azerbaijan",
+  "Iran",
+  "Russia"
+ ],
+ "period": "1865–67",
+ "divisions": [
+  {
+   "at": "p0007",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0009",
+   "kind": "preface"
+  },
+  {
+   "at": "p0015",
+   "kind": "contents"
+  },
+  {
+   "at": "p0021",
+   "kind": "chapter",
+   "title": "Chapter I",
+   "toc_title": "Chapter I. Across Europe to Constantinople—The Black Sea—Sinope—Samsoon—Trebizonde—Batoum"
+  },
+  {
+   "at": "p0336",
+   "kind": "chapter",
+   "title": "Chapter XVI",
+   "toc_title": "Chapter XVI. Tehran to Resht—Enzelli—Ashorada—Turcomans—Baku, Astrakhan, and the Volga"
+  },
+  {
+   "at": "p0355",
+   "kind": "appendix",
+   "title": "Appendix",
+   "toc_title": "Appendix. Routes"
+  }
+ ],
+ "summary": [
+  "Augustus H. Mounsey (1834–1882), a British diplomat, set out from London in November 1865 to take up residence in Persia. He went by Vienna, Trieste, and Constantinople, by steamer along the Black Sea to Poti, and in midwinter by post-cart and on horseback through Georgia and Armenia, by Tiflis and Erivan, to Tabriz and Tehran, where he lived at the British Legation.",
+  "In 1866 he rode south by Kashan and Isfahan to Persepolis and Shiraz, and in 1867 west to Kermanshah and Hamadan; in July 1867 he went home by the Caspian, Baku, Astrakhan, and the Volga. Between the journeys he writes of Tehran and the Shah’s court, Persian government and revenue, the Armenian church, Zoroastrians, and the Bâb and his followers, with long quotations from Marco Polo in Italian. The preface (Vienna, 1872) gives advice to travellers. He generalizes harshly about the Persian character, as British writers of his time often did."
+ ],
+ "notes_on_text": [
+  "Transcribed from the copy at the University of Toronto (Internet Archive: journeythroughca00moun).",
+  "The folding map is shown in colour, with the route marked in red as in the book.",
+  "Two long footnotes (on pages 37 and 123–124) are printed in two paragraphs each; here each is one paragraph. The Italian quotations keep the printed space after an elided article or preposition (“l’ affare”, “d’ India”)."
+ ],
+ "omitted_from_reading": "The printed contents (with the chapter summaries) are in the JSON only.",
+ "frontispiece": "p0020-1",
+ "toc": {
+  "subtitles": "all"
+ },
+ "keep_hyphens": [
+  "p0046",
+  "p0107",
+  "p0131",
+  "p0158"
+ ],
+ "audit": {
+  "version": 4,
+  "date": "2026-11-20",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0,
+  "note": "text unchanged except listed fixes"
+ }
+}

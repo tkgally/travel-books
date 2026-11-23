@@ -1,0 +1,332 @@
+{
+ "id": "letters-from-china-and-japan-swainson",
+ "version": 3,
+ "date": "2026-11-22",
+ "title": "Letters from China & Japan",
+ "short_title": "Letters from China & Japan",
+ "authors": [
+  {
+   "name": "L. D. S. [Lilias Dunlop Findlay Swainson]",
+   "sort": "Swainson, Lilias Dunlop Findlay"
+  }
+ ],
+ "place": "London",
+ "publisher": "Henry S. King & Co.",
+ "year": 1875,
+ "edition_statement": "First edition",
+ "collection": "jatsi",
+ "regions": [
+  "China",
+  "Hong Kong",
+  "Japan"
+ ],
+ "period": "1870–72 (inferred)",
+ "summary": [
+  "Forty-three letters home by an Englishwoman who in 1870 travelled out alone to join her husband, “H.”, a teacher of English and navigation to Chinese pupils at the Imperial Arsenal at Foochow. She went by Paris, Marseilles, Suez, Ceylon, and Singapore to Hong Kong, and lived about two and a half years at the Arsenal. The letters describe her house and servants, the French and English staff, the pupils, festivals, a typhoon, the news of the Tientsin massacre and the Franco-Prussian war, missions, and a house-boat trip up the Min. The last seven letters cover about six weeks in Japan late in 1872: Yokohama, Yedo, the new railway, and the Daibutsu at Kamakura.",
+  "The years, printed as “187-”, are inferred from events the letters mention. The title page names the author only as “L. D. S.”; the name is the library catalogue’s attribution."
+ ],
+ "source": {
+  "ia_identifier": "cu31924023226438",
+  "contributor": "Cornell University Library",
+  "hidden_leaves": []
+ },
+ "omitted_from_reading": "The half-title, the publisher’s advertisements and catalogue are in the JSON only.",
+ "notes_on_text": [
+  "No contents are printed. The contents entries are the editor’s: the number of each letter with the place and date of its heading, or its main subject; the years, printed “187-”, are inferred from events the letters mention.",
+  "The engraved title page, the book’s only illustration, is placed at the start of the reading editions.",
+  "In the publisher’s catalogue at the end (in the JSON only), four letters of “narrative” did not print; they are supplied."
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-21",
+   "note": "First publication."
+  },
+  {
+   "version": 2,
+   "date": "2026-11-21",
+   "note": "A printer’s error corrected: “pertorm” for “perform” (p. 46) (found by a sweep of all the books at the review after forty books)."
+  },
+  {
+   "version": 3,
+   "date": "2026-11-22",
+   "note": "A printer’s error of a dropped or transposed letter marked and corrected: “mavellous” for “marvellous”."
+  }
+ ],
+ "divisions": [
+  {
+   "at": "p0004",
+   "kind": "front",
+   "title": "Half-title"
+  },
+  {
+   "at": "p0005",
+   "kind": "advertisements"
+  },
+  {
+   "at": "p0006",
+   "kind": "titlepage",
+   "title": "Title page"
+  },
+  {
+   "at": "p0008",
+   "kind": "preface"
+  },
+  {
+   "at": "p0010",
+   "kind": "front",
+   "n": 1
+  },
+  {
+   "at": "p0010",
+   "kind": "chapter",
+   "toc_title": "Letter I. Marseilles, 25 February 1870",
+   "n": 2
+  },
+  {
+   "at": "p0011",
+   "kind": "chapter",
+   "toc_title": "Letter II. On the P. and O. steamer from Marseilles, 27 February"
+  },
+  {
+   "at": "p0015",
+   "kind": "chapter",
+   "toc_title": "Letter III. Alexandria, Suez, and the Red Sea, 16 March"
+  },
+  {
+   "at": "p0019",
+   "kind": "chapter",
+   "toc_title": "Letter IV. Aden, 20 March"
+  },
+  {
+   "at": "p0022",
+   "kind": "chapter",
+   "toc_title": "Letter V. Galle, Penang, and Singapore, 28 March"
+  },
+  {
+   "at": "p0025",
+   "kind": "chapter",
+   "toc_title": "Letter VI. Singapore to Hong Kong, 6 April"
+  },
+  {
+   "at": "p0026",
+   "kind": "chapter",
+   "toc_title": "Letter VII. Hong Kong (Pok-foo-lum), 12 April"
+  },
+  {
+   "at": "p0032",
+   "kind": "chapter",
+   "toc_title": "Letter VIII. The voyage to Foochow; the Arsenal, 23 April"
+  },
+  {
+   "at": "p0035",
+   "kind": "chapter",
+   "toc_title": "Letter IX. The Arsenal, Foochow, 29 April"
+  },
+  {
+   "at": "p0044",
+   "kind": "chapter",
+   "toc_title": "Letter X. The Arsenal, 8 May"
+  },
+  {
+   "at": "p0049",
+   "kind": "chapter",
+   "toc_title": "Letter XI. The Arsenal, 21 May"
+  },
+  {
+   "at": "p0054",
+   "kind": "chapter",
+   "toc_title": "Letter XII. The Arsenal (undated)"
+  },
+  {
+   "at": "p0063",
+   "kind": "chapter",
+   "toc_title": "Letter XIII. The Arsenal, 7 June"
+  },
+  {
+   "at": "p0070",
+   "kind": "chapter",
+   "toc_title": "Letter XIV. The Arsenal, 18 June"
+  },
+  {
+   "at": "p0072",
+   "kind": "chapter",
+   "toc_title": "Letter XV. The Arsenal, 22 July"
+  },
+  {
+   "at": "p0076",
+   "kind": "chapter",
+   "toc_title": "Letter XVI. The Arsenal, 12 August"
+  },
+  {
+   "at": "p0078",
+   "kind": "chapter",
+   "toc_title": "Letter XVII. The Arsenal, 24 August"
+  },
+  {
+   "at": "p0081",
+   "kind": "chapter",
+   "toc_title": "Letter XVIII. The Arsenal, 24 September"
+  },
+  {
+   "at": "p0085",
+   "kind": "chapter",
+   "toc_title": "Letter XIX. The Arsenal, 20 October"
+  },
+  {
+   "at": "p0089",
+   "kind": "chapter",
+   "toc_title": "Letter XX. The Arsenal, 5 November"
+  },
+  {
+   "at": "p0093",
+   "kind": "chapter",
+   "toc_title": "Letter XXI. The Arsenal, 15 November"
+  },
+  {
+   "at": "p0101",
+   "kind": "chapter",
+   "toc_title": "Letter XXII. The Arsenal, 22 November"
+  },
+  {
+   "at": "p0104",
+   "kind": "chapter",
+   "toc_title": "Letter XXIII. The Arsenal, 31 December 1870"
+  },
+  {
+   "at": "p0109",
+   "kind": "chapter",
+   "toc_title": "Letter XXIV. The Arsenal, 1 January 1871"
+  },
+  {
+   "at": "p0112",
+   "kind": "chapter",
+   "toc_title": "Letter XXV. The Arsenal, 10 January"
+  },
+  {
+   "at": "p0125",
+   "kind": "chapter",
+   "toc_title": "Letter XXVI. The Arsenal, 5 March"
+  },
+  {
+   "at": "p0128",
+   "kind": "chapter",
+   "toc_title": "Letter XXVII. The Arsenal, 15 April"
+  },
+  {
+   "at": "p0132",
+   "kind": "chapter",
+   "toc_title": "Letter XXVIII. The Arsenal, 30 April"
+  },
+  {
+   "at": "p0137",
+   "kind": "chapter",
+   "toc_title": "Letter XXIX. The Arsenal, 20 July"
+  },
+  {
+   "at": "p0140",
+   "kind": "chapter",
+   "toc_title": "Letter XXX. Foochow, 14 August"
+  },
+  {
+   "at": "p0141",
+   "kind": "chapter",
+   "toc_title": "Letter XXXI. The Arsenal, 5 September"
+  },
+  {
+   "at": "p0143",
+   "kind": "chapter",
+   "toc_title": "Letter XXXII. The Arsenal, 24 October"
+  },
+  {
+   "at": "p0144",
+   "kind": "chapter",
+   "toc_title": "Letter XXXIII. The Arsenal, 8 November 1871"
+  },
+  {
+   "at": "p0147",
+   "kind": "chapter",
+   "toc_title": "Letter XXXIV. The Arsenal, May 1872"
+  },
+  {
+   "at": "p0153",
+   "kind": "chapter",
+   "toc_title": "Letter XXXV. A house-boat on the River Min, 21 September"
+  },
+  {
+   "at": "p0165",
+   "kind": "chapter",
+   "toc_title": "Letter XXXVI. Shanghai and Ningpo, 3 October"
+  },
+  {
+   "at": "p0177",
+   "kind": "chapter",
+   "toc_title": "Letter XXXVII. Shanghai to Nagasaki and Yokohama, 16 October"
+  },
+  {
+   "at": "p0182",
+   "kind": "chapter",
+   "toc_title": "Letter XXXVIII. Yokohama, 30 October"
+  },
+  {
+   "at": "p0190",
+   "kind": "chapter",
+   "toc_title": "Letter XXXIX. A second visit to Yedo, 9 November"
+  },
+  {
+   "at": "p0194",
+   "kind": "chapter",
+   "toc_title": "Letter XL. The Grand Duke Alexis at Yokohama station, 16 November"
+  },
+  {
+   "at": "p0198",
+   "kind": "chapter",
+   "toc_title": "Letter XLI. A ride to the Daibutsu at Kamakura, 20 November"
+  },
+  {
+   "at": "p0203",
+   "kind": "chapter",
+   "toc_title": "Letter XLII. The Mikado at the railway station; a naval review, 23 November"
+  },
+  {
+   "at": "p0206",
+   "kind": "chapter",
+   "toc_title": "Letter XLIII. Leaving Japan: Kobe, Osaka, and Nagasaki, 8 December 1872"
+  },
+  {
+   "at": "p0218",
+   "kind": "appendix",
+   "title": "Note A"
+  },
+  {
+   "at": "p0220",
+   "kind": "advertisements",
+   "title": "Advertisement"
+  },
+  {
+   "at": "p0222",
+   "kind": "advertisements"
+  },
+  {
+   "at": "p0292",
+   "kind": "advertisements"
+  }
+ ],
+ "keep_hyphens": [
+  "p0016",
+  "p0020",
+  "p0039",
+  "p0083",
+  "p0092",
+  "p0168"
+ ],
+ "audit": {
+  "version": 3,
+  "date": "2026-11-21",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0,
+  "note": "text unchanged except listed fixes"
+ }
+}

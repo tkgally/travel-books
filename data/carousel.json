@@ -1,0 +1,478 @@
+{
+ "books": {
+  "aloha-chaney": {
+   "image": "title page",
+   "width": 257,
+   "height": 450,
+   "sha256": "9f3cba63077fe2ecb44ee1c24862a476ae2a11590610b03afebe373a980150d5",
+   "note": "plain cloth cover"
+  },
+  "argentine-plains-larden": {
+   "image": "cover",
+   "width": 267,
+   "height": 450,
+   "sha256": "c6c8b64e5331f3a4bef05f99b09b1f2680f92ada15848d245d99852cbf02e1da"
+  },
+  "army-officer-on-leave-in-japan-maus": {
+   "image": "title page",
+   "width": 279,
+   "height": 450,
+   "sha256": "2bfb4a5c570cac967a7eda79db2b919f093de0bf8d7237130e3d12354314ccd5"
+  },
+  "around-the-world-through-japan-del-mar": {
+   "image": "title page",
+   "width": 288,
+   "height": 450,
+   "sha256": "bb49098aac0d788ae53ba2458f3c7236d17ecbc8b6b58ff4526fc5304f2847e3",
+   "note": "title page; the cover is plain library cloth"
+  },
+  "artist-himalayas-mccormick": {
+   "image": "cover",
+   "width": 266,
+   "height": 450,
+   "sha256": "f935bd1b3b5e94592909303895e54c137edbc85b9140d24ad85498aa79931878"
+  },
+  "autumn-tour-in-western-persia-durand": {
+   "image": "title page",
+   "width": 271,
+   "height": 450,
+   "sha256": "c445fae3be643479aef6a54306af0d8cbc589cf29b926586f5ea493bfa4bf5ce",
+   "note": "the cover has only Persian lettering; on the title page library tape covers the first letter of the title"
+  },
+  "between-two-oceans-hardy": {
+   "image": "title page",
+   "width": 288,
+   "height": 450,
+   "sha256": "d2acb53b0bca5745921b52fe2cb52815a2d5e1e467aaa5224c5bcf0c609b3106"
+  },
+  "bridal-and-bridle-harwood": {
+   "image": "title page",
+   "width": 262,
+   "height": 450,
+   "sha256": "7d5ea666889c2561b0e251378b9b1aca7e44e1816c3bb3e44b3b74233047b40d"
+  },
+  "brown-men-women-reeves": {
+   "image": "cover",
+   "width": 278,
+   "height": 450,
+   "sha256": "d959df686ac26cff9ced9f7bd36c68dc32022d3c0d9f5a981e900d70ba7be9e9"
+  },
+  "by-fell-and-fjord-oswald": {
+   "image": "cover",
+   "width": 298,
+   "height": 450,
+   "sha256": "df1dbc2e6ce23f3fdcbc35ac94d70331babcdd0f11f04e79dc5297e971d1799e"
+  },
+  "camps-caribbees-ober": {
+   "image": "title page",
+   "width": 274,
+   "height": 450,
+   "sha256": "d1c269cca5c4d4fe3461307b206fd7ceb85ea03fa641bd9cff959d6e77ff0f40"
+  },
+  "china-and-japan-voyage-thither-lawrence": {
+   "image": "title page",
+   "width": 239,
+   "height": 450,
+   "sha256": "600395ac7770d6491f97374ff5f3bcdb0fd6462e92e943a7f97fb1f73afa3009"
+  },
+  "cordillera-pampa-strain": {
+   "image": "title page",
+   "width": 294,
+   "height": 450,
+   "sha256": "8a6de741f98fac81f8d2171e7f7e2b223fc9f8110f8ff628231ee82113432c3b"
+  },
+  "corona-and-coronet-todd": {
+   "image": "cover",
+   "width": 259,
+   "height": 450,
+   "sha256": "ae77c01a072b9faeb7670ec1a481936f5feeb2b5677038ca9a02f265c6e6acdb"
+  },
+  "cruise-in-the-mississippi-gragg": {
+   "image": "title page",
+   "width": 269,
+   "height": 450,
+   "sha256": "a5016c5c53f5bb3e4c21580a48978067d933a99366f746a0d28e6057b1d41541"
+  },
+  "danubian-principalities-obrien": {
+   "image": "title page",
+   "width": 284,
+   "height": 450,
+   "sha256": "0fb707f7074f93e484456ffba06da04a91b5c2730025b90fec3ea412665a3eb9"
+  },
+  "diary-in-europe-rajah-of-kolhapoor": {
+   "image": "title page",
+   "width": 300,
+   "height": 420,
+   "sha256": "788b5008838a5a27c4b24993608dc0789fcdb87cfd55289b7bb8c4e4c0c0c264"
+  },
+  "eastern-seas-bax": {
+   "image": "title page",
+   "width": 282,
+   "height": 450,
+   "sha256": "8932f7b2746ef99c85f5fd4483d29f54c027ddb23db12560cf348ad4b59c2836",
+   "note": "the cover has no title"
+  },
+  "eastern-shores-adriatic-strangford": {
+   "image": "title page",
+   "width": 286,
+   "height": 450,
+   "sha256": "f2cdf2a27a42ea3325cce4698c91bbfb212651ad93a5a19c08c09f0efff27ed6",
+   "note": "title page; the cover has no title"
+  },
+  "embassy-to-china-staunton": {
+   "image": "title page",
+   "width": 300,
+   "height": 442,
+   "sha256": "c90f681bd9d85e089569778c90c0bca9801aaaece66a33f97a3384038d2441c6"
+  },
+  "flying-leaves-pfeiffer": {
+   "image": "title page",
+   "width": 300,
+   "height": 412,
+   "sha256": "d4706079d164dc9e68c98fb89bb1f799c3ea619a4ef4e99a47733bd894b92239"
+  },
+  "gentle-jehu-in-japan-mclean": {
+   "image": "cover",
+   "width": 246,
+   "height": 450,
+   "sha256": "b66550e5fd994f4328857fe5f77d1c892130877da5e6fc1961b3c534bf39f3f5"
+  },
+  "golden-dagon-palmer": {
+   "image": "cover",
+   "width": 300,
+   "height": 414,
+   "sha256": "67f92cc36f4d0d3a7eb379c87703ebd786f5f139ed294c7a715daf6a360f6eb4"
+  },
+  "impressions-of-a-first-tour-round-the-world-kothari": {
+   "image": "cover",
+   "width": 282,
+   "height": 450,
+   "sha256": "a47d5d50c6352eb6c183f93185544c2c91df4dd910657cb6513f8a3654586829"
+  },
+  "in-savage-africa-glave": {
+   "image": "cover",
+   "width": 283,
+   "height": 450,
+   "sha256": "950039a612743894b9d8562ddf8425d12a46261b93afc69ddf4231697e7e581f"
+  },
+  "japan-a-sailors-visit-cook": {
+   "image": "title page",
+   "width": 290,
+   "height": 450,
+   "sha256": "7257a671339225dff5ac158358e55d17a03e4842fc8f2a918b82feb9c7f56a10"
+  },
+  "japan-as-we-saw-it-bickersteth": {
+   "image": "title page",
+   "width": 239,
+   "height": 450,
+   "sha256": "7e74f17dabe516b750103a2464cb03202b7df5fc569830c50955fd1959f6e0df",
+   "note": "the cover has no title"
+  },
+  "japan-for-a-week-thompson": {
+   "image": "cover",
+   "width": 300,
+   "height": 434,
+   "sha256": "49efd2f6f61540b3a7465dd8c108576b612ed4c8f93ebe17518d1bf71fdbb1e6"
+  },
+  "jaunt-in-japan-jackson": {
+   "image": "cover",
+   "width": 269,
+   "height": 450,
+   "sha256": "f611ffeb1b083ab703af44ad30410651ed5240fc7a4949f7223d5c3cd3be1526"
+  },
+  "jottings-of-travel-in-china-and-japan-stern": {
+   "image": "cover",
+   "width": 274,
+   "height": 450,
+   "sha256": "db216bfd2f93ead5961a047391020a5e4bcb662ce138d9bc5cde23b5545345ab"
+  },
+  "journal-of-a-residence-nowrojee-merwanjee": {
+   "image": "title page",
+   "width": 258,
+   "height": 450,
+   "sha256": "7e1bb15dc40c9915f11a787062314d4de53e377d865a606ef5ea1bcf82f51af3"
+  },
+  "journey-through-the-caucasus-mounsey": {
+   "image": "title page",
+   "width": 292,
+   "height": 450,
+   "sha256": "c2e81727ffc2ae7419d5850672a4bc36a8dbdf7adba940196bb0d9f9c3f0a7a6"
+  },
+  "journeys-among-the-gentle-japs-thomas": {
+   "image": "title page",
+   "width": 281,
+   "height": 450,
+   "sha256": "17bd8bf0a49ad898ddcd93a9b6e6b3eec2007cbc46338dd007e6d05f300807dd"
+  },
+  "land-of-mosques-greville-nugent": {
+   "image": "title page",
+   "width": 264,
+   "height": 450,
+   "sha256": "1e625fe5bff2a7615bc3edefc39b4f79624b358a91779f462ddfd81b2ae07122",
+   "note": "the cover has no title"
+  },
+  "land-of-the-north-wind-rae": {
+   "image": "cover",
+   "width": 279,
+   "height": 450,
+   "sha256": "0a7a813bddce553af3edbaf0b16cf4a93b9e1e3ed7aadb9355721b69b90dfac6"
+  },
+  "land-of-the-tatami-murray": {
+   "image": "title page",
+   "width": 274,
+   "height": 450,
+   "sha256": "6d97600dde5be6612cd3698450bbe7c3893d1c3fc9a4e34dc6663dae8792c4e9"
+  },
+  "letters-from-china-and-japan-swainson": {
+   "image": "cover",
+   "width": 288,
+   "height": 450,
+   "sha256": "39618ad816e48332db52abcfbc87b21db5c01be558df43113cf1cde9f6b4a2c2"
+  },
+  "letters-from-the-far-east-floyd-jones": {
+   "image": "cover",
+   "width": 299,
+   "height": 450,
+   "sha256": "41754f6f09087b5414317d78ecdb9d70e00b30b4f15b0e330faacea917e0701e"
+  },
+  "letters-southern-india-ceylon-williams": {
+   "image": "cover",
+   "width": 277,
+   "height": 450,
+   "sha256": "0cf0d11c626746f9c87e05e6cb74db884ac5dc45f4c3fa413d0145621c6e1882",
+   "note": "gilt title readable; library label"
+  },
+  "mongolia-siberia-sheepshanks": {
+   "image": "cover",
+   "width": 276,
+   "height": 450,
+   "sha256": "68b4f761830476387c62b58804cf12280cb4691d41b250aa36d0b73c49a15934"
+  },
+  "nile-without-dragoman-eden": {
+   "image": "title page",
+   "width": 300,
+   "height": 435,
+   "sha256": "8f16a05234bcf6c49a880701aec153ca3c5a8bb50eef7c95337eca7fb50bce89"
+  },
+  "on-short-leave-to-japan-younghusband": {
+   "image": "title page",
+   "width": 269,
+   "height": 450,
+   "sha256": "1efe90c35ddfb0ed4ce43917ac03f8d74653049b866999e3c48c1f62ed8ba4b4"
+  },
+  "our-ride-through-asia-minor-scott-stevenson": {
+   "image": "title page",
+   "width": 277,
+   "height": 450,
+   "sha256": "821f1305de642ef5bbdd71a710100d49a0b17e1e1e8e4b37c54ccd991c8544c7"
+  },
+  "panama-in-1855-tomes": {
+   "image": "title page",
+   "width": 267,
+   "height": 450,
+   "sha256": "24a56f1450f44c5e52098092d4a4a3ccd361d0777a8be456e388b885d89f39fc"
+  },
+  "para-scenes-adventures-amazon-warren": {
+   "image": "title page",
+   "width": 260,
+   "height": 450,
+   "sha256": "521499ccfe39a370865bbb39a4ecda90ff28aa0b7fe7c55fe273be913430d9ba"
+  },
+  "parsons-holiday-allen": {
+   "image": "title page",
+   "width": 279,
+   "height": 450,
+   "sha256": "af71f20e53b13ee2debc833e4f850d5d95018c7321ddc4fe4bdbcf58e9306395"
+  },
+  "path-of-the-conquistadores-bates": {
+   "image": "cover",
+   "width": 286,
+   "height": 450,
+   "sha256": "10956557ba039d4070b8ea675c5ee914e2535e64bf1025fc4960c8c38182f73f"
+  },
+  "present-day-japan-davidson": {
+   "image": "cover",
+   "width": 268,
+   "height": 450,
+   "sha256": "a5486de70a69381afee8816c6c7ca277429c05c8dcfb165917f12504491b3164"
+  },
+  "rambles-through-japan-tracy": {
+   "image": "cover",
+   "width": 288,
+   "height": 450,
+   "sha256": "73acd4ec23f303d1bc91d27059154395450540f96a2632eddf11c28ab3c6880b"
+  },
+  "scouting-for-stanley-stevens": {
+   "image": "cover",
+   "width": 300,
+   "height": 447,
+   "sha256": "b37597cc4115f3890cb2ae9189be37679a7301bc8a51a2d0d176eac4e863b733"
+  },
+  "sketches-awheel-workman": {
+   "image": "title page",
+   "width": 270,
+   "height": 450,
+   "sha256": "6b6da54bef8f79b36a9c54ef44fb3a62e45997f01cf98da45ac7c0597a4deed8"
+  },
+  "snioland-iceland-watts": {
+   "image": "title page",
+   "width": 272,
+   "height": 450,
+   "sha256": "803557097cc2ad25014df20d46b51e829c6c1aded9f01d392cb67c6102868e04"
+  },
+  "south-by-west-kingsley": {
+   "image": "title page",
+   "width": 277,
+   "height": 450,
+   "sha256": "61c981b6dd00742f22d9fe198eb43398ed2a6cd23084eefb0ff7fe144e34e353",
+   "note": "the cover has no title"
+  },
+  "summer-greetings-from-japan-sheldon": {
+   "image": "title page",
+   "width": 274,
+   "height": 450,
+   "sha256": "f4de9e26b51fefaa9db25b24a2ee6fc985a660d845a2e89f84dfa703d8dbc265"
+  },
+  "summer-in-prairie-land-sutherland": {
+   "image": "title page",
+   "width": 271,
+   "height": 450,
+   "sha256": "d9d1c2d7fa3e3a6485f324c3e2bbdf2bbe288a9b71693874b8bd5e944807fd03",
+   "note": "plain cloth cover"
+  },
+  "sunny-australia-marshall": {
+   "image": "title page",
+   "width": 282,
+   "height": 450,
+   "sha256": "9554799a2edc1a199c4925a202b5ec21c6f735f92ced75b67a65b0797d2dc1cc"
+  },
+  "surface-japan-seitz": {
+   "image": "title page",
+   "width": 300,
+   "height": 421,
+   "sha256": "28d37102a86b9dae47dcfa741631247598db79648876cfba9f9ddc1342d76c74"
+  },
+  "three-years-melbourne-aspinall": {
+   "image": "title page",
+   "width": 262,
+   "height": 450,
+   "sha256": "45756490515d8a635e3e747a7b43c218e2d2836eaf9efd26d7e78d5c88dee4e7"
+  },
+  "through-atolls-islands-moss": {
+   "image": "cover",
+   "width": 286,
+   "height": 450,
+   "sha256": "1f45ec1a730d1ffcedbc7ef38beac2e36bc0d1ceabfc5e4b99598f2e40d18169"
+  },
+  "trans-caspia-shoemaker": {
+   "image": "title page",
+   "width": 280,
+   "height": 450,
+   "sha256": "57091e3a3367d5f8bec5ecd5468699b55c377726f0e6caa3904483ae30cfba58"
+  },
+  "trip-to-mexico-becher": {
+   "image": "cover",
+   "width": 300,
+   "height": 435,
+   "sha256": "fd41f1a0f6ab42161ee99d49811f5e4353100d07b8099330b246a66da5c06acc"
+  },
+  "try-cracow-carpathians-hutchinson": {
+   "image": "title page",
+   "width": 252,
+   "height": 450,
+   "sha256": "c563082b1e4b518fbf19985c355c1e29b10d33432a1111774565f5d272f6fa0e"
+  },
+  "twelve-years-in-canterbury-thomson": {
+   "image": "title page",
+   "width": 284,
+   "height": 450,
+   "sha256": "294ad2d655fb0f078bedbef736327cbf7cde6c73efdd9b27dfcbe307eb65e9f9"
+  },
+  "uganda-holiday-treves": {
+   "image": "title page",
+   "width": 288,
+   "height": 450,
+   "sha256": "a972359fd59515a6a2979f0c9dd2493d2e92b2a5cf4b6818821d6d2df560671e",
+   "note": "the cover's title is faint and runs off the edge"
+  },
+  "vacation-days-in-hawaii-and-japan-taylor": {
+   "image": "title page",
+   "width": 273,
+   "height": 450,
+   "sha256": "ba8401afadc024645579486a36cf7991dcdbcd43e8d34f622f1b39ad233fe98c"
+  },
+  "venezuela-sketches-eastwick": {
+   "image": "title page",
+   "width": 252,
+   "height": 450,
+   "sha256": "8658216916bf341ddb50182ad64f2dba46ac23c8db521c5decda0f53d8e9022b"
+  },
+  "via-rhodesia-mansfield": {
+   "image": "cover",
+   "width": 280,
+   "height": 450,
+   "sha256": "e7f0e21a6dfd650ecdbfc797f22f8e49a0a3ee98b56950efc555a192ec91d8c4"
+  },
+  "wanderings-and-wonderings-aubertin": {
+   "image": "title page",
+   "width": 290,
+   "height": 450,
+   "sha256": "3615082dd083d8b1a548f5f30bc5e4b85f6a1a450dc8ed761deccfd0a0d342ab"
+  },
+  "west-africa-to-palestine-blyden": {
+   "image": "title page",
+   "width": 293,
+   "height": 450,
+   "sha256": "57961af9008fa726f8d389e0e7ae582bb72dd670a6e7106c619763d86651f921"
+  },
+  "west-coast-of-africa-dyer": {
+   "image": "cover",
+   "width": 284,
+   "height": 450,
+   "sha256": "bbb9965051d3247a12038b63141bfc0446cd7fadd07be03b883eff3338ccaf9c"
+  },
+  "western-wanderings-boddam-whetham": {
+   "image": "title page",
+   "width": 279,
+   "height": 450,
+   "sha256": "93541ca8c1af1442d873db527a525f14d93db0e309c0faf957dc4aac46229b44"
+  },
+  "woman-alone-in-the-heart-of-japan-fisher": {
+   "image": "title page",
+   "width": 278,
+   "height": 450,
+   "sha256": "3aa24bcb769775c5546be53dc0c4112d3ea1cb44e460e09dd9822436701aeae0"
+  },
+  "womans-trip-to-alaska-collis": {
+   "image": "cover",
+   "width": 300,
+   "height": 419,
+   "sha256": "f02e1de7cac4243309055f0d27e31885fcfd6983108183865ef698066a9ee8b3"
+  },
+  "wsw-voyage-to-the-west-indies-elwes": {
+   "image": "title page",
+   "width": 265,
+   "height": 450,
+   "sha256": "99d2ad8b67f33a911fb493161743c75186cb2fb43926a48d0666ed87cec0455a"
+  },
+  "yachting-cruise-wood": {
+   "image": "title page",
+   "width": 289,
+   "height": 450,
+   "sha256": "6e3c09441f978288df0b936196b7e5226d24602a52dfb5040871fa73cc33814e"
+  },
+  "yankee-yangtze-geil": {
+   "image": "title page",
+   "width": 293,
+   "height": 450,
+   "sha256": "ae370fd99435abe71155f9d3588bdec036736b85207c111835f93959c741eaa6"
+  },
+  "zephyrus-edgcumbe": {
+   "image": "title page",
+   "width": 289,
+   "height": 450,
+   "sha256": "74650bc051bd54900e2b227610f3810b531655c3c546574cb5e75258123f2bee",
+   "note": "the title on the cover is dark on dark"
+  }
+ }
+}

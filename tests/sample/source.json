@@ -1,0 +1,7 @@
+{
+ "ia_identifier": "invented-sample",
+ "drive_folder_id": "invented-folder",
+ "parts": [
+  {"name": "pages-001.zip", "sha256": "0000000000000000000000000000000000000000000000000000000000000000", "bytes": 1, "files": ["p0001.jpg"], "drive_id": "invented-id"}
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "id": "zephyrus-edgcumbe",
+ "version": 3,
+ "date": "2026-11-22",
+ "title": "Zephyrus",
+ "subtitle": "A Holiday in Brazil and on the River Plate",
+ "short_title": "Zephyrus",
+ "authors": [
+  {
+   "name": "E. R. Pearce Edgcumbe",
+   "sort": "Edgcumbe, E. R. Pearce",
+   "born": 1851,
+   "died": 1929
+  }
+ ],
+ "place": "London",
+ "publisher": "Chatto & Windus",
+ "year": 1887,
+ "edition_statement": "First edition",
+ "source": {
+  "ia_identifier": "zephyrusholidayi00edgcuoft",
+  "contributor": "University of Toronto",
+  "hidden_leaves": [],
+  "extra_leaves": {
+   "p0175a": {
+    "ia_identifier": "zephyrusholidayi00edgc",
+    "n": 175,
+    "what": "printed page 160, missing from the Toronto scan"
+   },
+   "p0175b": {
+    "ia_identifier": "zephyrusholidayi00edgc",
+    "n": 176,
+    "what": "printed page 161, missing from the Toronto scan"
+   }
+  }
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  },
+  {
+   "version": 2,
+   "date": "2026-11-22",
+   "note": "A printer’s error of a dropped or transposed letter marked and corrected: “hving” for “having”."
+  },
+  {
+   "version": 3,
+   "date": "2026-11-22",
+   "note": "Title page typed line by line as printed."
+  }
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0009",
+   "why": "tissue guard before the title page: show-through of the map only"
+  },
+  {
+   "check": "leaves",
+   "match": "p0010",
+   "why": "tissue guard before the title page (verso): show-through only"
+  },
+  {
+   "check": "leaves",
+   "match": "p0178",
+   "why": "printed page 162 bound a second time in the Toronto copy (in place of page 160)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0179",
+   "why": "printed page 163 bound a second time in the Toronto copy (in place of page 161)"
+  }
+ ],
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "front"
+  },
+  {
+   "at": "p0011",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0013",
+   "kind": "preface"
+  },
+  {
+   "at": "p0015",
+   "kind": "contents"
+  },
+  {
+   "at": "p0017",
+   "kind": "front",
+   "n": 1
+  },
+  {
+   "at": "p0255",
+   "kind": "index"
+  },
+  {
+   "at": "p0261",
+   "kind": "advertisements",
+   "title": "Publisher’s Catalogue"
+  }
+ ],
+ "frontispiece": "p0008-1",
+ "regions": [
+  "Portugal",
+  "Brazil",
+  "Uruguay",
+  "Argentina"
+ ],
+ "period": "1886–87",
+ "subjects": [
+  "Brazil",
+  "River Plate",
+  "Slavery",
+  "Railways",
+  "Quarantine"
+ ],
+ "summary": "E. R. Pearce Edgcumbe, a Dorset banker, and his wife sailed by the Royal Mail Line for South America late in 1886. By Lisbon they reached Pernambuco, Bahia, and Rio de Janeiro, where yellow fever was killing many; he describes Rio and Tijuca, Brazilian society, slavery, which was still lawful, and the railway from Santos to San Paulo. Arriving at Monte Video, the two were held for six days in the quarantine station on the Isla de Flores. They went up the Uruguay to Salto, crossed the plains, and spent time in Buenos Ayres, the new city of La Plata and its port of Ensenada, on an estancia in the camp, and on the Paraná, with a chapter on the gaucho. As the preface warns, he writes much about money: banks, loans, railways, taxes, and the cost of farming. The drawings in the text are the author’s own.",
+ "omitted_from_reading": "The series half-title, printed contents, half-title before Chapter I, index, and the publisher’s catalogue are in the JSON only.",
+ "notes_on_text": [
+  "The scanned copy (University of Toronto) lacks the leaf with pages 160–161 and has pages 162–163 twice in its place; pages 160–161 are taken from another scan of the same edition (University of California), and the repeated pages are left out.",
+  "The drawings in the text are by the author."
+ ],
+ "audit": {
+  "version": 3,
+  "date": "2026-11-20",
+  "pages": 8,
+  "recall": "29/29 (6 random pages) and 10/10 (the 2 pages from the UC scan)",
+  "real_errors": 0,
+  "fixed": 0,
+  "note": "text unchanged except listed fixes"
+ },
+ "keep_hyphens": [
+  "p0063",
+  "p0064"
+ ]
+}

@@ -1,0 +1,217 @@
+{
+ "id": "diary-in-europe-rajah-of-kolhapoor",
+ "version": 6,
+ "date": "2026-11-20",
+ "title": "Diary of the Late Rajah of Kolhapoor, during His Visit to Europe in 1870",
+ "short_title": "Diary of the Rajah of Kolhapoor",
+ "authors": [
+  {
+   "name": "Rajaram, Rajah of Kolhapoor",
+   "sort": "Rajaram, Rajah of Kolhapoor",
+   "born": 1850,
+   "died": 1870
+  },
+  {
+   "name": "Edward W. West",
+   "sort": "West, Edward W.",
+   "role": "editor"
+  }
+ ],
+ "place": "London",
+ "publisher": "Smith, Elder & Co.",
+ "year": 1872,
+ "edition_statement": "First edition",
+ "regions": [
+  "France",
+  "United Kingdom",
+  "Ireland",
+  "Belgium",
+  "Germany",
+  "Austria",
+  "Italy"
+ ],
+ "period": "June–November 1870",
+ "summary": "Rajaram, Rajah of Kolhapoor (1850–1870), ruler of a princely state in western India, sailed for Europe in 1870 with Captain Edward West, his guardian, his Parsee tutor, and eleven attendants. He kept this diary in English, in short daily entries, from his arrival in Paris on 12 June to 16 November: months in and around London, with visits to Windsor, Parliament, schools, factories, and theatres; the British Association at Liverpool; Scotland; Dublin; and the journey home through Belgium, Germany, and the Tyrol. He died at Florence on 30 November 1870 and was cremated there. West’s introduction gives the history of Kolhapoor and of the Rajah’s education. A postscript, appendices of official papers (durbars, the cremation, memorial meetings, the adoption of a successor), and a supplement reprinting Lady Verney’s article from Good Words complete the book.",
+ "source": {
+  "ia_identifier": "diaryoflaterajah00rajarich",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": []
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-19",
+   "note": "First publication."
+  },
+  {
+   "version": 2,
+   "date": "2026-11-19",
+   "note": "The frontispiece portrait of the Rajah is now shown in the reading editions (at the start of the Introduction); it was in the JSON only. Text unchanged."
+  },
+  {
+   "version": 3,
+   "date": "2026-11-19",
+   "note": "No change to the text or the downloads; only the checking record was updated."
+  },
+  {
+   "version": 4,
+   "date": "2026-11-19",
+   "note": "Contents: entries added inside the diary (spans of dates and the places visited) and the appendices listed by their printed titles; the ODT has a contents list. Text unchanged."
+  },
+  {
+   "version": 5,
+   "date": "2026-11-20",
+   "note": "Straight apostrophes in the omitted_from_reading, summary curled (found by a new check). Text unchanged."
+  },
+  {
+   "version": 6,
+   "date": "2026-11-20",
+   "note": "Accents checked on the scan at the review after twenty books (new preflight list `accents`). p0184: “Dŭrbar” was a blot over the u, read as a breve; now “Durbar” as printed elsewhere."
+  }
+ ],
+ "divisions": [
+  {
+   "at": "p0007",
+   "kind": "front"
+  },
+  {
+   "at": "p0013",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0017",
+   "kind": "contents"
+  },
+  {
+   "at": "p0019",
+   "kind": "introduction"
+  },
+  {
+   "at": "p0137",
+   "kind": "contents",
+   "title": "Appendix (list of the appendices)"
+  },
+  {
+   "at": "p0139",
+   "split": false
+  },
+  {
+   "at": "p0190",
+   "kind": "back"
+  }
+ ],
+ "toc_entries": [
+  {
+   "at": "p0041",
+   "starts": "Sunday, June 12th",
+   "title": "12–30 June: Paris, London, Oxford, and Windsor"
+  },
+  {
+   "at": "p0053",
+   "starts": "1st July",
+   "title": "1–31 July: London; Windsor, Aldershot, and Oxford"
+  },
+  {
+   "at": "p0075",
+   "starts": "1st August",
+   "title": "1–25 August: London, Claydon, and grouse-shooting at Langholm"
+  },
+  {
+   "at": "p0083",
+   "starts": "26th.—",
+   "title": "26 August–12 September: Edinburgh, Glasgow, the Trossachs, Liverpool, and Brighton"
+  },
+  {
+   "at": "p0092",
+   "starts": "13th.—",
+   "title": "13–30 September: Liverpool (the British Association), Manchester, Inverness, and Glasgow"
+  },
+  {
+   "at": "p0104",
+   "starts": "1st October",
+   "title": "October: London, Dublin, and Elveden Hall"
+  },
+  {
+   "at": "p0116",
+   "starts": "1st November",
+   "title": "1–16 November: Belgium, Germany, and Innsbruck"
+  },
+  {
+   "at": "p0124",
+   "starts": "The illness mentioned",
+   "title": "The Rajah’s illness and death (the editor’s account)"
+  },
+  {
+   "at": "p0139",
+   "starts": "I. The Durbar",
+   "title": "I. The Durbar at Poona in 1866",
+   "editor": false
+  },
+  {
+   "at": "p0145",
+   "starts": "II. The Durbar",
+   "title": "II. The Durbar at Poona in 1868",
+   "editor": false
+  },
+  {
+   "at": "p0151",
+   "starts": "III.",
+   "title": "III. The Ceremony of Laying the Foundation-Stone of the High School at Kolhapoor",
+   "editor": false
+  },
+  {
+   "at": "p0161",
+   "starts": "IV.",
+   "title": "IV. The Procès-verbal of the Cremation at Florence",
+   "editor": false
+  },
+  {
+   "at": "p0170",
+   "starts": "V.",
+   "title": "V. Resolutions passed by a Public Meeting assembled at Kolhapoor to do Honour to the Memory of the late Rajah",
+   "editor": false
+  },
+  {
+   "at": "p0170",
+   "starts": "VI.",
+   "title": "VI. Resolutions passed by a Public Meeting assembled at Bombay for the Same Purpose",
+   "editor": false
+  },
+  {
+   "at": "p0172",
+   "starts": "VII.",
+   "title": "VII. A Brief Account of the Ceremonies attending the Adoption of a Successor to the Kolhapoor Gādee",
+   "editor": false
+  }
+ ],
+ "keep_hyphens": [
+  "p0167"
+ ],
+ "subjects": [
+  "India — Kolhapur (princely state)",
+  "Travel in Europe",
+  "Indian visitors to Britain"
+ ],
+ "omitted_from_reading": "The presentation slip, the printed contents, the list of appendices, and the printer’s imprint are in the JSON only.",
+ "notes_on_text": [
+  "Some people met in England are named in the Diary only by an initial and a dash (“Mr. K——”), as printed.",
+  "The printed contents has one entry for the diary. The contents of these editions add the editor’s entries for spans of dates and the places visited, and list the appendices under the titles the printed contents gives them."
+ ],
+ "audit": {
+  "version": 6,
+  "date": "2026-11-19",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0,
+  "note": "text unchanged except listed fixes"
+ },
+ "frontispiece": "p0010-1",
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0009",
+   "why": "the Internet Archive's card, not part of the book: left out on purpose (log.md)"
+  }
+ ]
+}

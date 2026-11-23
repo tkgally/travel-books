@@ -1,0 +1,65 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[       ok] audit: book.json records the sampled audit of this version
+[ look (8)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0026: …end of Portugu-|ese men of war … (hyphen removed; check)
+            - hyphen join in a note at p0113: …and of her pre-|dilection, we w… (hyphen removed; check)
+            - hyphen join at p0150: … became fright-|fully ill, and,… (hyphen removed; check)
+            - hyphen join at p0162: …not even exert-|ing themselves … (hyphen removed; check)
+            - hyphen join at p0208: …money and valu-|ables by one se… (hyphen removed; check)
+            - hyphen join at p0219: …m he had so un-|righteously obt… (hyphen removed; check)
+            - hyphen join at p0236: …Town of Cuerna-|vaca, south of … (hyphen removed; check)
+            - (and 8 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[ look (1)] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+            - p0215: closing ” with no opening “: 'List of Mexican Kings given, eleven in number, from Acamapit'
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[look (11)] contents: entries of the printed contents with no matching heading
+            - p0011: 'Introductory 1–6'
+            - p0011: 'Letter No. 1. Start from home—New Orleans—Mardi-Gras—Lake Pontchartrai'
+            - p0011: 'Letter No. 2. Railway train—Guard of soldiers—Departure from Vera Cruz'
+            - p0011: 'Letter No. 3. Leave Orizaba—Railway scenery—Out of the torrid and with'
+            - p0012: 'Letter No. 4. City of Mexico—Canals filled up—Receding of lakes—Pronun'
+            - p0012: 'Letter No. 5. Expedition on the canal—Old church built by Cortés—Ixtac'
+            - p0012: 'Letter No 6. Leave city of Mexico for Puebla—Arrival—Hotel de Diligent'
+            - p0013: 'Letter No. 7. Leave Vera Cruz for Jalapa—Locomotive to Paso de San Jua'
+            - p0013: 'Letter No. 8. A norther—The situation of the ships in harbour, and the'
+            - p0015: 'A TRIP TO MEXICO.'
+            - p0015: 'Being Notes of a Journey from Lake Erie to Lake Tezcuco and Back.'
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover or the title page
+[look (11)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0007, p0009, p0011, p0013, p0015, p0016…); à (p0161)
+            - ake: ake (p0263, p0271); aké (p0264)
+            - cordova: cordova (p0225); córdova (p0035)
+            - cortes: cortes (p0034, p0046, p0051, p0071, p0215); cortés (p0012, p0079, p0080, p0082, p0084, p0103…)
+            - desire: desire (p0019, p0026, p0036, p0132, p0137, p0167…); desiré (p0203)
+            - facades: facades (p0261); façades (p0255)
+            - kilometros: kilometros (p0183); kilómetros (p0035)
+            - miramon: miramon (p0053, p0054); míramon (p0056)
+            - pieces: pieces (p0194, p0217, p0222, p0263, p0270); pièces (p0270)
+            - senor: senor (p0013, p0108, p0204, p0237); señor (p0009, p0022, p0045, p0203, p0204)
+            - senora: senora (p0108); señora (p0022)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[ look (2)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0070: “hones” — “bones” is common (120)
+            - p0217: “bard” — “hard” is common (522)
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight PASS: trip-to-mexico-becher v1 — 0 to fix, 33 waived; to look at: hyphen-joins 8, quote-balance 1, contents 11, accents 11, rare-forms 2 — tools@86782255 2026-11-21

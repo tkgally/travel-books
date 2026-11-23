@@ -1,0 +1,146 @@
+{
+ "id": "south-by-west-kingsley",
+ "version": 6,
+ "date": "2026-11-22",
+ "title": "South by West; or, Winter in the Rocky Mountains and Spring in Mexico",
+ "short_title": "South by West",
+ "authors": [
+  {
+   "name": "Rose Georgina Kingsley",
+   "sort": "Kingsley, Rose Georgina",
+   "born": 1845,
+   "died": 1925
+  },
+  {
+   "name": "Charles Kingsley",
+   "sort": "Kingsley, Charles",
+   "born": 1819,
+   "died": 1875,
+   "role": "editor"
+  }
+ ],
+ "place": "London",
+ "publisher": "W. Isbister & Co.",
+ "year": 1874,
+ "edition_statement": "First edition",
+ "regions": [
+  "United States",
+  "Colorado",
+  "Utah",
+  "California",
+  "Mexico"
+ ],
+ "period": "1871–1872",
+ "summary": [
+  "Rose Kingsley (1845–1925), a daughter of Charles Kingsley, who edited the book and wrote its preface, crossed the Atlantic in the autumn of 1871 with the family of the Dean of Chester, who was attending the Episcopal Church Convention at Baltimore. She then went west by rail to join her brother in Colorado and spent the winter of 1871–72 at Colorado Springs, a new town at the foot of Pike’s Peak: its building and settlers, housekeeping in a shanty, rides into the cañons.",
+  "In the spring of 1872 she went by the Pacific Railroad to San Francisco and by steamer to Manzanillo, and travelled by coach and on horseback through Colima, Guadalajara, and Querétaro to the city of Mexico during a revolt against the government, and on to Vera Cruz. Most of the book is letters and journal entries. Two chapters describe the resources of Colorado and of Mexico."
+ ],
+ "source": {
+  "ia_identifier": "southbywestorwin00king",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": [
+   0,
+   7,
+   8,
+   447,
+   448,
+   449,
+   450,
+   451
+  ]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-19",
+   "note": "First publication."
+  },
+  {
+   "version": 2,
+   "date": "2026-11-20",
+   "note": "Four paragraphs that an engraving interrupts in mid-sentence (printed pages 51, 74, 90, and 198) were shown as two paragraphs each; each is now one."
+  },
+  {
+   "version": 3,
+   "date": "2026-11-20",
+   "note": "Accents checked on the scan at the review after twenty books (new preflight list `accents`). p0117: “potatoës” was a speck over the e; now “potatoes” as printed. p0322: a stray acute printed over “rode” is now marked as a printer’s error (rode)."
+  },
+  {
+   "version": 4,
+   "date": "2026-11-21",
+   "note": "Verse: a stanza that began at the top of a page had been joined to the last stanza of the page before (leaf p0192); now set as a new stanza, as printed. Found at the review after thirty books by the new preflight list `verse-joins`, checked on the scan."
+  },
+  {
+   "version": 5,
+   "date": "2026-11-21",
+   "note": "A printer’s error corrected: “water” for “water.” (p. 368) (found by a sweep of all the books after a reader’s report (issue #117), checked on the scan)."
+  },
+  {
+   "version": 6,
+   "date": "2026-11-22",
+   "note": "A printer’s error of a dropped or transposed letter marked and corrected: “inumerable” for “innumerable”."
+  }
+ ],
+ "divisions": [
+  {
+   "at": "p0006",
+   "kind": "front"
+  },
+  {
+   "at": "p0009",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0011",
+   "kind": "dedication",
+   "title": "Dedication"
+  },
+  {
+   "at": "p0013",
+   "kind": "preface"
+  },
+  {
+   "at": "p0017",
+   "kind": "contents"
+  },
+  {
+   "at": "p0025",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0441",
+   "kind": "advertisements"
+  }
+ ],
+ "frontispiece": "p0006-1",
+ "omitted_from_reading": "The printed contents, the list of illustrations, and the publisher’s advertisement are in the JSON only.",
+ "notes_on_text": [
+  "Printed pages 48, 81, and 161 were first read by an OCR program (Tesseract), because the Claude models would not transcribe them; that reading was corrected against the page images by a Claude model and then proofread like the other pages.",
+  "The printed contents lists the topics of each chapter; the same lists are printed at the head of each chapter, where these editions keep them. The contents of these editions give the number and title of each chapter.",
+  "The table of Western coals on printed page 142 is printed sideways, with its key below in columns with ditto marks; here the key is a small table, with the ditto marks as printed."
+ ],
+ "keep_hyphens": [
+  "p0067"
+ ],
+ "waivers": [
+  {
+   "check": "quote-balance",
+   "match": "p0124:",
+   "why": "the scan has no opening quotation mark at the start of this paragraph of a quoted story (\"Sam follows my example\"), unlike the paragraphs before it; not unmistakably a misprint, kept as printed"
+  },
+  {
+   "check": "spacing",
+   "match": "p0170: cho Cañon, ”",
+   "why": "a ditto mark (”) after “Echo Cañon,” in the key to the table of coals, as printed; it is not a closing quotation mark"
+  }
+ ],
+ "audit": {
+  "version": 6,
+  "date": "2026-11-21",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0,
+  "note": "text unchanged except listed fixes"
+ }
+}

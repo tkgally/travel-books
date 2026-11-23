@@ -1,0 +1,163 @@
+{
+ "id": "twelve-years-in-canterbury-thomson",
+ "version": 3,
+ "date": "2026-11-22",
+ "title": "Twelve Years in Canterbury, New Zealand",
+ "subtitle": "With Visits to the Other Provinces, and Reminiscences of the Route Home through Australia, etc. (From a Lady’s Journal.)",
+ "short_title": "Twelve Years in Canterbury",
+ "authors": [
+  {
+   "name": "Mrs. Charles Thomson",
+   "sort": "Thomson, Mrs. Charles",
+   "born": 1809,
+   "died": 1875
+  }
+ ],
+ "place": "London",
+ "publisher": "Sampson Low, Son, and Marston",
+ "year": 1867,
+ "edition_statement": "First edition (undated; published 1867)",
+ "source": {
+  "ia_identifier": "twelveyearsincan00thomiala",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": []
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  },
+  {
+   "version": 2,
+   "date": "2026-11-21",
+   "note": "A printer’s error corrected: “manner” for “manner.” (p. 162) (found by a sweep of all the books after a reader’s report (issue #117), checked on the scan)."
+  },
+  {
+   "version": 3,
+   "date": "2026-11-22",
+   "note": "A printer’s error of a dropped or transposed letter marked and corrected: “ecessary” for “necessary”."
+  }
+ ],
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "front"
+  },
+  {
+   "at": "p0006",
+   "kind": "front",
+   "title": "Epigraph",
+   "reading": true
+  },
+  {
+   "at": "p0007",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0009",
+   "kind": "preface"
+  },
+  {
+   "at": "p0011",
+   "kind": "introduction"
+  },
+  {
+   "at": "p0013",
+   "kind": "contents"
+  },
+  {
+   "at": "p0019",
+   "kind": "front",
+   "n": 1
+  },
+  {
+   "at": "p0059",
+   "kind": "chapter",
+   "title": "Chapter III",
+   "toc_title": "Chapter III. From Christchurch to Wellington—The Hutt—Loss of the “City of Dunedin” Steamer—Picton—Nelson—Wreck of the “Lord Worsley” Steamer"
+  },
+  {
+   "at": "p0225",
+   "kind": "appendix"
+  },
+  {
+   "at": "p0245",
+   "kind": "advertisements",
+   "title": "Publisher’s Catalogue"
+  }
+ ],
+ "toc": {
+  "subtitles": "all"
+ },
+ "toc_entries": [
+  {
+   "at": "p0225",
+   "starts": "The Stewardess",
+   "title": "The Stewardess’s Story",
+   "editor": false
+  },
+  {
+   "at": "p0229",
+   "starts": "The following humorous",
+   "title": "Eden of the Southern Sea",
+   "editor": false
+  },
+  {
+   "at": "p0231",
+   "starts": "The following poems",
+   "title": "Poetry Written on Board the “Hampshire”",
+   "editor": false
+  },
+  {
+   "at": "p0238",
+   "starts": "The following were written",
+   "title": "Poetry Written for the Projected “New Zealand Christian Year”",
+   "editor": false
+  }
+ ],
+ "regions": [
+  "New Zealand",
+  "Australia",
+  "Sri Lanka",
+  "Yemen",
+  "Egypt",
+  "Malta",
+  "France"
+ ],
+ "period": "1852–1865",
+ "subjects": [
+  "Canterbury settlement",
+  "Colonial life",
+  "Voyages home by the overland route"
+ ],
+ "summary": "Mrs. Charles Thomson (Maria Thomson) sailed for the new Canterbury settlement in New Zealand in December 1852 and lived there for twelve years. The book, taken from her journal, opens with an account of the province in the 1860s: its founding, Christchurch and Lyttelton, soil and crops, wages and prices, the Maori, churches, schools, and societies. In 1865 she left for England by a long route: by coastal steamer to Dunedin, Wellington, Picton, Nelson, New Plymouth, and Auckland, where she stayed some weeks in boarding-houses; then to Sydney, Melbourne, and Adelaide, by mail steamer to King George’s Sound, Galle, and Aden, up the Red Sea to Suez, by rail across the desert to Alexandria in a season of cholera, and by Malta to Marseilles, where the passengers were kept in quarantine. An appendix has a stewardess’s story and the author’s verses written on the voyage out and in the colony.",
+ "omitted_from_reading": "The half-titles, printed contents, and the publisher’s catalogue are in the JSON only.",
+ "notes_on_text": [
+  "The title page is undated; the book was published in 1867 (the publisher’s catalogue bound in at the end is dated May 1867).",
+  "The scanned copy has no frontispiece, and no sign of one; a bookseller’s description of another copy mentions a lithographed frontispiece.",
+  "The contents entries for the four parts of the Appendix are taken from the printed contents.",
+  "Two footnotes are printed in more than one paragraph (the second on page 8, three paragraphs; the one on page 98, two); each is given here as one."
+ ],
+ "keep_hyphens": [
+  "p0069",
+  "p0182",
+  "p0218"
+ ],
+ "audit": {
+  "version": 3,
+  "date": "2026-11-21",
+  "pages": 6,
+  "recall": "27/29",
+  "real_errors": 0,
+  "fixed": 0,
+  "note": "text unchanged except listed fixes"
+ },
+ "leaf_order": [
+  [
+   "p0007",
+   "p0008",
+   "p0006"
+  ]
+ ]
+}

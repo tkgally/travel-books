@@ -1,0 +1,72 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[       ok] audit: book.json records the sampled audit of this version
+[ look (7)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0037: …his general un-|reliability, an… (hyphen removed; check)
+            - hyphen join at p0075: … seldom happen-|ing, I am told,… (hyphen removed; check)
+            - hyphen join at p0082: …ort at cultiva-|tion, no mechan… (hyphen removed; check)
+            - hyphen join at p0114: …m that old mar-|tinet, the Russ… (hyphen removed; check)
+            - hyphen join at p0148: …eived as affec-|tionate and reg… (hyphen removed; check)
+            - hyphen join at p0193: …imens of indif-|ferent wretched… (hyphen removed; check)
+            - (and 9 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[look (14)] contents: entries of the printed contents with no matching heading
+            - p0015: 'How to Dress and What to Take.—Checking Baggage.—Trip over the Pennsyl'
+            - p0015: 'Chaper II.'
+            - p0015: 'West from Minneapolis.—Comforts of the Dining-Car.—Bismarck.—Previous '
+            - p0015: 'Tacoma of Seven Years Ago.—Tacoma of To-Day.—Its Prosperous Population'
+            - p0015: 'The Steamship Queen.—Her Admirable Appointments.—Obliging Officers and'
+            - p0016: 'Arrival at Victoria, B. C.—An Eden of Flowers.—The English Mayflower.—'
+            - p0016: 'Up Early and on Deck.—Who Are the Early Risers?—The Gulf of Georgia an'
+            - p0016: 'Arrival at Fort Wrangell.—Its History.—Meeting the Governor of Alaska.'
+            - p0016: 'Sitka.—So Much like Naples.—Mt. Edgecombe.—The Dilapidated Store-House'
+            - p0017: 'Departure from Sitka.—Everybody Happy.—Thoroughly Satisfied with the D'
+            - p0017: 'My First Sight of Muir Glacier.—The Spell-Bound Passengers.—What it Lo'
+            - p0017: 'Taking Ice Aboard.—The Lake of the Gods and Scidmore Island.—The Fairw'
+            - p0017: 'Taku Inlet.—Up the Lynn Canal to Chilcat, above the 59th Degree of Lat'
+            - p0018: 'Metlahkatlah, B. C.—An Indian Village with a Good Government.—Their Wr'
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
+[       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
+[ look (5)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0001, p0011, p0012, p0013, p0014, p0015…); à (p0045)
+            - e: e (p0021, p0105, p0131, p0142, p0175); è (p0074, p0105)
+            - hotel: hotel (p0015, p0016, p0027, p0028, p0044, p0048…); hôtel (p0086)
+            - piece: piece (p0059, p0083, p0102, p0110, p0122, p0144…); pièce (p0087)
+            - si: si (p0074, p0105); sì (p0207)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[ look (2)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0120: “dolla” — “dollar” is common (169; a letter dropped or transposed?)
+            - p0174: “clods” — “clouds” is common (419; a letter dropped or transposed?)
+[       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
+[ look (7)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: …a through Chicago, Minneapolis, and Bismarck to the Yellowstone Park and Tacoma, and from the…
+            - book.json summary: …Victoria, Fort Wrangell, Sitka, Glacier Bay and the Muir Glacier, Ju…
+            - book.json summary: …acier Bay and the Muir Glacier, Juneau and the Lynn Canal, retu…
+            - book.json summary: …ier, Juneau and the Lynn Canal, returning by Metlahkatlah and Nanaimo. She describ…
+            - book.json summary: … and its passengers, the towns, the Tlingit villages and their totem poles, t…
+            - book.json summary: …heir totem poles, the missions, the gold mines and the glaciers, and be…
+            - book.json summary: …he gold mines and the glaciers, and begins with advice on what to wear and take. The book has m…
+[       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight PASS: womans-trip-to-alaska-collis v4 — 0 to fix, 0 waived; to look at: hyphen-joins 7, contents 14, accents 5, rare-forms 2, serial-commas 7 — tools@528b2324 2026-11-22

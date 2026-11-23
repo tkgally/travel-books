@@ -1,0 +1,28 @@
+[[page ?]]
+
+# <i>Contents.</i>
+
+| <sc>chapter</sc> | | <sc>page</sc> |
+|---|---|---|
+| I. | <sc>over the sea</sc> | <pref>1</pref> |
+| II. | <sc>the tropics</sc> | <pref>10</pref> |
+| III. | <sc>rio to tijuca</sc> | <pref>22</pref> |
+| IV. | <sc>an old felon</sc> | <pref>33</pref> |
+| V. | ‘<sc>bichos</sc>’ | <pref>37</pref> |
+| VI. | <sc>the brazilian</sc> | <pref>45</pref> |
+| VII. | <sc>santos to san paulo</sc> | <pref>58</pref> |
+| VIII. | <sc>slavery</sc> | <pref>68</pref> |
+| IX. | <sc>means of communication</sc> | <pref>75</pref> |
+| X. | ‘<sc>yellow jack</sc>’ | <pref>86</pref> |
+| XI. | <sc>the lazaretto</sc> | <pref>92</pref> |
+| XII. | <sc>up stream</sc> | <pref>108</pref> |
+| XIII. | <sc>revolution</sc> | <pref>119</pref> |
+| XIV. | <sc>salto</sc> | <pref>141</pref> |
+| XV. | <sc>across the plains</sc> | <pref>152</pref> |
+| XVI. | <sc>the land of tongues</sc> | <pref>164</pref> |
+| XVII. | <sc>buenos ayres and la plata</sc> | <pref>180</pref> |
+| XVIII. | <sc>the camp</sc> | <pref>196</pref> |
+| XIX. | <sc>along the paraná</sc> | <pref>205</pref> |
+| XX. | <sc>the gaucho</sc> | <pref>213</pref> |
+| XXI. | <sc>where the shoe will pinch</sc> | <pref>222</pref> |
+| INDEX | | <pref>239</pref> |

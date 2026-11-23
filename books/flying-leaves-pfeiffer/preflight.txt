@@ -1,0 +1,47 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[       ok] audit: book.json records the sampled audit of this version
+[look (18)] hyphen-joins: page-break hyphen joins (hyphen removed): read the list once
+            - hyphen join at p0028: …more character-|istically Orien… (hyphen removed; check)
+            - hyphen join at p0039: …s upon the mag-|nificent plain … (hyphen removed; check)
+            - hyphen join at p0048: …gs, clumsy sem-|blances of plan… (hyphen removed; check)
+            - hyphen join at p0051: …to long proces-|sions of gods a… (hyphen removed; check)
+            - hyphen join at p0104: …pinion concern-|ing architectur… (hyphen removed; check)
+            - hyphen join at p0111: …omehow suggest-|ing a bowie kni… (hyphen removed; check)
+            - hyphen join at p0159: …er other minis-|trations, are m… (hyphen removed; check)
+            - hyphen join at p0175: … city. The con-|versation turne… (hyphen removed; check)
+            - hyphen join at p0179: … It seems, how-|ever, that ther… (hyphen removed; check)
+            - hyphen join at p0201: …ssessed the in-|formation it ha… (hyphen removed; check)
+            - hyphen join at p0204: …ed, almost con-|founded, by the… (hyphen removed; check)
+            - hyphen join at p0214: … little instru-|ments, in all w… (hyphen removed; check)
+            - hyphen join at p0220: …ther mortifica-|tion of finding… (hyphen removed; check)
+            - hyphen join at p0260: …n, Mrs. C—— re-|fused to budge … (hyphen removed; check)
+            - hyphen join at p0290: …ature and keen-|ness of express… (hyphen removed; check)
+            - hyphen join at p0303: …n: Samuel John-|son, Peter and … (hyphen removed; check)
+            - hyphen join at p0304: … came to be re-|garded as a kin… (hyphen removed; check)
+            - hyphen join at p0308: …s. If that con-|stitutes a char… (hyphen removed; check)
+[ look (5)] joins: page joins: missing [[cont]], or [[cont]] after a closed sentence
+            - p0025: [[cont]] after a closed sentence …'s possibly of lower rank.' | 'They are also muffled in '
+            - p0054: [[cont]] after a closed sentence …'urished the sacred olive.' | 'In these precincts, conse'
+            - p0079: [[cont]] after a closed sentence …'be somewhat out of focus.' | 'We modern Gentiles,—‘heir'
+            - p0135: [[cont]] after a closed sentence …'test idea of its quality.' | 'To begin with, colour in '
+            - p0141: [[cont]] after a closed sentence …'art to run or to cry out.' | 'As the little creature’s '
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] contents: entries of the printed contents with no matching heading
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight PASS: flying-leaves-pfeiffer v2 — 0 to fix, 0 waived; to look at: hyphen-joins 18, joins 5 — tools@6b8af86 2026-11-19

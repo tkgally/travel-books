@@ -1,0 +1,101 @@
+{
+ "id": "aloha-chaney",
+ "version": 1,
+ "date": "2026-11-21",
+ "title": "“Alo′ha!”",
+ "subtitle": "A Hawaiian Salutation",
+ "short_title": "Aloha!",
+ "authors": [
+  {
+   "name": "George Leonard Chaney",
+   "sort": "Chaney, George Leonard",
+   "born": 1836,
+   "died": 1922
+  }
+ ],
+ "place": "Boston",
+ "publisher": "Roberts Brothers",
+ "year": 1880,
+ "source": {
+  "ia_identifier": "alohahawaiiansal00chan_0",
+  "contributor": "Library of Congress",
+  "hidden_leaves": [
+   0,
+   9,
+   10,
+   191,
+   192,
+   213,
+   214,
+   335
+  ]
+ },
+ "edition_statement": "First edition",
+ "regions": [
+  "United States"
+ ],
+ "period": "1876",
+ "summary": "George Leonard Chaney, a Unitarian minister of Boston, spent the first months of 1876 in the Hawaiian Islands at the invitation of H. A. P. Carter and his wife, to whom the book is dedicated; the year is worked out from the dates and weekdays in the text. He sails from San Francisco in January, stays in Honolulu and at Waikiki, and goes by steamer with Prince Leleiohoku to Hilo, where he visits the volcano of Kilauea, Cocoa-nut Island, Puna, and Onomea. He describes the missionaries and their work, then goes on to Wailuku and the Iao valley on Maui, to Kaawaloa and Kona and up Hualalai on Hawaii, to Makawao and Haleakala, and back to Honolulu for a ride round Oahu. Hawaiian songs, customs, and people run through the book, with a page of printed music. There are three engravings and a folding map.",
+ "omitted_from_reading": "The half-title and printed contents are in the JSON only.",
+ "notes_on_text": [],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-21",
+   "note": "First publication."
+  }
+ ],
+ "frontispiece": "p0008-1",
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "front",
+   "title": "Half-title"
+  },
+  {
+   "at": "p0011",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0013",
+   "kind": "dedication"
+  },
+  {
+   "at": "p0015",
+   "kind": "preface"
+  },
+  {
+   "at": "p0019",
+   "kind": "contents"
+  },
+  {
+   "at": "p0022",
+   "kind": "front",
+   "title": "Map of the Hawaiian Archipelago",
+   "reading": true
+  },
+  {
+   "at": "p0023",
+   "kind": "front",
+   "title": "Half-title above the first chapter"
+  },
+  {
+   "at": "p0023",
+   "n": 2,
+   "kind": "chapter"
+  }
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-21",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ },
+ "keep_hyphens": [
+  "p0025",
+  "p0090",
+  "p0227"
+ ]
+}

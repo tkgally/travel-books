@@ -1,0 +1,69 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[       ok] audit: book.json records the sampled audit of this version
+[ look (1)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - (and 3 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[ look (3)] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+            - p0034: closing ” with no opening “: 'S——O——.”'
+            - p0045: closing ” with no opening “: 'There are three semi-foreign hotels here, the Sugimoto, the '
+            - p0116: closing ” with no opening “: 'Assuming my very lordliest air and puffing vigorously at my '
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[ look (2)] contents: entries of the printed contents with no matching heading
+            - p0014: 'The Imperial Palace and Nijo Castle'
+            - p0014: 'Kumamoto and the Volcano Aso San. Hakata, Takeo, Nagasaki, and—Adieu!'
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
+[       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
+[look (20)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0014, p0016, p0017, p0018, p0019, p0020…); à (p0026, p0051, p0082, p0114, p0146, p0154)
+            - daimio: daimio (p0023, p0076); daimiõ (p0060, p0132); daimiö (p0106); daimiō (p0044, p0060, p0117)
+            - daimios: daimios (p0087, p0144, p0145, p0151); daimiõs (p0086)
+            - do: do (p0021, p0022, p0024, p0025, p0026, p0028…); dō (p0049); dŏ (p0026)
+            - gotzo: gotzo (p0055); gotzŏ (p0055)
+            - hakone: hakone (p0087); hakoné (p0090, p0091, p0093)
+            - hikone: hikone (p0132); hikoné (p0133, p0135)
+            - kamo: kamo (p0099, p0100); kamō (p0089)
+            - no: no (p0016, p0017, p0018, p0020, p0022, p0023…); nõ (p0081); nō (p0054, p0096); nŏ (p0100)
+            - o: o (p0009, p0010, p0014, p0015, p0017, p0030…); ŏ (p0127)
+            - piece: piece (p0034, p0080, p0098, p0102, p0106, p0157…); pièce (p0155)
+            - resistance: resistance (p0018); résistance (p0155)
+            - saigo: saigo (p0061); saigõ (p0082)
+            - sake: sake (p0031, p0071, p0079); sakè (p0104); saké (p0017, p0018, p0030, p0031, p0051, p0056…); sakê (p0160)
+            - sayonara: sayonara (p0015); sayônara (p0018, p0025)
+            - shinto: shinto (p0049, p0060, p0067, p0071, p0081, p0100…); shintõ (p0061)
+            - shogun: shogun (p0035, p0048, p0051, p0079, p0087, p0088…); shõgun (p0151)
+            - taiko: taiko (p0050, p0051); taikō (p0038)
+            - takusan: takusan (p0031, p0160); takŭsan (p0055)
+            - tenno: tenno (p0018); tennõ (p0128); tennō (p0064, p0099)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[ look (3)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0077: “retie” — “retire” is common (73; a letter dropped or transposed?)
+            - p0138: “throe” — “throne” is common (197; a letter dropped or transposed?)
+            - p0139: “litt” — “lift” is common (82)
+[       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
+[ look (3)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: …t by Kobe, Osaka, Arima, Kioto, Nara and Ise, Nagoya, Yokoham…
+            - book.json summary: …a, Kioto, Nara and Ise, Nagoya, Yokohama and Tokio, Nikko and the…
+            - book.json summary: …se, Nagoya, Yokohama and Tokio, Nikko and the Hakone district,…
+[       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight PASS: land-of-the-tatami-murray v5 — 0 to fix, 0 waived; to look at: hyphen-joins 1, quote-balance 3, contents 2, accents 20, rare-forms 3, serial-commas 3 — tools@e9870dae 2026-11-22

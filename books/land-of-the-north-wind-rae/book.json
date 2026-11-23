@@ -1,0 +1,261 @@
+{
+ "id": "land-of-the-north-wind-rae",
+ "version": 1,
+ "date": "2026-11-20",
+ "title": "The Land of the North Wind",
+ "subtitle": "Or Travels among the Laplanders and the Samoyedes",
+ "short_title": "The Land of the North Wind",
+ "authors": [
+  {
+   "name": "Edward Rae",
+   "sort": "Rae, Edward",
+   "born": 1847
+  }
+ ],
+ "place": "London",
+ "publisher": "John Murray",
+ "year": 1875,
+ "edition_statement": "First edition",
+ "source": {
+  "ia_identifier": "landofnorthwind00raee",
+  "contributor": "Princeton Theological Seminary Library",
+  "hidden_leaves": [
+   0,
+   9,
+   10,
+   389
+  ]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  }
+ ],
+ "regions": [
+  "Norway",
+  "Finland",
+  "Sweden",
+  "Russia"
+ ],
+ "period": "1873–74",
+ "frontispiece": "p0008-1",
+ "toc": {
+  "subtitles": "all"
+ },
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "front"
+  },
+  {
+   "at": "p0011",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0013",
+   "kind": "dedication"
+  },
+  {
+   "at": "p0015",
+   "kind": "preface"
+  },
+  {
+   "at": "p0017",
+   "kind": "contents"
+  },
+  {
+   "at": "p0025",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0026",
+   "kind": "errata"
+  },
+  {
+   "at": "p0027",
+   "kind": "chapter",
+   "title": "Chapter I",
+   "toc_title": "Chapter I. The North Wind doth blow—The Doctor—Decline of Originality—Our Scheme of Travel—Preparations for Journey to Lapland, and Means of Transport."
+  },
+  {
+   "at": "p0032",
+   "kind": "chapter",
+   "title": "Chapter II",
+   "toc_title": "Chapter II. Embark for Norway—Our Fellow-passengers—Touch at Molde and Christiansund—Arrival at Throndhjem—Reminder of byegone Days—Supplementary Preparations—Cathedral of St. Olaf—Set sail in Steamer Hakon Jarl for the North—Crowded Vessel and deplorable Accommodation—The Libby Prison, late the Tank—An old Friend—Arrive at Bodö—The branch Steamer for the Lôfoden Islands—Orpheus—The Lôfodens—Meeting with King Oscar—Reach Tromsö—Expedition to an Encampment of Laplanders—Good-bye to Tromsö—Leave the Hakon Jarl at Öxfiord."
+  },
+  {
+   "at": "p0049",
+   "kind": "chapter",
+   "title": "Chapter III",
+   "toc_title": "Chapter III. Voyage on Steamer Nor to Altenfiord—First Interview with Midnight Sun—Delay in obtaining Horses—Engage a Laplander as Guide—Leave Bosekop and enter the Lapland Forests—Jones—The Mosquitoes—Crossing of Alten River—Traverse lonely Birch-woods—Gargia—Comforts under Difficulties—Upon the Fjelds—Arrival at Suolovuolme—The Curse of the Arctic Summer—River Mâsi—Desolation of the Fjelds—Bengis Järvi—Johannes Strand—We lose Jones’ Services—Somerset—Leave for Kauto-keino."
+  },
+  {
+   "at": "p0068",
+   "kind": "chapter",
+   "title": "Chapter IV",
+   "toc_title": "Chapter IV. Come upon the Alten River—Reach Kauto-keino and take up our Quarters—The Lansmand—In search of the Antique—Bishop Hvoslef—Agreeable Interview with Laplanders—Portraits—John Schefferus, Professor at Upsala, on Lapland and its Inhabitants."
+  },
+  {
+   "at": "p0093",
+   "kind": "chapter",
+   "title": "Chapter V",
+   "toc_title": "Chapter V. Farewell to Kauto-keino—Ascend Alten River—Poling—Râouda Muodki—Bivouac in Silver-birch Forests—Cross the Frontier of Russian Lapland by the Light of the Midnight Sun—Watershed of Rivers Alten and Muônio—Midnight Rainbow—Suajärvi—Tame White Reindeer—Rambling over Fjelds and through Forests—Come upon River Muônio—Karesvando—Farewell to Brick and Somerset—Embark on the River—Shooting Rapids—Finlanders: our Boatmen—Their Language—Palajoki—Pass the Night on the River—Muônioniska—Take Herr Forsström’s Household at Muôniovara by Storm—Luxury—Swedish and Russian Laplands—Âbraham, our Pilot—A Finlandish Bath—Take Leave of our Hosts—Acerbi on the Lappiafors—Regnard."
+  },
+  {
+   "at": "p0110",
+   "kind": "chapter",
+   "title": "Chapter VI",
+   "toc_title": "Chapter VI. Descend the Cataract of Muôniokoski—Impressive Sight—Halt at Muonionalûsta—Continue our Journey down the Muônio—Our new Companions—Ariovara—Kindly Reception—Mosquitoes abating—Success of Remedy—Wild Reindeer—Narrow Escape at Kengis Cataract—Enter upon the Torneå River—Kardis—Pello and approach to Civilisation—Rapid of Kettilafors—Recross the Polar Circle—Avasaxa—Matarengi—Karyol Journey—Aged and eccentric Companion—Haparanda."
+  },
+  {
+   "at": "p0124",
+   "kind": "chapter",
+   "title": "Chapter VII",
+   "toc_title": "Chapter VII. Cross the River to Torneå—The old Church—Our Quarters in Haparanda—Expedition to the Kémi River—Billiards under the Arctic Circle—Disquieting Mile-posts—Misconstructions—Rapids on the Kémi river—An entertaining Acquaintance—Old stone Church of Kémi—Mummies of the Bishops—Return to Torneå—Farewell to Haparanda—Embark upon the Aâwasaksa—The last of the Midnight Sun."
+  },
+  {
+   "at": "p0140",
+   "kind": "chapter",
+   "title": "Chapter VIII",
+   "toc_title": "Chapter VIII. Arrival at Uleåborg—Our Friend Rae—The Cathedral—Sunday in the northern Capital of Finland—Inquisition by Finlanders—Reach Brâhestad—Opulence of Inhabitants—The Church—Forbidden Fruit—Calm sailing on the Gulf of Bothnia—Fire on board—Gamle Karleby—Economy of Living—A Feast—Decayed old Town—The last of the Mosquitoes—Sail along the Coast of Ostrobothnia—Pleasant Finnish Company—Another Fire on Board—An Uleåborg Acquaintance—The Finlanders’ Language—Russian Administration and Prosperity of the Country—Wâsa—Imposing Buildings—Evidences of Intemperance—A Finnish Grammar—Eager Inquisitiveness of the Finlanders—Life in Uleåborg—The Oûlu and its Rapids—Shipwrecked Mariners—An evening Resort—Out in the open Gulf—Pass through the Åland Islands—An ugly Fleet—Stockholm—The Royal Library—The Codex Argenteus—Leave for Upsala."
+  },
+  {
+   "at": "p0157",
+   "kind": "chapter",
+   "title": "Chapter IX",
+   "toc_title": "Chapter IX. Upsala and Old Upsala—Mounds of Odin, Thor, and Freya—Their Contents—Stockholm again—Magnificent Museum—Relics of Charles XII. and Gustavus Adolphus—Admirable prehistoric Collection, and Work in precious Metals—Sail for the Island of Gotland—The Mälar Lake and Södertelje Canal—Wisby—Interesting Remains of the Middle Ages—Disestablishment—Imposing Demonstration—Rough Passage to Stockholm—Morning Service—Depart for Copenhagen—The Museum of Northern Antiquities—Discouragement and a Friend in Need—Prehistoric, Runic, Mediæval, Ecclesiastical, and Icelandic Collections—Travel to Kiel—Railway to Hamburg—Renewal of a pleasant Acquaintance—Embark upon the North Sea—Rough Voyage—The Professor—Land at Grimsby."
+  },
+  {
+   "at": "p0170",
+   "kind": "chapter",
+   "title": "Chapter X",
+   "toc_title": "Chapter X. Preparations for our Second Journey—Terra Aquilonis—An unknown Land—Friendly Assistance—More elaborate Provision for Travel—Our Tent and Union Jack—Plan finally adopted—Leave for Granton, N.B."
+  },
+  {
+   "at": "p0175",
+   "kind": "chapter",
+   "title": "Chapter XI",
+   "toc_title": "Chapter XI. Set Sail for the Northern Seas—The Danish Steamer Norden—Our distinguished Position on Board—Dreary and stormy Voyage—Wind and Cold—Cross the North Polar Circle—Sunday on the Arctic—The Midnight Sun—The longest Day in the Year—Whales—Ice and Snow—We sight the Lôfodens—Pass Tromsö and Hammerfest—Round the North Cape—The Coast of Finnemarken—Regions of the North Wind—The Lapland Coast—Snows of Russian Lapland—Round Cape Svîatoi Nôs and enter the White Sea—Cape Orloff—We enter the Dvina—Mosquitoes already—Glorious Sunset—We anchor off Archangel—Solômbola—The Streets of Archangel—Kind Reception by the English Consul—Cathedral of Peter the Great—Solovetsk Monastery—The Museum—Pre-diluvian Remains and Samoyede Objects."
+  },
+  {
+   "at": "p0191",
+   "kind": "chapter",
+   "title": "Chapter XII",
+   "toc_title": "Chapter XII. Leave Archangel for the North-east—Skirt the Dvina River—Forests and Rivers of Archangel Province—Ancient Town of Holmogôry—Come upon the River Pînega—Imposing Scenery and delicate Vegetation—North Russian Villages—Desolating News and an Alternative—A Knave—We reach Pînega—Negociations for Journey to Mezén—Resort to the Protection of Russian Justice—Disillusion—A rough Scene—Finessing—The Spitzbooben—Sickness at Heart—An Exile and a Gentleman—The Isprâvnik—Discouragement and Reanimation—Auri Sacra Fames—Complaint to the Times—Adieu to Pînega, and thank Goodness."
+  },
+  {
+   "at": "p0211",
+   "kind": "chapter",
+   "title": "Chapter XIII",
+   "toc_title": "Chapter XIII. Embark upon the Kûloi River—Comforts and Relief—Lovely Scenery—Delights of Idleness—Reflections upon the Mosquitoes—Sport and Photography upon the Kûloi River—A luxurious Bathe—Kargopol—Fruitless Attempt upon a household God Magnificent Daylight—Dolga Schelje—Good News—The Estuary of the Kûloi—An Arctic Storm—Steam to the Mezén River—Nicholas John Rusânoff—A City of the Future—Hospitable Reception—Transformations upon the Mezén River—Timber Port of Rusânova—Sail up the River to Mezén. Formidable Tides—The last Town in the World—Siberia in Europe—Exiled Poles—A genial Magistrate—A Disaster—We spend the Day and Evening with Exiles—A Blot upon Civilisation—The Inquisition in Poland—Siberia."
+  },
+  {
+   "at": "p0233",
+   "kind": "chapter",
+   "title": "Chapter XIV",
+   "toc_title": "Chapter XIV. Okladnikôva—Visited by Samoyedes—Their Habits and Employment—A Samoyede Song—Heathenism and Sorcerers—Honesty and Dignity of the Samoyedes—Matthias Alexander Castren—Physical Characteristics of the Samoyedes—Their Wanderings and Origin—Trace of the Glacial Period—A Lesson in Samoyede—Difficulty of mutual Comprehension—Samoyede Vocabulary and Christian Names—Mongol Characteristics—Leave Mezén—Leisure Hours at Rusânova—A Christening: and Memorials in Contemplation—The Land we are about to visit."
+  },
+  {
+   "at": "p0253",
+   "kind": "chapter",
+   "title": "Chapter XV",
+   "toc_title": "Chapter XV. Completion of our Preparations—Sail for Kânin—Mglâu—Visit to a Russian Peasant’s Household—Reindeer Herd—At Sea again—The Calm that precedes a Storm—Heavy Weather and a shallow Sea—The Cape of Kanûshin—Hopeless Attempt to round it—We run for Korga—The Abomination of Desolation—Our Wigwam—Absence of Game—Narrow Escape of the Doctor—Evacuation of Korga—We approach Kanûshin again—Hopeless Struggles with the Elements—Driven back in Despair—Kanûshin Cliffs—A deserted Village—A Surprise—A wealthy Shrine—Lonely Mass—Dreariness—Merciful Change of the Wind—Insubordination of the Boatmen and superior Unreasonableness of Ourselves—We double Cape Kanûshin and sail Northward Ho—The low Coast Line—Kiya—The Land of the Samoyedes at last—Their Appearance, Features, and Expression—Further Enquiries and Plans—A Samoyede Gentleman—A vain Experiment—Reach the Mièsna River—A Quicksand—Samoyede Visitors."
+  },
+  {
+   "at": "p0276",
+   "kind": "chapter",
+   "title": "Chapter XVI",
+   "toc_title": "Chapter XVI. Negotiations for Journey to the Interior—Reindeer Sledges—A Purchase and characteristic Incident—We start for the Tûndras—Our sledging Procession—Description of Sledges, &c.—Articles of Samoyede Dress—Ladies’ Attire—Mièsna—Beautiful Wigwam—Cleanliness and Courtesy of the Samoyedes—Tent Life—Adroit Hunters—We photograph and mystify a Group of Samoyedes—A Samoyede Deity and Place of Worship—Idolatry—Kânin Nôs as a Refuge—Wolf Traps—Samoyede Dogs—Sledging over the Tûndras—Unaccustomed Mode of Travel—The Tûndras—Swamps and Wilderness—Surprising Qualities of Reindeer and Sledges—Difficult Conditions of Travel and keen Enjoyment—Reflections on the Reindeer—The only Land for Summer Sledging—Travelling Eastward to Koroléva—Village of Tjoûma—The Smallest Church in the World—A Samoyede Grave—The Self-eaters—Reflections upon Self-eating and Sentimental Prejudices against it."
+  },
+  {
+   "at": "p0300",
+   "kind": "chapter",
+   "title": "Chapter XVII",
+   "toc_title": "Chapter XVII. Repose in a Samoyede Village—Magnificent Weather—An Accident—Passage of the Koroléva River—Koroléva and the Heart of the Kânin Peninsula—Important Village—Preparations for Departure of Inhabitants—Chilling Reception—Samoyede Apprehensions—Abortive Photographs—The Korolévans—Stray Mongols and relative Characteristics of the Samoyedes, Ostjaks, and other Siberian Races—Justifiable Suspiciousness—Emigration of the Tribe—Impressive Sight—An Extensive Reindeer Proprietor—A vanished Village—We continue our Journey—Cautious fording of the Koroléva River—Bewildering Course—Sledge-driving—Baby Reindeer—Lassoing Reindeer—Encounters on the March—Cross the Schoina River and establish ourselves in the Village—Prevailing Cleanliness and friendly Courtesy of the Samoyedes—Varieties of Dialect—The Samoyede Nobleman and the Russian Boor—Well-bred Hosts—The Strangers from afar—Superstitions of the Samoyedes—A Lesson in Dignity—Perilous Voyage in a Samoyede Canoe—Reach the family Boat—Visit to a Samoyede Village—Habits and Welcome—Stores replenished—Southward bound—Kanûshin in a Calm—Swarms of Whales—The wide and lonely Sea—The Midnight Sun."
+  },
+  {
+   "at": "p0319",
+   "kind": "chapter",
+   "title": "Chapter XVIII",
+   "toc_title": "Chapter XVIII. Korga Reefs—The Journey from Tchîsha to the Gulf of Tcheskoi—Samoyedes at Tchórnaya—Sunday upon a calm Sea—Dissatisfaction and a Quarrel—Reach the Northern Limit of Trees again—The Njess River—Mglâu—Reindeer and Siberian Salmon—Difficulty of Navigation on Kânin Coast—Joyful Return to the Mezén River and Rusânova—Hearty Reception—Plan for reaching Archangel—An additional Member to our Family—A Russian Wolf—Journey to Sjomscha—Negotiations and Disappointments—The Samoyedes again—Mosquitoes—Purchases—Abandon the Sjomschan Boatmen in Despair—The North Russian Peasantry; their Rapacity and Suspiciousness—Our last Evening at Rusânova—Set sail for the Kuloi River—Incident in Natural History—The last of Kânin."
+  },
+  {
+   "at": "p0335",
+   "kind": "chapter",
+   "title": "Chapter XIX",
+   "toc_title": "Chapter XIX. Dolga Schelje—Fortunate Renewal of an Acquaintance—Parting Salute—Bivouac by the Shore—Excessive Suffering from Mosquitoes—Snow and Ice—Unaccountable Tides—A fair Passenger—Koida—Gallant Resistance to female Wilfulness—Cross and re-cross the Polar Circle—Morjôvets Island—An Arctic Scene—Dead Calm and Gale—Cape Vôronoff—Swift Voyage—Our Wolf—Overtaken by a White Sea Mist—Disaster to the Cooking Apparatus—Put out to salute a Steamer homeward bound—A Bathe in the White Sea—Sight Moûdiuga Lighthouse—The British Flag—A friendly Scotchman—Towed by a Ship—Enter the Dvina again."
+  },
+  {
+   "at": "p0346",
+   "kind": "chapter",
+   "title": "Chapter XX",
+   "toc_title": "Chapter XX. Choice of Steamers—A Disappointment—The Solovetsk Islands—Quartered in the Club—Ivan the Terrible—Photograph of the Samoyede Village—Our Consul—The Merchants of Archangel—Sunday—Morning Service in the Cathedral—Unsatisfactory Condition of the Lower Classes—An Old-Russian Festival and Costumes—Reverend Sufferers—The Khiva Expedition—Are articled to the Steamship Coumoundouros—Costliness of Furs—Good-bye to Archangel."
+  },
+  {
+   "at": "p0360",
+   "kind": "chapter",
+   "title": "Chapter XXI",
+   "toc_title": "Chapter XXI. Run aground in the Dvina—Insect Persecution—Le Distrait—Afloat—Run ashore in the White Sea—The Solovetsk Steamer and Monastery—We struggle off the Bank and sail for England—The Lapland Coast—A comprehensive Name—A destructive Shot—Cry of Wolf—Slow Progress—Whales and the solemn North Cape—Grand coast Scenery—Dead Calm off the Lôfodens—The last of the Midnight Sun A Rainbow—Shark ahoy—Cross the Arctic Circle—Heavy Weather and the deep Sea—The Steamer labouring heavily—Bad Nights and Anxiety—No abatement in Storm—Despondency—One Mile per Hour—Sight the Shetlands at last—The Coast of Scotland—Aberdeen—A strange Arrival."
+  },
+  {
+   "at": "p0373",
+   "kind": "chapter",
+   "title": "Chapter XXII",
+   "toc_title": "Chapter XXII. A pleasant Letter—Impression left at Mezén—The End of Pimi—Effects of our Gale in the White Sea—Foreign Policy of Russia—Development of her Influence—Evidences—The Amnesty of 1874 to Poles—Reflections on our Journey—Farewell to Everybody."
+  }
+ ],
+ "omitted_from_reading": "The half-title, the printed contents, the list of illustrations, and the errata are in the JSON only.",
+ "summary": "Two summer journeys in the far north of Europe by Edward Rae and a friend he calls “the Doctor”, written up from his journals. In 1873 they sailed from Hull to Norway and up the coast by Throndhjem and the Lôfoden Islands to Tromsö, crossed the fjelds of Norwegian Lapland by Kauto-keino with Lapp guides, came down the Muônio and Torneå rivers by boat to Haparanda, and went home through Sweden by Upsala, Stockholm, and Gotland. In 1874 they sailed round the North Cape to Archangel, went up the Dvina and the Pînega, crossed by the Kûloi river to Mezén, and travelled among the Samoyedes of the Kânin peninsula, returning by the White Sea and the Solovetsk monastery. Rae writes about the people they met, their tents, reindeer, food and travel, mosquitoes and weather, with a short Samoyede vocabulary. Three plates, a title vignette, and a map of the routes.",
+ "notes_on_text": [
+  "The printed errata (six items) have been applied.",
+  "Names and Samoyede words with “ou” carry a single wide circumflex printed over both letters; it is given here as “oû” throughout (knoût, moûjik, Tjoûma).",
+  "The contents give each chapter’s printed summary in full, as the book does.",
+  "On page 244 two small musical figures are printed in the line of text, a note marked with a flat and a note marked with a sharp; they are given here as ♭ and ♯."
+ ],
+ "keep_hyphens": [
+  "p0094",
+  "p0188"
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0006",
+   "why": "blank page"
+  },
+  {
+   "check": "leaves",
+   "match": "p0007",
+   "why": "blank page"
+  },
+  {
+   "check": "leaves",
+   "match": "p0012",
+   "why": "blank page"
+  },
+  {
+   "check": "leaves",
+   "match": "p0014",
+   "why": "blank page"
+  },
+  {
+   "check": "leaves",
+   "match": "p0193",
+   "why": "blank page"
+  },
+  {
+   "check": "leaves",
+   "match": "p0282",
+   "why": "blank page"
+  }
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-20",
+  "pages": 26,
+  "recall": "130/130",
+  "real_errors": 2,
+  "fixed": 2
+ }
+}

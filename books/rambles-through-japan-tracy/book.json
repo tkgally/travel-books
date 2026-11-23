@@ -1,0 +1,162 @@
+{
+ "id": "rambles-through-japan-tracy",
+ "version": 2,
+ "date": "2026-11-20",
+ "title": "Rambles through Japan without a Guide",
+ "short_title": "Rambles through Japan",
+ "authors": [
+  {
+   "name": "Albert Tracy",
+   "sort": "Tracy, Albert",
+   "born": 1845,
+   "died": 1916
+  }
+ ],
+ "place": "London",
+ "publisher": "Sampson Low, Marston & Company",
+ "year": 1892,
+ "edition_statement": "First edition",
+ "collection": "jatsi",
+ "source": {
+  "ia_identifier": "ramblesthroughja00leffrich",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": [],
+  "extra_leaves": {
+   "p0132a": {
+    "ia_identifier": "ramblesthroughj00leffgoog",
+    "n": 134,
+    "what": "printed page 113, missing from the UC scan"
+   },
+   "p0132b": {
+    "ia_identifier": "ramblesthroughj00leffgoog",
+    "n": 135,
+    "what": "printed page 114, missing from the UC scan"
+   }
+  }
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  },
+  {
+   "version": 2,
+   "date": "2026-11-20",
+   "note": "The decorative head-pieces and tail-pieces of the chapters added, shown small."
+  }
+ ],
+ "regions": [
+  "Japan"
+ ],
+ "period": "1881",
+ "subjects": [
+  "Nakasendo",
+  "Inns",
+  "Buddhist temples",
+  "Missions"
+ ],
+ "summary": [
+  "“Albert Tracy” was the pen name of Albert Tracy Leffingwell (1845–1916), an American physician known for his writing on vivisection. In the preface he describes the book as the notes of a three months’ journey alone through Japan, made with “neither interpreter nor guide” and no more Japanese than he had picked up in a fortnight in Tokyo. The book does not give the year; the dates in the diary and the stage-coach he took from Tokyo point to 1881.",
+  "After Yokohama, Tokyo, a short trip to Sakura, and a visit to Nikko, he travelled by coach, jinrikisha, pack-horse, and on foot along the Naka-sen-do, the mountain road through central Japan, staying at village inns, to Lake Biwa and Kyoto. From Kyoto he went to Nara, the monasteries of Koya-san, and Osaka, then by steamer on the Inland Sea to Okayama, Hiroshima, and Miyajima, and by Shimonoseki to Nagasaki. He describes inns, temples, schools, silk-weaving, prisons, and the American missions. The last chapter, on the present and future of Japan, gives statistics of population and health and argues against the treaties imposed on Japan by the Western powers."
+ ],
+ "divisions": [
+  {
+   "at": "p0006",
+   "kind": "front"
+  },
+  {
+   "at": "p0007",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0009",
+   "kind": "preface"
+  },
+  {
+   "at": "p0013",
+   "kind": "contents"
+  },
+  {
+   "at": "p0019",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0020",
+   "kind": "front"
+  },
+  {
+   "at": "p0304",
+   "kind": "appendix"
+  }
+ ],
+ "frontispiece": "p0006-1",
+ "toc": {
+  "subtitles": "all"
+ },
+ "omitted_from_reading": "The printed contents, the list of illustrations, and the epigraph from Lord Elgin’s letters are in the JSON only.",
+ "notes_on_text": [
+  "Transcribed from the copy at the University of California (Internet Archive: ramblesthroughja00leffrich), the author’s gift to the University library. One leaf, pages 113–114, is missing from that copy; its text is taken from the University of Michigan copy of the same edition (ramblesthroughj00leffgoog).",
+  "The engraving “A Japanese Peasant” on page 114 is not reproduced: the leaf is missing from the California copy and the picture is blank in the Michigan scan. Its caption is listed in the List of Illustrations.",
+  "The decorative head-pieces and tail-pieces of the chapters are shown small.",
+  "“Albert Tracy” is a pen name of Albert Tracy Leffingwell (1845–1916), who signed the title page of this copy."
+ ],
+ "keep_hyphens": [
+  "p0146"
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0008",
+   "why": "verso of the title page with only the library's accession number (pencil): left out on purpose"
+  }
+ ],
+ "audit": {
+  "version": 2,
+  "date": "2026-11-20",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0,
+  "note": "text unchanged except listed fixes: version 1's audit (p0065, p0136, p0155, p0169, p0193, p0225; a second run on p0132a (the leaf from the Michigan scan): 5/5, 0 candidates); version 2 adds only the ornament images"
+ },
+ "ornaments": [
+  "p0021-1",
+  "p0031-1",
+  "p0039-1",
+  "p0040-1",
+  "p0048-1",
+  "p0049-1",
+  "p0057-1",
+  "p0058-1",
+  "p0066-1",
+  "p0067-1",
+  "p0079-1",
+  "p0080-1",
+  "p0084-1",
+  "p0085-1",
+  "p0103-1",
+  "p0104-1",
+  "p0119-1",
+  "p0120-1",
+  "p0134-1",
+  "p0135-1",
+  "p0151-1",
+  "p0175-1",
+  "p0188-1",
+  "p0189-1",
+  "p0203-1",
+  "p0204-1",
+  "p0223-1",
+  "p0224-1",
+  "p0244-1",
+  "p0245-1",
+  "p0268-1",
+  "p0276-1",
+  "p0277-1",
+  "p0287-1",
+  "p0288-1",
+  "p0303-1",
+  "p0304-1"
+ ]
+}

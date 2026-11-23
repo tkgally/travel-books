@@ -1,0 +1,337 @@
+{
+ "id": "trip-to-mexico-becher",
+ "version": 1,
+ "date": "2026-11-21",
+ "title": "A Trip to Mexico",
+ "subtitle": "Being Notes of a Journey from Lake Erie to Lake Tezcuco and Back, with an Appendix, Containing and Being a Paper about the Ancient Nations and Races Who Inhabited Mexico, before and at the Time of the Spanish Conquest, and the Ancient Stone and Other Structures and Ruins of Ancient Cities Found There",
+ "short_title": "A Trip to Mexico",
+ "authors": [
+  {
+   "name": "H. C. R. Becher",
+   "sort": "Becher, H. C. R.",
+   "born": 1817,
+   "died": 1885
+  }
+ ],
+ "place": "Toronto",
+ "publisher": "Willing and Williamson",
+ "year": 1880,
+ "edition_statement": "First edition",
+ "regions": [
+  "Mexico",
+  "United States"
+ ],
+ "period": "1878",
+ "subjects": [
+  "Railways",
+  "Archaeology"
+ ],
+ "summary": [
+  "Henry Corry Rowley Becher (1817–1885) was a lawyer of London, Ontario. In February and March 1878 he and a small party left the Canadian winter and travelled by rail through Cincinnati and the Mammoth Cave of Kentucky to New Orleans, then by steamer to Vera Cruz. The book is made of his eight letters home, with diary entries. They describe the new railway up to Orizaba and the plateau, Mexico City and its churches, markets, and museum, an expedition on the canals, a meeting with President Porfirio Díaz, Puebla and the pyramid of Cholula, Jalapa, and a norther in the harbour at Vera Cruz before the voyage home. An appendix of about forty pages, largely drawn from other writers, describes the ancient peoples of Mexico and the ruins of Teotihuacan, Cholula, Palenque, Uxmal, and other sites. The book has twenty mounted photographs and two lithographs, among them a railway map."
+ ],
+ "source": {
+  "ia_identifier": "31383026826019",
+  "contributor": "Vancouver Public Library",
+  "hidden_leaves": [
+   0,
+   31,
+   32,
+   279
+  ]
+ },
+ "frontispiece": "p0006-1",
+ "omitted_from_reading": "The errata slip (applied to the text), the printed contents, and the index to the appendix are in the JSON only; the frontispiece follows the title page.",
+ "notes_on_text": [
+  "The errata slip is applied: “Borrow” for “Barrow” (p. 60), “monolith” for “monolinth” (p. 117), and “sopilotes” for “sapilotes” (p. 124), each marked as a correction. Its addition to p. 117, “Of the height given, the cofre is 134 feet,” is not inserted in the text.",
+  "The contents entries give each letter’s heading: where and when it was written.",
+  "Footnotes printed in more than one paragraph, among them a letter quoted in a note to Letter No. 8, are given as one paragraph each.",
+  "Three plates bound just before the page they face, where a new letter or section begins (the Infiernillo railway view; the two views of Cholula), are placed after that page’s first paragraph."
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-21",
+   "note": "First publication."
+  }
+ ],
+ "divisions": [
+  {
+   "at": "p0006",
+   "kind": "front",
+   "title": "Frontispiece"
+  },
+  {
+   "at": "p0007",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0009",
+   "kind": "preface"
+  },
+  {
+   "at": "p0011",
+   "kind": "errata"
+  },
+  {
+   "at": "p0011",
+   "n": 2,
+   "kind": "contents"
+  },
+  {
+   "at": "p0021",
+   "kind": "chapter",
+   "toc_title": "Letter No. 1. Steamship City of Mexico, Gulf of Mexico, 18th Feb., 1878"
+  },
+  {
+   "at": "p0040",
+   "kind": "chapter",
+   "toc_title": "Letter No. 2. Hotel de Diligentias, Orizaba, 23rd February, 1878"
+  },
+  {
+   "at": "p0063",
+   "kind": "chapter",
+   "toc_title": "Letter No. 3. Hotel Iturbide, City of Mexico, 25th February"
+  },
+  {
+   "at": "p0083",
+   "kind": "chapter",
+   "toc_title": "Letter No. 4. Hotel Iturbide, City of Mexico, 4th March"
+  },
+  {
+   "at": "p0135",
+   "kind": "chapter",
+   "toc_title": "Letter No. 5. Hotel Iturbide, City of Mexico, 7th March"
+  },
+  {
+   "at": "p0163",
+   "kind": "chapter",
+   "toc_title": "Letter No. 6. Hotel Vera Crusano, Vera Cruz, 13th March"
+  },
+  {
+   "at": "p0178",
+   "kind": "chapter",
+   "toc_title": "Letter No. 7. Jalapa, Mexico, 17th March"
+  },
+  {
+   "at": "p0197",
+   "kind": "chapter",
+   "toc_title": "Letter No. 8. S.S. City of Mexico, Vera Cruz Harbour, March 20"
+  },
+  {
+   "at": "p0271",
+   "kind": "index"
+  }
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0061",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0062",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0065",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0066",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0073",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0074",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0087",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0088",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0093",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0094",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0099",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0100",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0111",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0112",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0117",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0118",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0123",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0124",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0129",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0130",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0141",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0142",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0157",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0158",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0229",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0230",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0245",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0246",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0251",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0252",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0257",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0258",
+   "why": "tissue guard over a plate (shows the plate or the facing page through it); not transcribed"
+  },
+  {
+   "check": "spacing",
+   "match": "p0273",
+   "why": "ditto mark (“) in the index, printed as such"
+  }
+ ],
+ "keep_hyphens": [
+  "p0250"
+ ],
+ "ornaments": [
+  "p0011-1",
+  "p0015-1",
+  "p0021-1",
+  "p0039-1",
+  "p0040-1",
+  "p0058-1",
+  "p0063-1",
+  "p0082-1",
+  "p0083-1",
+  "p0134-1",
+  "p0135-1",
+  "p0163-1",
+  "p0178-1",
+  "p0196-1",
+  "p0197-1",
+  "p0211-1",
+  "p0213-1",
+  "p0271-1"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-21",
+  "pages": 6,
+  "recall": "29/29",
+  "real_errors": 0,
+  "fixed": 0
+ },
+ "leaf_order": [
+  [
+   "p0063",
+   "p0059",
+   "p0060"
+  ],
+  [
+   "p0233",
+   "p0227",
+   "p0228",
+   "p0231",
+   "p0232"
+  ]
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "id": "sketches-awheel-workman",
+ "version": 3,
+ "date": "2026-11-22",
+ "title": "Sketches Awheel in Modern Iberia",
+ "short_title": "Sketches Awheel in Modern Iberia",
+ "authors": [
+  {
+   "name": "Fanny Bullock Workman",
+   "sort": "Workman, Fanny Bullock",
+   "born": 1859,
+   "died": 1925
+  },
+  {
+   "name": "William Hunter Workman",
+   "sort": "Workman, William Hunter",
+   "born": 1847,
+   "died": 1937
+  }
+ ],
+ "place": "New York and London",
+ "publisher": "G. P. Putnam’s Sons, the Knickerbocker Press",
+ "year": 1897,
+ "edition_statement": "First edition",
+ "regions": [
+  "Spain",
+  "Morocco"
+ ],
+ "period": "1895",
+ "subjects": [
+  "Cycling",
+  "Travel in Spain"
+ ],
+ "summary": [
+  "Fanny Bullock Workman (1859–1925) and her husband William Hunter Workman (1847–1937), Americans then living in Germany who later travelled and climbed in the Himalaya, crossed Spain by bicycle in the spring and summer of 1895: about 4,500 kilometres from the French frontier at Port Bou through Catalonia, Valencia, Murcia, Andalucia, Extremadura, New and Old Castile, Aragon, and Navarre to Irun, with an excursion from Gibraltar to Tangier and Tetuan in Morocco.",
+  "They describe the roads and inns, customs officers, teamsters, innkeepers and townspeople, Holy Week and Corpus Christi processions, bullfights, the fair at Burgos, and at length the cathedrals, Moorish palaces, and Roman remains of the towns on the way. An introduction describes the Spanish roads for cyclists. The book has thirty photographs and a map of Spain."
+ ],
+ "source": {
+  "ia_identifier": "sketchesawheelin00work",
+  "contributor": "The Library of Congress",
+  "hidden_leaves": [
+   0,
+   337
+  ]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-19",
+   "note": "First publication."
+  },
+  {
+   "version": 2,
+   "date": "2026-11-19",
+   "note": "Contents: every chapter entry gives the chapter's full summary, as the printed contents does; the ODT has a contents list. Text unchanged."
+  },
+  {
+   "version": 3,
+   "date": "2026-11-22",
+   "note": "2 printer’s errors of a dropped or transposed letter marked and corrected: “thrity” for “thirty”, “speading” for “spreading”."
+  }
+ ],
+ "divisions": [
+  {
+   "at": "p0008",
+   "kind": "front"
+  },
+  {
+   "at": "p0009",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0011",
+   "kind": "dedication",
+   "title": "Dedications"
+  },
+  {
+   "at": "p0013",
+   "kind": "preface"
+  },
+  {
+   "at": "p0017",
+   "kind": "contents"
+  },
+  {
+   "at": "p0019",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0021",
+   "kind": "introduction"
+  },
+  {
+   "at": "p0027",
+   "kind": "front",
+   "title": "Half-title"
+  },
+  {
+   "at": "p0335",
+   "kind": "back",
+   "title": "Map of Spain",
+   "reading": true
+  }
+ ],
+ "toc": {
+  "subtitles": "all"
+ },
+ "omitted_from_reading": "The printed contents, the list of illustrations, and the half-title are in the JSON only.",
+ "notes_on_text": [
+  "The map of Spain was folded into a pocket inside the back cover; it is not in the list of illustrations. Its title, “Map of Spain”, is the editor’s.",
+  "The contents of these editions give every chapter its summary in full, as the printed contents does."
+ ],
+ "audit": {
+  "version": 3,
+  "date": "2026-11-19",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0,
+  "note": "text unchanged except listed fixes"
+ },
+ "frontispiece": "p0008-1"
+}

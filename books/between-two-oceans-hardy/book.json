@@ -1,0 +1,224 @@
+{
+ "id": "between-two-oceans-hardy",
+ "version": 4,
+ "date": "2026-11-22",
+ "title": "Between Two Oceans",
+ "subtitle": "or, Sketches of American Travel",
+ "short_title": "Between Two Oceans",
+ "authors": [
+  {
+   "name": "Iza Duffus Hardy",
+   "sort": "Hardy, Iza Duffus",
+   "born": 1850,
+   "died": 1922
+  }
+ ],
+ "place": "London",
+ "publisher": "Hurst and Blackett",
+ "year": 1884,
+ "edition_statement": "First edition",
+ "source": {
+  "ia_identifier": "betweentwooceans00hard",
+  "contributor": "Boston Public Library",
+  "hidden_leaves": [
+   0,
+   58,
+   59,
+   326,
+   327,
+   328,
+   329,
+   332,
+   333,
+   401
+  ]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-21",
+   "note": "First publication."
+  },
+  {
+   "version": 2,
+   "date": "2026-11-21",
+   "note": "A printer’s error corrected: “story” for “story.” (advertisements, p. 11) (found by a sweep of all the books after a reader’s report (issue #117), checked on the scan)."
+  },
+  {
+   "version": 3,
+   "date": "2026-11-22",
+   "note": "Title page typed line by line as printed."
+  },
+  {
+   "version": 4,
+   "date": "2026-11-22",
+   "note": "A printer’s error of a dropped or transposed letter marked and corrected: “interes” for “interest”."
+  }
+ ],
+ "regions": [
+  "United States",
+  "Canada"
+ ],
+ "period": "1881–83",
+ "summary": "Iza Duffus Hardy, an English novelist, travelled in the United States and Canada in the early 1880s with a companion (“we”), and this book collects her sketches of the journey, each a separate piece rather than one continuous narrative. It begins with the Atlantic crossing by steamer, Quebec and Niagara, and New York in summer heat, in the mourning for President Garfield in 1881, on Blackwell’s Island, and in the sleighing season. It goes on by rail to Salt Lake City, San Francisco (Chinatown, the Chinese New Year, the redwoods), and back across the Sierras to Colorado, and then to Washington, Richmond, Charleston and Fort Sumter in 1883, Georgia and Florida, ending on a river steamer on the Ocklawaha. The period is inferred from events named in the text.",
+ "divisions": [
+  {
+   "at": "p0007",
+   "kind": "front"
+  },
+  {
+   "at": "p0009",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0011",
+   "kind": "dedication"
+  },
+  {
+   "at": "p0013",
+   "kind": "contents"
+  },
+  {
+   "at": "p0015",
+   "kind": "front",
+   "n": 1
+  },
+  {
+   "at": "p0015",
+   "kind": "chapter",
+   "n": 2
+  },
+  {
+   "at": "p0379",
+   "kind": "advertisements"
+  }
+ ],
+ "omitted_from_reading": "The half-title, the back of the title page, the printed contents, the book title repeated above the first chapter, and the publishers’ advertisements are in the JSON only.",
+ "toc_entries": [
+  {
+   "at": "p0072",
+   "starts": "I.—Ninety-fi",
+   "title": "I.—Ninety-five Degrees in the Shade",
+   "editor": false
+  },
+  {
+   "at": "p0090",
+   "starts": "II.—The City",
+   "title": "II.—The City in Sorrow",
+   "editor": false
+  },
+  {
+   "at": "p0096",
+   "starts": "III.—Blackwe",
+   "title": "III.—Blackwell’s Island",
+   "editor": false
+  },
+  {
+   "at": "p0110",
+   "starts": "IV.—In the I",
+   "title": "IV.—In the Indian Summer",
+   "editor": false
+  },
+  {
+   "at": "p0123",
+   "starts": "V.—The Sleig",
+   "title": "V.—The Sleighing Season",
+   "editor": false
+  },
+  {
+   "at": "p0152",
+   "starts": "I.—In ‘The G",
+   "title": "I.—In ‘The Golden City.’",
+   "editor": false
+  },
+  {
+   "at": "p0169",
+   "starts": "II.—In China",
+   "title": "II.—In China Town",
+   "editor": false
+  },
+  {
+   "at": "p0182",
+   "starts": "III.—The Chi",
+   "title": "III.—The Chinese New Year",
+   "editor": false
+  },
+  {
+   "at": "p0193",
+   "starts": "IV.—San Fran",
+   "title": "IV.—San Francisco Life",
+   "editor": false
+  },
+  {
+   "at": "p0209",
+   "starts": "V.—Among the",
+   "title": "V.—Among the Redwoods",
+   "editor": false
+  },
+  {
+   "at": "p0297",
+   "starts": "I.—The City ",
+   "title": "I.—The City by the Sea",
+   "editor": false
+  },
+  {
+   "at": "p0303",
+   "starts": "II.—The Trip",
+   "title": "II.—The Trip to Fort Sumter",
+   "editor": false
+  },
+  {
+   "at": "p0309",
+   "starts": "III.—Under t",
+   "title": "III.—Under the Palmetto Flag",
+   "editor": false
+  },
+  {
+   "at": "p0324",
+   "starts": "IV.—Columbia",
+   "title": "IV.—Columbia",
+   "editor": false
+  },
+  {
+   "at": "p0349",
+   "starts": "I.—Jacksonvi",
+   "title": "I.—Jacksonville",
+   "editor": false
+  },
+  {
+   "at": "p0356",
+   "starts": "II.—The Olde",
+   "title": "II.—The Oldest City in the States",
+   "editor": false
+  },
+  {
+   "at": "p0368",
+   "starts": "III.—On Boar",
+   "title": "III.—On Board the ‘Okeehumkee.’",
+   "editor": false
+  }
+ ],
+ "subjects": [
+  "United States",
+  "Railways",
+  "Society"
+ ],
+ "keep_hyphens": [
+  "p0041",
+  "p0134",
+  "p0352"
+ ],
+ "audit": {
+  "version": 4,
+  "date": "2026-11-21",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0,
+  "note": "text unchanged except listed fixes"
+ },
+ "notes_on_text": [
+  "Page 95 is numbered 59 in print; the page links use 95.",
+  "The contents add the titles of the numbered sketches within four chapters, as the printed contents gives them."
+ ]
+}

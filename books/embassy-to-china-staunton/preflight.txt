@@ -1,0 +1,105 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[       ok] audit: book.json records the sampled audit of this version
+[look (10)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p1285: … Orange, Stadt-|holder of the U… (hyphen removed; check)
+            - hyphen join at p1470: …rthy of associ-|ating with the … (hyphen removed; check)
+            - hyphen join at p2133: …d by the epide-|mical diseases,… (hyphen removed; check)
+            - hyphen join at p2155: …ediately inter-|changed; and th… (hyphen removed; check)
+            - hyphen join at p2208: …ot equally per-|fected througho… (hyphen removed; check)
+            - hyphen join at p2416: …praying for be-|nediction. It i… (hyphen removed; check)
+            - hyphen join at p2529: …nity of betray-|ing. There was … (hyphen removed; check)
+            - hyphen join at p2566: …paratus for re-|storing suspend… (hyphen removed; check)
+            - hyphen join at p2607: …ture to be com-|pounded, form s… (hyphen removed; check)
+            - (and 130 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[ look (5)] folios: printed page numbers that break the sequence
+            - p2030: page 2 after page 518 (p1562)
+            - p3012: page 3 after page 626 (p2660)
+            - p3018: page 26 after page 3 (p3012)
+            - p3026: page 7 after page 26 (p3018)
+            - p3060: page 21 after page 8 (p3028)
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[look (27)] contents: entries of the printed contents with no matching heading
+            - p1013: 'Introduction.—Privileges granted by the Chinese government to the Port'
+            - p1014: 'page 1 to 29.'
+            - p1014: 'Thoughts on patronage—safely exercised in favour of popular characters'
+            - p1014: 'page 30 to 52.'
+            - p1014: 'Ships sail from Portsmouth—Jackall tender separated from them—are forc'
+            - p1015: 'page 53 to 85.'
+            - p1015: 'Conjectures relative to the origin of islands lying off the coast of A'
+            - p1016: 'Observations on the relative position of the African and American cont'
+            - p1017: 'Uniformity of the winds within and near the tropics—preparations made '
+            - p1018: 'Lion and Hindostan separate in attempting to discover vessels bound fo'
+            - p1020: 'Sickly state of the squadron.—Turon bay in Cochin-china a desirable pl'
+            - p1021: 'Conjectures on height and irregularity of tides in gulf of Tung-quin.—'
+            - p1022: 'Extent of the Chinese coast.—Boundaries of the Yellow sea.—Conduct of '
+            - p1023: 'page 438 to 518.'
+            - p2011: 'Safety of the Embassy in China—its arrival at Ta-coo within the mouth '
+            - p2012: 'page 1 to 81.'
+            - p2013: 'Great plain of Pe-che-lee an interesting object—conjectures as to its '
+            - p2015: 'page 82 to 167.'
+            - p2015: 'Road beyond Pekin—travelled by the Embassador in an English carriage—i'
+            - p2018: 'Page 168 to 276.'
+            - p2019: 'Departure from Zhe-hol.—Difference of treatment to different Embassado'
+            - p2020: 'Principal mode of travelling in China.—Northern rivers of China become'
+            - p2023: 'Description of Han-choo-foo—river between it and the sea—dress of the '
+            - p2027: 'page 439 to 525.'
+            - p2027: 'Temperature of Canton—effect of foreigners resorting to it.—Trade carr'
+            - p2029: 'Departure from Macao.—Disposition of the fleet.—Monsoons.—Effect of we'
+            - p2029: 'No. I. Table of extent and population of China Proper, from official p'
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
+[       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
+[ look (7)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - camoens: camoens (p2621); camoëns (p1044)
+            - hotel: hotel (p1033); hôtel (p2015, p2016, p2019, p2310, p2313, p2314…)
+            - hue: hue (p1222, p2120, p2342, p2475); hué (p1390, p1404, p1405, p1406, p1407)
+            - san: san (p1021, p1022, p1026, p1037, p1161, p1180…); sán (p1380, p1400)
+            - te: te (p1493, p2500, p2572, p2573); té (p1499)
+            - tong: tong (p1035, p1041, p1042, p1492, p2012, p2013…); tòng (p2095)
+            - tse: tse (p2021, p2022, p2447, p2452, p2454, p2455…); tsé (p1037)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[look (16)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p1248: “easting” — “casting” is common (53)
+            - p1277: “musica” — “musical” is common (164; a letter dropped or transposed?)
+            - p1486: “talc” — “tale” is common (137)
+            - p1500: “observ” — “observe” is common (144; a letter dropped or transposed?)
+            - p2147: “corse” — “course” is common (1988; a letter dropped or transposed?)
+            - p2254: “groupe” — “grouped” is common (42; a letter dropped or transposed?)
+            - p2256: “chace” — “chance” is common (349; a letter dropped or transposed?)
+            - p2260: “adress” — “address” is common (151; a letter dropped or transposed?)
+            - p2267: “prefered” — “preferred” is common (160; a letter dropped or transposed?)
+            - p2273: “minature” — “miniature” is common (141; a letter dropped or transposed?)
+            - p2277: “articular” — “particular” is common (464; a letter dropped or transposed?)
+            - p2337: “clifts” — “cliffs” is common (270)
+            - p2402: “suprising” — “surprising” is common (99; a letter dropped or transposed?)
+            - p2436: “peole” — “people” is common (4453; a letter dropped or transposed?)
+            - p2437: “salis” — “sails” is common (180; a letter dropped or transposed?)
+            - p2650: “tou” — “ton” is common (65)
+[       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
+[ look (3)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: … led by George, Earl Macartney, which sailed from Portsmouth in September 1792 in HMS Lion and the East India Compa…
+            - book.json summary: …at Jehol beyond the Great Wall, and the overland journey by the Grand Canal to Hangzhou and Canton, with the ret…
+            - book.json notes_on_text: … and other digital texts exist, and it was compiled by Staunton from Macartney’s and others’ papers rathe…
+[       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight PASS: embassy-to-china-staunton v5 — 0 to fix, 0 waived; to look at: hyphen-joins 10, folios 5, contents 27, accents 7, rare-forms 16, serial-commas 3 — tools@11181c6a 2026-11-22

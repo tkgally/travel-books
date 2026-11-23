@@ -1,0 +1,165 @@
+{
+ "ia_identifier": "cruiseinussteamf00grag",
+ "drive_folder_id": "1qlx6CH_-6kiIO-XPx8FKnu99-AYaVOlf",
+ "parts": [
+  {
+   "name": "pages-001.zip",
+   "sha256": "2897dfc6f00725bb229b53a62c07c646d39367c55549fc08550b4bb6fd6b9f09",
+   "bytes": 2979703,
+   "files": [
+    "leaves.json",
+    "p0000.jpg",
+    "p0001.jpg",
+    "p0002.jpg",
+    "p0003.jpg",
+    "p0004.jpg",
+    "p0005.jpg",
+    "p0006.jpg",
+    "p0007.jpg",
+    "p0008.jpg",
+    "p0009.jpg",
+    "p0010.jpg",
+    "p0011.jpg",
+    "p0012.jpg"
+   ],
+   "drive_id": "18Z6qr6bHbLye0JqlfCjnxTUCP_UzTjOj"
+  },
+  {
+   "name": "pages-002.zip",
+   "sha256": "ef6254cde42d37fae7f32005c35da377483ffb6fe16ddfe1cafdb7756079dbd9",
+   "bytes": 2890204,
+   "files": [
+    "p0013.jpg",
+    "p0014.jpg",
+    "p0015.jpg",
+    "p0016.jpg",
+    "p0017.jpg",
+    "p0018.jpg",
+    "p0019.jpg",
+    "p0020.jpg",
+    "p0021.jpg"
+   ],
+   "drive_id": "1Ptzm3fuFXeNJRdZ5ll5TbTcRQAixNnBf"
+  },
+  {
+   "name": "pages-003.zip",
+   "sha256": "4e3edcfe5ed89fdfb9b62dd81118ec0a4278bc2e501d3e7441ad0dd90d74daed",
+   "bytes": 2954913,
+   "files": [
+    "p0022.jpg",
+    "p0023.jpg",
+    "p0024.jpg",
+    "p0025.jpg",
+    "p0026.jpg",
+    "p0027.jpg",
+    "p0028.jpg",
+    "p0029.jpg",
+    "p0030.jpg"
+   ],
+   "drive_id": "1532D1rzdSWBkyJ3XpL8uZeF8n7Zyizm1"
+  },
+  {
+   "name": "pages-004.zip",
+   "sha256": "632a93b5322b59884b594219424e7f738c734633e999da62f1507910ca0afeba",
+   "bytes": 2896069,
+   "files": [
+    "p0031.jpg",
+    "p0032.jpg",
+    "p0033.jpg",
+    "p0034.jpg",
+    "p0035.jpg",
+    "p0036.jpg",
+    "p0037.jpg",
+    "p0038.jpg",
+    "p0039.jpg"
+   ],
+   "drive_id": "1G6JOe_irg8AsUljzWJMxVLDhCmwLHTL4"
+  },
+  {
+   "name": "pages-005.zip",
+   "sha256": "ac9e68b4a049b4f80f1b78e55322d8a90e791669a73883489395a34ea8c88cd1",
+   "bytes": 2819893,
+   "files": [
+    "p0040.jpg",
+    "p0041.jpg",
+    "p0042.jpg",
+    "p0043.jpg",
+    "p0044.jpg",
+    "p0045.jpg",
+    "p0046.jpg",
+    "p0047.jpg",
+    "p0048.jpg"
+   ],
+   "drive_id": "1DVryoxFQNve0VJcsyN9WGchFKBMNceDJ"
+  },
+  {
+   "name": "pages-006.zip",
+   "sha256": "b4fc1cb308180ec1bcad610310c2138d8b682b351bef83ff82bb83f6533b6edc",
+   "bytes": 2868323,
+   "files": [
+    "p0049.jpg",
+    "p0050.jpg",
+    "p0051.jpg",
+    "p0052.jpg",
+    "p0053.jpg",
+    "p0054.jpg",
+    "p0055.jpg",
+    "p0056.jpg",
+    "p0057.jpg"
+   ],
+   "drive_id": "1tZ9GLfKeENO4IqFoTgDP7FKdhDNPM8wQ"
+  },
+  {
+   "name": "pages-007.zip",
+   "sha256": "244ad470a3a569e9e41ec0d29455cf5e044289555e6d96a7605a25ec122f0d0f",
+   "bytes": 2881048,
+   "files": [
+    "p0058.jpg",
+    "p0059.jpg",
+    "p0060.jpg",
+    "p0061.jpg",
+    "p0062.jpg",
+    "p0063.jpg",
+    "p0064.jpg",
+    "p0065.jpg",
+    "p0066.jpg"
+   ],
+   "drive_id": "1iedv6TGJ0fB7iuVtlVBy6VWL-eu5n-NK"
+  },
+  {
+   "name": "pages-008.zip",
+   "sha256": "5ee9450352e0bea8e3cc048d051535b14e189d4a711e080ccad8601baa1a336a",
+   "bytes": 2846009,
+   "files": [
+    "p0067.jpg",
+    "p0068.jpg",
+    "p0069.jpg",
+    "p0070.jpg",
+    "p0071.jpg",
+    "p0072.jpg",
+    "p0073.jpg",
+    "p0074.jpg",
+    "p0075.jpg"
+   ],
+   "drive_id": "115iicGDPDtz8PaiysZ0IT1fLxqCQRIFt"
+  },
+  {
+   "name": "pages-009.zip",
+   "sha256": "a6b82ad3f00462bd79a2333e0c48181ab8c12afd230f697fc9cad1bd7f9c00c7",
+   "bytes": 2101251,
+   "files": [
+    "p0076.jpg",
+    "p0077.jpg",
+    "p0078.jpg",
+    "p0078a.jpg",
+    "p0079.jpg",
+    "p0080.jpg",
+    "p0081.jpg",
+    "p0082.jpg",
+    "p0083.jpg",
+    "cruiseinussteamf00grag_djvu.txt"
+   ],
+   "drive_id": "10muibUGMcHXLxlGzg7K-D-uCM_a9dbFY"
+  }
+ ]
+}

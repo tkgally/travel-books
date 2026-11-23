@@ -1,0 +1,149 @@
+{
+ "id": "golden-dagon-palmer",
+ "version": 3,
+ "date": "2026-11-22",
+ "title": "The Golden Dagon",
+ "subtitle": "Or, Up and Down the Irrawaddi; Being Passages of Adventure in the Burman Empire",
+ "short_title": "The Golden Dagon",
+ "authors": [
+  {
+   "name": "An American [John Williamson Palmer]",
+   "sort": "Palmer, John Williamson",
+   "born": 1825,
+   "died": 1906
+  }
+ ],
+ "place": "New York",
+ "publisher": "Dix, Edwards & Co.",
+ "year": 1856,
+ "edition_statement": "First edition",
+ "regions": [
+  "Myanmar",
+  "Hong Kong",
+  "Singapore",
+  "Malaysia"
+ ],
+ "period": "1851–52",
+ "subjects": [
+  "Second Anglo-Burmese War",
+  "Buddhism"
+ ],
+ "summary": [
+  "John Williamson Palmer (1825–1906), a doctor from Baltimore, published this book without his name. In 1851–52 he went from Hong Kong by way of Singapore and Penang to Moulmein, and served as surgeon of the East India Company’s war steamer Phlegethon in the Second Anglo-Burmese War. He describes the British capture of Rangoon in April 1852, the Shwe Dagon pagoda, river fighting and convoys on the Irrawaddy, Pegu and Prome, and Burmese houses, monks, law, games, theatre, and the lives of women. One chapter retells a Burmese story told to him. Five short appendices quote earlier writers, among them Ralph Fitch on the pagoda in the sixteenth century. Some dialogue is printed in pidgin English, and the book uses the period’s words for Burmese people and religion."
+ ],
+ "source": {
+  "ia_identifier": "goldendagon00palm",
+  "contributor": "The Library of Congress"
+ },
+ "frontispiece": "p0009-1",
+ "omitted_from_reading": "The printed contents, the two epigraphs facing page 1 with the half-title above Chapter I, and the publisher’s advertisements are in the JSON only; the engraved title follows the title page.",
+ "notes_on_text": [
+  "The engraved title page, the book’s only illustration, is placed at the start of the reading editions.",
+  "The contents entries give each chapter’s summary as the printed contents has it."
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-21",
+   "note": "First publication."
+  },
+  {
+   "version": 2,
+   "date": "2026-11-21",
+   "note": "Printer’s errors corrected: “privation” for “privation.” (p. 9; a reader, issue #117); “closing” for “closing.” (p. 254) (found by a reader’s report (issue #117) and the sweep that followed, checked on the scan)."
+  },
+  {
+   "version": 3,
+   "date": "2026-11-22",
+   "note": "A printer’s error of a dropped or transposed letter marked and corrected: “arangements” for “arrangements”."
+  }
+ ],
+ "toc": {
+  "subtitles": "all"
+ },
+ "divisions": [
+  {
+   "at": "p0009",
+   "kind": "front",
+   "title": "Engraved Title"
+  },
+  {
+   "at": "p0011",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0013",
+   "kind": "dedication"
+  },
+  {
+   "at": "p0015",
+   "kind": "contents"
+  },
+  {
+   "at": "p0020",
+   "kind": "front",
+   "title": "Epigraphs"
+  },
+  {
+   "at": "p0313",
+   "kind": "appendix"
+  },
+  {
+   "at": "p0333",
+   "kind": "advertisements"
+  }
+ ],
+ "toc_entries": [
+  {
+   "at": "p0313",
+   "starts": "I. The Golden",
+   "title": "I. The Golden Dagon in 1590",
+   "editor": false
+  },
+  {
+   "at": "p0315",
+   "starts": "II. The Karens",
+   "title": "II. The Karens",
+   "editor": false
+  },
+  {
+   "at": "p0321",
+   "starts": "III. The Poonghees",
+   "title": "III. The Poonghees",
+   "editor": false
+  },
+  {
+   "at": "p0324",
+   "starts": "IV. Burmese",
+   "title": "IV. Burmese Law",
+   "editor": false
+  },
+  {
+   "at": "p0330",
+   "starts": "V. Imperial",
+   "title": "V. Imperial Pegu",
+   "editor": false
+  }
+ ],
+ "keep_hyphens": [
+  "p0049",
+  "p0079",
+  "p0144"
+ ],
+ "waivers": [
+  {
+   "check": "spacing",
+   "match": "p0340",
+   "why": "ditto marks (“) in the advertisement table, printed as such"
+  }
+ ],
+ "audit": {
+  "version": 3,
+  "date": "2026-11-21",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0,
+  "note": "text unchanged except listed fixes"
+ }
+}

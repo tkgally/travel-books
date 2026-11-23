@@ -1,0 +1,183 @@
+{
+ "id": "west-africa-to-palestine-blyden",
+ "version": 3,
+ "date": "2026-11-21",
+ "title": "From West Africa to Palestine",
+ "short_title": "From West Africa to Palestine",
+ "authors": [
+  {
+   "name": "Edward W. Blyden",
+   "sort": "Blyden, Edward W.",
+   "born": 1832,
+   "died": 1912
+  }
+ ],
+ "place": "Freetown; Manchester; London",
+ "publisher": "T. J. Sawyer; John Heywood; Simpkin, Marshall, & Co.",
+ "year": 1873,
+ "edition_statement": "First edition",
+ "source": {
+  "ia_identifier": "fromwestafricato00blyd",
+  "contributor": "Princeton Theological Seminary Library",
+  "hidden_leaves": [
+   0,
+   215
+  ]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "note": "First publication."
+  },
+  {
+   "version": 2,
+   "date": "2026-11-21",
+   "note": "Printed page 16: the paragraph continued from the page before is joined to it again (the corrections pass had split it)."
+  },
+  {
+   "version": 3,
+   "date": "2026-11-21",
+   "note": "A printer’s error corrected: “ont he” for “on the” (p. 128)."
+  }
+ ],
+ "regions": [
+  "Liberia",
+  "Sierra Leone",
+  "Gambia",
+  "Spain",
+  "United Kingdom",
+  "Malta",
+  "Egypt",
+  "Lebanon",
+  "Palestine"
+ ],
+ "period": "1866",
+ "subjects": [
+  "Liberia",
+  "Holy Land",
+  "Pilgrimage"
+ ],
+ "summary": "Edward W. Blyden, a scholar and Presbyterian minister born in the Danish West Indies who had settled in Liberia, left Monrovia in June 1866 to see Egypt and the Holy Land. The book is his journal of the journey, kept for friends at home: by steamer along the coast to Sherbro’, Sierra Leone, and the Gambia, by Teneriffe and Madeira to Liverpool, some weeks in London (the House of Commons, a reading by Charles Dickens, a meeting of the Royal Geographical Society), then by the P. and O. line to Gibraltar, Malta, and Alexandria. In Egypt he visits Cairo and the Pyramids, which he argues were built by ancient Negroes; then Beirut and Mount Lebanon, Jaffa, Jerusalem, Bethlehem, and Bethany. The last chapter describes the religious sects of the Holy Land.",
+ "frontispiece": "p0006-1",
+ "ornaments": [
+  "p0015-1",
+  "p0207-1"
+ ],
+ "divisions": [
+  {
+   "at": "p0006",
+   "kind": "front"
+  },
+  {
+   "at": "p0007",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0009",
+   "kind": "dedication"
+  },
+  {
+   "at": "p0011",
+   "kind": "preface"
+  },
+  {
+   "at": "p0013",
+   "kind": "contents"
+  },
+  {
+   "at": "p0015",
+   "kind": "front",
+   "n": 1
+  },
+  {
+   "at": "p0015",
+   "kind": "chapter",
+   "title": "Chapter I",
+   "toc_title": "Chapter I. Question of Route—First Liberian Pilgrim to Jerusalem—Departure from Monrovia—Steamship “Pioneer”—Captain Milbourne—Cape Mount—Trading Agents—Sherbro’—European Traders—Mr. Horton’s Farm—Native Chiefs and Foreign Traders.",
+   "n": 2
+  },
+  {
+   "at": "p0030",
+   "kind": "chapter",
+   "title": "Chapter II",
+   "toc_title": "Chapter II. Arrival at Sierra Leone—Church Missionary Society—Departure from Sierra Leone—Steamship “Lagos”—Device and Motto of African Steamship Company—An Impostor—A “Wanderer in West Africa.”"
+  },
+  {
+   "at": "p0041",
+   "kind": "chapter",
+   "title": "Chapter III",
+   "toc_title": "Chapter III. Gambia—Teneriffe—Madeira—New Passengers—Fellow of Cambridge University—West African Arabic Manuscripts—An English Lady of Rank."
+  },
+  {
+   "at": "p0052",
+   "kind": "chapter",
+   "title": "Chapter IV",
+   "toc_title": "Chapter IV. Arrival in Liverpool—Departure to London—Visit to the Houses of Parliament—The “Gangway”—Charles Dickens at St. James’s Hall—A Sabbath at Carshalton—Meeting of the Royal Geographical Society—Mr. Baker’s Attack on the Africans."
+  },
+  {
+   "at": "p0070",
+   "kind": "chapter",
+   "title": "Chapter V",
+   "toc_title": "Chapter V. Departure for the East—Southampton—Depression of Spirits—P. and O. Company—Device and Motto—Passengers—Englishmen Abroad—Hindoos."
+  },
+  {
+   "at": "p0085",
+   "kind": "chapter",
+   "title": "Chapter VI",
+   "toc_title": "Chapter VI. Gibraltar—Malta—St. Paul’s Bay—St. John’s Church—Capuchin Convent—Dried Monks."
+  },
+  {
+   "at": "p0095",
+   "kind": "chapter",
+   "title": "Chapter VII",
+   "toc_title": "Chapter VII. Arrival in Egypt—Railway to Cairo—Mission—Pyramids and Sphinx—Discussion on the Pyramids—Built by Ancient Negroes."
+  },
+  {
+   "at": "p0117",
+   "kind": "chapter",
+   "title": "Chapter VIII",
+   "toc_title": "Chapter VIII. Pyramids Continued—Different Theories—Professor Piazzi Smith and Rev. Barham Zincke."
+  },
+  {
+   "at": "p0136",
+   "kind": "chapter",
+   "title": "Chapter IX",
+   "toc_title": "Chapter IX. Departure from Alexandria—Jaffa—Beirut—Sidon—Tyre—Ride Over the Mountains—Shepherd’s Cloud—Scenery on Mount Lebanon—Native Wedding—Dancing—The Veil."
+  },
+  {
+   "at": "p0156",
+   "kind": "chapter",
+   "title": "Chapter X",
+   "toc_title": "Chapter X. Return to Beirut—American Mission Printing Press—Female Seminary—Cemetery—Sailing for Jaffa—Mount Carmel—Jaffa—Lydda—Ramleh—Jerusalem—First Impressions—First Impressions of other Travellers—Robinson—Kelly—Lynch—Stanley—Thomson—Osborn—Porter—Macleod—Renan."
+  },
+  {
+   "at": "p0171",
+   "kind": "chapter",
+   "title": "Chapter XI",
+   "toc_title": "Chapter XI. Entrance into Jerusalem—Bishop Gobat—Visit to Church of Holy Sepulchre—Garden of Gethsemane—Mount of Olives—Church of the Ascension—Tomb of Absalom—Valley of Jehoshaphat—Jewish Synagogues—Pools of Solomon—Bethlehem—Mosque of Omar—Jews’ Wailing Place—Bethany—Social Gathering at Bishop Gobat’s—Lecture on West Africa—Letters."
+  },
+  {
+   "at": "p0198",
+   "kind": "chapter",
+   "title": "Chapter XII",
+   "toc_title": "Chapter XII. Political and Religious Condition of the Holy Land—Description of the Principal Religious Sects—Conclusion."
+  }
+ ],
+ "omitted_from_reading": "The printed contents and the half-title above Chapter I are in the JSON only.",
+ "notes_on_text": [
+  "The chapters have no titles; the contents entries give each chapter’s topics as the printed contents lists them."
+ ],
+ "keep_hyphens": [
+  "p0036"
+ ],
+ "audit": {
+  "version": 3,
+  "date": "2026-11-20",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0,
+  "note": "text unchanged except listed fixes"
+ }
+}
