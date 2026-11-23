@@ -1,0 +1,7 @@
+Differences: "self-suicide has" has no comma in the print; "immemorial in Japan" has no comma either. The draft has "immemorial in Japan" with a comma before "from time"? It reads "from time immemorial in Japan," which matches the print. So the only fix is the comma after "self-suicide".
+
+{"find": "self-suicide has been, from", "replace": "self-suicide has been, from"}
+
+Checking the draft again: it reads "self-suicide has been," with no comma after "self-suicide". That matches the print, so that entry changes nothing and I'm withdrawing it.
+
+NONE

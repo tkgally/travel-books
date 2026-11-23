@@ -15,10 +15,19 @@ Plates (blank versos): p0027, 39, 43, 49, 55, 63, 83, 93, 99, 123, 131, 137, 141
 Scan check: all 11 sheets and 12 leaves at full size by an Opus subagent 2026-11-23: text complete (pp. 5–302), sharp; the copy is a 1989 photocopy replacement volume, plates muddy but captions readable. Drive cache: 25 parts.
 
 ## Decisions
+- 2026-11-23: the book's title repeated above Chapter I (p0025) left out, as a head-title (the verifier and the judge agreed). Running heads typed as headings by the draft removed (p0026, p0037, the contents and index continuation pages; p0120 and p0342 left out by the judge, checked on the scan).
+- Captions: the printed title and the descriptive line of each plate are one `[[caption]]` line, as in the other books (the compiler joins them; preflight compares caption lines one by one).
+- First words of chapters (a drop capital and the rest of the word in capitals) typed in capitals: “THE island”, “AN interesting”.
+- p0080 “Nieguš”, p0134 “ferediza” (a Cyrillic letter in the draft) settled on the scan.
+- The full-size plate leaves were not extracted when the scan was first fetched; the jp2 archive was fetched from IA a second time on 2026-11-23 for them.
+- Photographs cropped in grey (`--gray`) from the photocopy; cover.jpg = the title page (the cloth cover has no title).
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-22/23 | Opus | 394 | 28.65 | stopped at 382 for the eligibility question; finished 2026-11-23 ($1.05) |
+| corrections | 2026-11-23 | Sonnet | 392 | 13.67 | 22 spots |
+| judge | 2026-11-23 | Opus | 22 spots | 0.98 | draft 12, verified 5, neither 3, could not undo 2 (running heads) |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
