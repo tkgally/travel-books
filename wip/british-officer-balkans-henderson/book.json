@@ -1,0 +1,52 @@
+{
+ "id": "british-officer-balkans-henderson",
+ "version": 1,
+ "date": "2026-11-23",
+ "title": "A British Officer in the Balkans",
+ "subtitle": "The Account of a Journey through Dalmatia, Montenegro, Turkey in Austria, Magyarland, Bosnia and Hercegovina",
+ "short_title": "A British Officer in the Balkans",
+ "authors": [
+  {
+   "name": "Percy E. Henderson",
+   "sort": "Henderson, Percy E.",
+   "born": 1852
+  }
+ ],
+ "place": "London",
+ "publisher": "Seeley and Co.",
+ "year": 1909,
+ "source": {
+  "ia_identifier": "britishofficerin00hend",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": [
+   0,
+   396,
+   397,
+   401,
+   402,
+   403,
+   404,
+   405
+  ]
+ },
+ "edition_statement": "First edition",
+ "regions": [
+  "Croatia",
+  "Montenegro",
+  "Bosnia and Herzegovina",
+  "Hungary"
+ ],
+ "period": "about 1905",
+ "subjects": [],
+ "summary": "",
+ "omitted_from_reading": "",
+ "notes_on_text": [],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-23",
+   "note": "First publication."
+  }
+ ],
+ "divisions": []
+}
