@@ -390,6 +390,10 @@ goes to the to-do list for those sessions (`RESUME.md`).
   sessions are paused while that is done. **Done the same day:** the old repository is `tkgally/travel-books-old`
   (all history, issues, pull requests); this one began with a single commit of its `main` as of PR #216.
 
+## 2026-11-23 (answer on *Niphon and Pe-che-li*)
+
+- **Publish de Fonblanque's *Niphon and Pe-che-li* (JATSI 22) from the University of California scan** (`niphonpecheliort00deforich`), with the folding map shown only in part, the folding plate of deities only partly opened, and the plates the copy lacks: all said in `notes_on_text`. A task for a future session (queue row `queued` again).
+
 ## Questions for Tom
 
 - **Side-notes that date the entries of a letter or diary** (*Letters from Southern India & Ceylon*, Williams, 1877; 2026-11-22). The book prints
@@ -397,8 +401,3 @@ goes to the to-do list for those sessions (`RESUME.md`).
   *Embassy to China*: side-notes are left out of the reading editions) they are in the JSON only, so the reading editions lose the dates of the
   entries; the book page says so. Should such side-notes be shown in the editions (for example as a small line or a run-in date at the start of
   the paragraph), for this book and others like it? Assumed for now: the standing rule; a new version can show them.
-- **De Fonblanque, *Niphon and Pe-che-li* (JATSI 22; 2026-11-23).** The only usable scan (University of California, `niphonpecheliort00deforich`)
-  has the whole text (pp. 1–287), but its folding map was photographed folded (only the right panel), a folding plate of Japanese deities
-  (at p. 146) is only partly opened (the left figure cut off at the fold), and two of the twelve plates seem to be missing (the text
-  mentions a sketch of the Pappenberg that is not in this copy). The other IA copy (Cornell) is a photocopy with grey plates. Publish from
-  this copy with those gaps said in `notes_on_text`, or wait for a better scan? Meanwhile the book is `waiting`; the next JATSI book was taken instead.
