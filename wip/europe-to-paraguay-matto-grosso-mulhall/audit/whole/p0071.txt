@@ -1,0 +1,7 @@
+{"given": "eithér mainland to the opposite", "print": "eithêr mainland to the opposite", "sure": "low"}
+{"given": "to paint. If is a pity", "print": "to paint. It is a pity", "sure": "high"}
+{"given": "purpose or defendcd against the torrent", "print": "purpose or defended against the torrent", "sure": "high"}
+{"given": "night at Montevideo, to the", "print": "night at Moutevideo, to the", "sure": "low"}
+{"given": "places retreated considerably; and the bed", "print": "places retreated considerably, and the bed", "sure": "high"}
+{"given": "English genius and enterprize would have", "print": "English genius and enterprise would have", "sure": "high"}
+{"given": "I saw visions vessels laden with", "print": "I saw visions of vessels laden with", "sure": "high"}

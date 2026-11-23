@@ -64,7 +64,8 @@
   {
    "at": "p0006",
    "kind": "front",
-   "title": "Map"
+   "title": "Map",
+   "reading": true
   },
   {
    "at": "p0008",
@@ -98,5 +99,13 @@
  ],
  "keep_hyphens": [
   "p0035"
- ]
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-23",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 1,
+  "fixed": 1
+ }
 }

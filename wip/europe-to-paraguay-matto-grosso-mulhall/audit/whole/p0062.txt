@@ -1,0 +1,5 @@
+{"given": "long before sunrize we are out", "print": "long before sunrise we are out", "sure": "high"}
+{"given": "where we explore ruined mill, which", "print": "where we explore a ruined mill, which", "sure": "high"}
+{"given": "raisins, sardines and; perhaps, roast kid.", "print": "raisins, sardines and, perhaps, roast kid.", "sure": "high"}
+{"given": "breakfast at a wayfide inn kept", "print": "breakfast at a wayside inn kept", "sure": "high"}
+{"given": "told us that in this youth he", "print": "told us that in his youth he", "sure": "high"}

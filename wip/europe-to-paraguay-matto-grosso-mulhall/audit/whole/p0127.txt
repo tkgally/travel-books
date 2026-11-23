@@ -1,0 +1,7 @@
+{"given": "lay undiscovered under boughs which touched", "print": "lay undiscovered under the boughs which touched", "sure": "high"}
+{"given": "Such a people; with some fitness", "print": "Such a people, with some fitness", "sure": "high"}
+{"given": "for that reason though otherwize so", "print": "for that reason though otherwise so", "sure": "high"}
+{"given": "wait for the traders then they entered", "print": "wait for the traders when they entered", "sure": "high"}
+{"given": "made in the courfe of the year", "print": "made in the course of the year", "sure": "high"}
+{"given": "the toad, and therefore a despicable race.”", "print": "the toad, and therefore a despícable race.”", "sure": "low"}
+{"given": "The samé caution was necessary", "print": "The samê caution was necessary", "sure": "low"}

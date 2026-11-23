@@ -1,0 +1,6 @@
+{"given": "poplars, leaving or the left", "print": "poplars, leaving on the left", "sure": "high"}
+{"given": "and an Indian village; till crossing", "print": "and an Indian village, till crossing", "sure": "high"}
+{"given": "till reaching the tablada, an extensive", "print": "till reaching the Tablada, an extensive", "sure": "high"}
+{"given": "for one, a mefsage for another", "print": "for one, a message for another", "sure": "high"}
+{"given": "Men are hardly be seen, but", "print": "Men are hardly to be seen, but", "sure": "high"}
+{"given": "He has a salutation for one,", "print": "He has a salutatiou for one,", "sure": "low"}
