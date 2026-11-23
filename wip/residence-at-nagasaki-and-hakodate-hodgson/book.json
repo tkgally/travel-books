@@ -76,7 +76,8 @@
   },
   {
    "at": "p0362",
-   "kind": "appendix"
+   "kind": "appendix",
+   "toc_title": "Catalogue of Japan Plants, Systematically Arranged"
   }
  ],
  "frontispiece": "p0005-1",
@@ -86,5 +87,13 @@
  "waivers": [],
  "keep_hyphens": [
   "p0242"
- ]
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-23",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }

@@ -1,0 +1,5 @@
+{"given": "descend on their sbores, the", "print": "descend on their shores, the", "sure": "high"}
+{"given": "Tycoon has read King John", "print": "Tycoon has read of King John", "sure": "high"}
+{"given": "death for the honor of his", "print": "death for the honour of his", "sure": "high"}
+{"given": "beds even, porcelain and glass; came", "print": "beds even, porcelain and glass, came", "sure": "high"}
+{"given": "a Ranelagh with this volunteers.", "print": "a Ranelagh with his volunteers.", "sure": "high"}
