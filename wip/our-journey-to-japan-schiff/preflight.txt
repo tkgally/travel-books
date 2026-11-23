@@ -37,9 +37,7 @@
             - charge: charge (p0010, p0081, p0082, p0135, p0158, p0163…); chargé (p0044, p0045, p0070, p0084, p0115, p0117…)
             - kobe: kobe (p0126); kobé (p0133)
 [       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
-[ look (2)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
-            - p0105: “miies” — “miles” is common (4709)
-            - p0123: “soons” — “spoons” is common (45; a letter dropped or transposed?)
+[       ok] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
 [       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
 [ look (3)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
             - book.json summary: …the war with Russia of 1904–05, kept this diary of a journey to Japan with his wife and a small party from F…
@@ -48,4 +46,4 @@
 [       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: our-journey-to-japan-schiff v1 — 1 to fix, 0 waived; to look at: hyphen-joins 6, accents 2, rare-forms 2, serial-commas 3 — tools@7a631393 2026-11-23
+preflight FAIL: our-journey-to-japan-schiff v1 — 1 to fix, 0 waived; to look at: hyphen-joins 6, accents 2, serial-commas 3 — tools@31253fcf 2026-11-23
