@@ -37,10 +37,21 @@
   "Hungary"
  ],
  "period": "about 1905",
- "subjects": [],
- "summary": "",
- "omitted_from_reading": "",
- "notes_on_text": [],
+ "subjects": [
+  "Dalmatia",
+  "Bosnia",
+  "Herzegovina",
+  "Sarajevo",
+  "Budapest",
+  "costume"
+ ],
+ "summary": "Major Percy E. Henderson (born 1852), a retired officer of the Indian Army who wrote as “Selim,” describes travels with his wife in the western Balkans a few years before 1909, when Bosnia and Hercegovina were under Austrian rule. They go down the Dalmatian coast from Fiume to Spalato, Ragusa, and the Bocche di Cattaro, drive up to Cetinje in Montenegro, and then go inland to Mostar and Sarajevo, where they stay for some time. He writes about markets, festivals, dervishes, the government carpet and cigarette factories, costumes, and the life of Muslim women. A summer visit to the Hungarian countryside and Budapest, with a bull-fight, makes Part III. In Part IV they return to Bosnia and travel by carriage and on horseback through Jajce, Travnik, the Zelengora mountains, and the Drina valley. The fifty photographs were taken by Mrs. Henderson.",
+ "omitted_from_reading": "The half-title, the printed contents, the list of illustrations, the index, and the publisher’s advertisements are in the JSON only.",
+ "notes_on_text": [
+  "The book’s map is missing from the scanned copy (a photocopy made in 1989 to replace a worn volume) and from the other copy at the Internet Archive.",
+  "The photographs are reproduced from that photocopy, so they are less clear than in the printed book.",
+  "The chapter summaries are printed under each chapter title; the contents here give the chapter titles only."
+ ],
  "history": [
   {
    "version": 1,
@@ -48,5 +59,58 @@
    "note": "First publication."
   }
  ],
- "divisions": []
+ "divisions": [
+  {
+   "at": "p0007",
+   "kind": "front",
+   "title": "Half-title"
+  },
+  {
+   "at": "p0011",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0015",
+   "kind": "contents"
+  },
+  {
+   "at": "p0021",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0367",
+   "kind": "index"
+  },
+  {
+   "at": "p0375",
+   "kind": "advertisements",
+   "title": "Advertisements"
+  },
+  {
+   "at": "p0378",
+   "kind": "advertisements"
+  }
+ ],
+ "frontispiece": "p0009-1",
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0013",
+   "why": "University of California bindery notice of 1989 (the volume is a photocopy replacement): not part of the book"
+  },
+  {
+   "check": "leaves",
+   "match": "p0014",
+   "why": "verso of the 1989 bindery notice: not part of the book"
+  }
+ ],
+ "keep_hyphens": [
+  "p0062",
+  "p0070",
+  "p0075",
+  "p0096",
+  "p0139",
+  "p0153",
+  "p0314"
+ ]
 }
