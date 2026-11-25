@@ -1,0 +1,1 @@
+{"n": 1, "is": "B", "print": "courtyard]]\n[[caption]] Entrance Nishi Hongwanji Temple. Kioto.", "sure": "medium"}
