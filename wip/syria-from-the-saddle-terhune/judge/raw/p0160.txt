@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "", "sure": "high"}
-{"n": 2, "is": "A", "print": "grass.</sc>”\n\n[[cont]]an unfinished dwarf monastery, closed and ugly. Desolation, ruins, and tangled grass; this is Capernaum, the city Christ loved. I think no traveler ever entered its walls without recalling the regretful yet unchangeable decree: “And thou, Capernaum, which art exalted to heaven shalt be brought down to hell. For if the mighty works which have been done in thee", "sure": "high"}

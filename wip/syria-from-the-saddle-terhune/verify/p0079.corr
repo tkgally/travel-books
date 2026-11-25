@@ -1,8 +1,0 @@
-{"find": "Our lord, Mohammed,", "replace": "Our lord, Mohammed,"}
-{"find": "Come to prayers!", "replace": "Come to prayers!"}
-
-Wait — checking differences only:
-
-{"find": "Our lord, Mohammed, is his", "replace": "Our lord, Mohammed, is his"}
-
-NONE
