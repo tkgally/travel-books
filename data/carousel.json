@@ -155,6 +155,12 @@
    "height": 414,
    "sha256": "67f92cc36f4d0d3a7eb379c87703ebd786f5f139ed294c7a715daf6a360f6eb4"
   },
+  "here-and-there-among-the-alps-plunket": {
+   "image": "cover",
+   "width": 296,
+   "height": 450,
+   "sha256": "437f007906222c67b8a0630192f50d476a38d1ab17cf4b01f3b5d65a2c097000"
+  },
   "impressions-of-a-first-tour-round-the-world-kothari": {
    "image": "cover",
    "width": 282,
@@ -179,6 +185,12 @@
    "height": 450,
    "sha256": "7e74f17dabe516b750103a2464cb03202b7df5fc569830c50955fd1959f6e0df",
    "note": "the cover has no title"
+  },
+  "japan-as-we-saw-it-gardiner": {
+   "image": "cover",
+   "width": 243,
+   "height": 450,
+   "sha256": "92ae9b99f2797436e9fa73b2d83f426df5f00b2d4aa6a431ffe4a4e46776c75c"
   },
   "japan-for-a-week-thompson": {
    "image": "cover",
@@ -254,6 +266,12 @@
    "sha256": "0cf0d11c626746f9c87e05e6cb74db884ac5dc45f4c3fa413d0145621c6e1882",
    "note": "gilt title readable; library label"
   },
+  "mexican-trails-kirkham": {
+   "image": "cover",
+   "width": 300,
+   "height": 441,
+   "sha256": "07061c0fd43f30ccff1ca686fac4bce594a74d04e7e02c6fc381a03810456bb7"
+  },
   "mongolia-siberia-sheepshanks": {
    "image": "cover",
    "width": 276,
@@ -265,6 +283,12 @@
    "width": 300,
    "height": 435,
    "sha256": "8f16a05234bcf6c49a880701aec153ca3c5a8bb50eef7c95337eca7fb50bce89"
+  },
+  "niphon-and-pe-che-li-de-fonblanque": {
+   "image": "title page",
+   "width": 250,
+   "height": 450,
+   "sha256": "7fe3dd2e8564f3f290df8bd49cfa393f6099dacf0ce2e5af0d7eb99ccb375e1b"
   },
   "on-short-leave-to-japan-younghusband": {
    "image": "title page",
@@ -283,6 +307,12 @@
    "width": 277,
    "height": 450,
    "sha256": "821f1305de642ef5bbdd71a710100d49a0b17e1e1e8e4b37c54ccd991c8544c7"
+  },
+  "over-the-pyrenees-eyre": {
+   "image": "title page",
+   "width": 267,
+   "height": 450,
+   "sha256": "0a5e74a9d8989230e6a5c7262ea5f766d77e7dfe246cb2b900fb244b4f117b78"
   },
   "panama-in-1855-tomes": {
    "image": "title page",
@@ -357,6 +387,12 @@
    "height": 450,
    "sha256": "f4de9e26b51fefaa9db25b24a2ee6fc985a660d845a2e89f84dfa703d8dbc265"
   },
+  "summer-in-norway-caton": {
+   "image": "title page",
+   "width": 300,
+   "height": 420,
+   "sha256": "b8bb7f5e3149bab17bb6ba3d6744d7f0d8ed210bc2e5e3583dcbc338427c5cb2"
+  },
   "summer-in-prairie-land-sutherland": {
    "image": "title page",
    "width": 271,
@@ -375,6 +411,12 @@
    "width": 300,
    "height": 421,
    "sha256": "28d37102a86b9dae47dcfa741631247598db79648876cfba9f9ddc1342d76c74"
+  },
+  "syria-from-the-saddle-terhune": {
+   "image": "cover",
+   "width": 287,
+   "height": 450,
+   "sha256": "33178916aec741770e16f93a96cb747833695449ee650d413695b27ac4bb9aaa"
   },
   "three-years-melbourne-aspinall": {
    "image": "title page",
