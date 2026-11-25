@@ -1,0 +1,56 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[ FAIL (1)] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+            - missing image file for p0001-1 (circular vignette of mountain peaks stamped on the cover)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[ FAIL (1)] audit: book.json records the sampled audit of this version
+            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[ look (3)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0054: …k like sad pro-|cessions of mou… (hyphen removed; check)
+            - hyphen join at p0114: …ill they culmi-|nated in the Dr… (hyphen removed; check)
+            - (and 13 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[ look (2)] folios: printed page numbers that break the sequence
+            - p0039: page 2 after page 26 (p0038)
+            - p0040: page 28 after page 2 (p0039)
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[ look (1)] contents: entries of the printed contents with no matching heading
+            - p0013: 'AMONG THE ALPS.'
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
+[       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
+[ look (5)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0009, p0013, p0014, p0015, p0016, p0019…); à (p0024, p0105)
+            - chalet: chalet (p0080); châlet (p0053, p0109, p0156, p0160, p0161)
+            - cure: cure (p0198); curé (p0121)
+            - hotel: hotel (p0026, p0030, p0036, p0040, p0041, p0046…); hôtel (p0174)
+            - rosa: rosa (p0061, p0095); rösa (p0076, p0077, p0079, p0080, p0087)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[ look (2)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0048: “foregound” — “foreground” is common (95; a letter dropped or transposed?)
+            - p0122: “chambre” — “chamber” is common (186; a letter dropped or transposed?)
+[       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
+[ look (3)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: …in the Alps in the early 1870s, describes her own walks and ascents: the Tsching…
+            - book.json summary: …, Piz Languard, the Diavolezza, the Bernina and Stelvio passes, Mont…
+            - book.json summary: …telvio passes, Monte Confinale, and peaks in the Tyrol and the Salzburg Alps. S…
+[ look (1)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+            - p0077: “all His” in …rfection is imprinted on all His works.…
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight FAIL: here-and-there-among-the-alps-plunket v1 — 2 to fix, 0 waived; to look at: hyphen-joins 3, folios 2, contents 1, accents 5, rare-forms 2, serial-commas 3, missing-stop 1 — tools@725999da 2026-11-25

@@ -162,6 +162,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Trigger: a printed contents with chapter summaries
 
+- Headnotes set in small capitals: drafts type proper names inside `<sc>` in lower case (“british sportsmen”, “mr. burrows”), which the editions' contents then show in lower case; two spot-reads passed them. Compare the capitals of each headnote with the printed contents (*A Summer in Norway*, 2026-11-25: five names, found by the rendered look).
 - `[[corr]]` inside a `[[subtitle]]` line is not rendered: the editions showed the markup (*A Land of Mosques*, “Amiranté”, preflight `stray-markup`). Leave a heading as printed, or fix the compiler with a test.
 - Drafts type such contents page by page differently (again in *Japan As We Saw It* and *Around the World through Japan*, three layouts in eight pages; the prompt asks for one layout since the review after fifty books: check that it holds): `##` headings and `[[subtitle]]`s on some pages, tables on
   others; and `[[cont]]` lands mid-page after a heading. Make it plain lines as printed (`[[center]]` number and

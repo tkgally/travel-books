@@ -1,0 +1,99 @@
+{
+ "id": "summer-in-norway-caton",
+ "version": 1,
+ "date": "2026-11-25",
+ "title": "A Summer in Norway; with Notes on the Industries, Habits, Customs and Peculiarities of the People, the History and Institutions of the Country, Its Climate, Topography and Productions. Also, an Account of the Red-Deer, Reindeer and Elk",
+ "short_title": "A Summer in Norway",
+ "authors": [
+  {
+   "name": "John Dean Caton",
+   "sort": "Caton, John Dean",
+   "born": 1812,
+   "died": 1895
+  }
+ ],
+ "place": "Chicago",
+ "publisher": "Jansen, McClurg and Company",
+ "year": 1875,
+ "source": {
+  "ia_identifier": "summerinnorwaywi00cato",
+  "contributor": "The Library of Congress",
+  "hidden_leaves": [
+   0,
+   429
+  ]
+ },
+ "regions": [
+  "Norway",
+  "Sweden"
+ ],
+ "period": "1874",
+ "subjects": [
+  "Trondhjem",
+  "Hammerfest",
+  "North Cape",
+  "Lapps",
+  "reindeer",
+  "elk",
+  "Norse history",
+  "carrioles"
+ ],
+ "summary": "John Dean Caton (1812–1895), a former Chief Justice of Illinois with a naturalist’s interest in deer, spent the summer of 1874 in Norway. He went up the coast by steamer to Trondhjem, Hammerfest, and the North Cape, visited Lapp reindeer herders near Tromsø, and came back south by carriole over the Dovrefjeld to Christiania, leaving by way of Stockholm. He writes of the people he met, farms, inns, and roads, and adds long passages on the history of Norway and on its red deer, reindeer, and elk.",
+ "omitted_from_reading": "The contents, the half-title before Chapter I, and the book’s title printed again above Chapter I are in the JSON only.",
+ "notes_on_text": [
+  "The running heads, which vary in the print, are not transcribed.",
+  "Captions printed in capitals are given in upper and lower case.",
+  "The headnotes under the chapter titles differ here and there from the printed contents (Chapter IV: “Tryggvesson … hurries the nations”; the contents: “Tryggveson … harries the nations”); each is given as printed."
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-25",
+   "note": "First publication."
+  }
+ ],
+ "frontispiece": "p0008-1",
+ "divisions": [
+  {
+   "at": "p0009",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0011",
+   "kind": "preface"
+  },
+  {
+   "at": "p0013",
+   "kind": "contents"
+  },
+  {
+   "at": "p0019",
+   "kind": "front"
+  }
+ ],
+ "toc": {
+  "subtitles": "all"
+ },
+ "ornaments": [
+  "p0010-1",
+  "p0423-1"
+ ],
+ "waivers": [
+  {
+   "check": "contents",
+   "match": "Olaf Tryggveson",
+   "why": "the contents prints “Tryggveson … harries the nations” and the headnote of Chapter IV (p0061) “Tryggvesson … hurries the nations”: each typed as printed"
+  }
+ ],
+ "keep_hyphens": [
+  "p0087"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-25",
+  "pages": 6,
+  "recall": "28/28",
+  "real_errors": 0,
+  "fixed": 0
+ }
+}
