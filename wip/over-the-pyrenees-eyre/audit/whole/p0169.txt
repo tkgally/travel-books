@@ -1,5 +1,0 @@
-{"given": "men. If suffices to be a", "print": "men. It suffices to be a", "sure": "high"}
-{"given": "A paese, a countrywoman; may walk", "print": "A paese, a countrywoman, may walk", "sure": "high"}
-{"given": "no notice is taken her; but", "print": "no notice is taken of her; but", "sure": "high"}
-{"given": "not in this rcspect a bit", "print": "not in this respect a bit", "sure": "high"}
-{"given": "reason. The french, whatever their", "print": "reason. The French, whatever their", "sure": "high"}

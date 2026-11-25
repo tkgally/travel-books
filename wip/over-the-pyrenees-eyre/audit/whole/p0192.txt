@@ -1,4 +1,0 @@
-{"given": "I bad emptied the small", "print": "I had emptied the small", "sure": "high"}
-{"given": "in my wine-flask; and every now", "print": "in my wine-flask, and every now", "sure": "high"}
-{"given": "the mules again, as notbing would", "print": "the mules again, as nothing would", "sure": "high"}
-{"given": "I snatched a branch wild rosemary", "print": "I snatched a branch of wild rosemary", "sure": "high"}

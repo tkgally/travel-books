@@ -1,5 +1,0 @@
-{"given": "seen many like the smallcr earrings", "print": "seen many like the smaller earrings", "sure": "high"}
-{"given": "seeing that the little spanish I", "print": "seeing that the little Spanish I", "sure": "high"}
-{"given": "here in Barcelona people speak Catalan", "print": "here in Barcelona the people speak Catalan", "sure": "high"}
-{"given": "but with no avail, there is", "print": "but with no avail; there is", "sure": "high"}
-{"given": "I bad laid aside my hat", "print": "I had laid aside my hat", "sure": "high"}

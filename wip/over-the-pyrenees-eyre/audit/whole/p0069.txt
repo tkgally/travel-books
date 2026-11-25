@@ -1,5 +1,0 @@
-{"given": "What strange thing it is, by", "print": "What a strange thing it is, by", "sure": "high"}
-{"given": "for centuries—perbaps while the world lasts", "print": "for centuries—perhaps while the world lasts", "sure": "high"}
-{"given": "portion of the Pyrenees; but I", "print": "portion of the Pyrenees, but I", "sure": "high"}
-{"given": "We passed one on two ruined castles", "print": "We passed one or two ruined castles", "sure": "high"}
-{"given": "of Lordat, near Les cabanes.", "print": "of Lordat, near Les Cabanes.", "sure": "high"}

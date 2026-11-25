@@ -1,5 +1,0 @@
-{"given": "remain useless to everyone except that", "print": "remain useless to every one except that", "sure": "high"}
-{"given": "wash their clothes them. After", "print": "wash their clothes in them. After", "sure": "high"}
-{"given": "‘Only a penknise.’", "print": "‘Only a penknife.’", "sure": "high"}
-{"given": "and generally both, and they do", "print": "and generally both; and they do", "sure": "high"}
-{"given": "I gave if him, thinking", "print": "I gave it him, thinking", "sure": "high"}
