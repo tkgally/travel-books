@@ -1866,10 +1866,11 @@
    "place": "London",
    "publisher": "Richard Bentley",
    "images": 388,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-25",
    "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): none. Wikisource Author:Mary_Eyre lists it as a Google Books scan only. The Online Books Page: page images only. Reprints: Forgotten Books (print on demand). Exact-sentence web search: nothing. Eyre 1810–1888. Not checked: Faded Page, Distributed Proofreaders.",
-   "note": "Library of Congress scan, 500 ppi; pp. xvi, 361; no illustrations. An Englishwoman in her fifties travels mostly alone in summer 1865, on foot and by mule through Ariège and Andorra, then Barcelona, Madrid, Granada and Alicante. Short Spanish phrases. Sequel to 'A Lady's Walks in the South of France'."
+   "note": "Library of Congress scan, 500 ppi; pp. xvi, 361; no illustrations. An Englishwoman in her fifties travels mostly alone in summer 1865, on foot and by mule through Ariège and Andorra, then Barcelona, Madrid, Granada and Alicante. Short Spanish phrases. Sequel to 'A Lady's Walks in the South of France'.",
+   "started": "2026-11-26"
   },
   {
    "order": 102,

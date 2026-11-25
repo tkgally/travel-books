@@ -1,0 +1,37 @@
+# Over the Pyrenees into Spain — Mary Eyre (1865)
+
+IA: overpyreneesinto00eyre (Library of Congress; 390 leaves, 500 ppi). Other scans looked at: none.
+Eligibility: queue row (Opus subagent, 2026-11-25): no text at Gutenberg, Wikisource or the Online Books Page;
+Forgotten Books print on demand only; Eyre 1810–1888. No illustrator, editor or translator named. Started 2026-11-26.
+
+## Status
+Stage reached: scan fetched from IA, checked and mapped (Opus subagent, 2026-11-26); Opus draft of leaves 9–379 running.
+Next step: Drive cache (folder "over-the-pyrenees-eyre" in "Travel Books"), normalize the draft, then `workflow.md` §3.
+
+## Page map
+Leaf = printed page + 18 throughout (pp. 1–361 on leaves 19–379, nothing missing or doubled).
+p0000 colour card (hidden) · p0001 front cover (marbled; no title) · p0002–p0008 endpapers and flyleaves · p0009
+half-title · p0010 printer's imprint · p0011 title (publisher's device: RB monogram, “MALO MORI QUAM FŒDARI”) ·
+p0012 blank (library pencil marks) · p0013–p0014 Preface vii–viii (signed, Nov. 9, 1865) · p0015 Contents · p0016
+blank · p0017 Dedication with a “Round Robin” wheel of twenty names set radially (a picture: crop, names in the
+description) · p0018 blank · p0019 p. 1, “OVER THE PYRENEES INTO SPAIN.” above Chapter I.
+Chapters (leaf): I 19, II 48, III 66, IV 125, V 155, VI 166, VII 214, VIII 244, IX 264, X 286, XI 299, XII 313,
+XIII 329, XIV 340, XV 362, XVI 368. Text ends p. 361 (p0379, imprint at the foot). p0380–p0387 blank endleaves;
+p0388 back cover; p0389 colour card (hidden). No appendix, index or advertisements; no plates or maps.
+Headings in the text differ from the contents: IV “Andorre.”, VI “The Seu d'Urgel.”, VIII “Manresa” (the contents
+misprint “Mauresa”), XIII “Granada.—Spanish Manners.—Generalife.”
+For the draft: French dialogue and phrases, Spanish and Catalan words, a Spanish proverb in verse (p. 246, translated
+in a footnote), Italian (p. 307); verse pp. 89, 250, 336; a hotel bill as a table p. 39 (p0057); about 25–30
+footnotes (* †); small capitals at chapter openings; running heads by place (not transcribed).
+cover.jpg: the cover has no title → the title page p0011.
+
+## Decisions
+
+## Runs
+| Stage | Date | Model | Pages | Cost $ | Notes |
+|---|---|---|---|---|---|
+
+## Versions
+| Version | Date | Preflight stamp | Audit | Notes |
+
+## Known issues
