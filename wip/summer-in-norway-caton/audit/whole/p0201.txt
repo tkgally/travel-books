@@ -1,5 +1,0 @@
-{"given": "across the boisterous north Sea, and", "print": "across the boisterous North Sea, and", "sure": "high"}
-{"given": "now that her condition bad been complied", "print": "now that her condition had been complied", "sure": "high"}
-{"given": "said yes at first; the crown", "print": "said yes at first, the crown", "sure": "high"}
-{"given": "could feel no humiliation the knowledge that", "print": "could feel no humiliation in the knowledge that", "sure": "high"}
-{"given": "many he had confoled himself during", "print": "many he had consoled himself during", "sure": "high"}

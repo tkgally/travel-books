@@ -1,4 +1,0 @@
-{"given": "that I might get ducking, but", "print": "that I might get a ducking, but", "sure": "high"}
-{"given": "he had lifted none yet; evidently", "print": "he had lifted none yet, evidently", "sure": "high"}
-{"given": "carried away by the seuiors, stepped", "print": "carried away by the seniors, stepped", "sure": "high"}
-{"given": "the water, when be could hold", "print": "the water, when he could hold", "sure": "high"}

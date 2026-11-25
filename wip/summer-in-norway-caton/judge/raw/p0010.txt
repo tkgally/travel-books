@@ -1,1 +1,0 @@
-{"n": 1, "is": "B", "print": "[[center]] <sc>electrotyped by a. zeese & co.</sc>", "sure": "low"}

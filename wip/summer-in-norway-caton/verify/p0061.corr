@@ -1,5 +1,0 @@
-{"find": "<sc>Norwegian history; Olaf Tryggvesson; his romantic story; is sold into slavery; kills his captor; turns sea-king; wonderful prowess; hurries the nations; marries an irish princess; becomes a Christian; ascends the throne; Christianity in Norway; founding of Trondhjem.</sc>", "replace": "<sc>Norwegian history; Olaf Tryggvesson; his romantic story; is sold into slavery; kills his captor; turns sea-king; wonderful prowess; hurries the nations; marries an irish princess; becomes a</sc> <sc>Christian</sc><sc>; ascends the throne; Christianity in Norway; founding of Trondhjem.</sc>"}
-
-Wait — I should keep the capitals consistent. Corrected list:
-
-{"find": "<sc>Norwegian history; Olaf Tryggvesson;", "replace": "<sc>Norwegian history; Olaf Tryggvesson;"}
