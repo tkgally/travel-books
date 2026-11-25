@@ -5,7 +5,7 @@ Eligibility: JATSI book (only a good scan is required; the 70-year rule does not
 The scan was fetched from IA a second time on 2026-11-25: the session of 2026-11-23 checked it but did not cache it in Drive.
 
 ## Status
-Started 2026-11-25. Stage (a): scan fetched and cached; draft next.
+Stage (b) 2026-11-25: draft, corrections, judge done; pages/ made from judge/ with 4 spots fixed on crops (p0304 “and” restored, p0313 stop, p0020, p0315 [[corr ect|fect]]); duplicates and folded shots removed with waivers; crops done (17 + device + diagram); book.json with 36 sections of the editor's. Next: the two spot-reads (Opus subagents, running), then preflight, the rendered look, the audit. Meter: 26%.
 
 ## Page map
 (Opus subagent, 2026-11-25, against leaves.json, the sheets and crops; agrees with the check of 2026-11-23.) 336 leaves; hidden 0, 331–335.
@@ -18,10 +18,16 @@ Offsets (page = leaf − k): 17–30 k16 · 33–134 k18 · 137–164 k20 · 169
 Other: many footnotes (* †); verse (the “Loot” song p. 193, lines in a note p. 191); an epitaph in capitals p. 219; long quoted Chinese documents pp. 244–275; French and Latin; a small table in the note of p. 155.
 
 ## Decisions
+- Sections: 36 of the editor's (25 in Niphon, 11 in Pe-che-li), 5–14 printed pages each, mostly at the printed rules (Opus subagent proposed; titles checked against the text openings).
+- The publisher's device on the title page as an ornament; Appendix I's diagram as a picture.
+- “Sio-nada” (p0116/7) joined as “Sionada”, as p0033 prints it; keep_hyphens p0235 (curio-hunting).
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-25 | opus | 336 | 21.18 | no refusals, no 〓 |
+| corrections | 2026-11-25 | sonnet | 336 | 10.77 | 6 words, 7 punctuation, 10 markup; 3 not applied (1 real: p0304 “and”) |
+| judge | 2026-11-25 | opus | 13 spots | 0.36 | 3 draft, 9 verifier, 1 neither (a hidden leaf); 2 overturned on crops (p0020, p0313) |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |

@@ -44,9 +44,14 @@
   "horses",
   "Second Opium War"
  ],
- "summary": "",
- "omitted_from_reading": "",
- "notes_on_text": [],
+ "summary": "Edward Barrington de Fonblanque (1821–1895), an officer of the British Army’s Commissariat, was sent to Japan late in 1859 to buy horses for the British force about to go to war in northern China. He reached Yedo Bay in January 1860 and stayed until October, at Kanagawa and Yokuhama and on visits to Yedo, dealing with Japanese officials and shipping the horses. He describes the towns, shops, and temples, the murders of foreigners and of the Regent, the ascent of Fusi-jama with the British Minister, Rutherford Alcock, and the people as he found them. The second part follows him to Pe-che-li, where he spent the winter of 1860–61 with the occupying force at Tien-tsin and visited Pekin and the Great Wall; it includes Chinese documents and an examination candidate’s history of the war. Two appendices give a note on the plants of Fusi-jama and a table of distances.",
+ "omitted_from_reading": "The two folded shots of folding plates and the second shots of three pages are in neither the editions nor the JSON.",
+ "notes_on_text": [
+  "Transcribed from the second edition (1863), in a scan of the copy at the University of California.",
+  "In this copy the folding map was photographed with only its right-hand panel opened, and the folding plate of two deities only partly opened; they are shown as the scan has them. The plate of Perreau’s sketch of the Pappenberg mentioned on page 173 is not in this copy.",
+  "The book has no chapters, contents, or list of illustrations: two long parts, “Niphon” and “Pe-che-li,” divided by rules. Each part is divided here into sections of the editor’s, by dates, places, and subjects; each section is a page of the editions. The JSON keeps the book’s own two parts.",
+  "The diagram of the vegetation of Fusi-jama in Appendix I is shown as a picture."
+ ],
  "history": [
   {
    "version": 1,
@@ -262,6 +267,42 @@
    "title": "Late 1861: The two armies, the sale of horses, and leaving Tien-tsin"
   }
  ],
- "waivers": [],
- "keep_hyphens": []
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0014",
+   "why": "the folding map photographed folded; the same map, its right panel opened, is p0016"
+  },
+  {
+   "check": "leaves",
+   "match": "p0015",
+   "why": "a second shot of printed page 1 (p0017)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0166",
+   "why": "the Fusi-jama plate photographed folded; the same plate half opened is p0168"
+  },
+  {
+   "check": "leaves",
+   "match": "p0167",
+   "why": "a second shot of printed page 145 (p0169)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0172",
+   "why": "the plate of deities photographed folded; the same plate partly opened is p0171"
+  },
+  {
+   "check": "leaves",
+   "match": "p0173",
+   "why": "a second shot of printed page 147 (p0175)"
+  }
+ ],
+ "keep_hyphens": [
+  "p0235"
+ ],
+ "ornaments": [
+  "p0009-1"
+ ]
 }
