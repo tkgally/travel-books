@@ -2387,3 +2387,27 @@ class GlossaryLayout(unittest.TestCase):
         css = open(os.path.join(REPO, "site", "assets", "book.css"), encoding="utf-8").read()
         self.assertIn(".book .glossary p", css)
         self.assertIn(".book .glossary blockquote", css)
+
+
+class Openings(unittest.TestCase):
+    """*Mexican Trails* and *Japan As We Saw It* (2026-11-26): 2 of 25 and 5 of 18 chapter openings typed as
+    `T<sc>he</sc>` where the print has full capitals ("THE"), unnoticed by the judge, the spot-read and (once) the
+    rendered look. The check lists the openings whose style differs from the book's majority. Invented text."""
+
+    def test_minority_listed(self):
+        pages = [("p0010", "[[page 1]]\n# Chapter I.\n\n[[subtitle]] The Start.\n\nTHE road was long.\n"),
+                 ("p0020", "[[page 9]]\n# Chapter II.\n\nIT rained.\n"),
+                 ("p0030", "[[page 19]]\n# Chapter III.\n\nA VISIT to the town.\n"),
+                 ("p0040", "[[page 29]]\n# Chapter IV.\n\nT<sc>he</sc> inn was full.\n")]
+        items = preflight.check_openings(pages)
+        self.assertEqual([i.split(":")[0] for i in items], ["p0040"])
+
+    def test_small_capitals_majority_and_single_style(self):
+        sc = [("p0010", "[[page 1]]\n# Chapter I.\n\nI <sc>had</sc> been told.\n"),
+              ("p0020", "[[page 9]]\n# Chapter II.\n\nM<sc>y</sc> host came.\n"),
+              ("p0030", "[[page 19]]\n# Chapter III.\n\nTHE END came.\n")]
+        self.assertEqual([i.split(":")[0] for i in preflight.check_openings(sc)], ["p0030"])
+        self.assertEqual(preflight.check_openings(sc[:2]), [])
+
+    def test_observe(self):
+        self.assertEqual(preflight.CHECKS["openings"][0], "observe")
