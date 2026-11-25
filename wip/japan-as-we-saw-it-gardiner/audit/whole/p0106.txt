@@ -1,5 +1,0 @@
-{"given": "have flagstone “sidcwalks” in the", "print": "have flagstone “sidewalks” in the", "sure": "high"}
-{"given": "At the tortoize-shell shops of Ezaki", "print": "At the tortoise-shell shops of Ezaki", "sure": "high"}
-{"given": "and sold, and those constitute the", "print": "and sold, and these constitute the", "sure": "high"}
-{"given": "Nagasaki) many the silk specialties", "print": "Nagasaki) many of the silk specialties", "sure": "high"}
-{"given": "Throughout the journey thus far; our", "print": "Throughout the journey thus far, our", "sure": "high"}

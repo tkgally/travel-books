@@ -1,4 +1,0 @@
-{"given": "and was formerly oceupied by the", "print": "and was formerly occupied by the", "sure": "high"}
-{"given": "divided into fifteen districts, viz. Koji-machi", "print": "divided into fifteen districts; viz. Koji-machi", "sure": "high"}
-{"given": "the continuation of the ginza, simply", "print": "the continuation of the Ginza, simply", "sure": "high"}
-{"given": "he works if in the opposite", "print": "he works it in the opposite", "sure": "high"}

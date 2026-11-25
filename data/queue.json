@@ -1782,11 +1782,13 @@
    "place": "Boston",
    "publisher": "Rand Avery Supply Company (for the author)",
    "images": 152,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-23",
    "eligibility": "JATSI 91. Rules 1, 2 and 3 met; rule 4 partly. Rule 1: University of California scan (500 ppi, colour), clean; Library of Congress copy japanaswesawit00gard also good. Rule 2: none at Project Gutenberg (full catalogue), Online Books Page or Wikisource (author page lists scans only), nor in a web search of a sentence from p. 79; Distant Reader has HathiTrust raw OCR only. Rule 3: no reprint found (web, CiNii; the 2004 Ganesha 'Japan as we saw it' is Bickersteth's book). Rule 4: a travel handbook drawn from the author's journal of a four-month tour with his wife, mostly second-person advice with first-person passages. Rule 5 does not apply: Gardiner 1842–1899 (Boston Transcript obituary; Wikisource's 1874–1950 is apparently a different man). Searched 2026-11-23 (Opus subagent). Not checked: WorldCat, DP.",
    "note": "Dedicated to Ernest Fenollosa. 132 pp. + index; about 100 halftone vignettes set into the text with irregular wrap (many crops); appendix of money, measures, steamer fares and a two-column vocabulary from Farsari, pp. 115–132. Pronunciations in parentheses and italics throughout.",
-   "started": "2026-11-25"
+   "started": "2026-11-25",
+   "version": 1,
+   "published": "2026-11-26"
   },
   {
    "order": 97,

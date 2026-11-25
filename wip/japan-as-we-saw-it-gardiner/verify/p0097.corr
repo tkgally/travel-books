@@ -1,9 +1,0 @@
-{"find": "Emmei-ken (<i>Em-may-ken</i>) inn", "replace": "Emmei-ken (<i>Em-may-ken</i>) inn"}
-
-Wait — I need to correct that: the print reads "Emmei-ken", so the draft's "Emmei-ken" is right, but the draft actually reads "Emmei-ken" with one "m" fewer. Corrected entry below.
-
-{"find": "the Emmei-ken (", "replace": "the Emmei-ken ("}
-
-Neither of those entries changes anything, so please disregard them. The corrections are:
-
-{"find": "the Emmei-ken (", "replace": "the Emmei-ken ("}

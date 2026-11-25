@@ -1,2 +1,0 @@
-{"given": "Kioto hotels 68", "print": "Kioto Hotels 68", "sure": "high"}
-{"given": "Letters Introduction 5", "print": "Letters of Introduction 5", "sure": "high"}
