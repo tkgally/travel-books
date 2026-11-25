@@ -1,5 +1,0 @@
-The draft has one error: the image reads "and lepers", not "and lepers" with the draft's "lepers" preceded by a different word. Checking the draft: it has "realities, and lepers", which matches the image.
-
-The draft has a second possible mismatch: the image shows "day-time" with the hyphen at a line end, and the draft's "In the daytime" drops the hyphen. "Day-time" is a word that keeps its hyphen, so the draft needs correcting.
-
-{"find": "In the daytime", "replace": "In the day-time"}

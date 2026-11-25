@@ -1,5 +1,0 @@
-{"given": "tired of wholesale butchery; was wont", "print": "tired of wholesale butchery, was wont", "sure": "high"}
-{"given": "bright fixtures or the walls", "print": "bright fixtures on the walls", "sure": "high"}
-{"given": "the so-called Stables of solomon;", "print": "the so-called Stables of Solomon;", "sure": "high"}
-{"given": "places where Moslems wisbed to worship", "print": "places where Moslems wished to worship", "sure": "high"}
-{"given": "In the Mosque St. Sofia at", "print": "In the Mosque of St. Sofia at", "sure": "high"}

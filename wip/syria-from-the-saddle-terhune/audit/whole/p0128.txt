@@ -1,5 +1,0 @@
-{"given": "but it is customary; and the force", "print": "but it is customary, and the force", "sure": "high"}
-{"given": "begged two strange travclers to enter", "print": "begged two strange travelers to enter", "sure": "high"}
-{"given": "remember the lawlessness lack of food", "print": "remember the lawlessness and lack of food", "sure": "high"}
-{"given": "Now and then in some european or", "print": "Now and then in some European or", "sure": "high"}
-{"given": "which purport to he Arabic translations", "print": "which purport to be Arabic translations", "sure": "high"}

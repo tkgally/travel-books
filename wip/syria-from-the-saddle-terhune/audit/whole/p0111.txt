@@ -1,5 +1,0 @@
-{"given": "go to the village tonight. It", "print": "go to the village to-night. It", "sure": "high"}
-{"given": "I groaned in spirit; but he", "print": "I groaned in spirit, but he", "sure": "high"}
-{"given": "I crossed the threshiug-floor and the", "print": "I crossed the threshing-floor and the", "sure": "high"}
-{"given": "This dwelling was all or one floor,", "print": "This dwelling was all on one floor,", "sure": "high"}
-{"given": "front room, where dining-table was already", "print": "front room, where the dining-table was already", "sure": "high"}

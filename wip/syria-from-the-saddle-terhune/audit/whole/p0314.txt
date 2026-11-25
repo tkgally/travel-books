@@ -1,5 +1,0 @@
-{"given": "now are left; neitber has any", "print": "now are left; neither has any", "sure": "high"}
-{"given": "the shape of a corkscrew, on doubled like", "print": "the shape of a corkscrew, or doubled like", "sure": "high"}
-{"given": "The next station was Lydda; the place", "print": "The next station was Lydda, the place", "sure": "high"}
-{"given": "came to the village Ashdod, where", "print": "came to the village of Ashdod, where", "sure": "high"}
-{"given": "so that to anyone passing at night", "print": "so that to any one passing at night", "sure": "high"}

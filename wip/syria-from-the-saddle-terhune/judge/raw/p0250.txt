@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": " beasts than\n\n[[image: a large gnarled tree beside a low stone wall, with a tall bare pole and other trees behind]]\n[[caption]] <sc>Elijah’s Rock.</sc>\n\n[[cont]]to show", "sure": "high"}
-{"n": 2, "is": "A", "print": "he graves.\n\nLeaving", "sure": "high"}

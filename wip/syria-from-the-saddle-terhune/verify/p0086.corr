@@ -1,6 +1,0 @@
-{"find": "mysteriously built brazier", "replace": "mysteriously built brazier"}
-{"find": "<i>chef</i>", "replace": "<i>chef.</i>"}
-
-Wait, I need to check this against the draft: the draft has `<i>chef</i>.`, and the image shows the period in italics, so the correction should find the text with the period after the tag.
-
-{"find": "<i>chef</i>. At", "replace": "<i>chef.</i> At"}

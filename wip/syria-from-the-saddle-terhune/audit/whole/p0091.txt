@@ -1,5 +1,0 @@
-{"given": "When it was well under way, david left word", "print": "When it was well under way, David left word", "sure": "high"}
-{"given": "difficulties of such travel bad been exaggerated", "print": "difficulties of such travel had been exaggerated", "sure": "high"}
-{"given": "two separate branchcs of the Pharpar", "print": "two separate branches of the Pharpar", "sure": "high"}
-{"given": "of the motto, however; was, “In", "print": "of the motto, however, was, “In", "sure": "high"}
-{"given": "worth following. Mottoes flags were David’s", "print": "worth following. Mottoes and flags were David’s", "sure": "high"}

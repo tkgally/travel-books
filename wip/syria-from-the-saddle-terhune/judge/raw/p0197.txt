@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "Riding on, we came to the ancient site of Samaria, three-quarters of the way up a hill. At the top of\n\n[[image: Pho", "sure": "high"}
-{"n": 2, "is": "A", "print": "[[cont]]this hill on", "sure": "high"}
