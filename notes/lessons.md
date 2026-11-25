@@ -51,6 +51,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Always
 
+- A scan fetched from IA is cached in Drive at once, even if the book then goes to `waiting` or is rejected: *Niphon* was fetched twice (2026-11-23 and 2026-11-25).
 - **Never publish a single-model transcription.** Drafts run away, truncate, drop first lines, duplicate
   passages [p2e]. Two differently biased readings, differences judged.
 - **Models silently restore what they think the text should be**: modern spellings, familiar place-names,

@@ -1,0 +1,317 @@
+{
+ "id": "niphon-and-pe-che-li-de-fonblanque",
+ "version": 1,
+ "date": "2026-11-25",
+ "title": "Niphon and Pe-che-li; or, Two Years in Japan and Northern China",
+ "short_title": "Niphon and Pe-che-li",
+ "authors": [
+  {
+   "name": "Edward Barrington de Fonblanque",
+   "sort": "de Fonblanque, Edward Barrington",
+   "born": 1821,
+   "died": 1895
+  }
+ ],
+ "place": "London",
+ "publisher": "Saunders, Otley, and Co.",
+ "year": 1863,
+ "source": {
+  "ia_identifier": "niphonpecheliort00deforich",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": [
+   0,
+   331,
+   332,
+   333,
+   334,
+   335
+  ]
+ },
+ "edition_statement": "Second edition",
+ "collection": "jatsi",
+ "regions": [
+  "Japan",
+  "China",
+  "Hong Kong"
+ ],
+ "period": "1859–1861",
+ "subjects": [
+  "Yedo",
+  "Yokuhama",
+  "Fusi-jama",
+  "Tien-tsin",
+  "Pekin",
+  "horses",
+  "Second Opium War"
+ ],
+ "summary": "Edward Barrington de Fonblanque (1821–1895), an officer of the British Army’s Commissariat, was sent to Japan late in 1859 to buy horses for the British force about to go to war in northern China. He reached Yedo Bay in January 1860 and stayed until October, at Kanagawa and Yokuhama and on visits to Yedo, dealing with Japanese officials and shipping the horses. He describes the towns, shops, and temples, the murders of foreigners and of the Regent, the ascent of Fusi-jama with the British Minister, Rutherford Alcock, and the people as he found them. The second part follows him to Pe-che-li, where he spent the winter of 1860–61 with the occupying force at Tien-tsin and visited Pekin and the Great Wall; it includes Chinese documents and an examination candidate’s history of the war. Two appendices give a note on the plants of Fusi-jama and a table of distances.",
+ "omitted_from_reading": "The two folded shots of folding plates and the second shots of three pages are in neither the editions nor the JSON.",
+ "notes_on_text": [
+  "Transcribed from the second edition (1863), in a scan of the copy at the University of California.",
+  "In this copy the folding map was photographed with only its right-hand panel opened, and the folding plate of two deities only partly opened; they are shown as the scan has them. The plate of Perreau’s sketch of the Pappenberg mentioned on page 173 is not in this copy.",
+  "The book has no chapters, contents, or list of illustrations: two long parts, “Niphon” and “Pe-che-li,” divided by rules. Each part is divided here into sections of the editor’s, by dates, places, and subjects; each section is a page of the editions. The JSON keeps the book’s own two parts.",
+  "The diagram of the vegetation of Fusi-jama in Appendix I is shown as a picture.",
+  "The footnote on pages 4–5, printed in two paragraphs, is given as one."
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-25",
+   "note": "First publication."
+  }
+ ],
+ "frontispiece": "p0008-1",
+ "divisions": [
+  {
+   "at": "p0009",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0011",
+   "kind": "dedication",
+   "title": "Dedication"
+  },
+  {
+   "at": "p0016",
+   "kind": "front",
+   "title": "Map",
+   "reading": true
+  },
+  {
+   "at": "p0319",
+   "kind": "appendix"
+  },
+  {
+   "at": "p0323",
+   "kind": "appendix"
+  }
+ ],
+ "toc_entries": [
+  {
+   "at": "p0017",
+   "starts": "How much do the actions",
+   "title": "1859: The voyage out, and a word on books about Japan"
+  },
+  {
+   "at": "p0022",
+   "starts": "A few days after my arrival",
+   "title": "Hong Kong, and the passage in the Powhattan"
+  },
+  {
+   "at": "p0027",
+   "starts": "On the 10th we caught",
+   "title": "January 1860: Arrival, and the road from Kanagawa to Yedo"
+  },
+  {
+   "at": "p0035",
+   "starts": "Mr. Alcock, our representative in",
+   "title": "Yedo, the Tycoon’s palace, and the Daimios"
+  },
+  {
+   "at": "p0043",
+   "starts": "Extract from my Journal, Jan. 13.—This",
+   "title": "13 January: The interview with the Foreign Minister"
+  },
+  {
+   "at": "p0055",
+   "starts": "January 14.—This morning was devoted",
+   "title": "14 January: Buying in Yedo, and back to Kanagawa"
+  },
+  {
+   "at": "p0061",
+   "starts": "Kanagawa was originally intended to",
+   "title": "Yokuhama, its shops, and curios"
+  },
+  {
+   "at": "p0071",
+   "starts": "Curio-hunting, however, was but the",
+   "title": "Buying horses: officials, stables, and Japanese horses"
+  },
+  {
+   "at": "p0082",
+   "starts": "When the Gorogio, or Grand",
+   "title": "The treaty, the Japanese, and the foreign traders"
+  },
+  {
+   "at": "p0090",
+   "starts": "The Japanese, like the Chinese,",
+   "title": "The New Year, and the murder of Dan"
+  },
+  {
+   "at": "p0098",
+   "starts": "One of the many difficulties",
+   "title": "Exercising the horses, and the murder of the Dutch captains"
+  },
+  {
+   "at": "p0105",
+   "starts": "Extracts from my Diary, Feb. 27.—Rode",
+   "title": "27–28 February 1860: In Yedo with Captain Colvile"
+  },
+  {
+   "at": "p0111",
+   "starts": "Feb. 29.—M. de Bellecourt had",
+   "title": "29 February: Meeting a Daimio’s procession"
+  },
+  {
+   "at": "p0117",
+   "starts": "Almost every European, including the",
+   "title": "The Dutchmen’s funeral, and alarms in Yokuhama"
+  },
+  {
+   "at": "p0122",
+   "starts": "Mr. Alcock gives a déjeûner",
+   "title": "A breakfast at Ojee"
+  },
+  {
+   "at": "p0128",
+   "starts": "The scene changes from the",
+   "title": "The murder of the Gotairo"
+  },
+  {
+   "at": "p0133",
+   "starts": "Extracts from my Diary.—April 29.—Visited",
+   "title": "29 April: Osakusa, its temple and theatre"
+  },
+  {
+   "at": "p0140",
+   "starts": "May 16.—While at dinner",
+   "title": "May 1860: A fire, the Queen’s birthday, and a conjuror"
+  },
+  {
+   "at": "p0146",
+   "starts": "The French Commander-in-Chief in China",
+   "title": "May–July 1860: Shipping the horses, an execution, and the July fêtes"
+  },
+  {
+   "at": "p0152",
+   "starts": "Riding on the Nagasaki road",
+   "title": "Modesty, marriage, and the women of Japan"
+  },
+  {
+   "at": "p0161",
+   "starts": "That most candid of charlatans,",
+   "title": "A mermaid, dogs, and birds; Colvile’s last voyage; the holy mountain"
+  },
+  {
+   "at": "p0175",
+   "starts": "Mr. Alcock had long wished",
+   "title": "September 1860: The ascent of Fusi-jama"
+  },
+  {
+   "at": "p0185",
+   "starts": "I have so far confined",
+   "title": "The country and people on the way to Fusi-jama"
+  },
+  {
+   "at": "p0192",
+   "starts": "Shortly after my return to",
+   "title": "October 1860: Leaving Yokuhama; through the Sowonada Seas"
+  },
+  {
+   "at": "p0204",
+   "starts": "28th October.—Yesterday morning we saw",
+   "title": "Nagasaki, and farewell to Japan"
+  },
+  {
+   "at": "p0214",
+   "starts": "It is a great shock",
+   "title": "November–December 1860: Taku to Tien-tsin"
+  },
+  {
+   "at": "p0223",
+   "starts": "The force left to occupy",
+   "title": "Winter quarters at Tien-tsin; the loot of the Summer Palace"
+  },
+  {
+   "at": "p0234",
+   "starts": "The frozen Peiho afforded some",
+   "title": "Winter pastimes, curios, and the poor of Tien-tsin"
+  },
+  {
+   "at": "p0240",
+   "starts": "From my Diary.—January 18.—Attended the",
+   "title": "January 1861: General Collineau’s funeral; temples as quarters"
+  },
+  {
+   "at": "p0248",
+   "starts": "The necessity of making certain",
+   "title": "Pekin, the Great Wall, and the Summer Palace"
+  },
+  {
+   "at": "p0262",
+   "starts": "We had been so long",
+   "title": "1861: Staying on at Tien-tsin; Count Eulenburg; a cruise"
+  },
+  {
+   "at": "p0270",
+   "starts": "Truly, they are a patient,",
+   "title": "Chinese justice and punishments"
+  },
+  {
+   "at": "p0276",
+   "starts": "Divine service is performed in",
+   "title": "An examination paper: a candidate’s history of the war"
+  },
+  {
+   "at": "p0288",
+   "starts": "There are some articles of",
+   "title": "Chinese food and the bamboo; the death of Hien Fung, August 1861"
+  },
+  {
+   "at": "p0298",
+   "starts": "A French General of my",
+   "title": "Consuls and mandarins; the Emperor’s flight and the Regency"
+  },
+  {
+   "at": "p0310",
+   "starts": "The death of the Emperor",
+   "title": "Late 1861: The two armies, the sale of horses, and leaving Tien-tsin"
+  }
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0014",
+   "why": "the folding map photographed folded; the same map, its right panel opened, is p0016"
+  },
+  {
+   "check": "leaves",
+   "match": "p0015",
+   "why": "a second shot of printed page 1 (p0017)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0166",
+   "why": "the Fusi-jama plate photographed folded; the same plate half opened is p0168"
+  },
+  {
+   "check": "leaves",
+   "match": "p0167",
+   "why": "a second shot of printed page 145 (p0169)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0172",
+   "why": "the plate of deities photographed folded; the same plate partly opened is p0171"
+  },
+  {
+   "check": "leaves",
+   "match": "p0173",
+   "why": "a second shot of printed page 147 (p0175)"
+  }
+ ],
+ "keep_hyphens": [
+  "p0235"
+ ],
+ "ornaments": [
+  "p0009-1"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-25",
+  "pages": 6,
+  "recall": "29/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
+}

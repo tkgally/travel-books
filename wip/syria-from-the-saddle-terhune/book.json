@@ -1,0 +1,82 @@
+{
+ "id": "syria-from-the-saddle-terhune",
+ "version": 1,
+ "date": "2026-11-25",
+ "title": "Syria from the Saddle",
+ "short_title": "Syria from the Saddle",
+ "authors": [
+  {
+   "name": "Albert Payson Terhune",
+   "sort": "Terhune, Albert Payson",
+   "born": 1872,
+   "died": 1942
+  }
+ ],
+ "place": "New York, Boston, Chicago",
+ "publisher": "Silver, Burdett and Company",
+ "year": 1896,
+ "source": {
+  "ia_identifier": "syriafromsaddle00terh",
+  "contributor": "The Library of Congress",
+  "hidden_leaves": [
+   0,
+   144,
+   145,
+   333
+  ]
+ },
+ "regions": [
+  "Lebanon",
+  "Syria",
+  "Palestine"
+ ],
+ "period": "1893–1894",
+ "subjects": [
+  "Beirût",
+  "Damascus",
+  "Jerusalem",
+  "Bethlehem",
+  "Bedouins",
+  "Druzes",
+  "horseback travel"
+ ],
+ "summary": "Albert Payson Terhune (1872–1942), later known for his books about dogs, rode through Syria and Palestine in the winter of 1893–94, at the age of twenty-one, with a dragoman named David and a small camp. From Beirût he went over the Lebanon to Damascus and the Hauran, then south by Galilee, Nazareth, and Samaria to Jerusalem, Bethlehem, Jericho, and the Dead Sea, and left from Jaffa. He tells of nights in Druze and Bedouin camps, a camp thief, a wedding, lepers, the pilgrims in Jerusalem, and Christmas at Bethlehem, with stories told by David and others on the way. The book has about sixty photographs and drawings.",
+ "omitted_from_reading": "The contents and the list of illustrations, and the book’s title printed again above Chapter I, are in the JSON only.",
+ "notes_on_text": [
+  "The capitals after the pictorial initial at the start of each chapter are given as printed; the initials are shown as small pictures."
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-25",
+   "note": "First publication."
+  }
+ ],
+ "frontispiece": "p0008-1",
+ "divisions": [
+  {
+   "at": "p0009",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0011",
+   "kind": "dedication",
+   "title": "Dedication"
+  },
+  {
+   "at": "p0013",
+   "kind": "preface"
+  },
+  {
+   "at": "p0015",
+   "kind": "contents"
+  },
+  {
+   "at": "p0017",
+   "kind": "illustrations"
+  }
+ ],
+ "waivers": [],
+ "keep_hyphens": [],
+ "ornaments": []
+}
