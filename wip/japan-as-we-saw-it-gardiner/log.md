@@ -48,12 +48,28 @@ them; the lettering is part of the drawing and must be whole): p0045, p0052, p00
 concave part that no rectangle avoids. p0019 is a full-page plate printed sideways.
 
 ## Decisions
+- Lettering drawn inside the engravings is not a caption: 26 `[[caption]]` lines typed from it were removed and the
+  words put into the picture's description (“lettered …”); the four captions set in type kept, in upper and lower case.
+- Chapter openings are printed in full capitals after a drop initial (“THE two modes”, “NAGASAKI”): typed as capitals,
+  not small capitals (p0103 corrected after the judge).
+- The book's title above the first chapter (p0017) is a `[[center]]` line in small capitals, left in the division
+  before (the list of illustrations, not in the reading editions), as in *Here and There among the Alps*.
+- Divisions: cover (front), title page, dedication, preface, contents, illustrations, 18 chapters, Appendix, “English
+  and Japanese”, “Words and Phrases” (glossary; letter heads `##`, not in the contents), index, back cover (p0148).
+- Printer's errors marked: p0010 apan, p0034 closély, p0075 nand, p0086 a stop for a comma, p0130 iuku (niku),
+  p0134 “Tumble-,”, p0136 Jin (Jiu). Left as printed: p0132 *onaii* (perhaps a damaged j; not certain), “personel”,
+  *tsai*. `keep_hyphens` p0105 (“abiding-place”, the book's only instance).
+- Period “1892”: the book dates the exchange at Yokohama January 1892; four months in all.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
 | draft | 2026-11-25 | opus | 151 | 11.84 | no refusals |
 | scan check and crop review; the differing readings | 2026-11-25 | Opus subagents | – | – | above |
+| corrections | 2026-11-26 | sonnet | 151 | 5.43 | 26 spots |
+| judge | 2026-11-26 | opus | 26 spots | 1.06 | 10 draft, 14 verified, 2 by hand |
+| spot-read (front matter, appendix, index; tesseract on pp. 11–113) | 2026-11-26 | Opus subagent | – | – | 1 markup fault, 2 misprints |
+| audit | 2026-11-26 | opus | 6 | 0.38 | 26/27; 2 candidates, neither real |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |

@@ -1,229 +1,25 @@
-[ FAIL (1)] meta: book.json: required fields present and sane
-            - book.json: missing 'summary'
+[       ok] meta: book.json: required fields present and sane
 [       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
-[FAIL (85)] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
-            - missing image file for p0001-1 (Decorated front cover: a five-storied pagoda at night with a crowd of Japanese figures and jinrikishas at its foot, and a hanging curtain with a red sun disc bearing the title “Japan as we saw it”)
-            - missing image file for p0019-1 (The steamship "Empress of India" under steam and sail in a heavy sea, printed sideways on the page)
-            - missing image file for p0023-1 (Landing wharf at Yokohama, with buildings, jinrikishas and a ship's masts)
-            - missing image file for p0023-2 (A Japanese junk under sail)
-            - missing image file for p0023-3 (A sampan sculled by a standing boatman)
-            - missing image file for p0024-1 (A coolie pulling an empty jinrikisha)
-            - missing image file for p0024-2 (The Grand Hotel, Yokohama, seen across the water)
-            - missing image file for p0024-3 (The Club Hotel, Yokohama, with a jinrikisha in the street)
-            - missing image file for p0025-1 (a hand moving the beads of an abacus)
-            - missing image file for p0025-2 (photograph of a Chinese bank shroff seated beside a potted plant)
-            - missing image file for p0026-1 (The Bund at Yokohama: a stone sea-wall with chain posts, and a road lined with fenced houses and trees)
-            - missing image file for p0027-1 (Facsimile of a Japanese passport in printed and handwritten Japanese characters, with the names Mr & Mrs Robert S Gardiner handwritten and large square seals)
-            - missing image file for p0030-1 (photograph of a young Japanese man in a long kimono and coat, standing beside a low wall and holding a hat)
-            - missing image file for p0031-1 (Road descending beside a cliff towards a village on Mississippi Bay, with two figures on the road; lettered “Mississippi Bay”)
-            - missing image file for p0032-1 (two women kneeling on the raised floor of a shop crowded with pottery, vases, plates, kettles and boxes, lettered “Curio Shop”)
-            - missing image file for p0033-1 (Drawing of a two-storey Japanese building with tiled roofs, trees behind and figures standing at the right, lettered “A Modern Building.”)
-            - missing image file for p0035-1 (drawings of feet wearing four kinds of Japanese footwear: straw sandals, high wooden clogs, flat sandals, and low clogs)
-            - missing image file for p0036-1 (sketch of the wooded island of Enoshima seen across the water, lettered “Enoshima in the distance”)
-            - missing image file for p0037-1 (Round vignette of a wooded hillside with a long flight of steps climbing to a building at the top, and a thatched shelter among trees in the foreground, lettered “Descent on Enoshima”)
-            - missing image file for p0038-1 (The great bronze seated Buddha (Dai-Butsu) at Kamakura on its stone platform, with visitors standing at the foot of the steps)
-            - missing image file for p0040-1 (Yumoto: a covered bridge leading to inn buildings at the foot of a wooded hill)
-            - missing image file for p0041-1 (Vignette of hotel buildings on a wooded hillside at Miyanoshita, with mountains behind)
-            - missing image file for p0042-1 (a Japanese kitchen girl in a head-cloth, crouching over a large bowl, lettered “Kitchen Girl.”)
-            - missing image file for p0042-2 (four coolies carrying a woman seated in a wicker mountain chair slung from long poles, lettered “The Mountain Chair.”)
-            - missing image file for p0043-1 (Torii gateway and stone lanterns among pine trees, with a lake and hills beyond; lettered “Approaching Hakone”)
-            - missing image file for p0043-2 (A lake with a boat, buildings on the shore and on a hill, trees and a mountain behind; lettered “Hakone lake”)
-            - missing image file for p0045-1 (View over the roofs of Atami to the bay, with a headland and a rock rising from the sea)
-            - missing image file for p0045-2 (The geyser and sanitarium at Atami, a tiled building behind a wall, with a pine tree)
-            - missing image file for p0046-1 (Vignette of Tunnel Rock, Atami: a pine-topped rocky headland pierced by an arch, with the sea, distant islands and birds, in an oval frame with a scroll flourish and pine sprigs)
-            - missing image file for p0048-1 (A Japanese woman in a kimono with the bow of her obi tied in front, holding up a hand-mirror and looking into another; hand-lettered “According to law” beside the figure)
-            - missing image file for p0050-1 (Circular vignette of an ornately carved temple gate with two figures in Japanese dress standing beneath it, framed by a lettered ribbon scroll)
-            - missing image file for p0051-1 (The Imperial Hotel, Tokio, a large building behind an iron railing, with a scroll banner bearing its name)
-            - missing image file for p0052-1 (a large two-storied building with a fenced front, seen from the street, lettered “Club Hotel, Tokio.”)
-            - missing image file for p0052-2 (a seated Japanese woman painting a large open paper umbrella, with umbrella frames on the ground beside her, lettered “Umbrella Maker.”)
-            - missing image file for p0053-1 (The Asakusa tower, Tokio, a tall many-storied brick tower with an entrance gate and figures at its foot)
-            - missing image file for p0054-1 (First Theatre, Tokio: the front of a two-story theatre building with a tiled roof, pictures across its front and people standing outside)
-            - missing image file for p0054-2 (Kameido Bridge, Tokio: a steeply arched bridge with steps, with stone lanterns at its foot)
-            - missing image file for p0054-3 (Gateway to Imperial Palace, Tokio: a roofed gateway set in a stone wall, with lamps and figures in front)
-            - missing image file for p0055-1 (vignette of a stone double-arched bridge with a castle tower beyond, lettered “Bridge—Imperial Palace Grounds, Tokio”)
-            - missing image file for p0055-2 (vignette of a two-storey station building with a crowd in front, lettered “Shimbashi Station, Tokio”)
-            - missing image file for p0058-1 (A Japanese interior: matted rooms with sliding screens, hanging scrolls, and three women kneeling around a low table)
-            - missing image file for p0059-1 (a hibachi, a cylindrical pot set in a square wooden box, lettered “Hibachi.”)
-            - missing image file for p0059-2 (a Japanese lady in kimono holding a paper parasol, standing among shrubs, lettered “Japanese Lady.”)
-            - missing image file for p0063-1 (A stone bridge with two round arches and a carved balustrade over still water, with trees behind)
-            - missing image file for p0065-1 (Engraving of an ornate two-storied temple gate with curved tiled roof, carved brackets and hanging bells, flanked by roofed galleries, lettered “Great Gate—Nikko.”)
-            - missing image file for p0066-1 (Vignette of the Sacred Bridge at Nikko, an arched bridge over a rushing river among trees, lettered “Sacred Bridge. Nikko”)
-            - missing image file for p0067-1 (a large bronze bell hanging under a roofed pavilion on four pillars, a small figure standing beside it, lettered “Great Bell—Nikko.”)
-            - missing image file for p0067-2 (circular vignette of a road running between rows of tall cryptomeria trees, lettered “Jinrikisha Road. Nikko to Imaichi.”)
-            - missing image file for p0068-1 (The Nikko Hotel, a long two-storey building behind a picket fence, with wooded hills behind, lettered “Nikko Hotel”)
-            - missing image file for p0069-1 (drawing of a Japanese village house with a high thatched roof, a decorated ridge, and a small lean-to roof over the front, lettered “Common Village House.”)
-            - missing image file for p0070-1 (Drawing of the many-storied castle keep at Nagoya on its sloping stone base, lettered “Castle Nagoya”)
-            - missing image file for p0071-1 (Oval vignette of a railway line with its rails buckled and twisted by the earthquake, running towards a tunnel between trees and telegraph poles, lettered “Result of Earthquake on R.R.”)
-            - missing image file for p0073-1 (The Kioto (or Tokiwa) Hotel, a three-storey building with verandahs beside a long lower wing, among trees)
-            - missing image file for p0075-1 (Entrance gate of the Nishi Hongwanji temple at Kioto, with stone lanterns, trees and a figure walking in the courtyard, lettered “Entrance Nishi Hongwanji Temple. Kioto.”)
-            - missing image file for p0076-1 (Drawing of Kyomizu Temple, a large temple with a raised wooden platform on piles among trees, lettered “Kyomizu Temple”)
-            - missing image file for p0078-1 (a Japanese woman in kimono walking beside a young man who holds a paper umbrella over her and carries a bag, lettered “Samisen Girl and Coolie.”)
-            - missing image file for p0079-1 (Two figures at the arched entrance of a stone-lined tunnel on the road to Hozu, lettered “Tunnel on road to Hozu.”)
-            - missing image file for p0080-1 (circular vignette of figures in kimono on a wooden landing-stage with lanterns beside a river, with a town and mountains beyond; lettered “Arishayama”)
-            - missing image file for p0082-1 (A canal in Osaka, with houses overhanging the water on the left, moored boats, and a long wooden bridge crossing the water, set in an ornamental scroll border, lettered “Grand · Canal · Osaka”)
-            - missing image file for p0083-1 (A Japanese vegetable seller in a wide straw hat, seen from behind, carrying two large baskets of vegetables from a pole across his shoulders)
-            - missing image file for p0085-1 (Engraving of a pagoda and buildings among trees beside a lake, lettered "Lake at Nara")
-            - missing image file for p0088-1 (View of the foreign front of Kobe from the harbor, with ships and a chain of mountains behind)
-            - missing image file for p0089-1 (Nunobiki Waterfall, Kobe: a waterfall in a wooded ravine, with tea-houses and a bridge below it and tiled roofs in the foreground)
-            - missing image file for p0092-1 (a stone arch bridge with a railing over water, two figures standing on it, trees and a building at the left, lettered “On road to Sumoto.”)
-            - missing image file for p0092-2 (a Japanese woman with dressed hair sitting in a tall wooden tub bound with hoops, lettered “Inn Bath”)
-            - missing image file for p0093-1 (A Japanese paper lantern (andon) on a tall wooden stand)
-            - missing image file for p0093-2 (A copper hibachi, or charcoal brazier, with tongs standing in it)
-            - missing image file for p0094-1 (drawing of a Japanese pillow: a small padded roll on a wooden block base)
-            - missing image file for p0095-1 (an alcove in an inn, with a lattice window, a towel hanging on a rail, and a water jar with a dipper and a basin on a ledge, lettered “Inn Lavatory”)
-            - missing image file for p0096-1 (photograph of a young Japanese woman in kimono, half-length)
-            - missing image file for p0097-1 (A Japanese woman in kimono holding a parasol, with the lettered title “A Tokushima Beauty”)
-            - missing image file for p0099-1 (A rocky cliff island with a small temple at its summit, a pine tree and a moored boat below, hills across the water, and a scroll banner lettered with the title)
-            - missing image file for p0100-1 (arched stone and timber bridge with several arches, lettered “Kintaikyo Bashi.”)
-            - missing image file for p0102-1 (Vignette of a tall rock in the sea pierced by an arch, with gulls flying, lettered “Arched Rock”)
-            - missing image file for p0103-1 (View over the roofs of Nagasaki's foreign settlement to the harbor, the town and the mountains beyond)
-            - missing image file for p0105-1 (Long flight of stone steps with a stone lantern, leading up to a temple gateway; entrance to the Bronze Horse Temple, Nagasaki)
-            - missing image file for p0107-1 (A road through a bamboo forest, with a jinrikisha and its coolie on the road)
-            - missing image file for p0108-1 (Four Japanese women in kimono seated on a mat, one holding a fan, with tea things before them, lettered “A Social Chat.”)
-            - missing image file for p0110-1 (Wooden houses along a river bank, with fields and hills beyond; lettered “Bit of Urakami”)
-            - missing image file for p0111-1 (A road running through a deep cutting between steep, overgrown banks, with figures walking along it and hills beyond; lettered “Approaching Tokitsu”)
-            - missing image file for p0112-1 (a clay pulverizer: a long wooden beam pivoted on a post under a thatched shed, with a bucket at one end filled by a water trough, lettered “Clay Pulverizer”)
-            - missing image file for p0114-1 (Drawing of a two-storeyed Japanese country inn with a figure on the balcony, lettered “Country Inn”)
-            - missing image file for p0115-1 (two Japanese tobacco pipes, one with carved ornamental sections, the other decorated with a scene of figures in a boat, lettered “Japanese Pipes”)
-            - missing image file for p0117-1 (A Japanese woman in kimono drawing water with a bucket at a roadside well with a wooden frame, a wooden pail at her feet, lettered “Roadside Well.”)
-            - missing image file for p0148-1 (Book cover with a decorated scene: a Japanese house-boat on a reedy lake with passengers, a village and snow-capped Mount Fuji behind, and cherry blossom at upper left; below a wave-edged border, a dark panel lettered “KOTOBIKI” over the Japanese character 壽 with “(LONG LIFE)” beneath)
-[ FAIL (1)] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
-            - JSON→ODT text: texts differ from character 10776: …dtheheartoftheintendedvoyager.Thethreesteamshipscomposingthe… / …dtheheartoftheintendedvoyager.[Illustration:Thesteamship"Emp…
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
 [       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
 [       ok] straight-quotes: no straight ' or " in the text
 [       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
 [       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
 [       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
-[FAIL (83)] links: every link inside the book's web pages and EPUB has a target
-            - web 12.html: missing image 'images/p0065-1.jpg'
-            - web 12.html: missing image 'images/p0066-1.jpg'
-            - web 12.html: missing image 'images/p0067-1.jpg'
-            - web 12.html: missing image 'images/p0067-2.jpg'
-            - web 12.html: missing image 'images/p0068-1.jpg'
-            - web 18.html: missing image 'images/p0092-1.jpg'
-            - web 18.html: missing image 'images/p0092-2.jpg'
-            - web 18.html: missing image 'images/p0093-1.jpg'
-            - web 18.html: missing image 'images/p0093-2.jpg'
-            - web 18.html: missing image 'images/p0094-1.jpg'
-            - web 18.html: missing image 'images/p0095-1.jpg'
-            - web 18.html: missing image 'images/p0096-1.jpg'
-            - web 18.html: missing image 'images/p0097-1.jpg'
-            - web 05.html: missing image 'images/p0023-1.jpg'
-            - web 05.html: missing image 'images/p0023-2.jpg'
-            - web 05.html: missing image 'images/p0023-3.jpg'
-            - web 05.html: missing image 'images/p0024-1.jpg'
-            - web 05.html: missing image 'images/p0024-2.jpg'
-            - web 05.html: missing image 'images/p0024-3.jpg'
-            - web 05.html: missing image 'images/p0025-1.jpg'
-            - web 05.html: missing image 'images/p0025-2.jpg'
-            - web 05.html: missing image 'images/p0026-1.jpg'
-            - web 05.html: missing image 'images/p0027-1.jpg'
-            - web 05.html: missing image 'images/p0030-1.jpg'
-            - web 05.html: missing image 'images/p0031-1.jpg'
-            - web 05.html: missing image 'images/p0032-1.jpg'
-            - web 05.html: missing image 'images/p0033-1.jpg'
-            - web 05.html: missing image 'images/p0035-1.jpg'
-            - web 08.html: missing image 'images/p0045-1.jpg'
-            - web 08.html: missing image 'images/p0045-2.jpg'
-            - web 08.html: missing image 'images/p0046-1.jpg'
-            - web 09.html: missing image 'images/p0048-1.jpg'
-            - web 04.html: missing image 'images/p0019-1.jpg'
-            - web 07.html: missing image 'images/p0040-1.jpg'
-            - web 07.html: missing image 'images/p0041-1.jpg'
-            - web 07.html: missing image 'images/p0042-1.jpg'
-            - web 07.html: missing image 'images/p0042-2.jpg'
-            - web 07.html: missing image 'images/p0043-1.jpg'
-            - web 07.html: missing image 'images/p0043-2.jpg'
-            - web 20.html: missing image 'images/p0103-1.jpg'
-            - web 20.html: missing image 'images/p0105-1.jpg'
-            - web 20.html: missing image 'images/p0107-1.jpg'
-            - web 20.html: missing image 'images/p0108-1.jpg'
-            - web 11.html: missing image 'images/p0058-1.jpg'
-            - web 11.html: missing image 'images/p0059-1.jpg'
-            - web 11.html: missing image 'images/p0059-2.jpg'
-            - web 11.html: missing image 'images/p0063-1.jpg'
-            - web 14.html: missing image 'images/p0073-1.jpg'
-            - web 14.html: missing image 'images/p0075-1.jpg'
-            - web 14.html: missing image 'images/p0076-1.jpg'
-            - web 14.html: missing image 'images/p0078-1.jpg'
-            - web 14.html: missing image 'images/p0079-1.jpg'
-            - web 14.html: missing image 'images/p0080-1.jpg'
-            - web 15.html: missing image 'images/p0082-1.jpg'
-            - web 15.html: missing image 'images/p0083-1.jpg'
-            - web 10.html: missing image 'images/p0050-1.jpg'
-            - web 10.html: missing image 'images/p0051-1.jpg'
-            - web 10.html: missing image 'images/p0052-1.jpg'
-            - web 10.html: missing image 'images/p0052-2.jpg'
-            - web 10.html: missing image 'images/p0053-1.jpg'
-            - web 10.html: missing image 'images/p0054-1.jpg'
-            - web 10.html: missing image 'images/p0054-2.jpg'
-            - web 10.html: missing image 'images/p0054-3.jpg'
-            - web 10.html: missing image 'images/p0055-1.jpg'
-            - web 10.html: missing image 'images/p0055-2.jpg'
-            - web 13.html: missing image 'images/p0069-1.jpg'
-            - web 13.html: missing image 'images/p0070-1.jpg'
-            - web 13.html: missing image 'images/p0071-1.jpg'
-            - web 21.html: missing image 'images/p0110-1.jpg'
-            - web 21.html: missing image 'images/p0111-1.jpg'
-            - web 21.html: missing image 'images/p0112-1.jpg'
-            - web 21.html: missing image 'images/p0114-1.jpg'
-            - web 21.html: missing image 'images/p0115-1.jpg'
-            - web 21.html: missing image 'images/p0117-1.jpg'
-            - web 16.html: missing image 'images/p0085-1.jpg'
-            - web 17.html: missing image 'images/p0088-1.jpg'
-            - web 17.html: missing image 'images/p0089-1.jpg'
-            - web 19.html: missing image 'images/p0099-1.jpg'
-            - web 19.html: missing image 'images/p0100-1.jpg'
-            - web 19.html: missing image 'images/p0102-1.jpg'
-            - web 06.html: missing image 'images/p0036-1.jpg'
-            - web 06.html: missing image 'images/p0037-1.jpg'
-            - web 06.html: missing image 'images/p0038-1.jpg'
+[       ok] links: every link inside the book's web pages and EPUB has a target
 [       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
 [       ok] nav: contents: at least one reading division; each has a title and text
-[FAIL (30)] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/04.xhtml(18,231): Referenced resource "OEBPS/images/p0019-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/05.xhtml(8,123): Referenced resource "OEBPS/images/p0023-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/05.xhtml(10,76): Referenced resource "OEBPS/images/p0023-2.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/05.xhtml(12,88): Referenced resource "OEBPS/images/p0023-3.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/05.xhtml(15,86): Referenced resource "OEBPS/images/p0024-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/05.xhtml(17,98): Referenced resource "OEBPS/images/p0024-2.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/05.xhtml(19,107): Referenced resource "OEBPS/images/p0024-3.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/05.xhtml(21,86): Referenced resource "OEBPS/images/p0025-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/05.xhtml(23,114): Referenced resource "OEBPS/images/p0025-2.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/05.xhtml(27,152): Referenced resource "OEBPS/images/p0026-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/05.xhtml(31,211): Referenced resource "OEBPS/images/p0027-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/05.xhtml(54,156): Referenced resource "OEBPS/images/p0030-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/05.xhtml(60,175): Referenced resource "OEBPS/images/p0031-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/05.xhtml(64,176): Referenced resource "OEBPS/images/p0032-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/05.xhtml(69,187): Referenced resource "OEBPS/images/p0033-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/05.xhtml(80,169): Referenced resource "OEBPS/images/p0035-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/06.xhtml(10,148): Referenced resource "OEBPS/images/p0036-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/06.xhtml(15,233): Referenced resource "OEBPS/images/p0037-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/06.xhtml(20,175): Referenced resource "OEBPS/images/p0038-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/07.xhtml(10,128): Referenced resource "OEBPS/images/p0040-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/07.xhtml(16,136): Referenced resource "OEBPS/images/p0041-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/07.xhtml(19,144): Referenced resource "OEBPS/images/p0042-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/07.xhtml(22,167): Referenced resource "OEBPS/images/p0042-2.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/07.xhtml(24,160): Referenced resource "OEBPS/images/p0043-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/07.xhtml(27,159): Referenced resource "OEBPS/images/p0043-2.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/08.xhtml(10,137): Referenced resource "OEBPS/images/p0045-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/08.xhtml(12,134): Referenced resource "OEBPS/images/p0045-2.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/08.xhtml(18,227): Referenced resource "OEBPS/images/p0046-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/09.xhtml(14,219): Referenced resource "OEBPS/images/p0048-1.jpg" could not be found in the EPUB.
-            - ERROR(RSC-007): /tmp/preflight-n_kk0ss_/books/japan-as-we-saw-it-gardiner/japan-as-we-saw-it-gardiner.epub/OEBPS/text/10.xhtml(9,192): Referenced resource "OEBPS/images/p0050-1.jpg" could not be found in the EPUB.
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
-[ FAIL (1)] audit: book.json records the sampled audit of this version
-            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
-[ look (2)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
-            - hyphen join at p0105: …or the abiding-|place of himsel… (hyphen removed; check)
+[       ok] audit: book.json records the sampled audit of this version
+[ look (1)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - (and 1 joins giving a word the book prints whole elsewhere: not listed)
 [       ok] joins: page joins: missing [[cont]]
 [       ok] folios: printed page numbers that break the sequence
-[ FAIL (1)] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
-            - p0149: no page file
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
 [       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
-[ FAIL (1)] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
-            - p0105: …'bronze figure of a horse,' | picture | 'and magnificent view of t'
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
 [ look (2)] contents: entries of the printed contents with no matching heading
             - p0013: 'Japanese Money. Distance Measure. Cloth Measure. Land Measure. Passeng'
             - p0013: 'General Index 133'
@@ -232,8 +28,7 @@
 [       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
 [       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
 [       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
-[ FAIL (1)] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
-            - images/cover.jpg is missing (the front cover if the title is clearly readable on it, otherwise the title page)
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
 [ look (1)] accents: words the book spells with different accents (or with and without): look at each group on the scan
             - dore: dore (p0135); doré (p0081)
 [ look (1)] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
@@ -243,10 +38,14 @@ Better n…
 [ look (1)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
             - p0025: “bonded” — “bounded” is common (136; a letter dropped or transposed?)
 [       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
-[       ok] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+[ look (4)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: …ikko, Kioto, Osaka, Nara, Kobe, the islands of Awaji and Shikoku, the Inland …
+            - book.json summary: …koku, the Inland Sea, Nagasaki, and the pottery towns of Arita and its neighbours, with…
+            - book.json summary: …money, measures, steamer fares, and a vocabulary of Japanese words and phrases.…
+            - book.json notes_on_text: …rinted above the first chapter, is kept in the JSON and left out of the read…
 [ look (2)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
             - p0071: “only He” in …bird not drop from tree only He say. Some Jap…
             - p0072: “make His” in …say so. He make His earthquake. Not good…
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: japan-as-we-saw-it-gardiner v1 — 204 to fix, 0 waived; to look at: hyphen-joins 2, contents 2, accents 1, misprints 1, rare-forms 1, missing-stop 2 — tools@76005ecb 2026-11-25
+preflight PASS: japan-as-we-saw-it-gardiner v1 — 0 to fix, 1 waived; to look at: hyphen-joins 1, contents 2, accents 1, misprints 1, rare-forms 1, serial-commas 4, missing-stop 2 — tools@31a635fd 2026-11-25
