@@ -31,17 +31,18 @@
 [       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
 [       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
 [       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
+[       ok] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
 [       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
 [       ok] accents: words the book spells with different accents (or with and without): look at each group on the scan
 [       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
 [ look (6)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
-            - p0018: “nomal” — “normal” is common (40; a letter dropped or transposed?)
-            - p0020: “ali” — “all” is common (17580)
-            - p0029: “egging” — “begging” is common (64; a letter dropped or transposed?)
-            - p0205: “caches” — “coaches” is common (50; a letter dropped or transposed?)
-            - p0210: “medial” — “medical” is common (120; a letter dropped or transposed?)
-            - p0259: “wiling” — “willing” is common (206; a letter dropped or transposed?)
+            - p0018: “nomal” — “normal” is common (47; a letter dropped or transposed?)
+            - p0020: “ali” — “all” is common (21606)
+            - p0029: “egging” — “begging” is common (76; a letter dropped or transposed?)
+            - p0205: “caches” — “coaches” is common (62; a letter dropped or transposed?)
+            - p0210: “medial” — “medical” is common (157; a letter dropped or transposed?)
+            - p0259: “wiling” — “willing” is common (246; a letter dropped or transposed?)
 [       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
 [ look (2)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
             - book.json summary: … by Srinagar to Gilgit, Bagrot, and Hunza and Nagyr, the crossing …
@@ -49,4 +50,4 @@
 [       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: artist-himalayas-mccormick v1 — 0 to fix, 3 waived; to look at: hyphen-joins 4, joins 3, rare-forms 6, serial-commas 2 — tools@f7363885 2026-11-22
+preflight PASS: artist-himalayas-mccormick v2 — 0 to fix, 3 waived; to look at: hyphen-joins 4, joins 3, rare-forms 6, serial-commas 2 — tools@f786a54c 2026-11-25

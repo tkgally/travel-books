@@ -32,6 +32,7 @@ Scan check: all 11 sheets and 12 leaves at full size by an Opus subagent 2026-11
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
 | 1 | 2026-11-23 | preflight PASS: british-officer-balkans-henderson v1 — 0 to fix, 2 waived; to look at: hyphen-joins 2, folios 1, contents 2, accents 30, rare-forms 3, serial-commas 3 — tools@9966c587 2026-11-23 | 30/30; 0 real errors in 6 pages | spot-read (Opus subagent): 15 fixes, misprint “Majcr” marked; contents entries for chapters IV, VII, VIII, XI, XIII given as toc_title (titles over 80 characters) |
+| 2 | 2026-11-26 | PASS, 0 to fix, 2 waived (tools@f786a54c) | as v1 (text unchanged except listed fixes) | 11 chapter openings typed in small capitals → full capitals as printed (review after eighty-eight books) |
 
 ## Known issues
 - A few photographs lack the printed frame line on one edge (the photocopy's margins; rendered look 2026-11-23): cosmetic.
