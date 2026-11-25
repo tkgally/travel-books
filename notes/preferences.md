@@ -430,6 +430,17 @@ Tom, in a session he assigned to Claude Fable 5.2 for the occasion (later routin
 - **Whether it continues depends on two things**: how much it reduces Claude's own token use per book, and whether
   the same quality of text and pictures is kept. The aim is more books at the same quality.
 
+## 2026-11-25 (later: how the helper gets its files)
+
+- **Gemini is at work on *Mexican Trails*.** Giving it a Drive folder does not give it the files and subfolders
+  inside: Tom had to select every file for it one by one.
+- **From now on he points it at two files only**: `INSTRUCTIONS.md` (which it keeps access to) and **one zip per
+  book holding everything that book needs** (scans and the other files), put in the workspace's reference folder
+  (he calls it "Resources"; the folder is named "References"), **its name beginning with the date it was posted,
+  `202611xx-`**, so that he can spot it.
+- **Files in that folder are deleted when no longer needed**: once the book is on the site. Any later check that
+  needs the scans is Claude's, from the files elsewhere in Drive, not Gemini's.
+
 ## Questions for Tom
 
 - **Side-notes that date the entries of a letter or diary** (*Letters from Southern India & Ceylon*, Williams, 1877; 2026-11-22). The book prints
