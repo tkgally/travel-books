@@ -1637,11 +1637,11 @@
    "place": "Philadelphia",
    "publisher": "Presbyterian Board of Publication and Sabbath-School Work",
    "images": 368,
-   "status": "in progress",
+   "status": "rejected",
    "checked": "2026-11-22",
    "eligibility": "Checked 2026-11-22 (Opus subagent): pg_catalog.csv (full): no Gilmore. The Online Books Page, Wikisource: none. Web search of 'Koreans are a dyspeptic folk': nothing. Reprints: print-on-demand only (Read Books 2011, Creative Media/Franklin Classics); an Open Library '1990' entry probably the ATLA microfiche (not verified: check before starting); a Korean translation (1999) does not count; no Kyungin Munhwasa facsimile found. Rule 5: Gilmore 1858–1933 (LC); photographs partly by Rev. H. G. Underwood (1859–1916). Faded Page not searchable. Re-checked 2026-11-25: web search (Gutenberg, ebooks, reprints): only a print-on-demand reprint (ISBN 9781019406892); preface credits Underwood for several illustrations; the others uncredited.",
    "note": "Princeton Theological Seminary scan, 500 ppi; frontispiece and 25 plates. Gilmore taught at the government's English school in Seoul 1886–89; first-hand account of the city and people arranged by topic (people, homes, dress, women's work, religion, resources, foreign life), partly from his letters to the New York Evening Post; last chapter on missions. The site has no Korea book yet. Rule 4 note: topical rather than a journey narrative, but first-person and from his own residence.",
-   "started": "2026-11-25"
+   "reason": "Scan check 2026-11-25 (Opus subagents): the Princeton scan's text is complete, but 10 of the 25 listed plates were removed from that copy (the frontispiece Korean Stone Dog and plates facing pp. 27, 77, 89, 140, 188, 198, 246, 254, 281); the only other IA scan (koreafromitscap00gilmgoog, NYPL, Google) has every photograph thresholded to white. Too many elements missing for an exception. Page images cached in Drive (folder 1QL6eGZZv0DjfrJxLXvpdEME_71eTN95k) in case a complete scan appears."
   },
   {
    "order": 89,
