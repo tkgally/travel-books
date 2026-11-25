@@ -51,6 +51,12 @@
    "height": 450,
    "sha256": "7d5ea666889c2561b0e251378b9b1aca7e44e1816c3bb3e44b3b74233047b40d"
   },
+  "british-officer-balkans-henderson": {
+   "image": "title page",
+   "width": 295,
+   "height": 450,
+   "sha256": "0019483423fcabedb729ac1f9eed7e443406041f744569c6d98ff48a168d1d16"
+  },
   "brown-men-women-reeves": {
    "image": "cover",
    "width": 278,
@@ -124,6 +130,12 @@
    "width": 300,
    "height": 442,
    "sha256": "c90f681bd9d85e089569778c90c0bca9801aaaece66a33f97a3384038d2441c6"
+  },
+  "europe-to-paraguay-matto-grosso-mulhall": {
+   "image": "cover",
+   "width": 299,
+   "height": 450,
+   "sha256": "5b9171c14d49e6863a7f81379f279c098df87295bc451f5861d2889e91113092"
   },
   "flying-leaves-pfeiffer": {
    "image": "title page",
@@ -260,6 +272,12 @@
    "height": 450,
    "sha256": "1efe90c35ddfb0ed4ce43917ac03f8d74653049b866999e3c48c1f62ed8ba4b4"
   },
+  "our-journey-to-japan-schiff": {
+   "image": "title page",
+   "width": 300,
+   "height": 445,
+   "sha256": "2c5e775fe0e12a6c7e1a1ff63c86509c51792ca57cc3975f15e261e6c452f9d3"
+  },
   "our-ride-through-asia-minor-scott-stevenson": {
    "image": "title page",
    "width": 277,
@@ -301,6 +319,12 @@
    "width": 288,
    "height": 450,
    "sha256": "73acd4ec23f303d1bc91d27059154395450540f96a2632eddf11c28ab3c6880b"
+  },
+  "residence-at-nagasaki-and-hakodate-hodgson": {
+   "image": "title page",
+   "width": 254,
+   "height": 450,
+   "sha256": "9eb019d643f602b102bc99a23c46b9813f93a225a3e78da0332ed134f6289a79"
   },
   "scouting-for-stanley-stevens": {
    "image": "cover",
