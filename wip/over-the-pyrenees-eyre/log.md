@@ -26,10 +26,22 @@ footnotes (* †); small capitals at chapter openings; running heads by place (n
 cover.jpg: the cover has no title → the title page p0011.
 
 ## Decisions
+- Divisions: half-title and imprint (front), title page, preface, contents, dedication, 16 chapters. The title above
+  Chapter I (p0019) is a `#` heading of its own division, kind front, not in the reading editions (as in Bickersteth's
+  *Japan as We Saw It*): a centred line would have ended the dedication.
+- Two words lost letters in printing in this copy (the draft's 〓): p0182 “[a]n unblown”, p0353 “dign[ified]”, marked
+  `[[supplied]]` and said in `notes_on_text`.
+- cover.jpg = the title page (the cover is plain marbled boards); p0011-1 the publisher's device; p0017-1 the Round
+  Robin wheel of names.
+- `keep_hyphens` p0072 “good-sized”, p0161 “respectably-dressed” (the book prints both whole elsewhere).
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-26 | opus | 371 | 24.03 | no refusals; 〓 on p0182, p0353 (letters not printed) |
+| corrections | 2026-11-26 | sonnet | 371 | 12.21 | 10 spots |
+| judge | 2026-11-26 | opus | 10 spots | 0.30 | 9 draft, 1 verified |
+| audit | 2026-11-26 | opus | 6 | 0.34 | 29/29; 1 candidate (heading case), not real |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |

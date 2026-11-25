@@ -22,7 +22,7 @@
   "Spain"
  ],
  "period": "1865",
- "summary": "",
+ "summary": "An English writer’s account of a journey made alone in 1865, at her publisher’s suggestion after her earlier book of walks in the south of France. She goes through France to Ariège and the eastern Pyrenees, stays for a time at Ax, crosses on foot and by mule into the valley of Andorra, and goes down by the Seu d’Urgel and Calaf to Barcelona, Manresa, and Cardona. She then travels by rail and diligence to Madrid, Granada, and Alicante, and returns by sea to Barcelona and home by Perpignan and Paris. She writes of inns, guides, priests, peasants, fellow travellers, and plants, and of the hardships and insults a woman travelling by herself met with in Spain. French and Spanish speech is given in the original throughout. The dedication is a “Round Robin” of twenty friends’ names.",
  "source": {
   "ia_identifier": "overpyreneesinto00eyre",
   "contributor": "The Library of Congress",
@@ -31,9 +31,8 @@
    389
   ]
  },
- "omitted_from_reading": "The half-title, the printer’s imprint, and the printed contents are in the JSON only.",
+ "omitted_from_reading": "The half-title, the printer’s imprint, the printed contents, and the book’s title printed above Chapter I are in the JSON only.",
  "notes_on_text": [
-  "The book’s title, printed above the first chapter, is kept in the JSON and left out of the reading editions.",
   "Two words lost letters in printing in the scanned copy and are completed in this edition: “[a]n unblown corn-flower” (p. 164) and “dign[ified]” (p. 335)."
  ],
  "history": [
@@ -64,6 +63,28 @@
   {
    "at": "p0017",
    "kind": "dedication"
+  },
+  {
+   "at": "p0019",
+   "kind": "front",
+   "title": "Half-title above Chapter I"
+  },
+  {
+   "at": "p0019",
+   "n": 2,
+   "kind": "chapter"
   }
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-26",
+  "pages": 6,
+  "recall": "29/29",
+  "real_errors": 0,
+  "fixed": 0
+ },
+ "keep_hyphens": [
+  "p0072",
+  "p0161"
  ]
 }

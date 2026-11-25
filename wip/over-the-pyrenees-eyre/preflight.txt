@@ -1,0 +1,89 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[       ok] audit: book.json records the sampled audit of this version
+[ look (8)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0085: …etestable iron-|hooped crinolin… (hyphen removed; check)
+            - hyphen join at p0088: …ean—our Midsum-|mer-day—a grand… (hyphen removed; check)
+            - hyphen join at p0102: …em, leaf, leaf-|let, corolla, a… (hyphen removed; check)
+            - hyphen join at p0113: …ndy, or a smel-|ling bottle—eve… (hyphen removed; check)
+            - hyphen join at p0181: …d fresh and un-|exhausted subje… (hyphen removed; check)
+            - hyphen join at p0350: …s was so offen-|sive, that I fe… (hyphen removed; check)
+            - hyphen join at p0353: …single and dis-|engaged; but a … (hyphen removed; check)
+            - (and 19 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[ look (1)] folios: printed page numbers that break the sequence
+            - p0356: page 336 after page 337 (p0355)
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[ look (4)] contents: entries of the printed contents with no matching heading
+            - p0015: 'The Valley of Andorre 107'
+            - p0015: 'The Seu d’Urgel to Calaf 148'
+            - p0015: 'Barcelona to Mauresa and Cardona. 226'
+            - p0015: 'Granada.—Spanish Manners.—The Generalife 311'
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
+[       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
+[       ok] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
+[look (22)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0011, p0013, p0014, p0017, p0019, p0020…); à (p0025, p0026, p0036, p0054, p0055, p0058…); á (p0264)
+            - assure: assure (p0160); assuré (p0064)
+            - chateau: chateau (p0357); château (p0036, p0070)
+            - college: college (p0151); collége (p0063)
+            - cote: côte (p0021); côté (p0055)
+            - cure: cure (p0056, p0201, p0202, p0245); curé (p0092, p0093, p0094, p0095, p0104, p0112…)
+            - degradation: degradation (p0033, p0321); dégradation (p0057, p0062, p0150)
+            - devote: devote (p0245); dévote (p0014)
+            - different: different (p0033, p0046, p0073, p0077, p0134, p0211…); différent (p0230)
+            - dome: dome (p0307); dôme (p0024)
+            - du: du (p0036, p0038, p0057, p0058, p0059, p0062…); dû (p0059)
+            - e: e (p0014, p0093, p0242); è (p0208)
+            - education: education (p0080, p0154, p0203); éducation (p0320)
+            - hotel: hotel (p0025, p0036, p0037, p0054, p0055, p0058…); hôtel (p0025, p0026, p0036, p0054, p0055, p0056…)
+            - la: la (p0020, p0021, p0026, p0036, p0037, p0044…); là (p0069)
+            - marie: marie (p0082); marié (p0174)
+            - passes: passes (p0115, p0264, p0283, p0284); passés (p0070)
+            - perro: perro (p0275, p0277); pérro (p0210)
+            - pyrenees: pyrenees (p0009, p0011, p0013, p0015, p0019, p0023…); pyréneés (p0122); pyrénées (p0058, p0081, p0095, p0123, p0131, p0157)
+            - rhone: rhone (p0026, p0028, p0036); rhône (p0038)
+            - si: si (p0035, p0191, p0226, p0266, p0270, p0271…); sì (p0195)
+            - voyage: voyage (p0039, p0040, p0105, p0265); voyagé (p0305)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[look (12)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0056: “tic” — “tie” is common (85)
+            - p0056: “sopped” — “stopped” is common (854; a letter dropped or transposed?)
+            - p0058: “copie” — “copies” is common (63; a letter dropped or transposed?)
+            - p0059: “lettre” — “letter” is common (795; a letter dropped or transposed?)
+            - p0059: “lettres” — “letters” is common (603; a letter dropped or transposed?)
+            - p0139: “lauds” — “lands” is common (456)
+            - p0167: “fashed” — “flashed” is common (52; a letter dropped or transposed?)
+            - p0210: “appetit” — “appetite” is common (109; a letter dropped or transposed?)
+            - p0227: “hoots” — “boots” is common (351)
+            - p0260: “fluor” — “flour” is common (119; a letter dropped or transposed?)
+            - p0325: “hamet” — “hamlet” is common (100; a letter dropped or transposed?)
+            - p0354: “ladie” — “ladies” is common (1233; a letter dropped or transposed?)
+[       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
+[ look (4)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: …renees, stays for a time at Ax, crosses on foot and by mule into the val…
+            - book.json summary: …ule into the valley of Andorra, and goes down by the Seu d’Urgel and Calaf to Barcelona, …
+            - book.json summary: … Madrid, Granada, and Alicante, and returns by sea to Barcelona and home by Perpignan an…
+            - book.json summary: … fellow travellers, and plants, and of the hardships and insults a woman trav…
+[       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight PASS: over-the-pyrenees-eyre v1 — 0 to fix, 0 waived; to look at: hyphen-joins 8, folios 1, contents 4, accents 22, rare-forms 12, serial-commas 4 — tools@e6cf7047 2026-11-25

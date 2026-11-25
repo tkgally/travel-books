@@ -1,0 +1,6 @@
+{"given": "my luggage to San julia.", "print": "my luggage to San Julia.", "sure": "high"}
+{"given": "a moderate-sized horse; far bigger", "print": "a moderate-sized horse, far bigger", "sure": "high"}
+{"given": "but these gnides are all alike", "print": "but these guides are all alike", "sure": "high"}
+{"given": "peasants who till fields, and", "print": "peasants who till the fields, and", "sure": "high"}
+{"given": "My young guide was nor absolutely", "print": "My young guide was not absolutely", "sure": "high"}
+{"given": "Chapter V.", "print": "CHAPTER V.", "sure": "low"}
