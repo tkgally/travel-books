@@ -1,0 +1,46 @@
+{
+ "id": "mexican-trails-kirkham",
+ "version": 1,
+ "date": "2026-11-25",
+ "title": "Mexican Trails",
+ "subtitle": "A Record of Travel in Mexico, 1904–07, and a Glimpse at the Life of the Mexican Indian",
+ "short_title": "Mexican Trails",
+ "authors": [
+  {
+   "name": "Stanton Davis Kirkham",
+   "sort": "Kirkham, Stanton Davis",
+   "born": 1868,
+   "died": 1944
+  }
+ ],
+ "place": "New York and London",
+ "publisher": "G. P. Putnam’s Sons",
+ "year": 1909,
+ "edition_statement": "First edition",
+ "regions": [
+  "Mexico"
+ ],
+ "period": "1904–07",
+ "summary": "",
+ "source": {
+  "ia_identifier": "mexicantrailsrec00kirk_0",
+  "contributor": "Getty Research Institute",
+  "hidden_leaves": [
+   0,
+   11,
+   12,
+   381
+  ]
+ },
+ "omitted_from_reading": "The publisher’s list before the title page, the printed contents, the list of illustrations, the index, and the advertisements are in the JSON only.",
+ "notes_on_text": [],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-25",
+   "note": "First publication."
+  }
+ ],
+ "frontispiece": "p0010-1",
+ "divisions": []
+}

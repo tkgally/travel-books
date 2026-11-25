@@ -29,6 +29,11 @@ written down. This file says how to pick the work, when to stop and how to leave
 This list is gone through again each time a piece of work is finished (§3): after a book is published, the
 next piece is whatever now comes first here.
 
+0. **A delivery from a helper model** (Tom, 2026-11-25; `notes/helpers.md`): list the Drive folder "Helper model
+   workspace/Inbox" first. A delivery not yet taken in comes before everything else here: take it in, check and
+   correct it, publish the book, revise the helper's instructions (§"Taking in a delivery"). A book whose log says
+   "waiting for the helper's delivery" is otherwise left alone: it is not resumed by item 1. Before the session
+   closes, see that two jobs wait for the helper in "References" (§"Posting a job"; one while the trial is a test).
 1. **A book `in progress`** (`wip/<slug>/`): resume it from the "Status" section of its `log.md`. A book
    that is ready to publish comes first; then the one furthest along.
 2. **Open errata** that can be fixed without Tom (`notes/errata.md`): fix, republish that book as a new

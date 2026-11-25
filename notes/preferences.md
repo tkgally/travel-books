@@ -402,6 +402,34 @@ goes to the to-do list for those sessions (`RESUME.md`).
 - **He allows download links to `github.com`** (the release files) — an exception to "the only outside content is
   links to IA" (CLAUDE.md), and **accepts a long list of releases** on the repository's Releases page (one per book).
 
+## 2026-11-25 (help from other companies' models: Gemini first)
+
+Tom, in a session he assigned to Claude Fable 5.2 for the occasion (later routine sessions stay on Opus):
+
+- **Some of the first transcription and image work is to be given to non-Claude models, starting with Gemini**
+  (he runs Gemini 4 Neo, Carbon or Hydrogen in the Antigravity app, at any thinking effort; Claude says which model
+  and effort to choose and may experiment). For the time being the helper models do **only the initial
+  transcription, the image editing and the creation of a book's JSON file**.
+- **Claude still manages the project under his supervision**: chooses and screens the books, downloads the scans from
+  IA to the Drive folder, writes and maintains the prompts for the helper models, judges what they send back and
+  revises the prompts to improve it, makes sure the finished text and pictures are of the usual quality, runs the
+  build, and works with him on the site.
+- **The channel is the Drive subfolder "Helper model workspace"** of "Travel Books" (Gemini is given access to that
+  subfolder only): the prompts go in the folder itself, the files a job needs in its subfolder **"References"**;
+  the helper uploads its JSON, image files and notes on the job to the subfolder **"Inbox"**. Claude manages and
+  organises the files and folders inside it. Tom points Gemini at the prompt (Claude tells him its path).
+- **Two test steps first.** (1) Judge `japan-as-we-saw-it-gardiner.json` and `.odt` in the Inbox (Gemini 4 Neon,
+  medium effort, told only to look at the repository and follow the workflow; no explicit prompt) against Claude's
+  own edition: the quality, how much work it would be to bring it to the project's standard, and whether the image
+  editing can be entrusted to Gemini. (2) A new book done by Gemini from a prompt and reference files Claude
+  provides; Claude checks and polishes it, publishes it as normal, and revises the prompt.
+- **If it works, routine sessions (from `RESUME.md`) first check the Inbox**: new work from Gemini is processed into
+  published books before anything else; with nothing new, the session does whole books itself and the usual
+  maintenance. Claude keeps the prompts and scan files available to Gemini up to date, so that **Gemini always has
+  books to work on**.
+- **Whether it continues depends on two things**: how much it reduces Claude's own token use per book, and whether
+  the same quality of text and pictures is kept. The aim is more books at the same quality.
+
 ## Questions for Tom
 
 - **Side-notes that date the entries of a letter or diary** (*Letters from Southern India & Ceylon*, Williams, 1877; 2026-11-22). The book prints
