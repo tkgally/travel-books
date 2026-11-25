@@ -1,0 +1,5 @@
+{"given": "country; the summit being nearly", "print": "country, the summit being nearly", "sure": "high"}
+{"given": "the western of the series the largest", "print": "the western of the series and the largest", "sure": "high"}
+{"given": "in a high state of cnltivation, and", "print": "in a high state of cultivation, and", "sure": "high"}
+{"given": "manufacturing towns, were some of the", "print": "manufacturing towns, where some of the", "sure": "high"}
+{"given": "other steamers in scandinavia, the passage", "print": "other steamers in Scandinavia, the passage", "sure": "high"}

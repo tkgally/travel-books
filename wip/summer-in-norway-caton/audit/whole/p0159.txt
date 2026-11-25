@@ -1,0 +1,5 @@
+{"given": "distinction among maritime Lapps have", "print": "distinction among the maritime Lapps have", "sure": "high"}
+{"given": "the mountains, and prcfer the mountain", "print": "the mountains, and prefer the mountain", "sure": "high"}
+{"given": "some passage in the scriptures which", "print": "some passage in the Scriptures which", "sure": "high"}
+{"given": "who the victims were; so as", "print": "who the victims were, so as", "sure": "high"}
+{"given": "conviction, and when from fear", "print": "conviction, and then from fear", "sure": "high"}

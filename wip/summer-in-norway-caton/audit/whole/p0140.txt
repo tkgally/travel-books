@@ -1,0 +1,4 @@
+{"given": "and or the streets back", "print": "and on the streets back", "sure": "high"}
+{"given": "dwellings, some which are fine", "print": "dwellings, some of which are fine", "sure": "high"}
+{"given": "principal source of this commeree.", "print": "principal source of this commerce.", "sure": "high"}
+{"given": "which are very numerous; and do", "print": "which are very numerous, and do", "sure": "high"}

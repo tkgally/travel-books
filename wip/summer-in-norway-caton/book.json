@@ -87,5 +87,13 @@
  ],
  "keep_hyphens": [
   "p0087"
- ]
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-25",
+  "pages": 6,
+  "recall": "28/28",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }

@@ -1,0 +1,5 @@
+{"given": "residents of hammerfest I found", "print": "residents of Hammerfest I found", "sure": "high"}
+{"given": "of other countries; and indeed", "print": "of other countries, and indeed", "sure": "high"}
+{"given": "scenery—all bad charms for them", "print": "scenery—all had charms for them", "sure": "high"}
+{"given": "fortunate that the varyiug tastes of", "print": "fortunate that the varying tastes of", "sure": "high"}
+{"given": "or all sought frigid zone,", "print": "or all sought the frigid zone,", "sure": "high"}

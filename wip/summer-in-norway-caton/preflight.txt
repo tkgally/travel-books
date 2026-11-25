@@ -12,11 +12,9 @@
 [       ok] nav: contents: at least one reading division; each has a title and text
 [       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
-[ FAIL (1)] audit: book.json records the sampled audit of this version
-            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
-[look (13)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+[       ok] audit: book.json records the sampled audit of this version
+[look (12)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0052: …ccupants indus-|triously engage… (hyphen removed; check)
-            - hyphen join at p0087: …lp of a fellow-|countryman he g… (hyphen removed; check) — the book hyphenates other “fellow-” words: keep_hyphens?
             - hyphen join at p0104: …, they were in-|stantly transfo… (hyphen removed; check)
             - hyphen join at p0136: …o all this rea-|soning, which w… (hyphen removed; check)
             - hyphen join at p0145: …iversal defama-|tion as undoubt… (hyphen removed; check)
@@ -33,8 +31,7 @@
 [       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
 [       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
 [       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
-[ look (1)] contents: entries of the printed contents with no matching heading
-            - p0013: 'Norwegian history; Olaf Tryggveson; his romantic story; is sold into s'
+[       ok] contents: entries of the printed contents with no matching heading
 [       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
 [       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
 [       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
@@ -50,9 +47,9 @@
             - p0148: “hoards” — “boards” is common (302)
 [       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
 [ look (1)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
-            - book.json summary: …farms, inns, prices, and roads, and adds long passages on the history of Norway and on its red deer, rei…
+            - book.json summary: …he met, farms, inns, and roads, and adds long passages on the history of Norway and on its red deer, rei…
 [ look (1)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
             - p0108: “things He” in …han the least of all the things He has ever made…
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: summer-in-norway-caton v1 — 1 to fix, 0 waived; to look at: hyphen-joins 13, contents 1, accents 2, rare-forms 2, serial-commas 1, missing-stop 1 — tools@7bf516a0 2026-11-25
+preflight PASS: summer-in-norway-caton v1 — 0 to fix, 1 waived; to look at: hyphen-joins 12, accents 2, rare-forms 2, serial-commas 1, missing-stop 1 — tools@0f6d9ddb 2026-11-25
