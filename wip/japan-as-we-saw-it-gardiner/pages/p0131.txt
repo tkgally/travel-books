@@ -10,13 +10,17 @@ Neck, <i>nodo; kubi</i>.
 
 Needle, <i>hari</i>.
 
+<blockquote>
 work, <i>hari shigoto</i>.
+</blockquote>
 
 Neither, <i>dochi ra mo nai</i>.
 
 Never, <i>itsumo nai</i>.
 
+<blockquote>
 mind, <i>kamaimasen</i>.
+</blockquote>
 
 New, <i>atarashii</i>.
 
@@ -26,6 +30,7 @@ Next, <i>sore kara</i>.
 
 Night, <i>yoru; ban</i>.
 
+<blockquote>
 Last night, <i>sakuban</i>.
 
 To-morrow night, <i>mioban</i>.
@@ -33,6 +38,7 @@ To-morrow night, <i>mioban</i>.
 One night, <i>shto ban</i>.
 
 Good night, <i>o yasumi nasai</i>.
+</blockquote>
 
 Nightdress, <i>nemaki</i>.
 
@@ -40,7 +46,9 @@ Nightly, <i>maiban</i>.
 
 No, <i>iye; nai</i>.
 
+<blockquote>
 I have no time, <i>hima ga nai</i>.
+</blockquote>
 
 Noise, <i>sawagi</i>.
 
@@ -48,7 +56,9 @@ Noisy, <i>sozoshii</i>.
 
 Noon, <i>mahiru</i>.
 
+<blockquote>
 Afternoon, <i>hiru-sugi</i>.
+</blockquote>
 
 Nose, <i>hana</i>.
 
@@ -58,13 +68,17 @@ Not yet, <i>mada</i>.
 
 Now, <i>ima; tadaima</i>.
 
+<blockquote>
 and then, <i>tabi tabi</i>.
+</blockquote>
 
 Number 1, <i>ichi ban</i>.
 
+<blockquote>
 First, <i>ichi ban me</i>.
 
 No. 10, <i>jiu ban</i>.
+</blockquote>
 
 Numerous, <i>oi</i>.
 
@@ -78,13 +92,17 @@ Oblong, <i>yoko nagai; nagate no</i>.
 
 O'clock, <i>ji; toki</i>.
 
+<blockquote>
 What o'clock is it? <i>nan ji</i>.
+</blockquote>
 
 Odor, <i>nioi</i>.
 
+<blockquote>
 (good), <i>ii nioi</i>.
 
 (bad), <i>ksai</i>.
+</blockquote>
 
 Of, <i>no</i>.
 
@@ -98,11 +116,13 @@ Often, <i>tabi tabi</i>.
 
 Old (of things), <i>furui</i>.
 
+<blockquote>
 (of people), <i>toshiyori</i>.
 
 How old are you? <i>toshi wa ikutsu</i>.
 
 Is this old? <i>kore wa furui ka</i>.
+</blockquote>
 
 On, <i>ue ni</i>.
 
@@ -112,7 +132,9 @@ Only, <i>tada bakari</i>.
 
 Open, To, <i>akeru</i>.
 
+<blockquote>
 Open the door, <i>to wo akero</i>.
+</blockquote>
 
 Opium, <i>ahen</i>.
 
@@ -122,7 +144,9 @@ Or, <i>ka</i>.
 
 Order, <i>shidai</i>.
 
+<blockquote>
 To put in order, <i>soroeru</i>.
+</blockquote>
 
 Other, <i>hoka no</i>.
 
@@ -136,7 +160,9 @@ Overcoat, <i>uwagi</i>.
 
 Owner, <i>nushi</i>.
 
+<blockquote>
 Who owns this? <i>kore wa dare no mono des ka</i>.
+</blockquote>
 
 ## P
 
@@ -152,9 +178,11 @@ Painter, <i>ekaki</i>.
 
 Paper, <i>kami</i>.
 
+<blockquote>
 Writing paper, <i>kaku kami</i>.
 
 W. C. paper, <i>nezumi ban</i>.
+</blockquote>
 
 Parasol, <i>higasa</i>.
 
@@ -162,7 +190,9 @@ Parcel, <i>tsutsumi</i>.
 
 Pardon, <i>yurushi</i>.
 
+<blockquote>
 I beg pardon, <i>gomen kudasai</i>.
+</blockquote>
 
 Parent, <i>oya</i>.
 
@@ -174,7 +204,9 @@ Past, <i>sen; sendatte</i>.
 
 Pay, To, <i>harau, kanjosuru</i>.
 
+<blockquote>
 What pay do you want per month? <i>shtotsu tski de ikura?</i>
+</blockquote>
 
 Payment, <i>harai</i>.
 
@@ -214,9 +246,11 @@ Plank, <i>ita</i>.
 
 Plant, <i>ki; ksa</i>.
 
+<blockquote>
 (in a garden), <i>ueki</i>.
 
 To plant, <i>ueru</i>.
+</blockquote>
 
 Plate, <i>sara</i>.
 

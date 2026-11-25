@@ -70,7 +70,9 @@ Condiments, <i>yakumi.</i>
 
 Cook, <i>ryori-nin.</i>
 
+<blockquote>
 To, <i>ryori suru.</i>
+</blockquote>
 
 Crab, <i>kani.</i>
 
@@ -82,17 +84,21 @@ Deer, <i>shika.</i>
 
 Duck (wild), <i>kamo.</i>
 
+<blockquote>
 (domestic), <i>ahiru.</i>
+</blockquote>
 
 Eels, <i>unagi.</i>
 
 Eggs, <i>tamago.</i>
 
+<blockquote>
 soft boiled, <i>tamago no hanjiku.</i>
 
 hard boiled, <i>tamago no ninuki.</i>
 
 raw, <i>nama tamago.</i>
+</blockquote>
 
 Figs, <i>ichijiku.</i>
 
@@ -128,9 +134,11 @@ Mackerel, <i>saba.</i>
 
 Meat, <i>niku.</i>
 
+<blockquote>
 Boiled meat, <i>nita niku.</i>
 
 Roast meat, <i>mushi yaki niku.</i>
+</blockquote>
 
 Melon, <i>uri.</i>
 
@@ -152,7 +160,9 @@ Oyster, <i>kaki.</i>
 
 Pea, <i>endo mame.</i>
 
+<blockquote>
 (in the pod), <i>saya endo.</i>
+</blockquote>
 
 Pepper, <i>kosho.</i>
 
@@ -170,7 +180,9 @@ Pork, <i>buta.</i>
 
 Potato (Irish), <i>jaga imo.</i>
 
+<blockquote>
 (sweet), <i>satsuma imo.</i>
+</blockquote>
 
 Quail, <i>udzura.</i>
 

@@ -2,19 +2,25 @@
 
 Little (small), <i>chisai.</i>
 
+<blockquote>
 A little, <i>chitto.</i>
+</blockquote>
 
 Lodging, <i>yadori.</i>
 
 Long (in measure), <i>nagai.</i>
 
+<blockquote>
 (in time), <i>hisashi.</i>
+</blockquote>
 
 Look out! <i>abunai.</i>
 
 Look (Imp.), <i>mi yo.</i>
 
+<blockquote>
 To look for something, <i>sagasu.</i>
+</blockquote>
 
 Loose, <i>yurui.</i>
 
@@ -40,24 +46,29 @@ Mail, <i>yubin, hikiaku.</i>
 
 Make, To, <i>koshiraeru.</i>
 
+<blockquote>
 Can be made, <i>dekiru.</i>
 
 It is made, <i>dekita.</i>
 
 What is this made of? <i>kore wa nan de dekite orimas.</i>
+</blockquote>
 
 Male, <i>otoko.</i>
 
 Man, <i>otoko.</i>
 
+<blockquote>
 Old man, <i>oji san.</i>
 
 Young man, <i>wakai otoko.</i>
+</blockquote>
 
 Manufacturer, <i>seizo nin.</i>
 
 Many, <i>yohodo; oku no; oi.</i>
 
+<blockquote>
 times, <i>iku tabi mo.</i>
 
 How many times, <i>iku tabi.</i>
@@ -65,6 +76,7 @@ How many times, <i>iku tabi.</i>
 How many, <i>ikutsu.</i>
 
 A great many, <i>taksan.</i>
+</blockquote>
 
 Map, <i>edzu; chidzu.</i>
 
@@ -82,9 +94,11 @@ Matting, <i>goza; usuberi.</i>
 
 Matter, <i>koto.</i>
 
+<blockquote>
 What is the matter? <i>nan da.</i>
 
 No matter, <i>kamaimasen.</i>
+</blockquote>
 
 Measure, <i>sumpo; sunshaku.</i>
 
@@ -104,7 +118,9 @@ Merchant, <i>akindo.</i>
 
 Messenger, <i>tskai.</i>
 
+<blockquote>
 Send a messenger, <i>tskai wo yatte kudasai.</i>
+</blockquote>
 
 Midnight, <i>yo naka.</i>
 
@@ -114,6 +130,7 @@ Mine, <i>watakshi no.</i>
 
 Minute (of time), <i>fun.</i>
 
+<blockquote>
 One minute, <i>ippun.</i>
 
 Three minutes, <i>sampun.</i>
@@ -123,6 +140,7 @@ Six minutes, <i>roppun.</i>
 Ten minutes, <i>jippun.</i>
 
 Five minutes to twelve, <i>jiu ni ji go fun mai.</i>
+</blockquote>
 
 Mirror, <i>kagami.</i>
 
@@ -148,11 +166,13 @@ Mrs. Bird, <i>Bird san no okamisan.</i>
 
 Money, <i>kane.</i>
 
+<blockquote>
 (coin), <i>shokin, zani.</i>
 
 Paper money, <i>sats; kinsats.</i>
 
 Have you any paper money? <i>kinsats arimaska.</i>
+</blockquote>
 
 Monkey, <i>saru.</i>
 
@@ -162,11 +182,13 @@ Moon, <i>tsai.</i>
 
 More, <i>mo; motto.</i>
 
+<blockquote>
 Have you any more? <i>motto, aru ka.</i>
 
 A little more, <i>mo skoshi.</i>
 
 No more, <i>mo nai.</i>
+</blockquote>
 
 Morning, <i>asa.</i>
 
@@ -184,7 +206,9 @@ Mother, <i>okkasan.</i>
 
 Much (plenty), <i>taksan.</i>
 
+<blockquote>
 better, <i>yo hodo yoi.</i>
+</blockquote>
 
 Mud, <i>doro.</i>
 
@@ -192,11 +216,13 @@ Murder, <i>shto-goroshi.</i>
 
 Must, <i>kitto.</i>
 
+<blockquote>
 go, <i>yukaneba naranu.</i>
 
 see, <i>mi nakte naranu.</i>
 
 not, <i>bekarazaru.</i>
+</blockquote>
 
 My; mine, <i>watakshi no.</i>
 
@@ -210,6 +236,8 @@ Nail (metal), <i>kugi.</i>
 
 Name (given), <i>na.</i>
 
+<blockquote>
 Family name, <i>mioji; sei.</i>
 
 What is your name? <i>na wa nanda.</i>
+</blockquote>

@@ -1,5 +1,0 @@
-{"given": "in spite of the gathering shadows; one imagines", "print": "in spite of the gathering shadows, one imagines", "sure": "high"}
-{"given": "she must have bad some share", "print": "she must have had some share", "sure": "high"}
-{"given": "youth. May not perfume of jasmine", "print": "youth. May not the perfume of jasmine", "sure": "high"}
-{"given": "the history of the gardcn, it is", "print": "the history of the garden, it is", "sure": "high"}
-{"given": "to have come from france, so that", "print": "to have come from France, so that", "sure": "high"}

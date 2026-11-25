@@ -1,0 +1,6 @@
+{"find": "five hundred, or thousand people", "replace": "five hundred, or thousand people"}
+{"find": "that they may themselves", "replace": "that they may themselves"}
+
+Wait, those are no-ops; the draft otherwise matches. Final:
+
+NONE

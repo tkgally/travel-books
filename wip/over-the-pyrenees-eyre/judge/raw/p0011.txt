@@ -1,0 +1,2 @@
+{"n": 1, "is": "B", "print": "AUTHOR OF ‘A LADY’S WALKS IN THE SOUTH OF FRANCE.", "sure": "medium"}
+{"n": 2, "is": "B", "print": "PUBLISHER IN ORDINARY TO HER MAJESTY.", "sure": "medium"}

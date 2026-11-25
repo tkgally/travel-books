@@ -1,5 +1,0 @@
-{"given": "Black white creeper, 131", "print": "Black and white creeper, 131", "sure": "high"}
-{"given": "Blue-gray gnatcatcher, 131", "print": "Blue-grey gnatcatcher, 131", "sure": "high"}
-{"given": "Bull sight, 23, 24, 26", "print": "Bull fight, 23, 24, 26", "sure": "high"}
-{"given": "Cabrera; paintings of, 160", "print": "Cabrera, paintings of, 160", "sure": "high"}
-{"given": "Cane lauces, 233", "print": "Cane lances, 233", "sure": "high"}

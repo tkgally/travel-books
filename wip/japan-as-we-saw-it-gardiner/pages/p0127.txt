@@ -26,9 +26,11 @@ Fill, To, <i>ippai ni suru.</i>
 
 Find, To, <i>mi ataru.</i>
 
+<blockquote>
 Have you found it? <i>atta ka.</i>
 
 I have found it, <i>atta!</i>
+</blockquote>
 
 Finally, <i>toto.</i>
 
@@ -36,15 +38,19 @@ Fingers, <i>yubi.</i>
 
 Finished, <i>shimai.</i>
 
+<blockquote>
 When will it be finished? <i>itsu wo shimai ka.</i>
 
 I have finished, <i>mo shimai.</i>
+</blockquote>
 
 Fire, <i>hi.</i>
 
+<blockquote>
 (Conflagration), <i>kaji.</i>
 
 Please make me a fire, <i>hi wo tskeru.</i>
+</blockquote>
 
 First, at, <i>hajime; saisho ni.</i>
 
@@ -58,17 +64,23 @@ Flesh, <i>niku.</i>
 
 Floor, <i>ita no ma; yuka.</i>
 
+<blockquote>
 Second floor, <i>nikai.</i>
+</blockquote>
 
 Flour, <i>kona.</i>
 
 Flower, <i>hana.</i>
 
+<blockquote>
 pot, <i>ueki bachi.</i>
+</blockquote>
 
 Fly (insect), hai.
 
+<blockquote>
 To fly, <i>tobu.</i>
+</blockquote>
 
 Food, <i>shokuji; tabe mono.</i>
 
@@ -78,17 +90,23 @@ Foot, <i>ashi.</i>
 
 Foot measure, <i>shaku-zashi.</i>
 
+<blockquote>
 Rule, <i>mono-sashi.</i>
+</blockquote>
 
 Foreigner, <i>ijin; gaikokujin; seiyojin.</i>
 
+<blockquote>
 The vulgar word is <i>tojin.</i>
+</blockquote>
 
 Foreign-built, <i>seiyo-zu-kuri.</i>
 
 Forget, To, <i>wasureru.</i>
 
+<blockquote>
 Do not forget it, <i>wasurete wa ikemasen.</i>
+</blockquote>
 
 Fork (eating), <i>niku sashi.</i>
 
@@ -122,29 +140,37 @@ Gentleman; guest; customer, <i>o kyaku.</i>
 
 Get, To, <i>morau.</i>
 
+<blockquote>
 To get back, <i>kaesu.</i>
 
 To get up, <i>okiru.</i>
 
 Get me a jinrikisha, <i>kuruma wo yobe.</i>
+</blockquote>
 
 Girl (when spoken of), <i>musume; onna no ko.</i>
 
+<blockquote>
 (when spoken to), <i>nesan.</i>
+</blockquote>
 
 Give me, <i>kudasai.</i>
 
+<blockquote>
 Give me some bread, <i>pan wo kudasai.</i>
 
 To give (to another), <i>ageru.</i>
 
 I will give you two yen, <i>ni yen agemasho.</i>
+</blockquote>
 
 Glad, <i>yorokobi; ureshii.</i>
 
 Glass, <i>giaman.</i>
 
+<blockquote>
 (Tumbler), <i>koppu.</i>
+</blockquote>
 
 Glove, <i>tebukuro.</i>
 
@@ -152,6 +178,7 @@ Glue, <i>nikawa.</i>
 
 Go, To, <i>iku.</i>
 
+<blockquote>
 (of one’s self), <i>mairu.</i>
 
 I will go ahead, <i>saki ni mairimas.</i>
@@ -163,11 +190,13 @@ I wish to go to Tokio, <i>Tokio e ikitai.</i>
 I shall go, <i>ikimas.</i>
 
 I did go, <i>ikimashta.</i>
+</blockquote>
 
 Go away, <i>yuke yo; ike!</i>
 
 Let us go now, <i>mo ikimasho.</i>
 
+<blockquote>
 Go ahead, To, <i>saki e yuku.</i>
 
 Where are you going? <i>dochira e irashaimas ka.</i>
@@ -179,12 +208,15 @@ To go down (inclines), <i>oriru; kudaru.</i>
 To go into, <i>hairu.</i>
 
 To go back, <i>kaeru.</i>
+</blockquote>
 
 God, Shinto and Protestant, <i>kami; shin.</i>
 
 God, Buddhist, <i>hotoke.</i>
 
+<blockquote>
 Catholic, <i>tenshu.</i>
+</blockquote>
 
 Goddess, <i>onna-gami; megami.</i>
 
@@ -198,4 +230,6 @@ Gold fish, <i>kingyo.</i>
 
 Good, <i>yoroshii.</i>
 
+<blockquote>
 (to the taste), <i>amai; yoi.</i>
+</blockquote>

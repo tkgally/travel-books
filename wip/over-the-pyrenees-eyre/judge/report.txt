@@ -1,0 +1,11 @@
+judge opus: 10 spots on 7 pages: {'draft': 9, 'verified': 1}; cost $0.30
+p0011 #1 [draft, sure: medium] draft 'AUTHOR OF ‘A LADY’S WALKS IN THE SOUTH OF FRANCE.' | verified '<sc>author of ‘a lady’s walks in the south of france.</sc>' | judge reads 'AUTHOR OF ‘A LADY’S WALKS IN THE SOUTH OF FRANCE.'
+p0011 #2 [draft, sure: medium] draft 'PUBLISHER IN ORDINARY TO HER MAJESTY.' | verified '<sc>publisher in ordinary to her majesty.</sc>' | judge reads 'PUBLISHER IN ORDINARY TO HER MAJESTY.'
+p0056 #1 [draft, sure: medium] draft 'L’Ariége' | verified 'L’Ariège' | judge reads 'L’Ariége'
+p0063 #1 [draft, sure: medium] draft 'Collége de Foix, ' | verified 'Collège de Foix, ' | judge reads 'Collége de Foix, '
+p0063 #2 [draft, sure: medium] draft 'Collége de Foix, ' | verified 'Collège de Foix, ' | judge reads 'Collége de Foix, '
+p0095 #1 [draft, sure: high] draft 'M. le Curé’s lodgings' | verified 'M. le Cure’s lodgings' | judge reads 'M. le Curé’s lodgings'
+p0095 #2 [draft, sure: high] draft 'é, M. le Curé, and' | verified 'é, M. le Cure, and' | judge reads 'é, M. le Curé, and'
+p0122 #1 [draft, sure: high] draft 'Farenheit' | verified 'Fahrenheit' | judge reads 'Farenheit'
+p0182 #1 [verified, sure: medium] draft 'that of 〓n unblown' | verified 'that of n unblown' | judge reads 'that of n unblown'
+p0319 #1 [draft, sure: high] draft 'regreting that' | verified 'regretting that' | judge reads 'regreting that'

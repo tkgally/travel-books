@@ -1,5 +1,0 @@
-{"given": "drink without wincing if anyone asks you to", "print": "drink without wincing if any one asks you to", "sure": "medium"}
-{"given": "induced by altitude, latitude; and position", "print": "induced by altitude, latitude, and position", "sure": "high"}
-{"given": "but none more remarkable than his, where", "print": "but none more remarkable than this, where", "sure": "high"}
-{"given": "to the semi-dcsert of southern Oaxaca", "print": "to the semi-desert of southern Oaxaca", "sure": "high"}
-{"given": "chosen for a waterway preference to the", "print": "chosen for a waterway in preference to the", "sure": "high"}

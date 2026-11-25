@@ -1945,11 +1945,13 @@
    "place": "New York and London",
    "publisher": "G. P. Putnam’s Sons",
    "images": 382,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-25",
    "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): only another book of his. Web searches: no Faded Page or Wikisource text; exact-sentence search: nothing. Reprints: Kessinger (print on demand); HathiTrust page images only. Kirkham 1868–1944; the photographs are his own.",
    "note": "Getty scan, 500 ppi; about 300 small pages; frontispiece and 23 plates from the author's photographs (all 24 captions found in the OCR). Three years on foot and horseback: Cuernavaca, Morelos villages, Tepoztlán, Xochicalco, Taxco, Puebla, Cholula, Oaxaca, Mitla, the Isthmus, Morelia, Guadalajara, Guanajuato.",
-   "started": "2026-11-25"
+   "started": "2026-11-25",
+   "version": 1,
+   "published": "2026-11-26"
   },
   {
    "order": 107,

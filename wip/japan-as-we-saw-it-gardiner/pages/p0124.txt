@@ -2,11 +2,13 @@
 
 Bath (hot), <i>yu</i>; <i>furo</i>.
 
+<blockquote>
 (cold), <i>midzu abi</i>.
 
 Get my bath (hot) ready, <i>yu wo tatte nasai</i>.
 
 Is my bath ready? <i>furo wo dekimashta ka</i>.
+</blockquote>
 
 Bath-Tub, <i>furo</i>.
 
@@ -24,11 +26,13 @@ Become, To, <i>naru</i>.
 
 Bed, <i>nedoko</i>.
 
+<blockquote>
 Foreign bed, <i>nedai</i>.
 
 To go to bed, <i>neru</i>.
 
 I wish to go to bed, <i>netai</i>.
+</blockquote>
 
 Bed-clothes, <i>yagu</i>; <i>futon</i>.
 
@@ -46,7 +50,9 @@ Bell, <i>kane</i>.
 
 Belong (of), <i>no</i>.
 
+<blockquote>
 It belongs to me, <i>kore wa watakushi no</i>.
+</blockquote>
 
 Below, <i>shta</i>.
 
@@ -60,7 +66,9 @@ Bet, <i>kake</i>.
 
 Better, <i>motto yoroshi</i>.
 
+<blockquote>
 Let me see something better, <i>motto ii mono wo o mise nasai</i>.
+</blockquote>
 
 Between, <i>aida ni</i>.
 
@@ -82,9 +90,11 @@ Blotting paper, <i>oshigami</i>.
 
 Blue, <i>sora-iro</i>, <i>ai</i>, <i>asagi</i>.
 
+<blockquote>
 Dark blue, <i>kon</i>.
 
 Light blue, <i>midzu asagi</i>.
+</blockquote>
 
 Boat, <i>fune</i>.
 
@@ -112,7 +122,9 @@ Brazier, <i>hibachi</i>.
 
 Break, To, (intr.) <i>koareru</i>.
 
+<blockquote>
 (trans.) <i>koasu</i>.
+</blockquote>
 
 Brick, <i>renga</i>.
 
@@ -122,7 +134,9 @@ Bring me (a thing), <i>motte koi</i>.
 
 Bring me (a person), <i>tsurete koi</i>.
 
+<blockquote>
 Bring me water, <i>midzu wo motte koi</i>.
+</blockquote>
 
 Bronze, <i>karakane</i>; <i>shakudo</i>.
 
@@ -140,15 +154,21 @@ Bureau, <i>tansu</i>.
 
 Burn, To, (t. v.) <i>moyasu</i>.
 
+<blockquote>
 (i. v.) <i>moeru</i>.
+</blockquote>
 
 Business (affair), <i>yoji</i>.
 
+<blockquote>
 (occupation), <i>shobai</i>.
+</blockquote>
 
 Busy, <i>isogashi</i>.
 
+<blockquote>
 Are you busy, <i>isogashiu gozaimaska</i>.
+</blockquote>
 
 Butterfly, <i>cho</i>.
 
@@ -156,13 +176,17 @@ Button, <i>bottan</i>.
 
 Buy, To, <i>kau</i>.
 
+<blockquote>
 me some paper, <i>kami wo katte okure</i>.
+</blockquote>
 
 By (by means of), <i>de</i>.
 
 By boat, <i>fune de</i>.
 
+<blockquote>
 and by, <i>nochi hodo</i>.
+</blockquote>
 
 ## C
 
@@ -172,7 +196,9 @@ Calculate, To, <i>kanjo suru</i>.
 
 Call, To, <i>yobu</i>.
 
+<blockquote>
 What do you call this? <i>kore wo nanto moshimas ka</i>.
+</blockquote>
 
 Canal, <i>hori</i>.
 
@@ -180,7 +206,9 @@ Candle, <i>rosoku</i>.
 
 Can, <i>dekiru</i>.
 
+<blockquote>
 Can you do this? <i>kore wo dekiru ka</i>.
+</blockquote>
 
 Cannon, <i>taiho</i>.
 
@@ -196,9 +224,11 @@ Carriage, <i>basha</i>.
 
 Carry, To, <i>mochi</i>; <i>hakobu</i>.
 
+<blockquote>
 To carry away, <i>motte iku</i>.
 
 in, <i>motte hairu</i>.
+</blockquote>
 
 Cartage, <i>niguruma-chin</i>.
 
@@ -214,4 +244,6 @@ Chair, <i>koshikake</i>.
 
 Change, To, <i>tori kaeru</i>.
 
+<blockquote>
 Change, small change, <i>tsuri</i>.
+</blockquote>

@@ -12,12 +12,15 @@ Dispute, <i>giron.</i>
 
 Distance, <i>michinori.</i>
 
+<blockquote>
 What is the distance to Hakone? <i>Hakone made michinori ga ika hodo arimaska.</i>
+</blockquote>
 
 Distant, <i>toi.</i>
 
 Do, To, <i>suru; nasu.</i>
 
+<blockquote>
 Please do as I tell you, <i>watakushi no iu tori ni nasae.</i>
 
 Better not do so, <i>so shte wa warui.</i>
@@ -31,6 +34,7 @@ That won't do, <i>sore wa ikenai.</i>
 What shall I do? <i>do shimasho.</i>
 
 Isn't it done yet? <i>mada dekite imasen ka.</i>
+</blockquote>
 
 Doctor, <i>isha.</i>
 
@@ -38,15 +42,19 @@ Dog, <i>inu.</i>
 
 Door, <i>to.</i>
 
+<blockquote>
 Sliding, <i>shoji, karakami.</i>
 
 Please shut the door, <i>to wo tatte nasai.</i>
+</blockquote>
 
 Dose, One, <i>ippuku.</i>
 
 Doubt, <i>utagai.</i>
 
+<blockquote>
 I doubt it, <i>so de wa nai to omo.</i>
+</blockquote>
 
 Down (below), <i>shta.</i>
 
@@ -80,7 +88,9 @@ Ear, <i>mimi.</i>
 
 Early, <i>hayai.</i>
 
+<blockquote>
 Early in the morning, <i>asa hayaku ni.</i>
+</blockquote>
 
 Earth, <i>tschi.</i>
 
@@ -88,11 +98,15 @@ Earthquake, <i>jishin.</i>
 
 Easy, <i>yasashii.</i>
 
+<blockquote>
 It is very easy, <i>zosa mo nai.</i>
+</blockquote>
 
 Eat, To, <i>taberu.</i>
 
+<blockquote>
 I wish to eat (I am hungry), <i>tabetai.</i>
+</blockquote>
 
 Either, <i>dochira demo.</i>
 
@@ -104,7 +118,9 @@ Emperor, <i>tenshi sama.</i>
 
 Empty, <i>kara.</i>
 
+<blockquote>
 Hollow, <i>uro ni natta.</i>
+</blockquote>
 
 Enamel, <i>shippo.</i>
 
@@ -124,17 +140,21 @@ Evening, <i>ban; yugata.</i>
 
 In the evening, <i>ban hodo.</i>
 
+<blockquote>
 This evening, <i>kon ban.</i>
 
 To-morrow evening, <i>mio ban.</i>
 
 Last evening, <i>saku ban.</i>
+</blockquote>
 
 Every body, <i>daredemo.</i>
 
+<blockquote>
 time, <i>sono tambi ni.</i>
 
 where, <i>dokodemo.</i>
+</blockquote>
 
 Exactly so, <i>chodo.</i>
 
@@ -150,7 +170,9 @@ Expense, <i>nyuhi.</i>
 
 Express, <i>kaiso, unso.</i>
 
+<blockquote>
 office, <i>unso kaisha.</i>
+</blockquote>
 
 Extinguish, To, <i>kesu.</i>
 
@@ -166,14 +188,19 @@ False, <i>uso.</i>
 
 Fan (folding), <i>ogi; sensu.</i>
 
+<blockquote>
 (round), <i>uchiwa.</i>
+</blockquote>
 
 Far, <i>toi.</i>
 
+<blockquote>
 How far is it to Yokohama? <i>Yokohama made wa dono kurai des.</i>
+</blockquote>
 
 Fare, <i>chinsen.</i>
 
+<blockquote>
 first class, <i>joto chinsen.</i>
 
 second class, <i>chuto chinsen.</i>
@@ -181,6 +208,7 @@ second class, <i>chuto chinsen.</i>
 and return, <i>joge.</i>
 
 What is the fare to Tokio? <i>Tokio made chinsen wa ikura.</i>
+</blockquote>
 
 Farmer, <i>hiaksho.</i>
 

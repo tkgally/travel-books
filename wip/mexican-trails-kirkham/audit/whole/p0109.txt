@@ -1,5 +1,0 @@
-{"given": "Ramon is likewize old, and", "print": "Ramon is likewise old, and", "sure": "high"}
-{"given": "and hold out your band than", "print": "and hold out your hand than", "sure": "high"}
-{"given": "earned his few coppcrs. His", "print": "earned his few coppers. His", "sure": "high"}
-{"given": "and the record the weary purposeless", "print": "and the record of the weary purposeless", "sure": "high"}
-{"given": "At such times; if", "print": "At such times, if", "sure": "high"}
