@@ -1,4 +1,0 @@
-Gemini 4 Neon (Tom's word), medium effort, 2026-11-24, with no prompt of ours. Delivered as a compiled book JSON
-(Drive id 1IMwqF5rtMlVKqxKOyqv52Ad69pNcjDev) and an ODT (1BygJ5FpLrdxk2fBlU3bemMmtT6mo0-64) in the helper Inbox.
-These page files were made from that JSON by a one-off script (blocks split at their page breaks) and normalize.py:
-they are for comparison, not the text. The pictures in ../images are the ones in its ODT.

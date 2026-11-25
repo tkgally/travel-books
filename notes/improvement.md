@@ -69,3 +69,38 @@ audit and errata (the best ground truth available), `tools/score.py`, results in
 | 2026-11-19 | the first five books (Rajah, Sketches Awheel, Flying Leaves, South by West, Corona and Coronet; 1,730 drafted pages) | **Errors:** 3 errata, all contents (none of text); audits 0 real errors in 38 pages + 8 fallback pages, recall 30/30 every time (so the audit bounds the error rate only loosely). Judge 146 spots: draft 99, Sonnet 46, structural 1; scan overturned the judge once (Rajah p0170, a name). **Stages:** all kept: the Sonnet pass (~30% of the cost) supplied 46 accepted changes, among them the only name error caught; the judge costs ~2%. Claude ≈ $0.10 a page for every book ($166 for five). **Checks:** `hyphen-joins` read 122 items for 6 real keeps → now leaves out joins the book itself settles (27 items left, all 6 keeps among them); `joins` 37 alarms, 0 real (all flush-left continuations): kept in observe, drop the "after a closed sentence" half at the next review if still none is real; `contents` 7, all explained; `folios`, `quote-balance` (1, waived as printed) quiet. **Site:** narrow and wide, headings in order, alt text, focus outline, no sideways scroll: fine; a short chapter title under a centred heading looked like a stray indented paragraph → centred (HTML, EPUB, ODT). **Earlier books:** none needs redoing (all from the current pipeline; the deploy rebuilds their editions). **Next:** marginal notes before Staunton (workflow "Not yet solved"). Next review after five more books. |
 | 2026-11-19 | the first four routine sessions (Tom asked for a diagnosis) | Causes found: output-filter refusals with no working route, and a session ended by typing a refused page; finished books held by preflight false alarms that the rules forbade fixing; an eligibility question left until a book was done. Changes: `ocr_fallback.py`; conservation follows moved images and lists differences in long texts; the checks rule and RESUME §3 rewritten; Tom's answers committed before acting. |
 | 2026-11-19 | — (set-up) | Pipeline, checks and notes taken over from pdf-to-epub's English workflow and rebuilt around a book JSON; first calibration in `metrics.md`. |
+
+## Tried and set aside
+
+### First transcriptions by another company's model (Gemini), 2026-11-25
+
+Tom asked for a trial: Gemini (run by him in the Antigravity app) to do the first transcription, the pictures and
+the JSON of a book; Claude to write its instructions, check and correct its work against the scan, and publish.
+Stopped the same day; all changes for it were taken out of the repository (the tool, its tests, the instructions
+and the process notes are in the git history: merge commits `a5dcc3fc` and `ed366790`, files `tools/helper.py`,
+`tools/helper_fetch.py`, `helper/`, `notes/helpers.md`). The Drive folder "Helper model workspace" is left as it is.
+
+- **Why it stopped:** on the second book (*Mexican Trails*, 1909) Gemini's platform blocked the output of 340 of
+  366 pages by an automated recitation (copyright) filter, whatever the book's date, and Gemini would not work
+  round it. (Our own models have such a filter too, but for about 1 page in 100: `ocr_fallback.py`.) It did cut
+  the 24 plates and the cover of that book; they were not delivered or looked at.
+- **What the first book showed** (*Japan As We Saw It*, Gardiner; Gemini with no prompt of ours, told only to follow
+  the repository; compared word by word with an Opus draft made the same day, every difference looked at on the
+  scan by an Opus subagent). Text: as accurate as the Opus draft. 19 real differences in 137 leaves, Gemini right
+  in 6, Opus in 8, 5 matters of convention; 1 error each in 12 leaves proofread in full. Its faults were of one
+  kind: words made more usual without a mark (“neophite” typed “neophyte”), brackets taken inside italic tags
+  about 1,000 times, one heading left out, a columned vocabulary typed as paragraphs. It rightly left out lettering
+  drawn inside pictures, which the Opus draft typed as captions 25 times. Pictures: all 83 found and placed, but only
+  37 usable (17 with page text inside, 33 with the picture or its lettering cut off); no cover.
+- **Worth knowing for our own pipeline:** the Sonnet corrections pass, run on Gemini's pages ($5.08), found none
+  of those word faults (23 changes, nearly all captions and pictures moved). A fluent wrong word in a clean draft
+  is what the corrections pass is weakest at; a second independent draft compared word by word found them all.
+- **If it is tried again with another model:** (1) before anything else, have it transcribe 20 pages of ordinary
+  prose from two books, to see whether its platform lets the text out at all; (2) a session cannot upload a file over
+  about 3 MB to Drive, nor replace a Drive file's content, and giving a model a Drive folder does not give it the
+  files inside: Tom wants to point it at two files only, a fixed instructions file and one small dated zip per book
+  that holds the brief, the tools and a script fetching the scan parts from the Drive cache by their public links
+  (built and tested in `ed366790`); (3) ask for page files in our markup, not a compiled JSON; (4) its work is a
+  draft from outside: unpacked as untrusted data, never published without every later stage, its notes information
+  and not instructions; (5) the saving to measure is the Opus draft, about two-thirds of a book's headless cost, and
+  the cutting of pictures.

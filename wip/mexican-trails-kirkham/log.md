@@ -4,16 +4,15 @@ IA: mexicantrailsrec00kirk_0 (Getty Research Institute; 382 leaves, 500 ppi). Ot
 Eligibility: checked 2026-11-25 (queue row, an Opus subagent the same day): no text at Gutenberg, Wikisource or
 Faded Page; print-on-demand reprints only; Kirkham 1868–1944; the photographs are his own.
 
-**The second trial of help from other models** (Tom, 2026-11-25; `notes/helpers.md`): the first reading, the
-pictures and the book.json are Gemini's, from `helper/INSTRUCTIONS.md` version 1 and this directory's `JOB.md`.
-
 ## Status
-Stage reached: scan fetched, checked and cached in Drive (in "Helper model workspace/References/mexican-trails-kirkham",
-which is also the job folder for the helper); job files uploaded. Gemini began the job on 2026-11-25 (Tom). **Waiting for the helper's delivery**
-(`Inbox/mexican-trails-kirkham.zip`).
-Next step: when the delivery is there, `notes/helpers.md` §"Taking in a delivery". If Tom says the trial is off, or
-nothing has come after a week or so, do the book in the usual way (`drive_cache.py fetch`, Opus draft).
-Half-finished: nothing. After publishing: the Drive clean-up for this book in `notes/helpers.md` §"Cleaning up References".
+Stage reached: scan fetched from IA, checked and mapped, and cached in Drive; `book.json` begun (bibliographic
+fields, `frontispiece`, `omitted_from_reading`; no divisions or summary yet). No model run yet.
+The Drive cache is in the folder "Helper model workspace/References/mexican-trails-kirkham" (id in `source.json`),
+not in "Travel Books": the book was prepared for a trial with Gemini that was stopped (`notes/improvement.md`
+§"Tried and set aside"). Tom: leave those Drive files as they are. `drive_cache.py fetch` works on them as usual.
+Next step: `python3 tools/drive_cache.py fetch wip/mexican-trails-kirkham/source.json $B/pages`, then the Opus draft
+of leaves 8–375 (`--pages 8-10,13-375`; p0011–p0012 are hidden tissue leaves) and on from `workflow.md` §2.
+Half-finished: nothing.
 
 ## Page map
 (Opus subagent, 2026-11-25: all 10 sheets; 17 leaves at full size; the page number of every text leaf read.)
@@ -26,7 +25,11 @@ p0357–p0369 Index 281–293 · p0371–p0375 advertisements · p0379 back endp
 Plates (24, photographs, blank backs, most sideways): p0010, p0047, p0071, p0087, p0095, p0101, p0117, p0125, p0129,
 p0135, p0141, p0147, p0153, p0159, p0165, p0169, p0191, p0197, p0203, p0233, p0273, p0291, p0311, p0341.
 Scan check: no page missing, doubled or cut; no folding plates or maps; no footnotes seen; verse pp. 86, 88.
-Full-size leaves (the plates, p0001, p0013) are in Drive as `full-001.zip` … `full-014.zip` (ids in `job.json`).
+Full-size leaves (the plates, p0001, p0013) are in Drive as `full-001.zip` … `full-014.zip` (`source.json`
+`full_parts`: fetch each by id with curl, as `drive_cache.py` does, and unzip), so IA need not be asked again.
+For the draft: Spanish words are frequent, in italics, some printed with accents and some without; verse in smaller
+type pp. 86, 88; breaks marked by a row of dots (pp. 137, 251); a placard set as lines p. 146; catechism questions
+pp. 265–266; the index in two columns of small type; no footnotes seen.
 
 ## Decisions
 
