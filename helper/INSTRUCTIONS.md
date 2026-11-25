@@ -1,6 +1,6 @@
 # Travel Books: instructions for a helper model
 
-Version 1, 2026-11-25. Written by Claude, which manages the project for Tom Gally. If anything here is unclear or
+Version 2, 2026-11-25. Written by Claude, which manages the project for Tom Gally. If anything here is unclear or
 turns out to be wrong, do what seems most sensible, and say so in your notes (step 8): these instructions are
 revised after every job.
 
@@ -24,41 +24,46 @@ Speed does not matter. Take the pages one at a time.
 
 ## Where things are
 
-Everything is in the Google Drive folder **Helper model workspace**. You may read all of it. You add files only to
-`Inbox`. Do not change, move or delete anything else.
+Tom gives you two files: a short `INSTRUCTIONS.md`, which says to read this one, and **one zip file for the book**,
+`<date>-<book-id>.zip`. Unzipped, it is the folder `<book-id>-job/`:
 
 ```
-Helper model workspace/
-  INSTRUCTIONS.md         this file
-  References/
-    kit.zip               these instructions, the transcription rules, a small invented sample book, the tools
-    <book-id>/            one folder for each book waiting to be done
-      JOB.md              what to know about this book: read it first
-      job.json            the same facts for the checking tool
-      book.json           the book's data file, partly filled in
-      pages-001.zip …     the page images: pNNNN.jpg, one per leaf of the scan, grey, 1800 pixels high
-      full-001.zip …      full-size colour images of the leaves that have pictures, and of the cover
-  Inbox/                  where you put the finished job
+<book-id>-job/
+  JOB.md               what to know about this book: read it after this file
+  job.json             the same facts for the checking tool
+  book.json            the book's data file, partly filled in
+  fetch_scans.py       downloads the page images (they are too large to be in the zip)
+  scans.json           the list fetch_scans.py works from
+  kit/
+    INSTRUCTIONS.md    this file
+    transcription-rules.md, page-markup.md, book-json.md
+    sample-book/       a small invented book that shows the markup in use
+    tools/             the programs you run: crop_image.py, normalize.py, helper.py, compile_book.py
 ```
 
-**Which book:** the one Tom names. If he names none, the first folder in `References` (in alphabetical order)
-for which `Inbox` has no `<book-id>.zip`.
-
-Use only these files. Do not take text from the Internet Archive's OCR, from another website or edition of the
-book, or from memory. Do not download the scan again from the Internet Archive.
+Use only these files and the scans that `fetch_scans.py` downloads. Do not take text from the Internet Archive's
+OCR, from another website or edition of the book, or from memory, and do not get the scan from anywhere else.
 
 ## The job, step by step
 
 Work in a local folder. You need Python 3 with the Pillow library (`pip install pillow`).
 
-1. **Set up.** Unzip `kit.zip`. Make a folder named with the book's id (below: `BOOK/`) holding `pages/`, `images/`
-   and the job's `book.json`. Unzip all the `pages-*.zip` into one folder of page images and the `full-*.zip` into
-   another. Read `JOB.md`, then `kit/transcription-rules.md` (the rules for the text and the page markup),
+1. **Set up.** In the job folder run
+
+   ```
+   python3 fetch_scans.py
+   ```
+
+   It downloads the scans in about thirty small parts, checks each, and unpacks them: `scans/pages/pNNNN.jpg`, one
+   grey image per leaf of the scan, 1800 pixels high, and `scans/full/pNNNN.jpg`, full-size colour images of the
+   leaves that have pictures and of the cover. If it fails, run it again; if it keeps failing, stop and tell Tom.
+   Then make a folder named with the book's id (below: `BOOK/`) holding `pages/`, `images/` and a copy of the job's
+   `book.json`. Read `JOB.md`, then `kit/transcription-rules.md` (the rules for the text and the page markup),
    `kit/page-markup.md` (the same markup as a table) and the pages of `kit/sample-book/pages/` (an invented book that
    shows the markup in use).
 
 2. **Transcribe, one leaf at a time.** For every leaf in the range `JOB.md` gives, look at its image
-   `pNNNN.jpg` and write `BOOK/pages/pNNNN.txt` (same number) following `transcription-rules.md` exactly. Every leaf
+   `scans/pages/pNNNN.jpg` and write `BOOK/pages/pNNNN.txt` (same number) following `transcription-rules.md` exactly. Every leaf
    in the range gets a file, blank pages too (`[[page ?]]` and `[[blank]]`).
    - Read the image itself, at its full resolution. If small type is hard to read (footnotes, an index, tables),
      enlarge that part of the image, or cut the page into overlapping halves, rather than guessing.
@@ -89,7 +94,7 @@ Work in a local folder. You need Python 3 with the Pillow library (`pip install 
    image of its leaf:
 
    ```
-   python3 kit/tools/crop_image.py full/pNNNN.jpg BOOK/images/pNNNN-1.jpg x0,y0,x1,y1
+   python3 kit/tools/crop_image.py scans/full/pNNNN.jpg BOOK/images/pNNNN-1.jpg x0,y0,x1,y1
    ```
 
    The box is in fractions of the leaf (0 to 1): left, top, right, bottom. The tool reduces the picture to at most
@@ -157,9 +162,8 @@ Work in a local folder. You need Python 3 with the Pillow library (`pip install 
 
 9. **Deliver.** Make one zip file named `<book-id>.zip` whose top folder is `<book-id>/`, holding exactly:
    `pages/` (the page files), `images/` (the pictures and `cover.jpg`), `book.json`, `NOTES.md` and `<book-id>.json`.
-   Nothing else: no page images from the scan, no scripts, no working files. Upload it to `Inbox`. If a zip cannot be
-   uploaded, upload the same files into a new folder `Inbox/<book-id>/` with the same layout. Then tell Tom it is
-   there. Do not publish anything, and do not send anything to the project's GitHub repository.
+   Nothing else: no page images from the scan, no scripts, no working files. Put it in the folder `Inbox` of the
+   Google Drive folder "Helper model workspace" (or wherever Tom says), and tell Tom it is there. Do not publish anything, and do not send anything to the project's GitHub repository.
 
 ## The mistakes that matter most
 

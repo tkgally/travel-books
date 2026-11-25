@@ -6,6 +6,13 @@ deliver, and taking a delivery into wip/. How the whole process runs: notes/help
                                     (prompts/transcribe.md), notes/page-markup.md and book-json.md, the invented sample book (tests/sample) and the tools a
                                     helper runs itself (this file, compile_book.py, inline.py, normalize.py,
                                     crop_image.py). Upload it to "Helper model workspace/References".
+  helper.py job WIP_DIR OUT_DIR [--date YYYYMMDD]
+                                    writes OUT_DIR/<date>-<slug>.zip, the ONE file a helper needs for a book (Tom,
+                                    2026-11-25): JOB.md, job.json, the starter book.json, the kit, and fetch_scans.py
+                                    with scans.json (the Drive parts of the page images, from source.json `parts`, and
+                                    of the full-size leaves, from job.json `full_parts`: the scans themselves cannot be
+                                    in the zip, which must stay under the 3 MB a session can upload). Upload it to
+                                    "Helper model workspace/References"; trash it there when the book is published.
   helper.py check DIR [--job JOB.json]
                                     checks a delivery directory (book.json, pages/, images/, NOTES.md): names, every
                                     leaf of the job has a page file, markup, that it compiles, pictures (one file per
@@ -207,13 +214,12 @@ def intake(zpath, dest):
     return [n for n, _ in out]
 
 
-def kit(out_dir, repo=None):
-    """Write OUT_DIR/kit.zip (deterministic: fixed dates, sorted names). Returns its path."""
-    repo = repo or os.path.dirname(HERE)
+def kit_files(repo):
+    """(name in the kit, path) of every file of the kit."""
     files = []
     hdir = os.path.join(repo, "helper")
     for f in sorted(os.listdir(hdir)):
-        if f.endswith(".md"):
+        if f.endswith(".md") and f != "START.md":
             files.append((f"kit/{f}", os.path.join(hdir, f)))
     files.append(("kit/transcription-rules.md", os.path.join(repo, "prompts", "transcribe.md")))
     for f in ("page-markup.md", "book-json.md"):
@@ -228,14 +234,54 @@ def kit(out_dir, repo=None):
             if rel == "source.json":
                 continue
             files.append((f"kit/sample-book/{rel}", p))
-    os.makedirs(out_dir, exist_ok=True)
-    out = os.path.join(out_dir, "kit.zip")
+    return files
+
+
+def write_zip(out, files):
+    """files: (archive name, path or bytes). Deterministic: fixed dates, given order."""
     with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
         for arc, p in files:
             zi = zipfile.ZipInfo(arc, date_time=(2026, 1, 1, 0, 0, 0))
             zi.compress_type = zipfile.ZIP_DEFLATED
             zi.external_attr = 0o644 << 16
-            z.writestr(zi, open(p, "rb").read())
+            z.writestr(zi, p if isinstance(p, bytes) else open(p, "rb").read())
+    return out
+
+
+def kit(out_dir, repo=None):
+    """Write OUT_DIR/kit.zip. Returns its path."""
+    os.makedirs(out_dir, exist_ok=True)
+    return write_zip(os.path.join(out_dir, "kit.zip"), kit_files(repo or os.path.dirname(HERE)))
+
+
+def job_zip(wip, out_dir, date, repo=None):
+    """Write OUT_DIR/<date>-<slug>.zip: everything a helper needs for the book in wip, except the scans, which
+    fetch_scans.py downloads from the parts listed in scans.json. Returns its path. ValueError if something is missing."""
+    repo = repo or os.path.dirname(HERE)
+    if not re.fullmatch(r"20\d{6}", date):
+        raise ValueError("date must be YYYYMMDD")
+    need = {f: os.path.join(wip, f) for f in ("JOB.md", "job.json", "book.json", "source.json")}
+    for f, p in need.items():
+        if not os.path.exists(p):
+            raise ValueError(f"{wip} has no {f}")
+    job = json.load(open(need["job.json"], encoding="utf-8"))
+    src = json.load(open(need["source.json"], encoding="utf-8"))
+    slug = job["slug"]
+    parts = [dict(kind="pages", **{k: p.get(k) for k in ("name", "sha256", "files", "drive_id")}) for p in src.get("parts", [])]
+    parts += [dict(kind="full", **{k: p.get(k) for k in ("name", "sha256", "files", "drive_id")}) for p in job.get("full_parts", [])]
+    if not parts or any(not p["drive_id"] for p in parts):
+        raise ValueError("a part of the scans has no drive_id: upload the parts first (drive_cache.py todo)")
+    top = f"{slug}-job"
+    brief = {k: v for k, v in job.items() if k != "full_parts"}
+    files = [(f"{top}/JOB.md", need["JOB.md"]), (f"{top}/book.json", need["book.json"]),
+             (f"{top}/job.json", (json.dumps(brief, indent=1) + "\n").encode()),
+             (f"{top}/scans.json", (json.dumps({"slug": slug, "parts": parts}, indent=1) + "\n").encode()),
+             (f"{top}/fetch_scans.py", os.path.join(HERE, "helper_fetch.py"))]
+    files += [(f"{top}/{arc}", p) for arc, p in kit_files(repo)]
+    os.makedirs(out_dir, exist_ok=True)
+    out = write_zip(os.path.join(out_dir, f"{date}-{slug}.zip"), files)
+    if os.path.getsize(out) > 3_000_000:
+        raise ValueError(f"{out} is over 3 MB: it cannot be uploaded from a session")
     return out
 
 
@@ -243,11 +289,18 @@ def main():
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
     k = sub.add_parser("kit"); k.add_argument("out_dir")
+    j = sub.add_parser("job"); j.add_argument("wip"); j.add_argument("out_dir"); j.add_argument("--date")
     c = sub.add_parser("check"); c.add_argument("dir"); c.add_argument("--job")
     i = sub.add_parser("intake"); i.add_argument("zip"); i.add_argument("dest")
     a = ap.parse_args()
     if a.cmd == "kit":
         print("wrote", kit(a.out_dir))
+    elif a.cmd == "job":
+        import datetime
+        try:
+            print("wrote", job_zip(a.wip, a.out_dir, a.date or datetime.date.today().strftime("%Y%m%d")))
+        except ValueError as e:
+            sys.exit(f"REFUSED: {e}")
     elif a.cmd == "intake":
         try:
             names = intake(a.zip, a.dest)

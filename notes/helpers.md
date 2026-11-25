@@ -14,7 +14,7 @@ later stage of `workflow.md` exactly like an Opus draft, and its files are unpac
 | What | Where |
 |---|---|
 | The instructions the helper follows (the prompt) | `helper/INSTRUCTIONS.md`; a copy in Drive |
-| The kit: instructions, transcription rules, markup and book.json notes, the sample book, the tools the helper runs | `python3 tools/helper.py kit DIR` → `kit.zip` |
+| The one zip a helper gets for a book: the brief, the kit (instructions, transcription rules, markup and book.json notes, the sample book, the tools the helper runs), the list of scan parts and the script that fetches them | `python3 tools/helper.py job wip/<slug> DIR` → `<date>-<slug>.zip` (`tools/helper_fetch.py` is its `fetch_scans.py`) |
 | Check of a delivery; safe unpacking | `tools/helper.py check`, `tools/helper.py intake` (tests `Helper`) |
 | A job's brief and facts | `wip/<slug>/JOB.md`, `job.json`, the starter `book.json`; copies in Drive |
 | Which books are with a helper | queue row `"helper": "gemini"` and the book's `log.md` Status |
@@ -28,7 +28,19 @@ what has been taken in here and in the book's log. Files made by a session can b
 
 ## Posting a job (so that the helper always has a book to do)
 
-Keep **two jobs waiting** in `References` when the trial is running normally (one while it is still a test).
+Tom (2026-11-25, later): giving the helper a Drive folder does not give it the files inside, so **he points it at
+two files only: `INSTRUCTIONS.md` and one zip for the book**, named `<YYYYMMDD>-<slug>.zip` (the date it was posted,
+so that he can spot it), in **References**. Two facts of the connector shape how that is done:
+- a session cannot upload a file over about 3 MB, so **the scans cannot be in the zip**: the zip holds
+  `fetch_scans.py` and `scans.json`, and the helper downloads the parts of the Drive cache itself (they are
+  readable by link, as `drive_cache.py fetch` relies on). Tried 2026-11-25 on *Mexican Trails*: 35 parts, 408 images;
+- a Drive file's content cannot be replaced, and the helper's access is to the file, not its name. So **the
+  `INSTRUCTIONS.md` in Drive is the short, fixed `helper/START.md`** ("unzip the book's zip and read
+  `kit/INSTRUCTIONS.md`"), uploaded once and never replaced; the instructions that are revised after every book
+  (`helper/INSTRUCTIONS.md`) travel inside each job zip. If START.md ever must change, Tom has to point the helper at
+  the new file: tell him.
+
+Keep **two jobs waiting** in References when the trial is running normally (one while it is still a test).
 
 1. Choose and vet the book as always (`selection.md`; `ledger.py` for the kind due). Prefer books the helper can
    do whole: ordinary type, pictures that are plates or simple cuts. Books with side-notes, a second stream of
@@ -36,20 +48,30 @@ Keep **two jobs waiting** in `References` when the trial is running normally (on
 2. `workflow.md` §1 steps 1–4: fetch from IA once, `prep_pages.py`, contact sheets, **the scan check and page map by
    an Opus subagent** (ask it also for every picture with its leaf, its caption, whether it is sideways, and what a
    transcriber should be told). Queue row `in progress`, `"helper": "gemini"`.
-3. Create the folder `<slug>` in **References** (not in "Travel Books": the helper cannot read there) and put its id
-   in `source.json` as `drive_folder_id`. `drive_cache.py pack` and upload the `pages-*.zip` parts as usual. Full-size
-   leaves of every picture, the cover and the title page: `prep_pages.py … --full`, packed the same way into a
-   second set renamed `full-NNN.zip` (ids recorded in `job.json` `full_parts`). The uploads are many small calls: a
-   **Haiku subagent** does them from a list (title, `sha256:…:path`) and writes the ids to a file.
+3. Cache the scan in Drive in the usual place, the folder `<slug>` in "Travel Books" (`drive_cache.py pack`, upload,
+   `setid`). Full-size leaves of every picture, the cover and the title page: `prep_pages.py … --full`, packed the
+   same way into a second set renamed `full-NNN.zip`, uploaded to the same folder, recorded in `job.json`
+   `full_parts` (`name`, `sha256`, `files`, `drive_id`). The uploads are many small calls: a **Haiku subagent** does
+   them from a list (title, `sha256:…:path`) and writes the ids to a file.
 4. Write `wip/<slug>/JOB.md` (what to transcribe, the page map, the pictures, what is particular to the book),
-   `job.json` (`slug`, `leaves`, `skip`, `cover_leaf`, `picture_leaves`) and the starter `book.json` (everything we
-   checked ourselves: title, authors and dates, publisher, year, source, `omitted_from_reading`; `divisions` and
-   `summary` are left to the helper). Upload the three to the job folder. Commit `wip/<slug>/` with a log whose
-   Status says "waiting for the helper's delivery".
-5. When `helper/INSTRUCTIONS.md` or a tool in the kit has changed: `tools/helper.py kit`, trash the old `kit.zip`
-   and `INSTRUCTIONS.md` in Drive, upload the new ones. The version line at the top of the instructions is changed
-   with every revision.
-6. Tell Tom in the final message: which jobs wait, and which model and effort to use.
+   `job.json` (`slug`, `leaves`, `skip`, `cover_leaf`, `picture_leaves`, `full_parts`) and the starter `book.json`
+   (everything we checked ourselves: title, authors and dates, publisher, year, source, `omitted_from_reading`;
+   `divisions` and `summary` are left to the helper). Commit `wip/<slug>/` with a log whose Status says "waiting for
+   the helper's delivery".
+5. `python3 tools/helper.py job wip/<slug> $S/job` → `<date>-<slug>.zip` (the brief, the kit with the current
+   instructions and tools, the scan list). Try it once as the helper would (unzip, `python3 -I fetch_scans.py`), then
+   upload it to References and record its Drive id in the book's log.
+6. Tell Tom in the final message: the name of the zip, and which model and effort to use.
+
+**Cleaning up References** (Tom, 2026-11-25): when a book is published, trash its job zip there (`trash_file`; our
+own uploads can be trashed). The scans stay in "Travel Books/<slug>" for our later checks. References then holds
+only the zips of books not yet done.
+
+*Mexican Trails* was posted before this (loose files in `References/mexican-trails-kirkham`, where its cache also
+is, a `kit.zip` and the long version 1 of `INSTRUCTIONS.md` at the top of the workspace). When it is published: move
+the folder's `pages-*.zip` parts to a new "Travel Books/mexican-trails-kirkham" (`update_file` `parentId`; ids and
+`source.json` stay valid), trash the rest of the folder, `kit.zip`, and the long `INSTRUCTIONS.md`; upload
+`helper/START.md` as the new `INSTRUCTIONS.md` and tell Tom that this once he must point the helper at the new file.
 
 ## Taking in a delivery (first thing in a routine session: RESUME.md §2)
 
@@ -78,12 +100,12 @@ Keep **two jobs waiting** in `References` when the trial is running normally (on
    book (headless runs; the session's context share before and after), and what was changed in the instructions
    because of it. Revise `helper/INSTRUCTIONS.md` in the same session, with the examples from this delivery, and
    repost the kit.
-7. After the book is published: move its Drive folder from References to "Travel Books" (`update_file`, new parent
-   `1uqlD7GAkSiNRw_3sX7TkKYpNuF4rtzHn`) so that References holds only waiting jobs; post the next job.
+7. After the book is published: trash its job zip in References (§"Cleaning up References"); post the next job.
 
 ## What the helper is told, and why
 
-- One prompt for all books (`helper/INSTRUCTIONS.md`) and one brief per book (`JOB.md`). Book facts never go into
+- One prompt for all books (`helper/INSTRUCTIONS.md`, inside every job zip; `helper/START.md` is the fixed file in
+  Drive that sends the helper to it) and one brief per book (`JOB.md`). Book facts never go into
   the general prompt.
 - It delivers **page files**, the same markup as our drafts, not only the compiled JSON: every later tool reads page
   files, and a correction is a one-line edit there. The compiled JSON comes along as proof that the book compiles.

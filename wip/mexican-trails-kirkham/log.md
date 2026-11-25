@@ -9,11 +9,11 @@ pictures and the book.json are Gemini's, from `helper/INSTRUCTIONS.md` version 1
 
 ## Status
 Stage reached: scan fetched, checked and cached in Drive (in "Helper model workspace/References/mexican-trails-kirkham",
-which is also the job folder for the helper); job files uploaded. **Waiting for the helper's delivery**
+which is also the job folder for the helper); job files uploaded. Gemini began the job on 2026-11-25 (Tom). **Waiting for the helper's delivery**
 (`Inbox/mexican-trails-kirkham.zip`).
 Next step: when the delivery is there, `notes/helpers.md` §"Taking in a delivery". If Tom says the trial is off, or
 nothing has come after a week or so, do the book in the usual way (`drive_cache.py fetch`, Opus draft).
-Half-finished: nothing.
+Half-finished: nothing. After publishing: the Drive clean-up for this book in `notes/helpers.md` §"Cleaning up References".
 
 ## Page map
 (Opus subagent, 2026-11-25: all 10 sheets; 17 leaves at full size; the page number of every text leaf read.)

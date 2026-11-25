@@ -8,7 +8,7 @@ import copy, json, os, re, shutil, subprocess, sys, tempfile, unittest, zipfile
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, "tools"))
-import build_site, carousel, compile_book, helper, releases, ledger, running_quotes, corrections, crop_image, drive_cache, inline, judge, normalize, preflight, render_epub, render_odt, review, session_meter  # noqa: E402
+import build_site, carousel, compile_book, helper, helper_fetch, releases, ledger, running_quotes, corrections, crop_image, drive_cache, inline, judge, normalize, preflight, render_epub, render_odt, review, session_meter  # noqa: E402
 import render_html as rh  # noqa: E402
 
 SAMPLE = os.path.join(REPO, "tests", "sample")
@@ -896,6 +896,50 @@ class Helper(unittest.TestCase):
                         {"pages/sub/p0001.txt": "x"}, {"book.json": "a\x00b"}):
                 self.assertRaises(ValueError, helper.intake, self.zip_of(tmp, bad), os.path.join(tmp, "o"))
                 self.assertFalse(os.path.exists(os.path.join(tmp, "o")))
+
+    def test_job_zip_and_fetching_the_scans(self):
+        import hashlib, io
+        with tempfile.TemporaryDirectory() as tmp:
+            drive = os.path.join(tmp, "drive"); os.makedirs(drive)
+            def part(name, files):
+                b = io.BytesIO()
+                with zipfile.ZipFile(b, "w") as z:
+                    for f in files:
+                        z.writestr(f, self.jpeg() if f.endswith(".jpg") else "text")
+                open(os.path.join(drive, "id-" + name), "wb").write(b.getvalue())
+                return {"name": name, "sha256": hashlib.sha256(b.getvalue()).hexdigest(), "bytes": len(b.getvalue()),
+                        "files": files, "drive_id": "id-" + name}
+            wip = os.path.join(tmp, "wip"); os.makedirs(wip)
+            p1 = part("pages-001.zip", ["p0001.jpg", "p0002.jpg", "leaves.json", "x_djvu.txt"])
+            f1 = part("full-001.zip", ["p0002.jpg"])
+            json.dump({"ia_identifier": "x", "parts": [p1]}, open(os.path.join(wip, "source.json"), "w"))
+            json.dump({"slug": "a-book", "leaves": ["p0001", "p0002"], "full_parts": [f1]}, open(os.path.join(wip, "job.json"), "w"))
+            open(os.path.join(wip, "JOB.md"), "w").write("# Job")
+            open(os.path.join(wip, "book.json"), "w").write("{}")
+            self.assertRaises(ValueError, helper.job_zip, wip, tmp, "25 Nov")
+            z = helper.job_zip(wip, tmp, "20261125")
+            self.assertEqual(os.path.basename(z), "20261125-a-book.zip")
+            with zipfile.ZipFile(z) as f:
+                names = f.namelist(); f.extractall(tmp)
+            for want in ("JOB.md", "job.json", "book.json", "scans.json", "fetch_scans.py", "kit/INSTRUCTIONS.md",
+                         "kit/tools/helper.py", "kit/transcription-rules.md"):
+                self.assertIn("a-book-job/" + want, names)
+            self.assertNotIn("a-book-job/kit/START.md", names)
+            top = os.path.join(tmp, "a-book-job")
+            self.assertNotIn("full_parts", json.load(open(os.path.join(top, "job.json"))))
+            r = subprocess.run([sys.executable, os.path.join(top, "fetch_scans.py"), "--base", "file://" + drive + "/{id}"],
+                               capture_output=True, text=True, cwd=tmp)
+            self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+            self.assertEqual(sorted(os.listdir(os.path.join(top, "scans", "pages"))), ["leaves.json", "p0001.jpg", "p0002.jpg"])
+            self.assertEqual(os.listdir(os.path.join(top, "scans", "full")), ["p0002.jpg"])
+            # a part that is not what the list says is refused, and so is a part without an id
+            open(os.path.join(drive, "id-full-001.zip"), "wb").write(b"changed")
+            parts = json.load(open(os.path.join(top, "scans.json")))["parts"]
+            self.assertRaises(RuntimeError, helper_fetch.fetch, parts, os.path.join(tmp, "again"),
+                              "file://" + drive + "/{id}", 1, lambda m: None)
+            src = json.load(open(os.path.join(wip, "source.json"))); src["parts"][0]["drive_id"] = None
+            json.dump(src, open(os.path.join(wip, "source.json"), "w"))
+            self.assertRaises(ValueError, helper.job_zip, wip, tmp, "20261125")
 
     def test_kit_is_complete_and_runs_alone(self):
         with tempfile.TemporaryDirectory() as tmp:
