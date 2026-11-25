@@ -1637,11 +1637,11 @@
    "place": "Philadelphia",
    "publisher": "Presbyterian Board of Publication and Sabbath-School Work",
    "images": 368,
-   "status": "in progress",
+   "status": "rejected",
    "checked": "2026-11-22",
    "eligibility": "Checked 2026-11-22 (Opus subagent): pg_catalog.csv (full): no Gilmore. The Online Books Page, Wikisource: none. Web search of 'Koreans are a dyspeptic folk': nothing. Reprints: print-on-demand only (Read Books 2011, Creative Media/Franklin Classics); an Open Library '1990' entry probably the ATLA microfiche (not verified: check before starting); a Korean translation (1999) does not count; no Kyungin Munhwasa facsimile found. Rule 5: Gilmore 1858–1933 (LC); photographs partly by Rev. H. G. Underwood (1859–1916). Faded Page not searchable. Re-checked 2026-11-25: web search (Gutenberg, ebooks, reprints): only a print-on-demand reprint (ISBN 9781019406892); preface credits Underwood for several illustrations; the others uncredited.",
    "note": "Princeton Theological Seminary scan, 500 ppi; frontispiece and 25 plates. Gilmore taught at the government's English school in Seoul 1886–89; first-hand account of the city and people arranged by topic (people, homes, dress, women's work, religion, resources, foreign life), partly from his letters to the New York Evening Post; last chapter on missions. The site has no Korea book yet. Rule 4 note: topical rather than a journey narrative, but first-person and from his own residence.",
-   "started": "2026-11-25"
+   "reason": "Scan check 2026-11-25 (Opus subagents): the Princeton scan's text is complete, but 10 of the 25 listed plates were removed from that copy (the frontispiece Korean Stone Dog and plates facing pp. 27, 77, 89, 140, 188, 198, 246, 254, 281); the only other IA scan (koreafromitscap00gilmgoog, NYPL, Google) has every photograph thresholded to white. Too many elements missing for an exception. Page images cached in Drive (folder 1QL6eGZZv0DjfrJxLXvpdEME_71eTN95k) in case a complete scan appears."
   },
   {
    "order": 89,
@@ -1668,10 +1668,11 @@
    "place": "New York, Boston, Chicago",
    "publisher": "Silver, Burdett and Company",
    "images": 332,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-22",
-   "eligibility": "Checked 2026-11-22 (Opus subagent): (1) Library of Congress scan, 300 ppi, jp2 zip; page numbers continuous in the OCR. (2) Not in pg_catalog.csv (full); The Online Books Page: HathiTrust page images only; exact-phrase searches of two sentences (ch. XIII–XIV): nothing; Qatar National Library: scan and OCR only. NOT CHECKED: Wikisource (rate-limited), Faded Page, a Terhune fan bibliography page at math.ttu.edu (403; probably a description, look before starting). (3) Print-on-demand only (Franklin Classics, Creative Media, Legare Street, British Library HPE, Forgotten Books). (4) First-person: his ride through Lebanon, Damascus, the Hauran, Galilee, Samaria, Jerusalem, Bethlehem, Jericho and the Dead Sea, late 1893. (5) Terhune 1872–1942; illustrations uncredited, apparently his own photographs.",
-   "note": "LoC scan, 300 ppi; 318 pp, 33 short chapters, about 40 photographs. The author aged 21, with a dragoman David: Druze and Bedouin camps, a camp thief, a Syrian wedding, Christmas at Bethlehem. Plain and lively."
+   "eligibility": "Checked 2026-11-22 (Opus subagent): (1) Library of Congress scan, 300 ppi, jp2 zip; page numbers continuous in the OCR. (2) Not in pg_catalog.csv (full); The Online Books Page: HathiTrust page images only; exact-phrase searches of two sentences (ch. XIII–XIV): nothing; Qatar National Library: scan and OCR only. NOT CHECKED: Wikisource (rate-limited), Faded Page, a Terhune fan bibliography page at math.ttu.edu (403; probably a description, look before starting). (3) Print-on-demand only (Franklin Classics, Creative Media, Legare Street, British Library HPE, Forgotten Books). (4) First-person: his ride through Lebanon, Damascus, the Hauran, Galilee, Samaria, Jerusalem, Bethlehem, Jericho and the Dead Sea, late 1893. (5) Terhune 1872–1942; illustrations uncredited, apparently his own photographs. Re-checked 2026-11-25: Wikisource API search: none; Faded Page author search (Terhune): not this book; web search: reprints print-on-demand only (Legare Street 2022, Forgotten Books). Scan check (Opus subagent): complete, all 63 listed illustrations present, no credits anywhere.",
+   "note": "LoC scan, 300 ppi; 318 pp, 33 short chapters, about 40 photographs. The author aged 21, with a dragoman David: Druze and Bedouin camps, a camp thief, a Syrian wedding, Christmas at Bethlehem. Plain and lively.",
+   "started": "2026-11-25"
   },
   {
    "order": 91,
