@@ -13,12 +13,19 @@ Chapters (leaf=page): Introduction 13=1 (“AMONG THE ALPS.”) · I 19=7 · II 
 Offsets: page + 12 to leaf 151; page + 14 from leaf 154. No footnotes, tables or verse; German, French and Italian phrases in italics; much dialogue in single quotation marks; signature letters at page feet (dropped).
 
 ## Decisions
+- Spot-read (Opus subagent: front matter, every chapter title and opening, preflight lists, tesseract comparison of all narrative pages, foreign phrases on crops): [[corr foregound|foreground]] (p0048); the printer's imprint on p0006 in its printed lines. As printed: “chalet”/“châlet”, “cure”/“Curé”, “Rosa”/“Rösa”, “Hôtel”/“Hotel”, “chambre”.
+- The folio of p. 27 is printed “2” (a figure dropped): typed [[page 27]], said in notes_on_text.
+- “AMONG THE ALPS.” above the Introduction (p0013) as a centred line, which falls in the contents division (JSON only); waiver for the contents check.
 - The title-page vignette (a mountain over chalets, signed “KP”): engraver not identified; an engraver at work in 1875 was born before about 1856, so by Tom's rule (death assumed before 100) the 70 years have passed: kept, as a picture of the title page (assumed).
 - The book's picture: the front cover (title readable in stamped capitals, though the cloth is stained), by the rule.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-25 | opus | 214 | 13.99 | no refusals, no 〓 (hidden leaves 152–153 drafted and dropped) |
+| corrections | 2026-11-25 | sonnet | 214 | 7.02 | 1 word, 1 punctuation, 5 markup |
+| judge | 2026-11-25 | opus | 2 spots | 0.09 | 1 draft (a folio), 1 verifier (a comma) |
+| audit | 2026-11-25 | opus | 6 | 0.34 | 30/30; 0 candidates |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |

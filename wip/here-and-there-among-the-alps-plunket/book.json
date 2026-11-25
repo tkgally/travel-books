@@ -40,7 +40,8 @@
  "summary": "Frederica Plunket (died 1886), an Irishwoman who climbed in the Alps in the early 1870s, describes her own walks and ascents: the Tschingel Pass, the Titlis, Piz Languard, the Diavolezza, the Bernina and Stelvio passes, Monte Confinale, and peaks in the Tyrol and the Salzburg Alps. She writes of guides, inns, weather, and the people of the valleys, and encourages other women to climb above the snow line; a chapter of “Hints to Lady Pedestrians” gives practical advice.",
  "omitted_from_reading": "The half-title, the contents, and the book’s title printed again above the Introduction are in the JSON only.",
  "notes_on_text": [
-  "The running heads are not transcribed."
+  "The running heads are not transcribed.",
+  "Page 27 is numbered “2” in the print (a figure dropped); it is given as 27."
  ],
  "history": [
   {
@@ -78,5 +79,13 @@
    "why": "the book's title printed above the Introduction (p0013), kept as a centred line in the JSON; it falls after the contents and is not a contents entry"
   }
  ],
- "keep_hyphens": []
+ "keep_hyphens": [],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-25",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }

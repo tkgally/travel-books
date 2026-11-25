@@ -1,0 +1,5 @@
+{"given": "in one of whose upper wiudows a light", "print": "in one of whose upper windows a light", "sure": "high"}
+{"given": "of the noise we made in his quiet", "print": "of the noise we made in this quiet", "sure": "high"}
+{"given": "taken up, as we deserved; but our excuse", "print": "taken up, as we deserved, but our excuse", "sure": "high"}
+{"given": "took the leading part the conversation", "print": "took the leading part in the conversation", "sure": "high"}
+{"given": "get on to the baths of Bormio", "print": "get on to the Baths of Bormio", "sure": "high"}

@@ -1,0 +1,5 @@
+{"given": "to both wind and sun; probably dry", "print": "to both wind and sun, probably dry", "sure": "high"}
+{"given": "Another but nor at all", "print": "Another but not at all", "sure": "high"}
+{"given": "which they follow this country, is", "print": "which they follow in this country, is", "sure": "high"}
+{"given": "with a pole instead of shasts.", "print": "with a pole instead of shafts.", "sure": "high"}
+{"given": "The drive from lienz, mostly", "print": "The drive from Lienz, mostly", "sure": "high"}
