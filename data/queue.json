@@ -1655,10 +1655,11 @@
    "place": "Chicago",
    "publisher": "Jansen, McClurg and Company",
    "images": 430,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-22",
-   "eligibility": "Checked 2026-11-22 (Opus subagent): pg_catalog.csv (full): no Caton travel book. The Online Books Page: none. Web search of 'how ingeniously the little rascal had managed to get me to help him over the brook': nothing (distantreader.org has HathiTrust raw OCR: does not count). Reprints: Kessinger, Creative Media, Sagwan (print-on-demand). Rule 5: Caton 1812–1895 (LC). Wikisource NOT checked (rate-limited); Faded Page not searchable.",
-   "note": "Library of Congress scan of the 1875 first edition, 500 ppi; second scan summerinnorwaywi00catoiala (UC, 1880 second edition, adds a map). Portrait frontispiece and a few plates of deer. A former Chief Justice of Illinois in 1874: coastal steamer from Hull to Trondhjem, Hammerfest and the North Cape, Lapp herders near Tromsø, by carriole over the Dovrefjeld to Christiania, home by Stockholm; anecdotal, with long passages of Norse history and natural history."
+   "eligibility": "Checked 2026-11-22 (Opus subagent): pg_catalog.csv (full): no Caton travel book. The Online Books Page: none. Web search of 'how ingeniously the little rascal had managed to get me to help him over the brook': nothing (distantreader.org has HathiTrust raw OCR: does not count). Reprints: Kessinger, Creative Media, Sagwan (print-on-demand). Rule 5: Caton 1812–1895 (LC). Wikisource NOT checked (rate-limited); Faded Page not searchable. Re-checked 2026-11-25: web search (Gutenberg, Wikisource, full text): only the IA scans and HathiTrust OCR; Faded Page author search: none; Wikisource API rate-limited. Scan check (Opus subagent): complete; plates engraved by Manz & Co. and the Western Bank Note & Engraving Co., Chicago (firms).",
+   "note": "Library of Congress scan of the 1875 first edition, 500 ppi; second scan summerinnorwaywi00catoiala (UC, 1880 second edition, adds a map). Portrait frontispiece and a few plates of deer. A former Chief Justice of Illinois in 1874: coastal steamer from Hull to Trondhjem, Hammerfest and the North Cape, Lapp herders near Tromsø, by carriole over the Dovrefjeld to Christiania, home by Stockholm; anecdotal, with long passages of Norse history and natural history.",
+   "started": "2026-11-25"
   },
   {
    "order": 90,
