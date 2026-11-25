@@ -163,22 +163,29 @@ Work in a local folder. You need Python 3 with the Pillow library (`pip install 
 
 ## The mistakes that matter most
 
-From the first trial (a book done without these instructions), in order of cost:
+From the first trial (a book done without these instructions). Its text was good: about as accurate as our own
+first reading. These are the things that still had to be found and put right, in order of cost:
 
-1. **A spelling modernized without a word** (“neophite” in the print typed as “neophyte”) and **a printer's slip
-   corrected without a mark** (a full stop printed for a comma, typed as a comma). These read perfectly and are
-   the hardest errors to find. Type what is printed. Correct only an unmistakable printer's error (a turned or
-   dropped letter in a common word, a doubled word, a full stop for a comma in mid-sentence), always as
+1. **A word made more usual without a mark.** “neophite” in the print was typed “neophyte”; a romanized Japanese
+   phrase printed as two words was run into one; a hyphen at a line end inside a hyphenated word became a dash.
+   These read perfectly and are the hardest errors to find. Type what is printed. Correct only an unmistakable
+   printer's error (a turned or dropped letter in a common word, a doubled word), always as
    `[[corr printed|corrected]]`, and list every one in the notes. Never correct a proper name, a foreign word, a
    number, grammar, or anything that could be the author's own spelling. If in doubt, leave it and note it.
-2. **Captions left out.** Words printed in type under or beside a picture are its caption: `[[caption]] …` on the
-   line after the `[[image: …]]` line. Only lettering drawn inside the picture itself is left out.
-3. **Italic tags that take in punctuation that is not italic.** In `(<i>O-dah-wah-rah</i>),` the brackets and the
-   comma are upright in the print, so they stand outside the tags. Look at the shape of each bracket and stop.
-4. **Pictures cut carelessly**: a quarter of them had lines of the page's text inside, or an edge or the lettering
-   cut off. Step 5 says what a good picture is; every one is looked at after it is cut.
-5. **A heading dropped** (the book's title printed again above Chapter I). Everything printed on a page is typed,
-   except what the rules say to leave out (running heads, page numbers, signature marks, library stamps).
-6. **Tables typed as loose paragraphs.** Matter set in columns (a vocabulary, a table of fares or distances) is
-   typed as a pipe table, one printed row per line, unless `JOB.md` says otherwise.
+2. **Italic tags that take in punctuation that is not italic.** In `(<i>O-dah-wah-rah</i>),` the brackets and the
+   comma are upright in the print, so they stand outside the tags. This was wrong about a thousand times in one
+   book. Look at the shape of the brackets and stops next to italic words.
+3. **Pictures cut carelessly**: many had lines of the page's text inside, or an edge or the lettering cut off.
+   Step 5 says what a good picture is; every one is looked at after it is cut.
+4. **Something printed on the page left out** (the book's title printed again above Chapter I). Everything printed
+   is typed, except what the rules say to leave out (running heads, page numbers, signature marks, library stamps,
+   lettering drawn inside a picture).
+5. **A hyphen at the very end of a page dropped.** The last word of a page, if divided, keeps its hyphen.
+6. **Matter set in columns typed as loose paragraphs.** A vocabulary or table printed in columns is typed as a pipe
+   table, one printed row per line, the cells in the order they stand across the page, unless `JOB.md` says
+   otherwise. Headings of the same rank in the print get the same number of `#`.
 7. **No cover picture.**
+
+Done well in that trial, and wanted again: lettering drawn inside pictures was rightly left out and captions set
+in type were kept; printer's errors that were marked were marked correctly; the structure of the book (title page,
+dedication, chapters, appendix) was right.
