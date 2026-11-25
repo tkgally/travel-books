@@ -1,0 +1,106 @@
+{
+ "ia_identifier": "herethereamongal00plun",
+ "drive_folder_id": "1ZB-GOhSmTxYobq45EA8Ne1M8PkpC8Yad",
+ "parts": [
+  {
+   "name": "pages-001.zip",
+   "sha256": "b171cfa67c9943cd239ec8ac6129be390037fd1775a15d4900d71a4ec4efeb7e",
+   "bytes": 2949920,
+   "files": [
+    "leaves.json",
+    "p0000.jpg",
+    "p0001.jpg",
+    "p0002.jpg",
+    "p0003.jpg",
+    "p0004.jpg",
+    "p0005.jpg",
+    "p0006.jpg",
+    "p0007.jpg",
+    "p0008.jpg",
+    "p0009.jpg",
+    "p0010.jpg",
+    "p0011.jpg",
+    "p0012.jpg",
+    "p0013.jpg",
+    "p0014.jpg",
+    "p0015.jpg",
+    "p0016.jpg",
+    "p0017.jpg"
+   ],
+   "drive_id": "1ZXzIsHsr_y0-o4wuZs7NkhlN4r-uQHrW"
+  },
+  {
+   "name": "pages-002.zip",
+   "sha256": "69c15413bcaf1dc204fb6497a4dcd33e93535a1628d4c18367d397bed6659a7f",
+   "bytes": 2989136,
+   "files": [
+    "p0018.jpg",
+    "p0019.jpg",
+    "p0020.jpg",
+    "p0021.jpg",
+    "p0022.jpg",
+    "p0023.jpg",
+    "p0024.jpg",
+    "p0025.jpg",
+    "p0026.jpg",
+    "p0027.jpg",
+    "p0028.jpg",
+    "p0029.jpg"
+   ],
+   "drive_id": "1KO59HqRX5pq_Xy5SEnb_IZchnjNxovrP"
+  },
+  {
+   "name": "pages-003.zip",
+   "sha256": "63290eae264f7decbc65d24cc76a7cd8a47347e173404848e054dba271f44718",
+   "bytes": 2800437,
+   "files": [
+    "p0030.jpg",
+    "p0031.jpg",
+    "p0032.jpg",
+    "p0033.jpg",
+    "p0034.jpg",
+    "p0035.jpg",
+    "p0036.jpg",
+    "p0037.jpg",
+    "p0038.jpg",
+    "p0039.jpg",
+    "p0040.jpg"
+   ],
+   "drive_id": "1BYmkqPw1f-9pJfvJJBPUxt-qrgzpk_V0"
+  },
+  {
+   "name": "pages-004.zip",
+   "sha256": "1f147bbcbb9da6b961042f94f8e17c1f971c7a3d5e4242a6e9863f47a2a489a3",
+   "bytes": 2904347,
+   "files": [
+    "p0041.jpg",
+    "p0042.jpg",
+    "p0043.jpg",
+    "p0044.jpg",
+    "p0045.jpg",
+    "p0046.jpg",
+    "p0047.jpg",
+    "p0048.jpg",
+    "p0049.jpg",
+    "p0050.jpg",
+    "p0051.jpg"
+   ],
+   "drive_id": "1UcPU-xKLXTPp0jD_YmrZ7nCL2pISBzlz"
+  },
+  {
+   "name": "pages-005.zip",
+   "sha256": "d2c68b81520c820b7ae18edb6f6204e4f9a2b630794b4ef343d259a819db3d22",
+   "bytes": 1911409,
+   "files": [
+    "p0052.jpg",
+    "p0053.jpg",
+    "p0054.jpg",
+    "p0055.jpg",
+    "p0056.jpg",
+    "p0057.jpg",
+    "herethereamongal00plun_djvu.txt"
+   ],
+   "drive_id": "1Z5Sm373LAeVGoYT0MNg9MYJi-ZjGUjS6"
+  }
+ ]
+}
