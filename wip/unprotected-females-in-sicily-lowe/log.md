@@ -40,3 +40,5 @@ footnotes (*); chapter summaries in small capitals; Æ/æ.
 | Version | Date | Preflight stamp | Audit | Notes |
 
 ## Known issues
+- p. 19 (p0041): the sentence that runs on after the quoted love letter (“whose noble and honourable name…”) starts a
+  paragraph of its own: the markup cannot continue a paragraph after a quotation (`workflow.md` §“Not yet solved”).
