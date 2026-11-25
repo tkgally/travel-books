@@ -315,7 +315,8 @@ class Ctx:
                 body.append(f'<figure{fc}>{pbs}<img src="{attr(b["src"])}" alt="{attr(b["alt"])}"/>{cap}</figure>')
             elif t == "table":
                 trs = "".join("<tr>" + "".join(f"<td>{self.inline(c)}</td>" for c in r) + "</tr>" for r in b["rows"])
-                body.append(f'<div class="tablewrap">{pbs}<table>{trs}</table></div>')
+                # the scrolling box of a wide table can take keyboard focus and is named (review after eighty-one books)
+                body.append(f'<div class="tablewrap" tabindex="0" role="region" aria-label="Table">{pbs}<table>{trs}</table></div>')
             elif t == "break":
                 body.append(f'<hr class="break"/>{pbs}')
             if bi in targets and len(body) > n0:

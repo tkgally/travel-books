@@ -415,6 +415,10 @@ def build_book(out, bookdir, strict=True):
         # the title of a section made for this edition (render_html.split_division) stands outside the book's text
         added = f'<h2 class="added">{esc(d["added"])}</h2>\n' if d.get("added") else ""
         added += rh.editor_figures(book, d)
+        if d["kind"] == "titlepage":
+            # a heading for screen readers, outside the book's text (review after eighty-one books: the title page
+            # had no heading element, so heading navigation found nothing on the first page of the book)
+            added = '<h1 class="visually-hidden">Title page</h1>\n' + added
         used.update(re.findall(r'<img src="images/([^"]+)"', body + added))
         prev_ = f'<a rel="prev" href="{names[divs[i - 1]["id"]]}">← {esc(divs[i - 1]["title"])}</a>' if i else "<span></span>"
         next_ = f'<a rel="next" href="{names[divs[i + 1]["id"]]}">{esc(divs[i + 1]["title"])} →</a>' if i + 1 < len(divs) else "<span></span>"

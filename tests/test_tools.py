@@ -2174,6 +2174,23 @@ class TitlePageFirst(unittest.TestCase):
         b3, _ = comp(self.PAGES, divisions=self.DIVS[1:2], body_start="p0005")
         self.assertEqual(rh.body_start(b3)["title"], "Chapter I")
 
+    def test_title_page_has_a_hidden_heading_outside_the_text(self):
+        """Review after eighty-one books: the title page had no heading element for screen readers."""
+        d = tempfile.mkdtemp()
+        try:
+            shutil.copytree(SAMPLE, os.path.join(d, "sample-journey-doe"))
+            book, _ = build_site.build_book(os.path.join(d, "site"), os.path.join(d, "sample-journey-doe"))
+            h = open(os.path.join(d, "site", "books", book["id"], "01.html"), encoding="utf-8").read()
+            self.assertIn('<h1 class="visually-hidden">Title page</h1>', h)
+            self.assertLess(h.index("Title page</h1>"), h.index('<article class="book">'))
+        finally:
+            shutil.rmtree(d)
+
+    def test_wide_table_box_takes_focus(self):
+        b, _ = comp(["[[page 1]]\n# Chapter I.\n\n| a | b |\n| c | d |\n"])
+        html_ = rh.Ctx(b, "web", rh.file_names(b, ".html")).blocks(rh.reading_divisions(b)[-1])
+        self.assertIn('<div class="tablewrap" tabindex="0" role="region" aria-label="Table">', html_)
+
     def test_paragraph_after_a_picture_is_indented(self):
         """*Zephyrus*: "In the Banda Oriental…" stood flush left after a picture; the scan indents it."""
         ch = rh.reading_divisions(self.book)[-1]
