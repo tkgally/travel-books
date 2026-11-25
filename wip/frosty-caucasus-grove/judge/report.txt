@@ -1,3 +1,0 @@
-judge opus: 3 spots on 3 pages: {'draft': 2, 'verified': 1}; cost $0.12
-p0302 #1 [draft, sure: high] draft 'roportionately small' | verified 'roportionateately small' | judge reads 'roportionately small'
-p0375 #1 [draft, sure: medium] draft 'Persian nigh-road' | verified 'Persian high-road' | judge reads 'Persian nigh-road'
