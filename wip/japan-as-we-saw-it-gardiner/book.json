@@ -96,5 +96,16 @@
    "match": "p0149",
    "why": "the scan has no leaf 149: IA's file numbering skips it, and the printed pages run on without a gap"
   }
- ]
+ ],
+ "keep_hyphens": [
+  "p0105"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-26",
+  "pages": 6,
+  "recall": "26/27",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }

@@ -34,7 +34,7 @@
 
 | January, | <i>Sho gatsu.</i> | May, | <i>Go gatsu.</i> | September, | <i>Ku gatsu.</i> |
 | February, | <i>Ni</i> “ | June, | <i>Roku</i> “ | October, | <i>Jiu</i> “ |
-| March, | <i>San</i> “ | July, | <i>Shchi</i> “ | November, | <i>Jin ichi</i> “ |
+| March, | <i>San</i> “ | July, | <i>Shchi</i> “ | November, | <i>[[corr Jin|Jiu]] ichi</i> “ |
 | April, | <i>Shi</i> “ | August, | <i>Hachi</i> “ | December, | <i>Jiu ni</i> “ |
 
 ## Days of the Week.

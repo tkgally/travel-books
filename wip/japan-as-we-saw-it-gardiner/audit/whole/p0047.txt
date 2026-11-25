@@ -1,0 +1,6 @@
+{"given": "by the coolie on common native", "print": "by the coolie or common native", "sure": "high"}
+{"given": "present upon a servant, the expressed", "print": "present upon a servant; the expressed", "sure": "high"}
+{"given": "even in the presence ladies, entirely", "print": "even in the presence of ladies, entirely", "sure": "high"}
+{"given": "and the promize of a five", "print": "and the promise of a five", "sure": "high"}
+{"given": "for the simple reafon that nine", "print": "for the simple reason that nine", "sure": "high"}
+{"given": "Politeness, Morality, and Honesty.", "print": "POLITENESS, MORALITY, AND HONESTY.", "sure": "low"}
