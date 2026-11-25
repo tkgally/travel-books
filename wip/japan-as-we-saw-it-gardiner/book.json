@@ -1,0 +1,111 @@
+{
+ "id": "japan-as-we-saw-it-gardiner",
+ "version": 1,
+ "date": "2026-11-26",
+ "title": "Japan As We Saw It",
+ "short_title": "Japan As We Saw It",
+ "authors": [
+  {
+   "name": "Robt. S. Gardiner",
+   "sort": "Gardiner, Robert S.",
+   "born": 1842,
+   "died": 1899
+  }
+ ],
+ "place": "Boston",
+ "publisher": "Rand Avery Supply Company (for the author)",
+ "year": 1892,
+ "edition_statement": "First edition",
+ "collection": "jatsi",
+ "regions": [
+  "Japan",
+  "Canada"
+ ],
+ "period": "1892",
+ "summary": "A Boston man’s account of a four-month journey to Japan with his wife in the winter and spring of 1892, written as a practical guide for travellers “of moderate means” and drawn from his journal. They crossed Canada by rail and the Pacific on the steamer Empress of India to Yokohama, and went on to Kamakura, Hakone, Atami, Tokio, Nikko, Kioto, Osaka, Nara, Kobe, the islands of Awaji and Shikoku, the Inland Sea, Nagasaki, and the pottery towns of Arita and its neighbours, with a Japanese guide, Shimid. The book gives costs, hotels, inns, and manners, and describes visits, entertainments, and the damage of the earthquake of October 1891. Pronunciations of Japanese names are given in brackets throughout. It has more than eighty small engravings set into the text, and an appendix of money, measures, steamer fares, and a vocabulary of Japanese words and phrases.",
+ "source": {
+  "ia_identifier": "japanaswesawit00gardrich",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": []
+ },
+ "omitted_from_reading": "The printed contents, the list of illustrations, the index, and the covers are in the JSON only.",
+ "notes_on_text": [
+  "The map of Japan and the four city plans that the book places inside the back cover are not in the scanned copy (a library pocket is pasted there), so they are not in this edition.",
+  "Most of the pictures have their titles lettered inside the engraving; these are given in the pictures’ descriptions and are not set as captions. The four captions printed in type are kept as captions.",
+  "The book’s title, printed above the first chapter, is kept in the JSON and left out of the reading editions."
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-26",
+   "note": "First publication."
+  }
+ ],
+ "divisions": [
+  {
+   "at": "p0001",
+   "kind": "front",
+   "title": "Cover"
+  },
+  {
+   "at": "p0005",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0007",
+   "kind": "dedication",
+   "title": "Dedication"
+  },
+  {
+   "at": "p0009",
+   "kind": "preface"
+  },
+  {
+   "at": "p0013",
+   "kind": "contents"
+  },
+  {
+   "at": "p0015",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0121",
+   "kind": "appendix"
+  },
+  {
+   "at": "p0122",
+   "kind": "appendix"
+  },
+  {
+   "at": "p0123",
+   "kind": "glossary"
+  },
+  {
+   "at": "p0139",
+   "kind": "index"
+  },
+  {
+   "at": "p0148",
+   "kind": "back",
+   "title": "Back cover"
+  }
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0149",
+   "why": "the scan has no leaf 149: IA's file numbering skips it, and the printed pages run on without a gap"
+  }
+ ],
+ "keep_hyphens": [
+  "p0105"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-26",
+  "pages": 6,
+  "recall": "26/27",
+  "real_errors": 0,
+  "fixed": 0
+ }
+}

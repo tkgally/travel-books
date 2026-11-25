@@ -1,0 +1,3 @@
+{"find": "<i>nagua</i>,", "replace": "<i>nagua,</i>"}
+{"find": "<i>juipil</i>, a sort", "replace": "<i>juipil,</i> a sort"}
+{"find": "<i>juipil grande</i>,", "replace": "<i>juipil grande,</i>"}

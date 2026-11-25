@@ -1,0 +1,5 @@
+{"given": "extended social courtesies nor usually accorded", "print": "extended social courtesies not usually accorded", "sure": "high"}
+{"given": "who spoke English very well; called", "print": "who spoke English very well, called", "sure": "high"}
+{"given": "and ride to shinagawa, about", "print": "and ride to Shinagawa, about", "sure": "high"}
+{"given": "busy; but speed at which the", "print": "busy; but the speed at which the", "sure": "high"}
+{"given": "near friend is to prefent to him", "print": "near friend is to present to him", "sure": "high"}

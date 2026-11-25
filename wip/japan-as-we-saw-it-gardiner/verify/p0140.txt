@@ -1,0 +1,147 @@
+[[page 134]]
+
+Foot-wear <pref>29</pref>
+
+Fukura <pref>89</pref>
+
+Fuji <pref>17</pref>, <pref>34</pref>, <pref>63</pref>
+
+Geisha Girls <pref>50</pref>
+
+Gotemba <pref>63</pref>
+
+Great Bell at Kioto <pref>71</pref>
+
+Great Bell at Nara <pref>80</pref>
+
+Guides <pref>24</pref>
+
+Haiki <pref>110</pref>
+
+Hakone District <pref>34</pref>
+
+Hakone Lake <pref>36</pref>
+
+Hase <pref>31</pref>
+
+Hibachi (Warming Pot) <pref>53</pref>
+
+Higashi-Hongwanji Temple, Tokio <pref>46</pref>
+
+Hikone <pref>74</pref>
+
+Homeward bound <pref>113</pref>
+
+Honesty <pref>43</pref>
+
+Imperial Government Railway <pref>48</pref>
+
+Imperial Laboratory <pref>28</pref>
+
+Imperial Palace <pref>48</pref>
+
+Inland Sea <pref>92</pref>
+
+Inn, Description of <pref>88</pref>
+
+Insatsu Kioku (Printing Bureau) <pref>57</pref>
+
+Jinrikisha Coolies <pref>106</pref>
+
+Jinrikishas <pref>18</pref>
+
+Journey Westward <pref>11</pref>
+
+Junikai Tower <pref>47</pref>
+
+Kamakura <pref>31</pref>
+
+Kanagawa <pref>24</pref>
+
+Kanazawa <pref>24</pref>
+
+Katase <pref>31</pref>
+
+Kawatana <pref>106</pref>
+
+Kiga <pref>35</pref>
+
+Kioto <pref>67</pref>
+
+Kioto Hotels <pref>68</pref>
+
+Kioto Temples <pref>69</pref>
+
+Kobe <pref>82</pref>
+
+Kobe Hotels <pref>83</pref>
+
+Kochi <pref>91</pref>
+
+Kodzu <pref>34</pref>
+
+Koishikawa Arsenal and Garden <pref>48</pref>
+
+Koransha Pottery <pref>108</pref>
+
+Kumagawa Rapids <pref>112</pref>
+
+Kumamoto <pref>111</pref>
+
+Kurasaki (Giant Tree) <pref>74</pref>
+
+Kutsuragawa Rapids <pref>72</pref>
+
+Kwannon, Figure of <pref>31</pref>
+
+Lacquer Ware <pref>27</pref>
+
+Letters of Introduction <pref>5</pref>
+
+Luncheon, Japanese <pref>54</pref>
+
+Mats, House <pref>52</pref>
+
+Mikado’s Exclusiveness <pref>49</pref>
+
+Mikado’s Palaces, Kioto <pref>71</pref>
+
+Mikado’s Railway Coach <pref>49</pref>
+
+Mississippi Bay <pref>25</pref>
+
+Misumi <pref>112</pref>
+
+Miyanoshita <pref>35</pref>
+
+Mogi <pref>101</pref>
+
+Moji <pref>94</pref>
+
+Money, Japanese <pref>19</pref>
+
+Morality <pref>41</pref>
+
+Muki <pref>89</pref>
+
+Nagasaki <pref>97</pref>
+
+Nagasaki Hotels <pref>98</pref>
+
+Nagoya <pref>64</pref>
+
+Nagoya Castle <pref>64</pref>
+
+Nara <pref>79</pref>
+
+Nara Temples <pref>79</pref>
+
+Naruto Passage <pref>89</pref>
+
+Negishi Cemetery <pref>33</pref>
+
+Nikko <pref>59</pref>
+
+Nunobiki Waterfalls <pref>84</pref>
+
+Odawara <pref>34</pref>

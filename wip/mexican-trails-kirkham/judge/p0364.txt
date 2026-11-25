@@ -1,0 +1,77 @@
+[[page 288]]
+
+National Palace, <pref>10</pref>
+
+New Spain, <pref>3</pref>, <pref>75</pref>, <pref>76</pref>, <pref>77</pref>, <pref>79</pref>, <pref>82</pref>, <pref>83</pref>, <pref>145</pref>, <pref>169</pref>, <pref>186</pref>, <pref>193</pref>, <pref>279</pref>
+
+Nezahualcoyotl, <pref>232</pref>
+
+Nieve, <pref>13</pref>
+
+Nochebuena, <pref>129</pref>
+
+Nopal, <pref>142</pref>, <pref>143</pref>
+
+<i>Nuestra Señora de la Candalaria</i>, <pref>35</pref>
+
+## O
+
+Oaxaca, <pref>196</pref>, <pref>197</pref>, <pref>198</pref>, <pref>200</pref>, <pref>202</pref>, <pref>205</pref>, <pref>206</pref>, <pref>209</pref>
+
+Ocotlan, <pref>248</pref>
+
+Oil-stove, <pref>43</pref>
+
+Okuchucha, <pref>239</pref>
+
+Olive trees of Tzintzúntzan, <pref>235</pref>, <pref>237</pref>, <pref>238</pref>
+
+Olmedo, Father, <pref>193</pref>
+
+Onyx pulpit, <pref>17</pref>
+
+Orchids, <pref>129</pref>, <pref>165</pref>, <pref>207</pref>
+
+Organo, <pref>142</pref>, <pref>143</pref>, <pref>201</pref>, <pref>271</pref>
+
+Oriole, Bullock's, <pref>130</pref>
+
+Oriole, Scott's, <pref>130</pref>
+
+Orita, <pref>184</pref>
+
+Orizaba, <pref>163</pref>, <pref>165</pref>, <pref>166</pref>, <pref>168</pref>, <pref>169</pref>, <pref>170</pref>, <pref>171</pref>, <pref>176</pref>, <pref>177</pref>, <pref>258</pref>, <pref>280</pref>
+
+Owl, <pref>135</pref>, <pref>140</pref>
+
+Ox cart, <pref>196</pref>, <pref>200</pref>, <pref>230</pref>
+
+## P
+
+Pack-trains, <pref>252</pref>, <pref>253</pref>
+
+Padre, <pref>16</pref>, <pref>173</pref>
+
+Painter, the, <pref>156</pref>, <pref>160</pref>, <pref>169</pref>, <pref>170</pref>, <pref>171</pref>, <pref>172</pref>
+
+Painting on wood, <pref>240</pref>
+
+Paintings of Cabrera, <pref>160</pref>
+
+Panteon, the, <pref>275</pref>
+
+Park of San Pedro, <pref>219</pref>
+
+Parquet, <pref>44</pref>
+
+Parrots, <pref>255</pref>
+
+Paseo, the, <pref>4</pref>, <pref>11</pref>, <pref>12</pref>, <pref>26</pref>, <pref>149</pref>
+
+Patio, <pref>40</pref>, <pref>51</pref>, <pref>52</pref>, <pref>53</pref>, <pref>54</pref>, <pref>56</pref>, <pref>59</pref>, <pref>60</pref>, <pref>144</pref>, <pref>155</pref>, <pref>168</pref>, <pref>180</pref>, <pref>181</pref>, <pref>199</pref>, <pref>269</pref>, <pref>273</pref>
+
+Patio process, <pref>273</pref>
+
+Patzcuaro, <pref>229</pref>, <pref>230</pref>, <pref>231</pref>, <pref>232</pref>, <pref>234</pref>, <pref>239</pref>, <pref>240</pref>
+
+Pawnshop, <pref>65</pref>, <pref>66</pref>

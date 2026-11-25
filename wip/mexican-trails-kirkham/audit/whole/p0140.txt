@@ -1,0 +1,4 @@
+{"given": "there may be an acccssible spot", "print": "there may be an accessible spot", "sure": "high"}
+{"given": "neighbouring villages of morelos. Often", "print": "neighbouring villages of Morelos. Often", "sure": "high"}
+{"given": "from each one along the line; as he", "print": "from each one along the line, as he", "sure": "high"}
+{"given": "straining under this burden.", "print": "straining under his burden.", "sure": "high"}

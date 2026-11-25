@@ -31,6 +31,12 @@ For the draft: Spanish words are frequent, in italics, some printed with accents
 type pp. 86, 88; breaks marked by a row of dots (pp. 137, 251); a placard set as lines p. 146; catechism questions
 pp. 265–266; the index in two columns of small type; no footnotes seen.
 
+## Pictures (Opus subagent, 2026-11-26)
+All 24 plates and `cover.jpg` cropped (`--gray`; 21 turned upright with `--rotate 270`; p0047, p0071, p0311 upright as
+printed; p0197 and p0273 recropped after a first cut lost pale ground). Captions read on the plates: p0141 “The
+fields are ploughed with a crooked stick” has no full stop as printed; p0169 “mediæval” with the ligature. Compare
+the draft's `[[caption]]` lines with these after the judge.
+
 ## Decisions
 
 ## Runs

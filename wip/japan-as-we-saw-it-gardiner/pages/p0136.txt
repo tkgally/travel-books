@@ -1,0 +1,46 @@
+[[page 130]]
+
+## Numbers.
+
+### Cardinal Numbers.
+
+| One, | <i>Ichi.</i> | Thirty, | <i>San jiu.</i> |
+| Two, | <i>Ni.</i> | Forty, | <i>Shi jiu.</i> |
+| Three, | <i>San.</i> | And so on to ninety. | |
+| Four, | <i>Shi.</i> | Hundred, | <i>Hyaku.</i> |
+| Five, | <i>Go.</i> | One hundred, | <i>Ippiaku.</i> |
+| Six, | <i>Roku.</i> | Two hundred, | <i>Ni hyaku.</i> |
+| Seven, | <i>Shchi.</i> | Thousand, | <i>Sen.</i> |
+| Eight, | <i>Hachi.</i> | One thousand, | <i>Issen.</i> |
+| Nine, | <i>Ku.</i> | Two thousand, | <i>Ni sen.</i> |
+| Ten, | <i>Jiu.</i> | Ten thousand, | <i>Man.</i> |
+| Eleven, | <i>Jiu ichi.</i> | Hundred thousand, | <i>Jiu man.</i> |
+| Twelve, | <i>Jiu ni.</i> | Million, | <i>Hyaku man.</i> |
+| Thirteen, | <i>Jiu san.</i> | Ten million, | <i>Sen man.</i> |
+| And so on to nineteen. | | Thirty-eight million, | <i>San-sen happyaku man.</i> |
+| Twenty, | <i>Ni jiu.</i> | | |
+| Twenty-one, | <i>Ni jiu ichi.</i> | Billion, | <i>Cho.</i> |
+
+### Multiplicative Numbers.
+
+| Once, | <i>Ichido.</i> | Five times, | <i>Go tabi.</i> | Nine times, | <i>Ku tabi.</i> |
+| Twice, | <i>Ni do.</i> | Six times, | <i>Roku tabi.</i> | Ten times, | <i>Jittabi.</i> |
+| Three times, | <i>San do.</i> | Seven times, | <i>Shchi tabi.</i> | Double, | <i>Bai</i> or <i>Nibai.</i> |
+| Four times, | <i>Yo tabi.</i> | Eight times, | <i>Hachi tabi.</i> | Triple, | <i>Sam bai.</i> |
+
+## Months.
+
+[[center]] D<sc>ate</sc> (month and day), <i>gappi</i>.
+
+| January, | <i>Sho gatsu.</i> | May, | <i>Go gatsu.</i> | September, | <i>Ku gatsu.</i> |
+| February, | <i>Ni</i> “ | June, | <i>Roku</i> “ | October, | <i>Jiu</i> “ |
+| March, | <i>San</i> “ | July, | <i>Shchi</i> “ | November, | <i>[[corr Jin|Jiu]] ichi</i> “ |
+| April, | <i>Shi</i> “ | August, | <i>Hachi</i> “ | December, | <i>Jiu ni</i> “ |
+
+## Days of the Week.
+
+| Sunday, | <i>Nichi yobi.</i> | Wednesday, | <i>Sui yobi.</i> |
+| Monday, | <i>Gatsu</i> or <i>Getsu yobi.</i> | Thursday, | <i>Moku yobi.</i> |
+| Tuesday, | <i>Ka yobi.</i> | Friday, | <i>Kin yobi.</i> |
+
+[[center]] Saturday, <i>Do yobi.</i>

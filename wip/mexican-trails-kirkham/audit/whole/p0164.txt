@@ -1,0 +1,5 @@
+{"given": "So along these I plod like any indian,", "print": "So along these I plod like any Indian,", "sure": "high"}
+{"given": "leaves of the sugar-cane; projecting in front", "print": "leaves of the sugar-cane, projecting in front", "sure": "high"}
+{"given": "chimney. On lava blocks under the", "print": "chimney. On the lava blocks under the", "sure": "high"}
+{"given": "it will pcrhaps never occur to her", "print": "it will perhaps never occur to her", "sure": "high"}
+{"given": "She will have the fame fare,", "print": "She will have the same fare,", "sure": "high"}

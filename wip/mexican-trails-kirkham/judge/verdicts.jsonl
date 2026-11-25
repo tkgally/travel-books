@@ -1,0 +1,17 @@
+{"page": "p0015", "n": 1, "who": "draft", "draft": "<sc>a wise traveller, and a good soldier, who served under general scott in the various battles which led to the surrender of the city of mexico</sc>", "verified": "<sc>A wise traveller, and a good soldier, who served under General Scott in the various battles which led to the surrender of the city of Mexico</sc>", "judge": {"n": 1, "is": "B", "print": "<sc>a wise traveller, and a good soldier, who served under general scott in the various battles which led to the surrender of the city of mexico</sc>", "sure": "medium"}}
+{"page": "p0017", "n": 1, "who": "draft", "draft": "THIS book", "verified": "T<sc>his</sc> book", "judge": {"n": 1, "is": "B", "print": "THIS book", "sure": "medium"}}
+{"page": "p0029", "n": 1, "who": "draft", "draft": " Recess</sc>. <pref>", "verified": " Recess</sc> <pref>", "judge": {"n": 1, "is": "A", "print": " Recess</sc>. <pref>", "sure": "medium"}}
+{"page": "p0031", "n": 1, "who": "draft", "draft": "IT is surely", "verified": "I<sc>t</sc> is surely", "judge": {"n": 1, "is": "B", "print": "IT is surely", "sure": "medium"}}
+{"page": "p0045", "n": 1, "who": "draft", "draft": "THIS Sunday", "verified": "T<sc>his</sc> Sunday", "judge": {"n": 1, "is": "A", "print": "THIS Sunday", "sure": "medium"}}
+{"page": "p0056", "n": 1, "who": "verified", "draft": "Anglo-Saxon", "verified": "Anglo–Saxon", "judge": {"n": 1, "is": "B", "print": "Anglo–Saxon", "sure": "medium"}}
+{"page": "p0059", "n": 1, "who": "draft", "draft": "WHATEVER cosmopolita", "verified": "W<sc>hatever</sc> cosmopolita", "judge": {"n": 1, "is": "B", "print": "WHATEVER cosmopolita", "sure": "medium"}}
+{"page": "p0115", "n": 1, "who": "draft", "draft": "ABOUT an old gard", "verified": "A<sc>bout</sc> an old gard", "judge": {"n": 1, "is": "A", "print": "ABOUT an old gard", "sure": "medium"}}
+{"page": "p0128", "n": 1, "who": "draft", "draft": "THE gentlest", "verified": "T<sc>he</sc> gentlest", "judge": {"n": 1, "is": "B", "print": "THE gentlest", "sure": "medium"}}
+{"page": "p0179", "n": 1, "who": "draft", "draft": "THERE is now", "verified": "T<sc>here</sc> is now", "judge": {"n": 1, "is": "B", "print": "THERE is now", "sure": "medium"}}
+{"page": "p0207", "n": 1, "who": "draft", "draft": "WHEN again", "verified": "W<sc>hen</sc> again", "judge": {"n": 1, "is": "A", "print": "WHEN again", "sure": "medium"}}
+{"page": "p0218", "n": 1, "who": "draft", "draft": "SOMEWHERE in", "verified": "S<sc>omewhere</sc> in", "judge": {"n": 1, "is": "B", "print": "SOMEWHERE in", "sure": "medium"}}
+{"page": "p0264", "n": 1, "who": "draft", "draft": "THE State of Pu", "verified": "T<sc>he</sc> State of Pu", "judge": {"n": 1, "is": "B", "print": "THE State of Pu", "sure": "medium"}}
+{"page": "p0287", "n": 1, "who": "draft", "draft": "ON my first", "verified": "O<sc>n</sc> my first", "judge": {"n": 1, "is": "A", "print": "ON my first", "sure": "medium"}}
+{"page": "p0314", "n": 1, "who": "draft", "draft": "TWO thousand", "verified": "T<sc>wo</sc> thousand", "judge": {"n": 1, "is": "B", "print": "TWO thousand", "sure": "medium"}}
+{"page": "p0322", "n": 1, "who": "draft", "draft": "earthernware", "verified": "earthenware", "judge": {"n": 1, "is": "B", "print": "earthernware", "sure": "high"}}
+{"page": "p0345", "n": 1, "who": "draft", "draft": "IT was late", "verified": "I<sc>t</sc> was late", "judge": {"n": 1, "is": "A", "print": "IT was late", "sure": "medium"}}

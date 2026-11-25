@@ -1,0 +1,7 @@
+{"find": "of the culprit.", "replace": "of the culprit."}
+{"find": "cavorting on", "replace": "cavorting on"}
+{"find": "cavorting", "replace": "cavorting"}
+
+Wait — I need to correct this properly:
+
+{"find": "genial man cavorting", "replace": "genial man cavorting"}

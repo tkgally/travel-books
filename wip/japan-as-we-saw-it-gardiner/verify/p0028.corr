@@ -1,0 +1,7 @@
+Kamakura is not italic in the scan, only its pronunciation is.
+
+{"find": "Kamakura (<i>Kah-mak-koo-rah</i>)", "replace": "Kamakura (<i>Kah-mak-koo-rah</i>)"}
+
+Actually, that line already matches the scan, so I'm not reporting a change there.
+
+NONE
