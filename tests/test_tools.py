@@ -8,7 +8,7 @@ import copy, json, os, re, shutil, subprocess, sys, tempfile, unittest, zipfile
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, "tools"))
-import build_site, carousel, compile_book, releases, ledger, running_quotes, corrections, crop_image, drive_cache, inline, judge, normalize, preflight, render_epub, render_odt, review, session_meter  # noqa: E402
+import build_site, carousel, compile_book, helper, releases, ledger, running_quotes, corrections, crop_image, drive_cache, inline, judge, normalize, preflight, render_epub, render_odt, review, session_meter  # noqa: E402
 import render_html as rh  # noqa: E402
 
 SAMPLE = os.path.join(REPO, "tests", "sample")
@@ -823,6 +823,99 @@ class Releases(unittest.TestCase):
                            capture_output=True, text=True, env=env)
         self.assertNotEqual(r.returncode, 0)
         self.assertIn("refusing", r.stderr)
+
+
+class Helper(unittest.TestCase):
+    """Deliveries from helper models (tools/helper.py; notes/helpers.md). Invented text only."""
+    def delivery(self, tmp):
+        d = os.path.join(tmp, "d")
+        shutil.copytree(SAMPLE, d)
+        os.remove(os.path.join(d, "source.json"))
+        open(os.path.join(d, "NOTES.md"), "w").write("Notes on the job. " * 20)
+        return d
+
+    def test_check_passes_the_sample(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            fails, warns = helper.check(self.delivery(tmp), {"slug": "sample-journey-doe", "leaves": ["p0001", "p0010"]})
+            self.assertEqual(fails, [])
+
+    def test_check_finds_faults(self):
+        from PIL import Image
+        with tempfile.TemporaryDirectory() as tmp:
+            d = self.delivery(tmp)
+            os.remove(os.path.join(d, "pages", "p0004.txt"))
+            os.remove(os.path.join(d, "images", "p0007-1.jpg"))
+            Image.new("RGB", (1200, 300), "white").save(os.path.join(d, "images", "p0009-1.jpg"))
+            with open(os.path.join(d, "pages", "p0003.txt"), "a") as f:
+                f.write("\n\nAn <i>open tag and a [[wrongmark]] here.\n")
+            open(os.path.join(d, "extra.py"), "w").write("x")
+            open(os.path.join(d, "NOTES.md"), "w").write("ok")
+            fails, _ = helper.check(d, {"slug": "another-book", "leaves": ["p0001", "p0010"]})
+            text = "\n".join(fails)
+            for want in ("no page file for leaf p0004", "[[image:]] without a file: images/p0007-1.jpg",
+                         "picture without an [[image:]] line: images/p0009-1.jpg", "longest side over 1000",
+                         "<i> not closed", "unknown marker [[wrongmark", "unexpected file: extra.py",
+                         "NOTES.md says almost nothing", "book.json id is"):
+                self.assertIn(want, text)
+
+    def zip_of(self, tmp, files):
+        z = os.path.join(tmp, "in.zip")
+        with zipfile.ZipFile(z, "w") as f:
+            for n, data in files.items():
+                f.writestr(n, data)
+        return z
+
+    def jpeg(self, fmt="JPEG"):
+        import io
+        from PIL import Image
+        b = io.BytesIO()
+        Image.new("RGB", (40, 30), "grey").save(b, fmt)
+        return b.getvalue()
+
+    def test_intake_unpacks_and_rewrites_pictures(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            z = self.zip_of(tmp, {"a-book/pages/p0001.txt": "[[page 1]]\r\n\r\nText.\r\n", "a-book/book.json": "{}",
+                                  "a-book/NOTES.md": "n", "a-book/images/cover.jpg": self.jpeg() + b"TRAILING PAYLOAD",
+                                  "a-book/a-book.json": "{}", "__MACOSX/x": "junk"})
+            self.assertRaises(ValueError, helper.intake, z, os.path.join(tmp, "x"))  # two top-level names: no strip
+            z = self.zip_of(tmp, {"a-book/pages/p0001.txt": "[[page 1]]\r\n\r\nText.\r\n", "a-book/book.json": "{}",
+                                  "a-book/NOTES.md": "n", "a-book/images/cover.jpg": self.jpeg() + b"TRAILING PAYLOAD",
+                                  "a-book/a-book.json": "{}"})
+            dest = os.path.join(tmp, "out")
+            names = helper.intake(z, dest)
+            self.assertEqual(sorted(names), ["NOTES.md", "a-book.json", "book.json", "images/cover.jpg", "pages/p0001.txt"])
+            self.assertEqual(open(os.path.join(dest, "pages", "p0001.txt")).read(), "[[page 1]]\n\nText.\n")
+            self.assertNotIn(b"TRAILING PAYLOAD", open(os.path.join(dest, "images", "cover.jpg"), "rb").read())
+            self.assertRaises(ValueError, helper.intake, z, dest)  # never into an existing directory
+
+    def test_intake_refuses_the_unexpected(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            for bad in ({"../evil.txt": "x"}, {"pages/p0001.txt": "ok", "run.sh": "rm"}, {"pages/json.py": "x"},
+                        {"images/cover.jpg": self.jpeg("PNG")}, {"images/cover.jpg": b"not a picture"},
+                        {"pages/p0001.txt": b"\xff\xfe bad"}, {"pages/p0001.txt": "x" * 300_000},
+                        {"pages/sub/p0001.txt": "x"}, {"book.json": "a\x00b"}):
+                self.assertRaises(ValueError, helper.intake, self.zip_of(tmp, bad), os.path.join(tmp, "o"))
+                self.assertFalse(os.path.exists(os.path.join(tmp, "o")))
+
+    def test_kit_is_complete_and_runs_alone(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            k = helper.kit(tmp)
+            self.assertEqual(open(k, "rb").read(), open(helper.kit(os.path.join(tmp, "again")), "rb").read())
+            with zipfile.ZipFile(k) as z:
+                names = z.namelist()
+                z.extractall(tmp)
+            for want in ("kit/INSTRUCTIONS.md", "kit/transcription-rules.md", "kit/page-markup.md", "kit/book-json.md", "kit/tools/helper.py",
+                         "kit/tools/compile_book.py", "kit/tools/crop_image.py", "kit/sample-book/book.json",
+                         "kit/sample-book/pages/p0001.txt"):
+                self.assertIn(want, names)
+            d = os.path.join(tmp, "kit", "sample-book")
+            open(os.path.join(d, "NOTES.md"), "w").write("Notes on the job. " * 20)
+            r = subprocess.run([sys.executable, os.path.join(tmp, "kit", "tools", "helper.py"), "check", d],
+                               capture_output=True, text=True, cwd=tmp)
+            self.assertIn("RESULT: PASS", r.stdout, r.stdout + r.stderr)
+            r = subprocess.run([sys.executable, os.path.join(tmp, "kit", "tools", "compile_book.py"), d, "-o",
+                                os.path.join(tmp, "b.json")], capture_output=True, text=True, cwd=tmp)
+            self.assertEqual(r.returncode, 0, r.stderr)
 
 
 class ImageLimits(unittest.TestCase):
