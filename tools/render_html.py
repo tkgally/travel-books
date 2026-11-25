@@ -338,6 +338,9 @@ class Ctx:
         s = "\n".join(body)
         if tp:
             s = f'<div class="titlepage">\n{s}\n</div>'
+        elif div["kind"] == "glossary":
+            # entries flush with a hanging indent, phrases (<blockquote> runs) indented under their headwords (book.css)
+            s = f'<div class="glossary">\n{s}\n</div>'
         # a reference whose note is in the same file keeps its link; its back-link needs the reference to exist
         ids = set(re.findall(r' id="(r-[^"]+)"', s))
         s = re.sub(r'<a class="noteback" href="#(r-[^"]+)" aria-label="[^"]*">(.*?)</a>',
