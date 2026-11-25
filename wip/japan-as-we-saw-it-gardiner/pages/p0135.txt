@@ -2,6 +2,7 @@
 
 Want (To wish), ....<i>tai; hoshii.</i>
 
+<blockquote>
 I want (imp.), <i>iru.</i>
 
 I want to go, <i>iki tai.</i>
@@ -11,12 +12,15 @@ I do not want, <i>irimasen.</i>
 Do you want?....<i>hoshii ka.</i>
 
 I want, ... <i>watakshi.</i>
+</blockquote>
 
 Ward (of town), <i>cho.</i>
 
 Warm, <i>attakai.</i>
 
+<blockquote>
 To warm, <i>atatameru.</i>
+</blockquote>
 
 Wash, To, <i>arau.</i>
 
@@ -26,13 +30,17 @@ Washing-basin, <i>chodzu-tarai.</i>
 
 Water (cold), <i>midzu.</i>
 
+<blockquote>
 Hot water, <i>yu.</i>
 
 Bring me some water please, <i>midzu wo motte okure.</i>
+</blockquote>
 
 Watch, <i>tokei.</i>
 
+<blockquote>
 To watch, <i>ki wo tskeru.</i>
+</blockquote>
 
 Water-closet, <i>chodzuba.</i>
 
@@ -42,15 +50,19 @@ Wave, <i>nami.</i>
 
 Way (road), <i>michi.</i>
 
+<blockquote>
 Go away! <i>yuke.</i>
+</blockquote>
 
 Weak, <i>yowai.</i>
 
 Weather, <i>tenki.</i>
 
+<blockquote>
 Good weather, <i>yoi o tenki.</i>
 
 Bad weather, <i>warui o tenki.</i>
+</blockquote>
 
 Weight, <i>mekata.</i>
 
@@ -62,21 +74,27 @@ Well (of water), <i>ido.</i>
 
 Wet, <i>nureta.</i>
 
+<blockquote>
 It is wet, <i>nurete aru.</i>
+</blockquote>
 
 What, <i>nani.</i>
 
+<blockquote>
 What is the matter? <i>doshta.</i>
 
 What is it? <i>nandeska.</i>
 
 What is this? <i>kore wa nandeska.</i>
+</blockquote>
 
 When? <i>itsu.</i>
 
 Where? <i>doko.</i>
 
+<blockquote>
 Where do you live? <i>otaku wa dochira.</i>
+</blockquote>
 
 Which? <i>dore.</i>
 
@@ -86,7 +104,9 @@ White, <i>shiroi.</i>
 
 Who? <i>dare.</i>
 
+<blockquote>
 Who is there? <i>dare da.</i>
+</blockquote>
 
 Whole, <i>mina.</i>
 
@@ -116,7 +136,9 @@ Without, <i>naku.</i>
 
 Woman, <i>onna.</i>
 
+<blockquote>
 Old woman, <i>obasan.</i>
+</blockquote>
 
 Wood, <i>ki.</i>
 
@@ -126,7 +148,9 @@ World, <i>sekai.</i>
 
 Work, <i>shigoto.</i>
 
+<blockquote>
 To work, <i>hataraku.</i>
+</blockquote>
 
 Worthless, <i>tsumaranai.</i>
 
@@ -140,6 +164,7 @@ Write, To, <i>kaku.</i>
 
 Year, <i>nen.</i>
 
+<blockquote>
 Last year, <i>saku nen.</i>
 
 Next year, <i>rai nen.</i>
@@ -151,6 +176,7 @@ How many years? <i>iku nen.</i>
 How many years old? <i>toshi wa ikutsu.</i>
 
 The new year, <i>shin nen.</i>
+</blockquote>
 
 Yearly, <i>mai nen.</i>
 
@@ -164,8 +190,10 @@ Yonder, <i>muko no.</i>
 
 You (polite), <i>anata.</i>
 
+<blockquote>
 (to an inferior), <i>omae.</i>
 
 You and I, <i>anata to watashi to.</i>
+</blockquote>
 
 Yours, <i>anata no.</i>

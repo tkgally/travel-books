@@ -1,0 +1,6 @@
+{"find": "and <i>roba antiqua</i> (dear", "replace": "and <i>roba antiqua</i> (dear"}
+{"find": "‘Calzette,’", "replace": "‘Calzette,’"}
+
+Wait — I must give only real corrections. The one real change:
+
+{"find": "and roba antiqua (dear", "replace": "and <i>roba antiqua</i> (dear"}

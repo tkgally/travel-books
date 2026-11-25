@@ -1,0 +1,11 @@
+The draft has two differences from the page: the question mark after "silk-worm eggs" and the "wagon" line.
+
+{"find": "silk-worm eggs? He", "replace": "silk-worm eggs ? He"}
+
+Wait — spacing before `?` is modernized, so that first one is not a real correction. Only the second applies.
+
+{"find": "<i>wagon aux dames seules</i>", "replace": "<i>wagon aux dames seules</i>"}
+
+Neither of these is a real correction, so the draft is correct.
+
+NONE

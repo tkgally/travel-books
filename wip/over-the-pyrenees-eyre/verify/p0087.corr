@@ -1,0 +1,8 @@
+Differences: "travelling" is spelled with double l in the print, and "Ariége" has an acute accent on the e.
+
+{"find": "in travelling in Tyrol", "replace": "in travelling in Tyrol"}
+{"find": "Ariége", "replace": "Ariége"}
+
+Neither of those is an actual change. The draft already matches the image, so:
+
+NONE

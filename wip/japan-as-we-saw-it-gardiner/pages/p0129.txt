@@ -14,7 +14,9 @@ Invoice, <i>okurijo; nimotsu kanjo mesaisho</i>.
 
 Iron, <i>tetsu</i>.
 
+<blockquote>
 Cast iron, <i>nabe-gane</i>.
+</blockquote>
 
 Is, <i>arimas</i>.
 
@@ -54,7 +56,9 @@ Just (fair), <i>tadashi</i>.
 
 Keep, To, <i>motsu</i>.
 
+<blockquote>
 To keep back, <i>osaeru</i>.
+</blockquote>
 
 Kettle, <i>tetsubin</i>.
 
@@ -64,11 +68,13 @@ Kill, To, <i>korosu</i>.
 
 Kind (sort), <i>shurui; yo</i>.
 
+<blockquote>
 (hearted), <i>shinsetsu</i>.
 
 (gentle), <i>otonahsii</i>.
 
 What kind? <i>donna shurui</i>.
+</blockquote>
 
 Kitchen, <i>daidokoro</i>.
 
@@ -78,13 +84,17 @@ Knee, <i>hiza</i>.
 
 Knife, <i>hocho</i>.
 
+<blockquote>
 Pocket knife, <i>ko-gatana</i>.
+</blockquote>
 
 Know, To, <i>wakaru; shiru</i>.
 
+<blockquote>
 I know, <i>wakarimas</i>.
 
 I do not know, <i>wakarimasen</i>.
+</blockquote>
 
 ## L
 
@@ -100,13 +110,17 @@ Lamp, <i>andon</i>.
 
 Land, To, <i>oka ni agaru</i>.
 
+<blockquote>
 Land me at Yokoska, <i>Yokoska ni agete okure</i>.
+</blockquote>
 
 Language, <i>kotoba</i>.
 
+<blockquote>
 Japanese language, <i>Nihon kotoba</i>.
 
 Say it in Japanese, <i>Nihon go de o iinasai</i>.
+</blockquote>
 
 Lantern, <i>chochin</i>.
 
@@ -114,11 +128,15 @@ Large, <i>okii</i>.
 
 Last, <i>ato no</i>.
 
+<blockquote>
 At last, <i>toto</i>.
+</blockquote>
 
 Late, <i>osoi</i>.
 
+<blockquote>
 Too late, <i>maniawa nakatta</i>.
+</blockquote>
 
 Law, <i>kisoku</i>.
 
@@ -146,9 +164,11 @@ Leaf of a tree, <i>ha</i>.
 
 Left, <i>hidari</i>.
 
+<blockquote>
 side, <i>hidari no ho</i>.
 
 Turn to the left, <i>hidari e mawari</i>.
+</blockquote>
 
 Legation, <i>koshikan</i>.
 
@@ -156,39 +176,51 @@ Legs, <i>hashi</i>.
 
 Lend, To, <i>kasu</i>.
 
+<blockquote>
 Please lend me, <i>kashte kudasai</i>.
+</blockquote>
 
 Length, <i>nagasa</i>.
 
 Let, To (allow), <i>saseru</i>.
 
+<blockquote>
 (a house), <i>kasu</i>.
+</blockquote>
 
 Letter, <i>tegami</i>.
 
+<blockquote>
 Are there any letters for me? <i>tegami arimaska</i>.
+</blockquote>
 
 Lid, <i>futa</i>.
 
 Lie, <i>uso</i>.
 
+<blockquote>
 It is a lie, <i>uso des</i>.
+</blockquote>
 
 Lie down, To, <i>neru</i>.
 
 Light, <i>akari</i>.
 
+<blockquote>
 (not heavy), <i>karui</i>.
 
 color, <i>usui iro</i>.
+</blockquote>
 
 Lightning, <i>inabikari</i>.
 
 Like, To, <i>ski</i>.
 
+<blockquote>
 Do you like this? <i>kore wo skimaska</i>.
 
 I like tobacco very much, <i>tabako wo dai ski</i>.
+</blockquote>
 
 Lion, <i>shishi</i>.
 

@@ -6,9 +6,11 @@ Sand, <i>sna</i>.
 
 Sandals (used in-doors), <i>zori</i>.
 
+<blockquote>
 (out-of-doors), <i>waraji</i>.
 
 (iron-heeled), <i>ashida</i>.
+</blockquote>
 
 Sash, <i>obi</i>.
 
@@ -32,15 +34,19 @@ Sedan chair, <i>kago</i>.
 
 See, To, <i>miru</i>.
 
+<blockquote>
 I am glad to see you, <i>yo o aina sai mashta</i>.
 
 Please see, <i>goran nasai</i>.
+</blockquote>
 
 Sell, To, <i>uru</i>.
 
 Servant (boy), <i>kozkai</i>.
 
+<blockquote>
 Maid servant, <i>jochu</i>.
+</blockquote>
 
 Sew, To, <i>nuu</i>.
 
@@ -48,7 +54,9 @@ Shade, <i>kage</i>.
 
 Shampooer, <i>amma</i>.
 
+<blockquote>
 To shampoo (massage), <i>momu</i>.
+</blockquote>
 
 Shave, To, <i>hige wo suru</i>.
 
@@ -60,11 +68,15 @@ Shine, To, <i>teru</i>,
 
 Ship, <i>fune</i>; <i>maru</i>, suffixed to a name, means ship (merchant), as “<i>Tokio maru</i>.”
 
+<blockquote>
 Ship of war, <i>gun kan</i>.
+</blockquote>
 
 Shirt, <i>shatsu</i>.
 
+<blockquote>
 Under shirt, <i>shta jiban</i>.
+</blockquote>
 
 Shoes, <i>kutsu</i>.
 
@@ -72,39 +84,51 @@ Shop, <i>mise</i>.
 
 Short, <i>mijikai</i>.
 
+<blockquote>
 of stature, <i>sei no hikui</i>.
+</blockquote>
 
 Shoulder, <i>kata</i>.
 
 Show, To, <i>miseru</i>.
 
+<blockquote>
 me, <i>o mise nasai</i>.
+</blockquote>
 
 Shut, To, <i>shimeru</i>.
 
+<blockquote>
 the door, <i>to wo shimeru</i>.
+</blockquote>
 
 Shutter, <i>amado</i>.
 
 Side, <i>ho</i>; <i>kata</i>.
 
+<blockquote>
 This side, <i>kono ho</i>.
 
 One side, <i>kata kawa</i>.
 
 Both sides, <i>ryo kawa</i>.
+</blockquote>
 
 Silk, Raw, <i>ki-ito</i>.
 
+<blockquote>
 Woven silk, <i>kinu</i>.
 
 Satin, <i>shusu</i>.
+</blockquote>
 
 Silkworm, <i>kaiko</i>; <i>o ko</i>.
 
 Silver, <i>gin</i>.
 
+<blockquote>
 money, <i>ginsen</i>.
+</blockquote>
 
 Sing, To (human), <i>utau</i>.
 
@@ -112,13 +136,17 @@ Singing girl, <i>geisha</i>.
 
 Sister (elder), <i>ane</i>.
 
+<blockquote>
 (younger), <i>imoto</i>.
+</blockquote>
 
 Sit on the floor, To, <i>suwaru</i>.
 
+<blockquote>
 on a chair, To, <i>kakeru</i>.
 
 Please take a seat, <i>o kake nasae</i>.
+</blockquote>
 
 Size, <i>okisa</i>.
 
@@ -146,11 +174,13 @@ Solid, <i>katamatta</i>.
 
 Somebody, <i>dareka</i>.
 
+<blockquote>
 Somehow, <i>do ka</i>.
 
 Something, <i>nani ka</i>.
 
 Sometimes, <i>aru toki</i>.
+</blockquote>
 
 Son, <i>musko</i>.
 
@@ -170,11 +200,13 @@ Spoon, <i>saji</i>.
 
 Spring (of water), <i>idzumi</i>.
 
+<blockquote>
 Medicinal spring, <i>tojiba</i>.
 
 Hot spring, <i>onsen</i>.
 
 (season), <i>haru</i>.
+</blockquote>
 
 Springs (of a carriage, etc), <i>bane</i>.
 
@@ -182,17 +214,21 @@ Stable, <i>mmaya</i>.
 
 Stair, <i>hashi-dan</i>.
 
+<blockquote>
 Up-stair (1st floor), <i>nikai</i>.
 
 (2d floor), <i>sangai</i>.
 
 Down-stairs, <i>shta-ni</i>.
+</blockquote>
 
 Start, To (depart), <i>shuppan</i>.
 
 Stay, To, <i>tomaru</i>.
 
+<blockquote>
 I will stay, <i>todomarimas</i>.
+</blockquote>
 
 Steal, To, <i>nusumu</i>.
 
@@ -222,9 +258,11 @@ Summer, <i>natsu</i>.
 
 Sun, <i>hi</i>; <i>o tento sama</i>.
 
+<blockquote>
 set, <i>hi no iri</i>.
 
 rise, <i>hi no de</i>.
+</blockquote>
 
 Sunlight, <i>hinata</i>.
 

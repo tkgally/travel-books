@@ -10,7 +10,9 @@ Cheque, <i>kogitte, tegata.</i>
 
 Child, <i>kodomo.</i>
 
+<blockquote>
 Infant, <i>akambo.</i>
+</blockquote>
 
 Chopsticks, <i>hashi.</i>
 
@@ -22,9 +24,11 @@ Cigarette, <i>kami tabako.</i>
 
 Class, 1st, <i>joto.</i>
 
+<blockquote>
 2d, <i>chuto.</i>
 
 3d, <i>kato.</i>
+</blockquote>
 
 Clean, <i>kirei.</i>
 
@@ -34,6 +38,7 @@ Climate, <i>kiko.</i>
 
 Clock, <i>tokei.</i>
 
+<blockquote>
 One o’clock, <i>ichi ji.</i>
 
 Two o’clock, <i>ni ji.</i>
@@ -41,18 +46,23 @@ Two o’clock, <i>ni ji.</i>
 What o’clock? <i>toki ikutsu.</i>
 
 Half past three, <i>san ji han.</i>
+</blockquote>
 
 Close, To, <i>shimeru.</i>
 
 Cloth, <i>kire.</i>
 
+<blockquote>
 Cotton cloth, <i>momen.</i>
 
 Woollen cloth, <i>rasha.</i>
+</blockquote>
 
 Clothing, <i>kimono.</i>
 
+<blockquote>
 Dress-clothes, <i>reifuku.</i>
+</blockquote>
 
 Clouds, <i>kumo.</i>
 
@@ -64,6 +74,7 @@ Coat, <i>haori; uwagi.</i>
 
 Cold (to the touch), <i>tsumetai.</i>
 
+<blockquote>
 I am cold, <i>samui gozaimas.</i>
 
 Cold weather, <i>samui.</i>
@@ -71,6 +82,7 @@ Cold weather, <i>samui.</i>
 I caught cold, <i>kaze wo hiita.</i>
 
 It is cold, <i>o samu gozaimas.</i>
+</blockquote>
 
 Color, <i>iro.</i>
 
@@ -78,6 +90,7 @@ Comb, <i>kushi.</i>
 
 Come (imperative), <i>oide.</i>
 
+<blockquote>
 To come, <i>kuru.</i>
 
 To come back, <i>kaeru.</i>
@@ -91,6 +104,7 @@ Will you come? <i>oide nasaimaska.</i>
 When will you come? <i>itsu oide nasaimaska.</i>
 
 Tell the boy to come here, <i>boi wo yonde koi.</i>
+</blockquote>
 
 Company (visitors), <i>o kiyaku.</i>
 
@@ -98,7 +112,9 @@ Cool, <i>suzushii.</i>
 
 Coolie, <i>ninsoku.</i>
 
+<blockquote>
 Jinrikisha coolie, <i>krumaya.</i>
+</blockquote>
 
 Consul, <i>ryoji.</i>
 
@@ -114,7 +130,9 @@ Correct, To, <i>naoshi.</i>
 
 Cough, <i>seki.</i>
 
+<blockquote>
 To cough, <i>seki ga deru.</i>
+</blockquote>
 
 Count, To, <i>kanjo suru.</i>
 
@@ -136,11 +154,13 @@ Crystal, <i>suisho.</i>
 
 Cup, <i>wan.</i>
 
+<blockquote>
 Glass cup, <i>koppu.</i>
 
 Tea cup, <i>cha wan.</i>
 
 One cup full, <i>ippai.</i>
+</blockquote>
 
 Curio, <i>furu-dogu.</i>
 
@@ -168,9 +188,11 @@ Daughter, <i>musume.</i>
 
 Day, <i>nichi.</i>
 
+<blockquote>
 To-day, <i>kon nichi.</i>
 
 Yesterday, <i>saku jitsu.</i>
+</blockquote>
 
 Dear (in price), <i>takai.</i>
 
@@ -198,12 +220,15 @@ Diarrhœa, <i>geri.</i>
 
 Die, To, <i>shinuru.</i>
 
+<blockquote>
 When did he die? <i>itsu shinimashta.</i>
+</blockquote>
 
 Difficult, <i>mudzukashi.</i>
 
 Dimensions, <i>sumpo.</i>
 
+<blockquote>
 depth, <i>fukasa.</i>
 
 length, <i>nagasa.</i>
@@ -211,6 +236,7 @@ length, <i>nagasa.</i>
 height, <i>nagasa.</i>
 
 width, <i>haba.</i>
+</blockquote>
 
 Dirt, <i>gomi.</i>
 

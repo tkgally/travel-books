@@ -1,0 +1,7 @@
+{"find": "sont payé pour", "replace": "sont payé pour"}
+
+Wait — I need to check the accent: the page shows "payé".
+
+{"find": "Ils sont payé pour cela", "replace": "Ils sont payé pour cela"}
+
+NONE

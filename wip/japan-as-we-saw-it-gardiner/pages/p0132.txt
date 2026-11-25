@@ -4,7 +4,9 @@ Playing (a musical instrument), <i>shiku.</i>
 
 Please, <i>dozo.</i>
 
+<blockquote>
 dance, <i>odotte kudasai.</i>
+</blockquote>
 
 Pleasure, <i>tanoshimi.</i>
 
@@ -12,7 +14,9 @@ Plenty, <i>taksan.</i>
 
 Pocket, <i>kakushi; kinchaku.</i>
 
+<blockquote>
 (Japanese), <i>tamoto.</i>
+</blockquote>
 
 Pocket-book, <i>kami ire.</i>
 
@@ -20,9 +24,11 @@ Pocket handkerchief, <i>hanafuki.</i>
 
 Police, <i>junsa.</i>
 
+<blockquote>
 officer, <i>kebu.</i>
 
 station, <i>kesatsu-jo.</i>
+</blockquote>
 
 Poor, <i>bimbo.</i>
 
@@ -62,7 +68,9 @@ Promise, <i>yaksoku.</i>
 
 Proper, <i>tekito na.</i>
 
+<blockquote>
 That is not proper, <i>sore wa ikemasen.</i>
+</blockquote>
 
 Pull, To, <i>hiku.</i>
 
@@ -70,6 +78,7 @@ Purse, <i>kane ire.</i>
 
 Put, To, <i>oku.</i>
 
+<blockquote>
 aside, <i>totte oku.</i>
 
 down, <i>shta ni oku.</i>
@@ -77,6 +86,7 @@ down, <i>shta ni oku.</i>
 here, <i>kochi ni oku.</i>
 
 together, <i>awaseru.</i>
+</blockquote>
 
 Put out the light, To, <i>akari wo kesu.</i>
 
@@ -98,21 +108,27 @@ Race (running), <i>kake.</i>
 
 Railway, <i>tetsudo.</i>
 
+<blockquote>
 station, <i>tetsudo ba.</i>
 
 cars, or train, <i>kisha.</i>
 
 fare, <i>chinsen.</i>
+</blockquote>
 
 Rain, <i>ame.</i>
 
+<blockquote>
 It rains, <i>ame ga furu.</i>
+</blockquote>
 
 Rain coat, <i>kappa.</i>
 
 Raise, To, <i>ageru.</i>
 
+<blockquote>
 (erect), <i>tateru.</i>
+</blockquote>
 
 Rascal! <i>yatsu!</i>
 
@@ -122,11 +138,15 @@ Raw, <i>nama.</i>
 
 Read, To, <i>yomu.</i>
 
+<blockquote>
 this, <i>kore wo yomi nasai.</i>
+</blockquote>
 
 Ready, To get, <i>shtaku wo suru.</i>
 
+<blockquote>
 I am ready, <i>shtaku shte aru.</i>
+</blockquote>
 
 Really! <i>naru hodo!</i>
 
@@ -154,13 +174,17 @@ Restaurant, <i>ryoriya.</i>
 
 Rest (after fatigue), <i>yasumi.</i>
 
+<blockquote>
 (remainder), <i>nokori.</i>
+</blockquote>
 
 Return, To, <i>kaeru.</i>
 
 Rice (growing), <i>ine.</i>
 
+<blockquote>
 (boiled), <i>gozen.</i>
+</blockquote>
 
 Rich, <i>kane mochi.</i>
 
@@ -168,11 +192,15 @@ Right (opposite to left), <i>migi.</i>
 
 Right (just), <i>tadashii.</i>
 
+<blockquote>
 Turn to the right, <i>migi e mawaru.</i>
+</blockquote>
 
 Ring, <i>wa.</i>
 
+<blockquote>
 Finger ring, <i>yubi wa.</i>
+</blockquote>
 
 River, <i>kawa.</i>
 
@@ -198,15 +226,19 @@ Ruins, <i>koseki.</i>
 
 Run, To, <i>hashiru.</i>
 
+<blockquote>
 after, <i>ok-kakeru.</i>
 
 away, <i>nigeru.</i>
+</blockquote>
 
 ## S
 
 Sail, <i>ho.</i>
 
+<blockquote>
 To sail, <i>shuppan suru.</i>
+</blockquote>
 
 Sailing vessel, <i>homai sen.</i>
 
@@ -218,4 +250,6 @@ Salt, <i>shio.</i>
 
 Same, <i>onaji.</i>
 
+<blockquote>
 thing, <i>onaii koto.</i>
+</blockquote>
