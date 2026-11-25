@@ -1880,11 +1880,13 @@
    "place": "London",
    "publisher": "Longmans, Green, and Co.",
    "images": 214,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-25",
    "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): none. Wikisource search, The Online Books Page, web: no text. Reprints: BiblioLife-type print on demand only; a dealer calls it the 'first and only edition'. Exact-sentence web search: nothing. Plunket died 1886. Not checked: Faded Page, Distributed Proofreaders. Scan check 2026-11-25 (Opus subagent): complete; the only picture is a title-page vignette signed “KP” (engraver not identified).",
    "note": "Library of Congress scan, 500 ppi; pp. xii, 195; no illustrations. An Irish woman's account of her own climbs and passes in the Bernese Oberland, Engadine, Bernina, Stelvio, Tyrol and Salzburg Alps; chapter X 'Hints to Lady Pedestrians'.",
-   "started": "2026-11-25"
+   "started": "2026-11-25",
+   "version": 1,
+   "published": "2026-11-25"
   },
   {
    "order": 103,
