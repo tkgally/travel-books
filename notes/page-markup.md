@@ -32,6 +32,11 @@ models (`prompts/_format.md` is the wording they get), edited by the session, re
 | `[[gap]]` | letters lost in the scan that cannot be inferred: `[…]` in the JSON and the editions |
 | `〓` | illegible character |
 
+A vocabulary or glossary printed with headwords flush and phrases indented under them: the indented entries are typed
+as `<blockquote>` runs (both levels in one run), and the division gets kind `glossary` in book.json, which the web pages and
+the EPUB set as a list with hanging indents (`div.glossary` in `book.css`; the ODT shows the runs as quotations). Test
+`GlossaryLayout` (*Japan As We Saw It*, 2026-11-26).
+
 Editing by hand: never "fix" the author's spelling; only fix transcription and markup. Straight quotes typed
 by hand are curled by the compiler (`'tis`-type elisions are recognised from a list in `tools/inline.py`: for
 any other word-initial apostrophe type `’`).

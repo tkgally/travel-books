@@ -1,2 +1,0 @@
-{"n": 1, "is": "A", "print": "human\n\n[[image: drawings of feet wearing four kinds of Japanese footwear: straw sandals, high wooden clogs, flat sandals, and low clogs]]\n\n[[cont]]beings swarm", "sure": "high"}
-{"n": 2, "is": "A", "print": "world.", "sure": "high"}

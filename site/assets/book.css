@@ -18,6 +18,11 @@
 .book .verse p { text-indent: 0; text-align: left; margin: 0 0 0.8em 0; -webkit-hyphens: none; hyphens: none; }
 .book .verse .line { display: block; padding-left: 1.5em; text-indent: -1.5em; }
 .book .verse p:last-child { margin-bottom: 0; }
+/* a glossary or vocabulary: entries flush with a hanging indent; phrases typed as <blockquote> runs indented under
+   their headwords (Japan As We Saw It, 2026-11-26) */
+.book .glossary p, .book .glossary blockquote p:first-child { text-indent: -1.5em; padding-left: 1.5em; text-align: left;
+  -webkit-hyphens: none; hyphens: none; }
+.book .glossary blockquote { margin: 0 0 0 1.5em; font-size: 1em; }
 .book .sc { font-variant: small-caps; letter-spacing: 0.03em; }
 .book figure { text-align: center; margin: 1.5em 0; page-break-inside: avoid; break-inside: avoid; }
 .book figure img { max-width: 100%; max-height: 90vh; height: auto; width: auto; }

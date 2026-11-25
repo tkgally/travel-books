@@ -1,6 +1,0 @@
-{"given": "it is nor a question (as", "print": "it is not a question (as", "sure": "high"}
-{"given": "sometimes in the center but oftener", "print": "sometimes in the centre but oftener", "sure": "high"}
-{"given": "boy number one takes his cue; and,", "print": "boy number one takes his cue, and,", "sure": "high"}
-{"given": "types required; mcanwhile each one repeats", "print": "types required; meanwhile each one repeats", "sure": "high"}
-{"given": "which to see most interesting features", "print": "which to see the most interesting features", "sure": "high"}
-{"given": "suburbs of the city, would require", "print": "suburbs of the city. would require", "sure": "low"}

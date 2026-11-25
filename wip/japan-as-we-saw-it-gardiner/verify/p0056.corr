@@ -1,5 +1,0 @@
-Two differences from the image: "neophite" should be "neophyte", and the italic "Geisha" run should include only the pronunciation.
-
-Checking the rest: "Gay-shah" is italic in the image, and the draft has it that way too. "Kan-koh-bah" is also italic in the image and the draft. The italic run in the image is "Gay-shah", which the draft matches. The only real error is "neophite".
-
-{"find": "neophite", "replace": "neophyte"}

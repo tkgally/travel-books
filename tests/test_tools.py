@@ -2361,3 +2361,29 @@ class SerialCommas(unittest.TestCase):
         self.assertLess(h.index("than about other countries.</p>"), h.index("More about the project."))
         self.assertNotIn("<h1>", h)
         shutil.rmtree(d)
+
+
+class GlossaryLayout(unittest.TestCase):
+    """A vocabulary printed with headwords flush and phrases indented under them (Japan As We Saw It, 2026-11-26):
+    the phrases are typed as <blockquote> runs, and a division of kind glossary is wrapped in div.glossary so that
+    the stylesheet sets its entries flush with a hanging indent. Invented text."""
+    PAGES = ["[[page 1]]\n# Chapter I.\n\nText of a chapter.",
+             "[[page 2]]\n# Words.\n\nAfter, <i>ato.</i>\n\n<blockquote>\nall, <i>shosen.</i>\n</blockquote>\n\nAir, <i>kuki.</i>"]
+    DIVS = [{"at": "p0002", "kind": "glossary"}]
+
+    def test_glossary_wrapped_and_chapter_not(self):
+        book, w = comp(self.PAGES, divisions=self.DIVS)
+        self.assertEqual(w, [])
+        names = rh.file_names(book, ".html")
+        ctx = rh.Ctx(book, "web", names)
+        ch, gl = rh.reading_divisions(book)
+        self.assertEqual(gl["kind"], "glossary")
+        g = ctx.blocks(gl)
+        self.assertTrue(g.startswith('<div class="glossary">'))
+        self.assertIn("<blockquote><p>all, <i>shosen.</i></p></blockquote>", g)
+        self.assertNotIn("glossary", ctx.blocks(ch))
+
+    def test_stylesheet_has_the_glossary_rules(self):
+        css = open(os.path.join(REPO, "site", "assets", "book.css"), encoding="utf-8").read()
+        self.assertIn(".book .glossary p", css)
+        self.assertIn(".book .glossary blockquote", css)

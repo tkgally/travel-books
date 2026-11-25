@@ -76,7 +76,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   last chapter (*Kothari*, 2026-11-20: caught by the rendered look).
 - A folded page corner (the right ends of the last four lines lost) passed the scan check by a subagent; the draft's 〓 marks showed it (*China and Japan*, p. 105, 2026-11-22). After the draft, `grep -l 〓 draft/*.txt` and look at each page at once: a damaged leaf is taken from another copy while the scan is at hand.
 - Tables and multi-line letters inside quotations or footnotes: the markup has neither (a table in `<blockquote>` shows its pipes; lines after a `[[fn]]` become body text). Close the quotation round a table; join a letter in a note into the note line (*Venezuela*, 2026-11-22: preflight `conservation` and `note-tail` caught both).
-- Chapter openings: list the first words of every chapter (`grep -A2 "^# "` or the compiled JSON) and make them alike as the scan has them; drafts typed 2 of 25 as `T<sc>he</sc>` where the print has full capitals, and neither the judge nor the spot-read noticed (*Mexican Trails*, 2026-11-26: caught by the rendered look).
+- Chapter openings: list the first words of every chapter (`grep -A2 "^# "` or the compiled JSON) and make them alike as the scan has them; drafts typed 2 of 25 as `T<sc>he</sc>` where the print has full capitals, and neither the judge nor the spot-read noticed (*Mexican Trails*, 2026-11-26: caught by the rendered look); 5 of 18 in *Japan As We Saw It* the same day, missed by the rendered look and found by this listing.
 - A model that returns "no corrections" in a few seconds may still be right: the audit's planted errors say
   whether that reader can see (first calibration: Sonnet 27/30, Opus 30/30).
 
