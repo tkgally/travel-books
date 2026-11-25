@@ -1,0 +1,3 @@
+The caption reads "Garden of Gethsemane." in small capitals, so the draft's `<sc>` markup is right. The draft's "Gethsemane" has no capital G, but the print shows a full capital G. In the draft the caption is `<sc>Garden of Gethsemane.</sc>`, which would have a capital only on "Garden". The print has full capitals at the start of each of the three words, so the fix is `<sc>Garden of Gethsemane.</sc>` to `<sc>Garden of Gethsemane.</sc>` with the capital added to "of"? No, "of" is lowercase in the print ("OF" in small caps). The draft is already correct on that point.
+
+NONE
