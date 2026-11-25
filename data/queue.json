@@ -1967,10 +1967,11 @@
    "place": "London",
    "publisher": "Longmans, Green, and Co.",
    "images": 380,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-25",
    "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): none. The Online Books Page: none. Web searches: no Wikisource or Faded Page text; exact-sentence search: nothing. Reprints: Outlook Verlag 2024 and other print on demand. Grove 1838–1902; plates engraved by Edward Whymper (d. 1911) from photographs by Horace Walker (d. 1908).",
-   "note": "Library of Congress scan, 600 ppi; about 340 pp.; frontispiece, title vignette, 5 plates and a folding map, all present per the list. Leaves 102–103 deleted by IA, pagination continuous. A walk through Svaneti and Kabardino-Balkaria and the first ascent of Elbrus; dry and ironic."
+   "note": "Library of Congress scan, 600 ppi; about 340 pp.; frontispiece, title vignette, 5 plates and a folding map, all present per the list. Leaves 102–103 deleted by IA, pagination continuous. A walk through Svaneti and Kabardino-Balkaria and the first ascent of Elbrus; dry and ironic.",
+   "started": "2026-11-26"
   },
   {
    "order": 108,
