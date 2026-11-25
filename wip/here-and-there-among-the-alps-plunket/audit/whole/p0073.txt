@@ -1,5 +1,0 @@
-{"given": "addressed all those flattering observations", "print": "addressed all these flattering observations", "sure": "high"}
-{"given": "as it was wouderful to see", "print": "as it was wonderful to see", "sure": "high"}
-{"given": "Once past rocks, we got", "print": "Once past the rocks, we got", "sure": "high"}
-{"given": "the excursions I have mentioned; there had", "print": "the excursions I have mentioned, there had", "sure": "high"}
-{"given": "once for the baths of Bormio.", "print": "once for the Baths of Bormio.", "sure": "high"}

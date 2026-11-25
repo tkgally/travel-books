@@ -1,5 +1,0 @@
-{"given": "came to an end; and to", "print": "came to an end, and to", "sure": "high"}
-{"given": "hired a porter carry our bags", "print": "hired a porter to carry our bags", "sure": "high"}
-{"given": "a good center for excursions", "print": "a good centre for excursions", "sure": "high"}
-{"given": "disappointment. If is tiresome to describe", "print": "disappointment. It is tiresome to describe", "sure": "high"}
-{"given": "not weary my readcr with any", "print": "not weary my reader with any", "sure": "high"}

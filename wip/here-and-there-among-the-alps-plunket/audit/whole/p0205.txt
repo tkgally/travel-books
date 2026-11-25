@@ -1,5 +1,0 @@
-{"given": "respect the Swiss most; and yet", "print": "respect the Swiss most, and yet", "sure": "high"}
-{"given": "The women the Italian valleys", "print": "The women of the Italian valleys", "sure": "high"}
-{"given": "but his last attribute, so", "print": "but this last attribute, so", "sure": "high"}
-{"given": "there the unexpeeted traveller runs", "print": "there the unexpected traveller runs", "sure": "high"}
-{"given": "by air and exercize, to find", "print": "by air and exercise, to find", "sure": "high"}

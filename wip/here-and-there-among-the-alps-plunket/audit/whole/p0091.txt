@@ -1,5 +1,0 @@
-{"given": "above the bed of the frodolfo torrent", "print": "above the bed of the Frodolfo torrent", "sure": "high"}
-{"given": "At last; after a very pretty", "print": "At last, after a very pretty", "sure": "high"}
-{"given": "though situated the midst of scenery", "print": "though situated in the midst of scenery", "sure": "high"}
-{"given": "attempt at adornment on decoration, by", "print": "attempt at adornment or decoration, by", "sure": "high"}
-{"given": "which Italians have iuvented for a", "print": "which Italians have invented for a", "sure": "high"}
