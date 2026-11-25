@@ -1,0 +1,56 @@
+{
+ "id": "unprotected-females-in-sicily-lowe",
+ "version": 1,
+ "date": "2026-11-26",
+ "title": "Unprotected Females in Sicily, Calabria, and on the Top of Mount Ætna",
+ "short_title": "Unprotected Females in Sicily",
+ "authors": [
+  {
+   "name": "[Emily Lowe]",
+   "sort": "Lowe, Emily"
+  }
+ ],
+ "place": "London and New York",
+ "publisher": "Routledge, Warnes, and Routledge",
+ "year": 1859,
+ "edition_statement": "First edition",
+ "regions": [
+  "Sicily",
+  "Italy"
+ ],
+ "period": "1850s",
+ "summary": "",
+ "source": {
+  "ia_identifier": "unprotectedfema00lowgoog",
+  "contributor": "Harvard University",
+  "hidden_leaves": []
+ },
+ "omitted_from_reading": "The printed contents are in the JSON only. The publisher’s catalogue bound at the end of the scanned copy is not transcribed.",
+ "notes_on_text": [
+  "The book names no author; it is attributed to Emily Lowe, who also wrote “Unprotected Females in Norway” (1857), mentioned in a footnote.",
+  "The four plates are chromolithographs; the scan is not in full colour, so they are shown as the scan has them. The captions of the first two plates are cut at the scan’s edge: the frontispiece’s is read from the tops of its letters, and that of the plate of Agrigentum cannot be read."
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-26",
+   "note": "First publication."
+  }
+ ],
+ "frontispiece": "p0010-1",
+ "divisions": [
+  {
+   "at": "p0011",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0013",
+   "kind": "dedication",
+   "title": "Dedication"
+  },
+  {
+   "at": "p0015",
+   "kind": "contents"
+  }
+ ]
+}
