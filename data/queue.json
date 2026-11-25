@@ -1668,10 +1668,11 @@
    "place": "New York, Boston, Chicago",
    "publisher": "Silver, Burdett and Company",
    "images": 332,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-22",
-   "eligibility": "Checked 2026-11-22 (Opus subagent): (1) Library of Congress scan, 300 ppi, jp2 zip; page numbers continuous in the OCR. (2) Not in pg_catalog.csv (full); The Online Books Page: HathiTrust page images only; exact-phrase searches of two sentences (ch. XIII–XIV): nothing; Qatar National Library: scan and OCR only. NOT CHECKED: Wikisource (rate-limited), Faded Page, a Terhune fan bibliography page at math.ttu.edu (403; probably a description, look before starting). (3) Print-on-demand only (Franklin Classics, Creative Media, Legare Street, British Library HPE, Forgotten Books). (4) First-person: his ride through Lebanon, Damascus, the Hauran, Galilee, Samaria, Jerusalem, Bethlehem, Jericho and the Dead Sea, late 1893. (5) Terhune 1872–1942; illustrations uncredited, apparently his own photographs.",
-   "note": "LoC scan, 300 ppi; 318 pp, 33 short chapters, about 40 photographs. The author aged 21, with a dragoman David: Druze and Bedouin camps, a camp thief, a Syrian wedding, Christmas at Bethlehem. Plain and lively."
+   "eligibility": "Checked 2026-11-22 (Opus subagent): (1) Library of Congress scan, 300 ppi, jp2 zip; page numbers continuous in the OCR. (2) Not in pg_catalog.csv (full); The Online Books Page: HathiTrust page images only; exact-phrase searches of two sentences (ch. XIII–XIV): nothing; Qatar National Library: scan and OCR only. NOT CHECKED: Wikisource (rate-limited), Faded Page, a Terhune fan bibliography page at math.ttu.edu (403; probably a description, look before starting). (3) Print-on-demand only (Franklin Classics, Creative Media, Legare Street, British Library HPE, Forgotten Books). (4) First-person: his ride through Lebanon, Damascus, the Hauran, Galilee, Samaria, Jerusalem, Bethlehem, Jericho and the Dead Sea, late 1893. (5) Terhune 1872–1942; illustrations uncredited, apparently his own photographs. Re-checked 2026-11-25: Wikisource API search: none; Faded Page author search (Terhune): not this book; web search: reprints print-on-demand only (Legare Street 2022, Forgotten Books). Scan check (Opus subagent): complete, all 63 listed illustrations present, no credits anywhere.",
+   "note": "LoC scan, 300 ppi; 318 pp, 33 short chapters, about 40 photographs. The author aged 21, with a dragoman David: Druze and Bedouin camps, a camp thief, a Syrian wedding, Christmas at Bethlehem. Plain and lively.",
+   "started": "2026-11-25"
   },
   {
    "order": 91,
