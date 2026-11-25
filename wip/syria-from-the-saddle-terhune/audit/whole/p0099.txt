@@ -1,0 +1,5 @@
+{"given": "taking rank even above husband.", "print": "taking rank even above the husband.", "sure": "high"}
+{"given": "that passes by tomorrow live near", "print": "that passes by to-morrow live near", "sure": "high"}
+{"given": "of men and women, eutering every village", "print": "of men and women, entering every village", "sure": "high"}
+{"given": "they call that good fortune; do they?", "print": "they call that good fortune, do they?", "sure": "high"}
+{"given": "puzzled for a moment, when answered:—", "print": "puzzled for a moment, then answered:—", "sure": "high"}

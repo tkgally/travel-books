@@ -12,16 +12,12 @@
 [       ok] nav: contents: at least one reading division; each has a title and text
 [       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
-[ FAIL (1)] audit: book.json records the sampled audit of this version
-            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
-[look (10)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+[       ok] audit: book.json records the sampled audit of this version
+[ look (7)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0030: …sorts are, per-|force, rigidly … (hyphen removed; check)
             - hyphen join at p0059: … between child-|hood and youth,… (hyphen removed; check) — the book hyphenates other “child-” words: keep_hyphens?
             - hyphen join at p0093: …ted meats, sar-|dines, a bottle… (hyphen removed; check)
-            - hyphen join at p0255: …quare was half-|empty. We left … (hyphen removed; check) — the book hyphenates other “half-” words: keep_hyphens?
-            - hyphen join at p0259: …vice. The gray-|bearded Patriar… (hyphen removed; check)
             - hyphen join at p0295: …fever of inspi-|ration all fade… (hyphen removed; check)
-            - hyphen join at p0307: …ard.” The vine-|keeper’s duties… (hyphen removed; check) — the book hyphenates other “vine-” words: keep_hyphens?
             - hyphen join at p0311: … His short, ro-|tund companion … (hyphen removed; check)
             - hyphen join at p0325: …fe—who sat sto-|lidly looking i… (hyphen removed; check)
             - (and 14 joins giving a word the book prints whole elsewhere: not listed)
@@ -34,13 +30,7 @@
 [       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
 [       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
 [       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
-[ look (6)] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
-            - p0082: picture p0082-1 above '# Chapter VIII.'
-            - p0117: picture p0117-1 above '# Chapter XII.'
-            - p0157: picture p0157-1 above '# Chapter XVI.'
-            - p0201: picture p0201-1 above '# Chapter XXI.'
-            - p0249: picture p0249-1 above '# Chapter XXVI.'
-            - p0267: picture p0267-1 above '# Chapter XXVIII.'
+[       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
 [ look (1)] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
             - p0091: verse continued from p0090: stanzas before [4] | here [4] (a stanza ending at the page foot needs no [[cont]])
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
@@ -69,4 +59,4 @@
             - p0243: “night He” in …e three disciples on the night He was betrayed;…
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: syria-from-the-saddle-terhune v1 — 1 to fix, 0 waived; to look at: hyphen-joins 10, image-before-heading 6, verse-joins 1, accents 7, rare-forms 2, serial-commas 3, missing-stop 5 — tools@bbf59d09 2026-11-25
+preflight PASS: syria-from-the-saddle-terhune v1 — 0 to fix, 0 waived; to look at: hyphen-joins 7, verse-joins 1, accents 7, rare-forms 2, serial-commas 3, missing-stop 5 — tools@e60ddec7 2026-11-25

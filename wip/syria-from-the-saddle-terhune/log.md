@@ -4,7 +4,7 @@ IA: syriafromsaddle00terh (Library of Congress; 334 leaves, 300 ppi).
 Eligibility: checked 2026-11-22 (queue row); re-checked 2026-11-25: Wikisource API search none, Faded Page none, reprints print-on-demand only. Terhune 1872–1942. No photographer or artist credited anywhere (title page, list, captions, introduction).
 
 ## Status
-Started 2026-11-25. Stage (a): scan checked; Drive cache and draft next.
+Stage (c) 2026-11-25: preflight PASS, audit 30/30; rendered look running; then publish.
 
 ## Page map
 (Opus subagent, 2026-11-25: all 9 sheets, 13 leaves at full size; PASS.) Offset: page + 6 to leaf 143; page + 8 from leaf 146.
@@ -14,10 +14,19 @@ Full-page plates (counted in the pagination; many sideways): 47, 153, 173, 217, 
 No footnotes, tables, appendix, index or advertisements. Short verse and hymn lines (pp. 34, 84–85, 139, 194, 270); Arabic only transliterated with circumflexes (p. 72); some French.
 
 ## Decisions
+- Six photographs printed above a chapter heading on the chapter's first page (p0082, p0117, p0157, p0201, p0249, p0267) moved after the heading and subtitle, so that they stand in their chapter (lesson: plates; preflight image-before-heading). The Beirût drawing over Chapter I and the half-title line “SYRIA FROM THE SADDLE.” on p0019: the picture after the subtitle; the line stays in the list-of-illustrations division (JSON only).
+- Pictorial initials (33, one added on p0019 that the draft missed) and the publisher's device are ornaments; the capitals after each initial are typed in full as printed (DAVID, “HE).
+- Spot-reads (two Opus subagents: front matter, all captions, chapter headings and openings, verse, preflight lists, tesseract comparison of all narrative pages): 2 captions to small capitals, 15 straight apostrophes curled, “hill-side” joined (the book prints “hillside” 26 times), the contents' numerals as printed. As printed and kept: âllâh etc. in the call to prayer, belovéd, Port Saïd, Bohéme, solder, riles (Kipling), Bethlëem.
+- keep_hyphens: half-empty (p0255), gray-bearded (p0259), vine-keeper (p0307).
+- p0001 (cover): its two picture lines removed (the cover is the book's picture).
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-25 | opus | 332 | 22.19 | no refusals, no 〓 (hidden leaves 144–145 drafted and dropped) |
+| corrections | 2026-11-25 | sonnet | 332 | 11.10 | 23 words, 3 punctuation, 3 markup; 10 [[cont]] added after mid-page pictures |
+| judge | 2026-11-25 | opus | 26 spots | 0.88 | 7 draft, 19 verifier; crops: p0143 a printed stray stop marked [[corr]]; drop-capital openings kept in capitals as printed |
+| audit | 2026-11-25 | opus | 6 | 0.35 | 30/30; 0 candidates |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
