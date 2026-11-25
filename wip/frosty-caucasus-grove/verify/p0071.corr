@@ -1,0 +1,7 @@
+The first line reads "rapidity," with a comma, and the draft has no comma there.
+
+{"find": "rapidity, wound", "replace": "rapidity, wound"}
+
+Checking that again, the draft says "wonderful rapidity, wound", so it already has the comma. Everything else matches the scan.
+
+NONE

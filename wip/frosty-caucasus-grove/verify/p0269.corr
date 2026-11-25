@@ -1,0 +1,8 @@
+{"find": "This is a sufficiently", "replace": "This is a sufficiently"}
+{"find": "[[fn 1]]", "replace": "[[fn 1]]"}
+
+Wait — correction needed only where differing. The draft differs at "This is": the page reads "This is a sufficiently", so the draft is correct there. Real corrections:
+
+{"find": "[[fn 1]] This peak was entirely hidden by the clouds at the time of Mr. Freshfield's ascent.", "replace": "[[fn 1]] This peak was entirely hidden by the clouds at the time of Mr. Freshfield's ascent."}
+
+NONE

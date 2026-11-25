@@ -1,0 +1,35 @@
+{
+ "p0302": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "disproportionately small",
+   "replace": "disproportionateately small",
+   "draft": "roportionately small",
+   "verified": "roportionateately small",
+   "context": "descended into another valley, steep-sided and high, with a disproportionately small stream running along its base. It seemed strange to think t"
+  }
+ ],
+ "p0375": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Persian nigh-road",
+   "replace": "Persian high-road",
+   "draft": "Persian nigh-road",
+   "verified": "Persian high-road",
+   "context": "oceeded to Tiflis, whence they made an expedition along the Persian nigh-road to Tabreez. On their return they partially ascended Ararat,"
+  }
+ ],
+ "p0376": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "satisfactory manner.’\n[[right]] <sc>Pall Mall Gazette.</sc>\n</blockquote>",
+   "replace": "satisfactory manner.’\n[[right]] <sc>Pall Mall Gazette.</sc>\n</blockquote>\n\n[[center]] London, LONGMANS & CO.",
+   "draft": "/blockquote>",
+   "verified": "/blockquote>\n\n[[center]] London, LONGMANS & CO.",
+   "context": "untains, that of recording his performances in a thoroughly satisfactory manner.’ ⏎ [[right]] <sc>Pall Mall Gazette.</sc> ⏎ </blockquote> ⏎ "
+  }
+ ]
+}
