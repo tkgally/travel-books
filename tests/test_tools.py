@@ -2181,8 +2181,12 @@ class TitlePageFirst(unittest.TestCase):
             shutil.copytree(SAMPLE, os.path.join(d, "sample-journey-doe"))
             book, _ = build_site.build_book(os.path.join(d, "site"), os.path.join(d, "sample-journey-doe"))
             h = open(os.path.join(d, "site", "books", book["id"], "01.html"), encoding="utf-8").read()
-            self.assertIn('<h1 class="visually-hidden">Title page</h1>', h)
-            self.assertLess(h.index("Title page</h1>"), h.index('<article class="book">'))
+            self.assertIn('<h1 class="visually-hidden">Title Page</h1>', h)
+            self.assertLess(h.index("Title Page</h1>"), h.index('<article class="book">'))
+            for f in os.listdir(os.path.join(d, "site", "books", book["id"])):      # every page of the text has one h1
+                if re.fullmatch(r"\d+\.html", f):
+                    x = open(os.path.join(d, "site", "books", book["id"], f), encoding="utf-8").read()
+                    self.assertEqual(len(re.findall(r"<h1[ >]", x)), 1, f)
         finally:
             shutil.rmtree(d)
 
@@ -2246,6 +2250,9 @@ class SplitSections(unittest.TestCase):
         self.assertIn('href="#d001-n2"', second)
         x = zipfile.ZipFile(__import__("io").BytesIO(render_odt.render(book, None))).read("content.xml").decode()
         self.assertIn('<text:h text:style-name="Added_20_Heading" text:outline-level="2"><text:bookmark text:name="div-d001-2"/>3–4 May: the sea</text:h>', x)
+        added = '<h2 class="added">3–4 May: the sea</h2>\n'                     # the web page's one h1 (review after 81 books)
+        self.assertEqual(build_site.with_h1(second, rd[1], added), '<h1 class="added">3–4 May: the sea</h1>\n')
+        self.assertEqual(build_site.with_h1(ctx.blocks(rd[0]), rd[0], ""), "")             # has the printed heading
         z = zipfile.ZipFile(__import__("io").BytesIO(render_epub.render(book, None)))
         self.assertIn('<h2 class="added">3–4 May: the sea</h2>\n<section epub:type="chapter">', z.read("OEBPS/text/02.xhtml").decode())
 
