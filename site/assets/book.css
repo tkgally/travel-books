@@ -44,7 +44,7 @@
 .book .titlepage p.subtitle { font-size: 1em; margin: 0.8em 0; }
 .book .titlepage .tp-verso { height: 5em; page-break-before: always; break-before: page; }
 /* The title of a section made for this edition, where the book has no division (a diary, a run of letters) */
-h2.added, .book h2.added { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif; font-size: 1.05em;
+h2.added, .book h2.added, h1.added, .book h1.added { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif; font-size: 1.05em;
   font-style: italic; font-weight: normal; text-align: center; margin: 2em 0 1.2em 0; border: 0; padding: 0; }
 /* A picture added by the editor before the narrative (book.json "editor_images"): not part of the book's text */
 figure.editor { text-align: center; margin: 1.5em 0 2.5em 0; page-break-inside: avoid; break-inside: avoid; }

@@ -388,6 +388,17 @@ def md_page(out, name, title, src):
     open(os.path.join(out, name), "w", encoding="utf-8").write(page(title, "\n".join(outl), ""))
 
 
+def with_h1(body, d, added):
+    """Every page of a book's text has one h1 (review after eighty-one books: the title page, a map or a dedication
+    without a printed heading, and the later sections of a split division had none): the section's added title
+    becomes the h1, otherwise a heading for screen readers only; both stand outside the book's text."""
+    if "<h1" in body:
+        return added
+    if d.get("added"):
+        return added.replace('<h2 class="added">', '<h1 class="added">', 1).replace("</h2>", "</h1>", 1)
+    return f'<h1 class="visually-hidden">{esc(d["title"])}</h1>\n' + added
+
+
 def build_book(out, bookdir, strict=True):
     book, warnings = compile_book.compile_book(bookdir)
     slug = book["id"]
@@ -415,10 +426,7 @@ def build_book(out, bookdir, strict=True):
         # the title of a section made for this edition (render_html.split_division) stands outside the book's text
         added = f'<h2 class="added">{esc(d["added"])}</h2>\n' if d.get("added") else ""
         added += rh.editor_figures(book, d)
-        if d["kind"] == "titlepage":
-            # a heading for screen readers, outside the book's text (review after eighty-one books: the title page
-            # had no heading element, so heading navigation found nothing on the first page of the book)
-            added = '<h1 class="visually-hidden">Title page</h1>\n' + added
+        added = with_h1(body, d, added)
         used.update(re.findall(r'<img src="images/([^"]+)"', body + added))
         prev_ = f'<a rel="prev" href="{names[divs[i - 1]["id"]]}">← {esc(divs[i - 1]["title"])}</a>' if i else "<span></span>"
         next_ = f'<a rel="next" href="{names[divs[i + 1]["id"]]}">{esc(divs[i + 1]["title"])} →</a>' if i + 1 < len(divs) else "<span></span>"
