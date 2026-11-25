@@ -1,0 +1,155 @@
+[[page 132]]
+
+Raw (not cooked), <i>nama</i>.
+
+Rice (raw), <i>kome</i>.
+
+(cooked), <i>meshi</i>.
+
+Roast, To, <i>yaku</i>.
+
+Salad, <i>chisa</i>.
+
+Salmon, <i>shake</i>.
+
+Salt, <i>shiwo</i>.
+
+Sardines, <i>iwashi</i>.
+
+Shrimps, <i>yoku ebi</i>.
+
+Snipe, <i>shigi</i>.
+
+Soles, <i>hirame</i>.
+
+Soup, <i>tsuyu</i>.
+
+Soy, <i>shoyu</i>.
+
+Spinach, <i>horenso</i>.
+
+Strawberries, <i>ichigo</i>.
+
+Sugar, <i>sato</i>.
+
+Tea, <i>(o) cha</i>.
+
+Tinned provisions, <i>kwanzume</i>.
+
+Tomato, <i>aka nasu</i>.
+
+Trout, <i>yamame</i>.
+
+Salmon trout, <i>masu</i>.
+
+Turkey, <i>shichimencho</i>.
+
+Turnip, <i>kabu</i>.
+
+Vegetables, <i>yasai</i>.
+
+Venison, <i>shika no niku</i>.
+
+Vinegar, <i>su</i>.
+
+Water, <i>midzu</i>.
+
+Hot, <i>yu</i>.
+
+Drinking water, <i>nomi midzu</i>.
+
+Wine, <i>budo shiu</i>.
+
+Beer, Brandy, Whiskey, etc., are generally known as <i>Beer sake, Brandy sake, Whiskey sake</i>, etc.
+
+### Features of a Country, etc.
+
+Ascent, <i>nobori-zaka</i>.
+
+Bay, <i>iri umi</i>.
+
+Beach, <i>hama</i>; <i>umi-bata</i>.
+
+Bluff, <i>gake</i>.
+
+Bridge, <i>bashi</i>.
+
+Cape, <i>misaki</i>.
+
+Capital, <i>miyako</i>.
+
+Cascade, <i>taki</i>.
+
+Cave, <i>hora ana</i>.
+
+City, <i>machi</i>.
+
+Country, <i>inaka</i>; <i>kinzai</i>; <i>sato</i>.
+
+Defile, <i>semai michi</i>.
+
+Descent, <i>kudari zaka</i>.
+
+East, <i>higashi</i>.
+
+Forest, <i>hayashi</i>; <i>mori</i>.
+
+Gulf, <i>iri umi</i>.
+
+Hill, <i>koyama</i>.
+
+Harbor, <i>michi</i>.
+
+Inferior or lower (town or place), <i>shimo</i>.
+
+Island, <i>shima</i>.
+
+Lake, <i>kosui</i>; <i>ike</i>.
+
+Mountain, <i>yama</i>.
+
+North, <i>kita</i>.
+
+Pass (of a mountain), <i>toge</i>.
+
+Peninsula, <i>eda shima</i>.
+
+Point, <i>saki</i>.
+
+Port, <i>minato</i>.
+
+Promontory, <i>hana</i>.
+
+Province, <i>kuni</i>.
+
+River, <i>kawa</i>; <i>gawa</i>.
+
+Sea, <i>umi</i>.
+
+South, <i>minami</i>.
+
+Spring, <i>izumi</i>; <i>waki midzu</i>.
+
+Hot spring, <i>onsen</i>.
+
+Medicinal spring, <i>tojiba</i>.
+
+Street, <i>machi</i>; <i>dori</i>.
+
+Superior (place or town), <i>kami</i>.
+
+Tide, <i>shiwo</i>.
+
+High tide, <i>michi shiwo</i>.
+
+Ebb tide, <i>hiki shiwo</i>.
+
+Town, <i>machi</i>.
+
+Valley, <i>tani</i>.
+
+Village, <i>mura</i>.
+
+Ward (of town), <i>cho</i>.
+
+West, <i>nishi</i>.
