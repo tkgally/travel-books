@@ -8,10 +8,10 @@ the first trial of help from other models (`notes/helpers.md`); there was no tra
 ## Status
 Stage reached: scan fetched and checked; Opus draft of every leaf (`draft/`, normalized); Gemini's text as page
 files (`helper/`, for comparison) and its 83 pictures (`images/`); every difference between the two looked at on
-the scan. **Not yet cached in Drive** (the page images are in no Drive folder: fetch from IA once more, then
-`drive_cache.py pack` and upload; said here so that the second request to IA is on record).
+the scan. Cached in Drive: the page images (`drive_cache.py fetch`) and the full-size leaves of every picture page, the cover
+and the title page (`source.json` `full_parts`: `full-NNN.zip`, fetched by id with curl like the others).
 Next step: an ordinary book from stage 3 on, with the draft as the text:
-1. `ia.py fetch`, `prep_pages.py`, cache in Drive (folder in "Travel Books").
+1. `drive_cache.py fetch` the page images.
 2. Sonnet corrections pass on `draft/`, review, judge, `pages/`.
 3. Apply what the comparison settled (table below), then structure, pictures, preflight, audit.
 Half-finished: nothing.
