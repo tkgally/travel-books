@@ -1,5 +1,0 @@
-{"given": "The fortitude of the Chinese; under", "print": "The fortitude of the Chinese, under", "sure": "high"}
-{"given": "was the wondcr of all.", "print": "was the wonder of all.", "sure": "high"}
-{"given": "and undergo even amputation of a", "print": "and undergo even the amputation of a", "sure": "high"}
-{"given": "the funeral of general Collineau, Commander-in-chief", "print": "the funeral of General Collineau, Commander-in-chief", "sure": "high"}
-{"given": "His last words where expressions of", "print": "His last words were expressions of", "sure": "high"}

@@ -1,6 +1,0 @@
-{"find": "<i>ecarté</i>", "replace": "<i>ecarté.</i>"}
-{"find": "<i>ecarté.</i>.", "replace": "<i>ecarté.</i>"}
-
-Wait — I should keep these consistent. The corrected list is:
-
-{"find": "<i>ecarté</i>. Now", "replace": "<i>ecarté.</i> Now"}

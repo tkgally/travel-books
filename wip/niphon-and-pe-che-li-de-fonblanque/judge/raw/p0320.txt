@@ -1,4 +1,0 @@
-{"n": 1, "is": "B", "print": ",, Sieboldi.", "sure": "high"}
-{"n": 2, "is": "B", "print": ",, ,, folius vari", "sure": "high"}
-{"n": 3, "is": "B", "print": ",, ,, folius vari", "sure": "high"}
-{"n": 4, "is": "B", "print": ",, ,, (Fusi-jama)", "sure": "high"}

@@ -1,5 +1,0 @@
-{"given": "an “accident” had happencd to some", "print": "an “accident” had happened to some", "sure": "high"}
-{"given": "the storm of european indignation", "print": "the storm of European indignation", "sure": "high"}
-{"given": "lay) we where challenged by the", "print": "lay) we were challenged by the", "sure": "high"}
-{"given": "into the salle-à-manger; which had been", "print": "into the salle-à-manger, which had been", "sure": "high"}
-{"given": "flat faces under same flat caps", "print": "flat faces under the same flat caps", "sure": "high"}

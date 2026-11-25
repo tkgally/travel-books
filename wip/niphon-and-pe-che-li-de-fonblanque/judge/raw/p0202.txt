@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "high road\n\n[[image: A Japanese pilot in a padded coat and head-cloth, seen from behind, standing at a ship's rail with arms outstretched along it, looking out over water towards hills and a sail]]\n[[caption]] Our Pilot.\n\n[[cont]]between Yedo", "sure": "high"}
-{"n": 2, "is": "A", "print": "water’s", "sure": "high"}

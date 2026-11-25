@@ -1,1 +1,0 @@
-{"n": 1, "is": "neither", "print": "[[no printed text: this frame is a scanner grey-scale calibration target (4×6 grey patches) on black mesh backing, not a book page; neither the note in A nor '[[blank]]' in B is printed text, and '[[blank]]' would wrongly record a blank leaf]]", "sure": "high"}

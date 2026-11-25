@@ -1,4 +1,0 @@
-{"given": "worst and most illibcral of the", "print": "worst and most illiberal of the", "sure": "high"}
-{"given": "for a coup d’état; which could", "print": "for a coup d’état, which could", "sure": "high"}
-{"given": "by a guard of honor, who", "print": "by a guard of honour, who", "sure": "high"}
-{"given": "Independently his having exercised his power", "print": "Independently of his having exercised his power", "sure": "high"}

@@ -1,5 +1,0 @@
-{"given": "prayer on fees, and find", "print": "prayer or fees, and find", "sure": "high"}
-{"given": "apt to do all world over", "print": "apt to do all the world over", "sure": "high"}
-{"given": "the Japanese peasant; mechanic, or", "print": "the Japanese peasant, mechanic, or", "sure": "high"}
-{"given": "compulsory absence from labor on fifty-two", "print": "compulsory absence from labour on fifty-two", "sure": "high"}
-{"given": "to reflect upon his wrougs, or", "print": "to reflect upon his wrongs, or", "sure": "high"}

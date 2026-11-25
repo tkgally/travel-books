@@ -21,6 +21,8 @@ Criteria, sources to search and how to choose: `notes/selection.md`. Read it fir
 3. For each: `tools/ia.py meta <id>` (page-image archive present? library scan? size?), then the five checks
    of `notes/selection.md`, then **read twenty pages from the middle** of IA's OCR text
    (`https://archive.org/download/<id>/<id>_djvu.txt`). Queue it only if you would want to go on reading.
+   Count the plates: the printed list of illustrations against the plate leaves in the OCR text or `leaves.json`
+   (a scanned copy may have lost plates: *Korea from Its Capital*, 10 of 25 gone, found only at the start, 2026-11-25).
 4. Be polite to servers: about one request a second to any host; no large downloads at this stage.
 5. Add the row to `data/queue.json` (`status: queued`): IA identifier, proposed slug, title, author, year,
    place, publisher, images, `checked` date, `eligibility` (what was searched, what was found, what could
