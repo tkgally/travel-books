@@ -1,0 +1,3 @@
+{"find": "[[subtitle]] <sc>First", "replace": "[[subtitle]] First"}
+{"find": "midnight sun again.</sc>", "replace": "midnight sun again."}
+{"find": "THE morning", "replace": "T<sc>he</sc> morning"}
