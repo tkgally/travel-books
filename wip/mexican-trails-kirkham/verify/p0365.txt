@@ -1,0 +1,75 @@
+[[page 289]]
+
+Pedragal, <pref>143</pref>
+
+Peon, <pref>4</pref>, <pref>6</pref>, <pref>11</pref>, <pref>12</pref>, <pref>15</pref>, <pref>29</pref>, <pref>33</pref>, <pref>35</pref>, <pref>58</pref>, <pref>62</pref>, <pref>65</pref>, <pref>71</pref>, <pref>72</pref>, <pref>73</pref>, <pref>105</pref>, <pref>111</pref>, <pref>119</pref>, <pref>123</pref>, <pref>124</pref>, <pref>146</pref>, <pref>150</pref>, <pref>153</pref>, <pref>164</pref>, <pref>169</pref>, <pref>174</pref>, <pref>175</pref>, <pref>186</pref>, <pref>231</pref>, <pref>245</pref>, <pref>273</pref>, <pref>278</pref>
+
+Pilgrimage, the, <pref>119</pref>, <pref>120</pref>, <pref>123</pref>, <pref>124</pref>, <pref>125</pref>, <pref>126</pref>, <pref>189</pref>
+
+Pilgrims, <pref>123</pref>, <pref>125</pref>, <pref>126</pref>, <pref>189</pref>, <pref>244</pref>
+
+Pillars of malachite, <pref>17</pref>
+
+Piñanonas, <pref>207</pref>
+
+Pineapple, <pref>163</pref>
+
+Pioneer, the, <pref>241</pref>, <pref>242</pref>, <pref>243</pref>
+
+Plateau, the, <pref>163</pref>, <pref>166</pref>, <pref>167</pref>, <pref>168</pref>
+
+“Playing bear,” <pref>226</pref>
+
+Plaza, <pref>10</pref>, <pref>72</pref>, <pref>104</pref>, <pref>105</pref>, <pref>115</pref>, <pref>124</pref>, <pref>158</pref>, <pref>159</pref>, <pref>167</pref>, <pref>175</pref>, <pref>218</pref>, <pref>231</pref>, <pref>274</pref>
+
+Poinsettia, <pref>129</pref>
+
+Pomegranate, <pref>81</pref>, <pref>82</pref>, <pref>150</pref>
+
+Popocatepetl, <pref>55</pref>, <pref>71</pref>, <pref>147</pref>, <pref>250</pref>
+
+Porfirio Diaz, <pref>11</pref>
+
+Portales, <pref>6</pref>, <pref>82</pref>, <pref>219</pref>, <pref>223</pref>, <pref>227</pref>
+
+Potter, <pref>84</pref>, <pref>85</pref>, <pref>86</pref>, <pref>88</pref>
+
+Potters’ village, <pref>91</pref>
+
+Potter’s wheel, <pref>91</pref>
+
+Prefect, the, <pref>242</pref>
+
+President, <pref>10</pref>, <pref>11</pref>
+
+Procession of the Candles, <pref>37</pref>, <pref>38</pref>
+
+Puebla, <pref>119</pref>, <pref>177</pref>, <pref>179</pref>, <pref>180</pref>, <pref>188</pref>, <pref>202</pref>
+
+Pueblitos, <pref>114</pref>
+
+Pulque, <pref>31</pref>, <pref>33</pref>, <pref>36</pref>, <pref>104</pref>, <pref>115</pref>, <pref>116</pref>, <pref>126</pref>, <pref>164</pref>
+
+Pulque shop, <pref>26</pref>, <pref>30</pref>, <pref>31</pref>, <pref>38</pref>, <pref>164</pref>
+
+Punkah, <pref>257</pref>
+
+Pyramid of Cholula, <pref>188</pref>, <pref>190</pref>, <pref>191</pref>, <pref>195</pref>
+
+Pyramids of Sun and Moon, <pref>163</pref>
+
+## Q
+
+Quetzalcoatl, <pref>133</pref>, <pref>140</pref>, <pref>189</pref>, <pref>192</pref>, <pref>194</pref>, <pref>195</pref>
+
+## R
+
+Ramon Villacaña, <pref>68</pref>, <pref>69</pref>, <pref>71</pref>, <pref>73</pref>
+
+Rebosos, <pref>16</pref>, <pref>18</pref>, <pref>37</pref>, <pref>65</pref>, <pref>66</pref>, <pref>114</pref>, <pref>115</pref>, <pref>120</pref>, <pref>121</pref>, <pref>123</pref>, <pref>191</pref>, <pref>195</pref>
+
+Refectory, <pref>10</pref>
+
+Restaurant, <pref>40</pref>
+
+Revolution, <pref>11</pref>, <pref>60</pref>, <pref>68</pref>

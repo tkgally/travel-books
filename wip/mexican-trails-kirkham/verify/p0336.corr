@@ -1,0 +1,6 @@
+{"find": "bluing on", "replace": "bluing on"}
+{"find": "patronising", "replace": "patronising"}
+
+Wait — correcting: the page prints "bluing" and "patron-/ising", so the only real difference is "bluing" vs. the draft's "bluing". Let me restate precisely.
+
+{"find": "patting the bluing", "replace": "patting the bluing"}
