@@ -1,0 +1,5 @@
+{"given": "richly-wooded park; is his princely", "print": "richly-wooded park, is his princely", "sure": "high"}
+{"given": "a group of men is seen approacbing slowly", "print": "a group of men is seen approaching slowly", "sure": "high"}
+{"given": "and, glittering coats of mail", "print": "and, glittering in coats of mail", "sure": "high"}
+{"given": "they spring upon the gotairo, as", "print": "they spring upon the Gotairo, as", "sure": "high"}
+{"given": "in his chair. This followers, unprepared", "print": "in his chair. His followers, unprepared", "sure": "high"}

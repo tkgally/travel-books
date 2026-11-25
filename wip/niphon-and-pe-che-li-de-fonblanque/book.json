@@ -305,5 +305,13 @@
  ],
  "ornaments": [
   "p0009-1"
- ]
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-25",
+  "pages": 6,
+  "recall": "29/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }

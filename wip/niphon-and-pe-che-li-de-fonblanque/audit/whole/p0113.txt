@@ -1,0 +1,5 @@
+{"given": "Verily the troufseau of a Japanese", "print": "Verily the trousseau of a Japanese", "sure": "high"}
+{"given": "Our yaconins now showed symptoms", "print": "Our Yaconins now showed symptoms", "sure": "high"}
+{"given": "bettos slunk a trifle the rear.", "print": "bettos slunk a trifle to the rear.", "sure": "high"}
+{"given": "we might observe if. So imploringly", "print": "we might observe it. So imploringly", "sure": "high"}
+{"given": "if we persevered; that I should", "print": "if we persevered, that I should", "sure": "high"}
