@@ -47,6 +47,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 | A full stop left out in print (“hard work and privation His orders”) copied faithfully by every stage and never marked [*The Golden Dagon*, a reader, issue #117, 2026-11-21; 15 more in 12 books] | preflight `missing-stop` (observe: every item looked at on the scan); test `MissingStop` |
 | A plate's cross-reference (“[*See* page 107.”) or “To face p. N” typed as a line of its own after the caption, so the next page's `[[cont]]` text was right-aligned under the picture [*Uganda for a Holiday*, 3 plates; *Argentine Plains*, 26 lines: caught by the rendered look] | preflight `caption-tail` (observe); test `CaptionTail` |
 | A picture printed above a chapter's title on the same page put at the end of the division before [*Present-Day Japan*, six chapters, 2026-11-22: caught by the rendered look] | preflight `image-before-heading` (observe: move the picture after the title and subtitle); test `ImageBeforeHeading` |
+| Chapter openings typed in small capitals where the print has full capitals (or the reverse) [*Mexican Trails* 2, *Japan As We Saw It* 5, 2026-11-26] | preflight `openings` (observe: every item looked at on the scan); test `Openings` |
 | A `compile` waiver passed preflight, but test `Books` failed once the book was merged and stopped the deploy of the site; the cause was two footnote tables set as body text (preflight `note-tail`, read and not acted on) [*Brown Men and Women* v1, 2026-11-22] | `publish.py` refuses compile warnings other than hyphen joins; test `test_publish_refuses_compile_warnings`. A table in a footnote is made one line of its note |
 
 ## Always
@@ -76,7 +77,6 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   last chapter (*Kothari*, 2026-11-20: caught by the rendered look).
 - A folded page corner (the right ends of the last four lines lost) passed the scan check by a subagent; the draft's 〓 marks showed it (*China and Japan*, p. 105, 2026-11-22). After the draft, `grep -l 〓 draft/*.txt` and look at each page at once: a damaged leaf is taken from another copy while the scan is at hand.
 - Tables and multi-line letters inside quotations or footnotes: the markup has neither (a table in `<blockquote>` shows its pipes; lines after a `[[fn]]` become body text). Close the quotation round a table; join a letter in a note into the note line (*Venezuela*, 2026-11-22: preflight `conservation` and `note-tail` caught both).
-- Chapter openings: list the first words of every chapter (`grep -A2 "^# "` or the compiled JSON) and make them alike as the scan has them; drafts typed 2 of 25 as `T<sc>he</sc>` where the print has full capitals, and neither the judge nor the spot-read noticed (*Mexican Trails*, 2026-11-26: caught by the rendered look); 5 of 18 in *Japan As We Saw It* the same day, missed by the rendered look and found by this listing.
 - A model that returns "no corrections" in a few seconds may still be right: the audit's planted errors say
   whether that reader can see (first calibration: Sonnet 27/30, Opus 30/30).
 

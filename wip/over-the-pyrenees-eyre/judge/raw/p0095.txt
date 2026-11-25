@@ -1,2 +1,0 @@
-{"n": 1, "is": "A", "print": "M. le Curé’s lodgings", "sure": "high"}
-{"n": 2, "is": "B", "print": "é, M. le Curé, and", "sure": "high"}

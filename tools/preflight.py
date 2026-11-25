@@ -55,6 +55,7 @@ CHECKS = collections.OrderedDict([
     ("note-tail",       ("observe", "text after a page's notes that is not a note (a table or paragraph of a note set as body text)")),
     ("caption-tail",    ("observe", "a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?")),
     ("image-before-heading", ("observe", "a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?")),
+    ("openings",        ("observe", "chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan")),
     ("verse-joins",     ("observe", "verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan")),
     ("cover",           ("enforce", "images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page")),
     ("accents",         ("observe", "words the book spells with different accents (or with and without): look at each group on the scan")),
@@ -579,6 +580,46 @@ def check_image_before_heading(pages, ornaments=()):
     return out
 
 
+def _opening_style(par):
+    """'sc' for `T<sc>he</sc>` or `I <sc>had</sc>`, 'caps' for `THE` or `A VISIT`, None otherwise."""
+    if re.match(r"^[“‘\"']?[A-Z]{0,2}\s?<sc>", par):
+        return "sc"
+    words = re.sub(r"<[^>]+>", "", par).lstrip("“‘\"'").split()
+    w = [re.sub(r"[^A-Za-z]", "", x) for x in words[:2]]
+    if w and len(w[0]) >= 2 and w[0].isupper():
+        return "caps"
+    if len(w) == 2 and len(w[0]) == 1 and w[0].isupper() and len(w[1]) >= 2 and w[1].isupper():
+        return "caps"
+    return None
+
+
+def check_openings(pages):
+    """The first paragraph after each `#` heading begins in full capitals ("THE road") or in small capitals
+    ("T<sc>he</sc> road"); a book prints them all one way, and drafts type some the other way (*Mexican Trails*: 2 of
+    25; *Japan As We Saw It*: 5 of 18, 2026-11-26). Lists the openings in the minority style, to look at on the scan."""
+    found = []
+    for leaf, text in pages:
+        lines = text.splitlines()
+        for i, ln in enumerate(lines):
+            if not ln.startswith("# "):
+                continue
+            for x in lines[i + 1:]:
+                if not x.strip() or x.startswith("[[subtitle]]") or x.startswith("[[image:") or x.startswith("[[caption]]"):
+                    continue
+                if x.startswith("#") or x.startswith("[[") or x.startswith("<"):
+                    break
+                st = _opening_style(x)
+                if st:
+                    found.append((leaf, st, x[:40]))
+                break
+    styles = collections.Counter(s for _, s, _ in found)
+    if len(styles) < 2:
+        return []
+    major = styles.most_common(1)[0][0]
+    return [f"{leaf}: opening in {'small capitals' if s == 'sc' else 'full capitals'} ({x!r}); most chapters open in "
+            f"{'small capitals' if major == 'sc' else 'full capitals'}" for leaf, s, x in found if s != major]
+
+
 def _verse_stanzas(text, first):
     """Line counts of the stanzas of the first (first=True) or last <verse> block of a page."""
     blocks = re.findall(r"<verse>\n?(.*?)\n?</verse>", text, flags=re.S)
@@ -906,6 +947,7 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
         res["joins"] = check_joins(pages)
         res["note-tail"] = check_note_tail(pages)
         res["verse-joins"] = check_verse_joins(pages)
+        res["openings"] = check_openings(pages)
         res["caption-tail"] = check_caption_tail(pages)
         res["image-before-heading"] = check_image_before_heading(pages, set(cfg.get("ornaments") or []))
         # conservation

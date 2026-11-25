@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "Collége de Foix, ", "sure": "medium"}
-{"n": 2, "is": "B", "print": "Collége de Foix, ", "sure": "medium"}

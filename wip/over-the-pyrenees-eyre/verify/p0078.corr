@@ -1,6 +1,0 @@
-{"find": "coloured wadded cap", "replace": "coloured wadded cap"}
-{"find": "[[cont]]here", "replace": "[[cont]]here"}
-
-Wait — correction needed: "wadded" matches. Only one real diff check: the draft has "wadded" and the image has "wadded", so no change.
-
-NONE
