@@ -1,0 +1,11 @@
+{"find": "is so imminent, it is to be hoped", "replace": "is so imminent, it is to be hoped"}
+{"find": "capital is so imminent, it", "replace": "capital is so imminent, it"}
+
+Correction needed: the draft has "As, however, it offers few advantages to commerce, and the danger of collision with the natives in a densely-crowded capital is so imminent, it is to be hoped"? The draft reads "is so imminent, it is to be hoped"; let me list the actual differences.
+
+{"find": "in 1862. As, however", "replace": "in 1862. As, however"}
+{"find": "Under the terms of the Treaty, Yedo should be opened to foreign traders in 1862. As, however, it offers few advantages", "replace": "Under the terms of the Treaty, Yedo should be opened to foreign traders in 1862. As, however, it offers few advantages"}
+
+Sorry — the final list, with only the real change:
+
+{"find": "that an equivalent", "replace": "that an equivalent"}
