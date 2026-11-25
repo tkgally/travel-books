@@ -33,6 +33,9 @@
 [       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
 [       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
 [       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
+[ look (2)] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
+            - p0015: opening in small capitals ('T<sc>he</sc> islands to which reference '); most chapters open in full capitals
+            - p0027: opening in small capitals ('E<sc>ngraved by</sc> J<sc>ohn</sc> A<sc>'); most chapters open in full capitals
 [       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
 [look (14)] accents: words the book spells with different accents (or with and without): look at each group on the scan
@@ -51,20 +54,21 @@
             - soufriere: soufriere (p0026, p0214, p0356); soufrière (p0023, p0088, p0098, p0214, p0219, p0221…)
             - zoological: zoological (p0279); zoölogical (p0024)
 [       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
-[look (13)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
-            - p0056: “fille” — “filled” is common (726; a letter dropped or transposed?)
-            - p0122: “seene” — “scene” is common (875)
-            - p0156: “harmed” — “charmed” is common (48; a letter dropped or transposed?)
-            - p0158: “mated” — “matted” is common (45; a letter dropped or transposed?)
-            - p0167: “fishin” — “fishing” is common (285; a letter dropped or transposed?)
-            - p0193: “potions” — “portions” is common (92; a letter dropped or transposed?)
-            - p0209: “tern” — “fern” is common (117)
-            - p0231: “seaming” — “steaming” is common (92; a letter dropped or transposed?)
-            - p0243: “walkin” — “walking” is common (346; a letter dropped or transposed?)
-            - p0243: “swingin” — “swinging” is common (77; a letter dropped or transposed?)
-            - p0243: “har” — “bar” is common (205)
-            - p0244: “groun” — “ground” is common (1758; a letter dropped or transposed?)
-            - p0311: “shamed” — “ashamed” is common (50; a letter dropped or transposed?)
+[look (14)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0056: “fille” — “filled” is common (1031; a letter dropped or transposed?)
+            - p0099: “feets” — “fleets” is common (47; a letter dropped or transposed?)
+            - p0122: “seene” — “scene” is common (1271)
+            - p0156: “harmed” — “charmed” is common (68; a letter dropped or transposed?)
+            - p0158: “mated” — “matted” is common (63; a letter dropped or transposed?)
+            - p0167: “fishin” — “fishing” is common (448; a letter dropped or transposed?)
+            - p0209: “tern” — “fern” is common (133)
+            - p0231: “seaming” — “steaming” is common (168; a letter dropped or transposed?)
+            - p0243: “walkin” — “walking” is common (514; a letter dropped or transposed?)
+            - p0243: “swingin” — “swinging” is common (126; a letter dropped or transposed?)
+            - p0243: “har” — “bar” is common (271)
+            - p0244: “groun” — “ground” is common (2472; a letter dropped or transposed?)
+            - p0311: “shamed” — “ashamed” is common (77; a letter dropped or transposed?)
+            - p0330: “targe” — “target” is common (43; a letter dropped or transposed?)
 [       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
 [ look (2)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
             - book.json summary: …s and guides, the Boiling Lake, the Caribs of the windward coast and their language, and …
@@ -72,4 +76,4 @@
 [       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: camps-caribbees-ober v1 — 0 to fix, 2 waived; to look at: hyphen-joins 8, contents 1, accents 14, rare-forms 13, serial-commas 2 — tools@dc8ea1b9 2026-11-22
+preflight PASS: camps-caribbees-ober v2 — 0 to fix, 2 waived; to look at: hyphen-joins 8, contents 1, openings 2, accents 14, rare-forms 14, serial-commas 2 — tools@f786a54c 2026-11-25

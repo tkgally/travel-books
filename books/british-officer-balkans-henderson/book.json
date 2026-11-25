@@ -1,7 +1,7 @@
 {
  "id": "british-officer-balkans-henderson",
- "version": 1,
- "date": "2026-11-23",
+ "version": 2,
+ "date": "2026-11-26",
  "title": "A British Officer in the Balkans",
  "subtitle": "The Account of a Journey through Dalmatia, Montenegro, Turkey in Austria, Magyarland, Bosnia and Hercegovina",
  "short_title": "A British Officer in the Balkans",
@@ -57,6 +57,11 @@
    "version": 1,
    "date": "2026-11-23",
    "note": "First publication."
+  },
+  {
+   "version": 2,
+   "date": "2026-11-26",
+   "note": "Chapter openings printed in full capitals after the initial and typed in small capitals corrected (11 places)."
   }
  ],
  "divisions": [
@@ -139,11 +144,12 @@
   "p0314"
  ],
  "audit": {
-  "version": 1,
+  "version": 2,
   "date": "2026-11-23",
   "pages": 6,
   "recall": "30/30",
   "real_errors": 0,
-  "fixed": 0
+  "fixed": 0,
+  "note": "text unchanged except listed fixes"
  }
 }

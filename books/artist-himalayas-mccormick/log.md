@@ -30,6 +30,7 @@ Scan check: all sheets and about 20 leaves at full size by an Opus subagent 2026
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
 | 1 | 2026-11-22 | preflight PASS: artist-himalayas-mccormick v1 — 0 to fix, 3 waived — tools@f7363885 2026-11-22 | 29/29, 0 real | first publication |
+| 2 | 2026-11-26 | PASS, 0 to fix, 3 waived (tools@f786a54c) | as v1 (text unchanged except listed fixes) | the preface’s first word typed in small capitals → full capitals as printed (review after eighty-eight books) |
 
 ## Known issues
 

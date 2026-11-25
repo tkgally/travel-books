@@ -1,7 +1,7 @@
 {
  "id": "camps-caribbees-ober",
- "version": 1,
- "date": "2026-11-22",
+ "version": 2,
+ "date": "2026-11-26",
  "title": "Camps in the Caribbees",
  "subtitle": "The Adventures of a Naturalist in the Lesser Antilles",
  "short_title": "Camps in the Caribbees",
@@ -96,6 +96,11 @@
    "version": 1,
    "date": "2026-11-22",
    "note": "First publication."
+  },
+  {
+   "version": 2,
+   "date": "2026-11-26",
+   "note": "Chapter openings printed in full capitals after the initial and typed in small capitals corrected (5 places)."
   }
  ],
  "notes_on_text": [
@@ -112,12 +117,12 @@
   "p0283"
  ],
  "audit": {
-  "version": 1,
+  "version": 2,
   "date": "2026-11-22",
   "pages": 6,
   "recall": "30/30",
   "real_errors": 1,
   "fixed": 1,
-  "note": "a second run on the 16 pages first read by OCR: 77/79, no candidates"
+  "note": "text unchanged except listed fixes"
  }
 }

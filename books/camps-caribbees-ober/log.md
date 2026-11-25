@@ -32,6 +32,7 @@ Scan check: all sheets and 15 leaves at full size by an Opus subagent 2026-11-22
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
+| 2 | 2026-11-26 | PASS, 0 to fix, 2 waived (tools@f786a54c) | as v1 (text unchanged except listed fixes) | 5 chapter openings typed in small capitals → full capitals as printed (review after eighty-eight books) |
 
 ## Known issues
 

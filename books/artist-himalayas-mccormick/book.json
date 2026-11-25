@@ -1,7 +1,7 @@
 {
  "id": "artist-himalayas-mccormick",
- "version": 1,
- "date": "2026-11-22",
+ "version": 2,
+ "date": "2026-11-26",
  "title": "An Artist in the Himalayas",
  "short_title": "An Artist in the Himalayas",
  "authors": [
@@ -52,6 +52,11 @@
    "version": 1,
    "date": "2026-11-22",
    "note": "First publication."
+  },
+  {
+   "version": 2,
+   "date": "2026-11-26",
+   "note": "The opening of the preface printed in full capitals after the initial and typed in small capitals corrected (1 place)."
   }
  ],
  "divisions": [
@@ -112,11 +117,12 @@
   "p0281"
  ],
  "audit": {
-  "version": 1,
+  "version": 2,
   "date": "2026-11-22",
   "pages": 6,
   "recall": "29/29",
   "real_errors": 0,
-  "fixed": 0
+  "fixed": 0,
+  "note": "text unchanged except listed fixes"
  }
 }
