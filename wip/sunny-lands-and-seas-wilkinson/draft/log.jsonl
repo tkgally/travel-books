@@ -362,3 +362,7 @@
 {"page": "p0368", "model": "opus", "corrections": null, "seconds": 6.5, "cost": 0.0678068, "completion_tokens": 642, "turns": 2, "attempts": 1}
 {"page": "p0369", "model": "opus", "corrections": null, "seconds": 5.7, "cost": 0.0627222, "completion_tokens": 389, "turns": 2, "attempts": 1}
 {"page": "p0370", "model": "opus", "corrections": null, "seconds": 10.7, "cost": 0.0759196, "completion_tokens": 1046, "turns": 2, "attempts": 1}
+{"page": "p0163", "model": "opus", "corrections": 4, "seconds": 4.3, "cost": 0.0689762, "completion_tokens": 304, "turns": 2, "attempts": 1}
+{"page": "p0164", "model": "opus", "corrections": 5, "seconds": 5.6, "cost": 0.071745, "completion_tokens": 449, "turns": 2, "attempts": 1}
+{"page": "p0165", "model": "opus", "corrections": 3, "seconds": 4.5, "cost": 0.069072, "completion_tokens": 301, "turns": 2, "attempts": 1}
+{"page": "p0025a", "model": "opus", "corrections": null, "seconds": 7.2, "cost": 0.0678234, "completion_tokens": 720, "turns": 2, "attempts": 1}

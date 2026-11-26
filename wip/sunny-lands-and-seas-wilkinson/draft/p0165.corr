@@ -1,0 +1,3 @@
+{"find": "[[page ?]]\n\n138 SUNNY LANDS AND SEAS.\n\n", "replace": "[[page 138]]\n\n"}
+{"find": "on the Hloor", "replace": "on the floor"}
+{"find": "get-some", "replace": "get some"}

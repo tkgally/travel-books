@@ -1,0 +1,171 @@
+[       ok] meta: book.json: required fields present and sane
+[ FAIL (1)] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+            - p0252: first line is not [[page N]]
+[FAIL (41)] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+            - missing image file for p0007-1 (Map of the author's route around the world, from London across Europe, through Egypt and the Red Sea to Aden, Bombay and northern India, then to Penang, Singapore, Manila, Hong Kong, China and Japan, and across the North Pacific by the Sandwich Islands to San Francisco)
+            - missing image file for p0038-1 (Engraving, printed sideways on the page, of a road along a rocky hillside, with a house with a tiled roof at one end and a palm tree at the other)
+            - missing image file for p0047-1 (a canopied cart drawn by two oxen, with a driver, a seated passenger and a man standing beside it holding a staff)
+            - missing image file for p0058-1 (The Kootub Minar, a tall tapering banded tower, with domed tombs and ruins among trees at its foot)
+            - missing image file for p0062-1 (The Cashmere Gate at Delhi, a gateway with two pointed arches in a battlemented wall, with trees on either side)
+            - missing image file for p0063-1 (A bearded man in a turban, belted white tunic and trousers, standing facing the viewer)
+            - missing image file for p0078-1 (a woman in a long robe and head-cloth standing in profile with a round water-jar balanced on her head, a small naked child standing in front of her)
+            - missing image file for p0085-1 (A barber bending over to cut the hair of a man who sits cross-legged on the ground)
+            - missing image file for p0088-1 (an elderly turbaned Indian man, stooping, with a water-skin slung at his side, pouring water into a bowl on the ground)
+            - missing image file for p0092-1 (Engraving, printed sideways on the page, of Benares seen from the river: temples, towers and a tall minaret on the bank, with ghats and boats along the water)
+            - missing image file for p0102-1 (two native men sitting cross-legged on the ground, one shaving the other's face)
+            - missing image file for p0135-1 (a traveller's palm with fan-shaped leaves in a grassy clearing, a man standing at its foot, trees behind)
+            - missing image file for p0138-1 (Malay houses built on piles over the water, with boats in the foreground)
+            - missing image file for p0140-1 (a jinrickishaw, a two-wheeled hooded cart with long shafts, seen from the side)
+            - missing image file for p0152-1 (Engraving of a young aboriginal man in profile, wearing a fur pelt over his shoulders and a striped sash, holding an axe with a long handle)
+            - missing image file for p0155-1 (Engraving of a ruined cathedral bell-tower, its upper storeys broken open and a great mass of fallen masonry lying at its foot)
+            - missing image file for p0168-1 (Engraving, printed sideways, of Chinese junks and boats moored beside crowded wooden waterfront houses on the river)
+            - missing image file for p0174-1 (A barefoot Chinese water-carrier with a pole across his shoulders, a wooden bucket hanging from each end)
+            - missing image file for p0182-1 (a narrow canal between tall wooden houses, with a covered boat in the foreground and an arched bridge beyond)
+            - missing image file for p0184-1 (engraving of a small Chinese boat with a curved matting roof and a long oar, on still water)
+            - missing image file for p0188-1 (Engraving, printed sideways on the page, of a large Chinese flower-boat with a roofed deckhouse and figures at the bow, with small boats alongside and a shoreline behind)
+            - missing image file for p0193-1 (two carved heads of Chinese idols wearing crowns, the right one bearded)
+            - missing image file for p0198-1 (Engraving of a Japanese street beside a stream, with wooden houses, a bridge, and large trees overhanging the water (printed sideways))
+            - missing image file for p0202-1 (Engraving, printed sideways on the page, of a street front with baskets of produce, people seated in an open shop, and a cart with a large wheel)
+            - missing image file for p0214-1 (Engraving of a long street of shops and houses in Kioto, with a pagoda-roofed tower on the left, a jinrikisha in the foreground, people walking along the road, and hills in the distance; the picture is printed sideways on the page)
+            - missing image file for p0218-1 (Engraving of a Japanese man standing, in a short padded jacket with crests on the collar, tight trousers and sandals)
+            - missing image file for p0224-1 (Engraving, printed sideways on the page, of a village street lined with low wooden houses under deep eaves, with rickshaws and people in the roadway and trees behind)
+            - missing image file for p0228-1 (Engraving, printed sideways on the page, of an empty Japanese room with sliding paper-paned screens, wooden posts and a matted floor)
+            - missing image file for p0232-1 (a Japanese man standing, seen from behind and turning his head, wearing a robe with stiff wide shoulders and a long sword at his waist, his sandals on the ground beside him)
+            - missing image file for p0234-1 (Two men pulling a young lady holding a parasol in a two-wheeled jinrikisha, printed sideways on the page)
+            - missing image file for p0239-1 (A young Japanese man seated on the floor by paper screens, holding a bowl, with a low table, dishes and a hanging scroll)
+            - missing image file for p0241-1 (A man in a straw hat and light suit lounging cross-legged in an armchair beside a table with bottles and a glass, framed pictures on the wall behind)
+            - missing image file for p0244-1 (Engraving, printed sideways on the page, of a snow-capped volcanic mountain rising above a wooded plain)
+            - missing image file for p0252-1 (Engraving of the great seated bronze Buddha in a paved temple courtyard, with stone lanterns and trees on either side)
+            - missing image file for p0274-1 (a Japanese woman in a kimono, standing and holding a parasol)
+            - missing image file for p0279-1 (Map of the Sandwich Islands, showing the ship's track past Kauai, Oahu, Molokai, Maui and Hawaii)
+            - missing image file for p0290-1 (Engraving, printed sideways on the page, of a view from high cliffs looking down over a wide plain to the sea, with steep mountain ridges on either side)
+            - missing image file for p0298-1 (two Hawaiian women standing side by side in long loose gowns, one wearing a broad-brimmed hat)
+            - missing image file for p0344-1 (framed handwritten notice warning against sitting on the billiard-table, with a drawing of an eye)
+            - missing image file for p0356-1 (Engraving of the Half Dome seen across the valley, with a large overhanging rock in the foreground at right)
+            - missing image file for p0358-1 (Engraving of a tall dark crag beside a deep mountain gorge, with a pine tree in the foreground and a bird in flight)
+[ FAIL (1)] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+            - JSON→ODT text: texts differ from character 243: …HNMURRAY,ALBEMARLESTREET.1883.IDedicatetheseNotestomyfrienda… / …HNMURRAY,ALBEMARLESTREET.1883.[Illustration:Mapoftheauthor's…
+[ FAIL (2)] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+            - text: …'e body was covered with these [[page 209]] pellets, there were'…
+            - text: …' covered with these [[page 209]] pellets, there were very few '…
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[FAIL (41)] links: every link inside the book's web pages and EPUB has a target
+            - web 12.html: missing image 'images/p0152-1.jpg'
+            - web 12.html: missing image 'images/p0155-1.jpg'
+            - web 01.html: missing image 'images/p0007-1.jpg'
+            - web 23.html: missing image 'images/p0344-1.jpg'
+            - web 05.html: missing image 'images/p0038-1.jpg'
+            - web 24.html: missing image 'images/p0356-1.jpg'
+            - web 24.html: missing image 'images/p0358-1.jpg'
+            - web 08.html: missing image 'images/p0078-1.jpg'
+            - web 08.html: missing image 'images/p0085-1.jpg'
+            - web 09.html: missing image 'images/p0088-1.jpg'
+            - web 09.html: missing image 'images/p0092-1.jpg'
+            - web 09.html: missing image 'images/p0102-1.jpg'
+            - web 07.html: missing image 'images/p0058-1.jpg'
+            - web 07.html: missing image 'images/p0062-1.jpg'
+            - web 07.html: missing image 'images/p0063-1.jpg'
+            - web 20.html: missing image 'images/p0290-1.jpg'
+            - web 20.html: missing image 'images/p0298-1.jpg'
+            - web 11.html: missing image 'images/p0135-1.jpg'
+            - web 11.html: missing image 'images/p0138-1.jpg'
+            - web 11.html: missing image 'images/p0140-1.jpg'
+            - web 14.html: missing image 'images/p0174-1.jpg'
+            - web 14.html: missing image 'images/p0182-1.jpg'
+            - web 14.html: missing image 'images/p0184-1.jpg'
+            - web 14.html: missing image 'images/p0188-1.jpg'
+            - web 14.html: missing image 'images/p0193-1.jpg'
+            - web 15.html: missing image 'images/p0198-1.jpg'
+            - web 15.html: missing image 'images/p0202-1.jpg'
+            - web 15.html: missing image 'images/p0214-1.jpg'
+            - web 15.html: missing image 'images/p0218-1.jpg'
+            - web 13.html: missing image 'images/p0168-1.jpg'
+            - web 16.html: missing image 'images/p0224-1.jpg'
+            - web 16.html: missing image 'images/p0228-1.jpg'
+            - web 16.html: missing image 'images/p0232-1.jpg'
+            - web 16.html: missing image 'images/p0234-1.jpg'
+            - web 16.html: missing image 'images/p0239-1.jpg'
+            - web 16.html: missing image 'images/p0241-1.jpg'
+            - web 17.html: missing image 'images/p0244-1.jpg'
+            - web 17.html: missing image 'images/p0252-1.jpg'
+            - web 19.html: missing image 'images/p0274-1.jpg'
+            - web 19.html: missing image 'images/p0279-1.jpg'
+            - web 06.html: missing image 'images/p0047-1.jpg'
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[FAIL (30)] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/01.xhtml(19,319): Referenced resource "OEBPS/images/p0007-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/05.xhtml(18,195): Referenced resource "OEBPS/images/p0038-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/06.xhtml(24,163): Referenced resource "OEBPS/images/p0047-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/07.xhtml(16,148): Referenced resource "OEBPS/images/p0058-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/07.xhtml(22,161): Referenced resource "OEBPS/images/p0062-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/07.xhtml(24,136): Referenced resource "OEBPS/images/p0063-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/08.xhtml(31,197): Referenced resource "OEBPS/images/p0078-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/08.xhtml(48,132): Referenced resource "OEBPS/images/p0085-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/09.xhtml(15,168): Referenced resource "OEBPS/images/p0088-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/09.xhtml(23,207): Referenced resource "OEBPS/images/p0092-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/09.xhtml(45,129): Referenced resource "OEBPS/images/p0102-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/11.xhtml(46,154): Referenced resource "OEBPS/images/p0135-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/11.xhtml(54,122): Referenced resource "OEBPS/images/p0138-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/11.xhtml(56,128): Referenced resource "OEBPS/images/p0140-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/12.xhtml(23,189): Referenced resource "OEBPS/images/p0152-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/12.xhtml(30,176): Referenced resource "OEBPS/images/p0155-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/13.xhtml(51,165): Referenced resource "OEBPS/images/p0168-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/14.xhtml(16,154): Referenced resource "OEBPS/images/p0174-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/14.xhtml(33,158): Referenced resource "OEBPS/images/p0182-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/14.xhtml(38,141): Referenced resource "OEBPS/images/p0184-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/14.xhtml(45,219): Referenced resource "OEBPS/images/p0188-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/14.xhtml(69,121): Referenced resource "OEBPS/images/p0193-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/15.xhtml(20,184): Referenced resource "OEBPS/images/p0198-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/15.xhtml(25,194): Referenced resource "OEBPS/images/p0202-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/15.xhtml(53,280): Referenced resource "OEBPS/images/p0214-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/15.xhtml(58,166): Referenced resource "OEBPS/images/p0218-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/16.xhtml(15,215): Referenced resource "OEBPS/images/p0224-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/16.xhtml(17,182): Referenced resource "OEBPS/images/p0228-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/16.xhtml(22,222): Referenced resource "OEBPS/images/p0232-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-zgff9clk/books/sunny-lands-and-seas-wilkinson/sunny-lands-and-seas-wilkinson.epub/OEBPS/text/16.xhtml(24,154): Referenced resource "OEBPS/images/p0234-1.jpg" could not be found in the EPUB.
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[ FAIL (1)] audit: book.json records the sampled audit of this version
+            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[ look (2)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0078: …handling, vehe-|ment gesticulat… (hyphen removed; check)
+            - (and 12 joins giving a word the book prints whole elsewhere: not listed)
+[ look (1)] joins: page joins: missing [[cont]]
+            - p0252: no [[cont]] but the page before ends …'dy was covered with these' and this one starts 'pellets, there were very '
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[ look (1)] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+            - p0328: closing ” with no opening “: '‘All’s well that ends well;’ so let’s say good-bye to Hilo, '
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[       ok] contents: entries of the printed contents with no matching heading
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[ look (1)] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
+            - p0241: after the caption: '[[right]] March 18, 1882.'
+[       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
+[       ok] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[ FAIL (1)] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
+            - images/cover.jpg is missing (the front cover if the title is clearly readable on it, otherwise the title page)
+[ look (3)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0008, p0012, p0013, p0014, p0015, p0016…); à (p0336)
+            - hotel: hotel (p0019, p0021, p0022, p0024, p0026, p0027…); hôtel (p0130)
+            - kioto: kioto (p0019, p0194, p0208, p0209, p0211, p0214…); kiôto (p0259)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[ look (5)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0105: “implicity” — “simplicity” is common (174; a letter dropped or transposed?)
+            - p0116: “hushes” — “bushes” is common (258)
+            - p0117: “eigbteen” — “eighteen” is common (371)
+            - p0184: “reely” — “freely” is common (222; a letter dropped or transposed?)
+            - p0254: “bung” — “hung” is common (552)
+[       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
+[ look (1)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: …ong, and Canton; through Japan, from Nagasaki and Kioto to Yokohama; a…
+[ look (1)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+            - p0057: “sky We” in …ome rising high into the sky  We had seen so m…
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight FAIL: sunny-lands-and-seas-wilkinson v1 — 118 to fix, 0 waived; to look at: hyphen-joins 2, joins 1, quote-balance 1, caption-tail 1, accents 3, rare-forms 5, serial-commas 1, missing-stop 1 — tools@cfbb092b 2026-11-26

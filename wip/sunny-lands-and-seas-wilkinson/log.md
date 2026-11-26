@@ -5,8 +5,9 @@ Eligibility: queue row (Opus subagent, 2026-11-23); re-checked 2026-11-26: pg_ca
 only page images (Tamil Digital Library) and booksellers' listings. JATSI 65. Started 2026-11-26.
 
 ## Status
-Stage reached: scan checked, mapped, cached in Drive (32 parts); full-size picture leaves in the scratchpad; Opus draft of p0007–p0370 then Sonnet pass running (chained).
-Next step: crops; review; judge; structure.
+Stage reached: draft, corrections, judge, pages/ done; p0025 replaced by p0025a (Google copy); pictures moved out of
+mid-paragraph; crops and spot-read by an Opus subagent running.
+Next step: apply the spot-read; preflight; audit (also --pages p0163,p0164,p0165); rendered look; publish.
 
 ## Page map
 p0000 front cover (“ASIA” label) · p0001 Wason Collection bookplate · p0002 barcode · p0003 notice card · p0004–p0006 blank ·
@@ -26,10 +27,24 @@ script. For the draft: letters with datelines set right; footnotes (*); short ve
 columns (p0191); a hotel bill of fare (p0336); the Table of Distances (p0370).
 
 ## Decisions
+- p0025 (printed 2): the right edge of every line lost in the binding (missed by the scan check; the draft's 〓 showed it).
+  Replaced by the Oxford/Google copy's leaf (IA sunnylandsandse00wilkgoog n26) as p0025a, drafted by Opus and checked by
+  Sonnet (no differences); `source.extra_leaves`; Drive part pages-033.
+- p0163–p0165 (printed 136–138) refused by the output filter in the draft; `ocr_fallback.py`, then the Sonnet pass.
+- The corrections pass moved 13 in-text pictures to the exact line, mid-sentence, with `[[cont]]` (applied unjudged): pages
+  restored from the draft (same words). Six pictures the draft had left mid-paragraph (p0047, p0078, p0218, p0252, p0298,
+  p0358) moved after the end of their paragraph by script (p0252: the picture heads the page; the text first).
+- Judge spots checked on crops: p0179 “ago.” (a full stop, against the judge); p0284 “illæ lachrymæ” (italic ligature, the
+  Latin form); p0345 closing quote (judge right). Plate leaves' folios set `?` (the draft read signature numbers).
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-26 | opus | 364 | see log.jsonl | 3 refused (p0163–p0165) |
+| fallback | 2026-11-26 | tesseract + opus | 3 | 0.21 | |
+| corrections | 2026-11-26 | sonnet | 367 | 12.25 | 46 spots; 13 [[cont]] added (pictures moved) |
+| judge | 2026-11-26 | opus | 46 spots | 1.14 | 15 draft, 31 verified |
+| p0025a | 2026-11-26 | opus + sonnet | 1 | 0.10 | no differences |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |

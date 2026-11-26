@@ -637,6 +637,15 @@
     "cu31924023562204_djvu.txt"
    ],
    "drive_id": "1tI3byI4xLR3cJbaq4LcF4gvcz4jw96cl"
+  },
+  {
+   "name": "pages-033.zip",
+   "sha256": "c44b501c70d496758f15dbb7e699b470e29c95f23035f5428ef205cef16ed390",
+   "bytes": 252603,
+   "files": [
+    "p0025a.jpg"
+   ],
+   "drive_id": "1oTUNWN9CBgKeeziTRKzzg4bHvP6FOwat"
   }
  ]
 }

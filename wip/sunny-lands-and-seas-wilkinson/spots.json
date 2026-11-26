@@ -1,0 +1,464 @@
+{
+ "p0010": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<sc>to my</sc>",
+   "replace": "TO MY",
+   "draft": "<sc>to my</sc>",
+   "verified": "TO MY",
+   "context": "[[page ?]] ⏎  ⏎ [[center]] I Dedicate these Notes ⏎  ⏎ [[center]] <sc>to my</sc> ⏎  ⏎ [[center]] <sc>friend and travelling companion,</sc> ⏎  ⏎ [[ce"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "<sc>friend and travelling companion,</sc>",
+   "replace": "FRIEND AND TRAVELLING COMPANION,",
+   "draft": "<sc>friend and travelling companion,</sc>",
+   "verified": "FRIEND AND TRAVELLING COMPANION,",
+   "context": "nter]] I Dedicate these Notes ⏎  ⏎ [[center]] TO MY ⏎  ⏎ [[center]] <sc>friend and travelling companion,</sc> ⏎  ⏎ [[center]] ALBERT WOOD, E<sc>sq.</sc>, ⏎  ⏎ [[center]] <sc>of "
+  },
+  {
+   "n": 3,
+   "kind": "words",
+   "find": "<sc>of bodlondeb, conway;</sc>",
+   "replace": "OF BODLONDEB, CONWAY;",
+   "draft": "<sc>of bodlondeb, conway;</sc>",
+   "verified": "OF BODLONDEB, CONWAY;",
+   "context": "PANION, ⏎  ⏎ [[center]] ALBERT WOOD, E<sc>sq.</sc>, ⏎  ⏎ [[center]] <sc>of bodlondeb, conway;</sc> ⏎  ⏎ [[center]] <sc>to whose agreeable and intelligent companio"
+  },
+  {
+   "n": 4,
+   "kind": "words",
+   "find": "<sc>to whose agreeable and intelligent companionship</sc>",
+   "replace": "TO WHOSE AGREEABLE AND INTELLIGENT COMPANIONSHIP",
+   "draft": "<sc>to whose agreeable and intelligent companionship</sc>",
+   "verified": "TO WHOSE AGREEABLE AND INTELLIGENT COMPANIONSHIP",
+   "context": "<sc>sq.</sc>, ⏎  ⏎ [[center]] OF BODLONDEB, CONWAY; ⏎  ⏎ [[center]] <sc>to whose agreeable and intelligent companionship</sc> ⏎  ⏎ [[center]] <sc>i owe so much of the pleasure of my tour,</"
+  },
+  {
+   "n": 5,
+   "kind": "words",
+   "find": "<sc>i owe so much of the pleasure of my tour,</sc>",
+   "replace": "I OWE SO MUCH OF THE PLEASURE OF MY TOUR,",
+   "draft": "<sc>i owe so much of the pleasure of my tour,</sc>",
+   "verified": "I OWE SO MUCH OF THE PLEASURE OF MY TOUR,",
+   "context": "O WHOSE AGREEABLE AND INTELLIGENT COMPANIONSHIP ⏎  ⏎ [[center]] <sc>i owe so much of the pleasure of my tour,</sc> ⏎  ⏎ [[center]] <sc>and to whose accurate observation</sc> ⏎  ⏎ [[c"
+  },
+  {
+   "n": 6,
+   "kind": "words",
+   "find": "<sc>and to whose accurate observation</sc>",
+   "replace": "AND TO WHOSE ACCURATE OBSERVATION",
+   "draft": "<sc>and to whose accurate observation</sc>",
+   "verified": "AND TO WHOSE ACCURATE OBSERVATION",
+   "context": "ter]] I OWE SO MUCH OF THE PLEASURE OF MY TOUR, ⏎  ⏎ [[center]] <sc>and to whose accurate observation</sc> ⏎  ⏎ [[center]] <sc>and notes</sc> ⏎  ⏎ [[center]] <sc>i am indebte"
+  },
+  {
+   "n": 7,
+   "kind": "words",
+   "find": "<sc>and notes</sc>",
+   "replace": "AND NOTES",
+   "draft": "<sc>and notes</sc>",
+   "verified": "AND NOTES",
+   "context": ", ⏎  ⏎ [[center]] AND TO WHOSE ACCURATE OBSERVATION ⏎  ⏎ [[center]] <sc>and notes</sc> ⏎  ⏎ [[center]] <sc>i am indebted for much that may be</sc> ⏎  ⏎ [["
+  },
+  {
+   "n": 8,
+   "kind": "words",
+   "find": "<sc>i am indebted for much that may be</sc>",
+   "replace": "I AM INDEBTED FOR MUCH THAT MAY BE",
+   "draft": "<sc>i am indebted for much that may be</sc>",
+   "verified": "I AM INDEBTED FOR MUCH THAT MAY BE",
+   "context": "HOSE ACCURATE OBSERVATION ⏎  ⏎ [[center]] AND NOTES ⏎  ⏎ [[center]] <sc>i am indebted for much that may be</sc> ⏎  ⏎ [[center]] <sc>found of interest</sc> ⏎  ⏎ [[center]] <sc>in t"
+  },
+  {
+   "n": 9,
+   "kind": "words",
+   "find": "<sc>found of interest</sc>",
+   "replace": "FOUND OF INTEREST",
+   "draft": "<sc>found of interest</sc>",
+   "verified": "FOUND OF INTEREST",
+   "context": " ⏎  ⏎ [[center]] I AM INDEBTED FOR MUCH THAT MAY BE ⏎  ⏎ [[center]] <sc>found of interest</sc> ⏎  ⏎ [[center]] <sc>in the following pages.</sc> ⏎ "
+  },
+  {
+   "n": 10,
+   "kind": "words",
+   "find": "<sc>in the following pages.</sc>",
+   "replace": "IN THE FOLLOWING PAGES.",
+   "draft": "<sc>in the following pages.</sc>",
+   "verified": "IN THE FOLLOWING PAGES.",
+   "context": " MUCH THAT MAY BE ⏎  ⏎ [[center]] FOUND OF INTEREST ⏎  ⏎ [[center]] <sc>in the following pages.</sc> ⏎ "
+  }
+ ],
+ "p0058": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "sensuous, toiling millions, the massacres and wars—the jewels and dross for which the nations of the world have striven!",
+   "replace": "sensuous,",
+   "draft": "sensuous, toiling millions, the massacres and wars—the jewels and dross for which the nations of the world have striven!",
+   "verified": "sensuous,",
+   "context": "ty, of glittering pageants and bowing crowds, the careless, sensuous, toiling millions, the massacres and wars—the jewels and dross for which the nations of the world have striven! ⏎  ⏎ [[image: The Kootub Minar, a tall tapering banded tower, w"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "[[caption]] The Kootub Column.",
+   "replace": "[[caption]] The Kootub Column.\n\n[[cont]]toiling millions, the massacres and wars—the jewels and dross for which the nations of the world have striven!",
+   "draft": "otub Column.",
+   "verified": "otub Column.\n\n[[cont]]toiling millions, the massacres and wars—the jewels and dross for which the nations of the world have striven!",
+   "context": "tower, with domed tombs and ruins among trees at its foot]] ⏎ [[caption]] The Kootub Column. ⏎  ⏎ There is a large and deep brick tank hard by, the ⏎ "
+  }
+ ],
+ "p0062": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[image: The Cashmere Gate at Delhi, a gateway with two pointed arches in a battlemented wall, with trees on either side]]\n[[caption]] Cashmere Gate.\n\nNot only",
+   "replace": "Not only",
+   "draft": "[[image: The Cashmere Gate at Delhi, a gateway with two pointed arches in a battlemented wall, with trees on either side]]\n[[caption]] Cashmere Gate.\n\nNot only",
+   "verified": "Not only",
+   "context": "n ocean, in whose righteous storms our rule may pass away! ⏎  ⏎ [[image: The Cashmere Gate at Delhi, a gateway with two pointed arches in a battlemented wall, with trees on either side]] ⏎ [[caption]] Cashmere Gate. ⏎  ⏎ Not only are the natives so obsequious, but the police everywhere th"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "salute us, as if",
+   "replace": "salute\n\n[[image: The Cashmere Gate at Delhi, a gateway with two pointed arches in a battlemented wall, with trees on either side]]\n[[caption]] Cashmere Gate.\n\n[[cont]]us, as if",
+   "draft": "salute us, as if",
+   "verified": "salute\n\n[[image: The Cashmere Gate at Delhi, a gateway with two pointed arches in a battlemented wall, with trees on either side]]\n[[caption]] Cashmere Gate.\n\n[[cont]]us, as if",
+   "context": "us, but the police everywhere throughout our line of travel salute us, as if we were military officers of distinction. When at Bombay we"
+  }
+ ],
+ "p0063": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "whose martial appearance",
+   "replace": "whose martial\n\n[[image: A bearded man in a turban, belted white tunic and trousers, standing facing the viewer]]\n[[caption]] A Native Policeman.\n\n[[cont]]appearance",
+   "draft": "hose martial appearance",
+   "verified": "hose martial\n\n[[image: A bearded man in a turban, belted white tunic and trousers, standing facing the viewer]]\n[[caption]] A Native Policeman.\n\n[[cont]]appearance",
+   "context": "he particular moment each thought it must have been himself whose martial appearance called forth this mistaken salute; the next moment he was s"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "and thought we\n\n[[image: A bearded man in a turban, belted white tunic and trousers, standing facing the viewer]]\n[[caption]] A Native Policeman.",
+   "replace": "and thought we",
+   "draft": "d thought we\n\n[[image: A bearded man in a turban, belted white tunic and trousers, standing facing the viewer]]\n[[caption]] A Native Policeman.",
+   "verified": "d thought we",
+   "context": "the same thing. Oh, how we felt drawn to those swarthy men, and thought we ⏎  ⏎ [[image: A bearded man in a turban, belted white tunic and trousers, standing facing the viewer]] ⏎ [[caption]] A Native Policeman. ⏎ "
+  }
+ ],
+ "p0086": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 5]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 5]]",
+   "context": "[[page ?]] ⏎  ⏎ # Chapter VI. ⏎  ⏎ [[subtitle]] The Holy City of the Hindus. ⏎  ⏎ "
+  }
+ ],
+ "p0088": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "holding their little brass pots",
+   "replace": "holding their\n\n[[image: an elderly turbaned Indian man, stooping, with a water-skin slung at his side, pouring water into a bowl on the ground]]\n[[caption]] A Water-carrier.\n\nlittle brass pots",
+   "draft": "olding their little brass",
+   "verified": "olding their\n\n[[image: an elderly turbaned Indian man, stooping, with a water-skin slung at his side, pouring water into a bowl on the ground]]\n[[caption]] A Water-carrier.\n\nlittle brass",
+   "context": "en and women, as can possibly be thrust out of the windows, holding their little brass pots for water, which a native official fills either from a skin"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "station. The\n\n[[image: an elderly turbaned Indian man, stooping, with a water-skin slung at his side, pouring water into a bowl on the ground]]\n[[caption]] A Water-carrier.",
+   "replace": "station. The",
+   "draft": "station. The\n\n[[image: an elderly turbaned Indian man, stooping, with a water-skin slung at his side, pouring water into a bowl on the ground]]\n[[caption]] A Water-carrier.",
+   "verified": "station. The",
+   "context": "ng of mouths, and a washing of hands. This goes on at every station. The ⏎  ⏎ [[image: an elderly turbaned Indian man, stooping, with a water-skin slung at his side, pouring water into a bowl on the ground]] ⏎ [[caption]] A Water-carrier. ⏎ "
+  }
+ ],
+ "p0135": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "slight diversity in his dress, and knowing that the same person would not be such a fool as to keep coming in half a dozen times to do what he might have done at once. The Chinaman is spoken of as being the best of servants, and is always addressed ‘boy.’",
+   "replace": "slight",
+   "draft": "slight diversity in his dress, and knowing that the same person would not be such a fool as to keep coming in half a dozen times to do what he might have done at once. The Chinaman is spoken of as being the best of servants, and is always addressed ‘boy.’",
+   "verified": "slight",
+   "context": "e. We are only able to tell it isn’t the same fellow by the slight diversity in his dress, and knowing that the same person would not be such a fool as to keep coming in half a dozen times to do what he might have done at once. The Chinaman is spoken of as being the best of servants, and is always addressed ‘boy.’ ⏎  ⏎ [[image: a traveller's palm with fan-shaped leaves in a gr"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "The Traveller’s Palm.",
+   "replace": "The Traveller’s Palm.\n\n[[cont]]diversity in his dress, and knowing that the same person would not be such a fool as to keep coming in half a dozen times to do what he might have done at once. The Chinaman is spoken of as being the best of servants, and is always addressed ‘boy.’",
+   "draft": "ller’s Palm.",
+   "verified": "ller’s Palm.\n\n[[cont]]diversity in his dress, and knowing that the same person would not be such a fool as to keep coming in half a dozen times to do what he might have done at once. The Chinaman is spoken of as being the best of servants, and is always addressed ‘boy.’",
+   "context": "ing, a man standing at its foot, trees behind]] ⏎ [[caption]] The Traveller’s Palm. ⏎  ⏎ We went to a Malay theatre in the evening, but it was so s"
+  }
+ ],
+ "p0138": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "and stabbing at all they meet, as one is given to understand they so often do.",
+   "replace": "and stabbing",
+   "draft": "and stabbing at all they meet, as one is given to understand they so often do.",
+   "verified": "and stabbing",
+   "context": "rderous creases, nor did we see any of them running ‘amuck’ and stabbing at all they meet, as one is given to understand they so often do. ⏎  ⏎ [[image: Malay houses built on piles over the water, with "
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "[[caption]] Native Houses.",
+   "replace": "[[caption]] Native Houses.\n\n[[cont]]at all they meet, as one is given to understand they so often do.",
+   "draft": "tive Houses.",
+   "verified": "tive Houses.\n\n[[cont]]at all they meet, as one is given to understand they so often do.",
+   "context": "ilt on piles over the water, with boats in the foreground]] ⏎ [[caption]] Native Houses. ⏎  ⏎ The Maharajah is a very courtly hospitable man of about fi"
+  }
+ ],
+ "p0140": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "bringing his own viands",
+   "replace": "bringing his\n\n[[image: a jinrickishaw, a two-wheeled hooded cart with long shafts, seen from the side]]\n[[caption]] Jinrickishaw.\n\n[[cont]]own viands",
+   "draft": "bringing his own viands",
+   "verified": "bringing his\n\n[[image: a jinrickishaw, a two-wheeled hooded cart with long shafts, seen from the side]]\n[[caption]] Jinrickishaw.\n\n[[cont]]own viands",
+   "context": "on</i> to tiffin next day, and everyone came! the Maharajah bringing his own viands and servants, to avoid the possibility of eating anything f"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "left us, amidst\n\n[[image: a jinrickishaw, a two-wheeled hooded cart with long shafts, seen from the side]]\n[[caption]] Jinrickishaw.",
+   "replace": "left us, amidst",
+   "draft": "t us, amidst\n\n[[image: a jinrickishaw, a two-wheeled hooded cart with long shafts, seen from the side]]\n[[caption]] Jinrickishaw.",
+   "verified": "t us, amidst",
+   "context": "ter tiffin we had a little dance, and at 2.30 the Maharajah left us, amidst ⏎  ⏎ [[image: a jinrickishaw, a two-wheeled hooded cart with long shafts, seen from the side]] ⏎ [[caption]] Jinrickishaw. ⏎ "
+  }
+ ],
+ "p0155": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "screwed to the wall to prevent",
+   "replace": "screwed to the\n\n[[image: Engraving of a ruined cathedral bell-tower, its upper storeys broken open and a great mass of fallen masonry lying at its foot]]\n[[caption]] The Cathedral Tower.\n\n[[cont]]wall to prevent",
+   "draft": "rewed to the wall to prev",
+   "verified": "rewed to the\n\n[[image: Engraving of a ruined cathedral bell-tower, its upper storeys broken open and a great mass of fallen masonry lying at its foot]]\n[[caption]] The Cathedral Tower.\n\n[[cont]]wall to prev",
+   "context": "aments, wardrobes, heavy furniture of all sorts, have to be screwed to the wall to prevent them flying about the room, and if not crushing you, breaki"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "treated us to\n\n[[image: Engraving of a ruined cathedral bell-tower, its upper storeys broken open and a great mass of fallen masonry lying at its foot]]\n[[caption]] The Cathedral Tower.",
+   "replace": "treated us to",
+   "draft": "reated us to\n\n[[image: Engraving of a ruined cathedral bell-tower, its upper storeys broken open and a great mass of fallen masonry lying at its foot]]\n[[caption]] The Cathedral Tower.",
+   "verified": "reated us to",
+   "context": "selves. We feel considerably hurt at our friends not having treated us to ⏎  ⏎ [[image: Engraving of a ruined cathedral bell-tower, its upper storeys broken open and a great mass of fallen masonry lying at its foot]] ⏎ [[caption]] The Cathedral Tower. ⏎ "
+  }
+ ],
+ "p0174": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "quite faint. What must they be",
+   "replace": "quite faint. What\n\n[[image: A barefoot Chinese water-carrier with a pole across his shoulders, a wooden bucket hanging from each end]]\n[[caption]] John.\n\n[[cont]]must they be",
+   "draft": " faint. What must they be",
+   "verified": " faint. What\n\n[[image: A barefoot Chinese water-carrier with a pole across his shoulders, a wooden bucket hanging from each end]]\n[[caption]] John.\n\n[[cont]]must they be",
+   "context": "ocation-point. They are so frequent, that it makes one feel quite faint. What must they be during the hotter weather? and yet they say there is no fev"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "create wonder.\n\n[[image: A barefoot Chinese water-carrier with a pole across his shoulders, a wooden bucket hanging from each end]]\n[[caption]] John.\n\nLooking",
+   "replace": "create wonder.\n\nLooking",
+   "draft": "te wonder.\n\n[[image: A barefoot Chinese water-carrier with a pole across his shoulders, a wooden bucket hanging from each end]]\n[[caption]] John.\n\nLooking",
+   "verified": "te wonder.\n\nLooking",
+   "context": "lf an inch wide; these soon become so common as to cease to create wonder. ⏎  ⏎ [[image: A barefoot Chinese water-carrier with a pole across his shoulders, a wooden bucket hanging from each end]] ⏎ [[caption]] John. ⏎  ⏎ Looking for a moment from the surging crowd, as ⏎ "
+  }
+ ],
+ "p0179": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "days ago, The body",
+   "replace": "days ago. The body",
+   "draft": "days ago, The body",
+   "verified": "days ago. The body",
+   "context": "he blood of some poor wretch who had his head cut off a few days ago, The body is returned to his family, the head being kept in a jar aga"
+  }
+ ],
+ "p0198": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 12]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 12]]",
+   "context": "[[page ?]] ⏎ [[image: Engraving of a Japanese street beside a stream, wi"
+  }
+ ],
+ "p0213": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "tired to death, to the hotel",
+   "replace": "tired, to death, to the hotel",
+   "draft": "tired to death, t",
+   "verified": "tired, to death, t",
+   "context": "ir happy ornamentation. ⏎  ⏎ After a very hard day we get back, tired to death, to the hotel, which is just outside the town, on a beautifully wooded mo"
+  }
+ ],
+ "p0214": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 13]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 13]]",
+   "context": "[[page ?]] ⏎ [[image: Engraving of a long street of shops and houses in "
+  }
+ ],
+ "p0220": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "<i>Ceylon.</i>—Curio",
+   "replace": "<i>Ceylon,</i>—Curio",
+   "draft": "<i>Ceylon.</i>—Curio",
+   "verified": "<i>Ceylon,</i>—Curio",
+   "context": " Mint.—The Castle.—The Fast Young Man of Japan.—Back to the <i>Ceylon.</i>—Curio Dealers and their Failings. ⏎  ⏎ [[right]] March 16, 1882. ⏎  ⏎ T<s"
+  }
+ ],
+ "p0232": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "and that he was not able",
+   "replace": "and that he\n\n[[image: a Japanese man standing, seen from behind and turning his head, wearing a robe with stiff wide shoulders and a long sword at his waist, his sandals on the ground beside him]]\n[[caption]] A Daimio.\n\n[[cont]]was not able",
+   "draft": "and that he was not able",
+   "verified": "and that he\n\n[[image: a Japanese man standing, seen from behind and turning his head, wearing a robe with stiff wide shoulders and a long sword at his waist, his sandals on the ground beside him]]\n[[caption]] A Daimio.\n\n[[cont]]was not able",
+   "context": " into our rooms during the night—he supposed from curiosity—and that he was not able to sleep much in consequence. Early in the morning, after a"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "about four\n\n[[image: a Japanese man standing, seen from behind and turning his head, wearing a robe with stiff wide shoulders and a long sword at his waist, his sandals on the ground beside him]]\n[[caption]] A Daimio.",
+   "replace": "about four",
+   "draft": "about four\n\n[[image: a Japanese man standing, seen from behind and turning his head, wearing a robe with stiff wide shoulders and a long sword at his waist, his sandals on the ground beside him]]\n[[caption]] A Daimio.",
+   "verified": "about four",
+   "context": "inspect our ‘horses,’ now at their breakfast, consisting of about four ⏎  ⏎ [[image: a Japanese man standing, seen from behind and turning his head, wearing a robe with stiff wide shoulders and a long sword at his waist, his sandals on the ground beside him]] ⏎ [[caption]] A Daimio. ⏎ "
+  }
+ ],
+ "p0239": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "great pretensions",
+   "replace": "great\n\n[[image: A young Japanese man seated on the floor by paper screens, holding a bowl, with a low table, dishes and a hanging scroll]]\n[[caption]] A Young Blood at Home.\n\n[[cont]]pretensions",
+   "draft": "great pretensions",
+   "verified": "great\n\n[[image: A young Japanese man seated on the floor by paper screens, holding a bowl, with a low table, dishes and a hanging scroll]]\n[[caption]] A Young Blood at Home.\n\n[[cont]]pretensions",
+   "context": "lilliputian. ⏎  ⏎ We dined at a Japanese hotel, carried on with great pretensions in the English style. As English is the Court language here"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "raising their\n\n[[image: A young Japanese man seated on the floor by paper screens, holding a bowl, with a low table, dishes and a hanging scroll]]\n[[caption]] A Young Blood at Home.",
+   "replace": "raising their",
+   "draft": "aising their\n\n[[image: A young Japanese man seated on the floor by paper screens, holding a bowl, with a low table, dishes and a hanging scroll]]\n[[caption]] A Young Blood at Home.",
+   "verified": "aising their",
+   "context": "ng in the world to hear them order their dinner in English, raising their ⏎  ⏎ [[image: A young Japanese man seated on the floor by paper screens, holding a bowl, with a low table, dishes and a hanging scroll]] ⏎ [[caption]] A Young Blood at Home. ⏎ "
+  }
+ ],
+ "p0241": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "coming on board, we fear but a poor equivalent for what was given for them.",
+   "replace": "coming",
+   "draft": "coming on board, we fear but a poor equivalent for what was given for them.",
+   "verified": "coming",
+   "context": "rk cabinets and curios, representing a great deal of money, coming on board, we fear but a poor equivalent for what was given for them. ⏎  ⏎ [[image: A man in a straw hat and light suit lounging cros"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "[[caption]] A Young Dandy.",
+   "replace": "[[caption]] A Young Dandy.\n\n[[cont]]on board, we fear but a poor equivalent for what was given for them.",
+   "draft": "Young Dandy.",
+   "verified": "Young Dandy.\n\n[[cont]]on board, we fear but a poor equivalent for what was given for them.",
+   "context": "h bottles and a glass, framed pictures on the wall behind]] ⏎ [[caption]] A Young Dandy. ⏎  ⏎ [[right]] March 18, 1882. ⏎  ⏎ Mr. Hughes, the leading merchan"
+  }
+ ],
+ "p0274": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": " the screw began to go round, and we were once more off; this time on the longest voyage of our tour.",
+   "replace": "",
+   "draft": " the screw began to go round, and we were once more off; this time on the longest voyage of our tour.",
+   "verified": "",
+   "context": "now</i> everything was; all going for an old song. At 2 p.m. the screw began to go round, and we were once more off; this time on the longest voyage of our tour. ⏎  ⏎ [[image: a Japanese woman in a kimono, standing and holdin"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "[[caption]] Sionara!",
+   "replace": "[[caption]] Sionara!\n\n[[cont]] the screw began to go round, and we were once more off; this time on the longest voyage of our tour.",
+   "draft": "n]] Sionara!",
+   "verified": "n]] Sionara!\n\n[[cont]] the screw began to go round, and we were once more off; this time on the longest voyage of our tour.",
+   "context": "apanese woman in a kimono, standing and holding a parasol]] ⏎ [[caption]] Sionara! ⏎  ⏎ It was a lovely afternoon, with bright sun and a calm and "
+  }
+ ],
+ "p0284": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<i>Hinc illæ lachrymæ!</i>",
+   "replace": "<i>Hinc illœ lachrymœ!</i>",
+   "draft": "<i>Hinc illæ lachrymæ!</i>",
+   "verified": "<i>Hinc illœ lachrymœ!</i>",
+   "context": "intment to, I think, everyone on board throughout our tour. <i>Hinc illæ lachrymæ!</i> ⏎  ⏎ Even ‘Mark Twain’ seems to have been not a little infected"
+  }
+ ],
+ "p0339": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "do</sc>!",
+   "replace": "do</sc>!’",
+   "draft": "do</sc>!",
+   "verified": "do</sc>!’",
+   "context": "er games. ⏎  ⏎ [[center]] ‘Y<sc>ou will surely be robbed if you do</sc>!’ ⏎  ⏎ At one of the stations, <i>en route</i>, we joined in the"
+  }
+ ],
+ "p0345": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "we are ordinary waitresses.",
+   "replace": "we are ordinary waitresses.’",
+   "draft": " waitresses.",
+   "verified": " waitresses.’",
+   "context": "‘May I have some bread, please?’ ⏎  ⏎ ‘Yes, but don’t you think we are ordinary waitresses.’ ⏎  ⏎ Continual sparring like this when anything was wanted, an"
+  }
+ ],
+ "p0369": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[center]] <sc>billing and sons, printers, guildford and london.</sc>",
+   "replace": "[[center]] BILLING AND SONS, PRINTERS, GUILDFORD AND LONDON.",
+   "draft": "[[center]] <sc>billing and sons, printers, guildford and london.</sc>",
+   "verified": "[[center]] BILLING AND SONS, PRINTERS, GUILDFORD AND LONDON.",
+   "context": "ppy journey together of 28,000 miles. ⏎  ⏎ [[center]] THE END. ⏎  ⏎ [[center]] <sc>billing and sons, printers, guildford and london.</sc> ⏎ "
+  }
+ ]
+}

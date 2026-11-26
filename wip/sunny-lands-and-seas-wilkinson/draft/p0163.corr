@@ -1,0 +1,4 @@
+{"find": "[[page ?]]\n\n136 SUNNY LANDS AND SEAS.\n\nleading", "replace": "[[page 136]]\n\n[[cont]] leading"}
+{"find": "‘ We had", "replace": "‘We had"}
+{"find": "mile across. ‘", "replace": "mile across."}
+{"find": "Imust", "replace": "I must"}
