@@ -1,0 +1,5 @@
+{"given": "An euergetic missionary told us", "print": "An energetic missionary told us", "sure": "high"}
+{"given": "that he had bad to learn", "print": "that he had had to learn", "sure": "high"}
+{"given": "with our kind friend guide, Mr. Symons,", "print": "with our kind friend and guide, Mr. Symons,", "sure": "high"}
+{"given": "I think shock anyone who tries", "print": "I think shock any one who tries", "sure": "high"}
+{"given": "Dr. A. F. Cole; who is", "print": "Dr. A. F. Cole, who is", "sure": "high"}

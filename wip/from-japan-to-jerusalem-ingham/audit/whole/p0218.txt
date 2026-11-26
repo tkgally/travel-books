@@ -1,0 +1,5 @@
+{"given": "There are many touehing monuments here.", "print": "There are many touching monuments here.", "sure": "high"}
+{"given": "how great those memories are!", "print": "how great these memories are!", "sure": "high"}
+{"given": "Rev. P. Ireland Jones; the Secretary", "print": "Rev. P. Ireland Jones, the Secretary", "sure": "high"}
+{"given": "great snow fields are open our view", "print": "great snow fields are open to our view", "sure": "high"}
+{"given": "into a great military center.", "print": "into a great military centre.", "sure": "high"}

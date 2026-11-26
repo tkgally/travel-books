@@ -1,0 +1,6 @@
+{"given": "Chapter VIII.", "print": "CHAPTER VIII.", "sure": "low"}
+{"given": "destroyed. Be heard the guns", "print": "destroyed. He heard the guns", "sure": "high"}
+{"given": "one was amazed at number of temples", "print": "one was amazed at the number of temples", "sure": "high"}
+{"given": "de novo. Today a festival", "print": "de novo. To-day a festival", "sure": "high"}
+{"given": "placing in their soekets of immense", "print": "placing in their sockets of immense", "sure": "high"}
+{"given": "the people is tremendous; and a", "print": "the people is tremendous, and a", "sure": "high"}

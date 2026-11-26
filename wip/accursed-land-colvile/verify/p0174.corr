@@ -1,0 +1,9 @@
+{"find": "pushed on, and as he saw", "replace": "pushed on, and as he saw"}
+
+Wait, that's no change. Corrections:
+
+{"find": "on, and as he saw", "replace": "on, and as he saw"}
+
+Let me give the actual diff: the draft has "started northwards" fine; "pushed on, and as he saw" in the image has no comma after "on"? The image shows "pushed on, and as he saw" — the draft has "pushed on, and as he saw". The real differences are "manœuvre" (image: "manœuvre"; draft matches) and "evidently in the conspiracy" (matches). The only difference I found is "Peacocke and Cash at once pushed on, and as he saw" versus the draft's "pushed on, and as he saw" — identical. So:
+
+NONE

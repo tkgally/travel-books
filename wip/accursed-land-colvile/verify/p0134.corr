@@ -1,0 +1,3 @@
+Two things differ from the page: the last word "deposited" and the "talus" italic in the second sentence match, but the draft ends "the deposited" correctly, so the real differences are these.
+
+{"find": "their respective <i>talus</i>, are", "replace": "their respective <i>talus,</i> are"}
