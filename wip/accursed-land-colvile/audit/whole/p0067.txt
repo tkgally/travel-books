@@ -1,5 +1,0 @@
-{"given": "to the shouts of the bedwin who", "print": "to the shouts of the Bedwin who", "sure": "high"}
-{"given": "and was glad find that it", "print": "and was glad to find that it", "sure": "high"}
-{"given": "for observing or sleep; as I felt", "print": "for observing or sleep, as I felt", "sure": "high"}
-{"given": "to work on; this very slowness makes", "print": "to work on; his very slowness makes", "sure": "high"}
-{"given": "all worldly things, exccpt", "print": "all worldly things, except", "sure": "high"}

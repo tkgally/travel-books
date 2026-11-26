@@ -1,6 +1,0 @@
-{"find": "discomfort of myself, and", "replace": "discomfort of myself, and"}
-{"find": "myself off a Moorish", "replace": "myself off a Moorish"}
-
-Wait — those two are no-ops. Correct list:
-
-{"find": "annihilation of my hat", "replace": "annihilation of my hat"}

@@ -1,5 +1,0 @@
-{"given": "of the Bedwin provcd to be", "print": "of the Bedwin proved to be", "sure": "high"}
-{"given": "imagine my surprize, then, on", "print": "imagine my surprise, then, on", "sure": "high"}
-{"given": "according to them I bad risen", "print": "according to them I had risen", "sure": "high"}
-{"given": "their readings show rise, but each", "print": "their readings show a rise, but each", "sure": "high"}
-{"given": "and our eyes; in which we", "print": "and our eyes, in which we", "sure": "high"}

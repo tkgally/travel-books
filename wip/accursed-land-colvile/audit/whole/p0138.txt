@@ -1,5 +1,0 @@
-{"given": "the Wady el houar, empties", "print": "the Wady el Houar, empties", "sure": "high"}
-{"given": "into the narrowest part the strait", "print": "into the narrowest part of the strait", "sure": "high"}
-{"given": "vertically far faster then the others", "print": "vertically far faster than the others", "sure": "high"}
-{"given": "which the sea flowed; can hardly", "print": "which the sea flowed, can hardly", "sure": "high"}
-{"given": "narrow, probably barcly 1000 yards across", "print": "narrow, probably barely 1000 yards across", "sure": "high"}
