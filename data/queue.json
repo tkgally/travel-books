@@ -1911,10 +1911,11 @@
    "place": "New York",
    "publisher": "Fords, Howard, & Hulbert",
    "images": 336,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-25",
-   "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): none. Wikisource: none. Reprints: Kessinger, Forgotten Books (print on demand). Exact-sentence web search: nothing. Sarah Matilda Henry Davis: death date not found; she published in 1859, so born before 1856 (rule 5). THE KREMLIN ENGRAVING IS SIGNED BY AN ARTIST NOT YET IDENTIFIED: identify the illustrators before starting. Tom, 2026-11-26: every author, artist and photographer of a pre-1914 book is assumed dead more than 70 years; the unidentified credit above no longer holds the book back.",
-   "note": "Library of Congress scan, colour, 400 ppi; pp. 325; 35 full-page wood engravings counted in the pagination, some sideways. Three American women in summer 1886: Christiania, Telemark, Gudbrandsdal, Trondhjem, the Lapps, North Cape, Sweden, St Petersburg and Moscow."
+   "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): none. Wikisource: none. Reprints: Kessinger, Forgotten Books (print on demand). Exact-sentence web search: nothing. Sarah Matilda Henry Davis: death date not found; she published in 1859, so born before 1856 (rule 5). THE KREMLIN ENGRAVING IS SIGNED BY AN ARTIST NOT YET IDENTIFIED: identify the illustrators before starting. Tom, 2026-11-26: every author, artist and photographer of a pre-1914 book is assumed dead more than 70 years; the unidentified credit above no longer holds the book back. Re-checked 2026-11-26: pg_catalog.csv (full) none; web search none.",
+   "note": "Library of Congress scan, colour, 400 ppi; pp. 325; 35 full-page wood engravings counted in the pagination, some sideways. Three American women in summer 1886: Christiania, Telemark, Gudbrandsdal, Trondhjem, the Lapps, North Cape, Sweden, St Petersburg and Moscow.",
+   "started": "2026-11-26"
   },
   {
    "order": 104,
