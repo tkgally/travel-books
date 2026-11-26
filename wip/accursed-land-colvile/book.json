@@ -68,6 +68,77 @@
    "title": "The book’s title above Chapter I"
   },
   {
+   "at": "p0021",
+   "kind": "chapter",
+   "toc_title": "Chapter I. Introduction",
+   "n": 2
+  },
+  {
+   "at": "p0033",
+   "kind": "chapter",
+   "toc_title": "Chapter II. Suez to Ayoun Musa"
+  },
+  {
+   "at": "p0053",
+   "kind": "chapter",
+   "toc_title": "Chapter III. El Drahah to Ras el Barrah"
+  },
+  {
+   "at": "p0071",
+   "kind": "chapter",
+   "toc_title": "Chapter IV. Sinai and the Wady el Ain"
+  },
+  {
+   "at": "p0091",
+   "kind": "chapter",
+   "toc_title": "Chapter V. El Kuryeh and Akabah"
+  },
+  {
+   "at": "p0125",
+   "kind": "chapter",
+   "toc_title": "Chapter VI. Description of the Wady el Arabah"
+  },
+  {
+   "at": "p0148",
+   "kind": "chapter",
+   "toc_title": "Chapter VII. Up the Wady el Arabah"
+  },
+  {
+   "at": "p0169",
+   "kind": "chapter",
+   "toc_title": "Chapter VIII. The First Watershed and Ain Ghudiân"
+  },
+  {
+   "at": "p0194",
+   "kind": "chapter",
+   "toc_title": "Chapter IX. Rishi, Wady Ghurundel, and Wady Houar"
+  },
+  {
+   "at": "p0217",
+   "kind": "chapter",
+   "toc_title": "Chapter X. Wady Jerafeh and the End of the Journey"
+  },
+  {
+   "at": "p0241",
+   "kind": "chapter",
+   "toc_title": "Chapter XI. Thlah and Lehyana: A Line for a Railway"
+  },
+  {
+   "at": "p0263",
+   "kind": "chapter",
+   "toc_title": "Chapter XII. Back to the Gulf; El Kantera to Abumazarîk"
+  },
+  {
+   "at": "p0283",
+   "kind": "chapter",
+   "toc_title": "Chapter XIII. Abumazarik to Bir Abasseyeh"
+  },
+  {
+   "at": "p0305",
+   "kind": "chapter",
+   "toc_title": "Chapter XIV. Nakh’l and Back to Africa"
+  },
+  {
    "at": "p0319",
    "kind": "appendix"
   }

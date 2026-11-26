@@ -1751,11 +1751,13 @@
    "place": "London",
    "publisher": "Church Missionary Society",
    "images": 284,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-23",
    "eligibility": "JATSI 237. Rules 1–4 met. Rule 1: University of California scan, 400 ppi colour, jp2 zip; pp. 1–232 continuous (scandata). Rule 2: not in pg_catalog.csv (full); The Online Books Page none; Wikisource none (web site search); exact-phrase search none; missiology.org.uk has a PDF (apparently the scan; doesn't count). Rule 3: Forgotten Books only. Rule 4: first-person dated diary of a 1909–10 CMS tour; Japan pp. 19–69 of 232. Rule 5 n/a: Ingham 1851–1926. Searched 2026-11-23 (Opus subagent). Not checked: Faded Page, WorldCat, DP in progress. Re-checked 2026-11-26: pg_catalog.csv (full) none; a web search found only the reprints and the scan copies already noted.",
    "note": "232 pp., 28 chapters in five parts, about 30 photographic plates two to a leaf (frontispiece photo by Rev. A. R. Wood, dates not found): check every plate at the scan check. Plain layout, dated diary headings, a few footnotes.",
-   "started": "2026-11-26"
+   "started": "2026-11-26",
+   "version": 1,
+   "published": "2026-11-26"
   },
   {
    "order": 95,

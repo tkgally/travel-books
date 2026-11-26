@@ -1,8 +1,0 @@
-{"find": "Mr. Hadow has", "replace": "Mr. Hadow has"}
-{"find": "at great personal cost", "replace": "at great personal cost"}
-{"find": "Mr. Hadow", "replace": "Mr. Hadow"}
-{"find": "he did this at personal cost", "replace": "he did this at personal cost"}
-
-Wait — I need to give only real corrections. The draft differs in one place:
-
-{"find": "he did this at great personal cost", "replace": "he did this at great personal cost"}

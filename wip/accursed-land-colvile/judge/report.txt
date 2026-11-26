@@ -1,0 +1,2 @@
+judge opus: 1 spots on 1 pages: {'draft': 1}; cost $0.04
+p0198 #1 [draft, sure: high] draft 'Wady Byân' | verified 'Wady Byan' | judge reads 'Wady Byân'

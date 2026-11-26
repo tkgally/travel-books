@@ -1,5 +1,0 @@
-{"given": "Bishop Graves presided; and my speech", "print": "Bishop Graves presided, and my speech", "sure": "high"}
-{"given": "called upon to make or this day.", "print": "called upon to make on this day.", "sure": "high"}
-{"given": "of the very fresbest and best.", "print": "of the very freshest and best.", "sure": "high"}
-{"given": "text, ‘Have faith God.’ I saw", "print": "text, ‘Have faith in God.’ I saw", "sure": "high"}
-{"given": "and in connection with C.M.S. work", "print": "and in connexion with C.M.S. work", "sure": "high"}

@@ -1,5 +1,0 @@
-{"find": "extemporized", "replace": "extemporized"}
-
-Wait — the scan reads "extemporized" with an "x" and an "m"; let me restate precisely.
-
-{"find": "our extemporized <i>déjeuner.</i>", "replace": "our extemporized <i>déjeuner.</i>"}
