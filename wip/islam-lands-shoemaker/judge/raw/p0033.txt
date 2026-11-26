@@ -1,0 +1,1 @@
+{"n": 1, "is": "A", "print": "[[right]] From a photograph by Miss Helen Parmelee\n\n[[caption]] The Banks of the Nile", "sure": "high"}

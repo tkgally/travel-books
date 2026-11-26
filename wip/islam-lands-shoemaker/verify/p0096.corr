@@ -1,0 +1,9 @@
+{"find": "or a bolt or a sit down", "replace": "or a bolt or a sit down"}
+{"find": "heads or a bolt", "replace": "heads or a bolt"}
+{"find": "P——’s", "replace": "P——’s"}
+{"find": "minute or so. To-day", "replace": "minute or so. To-day"}
+{"find": "every minute or so", "replace": "every minute or so"}
+
+Wait — I need to give only the real corrections. Corrected list:
+
+{"find": "or a bolt or a sit down", "replace": "or a bolt or a sit down"}

@@ -1,0 +1,6 @@
+{"find": "I nearly clear the entire lot", "replace": "I nearly clear the entire lot"}
+{"find": "in order to the more effectually", "replace": "in order to the more effectually"}
+
+Wait — I need to list only actual changes. The page shows two differences: "clear the entire lot" matches, and "to the more effectually" matches too. Here is the corrected list:
+
+{"find": "nearly clear the entire lot of donkeys next time.", "replace": "nearly clear the entire lot of donkeys next time."}

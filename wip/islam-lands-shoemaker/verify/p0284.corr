@@ -1,0 +1,12 @@
+{"find": "Jumma Musjid", "replace": "Jumma Musjid"}
+{"find": "Jumma", "replace": "Jumma"}
+
+Wait, the image reads "Jumma". Checking again: the image shows "Jumma", which matches the draft. The other difference is in the word "graceful".
+
+{"find": "the graceful minarets", "replace": "the graceful minarets"}
+
+Corrected list below, containing only real differences:
+
+{"find": "Jumma Musjid", "replace": "Jumma Musjid"}
+
+NONE

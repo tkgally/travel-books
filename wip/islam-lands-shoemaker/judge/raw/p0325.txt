@@ -1,0 +1,3 @@
+The photo credit line is printed above the caption, so the order in B matches the page.
+
+{"n": 1, "is": "B", "print": "[[right]] From a photograph by the Author\n[[caption]] Chabet Gorge", "sure": "high"}
