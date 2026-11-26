@@ -1,0 +1,2 @@
+{"n": 1, "is": "A", "print": " Daukhan and\n\n[[image: Photograph of a river with a canoe and swimming horses, a wooded hill beyond and a stony beach in the foreground]]\n[[caption]] Horses Swimming the Pine River\n\n[[cont]]John ferried", "sure": "high"}
+{"n": 2, "is": "B", "print": "tobacco—an", "sure": "high"}

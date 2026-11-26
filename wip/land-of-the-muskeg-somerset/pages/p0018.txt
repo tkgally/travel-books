@@ -1,0 +1,47 @@
+[[page xii]]
+
+<sc>john says good-bye</sc> <pref>219</pref>
+
+<sc>fort mcleod</sc> <pref>220</pref>
+
+<sc>robert ramsey</sc> <pref>223</pref>
+
+<sc>on a good trail</sc> <pref>225</pref>
+
+<sc>carrier indians</sc> <pref>227</pref>
+
+<sc>a pair of tweezers</sc> <pref>228</pref>
+
+<sc>a prehistoric microbe</sc> <pref>230</pref>
+
+<sc>stone spear and arrow heads</sc> <pref>230</pref>
+
+<sc>dream necklace</sc> <pref>232</pref>
+
+<sc>chilcotin pipe</sc> <pref>235</pref>
+
+<sc>wooden comb</sc> <pref>236</pref>
+
+<sc>on the frazer in a dug-out</sc> <pref>238</pref>
+
+<sc>nearly a mile broad</sc> <pref>240</pref>
+
+‘<sc>the river dropped out of sight over a fall</sc>’ <pref>241</pref>
+
+‘<sc>smooth water some miles below</sc>’ <pref>244</pref>
+
+<sc>bone minnow</sc> <pref>245</pref>
+
+<sc>spear head</sc> <pref>246</pref>
+
+<sc>castorum case</sc> <pref>248</pref>
+
+## Maps
+
+<sc>map of british columbia, alberta, and athabaska</sc> <i>to face page</i> <pref>1</pref>
+
+<sc>edmonton to dunvegan</sc> „ <pref>14</pref>
+
+<sc>dunvegan to fort mcleod</sc> „ <pref>56</pref>
+
+<sc>fort mcleod to fort george and quesnelle mouth</sc> „ <pref>237</pref>

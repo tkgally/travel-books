@@ -1,0 +1,111 @@
+{
+ "id": "land-of-the-muskeg-somerset",
+ "version": 1,
+ "date": "2026-11-26",
+ "title": "The Land of the Muskeg",
+ "short_title": "The Land of the Muskeg",
+ "authors": [
+  {
+   "name": "H. Somers Somerset",
+   "sort": "Somerset, H. Somers",
+   "born": 1874,
+   "died": 1945
+  }
+ ],
+ "place": "London",
+ "publisher": "William Heinemann",
+ "year": 1895,
+ "edition_statement": "First edition",
+ "regions": [
+  "Canada"
+ ],
+ "period": "1893",
+ "subjects": [
+  "Athabasca Landing",
+  "Peace River",
+  "Pine River",
+  "Rocky Mountains",
+  "Hunting"
+ ],
+ "summary": "In 1893 H. Somers Somerset and his friend A. Hungerford Pollen set out from Athabasca Landing, north of Edmonton, with two other companions, a guide, hired men, and an Indian hunter, Daukhan, to travel by the Peace River and the Pine River across the Rocky Mountains into northern British Columbia. The book follows the journey with pack-horses and by canoe through swamp and muskeg, the hunting, the long struggle over the mountains with failing horses and short food, and the descent of the rivers to Fort McLeod, Fort George, and Quesnel. Later chapters are a journal kept day by day. Pollen wrote the preface and made most of the sketches; there are also photographs and four maps.",
+ "source": {
+  "ia_identifier": "31221012772286",
+  "contributor": "Edmonton Public Library",
+  "hidden_leaves": [
+   0,
+   319
+  ],
+  "extra_leaves": {
+   "p0055a": {
+    "ia_identifier": "landofmuskeg00someuoft",
+    "n": 58,
+    "what": "printed p. 15, not photographed in this copy (the map facing p. 14 lies over it)"
+   }
+  }
+ },
+ "frontispiece": "p0008-1",
+ "omitted_from_reading": "The half-title, the printed contents, the list of illustrations, and the publisher’s list at the end are in the JSON only.",
+ "notes_on_text": [
+  "Page 15 is missing from the scanned copy (the map facing p. 14 was photographed lying over it); it is taken from the University of Toronto copy (Internet Archive, landofmuskeg00someuoft), as is the map “Edmonton to Dunvegan,” whose top is cut off in the scanned copy."
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-26",
+   "note": "First publication."
+  }
+ ],
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "front",
+   "title": "Half-title"
+  },
+  {
+   "at": "p0009",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0011",
+   "kind": "dedication",
+   "title": "Dedication"
+  },
+  {
+   "at": "p0013",
+   "kind": "contents"
+  },
+  {
+   "at": "p0015",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0019",
+   "kind": "preface"
+  },
+  {
+   "at": "p0039",
+   "kind": "front",
+   "title": "Map",
+   "reading": true
+  },
+  {
+   "at": "p0293",
+   "kind": "advertisements"
+  }
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0007",
+   "why": "the Internet Archive's digitization sheet, not part of the book"
+  },
+  {
+   "check": "leaves",
+   "match": "p0040",
+   "why": "a second, half-folded photograph of the map on p0039"
+  }
+ ],
+ "keep_hyphens": [
+  "p0056"
+ ]
+}

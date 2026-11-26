@@ -1,0 +1,3 @@
+Caption is "Good-bye" vs "GOOD-BYE" — the print reads "GOOD-BYE", so the draft's "Good-bye" is wrong.
+
+{"find": "Good-bye", "replace": "Good-Bye"}

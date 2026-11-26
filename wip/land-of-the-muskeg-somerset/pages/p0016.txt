@@ -1,0 +1,65 @@
+[[page x]]
+
+<sc>nistamapu</sc> <pref>39</pref>
+
+<sc>albert tait</sc> <pref>40</pref>
+
+<sc>fort dunvegan</sc> <pref>42</pref>
+
+<sc>a fish spear</sc> <pref>44</pref>
+
+<sc>chief tranquille</sc> <pref>50</pref>
+
+<sc>twelvefoot davis</sc> <pref>51</pref>
+
+<sc>john the baptist’s daughters</sc> <pref>53</pref>
+
+<sc>round and pollen packing</sc> <pref>57</pref>
+
+‘<sc>the horses were heavily laden</sc>’ <pref>60</pref>
+
+‘<sc>many of the trees were rotting</sc>’ <pref>61</pref>
+
+‘<sc>the grass was long and very tiring</sc>’ <pref>64</pref>
+
+‘<sc>we moved on about five miles</sc>’ <pref>65</pref>
+
+<sc>the prairie</sc> <pref>68</pref>
+
+‘<sc>he had only the small muzzle-loader</sc>’ <pref>71</pref>
+
+‘<sc>the huge animal rolled over dead</sc>’ <pref>72</pref>
+
+<sc>indian ice scoop</sc> <pref>76</pref>
+
+‘<sc>far beyond we could see the low foot-hills</sc>’ <pref>78</pref>
+
+<sc>mosquito nets</sc> <pref>79</pref>
+
+<sc>an evening camp</sc> <pref>83</pref>
+
+‘<sc>about midday we descended into an open flat</sc>’ <pref>87</pref>
+
+<sc>horses swimming the pine river</sc> <pref>89</pref>
+
+<sc>john and daukhan in the canoe</sc> <pref>92</pref>
+
+<sc>fish spear</sc> <pref>96</pref>
+
+<sc>our camp in the valley</sc> <pref>101</pref>
+
+<sc>getting ready for moberley’s lake</sc> <pref>103</pref>
+
+<sc>track of a grizzly</sc> <pref>104</pref>
+
+<sc>in open country</sc> <pref>109</pref>
+
+<sc>birch-bark roggans</sc> <pref>112</pref>
+
+<sc>harpoon points</sc> <pref>119</pref>
+
+<sc>john</sc> <pref>122</pref>
+
+<sc>allah’s mother</sc> <pref>125</pref>
+
+<sc>allah’s wife</sc> <pref>127</pref>
