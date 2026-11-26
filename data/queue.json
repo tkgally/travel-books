@@ -2168,10 +2168,11 @@
    "place": "Boston",
    "publisher": "Lee and Shepard",
    "images": 186,
-   "status": "queued",
-   "checked": "2026-11-26",
-   "eligibility": "Vetted 2026-11-26 (Opus subagent). pg_catalog.csv (mirror, whole): none. Online Books Page: IA and HathiTrust page images only. Wikisource: no hits. Web search of a sentence (\"In the Azores every thing is novel, and nothing is new\"): no text. Open Library: 1882, then Franklin Classics / Creative Media Partners print-on-demand only. Faded Page not checkable.",
-   "note": "Library of Congress scan, 650 ppi, 186 leaves (16mo, 174 pp.), no illustrations. Dated diary headings; verse quotations here and there. A New England teacher's summer on Fayal, Pico, Terceira and San Miguel, sailing from Boston, with a short visit to Madeira."
+   "status": "in progress",
+   "checked": "2026-11-27",
+   "eligibility": "Vetted 2026-11-26 (Opus subagent). pg_catalog.csv (mirror, whole): none. Online Books Page: IA and HathiTrust page images only. Wikisource: no hits. Web search of a sentence (\"In the Azores every thing is novel, and nothing is new\"): no text. Open Library: 1882, then Franklin Classics / Creative Media Partners print-on-demand only. Faded Page not checkable. Re-checked 2026-11-27: pg_catalog.csv (pglaf mirror) none; web search: scans only, no transcription or new edition.",
+   "note": "Library of Congress scan, 650 ppi, 186 leaves (16mo, 174 pp.), no illustrations. Dated diary headings; verse quotations here and there. A New England teacher's summer on Fayal, Pico, Terceira and San Miguel, sailing from Boston, with a short visit to Madeira.",
+   "started": "2026-11-27"
   },
   {
    "order": 119,
@@ -2198,10 +2199,11 @@
    "place": "Concord, N.H.",
    "publisher": "Israel S. Boyd and William White",
    "images": 166,
-   "status": "queued",
-   "checked": "2026-11-26",
-   "eligibility": "Vetted 2026-11-26 (Opus subagent). pg_catalog.csv: none. Online Books Page: none. Wikisource: no hits. Web search of a sentence: no text. Reprints: Creative Media Partners 2022 and a facsimile (print-on-demand). Canadiana, Toronto PL and Memorial University: scans only. Faded Page not checkable.",
-   "note": "Thomas Fisher Library (Toronto) scan, 650 ppi, 166 leaves (xi + 156 pp.), no illustrations; small close print: check the scan at high zoom. A young American divinity student, sent to sea for his health, sails on a fishing schooner to Labrador and Newfoundland: fishing, hunting, settlers' customs, Louisbourg on the way home. Part narrative, part description of the fisheries."
+   "status": "in progress",
+   "checked": "2026-11-27",
+   "eligibility": "Vetted 2026-11-26 (Opus subagent). pg_catalog.csv: none. Online Books Page: none. Wikisource: no hits. Web search of a sentence: no text. Reprints: Creative Media Partners 2022 and a facsimile (print-on-demand). Canadiana, Toronto PL and Memorial University: scans only. Faded Page not checkable. Re-checked 2026-11-27: pg_catalog.csv (pglaf mirror) none; web search: scans only, no transcription or new edition.",
+   "note": "Thomas Fisher Library (Toronto) scan, 650 ppi, 166 leaves (xi + 156 pp.), no illustrations; small close print: check the scan at high zoom. A young American divinity student, sent to sea for his health, sails on a fishing schooner to Labrador and Newfoundland: fishing, hunting, settlers' customs, Louisbourg on the way home. Part narrative, part description of the fisheries.",
+   "started": "2026-11-27"
   },
   {
    "order": 121,
