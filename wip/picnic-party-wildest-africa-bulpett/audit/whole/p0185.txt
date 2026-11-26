@@ -1,0 +1,5 @@
+{"given": "and if was evident from his", "print": "and it was evident from his", "sure": "high"}
+{"given": "weighed nearly nincty pounds each.", "print": "weighed nearly ninety pounds each.", "sure": "high"}
+{"given": "a very fierce thunder-storm; arriving there", "print": "a very fierce thunder-storm, arriving there", "sure": "high"}
+{"given": "Meanwhile, jessen had started off", "print": "Meanwhile, Jessen had started off", "sure": "high"}
+{"given": "morning to march and explore Lake Tata", "print": "morning to march to and explore Lake Tata", "sure": "high"}
