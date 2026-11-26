@@ -1,0 +1,6 @@
+{"given": "street; but at length the", "print": "street, but at length the", "sure": "high"}
+{"given": "relinquish all connection with the temples", "print": "relinquish all connexion with the temples", "sure": "high"}
+{"given": "should be handed over the Brahmins", "print": "should be handed over to the Brahmins", "sure": "high"}
+{"given": "Here are to he found the", "print": "Here are to be found the", "sure": "high"}
+{"given": "appear to have subfcribed most liberally", "print": "appear to have subscribed most liberally", "sure": "high"}
+{"given": "an island surmounted by a pagoda", "print": "an island surmounted by a pagoda.", "sure": "low"}

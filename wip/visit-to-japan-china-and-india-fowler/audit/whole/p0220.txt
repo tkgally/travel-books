@@ -1,0 +1,5 @@
+{"given": "“Facilis descensus averni;", "print": "“Facilis descensus Averni;", "sure": "high"}
+{"given": "When Parliament I spoke strongly", "print": "When in Parliament I spoke strongly", "sure": "high"}
+{"given": "It would he impossible, without", "print": "It would be impossible, without", "sure": "high"}
+{"given": "atone for our own faults; and,", "print": "atone for our own faults, and,", "sure": "high"}
+{"given": "feeling was very difserent to that", "print": "feeling was very different to that", "sure": "high"}

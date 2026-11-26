@@ -1,0 +1,5 @@
+{"given": "cathedral of Calcutta for native congregation", "print": "cathedral of Calcutta for a native congregation", "sure": "high"}
+{"given": "Fort William, so closcly associated with", "print": "Fort William, so closely associated with", "sure": "high"}
+{"given": "surround Dalhousie Square; a fine space", "print": "surround Dalhousie Square, a fine space", "sure": "high"}
+{"given": "and a tank in the center.", "print": "and a tank in the centre.", "sure": "high"}
+{"given": "him at Belvedere, were I was", "print": "him at Belvedere, where I was", "sure": "high"}
