@@ -1,0 +1,4 @@
+{"given": "the horses are saddled; and then the", "print": "the horses are saddled, and then the", "sure": "high"}
+{"given": "pounds, fixes if to the side", "print": "pounds, fixes it to the side", "sure": "high"}
+{"given": "and pulling on rope with one", "print": "and pulling on the rope with one", "sure": "high"}
+{"given": "washed and the kitcben-horse packed", "print": "washed and the kitchen-horse packed", "sure": "high"}

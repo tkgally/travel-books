@@ -1,0 +1,4 @@
+{"given": "A DAUGHTER OF His WORLD.", "print": "A DAUGHTER OF THIS WORLD.", "sure": "high"}
+{"given": "By Ernest Dowson Arthur Moore.", "print": "By Ernest Dowson and Arthur Moore.", "sure": "high"}
+{"given": "One Volume. Crown 8vo; cloth, 6s.", "print": "One Volume. Crown 8vo, cloth, 6s.", "sure": "high"}
+{"given": "By Flora annie Steel, Author", "print": "By Flora Annie Steel, Author", "sure": "high"}
