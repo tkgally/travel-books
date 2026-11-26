@@ -201,6 +201,7 @@
 | An Artist in the Himalayas v2 | 2026-11-26 | – | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | the preface’s first word in small capitals for full capitals (found by the new `openings` list at the review) |
 | A British Officer in the Balkans v2 | 2026-11-26 | – | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | 11 chapter openings in small capitals for full capitals (found by the new `openings` list at the review) |
 | Camps in the Caribbees v2 | 2026-11-26 | – | (no new model calls) | – | – | – | 0 | 0 | PASS | as v1 | 5 chapter openings in small capitals for full capitals (found by the new `openings` list at the review) |
+| An American Missionary in Japan v1 | 2026-11-26 | 312 (298 drafted) | Opus draft → Sonnet corrections (no spot to judge); scan check, spot-read (with `tess_compare.py`), rendered look by Opus subagents; Drive uploads (Haiku) | 0 | – | – | 29.02 | 0 | PASS, 0 waived | 30/30; 0 / 6 (spot-read: 4 printed misprints marked, a table's case and dashes; the verifier's one wrong [[cont]]) | |
 
 ## Calibrations
 
