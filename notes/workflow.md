@@ -151,6 +151,7 @@ python3 $R/tools/review.py $W/draft $W/verify --out $W/spots.json
 python3 $R/tools/judge.py --spots $W/spots.json --verified $W/verify --images $B/pages --out $W/judge
 python3 $R/tools/normalize.py $W/judge
 mkdir -p $W/pages && cp $W/judge/p*.txt $W/pages/
+python3 $R/tools/move_pictures.py $W/pages          # pictures typed mid-paragraph → after the paragraph
 ```
 - `review.py`: look at every correction that was not applied, every length outlier, every page with an error,
   and every `[[cont]]` the verifier added or removed (applied unjudged as markup): the indent on the scan settles it.

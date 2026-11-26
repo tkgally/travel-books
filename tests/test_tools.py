@@ -2452,3 +2452,27 @@ class TessCompare(unittest.TestCase):
         texts["p0006"] = "<blockquote>" + body + "</blockquote>"
         items = tc.pitch_items(pitches, texts)
         self.assertEqual([i.split(":")[0] for i in items], ["p0005"])
+
+
+class MovePictures(unittest.TestCase):
+    """Pictures typed mid-paragraph (the corrections pass, cuts in the text column): moved after the paragraph."""
+
+    def test_cont_and_lower_case_forms(self):
+        import move_pictures as mp
+        page = ("[[page 57]]\n[[cont]]and so the road went on, and we\n\n[[image: men and horses]]\n[[caption]] On the Road\n\n"
+                "[[cont]]came to the river. Then we camped.\n\nAt night it rained, and the\n\n[[image: a tent]]\n[[caption]] Camp\n\n"
+                "tent leaked.\n")
+        new, n = mp.move(page)
+        self.assertEqual(n, 2)
+        self.assertEqual(mp.move("driven in a\n\n[[image: horses]]\n[[caption]] Laden\n\n‘string,’ as they say."),
+                         ("driven in a ‘string,’ as they say.\n\n[[image: horses]]\n[[caption]] Laden", 1))  # *Muskeg* p0102
+        self.assertEqual(new, "[[page 57]]\n[[cont]]and so the road went on, and we came to the river. Then we camped.\n\n"
+                              "[[image: men and horses]]\n[[caption]] On the Road\n\nAt night it rained, and the tent leaked.\n\n"
+                              "[[image: a tent]]\n[[caption]] Camp\n")
+
+    def test_left_alone(self):
+        import move_pictures as mp
+        for page in ("We camped.\n\n[[image: a tent]]\n[[caption]] Camp\n\nthe next day was fine.",   # closed sentence, no [[cont]]
+                     "# Chapter I\n\n[[image: a tent]]\n\n[[cont]]text",                               # after a heading
+                     "Text that runs on\n\n[[image: a tent]]\n[[caption]] Camp\n\nThe next paragraph."):  # capital: a new paragraph
+            self.assertEqual(mp.move(page), (page, 0))

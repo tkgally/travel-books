@@ -1495,10 +1495,11 @@
    "place": "London",
    "publisher": "Sampson Low, Marston, Searle, & Rivington",
    "images": 344,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-22",
    "eligibility": "JATSI 43. Rules 1, 2 and 4 met; rule 3 unsettled. Rule 1: University of California scan (400 ppi, colour), clean; the only other IA copy is a Digital Library of India scan. Rule 2: no text at Project Gutenberg (full catalogue), The Online Books Page or Wikisource, nor in a web search of a sentence from p. 55; South Asia Commons has page images only. Rule 3 UNCERTAIN: Gyan Publishing House, Delhi, 2023, 306 pp. (ISBN 9788121297608), not known whether reset or a scan reprint (settle before starting); British Library print-on-demand (2011) does not count; no Ganesha edition in CiNii. Rule 4: first-person journal of a journey round the world in 1875–76 by New York and San Francisco; ch. II on Japan (Yeddo, Kioto, Nagasaki); more than half on India. Rule 5 does not apply: Sir Robert Nicholas Fowler, Bt., 1828–1891. Searched 2026-11-22 (Opus subagent). Not checked: WorldCat, DP.",
-   "note": "viii + 288 pp., 8 chapters; no illustrations seen (confirm at the scan check). About a dozen footnotes quoting Blue Books. The Japan and China chapters lively; the India chapters turn to land revenue, the salt tax and opium policy."
+   "note": "viii + 288 pp., 8 chapters; no illustrations seen (confirm at the scan check). About a dozen footnotes quoting Blue Books. The Japan and China chapters lively; the India chapters turn to land revenue, the salt tax and opium policy.",
+   "started": "2026-11-26"
   },
   {
    "order": 81,
@@ -1934,11 +1935,13 @@
    "place": "London",
    "publisher": "William Heinemann",
    "images": 318,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-25",
    "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): none. Web searches: no Faded Page or Wikisource text, no edition after 1895; exact-sentence search: nothing. Canadiana and BHL: page images only. Somerset 1874–1945 (thepeerage); preface and sketches by Arthur Joseph Hungerford Pollen 1866–1937 (BnF). Wikisource API not reachable.",
    "note": "Edmonton Public Library scan, 360 ppi. 1893 hunting and exploring trip from Athabasca Landing up the Peace and Pine rivers into northern British Columbia; passages from Pollen's journal. About 110 illustrations (sketches and photographs), many small in the text; 4 maps, probably folding: check they are opened.",
-   "started": "2026-11-26"
+   "started": "2026-11-26",
+   "version": 1,
+   "published": "2026-11-26"
   },
   {
    "order": 105,
