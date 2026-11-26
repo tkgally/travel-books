@@ -1,0 +1,59 @@
+{
+ "id": "notes-on-the-late-expedition-whittingham",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "Notes on the Late Expedition against the Russian Settlements in Eastern Siberia; and of a Visit to Japan and to the Shores of Tartary, and of the Sea of Okhotsk",
+ "short_title": "Notes on the Late Expedition against the Russian Settlements in Eastern Siberia",
+ "authors": [
+  {
+   "name": "Captain Bernard Whittingham",
+   "sort": "Whittingham, Bernard"
+  }
+ ],
+ "place": "London",
+ "publisher": "Longman, Brown, Green, and Longmans",
+ "year": 1856,
+ "edition_statement": "First edition",
+ "collection": "jatsi",
+ "regions": [
+  "Japan",
+  "Siberia"
+ ],
+ "period": "1855",
+ "source": {
+  "ia_identifier": "cu31924023036050",
+  "contributor": "Cornell University Library",
+  "hidden_leaves": []
+ },
+ "divisions": [
+  {
+   "at": "p0004",
+   "kind": "front"
+  },
+  {
+   "at": "p0010",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0012",
+   "kind": "preface"
+  },
+  {
+   "at": "p0016",
+   "kind": "contents"
+  }
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0006",
+   "why": "Cornell's digitization notice, inserted by the scanner"
+  },
+  {
+   "check": "leaves",
+   "match": "p0007",
+   "why": "a blank leaf inserted by the scanner with the notice"
+  }
+ ],
+ "keep_hyphens": []
+}

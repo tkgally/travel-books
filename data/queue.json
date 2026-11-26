@@ -464,10 +464,11 @@
    "place": "London",
    "publisher": "Longman, Brown, Green, and Longmans",
    "images": 356,
-   "status": "queued",
-   "checked": "2026-11-20",
-   "eligibility": "JATSI 6. Four of five. Rule 1: Cornell scan (Kirtas, greyscale), clean; the folding chart is in two overlapping halves (the Library of Congress scans notesonlateexped00whit, notesoflateexped00whit may show it whole). Rule 2: no text elsewhere. Rule 3 NOT met: Cambridge Library Collection reprint (2013). Rule 4: first-person, a Royal Engineers captain sailing with the Allied squadron in 1855; about 45% on Japan (Hakodate, Shimoda, Nagasaki). Rule 5: (Paul) Bernard Whittingham, dates not found ('fl. 1850'); a captain of Engineers in 1855, so born before about 1835 (rule 5, unknown death). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record.",
-   "note": "xv + 300 pp., ten chapters with long summaries, two appendices, then a publisher's catalogue; one folding chart; few footnotes."
+   "status": "in progress",
+   "checked": "2026-11-27",
+   "eligibility": "JATSI 6. Four of five. Rule 1: Cornell scan (Kirtas, greyscale), clean; the folding chart is in two overlapping halves (the Library of Congress scans notesonlateexped00whit, notesoflateexped00whit may show it whole). Rule 2: no text elsewhere. Rule 3 NOT met: Cambridge Library Collection reprint (2013). Rule 4: first-person, a Royal Engineers captain sailing with the Allied squadron in 1855; about 45% on Japan (Hakodate, Shimoda, Nagasaki). Rule 5: (Paul) Bernard Whittingham, dates not found ('fl. 1850'); a captain of Engineers in 1855, so born before about 1835 (rule 5, unknown death). Searched 2026-11-20 (Opus subagent, sample checked): Project Gutenberg catalogue, The Online Books Page, Wikisource (title search; the API was rate-limited at times), a web search of a sentence from the book, Open Library and web searches for reprints incl. Ganesha / Edition Synapse 'Japan in English'. Not checked: WorldCat, Distributed Proofreaders in progress. Rule 5 no longer applies to JATSI books (Tom, 2026-11-20); the dates are kept for the record. Re-checked 2026-11-27: pg_catalog.csv none; web search: the Cambridge Library Collection reissue (2013) and Cambridge Core (purchase) only, no free text.",
+   "note": "xv + 300 pp., ten chapters with long summaries, two appendices, then a publisher's catalogue; one folding chart; few footnotes.",
+   "started": "2026-11-27"
   },
   {
    "order": 25,
