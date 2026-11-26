@@ -1,0 +1,5 @@
+{"given": "age to the center of idolatry", "print": "age to the centre of idolatry", "sure": "high"}
+{"given": "temples by the way; and scattering", "print": "temples by the way, and scattering", "sure": "high"}
+{"given": "their new-found peace joy; that", "print": "their new-found peace and joy; that", "sure": "high"}
+{"given": "old lady to say or the third", "print": "old lady to say on the third", "sure": "high"}
+{"given": "I will stay till his retnrn and", "print": "I will stay till his return and", "sure": "high"}

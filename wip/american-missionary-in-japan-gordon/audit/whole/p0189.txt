@@ -1,0 +1,5 @@
+{"given": "belicve this can be done", "print": "believe this can be done", "sure": "high"}
+{"given": "We believe that if is our", "print": "We believe that it is our", "sure": "high"}
+{"given": "students’ bosoms, and train up a", "print": "students’ bosoms, and to train up a", "sure": "high"}
+{"given": "It has two three-year courses; and aims", "print": "It has two three-year courses, and aims", "sure": "high"}
+{"given": "be taught to the japanese under", "print": "be taught to the Japanese under", "sure": "high"}

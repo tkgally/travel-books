@@ -1,0 +1,5 @@
+{"given": "of my takiug his words", "print": "of my taking his words", "sure": "high"}
+{"given": "structure of the language; and of", "print": "structure of the language, and of", "sure": "high"}
+{"given": "expressions without knowledge of Japanese politeness", "print": "expressions without a knowledge of Japanese politeness", "sure": "high"}
+{"given": "who attempt it may he horrified", "print": "who attempt it may be horrified", "sure": "high"}
+{"given": "a prominent christian worker, in which", "print": "a prominent Christian worker, in which", "sure": "high"}

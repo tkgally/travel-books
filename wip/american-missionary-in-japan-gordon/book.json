@@ -26,7 +26,7 @@
   "Kyoto",
   "Doshisha"
  ],
- "summary": "M. L. Gordon (1843–1900), an American physician and missionary, worked in Japan from 1872. Written during a stay in the United States after he left Japan in 1891, the book gathers his memories of that work: learning the language, the first preaching, the “Kumamoto Band” of young converts, Japanese preachers, a preaching tour through the country, medical missions, the Dōshisha school at Kyōto, Christian literature and the churches that grew from the mission. It tells many stories of individual Japanese converts and of the people Gordon met, and ends with his thoughts on Japan’s new era and a farewell chapter with Japanese verses in translation. An introductory note is by William Elliot Griffis; appendices give mission documents and statistics for 1891.",
+ "summary": "M. L. Gordon (1843–1900), an American physician and missionary, worked in Japan from 1872. Written during a stay in the United States after he left Japan in 1891, the book gathers his memories of that work: learning the language, the first preaching, the “Kumamoto Band” of young converts, Japanese preachers, a preaching tour through the country, medical missions, the Dōshisha school at Kyōto, Christian literature, and the churches that grew from the mission. It tells many stories of individual Japanese converts and of the people Gordon met; it ends with his thoughts on Japan’s new era and a farewell chapter with Japanese verses in translation. An introductory note is by William Elliot Griffis; appendices give mission documents and statistics for 1891.",
  "source": {
   "ia_identifier": "americanmissiona00gord_0",
   "contributor": "Princeton Theological Seminary Library",
@@ -36,7 +36,9 @@
   ]
  },
  "omitted_from_reading": "The printed contents and the index are in the JSON only.",
- "notes_on_text": [],
+ "notes_on_text": [
+  "The contents of this edition give each chapter’s title; the printed contents, with a summary of each chapter, are in the JSON."
+ ],
  "history": [
   {
    "version": 1,
@@ -78,5 +80,13 @@
  "waivers": [],
  "keep_hyphens": [
   "p0172"
- ]
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-26",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }

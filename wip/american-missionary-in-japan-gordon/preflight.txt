@@ -1,7 +1,6 @@
 [       ok] meta: book.json: required fields present and sane
 [       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
-[ FAIL (1)] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
-            - [[cont]] with nothing to continue, treated as a new block: p0156
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
 [       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
 [       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
 [       ok] straight-quotes: no straight ' or " in the text
@@ -13,15 +12,13 @@
 [       ok] nav: contents: at least one reading division; each has a title and text
 [       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
-[ FAIL (1)] audit: book.json records the sampled audit of this version
-            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
-[look (12)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+[       ok] audit: book.json records the sampled audit of this version
+[look (11)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0019: …astical conven-|tions, taught t… (hyphen removed; check)
             - hyphen join at p0044: …es” as a prece-|dent, why shoul… (hyphen removed; check)
             - hyphen join at p0118: …day to Fukuchi-|yama, twenty-th… (hyphen removed; check)
             - hyphen join at p0134: …had been trans-|ferred to a son… (hyphen removed; check)
             - hyphen join at p0169: …hing which hin-|dered all advan… (hyphen removed; check)
-            - hyphen join at p0172: …d sixty. Fifty-|five were added… (hyphen removed; check) — the book hyphenates other “fifty-” words: keep_hyphens?
             - hyphen join at p0180: …; but it is un-|questionable th… (hyphen removed; check)
             - hyphen join at p0185: …ready to coöpe-|rate, as far as… (hyphen removed; check)
             - hyphen join at p0197: …for the dispen-|saries. These b… (hyphen removed; check)
@@ -68,8 +65,7 @@
 [       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
 [       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
 [       ok] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
-[ look (2)] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
-            - p0156: verse continued from p0155: stanzas before [] | here [2] (a stanza ending at the page foot needs no [[cont]])
+[ look (1)] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
             - p0285: verse continued from p0284: stanzas before [2] | here [3] (a stanza ending at the page foot needs no [[cont]])
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
 [look (10)] accents: words the book spells with different accents (or with and without): look at each group on the scan
@@ -84,15 +80,12 @@
             - osaka: osaka (p0014, p0076, p0091, p0132, p0133, p0197); ōsaka (p0177, p0198)
             - sake: sake (p0140); saké (p0122, p0123, p0130, p0131, p0165, p0303)
 [       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
-[ look (3)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
-            - p0162: “begining” — “beginning” is common (608; a letter dropped or transposed?)
+[ look (1)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
             - p0163: “sowers” — “showers” is common (132; a letter dropped or transposed?)
-            - p0255: “wiil” — “will” is common (8590)
 [       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
-[ look (3)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+[ look (2)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
             - book.json summary: …M. L. Gordon (1843–1900), an American physician and missionary, worked i…
             - book.json summary: …, the Dōshisha school at Kyōto, Christian literature and the churches that gr…
-            - book.json summary: …s and of the people Gordon met, and ends with his thoughts on Japan’s new era and a farewell chapter w…
 [ look (5)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
             - p0058: “how He” in …o His brethren.” We know how He made himself “…
             - p0159: “believe He” in …over his children, and I believe He will help us.…
@@ -101,4 +94,4 @@
             - p0299: “thence He” in …he Father Almighty; from thence He shall come to j…
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: american-missionary-in-japan-gordon v1 — 2 to fix, 0 waived; to look at: hyphen-joins 12, contents 29, verse-joins 2, accents 10, rare-forms 3, serial-commas 3, missing-stop 5 — tools@86f8419e 2026-11-26
+preflight PASS: american-missionary-in-japan-gordon v1 — 0 to fix, 0 waived; to look at: hyphen-joins 11, contents 29, verse-joins 1, accents 10, rare-forms 1, serial-commas 2, missing-stop 5 — tools@53dda1d1 2026-11-26

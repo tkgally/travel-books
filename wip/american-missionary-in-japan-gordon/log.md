@@ -5,7 +5,7 @@ Eligibility: queue row (JATSI 97; Opus subagent, 2026-11-23: rules 1–3 met, ru
 Re-checked 2026-11-26 (this session): Gutenberg catalogue and a web search, nothing new. Started 2026-11-26.
 
 ## Status
-Stage (a) done: scan checked good (Opus subagent), cached in Drive (20 parts). Opus draft of leaves 7–304 running.
+Stage (a) done: scan checked good (Opus subagent), cached in Drive (20 parts). Stages (a)–(c) up to audit done (30/30); preflight PASS; rendered look next, then publish.
 
 ## Page map
 Scan check (Opus subagent, 2026-11-26): good; every printed page 1–276 present; outer edges complete. Leaf = page + 28
@@ -21,13 +21,30 @@ No illustrations. Footnotes (e.g. p0031, p0052, p0090, p0106, p0180, p0219); rom
 (p0281–p0285); a letter in small type (p0137–p0138); a price table (p0119).
 
 ## Decisions
+- Divisions: title page (with the dedication), preface, Griffis's introductory note, contents (JSON only), the book's title
+  above Chapter I (front), 22 chapters (title as `[[subtitle]]`), the appendix A–E as one division, the index (JSON only).
+- Contents: chapter numbers and titles (the printed contents' summaries stay in the JSON); the appendix one entry.
+- Title page typed line by line (the title is in two lines). The Riverside Press device on the title page cropped (p0007-1).
+- Corrections pass: 4 markup changes, no spot to judge (so no judge run). [[cont]] at p0278 added by the verifier was wrong
+  (a new paragraph of a quoted letter, opening “): the draft's page kept; p0304 removal right (a new index entry). p0156: verse
+  at the page top had a stray `[[cont]]` (compile warning), removed.
+- Spot-read (Opus subagent; front matter, footnote pages, verse, tables, letter, appendix, preflight lists, `tess_compare.py`'s
+  103 word items — all tesseract's errors): printed misprints marked p0162 “begining”, p0255 “wiil”, p0219 “Theology.,”, p0294
+  “Raymoud’s” (a turned n, marked by the session); p0296 “yen” lower case; table dashes. Accents all as printed (Kyōtō p0289,
+  Kobe p0290, Kato/Katō, Osaka/Ōsaka, Heishiro/Héishiro). keep_hyphens p0172 (Fifty-five).
+- `tess_compare.py` line pitch: 23 pages listed, all contents, appendix and index (small type by design): run it over the
+  chapters only (`--leaves`).
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-26 | opus | 298 | 19.15 | no refusals, no 〓 |
+| corrections | 2026-11-26 | sonnet | 298 | 9.54 | 4 markup changes, 0 spots |
+| audit | 2026-11-26 | opus | 6 | 0.33 | 30/30, 0 candidates |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
 
 ## Known issues
+- p0039: the words after a verse quotation continue the sentence in print but start a new paragraph (the markup cannot continue a paragraph after verse).

@@ -1,0 +1,5 @@
+{"given": "in regard to christianity, and", "print": "in regard to Christianity, and", "sure": "high"}
+{"given": "render to my conntry some service", "print": "render to my country some service", "sure": "high"}
+{"given": "so I devoted myself military tactics:", "print": "so I devoted myself to military tactics:", "sure": "high"}
+{"given": "unless there where severe restriction.", "print": "unless there were severe restriction.", "sure": "high"}
+{"given": "They do steal, lie, murder; etc.,", "print": "They do steal, lie, murder, etc.,", "sure": "high"}

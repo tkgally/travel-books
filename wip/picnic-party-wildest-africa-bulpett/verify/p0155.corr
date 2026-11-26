@@ -1,0 +1,7 @@
+{"find": "(one snow-white, a magnificent animal with dewlaps nearly to the ground, brought up in the house and washed each week)", "replace": "(one snow-white, a magnificent animal with dewlaps nearly to the ground, brought up in the house and washed each week)"}
+{"find": "His Excellence will", "replace": "His Excellence will"}
+{"find": "Goré itself", "replace": "Goré itself"}
+
+Wait — those are no-ops; the only real discrepancy I found is:
+
+{"find": "(one snow-white, a magnificent", "replace": "(one snow-white, a magnificent"}
