@@ -1,0 +1,5 @@
+{"given": "the happiest race or earth!", "print": "the happiest race on earth!", "sure": "high"}
+{"given": "Here we took jinriekishaws (the hire", "print": "Here we took jinrickishaws (the hire", "sure": "high"}
+{"given": "and went through little streets of", "print": "and went through the little streets of", "sure": "high"}
+{"given": "overhanging roofs; turned up at the", "print": "overhanging roofs, turned up at the", "sure": "high"}
+{"given": "a rather pronounced gray colour.", "print": "a rather pronounced grey colour.", "sure": "high"}

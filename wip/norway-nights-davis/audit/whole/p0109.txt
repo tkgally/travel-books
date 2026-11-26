@@ -1,0 +1,4 @@
+{"given": "handkerchiefs on their heads; and silver", "print": "handkerchiefs on their heads, and silver", "sure": "high"}
+{"given": "The bride was nor of", "print": "The bride was not of", "sure": "high"}
+{"given": "occasion and shyly retircd out of", "print": "occasion and shyly retired out of", "sure": "high"}
+{"given": "had an invitation the ceremony.", "print": "had an invitation to the ceremony.", "sure": "high"}

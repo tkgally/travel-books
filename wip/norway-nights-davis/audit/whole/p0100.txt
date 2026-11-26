@@ -1,0 +1,5 @@
+{"given": "though it was not Sunday; in the church", "print": "though it was not Sunday, in the church", "sure": "high"}
+{"given": "but preferved a civil immobility", "print": "but preserved a civil immobility", "sure": "high"}
+{"given": "when our norsk gave out", "print": "when our Norsk gave out", "sure": "high"}
+{"given": "carts that where scattered about", "print": "carts that were scattered about", "sure": "high"}
+{"given": "up with the novelty a Stœlkjærre,", "print": "up with the novelty of a Stœlkjærre,", "sure": "high"}

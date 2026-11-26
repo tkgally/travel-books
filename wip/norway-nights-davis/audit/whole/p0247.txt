@@ -1,0 +1,5 @@
+{"given": "light in this poctic room", "print": "light in this poetic room", "sure": "high"}
+{"given": "object we saw in russia.", "print": "object we saw in Russia.", "sure": "high"}
+{"given": "and a let of amber", "print": "and a set of amber", "sure": "high"}
+{"given": "qualities of the dynasty; without its", "print": "qualities of the dynasty, without its", "sure": "high"}
+{"given": "took good care put her", "print": "took good care to put her", "sure": "high"}

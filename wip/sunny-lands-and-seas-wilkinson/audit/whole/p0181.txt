@@ -1,0 +1,5 @@
+{"given": "they say, they discovercd and used", "print": "they say, they discovered and used", "sure": "high"}
+{"given": "but this can also he said", "print": "but this can also be said", "sure": "high"}
+{"given": "they are all the same; and we", "print": "they are all the same, and we", "sure": "high"}
+{"given": "which they call Temple of the Five", "print": "which they call the Temple of the Five", "sure": "high"}
+{"given": "being sawn in two lengthwize; all", "print": "being sawn in two lengthwise; all", "sure": "high"}

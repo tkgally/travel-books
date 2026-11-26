@@ -1,0 +1,5 @@
+{"given": "monotonous, as foggy old croakers", "print": "monotonous, as the foggy old croakers", "sure": "high"}
+{"given": "England declare they are; become each", "print": "England declare they are, become each", "sure": "high"}
+{"given": "breaks in its serene splendor.", "print": "breaks in its serene splendour.", "sure": "high"}
+{"given": "we have just had the great dclight of reading", "print": "we have just had the great delight of reading", "sure": "high"}
+{"given": "‘It there be an elysium", "print": "‘If there be an elysium", "sure": "high"}

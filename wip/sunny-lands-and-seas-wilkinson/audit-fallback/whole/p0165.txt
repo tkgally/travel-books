@@ -1,0 +1,5 @@
+{"given": "almost insensible, and leancd against", "print": "almost insensible, and leaned against", "sure": "high"}
+{"given": "I saw poor brady lying", "print": "I saw poor Brady lying", "sure": "high"}
+{"given": "revenge by the arrival assistance.", "print": "revenge by the arrival of assistance.", "sure": "high"}
+{"given": "returned on deck; battened down", "print": "returned on deck, battened down", "sure": "high"}
+{"given": "kicking me. Or receiving my", "print": "kicking me. On receiving my", "sure": "high"}

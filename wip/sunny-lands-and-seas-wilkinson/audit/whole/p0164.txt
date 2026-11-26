@@ -1,0 +1,5 @@
+{"given": "who attaeked me with knives", "print": "who attacked me with knives", "sure": "high"}
+{"given": "to see what the chinese were", "print": "to see what the Chinese were", "sure": "high"}
+{"given": "for my rings, then, by a", "print": "for my rings, when, by a", "sure": "high"}
+{"given": "where I saw poor purser holding", "print": "where I saw the poor purser holding", "sure": "high"}
+{"given": "preparing to jump overboard; and a", "print": "preparing to jump overboard, and a", "sure": "high"}

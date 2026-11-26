@@ -1,0 +1,5 @@
+{"given": "are sold, and treasuries of priestly", "print": "are sold, and the treasuries of priestly", "sure": "high"}
+{"given": "to those in the kremlin. Again", "print": "to those in the Kremlin. Again", "sure": "high"}
+{"given": "liturgies enamelled in arabcsque patterns overlaid", "print": "liturgies enamelled in arabesque patterns overlaid", "sure": "high"}
+{"given": "strings of pearls, and crowns; crosses,", "print": "strings of pearls, and crowns, crosses,", "sure": "high"}
+{"given": "But we could nor linger", "print": "But we could not linger", "sure": "high"}

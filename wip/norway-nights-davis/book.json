@@ -79,5 +79,13 @@
   }
  ],
  "summary": "Mrs. S. M. Henry Davis, an American writer, travelled in the summer of 1886 with two other women through Norway, Sweden, and Russia. In Norway they went from Christiania by cariole through the Gudbransdal and the Romsdal to Trondhjem, then by steamer up the coast to Hammerfest and the North Cape to see the midnight sun, meeting Lapps on the way. They came back by Sweden and Finland to St. Petersburg and Moscow, where she describes the streets, shops, churches, palaces, and monasteries. The book has many short quotations of verse and thirty-five wood engravings.",
- "omitted_from_reading": "The page “By the Same Author”, the half-title, the printed contents, and the list of illustrations are in the JSON only."
+ "omitted_from_reading": "The page “By the Same Author”, the half-title, the printed contents, and the list of illustrations are in the JSON only.",
+ "audit": {
+  "version": 1,
+  "date": "2026-11-26",
+  "pages": 6,
+  "recall": "29/29",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }

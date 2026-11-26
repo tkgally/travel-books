@@ -1,0 +1,5 @@
+{"given": "report to the proprictor any misconduct", "print": "report to the proprietor any misconduct", "sure": "high"}
+{"given": "read this; but savage, uncontrollable beast", "print": "read this; but the savage, uncontrollable beast", "sure": "high"}
+{"given": "Agra, january 16th, 1882.", "print": "Agra, January 16th, 1882.", "sure": "high"}
+{"given": "in stainless; everlasting marble.", "print": "in stainless, everlasting marble.", "sure": "high"}
+{"given": "And are those the shining gleaming", "print": "And are these the shining gleaming", "sure": "high"}

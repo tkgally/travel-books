@@ -1,0 +1,4 @@
+{"given": "the ways of those strange people", "print": "the ways of these strange people", "sure": "high"}
+{"given": "and going die almost immediately", "print": "and going to die almost immediately", "sure": "high"}
+{"given": "in their lauguage. There is", "print": "in their language. There is", "sure": "high"}
+{"given": "invariably so frail; and so", "print": "invariably so frail, and so", "sure": "high"}
