@@ -1,0 +1,5 @@
+{"given": "Choosing a moment when everyone was", "print": "Choosing a moment when every one was", "sure": "high"}
+{"given": "it was certainty that when", "print": "it was a certainty that when", "sure": "high"}
+{"given": "out that we bad gone", "print": "out that we had gone", "sure": "high"}
+{"given": "(gentleman, gentleman; slowly) and turning", "print": "(gentleman, gentleman, slowly) and turning", "sure": "high"}
+{"given": "he promptly rewardcd me for", "print": "he promptly rewarded me for", "sure": "high"}

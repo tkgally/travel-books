@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | | 1883. Dec. | | Miles. | Miles. | |
 | 1 | 24 | Wady el Haserat | 6½ | 6½ | Deep rocky gorge. Very barren. Good road. Might easily be made passable for wheeled conveyances. |
-| 2 | 24 | El Kantara | 4½ | 11 | A substantial stono bridge, 30 feet wide. |
+| 2 | 24 | El Kantara | 4½ | 11 | A substantial [[corr stono|stone]] bridge, 30 feet wide. |
 | 3 | 25 | Wady Abumazarik | 18 | 29 | A flat-bottomed valley, 5 miles wide (stony). |
 | 4 | 26 | Wady Manjar | 14 | 33 | Water collects in considerable quantities after rain. |
 | 5 | 26 | Jabal Rishar | 11 | 44 | Remarkable hill, with contorted strata. |

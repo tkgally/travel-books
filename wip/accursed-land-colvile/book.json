@@ -142,5 +142,23 @@
    "at": "p0319",
    "kind": "appendix"
   }
- ]
+ ],
+ "keep_hyphens": [
+  "p0281"
+ ],
+ "summary": "H. E. Colvile, an officer of the Guards, went out to Egypt late in 1883 to look at the Wady el Arabah, the valley that runs from the Gulf of Akabah towards the Dead Sea. With Arab guides and camels he crossed the Sinai peninsula from Suez to Akabah, surveyed and levelled part of the Arabah, considered the line for a railway, and came back across the Tih plateau by Nakh’l to Suez. He writes lightly of the guides, the camels, and his own mishaps, and gives his observations of the ground, with a few geological sections. A sketch map shows his route, and an appendix gives the itineraries.",
+ "omitted_from_reading": "The half-title, the list of the author’s other book, the printed contents, and the book’s title printed above Chapter I are in the JSON only.",
+ "notes_on_text": [
+  "The chapters have no titles, only summaries. The entries of the contents give a short title of the editor’s for each chapter, taken from the summary; Chapters I and VI keep their printed ones. The summaries are printed in full at the head of each chapter.",
+  "The title above Chapter I reads “Water-Way to Edom”, the title page “Water-Way of Edom”; both as printed.",
+  "The two shapes of a ridge drawn in bold type on p. 179 are given as the letter H."
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-26",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }

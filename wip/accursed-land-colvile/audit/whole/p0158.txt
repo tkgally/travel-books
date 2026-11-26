@@ -1,0 +1,5 @@
+{"given": "getting ronndly abused for having", "print": "getting roundly abused for having", "sure": "high"}
+{"given": "and proceeded to read; to", "print": "and proceeded to read, to", "sure": "high"}
+{"given": "the camp-fire on shore.", "print": "the camp-fire on the shore.", "sure": "high"}
+{"given": "came Abdullah effendi, the second", "print": "came Abdullah Effendi, the second", "sure": "high"}
+{"given": "there?” be asked; “did", "print": "there?” he asked; “did", "sure": "high"}

@@ -1,0 +1,5 @@
+{"given": "out rushed Petrōs cook, and", "print": "out rushed Petrōs the cook, and", "sure": "high"}
+{"given": "should kiss and make if up", "print": "should kiss and make it up", "sure": "high"}
+{"given": "at all events—litcrally. This Petrōs", "print": "at all events—literally. This Petrōs", "sure": "high"}
+{"given": "hulking, round-shouldered syrian, standing six", "print": "hulking, round-shouldered Syrian, standing six", "sure": "high"}
+{"given": "Like most big men; he was", "print": "Like most big men, he was", "sure": "high"}
