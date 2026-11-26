@@ -13,7 +13,12 @@
    smaller type (a long quotation, a letter, a document) has a pitch about 0.8 of the body's, and the drafts type such
    pages as body text (*Round about Armenia* 3 pages, *From Japan to Jerusalem* 2, *Gentle Japs* 4). Listed: pages
    under `--pitch` (0.88) of the median that have no `<blockquote>`, and pages with a blockquote whose pitch is normal
-   are not listed (part pages are for the eye).
+   are not listed.
+3. **Runs of close lines** (review after a hundred books: *Islam Lands* had five part pages of quotation in type one
+   size smaller, pitch 42 against 45, which the page test cannot see). The distance between successive baselines;
+   listed: a run of at least `--run` (4) gaps under `--run-ratio` (0.96) of the book's median on a page whose file has
+   no `<blockquote>`, `<verse>` or `<table>`. A run that starts in the top third of a page with a heading or
+   `[[subtitle]]` (a chapter's synopsis) or in its lower half on a page with a note (the footnotes) is not listed.
 
     python3 tools/tess_compare.py --pages-dir $W/pages --images $B/pages --out $W/tess.txt [--workers 6] [--leaves p0010-p0300]
 
@@ -97,6 +102,52 @@ def word_items(leaf, fwords, twords, counts, common=20, rare=1):
     return out
 
 
+def baselines(text):
+    """The baselines (y) of an hOCR page's lines, top to bottom: bbox bottom plus the baseline offset."""
+    out = []
+    for m in re.finditer(r"<span class=['\"]ocr_(?:line|textfloat|header|caption)['\"][^>]*title=['\"]([^'\"]*)['\"]", text):
+        b = BBOX.search(m.group(1))
+        if b:
+            bl = re.search(r"baseline (-?[\d.]+) (-?\d+)", m.group(1))
+            out.append(int(b.group(4)) + (int(bl.group(2)) if bl else 0))
+    return sorted(out)
+
+
+def run_items(bases, texts, height=1800, ratio=0.96, min_gaps=4):
+    """Pages with a run of at least `min_gaps` baseline gaps under `ratio` of the book's median gap (docstring, 3)."""
+    allg = sorted(b - a for v in bases.values() for a, b in zip(v, v[1:]) if b - a > 10)
+    if len(allg) < 20:
+        return []
+    med = allg[len(allg) // 2]
+    out = []
+    for leaf in sorted(bases):
+        t = texts.get(leaf, "")
+        if re.search(r"<(?:blockquote|verse|table)>", t) or len(file_words(t)) <= 40:
+            continue
+        v = bases[leaf]
+        runs, cur = [], []
+        for a, b in zip(v, v[1:]):
+            if 0.6 * med <= b - a < ratio * med:
+                cur.append(a)
+            else:
+                if cur:
+                    runs.append(cur)
+                cur = []
+        if cur:
+            runs.append(cur)
+        head = re.search(r"^#|\[\[subtitle\]\]", t, flags=re.M)
+        note = "[[fn" in t
+        for r in runs:
+            if len(r) < min_gaps:
+                continue
+            if head and r[0] < height / 3 or note and r[0] > height / 2:
+                continue
+            out.append(f"{leaf}: {len(r) + 1} lines set closer from y {r[0]} (gap under {ratio} of the book's {med}): "
+                       "small type typed as body text?")
+            break
+    return out
+
+
 def pitch_items(pitches, texts, ratio=0.88):
     """Pages whose line pitch is under `ratio` of the book's median and whose file has no blockquote."""
     vals = sorted(p for p in pitches.values() if p)
@@ -135,6 +186,8 @@ def main():
     ap.add_argument("--leaves", help="a range of leaf names, e.g. p0010-p0300")
     ap.add_argument("--workers", type=int, default=6)
     ap.add_argument("--pitch", type=float, default=0.88)
+    ap.add_argument("--run", type=int, default=4)
+    ap.add_argument("--run-ratio", type=float, default=0.96)
     a = ap.parse_args()
     cache = a.cache or os.path.join(os.path.dirname(os.path.abspath(a.images.rstrip("/"))), "hocr")
     os.makedirs(cache, exist_ok=True)
@@ -152,12 +205,15 @@ def main():
         hocrs = dict(zip(texts, ex.map(lambda l: hocr(os.path.join(a.images, l + ".jpg"), cache), texts)))
     counts = preflight.corpus_counts()
     counts.update(w.lower() for t in texts.values() for w in file_words(t))
-    words, pitches = [], {}
+    words, pitches, bases = [], {}, {}
     for leaf, t in texts.items():
         lines, tw = parse_hocr(hocrs[leaf])
         pitches[leaf] = line_pitch(lines)
+        bases[leaf] = baselines(hocrs[leaf])
         words += word_items(leaf, file_words(t), tw, counts)
     pitch = pitch_items(pitches, texts, a.pitch)
+    pitch += [i for i in run_items(bases, texts, ratio=a.run_ratio, min_gaps=a.run) if i.split(":")[0] not in
+              {j.split(":")[0] for j in pitch}]
     with open(a.out, "w", encoding="utf-8") as f:
         f.write(f"# tess_compare: {len(texts)} pages; {len(words)} word items; {len(pitch)} pitch items\n")
         f.write("## Line pitch\n" + "".join(i + "\n" for i in pitch))

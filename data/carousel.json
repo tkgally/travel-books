@@ -13,6 +13,12 @@
    "sha256": "9f3cba63077fe2ecb44ee1c24862a476ae2a11590610b03afebe373a980150d5",
    "note": "plain cloth cover"
   },
+  "american-missionary-in-japan-gordon": {
+   "image": "cover",
+   "width": 300,
+   "height": 448,
+   "sha256": "826a396b9d2da077d5a59c3e0213b2c665498a141528a3aadcdabab2e701e297"
+  },
   "argentine-plains-larden": {
    "image": "cover",
    "width": 267,
@@ -191,6 +197,12 @@
    "height": 450,
    "sha256": "950039a612743894b9d8562ddf8425d12a46261b93afc69ddf4231697e7e581f"
   },
+  "islam-lands-shoemaker": {
+   "image": "title page",
+   "width": 259,
+   "height": 450,
+   "sha256": "a06bdf1882d35ca45c73417b6fe47c08771c3a1050fb3a5548a581c01b086d91"
+  },
   "japan-a-sailors-visit-cook": {
    "image": "title page",
    "width": 290,
@@ -252,6 +264,12 @@
    "height": 450,
    "sha256": "1e625fe5bff2a7615bc3edefc39b4f79624b358a91779f462ddfd81b2ae07122",
    "note": "the cover has no title"
+  },
+  "land-of-the-muskeg-somerset": {
+   "image": "cover",
+   "width": 273,
+   "height": 450,
+   "sha256": "cacc6a510d7985e23bd3484c625fd9c746f023eb502112d173fb372fca44ad38"
   },
   "land-of-the-north-wind-rae": {
    "image": "cover",
@@ -361,6 +379,12 @@
    "width": 286,
    "height": 450,
    "sha256": "10956557ba039d4070b8ea675c5ee914e2535e64bf1025fc4960c8c38182f73f"
+  },
+  "picnic-party-wildest-africa-bulpett": {
+   "image": "cover",
+   "width": 274,
+   "height": 450,
+   "sha256": "d2d72c1232eb839d949d4496ff37d7adc4c6a330d43beeefc024ce9ea9d53542"
   },
   "present-day-japan-davidson": {
    "image": "cover",
@@ -520,6 +544,12 @@
    "width": 280,
    "height": 450,
    "sha256": "e7f0e21a6dfd650ecdbfc797f22f8e49a0a3ee98b56950efc555a192ec91d8c4"
+  },
+  "visit-to-japan-china-and-india-fowler": {
+   "image": "title page",
+   "width": 277,
+   "height": 450,
+   "sha256": "44c2bc3ed7ab3b765297c7f8cd97f459cd0d8a2fa33f9d24f309615df30978c7"
   },
   "wanderings-and-wonderings-aubertin": {
    "image": "title page",
