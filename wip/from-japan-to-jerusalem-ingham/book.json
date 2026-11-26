@@ -74,5 +74,8 @@
  "subjects": [
   "Missions",
   "Church Missionary Society"
+ ],
+ "keep_hyphens": [
+  "p0071"
  ]
 }

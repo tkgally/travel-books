@@ -1,0 +1,10 @@
+{"find": "in former times", "replace": "in former times"}
+{"find": "malfaisance", "replace": "malfaisance"}
+
+Checking the draft against the image: "former times" matches, and "malfaisance" matches too. The differences I found are below.
+
+{"find": "were in former times", "replace": "were in former times"}
+
+Corrected list:
+
+{"find": "peculations and malfaisance", "replace": "peculations and malfaisance"}
