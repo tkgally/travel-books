@@ -2411,3 +2411,44 @@ class Openings(unittest.TestCase):
 
     def test_observe(self):
         self.assertEqual(preflight.CHECKS["openings"][0], "observe")
+
+
+class TessCompare(unittest.TestCase):
+    """Review after ninety-five books: the spot-reads' tesseract comparison and line-pitch test made a tool."""
+
+    HOCR = ("<div class='ocr_page'>"
+            + "".join(f"<span class='ocr_line' id='l{i}' title='bbox 100 {100 + 40 * i} 900 {130 + 40 * i}; baseline 0 0'>"
+                      f"<span class='ocrx_word' title='bbox 1 1 2 2'>w{i}</span></span>" for i in range(8))
+            + "</div>")
+
+    def test_parse_and_pitch(self):
+        import tess_compare as tc
+        lines, words = tc.parse_hocr(self.HOCR)
+        self.assertEqual(len(lines), 8)
+        self.assertEqual(words[:2], ["w0", "w1"])
+        self.assertEqual(tc.line_pitch(lines), 40)
+        self.assertIsNone(tc.line_pitch(lines[:3]))
+
+    def test_word_items(self):
+        import collections, tess_compare as tc
+        counts = collections.Counter({"scientific": 50, "the": 900, "upon": 400, "uqon": 0, "men": 80, "if": 300})
+        fw = tc.file_words("The <i>scientific</i> men [[corr tbe|the]] went uqon the [[cont]] Kars road. If")
+        self.assertEqual(fw, ["The", "scientific", "men", "tbe", "went", "uqon", "the", "Kars", "road", "If"])
+        tw = ["The", "scentific", "men", "tbe", "went", "upon", "the", "bars", "road.", "“Tf"]
+        items = tc.word_items("p0001", fw, tw, counts)
+        self.assertEqual(len(items), 2, items)
+        self.assertIn("print?", items[0])
+        self.assertIn("“scentific”", items[0])
+        self.assertIn("misread?", items[1])
+        self.assertIn("“uqon”", items[1])
+
+    def test_pitch_items(self):
+        import tess_compare as tc
+        body = " ".join(["word"] * 50)
+        pitches = {f"p{i:04d}": 40 for i in range(1, 9)}
+        pitches["p0005"] = 32
+        pitches["p0006"] = 31
+        texts = {k: body for k in pitches}
+        texts["p0006"] = "<blockquote>" + body + "</blockquote>"
+        items = tc.pitch_items(pitches, texts)
+        self.assertEqual([i.split(":")[0] for i in items], ["p0005"])
