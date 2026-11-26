@@ -2476,3 +2476,13 @@ class MovePictures(unittest.TestCase):
                      "# Chapter I\n\n[[image: a tent]]\n\n[[cont]]text",                               # after a heading
                      "Text that runs on\n\n[[image: a tent]]\n[[caption]] Camp\n\nThe next paragraph."):  # capital: a new paragraph
             self.assertEqual(mp.move(page), (page, 0))
+
+
+class StrayCaptionThenCont(unittest.TestCase):
+    """*Islam Lands* (2026-11-26): a plate's credit line typed as a second [[caption]] before an image, then the next
+    page's [[cont]]: the compiler crashed (KeyError 'leaf_end') instead of warning."""
+
+    def test_no_crash(self):
+        book, warnings = comp(["[[page 1]]\n# Chapter I\n\nThe road ran on\n\n[[caption]] From a photograph by A",
+                               "[[page 2]]\n[[cont]]to the river."])
+        self.assertTrue(any("not after an image" in w for w in warnings), warnings)
