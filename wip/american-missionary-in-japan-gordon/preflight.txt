@@ -1,0 +1,104 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[ FAIL (1)] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+            - [[cont]] with nothing to continue, treated as a new block: p0156
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[ FAIL (1)] audit: book.json records the sampled audit of this version
+            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[look (12)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0019: …astical conven-|tions, taught t… (hyphen removed; check)
+            - hyphen join at p0044: …es” as a prece-|dent, why shoul… (hyphen removed; check)
+            - hyphen join at p0118: …day to Fukuchi-|yama, twenty-th… (hyphen removed; check)
+            - hyphen join at p0134: …had been trans-|ferred to a son… (hyphen removed; check)
+            - hyphen join at p0169: …hing which hin-|dered all advan… (hyphen removed; check)
+            - hyphen join at p0172: …d sixty. Fifty-|five were added… (hyphen removed; check) — the book hyphenates other “fifty-” words: keep_hyphens?
+            - hyphen join at p0180: …; but it is un-|questionable th… (hyphen removed; check)
+            - hyphen join at p0185: …ready to coöpe-|rate, as far as… (hyphen removed; check)
+            - hyphen join at p0197: …for the dispen-|saries. These b… (hyphen removed; check)
+            - hyphen join at p0206: …usic and verse-|making were tau… (hyphen removed; check)
+            - hyphen join at p0258: …tems were obvi-|ously borrowed … (hyphen removed; check)
+            - (and 23 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[look (29)] contents: entries of the printed contents with no matching heading
+            - p0021: 'Vague ideas prevalent as to the missionary’s life and field of labor. '
+            - p0021: 'Necessity of acquiring the language. Strange and puzzling characterist'
+            - p0022: 'Time necessary for the study of the language valuable as affording opp'
+            - p0022: 'Difficulties in making a beginning. Opposition of the government. Rece'
+            - p0022: 'Influence of Christian teachers in government schools. Captain and Mrs'
+            - p0023: 'Small beginnings. Difficulty of securing places for preaching. Church-'
+            - p0023: 'Public speaking little known in old Japan. Success of Japanese preache'
+            - p0023: 'Limitations to residence and travel. Passports. The jinrikisha. Power '
+            - p0023: 'The multitudes not consciously thirsting for Truth. Individuals led to'
+            - p0024: '“by their fruits ye shall know them.”'
+            - p0024: 'Incident illustrating the general impression made by Christianity. Tes'
+            - p0024: 'A student’s influence. A faithful convert. Meetings in a private house'
+            - p0024: 'the kumi-ai churches.'
+            - p0024: 'The first churches organized in connection with the American Board’s M'
+            - p0025: 'Its gradual development. Early plans of the mission for Higher Educati'
+            - p0025: 'The true view of medical missions. Dr. Hepburn’s early work. Drs. Berr'
+            - p0025: 'Position of woman under the old régime. Buddhism and woman. Female edu'
+            - p0026: 'Christian discipleship a matter of principles rather than rules. Great'
+            - p0026: 'Embarrassment from the multitude of missionary societies in Japan. Gen'
+            - p0026: 'Comparative religion a Christian science. The testimony of those who h'
+            - p0027: 'New Japan. Wonderful progress,—material, educational, political. Recog'
+            - p0027: 'New Japan largely the product of Christianity. Effects of Christian ci'
+            - p0027: 'The reaction, inevitable and desirable, carried to an extreme. Used by'
+            - p0028: 'Farewell meetings. Speeches. Poems. Presents. “Speeding the Parting Gu'
+            - p0028: 'A. Report of the Committee on a Christian College for Japan 259'
+            - p0028: 'B. Dōshisha University. Faculty of Instruction for 1891–1892 263'
+            - p0028: 'C. Japanese Christian Literature 266'
+            - p0028: 'D. Protestant Missionary Work in Japan for 1891 268'
+            - p0028: 'E. Creeds 270'
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
+[       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
+[       ok] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
+[ look (2)] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+            - p0156: verse continued from p0155: stanzas before [] | here [2] (a stanza ending at the page foot needs no [[cont]])
+            - p0285: verse continued from p0284: stanzas before [2] | here [3] (a stanza ending at the page foot needs no [[cont]])
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
+[look (10)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0008, p0011, p0012, p0013, p0014, p0015…); à (p0281)
+            - ato: ato (p0292, p0293); atō (p0291)
+            - daimyo: daimyo (p0301); daimyō (p0050, p0061, p0082)
+            - heishiro: heishiro (p0186); héishiro (p0018)
+            - kobe: kobe (p0290); kōbe (p0071, p0072, p0110, p0141, p0148, p0149…)
+            - kogisho: kogisho (p0302); kōgisho (p0095, p0096, p0103)
+            - kyoto: kyōto (p0018, p0020, p0022, p0037, p0064, p0088…); kyōtō (p0289)
+            - o: o (p0008, p0101, p0114, p0118, p0121, p0128…); ō (p0064, p0293)
+            - osaka: osaka (p0014, p0076, p0091, p0132, p0133, p0197); ōsaka (p0177, p0198)
+            - sake: sake (p0140); saké (p0122, p0123, p0130, p0131, p0165, p0303)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[ look (3)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0162: “begining” — “beginning” is common (608; a letter dropped or transposed?)
+            - p0163: “sowers” — “showers” is common (132; a letter dropped or transposed?)
+            - p0255: “wiil” — “will” is common (8590)
+[       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
+[ look (3)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: …M. L. Gordon (1843–1900), an American physician and missionary, worked i…
+            - book.json summary: …, the Dōshisha school at Kyōto, Christian literature and the churches that gr…
+            - book.json summary: …s and of the people Gordon met, and ends with his thoughts on Japan’s new era and a farewell chapter w…
+[ look (5)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+            - p0058: “how He” in …o His brethren.” We know how He made himself “…
+            - p0159: “believe He” in …over his children, and I believe He will help us.…
+            - p0299: “without His” in …Christ to the soul; and without His grace man, bein…
+            - p0299: “day He” in …ed into Hades; the third day He rose from the…
+            - p0299: “thence He” in …he Father Almighty; from thence He shall come to j…
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight FAIL: american-missionary-in-japan-gordon v1 — 2 to fix, 0 waived; to look at: hyphen-joins 12, contents 29, verse-joins 2, accents 10, rare-forms 3, serial-commas 3, missing-stop 5 — tools@86f8419e 2026-11-26

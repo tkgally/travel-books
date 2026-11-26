@@ -2066,8 +2066,9 @@
    "images": 326,
    "eligibility": "Re-vetted 2026-11-26 (Opus subagent); rejected earlier only under the old death-date rule. pg_catalog.csv: only Boyes, King of the Wa-Kikuyu (Bulpett ed.). The Online Books Page: archive.org and HathiTrust images only. Web search: no text; exact-sentence search: nothing. Reprints: print on demand only (Kessinger, Legare Street, Forgotten Books, Hansebooks). Wikisource API not reachable.",
    "note": "Smithsonian scan (Russell E. Train Africana Collection), jp2 zip. Frontispiece and 22 illustrations, mostly two to a plate leaf, and a folding map of the Baro River at the end; check 'Nuer Huts' (facing p. 58) on the scan. 260 pp. plus a publisher's catalogue. W. N. McMillan's party, 1903–04: up the White Nile, Sobat and Baro into the Abyssinian highlands, then to the Akobo and the Boma plateau; long passages from Mrs McMillan's journal in inverted commas. Plain, mostly shooting.",
-   "status": "queued",
-   "checked": "2026-11-26"
+   "status": "in progress",
+   "checked": "2026-11-26",
+   "started": "2026-11-26"
   },
   {
    "order": 113,
