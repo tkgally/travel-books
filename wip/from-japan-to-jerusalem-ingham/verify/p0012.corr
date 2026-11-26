@@ -1,0 +1,13 @@
+{"find": "\n\nXVII A F", "replace": "\n\n[[center]] XVII\n\n[[center]] A F"}
+{"find": "\n\nXVIII C", "replace": "\n\n[[center]] XVIII\n\n[[center]] C"}
+{"find": "\n\nXIX I", "replace": "\n\n[[center]] XIX\n\n[[center]] I"}
+{"find": "\n\nXX I", "replace": "\n\n[[center]] XX\n\n[[center]] I"}
+{"find": "\n\nXXI I", "replace": "\n\n[[center]] XXI\n\n[[center]] I"}
+{"find": "\n\nXXII I", "replace": "\n\n[[center]] XXII\n\n[[center]] I"}
+{"find": "\n\nXXIII I", "replace": "\n\n[[center]] XXIII\n\n[[center]] I"}
+{"find": "\n\nXXIV I", "replace": "\n\n[[center]] XXIV\n\n[[center]] I"}
+{"find": "\n\nXXV A F", "replace": "\n\n[[center]] XXV\n\n[[center]] A F"}
+{"find": "\n\nXXVI I", "replace": "\n\n[[center]] XXVI\n\n[[center]] I"}
+{"find": "\n\nXXVII I", "replace": "\n\n[[center]] XXVII\n\n[[center]] I"}
+{"find": "\n\nXXVIII I", "replace": "\n\n[[center]] XXVIII\n\n[[center]] I"}
+{"find": "\n\nC<sc>onclusion</sc>", "replace": "\n\n[[center]] C<sc>onclusion</sc>"}
