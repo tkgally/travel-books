@@ -2097,6 +2097,171 @@
    "note": "Duke scan, 350 ppi. 32 full-page plates (drawings by the author and photographs), 20 cuts in the text, a coloured map of Africa facing p. 1; the folding map of Central Madagascar in the end pocket is scanned folded and only partly visible (a missing map does not stop a book: said in notes_on_text). Index to p. 344. Backup scan roundblackmansga00colv (Boston University, 500 ppi). Preface by H. E. Colvile (The Accursed Land). Eight months round Africa, 1888–89: Red Sea, Zanzibar, Madagascar crossed by palanquin, Natal, Kimberley, the Canaries, the West Coast. A humorous diarist.",
    "status": "queued",
    "checked": "2026-11-26"
+  },
+  {
+   "order": 114,
+   "ia": "girlinkarpathian00dowi",
+   "slug": "girl-in-the-karpathians-dowie",
+   "title": "A Girl in the Karpathians",
+   "author": "Ménie Muriel Dowie",
+   "year": 1891,
+   "place": "New York (first published London, George Philip & Son, 1891)",
+   "publisher": "Cassell Publishing Company",
+   "images": 332,
+   "status": "queued",
+   "checked": "2026-11-26",
+   "eligibility": "Vetted 2026-11-26 (Opus subagent). PG catalogue (mirror, whole file): no match on title or author. Online Books Page: only her Women Adventurers, Gallia, The Crook of the Bough. Wikisource: web search found nothing; the API was rate-limited, look again. Faded Page: not checkable (scripted search). Web search of a distinctive sentence: no text. Open Library and booksellers: print-on-demand only (Creative Media Partners, Franklin Classics, Kessinger facsimile 2010, CreateSpace); Tauchnitz 1891. No reset edition found (session's own search agrees).",
+   "note": "UCLA library scan, 400 ppi, jp2.zip and scandata, clean OCR. No illustrations seen in this New York edition (the London fifth edition of 1892, girlinkarpathian00normiala, black-and-white only, adds a preface and a portrait). A young Scotswoman's summer of 1890, riding and walking alone with local guides among the Hutsuls of the Galician Carpathians, staying with peasants and priests. First person, lively. Polish and Ruthenian words and place names."
+  },
+  {
+   "order": 115,
+   "ia": "summertourinfinl00macdrich",
+   "slug": "summer-tour-in-finland-waineman",
+   "title": "A Summer Tour in Finland",
+   "author": "Paul Waineman [Sylvia Borgström MacDougall]",
+   "year": 1908,
+   "place": "London",
+   "publisher": "Methuen & Co.",
+   "images": 448,
+   "status": "queued",
+   "checked": "2026-11-26",
+   "eligibility": "Vetted 2026-11-26 (Opus subagent). PG catalogue: no match on Waineman, MacDougall or the title. Online Books Page: none. Wikisource: web search nothing; API rate-limited. Faded Page: not checkable. Web search of a distinctive sentence: no text. Open Library and booksellers: Methuen 1908 and Kessinger print-on-demand only.",
+   "note": "University of California scan, 500 ppi, jp2.zip, no scandata. A second scan, summertourinfinl0000sylv (412 images), may lack leaves; compare. 16 colour plates by Alexander Federley and 16 monotone plates: count them at the scan check. Publisher's advertisements at the end. Finnish-born author writing in English. A summer tour by steamer, canal, cart and rail from Helsingfors through Viborg, Imatra, the Saima lakes, Kuopio, Kajana, Uleåborg and Tornea to Åbo."
+  },
+  {
+   "order": 116,
+   "ia": "fourthousandmile00weny",
+   "slug": "four-thousand-miles-across-siberia-wenyon",
+   "title": "Four Thousand Miles across Siberia on the Great Post-Road",
+   "author": "Charles Wenyon, M.D.",
+   "year": 1909,
+   "place": "London",
+   "publisher": "Charles H. Kelly",
+   "images": 270,
+   "status": "queued",
+   "checked": "2026-11-26",
+   "eligibility": "Rejected 2026-11-20 only for unknown death dates (rule 5, withdrawn 2026-11-26); vetted again 2026-11-26 (Opus subagent). First published 1896 as Across Siberia on the Great Post-Road; this is a reissue (Every Age Library) with a new preface. PG catalogue: no match. Wikisource: no page. Web search of a distinctive sentence: no text. Reprints: print-on-demand only (Creative Media Partners, Legare Street, HardPress, Hutson Street). Wellcome Collection: page images of 1896 only. Online Books Page and Faded Page not seen.",
+   "note": "UCLA library scan, 400 ppi, jp2.zip and scandata. No illustrations. Second copy fourthousandmile00wenyiala. A Methodist medical missionary's journey home from China in 1893: Vladivostock, by tarantass to Lake Khanka, steamer up the Ussuri, Amoor and Shilka, then the post-road over Baikal to the Urals. About 260 pages."
+  },
+  {
+   "order": 117,
+   "ia": "fairlusitania00jackrich",
+   "slug": "fair-lusitania-jackson",
+   "title": "Fair Lusitania",
+   "author": "Lady Jackson [Catherine Hannah Charlotte Jackson]",
+   "year": 1874,
+   "place": "London",
+   "publisher": "Richard Bentley and Son",
+   "images": 472,
+   "status": "queued",
+   "checked": "2026-11-26",
+   "eligibility": "Vetted 2026-11-26 (Opus subagent). PG catalogue: no match. Wikisource and web search: nothing. Faded Page: not checkable. Web search of a distinctive sentence: no text. No reprint found (Open Library returned an error). HathiTrust page images only.",
+   "note": "University of California scan, 400 ppi, jp2.zip. xii + 406 pp., 20 plates from photographs (19 listed plus a frontispiece). 472 images: long. Lisbon, Cintra, Mafra, Oporto, the Douro, Coimbra and Busaco, with anecdote and history. Portuguese words; quotations from Camões."
+  },
+  {
+   "order": 118,
+   "ia": "summerinazoreswi00bake",
+   "slug": "summer-azores-baker",
+   "title": "A Summer in the Azores, with a Glimpse of Madeira",
+   "author": "C. Alice Baker [Charlotte Alice Baker]",
+   "year": 1882,
+   "place": "Boston",
+   "publisher": "Lee and Shepard",
+   "images": 186,
+   "status": "queued",
+   "checked": "2026-11-26",
+   "eligibility": "Vetted 2026-11-26 (Opus subagent). pg_catalog.csv (mirror, whole): none. Online Books Page: IA and HathiTrust page images only. Wikisource: no hits. Web search of a sentence (\"In the Azores every thing is novel, and nothing is new\"): no text. Open Library: 1882, then Franklin Classics / Creative Media Partners print-on-demand only. Faded Page not checkable.",
+   "note": "Library of Congress scan, 650 ppi, 186 leaves (16mo, 174 pp.), no illustrations. Dated diary headings; verse quotations here and there. A New England teacher's summer on Fayal, Pico, Terceira and San Miguel, sailing from Boston, with a short visit to Madeira."
+  },
+  {
+   "order": 119,
+   "ia": "incanarieswithca00destrich",
+   "slug": "canaries-camera-deste",
+   "title": "In the Canaries with a Camera",
+   "author": "Margaret D'Este",
+   "year": 1909,
+   "place": "London",
+   "publisher": "Methuen & Co.",
+   "images": 392,
+   "status": "queued",
+   "checked": "2026-11-26",
+   "eligibility": "Vetted 2026-11-26 (Opus subagent). pg_catalog.csv: only her With a Camera in Majorca (#54634); not this book. Online Books Page: none. Wikisource: no hits. Web search of a passage: no text. Open Library: Methuen 1909 and Creative Media Partners 2021 (print-on-demand) only. Faded Page not checkable.",
+   "note": "University of California scan, 500 ppi. 231 pp. and about 51 photographic plates by Mrs R. M. King with blank versos and tissue guards: count the plates against the list (pp. ix–xi) at the scan check; possibly a small map. Six months on Tenerife, La Palma and Grand Canary, winter 1908–9: hotels, Holy Week at Laguna, the Peak, cave-dwellers; light and humorous."
+  },
+  {
+   "order": 120,
+   "ia": "fivemonthsinlabr00tuck_0",
+   "slug": "five-months-labrador-tucker",
+   "title": "Five Months in Labrador and Newfoundland, during the Summer of 1838",
+   "author": "Ephraim W. Tucker",
+   "year": 1839,
+   "place": "Concord, N.H.",
+   "publisher": "Israel S. Boyd and William White",
+   "images": 166,
+   "status": "queued",
+   "checked": "2026-11-26",
+   "eligibility": "Vetted 2026-11-26 (Opus subagent). pg_catalog.csv: none. Online Books Page: none. Wikisource: no hits. Web search of a sentence: no text. Reprints: Creative Media Partners 2022 and a facsimile (print-on-demand). Canadiana, Toronto PL and Memorial University: scans only. Faded Page not checkable.",
+   "note": "Thomas Fisher Library (Toronto) scan, 650 ppi, 166 leaves (xi + 156 pp.), no illustrations; small close print: check the scan at high zoom. A young American divinity student, sent to sea for his health, sails on a fishing schooner to Labrador and Newfoundland: fishing, hunting, settlers' customs, Louisbourg on the way home. Part narrative, part description of the fisheries."
+  },
+  {
+   "order": 121,
+   "ia": "mountainprairiej00gord_0",
+   "slug": "mountain-prairie-gordon",
+   "title": "Mountain and Prairie: A Journey from Victoria to Winnipeg, via Peace River Pass",
+   "author": "Rev. Daniel M. Gordon",
+   "year": 1880,
+   "place": "Montreal",
+   "publisher": "Dawson Brothers",
+   "images": 358,
+   "status": "queued",
+   "checked": "2026-11-26",
+   "eligibility": "Vetted 2026-11-26 (Opus subagent). pg_catalog.csv: none. Online Books Page: none. Wikisource: no match. Web search of a sentence: no text. Reprints: Kessinger, British Library Historical Print Editions 2011, Legare Street 2025 (all print-on-demand). Canadiana and UBC: scans only. Faded Page not checkable.",
+   "note": "Thomas Fisher Library (Toronto) scan, 650 ppi, 358 leaves, about 310 pp.; frontispiece and 7 plates from photographs, 3 maps (check the folding maps are complete). In 1879 a Presbyterian minister crosses with G. M. Dawson's survey: up the Skeena by canoe, by pack trail to Babine, by boat through the Peace River Pass, across the prairie by cart. A last chapter on Canada's future."
+  },
+  {
+   "order": 122,
+   "ia": "adriftinnewzeala00elkiiala",
+   "slug": "adrift-in-new-zealand-elkington",
+   "title": "Adrift in New Zealand",
+   "author": "E. Way Elkington",
+   "year": 1906,
+   "place": "London",
+   "publisher": "John Murray",
+   "images": 364,
+   "status": "queued",
+   "checked": "2026-11-26",
+   "eligibility": "Vetted 2026-11-26 (Opus subagent). pg_catalog.csv (mirror, whole): only his Savage South Seas (#57695). Online Books Page: HathiTrust page images only. Wikisource: none. Open Library: Murray 1906; Read Books 2008 and Creative Media Partners 2023 (print-on-demand). Web search of a sentence and of the title: no text, no real reprint. NZETC: site search nothing (site not scriptable). Faded Page not checked.",
+   "note": "University of California scan, 400 ppi; xii + 280 pp. with index; frontispiece and 32 photographic plates (captions not in the OCR: count at the scan check). A young Englishman lands in Auckland with threepence and works his way round both islands as farm hand, tramp, station hand, gum-digger and bushman; first person, lively, much dialogue."
+  },
+  {
+   "order": 123,
+   "ia": "philippineexperi00free",
+   "slug": "philippine-experiences-freer",
+   "title": "The Philippine Experiences of an American Teacher: A Narrative of Work and Travel in the Philippine Islands",
+   "author": "William B. Freer",
+   "year": 1906,
+   "place": "New York",
+   "publisher": "Charles Scribner's Sons",
+   "images": 392,
+   "status": "queued",
+   "checked": "2026-11-26",
+   "eligibility": "Vetted 2026-11-26 (Opus subagent). pg_catalog.csv: not there. Online Books Page: none. Wikisource: none. Web search of a sentence: nothing. Reprints: Kessinger 2007 (print-on-demand) only. HathiTrust and Cornell Southeast Asia Visions: page images.",
+   "note": "University of California scan, 400 ppi; xi + 344 pp., frontispiece and 15 photographs on about 8 plates; a glossary of Spanish and Philippine terms and an index. Second scan philippineexperi00free_0 (Princeton Theological Seminary). One of the first American teachers in Luzon and the Bicol region, 1901–04: towns, journeys by pony, boat and trail, schools, epidemics."
+  },
+  {
+   "order": 124,
+   "ia": "wonderlandofanti00tinniala",
+   "slug": "wonderland-of-the-antipodes-tinne",
+   "title": "The Wonderland of the Antipodes; and Other Sketches of Travel in the North Island of New Zealand",
+   "author": "J. Ernest Tinne",
+   "year": 1873,
+   "place": "London",
+   "publisher": "Sampson Low, Marston, Low, and Searle",
+   "images": 172,
+   "status": "queued",
+   "checked": "2026-11-26",
+   "eligibility": "Vetted 2026-11-26 (Opus subagent). pg_catalog.csv: none. Online Books Page: none. Wikisource: none. Web search of a sentence and of title + reprint: Forgotten Books print-on-demand only; the session's own search found nothing at NZETC. NOT CHECKED: Early New Zealand Books (Auckland), which offers readable texts, refused scripted access (403): check it before starting.",
+   "note": "University of California scan, 400 ppi, 172 leaves, about 124 pp.; a map (may be folded) and 14 autotype photographs of the Pink and White Terraces, Rotomahana and Ohinemutu, taken before the eruption of 1886. An Oxford graduate rides in 1872 from the Hot Lakes to Taupo and Napier, then lives in the bush at Hokianga and Kaipara."
   }
  ],
  "rejected": [
@@ -2292,7 +2457,7 @@
   },
   {
    "title": "Charles Wenyon, Four Thousand Miles across Siberia",
-   "why": "author's dates not found (IA gives his son's); readable — worth finding his dates (vetting by subagents, 2026-11-20)",
+   "why": "author's dates not found (IA gives his son's); readable — worth finding his dates (vetting by subagents, 2026-11-20) — vetted again 2026-11-26 and queued (rule 5 withdrawn)",
    "checked": "2026-11-20"
   },
   {
@@ -2695,6 +2860,191 @@
   },
   {
    "title": "Melland and Cholmeley, Through the Heart of Africa (1912; IA throughheartofa00mell): skipped at Tom's word, 2026-11-26 (a Westphalia Press edition of 2016, facsimile or not unknown)."
+  },
+  {
+   "title": "Walter Phelps Dodge, As the Crow Flies: From Corsica to Charing Cross (1893)",
+   "why": "Project Gutenberg #47213",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "Thomas Forester, Rambles in the Islands of Corsica and Sardinia (1858)",
+   "why": "Project Gutenberg #28510",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "Charles Edwardes, Sardinia and the Sardes (1889)",
+   "why": "only IA copy a re-uploaded Google PDF; sampled pages history of antiquities (a reserve if a library scan appears)",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "Edward Lear, Journal of a Landscape Painter in Corsica (1870)",
+   "why": "probably reprinted (William Kimber, 1960s; not confirmed); Google scans",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "Sir Francis Bond Head, A Fortnight in Ireland (1852)",
+   "why": "the middle is political argument and tables",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "T. R. Jolliffe, Narrative of an Excursion from Corfu to Smyrna (1827)",
+   "why": "the middle is compiled ancient history",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "John A. Logan, In Joyful Russia (1897)",
+   "why": "essay and coronation reportage, little journey",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "Frederick Whishaw, Out of Doors in Tsarland (1893)",
+   "why": "a resident's hunting sketches, not a journey (a reserve)",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "George Pellow, In Castle and Cabin (1888)",
+   "why": "political interviews, not travel",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "Margaret Dixon McDougall, The Letters of \"Norah\" on Her Tour through Ireland (1882)",
+   "why": "Project Gutenberg #6599",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "S. Reynolds Hole, A Little Tour in Ireland (1859)",
+   "why": "Project Gutenberg #44805",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "Philip Sanford Marden, Greece and the Ægean Islands (1907)",
+   "why": "Project Gutenberg #50106",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "Henry Collins Walsh, The Last Cruise of the Miranda (1896)",
+   "why": "narrative only pp. 1–134, the rest papers by other members",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "James Lumsden, The Skipper Parson on the Bays and Barrens of Newfoundland (1905)",
+   "why": "missionary reminiscence and sermonising, little journey",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "J. Harris Knowles, From Summer Land to Summer (1899)",
+   "why": "thin; little beyond reflection",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "Daniel J. Browne, Letters from the Canary Islands (1834)",
+   "why": "mostly geology and statistics",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "E. Marston, Frank's Ranche (1886)",
+   "why": "Project Gutenberg #52625",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "Caroline C. Leighton, Life at Puget Sound (1884)",
+   "why": "Project Gutenberg #24816",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "Bernard McEvoy, From the Great Lakes to the Wide West (1902)",
+   "why": "promotional newspaper writing",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "Charles Edwardes, Rides and Studies in the Canary Islands (1888)",
+   "why": "a reserve: long stretches of island history; reprint not checked",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "Julia C. R. Dorr, Bermuda: An Idyl of the Summer Islands (1884)",
+   "why": "a reserve: slight (148 pp.)",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "Gwendolen Trench Gascoigne, Among Pagodas and Fair Ladies (1896)",
+   "why": "an Alpha Editions reissue of unknown kind; about 80 halftones in the text; half the chapters by topic (a reserve once the reissue is settled)",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "A. S. Meek, A Naturalist in Cannibal Land (1913)",
+   "why": "possibly reprinted by Cambridge University Press (ISBN 9781108034159 seen beside the title, not confirmed): recheck",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "William Senior, Travel and Trout in the Antipodes (1880)",
+   "why": "reprinted: Derrydale Press 1994, Kiwi Publishers 1997",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "W. B. Churchward, My Consulate in Samoa (1887)",
+   "why": "reprinted: Dawsons of Pall Mall 1971",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "Emily Richings, Through the Malay Archipelago (1909)",
+   "why": "Project Gutenberg #27422",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "B. Pullen-Burry, In a German Colony (1909)",
+   "why": "Project Gutenberg #79365",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "H. Wilfrid Walker, Wanderings among South Sea Savages (1910)",
+   "why": "Project Gutenberg #2564",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "Mary H. Fee, A Woman's Impressions of the Philippines (1910)",
+   "why": "Project Gutenberg #13392",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "A. Hugh Fisher, Through India and Burmah with Pen and Brush (1911)",
+   "why": "Project Gutenberg #71505",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "James T. Goudie, Notes and Gleanings (1894)",
+   "why": "mostly statistics and banking",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "C. D. Mackellar, Scented Isles and Coral Gardens (1912)",
+   "why": "guidebook passages; long",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "Mary V. and John G. Woolley, South Sea Letters (1906)",
+   "why": "general remarks more than journey",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "Frank Burnett, Through Tropic Seas (1910)",
+   "why": "third person; ethnographic",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "A. K. Chignell, An Outpost in Papua (1911)",
+   "why": "mission life by topic, not a journey",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "Eda Green, Borneo, the Land of River and Palm (1909)",
+   "why": "mission description, not a journey",
+   "checked": "2026-11-26"
+  },
+  {
+   "title": "Emma H. Adams, Jottings from the Pacific (1890)",
+   "why": "guidebook-like",
+   "checked": "2026-11-26"
   }
  ]
 }
