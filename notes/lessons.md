@@ -75,6 +75,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   index pages, "List of Illustrations" on its second page) as a heading (*Path of the Conquistadores*: 4, 2026-11-20).
 - `omitted_from_reading` names only what a division really leaves out: a printer's imprint after “The End” stays in the
   last chapter (*Kothari*, 2026-11-20: caught by the rendered look).
+- A Kirtas scan with the outer edge of a leaf lost in a tight binding (the last letters of every line: *Sunny Lands and Seas* p. 2, 2026-11-26) passed a scan check that looked at the feet of the leaves; the draft's 〓 marks showed it. Ask the scan check to look at the outer edge of every leaf as well.
 - A folded page corner (the right ends of the last four lines lost) passed the scan check by a subagent; the draft's 〓 marks showed it (*China and Japan*, p. 105, 2026-11-22). After the draft, `grep -l 〓 draft/*.txt` and look at each page at once: a damaged leaf is taken from another copy while the scan is at hand.
 - Tables and multi-line letters inside quotations or footnotes: the markup has neither (a table in `<blockquote>` shows its pipes; lines after a `[[fn]]` become body text). Close the quotation round a table; join a letter in a note into the note line (*Venezuela*, 2026-11-22: preflight `conservation` and `note-tail` caught both).
 - A model that returns "no corrections" in a few seconds may still be right: the audit's planted errors say
@@ -196,7 +197,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - A whole page of a smaller-type quotation (no line of body type on it) is typed as body text by draft and verifier alike: preflight's compile warning “[[cont]] with nothing to continue” on the next page is the sign; line pitch settles it (*Round about Armenia* 3 pages, *From Japan to Jerusalem* 2, 2026-11-26).
 - Plate numbers printed under photographs (roman numerals): drafts type them as folios, caption prefixes or lines of their own, inconsistently; strip them by script after the judge (*Yankee on the Yangtze*: 82 plate pages).
 - A leaf of text bound inside a paragraph (an unnumbered insert, the Sacred Edict in *Yankee on the Yangtze*): the next page's `[[cont]]` joins the insert's last line. Move the insert's text after the end of the interrupted paragraph and say so in the log (caught by the rendered look).
-- Halftones set into the text column: the Sonnet pass moves them to the exact line with `[[cont]]` after the caption, mid-sentence (*Vacation Days*: 34). Move each after the end of its paragraph by script (picture + caption, then join the `[[cont]]` text to the paragraph before).
+- Halftones set into the text column: the Sonnet pass moves them to the exact line with `[[cont]]` after the caption, mid-sentence (*Vacation Days*: 34). Move each after the end of its paragraph by script (picture + caption, then join the `[[cont]]` text to the paragraph before). Wood engravings in the text too (*Sunny Lands and Seas* 13, *Norway Nights* 4, 2026-11-26): restore those pages from the draft when the words are the same, then move the pictures the draft left mid-paragraph (preflight `image-splits`).
 
 ## Trigger: footnotes
 
