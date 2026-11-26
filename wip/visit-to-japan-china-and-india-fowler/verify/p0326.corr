@@ -1,0 +1,3 @@
+{"find": "By V<sc>iollet</sc> L<sc>e</sc> D<sc>uc</sc>, Author", "replace": "By VIOLLET LE D<sc>uc</sc>, Author"}
+{"find": "By V<sc>iollet</sc> L<sc>e</sc> D<sc>uc</sc>. Translated", "replace": "By VIOLLET LE DUC. Translated"}
+{"find": "By V<sc>iollet</sc> L<sc>e</sc> D<sc>uc</sc>, and a", "replace": "By VIOLLET LE DUC, and a"}
