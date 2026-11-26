@@ -267,6 +267,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 - Bitonal: halftones and many engravings come out blank. Good for supplying a missing leaf's text, not its picture
   (*Rambles* p. 114, 2026-11-20). Its page images are small (767 px wide): upscale to the working height.
+- Masked corners: the scanner blanked the bottom-right corner of some leaves, losing the ends of the last lines (*Unprotected Females in Sicily*, 2026-11-26: 6 leaves; the scan check called the scan good; the draft’s 〓 showed it). Ask the scan check to look at the foot of every leaf, and after the draft have a subagent compare the damaged areas with the draft (the drafts may fill lost words silently).
 - Often bilevel, with folded maps unopened and occasional pages with a hand over the text: the scan check
   must look at every sheet at a size where that would show.
 
