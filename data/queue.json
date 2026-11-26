@@ -1495,10 +1495,11 @@
    "place": "London",
    "publisher": "Sampson Low, Marston, Searle, & Rivington",
    "images": 344,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-22",
    "eligibility": "JATSI 43. Rules 1, 2 and 4 met; rule 3 unsettled. Rule 1: University of California scan (400 ppi, colour), clean; the only other IA copy is a Digital Library of India scan. Rule 2: no text at Project Gutenberg (full catalogue), The Online Books Page or Wikisource, nor in a web search of a sentence from p. 55; South Asia Commons has page images only. Rule 3 UNCERTAIN: Gyan Publishing House, Delhi, 2023, 306 pp. (ISBN 9788121297608), not known whether reset or a scan reprint (settle before starting); British Library print-on-demand (2011) does not count; no Ganesha edition in CiNii. Rule 4: first-person journal of a journey round the world in 1875–76 by New York and San Francisco; ch. II on Japan (Yeddo, Kioto, Nagasaki); more than half on India. Rule 5 does not apply: Sir Robert Nicholas Fowler, Bt., 1828–1891. Searched 2026-11-22 (Opus subagent). Not checked: WorldCat, DP.",
-   "note": "viii + 288 pp., 8 chapters; no illustrations seen (confirm at the scan check). About a dozen footnotes quoting Blue Books. The Japan and China chapters lively; the India chapters turn to land revenue, the salt tax and opium policy."
+   "note": "viii + 288 pp., 8 chapters; no illustrations seen (confirm at the scan check). About a dozen footnotes quoting Blue Books. The Japan and China chapters lively; the India chapters turn to land revenue, the salt tax and opium policy.",
+   "started": "2026-11-26"
   },
   {
    "order": 81,

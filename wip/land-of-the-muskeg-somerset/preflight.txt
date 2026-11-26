@@ -12,8 +12,7 @@
 [       ok] nav: contents: at least one reading division; each has a title and text
 [       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
-[ FAIL (1)] audit: book.json records the sampled audit of this version
-            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[       ok] audit: book.json records the sampled audit of this version
 [ look (2)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0066: …the more effec-|tually. Round a… (hyphen removed; check)
             - (and 11 joins giving a word the book prints whole elsewhere: not listed)
@@ -41,12 +40,10 @@
             - edition: edition (p0295, p0296, p0297, p0298, p0299, p0300…); édition (p0295)
             - emile: emile (p0296, p0303, p0316); émile (p0296)
             - rederic: rederic (p0301, p0314); rédéric (p0298)
-[ look (1)] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
-            - p0314: “tbe” in …Frederic, Author of “In tbe Valley,” &c. With Illust…
-[ look (3)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[ look (2)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
             - p0043: “bumble” — “humble” is common (207)
             - p0134: “pantings” — “paintings” is common (214; a letter dropped or transposed?)
-            - p0314: “tbe” — “the” is common (476601)
 [       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
 [ look (2)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
             - book.json summary: … and an Indian hunter, Daukhan, to travel by the Peace River and the Pine River acros…
@@ -54,4 +51,4 @@
 [       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: land-of-the-muskeg-somerset v1 — 1 to fix, 2 waived; to look at: hyphen-joins 2, joins 3, folios 1, contents 1, accents 5, misprints 1, rare-forms 3, serial-commas 2 — tools@95cc338e 2026-11-26
+preflight PASS: land-of-the-muskeg-somerset v1 — 0 to fix, 2 waived; to look at: hyphen-joins 2, joins 3, folios 1, contents 1, accents 5, rare-forms 2, serial-commas 2 — tools@31b171cd 2026-11-26

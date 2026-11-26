@@ -1,0 +1,34 @@
+[[page ?]]
+# Contents.
+
+[[center]] Chapter I.
+
+[[center]] <sc>From London to Japan</sc> <pref>1</pref>
+
+[[center]] Chapter II.
+
+[[center]] <sc>Excursions in Japan</sc> <pref>30</pref>
+
+[[center]] Chapter III.
+
+[[center]] <sc>Voyage down the Chinese Coast</sc> <pref>68</pref>
+
+[[center]] Chapter IV.
+
+[[center]] <sc>The Straits Settlements and Ceylon</sc> <pref>109</pref>
+
+[[center]] Chapter V.
+
+[[center]] <sc>Madras and Southern India</sc> <pref>134</pref>
+
+[[center]] Chapter VI.
+
+[[center]] <sc>Calcutta and British Power in India</sc> <pref>170</pref>
+
+[[center]] Chapter VII.
+
+[[center]] <sc>Benares, Lucknow, Delhi, Lahore, and Agra</sc> <pref>225</pref>
+
+[[center]] Chapter VIII.
+
+[[center]] <sc>Bombay, and Home</sc> <pref>264</pref>

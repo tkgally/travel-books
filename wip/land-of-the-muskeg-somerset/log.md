@@ -7,7 +7,7 @@ only, no text, no later edition). Started 2026-11-26.
 
 ## Status
 Stage (a) done: scan checked (Opus subagent), cached in Drive (21 parts). p. 15 missing from the EPL scan (map II laid over
-it): taken from the Toronto scan (n58) as p0055a. Opus draft running (leaves 5, 8–37, 39, 41–316, then p0055a).
+it): taken from the Toronto scan (n58) as p0055a. Stages (a)–(c) to audit done, preflight PASS; rendered look, then publish.
 
 ## Page map
 Scan check (Opus subagent, 2026-11-26). p0000 colour card · p0001 cover (title readable; barcode label) · p0002–p0004 endpapers ·
@@ -22,13 +22,36 @@ top clipped) · p0055a = p. 15 from landofmuskeg00someuoft n58 · p0097 Map III 
 full-page plates p0025, p0046, p0145, p0213, p0253 (sideways). Footnotes; journal entries with italic dates from ch. VII.
 
 ## Decisions
+- Divisions: half-title (front), title page (frontispiece moved to it), dedication, contents and list of illustrations (JSON
+  only), Pollen's preface, Map I as a reading division before Chapter I, 11 chapters (title as `[[subtitle]]`), Heinemann's
+  list (advertisements; its `#` headings made `##`). p0006, p0038 blank page files; p0007 (IA sheet) and p0040 (the map half
+  folded) waived in `leaves`.
+- Contents: chapter numbers and titles, as printed.
+- p. 15 from landofmuskeg00someuoft n58 (p0055a); Map II cropped from the same copy (n56), whole, where this copy's is clipped.
+- Corrections pass: 61 word spots, 69 changes; judge (Opus) 12 draft, 44 verified. 24 pages where the verifier moved a picture
+  into the middle of its paragraph with `[[cont]]` (the judge agreed every time): those pages taken from the draft; 7 more pages
+  where the draft itself left a picture mid-sentence: pictures moved after the paragraph by script (now `tools/move_pictures.py`,
+  which on the verifier's pages gives the draft's pages exactly). p0218 `[[cont]]` removed by the verifier restored. Captions
+  in plain upper and lower case (the judge's capitals left out).
+- Printed misprints marked: p0300 “Physican”, p0314 “tbe” (publisher's list). “coyottes” (p0128) and “Portairs” (ch. X title,
+  running heads, notes) left as printed.
+- Spot-read (Opus subagent): title page split as printed (title in two lines, the statement of illustrations in three); p0223
+  `M<sup>c</sup>Leod` typed plain like the rest. Assumed: the raised c of Mc names (about 35) typed as plain “Mc”, as in the
+  other books; the map titles' “M‘Leod” kept as printed.
+- Pictures cropped by two Opus subagents (115 and the cover); the frontispiece's printed label “Frontispiece.” painted out.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-26 | opus | 310 | 20.83 | no refusals, no 〓 |
+| corrections | 2026-11-26 | sonnet | 310 | 10.23 | 69 changes |
+| judge | 2026-11-26 | opus | 61 spots | 1.47 | 12 draft, 44 verified, 5 kept pictures |
+| audit | 2026-11-26 | opus | 6 | 0.35 | 26/27, 0 candidates |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
 
 ## Known issues
+- The title page's left- and right-set lines are centred; the last line of the verse on p. 187 is indented in print.
+- The maps are shown at 1000 px: the smallest names are hard to read; the scan has them at full size.
