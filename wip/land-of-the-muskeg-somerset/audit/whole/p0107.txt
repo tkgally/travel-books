@@ -1,5 +1,0 @@
-{"given": "after our diet bacon. Daukhan", "print": "after our diet of bacon. Daukhan", "sure": "high"}
-{"given": "following day, daukhan, Round, Pollen", "print": "following day, Daukhan, Round, Pollen", "sure": "high"}
-{"given": "looking for bear-tracks; but found none.", "print": "looking for bear-tracks, but found none.", "sure": "high"}
-{"given": "track of a yearliug moose, and", "print": "track of a yearling moose, and", "sure": "high"}
-{"given": "‘We moved or about five miles’", "print": "‘We moved on about five miles’", "sure": "high"}

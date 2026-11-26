@@ -1,4 +1,0 @@
-{"given": "been bathing this eye in a", "print": "been bathing his eye in a", "sure": "high"}
-{"given": "set up a violent iuflammation.", "print": "set up a violent inflammation.", "sure": "high"}
-{"given": "pain. On following day, however,", "print": "pain. On the following day, however,", "sure": "high"}
-{"given": "he was much better; and with his", "print": "he was much better, and with his", "sure": "high"}

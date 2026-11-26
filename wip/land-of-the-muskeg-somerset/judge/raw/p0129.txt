@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "thern shore,\n\n[[image: a pack train of laden horses with men moving through tall grass and bush in an open flat]]\n[[caption]] ‘About midday we descended into an open flat’\n\n[[cont]]and we thoug", "sure": "high"}
-{"n": 2, "is": "B", "print": "g-out canoe,", "sure": "high"}

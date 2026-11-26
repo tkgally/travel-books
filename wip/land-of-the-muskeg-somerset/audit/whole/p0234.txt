@@ -1,4 +1,0 @@
-{"given": "but we cheercd one another", "print": "but we cheered one another", "sure": "high"}
-{"given": "the temper, and moral trials of", "print": "the temper, and the moral trials of", "sure": "high"}
-{"given": "about eight o’clock; and it was", "print": "about eight o’clock, and it was", "sure": "high"}
-{"given": "In looking back we sound that", "print": "In looking back we found that", "sure": "high"}

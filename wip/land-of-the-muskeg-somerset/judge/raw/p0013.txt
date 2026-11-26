@@ -1,8 +1,0 @@
-{"n": 1, "is": "A", "print": "<sc>preface</sc>", "sure": "high"}
-{"n": 2, "is": "B", "print": "<sc>from the athabaska landing</sc>", "sure": "high"}
-{"n": 3, "is": "B", "print": "<sc>the peace river</sc>", "sure": "high"}
-{"n": 4, "is": "A", "print": "<sc>daukhan and the bears</sc>", "sure": "high"}
-{"n": 5, "is": "B", "print": "<sc>camping in swamp</sc>", "sure": "high"}
-{"n": 6, "is": "A", "print": "<sc>on the track of a grizzly</sc>", "sure": "high"}
-{"n": 7, "is": "B", "print": "<sc>john’s prophecy</sc>", "sure": "high"}
-{"n": 8, "is": "A", "print": "<sc>on the snow-line</sc>", "sure": "high"}

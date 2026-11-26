@@ -32,7 +32,7 @@ def move(text):
         b = blocks[i]
         if (b.startswith("[[image:") and out and i + 1 < len(blocks) and _is_text(_last_line(out[-1]))
                 and (CONT.match(blocks[i + 1])
-                     or (re.match(r"[a-z]", blocks[i + 1]) and not re.search(r"[.!?:;”’)\]—]\s*$", _last_line(out[-1]))))):
+                     or (re.match(r"[‘“(]?[a-z]", blocks[i + 1]) and not re.search(r"[.!?:;”’)\]—]\s*$", _last_line(out[-1]))))):
             out[-1] = out[-1].rstrip() + " " + CONT.sub("", blocks[i + 1]).lstrip()
             out.append(b)
             i, n = i + 2, n + 1

@@ -1,2 +1,0 @@
-{"n": 1, "is": "A", "print": "There was\n\n[[image: A forest stream with tall spruce trees, low brush and a beaver dam, the trees reflected in the dark water]]\n[[caption]] ‘Everywhere deep pools and beaver dams’\n\n[[cont]]but one thin", "sure": "high"}
-{"n": 2, "is": "B", "print": "ss the river", "sure": "high"}

@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "used to", "sure": "medium"}
-{"n": 2, "is": "B", "print": "[[image: a small pair of twisted metal tweezers with a tasselled end]]\n[[caption]] A Pair of Tweezers\n\nIt seems tha", "sure": "medium"}

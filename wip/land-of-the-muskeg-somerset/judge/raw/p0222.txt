@@ -1,4 +1,0 @@
-I checked both spots against the scan. The picture and its caption are printed in the middle of the sentence, between "sub-Arctic forests" and "makes them". The page ends with "whilst much of the", with nothing after it.
-
-{"n": 1, "is": "A", "print": "ctic forests\n\n[[image: circular vignette of a narrow wooded river valley with boulders and water in the foreground]]\n[[caption]] ‘The valley had become very narrow’\n\n[[cont]] makes them", "sure": "high"}
-{"n": 2, "is": "B", "print": "much of the", "sure": "high"}

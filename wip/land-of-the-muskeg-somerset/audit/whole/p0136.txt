@@ -1,5 +1,0 @@
-{"given": "walked continually in swamp on muskeg", "print": "walked continually in swamp or muskeg", "sure": "high"}
-{"given": "that the damp workcd its worst", "print": "that the damp worked its worst", "sure": "high"}
-{"given": "hand out of bed the wrist,", "print": "hand out of bed to the wrist,", "sure": "high"}
-{"given": "nothing but a vast morass; and in", "print": "nothing but a vast morass, and in", "sure": "high"}
-{"given": "camp in, but england at its", "print": "camp in, but England at its", "sure": "high"}

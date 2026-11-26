@@ -2464,6 +2464,8 @@ class MovePictures(unittest.TestCase):
                 "tent leaked.\n")
         new, n = mp.move(page)
         self.assertEqual(n, 2)
+        self.assertEqual(mp.move("driven in a\n\n[[image: horses]]\n[[caption]] Laden\n\n‘string,’ as they say."),
+                         ("driven in a ‘string,’ as they say.\n\n[[image: horses]]\n[[caption]] Laden", 1))  # *Muskeg* p0102
         self.assertEqual(new, "[[page 57]]\n[[cont]]and so the road went on, and we came to the river. Then we camped.\n\n"
                               "[[image: men and horses]]\n[[caption]] On the Road\n\nAt night it rained, and the tent leaked.\n\n"
                               "[[image: a tent]]\n[[caption]] Camp\n")
