@@ -47,7 +47,7 @@ them and never type them yourself (it ends the session). Name them in the log an
 - **Front and back matter**: `divisions` in `book.json`; what is left out of the reading editions and said so. The **title page** (kind `titlepage`, with its verso) is the first page of the editions: read it against the scan, every line `[[center]]` with capitals as printed; what stands before it is left out. Every `#` heading before the first chapter gets its kind (preface, introduction), because the picture on the book's page links to the first `chapter`.
 - **A long text without chapters** (diary, letters): `toc_entries` of the editor's, chosen as pages (5–15 printed pages each, a title saying what it covers); the compiler splits the division at them (`notes/workflow.md` stage 4).
 - **Notes**: marks pair; continued notes; notes on plates.
-- **Verse, letters, inscriptions, tables, front matter, footnote pages**: spot-read against the scan (Opus subagent).
+- **Verse, letters, inscriptions, tables, front matter, footnote pages**: spot-read against the scan (Opus subagent), with preflight's lists and `tools/tess_compare.py`'s list to settle on crops.
 - **Illustrations**: every `[[image:]]` has a crop that was looked at; every preflight `caption-tail` item settled (a cross-reference goes into the caption line); captions; alt text says what is shown. A frontispiece in the front matter: set `frontispiece` in book.json.
 - **Printer's errors**: few, certain, each `[[corr printed|corrected]]`. A turned or wrong letter is printed faithfully by every stage and never marked unless looked for: crop every item of preflight `misprints` and `rare-forms`.
 

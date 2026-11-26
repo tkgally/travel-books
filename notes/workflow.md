@@ -193,9 +193,11 @@ mkdir -p $W/pages && cp $W/judge/p*.txt $W/pages/
   matter and every page with a footnote: an Opus subagent with the page files and images, reporting differences only
   (review of 2026-11-20: most printer's errors and misread accents of the last books were found here).
   The same subagent (or a second one, for a long book) settles every item of preflight's `misprints`, `rare-forms`,
-  `missing-stop` and `accents` lists on crops, and runs a tesseract comparison of the narrative pages (words tesseract
-  reads as a non-word where the file has a common word, or the reverse; candidates checked on crops; `OMP_THREAD_LIMIT=1`
-  when run in parallel). Review after sixty-nine books: this found most of the printed misprints of books 56–69.
+  `missing-stop` and `accents` lists on crops, and every item of `tools/tess_compare.py`'s list (run by the session
+  first: `--pages-dir $W/pages --images $B/pages --out $W/tess.txt`, about a minute for 300 pages): words tesseract reads
+  as a non-word where the file has a common word (`print?`) or the reverse (`misread?`), and pages whose line pitch says
+  small type with no `<blockquote>` in the file. Review after sixty-nine books: the tesseract comparison found most of the
+  printed misprints of books 56–69; made a tool at the review after ninety-five books.
 
 ## 5. Illustrations and cover
 

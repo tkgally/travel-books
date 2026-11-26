@@ -1,5 +1,11 @@
 {
  "books": {
+  "accursed-land-colvile": {
+   "image": "cover",
+   "width": 293,
+   "height": 450,
+   "sha256": "c2fa10572595fbff41ba0863837e914def31745a1b18daab9d5f2086e1b499da"
+  },
   "aloha-chaney": {
    "image": "title page",
    "width": 257,
@@ -142,6 +148,18 @@
    "width": 300,
    "height": 412,
    "sha256": "d4706079d164dc9e68c98fb89bb1f799c3ea619a4ef4e99a47733bd894b92239"
+  },
+  "from-japan-to-jerusalem-ingham": {
+   "image": "cover",
+   "width": 274,
+   "height": 450,
+   "sha256": "eba946514c452c9d1f4ce552f92497f5b3e6c7a2ea3b7011a29c16c3ae0ffbfa"
+  },
+  "frosty-caucasus-grove": {
+   "image": "title page",
+   "width": 257,
+   "height": 450,
+   "sha256": "6dc8871348696ba1b5bb11740488d01d23711470aa39213308353d4c3792d945"
   },
   "gentle-jehu-in-japan-mclean": {
    "image": "cover",
@@ -290,6 +308,12 @@
    "height": 450,
    "sha256": "7fe3dd2e8564f3f290df8bd49cfa393f6099dacf0ce2e5af0d7eb99ccb375e1b"
   },
+  "norway-nights-davis": {
+   "image": "cover",
+   "width": 296,
+   "height": 450,
+   "sha256": "6fcbe229265c319fd6b8cad6d44c5bd90d67d060504c39d842107ebbbd9930cc"
+  },
   "on-short-leave-to-japan-younghusband": {
    "image": "title page",
    "width": 269,
@@ -356,6 +380,12 @@
    "height": 450,
    "sha256": "9eb019d643f602b102bc99a23c46b9813f93a225a3e78da0332ed134f6289a79"
   },
+  "round-about-armenia-hodgetts": {
+   "image": "cover",
+   "width": 288,
+   "height": 450,
+   "sha256": "30f6aa6a3f1cd5e1b16e7b4db4d76aebd08f35939d782cc3d46dc71915e9dff5"
+  },
   "scouting-for-stanley-stevens": {
    "image": "cover",
    "width": 300,
@@ -405,6 +435,12 @@
    "width": 282,
    "height": 450,
    "sha256": "9554799a2edc1a199c4925a202b5ec21c6f735f92ced75b67a65b0797d2dc1cc"
+  },
+  "sunny-lands-and-seas-wilkinson": {
+   "image": "title page",
+   "width": 289,
+   "height": 450,
+   "sha256": "b32fc1796e746b89015da490b7a923d9fc01dc627c3eb2501d1bd3ce131dec9c"
   },
   "surface-japan-seitz": {
    "image": "title page",
@@ -460,6 +496,12 @@
    "height": 450,
    "sha256": "a972359fd59515a6a2979f0c9dd2493d2e92b2a5cf4b6818821d6d2df560671e",
    "note": "the cover's title is faint and runs off the edge"
+  },
+  "unprotected-females-in-sicily-lowe": {
+   "image": "title page",
+   "width": 287,
+   "height": 450,
+   "sha256": "ae438eaf3662439a2ad6fc877862d30c19376ff18b49e4e197e6a59cf4863ef2"
   },
   "vacation-days-in-hawaii-and-japan-taylor": {
    "image": "title page",
