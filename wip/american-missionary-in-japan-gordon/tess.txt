@@ -1,0 +1,129 @@
+# tess_compare: 292 pages; 103 word items; 23 pitch items
+## Line pitch
+p0021: pitch 44 against the book's 52 (0.85): small type typed as body text?
+p0022: pitch 44 against the book's 52 (0.85): small type typed as body text?
+p0023: pitch 44 against the book's 52 (0.85): small type typed as body text?
+p0024: pitch 44 against the book's 52 (0.85): small type typed as body text?
+p0025: pitch 44 against the book's 52 (0.85): small type typed as body text?
+p0026: pitch 44 against the book's 52 (0.85): small type typed as body text?
+p0027: pitch 44 against the book's 52 (0.85): small type typed as body text?
+p0028: pitch 44 against the book's 52 (0.85): small type typed as body text?
+p0287: pitch 44 against the book's 52 (0.85): small type typed as body text?
+p0288: pitch 44 against the book's 52 (0.85): small type typed as body text?
+p0289: pitch 43 against the book's 52 (0.83): small type typed as body text?
+p0290: pitch 44 against the book's 52 (0.85): small type typed as body text?
+p0291: pitch 44 against the book's 52 (0.85): small type typed as body text?
+p0292: pitch 44 against the book's 52 (0.85): small type typed as body text?
+p0293: pitch 44 against the book's 52 (0.85): small type typed as body text?
+p0294: pitch 44 against the book's 52 (0.85): small type typed as body text?
+p0295: pitch 43 against the book's 52 (0.83): small type typed as body text?
+p0298: pitch 44 against the book's 52 (0.85): small type typed as body text?
+p0299: pitch 43 against the book's 52 (0.83): small type typed as body text?
+p0301: pitch 25 against the book's 52 (0.48): small type typed as body text?
+p0302: pitch 24 against the book's 52 (0.46): small type typed as body text?
+p0303: pitch 24 against the book's 52 (0.46): small type typed as body text?
+p0304: pitch 23 against the book's 52 (0.44): small type typed as body text?
+## Words
+p0020: print?   file “Church”, tesseract “CuHurcH,”
+p0024: print?   file “Christian”, tesseract “@hristian”
+p0025: print?   file “dōshisha”, tesseract “DOSHISHA”
+p0025: print?   file “Early”, tesseract “arly”
+p0028: print?   file “Dōshisha”, tesseract “Doshisha”
+p0029: print?   file “Yes”, tesseract “eYess?”
+p0035: print?   file “hues”, tesseract “bues”
+p0042: print?   file “obstacle”, tesseract “cbstacle”
+p0051: print?   file “instead”, tesseract “instéad”
+p0055: print?   file “The”, tesseract “TuHE”
+p0056: print?   file “call”, tesseract “eall”
+p0059: print?   file “Dōshisha”, tesseract “Doshisha”
+p0059: print?   file “etc”, tesseract “ete.”
+p0064: print?   file “etc”, tesseract “ete.”
+p0064: print?   file “Dōshisha”, tesseract “Doshisha”
+p0077: print?   file “announcing”, tesseract “nouncing”
+p0078: print?   file “etc”, tesseract “ete.,”
+p0080: print?   file “elders”, tesseract “clders,”
+p0082: print?   file “and”, tesseract “aud”
+p0088: print?   file “Dōshisha”, tesseract “Doshisha”
+p0089: print?   file “Dōshisha”, tesseract “Doshisha”
+p0090: print?   file “Dōshisha”, tesseract “Dodshisha,”
+p0091: print?   file “Dōshisha”, tesseract “Doshisha,”
+p0091: print?   file “Dōshisha”, tesseract “Doshisha”
+p0092: print?   file “Dōshisha”, tesseract “Doshisha,”
+p0092: print?   file “Rev”, tesseract “Rey.”
+p0092: print?   file “Dōshisha”, tesseract “Doshisha”
+p0099: print?   file “Japanese”, tesseract “Japaaese”
+p0110: print?   file “description”, tesseract “deseription”
+p0111: print?   file “Dōshisha”, tesseract “Ddshisha”
+p0116: print?   file “scientific”, tesseract “scientifie”
+p0116: print?   file “welcome”, tesseract “weleome”
+p0117: print?   file “one”, tesseract “oné”
+p0119: print?   file “etc”, tesseract “ete.,”
+p0121: print?   file “brother”, tesseract “broter”
+p0122: print?   file “the”, tesseract “typ”
+p0124: print?   file “cut”, tesseract “eut”
+p0128: print?   file “One”, tesseract “Ons”
+p0129: print?   file “Dōshisha”, tesseract “Ddshisha”
+p0132: print?   file “discarded”, tesseract “disearded”
+p0141: print?   file “Kyōto”, tesseract “Kydto,”
+p0141: print?   file “Kyōto”, tesseract “Kyéto”
+p0144: print?   file “Dōshisha”, tesseract “Doshisha”
+p0145: print?   file “This”, tesseract “Tuis”
+p0146: print?   file “occupied”, tesseract “oceupied”
+p0147: print?   file “etc”, tesseract “ete.;”
+p0149: print?   file “Dōshisha”, tesseract “Déshisha”
+p0150: print?   file “room”, tesseract “rpom”
+p0151: print?   file “thousands”, tesseract “thonsands”
+p0153: print?   file “mercy”, tesseract “merey”
+p0161: print?   file “orphans”, tesseract “phans”
+p0162: print?   file “etc”, tesseract “ete.”
+p0164: print?   file “Kyōto”, tesseract “Kydto.”
+p0168: print?   file “etc”, tesseract “ete.,”
+p0168: print?   file “etc”, tesseract “ete.”
+p0170: print?   file “Kyōto”, tesseract “Kydto.”
+p0171: print?   file “Fifty”, tesseract “Fitty-”
+p0174: print?   file “referring”, tesseract “referrmg”
+p0176: print?   file “call”, tesseract “eall,”
+p0177: print?   file “etc”, tesseract “ete.”
+p0184: print?   file “Dōshisha”, tesseract “Dodshisha”
+p0185: print?   file “will”, tesseract “wili,”
+p0186: print?   file “Dōshisha”, tesseract “Doshisha”
+p0188: print?   file “Dōshisha”, tesseract “Doshisha”
+p0191: print?   file “Dōshisha”, tesseract “Doshisha.”
+p0203: print?   file “fold”, tesseract “foid”
+p0207: print?   file “occur”, tesseract “oceur,”
+p0213: print?   file “building”, tesseract “buildine.”
+p0216: print?   file “illustration”, tesseract “iliustration”
+p0217: print?   file “Dōshisha”, tesseract “Doshisha,”
+p0219: print?   file “Rev”, tesseract “Rey.”
+p0224: print?   file “Dōshisha”, tesseract “Déshisha”
+p0224: print?   file “substantial”, tesseract “substautial.”
+p0227: print?   file “The”, tesseract “Tuer”
+p0229: print?   file “unanimously”, tesseract “wnanimously”
+p0233: print?   file “occupied”, tesseract “oceupied”
+p0233: print?   file “welcomed”, tesseract “weleomed”
+p0235: print?   file “cases”, tesseract “eases”
+p0237: print?   file “product”, tesseract “produet”
+p0247: print?   file “fixed”, tesseract “fiwed”
+p0248: print?   file “divorce”, tesseract “diforce”
+p0255: print?   file “etc”, tesseract “ete.,”
+p0261: print?   file “same”, tesseract “sante”
+p0261: print?   file “Rev”, tesseract “Rey.”
+p0264: print?   file “public”, tesseract “publie”
+p0268: print?   file “account”, tesseract “aceount”
+p0270: print?   file “careful”, tesseract “eareful”
+p0274: print?   file “cry”, tesseract “ery”
+p0276: print?   file “Kyōto”, tesseract “Kydto,”
+p0277: print?   file “cry”, tesseract “ery”
+p0282: print?   file “beauty”, tesseract “beanty,”
+p0291: print?   file “Rev”, tesseract “Rey.”
+p0291: print?   file “Learned”, tesseract “Learnep,”
+p0291: print?   file “Rev”, tesseract “Rey.”
+p0292: print?   file “Rev”, tesseract “Rey.”
+p0292: print?   file “Rev”, tesseract “Rey.”
+p0293: print?   file “Rev”, tesseract “Rey.”
+p0294: print?   file “Rev”, tesseract “Rey.”
+p0294: print?   file “Rev”, tesseract “Rey.”
+p0294: print?   file “Rev”, tesseract “Rey.”
+p0294: print?   file “Systematic”, tesseract “Systematie”
+p0295: print?   file “Rev”, tesseract “Rey.”
+p0304: print?   file “Rev”, tesseract “Rey.”
