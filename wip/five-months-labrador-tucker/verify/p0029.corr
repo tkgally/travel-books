@@ -1,0 +1,5 @@
+{"find": "two or three half", "replace": "two or\nthree half"}
+
+Wait — that is wrong; the line breaks are joined. Corrections:
+
+{"find": "sunk in their", "replace": "sunk in their"}

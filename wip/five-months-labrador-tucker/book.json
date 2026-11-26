@@ -1,0 +1,49 @@
+{
+ "id": "five-months-labrador-tucker",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "Five Months in Labrador and Newfoundland, during the Summer of 1838",
+ "short_title": "Five Months in Labrador and Newfoundland",
+ "authors": [
+  {
+   "name": "Ephraim W. Tucker",
+   "sort": "Tucker, Ephraim W."
+  }
+ ],
+ "place": "Concord, N.H.",
+ "publisher": "Israel S. Boyd and William White",
+ "year": 1839,
+ "edition_statement": "First edition",
+ "regions": [
+  "Canada"
+ ],
+ "period": "1838",
+ "source": {
+  "ia_identifier": "fivemonthsinlabr00tuck_0",
+  "contributor": "Thomas Fisher Rare Book Library, University of Toronto",
+  "hidden_leaves": [
+   0,
+   165
+  ]
+ },
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "front"
+  },
+  {
+   "at": "p0007",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0009",
+   "kind": "preface"
+  },
+  {
+   "at": "p0013",
+   "kind": "contents"
+  }
+ ],
+ "waivers": [],
+ "keep_hyphens": []
+}

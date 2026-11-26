@@ -1,0 +1,6 @@
+{"find": "broad-brimmed straw", "replace": "broad-brimmed straw"}
+{"find": "square-topped, broad-brimmed", "replace": "square-topped, broad-brimmed"}
+
+Wait—those are no-ops; the actual differences are:
+
+{"find": "[[cont]]back", "replace": "back"}

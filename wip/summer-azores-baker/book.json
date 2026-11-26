@@ -1,0 +1,50 @@
+{
+ "id": "summer-azores-baker",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "A Summer in the Azores, with a Glimpse of Madeira",
+ "short_title": "A Summer in the Azores",
+ "authors": [
+  {
+   "name": "C. Alice Baker",
+   "sort": "Baker, C. Alice"
+  }
+ ],
+ "place": "Boston",
+ "publisher": "Lee and Shepard",
+ "year": 1882,
+ "edition_statement": "First edition",
+ "regions": [
+  "Azores",
+  "Madeira"
+ ],
+ "period": "1881",
+ "source": {
+  "ia_identifier": "summerinazoreswi00bake",
+  "contributor": "Library of Congress",
+  "hidden_leaves": [
+   0,
+   185
+  ]
+ },
+ "divisions": [
+  {
+   "at": "p0003",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0005",
+   "kind": "dedication"
+  },
+  {
+   "at": "p0007",
+   "kind": "preface"
+  },
+  {
+   "at": "p0009",
+   "kind": "contents"
+  }
+ ],
+ "waivers": [],
+ "keep_hyphens": []
+}
