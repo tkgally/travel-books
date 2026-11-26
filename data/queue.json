@@ -1751,10 +1751,11 @@
    "place": "London",
    "publisher": "Church Missionary Society",
    "images": 284,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-23",
-   "eligibility": "JATSI 237. Rules 1–4 met. Rule 1: University of California scan, 400 ppi colour, jp2 zip; pp. 1–232 continuous (scandata). Rule 2: not in pg_catalog.csv (full); The Online Books Page none; Wikisource none (web site search); exact-phrase search none; missiology.org.uk has a PDF (apparently the scan; doesn't count). Rule 3: Forgotten Books only. Rule 4: first-person dated diary of a 1909–10 CMS tour; Japan pp. 19–69 of 232. Rule 5 n/a: Ingham 1851–1926. Searched 2026-11-23 (Opus subagent). Not checked: Faded Page, WorldCat, DP in progress.",
-   "note": "232 pp., 28 chapters in five parts, about 30 photographic plates two to a leaf (frontispiece photo by Rev. A. R. Wood, dates not found): check every plate at the scan check. Plain layout, dated diary headings, a few footnotes."
+   "eligibility": "JATSI 237. Rules 1–4 met. Rule 1: University of California scan, 400 ppi colour, jp2 zip; pp. 1–232 continuous (scandata). Rule 2: not in pg_catalog.csv (full); The Online Books Page none; Wikisource none (web site search); exact-phrase search none; missiology.org.uk has a PDF (apparently the scan; doesn't count). Rule 3: Forgotten Books only. Rule 4: first-person dated diary of a 1909–10 CMS tour; Japan pp. 19–69 of 232. Rule 5 n/a: Ingham 1851–1926. Searched 2026-11-23 (Opus subagent). Not checked: Faded Page, WorldCat, DP in progress. Re-checked 2026-11-26: pg_catalog.csv (full) none; a web search found only the reprints and the scan copies already noted.",
+   "note": "232 pp., 28 chapters in five parts, about 30 photographic plates two to a leaf (frontispiece photo by Rev. A. R. Wood, dates not found): check every plate at the scan check. Plain layout, dated diary headings, a few footnotes.",
+   "started": "2026-11-26"
   },
   {
    "order": 95,
@@ -2003,10 +2004,11 @@
    "place": "London",
    "publisher": "Sampson Low, Marston and Company",
    "images": 328,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-25",
-   "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): none. The Online Books Page: HathiTrust page images only. Web searches: no Wikisource or Faded Page text (distantreader.org raw OCR does not count). Reprints: Kessinger 2009, print on demand 2017. Hodgetts 1859–1932 (LC). The frontispiece is a photograph, photographer not named. Tom, 2026-11-26: every author, artist and photographer of a pre-1914 book is assumed dead more than 70 years; the unidentified credit above no longer holds the book back.",
-   "note": "University of California scan, 400 ppi; about 300 pp.; photographic frontispiece and a folding map. A Daily Graphic correspondent: Sofia, Constantinople, Trebizond, Tiflis, Baku, the Caspian to Resht, on horseback to Tabriz, Erivan, Etchmiadzin. Chapters V, VI, XIV political (the Armenian question)."
+   "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): none. The Online Books Page: HathiTrust page images only. Web searches: no Wikisource or Faded Page text (distantreader.org raw OCR does not count). Reprints: Kessinger 2009, print on demand 2017. Hodgetts 1859–1932 (LC). The frontispiece is a photograph, photographer not named. Tom, 2026-11-26: every author, artist and photographer of a pre-1914 book is assumed dead more than 70 years; the unidentified credit above no longer holds the book back. Re-checked 2026-11-26: pg_catalog.csv (full) none; a web search found only the reprints and the scan copies already noted.",
+   "note": "University of California scan, 400 ppi; about 300 pp.; photographic frontispiece and a folding map. A Daily Graphic correspondent: Sofia, Constantinople, Trebizond, Tiflis, Baku, the Caspian to Resht, on horseback to Tabriz, Erivan, Etchmiadzin. Chapters V, VI, XIV political (the Armenian question).",
+   "started": "2026-11-26"
   }
  ],
  "rejected": [
