@@ -557,6 +557,16 @@
     "islamlandsnubias00michrich_djvu.txt"
    ],
    "drive_id": "1Xkl6pmv321t_42Wfol6rJdXq4JtQdym1"
+  },
+  {
+   "name": "pages-023.zip",
+   "sha256": "cf00b320d176c663c3286bf03dc0326282c5b67d2d12edb939fa98dc38ea0cd5",
+   "bytes": 178206,
+   "files": [
+    "leaves.json",
+    "p0231a.jpg"
+   ],
+   "drive_id": "1mB7i1eyIh7YJf-L_-o3nGID3rhw6S-GB"
   }
  ]
 }

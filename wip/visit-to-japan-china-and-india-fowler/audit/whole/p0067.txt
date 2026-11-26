@@ -1,5 +1,0 @@
-{"given": "“To see it by moonlight; when mellowly", "print": "“To see it by moonlight, when mellowly", "sure": "high"}
-{"given": "May God in This great mercy", "print": "May God in His great mercy", "sure": "high"}
-{"given": "the common feature of japan.", "print": "the common feature of Japan.", "sure": "high"}
-{"given": "high, placed in a tcmple.", "print": "high, placed in a temple.", "sure": "high"}
-{"given": "Close by is very curious temple", "print": "Close by is a very curious temple", "sure": "high"}

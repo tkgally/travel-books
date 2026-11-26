@@ -1,5 +1,0 @@
-{"given": "with thunders of artillery; hauled on", "print": "with thunders of artillery, hauled on", "sure": "high"}
-{"given": "heard described in connection with his", "print": "heard described in connexion with his", "sure": "high"}
-{"given": "consists of a nnmber of small", "print": "consists of a number of small", "sure": "high"}
-{"given": "but, on calling or the Duke", "print": "but, on calling on the Duke", "sure": "high"}
-{"given": "in Indus.” Here Company had a", "print": "in Indus.” Here the Company had a", "sure": "high"}

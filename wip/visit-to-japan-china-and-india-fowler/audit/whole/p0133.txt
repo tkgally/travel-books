@@ -1,5 +1,0 @@
-{"given": "Sir William Jervoize, very kindly", "print": "Sir William Jervoise, very kindly", "sure": "high"}
-{"given": "the European establishment; both civil", "print": "the European establishment, both civil", "sure": "high"}
-{"given": "States must occafion great anxiety", "print": "States must occasion great anxiety", "sure": "high"}
-{"given": "Interference would he sure to involve", "print": "Interference would be sure to involve", "sure": "high"}
-{"given": "to keep no troops the Straits", "print": "to keep no troops in the Straits", "sure": "high"}
