@@ -1,7 +1,0 @@
-The scan reads "Typongal", where the draft has "Typongal" with a different letter.
-
-{"find": "<i>Typongal</i>", "replace": "<i>Typongal</i>"}
-
-Wait — I should compare carefully: the scan shows "Typongal" with a p-like letter, which matches the draft. I'm not confident there is any difference, so I withdraw that correction.
-
-NONE
