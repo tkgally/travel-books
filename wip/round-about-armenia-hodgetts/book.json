@@ -1,0 +1,81 @@
+{
+ "id": "round-about-armenia-hodgetts",
+ "version": 1,
+ "date": "2026-11-26",
+ "title": "Round about Armenia",
+ "subtitle": "The Record of a Journey across the Balkans through Turkey, the Caucasus, and Persia in 1895",
+ "short_title": "Round about Armenia",
+ "authors": [
+  {
+   "name": "E. A. Brayley Hodgetts",
+   "sort": "Hodgetts, E. A. Brayley",
+   "born": 1859,
+   "died": 1932
+  }
+ ],
+ "place": "London",
+ "publisher": "Sampson Low, Marston and Company",
+ "year": 1896,
+ "edition_statement": "First edition",
+ "regions": [
+  "Bulgaria",
+  "Turkey",
+  "Georgia",
+  "Armenia",
+  "Iran"
+ ],
+ "period": "1895",
+ "source": {
+  "ia_identifier": "roundaboutarmeni00hodg",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": [
+   0,
+   11,
+   12,
+   14,
+   15,
+   327,
+   328,
+   329,
+   330,
+   331
+  ]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-26",
+   "note": "First publication."
+  }
+ ],
+ "frontispiece": "p0010-1",
+ "divisions": [
+  {
+   "at": "p0007",
+   "kind": "front",
+   "title": "Half-title"
+  },
+  {
+   "at": "p0013",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0017",
+   "kind": "preface"
+  },
+  {
+   "at": "p0023",
+   "kind": "contents"
+  },
+  {
+   "at": "p0316",
+   "kind": "back",
+   "title": "Map",
+   "reading": true
+  },
+  {
+   "at": "p0317",
+   "kind": "index"
+  }
+ ]
+}
