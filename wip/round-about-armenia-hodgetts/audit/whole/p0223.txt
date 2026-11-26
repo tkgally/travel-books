@@ -1,5 +1,0 @@
-{"given": "outposts, for if seems that", "print": "outposts, for it seems that", "sure": "high"}
-{"given": "Astara, where Caspian steamers are", "print": "Astara, where the Caspian steamers are", "sure": "high"}
-{"given": "range was grand; perilous, and amazing", "print": "range was grand, perilous, and amazing", "sure": "high"}
-{"given": "see mountain strcams gurgling and foaming", "print": "see mountain streams gurgling and foaming", "sure": "high"}
-{"given": "of camels or little gray donkeys,", "print": "of camels or little grey donkeys,", "sure": "high"}

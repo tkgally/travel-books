@@ -193,6 +193,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   30 px quotations, 24 px notes at 1800 px), each paragraph matched to its lines by word trigrams. Look at the pages it flags
   on the scan: a whole section set small for space (Reeves ch. X) is the author's text, not a quotation.
 
+- A whole page of a smaller-type quotation (no line of body type on it) is typed as body text by draft and verifier alike: preflight's compile warning “[[cont]] with nothing to continue” on the next page is the sign; line pitch settles it (*Round about Armenia* 3 pages, *From Japan to Jerusalem* 2, 2026-11-26).
 - Plate numbers printed under photographs (roman numerals): drafts type them as folios, caption prefixes or lines of their own, inconsistently; strip them by script after the judge (*Yankee on the Yangtze*: 82 plate pages).
 - A leaf of text bound inside a paragraph (an unnumbered insert, the Sacred Edict in *Yankee on the Yangtze*): the next page's `[[cont]]` joins the insert's last line. Move the insert's text after the end of the interrupted paragraph and say so in the log (caught by the rendered look).
 - Halftones set into the text column: the Sonnet pass moves them to the exact line with `[[cont]]` after the caption, mid-sentence (*Vacation Days*: 34). Move each after the end of its paragraph by script (picture + caption, then join the `[[cont]]` text to the paragraph before).

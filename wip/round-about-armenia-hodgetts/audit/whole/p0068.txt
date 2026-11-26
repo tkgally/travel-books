@@ -1,5 +1,0 @@
-{"given": "The very air seemed to he different.", "print": "The very air seemed to be different.", "sure": "high"}
-{"given": "a small fishing village; pestilent and vile.", "print": "a small fishing village, pestilent and vile.", "sure": "high"}
-{"given": "in the Black Sea. Today there is", "print": "in the Black Sea. To-day there is", "sure": "high"}
-{"given": "the poor raggcd Armenians, the broad", "print": "the poor ragged Armenians, the broad", "sure": "high"}
-{"given": "Of course it is petroleum wells of Baku", "print": "Of course it is the petroleum wells of Baku", "sure": "high"}

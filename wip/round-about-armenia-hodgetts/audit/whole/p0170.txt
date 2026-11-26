@@ -1,5 +1,0 @@
-{"given": "the universities of paris, Geneva", "print": "the universities of Paris, Geneva", "sure": "high"}
-{"given": "other university towns; and hear in", "print": "other university towns, and hear in", "sure": "high"}
-{"given": "It may be objected agaiust the Armenians", "print": "It may be objected against the Armenians", "sure": "high"}
-{"given": "therefore, find their national life that", "print": "therefore, find in their national life that", "sure": "high"}
-{"given": "But when the Armenians, in common", "print": "But then the Armenians, in common", "sure": "high"}

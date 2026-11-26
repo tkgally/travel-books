@@ -1,5 +1,0 @@
-{"given": "purchasing revolvers and cartridges with if.", "print": "purchasing revolvers and cartridges with it.", "sure": "high"}
-{"given": "had large flocks all such goods", "print": "had large flocks and all such goods", "sure": "high"}
-{"given": "burghers of the Netherlands; who revolted", "print": "burghers of the Netherlands, who revolted", "sure": "high"}
-{"given": "to lead them to vietory, no", "print": "to lead them to victory, no", "sure": "high"}
-{"given": "the armies of the sultan, and", "print": "the armies of the Sultan, and", "sure": "high"}
