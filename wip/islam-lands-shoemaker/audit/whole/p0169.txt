@@ -1,0 +1,5 @@
+{"given": "fifteen we placed at windows (rooms", "print": "fifteen we placed at the windows (rooms", "sure": "high"}
+{"given": "had ten dozen cartridges; besides which", "print": "had ten dozen cartridges, besides which", "sure": "high"}
+{"given": "“The day bad now dawned.", "print": "“The day had now dawned.", "sure": "high"}
+{"given": "About sevcnty were killed in", "print": "About seventy were killed in", "sure": "high"}
+{"given": "private apartments, gordon Pasha met them", "print": "private apartments, Gordon Pasha met them", "sure": "high"}

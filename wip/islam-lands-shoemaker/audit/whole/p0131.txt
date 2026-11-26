@@ -1,0 +1,5 @@
+{"given": "The whole sky today is grey", "print": "The whole sky to-day is grey", "sure": "high"}
+{"given": "with much protest or the part", "print": "with much protest on the part", "sure": "high"}
+{"given": "he trots steadily forward; his ears", "print": "he trots steadily forward, his ears", "sure": "high"}
+{"given": "and wear a lot jewelry.", "print": "and wear a lot of jewelry.", "sure": "high"}
+{"given": "One noticcs many of these", "print": "One notices many of these", "sure": "high"}

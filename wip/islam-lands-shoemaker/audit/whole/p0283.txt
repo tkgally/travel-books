@@ -1,0 +1,5 @@
+{"given": "by the faithful, even today, to", "print": "by the faithful, even to-day, to", "sure": "high"}
+{"given": "If was not until in", "print": "It was not until in", "sure": "high"}
+{"given": "forfeited otherwise; and in short", "print": "forfeited otherwise, and in short", "sure": "high"}
+{"given": "off and apart as tbough too", "print": "off and apart as though too", "sure": "high"}
+{"given": "above, while whole is white", "print": "above, while the whole is white", "sure": "high"}

@@ -1,0 +1,5 @@
+{"given": "move on and trust luck for", "print": "move on and trust to luck for", "sure": "high"}
+{"given": "and one of them; a young", "print": "and one of them, a young", "sure": "high"}
+{"given": "our temerity in increafing our run", "print": "our temerity in increasing our run", "sure": "high"}
+{"given": "As this is this first day", "print": "As this is his first day", "sure": "high"}
+{"given": "before we reached relizane and find", "print": "before we reached Relizane and find", "sure": "high"}
