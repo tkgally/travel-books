@@ -1,0 +1,114 @@
+{
+ "id": "visit-to-japan-china-and-india-fowler",
+ "version": 1,
+ "date": "2026-11-26",
+ "title": "A Visit to Japan, China, and India",
+ "short_title": "A Visit to Japan, China, and India",
+ "authors": [
+  {
+   "name": "Robert Nicholas Fowler",
+   "sort": "Fowler, Robert Nicholas",
+   "born": 1828,
+   "died": 1891
+  }
+ ],
+ "place": "London",
+ "publisher": "Sampson Low, Marston, Searle, & Rivington",
+ "year": 1877,
+ "edition_statement": "First edition",
+ "collection": "jatsi",
+ "regions": [
+  "United States",
+  "Japan",
+  "China",
+  "Hong Kong",
+  "Singapore",
+  "Malaysia",
+  "Sri Lanka",
+  "India",
+  "Pakistan",
+  "Egypt"
+ ],
+ "period": "1875–76",
+ "subjects": [
+  "Yokohama",
+  "Yedo",
+  "Kyoto",
+  "Shanghai",
+  "Canton",
+  "Calcutta",
+  "Benares",
+  "Bombay",
+  "British rule in India"
+ ],
+ "summary": "Robert Nicholas Fowler (1828–1891), a London banker and Member of Parliament, left London in September 1875 on a journey round the world. He crossed the Atlantic to New York and America by rail to San Francisco, and sailed to Japan, where he visited Yeddo, Kioto, Osaka, and Nagasaki. He went on down the Chinese coast to Shanghai, Hongkong, and Canton, by the Straits Settlements and Ceylon to India, where he travelled from Madras and Calcutta to Benares, Lucknow, Delhi, Lahore, Agra, and Bombay, and came home by Aden and Suez. The book is his journal of the journey, with long passages on questions of public policy that he followed in Parliament, among them the opium trade, missions, land revenue, and famine in India.",
+ "source": {
+  "ia_identifier": "visittojapanchin00fowl",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": [
+   0,
+   58,
+   59,
+   60,
+   61,
+   345,
+   346,
+   347,
+   348,
+   349
+  ]
+ },
+ "omitted_from_reading": "The half-title, the printed contents, the index, and the publisher’s catalogue at the end are in the JSON only.",
+ "notes_on_text": [],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-26",
+   "note": "First publication."
+  }
+ ],
+ "divisions": [
+  {
+   "at": "p0007",
+   "kind": "front",
+   "title": "Half-title"
+  },
+  {
+   "at": "p0009",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0011",
+   "kind": "preface"
+  },
+  {
+   "at": "p0013",
+   "kind": "contents"
+  },
+  {
+   "at": "p0015",
+   "kind": "front",
+   "title": "The book’s title above Chapter I"
+  },
+  {
+   "at": "p0309",
+   "kind": "index"
+  },
+  {
+   "at": "p0315",
+   "kind": "advertisements"
+  }
+ ],
+ "waivers": [],
+ "keep_hyphens": [
+  "p0167"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-26",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
+}
