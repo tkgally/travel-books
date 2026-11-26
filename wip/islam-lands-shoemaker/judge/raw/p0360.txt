@@ -1,1 +1,0 @@
-{"n": 1, "is": "A", "print": "\n\n[[center]] <sc>islam lands.</sc>", "sure": "high"}

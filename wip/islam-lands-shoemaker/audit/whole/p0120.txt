@@ -1,5 +1,0 @@
-{"given": "Slatin is forever in a happy", "print": "Slatin is for ever in a happy", "sure": "high"}
-{"given": "he will sbortly have the whole", "print": "he will shortly have the whole", "sure": "high"}
-{"given": "crooked streets were nor suited to", "print": "crooked streets were not suited to", "sure": "high"}
-{"given": "one has for grass which falls", "print": "one has for the grass which falls", "sure": "high"}
-{"given": "imprisonment at least; probably in irons.", "print": "imprisonment at least, probably in irons.", "sure": "high"}

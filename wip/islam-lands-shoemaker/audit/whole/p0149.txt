@@ -1,5 +1,0 @@
-{"given": "and they appcar to work", "print": "and they appear to work", "sure": "high"}
-{"given": "should and will he most marked", "print": "should and will be most marked", "sure": "high"}
-{"given": "death alone, and people still die", "print": "death alone, and the people still die", "sure": "high"}
-{"given": "down with the disease; but thereafter", "print": "down with the disease, but thereafter", "sure": "high"}
-{"given": "the horror upon everyone, white or", "print": "the horror upon every one, white or", "sure": "medium"}

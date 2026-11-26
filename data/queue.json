@@ -2059,9 +2059,11 @@
    "images": 378,
    "eligibility": "Re-vetted 2026-11-26 (Opus subagent); rejected earlier only under the old death-date rule. pg_catalog.csv: other Shoemaker books, not this one. The Online Books Page: HathiTrust page images only. Wikisource: none. Exact-sentence web search: nothing. No reprint found (CRL microform only). Not checked: Faded Page.",
    "note": "UC Libraries scan, colour, jp2 zip. 251 pp.; 44 photographs and a plan of the Palace at Khartoum (check every plate at the scan check). About 1909, with his wife: by steamer from Aswan to Wadi Halfa, train to Khartoum and Omdurman (Slatin), Port Sudan, Cairo, then by motor car through Tunisia and Algeria. Present tense; Chapter VI and parts of IV–V are history of Gordon.",
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-26",
-   "started": "2026-11-26"
+   "started": "2026-11-26",
+   "version": 1,
+   "published": "2026-11-26"
   },
   {
    "order": 112,
