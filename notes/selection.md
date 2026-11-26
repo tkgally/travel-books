@@ -26,20 +26,22 @@
    translation), published before 1914. Any era, author, or part of the world. Not a guidebook, compilation,
    or fiction; if scholars doubt the journey happened, leave it out.
 
-5. **Public domain where the term is life plus 70 years** (Tom, 2026-11-19): every author (and editor or
-   illustrator whose work is in the book) died more than 70 years before the start of the current year — in
-   2026, in 1955 or earlier. Death date unknown (Tom, 2026-11-19): assume the person died before the age of 100, so a person known to be born (or, from their career, certainly born) before 1856 qualifies; record the birth year or the evidence for it in the queue row. If even the birth year cannot be bounded, leave the book out.
-   A book that fails only this goes under `rejected` with the year it becomes eligible.
-   A minor illustrator whose date of death cannot be found does not keep a drawing out (Tom, 2026-11-20, on the
-   one plate "from a Drawing by Mr. Thompson" in *Corona and Coronet*): include it. A book whose illustrations are
-   largely by a person known to have died less than 70 years ago still waits.
-   **The JATSI books are exempt from this rule** (Tom, 2026-11-20: all are in the public domain in the United
-   States and Japan). `jatsi.md`.
+5. **Public domain** (Tom, 2026-11-26, replacing the rule of 2026-11-19 that every author, editor and illustrator
+   be found to have died more than 70 years ago): **every author, artist, engraver and photographer of a book
+   published before 1914 is assumed to have died more than 70 years ago**, so the book and its pictures may be
+   published. Death dates are not looked up as a condition of eligibility, and an unidentified or undated artist
+   does not hold a book back. Dates found on the way may still be recorded (`book.json` `authors`).
+
+**Rejected only under the old rule 5** (recorded under `rejected` in `data/queue.json` before 2026-11-26), to be
+vetted again (`select-book`) as ordinary candidates: Savory, *A Sportswoman in India*; Meakin, *A Ribbon of Iron*;
+Macnab [Fraser], *A Ride in Morocco*; Shoemaker, *Islam Lands* (1910); Bulpett, *A Picnic Party in Wildest Africa*;
+H. Ward, *Five Years with the Congo Cannibals*; Zetland, *A Wandering Student in the Far East*; Z. Colvile, *Round the
+Black Man’s Garden*; Melland and Cholmeley, *Through the Heart of Africa*.
 
 **Two kinds of exception, both Tom's.** A book he asks for by name (so far Staunton's *Embassy to China*; queue
 row `"from": "tom"`). And the books of his list "Japan As They Saw It" (2026-11-20; queue rows `"from": "jatsi"`):
 only rule 1 is required of them; rules 2–4 are checked and recorded and set the order in which they are done;
-rule 5 does not apply — `jatsi.md`. Everything below about how to check applies to them too. For every
+rule 5 is met by every book anyway — `jatsi.md`. Everything below about how to check applies to them too. For every
 other book all five rules stand.
 
 ## How to check (record what was searched in the queue row's `eligibility`)
@@ -63,9 +65,7 @@ other book all five rules stand.
 
 What cannot be checked (Distributed Proofreaders work in progress) is said so in the row.
 
-Read the list of illustrations too: a plate credited to a named artist brings that person under rule 5 (but see
-the rule: a minor illustrator with no findable dates does not keep a drawing out; a book whose many illustrations
-are by a person who died less than 70 years ago waits).
+Read the list of illustrations too, for the scan check (every plate present); the artists need no dates (rule 5).
 
 ## Before starting a queued book
 

@@ -45,7 +45,7 @@ next piece is whatever now comes first here.
    queue is a suggestion — aiming for a wide range of authors, nationalities, destinations and periods
    across what is already published, without preferring any group (never by the author's gender), and preferring books that the current tools handle. Re-check eligibility first
    (`notes/selection.md` §"Before starting"): things change, and the first check may have gaps. Every question
-   of eligibility (a death date of an author or editor, a later edition) is settled or put to Tom **before
+   of eligibility (a later edition, a text elsewhere) is settled or put to Tom **before
    the first model run**, not after the book is finished.
 5. **Fewer than six other books `queued`, or fewer than four JATSI books** (`ledger.py` says so): find and
    vet more (skill `select-book`; for JATSI, `notes/jatsi.md` §"Choosing the next JATSI books"). This comes

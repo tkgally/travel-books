@@ -414,6 +414,13 @@ goes to the to-do list for those sessions (`RESUME.md`).
 - He may try something similar with other models in the future. What was tried and found: `notes/improvement.md`
   §"Tried and set aside".
 
+## 2026-11-26 (copyright: the 70-year rule dropped)
+
+- **Assume that any author, artist, or photographer of a book published before 1914 died more than 70 years ago**,
+  so the book and its pictures can be published on the site. Death dates of authors, editors, illustrators,
+  engravers and photographers are no longer looked up or recorded as a condition of eligibility, and an unidentified
+  or undated artist no longer holds a book back. (Replaces rule 5 of `selection.md` and the JATSI exception to it.)
+
 ## Questions for Tom
 
 - **Side-notes that date the entries of a letter or diary** (*Letters from Southern India & Ceylon*, Williams, 1877; 2026-11-22). The book prints
