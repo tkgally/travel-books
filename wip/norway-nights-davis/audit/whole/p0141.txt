@@ -1,5 +1,0 @@
-{"given": "for we passed from light to light—and then", "print": "for we passed from light to Light—and then", "sure": "high"}
-{"given": "Over the vast dome; almost to the", "print": "Over the vast dome, almost to the", "sure": "high"}
-{"given": "with sunfire garlanded,” seutinelled the sea", "print": "with sunfire garlanded,” sentinelled the sea", "sure": "high"}
-{"given": "horizon;—and when, with one kiss", "print": "horizon;—and then, with one kiss", "sure": "high"}
-{"given": "rebound! The dying the new-born day", "print": "rebound! The dying and the new-born day", "sure": "high"}

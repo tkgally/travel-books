@@ -1,5 +1,0 @@
-{"given": "The captain, poor Brady; was", "print": "The captain, poor Brady, was", "sure": "high"}
-{"given": "soon after leaving whampoa, but", "print": "soon after leaving Whampoa, but", "sure": "high"}
-{"given": "The river here, where outrage was", "print": "The river here, where the outrage was", "sure": "high"}
-{"given": "most delightful; notbing had occurred", "print": "most delightful; nothing had occurred", "sure": "high"}
-{"given": "my first thought was that be was", "print": "my first thought was that he was", "sure": "high"}

@@ -88,6 +88,7 @@ Do each work once and say on the queue row which entries it covers.
 
 | Date | What |
 |---|---|
+| 2026-11-26 | *Sunny Lands and Seas* (Wilkinson, 1883; n 65) published from the Cornell scan, p. 2 from the Google copy: letters from a round-the-world cruise of 1881–82, Japan in Chapters XII–XV (Nagasaki, Kobé, Kioto, Yokohama, a hara-kiri account); romanized words as printed (Kiôto and Kioto); no Japanese script. Next due: two other books, then JATSI. |
 | 2026-11-26 | *From Japan to Jerusalem* (Ingham, 1911; n 237) published from the UC scan: a CMS bishop’s eight months of 1909–10, Japan in about fifty pages (Hokkaido to Kyushu); romanized names as printed (Kiu-Shiu); no Japanese script. Next due: two other books, then JATSI. |
 | 2026-11-22 | *Japan for a Week* (Thompson, 1911; n 238) published from the UC scan: a week in Japan on the way round by Siberia; romanized words as printed (Tennō and Tenno); no Japanese script. Next due: two other books, then JATSI. |
 | 2026-11-22 | Twelve narratives vetted by three Opus subagents (n 12, 19, 20, 29, 43, 72, 76, 89, 205, 236, 238, 239): seven queued at normal priority (Thompson, Seitz, Maus, Lawrence, Fowler — rule 3 to settle —, Taylor, Floyd-Jones); Smith, D'Almeida, Maclay and Cornwallis reprinted by Ganesha (Cornwallis also Google-only with poor plates), Aubertin's map missing from both Google scans: `vetted` in `jatsi.json`. *Japan for a Week* (Thompson, n 238) started. |

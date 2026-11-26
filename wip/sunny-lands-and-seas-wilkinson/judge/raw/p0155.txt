@@ -1,2 +1,0 @@
-{"n": 1, "is": "A", "print": "rewed to the\n\n[[image: Engraving of a ruined cathedral bell-tower, its upper storeys broken open and a great mass of fallen masonry lying at its foot]]\n[[caption]] The Cathedral Tower.\n\n[[cont]]wall to prev", "sure": "high"}
-{"n": 2, "is": "A", "print": "reated us to", "sure": "high"}

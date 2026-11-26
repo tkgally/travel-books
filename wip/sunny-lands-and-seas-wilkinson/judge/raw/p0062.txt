@@ -1,2 +1,0 @@
-{"n": 1, "is": "A", "print": "Not only", "sure": "high"}
-{"n": 2, "is": "B", "print": "salute\n\n[[image: The Cashmere Gate at Delhi, a gateway with two pointed arches in a battlemented wall, with trees on either side]]\n[[caption]] CASHMERE GATE.\n\n[[cont]]us, as if", "sure": "high"}

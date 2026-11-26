@@ -1,2 +1,0 @@
-{"n": 1, "is": "A", "print": "hose martial\n\n[[image: A bearded man in a turban, belted white tunic and trousers, standing facing the viewer]]\n[[caption]] A Native Policeman.\n\n[[cont]]appearance", "sure": "high"}
-{"n": 2, "is": "A", "print": "d thought we", "sure": "high"}

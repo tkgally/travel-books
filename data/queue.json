@@ -1825,11 +1825,13 @@
    "place": "London",
    "publisher": "John Murray",
    "images": 378,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-23",
    "eligibility": "JATSI 65. Rules 1–4 met. Rule 1: Cornell scan (Kirtas, greyscale 300 ppi), clean, route map opened; the other IA scan is Google (Oxford). Rule 2: no text elsewhere (Gutenberg catalogue from the pglaf mirror, to 2026-11-08; The Online Books Page: nothing; Wikisource: only the Men-at-the-Bar entry; web search of a sentence); page images only at the Tamil Digital Library and Nichibun. Rule 3: print-on-demand only (Kessinger 2010); not found under Ganesha in the NDL catalogue. Rule 4: first-person letters from an ocean-yachting tour, Dec. 1881–May 1882; chapters XII–XV (about 20%) on Japan. Rule 5 (for the record): Hugh Wilkinson b. 1850 (Men-at-the-Bar; LC), death not found; illustrators uncredited. Searched 2026-11-23 (Opus subagent). Not checked: WorldCat, DP. Re-checked 2026-11-26: pg_catalog.csv (full) none; web search: page images and booksellers only.",
    "note": "About 320 pp. plus a table of distances. Folding route map (leaf 6, opened) and about 45 uncredited wood engravings in the text with captions. Letters dated within chapters. Pencil underlining on a few pages (e.g. p. 35). Chapter XV (hara-kiri) quotes an eye-witness account at length.",
-   "started": "2026-11-26"
+   "started": "2026-11-26",
+   "version": 1,
+   "published": "2026-11-26"
   },
   {
    "order": 99,
@@ -1911,11 +1913,13 @@
    "place": "New York",
    "publisher": "Fords, Howard, & Hulbert",
    "images": 336,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-25",
    "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): none. Wikisource: none. Reprints: Kessinger, Forgotten Books (print on demand). Exact-sentence web search: nothing. Sarah Matilda Henry Davis: death date not found; she published in 1859, so born before 1856 (rule 5). THE KREMLIN ENGRAVING IS SIGNED BY AN ARTIST NOT YET IDENTIFIED: identify the illustrators before starting. Tom, 2026-11-26: every author, artist and photographer of a pre-1914 book is assumed dead more than 70 years; the unidentified credit above no longer holds the book back. Re-checked 2026-11-26: pg_catalog.csv (full) none; web search none.",
    "note": "Library of Congress scan, colour, 400 ppi; pp. 325; 35 full-page wood engravings counted in the pagination, some sideways. Three American women in summer 1886: Christiania, Telemark, Gudbrandsdal, Trondhjem, the Lapps, North Cape, Sweden, St Petersburg and Moscow.",
-   "started": "2026-11-26"
+   "started": "2026-11-26",
+   "version": 1,
+   "published": "2026-11-26"
   },
   {
    "order": 104,

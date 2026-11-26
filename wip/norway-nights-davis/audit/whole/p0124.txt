@@ -1,5 +1,0 @@
-{"given": "Christiania, and Trondhjem; hotel-prices are", "print": "Christiania, and Trondhjem, hotel-prices are", "sure": "high"}
-{"given": "Switzerland and germany. Railways are", "print": "Switzerland and Germany. Railways are", "sure": "high"}
-{"given": "two or three horses poor accommodations;", "print": "two or three horses and poor accommodations;", "sure": "high"}
-{"given": "so disgraceful as dishouesty. An Englishwoman", "print": "so disgraceful as dishonesty. An Englishwoman", "sure": "high"}
-{"given": "If you should fill his room with gold", "print": "If you should fill this room with gold", "sure": "high"}
