@@ -7,8 +7,7 @@ search: the two scans only). Started 2026-11-26.
 
 ## Status
 Stage (a) done: scan checked (Opus subagent), cached in Drive (23 parts). The plate “The Temple of Jupiter at Dougga” (facing
-p. 142) is missing from the UC copy: taken from the GWU copy (n228) as p0231a. Opus draft running (leaves 8, 10, 13–367, then
-p0231a).
+p. 142) is missing from the UC copy: taken from the GWU copy (n228) as p0231a. Stages to audit done, preflight PASS; rendered look, then publish.
 
 ## Page map
 Scan check (Opus subagent, 2026-11-26): text complete (i–xii, 1–251); one plate missing (above). No p0000; files p0001–p0379,
@@ -24,10 +23,29 @@ endpapers, back cover, colour charts. Plates (each with a blank verso), many sid
 short verse; letters and telegrams (Gordon chapters).
 
 ## Decisions
+- Divisions: “By the same author” (front), title page (frontispiece moved to it), dedication, preface, contents and list of
+  illustrations (JSON only), half-title and the book's title above Chapter I (front), 15 chapters, index (JSON only),
+  Putnam's advertisements. p0009 a blank page file; p0011–p0012 (tissue guard) waived in `leaves`.
+- Contents: the chapters have no titles, only long summaries (`[[subtitle]]`); entries of the editor's naming the places,
+  from the summaries (said in `notes_on_text`).
+- Captions: the plates' credit lines (“From a photograph by …”, typed by the draft as `[[right]]` lines or second
+  captions) joined into the one `[[caption]]` after the caption and a full stop, as in *An Autumn Tour in Western Persia*;
+  no full stop added at the end. The stray second captions crashed the compiler (fixed, test `StrayCaptionThenCont`).
+- Corrections pass: 32 changes, 23 spots judged: 14 draft, 8 verified; the verifier's small capitals for chapter openings
+  rejected (the print has a drop capital and the rest of the word in full capitals); p0259 `[[cont]]` added by the verifier
+  wrong (indented); p0360 closing “Islam Lands.” restored from the draft.
+- Spot-read (Opus subagent; quotations measured by line spacing, body 45 px, small type 42 px): p0080, p0169–p0170, the
+  first paragraphs of p0173 and p0179 put in `<blockquote>`; title page split as printed; printed misprints marked p0021
+  “Egyptains”, “Gity” (contents), p0296 “enthusiam”, p0312 “cirumstance”, p0342 “somethin”. tess_compare's pitch test
+  missed these pages (ratio 0.93): its threshold 0.88 is for type a size smaller.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-26 | opus | 359 | 22.90 | no refusals, no 〓 |
+| corrections | 2026-11-26 | sonnet | 358 | 11.47 | 32 changes |
+| judge | 2026-11-26 | opus | 23 spots | 0.96 | 14 draft, 8 verified |
+| audit | 2026-11-26 | opus | 6 | 0.33 | 30/30, 0 candidates |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
