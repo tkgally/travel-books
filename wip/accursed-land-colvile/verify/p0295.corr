@@ -1,9 +1,0 @@
-{"find": "old Mohammoud used", "replace": "old Mohammoud used"}
-
-Wait — that's not a change. Corrected list:
-
-{"find": "<i>handâl</i>", "replace": "<i>handâl</i>"}
-
-Neither of those is a real correction, so I'm discarding both. Compared against the image, the only difference I found is "<i>rims</i>", which should read "<i>rims</i>" as printed.
-
-NONE
