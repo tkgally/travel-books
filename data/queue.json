@@ -1909,7 +1909,7 @@
    "images": 336,
    "status": "queued",
    "checked": "2026-11-25",
-   "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): none. Wikisource: none. Reprints: Kessinger, Forgotten Books (print on demand). Exact-sentence web search: nothing. Sarah Matilda Henry Davis: death date not found; she published in 1859, so born before 1856 (rule 5). THE KREMLIN ENGRAVING IS SIGNED BY AN ARTIST NOT YET IDENTIFIED: identify the illustrators before starting.",
+   "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): none. Wikisource: none. Reprints: Kessinger, Forgotten Books (print on demand). Exact-sentence web search: nothing. Sarah Matilda Henry Davis: death date not found; she published in 1859, so born before 1856 (rule 5). THE KREMLIN ENGRAVING IS SIGNED BY AN ARTIST NOT YET IDENTIFIED: identify the illustrators before starting. Tom, 2026-11-26: every author, artist and photographer of a pre-1914 book is assumed dead more than 70 years; the unidentified credit above no longer holds the book back.",
    "note": "Library of Congress scan, colour, 400 ppi; pp. 325; 35 full-page wood engravings counted in the pagination, some sideways. Three American women in summer 1886: Christiania, Telemark, Gudbrandsdal, Trondhjem, the Lapps, North Cape, Sweden, St Petersburg and Moscow."
   },
   {
@@ -1939,7 +1939,7 @@
    "images": 316,
    "status": "queued",
    "checked": "2026-11-25",
-   "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): none. Web searches: no Faded Page or Wikisource text; exact-sentence search: nothing. Reprints: Kessinger, Salzwasser (print on demand). Frederick Trench Townshend 1838–1924. The frontispiece artist is not named.",
+   "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): none. Web searches: no Faded Page or Wikisource text; exact-sentence search: nothing. Reprints: Kessinger, Salzwasser (print on demand). Frederick Trench Townshend 1838–1924. The frontispiece artist is not named. Tom, 2026-11-26: every author, artist and photographer of a pre-1914 book is assumed dead more than 70 years; the unidentified credit above no longer holds the book back.",
    "note": "Getty Research Institute scan, 300 ppi (jp2 zip 2.7 GB: large download). A Life Guards captain's journal of 1868: New York, the Adirondacks and Canada, US Army scouting parties on the Nebraska and Kansas plains, buffalo hunting, Laramie, Salt Lake City, Nevada, San Francisco, home by Acapulco and Panama. Publisher's advertisements after THE END."
   },
   {
@@ -1990,7 +1990,7 @@
    "images": 326,
    "status": "queued",
    "checked": "2026-11-25",
-   "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): none. The Online Books Page: none. Wikisource: only his DNB entry. Exact-sentence search: nothing. Reprints: Kessinger (2008, 2010). Colvile 1852–1907. THE ETCHED FRONTISPIECE IS BY “THE HON. K. RUSSELL”, NOT YET IDENTIFIED: find the etcher's dates before starting (or leave the plate out, a question for Tom).",
+   "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): none. The Online Books Page: none. Wikisource: only his DNB entry. Exact-sentence search: nothing. Reprints: Kessinger (2008, 2010). Colvile 1852–1907. THE ETCHED FRONTISPIECE IS BY “THE HON. K. RUSSELL”, NOT YET IDENTIFIED: find the etcher's dates before starting (or leave the plate out, a question for Tom). Tom, 2026-11-26: every author, artist and photographer of a pre-1914 book is assumed dead more than 70 years; the unidentified credit above no longer holds the book back.",
    "note": "Princeton Theological Seminary scan, 360 ppi; about 300 pp. and an appendix of itineraries; coloured folding sketch map. Cairo across Sinai to Akaba, a survey up the Wadi Arabah, back by Nakhl; a comic voice; some survey matter."
   },
   {
@@ -2005,7 +2005,7 @@
    "images": 328,
    "status": "queued",
    "checked": "2026-11-25",
-   "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): none. The Online Books Page: HathiTrust page images only. Web searches: no Wikisource or Faded Page text (distantreader.org raw OCR does not count). Reprints: Kessinger 2009, print on demand 2017. Hodgetts 1859–1932 (LC). The frontispiece is a photograph, photographer not named.",
+   "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): none. The Online Books Page: HathiTrust page images only. Web searches: no Wikisource or Faded Page text (distantreader.org raw OCR does not count). Reprints: Kessinger 2009, print on demand 2017. Hodgetts 1859–1932 (LC). The frontispiece is a photograph, photographer not named. Tom, 2026-11-26: every author, artist and photographer of a pre-1914 book is assumed dead more than 70 years; the unidentified credit above no longer holds the book back.",
    "note": "University of California scan, 400 ppi; about 300 pp.; photographic frontispiece and a folding map. A Daily Graphic correspondent: Sofia, Constantinople, Trebizond, Tiflis, Baku, the Caspian to Resht, on horseback to Tabriz, Erivan, Etchmiadzin. Chapters V, VI, XIV political (the Armenian question)."
   }
  ],

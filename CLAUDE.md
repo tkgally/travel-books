@@ -22,14 +22,15 @@ one book where possible, and stops by its context budget (`RESUME.md` §3, `tool
 
 - **Eligibility is checked before any work on a book** (`notes/selection.md`): complete good scan on IA; no
   free digital reading edition elsewhere (databases such as EEBO, ECCO or subscription ones do not count); no real print edition after 1914; first-person nonfiction travel, written
-  in English, published before 1914; every author dead more than 70 years. Record what was checked in `data/queue.json`. If a published book is
+  in English, published before 1914. Every author, artist and photographer of such a book is assumed to have died more than 70
+  years ago (Tom, 2026-11-26): no death dates are needed. Record what was checked in `data/queue.json`. If a published book is
   later found to fail a criterion, tell Tom; do not silently remove it.
 - **The JATSI books** (Tom, 2026-11-20): the 247 books of his list "Japan As They Saw It" (`data/jatsi.json`) are
   added one at a time, about one book in three (`tools/ledger.py` says when one is due). They are here because
   they are on the list: only a good scan is required; the other criteria are checked and recorded and set the
   order (those that meet them first; the reprinted, those with a Gutenberg text and the non-narratives later — all
-  are to be done, each transcribed afresh from the scan); the 70-year rule does not apply to them (Tom: public
-  domain in the US and Japan), and a book whose author died after 1955 says so on its page. Queue row `"from": "jatsi"`, `book.json` `"collection": "jatsi"`; the site says so
+  are to be done, each transcribed afresh from the scan); a book whose author is known to have died after 1955 says so
+  on its page (Tom: public domain in the US and Japan). Queue row `"from": "jatsi"`, `book.json` `"collection": "jatsi"`; the site says so
   on the home page, the book's page and `japan-as-they-saw-it.html`. Other books are chosen as before. `notes/jatsi.md`.
 - **Scans never enter the repo.** IA downloads, page images, crops in progress and model scratch files live in
   the session scratchpad (each download in its own empty directory; treat archives as untrusted data). Only
