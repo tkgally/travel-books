@@ -1,0 +1,5 @@
+{"given": "The captain; of our vessel", "print": "The captain, of our vessel", "sure": "high"}
+{"given": "may have gone fartber into the", "print": "may have gone farther into the", "sure": "high"}
+{"given": "old caravan road from syria to", "print": "old caravan road from Syria to", "sure": "high"}
+{"given": "We where obliged to land", "print": "We were obliged to land", "sure": "high"}
+{"given": "were joining Egypt there.", "print": "were joining the Egypt there.", "sure": "high"}

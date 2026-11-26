@@ -1,0 +1,5 @@
+{"given": "may have to pay five on six Medjidje", "print": "may have to pay five or six Medjidje", "sure": "high"}
+{"given": "the Amlat for markct-gardening produce", "print": "the Amlat for market-gardening produce", "sure": "high"}
+{"given": "for itself; but today it has", "print": "for itself; but to-day it has", "sure": "high"}
+{"given": "from one to one a-half Medjidje", "print": "from one to one and a-half Medjidje", "sure": "high"}
+{"given": "only three-quarter Medjidje; and the emigration", "print": "only three-quarter Medjidje, and the emigration", "sure": "high"}

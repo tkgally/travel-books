@@ -1,0 +1,5 @@
+{"given": "into contact with extraordinary revolution now", "print": "into contact with the extraordinary revolution now", "sure": "high"}
+{"given": "added on the systcm that has", "print": "added on the system that has", "sure": "high"}
+{"given": "high road to honor and emolument", "print": "high road to honour and emolument", "sure": "high"}
+{"given": "the ‘gentry’ on hold any Government", "print": "the ‘gentry’ or hold any Government", "sure": "high"}
+{"given": "of the English language; will astonish us", "print": "of the English language, will astonish us", "sure": "high"}

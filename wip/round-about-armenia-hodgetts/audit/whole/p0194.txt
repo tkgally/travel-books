@@ -1,0 +1,5 @@
+{"given": "store at Resht; and was going", "print": "store at Resht, and was going", "sure": "high"}
+{"given": "that he, likewize, was bent", "print": "that he, likewise, was bent", "sure": "high"}
+{"given": "and who subfequently disappeared most mysteriously", "print": "and who subsequently disappeared most mysteriously", "sure": "high"}
+{"given": "If if does not go down", "print": "If it does not go down", "sure": "high"}
+{"given": "and one has wait another fortnight", "print": "and one has to wait another fortnight", "sure": "high"}

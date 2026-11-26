@@ -1,12 +1,7 @@
 [       ok] meta: book.json: required fields present and sane
 [       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
-[ FAIL (3)] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
-            - [[cont]] with nothing to continue, treated as a new block: p0026
-            - [[cont]] with nothing to continue, treated as a new block: p0157
-            - [[cont]] with nothing to continue, treated as a new block: p0158
-[ FAIL (2)] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
-            - pages→JSON captions: insert …onoftheAncestralHall[]→[.TheVisittotheInlandVillages,KwangTungProvince].AWorkCentreinFuhcho…
-            - pages→JSON captions: delete …uswithTitleDeeds.The[VisittotheInlandVillages,KwangTungProvince.The]→[]WhidborneMemorialHal…
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
 [       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
 [       ok] straight-quotes: no straight ' or " in the text
 [       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
@@ -19,18 +14,15 @@
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
 [ FAIL (1)] audit: book.json records the sampled audit of this version
             - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
-[ look (7)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+[ look (6)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0035: …e of imperturb-|ability—the cul… (hyphen removed; check)
-            - hyphen join at p0071: … here. The pro-|Cathedral is di… (hyphen removed; check) — the book prints “pro-cathedral” elsewhere: keep_hyphens?
             - hyphen join at p0081: …onsiderable re-|adjustment of l… (hyphen removed; check)
             - hyphen join at p0109: …sts and tattoo-|ing, etc., etc.… (hyphen removed; check)
             - hyphen join at p0125: …ranged our mat-|tresses, and in… (hyphen removed; check)
             - hyphen join at p0204: … I mean in com-|parison with an… (hyphen removed; check)
             - (and 6 joins giving a word the book prints whole elsewhere: not listed)
 [       ok] joins: page joins: missing [[cont]]
-[ look (2)] folios: printed page numbers that break the sequence
-            - p0122: page 106 after page 99 (p0121)
-            - p0123: page 101 after page 106 (p0122)
+[       ok] folios: printed page numbers that break the sequence
 [       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
 [       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
 [       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
@@ -62,4 +54,4 @@
             - p0276: “catch His” in …ur, Lord and King, as we catch His divine Spirit, a…
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: from-japan-to-jerusalem-ingham v1 — 6 to fix, 0 waived; to look at: hyphen-joins 7, folios 2, accents 2, rare-forms 2, serial-commas 2, missing-stop 6 — tools@9f49b48f 2026-11-26
+preflight FAIL: from-japan-to-jerusalem-ingham v1 — 1 to fix, 0 waived; to look at: hyphen-joins 6, accents 2, rare-forms 2, serial-commas 2, missing-stop 6 — tools@3cd1e00a 2026-11-26

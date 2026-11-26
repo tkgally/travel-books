@@ -1,16 +1,17 @@
 [[page 131]]
 
+<blockquote>
 [[cont]]may have to pay five or six Medjidje a year poll-tax alone.
 
 “Of the Amlats there are many kinds. The most grievous is the land-tax, which has been substituted for the old and easy Salian (which Sassun still pays).
 
 “The Government has divided the land into three categories:—
 
-1. Alla, or fertile land;
+[[center]] 1. Alla, or fertile land;
 
-2. Avsad, or second-class land; and
+[[center]] 2. Avsad, or second-class land; and
 
-3. Adna, or sandy and rocky soil.
+[[center]] 3. Adna, or sandy and rocky soil.
 
 “By the old tax the peasant paid on an average five Medjidje a year, but to-day he may have to pay as much as fifteen and twenty Medjidje. The land is measured off arbitrarily by means of ropes.
 
@@ -25,3 +26,4 @@
 “Besides these regular Amlats, there are the marriage-licence Amlat, which is only three-quarter Medjidje, and the emigration Amlat, which is also three-quarter Medjidje.
 
 “The Khamtchur, or sheep-tax, is one-quarter Medjidje;
+</blockquote>
