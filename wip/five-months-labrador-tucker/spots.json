@@ -1,0 +1,42 @@
+{
+ "p0016": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "# Chapter VI.",
+   "replace": "[[center]] Chapter VI.",
+   "draft": "# Chapter VI.",
+   "verified": "[[center]] Chapter VI.",
+   "context": "[[page xii]] ⏎  ⏎ # Chapter VI. ⏎  ⏎ White inhabitants of Labrador; their character and pursuit"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "# Chapter VII.",
+   "replace": "[[center]] Chapter VII.",
+   "draft": "# Chapter VII",
+   "verified": "[[center]] Chapter VII",
+   "context": "Scarcity and value of the Esquimaux dogs. <pref>106</pref> ⏎  ⏎ # Chapter VII. ⏎  ⏎ Origin of Labrador.—Account of the natives.—Northern India"
+  },
+  {
+   "n": 3,
+   "kind": "punctuation",
+   "find": "# Chapter VIII.",
+   "replace": "[[center]] Chapter VIII.",
+   "draft": "# Chapter VII",
+   "verified": "[[center]] Chapter VII",
+   "context": "rstitious belief and universal ignorance. <pref>125</pref> ⏎  ⏎ # Chapter VIII. ⏎  ⏎ Preparation for return to Yankee land.—Gale at sea.—Arriva"
+  }
+ ],
+ "p0068": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "the bygone days",
+   "replace": "the by-gone days",
+   "draft": "the bygone days",
+   "verified": "the by-gone days",
+   "context": "nal for all sorts of fun and revelry. As was the fashion in the bygone days of New-England, the guests par- ⏎ "
+  }
+ ]
+}

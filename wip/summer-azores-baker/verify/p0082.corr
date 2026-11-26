@@ -1,0 +1,9 @@
+{"find": "“The Mysterio,”", "replace": "“The Mysterio,”"}
+
+Wait, I need to check the draft against the image: the draft says "Mysterio" and the image says "Mysterio". Let me re-read: the image shows "Mysterio" with a y. The draft's "Mysterio" has no y.
+
+{"find": "“The Mysterio,”", "replace": "“The Mysterio,”"}
+
+I made an error: the two strings I gave are identical in appearance. Corrected list:
+
+{"find": "“The Mysterio,” by", "replace": "“The Mysterio,” by"}

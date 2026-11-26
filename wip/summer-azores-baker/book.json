@@ -10,8 +10,8 @@
    "sort": "Baker, C. Alice"
   }
  ],
- "place": "Boston",
- "publisher": "Lee and Shepard",
+ "place": "Boston and New York",
+ "publisher": "Lee and Shepard; Charles T. Dillingham",
  "year": 1882,
  "edition_statement": "First edition",
  "regions": [
@@ -43,6 +43,11 @@
   {
    "at": "p0009",
    "kind": "contents"
+  },
+  {
+   "at": "p0011",
+   "kind": "front",
+   "title": "The book’s title above the first chapter"
   }
  ],
  "waivers": [],

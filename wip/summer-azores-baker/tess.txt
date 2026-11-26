@@ -1,0 +1,20 @@
+# tess_compare: 175 pages; 16 word items; 1 pitch items
+## Line pitch
+p0009: 5 lines set closer from y 868 (gap under 0.96 of the book's 52): small type typed as body text?
+## Words
+p0016: print?   file “All”, tesseract “AIl”
+p0018: print?   file “cry”, tesseract “ery”
+p0032: print?   file “into”, tesseract “mto”
+p0049: print?   file “with”, tesseract “vith”
+p0066: print?   file “etc”, tesseract “ete.”
+p0069: print?   file “Portuguese”, tesseract “Portuquese.’’”
+p0074: print?   file “good”, tesseract “goed)”
+p0089: print?   file “great”, tesseract “ereat”
+p0091: print?   file “Peep”, tesseract “PHEP”
+p0116: print?   file “volcano”, tesseract “voleano”
+p0117: print?   file “are”, tesseract “aré”
+p0131: print?   file “director”, tesseract “directcr”
+p0134: print?   file “voluble”, tesseract “yvoluble”
+p0145: print?   file “lightning”, tesseract “hghtning”
+p0154: print?   file “over”, tesseract “cver”
+p0163: print?   file “church”, tesseract “chureh,”
