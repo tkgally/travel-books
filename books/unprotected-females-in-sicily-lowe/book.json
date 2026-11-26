@@ -1,0 +1,78 @@
+{
+ "id": "unprotected-females-in-sicily-lowe",
+ "version": 1,
+ "date": "2026-11-26",
+ "title": "Unprotected Females in Sicily, Calabria, and on the Top of Mount Ætna",
+ "short_title": "Unprotected Females in Sicily",
+ "authors": [
+  {
+   "name": "[Emily Lowe]",
+   "sort": "Lowe, Emily"
+  }
+ ],
+ "place": "London and New York",
+ "publisher": "Routledge, Warnes, and Routledge",
+ "year": 1859,
+ "edition_statement": "First edition",
+ "regions": [
+  "Sicily",
+  "Italy"
+ ],
+ "period": "1850s",
+ "summary": "A light, humorous account of a journey by two Englishwomen travelling without a male escort, the writer and her mother (“Mamma”), in Sicily and Calabria in the 1850s. They begin at Palermo and its neighbourhood, cross the island to Girgenti, the ruins of Agrigentum, and the sulphur mines, and go on to Catania, where they stay at Nicolosi and climb to the top of Mount Ætna. They visit Syracuse and Messina, cross the strait to Reggio, and travel up through the Calabrias by Cosenza and Paolo, then return by Naples, Rome, and Florence. The book describes inns, coachmen, priests, local society, festivals, and the attention two women alone attracted. It gives Italian letters and verse with English versions. A sequel to her “Unprotected Females in Norway” (1857); four chromolithograph plates.",
+ "source": {
+  "ia_identifier": "unprotectedfema00lowgoog",
+  "contributor": "Harvard University",
+  "hidden_leaves": []
+ },
+ "omitted_from_reading": "The printed contents are in the JSON only. The publisher’s catalogue bound at the end of the scanned copy is not transcribed.",
+ "notes_on_text": [
+  "The book names no author; it is attributed to Emily Lowe, who also wrote “Unprotected Females in Norway” (1857), mentioned in a footnote.",
+  "The four plates are chromolithographs; the scan is not in full colour, so they are shown as the scan has them. The captions of the first two plates are cut at the scan’s edge: the frontispiece’s is read from the tops of its letters, and that of the plate of Agrigentum cannot be read.",
+  "On ten pages near the end the scan has lost the ends of the last lines (a masked corner). The lost letters are supplied from the context, and one place name that cannot be inferred is shown as […] (p. 263)."
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-26",
+   "note": "First publication."
+  }
+ ],
+ "frontispiece": "p0010-1",
+ "divisions": [
+  {
+   "at": "p0011",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0013",
+   "kind": "dedication",
+   "title": "Dedication"
+  },
+  {
+   "at": "p0015",
+   "kind": "contents"
+  }
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-26",
+  "pages": 6,
+  "recall": "29/30",
+  "real_errors": 0,
+  "fixed": 0
+ },
+ "leaf_order": [
+  [
+   "p0091",
+   "p0087",
+   "p0088",
+   "p0089",
+   "p0090"
+  ]
+ ],
+ "keep_hyphens": [
+  "p0026",
+  "p0195"
+ ]
+}
