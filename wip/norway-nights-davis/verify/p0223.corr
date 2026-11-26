@@ -1,0 +1,3 @@
+Page reads "great oi" (misprint for "or"), so that should be kept.
+
+{"find": "great or Bolshaya", "replace": "great oi Bolshaya"}
