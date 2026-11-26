@@ -32,11 +32,9 @@
    published. Death dates are not looked up as a condition of eligibility, and an unidentified or undated artist
    does not hold a book back. Dates found on the way may still be recorded (`book.json` `authors`).
 
-**Rejected only under the old rule 5** (recorded under `rejected` in `data/queue.json` before 2026-11-26), to be
-vetted again (`select-book`) as ordinary candidates: Savory, *A Sportswoman in India*; Meakin, *A Ribbon of Iron*;
-Macnab [Fraser], *A Ride in Morocco*; Shoemaker, *Islam Lands* (1910); Bulpett, *A Picnic Party in Wildest Africa*;
-H. Ward, *Five Years with the Congo Cannibals*; Zetland, *A Wandering Student in the Far East*; Z. Colvile, *Round the
-Black Man’s Garden*; Melland and Cholmeley, *Through the Heart of Africa*.
+**Rejected only under the old rule 5**: all nine vetted again on 2026-11-26 (Opus subagents): queued Savory, Shoemaker
+(*Islam Lands*), Bulpett and Z. Colvile; Melland and Cholmeley `waiting` (a 2016 reprint, question for Tom); rejected Meakin,
+Macnab, H. Ward (real reprints) and Ronaldshay (half not travel).
 
 **Two kinds of exception, both Tom's.** A book he asks for by name (so far Staunton's *Embassy to China*; queue
 row `"from": "tom"`). And the books of his list "Japan As They Saw It" (2026-11-20; queue rows `"from": "jatsi"`):

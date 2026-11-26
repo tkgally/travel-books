@@ -2022,6 +2022,82 @@
    "started": "2026-11-26",
    "version": 1,
    "published": "2026-11-26"
+  },
+  {
+   "order": 110,
+   "ia": "sportswomaninind00savorich",
+   "slug": "sportswoman-in-india-savory",
+   "title": "A Sportswoman in India: Personal Adventures and Experiences of Travel in Known and Unknown India",
+   "author": "Isabel Savory",
+   "year": 1900,
+   "place": "London; Philadelphia",
+   "publisher": "Hutchinson & Co.; J. B. Lippincott Company",
+   "images": 530,
+   "eligibility": "Re-vetted 2026-11-26 (Opus subagent); rejected 2026-11-19 only under the old death-date rule (Savory 1869–1966, PG catalogue; now assumed out of copyright by Tom's rule of 2026-11-26). Not in pg_catalog.csv (her In the Tail of the Peacock is, #28016). The Online Books Page: archive.org scans only. Wikisource search: none. Exact-sentence web search: nothing. HathiTrust and BHL page images only. Reprints: Kessinger 2007 and other print on demand; no real edition. Not checked: Faded Page, WorldCat.",
+   "note": "UC Libraries scan, 500 ppi, colour, clean. xii + about 410 pp., 12 chapters with verse epigraphs. Photogravure portrait and 48 plates with blank versos, no list of illustrations; captions end ‘[Page N.’; plates fall mid-chapter. 1890s: Bombay, Agra, pig-sticking near Lahore, Peshawar and the Khyber, Chamba, Kashmir (bear, ibex, climbing), tigers in the Deccan, Ootacamund, a kheddah in Mysore. Lively, much hunting.",
+   "status": "queued",
+   "checked": "2026-11-26"
+  },
+  {
+   "order": 111,
+   "ia": "islamlandsnubias00michrich",
+   "slug": "islam-lands-shoemaker",
+   "title": "Islam Lands: Nubia, the Sudan, Tunisia and Algeria",
+   "author": "Michael Myers Shoemaker",
+   "year": 1910,
+   "place": "New York and London",
+   "publisher": "G. P. Putnam's Sons",
+   "images": 378,
+   "eligibility": "Re-vetted 2026-11-26 (Opus subagent); rejected earlier only under the old death-date rule. pg_catalog.csv: other Shoemaker books, not this one. The Online Books Page: HathiTrust page images only. Wikisource: none. Exact-sentence web search: nothing. No reprint found (CRL microform only). Not checked: Faded Page.",
+   "note": "UC Libraries scan, colour, jp2 zip. 251 pp.; 44 photographs and a plan of the Palace at Khartoum (check every plate at the scan check). About 1909, with his wife: by steamer from Aswan to Wadi Halfa, train to Khartoum and Omdurman (Slatin), Port Sudan, Cairo, then by motor car through Tunisia and Algeria. Present tense; Chapter VI and parts of IV–V are history of Gordon.",
+   "status": "queued",
+   "checked": "2026-11-26"
+  },
+  {
+   "order": 112,
+   "ia": "picnicpartyinwil00bulp",
+   "slug": "picnic-party-wildest-africa-bulpett",
+   "title": "A Picnic Party in Wildest Africa: Being a Sketch of a Winter's Trip to Some of the Unknown Waters of the Upper Nile",
+   "author": "C. W. L. Bulpett",
+   "year": 1907,
+   "place": "London",
+   "publisher": "Edward Arnold",
+   "images": 326,
+   "eligibility": "Re-vetted 2026-11-26 (Opus subagent); rejected earlier only under the old death-date rule. pg_catalog.csv: only Boyes, King of the Wa-Kikuyu (Bulpett ed.). The Online Books Page: archive.org and HathiTrust images only. Web search: no text; exact-sentence search: nothing. Reprints: print on demand only (Kessinger, Legare Street, Forgotten Books, Hansebooks). Wikisource API not reachable.",
+   "note": "Smithsonian scan (Russell E. Train Africana Collection), jp2 zip. Frontispiece and 22 illustrations, mostly two to a plate leaf, and a folding map of the Baro River at the end; check 'Nuer Huts' (facing p. 58) on the scan. 260 pp. plus a publisher's catalogue. W. N. McMillan's party, 1903–04: up the White Nile, Sobat and Baro into the Abyssinian highlands, then to the Akobo and the Boma plateau; long passages from Mrs McMillan's journal in inverted commas. Plain, mostly shooting.",
+   "status": "queued",
+   "checked": "2026-11-26"
+  },
+  {
+   "order": 113,
+   "ia": "roundblackmansga01colv_0",
+   "slug": "round-black-mans-garden-colvile",
+   "title": "Round the Black Man's Garden",
+   "author": "Zélie Colvile",
+   "year": 1893,
+   "place": "Edinburgh and London",
+   "publisher": "William Blackwood and Sons",
+   "images": 440,
+   "eligibility": "Re-vetted 2026-11-26 (Opus subagent); rejected earlier only under the old death-date rule. pg_catalog.csv: none. The Online Books Page: the IA scan only. Exact-sentence web search: nothing. No real reprint found. Wikisource and Faded Page not checked (rate-limited; script-only search).",
+   "note": "Duke scan, 350 ppi. 32 full-page plates (drawings by the author and photographs), 20 cuts in the text, a coloured map of Africa facing p. 1; the folding map of Central Madagascar in the end pocket is scanned folded and only partly visible (a missing map does not stop a book: said in notes_on_text). Index to p. 344. Backup scan roundblackmansga00colv (Boston University, 500 ppi). Preface by H. E. Colvile (The Accursed Land). Eight months round Africa, 1888–89: Red Sea, Zanzibar, Madagascar crossed by palanquin, Natal, Kimberley, the Canaries, the West Coast. A humorous diarist.",
+   "status": "queued",
+   "checked": "2026-11-26"
+  },
+  {
+   "order": 114,
+   "ia": "throughheartofa00mell",
+   "slug": "through-heart-of-africa-melland",
+   "title": "Through the Heart of Africa: Being an Account of a Journey on Bicycles and on Foot from Northern Rhodesia, past the Great Lakes, to Egypt, Undertaken When Proceeding Home on Leave in 1910",
+   "author": "Frank H. Melland and Edward H. Cholmeley",
+   "year": 1912,
+   "place": "Boston and New York",
+   "publisher": "Houghton Mifflin Company",
+   "images": 436,
+   "status": "waiting",
+   "checked": "2026-11-26",
+   "eligibility": "Re-vetted 2026-11-26 (Opus subagent); rejected earlier only under the old death-date rule. pg_catalog.csv: none. The Online Books Page: HathiTrust page images only. Exact-sentence web search: nothing. Reprints: Westphalia Press 2016 (ISBN 9781633913882, 418 pp.), not known whether a facsimile or a new edition; others print on demand. Wikisource and Faded Page not checked.",
+   "note": "Smithsonian scan (Train Africana Collection, 350 ppi). xvi + 305 pp.; frontispiece and about 78 photographs on about 45 plate leaves; folding route map at the end, scanned unfolded. Backups: throughheartofaf00mell (Princeton), throughheartofaf00mell_0 (BPL). Two Northern Rhodesia officials cycle and walk from Kasama through German East Africa, Uganda and the Lado to the Nile and Cairo, 1910–11.",
+   "waiting_for": "Tom: does the Westphalia Press edition of 2016 count as a real edition after 1914 (it may be a facsimile)? notes/preferences.md, Questions for Tom."
   }
  ],
  "rejected": [
@@ -2614,6 +2690,9 @@
    "title": "Vetted 2026-11-25 (Opus subagents) and not queued: Miller, Condition of Greece 1827–28 (dull lists); Hoenshel, Land of Frost and Fire (1917); Keyser, From Jungle to Java (third person); Williamson, Old Highways in China (CUP reprint); Goodman, Pearl of the Antilles, Stewart, Down the Mackenzie, Worsfold, Visit to Java, Reid, Across the Equator, Conger, Ohio Woman in the Philippines, Dauncey, Englishwoman in the Philippines, Stevens, Yesterdays in the Philippines, Winston, Four Years in Upper Burma, Trotter, Mission to Marocco, Curtis, Around the Black Sea, Phillipps-Wolley, Sport in the Crimea, de Windt, Ride to India, Harris, Tafilet, Barclay, Mountain Life in Algeria (all Gutenberg); Merwin, Three Years in Chili (1966 edition); Meline, Two Thousand Miles (1966 reprint, unconfirmed); MacMicking, Recollections of Manilla (1967 reprint, unconfirmed); Zetland, Wandering Student (author d. 1961); White, From Sphinx to Oracle and Harris, From Batum to Baghdad (Elibron reprints); Cresson and Bassett on Persia (texts on bahai-library.com); Waring, Tour to Sheeraz (Arno 1973); Kennion, By Mountain, Lake and Plain (1995 reprint); Austin, Among Swamps and Giants (1973 reprint); Ditson, Circassia (side-notes, long); Z. Colvile, Round the Black Man's Garden, and Melland and Cholmeley, Through the Heart of Africa (dates unknown); Abercromby, Eastern Caucasus, Ballantine, Midnight Marches (poor scans only); Bookwalter, Siberia and Central Asia, Sheldon, Sultan to Sultan (too long). Reserves (passed the checks so far, not queued): Withrow, A Canadian in Europe; Harris, A Corner of Spain; Dunbar, Family Tour round Spain and Portugal; Mitchell, In India (inindiasketches00mitcgoog; the other scan lacks pp. vi–vii); Lloyd, In Dwarf Land and Cannibal Country (146 cuts).",
    "why": "reasons given with each title",
    "checked": "2026-11-25"
+  },
+  {
+   "title": "Re-vetted 2026-11-26 (Opus subagents; rejected before only under the old death-date rule) and not queued: Meakin, A Ribbon of Iron (Arno Press reprint, 1970); Macnab [Fraser], A Ride in Morocco (1902; Darf reprint, 1985); H. Ward, Five Years with the Congo Cannibals (Negro Universities Press reprint, 1969); Ronaldshay, A Wandering Student in the Far East (two volumes, the second essays, not travel)."
   }
  ]
 }
