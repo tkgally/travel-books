@@ -33,7 +33,7 @@
    does not hold a book back. Dates found on the way may still be recorded (`book.json` `authors`).
 
 **Rejected only under the old rule 5**: all nine vetted again on 2026-11-26 (Opus subagents): queued Savory, Shoemaker
-(*Islam Lands*), Bulpett and Z. Colvile; Melland and Cholmeley `waiting` (a 2016 reprint, question for Tom); rejected Meakin,
+(*Islam Lands*), Bulpett and Z. Colvile; Melland and Cholmeley skipped (a 2016 reprint; Tom, 2026-11-26); rejected Meakin,
 Macnab, H. Ward (real reprints) and Ronaldshay (half not travel).
 
 **Two kinds of exception, both Tom's.** A book he asks for by name (so far Staunton's *Embassy to China*; queue
