@@ -1989,10 +1989,11 @@
    "place": "London",
    "publisher": "Sampson Low, Marston, Searle, & Rivington",
    "images": 326,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-25",
-   "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): none. The Online Books Page: none. Wikisource: only his DNB entry. Exact-sentence search: nothing. Reprints: Kessinger (2008, 2010). Colvile 1852–1907. THE ETCHED FRONTISPIECE IS BY “THE HON. K. RUSSELL”, NOT YET IDENTIFIED: find the etcher's dates before starting (or leave the plate out, a question for Tom). Tom, 2026-11-26: every author, artist and photographer of a pre-1914 book is assumed dead more than 70 years; the unidentified credit above no longer holds the book back.",
-   "note": "Princeton Theological Seminary scan, 360 ppi; about 300 pp. and an appendix of itineraries; coloured folding sketch map. Cairo across Sinai to Akaba, a survey up the Wadi Arabah, back by Nakhl; a comic voice; some survey matter."
+   "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): none. The Online Books Page: none. Wikisource: only his DNB entry. Exact-sentence search: nothing. Reprints: Kessinger (2008, 2010). Colvile 1852–1907. THE ETCHED FRONTISPIECE IS BY “THE HON. K. RUSSELL”, NOT YET IDENTIFIED: find the etcher's dates before starting (or leave the plate out, a question for Tom). Tom, 2026-11-26: every author, artist and photographer of a pre-1914 book is assumed dead more than 70 years; the unidentified credit above no longer holds the book back. Re-checked 2026-11-26: pg_catalog.csv (full) none; web search none.",
+   "note": "Princeton Theological Seminary scan, 360 ppi; about 300 pp. and an appendix of itineraries; coloured folding sketch map. Cairo across Sinai to Akaba, a survey up the Wadi Arabah, back by Nakhl; a comic voice; some survey matter.",
+   "started": "2026-11-26"
   },
   {
    "order": 109,

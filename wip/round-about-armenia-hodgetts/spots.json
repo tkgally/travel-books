@@ -1,0 +1,35 @@
+{
+ "p0037": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Grande Rue de Péra",
+   "replace": "Grande Rue de Pera",
+   "draft": "nde Rue de Péra",
+   "verified": "nde Rue de Pera",
+   "context": "ssy for me, and had actually bought a map of Armenia in the Grande Rue de Péra. I afterwards discovered that the same map had been prohibi"
+  }
+ ],
+ "p0130": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "1895–96",
+   "replace": "1895-96",
+   "draft": "1895–96",
+   "verified": "1895-96",
+   "context": "ere it is unnecessary for me to insist on. The massacres of 1895–96 have thrown those of 1894 completely into the shade. ⏎  ⏎ While"
+  }
+ ],
+ "p0315": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[blank]]",
+   "replace": "[[image: folded map sheets]]",
+   "draft": "[[blank]]",
+   "verified": "[[image: folded map sheets]]",
+   "context": "[[page ?]] ⏎ [[blank]] ⏎ "
+  }
+ ]
+}

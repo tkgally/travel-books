@@ -1,0 +1,81 @@
+{
+ "id": "from-japan-to-jerusalem-ingham",
+ "version": 1,
+ "date": "2026-11-26",
+ "title": "From Japan to Jerusalem",
+ "short_title": "From Japan to Jerusalem",
+ "authors": [
+  {
+   "name": "E. Graham Ingham",
+   "sort": "Ingham, E. Graham",
+   "born": 1851,
+   "died": 1926
+  }
+ ],
+ "place": "London",
+ "publisher": "Church Missionary Society",
+ "year": 1911,
+ "edition_statement": "First edition",
+ "regions": [
+  "Japan",
+  "China",
+  "India",
+  "Sri Lanka",
+  "Palestine",
+  "Egypt"
+ ],
+ "period": "1909–10",
+ "collection": "jatsi",
+ "source": {
+  "ia_identifier": "fromjapantojerus00ingh",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": [
+   0,
+   281,
+   282,
+   283,
+   284,
+   285
+  ]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-26",
+   "note": "First publication."
+  }
+ ],
+ "frontispiece": "p0006-1",
+ "divisions": [
+  {
+   "at": "p0007",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0009",
+   "kind": "dedication",
+   "title": "Dedication"
+  },
+  {
+   "at": "p0011",
+   "kind": "contents"
+  },
+  {
+   "at": "p0013",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0015",
+   "kind": "front",
+   "title": "The book’s title above Part I"
+  }
+ ],
+ "summary": "E. Graham Ingham, a former Bishop of Sierra Leone and then Home Secretary of the Church Missionary Society, spent eight months of 1909–10 visiting the Society’s missions in Asia and the Near East, with his wife. They went across Europe and by the Siberian railway to Japan, where they travelled from Hokkaido to Kyushu; then to Shanghai, Ningpo, Fuh-chow, Canton, and Hong Kong; to Ceylon and India, from Tinnevelly to Peshawar and the Khyber Pass; and home by Palestine and Egypt. The book is made of dated letters, with much about mission schools, churches, conferences, and the people he met, and some sightseeing. Japan takes about fifty pages. It has thirty-one photographs.",
+ "subjects": [
+  "Missions",
+  "Church Missionary Society"
+ ],
+ "keep_hyphens": [
+  "p0071"
+ ]
+}
