@@ -1771,11 +1771,13 @@
    "place": "Boston and New York",
    "publisher": "Houghton, Mifflin and Company",
    "images": 312,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-23",
    "eligibility": "JATSI 97. Rules 1, 2 and 3 met; rule 4 partly. Rule 1: Princeton Theological Seminary scan (500 ppi, colour), clean; other IA copies: IA scan of the 1892 issue, four Google scans. Rule 2: none at Project Gutenberg (full catalogue), Online Books Page or Wikisource, nor in a web search of a sentence from p. 127. Rule 3: Hansebooks 2023 print-on-demand only; none in CiNii. Rule 4: first-person reminiscence of mission work in Japan 1872–91, one chapter on touring; mostly mission history and conversion anecdotes. Rule 5 does not apply: Gordon 1843–1900 (LoC); introductory note by W. E. Griffis 1843–1928. Searched 2026-11-23 (Opus subagent). Not checked: WorldCat, DP.",
    "note": "Title page 1893, copyright 1892. About xviii + 276 pp., 16 or so chapters plus an appendix of mission documents (A, B, …) from p. 258; chapter summaries in the contents; no illustrations seen. Plain single-column type; running heads change by section. Some romanized Japanese and one translated waka.",
-   "started": "2026-11-26"
+   "started": "2026-11-26",
+   "version": 1,
+   "published": "2026-11-26"
   },
   {
    "order": 96,

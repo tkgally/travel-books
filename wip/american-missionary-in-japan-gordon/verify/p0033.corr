@@ -1,3 +1,0 @@
-Comparing the draft with the page, the opening "or from" is missing "from" in the draft's wording only through the `[[cont]]` join. The draft has "[[cont]]or from", which is correct. The only difference is "mental and moral inertia", which matches the page.
-
-{"find": "[[cont]]or from", "replace": "[[cont]]or from"}

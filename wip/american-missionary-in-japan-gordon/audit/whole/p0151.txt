@@ -1,5 +1,0 @@
-{"given": "cated part at least in mission", "print": "cated in part at least in mission", "sure": "high"}
-{"given": "and his words where received by", "print": "and his words were received by", "sure": "high"}
-{"given": "approval of that confucian principle of", "print": "approval of that Confucian principle of", "sure": "high"}
-{"given": "highest of all laws; a principle", "print": "highest of all laws, a principle", "sure": "high"}
-{"given": "traveling on foot ovcrtook a mother", "print": "traveling on foot overtook a mother", "sure": "high"}

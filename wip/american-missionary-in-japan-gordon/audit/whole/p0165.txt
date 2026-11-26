@@ -1,5 +1,0 @@
-{"given": "seeing several of his fellow-townsmen confessing christ.", "print": "seeing several of his fellow-townsmen confessing Christ.", "sure": "high"}
-{"given": "head-man of his ward; but he", "print": "head-man of his ward, but he", "sure": "high"}
-{"given": "in order to give this whole time", "print": "in order to give his whole time", "sure": "high"}
-{"given": "work of a colporteur evangclist, the death", "print": "work of a colporteur evangelist, the death", "sure": "high"}
-{"given": "insisted that they did wish see him,", "print": "insisted that they did wish to see him,", "sure": "high"}
