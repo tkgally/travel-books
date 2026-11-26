@@ -6,8 +6,9 @@ no text and no later edition. The engraver's signature on the Kremlin plate no l
 Started 2026-11-26.
 
 ## Status
-Stage reached: scan checked, mapped, cached in Drive (20 parts); full-size picture leaves in the scratchpad; Opus draft of p0008–p0329 then Sonnet pass running (chained).
-Next step: crops; review; judge; structure.
+Stage reached: draft, corrections, judge, pages/ done; structure (two parts); pictures moved out of mid-paragraph; crops and
+spot-read by an Opus subagent running.
+Next step: apply the spot-read; preflight; audit; rendered look; publish.
 
 ## Page map
 p0000 hidden · p0001 front cover · p0002–p0007 pastedown (LoC bookplate), flyleaves · p0008 “By the Same Author” advertisement ·
@@ -26,10 +27,20 @@ asterisk footnotes; many short verses in small type; drop capitals; Norwegian wo
 “Sweeden”, “.202”.
 
 ## Decisions
+- Divisions: “By the Same Author”, half-title (front), title page, dedication, contents, illustrations; two parts (“Norway
+  Nights” p0019 and “Russian Days” p0215, the part half-titles as `#`), their chapters nested; the title printed again above
+  each part's Chapter I is a centred line. The Viking galley plate p0020 and the Russian church plate p0216 open their parts.
+- The corrections pass moved 4 in-text pictures mid-sentence (`[[cont]]` added, unjudged): pages restored from the draft
+  (same words); pictures left mid-paragraph (p0042, p0126, p0222, p0269, p0275) moved after their paragraph by script.
+- Judge spots on chapter openings: full capitals as printed (scan check); p0057 set to full capitals likewise. p0215 part
+  title `#` (draft). p0223 “or” (broken r; the judge read “oi”). p0078 a paragraph that runs on after a verse starts anew.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-26 | opus | 322 | 20.71 | no refusals, no 〓 |
+| corrections | 2026-11-26 | sonnet | 322 | 10.46 | 21 spots; 5 [[cont]] changes |
+| judge | 2026-11-26 | opus | 21 spots | 0.80 | 12 draft, 9 verified |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |

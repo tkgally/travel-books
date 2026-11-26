@@ -1,0 +1,83 @@
+{
+ "id": "norway-nights-davis",
+ "version": 1,
+ "date": "2026-11-26",
+ "title": "Norway Nights and Russian Days",
+ "short_title": "Norway Nights and Russian Days",
+ "authors": [
+  {
+   "name": "Mrs. S. M. Henry Davis",
+   "sort": "Davis, S. M. Henry"
+  }
+ ],
+ "place": "New York",
+ "publisher": "Fords, Howard, & Hulbert",
+ "year": 1887,
+ "edition_statement": "First edition",
+ "regions": [
+  "Norway",
+  "Sweden",
+  "Finland",
+  "Russia"
+ ],
+ "period": "1886",
+ "source": {
+  "ia_identifier": "norwaynightsruss01davi",
+  "contributor": "The Library of Congress",
+  "hidden_leaves": [
+   0,
+   337,
+   338,
+   339,
+   340,
+   341
+  ]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-26",
+   "note": "First publication."
+  }
+ ],
+ "frontispiece": "p0010-1",
+ "divisions": [
+  {
+   "at": "p0008",
+   "kind": "front",
+   "title": "By the Same Author"
+  },
+  {
+   "at": "p0009",
+   "kind": "front",
+   "title": "Half-title"
+  },
+  {
+   "at": "p0011",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0013",
+   "kind": "dedication",
+   "title": "Dedication"
+  },
+  {
+   "at": "p0015",
+   "kind": "contents"
+  },
+  {
+   "at": "p0017",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0019",
+   "kind": "part"
+  },
+  {
+   "at": "p0215",
+   "kind": "part"
+  }
+ ],
+ "summary": "Mrs. S. M. Henry Davis, an American writer, travelled in the summer of 1886 with two other women through Norway, Sweden, and Russia. In Norway they went from Christiania by cariole through the Gudbransdal and the Romsdal to Trondhjem, then by steamer up the coast to Hammerfest and the North Cape to see the midnight sun, meeting Lapps on the way. They came back by Sweden and Finland to St. Petersburg and Moscow, where she describes the streets, shops, churches, palaces, and monasteries. The book has many short quotations of verse and thirty-five wood engravings.",
+ "omitted_from_reading": "The page “By the Same Author”, the half-title, the printed contents, and the list of illustrations are in the JSON only."
+}

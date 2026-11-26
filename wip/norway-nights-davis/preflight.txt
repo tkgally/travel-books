@@ -1,0 +1,188 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[FAIL (36)] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+            - missing image file for p0010-1 (Engraving of a tall waterfall pouring down a cliff into a rocky gorge and river, with mountains behind)
+            - missing image file for p0011-1 (engraving of a Norwegian peasant woman in a head-cloth and embroidered bodice, holding sheaves)
+            - missing image file for p0020-1 (A Viking ship under a large square sail, with a dragon-head prow, oars out and a crew aboard; birds circle the masthead and icy cliffs rise in the background)
+            - missing image file for p0042-1 (wooden stave church with steep tiered roofs, surrounded by trees, a figure on the path in front)
+            - missing image file for p0044-1 (drawing of an ornate filigree brooch with pendant discs and drops)
+            - missing image file for p0048-1 (Engraving of the remains of a Viking ship in a wooden cradle, seen from the stern, with a row of round shields along the side; printed sideways on the page)
+            - missing image file for p0052-1 (Engraving, printed sideways, of the remains of a Viking ship on supports, seen from the starboard side, with the steering-oar rudder)
+            - missing image file for p0063-1 (A woman driving a horse-drawn two-wheeled kariol at speed, holding the reins and a whip, with a boy riding on the back behind the seat; the illustration is printed sideways on the page)
+            - missing image file for p0072-1 (a Norwegian peasant woman in a head-cloth, an embroidered bodice and an apron, with her hands folded)
+            - missing image file for p0093-1 (Engraving, printed sideways on the page, of a Norwegian kitchen: a woman stands beside a large whitewashed hearth with pots, a bundle of brushwood on the floor, a small window, and a cat by a chair)
+            - missing image file for p0101-1 (Engraving of a wooden church with a tall spire and a churchyard wall, in a valley with hills behind; two small figures on the path in the foreground)
+            - missing image file for p0112-1 (Engraving, printed sideways, of a steep-sided fjord seen through dark fir trees in the foreground, with mountains rising on either side)
+            - missing image file for p0126-1 (Two carved stone column capitals with grotesque human heads and creatures)
+            - missing image file for p0130-1 (Pen drawing of the apse of St. Olaf’s Cathedral, with its tall pointed roofs and spire, seen beyond trees and shrubs)
+            - missing image file for p0152-1 (Engraving of a Lapp man standing, facing forward, in a fur-collared tunic with a belt, a knitted cap with a bobble, and soft boots)
+            - missing image file for p0154-1 (engraving of a broad metal ring with three small rings hanging from it)
+            - missing image file for p0157-1 (Engraving of a seated Lapp woman in a tall peaked cap, holding a baby in a cradle on her lap)
+            - missing image file for p0163-1 (Street in Hammerfest lined with wooden houses, a large clock sign hanging from one, wooden steps and a cart along the roadside, a man with a walking stick in the road)
+            - missing image file for p0170-1 (Engraving of the midnight sun low over the sea, its light reflected on the rippling water, with two seabirds in flight)
+            - missing image file for p0190-1 (Engraving of the rapids at Trollhatten, with a woman seated on the near bank and a church spire on the wooded far shore)
+            - missing image file for p0195-1 (A young peasant woman in a white cap and jacket, knitting, with a baby carried in a sling on her back)
+            - missing image file for p0203-1 (Head-and-shoulders drawing of a Swedish woman in profile, wearing a tall pointed cap with a lace edge and an embroidered collar)
+            - missing image file for p0216-1 (Pen drawing of a Russian church with onion-domed towers, one a bell tower, and an arched entrance porch)
+            - missing image file for p0222-1 (A bearded Russian coachman in a peaked cap and a long belted caftan, holding a whip, standing in a street with wooden houses behind him)
+            - missing image file for p0229-1 (Engraving of a Cossack officer standing in a tall fur cap and long belted coat with medals on his chest, one hand on the hilt of a sword)
+            - missing image file for p0235-1 (View across the Neva of a bridge and a line of buildings on the far bank, with the dome of St. Isaac's above them and a steamer and sailing boats on the river)
+            - missing image file for p0265-1 (Engraving of the Kremlin walls, towers and domed churches above a bridge over the river, with a horse and cart on the embankment in the foreground)
+            - missing image file for p0269-1 (Engraving of a peasant woman in embroidered Russian dress and bead necklaces, standing in a landscape and holding a long rake)
+            - missing image file for p0271-1 (A bearded Russian peasant in a fur cap and belted smock walking with a stick over his shoulder, a basket and bundle hanging from it, and an axe tucked in his belt)
+            - missing image file for p0275-1 (a man seen from behind, walking with a basket of bottles carried on his head)
+            - missing image file for p0279-1 (A man in a fur cap and belted fur-trimmed coat, seen from behind, carrying dead birds and hares hung from a pole over his shoulder and more birds in his hand)
+            - missing image file for p0285-1 (Engraving of the Ivan bell tower in the Kremlin with its onion dome, an adjoining belfry with bells, and the great bell standing at the foot of the tower)
+            - missing image file for p0290-1 (Engraving of the Spasski Gate tower of the Kremlin, with its clock faces and tall spire, and low buildings and crenellated walls beside it)
+            - missing image file for p0307-1 (Engraving of a cathedral with onion domes topped by crosses, seen from outside with a wooden fence in front and another building behind)
+            - missing image file for p0321-1 (Drawing of the Church of St. Basil, Moscow, showing its onion domes and towers above an arched porch and railings)
+            - missing image file for p0329-1 (a courtier in eighteenth-century dress, wearing a wig and carrying a sword, bowing low with his plumed hat in his hand)
+[ FAIL (1)] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+            - JSON→ODT text: texts differ from character 110: …ey."WithNumerousIllustrations.NorwegianPeasant.NEWYORK:FORDS… / …ey."WithNumerousIllustrations.[Illustration:engravingofaNorw…
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[ FAIL (1)] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+            - p0053: space at the start or end of a block: 'Among the relics found with the ship are'
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[FAIL (36)] links: every link inside the book's web pages and EPUB has a target
+            - web 01.html: missing image 'images/p0011-1.jpg'
+            - web 01.html: missing image 'images/p0010-1.jpg'
+            - web 05.html: missing image 'images/p0042-1.jpg'
+            - web 05.html: missing image 'images/p0044-1.jpg'
+            - web 05.html: missing image 'images/p0048-1.jpg'
+            - web 05.html: missing image 'images/p0052-1.jpg'
+            - web 03.html: missing image 'images/p0020-1.jpg'
+            - web 08.html: missing image 'images/p0126-1.jpg'
+            - web 08.html: missing image 'images/p0130-1.jpg'
+            - web 09.html: missing image 'images/p0152-1.jpg'
+            - web 09.html: missing image 'images/p0154-1.jpg'
+            - web 09.html: missing image 'images/p0157-1.jpg'
+            - web 07.html: missing image 'images/p0101-1.jpg'
+            - web 07.html: missing image 'images/p0112-1.jpg'
+            - web 11.html: missing image 'images/p0170-1.jpg'
+            - web 15.html: missing image 'images/p0216-1.jpg'
+            - web 10.html: missing image 'images/p0163-1.jpg'
+            - web 13.html: missing image 'images/p0190-1.jpg'
+            - web 13.html: missing image 'images/p0195-1.jpg'
+            - web 13.html: missing image 'images/p0203-1.jpg'
+            - web 16.html: missing image 'images/p0222-1.jpg'
+            - web 16.html: missing image 'images/p0229-1.jpg'
+            - web 16.html: missing image 'images/p0235-1.jpg'
+            - web 16.html: missing image 'images/p0265-1.jpg'
+            - web 17.html: missing image 'images/p0269-1.jpg'
+            - web 17.html: missing image 'images/p0271-1.jpg'
+            - web 17.html: missing image 'images/p0275-1.jpg'
+            - web 17.html: missing image 'images/p0279-1.jpg'
+            - web 17.html: missing image 'images/p0285-1.jpg'
+            - web 17.html: missing image 'images/p0290-1.jpg'
+            - web 17.html: missing image 'images/p0307-1.jpg'
+            - web 17.html: missing image 'images/p0321-1.jpg'
+            - web 17.html: missing image 'images/p0329-1.jpg'
+            - web 06.html: missing image 'images/p0063-1.jpg'
+            - web 06.html: missing image 'images/p0072-1.jpg'
+            - web 06.html: missing image 'images/p0093-1.jpg'
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[FAIL (30)] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/01.xhtml(13,144): Referenced resource "OEBPS/images/p0011-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/01.xhtml(17,152): Referenced resource "OEBPS/images/p0010-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/03.xhtml(8,207): Referenced resource "OEBPS/images/p0020-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/05.xhtml(20,145): Referenced resource "OEBPS/images/p0042-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/05.xhtml(23,115): Referenced resource "OEBPS/images/p0044-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/05.xhtml(26,205): Referenced resource "OEBPS/images/p0048-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/05.xhtml(32,182): Referenced resource "OEBPS/images/p0052-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/06.xhtml(15,234): Referenced resource "OEBPS/images/p0063-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/06.xhtml(27,150): Referenced resource "OEBPS/images/p0072-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/06.xhtml(48,247): Referenced resource "OEBPS/images/p0093-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/07.xhtml(16,198): Referenced resource "OEBPS/images/p0101-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/07.xhtml(25,185): Referenced resource "OEBPS/images/p0112-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/08.xhtml(15,123): Referenced resource "OEBPS/images/p0126-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/08.xhtml(21,166): Referenced resource "OEBPS/images/p0130-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/09.xhtml(29,180): Referenced resource "OEBPS/images/p0152-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/09.xhtml(30,120): Referenced resource "OEBPS/images/p0154-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/09.xhtml(34,142): Referenced resource "OEBPS/images/p0157-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/10.xhtml(12,216): Referenced resource "OEBPS/images/p0163-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/11.xhtml(16,168): Referenced resource "OEBPS/images/p0170-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/13.xhtml(15,169): Referenced resource "OEBPS/images/p0190-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/13.xhtml(20,151): Referenced resource "OEBPS/images/p0195-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/13.xhtml(30,177): Referenced resource "OEBPS/images/p0203-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/15.xhtml(8,153): Referenced resource "OEBPS/images/p0216-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/16.xhtml(15,185): Referenced resource "OEBPS/images/p0222-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/16.xhtml(22,186): Referenced resource "OEBPS/images/p0229-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/16.xhtml(32,208): Referenced resource "OEBPS/images/p0235-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/16.xhtml(68,196): Referenced resource "OEBPS/images/p0265-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/17.xhtml(13,175): Referenced resource "OEBPS/images/p0269-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/17.xhtml(16,212): Referenced resource "OEBPS/images/p0271-1.jpg" could not be found in the EPUB.
+            - ERROR(RSC-007): /tmp/preflight-28enlssg/books/norway-nights-davis/norway-nights-davis.epub/OEBPS/text/17.xhtml(21,126): Referenced resource "OEBPS/images/p0275-1.jpg" could not be found in the EPUB.
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[ FAIL (1)] audit: book.json records the sampled audit of this version
+            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[look (19)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0033: …twenty sailing-|vessels glided … (hyphen removed; check) — the book hyphenates other “sailing-” words: keep_hyphens?
+            - hyphen join at p0066: … if one is for-|tunate, as we w… (hyphen removed; check)
+            - hyphen join at p0077: … lack of socia-|bility she coul… (hyphen removed; check)
+            - hyphen join at p0103: …rifling to com-|pensate the exp… (hyphen removed; check)
+            - hyphen join at p0107: …ars on an Illi-|nois farm, retu… (hyphen removed; check)
+            - hyphen join at p0118: … principal sea-|ports, and reno… (hyphen removed; check)
+            - hyphen join at p0123: …cept the multi-|tudinous cod. B… (hyphen removed; check)
+            - hyphen join at p0143: …mlets, fishing-|boats and ships… (hyphen removed; check)
+            - hyphen join at p0160: …me was a gloam-|ing quickly fol… (hyphen removed; check)
+            - hyphen join at p0165: …yer or exhorta-|tion, we could … (hyphen removed; check)
+            - hyphen join at p0174: …frozen; brandy-|flasks were off… (hyphen removed; check)
+            - hyphen join at p0202: …f the old Puri-|tans, and with … (hyphen removed; check)
+            - hyphen join at p0219: …es of merchant-|ships, of yacht… (hyphen removed; check)
+            - hyphen join at p0222: …eneral orienta-|tion which defi… (hyphen removed; check)
+            - hyphen join at p0237: …he “holy of ho-|lies” by two ma… (hyphen removed; check)
+            - hyphen join at p0278: …ises on gently-|undulating hill… (hyphen removed; check)
+            - hyphen join at p0298: …et and superin-|tended his dinn… (hyphen removed; check)
+            - hyphen join at p0328: …waited for her-|alds from a cit… (hyphen removed; check)
+            - (and 28 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[ FAIL (4)] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+            - p0126: …'ormed by the river Nid on' | picture | 'one side and the fiord on'
+            - p0222: …'ss of the coachmen, which' | picture | 'consists of a dark-blue w'
+            - p0269: …'l white church with green' | picture | 'cupola indicates that sou'
+            - p0275: …'ets and buttresses of the' | picture | 'wall of the Kitai Gorod; '
+[ look (4)] contents: entries of the printed contents with no matching heading
+            - p0015: 'Sweeden (Par Parenthèse), 181'
+            - p0015: 'Finland (An Episode), 202'
+            - p0015: 'The Shops: The Cathedral: Palaces and Museums.'
+            - p0015: 'The Streets: The Kremlin: The Kremlin—Palaces: The Kremlin—Churches: R'
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[ look (1)] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
+            - p0011: after the caption: '[[center]] NEW YORK:'
+[       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
+[ look (3)] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
+            - p0133: opening in small capitals ('T<sc>he</sc> first tourist steamer of th'); most chapters open in full capitals
+            - p0175: opening in small capitals ('T<sc>he</sc> first day of our return we '); most chapters open in full capitals
+            - p0266: opening in small capitals ('W<sc>hen</sc> the Emperor Nicholas decre'); most chapters open in full capitals
+[ look (1)] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+            - p0079: verse continued from p0078: stanzas before [6] | here [8] (a stanza ending at the page foot needs no [[cont]])
+[ FAIL (1)] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
+            - images/cover.jpg is missing (the front cover if the title is clearly readable on it, otherwise the title page)
+[ look (5)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0008, p0013, p0015, p0018, p0021, p0022…); à (p0018, p0233, p0273, p0329)
+            - abo: abo (p0207, p0208); åbo (p0209, p0211)
+            - hotel: hotel (p0034, p0047, p0097, p0098, p0103, p0106…); hôtel (p0168, p0220)
+            - scene: scene (p0077, p0079, p0081, p0089, p0127, p0142…); scène (p0180, p0293)
+            - tchai: tchai (p0221, p0234); tchaĭ (p0276)
+[ look (1)] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+            - p0276: “conld” in …quer and only Mark Twain conld justly describe. Breakfa…
+[ look (5)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0094: “snndry” — “sundry” is common (51)
+            - p0105: “funded” — “founded” is common (333; a letter dropped or transposed?)
+            - p0227: “pored” — “poured” is common (190; a letter dropped or transposed?)
+            - p0276: “conld” — “could” is common (8128)
+            - p0292: “fantasic” — “fantastic” is common (175; a letter dropped or transposed?)
+[       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
+[ look (1)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: …l and the Romsdal to Trondhjem, then by steamer up the coast to Hammerfest and the North Cape to se…
+[       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight FAIL: norway-nights-davis v1 — 110 to fix, 0 waived; to look at: hyphen-joins 19, contents 4, caption-tail 1, openings 3, verse-joins 1, accents 5, misprints 1, rare-forms 5, serial-commas 1 — tools@c2775b1f 2026-11-26
