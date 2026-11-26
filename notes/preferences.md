@@ -428,3 +428,6 @@ goes to the to-do list for those sessions (`RESUME.md`).
   *Embassy to China*: side-notes are left out of the reading editions) they are in the JSON only, so the reading editions lose the dates of the
   entries; the book page says so. Should such side-notes be shown in the editions (for example as a small line or a run-in date at the start of
   the paragraph), for this book and others like it? Assumed for now: the standing rule; a new version can show them.
+- **A 2016 Westphalia Press edition** (Melland and Cholmeley, *Through the Heart of Africa*, 1912; 2026-11-26). Westphalia Press
+  (the Policy Studies Organization's imprint) issued it in 2016 (ISBN 9781633913882, 418 pp.); whether it is a facsimile or
+  a reset edition is not known. Does it count as a real print edition after 1914? The book is `waiting` until then.
