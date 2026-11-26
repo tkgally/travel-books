@@ -1,0 +1,12 @@
+{"page": "p0007", "model": "opus", "corrections": null, "seconds": 6.3, "cost": 0.070889, "completion_tokens": 475, "turns": 2, "attempts": 1}
+{"page": "p0008", "model": "opus", "corrections": null, "seconds": 6.1, "cost": 0.069188, "completion_tokens": 392, "turns": 2, "attempts": 1}
+{"page": "p0009", "model": "opus", "corrections": null, "seconds": 6.0, "cost": 0.0686162, "completion_tokens": 363, "turns": 2, "attempts": 1}
+{"page": "p0010", "model": "opus", "corrections": null, "seconds": 3.7, "cost": 0.06395619999999999, "completion_tokens": 130, "turns": 2, "attempts": 1}
+{"page": "p0011", "model": "opus", "corrections": null, "seconds": 5.1, "cost": 0.069108, "completion_tokens": 388, "turns": 2, "attempts": 1}
+{"page": "p0012", "model": "opus", "corrections": null, "seconds": 5.7, "cost": 0.0706034, "completion_tokens": 464, "turns": 2, "attempts": 1}
+{"page": "p0013", "model": "opus", "corrections": null, "seconds": 5.7, "cost": 0.0629502, "completion_tokens": 504, "turns": 2, "attempts": 1}
+{"page": "p0014", "model": "opus", "corrections": null, "seconds": 5.8, "cost": 0.0630138, "completion_tokens": 508, "turns": 2, "attempts": 1}
+{"page": "p0015", "model": "opus", "corrections": null, "seconds": 4.8, "cost": 0.0606902, "completion_tokens": 391, "turns": 2, "attempts": 1}
+{"page": "p0016", "model": "opus", "corrections": null, "seconds": 5.7, "cost": 0.0624856, "completion_tokens": 482, "turns": 2, "attempts": 1}
+{"page": "p0017", "model": "opus", "corrections": null, "seconds": 5.5, "cost": 0.0617302, "completion_tokens": 443, "turns": 2, "attempts": 1}
+{"page": "p0018", "model": "opus", "corrections": null, "seconds": 6.3, "cost": 0.06345379999999999, "completion_tokens": 530, "turns": 2, "attempts": 1}
