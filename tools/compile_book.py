@@ -278,7 +278,7 @@ def _compile_pages(cfg, pages, images=None):
                 img = flat[-1] if flat and flat[-1]["t"] == "image" else None
                 if img is None:
                     warn(f"[[caption]] not after an image, kept as a centred line: {leaf} {b['text'][:40]!r}")
-                    flat.append({"t": "p", "text": b["text"], "align": "center", "leaf": leaf, "pb": []})
+                    flat.append({"t": "p", "text": b["text"], "align": "center", "leaf": leaf, "leaf_end": leaf, "pb": []})
                 else:
                     img["caption"] = (img.get("caption", "") + " " + b["text"]).strip()
                 continue
