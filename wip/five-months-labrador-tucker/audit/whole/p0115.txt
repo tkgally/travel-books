@@ -1,0 +1,4 @@
+{"given": "“king’s arguments,” fire arms; determined", "print": "“king’s arguments,” fire arms, determined", "sure": "high"}
+{"given": "as was their custom, intending or the", "print": "as was their custom, intending on the", "sure": "high"}
+{"given": "eggs in casks already providcd, and", "print": "eggs in casks already provided, and", "sure": "high"}
+{"given": "the “blue noses” found the yankees had", "print": "the “blue noses” found the Yankees had", "sure": "high"}

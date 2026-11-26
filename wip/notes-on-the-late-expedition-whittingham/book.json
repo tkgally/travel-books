@@ -41,6 +41,27 @@
   {
    "at": "p0016",
    "kind": "contents"
+  },
+  {
+   "at": "p0024",
+   "kind": "front",
+   "title": "The book’s title above Chapter I"
+  },
+  {
+   "at": "p0318",
+   "kind": "appendix"
+  },
+  {
+   "at": "p0324",
+   "kind": "advertisements"
+  },
+  {
+   "at": "p0328",
+   "kind": "advertisements"
+  },
+  {
+   "at": "p0332",
+   "kind": "advertisements"
   }
  ],
  "waivers": [
@@ -55,5 +76,8 @@
    "why": "a blank leaf inserted by the scanner with the notice"
   }
  ],
- "keep_hyphens": []
+ "keep_hyphens": [
+  "p0100",
+  "p0165"
+ ]
 }

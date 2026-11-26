@@ -1,0 +1,5 @@
+{"given": "beryl hue then brought upon", "print": "beryl hue when brought upon", "sure": "high"}
+{"given": "being only a fiftecnth part lighter", "print": "being only a fifteenth part lighter", "sure": "high"}
+{"given": "considered as nearly extreme dimensions.", "print": "considered as nearly the extreme dimensions.", "sure": "high"}
+{"given": "northeast into the Atlantic; where, bathed", "print": "northeast into the Atlantic, where, bathed", "sure": "high"}
+{"given": "near the banks of newfoundland, they", "print": "near the banks of Newfoundland, they", "sure": "high"}

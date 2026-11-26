@@ -1,0 +1,6 @@
+{"find": "nudeness", "replace": "nudeness"}
+{"find": "girlhood alike", "replace": "girlhood alike"}
+
+Checking for actual differences: "nudeness" in the image vs "nudeness" in the draft — the draft reads "nudeness", so no change is needed there. Corrections:
+
+{"find": "perfect nudeness", "replace": "perfect nudeness"}

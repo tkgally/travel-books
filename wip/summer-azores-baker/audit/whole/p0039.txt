@@ -1,0 +1,5 @@
+{"given": "laid out in broad avenues sbaded by", "print": "laid out in broad avenues shaded by", "sure": "high"}
+{"given": "the leaves of which are aromatic; and", "print": "the leaves of which are aromatic, and", "sure": "high"}
+{"given": "I have seen growing cork-oak and", "print": "I have seen growing the cork-oak and", "sure": "high"}
+{"given": "Spanish chestnuts, and the norfolk-Island pine,", "print": "Spanish chestnuts, and the Norfolk-Island pine,", "sure": "high"}
+{"given": "the rarest roses; three on four kinds", "print": "the rarest roses; three or four kinds", "sure": "high"}

@@ -1,0 +1,5 @@
+{"given": "Taking the guide’s band, with", "print": "Taking the guide’s hand, with", "sure": "high"}
+{"given": "up the awful hcights. These", "print": "up the awful heights. These", "sure": "high"}
+{"given": "braided into matting; and into ropes", "print": "braided into matting, and into ropes", "sure": "high"}
+{"given": "Three yards rope are sold", "print": "Three yards of rope are sold", "sure": "high"}
+{"given": "to the summit of the caldeira,", "print": "to the summit of the Caldeira,", "sure": "high"}

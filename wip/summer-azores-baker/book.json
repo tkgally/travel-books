@@ -18,7 +18,7 @@
   "Azores",
   "Madeira"
  ],
- "period": "1881",
+ "period": "before 1882",
  "source": {
   "ia_identifier": "summerinazoreswi00bake",
   "contributor": "Library of Congress",
@@ -51,5 +51,28 @@
   }
  ],
  "waivers": [],
- "keep_hyphens": []
+ "keep_hyphens": [],
+ "summary": [
+  "A diary of a summer’s holiday in the Azores, written by a teacher from Cambridge, Massachusetts, who sails from Boston with a small party of friends on a bark bound for Fayal. The chapters, each headed with a date, describe the voyage, with a whaling captain’s story told in his own words; the port of Horta and its streets, donkeys, and peasant life; the Caldeira of Fayal and the peak of Pico; a passing look at San Jorge, Graciosa, and Terceira; and San Miguel, where the party stays in the valley of the Furnas, with its hot springs, and goes to a ball.",
+  "A short visit to Madeira follows: a stay in quarantine off Funchal, then rides in bullock-sledges and on horseback. The party goes home by way of the Azores."
+ ],
+ "notes_on_text": [
+  "The book gives no year for the journey. The dates at the heads of the chapters run from June to September; the days of the week fit 1873 or 1879."
+ ],
+ "omitted_from_reading": "The printed contents and the book’s title above the first chapter are in the JSON only.",
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-27",
+   "note": "First publication."
+  }
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-27",
+  "pages": 6,
+  "recall": "29/29",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }

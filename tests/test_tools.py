@@ -2453,6 +2453,14 @@ class TessCompare(unittest.TestCase):
         items = tc.pitch_items(pitches, texts)
         self.assertEqual([i.split(":")[0] for i in items], ["p0005"])
 
+    def test_empty_items(self):
+        """*Five Months in Labrador* p0016: a blank verso's show-through typed as a page of contents."""
+        import tess_compare as tc
+        fw = ["word"] * 60
+        self.assertEqual(len(tc.empty_items("p0016", fw, ["~", "a", "rn", ".", "Ig"] * 2)), 1)
+        self.assertEqual(tc.empty_items("p0017", fw, ["word"] * 55), [])
+        self.assertEqual(tc.empty_items("p0018", ["word"] * 10, []), [])
+
     def test_run_items(self):
         """Review after a hundred books: part pages of quotation one size smaller (*Islam Lands*, pitch 42 against 45)."""
         import tess_compare as tc

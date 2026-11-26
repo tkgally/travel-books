@@ -1,0 +1,5 @@
+{"given": "the natives of the interior; and the shore", "print": "the natives of the interior, and the shore", "sure": "high"}
+{"given": "interference with the wcalthier and aristocratic", "print": "interference with the wealthier and aristocratic", "sure": "high"}
+{"given": "to the “upper ranks society”—and submit", "print": "to the “upper ranks in society”—and submit", "sure": "high"}
+{"given": "in St. Johns, or placentia, to go", "print": "in St. Johns, or Placentia, to go", "sure": "high"}
+{"given": "and acting magistrates or board, who make", "print": "and acting magistrates on board, who make", "sure": "high"}

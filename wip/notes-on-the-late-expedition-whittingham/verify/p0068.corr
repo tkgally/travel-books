@@ -1,0 +1,8 @@
+{"find": "that a British officer", "replace": "that a British officer"}
+{"find": "intermit-", "replace": "intermit-"}
+
+Wait — I need to report only real changes. Comparing the draft with the image:
+
+{"find": "that no difficulties might occur; and", "replace": "that no difficulties might occur; and"}
+
+NONE

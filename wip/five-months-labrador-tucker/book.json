@@ -47,8 +47,76 @@
    "at": "p0017",
    "kind": "front",
    "title": "The book’s title above the first chapter"
+  },
+  {
+   "at": "p0017",
+   "kind": "chapter",
+   "toc_title": "Chapter I. Boston to Boone Bay",
+   "n": 2
+  },
+  {
+   "at": "p0035",
+   "kind": "chapter",
+   "toc_title": "Chapter II. The People of Newfoundland"
+  },
+  {
+   "at": "p0057",
+   "kind": "chapter",
+   "toc_title": "Chapter III. Hunting and Customs"
+  },
+  {
+   "at": "p0076",
+   "kind": "chapter",
+   "toc_title": "Chapter IV. The Fisheries"
+  },
+  {
+   "at": "p0093",
+   "kind": "chapter",
+   "toc_title": "Chapter V. To the Coast of Labrador"
+  },
+  {
+   "at": "p0110",
+   "kind": "chapter",
+   "toc_title": "Chapter VI. The Settlers of Labrador"
+  },
+  {
+   "at": "p0129",
+   "kind": "chapter",
+   "toc_title": "Chapter VII. The Natives of Labrador"
+  },
+  {
+   "at": "p0147",
+   "kind": "chapter",
+   "toc_title": "Chapter VIII. Homeward by Louisbourg"
   }
  ],
  "waivers": [],
- "keep_hyphens": []
+ "keep_hyphens": [],
+ "notes_on_text": [
+  "The chapters have no titles, only summaries. The entries of the contents give a short title of the editor’s for each chapter, taken from its summary; the summaries are printed in full at the head of each chapter."
+ ],
+ "summary": [
+  "A young American preparing for the ministry, whose studies had been broken off by ill health, sails from Boston in May 1838 on a fishing schooner bound for Newfoundland and Labrador. He spends the summer at Boone Bay on the west coast of Newfoundland and on the Labrador shore of the Strait of Belle Isle, and writes of the settlers and their hunting, marriages, and quarrels, the cod, herring, and seal fisheries and the rights of American fishermen, the icebergs, and the Inuit (“Esquimaux”) and other Native peoples as he saw and heard of them.",
+  "On the way home the schooner puts in at Cape Breton Island, and he visits the ruins of the fortress of Louisbourg. The preface tells of his early life and why he went to sea."
+ ],
+ "subjects": [
+  "Fisheries",
+  "Inuit"
+ ],
+ "omitted_from_reading": "The half-title, the printed contents, and the book’s title above Chapter I are in the JSON only.",
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-27",
+   "note": "First publication."
+  }
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-27",
+  "pages": 6,
+  "recall": "29/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }

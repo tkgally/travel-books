@@ -1,0 +1,5 @@
+{"given": "from which fine specimcns can be", "print": "from which fine specimens can be", "sure": "high"}
+{"given": "gray lichen made soft carpet for", "print": "gray lichen made a soft carpet for", "sure": "high"}
+{"given": "caverns yawning beneath; into which", "print": "caverns yawning beneath, into which", "sure": "high"}
+{"given": "fight Indians on rocky Mountain lava-beds!", "print": "fight Indians on Rocky Mountain lava-beds!", "sure": "high"}
+{"given": "consul’s son, if was but a", "print": "consul’s son, it was but a", "sure": "high"}

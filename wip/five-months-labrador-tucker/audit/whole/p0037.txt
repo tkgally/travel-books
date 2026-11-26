@@ -1,0 +1,5 @@
+{"given": "circumscribed by his sitnation.", "print": "circumscribed by his situation.", "sure": "high"}
+{"given": "in exchange for furs which they", "print": "in exchange for the furs which they", "sure": "high"}
+{"given": "the exports of newfoundland find their", "print": "the exports of Newfoundland find their", "sure": "high"}
+{"given": "precipitous shores; on either side.", "print": "precipitous shores, on either side.", "sure": "high"}
+{"given": "forty inhabitants living at his place,", "print": "forty inhabitants living at this place,", "sure": "high"}
