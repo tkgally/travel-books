@@ -6,23 +6,23 @@
 
 <sc>a good trophy</sc> <i>Preface</i> <pref>xiii</pref>
 
-<sc>rough work in the rockies</sc> ” <pref>xiv</pref>
+<sc>rough work in the rockies</sc>” <pref>xiv</pref>
 
-<sc>wintry weather in wyoming</sc> ” <pref>xvi</pref>
+<sc>wintry weather in wyoming</sc>” <pref>xvi</pref>
 
-<sc>h. b. round</sc> ” <pref>xvii</pref>
+<sc>h. b. round</sc>” <pref>xvii</pref>
 
-<sc>snowed-up in california</sc> ” <pref>xix</pref>
+<sc>snowed-up in california</sc>” <pref>xix</pref>
 
-<sc>winter camp in wyoming</sc> ” <pref>xxi</pref>
+<sc>winter camp in wyoming</sc>” <pref>xxi</pref>
 
-<sc>a stern father</sc> ” <pref>xxii</pref>
+<sc>a stern father</sc>” <pref>xxii</pref>
 
-<sc>we hunted with fair success</sc> ” <pref>xxiv</pref>
+<sc>we hunted with fair success</sc>” <pref>xxiv</pref>
 
-<sc>pack-train in the snow</sc> ” <pref>xxvii</pref>
+<sc>pack-train in the snow</sc>” <pref>xxvii</pref>
 
-<sc>h. s. somerset</sc> ” <pref>xxxi</pref>
+<sc>h. s. somerset</sc>” <pref>xxxi</pref>
 
 <sc>steamer on athabaska</sc> <pref>2</pref>
 

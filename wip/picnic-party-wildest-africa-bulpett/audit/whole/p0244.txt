@@ -1,5 +1,0 @@
-{"given": "manner with strangers; if they", "print": "manner with strangers, if they", "sure": "high"}
-{"given": "all our goods chattels had been", "print": "all our goods and chattels had been", "sure": "high"}
-{"given": "and after haviug marched twelve", "print": "and after having marched twelve", "sure": "high"}
-{"given": "kept his lenten fast, and", "print": "kept his Lenten fast, and", "sure": "high"}
-{"given": "deemed to he unclean.", "print": "deemed to be unclean.", "sure": "high"}

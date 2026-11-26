@@ -1,5 +1,0 @@
-{"given": "She in return accepted hospitality of", "print": "She in return accepted the hospitality of", "sure": "high"}
-{"given": "to keep off the evil eye; such being", "print": "to keep off the evil eye, such being", "sure": "high"}
-{"given": "I was given the seat of honor on", "print": "I was given the seat of honour on", "sure": "high"}
-{"given": "barrel (whose raiscd edges nearly", "print": "barrel (whose raised edges nearly", "sure": "high"}
-{"given": "My little hostess bad nothing to say,", "print": "My little hostess had nothing to say,", "sure": "high"}

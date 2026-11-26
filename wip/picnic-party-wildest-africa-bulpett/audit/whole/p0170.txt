@@ -1,5 +1,0 @@
-{"given": "trouble, the yambos being very", "print": "trouble, the Yambos being very", "sure": "high"}
-{"given": "the last chapter, we bad been", "print": "the last chapter, we had been", "sure": "high"}
-{"given": "In return for this; the queen", "print": "In return for this, the queen", "sure": "high"}
-{"given": "runs through a forest couutry most", "print": "runs through a forest country most", "sure": "high"}
-{"given": "passing by the villages Bakedi and Perbom", "print": "passing by the villages of Bakedi and Perbom", "sure": "high"}

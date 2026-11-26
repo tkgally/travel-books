@@ -1,5 +1,0 @@
-{"given": "the time they where with us", "print": "the time they were with us", "sure": "high"}
-{"given": "as many as twcnty antelopes a day", "print": "as many as twenty antelopes a day", "sure": "high"}
-{"given": "During last night our black friends", "print": "During the last night our black friends", "sure": "high"}
-{"given": "from sunset to sunrize, they kept", "print": "from sunset to sunrise, they kept", "sure": "high"}
-{"given": "had no such evil intentions; and, as", "print": "had no such evil intentions, and, as", "sure": "high"}

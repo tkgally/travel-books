@@ -1,5 +1,0 @@
-{"given": "Abundance of game—Recalcitrant nuers—Fuel at last", "print": "Abundance of game—Recalcitrant Nuers—Fuel at last", "sure": "high"}
-{"given": "in the middle of a burnt; flat hot plain", "print": "in the middle of a burnt, flat hot plain", "sure": "high"}
-{"given": "us about two inches loose, upper soil", "print": "us about two inches of loose, upper soil", "sure": "high"}
-{"given": "and above us a sun withont mercy.", "print": "and above us a sun without mercy.", "sure": "high"}
-{"given": "which by moments tempers the beat, at other", "print": "which by moments tempers the heat, at other", "sure": "high"}

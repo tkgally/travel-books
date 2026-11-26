@@ -90,6 +90,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - Captions printed in small capitals: drafts type some as `<sc>…</sc>` in lower case and the rest in upper and lower
   case; grep `[[caption]] <sc>` and make all upper and lower case (12 of 148 in *Via Rhodesia*).
 
+- Lines printed above the `#` heading of an omitted division (a publisher's catalogue's address and date, *Picnic Party*, 2026-11-26: caught by the rendered look) end the division before, here the map: put the heading first.
 - A picture printed beside or above the `#` heading of a division left out of the reading editions (advertisements,
   title page) belongs after that heading in the page file; before it, it ends the previous chapter (*West Coast of
   Africa*: the royal arms of the advertisements showed at the end of the last chapter).
