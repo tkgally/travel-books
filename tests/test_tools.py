@@ -2453,6 +2453,34 @@ class TessCompare(unittest.TestCase):
         items = tc.pitch_items(pitches, texts)
         self.assertEqual([i.split(":")[0] for i in items], ["p0005"])
 
+    def test_run_items(self):
+        """Review after a hundred books: part pages of quotation one size smaller (*Islam Lands*, pitch 42 against 45)."""
+        import tess_compare as tc
+
+        def page(gaps, top=200):
+            ys, y = [], top
+            for g in [None] + gaps:
+                y += g or 0
+                ys.append(y)
+            return "".join(f"<span class='ocr_line' title='bbox 80 {b - 30} 900 {b + 8}; baseline 0 -8'></span>" for b in ys)
+
+        body = " ".join(["word"] * 50)
+        self.assertEqual(tc.baselines(page([45, 45])), [200, 245, 290])
+        quote = page([45] * 8 + [42] * 6 + [45] * 8)            # a run of seven close lines from y 560
+        bases = {f"p{i:04d}": tc.baselines(page([45] * 30)) for i in range(1, 7)}
+        bases["p0007"] = tc.baselines(quote)
+        bases["p0008"] = tc.baselines(quote)                      # the same, typed as a blockquote
+        bases["p0009"] = tc.baselines(page([42] * 6 + [45] * 20))  # a chapter's synopsis at the top
+        bases["p0010"] = tc.baselines(page([45] * 20 + [42] * 5, top=500))  # footnotes at the foot
+        bases["p0011"] = tc.baselines(page([45] * 8 + [42] * 3 + [45] * 8))  # too short a run
+        texts = {k: body for k in bases}
+        texts["p0008"] = "<blockquote>" + body + "</blockquote>"
+        texts["p0009"] = "# Chapter V\n[[subtitle]] Sousse\n" + body
+        texts["p0010"] = body + "[[fn 1]] a note"
+        items = tc.run_items(bases, texts)
+        self.assertEqual([i.split(":")[0] for i in items], ["p0007"])
+        self.assertIn("7 lines set closer from y 560", items[0])
+
 
 class MovePictures(unittest.TestCase):
     """Pictures typed mid-paragraph (the corrections pass, cuts in the text column): moved after the paragraph."""

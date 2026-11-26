@@ -197,7 +197,9 @@ python3 $R/tools/move_pictures.py $W/pages          # pictures typed mid-paragra
   `missing-stop` and `accents` lists on crops, and every item of `tools/tess_compare.py`'s list (run by the session
   first: `--pages-dir $W/pages --images $B/pages --out $W/tess.txt`, about a minute for 300 pages): words tesseract reads
   as a non-word where the file has a common word (`print?`) or the reverse (`misread?`), and pages whose line pitch says
-  small type with no `<blockquote>` in the file. Review after sixty-nine books: the tesseract comparison found most of the
+  small type with no `<blockquote>` in the file, or a run of five or more lines set closer than the body (a part page
+  of quotation one size smaller: *Islam Lands*, review after a hundred books). Contents, index and appendix pages in small type
+  are listed by design: read past them, or give `--leaves` the chapters' range. Review after sixty-nine books: the tesseract comparison found most of the
   printed misprints of books 56–69; made a tool at the review after ninety-five books.
 
 ## 5. Illustrations and cover
