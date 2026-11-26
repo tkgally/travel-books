@@ -1825,10 +1825,11 @@
    "place": "London",
    "publisher": "John Murray",
    "images": 378,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-23",
-   "eligibility": "JATSI 65. Rules 1–4 met. Rule 1: Cornell scan (Kirtas, greyscale 300 ppi), clean, route map opened; the other IA scan is Google (Oxford). Rule 2: no text elsewhere (Gutenberg catalogue from the pglaf mirror, to 2026-11-08; The Online Books Page: nothing; Wikisource: only the Men-at-the-Bar entry; web search of a sentence); page images only at the Tamil Digital Library and Nichibun. Rule 3: print-on-demand only (Kessinger 2010); not found under Ganesha in the NDL catalogue. Rule 4: first-person letters from an ocean-yachting tour, Dec. 1881–May 1882; chapters XII–XV (about 20%) on Japan. Rule 5 (for the record): Hugh Wilkinson b. 1850 (Men-at-the-Bar; LC), death not found; illustrators uncredited. Searched 2026-11-23 (Opus subagent). Not checked: WorldCat, DP.",
-   "note": "About 320 pp. plus a table of distances. Folding route map (leaf 6, opened) and about 45 uncredited wood engravings in the text with captions. Letters dated within chapters. Pencil underlining on a few pages (e.g. p. 35). Chapter XV (hara-kiri) quotes an eye-witness account at length."
+   "eligibility": "JATSI 65. Rules 1–4 met. Rule 1: Cornell scan (Kirtas, greyscale 300 ppi), clean, route map opened; the other IA scan is Google (Oxford). Rule 2: no text elsewhere (Gutenberg catalogue from the pglaf mirror, to 2026-11-08; The Online Books Page: nothing; Wikisource: only the Men-at-the-Bar entry; web search of a sentence); page images only at the Tamil Digital Library and Nichibun. Rule 3: print-on-demand only (Kessinger 2010); not found under Ganesha in the NDL catalogue. Rule 4: first-person letters from an ocean-yachting tour, Dec. 1881–May 1882; chapters XII–XV (about 20%) on Japan. Rule 5 (for the record): Hugh Wilkinson b. 1850 (Men-at-the-Bar; LC), death not found; illustrators uncredited. Searched 2026-11-23 (Opus subagent). Not checked: WorldCat, DP. Re-checked 2026-11-26: pg_catalog.csv (full) none; web search: page images and booksellers only.",
+   "note": "About 320 pp. plus a table of distances. Folding route map (leaf 6, opened) and about 45 uncredited wood engravings in the text with captions. Letters dated within chapters. Pencil underlining on a few pages (e.g. p. 35). Chapter XV (hara-kiri) quotes an eye-witness account at length.",
+   "started": "2026-11-26"
   },
   {
    "order": 99,
