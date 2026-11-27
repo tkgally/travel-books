@@ -2107,9 +2107,11 @@
    "images": 440,
    "eligibility": "Re-vetted 2026-11-26 (Opus subagent); rejected earlier only under the old death-date rule. pg_catalog.csv: none. The Online Books Page: the IA scan only. Exact-sentence web search: nothing. No real reprint found. Wikisource and Faded Page not checked (rate-limited; script-only search).",
    "note": "Duke scan, 350 ppi. 32 full-page plates (drawings by the author and photographs), 20 cuts in the text, a coloured map of Africa facing p. 1; the folding map of Central Madagascar in the end pocket is scanned folded and only partly visible (a missing map does not stop a book: said in notes_on_text). Index to p. 344. Backup scan roundblackmansga00colv (Boston University, 500 ppi). Preface by H. E. Colvile (The Accursed Land). Eight months round Africa, 1888–89: Red Sea, Zanzibar, Madagascar crossed by palanquin, Natal, Kimberley, the Canaries, the West Coast. A humorous diarist.",
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-27",
-   "started": "2026-11-27"
+   "started": "2026-11-27",
+   "version": 1,
+   "published": "2026-11-27"
   },
   {
    "order": 114,

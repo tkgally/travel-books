@@ -1,5 +1,0 @@
-{"given": "of the party had bad falls", "print": "of the party had had falls", "sure": "high"}
-{"given": "it; consequently very slight detour", "print": "it; consequently a very slight detour", "sure": "high"}
-{"given": "walk in the village; where I", "print": "walk in the village, where I", "sure": "high"}
-{"given": "of a curious grey-blue color,", "print": "of a curious grey-blue colour,", "sure": "high"}
-{"given": "that my chief thonghts were of", "print": "that my chief thoughts were of", "sure": "high"}

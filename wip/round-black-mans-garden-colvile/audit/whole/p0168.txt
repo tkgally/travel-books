@@ -1,5 +1,0 @@
-{"given": "That being settled; there ensued", "print": "That being settled, there ensued", "sure": "high"}
-{"given": "The luggage-portcrs made a rush", "print": "The luggage-porters made a rush", "sure": "high"}
-{"given": "and knowing exact composition of each", "print": "and knowing the exact composition of each", "sure": "high"}
-{"given": "They notice at once it anything", "print": "They notice at once if anything", "sure": "high"}
-{"given": "de Vilers’s french cook and valet.", "print": "de Vilers’s French cook and valet.", "sure": "high"}

@@ -1,7 +1,0 @@
-Only one difference: the page prints "articles of clothing for me were impossible", and the draft has "was".
-
-{"find": "for me were impossible", "replace": "for me were impossible"}
-
-Checking again: the draft reads "for me were impossible", so that matches the page. The corrections list is empty.
-
-NONE

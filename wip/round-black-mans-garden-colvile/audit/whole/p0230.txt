@@ -1,5 +1,0 @@
-{"given": "the produet evidently of native art", "print": "the product evidently of native art", "sure": "high"}
-{"given": "one in the center of each", "print": "one in the centre of each", "sure": "high"}
-{"given": "king and queen or either side", "print": "king and queen on either side", "sure": "high"}
-{"given": "all the guests were assembled; waiting", "print": "all the guests were assembled, waiting", "sure": "high"}
-{"given": "an officer uniform came and announced", "print": "an officer in uniform came and announced", "sure": "high"}

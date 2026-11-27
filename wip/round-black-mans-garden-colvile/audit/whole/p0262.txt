@@ -1,5 +1,0 @@
-{"given": "of the eastward slope, our portcrs had", "print": "of the eastward slope, our porters had", "sure": "high"}
-{"given": "which encircles the town; a fair-sized one", "print": "which encircles the town, a fair-sized one", "sure": "high"}
-{"given": "containing a Government house and a good", "print": "containing a Government House and a good", "sure": "high"}
-{"given": "hill, on which gold-mining settlement is situated", "print": "hill, on which the gold-mining settlement is situated", "sure": "high"}
-{"given": "the Inspector, who was when in France", "print": "the Inspector, who was then in France", "sure": "high"}

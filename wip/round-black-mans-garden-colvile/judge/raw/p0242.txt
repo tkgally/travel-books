@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "Bishop", "sure": "high"}
-{"n": 2, "is": "A", "print": "d snuff-box.\n\nCornish, and went to tea with him after the service. That evening Monsieur de Vilers gave a dinner-party to the Roman Catholic Bishop, who came", "sure": "high"}
