@@ -31,8 +31,7 @@
 [       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
 [       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
 [       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
-[ look (1)] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
-            - p0392: opening in small capitals ('A<sc>badeh</sc>, village, followers of t'); most chapters open in full capitals
+[       ok] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
 [       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
 [ look (5)] accents: words the book spells with different accents (or with and without): look at each group on the scan
@@ -42,23 +41,22 @@
             - bud: bud (p0318, p0383); būd (p0291)
             - piece: piece (p0038, p0051, p0052, p0057, p0058, p0082…); pièce (p0134)
 [       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
-[look (16)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
-            - p0029: “hitter” — “bitter” is common (200)
-            - p0128: “acquaintanee” — “acquaintance” is common (473)
+[look (15)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0029: “hitter” — “bitter” is common (203)
             - p0132: “kipper” — “skipper” is common (62; a letter dropped or transposed?)
-            - p0136: “bottel” — “bottle” is common (298; a letter dropped or transposed?)
+            - p0136: “bottel” — “bottle” is common (299; a letter dropped or transposed?)
             - p0136: “custome” — “customer” is common (49; a letter dropped or transposed?)
-            - p0182: “eights” — “heights” is common (296; a letter dropped or transposed?)
-            - p0189: “troubl” — “trouble” is common (831; a letter dropped or transposed?)
-            - p0190: “forc” — “fore” is common (182)
-            - p0200: “disguis” — “disguise” is common (52; a letter dropped or transposed?)
+            - p0182: “eights” — “heights” is common (300; a letter dropped or transposed?)
+            - p0189: “troubl” — “trouble” is common (836; a letter dropped or transposed?)
+            - p0190: “forc” — “fore” is common (186)
+            - p0200: “disguis” — “disguise” is common (53; a letter dropped or transposed?)
             - p0256: “clambred” — “clambered” is common (45; a letter dropped or transposed?)
-            - p0256: “entred” — “entered” is common (1323; a letter dropped or transposed?)
-            - p0343: “threatned” — “threatened” is common (174; a letter dropped or transposed?)
-            - p0355: “eases” — “cases” is common (700)
+            - p0256: “entred” — “entered” is common (1328; a letter dropped or transposed?)
+            - p0343: “threatned” — “threatened” is common (175; a letter dropped or transposed?)
+            - p0355: “eases” — “cases” is common (703)
             - p0356: “entangle” — “entangled” is common (41; a letter dropped or transposed?)
-            - p0374: “conceiv” — “conceive” is common (98; a letter dropped or transposed?)
-            - p0391: “lazed” — “glazed” is common (41; a letter dropped or transposed?)
+            - p0374: “conceiv” — “conceive” is common (101; a letter dropped or transposed?)
+            - p0391: “lazed” — “glazed” is common (42; a letter dropped or transposed?)
 [       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
 [ look (4)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
             - book.json summary: … his Scotch terrier Mr. Stumps, he lands at Bushire and rides by caravan ove…
@@ -70,4 +68,4 @@
             - p0132: “but He” in …better fruit, but He never did.’ Let…
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: across-persia-crawshay-williams v1 — 1 to fix, 2 waived; to look at: hyphen-joins 6, openings 1, accents 5, rare-forms 16, serial-commas 4, missing-stop 1 — tools@aabe1693 2026-11-27
+preflight FAIL: across-persia-crawshay-williams v1 — 1 to fix, 2 waived; to look at: hyphen-joins 6, accents 5, rare-forms 15, serial-commas 4, missing-stop 1 — tools@d557f350 2026-11-27

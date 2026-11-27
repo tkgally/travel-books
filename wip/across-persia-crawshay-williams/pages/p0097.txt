@@ -1,5 +1,5 @@
 [[page ?]]
 [[image: Photograph of a large fallen statue lying in a cave, with two men seated beside it]]
-[[caption]] <sc>The Statue in the Great Cave at Shahpur.</sc>
+[[caption]] T<sc>he</sc> S<sc>tatue in the</sc> G<sc>reat</sc> C<sc>ave at</sc> S<sc>hahpur</sc>.
 [[image: Photograph of a rock relief carved in a cliff face, showing a figure on horseback and standing figures]]
-[[caption]] <sc>Ormuzd and Narses—Shahpur.</sc>
+[[caption]] O<sc>rmuzd and</sc> N<sc>arses</sc>—S<sc>hahpur</sc>.

@@ -1,0 +1,5 @@
+{"given": "in the Persian paradize alike", "print": "in the Persian paradise alike", "sure": "high"}
+{"given": "a little place let high", "print": "a little place set high", "sure": "high"}
+{"given": "It was called Well of", "print": "It was called the Well of", "sure": "high"}
+{"given": "this earth is impossible; he is", "print": "this earth is impossible, he is", "sure": "high"}
+{"given": "of my photographiug the place", "print": "of my photographing the place", "sure": "high"}

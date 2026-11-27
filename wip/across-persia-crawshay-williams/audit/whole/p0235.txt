@@ -1,0 +1,5 @@
+{"given": "mount his horse, maybe he bound", "print": "mount his horse; maybe he bound", "sure": "high"}
+{"given": "for they live for us today, and", "print": "for they live for us to-day, and", "sure": "high"}
+{"given": "for our children’s childrcn. Through all", "print": "for our children’s children. Through all", "sure": "high"}
+{"given": "Varahran II. and this courtiers,—unfinished,", "print": "Varahran II. and his courtiers,—unfinished,", "sure": "high"}
+{"given": "it was originally intended portray all the", "print": "it was originally intended to portray all the", "sure": "high"}

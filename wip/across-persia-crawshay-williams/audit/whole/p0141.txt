@@ -1,0 +1,5 @@
+{"given": "formerly encountered; but it compensates", "print": "formerly encountered, but it compensates", "sure": "high"}
+{"given": "sun sank in a glory silver and green", "print": "sun sank in a glory of silver and green", "sure": "high"}
+{"given": "rest-room, I bad to avail myself", "print": "rest-room, I had to avail myself", "sure": "high"}
+{"given": "No wonder the persian mind has", "print": "No wonder the Persian mind has", "sure": "high"}
+{"given": "of all kinds and packagcs of every", "print": "of all kinds and packages of every", "sure": "high"}

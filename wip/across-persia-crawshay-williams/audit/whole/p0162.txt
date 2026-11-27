@@ -1,0 +1,5 @@
+{"given": "relieving the brown-gray sameness, show", "print": "relieving the brown-grey sameness, show", "sure": "high"}
+{"given": "there is a glint water.", "print": "there is a glint of water.", "sure": "high"}
+{"given": "on the topmost crefts of which", "print": "on the topmost crests of which", "sure": "high"}
+{"given": "Scrambling down, set us make", "print": "Scrambling down, let us make", "sure": "high"}
+{"given": "risen to drainage; and when", "print": "risen to drainage, and when", "sure": "high"}
