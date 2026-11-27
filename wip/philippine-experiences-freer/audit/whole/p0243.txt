@@ -1,5 +1,0 @@
-{"given": "of the ladrones, nor only refusing", "print": "of the ladrones, not only refusing", "sure": "high"}
-{"given": "in it, except ruined church;", "print": "in it, except the ruined church;", "sure": "high"}
-{"given": "municipalities in the islands is almost", "print": "municipalities in the Islands is almost", "sure": "high"}
-{"given": "the sccretary and the treasurer", "print": "the secretary and the treasurer", "sure": "high"}
-{"given": "Miscellaneous expenses of administration; repairs to", "print": "Miscellaneous expenses of administration, repairs to", "sure": "high"}

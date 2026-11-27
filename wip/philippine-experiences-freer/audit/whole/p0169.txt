@@ -1,5 +1,0 @@
-{"given": "sacred music; bearing effigies of", "print": "sacred music, bearing effigies of", "sure": "high"}
-{"given": "very common among the bicols, are", "print": "very common among the Bicols, are", "sure": "high"}
-{"given": "their sympathy, or it very devout,", "print": "their sympathy, or if very devout,", "sure": "high"}
-{"given": "their way to the next shriue:", "print": "their way to the next shrine:", "sure": "high"}
-{"given": "I copied from the door a house:", "print": "I copied from the door of a house:", "sure": "high"}

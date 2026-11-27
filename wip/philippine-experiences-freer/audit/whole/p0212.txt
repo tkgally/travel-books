@@ -1,5 +1,0 @@
-{"given": "managed the sail. It there", "print": "managed the sail. If there", "sure": "high"}
-{"given": "an excellent opportuuity to watch", "print": "an excellent opportunity to watch", "sure": "high"}
-{"given": "dry land, when men carried", "print": "dry land, when the men carried", "sure": "high"}
-{"given": "tinned sardines; and I started", "print": "tinned sardines, and I started", "sure": "high"}
-{"given": "Our friend, John chinaman, must", "print": "Our friend, John Chinaman, must", "sure": "high"}
