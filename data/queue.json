@@ -2400,11 +2400,13 @@
    "place": "Boston",
    "publisher": "James H. Earle",
    "images": 238,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-27",
    "eligibility": "JATSI 45. Vetted 2026-11-27 (Opus subagent). Rule 1 met: Library of Congress scan, 600 ppi, colour, jp2.zip, the only IA scan. Rule 2 met: pg_catalog.csv, Online Books Page and Wikisource nothing. Rule 3 met: only print-on-demand facsimiles. Rule 4 partly met: first-person letters to children from a resident at the American Mission Home, Yokohama; part travel (Hakone, Shizuoka, a mountain trip), part mission work (mixed). Re-checked 2026-11-27: pg_catalog.csv (full, mirror) none; web search: no reading text.",
    "note": "Clean scan, 219 pp., about 31,000 words, 29 dated letters (1871–75). One plate, the frontispiece ‘School House of the American Mission Home, Yokohama’ (sideways). Plain text with letter headings, salutations and signatures; devotional, written for children, a closing hymn. The title page reads ‘Grandmamma’s’ (IA: ‘Grandmama’s’).",
-   "started": "2026-11-27"
+   "started": "2026-11-27",
+   "version": 1,
+   "published": "2026-11-27"
   },
   {
    "order": 220,

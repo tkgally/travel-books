@@ -1,0 +1,235 @@
+{
+ "id": "grandmammas-letters-pruyn",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "Grandmamma’s Letters from Japan",
+ "short_title": "Grandmamma’s Letters from Japan",
+ "authors": [
+  {
+   "name": "Mrs. Mary Pruyn",
+   "sort": "Pruyn, Mary"
+  }
+ ],
+ "place": "Boston",
+ "publisher": "James H. Earle",
+ "year": 1877,
+ "edition_statement": "First edition (copyright 1876)",
+ "regions": [
+  "Japan"
+ ],
+ "period": "1871–75",
+ "collection": "jatsi",
+ "source": {
+  "ia_identifier": "grandmamasletter00pruy",
+  "contributor": "The Library of Congress",
+  "hidden_leaves": [
+   0,
+   144,
+   145,
+   239
+  ]
+ },
+ "frontispiece": "p0009-1",
+ "divisions": [
+  {
+   "at": "p0007",
+   "kind": "front"
+  },
+  {
+   "at": "p0011",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0013",
+   "kind": "contents"
+  },
+  {
+   "at": "p0017",
+   "kind": "preface"
+  },
+  {
+   "at": "p0023",
+   "kind": "front",
+   "title": "The book’s title above Letter I"
+  },
+  {
+   "at": "p0023",
+   "kind": "chapter",
+   "toc_title": "Letter I. Twelve Hundred Miles at Sea (June 6, 1871)",
+   "n": 2
+  },
+  {
+   "at": "p0027",
+   "kind": "chapter",
+   "toc_title": "Letter II. Safe Arrival at Yokohama (July 2, 1871)"
+  },
+  {
+   "at": "p0032",
+   "kind": "chapter",
+   "toc_title": "Letter III. A Typhoon (Aug. 26, 1871)"
+  },
+  {
+   "at": "p0035",
+   "kind": "chapter",
+   "toc_title": "Letter IV. Children and Young Ladies coming to the Home (Nov. 2, 1871)"
+  },
+  {
+   "at": "p0043",
+   "kind": "chapter",
+   "toc_title": "Letter V. Variety of Work (Jan. 7, 1872)"
+  },
+  {
+   "at": "p0050",
+   "kind": "chapter",
+   "toc_title": "Letter VI. Saving Pennies (Feb. 26, 1872)"
+  },
+  {
+   "at": "p0062",
+   "kind": "chapter",
+   "toc_title": "Letter VII. Nona (April 18, 1872)"
+  },
+  {
+   "at": "p0066",
+   "kind": "chapter",
+   "toc_title": "Letter VIII. Anniversary of Leaving Home (May 15, 1872)"
+  },
+  {
+   "at": "p0077",
+   "kind": "chapter",
+   "toc_title": "Letter IX. Every-Day Blessings (June 20, 1872)"
+  },
+  {
+   "at": "p0087",
+   "kind": "chapter",
+   "toc_title": "Letter X. The Children in Japan (August 6, 1872)"
+  },
+  {
+   "at": "p0098",
+   "kind": "chapter",
+   "toc_title": "Letter XI. The Servants (July 26, 1872)"
+  },
+  {
+   "at": "p0104",
+   "kind": "chapter",
+   "toc_title": "Letter XII. Our Visit to Sakuma (Oct. 12, 1872)"
+  },
+  {
+   "at": "p0113",
+   "kind": "chapter",
+   "toc_title": "Letter XIII. Sending away the Little Boys (Nov. 10, 1872)"
+  },
+  {
+   "at": "p0119",
+   "kind": "chapter",
+   "toc_title": "Letter XIV. Earthquakes (March 12, 1873)"
+  },
+  {
+   "at": "p0125",
+   "kind": "chapter",
+   "toc_title": "Letter XV. The Little Folks’ Picnic (April 20, 1873)"
+  },
+  {
+   "at": "p0132",
+   "kind": "chapter",
+   "toc_title": "Letter XVI. Shidzooka (May 9, 1873)"
+  },
+  {
+   "at": "p0146",
+   "kind": "chapter",
+   "toc_title": "Letter XVII. The Children’s Bazaar (May 16, 1873)"
+  },
+  {
+   "at": "p0150",
+   "kind": "chapter",
+   "toc_title": "Letter XVIII. The two dear Homes (July 10, 1873)"
+  },
+  {
+   "at": "p0153",
+   "kind": "chapter",
+   "toc_title": "Letter XIX. Christmas in Yokohama (January 4, 1874)"
+  },
+  {
+   "at": "p0158",
+   "kind": "chapter",
+   "toc_title": "Letter XX. Grandma enjoys Writing (February 18, 1874)"
+  },
+  {
+   "at": "p0163",
+   "kind": "chapter",
+   "toc_title": "Letter XXI. The First Sunday School in Japan (March 18, 1874)"
+  },
+  {
+   "at": "p0170",
+   "kind": "chapter",
+   "toc_title": "Letter XXII. Hakone (August 20, 1874)"
+  },
+  {
+   "at": "p0177",
+   "kind": "chapter",
+   "toc_title": "Letter XXIII. The First Free School in Japan (January 18, 1875)"
+  },
+  {
+   "at": "p0189",
+   "kind": "chapter",
+   "toc_title": "Letter XXIV. A Little “Kittie” (January 20, 1875)"
+  },
+  {
+   "at": "p0195",
+   "kind": "chapter",
+   "toc_title": "Letter XXV. “The Fabulous History of Japan” (February 6, 1875)"
+  },
+  {
+   "at": "p0201",
+   "kind": "chapter",
+   "toc_title": "Letter XXVI. A Mountain Trip (June 20, 1875)"
+  },
+  {
+   "at": "p0211",
+   "kind": "chapter",
+   "toc_title": "Letter XXVII. Death of Kittie (June 27, 1875)"
+  },
+  {
+   "at": "p0217",
+   "kind": "chapter",
+   "toc_title": "Letter XXVIII. Vacation (August 2, 1875)"
+  },
+  {
+   "at": "p0225",
+   "kind": "chapter",
+   "toc_title": "Letter XXIX. Last Letter from Japan (August 29, 1875)"
+  }
+ ],
+ "waivers": [],
+ "keep_hyphens": [
+  "p0107"
+ ],
+ "summary": [
+  "Mary Pruyn, of Albany, New York, went to Japan in 1871, when she was over fifty, as a missionary, and worked at the American Mission Home in Yokohama, a home and school for girls and children. These twenty-nine letters, written between 1871 and 1875 to her grandchildren and to Sunday-school and industrial-school children in Albany, describe the voyage out, Yokohama and its people, the children and servants of the Home, Japanese festivals, temples, houses, and toys, an earthquake, the first Sunday school and free school there, and trips to Shidzooka, Hakone, and the mountains by jinrikisha and kago.",
+  "The letters are written for children and are religious in purpose; she asks her readers to pray for and support the work. The book ends with a hymn."
+ ],
+ "subjects": [
+  "Missions",
+  "Yokohama",
+  "Children"
+ ],
+ "notes_on_text": [
+  "The letters have only numbers. The entries of the contents give each letter a title of the editor’s: the first topic the printed contents lists for it (in two cases another), with the date at the head of the letter; the full lists are in the printed contents, which is kept in the JSON.",
+  "The frontispiece, a picture of the school house of the American Mission Home, is shown on the title page; the letter that refers to it is Letter XXIII."
+ ],
+ "omitted_from_reading": "The half-title, the printed contents, and the book’s title above Letter I are in the JSON only.",
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-27",
+   "note": "First publication."
+  }
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-27",
+  "pages": 6,
+  "recall": "27/27",
+  "real_errors": 0,
+  "fixed": 0
+ }
+}

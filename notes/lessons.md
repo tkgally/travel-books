@@ -306,7 +306,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 - Set shell variables (`slug=…`) in their own command, not in an `a && b && cmd &` chain: the trailing `&` runs the whole chain in a subshell, the variables are lost, and `wip/$slug` became `wip/` (2026-11-22).
 - Several tesseract processes at once (subagents' `crop_spot.py`, `ocr_fallback.py`, a bulk run) each take four threads
-  and slowed one page to 15 minutes (2026-11-20): `OMP_THREAD_LIMIT=1` and at most four at a time.
+  and slowed one page to 15 minutes (2026-11-20): `OMP_THREAD_LIMIT=1` and at most four at a time. Put `OMP_THREAD_LIMIT=1` in every
+  subagent brief that may crop: without it two spot-reads and the session's own crops stalled while three model runs went (2026-11-27).
 - A subagent's reading of a single accent is a claim, not a check: the scan check said “chargè” was printed with a grave, and
   the session wrote it down as printed; a later spot-read found an acute (*Sheepshanks* p0141). Crop every `accents` group yourself or send it with crops.
 - A subagent's page map can be one leaf off (*The Eastern Seas*: frontispiece, title and Chapter I each given one leaf late, so the frontispiece was not drafted): open the images of the frontispiece, title page and Chapter I yourself before setting the draft's `--pages`.

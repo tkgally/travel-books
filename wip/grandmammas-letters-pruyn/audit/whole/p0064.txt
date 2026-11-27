@@ -1,4 +1,0 @@
-{"given": "little Nona’s wonder and interest then she", "print": "little Nona’s wonder and interest when she", "sure": "high"}
-{"given": "make a good singcr herself", "print": "make a good singer herself", "sure": "high"}
-{"given": "I wish you could see hear her now", "print": "I wish you could see and hear her now", "sure": "high"}
-{"given": "sit in her little chair; so contented", "print": "sit in her little chair, so contented", "sure": "high"}

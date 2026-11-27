@@ -1,5 +1,0 @@
-{"given": "ble they are for these who", "print": "ble they are for those who", "sure": "high"}
-{"given": "A geutleman of the party", "print": "A gentleman of the party", "sure": "high"}
-{"given": "the “Great eastern,” and when", "print": "the “Great Eastern,” and when", "sure": "high"}
-{"given": "others all cramped up their little", "print": "others all cramped up in their little", "sure": "high"}
-{"given": "I was quite proud; and I", "print": "I was quite proud, and I", "sure": "high"}
