@@ -1,6 +1,0 @@
-{"find": "A burly bushman and a welcome", "replace": "A burly bushman and a welcome"}
-{"find": "# Chapter XV\n", "replace": "# Chapter XV.\n"}
-
-Wait — I need to fix those properly:
-
-{"find": "# Chapter XV\n", "replace": "# Chapter XV\n"}
