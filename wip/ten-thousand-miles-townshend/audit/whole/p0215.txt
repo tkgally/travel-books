@@ -1,5 +1,0 @@
-{"given": "a subdued air about them; and a way", "print": "a subdued air about them, and a way", "sure": "high"}
-{"given": "beings whose duty if is to serve", "print": "beings whose duty it is to serve", "sure": "high"}
-{"given": "whom we call in england “ladies.”", "print": "whom we call in England “ladies.”", "sure": "high"}
-{"given": "apparently above middle class.", "print": "apparently above the middle class.", "sure": "high"}
-{"given": "keep their harems scparate,—a house for", "print": "keep their harems separate,—a house for", "sure": "high"}

@@ -1,5 +1,0 @@
-{"given": "right of the wagon trail", "print": "right of the waggon trail", "sure": "high"}
-{"given": "high snow-capped mountain; one of", "print": "high snow-capped mountain, one of", "sure": "high"}
-{"given": "after a small herd five elk", "print": "after a small herd of five elk", "sure": "high"}
-{"given": "on the oppofite bank a sight", "print": "on the opposite bank a sight", "sure": "high"}
-{"given": "If was no less than", "print": "It was no less than", "sure": "high"}

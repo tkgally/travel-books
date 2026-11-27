@@ -1,0 +1,57 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[       ok] audit: book.json records the sampled audit of this version
+[ look (4)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0027: … afterwards re-|ferred to, and … (hyphen removed; check)
+            - hyphen join at p0035: …rs; at a commo-|dious bar they … (hyphen removed; check)
+            - hyphen join at p0094: …ate Indian out-|break, and the … (hyphen removed; check)
+            - (and 13 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[ look (1)] folios: printed page numbers that break the sequence
+            - p0296: page 1 after page 275 (p0292)
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[       ok] contents: entries of the printed contents with no matching heading
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
+[       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
+[       ok] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
+[ look (2)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - adele: adele (p0310); adèle (p0310)
+            - canons: canôns (p0115, p0124, p0152, p0155, p0178); cañons (p0014, p0144)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[ look (3)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0300: “poiitics” — “politics” is common (164)
+            - p0304: “voiume” — “volume” is common (422)
+            - p0306: “qnit” — “quit” is common (58)
+[       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
+[ look (8)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: … New York, Newport, and Boston, camped and travelled by canoe i…
+            - book.json summary: …ed by canoe in the Adirondacks, visited Montreal and Quebec, and went fro…
+            - book.json summary: …s, visited Montreal and Quebec, and went from Washington to the battlefields round Richmond and Petersburg. In the W…
+            - book.json summary: …nd and Petersburg. In the West, with the leave of Generals Sherman and Augur, they rode wit…
+            - book.json summary: … plains of Nebraska and Kansas, while the United States was at war with the Sioux and Arapahoes, hunting b…
+            - book.json summary: …r with the Sioux and Arapahoes, hunting buffalo and antelope.…
+            - book.json summary: …righam Young at Salt Lake City, crossed the desert and Nevada to San Franci…
+            - book.json notes_on_text: …hapter a title of the editor’s, made of two or three topics from it…
+[       ok] line-breaks: a paragraph line that ends without a stop, followed on the next line by one that starts in lower case: a stray line break splitting a paragraph?
+[       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight PASS: ten-thousand-miles-townshend v1 — 0 to fix, 0 waived; to look at: hyphen-joins 4, folios 1, accents 2, rare-forms 3, serial-commas 8 — tools@d61b9e56 2026-11-27

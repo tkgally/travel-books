@@ -1,8 +1,0 @@
-{"find": "Church of Jesus Christ of Latter-day", "replace": "Church of Jesus Christ of Latter-day"}
-{"find": "“of the Church of Jesus Christ", "replace": "“of the Church of Jesus Christ"}
-
-Wait — correcting my output; the image shows "Jesus Christ of Latter-day", with no "of" duplicated. Draft has "of the Church of Jesus Christ of Latter-day Saints" and the image reads "of the Church of Jesus Christ of Latter-day Saints", so the draft matches.
-
-The only real differences are the dash placement and spacing, which are covered by the spacing rules. The one genuine change is the dash at the start of a line:
-
-NONE

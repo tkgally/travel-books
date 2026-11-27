@@ -1,6 +1,0 @@
-{"given": "Chapter VIII.", "print": "CHAPTER VIII.", "sure": "medium"}
-{"given": "Cayotes, on Prairie Wolves", "print": "Cayotes, or Prairie Wolves", "sure": "high"}
-{"given": "Invitation Visit a Pawnee Village", "print": "Invitation to Visit a Pawnee Village", "sure": "high"}
-{"given": "Soon after sunrize the fog", "print": "Soon after sunrise the fog", "sure": "high"}
-{"given": "desert. Dry; short, brown grass", "print": "desert. Dry, short, brown grass", "sure": "high"}
-{"given": "cactus, never growiug more than", "print": "cactus, never growing more than", "sure": "high"}
