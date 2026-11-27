@@ -1,9 +1,0 @@
-whole: found 29 of 29 planted errors (100%)
-    capital        2/2
-    dropped word   6/6
-    letter         6/6
-    modernized     3/3
-    punctuation    6/6
-    real word      6/6
-    other differences reported (candidates to check on the scan): 1
-pages: 6 (p0084, p0088, p0094, p0106, p0183, p0210); model opus; cost $0.34; failed calls 0

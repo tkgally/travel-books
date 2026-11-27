@@ -26,3 +26,4 @@ Notes: verse epigraphs and verse quotations in small type; boxed notices p0265 (
 
 ## Illustrations (crops by an Opus subagent, 2026-11-27; seven looked at by the session)
 Frontispiece and 48 plates `--gray`; all 20 sideways plates `--rotate 270`. Captions printed inside the picture's rectangle painted out in paper white before cropping on p0183, p0189, p0223, p0237, p0309 (the pictures untouched). Lettering inside pictures kept (p0223, p0267). cover.jpg = title page p0011.
+- Draft (Opus, 516 pages, $33.21): p0199 (printed p. 145, ordinary prose about the hills) refused by the output filter; fallback (tesseract + Opus corrections, $0.06) done. Audit it with `--pages p0199`; say it in `notes_on_text`.

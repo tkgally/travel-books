@@ -2391,11 +2391,13 @@
    "place": "Yokohama",
    "publisher": "[not named on the title page]",
    "images": 240,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-27",
    "eligibility": "JATSI 37. Vetted 2026-11-27 (Opus subagent). Rule 1 met: University of California scan, 500 ppi, colour, jp2.zip, the only IA scan. Rule 2 met: pg_catalog.csv, Online Books Page and Wikisource nothing; HathiTrust page images only. Rule 3 met: only a Kessinger print-on-demand (2009). Rule 4 partly met: sketches of village life by a resident, mostly descriptive, with some ‘we’ and ‘I’; not a journey (mixed).",
    "note": "Very clean scan. List of 24 illustrations (Japanese-style woodcuts with captions), frontispiece ‘A Japanese Garden’ sideways; about 20 of 24 captions found in the OCR: count all at the scan check. 124 pp., about 30,000 words, 21 short sketches reprinted from the Japan Weekly Mail. Light and humorous, romanized Japanese words in italics. The author is named only as ‘T. A. P.’ in the book.",
-   "started": "2026-11-27"
+   "started": "2026-11-27",
+   "version": 1,
+   "published": "2026-11-27"
   },
   {
    "order": 210,

@@ -1,5 +1,0 @@
-{"given": "a little hollow the metal", "print": "a little hollow in the metal", "sure": "high"}
-{"given": "laid her band upon the", "print": "laid her hand upon the", "sure": "high"}
-{"given": "a man renowued for his", "print": "a man renowned for his", "sure": "high"}
-{"given": "to his own place; it fell", "print": "to his own place, it fell", "sure": "high"}
-{"given": "until at last benkei, maddened", "print": "until at last Benkei, maddened", "sure": "high"}

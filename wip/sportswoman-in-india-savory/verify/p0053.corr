@@ -1,0 +1,6 @@
+{"find": "lobbing away", "replace": "lobbing away"}
+{"find": "set on no mean bank", "replace": "set on mean bank"}
+
+Wait, check: the image reads "set on / no mean bank", so the draft is correct there. Corrected list:
+
+{"find": "[[cont]]but the astute", "replace": "[[cont]]but the astute"}

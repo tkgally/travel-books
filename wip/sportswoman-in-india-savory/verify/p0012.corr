@@ -1,0 +1,3 @@
+{"find": "[[center]] <sc>printed by</sc>", "replace": "[[center]] PRINTED BY"}
+{"find": "[[center]] <sc>hazell, watson, and viney, ld.,</sc>", "replace": "[[center]] HAZELL, WATSON, AND VINEY, LD.,"}
+{"find": "[[center]] <sc>london and aylesbury.</sc>", "replace": "[[center]] LONDON AND AYLESBURY."}
