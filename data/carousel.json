@@ -6,6 +6,12 @@
    "height": 450,
    "sha256": "c2fa10572595fbff41ba0863837e914def31745a1b18daab9d5f2086e1b499da"
   },
+  "across-persia-crawshay-williams": {
+   "image": "title page",
+   "width": 248,
+   "height": 450,
+   "sha256": "7216aa712fa800231cf10912aa9a75cfafcb8fc5540173445b438439e84aac69"
+  },
   "adrift-in-new-zealand-elkington": {
    "image": "cover",
    "width": 300,
@@ -161,6 +167,12 @@
    "height": 450,
    "sha256": "5b9171c14d49e6863a7f81379f279c098df87295bc451f5861d2889e91113092"
   },
+  "fair-lusitania-jackson": {
+   "image": "title page",
+   "width": 287,
+   "height": 450,
+   "sha256": "6957403b969e4c51e3054c9a967ddf2b3ef9c60bf99c9094968337a758e2bfbe"
+  },
   "five-months-labrador-tucker": {
    "image": "title page",
    "width": 250,
@@ -226,6 +238,12 @@
    "width": 282,
    "height": 450,
    "sha256": "a47d5d50c6352eb6c183f93185544c2c91df4dd910657cb6513f8a3654586829"
+  },
+  "impressions-of-japan-rittner": {
+   "image": "cover",
+   "width": 300,
+   "height": 434,
+   "sha256": "5cfd404fa2977af927742d78af2d72cf057a93bff4f6b6b6002d24d116f0a713"
   },
   "in-savage-africa-glave": {
    "image": "cover",
@@ -574,6 +592,12 @@
    "height": 450,
    "sha256": "6e5c2d869c3d5e26ae81389ef17fc12cb9c5be0354cb9c0f6a674e1f3c151c61"
   },
+  "this-goodly-frame-the-earth-tiffany": {
+   "image": "title page",
+   "width": 261,
+   "height": 450,
+   "sha256": "8df644f38599c48cb7020c91ba21b1ded56ab4f6c0fd4f88ca470e2631593fd9"
+  },
   "three-years-melbourne-aspinall": {
    "image": "title page",
    "width": 262,
@@ -670,6 +694,12 @@
    "width": 279,
    "height": 450,
    "sha256": "93541ca8c1af1442d873db527a525f14d93db0e309c0faf957dc4aac46229b44"
+  },
+  "wilds-of-ecuador-simson": {
+   "image": "title page",
+   "width": 256,
+   "height": 450,
+   "sha256": "300981f6c85e4c281c8b3e69ec9e73d58fc161066b69f85465cee0aba90bdbfe"
   },
   "woman-alone-in-the-heart-of-japan-fisher": {
    "image": "title page",

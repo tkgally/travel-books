@@ -1,6 +1,6 @@
 /* Text styles shared by the web pages and the EPUB of every book. Per-book additions: book.json "css_extra". */
 .book { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif; line-height: 1.6;
-  -webkit-hyphens: auto; hyphens: auto; }
+  -webkit-hyphens: auto; hyphens: auto; overflow-wrap: break-word; }
 .book p { margin: 0; text-indent: 1.4em; text-align: justify; }
 .book p.first, .book p.right, .book p.center, .book p.subtitle, .book blockquote p:first-child,
 .book .note p, .book figcaption, .book td p { text-indent: 0; }
