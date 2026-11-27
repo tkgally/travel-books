@@ -13,10 +13,18 @@ Scan check (Opus subagent, 2026-11-27): all 8 sheets; folios by tesseract; about
 Notes: romanized Japanese in italics with macrons used unevenly (Nikkō and Nikko); verse epigraphs in small type (chapters I and X); “Kepko” in the Chapter X epigraph (misprint for Kekko? settle on the scan); German words; the index in two columns.
 
 ## Decisions
+- Cover: the gilt title on the red cloth is clearly readable: `cover.jpg` is the front cover. Frontispiece p0008-1 set in book.json.
+- The head title above Chapter I (a centred line) falls in the list of illustrations' division: JSON only.
+- Plate captions with their printed “To face p. N” (italic, “p,” where a comma is printed); the frontispiece's credit “Art Repro. Co.” not typed.
+- Macrons as printed word by word (Nikkō and Nikko both occur). “Kepko” in the Chapter X epigraph is printed so and left unmarked (it may be the author's romanization). A sentence that goes on after verse (p0030) is marked `continues`.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| Draft | 2026-11-27 | Opus | 301 (p0005–p0305) | 19.88 | 0 errors, 0 refused |
+| Corrections | 2026-11-27 | Sonnet | 301 | 9.98 | 28 changes (20 ditto marks in the list, wrong); filled 5 blank plate versos with show-through, refused |
+| Judge | 2026-11-27 | Opus | 22 spots | 0.18 | draft 22 (one by hand) |
+| Audit | 2026-11-27 | Opus | 6 | 0.35 | 30/30, 0 candidates |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
