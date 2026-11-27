@@ -93,5 +93,13 @@
   "Oporto"
  ],
  "summary": "Lady Jackson describes a stay in Portugal from July to October 1873, written as dated entries. After five days at sea from London she spends the summer in Lisbon, describing its streets, squares, churches, theatres, shops, and people, a bull fight, and the festas of July, with excursions to Cintra, Mafra, and Setubal. She then goes by rail to Oporto and stays at the seaside at Foz, makes a tour in the Minho, and visits Coimbra, Busaco, Batalha, Alcobaça, and Leiria before returning to Lisbon and sailing home to Southampton. History, legend, and quotations from Camões are mixed with the description. An appendix gives the music of a popular galop with Portuguese words. There are twenty engraved plates.",
- "omitted_from_reading": "The half-titles, the printed contents and list of illustrations, and the head title above the Introduction are in the JSON only."
+ "omitted_from_reading": "The half-titles, the printed contents and list of illustrations, and the head title above the Introduction are in the JSON only.",
+ "audit": {
+  "version": 1,
+  "date": "2026-11-27",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }
