@@ -1,0 +1,85 @@
+{
+ "id": "impressions-of-japan-rittner",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "Impressions of Japan",
+ "short_title": "Impressions of Japan",
+ "authors": [
+  {
+   "name": "Geo. H. Rittner",
+   "sort": "Rittner, George H."
+  }
+ ],
+ "place": "New York and London",
+ "publisher": "James Pott & Co.; John Murray",
+ "year": 1904,
+ "edition_statement": "First edition",
+ "collection": "jatsi",
+ "regions": [
+  "Japan"
+ ],
+ "source": {
+  "ia_identifier": "impressionsofjap00rittrich",
+  "contributor": "University of California Libraries"
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-27",
+   "note": "First publication."
+  }
+ ],
+ "period": "early 1900s (before 1904)",
+ "subjects": [
+  "Japan",
+  "Japanese art",
+  "Manners and customs"
+ ],
+ "summary": "George H. Rittner sets down his impressions of Japan as he found it at the beginning of the twentieth century, in eleven chapters arranged by subject rather than by route: the natural beauty of the country, Japanese art and what he sees as its decline under Western influence, the people and their homes, bathing, children, the geisha, the stage, “civilisation,” missionaries and religion, and the temples and their gods, ending with a farewell. Descriptions of what he saw at Yokohama, Kamakura, Nikko, and elsewhere are mixed with opinion, and he writes against the work of the missionaries. Thirty-three photographs, by the author and his friends, show streets, houses, temples, festivals, and people.",
+ "omitted_from_reading": "The half-title, the printed contents and list of illustrations, the head title above Chapter I, and the index are in the JSON only.",
+ "frontispiece": "p0008-1",
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "front",
+   "title": "Half-title"
+  },
+  {
+   "at": "p0009",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0011",
+   "kind": "dedication",
+   "title": "Dedication"
+  },
+  {
+   "at": "p0013",
+   "kind": "preface"
+  },
+  {
+   "at": "p0015",
+   "kind": "contents"
+  },
+  {
+   "at": "p0017",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0297",
+   "kind": "index"
+  }
+ ],
+ "keep_hyphens": [
+  "p0035",
+  "p0292"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-27",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
+}

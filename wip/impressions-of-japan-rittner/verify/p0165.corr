@@ -1,4 +1,0 @@
-The draft differs from the page in two places: the "<i>go</i>" period and the "<i>Japonaise</i>" semicolon.
-
-{"find": "the <i>go</i>. It", "replace": "the <i>go.</i> It"}
-{"find": "<i>à la Japonaise</i>; and", "replace": "<i>à la Japonaise;</i> and"}
