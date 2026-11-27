@@ -56,7 +56,7 @@ Sibelius, Jean, <pref>24</pref>
 
 “Slottsgatan” (Castle Street), at Åbo, <pref>274</pref>
 
-Snôfrid, the story of, <pref>38</pref>
+Sno̊frid, the story of, <pref>38</pref>
 
 “Societetshuset,” Finnish word applied to the principal hotel of each town, <pref>7</pref>
 
@@ -82,7 +82,7 @@ St. Marie Church, at Åbo, the mother church of Finland, <pref>289</pref>–<pre
 
 Stålhandske, Field Marshal Torsten, <pref>271</pref>
 
-Standerskjôld, Colonel Hugo, <pref>258</pref>–<pref>261</pref>
+Standerskjo̊ld, Colonel Hugo, <pref>258</pref>–<pref>261</pref>
 
 Stigell, Robert, the sculptor: his bronze group “Shipwrecked” at Helsingfors, <pref>41</pref>
 

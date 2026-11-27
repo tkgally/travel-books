@@ -6,11 +6,11 @@ Küminki, Lake of, splendid iron bridge across, <pref>210</pref>
 
 Kuopio, <pref>145</pref>, <pref>157</pref>–<pref>160</pref>
 
-Kuustô, the ruins of, the former palace of the Roman Catholic Archbishops of Åbo, built in 1470, <pref>287</pref>
+Kuusto̊, the ruins of, the former palace of the Roman Catholic Archbishops of Åbo, built in 1470, <pref>287</pref>
 
 Kyro Lake District, the beautiful, <pref>231</pref>–<pref>232</pref>; a charming allegory, <pref>233</pref>–<pref>235</pref>
 
-L<sc>agerlôf</sc>, S<sc>elma</sc>, Swedish authoress: her bear story, <pref>121</pref>
+L<sc>agerlo̊f</sc>, S<sc>elma</sc>, Swedish authoress: her bear story, <pref>121</pref>
 
 Lake Ladoga, <pref>106</pref>, <pref>110</pref>; a steamer-trip on, <pref>111</pref>–<pref>116</pref>
 
@@ -28,7 +28,7 @@ Lindholm, pictures by, <pref>22</pref>, <pref>27</pref>, <pref>291</pref>
 
 Liuksila, the old castle of, <pref>252</pref>–<pref>253</pref>
 
-Lônnrot, Elias, and the songs of Vainamoinen, <pref>103</pref>–<pref>106</pref>, <pref>183</pref>, <pref>202</pref>
+Lo̊nnrot, Elias, and the songs of Vainamoinen, <pref>103</pref>–<pref>106</pref>, <pref>183</pref>, <pref>202</pref>
 
 “Lost Daughter of the Sea,” legendary name for Finland, <pref>16</pref>–<pref>17</pref>
 
@@ -50,7 +50,7 @@ Midsummer Eve, the Great Annual Festival of Finland, <pref>35</pref>–<pref>36<
 
 Minerals in Finland, <pref>140</pref>, <pref>167</pref>
 
-Môllersvärd, Miss, <pref>52</pref>
+Mo̊llersvärd, Miss, <pref>52</pref>
 
 Monrepos: Baron von Nicolay’s country seat near Viborg, <pref>68</pref>–<pref>69</pref>
 
@@ -86,7 +86,7 @@ Oravais, the battle-field of, <pref>231</pref>; the “Spring of Gratitude,” <
 
 Orjantsaari, the grottoes of, <pref>115</pref>
 
-Österbotten, the province of, <pref>165</pref>
+O̊sterbotten, the province of, <pref>165</pref>
 
 P<sc>apulabärget</sc>, <pref>67</pref>
 

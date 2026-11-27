@@ -33,4 +33,4 @@
 
 <sc>åbo cathedral and market boats</sc> <pref>266</pref>
 
-<sc>hangő fjord</sc> <pref>307</pref>
+<sc>hango̊ fjord</sc> <pref>307</pref>

@@ -1,20 +1,22 @@
 [[page ?]]
 
-[[center]] A SUMMER TOUR IN FINLAND
+[[center]] A SUMMER TOUR IN
+
+[[center]] FINLAND
 
 [[center]] BY
 
 [[center]] PAUL WAINEMAN
 
-[[center]] AUTHOR OF
+[[center]] <sc>author of</sc>
 
-[[center]] “BY A FINNISH LAKE,” “THE BAY OF LILACS,” ETC.
+[[center]] <sc>“by a finnish lake,” “the bay of lilacs,” etc.</sc>
 
-[[center]] WITH SIXTEEN ILLUSTRATIONS IN COLOUR BY
+[[center]] <sc>with sixteen illustrations in colour by</sc>
 
 [[center]] ALEXANDER FEDERLEY
 
-[[center]] AND SIXTEEN OTHER ILLUSTRATIONS
+[[center]] <sc>and sixteen other illustrations</sc>
 
 [[center]] METHUEN & CO.
 
