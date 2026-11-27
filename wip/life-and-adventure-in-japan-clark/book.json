@@ -1,0 +1,51 @@
+{
+ "id": "life-and-adventure-in-japan-clark",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "Life and Adventure in Japan",
+ "short_title": "Life and Adventure in Japan",
+ "authors": [
+  {
+   "name": "E. Warren Clark",
+   "sort": "Clark, E. Warren"
+  }
+ ],
+ "place": "New York",
+ "publisher": "American Tract Society",
+ "year": 1878,
+ "edition_statement": "First edition",
+ "collection": "jatsi",
+ "regions": [
+  "Japan"
+ ],
+ "period": "1871–75",
+ "source": {
+  "ia_identifier": "lifeadventureinj00clar",
+  "contributor": "Library of Congress",
+  "hidden_leaves": [
+   0,
+   317
+  ]
+ },
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0007",
+   "kind": "preface"
+  },
+  {
+   "at": "p0009",
+   "kind": "contents"
+  },
+  {
+   "at": "p0010",
+   "kind": "illustrations"
+  }
+ ],
+ "frontispiece": "p0004-1",
+ "waivers": [],
+ "keep_hyphens": []
+}
