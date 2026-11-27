@@ -25,3 +25,5 @@ Notes: chapter synopses and index in small type; å ä ö frequent (Å sometimes
 | Version | Date | Preflight stamp | Audit | Notes |
 
 ## Known issues
+- Draft (Opus, 429 pages, $29.66, 0 errors, 0 refused, no 〓); the three extra leaves merged in; draft p0122 (the cut-off plate) deleted: p0122a replaces it (waive `leaves` p0122, p0030, p0031, p0009, p0010).
+- Plates cropped by an Opus subagent (colour plates in colour from the full-size RGB leaves, monotone `--gray`; all sideways ones `--rotate 270`); cover.jpg = title page.

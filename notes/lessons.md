@@ -189,6 +189,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - A head-piece printed above such a half-title goes after the half-title's `#` line, just above the chapter's: before it, it falls into the omitted division and the chapter opens without it (*A Summer in Prairie-Land*: caught by the rendered look).
 - A half-title printed above Chapter I on the same leaf: two `#` divisions at one `at`; `n` counts from 1, so the chapter is `"n": 2`. Without it the chapter's `toc_title` went to the half-title, which became a part with every chapter under it (*From West Africa to Palestine*, caught by the rendered look).
 
+- Chapters opened by a divisional leaf (number, title, summary) and then a page repeating number and title above an epigraph: the divisional leaf is the heading, the repeat is left out as a head-title (*A Sportswoman in India*, 2026-11-27); a drafted summary can come out as body text on one leaf (p0247): list the `[[subtitle]]` lines per leaf.
+
 ## Trigger: no printed contents, chapters without titles
 
 - Numbered sections without titles made pages by `toc_entries`: anchor each entry on the numeral heading (`"starts": "IV"`), not on the first words of the text, or each numeral is left at the end of the page before (*Sunny Australia*, 2026-11-23: caught by the rendered look).

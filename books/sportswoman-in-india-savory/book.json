@@ -1,0 +1,89 @@
+{
+ "id": "sportswoman-in-india-savory",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "A Sportswoman in India",
+ "subtitle": "Personal Adventures and Experiences of Travel in Known and Unknown India",
+ "short_title": "A Sportswoman in India",
+ "authors": [
+  {
+   "name": "Isabel Savory",
+   "sort": "Savory, Isabel"
+  }
+ ],
+ "place": "London; Philadelphia",
+ "publisher": "Hutchinson & Co.; J. B. Lippincott Company",
+ "year": 1900,
+ "regions": [
+  "India",
+  "Pakistan"
+ ],
+ "source": {
+  "ia_identifier": "sportswomaninind00savorich",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": []
+ },
+ "edition_statement": "First edition",
+ "period": "1898–99",
+ "frontispiece": "p0008-1",
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "front"
+  },
+  {
+   "at": "p0011",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0013",
+   "kind": "dedication"
+  },
+  {
+   "at": "p0015",
+   "kind": "contents"
+  }
+ ],
+ "toc": {
+  "subtitles": "all"
+ },
+ "omitted_from_reading": "The half-title and the printed contents are in the JSON only.",
+ "notes_on_text": [
+  "Each chapter begins with a leaf giving its number, title, and summary, followed by the opening page, which repeats the number and title above a verse epigraph. The editions give the number, title, and summary once, at the head of the chapter, and leave out the repeated number and title.",
+  "The tissue guard over the frontispiece was not transcribed.",
+  "Printed page 145 was first read by machine OCR (tesseract) and corrected by a Claude model against the scan, because the transcribing model’s output was refused by an automated filter; it then went through the same checks as the other pages."
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-27",
+   "note": "First publication."
+  }
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0009",
+   "why": "tissue guard over the frontispiece; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0010",
+   "why": "back of the tissue guard; not transcribed"
+  }
+ ],
+ "summary": "Isabel Savory’s account of a long stay in India that began in January 1898 (the year is inferred from the total eclipse of the sun she watched soon after landing), much of it spent hunting with companions named only by initials. She landed at Bombay, saw the Taj Mahal, and rode after wild boar near Lahore; visited Peshawar and rode through the Khyber Pass; went up to Dalhousie and into Chamba after bear and tahr; travelled on into Kashmir, where she climbed above the snow line, lived in a house-boat at Srinagar, and shot black bears; and went on a tiger shoot in the Deccan. Later chapters describe snakes, Delhi and the Mutiny sites, Ootacamund and the Todas, an elephant kheddah in Mysore, crocodile tanks, and letters written in Indian English, and end with her thoughts on travel. Hunting is described in detail. The book has a portrait of the author and 48 plates from photographs and drawings.",
+ "keep_hyphens": [
+  "p0271",
+  "p0431"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-27",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0,
+  "note": "p0199 (read by the OCR fallback) was in the sample and was also audited alone: 5/5"
+ }
+}

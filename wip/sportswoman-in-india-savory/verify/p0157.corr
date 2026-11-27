@@ -1,7 +1,0 @@
-{"find": "had we done so", "replace": "had we done so"}
-{"find": "waler, to ride myself", "replace": "waler, to ride myself"}
-{"find": "to ride myself. As", "replace": "to ride myself. As"}
-
-Wait, I need only real changes. The draft says "waler to ride myself" — the image has "waler, to ride myself", so:
-
-{"find": "chestnut waler to ride", "replace": "chestnut waler, to ride"}

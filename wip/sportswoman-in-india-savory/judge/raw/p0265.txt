@@ -1,3 +1,0 @@
-{"n": 1, "is": "A", "print": "<sc>suffering moses.</sc>", "sure": "medium"}
-{"n": 2, "is": "B", "print": "<sc>papier machi maker and wood carver.</sc>", "sure": "medium"}
-{"n": 3, "is": "A", "print": "<sc>new bazor. srinagar.</sc", "sure": "medium"}
