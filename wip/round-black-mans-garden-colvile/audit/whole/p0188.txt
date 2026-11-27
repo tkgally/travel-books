@@ -1,0 +1,5 @@
+{"given": "I do not think they ever ccased running", "print": "I do not think they ever ceased running", "sure": "high"}
+{"given": "a good jog-trot up the hills; a steady run", "print": "a good jog-trot up the hills, a steady run", "sure": "high"}
+{"given": "At the bottom of most of the valleys where streams", "print": "At the bottom of most of the valleys were streams", "sure": "high"}
+{"given": "the useful and ornamental rafia, and,", "print": "the useful and ornamental Rafia, and,", "sure": "high"}
+{"given": "unlike those other palms, which grow", "print": "unlike those of other palms, which grow", "sure": "high"}

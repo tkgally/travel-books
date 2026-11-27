@@ -1,0 +1,5 @@
+{"given": "success in any enterprize, they must", "print": "success in any enterprise, they must", "sure": "high"}
+{"given": "and who soon asterwards took us", "print": "and who soon afterwards took us", "sure": "high"}
+{"given": "was going to Aden; and for whom", "print": "was going to Aden, and for whom", "sure": "high"}
+{"given": "the journey back the dusk in", "print": "the journey back in the dusk in", "sure": "high"}
+{"given": "The tacking we bad to do", "print": "The tacking we had to do", "sure": "high"}
