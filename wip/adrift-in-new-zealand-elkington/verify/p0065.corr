@@ -1,0 +1,9 @@
+{"find": "brightened up", "replace": "brightened up"}
+
+Correction: the draft has "brightened up" where the page has "brightened up." Checking the text again, the page reads "brightened up." with no change in the word itself, so the first line above should be ignored. The one real difference I can see is the following:
+
+{"find": "The languid one brightened up.", "replace": "The languid one brightened up."}
+
+On a second look, the page reads "brightened" as "brightened". Here is my actual list:
+
+NONE

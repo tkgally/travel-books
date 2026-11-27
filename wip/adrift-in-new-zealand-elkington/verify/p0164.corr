@@ -1,0 +1,8 @@
+Two things differ from the draft: "poultry-houses" is hyphenated in the print, and the page ends on the broken word "throw-".
+
+{"find": "poultry-houses", "replace": "poultry-houses"}
+{"find": "poultry-houses", "replace": "poultry-houses"}
+
+Correction: the draft has "poultry-houses" already, with the hyphen. The only real difference is the page-end hyphen, which the draft also keeps. So the draft matches the image.
+
+NONE

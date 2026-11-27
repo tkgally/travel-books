@@ -1,0 +1,56 @@
+[ FAIL (3)] meta: book.json: required fields present and sane
+            - book.json: missing 'summary'
+            - book.json: missing 'history'
+            - book.json: history has no entry for this version
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[ FAIL (1)] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+            - [[caption]] not after an image, kept as a centred line: p0103 'Sheep in Thousands'
+[ FAIL (2)] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+            - pages→JSON captions: delete …hwhacking—TheLastCut[LakeWakatipu]→[]LakeWanakaLogsontheW…
+            - pages→JSON captions: insert …lingtonPhotobyW.Reid[]→[LakeWakatipu]Sophia,theGuideTheEv…
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[ FAIL (1)] audit: book.json records the sampled audit of this version
+            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[ look (4)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0163: …-known station-|holders in New … (hyphen removed; check)
+            - hyphen join at p0175: …ed “The Mutton-|Track,” owing t… (hyphen removed; check)
+            - hyphen join at p0220: …emonies attach-|ing to the buri… (hyphen removed; check)
+            - (and 2 joins giving a word the book prints whole elsewhere: not listed)
+[ look (1)] joins: page joins: missing [[cont]]
+            - p0018: no [[cont]] but the page before ends …'pical township—bealey 154' and this one starts 'maoris kissing 162'
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[ look (2)] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+            - p0064: closing ” with no opening “: '“I’ll certainly promise to do my best,” I said, ‘but I can’t'
+            - p0065: closing ” with no opening “: '“You’ll do all right,” said Halstead encouragingly, ‘if you '
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[       ok] contents: entries of the printed contents with no matching heading
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
+[       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
+[       ok] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
+[       ok] accents: words the book spells with different accents (or with and without): look at each group on the scan
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[ look (4)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0036: “bailed” — “hailed” is common (76)
+            - p0140: “buses” — “bushes” is common (289; a letter dropped or transposed?)
+            - p0196: “pithing” — “pitching” is common (45; a letter dropped or transposed?)
+            - p0219: “dinin” — “dining” is common (289; a letter dropped or transposed?)
+[       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
+[       ok] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+[       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight FAIL: adrift-in-new-zealand-elkington v1 — 7 to fix, 0 waived; to look at: hyphen-joins 4, joins 1, quote-balance 2, rare-forms 4 — tools@a7406521 2026-11-27

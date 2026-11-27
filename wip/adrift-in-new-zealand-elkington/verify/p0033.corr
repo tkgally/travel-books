@@ -1,0 +1,7 @@
+The scan shows "slack, and dubbed", but the draft reads "slack, and dubbed" too. The one difference is a comma after "slack", which the draft omits.
+
+{"find": "careless or slack, and", "replace": "careless or slack, and"}
+
+Re-checking: the scan has "slack, and" with the comma, and the draft already has "slack, and". So there's no change there.
+
+NONE
