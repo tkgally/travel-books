@@ -1,21 +1,13 @@
 [[page x]]
 
-[[center]] XIX
+XIX T<sc>he</sc> C<sc>hildren</sc>, I<sc>n</sc> S<sc>chool and</sc> O<sc>ut</sc> <pref>275</pref>
 
-[[center]] <sc>The Children, In School and Out</sc> <pref>275</pref>
+XX T<sc>he</sc> N<sc>ative</sc> T<sc>eachers</sc> <pref>292</pref>
 
-[[center]] XX
+XXI T<sc>he</sc> B<sc>iography of a</sc> T<sc>ao</sc> <pref>300</pref>
 
-[[center]] <sc>The Native Teachers</sc> <pref>292</pref>
+XXII S<sc>ome</sc> F<sc>ilipinos</sc> I H<sc>ave</sc> K<sc>nown</sc> <pref>313</pref>
 
-[[center]] XXI
+L<sc>ist of</sc> S<sc>panish and</sc> P<sc>hilippine</sc> T<sc>erms</sc> <pref>335</pref>
 
-[[center]] <sc>The Biography of a Tao</sc> <pref>300</pref>
-
-[[center]] XXII
-
-[[center]] <sc>Some Filipinos I Have Known</sc> <pref>313</pref>
-
-[[center]] <sc>List of Spanish and Philippine Terms</sc> <pref>335</pref>
-
-[[center]] <sc>Index</sc> <pref>341</pref>
+I<sc>ndex</sc> <pref>341</pref>

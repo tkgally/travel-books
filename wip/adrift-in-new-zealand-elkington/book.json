@@ -1,0 +1,55 @@
+{
+ "id": "adrift-in-new-zealand-elkington",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "Adrift in New Zealand",
+ "short_title": "Adrift in New Zealand",
+ "authors": [
+  {
+   "name": "E. Way Elkington",
+   "sort": "Elkington, E. Way"
+  }
+ ],
+ "place": "London",
+ "publisher": "John Murray",
+ "year": 1906,
+ "edition_statement": "First edition",
+ "regions": [
+  "New Zealand"
+ ],
+ "period": "1890s",
+ "source": {
+  "ia_identifier": "adriftinnewzeala00elkiiala",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": []
+ },
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "front"
+  },
+  {
+   "at": "p0009",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0011",
+   "kind": "introduction"
+  },
+  {
+   "at": "p0013",
+   "kind": "contents"
+  },
+  {
+   "at": "p0017",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0353",
+   "kind": "index"
+  }
+ ],
+ "frontispiece": "p0008-1",
+ "waivers": [],
+ "keep_hyphens": []
+}

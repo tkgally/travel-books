@@ -2237,10 +2237,11 @@
    "place": "London",
    "publisher": "John Murray",
    "images": 364,
-   "status": "queued",
-   "checked": "2026-11-26",
-   "eligibility": "Vetted 2026-11-26 (Opus subagent). pg_catalog.csv (mirror, whole): only his Savage South Seas (#57695). Online Books Page: HathiTrust page images only. Wikisource: none. Open Library: Murray 1906; Read Books 2008 and Creative Media Partners 2023 (print-on-demand). Web search of a sentence and of the title: no text, no real reprint. NZETC: site search nothing (site not scriptable). Faded Page not checked.",
-   "note": "University of California scan, 400 ppi; xii + 280 pp. with index; frontispiece and 32 photographic plates (captions not in the OCR: count at the scan check). A young Englishman lands in Auckland with threepence and works his way round both islands as farm hand, tramp, station hand, gum-digger and bushman; first person, lively, much dialogue."
+   "status": "in progress",
+   "checked": "2026-11-27",
+   "eligibility": "Vetted 2026-11-26 (Opus subagent). pg_catalog.csv (mirror, whole): only his Savage South Seas (#57695). Online Books Page: HathiTrust page images only. Wikisource: none. Open Library: Murray 1906; Read Books 2008 and Creative Media Partners 2023 (print-on-demand). Web search of a sentence and of the title: no text, no real reprint. NZETC: site search nothing (site not scriptable). Faded Page not checked. Re-checked 2026-11-27: pg_catalog.csv only The Savage South Seas; web search: no text (NZETC, Faded Page, Wikisource none found).",
+   "note": "University of California scan, 400 ppi; xii + 280 pp. with index; frontispiece and 32 photographic plates (captions not in the OCR: count at the scan check). A young Englishman lands in Auckland with threepence and works his way round both islands as farm hand, tramp, station hand, gum-digger and bushman; first person, lively, much dialogue.",
+   "started": "2026-11-27"
   },
   {
    "order": 123,
