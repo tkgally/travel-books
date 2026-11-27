@@ -1,0 +1,32 @@
+{
+ "id": "impressions-of-japan-rittner",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "Impressions of Japan",
+ "short_title": "Impressions of Japan",
+ "authors": [
+  {
+   "name": "Geo. H. Rittner",
+   "sort": "Rittner, George H."
+  }
+ ],
+ "place": "London",
+ "publisher": "John Murray",
+ "year": 1904,
+ "edition_statement": "First edition",
+ "collection": "jatsi",
+ "regions": [
+  "Japan"
+ ],
+ "source": {
+  "ia_identifier": "impressionsofjap00rittrich",
+  "contributor": "University of California Libraries"
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-27",
+   "note": "First publication."
+  }
+ ]
+}
