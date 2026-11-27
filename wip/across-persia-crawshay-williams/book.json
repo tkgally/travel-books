@@ -27,5 +27,72 @@
    "date": "2026-11-27",
    "note": "First publication."
   }
+ ],
+ "frontispiece": "p0008-1",
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "front",
+   "title": "Half-title and motto"
+  },
+  {
+   "at": "p0011",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0013",
+   "kind": "dedication",
+   "title": "Dedication"
+  },
+  {
+   "at": "p0015",
+   "kind": "preface"
+  },
+  {
+   "at": "p0019",
+   "kind": "contents"
+  },
+  {
+   "at": "p0020",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0021",
+   "kind": "front",
+   "title": "The book’s title above Chapter I"
+  },
+  {
+   "at": "p0021",
+   "kind": "chapter",
+   "n": 2
+  },
+  {
+   "at": "p0392",
+   "kind": "index"
+  }
+ ],
+ "toc": {
+  "subtitles": "all"
+ },
+ "period": "1903–04",
+ "subjects": [
+  "Iran",
+  "Persepolis",
+  "Travel by caravan"
+ ],
+ "summary": "In 1903, having resigned his commission in the Royal Field Artillery in India, Eliot Crawshay-Williams travelled home by way of Persia, starting from Bombay in November. With two Indian servants, an Afghan interpreter named Saifullashah, and his Scotch terrier Mr. Stumps, he lands at Bushire and rides by caravan over the mountain passes to Shiraz, with a detour to the ruins and rock carvings of Shahpur. He visits Persepolis, Naksh-i-Rustam, and the tomb of Cyrus at Pasargadae, goes on to Isfahan, drives the two hundred and fifty miles to Teheran by carriage, and crosses the snowbound hills to the Caspian. The book was written four years later from his journal. Each chapter opens with a verse epigraph; there are 25 photographs and four sketch maps of the ancient sites.",
+ "omitted_from_reading": "The half-title and the motto from Stevenson before the title page, the printed contents and list of illustrations, the head title above Chapter I, and the index are in the JSON only.",
+ "notes_on_text": [],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0009",
+   "why": "tissue guard over the frontispiece; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0010",
+   "why": "back of the tissue guard; not transcribed"
+  }
  ]
 }

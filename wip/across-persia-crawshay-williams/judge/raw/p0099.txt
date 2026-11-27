@@ -1,0 +1,2 @@
+{"n": 1, "is": "B", "print": "rate people,\n\n[[image: Sketch map of Shahpur, showing the river and its branches, the Kileh-i-Pisar and Kileh-i Dukhter, the sculptured tablets, springs, ruins and tracks to Kumarij and Kazerun]]\n[[caption]] Rough map of Shahpur.\n\n[[cont]]a ruined cit", "sure": "high"}
+{"n": 2, "is": "A", "print": "more unreal.", "sure": "high"}
