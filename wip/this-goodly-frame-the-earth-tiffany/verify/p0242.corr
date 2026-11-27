@@ -1,0 +1,5 @@
+{"find": "<verse>\n“In Xanadu", "replace": "<verse>\n“In Xanadu"}
+
+Wait — that makes no change. Corrected list:
+
+{"find": "when—\n\n<verse>\nIn Xanadu", "replace": "when—\n\n<verse>\n“In Xanadu"}

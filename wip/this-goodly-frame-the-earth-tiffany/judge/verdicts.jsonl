@@ -1,0 +1,5 @@
+{"page": "p0033", "n": 1, "who": "verified", "draft": "I. N<sc>o</sc>", "verified": "[[side: I.]] N<sc>o</sc>", "judge": {"n": 1, "is": "A", "print": "[[side: I.]] N<sc>o</sc>", "sure": "medium"}}
+{"page": "p0066", "n": 1, "who": "draft", "draft": "artifical", "verified": "artificial", "judge": {"n": 1, "is": "B", "print": "artifical", "sure": "high"}}
+{"page": "p0132", "n": 1, "who": "verified", "draft": "<i>Hinc illæ lachrymæ</i>", "verified": "<i>Hinc illœ lachrymœ</i>", "judge": {"n": 1, "is": "B", "print": "<i>Hinc illœ lachrymœ</i>", "sure": "low"}}
+{"page": "p0275", "n": 1, "who": "draft", "draft": "I. As the ever", "verified": "[[side: I.]] As the ever", "judge": {"n": 1, "is": "A", "print": "I. As the ever", "sure": "medium"}}
+{"page": "p0333", "n": 1, "who": "draft", "draft": "## III.\n\nWhen Peter", "verified": "[[side: III.]] When Peter", "judge": {"n": 1, "is": "A", "print": "III. (section number set into the left of the paragraph's first two lines, inside the text column, not in the margin) When Peter", "sure": "low"}}

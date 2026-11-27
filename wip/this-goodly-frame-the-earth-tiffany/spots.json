@@ -1,0 +1,57 @@
+{
+ "p0033": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "I. N<sc>o</sc>",
+   "replace": "[[side: I.]] N<sc>o</sc>",
+   "draft": "I. N<sc>o</sc>",
+   "verified": "[[side: I.]] N<sc>o</sc>",
+   "context": "[[page ?]] ⏎  ⏎ # Japan ⏎  ⏎ ## I. ⏎  ⏎ I. N<sc>o</sc> traveller ever knows so much about a new country,—its race "
+  }
+ ],
+ "p0066": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "artifical",
+   "replace": "artificial",
+   "draft": "artifical",
+   "verified": "artificial",
+   "context": " now every peasant in the land has his tub, with natural or artifical volcano-attachment, in which he boils himself daily till fa"
+  }
+ ],
+ "p0132": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<i>Hinc illæ lachrymæ</i>",
+   "replace": "<i>Hinc illœ lachrymœ</i>",
+   "draft": "<i>Hinc illæ lachrymæ</i>",
+   "verified": "<i>Hinc illœ lachrymœ</i>",
+   "context": "uill has a hilt and a strong arm behind it to drive it in. “<i>Hinc illæ lachrymæ</i>” when the British doctors go round; along with some savage "
+  }
+ ],
+ "p0275": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "I. As the ever",
+   "replace": "[[side: I.]] As the ever",
+   "draft": "I. As the ever",
+   "verified": "[[side: I.]] As the ever",
+   "context": "[[page ?]] ⏎  ⏎ # Egypt ⏎  ⏎ ## I. ⏎  ⏎ I. As the ever-varying diorama of a journey around the world keeps unrolli"
+  }
+ ],
+ "p0333": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "## III.\n\nWhen Peter",
+   "replace": "[[side: III.]] When Peter",
+   "draft": "## III.\n\nWhen Peter",
+   "verified": "[[side: III.]] When Peter",
+   "context": "ny by our own attestation that the rocks are not yet gone! ⏎  ⏎ ## III. ⏎  ⏎ When Peter the Hermit and his fellow-pilgrims went up to Jerusalem, it"
+  }
+ ]
+}
