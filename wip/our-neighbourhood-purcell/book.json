@@ -1,0 +1,21 @@
+{
+ "id": "our-neighbourhood-purcell",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "“Our Neighbourhood”; or, Sketches in the Suburbs of Yedo",
+ "short_title": "Our Neighbourhood",
+ "authors": [
+  {
+   "name": "T. A. P. [Theobald A. Purcell]",
+   "sort": "Purcell, Theobald A."
+  }
+ ],
+ "place": "Yokohama",
+ "year": 1874,
+ "regions": ["Japan"],
+ "collection": "jatsi",
+ "source": {
+  "ia_identifier": "ourneighbourhood00techrich",
+  "contributor": "University of California Libraries"
+ }
+}
