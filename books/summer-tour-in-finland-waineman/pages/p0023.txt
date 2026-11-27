@@ -1,0 +1,36 @@
+[[page ?]]
+# List of Illustrations
+
+## In Colour
+
+<sc>helsingfors</sc> <i>Frontispiece</i>
+
+<sc>borgå</sc> <pref>45</pref>
+
+<sc>viborg</sc> <pref>65</pref>
+
+<sc>saima canal</sc> <pref>86</pref>
+
+<sc>nyslott castle</sc> <pref>129</pref>
+
+<sc>pungaharju</sc> <pref>143</pref>
+
+<sc>kuopio, view from the puijo hill</sc> <pref>160</pref>
+
+<sc>kajana, floating timber</sc> <pref>176</pref>
+
+<sc>pyhakoski, the holy stream</sc> <pref>192</pref>
+
+<sc>uleåborg</sc> <pref>202</pref>
+
+<sc>torneå</sc> <pref>215</pref>
+
+<sc>kangasala village and church</sc> <pref>250</pref>
+
+<sc>tavastehus castle</sc> <pref>257</pref>
+
+<sc>view from karlberg park</sc> <pref>261</pref>
+
+<sc>åbo cathedral and market boats</sc> <pref>266</pref>
+
+<sc>hango̊ fjord</sc> <pref>307</pref>

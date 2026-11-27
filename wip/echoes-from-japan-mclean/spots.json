@@ -1,0 +1,207 @@
+{
+ "p0017": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Gen. i. 1.",
+   "replace": "Gen. i. I.",
+   "draft": "Gen. i. 1.",
+   "verified": "Gen. i. I.",
+   "context": "e> ⏎ “In the beginning God created the heaven and the earth.”—Gen. i. 1. ⏎ </blockquote> ⏎  ⏎ IF you were to ask a Japanese to give you a "
+  }
+ ],
+ "p0049": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "## Conversion.",
+   "replace": "## Conversion",
+   "draft": "# Conversion.",
+   "verified": "# Conversion",
+   "context": "[[page 45]] ⏎  ⏎ ## Conversion. ⏎  ⏎ I have already referred to a young Daimio (feudal prince),"
+  }
+ ],
+ "p0054": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "“DEAR Mrs.",
+   "replace": "“D<sc>ear</sc> Mrs.",
+   "draft": "“DEAR Mrs.",
+   "verified": "“D<sc>ear</sc> Mrs.",
+   "context": "fter many days.</i>”—Eccles. xi. 1. ⏎  ⏎ ## Before Conversion. ⏎  ⏎ “DEAR Mrs.——[[fnref *]] I received your letter dated 22nd. . . . I rea"
+  }
+ ],
+ "p0083": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "J.—.”",
+   "replace": "J.——.”",
+   "draft": "J.—.”",
+   "verified": "J.——.”",
+   "context": "ouls to the living God. Ever your servant, for Jesus’ sake, J.—.” ⏎  ⏎ This rather novel way of being received by their friend di"
+  }
+ ],
+ "p0094": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "small square table than anything else. In Japan,",
+   "replace": "small square\n\n[[image: a Japanese lady in an elaborate patterned kimono with a long trailing robe, her hair dressed with ornaments]]\n[[caption]] Wife of a Daimio.\n\n[[cont]] table than anything else. In Japan,",
+   "draft": "small square table than ",
+   "verified": "small square\n\n[[image: a Japanese lady in an elaborate patterned kimono with a long trailing robe, her hair dressed with ornaments]]\n[[caption]] Wife of a Daimio.\n\n[[cont]] table than ",
+   "context": "as placed before me on a curiously shaped tray, more like a small square table than anything else. In Japan, each member of the family is served with a separate tray, w"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "and from\n\n[[image: a Japanese lady in an elaborate patterned kimono with a long trailing robe, her hair dressed with ornaments]]\n[[caption]] Wife of a Daimio.",
+   "replace": "and from",
+   "draft": "and from\n\n[[image: a Japanese lady in an elaborate patterned kimono with a long trailing robe, her hair dressed with ornaments]]\n[[caption]] Wife of a Daimio.",
+   "verified": "and from",
+   "context": "ate tray, which is four-legged, and about a foot in height, and from ⏎  ⏎ [[image: a Japanese lady in an elaborate patterned kimono with a long trailing robe, her hair dressed with ornaments]] ⏎ [[caption]] Wife of a Daimio. ⏎ "
+  }
+ ],
+ "p0149": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "THE Rev. C. H.",
+   "replace": "T<sc>he</sc> Rev. C. H.",
+   "draft": "THE Rev. C. H.",
+   "verified": "T<sc>he</sc> Rev. C. H.",
+   "context": "dpiece ornament]] ⏎  ⏎ # Chapter XIV. ⏎  ⏎ [[subtitle]] Fragments. ⏎  ⏎ THE Rev. C. H. Spurgeon says, that “<i>If the Lord will arouse Christian w"
+  }
+ ],
+ "p0160": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "THE Haconé Hills",
+   "replace": "T<sc>he</sc> Haconé Hills",
+   "draft": "THE Haconé Hill",
+   "verified": "T<sc>he</sc> Haconé Hill",
+   "context": " “Come ye yourselves apart, and rest awhile.”—Mark vi. 31. ⏎  ⏎ THE Haconé Hills are about forty-five miles from Yokohama. The missionaries "
+  }
+ ],
+ "p0177": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "OSAKA is a city",
+   "replace": "O<sc>saka</sc> is a city",
+   "draft": "OSAKA is a city",
+   "verified": "O<sc>saka</sc> is a city",
+   "context": "have no other gods before me.”—Ex. xx. 2, 3. ⏎ </blockquote> ⏎  ⏎ OSAKA is a city of 362,000 inhabitants. It is situate on the south-eastern "
+  }
+ ],
+ "p0182": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "crèpe",
+   "replace": "crêpe",
+   "draft": "crèpe",
+   "verified": "crêpe",
+   "context": "The day her mother and servant brought her to me she wore a crèpe garment stamped with cherry blossom, birds, spiders and spi"
+  }
+ ],
+ "p0197": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 193]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 193]]",
+   "context": "[[page ?]] ⏎  ⏎ [[image: ornamental headpiece with a helmeted head in a me"
+  }
+ ],
+ "p0240": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 232]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 232]]",
+   "context": "[[page ?]] ⏎  ⏎ [[image: decorative headpiece with a star between two corn"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "1. HUMAN",
+   "replace": "I. HUMAN",
+   "draft": "1. HUMAN",
+   "verified": "I. HUMAN",
+   "context": "whole head is sick, and the whole heart faint.”—Isa. i. 5. ⏎  ⏎ 1. HUMAN nature is exactly the same in Japan as it is in any other c"
+  }
+ ],
+ "p0252": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 247]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 247]]",
+   "context": "[[page ?]] ⏎  ⏎ [[center]] JAPANESE. ⏎  ⏎ ケダシカミセケンヲカノホドアイシテソノヒトリウマラスノムスコヲスラアタヘ"
+  }
+ ],
+ "p0253": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]\n\n[[image",
+   "replace": "[[page 250]]\n\n[[image",
+   "draft": "[[page ?]]\n\n[[image",
+   "verified": "[[page 250]]\n\n[[image",
+   "context": "[[page ?]] ⏎  ⏎ [[image: decorative headpiece with snails and foliage]] ⏎  ⏎ # Appendix"
+  }
+ ],
+ "p0272": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "we sang “Gates",
+   "replace": "and we sang “Gates",
+   "draft": "we sang “Gat",
+   "verified": "and we sang “Gat",
+   "context": "Saco</i> with me; we had a nice little meeting on deck; and we sang “Gates ajar.” ⏎ "
+  }
+ ],
+ "p0278": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "SOME few weeks",
+   "replace": "S<sc>ome</sc> few weeks",
+   "draft": "SOME few weeks",
+   "verified": "S<sc>ome</sc> few weeks",
+   "context": " II. ⏎  ⏎ [[subtitle]] Preface to the Letters of Blue-Jackets. ⏎  ⏎ SOME few weeks before setting sail for England, I undid my bundle of sailo"
+  }
+ ],
+ "p0289": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "<i>H.M.S.</i>—,",
+   "replace": "<i>H.M.S.</i> ——,",
+   "draft": "i>H.M.S.</i>—,",
+   "verified": "i>H.M.S.</i> ——,",
+   "context": "more than conquerors, through Him that loved us. ⏎  ⏎ [[right]] <i>H.M.S.</i>—, ⏎  ⏎ [[right]] Hong Kong. ⏎  ⏎ D<sc>ear</sc> S<sc>ister in our</sc>"
+  }
+ ],
+ "p0305": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "S<sc>ister formerly abundant in labours among</sc> B<sc>luejackets",
+   "replace": "S<sc>ister</sc> FORMERLY ABUNDANT IN LABOURS AMONG B<sc>luejackets",
+   "draft": "S<sc>ister formerly abundant in labours among</sc> B<sc>luejac",
+   "verified": "S<sc>ister</sc> FORMERLY ABUNDANT IN LABOURS AMONG B<sc>luejac",
+   "context": "[subtitle]] C<sc>rumbs from the</sc> L<sc>etters of my</sc> S<sc>ister formerly abundant in labours among</sc> B<sc>luejackets at</sc> S<sc>hanghai.</sc> ⏎  ⏎ I have been feeling like John i"
+  }
+ ]
+}
