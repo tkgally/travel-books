@@ -1,0 +1,5 @@
+{"given": "the four months’ fog; called summer", "print": "the four months’ fog, called summer", "sure": "high"}
+{"given": "It is more siberian than Siberia", "print": "It is more Siberian than Siberia", "sure": "high"}
+{"given": "parents, howevcr healthy and pure", "print": "parents, however healthy and pure", "sure": "high"}
+{"given": "fill up the measure the regrets", "print": "fill up the measure of the regrets", "sure": "high"}
+{"given": "Intelligence of later date than ours bad", "print": "Intelligence of later date than ours had", "sure": "high"}

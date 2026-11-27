@@ -2250,10 +2250,11 @@
    "place": "New York",
    "publisher": "Charles Scribner's Sons",
    "images": 392,
-   "status": "queued",
-   "checked": "2026-11-26",
-   "eligibility": "Vetted 2026-11-26 (Opus subagent). pg_catalog.csv: not there. Online Books Page: none. Wikisource: none. Web search of a sentence: nothing. Reprints: Kessinger 2007 (print-on-demand) only. HathiTrust and Cornell Southeast Asia Visions: page images.",
-   "note": "University of California scan, 400 ppi; xi + 344 pp., frontispiece and 15 photographs on about 8 plates; a glossary of Spanish and Philippine terms and an index. Second scan philippineexperi00free_0 (Princeton Theological Seminary). One of the first American teachers in Luzon and the Bicol region, 1901–04: towns, journeys by pony, boat and trail, schools, epidemics."
+   "status": "in progress",
+   "checked": "2026-11-27",
+   "eligibility": "Vetted 2026-11-26 (Opus subagent). pg_catalog.csv: not there. Online Books Page: none. Wikisource: none. Web search of a sentence: nothing. Reprints: Kessinger 2007 (print-on-demand) only. HathiTrust and Cornell Southeast Asia Visions: page images. Re-checked 2026-11-27: pg_catalog.csv none (PG 13392 is a different book, Fee); web search: page images only.",
+   "note": "University of California scan, 400 ppi; xi + 344 pp., frontispiece and 15 photographs on about 8 plates; a glossary of Spanish and Philippine terms and an index. Second scan philippineexperi00free_0 (Princeton Theological Seminary). One of the first American teachers in Luzon and the Bicol region, 1901–04: towns, journeys by pony, boat and trail, schools, epidemics.",
+   "started": "2026-11-27"
   },
   {
    "order": 124,

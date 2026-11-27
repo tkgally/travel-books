@@ -6,4 +6,6 @@
 
 [[center]] L<sc>ondon</sc>:
 
-[[center]] Printed by S<sc>pottiswoode</sc> & Co., New-street-Square.
+[[center]] Printed by S<sc>pottiswoode</sc> & Co.,
+
+[[center]] New-street-Square.
