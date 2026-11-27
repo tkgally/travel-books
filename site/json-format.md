@@ -44,7 +44,7 @@ Every block has `type` and `leaf` (the scan image on which it starts). A block t
 | `type` | Other fields |
 |---|---|
 | `heading` | `level` (1 to 3), `text` |
-| `paragraph` | `text`; optional `align` (`right` or `center`); optional `role` (`subtitle`: a chapter title or summary printed under the chapter number) |
+| `paragraph` | `text`; optional `align` (`right` or `center`); optional `role` (`subtitle`: a chapter title or summary printed under the chapter number); optional `continues` (`true`: the sentence goes on after the quotation or verse just before, printed flush left) |
 | `quote` | `paragraphs`: a list of `{"text"}` with optional `align` — prose set off from the text, such as a letter |
 | `verse` | `stanzas`: a list of stanzas, each a list of lines |
 | `image` | `src` (a path beside the JSON file), `alt` (a description), optional `caption` |

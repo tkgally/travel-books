@@ -23,6 +23,7 @@ models (`prompts/_format.md` is the wording they get), edited by the session, re
 | `<verse>` … `</verse>` (own lines) | verse, one printed line per line, an empty line between stanzas |
 | `[[cont]]` at the start of the first line inside a blockquote or verse at the top of a page | it continues the previous page's quotation (prose is joined mid-paragraph unless the previous line ended a sentence; verse continues as a new line of the same stanza) |
 | `[[cont]]` at the start of a paragraph right after an `[[image: …]]` (and caption) in the middle of a page | the paragraph the picture interrupts goes on: joined to the paragraph before the picture, and the picture follows that paragraph in the editions |
+| `[[cont]]` at the start of a paragraph right after a `</blockquote>` or `</verse>` (on the same page, or at the top of a page when the last page ended with one) | the sentence goes on after the quotation or verse (the line flush left in print): a paragraph of its own marked `continues` in the JSON, set without an indent (review after 115 books, 2026-11-27; test `RunOnAfterVerse`) |
 | pipe rows `| a | b |` | table |
 | `[[cont]]| a | b |` (the first row at the top of a page) | the previous page's table goes on: the rows join it (same number of columns) (*Five Months in Labrador*, 2026-11-27; test `TableAcrossPages`) |
 | `<pref>34</pref>`, `<pref to="34">text</pref>` | the book's own reference to its page 34: becomes a link when page 34 is in the reading editions |

@@ -605,6 +605,56 @@ class TableAcrossPages(unittest.TestCase):
         self.assertEqual(res["conservation"], [], report)
 
 
+class RunOnAfterVerse(unittest.TestCase):
+    """A sentence that goes on after a quoted verse or quotation, flush left in print: `[[cont]]` on the paragraph after
+    the block marks it `continues` in the JSON (22 published books had it as a known issue: the markup could not say it;
+    review after 115 books, 2026-11-27). Invented text."""
+
+    def setUp(self):
+        self.tmp = tempfile.mkdtemp()
+        self.dir = os.path.join(self.tmp, "sample-journey-doe")
+        shutil.copytree(SAMPLE, self.dir)
+        self.p7 = os.path.join(self.dir, "pages", "p0007.txt")
+        self.t7 = open(self.p7, encoding="utf-8").read()
+
+    def tearDown(self):
+        shutil.rmtree(self.tmp)
+
+    def blocks(self):
+        book, w = compile_book.compile_book(self.dir)
+        return [b for d in book["divisions"] for b in d["blocks"]], w
+
+    def test_mid_page(self):
+        old = "</verse>\n\n[[image:"
+        self.assertIn(old, self.t7)
+        open(self.p7, "w", encoding="utf-8").write(self.t7.replace(old, "</verse>\n\n[[cont]]sang he, and we went on.\n\n[[image:", 1))
+        bl, w = self.blocks()
+        self.assertEqual([x for x in w if "[[cont]]" in x], [])
+        b = next(b for b in bl if b.get("text", "").startswith("sang he"))
+        self.assertTrue(b.get("continues"))
+        self.assertFalse(any(x.get("continues") for x in bl if x is not b))
+        _, report, res = preflight.run(self.dir, skip_epubcheck=True, skip_odt=True)
+        self.assertEqual(res["conservation"], [], report)
+
+    def test_page_top(self):
+        old = "<verse>\n[[cont]]And never shall again.\n</verse>"
+        self.assertIn(old, self.t7)
+        open(self.p7, "w", encoding="utf-8").write(self.t7.replace(old, "[[cont]]he sang, and we went on.", 1))
+        bl, w = self.blocks()
+        self.assertEqual([x for x in w if "[[cont]]" in x], [])
+        b = next(b for b in bl if b.get("text", "").startswith("he sang"))
+        self.assertTrue(b.get("continues"))
+        self.assertEqual(b["pb"][0]["leaf"], "p0007")
+
+    def test_after_paragraph_mid_page_still_warned(self):
+        old = "[[subtitle]] The River\n\n"
+        self.assertIn(old, self.t7)
+        open(self.p7, "w", encoding="utf-8").write(self.t7.replace(old, old + "A line.\n\n[[cont]]", 1))
+        bl, w = self.blocks()
+        self.assertTrue(any("not at the top of a page" in x for x in w), w)
+        self.assertFalse(any(x.get("continues") for x in bl))
+
+
 class ImageInParagraph(unittest.TestCase):
     """A picture in the middle of a page that interrupts a paragraph: `[[cont]]` after it joins the paragraph again
     (the compiler dropped it and split the paragraph; South by West, 2026-11-19). Invented text."""
@@ -1049,7 +1099,7 @@ class SiteLists(unittest.TestCase):
         page = build_site.book_page(book2, rh.file_names(book2, ".html"), True)
         self.assertIn('<a class="cover" href="01.html#start" title="Start reading"><img class="cover"', page)
         # "Click to read" beside the picture, two lines, with the same link (Tom, 2026-11-23)
-        self.assertIn('</a><a class="cover-label" href="01.html#start">Click<br/>to read</a></div>', page)
+        self.assertIn('</a><a class="cover-label" href="01.html#start">Click <br/>to read</a></div>', page)
         self.assertIn('<div class="cover-row"><a class="cover" href="01.html#start"', page)
         self.assertNotIn("cover-label", build_site.book_page(book2, rh.file_names(book2, ".html"), False))
         self.assertIn('<li><a href="01.html">Read on this site</a> (contents below)</li>', page)

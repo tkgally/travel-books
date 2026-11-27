@@ -528,7 +528,7 @@ def book_page(book, names, has_cover=False, kind=None):
         # "Click to read" beside the picture, with the same link, so that a visitor sees at once that the picture
         # opens the book (Tom, 2026-11-23): smaller, italic, two lines, level with the foot of the picture
         cover = (f'<div class="cover-row"><a class="cover" href="{href}" title="Start reading">{cover}</a>'
-                 f'<a class="cover-label" href="{href}">Click<br/>to read</a></div>')
+                 f'<a class="cover-label" href="{href}">Click <br/>to read</a></div>')
     body = f"""<h1><cite>{esc(book.get("short_title") or book["title"])}</cite></h1>
 <p class="byline">{esc(rh.authors_text(book))}, {book.get("year", "")}</p>
 {cover}

@@ -143,6 +143,12 @@
    "sha256": "f2cdf2a27a42ea3325cce4698c91bbfb212651ad93a5a19c08c09f0efff27ed6",
    "note": "title page; the cover has no title"
   },
+  "echoes-from-japan-mclean": {
+   "image": "title page",
+   "width": 300,
+   "height": 445,
+   "sha256": "e87ad1a1a3e68625fe198e863bee80ad383f3fb8721d9f97a4ada01a6ca4dc6a"
+  },
   "embassy-to-china-staunton": {
    "image": "title page",
    "width": 300,
@@ -392,6 +398,12 @@
    "height": 445,
    "sha256": "2c5e775fe0e12a6c7e1a1ff63c86509c51792ca57cc3975f15e261e6c452f9d3"
   },
+  "our-neighbourhood-purcell": {
+   "image": "title page",
+   "width": 279,
+   "height": 450,
+   "sha256": "22644f96bef4d7aa4d0aae5bf0942206d3d9f9b4bd0270441f6c5585c37c4cf5"
+  },
   "our-ride-through-asia-minor-scott-stevenson": {
    "image": "title page",
    "width": 277,
@@ -464,6 +476,12 @@
    "height": 450,
    "sha256": "30f6aa6a3f1cd5e1b16e7b4db4d76aebd08f35939d782cc3d46dc71915e9dff5"
   },
+  "round-black-mans-garden-colvile": {
+   "image": "cover",
+   "width": 289,
+   "height": 450,
+   "sha256": "11bdb79708b844626ade9f376652ecb70b63127f9991581e2287fcab70b8f7c7"
+  },
   "scouting-for-stanley-stevens": {
    "image": "cover",
    "width": 300,
@@ -489,6 +507,12 @@
    "sha256": "61c981b6dd00742f22d9fe198eb43398ed2a6cd23084eefb0ff7fe144e34e353",
    "note": "the cover has no title"
   },
+  "sportswoman-in-india-savory": {
+   "image": "title page",
+   "width": 268,
+   "height": 450,
+   "sha256": "9f416ada8a91956759c516fc9e86a22d0f6a8f16bc6a83bfd98faa433a187bfb"
+  },
   "summer-azores-baker": {
    "image": "title page",
    "width": 297,
@@ -513,6 +537,12 @@
    "height": 450,
    "sha256": "d9d1c2d7fa3e3a6485f324c3e2bbdf2bbe288a9b71693874b8bd5e944807fd03",
    "note": "plain cloth cover"
+  },
+  "summer-tour-in-finland-waineman": {
+   "image": "title page",
+   "width": 287,
+   "height": 450,
+   "sha256": "1773bf9b7b2712d369860beb1c3ae5e7d3eeb4060b145d8c410c68d36132cdda"
   },
   "sunny-australia-marshall": {
    "image": "title page",
