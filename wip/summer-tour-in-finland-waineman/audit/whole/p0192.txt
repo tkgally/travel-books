@@ -1,0 +1,5 @@
+{"given": "as breathless as anyone. Instead", "print": "as breathless as any one. Instead", "sure": "high"}
+{"given": "one could see open verandas of", "print": "one could see the open verandas of", "sure": "high"}
+{"given": "Probably these who selected the site", "print": "Probably those who selected the site", "sure": "high"}
+{"given": "feeding, one shonld not be distracted", "print": "feeding, one should not be distracted", "sure": "high"}
+{"given": "with outstretched wings; surrounded by scores", "print": "with outstretched wings, surrounded by scores", "sure": "high"}

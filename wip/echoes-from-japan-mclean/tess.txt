@@ -1,0 +1,125 @@
+# tess_compare: 320 pages; 85 word items; 36 pitch items; 0 empty items
+## Pages tesseract finds empty
+## Line pitch
+p0009: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0010: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0050: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0225: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0226: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0228: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0229: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0230: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0231: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0232: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0233: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0234: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0235: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0236: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0237: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0238: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0239: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0250: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0251: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0305: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0306: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0307: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0308: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0309: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0310: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0311: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0312: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0313: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0314: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0315: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0316: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0317: pitch 38 against the book's 46 (0.83): small type typed as body text?
+p0321: pitch 23 against the book's 46 (0.50): small type typed as body text?
+p0322: pitch 25 against the book's 46 (0.54): small type typed as body text?
+p0323: pitch 23 against the book's 46 (0.50): small type typed as body text?
+p0324: pitch 24 against the book's 46 (0.52): small type typed as body text?
+## Words
+p0007: print?   file “Visit”, tesseract “Visir”
+p0007: print?   file “Social”, tesseract “Socrat”
+p0007: print?   file “Hotel”, tesseract “Hore.”
+p0007: print?   file “Note”, tesseract “Nore.”
+p0013: print?   file “Japanese”, tesseract “Japanesc”
+p0013: print?   file “mainland”, tesseract “mairfland”
+p0021: print?   file “Daimio”, tesseract “Dazmio”
+p0042: print?   file “let”, tesseract ““Tet”
+p0043: print?   file “all”, tesseract “ail,”
+p0054: print?   file “Extracts”, tesseract “Lxtracts”
+p0054: print?   file “find”, tesseract “Jind”
+p0054: print?   file “received”, tesseract “Treceived”
+p0061: print?   file “God”, tesseract “Gov,”
+p0091: print?   file “Life”, tesseract “Lzfe,””
+p0099: print?   file “Celebrated”, tesseract “Celebraten”
+p0107: print?   file “his”, tesseract “Ais”
+p0108: print?   file “levelling”, tesseract “Jevelling,”
+p0109: print?   file “Japan”, tesseract “¥apan/”
+p0109: print?   file “now”, tesseract “zow”
+p0110: print?   file “entered”, tesseract “entéred”
+p0110: print?   file “pioneer”, tesseract “peoneer”
+p0112: print?   file “sin”, tesseract “szz”
+p0112: print?   file “walk”, tesseract “wadk”
+p0113: print?   file “Journal”, tesseract “Fournal.)”
+p0122: print?   file “Theological”, tesseract “Theclogical”
+p0141: print?   file “débris”, tesseract “adbris,”
+p0153: print?   file “Snow”, tesseract “Szow”
+p0154: print?   file “ideal”, tesseract “zdea/”
+p0168: print?   file “Here”, tesseract “Flere”
+p0170: print?   file “life”, tesseract “/ife,”
+p0175: print?   file “feeling”, tesseract “Jeeling”
+p0179: print?   file “theirs”, tesseract “¢hezrs,”
+p0186: print?   file “Holy”, tesseract “Hoty”
+p0189: print?   file “From”, tesseract “rom”
+p0191: print?   file “people”, tesseract “pecple,”
+p0196: print?   file “bless”, tesseract “dless,”
+p0208: print?   file “earth”, tesseract “carth”
+p0209: print?   file “Hotel”, tesseract “Potel”
+p0221: print?   file “Education”, tesseract “Evucation”
+p0221: print?   file “but”, tesseract “dt”
+p0222: print?   file “live”, tesseract ““ive”
+p0234: print?   file “scenery”, tesseract “scénery.”
+p0240: print?   file “Moral”, tesseract “fMoral”
+p0243: print?   file “Hour”, tesseract “Wour.””
+p0244: print?   file “truly”, tesseract “¢rudy”
+p0247: print?   file “living”, tesseract ““Aving”
+p0248: print?   file “life”, tesseract ““fe.””
+p0253: print?   file “Yokohama”, tesseract “Yokohatna”
+p0258: print?   file “for”, tesseract “ior”
+p0269: print?   file “human”, tesseract “Auman”
+p0269: print?   file “speak”, tesseract “sfeak,”
+p0273: print?   file “House”, tesseract “HOUvSE.”
+p0275: print?   file “His”, tesseract “Hs”
+p0276: print?   file “only”, tesseract ““ovly”
+p0279: print?   file “His”, tesseract “Azs”
+p0279: print?   file “Yokohama”, tesseract “Vokohama,”
+p0281: print?   file “now”, tesseract “zow”
+p0283: print?   file “knowing”, tesseract “kzowing”
+p0285: print?   file “their”, tesseract “¢heiy”
+p0288: print?   file “now”, tesseract ““zow,’”
+p0290: print?   file “Thy”, tesseract “Zy”
+p0296: print?   file “tenderly”, tesseract “ténderly”
+p0307: print?   file “His”, tesseract “Hs”
+p0308: print?   file “like”, tesseract “ilike”
+p0313: print?   file “nothing”, tesseract “wothing.”
+p0321: print?   file “Complete”, tesseract “comple”
+p0321: print?   file “preacher”, tesseract “reacher”
+p0321: print?   file “all”, tesseract “ail”
+p0321: print?   file “Spurgeon”, tesseract “Spurcron.”
+p0321: print?   file “Cloth”, tesseract “Oloth”
+p0321: print?   file “Spurgeon”, tesseract “Spurczon.”
+p0321: print?   file “Spurgeon”, tesseract “Spurcron,”
+p0321: print?   file “Spurgeon”, tesseract “Spurcxon,”
+p0322: print?   file “Tabernacle”, tesseract “‘abernacle.”
+p0322: print?   file “Spurgeon”, tesseract “SpurcEon.”
+p0322: print?   file “Evangelical”, tesseract “—Hvangelical”
+p0322: print?   file “Spurgeon”, tesseract “Spurcron.”
+p0322: print?   file “benefited”, tesseract “benetited”
+p0323: print?   file “Magazine”, tesseract “‘agazine,”
+p0323: print?   file “Spurgeon”, tesseract “Spurexon.”
+p0323: print?   file “Spurgeon”, tesseract “Srurceon.”
+p0323: print?   file “Devotional”, tesseract “Bebotional.”
+p0323: print?   file “highly”, tesseract “highl;”
+p0323: print?   file “Spurgeon”, tesseract “Spurcgon,”
+p0324: print?   file “Spurgeon”, tesseract “Spurcxon.”

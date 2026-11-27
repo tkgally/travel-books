@@ -1,0 +1,2 @@
+{"find": "[[page ?]]\n\n[[image", "replace": "[[page 250]]\n\n[[image"}
+{"find": "In a month after", "replace": "I<sc>n</sc> a month after"}

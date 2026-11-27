@@ -1,0 +1,5 @@
+{"given": "rushing waters of the Holy stream", "print": "rushing waters of the Holy Stream", "sure": "high"}
+{"given": "The sun bad set an hour", "print": "The sun had set an hour", "sure": "high"}
+{"given": "the trees became tranfformed into the", "print": "the trees became transformed into the", "sure": "high"}
+{"given": "rising above vast city.", "print": "rising above a vast city.", "sure": "high"}
+{"given": "Nature swept around us; and the", "print": "Nature swept around us, and the", "sure": "high"}

@@ -1,0 +1,5 @@
+{"given": "outlined against a hill; with an", "print": "outlined against a hill, with an", "sure": "high"}
+{"given": "of Sordavala sprcad themselves like the", "print": "of Sordavala spread themselves like the", "sure": "high"}
+{"given": "streets bordered or either side with", "print": "streets bordered on either side with", "sure": "high"}
+{"given": "each one separate from its neighbor.", "print": "each one separate from its neighbour.", "sure": "high"}
+{"given": "her neighbours that stranger had arrived", "print": "her neighbours that a stranger had arrived", "sure": "high"}

@@ -4,12 +4,113 @@
  "date": "2026-11-27",
  "title": "Echoes from Japan",
  "short_title": "Echoes from Japan",
- "authors": [{"name": "M. McLean", "sort": "McLean, M."}],
+ "authors": [
+  {
+   "name": "M. McLean",
+   "sort": "McLean, M."
+  }
+ ],
  "place": "London",
  "publisher": "Passmore & Alabaster",
  "year": 1889,
  "edition_statement": "Second edition",
- "regions": ["Japan"],
+ "regions": [
+  "Japan"
+ ],
  "collection": "jatsi",
- "source": {"ia_identifier": "echoesfromjapan00mclerich", "contributor": "University of California Libraries", "hidden_leaves": []}
+ "source": {
+  "ia_identifier": "echoesfromjapan00mclerich",
+  "contributor": "University of California Libraries",
+  "hidden_leaves": []
+ },
+ "ornaments": [
+  "p0005-1",
+  "p0005-2",
+  "p0017-1",
+  "p0023-1",
+  "p0037-1",
+  "p0054-1",
+  "p0061-1",
+  "p0072-1",
+  "p0086-1",
+  "p0099-1",
+  "p0105-1",
+  "p0113-1",
+  "p0121-1",
+  "p0130-1",
+  "p0135-1",
+  "p0149-1",
+  "p0160-1",
+  "p0173-1",
+  "p0177-1",
+  "p0197-1",
+  "p0209-1",
+  "p0221-1",
+  "p0240-1",
+  "p0243-1",
+  "p0253-1",
+  "p0278-1",
+  "p0305-1",
+  "p0318-1",
+  "p0022-1",
+  "p0052-1",
+  "p0060-1",
+  "p0071-1",
+  "p0085-1",
+  "p0098-1",
+  "p0104-1",
+  "p0112-1",
+  "p0129-1",
+  "p0134-1",
+  "p0148-1",
+  "p0159-1",
+  "p0208-1",
+  "p0242-1",
+  "p0277-1",
+  "p0317-1"
+ ],
+ "frontispiece": "p0008-1",
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0007",
+   "kind": "contents"
+  },
+  {
+   "at": "p0009",
+   "kind": "preface"
+  },
+  {
+   "at": "p0011",
+   "kind": "introduction"
+  },
+  {
+   "at": "p0253",
+   "kind": "appendix"
+  },
+  {
+   "at": "p0278",
+   "kind": "appendix"
+  },
+  {
+   "at": "p0305",
+   "kind": "appendix"
+  },
+  {
+   "at": "p0321",
+   "kind": "advertisements"
+  }
+ ],
+ "omitted_from_reading": "The printed contents and the publisher’s advertisements at the end are in the JSON only.",
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-27",
+   "note": "First publication."
+  }
+ ],
+ "summary": "placeholder"
 }

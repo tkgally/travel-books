@@ -2,44 +2,44 @@
 
 ## In Monotone
 
-DUKE CARL OF SWEDEN BESIDE THE BIER OF COUNT FLEMMING <pref>22</pref>
+<sc>duke carl of sweden beside the bier of count flemming</sc> <pref>22</pref>
 
 <i>From a Painting by A. Edelfelt.</i>
 
-BURNING THE FOREST <pref>25</pref>
+<sc>burning the forest</sc> <pref>25</pref>
 
 <i>From a Painting by Erro Järnefeldt.</i>
 
-AN OFFER OF MARRIAGE <pref>27</pref>
+<sc>an offer of marriage</sc> <pref>27</pref>
 
 <i>From a Painting by K. E. Janssen.</i>
 
-VIBORG CASTLE AND INNER HARBOUR <pref>73</pref>
+<sc>viborg castle and inner harbour</sc> <pref>73</pref>
 
-IMATRA HOTEL AND FALLS <pref>85</pref>
+<sc>imatra hotel and falls</sc> <pref>85</pref>
 
-IMATRA IN WINTER <pref>90</pref>
+<sc>imatra in winter</sc> <pref>90</pref>
 
-VALINKOSKI FALLS <pref>96</pref>
+<sc>valinkoski falls</sc> <pref>96</pref>
 
-THREE SCENES FROM KALEVALA <pref>104</pref>
+<sc>three scenes from kalevala</sc> <pref>104</pref>
 
 <i>From a Painting by Gallen.</i>
 
-LAKE LADOGA, THE GROTTOES OF ORJANTSAARI <pref>115</pref>
+<sc>lake ladoga, the grottoes of orjantsaari</sc> <pref>115</pref>
 
-PEASANTS SINGING OLD RUNOS <pref>156</pref>
+<sc>peasants singing old runos</sc> <pref>156</pref>
 
-A FINNISH COTTAGE IN WINTER <pref>165</pref>
+<sc>a finnish cottage in winter</sc> <pref>165</pref>
 
-AN AFTERNOON’S SPORT AT KAJANA <pref>178</pref>
+<sc>an afternoon’s sport at kajana</sc> <pref>178</pref>
 
-A SUMMER EVENING <pref>224</pref>
+<sc>a summer evening</sc> <pref>224</pref>
 
-AN OLD-FASHIONED POSTING INN <pref>247</pref>
+<sc>an old-fashioned posting inn</sc> <pref>247</pref>
 
-ÅBO CASTLE <pref>275</pref>
+<sc>åbo castle</sc> <pref>275</pref>
 
-QUEEN BIANCA OF SWEDEN <pref>295</pref>
+<sc>queen bianca of sweden</sc> <pref>295</pref>
 
 <i>From a Painting by A. Edelfelt.</i>

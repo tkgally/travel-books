@@ -1,0 +1,5 @@
+{"given": "Close to one of those solitary links", "print": "Close to one of these solitary links", "sure": "high"}
+{"given": "to be seen all over finland, with", "print": "to be seen all over Finland, with", "sure": "high"}
+{"given": "She leant forward eagerly; as if", "print": "She leant forward eagerly, as if", "sure": "high"}
+{"given": "open fields may replace encircling woods.", "print": "open fields may replace the encircling woods.", "sure": "high"}
+{"given": "alone in its povcrty, and alone", "print": "alone in its poverty, and alone", "sure": "high"}

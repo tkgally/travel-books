@@ -1,0 +1,5 @@
+{"given": "that evening or the wonderful view", "print": "that evening on the wonderful view", "sure": "high"}
+{"given": "and jumped into first cab I saw", "print": "and jumped into the first cab I saw", "sure": "high"}
+{"given": "to the open-air theater at Brunspark", "print": "to the open-air theatre at Brunspark", "sure": "high"}
+{"given": "sum to English eyes; but an", "print": "sum to English eyes, but an", "sure": "high"}
+{"given": "ago paid only tweuty-five centimes", "print": "ago paid only twenty-five centimes", "sure": "high"}
