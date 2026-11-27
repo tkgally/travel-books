@@ -2467,10 +2467,11 @@
    "place": "London",
    "publisher": "Hurst and Blackett",
    "images": 382,
-   "eligibility": "Vetted 2026-11-27 (Opus subagent). Rule 1: Toronto scan with jp2.zip. Rule 2: not in pg_catalog.csv (only his Roraima and British Guiana, #64461); Online Books Page: scans only; web search of a sentence from p. 166: nothing; no Wikisource copy found by web search. Rule 3: Open Library only the 1877 editions; Forgotten Books print on demand only; no Adamant, Elibron, Cambridge or Negro Universities Press edition. Rule 4: first-person journey, 1875–76. Not checked: Wikisource directly (rate-limited), WorldCat.",
+   "eligibility": "Vetted 2026-11-27 (Opus subagent). Rule 1: Toronto scan with jp2.zip. Rule 2: not in pg_catalog.csv (only his Roraima and British Guiana, #64461); Online Books Page: scans only; web search of a sentence from p. 166: nothing; no Wikisource copy found by web search. Rule 3: Open Library only the 1877 editions; Forgotten Books print on demand only; no Adamant, Elibron, Cambridge or Negro Universities Press edition. Rule 4: first-person journey, 1875–76. Not checked: Wikisource directly (rate-limited), WorldCat. Re-checked 2026-11-28: web search of the title finds no text (Gutenberg #64461 is his Roraima; #77296 is Soltera, A Lady’s Ride across Spanish Honduras); Forgotten Books print on demand only.",
    "note": "University of Toronto scan, 500 ppi, colour, clean. Frontispiece “Guatemala” and a title-page vignette; no list of illustrations, no other plates seen. viii + 353 pp., 28 chapters with summaries, ornamental head-pieces and initials. San Francisco to San José de Guatemala, Guatemala City, Los Altos, Quiché, Quezaltenango, the Esquipulas pilgrimage, Copán, Cobán, by canoe down the Pasión to Lake Petén, through forest to Tenosique and down the Usumacinta to Carmen. Plain, with some humour. Second copy acrosscentral00boddguat. Same author as Western Wanderings (published).",
-   "status": "queued",
-   "checked": "2026-11-27"
+   "status": "in progress",
+   "checked": "2026-11-27",
+   "started": "2026-11-28"
   },
   {
    "order": 240,
@@ -2520,8 +2521,9 @@
    "images": 270,
    "eligibility": "Vetted 2026-11-27 (Opus subagent); rejected 2026-11-20 only under the old rule 5 (anonymous). Rule 1: Duke scan with jp2.zip. Rule 2: not in pg_catalog.csv; Online Books Page nothing; web search of the opening sentence: nothing; Qatar National Library: catalogue record only. Rule 3: no reprint of any kind found. Rule 4: first-person diary of a 1906 journey, rewritten for the book. Not checked: Wikisource (rate-limited), WorldCat.",
    "note": "Duke Divinity School Library scan, 360 ppi, colour. Portrait frontispiece (“The Emiri”), a folding map (check it is opened) and 32 photographs: confirm every plate against the list on p. vii; several captions sideways. About 187 pp. of dated entries: Monte Carlo (January 1906), Damascus, Baalbek, by caravan to Palmyra and Deir-el-Zor, across the Euphrates to Mosul and Nineveh, Zakho, Jezireh, Urfa, Jerablus. A dry, ironic narrator travelling with “Tig” and a dragoman. pp. 180–187 a two-column glossary of Arabic phrases (a table or list).",
-   "status": "queued",
-   "checked": "2026-11-27"
+   "status": "waiting",
+   "checked": "2026-11-27",
+   "waiting_for": "Tom: an exception? The only IA scan (Duke, frommontetomosul01unse) lacks printed p. 124 (leaf p0182 is blank: p. 123 ends a paragraph, p. 125 begins mid-sentence) and the plate “Nebbi Yunus” facing it; everything else complete (scan check 2026-11-28). Publish with the page and the plate said to be missing, or wait for another scan? The scan is cached in Drive (folder monte-to-mosul)."
   },
   {
    "order": 270,
