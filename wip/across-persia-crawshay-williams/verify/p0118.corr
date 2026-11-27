@@ -1,8 +1,0 @@
-{"find": "he carried both it and his old father home", "replace": "he carried both it and his old father home"}
-{"find": "taking off his father", "replace": "taking off his father"}
-
-Wait, those are no-ops; the real difference is below.
-
-{"find": "was discontinued.’ Pity", "replace": "was discontinued.’ Pity"}
-
-NONE

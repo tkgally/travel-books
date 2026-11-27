@@ -2496,9 +2496,11 @@
    "images": 406,
    "eligibility": "Vetted 2026-11-27 (Opus subagent). Rule 1: University of California scan with jp2.zip; all 25 listed plates found. Rule 2: not in pg_catalog.csv; Online Books Page: HathiTrust page images only; two sentences searched: nothing; a Lulu ebook for sale (not free; probably page images). Rule 3: print-on-demand facsimiles only (Lulu 2005 Million Book Project, Legare Street 2022, Stevens). Rule 4: first-person account of his 1903 journey. Not checked: Wikisource author search (rate-limited), WorldCat. Re-checked 2026-11-27 (session): not in a fresh pg_catalog.csv; web search: the Spectator's review, a Lulu facsimile for sale, booksellers; no free text.",
    "note": "University of California scan, 500 ppi, colour, clean. 25 photographic plates (frontispiece “The Village of Yezdikhast” and 24; some leaves with two); a sketch map of Shahpur in the text; the title page says “maps”: a folding map may be lost (pocket at the back) — a missing map does not stop a book. Preface, 25 chapters each with a verse epigraph, index; about 348 pp. Bushire to Shiraz, Persepolis, Isfahan, Tehran and the Caspian, with two Indian servants, an Afghan interpreter and a terrier. Quotations with long s from Franklin (1787).",
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-27",
-   "started": "2026-11-27"
+   "started": "2026-11-27",
+   "version": 1,
+   "published": "2026-11-27"
   },
   {
    "order": 260,
