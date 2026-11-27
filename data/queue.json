@@ -2114,10 +2114,11 @@
    "place": "New York (first published London, George Philip & Son, 1891)",
    "publisher": "Cassell Publishing Company",
    "images": 332,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-26",
-   "eligibility": "Vetted 2026-11-26 (Opus subagent). PG catalogue (mirror, whole file): no match on title or author. Online Books Page: only her Women Adventurers, Gallia, The Crook of the Bough. Wikisource: web search found nothing; the API was rate-limited, look again. Faded Page: not checkable (scripted search). Web search of a distinctive sentence: no text. Open Library and booksellers: print-on-demand only (Creative Media Partners, Franklin Classics, Kessinger facsimile 2010, CreateSpace); Tauchnitz 1891. No reset edition found (session's own search agrees).",
-   "note": "UCLA library scan, 400 ppi, jp2.zip and scandata, clean OCR. No illustrations seen in this New York edition (the London fifth edition of 1892, girlinkarpathian00normiala, black-and-white only, adds a preface and a portrait). A young Scotswoman's summer of 1890, riding and walking alone with local guides among the Hutsuls of the Galician Carpathians, staying with peasants and priests. First person, lively. Polish and Ruthenian words and place names."
+   "eligibility": "Vetted 2026-11-26 (Opus subagent). PG catalogue (mirror, whole file): no match on title or author. Online Books Page: only her Women Adventurers, Gallia, The Crook of the Bough. Wikisource: web search found nothing; the API was rate-limited, look again. Faded Page: not checkable (scripted search). Web search of a distinctive sentence: no text. Open Library and booksellers: print-on-demand only (Creative Media Partners, Franklin Classics, Kessinger facsimile 2010, CreateSpace); Tauchnitz 1891. No reset edition found (session's own search agrees). Re-checked 2026-11-27: pg_catalog.csv (full, mirror): none; web search: no reading text.",
+   "note": "UCLA library scan, 400 ppi, jp2.zip and scandata, clean OCR. No illustrations seen in this New York edition (the London fifth edition of 1892, girlinkarpathian00normiala, black-and-white only, adds a preface and a portrait). A young Scotswoman's summer of 1890, riding and walking alone with local guides among the Hutsuls of the Galician Carpathians, staying with peasants and priests. First person, lively. Polish and Ruthenian words and place names.",
+   "started": "2026-11-27"
   },
   {
    "order": 115,
@@ -2144,10 +2145,11 @@
    "place": "London",
    "publisher": "Charles H. Kelly",
    "images": 270,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-26",
-   "eligibility": "Rejected 2026-11-20 only for unknown death dates (rule 5, withdrawn 2026-11-26); vetted again 2026-11-26 (Opus subagent). First published 1896 as Across Siberia on the Great Post-Road; this is a reissue (Every Age Library) with a new preface. PG catalogue: no match. Wikisource: no page. Web search of a distinctive sentence: no text. Reprints: print-on-demand only (Creative Media Partners, Legare Street, HardPress, Hutson Street). Wellcome Collection: page images of 1896 only. Online Books Page and Faded Page not seen.",
-   "note": "UCLA library scan, 400 ppi, jp2.zip and scandata. No illustrations. Second copy fourthousandmile00wenyiala. A Methodist medical missionary's journey home from China in 1893: Vladivostock, by tarantass to Lake Khanka, steamer up the Ussuri, Amoor and Shilka, then the post-road over Baikal to the Urals. About 260 pages."
+   "eligibility": "Rejected 2026-11-20 only for unknown death dates (rule 5, withdrawn 2026-11-26); vetted again 2026-11-26 (Opus subagent). First published 1896 as Across Siberia on the Great Post-Road; this is a reissue (Every Age Library) with a new preface. PG catalogue: no match. Wikisource: no page. Web search of a distinctive sentence: no text. Reprints: print-on-demand only (Creative Media Partners, Legare Street, HardPress, Hutson Street). Wellcome Collection: page images of 1896 only. Online Books Page and Faded Page not seen. Re-checked 2026-11-27: pg_catalog.csv (full, mirror): none; web search: no reading text.",
+   "note": "UCLA library scan, 400 ppi, jp2.zip and scandata. No illustrations. Second copy fourthousandmile00wenyiala. A Methodist medical missionary's journey home from China in 1893: Vladivostock, by tarantass to Lake Khanka, steamer up the Ussuri, Amoor and Shilka, then the post-road over Baikal to the Urals. About 260 pages.",
+   "started": "2026-11-27"
   },
   {
    "order": 117,
