@@ -1,0 +1,54 @@
+# tess_compare: 446 pages; 43 word items; 7 pitch items; 0 empty items
+## Pages tesseract finds empty
+## Line pitch
+p0015: pitch 33 against the book's 46 (0.72): small type typed as body text?
+p0016: pitch 33 against the book's 46 (0.72): small type typed as body text?
+p0017: pitch 33 against the book's 46 (0.72): small type typed as body text?
+p0337: pitch 33 against the book's 46 (0.72): small type typed as body text?
+p0461: pitch 33 against the book's 46 (0.72): small type typed as body text?
+p0463: pitch 37 against the book's 46 (0.80): small type typed as body text?
+p0514: pitch 37 against the book's 46 (0.80): small type typed as body text?
+## Words
+p0033: print?   file “life”, tesseract “/ife”
+p0052: print?   file “qui”, tesseract “gui”
+p0063: print?   file “little”, tesseract “Jittle,”
+p0067: print?   file “lives”, tesseract “iives,”
+p0068: print?   file “Practical”, tesseract “‘Practica.”
+p0083: print?   file “fifty”, tesseract “jifty”
+p0106: print?   file “still”, tesseract “stil]”
+p0116: print?   file “tired”, tesseract “¢ived;”
+p0144: print?   file “fête”, tesseract “féte”
+p0147: print?   file “unexpectedly”, tesseract “whexpectedly”
+p0200: print?   file “both”, tesseract “Joth”
+p0206: print?   file “tonga”, tesseract “fonga”
+p0226: print?   file “not”, tesseract “xo¢;—”
+p0227: print?   file “débris”, tesseract “débrzs,”
+p0264: print?   file “Lazily”, tesseract “Liazily”
+p0266: print?   file “fruit”, tesseract “fruiti;”
+p0322: misread? file “rām”, tesseract “ram”
+p0326: print?   file “luxury”, tesseract “/uxury”
+p0333: print?   file “tonga”, tesseract “songa.”
+p0333: print?   file “tonga”, tesseract “‘songa”
+p0343: print?   file “into”, tesseract “intu”
+p0347: print?   file “located”, tesseract “Jocated.”
+p0362: print?   file “shikaris”, tesseract “shzkaris”
+p0377: print?   file “because”, tesseract “decause”
+p0381: print?   file “INDIA”, tesseract “NDIA”
+p0385: print?   file “large”, tesseract “/arge”
+p0386: print?   file “does”, tesseract “dees”
+p0387: print?   file “biting”, tesseract “Jditing,”
+p0398: print?   file “official”, tesseract “offcial”
+p0404: print?   file “believe”, tesseract “delieve”
+p0407: print?   file “boldly”, tesseract “boldJy”
+p0417: print?   file “history”, tesseract “Aistory”
+p0418: print?   file “but”, tesseract “dut”
+p0432: print?   file “length”, tesseract “/ength”
+p0434: print?   file “looked”, tesseract “/ooked”
+p0434: print?   file “depôt”, tesseract “depét,”
+p0435: print?   file “the”, tesseract “¢fe”
+p0454: print?   file “tonga”, tesseract “¢onga”
+p0470: print?   file “Two”, tesseract “Iwo”
+p0496: print?   file “Respected”, tesseract “Respecrep”
+p0498: print?   file “Honoured”, tesseract “Honourep”
+p0501: print?   file “Respected”, tesseract “ReEspEcTED”
+p0503: print?   file “remainder”, tesseract “emainder”
