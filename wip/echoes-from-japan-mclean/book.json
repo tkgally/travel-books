@@ -1,0 +1,15 @@
+{
+ "id": "echoes-from-japan-mclean",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "Echoes from Japan",
+ "short_title": "Echoes from Japan",
+ "authors": [{"name": "M. McLean", "sort": "McLean, M."}],
+ "place": "London",
+ "publisher": "Passmore & Alabaster",
+ "year": 1889,
+ "edition_statement": "Second edition",
+ "regions": ["Japan"],
+ "collection": "jatsi",
+ "source": {"ia_identifier": "echoesfromjapan00mclerich", "contributor": "University of California Libraries", "hidden_leaves": []}
+}

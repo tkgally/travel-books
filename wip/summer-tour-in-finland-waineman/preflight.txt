@@ -1,0 +1,67 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[ FAIL (1)] audit: book.json records the sampled audit of this version
+            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[ look (1)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0172: …bles with damp-|looking cloths … (hyphen removed; check)
+[       ok] joins: page joins: missing [[cont]]
+[ look (1)] folios: printed page numbers that break the sequence
+            - p0409: page 3 after page 318 (p0404)
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[       ok] contents: entries of the printed contents with no matching heading
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
+[       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
+[ look (4)] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
+            - p0025: opening in small capitals ('T<sc>he</sc> world is always a delight w'); most chapters open in full capitals
+            - p0104: opening in small capitals ('F<sc>or</sc> thousands of years the inte'); most chapters open in full capitals
+            - p0273: opening in small capitals ('“O<sc>ne</sc> second, single, to Torneå,'); most chapters open in full capitals
+            - p0383: opening in small capitals ('T<sc>he</sc> sunset as I left Fagervik w'); most chapters open in full capitals
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
+[look (12)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0005, p0011, p0013, p0014, p0015, p0016…); à (p0020, p0035, p0118, p0340, p0400, p0410…); å (p0399)
+            - borga: borga (p0061, p0087); borgå (p0014, p0023, p0074, p0076, p0077, p0079…)
+            - bors: bôrs (p0401); börs (p0343)
+            - detour: detour (p0202, p0226); détour (p0170)
+            - hango: hango (p0388, p0395, p0396); hangô (p0376, p0382, p0401); hangö (p0021, p0383, p0392, p0393, p0394); hangő (p0023)
+            - hogholmen: hôgholmen (p0401); högholmen (p0063)
+            - kuusto: kuusto (p0369); kuustô (p0402); kuustö (p0370)
+            - lonnrot: lônnrot (p0245, p0400, p0402); lõnnrot (p0143); lönnrot (p0015, p0017, p0242)
+            - pyhakoski: pyhakoski (p0017, p0023, p0242, p0253, p0254, p0257…); pyhäkoski (p0255)
+            - said: said (p0026, p0027, p0037, p0060, p0063, p0070…); saïd (p0432)
+            - standerskjold: standerskjold (p0334, p0339); standerskjôld (p0403)
+            - uleaborg: uleaborg (p0212); uleåborg (p0018, p0023, p0224, p0238, p0246, p0247…)
+[ look (1)] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+            - p0423: “tbe” in …ogy, and architecture of tbe town or district treated…
+[ look (3)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0044: “hoses” — “houses” is common (3121; a letter dropped or transposed?)
+            - p0280: “contant” — “constant” is common (563; a letter dropped or transposed?)
+            - p0423: “tbe” — “the” is common (545305)
+[       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
+[ look (4)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: …å, Viborg, the falls of Imatra, Sordavala and Lake Ladoga, Nyslott…
+            - book.json summary: …uthor describes towns, castles, inns and railways, farm life,…
+            - book.json summary: …ys, farm life, wedding customs, the Kalevala and its singers, Finnish…
+            - book.json omitted_from_reading: …The half-title, the printed contents and list of illustration…
+[       ok] line-breaks: a paragraph line that ends without a stop, followed on the next line by one that starts in lower case: a stray line break splitting a paragraph?
+[       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+[   unused] waiver matches nothing: {'check': 'leaves', 'match': 'p0122', 'why': 'the plate “Imatra Hotel and Falls”, cut off at the edge in this copy; replaced by p0122a from the second scan'}
+preflight FAIL: summer-tour-in-finland-waineman v1 — 1 to fix, 4 waived; to look at: hyphen-joins 1, folios 1, openings 4, accents 12, misprints 1, rare-forms 3, serial-commas 4 — tools@a06ef9e4 2026-11-27

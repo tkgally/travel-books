@@ -1,0 +1,1 @@
+{"n": 1, "is": "A", "print": ". <i>Cr. 8vo.</i>", "sure": "medium"}

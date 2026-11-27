@@ -2309,10 +2309,11 @@
    "place": "London",
    "publisher": "Passmore & Alabaster",
    "images": 332,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-27",
    "eligibility": "JATSI 77. Vetted 2026-11-27 (Opus subagent). Rule 1 met: University of California colour scan, 500 ppi, pages 9–315 with no gaps; the Cornell scan JATSI links (cu31924023490505, first edition, 1889) is Kirtas bilevel and spoils the halftones, so this second edition (title page: ‘(second edition.)’, same pagination; one page compared) is the one to use: say so in edition_statement. Rule 2 met: PG catalogue (author, title) no match; one web search: no free text; Wikisource and Online Books Page not searched separately. Rule 3 met: no post-1914 edition found. Rule 4 met: first-person memoir of nine years in Japan from 1872.",
-   "note": "A self-supporting Scottish woman evangelist: Nagasaki, Yokohama (teaching samurai sons, Bible readings for sailors), Hakone, Kobe, Osaka, Arima; ends with appeals and three appendices. Readable, much piety. Folding map of Japan; half-tone illustrations in the text, no printed list. Blackletter chapter titles; epigraphs; short footnotes; preface letter by S. Uyemura with statistics. Not the author of *A Gentle Jehu in Japan* (Ethel L. McLean)."
+   "note": "A self-supporting Scottish woman evangelist: Nagasaki, Yokohama (teaching samurai sons, Bible readings for sailors), Hakone, Kobe, Osaka, Arima; ends with appeals and three appendices. Readable, much piety. Folding map of Japan; half-tone illustrations in the text, no printed list. Blackletter chapter titles; epigraphs; short footnotes; preface letter by S. Uyemura with statistics. Not the author of *A Gentle Jehu in Japan* (Ethel L. McLean).",
+   "started": "2026-11-27"
   },
   {
    "order": 200,

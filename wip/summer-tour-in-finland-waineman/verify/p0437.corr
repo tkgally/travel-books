@@ -1,0 +1,3 @@
+{"find": "[[center]] <sc>printed by</sc>", "replace": "[[center]] PRINTED BY"}
+{"find": "[[center]] <sc>unwin brothers, limited,</sc>", "replace": "[[center]] UNWIN BROTHERS, LIMITED,"}
+{"find": "[[center]] <sc>london and woking.</sc>", "replace": "[[center]] LONDON AND WOKING."}
