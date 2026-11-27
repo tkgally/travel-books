@@ -1,0 +1,5 @@
+{"given": "“lift” of fog, a large", "print": "“lift” of the fog, a large", "sure": "high"}
+{"given": "she likewize seemed preparing for action", "print": "she likewise seemed preparing for action", "sure": "high"}
+{"given": "Russians having quitted if on the", "print": "Russians having quitted it on the", "sure": "high"}
+{"given": "Pique frigates had subsequeutly visited the", "print": "Pique frigates had subsequently visited the", "sure": "high"}
+{"given": "Amùr and Aian; and seen neither", "print": "Amùr and Aian, and seen neither", "sure": "high"}
