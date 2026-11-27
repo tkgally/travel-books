@@ -1,0 +1,5 @@
+{"given": "better than the japanese; and it", "print": "better than the Japanese; and it", "sure": "high"}
+{"given": "to see them treat poor Japs", "print": "to see them treat the poor Japs", "sure": "high"}
+{"given": "the back part of if runs", "print": "the back part of it runs", "sure": "high"}
+{"given": "what they mean, and it was", "print": "what they mean; and it was", "sure": "high"}
+{"given": "realize how ignoraut and blind", "print": "realize how ignorant and blind", "sure": "high"}

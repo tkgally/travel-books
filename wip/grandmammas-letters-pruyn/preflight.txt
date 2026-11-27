@@ -1,0 +1,105 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[ FAIL (1)] audit: book.json records the sampled audit of this version
+            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[ look (8)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0073: …ry regular col-|umns upon each … (hyphen removed; check)
+            - hyphen join at p0081: …d in the grave-|yard, dressed i… (hyphen removed; check)
+            - hyphen join at p0107: … grand thunder-|storm, and it w… (hyphen removed; check) — the book prints “thunder-storm” elsewhere: keep_hyphens?
+            - hyphen join at p0178: …this correspon-|dence, is the c… (hyphen removed; check)
+            - hyphen join at p0202: …ery uncomforta-|ble they are fo… (hyphen removed; check)
+            - hyphen join at p0206: …ed cottages em-|bowered in the … (hyphen removed; check)
+            - hyphen join at p0208: …ng them a pack-|age of crackers… (hyphen removed; check)
+            - (and 8 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[look (29)] contents: entries of the printed contents with no matching heading
+            - p0013: 'Twelve Hundred Miles at Sea.—Ship and Passengers.—Chinese Servants.—Th'
+            - p0013: 'Safe Arrival at Yokohama.—Sabbath Morning.—How the Japanese spend the '
+            - p0013: 'A Typhoon.—Little Carrie.—Her Trust in Jesus. 26'
+            - p0013: 'Children and Young Ladies coming to the Home in Yokohama.—The People a'
+            - p0013: 'Variety of Work.—Necessity for a Larger Building. More Teachers needed'
+            - p0013: 'Saving Pennies.—Japanese New Year.—How it is Observed.—Kites and Dolls'
+            - p0014: 'Nona.—Her Father and Mother.—Her Sad Childhood.—Her Temper.—Learning t'
+            - p0014: 'Anniversary of Leaving Home.—Excursion across the Bay.—A Japanese Boat'
+            - p0014: 'Every-Day Blessings.—A Great Religious Festival.—“Big Sunday.”—Chinese'
+            - p0014: 'The Children in Japan.—Great Number.—Excellent Natural Traits.—Sufferi'
+            - p0014: 'The Servants.—Their Family Altar.—The first one there for two Thousand'
+            - p0014: 'Our Visit to Sakuma, continued.—Curious Beds.—Sleeping and Eating on t'
+            - p0015: 'Sending away the Little Boys.—A Sad Day.—Annie.—“That is very Sweet.” '
+            - p0015: 'Earthquakes.—Effect on the Houses.—A Terrified Group.—Safe in Jesus’ C'
+            - p0015: 'The Little Folks’ Picnic.—The Grounds.—Tea-Table.—Games.—A Good Time. '
+            - p0015: 'Shidzooka.—Visit to an Old Temple.—Riding in the Jin-ri-ki-sha.—Great '
+            - p0015: 'The Children’s Bazaar.—Gifts from America.—A Happy Time. 138'
+            - p0015: 'The two dear Homes.—Minnie.—Her Prayer-Meeting. 142'
+            - p0015: 'Christmas in Yokohama—Christmas Tree.—Popping Corn.—A Merry Company.—A'
+            - p0015: 'Grandma enjoys Writing.—One of the Girls.—Visits a Sick Father.—Sings '
+            - p0016: 'To the Members of the Albany Industrial Schools.—The First Sunday Scho'
+            - p0016: 'Hakone.—A Delightful Summer Resort.—Japan Houses.—Gardens.—An Excited '
+            - p0016: 'To the Sunday School Children.—The First Free School in Japan.—The Sch'
+            - p0016: 'A Little “Kittie.”—A Happy Father.—“Large Thanks.” 181'
+            - p0016: '“The Fabulous History of Japan.”—Interesting Traditions. 187'
+            - p0016: 'A Mountain Trip.—Riding in an Improved Kago.—Caught in the Rain.—An Ex'
+            - p0016: 'Death of Kittie.—Her Christian Burial.—A Valuable Lesson.—A Bed-room i'
+            - p0016: 'Vacation.—Sea-side Resort.—A Kind Host—Singing Sacred Hymns. 209'
+            - p0016: 'Last Letter from Japan.—The Home and School established.—Lines by Miss'
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[ look (1)] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
+            - p0184: after the caption: 'I have not told you of what is more'
+[       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
+[       ok] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
+[       ok] accents: words the book spells with different accents (or with and without): look at each group on the scan
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[       ok] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+[       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
+[ look (6)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: …rican Mission Home in Yokohama, a home and school for girls and…
+            - book.json summary: …ren. These twenty-nine letters, written between 1871 and 1875 to her grandchi…
+            - book.json summary: …lbany, describe the voyage out, Yokohama and its people, the chil…
+            - book.json summary: …e out, Yokohama and its people, the children and servants of the Home…
+            - book.json summary: …ouses, and toys, an earthquake, the first Sunday school and free school there, a…
+            - book.json summary: …and trips to Shidzooka, Hakone, and the mountains by jinrikisha and kago.…
+[       ok] line-breaks: a paragraph line that ends without a stop, followed on the next line by one that starts in lower case: a stray line break splitting a paragraph?
+[look (21)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+            - p0017: “was His” in …hat I could not doubt it was His voice, to go fo…
+            - p0021: “may He” in …And may He grant His bless…
+            - p0026: “good He” in …and they do not know how good He is, nor how…
+            - p0026: “much He” in …how good He is, nor how much He loves them. Thi…
+            - p0028: “about His” in …ive people know anything about His command “Remember…
+            - p0031: “sure He” in …d send us here, and I am sure He will help us t…
+            - p0036: “loving He” in …ur God, and how good and loving He is; and then…
+            - p0042: “all He” in …e you will thank God for all He is doing; an…
+            - p0047: “sing His” in …been taught to pray, or sing His praise, yet I am…
+            - p0048: “believe He” in …e same blessed school? I believe He has, and it i…
+            - p0078: “see His” in …eases Him when we try to see His love and tende…
+            - p0093: “when He” in …Saviour, who went about when He was in this w…
+            - p0108: “believe He” in …akes me feel so safe, to believe He is  ;  Fathe…
+            - p0149: “become His” in …all our dear family may become His own children.…
+            - p0164: “when He” in …Christ was born, so that when He came to this w…
+            - p0179: “think He” in …ildren of America; but I think He has been very…
+            - p0203: “asked His” in …s crowded about Him, and asked His help in their…
+            - p0203: “if He” in …He healed them all.” O, if He were…
+            - p0204: “work He” in …e in Japan, what a great work He could do!…
+            - p0204: “but He” in …in His bodily presence, but He is the same…
+            - p0204: “seek His” in …people only knew how to seek His help, He would…
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight FAIL: grandmammas-letters-pruyn v1 — 1 to fix, 0 waived; to look at: hyphen-joins 8, contents 29, caption-tail 1, serial-commas 6, missing-stop 21 — tools@b98de12a 2026-11-27

@@ -1,0 +1,4 @@
+{"given": "put yourself last; and seek to", "print": "put yourself last, and seek to", "sure": "high"}
+{"given": "tell you about picnic our little folks", "print": "tell you about a picnic our little folks", "sure": "high"}
+{"given": "had on our beautifnl lawn.", "print": "had on our beautiful lawn.", "sure": "high"}
+{"given": "and at the back of if,—which", "print": "and at the back of it,—which", "sure": "high"}
