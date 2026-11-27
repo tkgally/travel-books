@@ -1,2 +1,0 @@
-{"n": 1, "is": "A", "print": "small square\n\n[[image: a Japanese lady in an elaborate patterned kimono with a long trailing robe, her hair dressed with ornaments]]\n[[caption]] Wife of a Daimio.\n\n[[cont]] table than ", "sure": "high"}
-{"n": 2, "is": "A", "print": "and from", "sure": "high"}
