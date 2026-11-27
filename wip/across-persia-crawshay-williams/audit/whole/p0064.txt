@@ -1,5 +1,0 @@
-{"given": "marching on in a twinkling; ever-changing mass?", "print": "marching on in a twinkling, ever-changing mass?", "sure": "high"}
-{"given": "At last to my eyes, weary amazed with", "print": "At last to my eyes, weary and amazed with", "sure": "high"}
-{"given": "they are detached bnildings, sometimes", "print": "they are detached buildings, sometimes", "sure": "high"}
-{"given": "filthy little rooms otherwize available.", "print": "filthy little rooms otherwise available.", "sure": "high"}
-{"given": "has a door, and if will actually shut", "print": "has a door, and it will actually shut", "sure": "high"}

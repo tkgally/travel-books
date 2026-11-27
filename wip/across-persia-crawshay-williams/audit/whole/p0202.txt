@@ -1,5 +1,0 @@
-{"given": "were more severe then to-day", "print": "were more severe than to-day", "sure": "high"}
-{"given": "some time ago. Today, custom", "print": "some time ago. To-day, custom", "sure": "medium"}
-{"given": "ceremony is over; the victims", "print": "ceremony is over, the victims", "sure": "high"}
-{"given": "brought in to be senteneed.", "print": "brought in to be sentenced.", "sure": "high"}
-{"given": "calming effect upon hasty temper", "print": "calming effect upon a hasty temper", "sure": "high"}

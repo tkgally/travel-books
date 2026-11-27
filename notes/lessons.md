@@ -242,6 +242,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   differences only, did 38 pages in ten minutes and found a printer's error and a wrong join the pipeline had passed.
 - Wide tables with blank cells (no dash) among dashed ones: drafts shift whole columns up or down a row (*Embassy* p2658,
   21 columns). Sum each column against the printed total by script, and read the blanks and dashes on a rotated crop.
+- Inscriptions in capitals without word spaces (Greek, *Across Persia*, 2026-11-27) overflow a 390 px screen: type them as `<verse>` (one printed line a line) and give the book `css_extra` `.book .verse .line { overflow-wrap: anywhere; }`; the rendered look measures `scrollWidth`.
 
 ## Trigger: quotations in another language
 
