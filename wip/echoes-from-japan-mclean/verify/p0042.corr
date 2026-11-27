@@ -1,6 +1,0 @@
-{"find": "for me,</i>”", "replace": "for me</i>,”"}
-{"find": "upon me for good", "replace": "upon me for good"}
-
-Wait — I need to correct that: the italic comma placement and one unchanged line should not both be listed. Corrected list:
-
-{"find": "me for good. Although", "replace": "me for good. Although"}

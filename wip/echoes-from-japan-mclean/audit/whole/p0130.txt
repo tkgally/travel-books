@@ -1,6 +1,0 @@
-{"given": "Chapter XII.", "print": "CHAPTER XII.", "sure": "medium"}
-{"given": "hands; and set her own works", "print": "hands; and let her own works", "sure": "high"}
-{"given": "than their neighbours in china.", "print": "than their neighbours in China.", "sure": "high"}
-{"given": "has greater reference the home-life than", "print": "has greater reference to the home-life than", "sure": "high"}
-{"given": "gentle humouring and reafoning with the", "print": "gentle humouring and reasoning with the", "sure": "high"}
-{"given": "At home; she learns to", "print": "At home, she learns to", "sure": "high"}

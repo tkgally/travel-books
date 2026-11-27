@@ -1,0 +1,14 @@
+{
+ "id": "round-black-mans-garden-colvile",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "Round the Black Man’s Garden",
+ "short_title": "Round the Black Man’s Garden",
+ "authors": [{"name": "Zélie Colvile", "sort": "Colvile, Zélie"}],
+ "place": "Edinburgh and London",
+ "publisher": "William Blackwood and Sons",
+ "year": 1893,
+ "edition_statement": "First edition",
+ "regions": ["Egypt", "Sudan", "Yemen", "Kenya", "Tanzania", "Madagascar", "Mozambique", "South Africa", "Canary Islands", "Liberia", "Ghana", "Nigeria"],
+ "source": {"ia_identifier": "roundblackmansga01colv_0", "contributor": "Duke University Libraries", "hidden_leaves": [0, 9, 10, 439]}
+}

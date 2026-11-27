@@ -1,5 +1,0 @@
-{"given": "from the Gentiles; nor from", "print": "from the Gentiles, nor from", "sure": "high"}
-{"given": "what they where willing to", "print": "what they were willing to", "sure": "high"}
-{"given": "in the City Osaka and", "print": "in the City of Osaka and", "sure": "high"}
-{"given": "of the Osaka church, and", "print": "of the Osaka Church, and", "sure": "high"}
-{"given": "Sakai the greatcr part of", "print": "Sakai the greater part of", "sure": "high"}

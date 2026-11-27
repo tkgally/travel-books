@@ -1,5 +1,0 @@
-{"given": "in Cambridge, in order pursue the", "print": "in Cambridge, in order to pursue the", "sure": "high"}
-{"given": "Please tell me whether; and when,", "print": "Please tell me whether, and when,", "sure": "high"}
-{"given": "I shall he so pleased", "print": "I shall be so pleased", "sure": "high"}
-{"given": "His children, whcther at home, or", "print": "His children, whether at home, or", "sure": "high"}
-{"given": "heard of the Savior’s love, would", "print": "heard of the Saviour’s love, would", "sure": "high"}
