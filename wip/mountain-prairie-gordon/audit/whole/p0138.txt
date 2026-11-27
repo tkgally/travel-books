@@ -1,0 +1,5 @@
+{"given": "enforced pauses of life; and utilized", "print": "enforced pauses of life, and utilized", "sure": "high"}
+{"given": "which leads over low rolliug hills", "print": "which leads over low rolling hills", "sure": "high"}
+{"given": "between this and the omenica district", "print": "between this and the Omenica district", "sure": "high"}
+{"given": "seems as if if might be", "print": "seems as if it might be", "sure": "high"}
+{"given": "Gold was discovered Omenica in 1872", "print": "Gold was discovered in Omenica in 1872", "sure": "high"}

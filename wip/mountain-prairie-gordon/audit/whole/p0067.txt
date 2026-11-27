@@ -1,0 +1,5 @@
+{"given": "as fierce, turbulent; and unchaste", "print": "as fierce, turbulent, and unchaste", "sure": "high"}
+{"given": "centres, and his has been simplified", "print": "centres, and this has been simplified", "sure": "high"}
+{"given": "they can procnre an abundant", "print": "they can procure an abundant", "sure": "high"}
+{"given": "his home at metlahkatlah was", "print": "his home at Metlahkatlah was", "sure": "high"}
+{"given": "of his conversion Christianity, or", "print": "of his conversion to Christianity, or", "sure": "high"}

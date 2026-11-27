@@ -1,0 +1,5 @@
+{"given": "rises fifteen on twenty feet", "print": "rises fifteen or twenty feet", "sure": "high"}
+{"given": "and the slopes bushes along", "print": "and the slopes and bushes along", "sure": "high"}
+{"given": "struggling up strcam with", "print": "struggling up stream with", "sure": "high"}
+{"given": "the Hudson’s Bay company. Such", "print": "the Hudson’s Bay Company. Such", "sure": "high"}
+{"given": "rivals are called; if dependent", "print": "rivals are called, if dependent", "sure": "high"}
