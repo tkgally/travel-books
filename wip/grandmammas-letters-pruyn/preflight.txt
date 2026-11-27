@@ -12,12 +12,10 @@
 [       ok] nav: contents: at least one reading division; each has a title and text
 [       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
-[ FAIL (1)] audit: book.json records the sampled audit of this version
-            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
-[ look (8)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+[       ok] audit: book.json records the sampled audit of this version
+[ look (7)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0073: …ry regular col-|umns upon each … (hyphen removed; check)
             - hyphen join at p0081: …d in the grave-|yard, dressed i… (hyphen removed; check)
-            - hyphen join at p0107: … grand thunder-|storm, and it w… (hyphen removed; check) — the book prints “thunder-storm” elsewhere: keep_hyphens?
             - hyphen join at p0178: …this correspon-|dence, is the c… (hyphen removed; check)
             - hyphen join at p0202: …ery uncomforta-|ble they are fo… (hyphen removed; check)
             - hyphen join at p0206: …ed cottages em-|bowered in the … (hyphen removed; check)
@@ -102,4 +100,4 @@
             - p0204: “seek His” in …people only knew how to seek His help, He would…
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: grandmammas-letters-pruyn v1 — 1 to fix, 0 waived; to look at: hyphen-joins 8, contents 29, caption-tail 1, serial-commas 6, missing-stop 21 — tools@b98de12a 2026-11-27
+preflight PASS: grandmammas-letters-pruyn v1 — 0 to fix, 0 waived; to look at: hyphen-joins 7, contents 29, caption-tail 1, serial-commas 6, missing-stop 21 — tools@af201b1c 2026-11-27

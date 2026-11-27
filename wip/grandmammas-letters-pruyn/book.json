@@ -200,7 +200,9 @@
   }
  ],
  "waivers": [],
- "keep_hyphens": [],
+ "keep_hyphens": [
+  "p0107"
+ ],
  "summary": [
   "Mary Pruyn, of Albany, New York, went to Japan in 1871, when she was over fifty, as a missionary, and worked at the American Mission Home in Yokohama, a home and school for girls and children. These twenty-nine letters, written between 1871 and 1875 to her grandchildren and to Sunday-school and industrial-school children in Albany, describe the voyage out, Yokohama and its people, the children and servants of the Home, Japanese festivals, temples, houses, and toys, an earthquake, the first Sunday school and free school there, and trips to Shidzooka, Hakone, and the mountains by jinrikisha and kago.",
   "The letters are written for children and are religious in purpose; she asks her readers to pray for and support the work. The book ends with a hymn."
@@ -221,5 +223,13 @@
    "date": "2026-11-27",
    "note": "First publication."
   }
- ]
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-27",
+  "pages": 6,
+  "recall": "27/27",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }
