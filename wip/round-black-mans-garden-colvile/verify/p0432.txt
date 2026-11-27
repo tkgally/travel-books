@@ -1,0 +1,99 @@
+[[page 344]]
+
+Jeddah, <pref>17</pref>.
+Johannesburg, <pref>251</pref>, <pref>261</pref>.
+Ju-ju Town, <pref>313</pref>.
+
+Kabàry plain, <pref>157</pref>.
+Kàmolàndy river, <pref>198</pref>.
+Karàmbily, <pref>210</pref>.
+Kimberley, <pref>264</pref>.
+Kinàjy, <pref>193</pref>.
+Klerksdorp, <pref>263</pref>.
+
+Lamu, <pref>57</pref>.
+Lang’s Nek, <pref>247</pref>.
+Las Palmas, <pref>271</pref>.
+Libreville, <pref>296</pref>.
+Lorenzo Marquez, <pref>236</pref>.
+
+Maattinsinzoarivo fort, <pref>98</pref>.
+Madagascar, <pref>80</pref>.
+Mahàridàza, <pref>192</pref>.
+Mahèla river, <pref>132</pref>.
+Majuba Hill, <pref>247</pref>.
+Makosospruit, <pref>264</pref>.
+Malàtsy, <pref>199</pref>.
+Mànambònitrà, <pref>135</pref>.
+Manda Island, <pref>57</pref>.
+Mangoro valley, <pref>145</pref>.
+Màravoày, <pref>214</pref>.
+Maritzburg, <pref>241</pref>.
+Màrohàrona, <pref>197</pref>.
+Màrokolòsy pass, <pref>201</pref>.
+Massowah, <pref>34</pref>.
+Mavetanana, <pref>204</pref>.
+Mayotta Island, <pref>85</pref>.
+Michelson’s Store, <pref>247</pref>.
+Mojànga, <pref>226</pref>.
+Mombasa Island, <pref>53</pref>.
+Monrovia, <pref>334</pref>.
+Mòramànga, <pref>145</pref>.
+Mozambique, <pref>229</pref>.
+
+Natal, <pref>240</pref>.
+Nosy-Bé, <pref>88</pref>.
+Nòsy-Vé lake, <pref>116</pref>.
+
+Orotava, <pref>276</pref>.
+
+Palmas, Cape, <pref>287</pref>.
+Pamanzi, <pref>86</pref>.
+Perim Island, <pref>46</pref>.
+“Point Orange,’ <pref>93</pref>.
+Potchefstroom, <pref>263</pref>.
+Pretoria, <pref>255</pref>.
+Prince’s Island, <pref>295</pref>.
+“Prunes, l’Île des,’ <pref>105</pref>.
+
+Quilimane, <pref>232</pref>.
+Quitta, <pref>326</pref>.
+
+Rasòabè lake, <pref>127</pref>.
+
+Saati, <pref>36</pref>.
+Sainte Marie, <pref>103</pref>.
+Samburu, <pref>65</pref>.
+Santa Cruz, <pref>276</pref>.
+Sass Town, <pref>285</pref>.
+Shadwan Island, <pref>9</pref>.
+Shella, <pref>57</pref>.
+Sherm Ràbigh, <pref>16</pref>.
+Sierra Leone, <pref>283</pref>, <pref>337</pref>.
+Standerton, <pref>249</pref>.
+Suakin, <pref>24</pref>.
+Suez, <pref>2</pref>.
+
+Tabu, <pref>287</pref>.
+Tamatave, <pref>105</pref>.
+Tàmponbòhitra, <pref>156</pref>.
+Tànimàndry, <pref>131</pref>.
+Thàroka river, <pref>129</pref>.
+Tor, <pref>7</pref>.
+Transvaal, <pref>247</pref>.
+Trinkitat, <pref>33</pref>.
+
+Umgeni river, <pref>242</pref>.
+
+Vavony, <pref>129</pref>.
+Venice, <pref>1</pref>.
+
+“Windsor Castle,” <pref>91</pref>, <pref>93</pref>.
+Winnebah, <pref>289</pref>.
+
+Yembo, <pref>9</pref>.
+
+Zanzibar, <pref>70</pref>.
+Zaoudzi Island, <pref>85</pref>.
+
+[[center]] PRINTED BY WILLIAM BLACKWOOD AND SONS.

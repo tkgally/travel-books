@@ -4,11 +4,168 @@
  "date": "2026-11-27",
  "title": "Round the Black Man’s Garden",
  "short_title": "Round the Black Man’s Garden",
- "authors": [{"name": "Zélie Colvile", "sort": "Colvile, Zélie"}],
+ "authors": [
+  {
+   "name": "Zélie Colvile",
+   "sort": "Colvile, Zélie"
+  }
+ ],
  "place": "Edinburgh and London",
  "publisher": "William Blackwood and Sons",
  "year": 1893,
  "edition_statement": "First edition",
- "regions": ["Egypt", "Sudan", "Yemen", "Kenya", "Tanzania", "Madagascar", "Mozambique", "South Africa", "Canary Islands", "Liberia", "Ghana", "Nigeria"],
- "source": {"ia_identifier": "roundblackmansga01colv_0", "contributor": "Duke University Libraries", "hidden_leaves": [0, 9, 10, 439]}
+ "regions": [
+  "Egypt",
+  "Sudan",
+  "Yemen",
+  "Kenya",
+  "Tanzania",
+  "Madagascar",
+  "Mozambique",
+  "South Africa",
+  "Canary Islands",
+  "Liberia",
+  "Ghana",
+  "Nigeria"
+ ],
+ "source": {
+  "ia_identifier": "roundblackmansga01colv_0",
+  "contributor": "Duke University Libraries",
+  "hidden_leaves": [
+   0,
+   9,
+   10,
+   439
+  ]
+ },
+ "period": "1888–89",
+ "frontispiece": "p0008-1",
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "front"
+  },
+  {
+   "at": "p0011",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0013",
+   "kind": "dedication"
+  },
+  {
+   "at": "p0015",
+   "kind": "preface"
+  },
+  {
+   "at": "p0019",
+   "kind": "contents"
+  },
+  {
+   "at": "p0021",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0026",
+   "kind": "front",
+   "reading": true,
+   "title": "Map of Africa"
+  },
+  {
+   "at": "p0027",
+   "kind": "front",
+   "title": "The book’s title above Book I"
+  },
+  {
+   "at": "p0027",
+   "kind": "chapter",
+   "n": 2
+  },
+  {
+   "at": "p0431",
+   "kind": "index"
+  },
+  {
+   "at": "p0435",
+   "kind": "back",
+   "reading": true,
+   "title": "Map of Central Madagascar"
+  }
+ ],
+ "toc_entries": [
+  {
+   "at": "p0027",
+   "starts": "I",
+   "title": "I. Alexandria to Suakin"
+  },
+  {
+   "at": "p0053",
+   "starts": "II",
+   "title": "II. Suakin to Aden"
+  },
+  {
+   "at": "p0126",
+   "starts": "I",
+   "title": "I. Zanzibar to Tamatave"
+  },
+  {
+   "at": "p0168",
+   "starts": "II",
+   "title": "II. Tamatave into the Hova country"
+  },
+  {
+   "at": "p0203",
+   "starts": "III",
+   "title": "III. Through the Hova country to the capital"
+  },
+  {
+   "at": "p0239",
+   "starts": "IV",
+   "title": "IV. The capital to Mojànga"
+  },
+  {
+   "at": "p0348",
+   "starts": "I",
+   "title": "I. Goree to Bonny"
+  },
+  {
+   "at": "p0380",
+   "starts": "II",
+   "title": "II. Bonny and the Oil Rivers"
+  },
+  {
+   "at": "p0410",
+   "starts": "III",
+   "title": "III. The voyage home"
+  }
+ ],
+ "omitted_from_reading": "The half-title, the printed contents and list of illustrations, and the index are in the JSON only.",
+ "notes_on_text": [
+  "Some of the eight Books are divided into numbered sections without titles; the titles given to these sections in the contents are the editor’s."
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-27",
+   "note": "First publication."
+  }
+ ],
+ "summary": "Zélie Colvile’s account of eight months spent travelling round Africa with her husband, Henry Colvile, in 1888–89, after their doctors told them to winter in a warm climate. From Venice they went by Alexandria and the Red Sea, calling at Jeddah, Suakin, Massowah, and Aden, then down the east coast by Lamu and Mombasa to Zanzibar. From Tamatave they crossed Madagascar to the capital, Antananarivo, and on to Mojànga on the west coast, carried in palanquins, as guests of the French Resident-General, Le Myre de Vilers. They went on by Mozambique and Delagoa Bay to Durban, the Transvaal goldfields and Pretoria, and the Kimberley diamond mines; then from Cape Town to the Canary Islands, and home along the West African coast, calling at Freetown, Accra, Libreville, and Bonny. The book has 32 plates and 20 smaller pictures from the author’s drawings and from photographs, and two maps.",
+ "waivers": [
+  {
+   "check": "spacing",
+   "match": "p0021",
+   "why": "ditto marks in the list of illustrations (“To face page” repeated), printed as such"
+  },
+  {
+   "check": "leaves",
+   "match": "p0433",
+   "why": "blank flyleaf at the back; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0434",
+   "why": "library date-due slip; not part of the book"
+  }
+ ]
 }

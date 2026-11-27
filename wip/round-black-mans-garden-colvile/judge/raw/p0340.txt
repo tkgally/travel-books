@@ -1,0 +1,2 @@
+{"n": 1, "is": "A", "print": "carved\n\n[[image: photograph of women washing clothes among the stones at the water's edge, with baskets of linen, hills in the distance]]\n[[caption]] <i>Washerwomen, Las Palmas.</i>\n\n[[cont]]doors; but", "sure": "high"}
+{"n": 2, "is": "A", "print": "a-house, and", "sure": "high"}

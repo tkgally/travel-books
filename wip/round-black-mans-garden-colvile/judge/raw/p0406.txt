@@ -1,0 +1,2 @@
+{"n": 1, "is": "B", "print": "supported by\n\n[[image: photograph of a group of African men, women and children on and around the steps and verandah of a two-storeyed wooden house, with barrels and a shed behind]]\n[[caption]] “<i>Charles Holliday</i>” <i>and Family.</i>\n\ntall wooden", "sure": "high"}
+{"n": 2, "is": "B", "print": "from the", "sure": "high"}
