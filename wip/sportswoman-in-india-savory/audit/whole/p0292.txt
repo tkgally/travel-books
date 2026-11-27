@@ -1,0 +1,5 @@
+{"given": "two more bullets were as uselefs as the first", "print": "two more bullets were as useless as the first", "sure": "high"}
+{"given": "tramp, hotter this time; another long wait", "print": "tramp, hotter this time, another long wait", "sure": "high"}
+{"given": "had had a good deal of exercize;", "print": "had had a good deal of exercise;", "sure": "high"}
+{"given": "It would he tedious to describe", "print": "It would be tedious to describe", "sure": "high"}
+{"given": "Once, as we climbed hill, we suddenly", "print": "Once, as we climbed a hill, we suddenly", "sure": "high"}

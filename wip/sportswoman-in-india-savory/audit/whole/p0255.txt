@@ -1,0 +1,5 @@
+{"given": "winter; all lying closely packed", "print": "winter, all lying closely packed", "sure": "high"}
+{"given": "In the early summcr a pair", "print": "In the early summer a pair", "sure": "high"}
+{"given": "We where rather anxious to", "print": "We were rather anxious to", "sure": "high"}
+{"given": "little sentinels sat up whistled unmolested", "print": "little sentinels sat up and whistled unmolested", "sure": "high"}
+{"given": "spot which the resident and his", "print": "spot which the Resident and his", "sure": "high"}

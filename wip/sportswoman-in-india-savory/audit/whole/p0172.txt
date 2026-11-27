@@ -1,0 +1,5 @@
+{"given": "near snows. In the sixties", "print": "near the snows. In the sixties", "sure": "high"}
+{"given": "to feel tea-inclined; when the", "print": "to feel tea-inclined, when the", "sure": "high"}
+{"given": "and bad left him there", "print": "and had left him there", "sure": "high"}
+{"given": "Leaving alwas, they followed", "print": "Leaving Alwas, they followed", "sure": "high"}
+{"given": "on the grassy slopcs ahead", "print": "on the grassy slopes ahead", "sure": "high"}

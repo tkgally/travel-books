@@ -14,9 +14,7 @@
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
 [ FAIL (1)] audit: book.json records the sampled audit of this version
             - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
-[ look (4)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
-            - hyphen join at p0271: …of the camping-|ground by a dit… (hyphen removed; check) — the book prints “camping-ground” elsewhere: keep_hyphens?
-            - hyphen join at p0431: …amarinds, gold-|dropping laburn… (hyphen removed; check) — the book hyphenates other “gold-” words: keep_hyphens?
+[ look (2)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0483: …would have con-|stituted a shri… (hyphen removed; check)
             - (and 1 joins giving a word the book prints whole elsewhere: not listed)
 [ look (2)] joins: page joins: missing [[cont]]
@@ -37,40 +35,27 @@
             - p0043: verse continued from p0042: stanzas before [] | here [6] (a stanza ending at the page foot needs no [[cont]])
             - p0515: verse continued from p0514: stanzas before [8, 8, 4] | here [4] (a stanza ending at the page foot needs no [[cont]])
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
-[look (19)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+[look (11)] accents: words the book spells with different accents (or with and without): look at each group on the scan
             - a: a (p0005, p0011, p0015, p0016, p0017, p0019…); à (p0220, p0499)
             - bagh: bagh (p0362, p0372); bāgh (p0016, p0247, p0263, p0269, p0270, p0272…)
-            - bara: bara (p0058, p0109, p0249); bárá (p0016, p0295, p0312, p0319, p0321); bárâ (p0316); bârá (p0320)
+            - bara: bara (p0058, p0109, p0249); bárá (p0016, p0295, p0312, p0316, p0319, p0320…)
             - chenar: chenar (p0215); chenār (p0263, p0270, p0272)
-            - diwan: diwán (p0411, p0412); diwân (p0025)
-            - godavari: godávari (p0486, p0487); godâvari (p0357, p0358)
             - jamu: jamu (p0228); jāmu (p0335)
-            - jehan: jehán (p0022, p0023, p0064, p0398, p0408); jehân (p0025, p0407, p0418)
-            - khas: khás (p0411, p0412); khâs (p0025)
             - lal: lal (p0125, p0171); lāl (p0481)
             - machan: machân (p0357); machān (p0350, p0353, p0354, p0362, p0375, p0454)
             - mahal: mahal (p0411); mahál (p0022, p0023, p0027, p0029)
-            - musalman: musalmán (p0029); musalmân (p0025)
             - pathans: pathans (p0086, p0106); pathāns (p0451)
-            - shah: sháh (p0022, p0023, p0064, p0095, p0398, p0408…); shâh (p0025, p0407, p0418)
             - shalimar: shalimar (p0064); shalimār (p0016, p0247, p0263, p0269)
-            - suliman: sulimán (p0264); sulimân (p0262)
-            - syces: syces (p0076, p0165, p0210, p0251, p0263, p0343…); sycès (p0165)
             - taj: taj (p0015, p0019, p0022, p0023, p0025, p0064…); táj (p0022, p0027, p0029)
-[ look (1)] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
-            - p0501: “witb” in …act, flattery is laid on witb creation’s shovel.
-
-Lett…
-[look (10)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[ look (8)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
             - p0034: “rinking” — “drinking” is common (374; a letter dropped or transposed?)
             - p0075: “stokes” — “strokes” is common (50; a letter dropped or transposed?)
             - p0080: “bunds” — “bounds” is common (86; a letter dropped or transposed?)
             - p0082: “tailing” — “failing” is common (93)
-            - p0240: “tully” — “fully” is common (549)
             - p0390: “bis” — “his” is common (34566)
             - p0420: “barer” — “bearer” is common (85; a letter dropped or transposed?)
             - p0490: “extremitie” — “extremities” is common (70; a letter dropped or transposed?)
-            - p0501: “witb” — “with” is common (63590)
             - p0516: “hoots” — “boots” is common (440)
 [       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
 [ look (4)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
@@ -82,4 +67,4 @@ Lett…
 [       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: sportswoman-in-india-savory v1 — 1 to fix, 2 waived; to look at: hyphen-joins 4, joins 2, quote-balance 1, verse-joins 2, accents 19, misprints 1, rare-forms 10, serial-commas 4 — tools@c49e1d7d 2026-11-27
+preflight FAIL: sportswoman-in-india-savory v1 — 1 to fix, 2 waived; to look at: hyphen-joins 2, joins 2, quote-balance 1, verse-joins 2, accents 11, rare-forms 8, serial-commas 4 — tools@24aa7808 2026-11-27
