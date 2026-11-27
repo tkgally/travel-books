@@ -14,10 +14,17 @@ Scan check (Opus subagent, 2026-11-27): folios of all leaves by OCR; 11 sheets; 
 Notes: a two-column menu (p. 287), a tombstone address in small type (p. 259), an inscription (p. 261), a pidgin-English letter (p. 319); French phrases; Malagasy names with grave accents (Antànanarìvo).
 
 ## Decisions
+- Corrections pass (Sonnet, $13.97): 29 changes; it typed 10 in-text pictures mid-paragraph with `[[cont]]`: `move_pictures.py` put 13 back after their paragraphs; its `[[cont]]` proposal at p0314 was wrong (flush). Judge (25 spots, $0.67): verifier 24, draft 1; 17 looked at by the spot-read: all held.
+- Structure: the eight Books are the chapters; the book's title above Book I a `front` division; numbered sections of Books I, IV and VIII given editor's titles (places, from a Sonnet subagent reading the text) as `toc_entries`, so the long Books are split at them; said in `notes_on_text`. The Africa map (p0026, after the list of illustrations) and the Madagascar pocket map (p0435) are reading pages of their own (“Map of Africa”, “Map of Central Madagascar”; assumed). Picture keys made part of their `[[caption]]` lines (p0165, p0370). p0326 (a tombstone address in small type) set as `<blockquote>`. Title-page motto as `[[center]]` lines.
+- Spot-read (Opus subagent, with tesseract): accents made as printed (Karàmbìly, Antànanarìvo in the index), a folio, ditto marks in the list of illustrations as ″, a letter heading in two lines; no printed misprint found. keep_hyphens p0172, p0208, p0221, p0380.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-27 | opus | 427 | 28.02 | 0 refused |
+| corrections | 2026-11-27 | sonnet | 427 | 13.97 | |
+| judge | 2026-11-27 | opus | 25 spots | 0.67 | |
+| audit | 2026-11-27 | opus | 6 | 0.35 | 30/30, 0 candidates |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
