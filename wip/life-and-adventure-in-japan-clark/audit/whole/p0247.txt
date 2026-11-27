@@ -1,0 +1,5 @@
+{"given": "The new pennies; which had", "print": "The new pennies, which had", "sure": "high"}
+{"given": "constructed by the japanese. Each", "print": "constructed by the Japanese. Each", "sure": "high"}
+{"given": "the exact weight rcquired by", "print": "the exact weight required by", "sure": "high"}
+{"given": "scale-pans, all enclosed glass cases,", "print": "scale-pans, all enclosed in glass cases,", "sure": "high"}
+{"given": "to one side; it it is", "print": "to one side; if it is", "sure": "high"}

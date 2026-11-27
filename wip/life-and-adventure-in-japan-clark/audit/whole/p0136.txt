@@ -1,0 +1,5 @@
+{"given": "situated just below us; and though", "print": "situated just below us, and though", "sure": "high"}
+{"given": "quarters, leaving coolies to get along", "print": "quarters, leaving the coolies to get along", "sure": "high"}
+{"given": "in the other shauty. We also", "print": "in the other shanty. We also", "sure": "high"}
+{"given": "walls, as if was merely a", "print": "walls, as it was merely a", "sure": "high"}
+{"given": "the limited accommodations for cooking.", "print": "the limited accommodations fur cooking.", "sure": "low"}

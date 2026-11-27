@@ -1,0 +1,5 @@
+{"given": "expression for anyone accustomed to sleep", "print": "expression for any one accustomed to sleep", "sure": "medium"}
+{"given": "simply comes to you, and the style", "print": "simply comes to you; and the style", "sure": "high"}
+{"given": "like a Jap dress on big scale", "print": "like a Jap dress on a big scale", "sure": "high"}
+{"given": "But the difsiculty is that these", "print": "But the difficulty is that these", "sure": "high"}
+{"given": "nestled in sleep then they begin", "print": "nestled in sleep when they begin", "sure": "high"}
