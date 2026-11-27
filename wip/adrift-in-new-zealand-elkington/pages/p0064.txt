@@ -17,4 +17,4 @@ The languid man looked contemptuously at his friend.
 
 “Look here,” he said, turning to me, “would you really like to take his job? It’s no good to him, and I’m an inspector and can put you on—that is if you’ll promise to work.”
 
-“I’ll certainly promise to do my best,” I said, ‘but I can’t vouch for the result.”
+“I’ll certainly promise to do my best,” I said, [[corr ‘|“]]but I can’t vouch for the result.”

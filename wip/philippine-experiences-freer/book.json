@@ -81,7 +81,12 @@
  ],
  "frontispiece": "p0008-1",
  "waivers": [],
- "keep_hyphens": [],
+ "keep_hyphens": [
+  "p0108",
+  "p0118",
+  "p0159",
+  "p0189"
+ ],
  "ornaments": [
   "p0170-1"
  ],
@@ -104,5 +109,13 @@
    "date": "2026-11-27",
    "note": "First publication."
   }
- ]
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-27",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }

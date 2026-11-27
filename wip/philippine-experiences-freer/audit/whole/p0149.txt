@@ -1,0 +1,5 @@
+{"given": "my Solano days where rapidly drawing", "print": "my Solano days were rapidly drawing", "sure": "high"}
+{"given": "directing me to report in manila", "print": "directing me to report in Manila", "sure": "high"}
+{"given": "arrived; two them were to succeed", "print": "arrived; two of them were to succeed", "sure": "high"}
+{"given": "as deputy divifion superintendent of the", "print": "as deputy division superintendent of the", "sure": "high"}
+{"given": "other preparations for departure; after which,", "print": "other preparations for departure, after which,", "sure": "high"}

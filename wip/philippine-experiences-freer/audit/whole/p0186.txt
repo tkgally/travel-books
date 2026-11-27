@@ -1,0 +1,5 @@
+{"given": "the town who where able", "print": "the town who were able", "sure": "high"}
+{"given": "the building together; used in", "print": "the building together, used in", "sure": "high"}
+{"given": "even more, it supplied maestro paid", "print": "even more, it supplied a maestro paid", "sure": "high"}
+{"given": "from its ncarly empty treasury", "print": "from its nearly empty treasury", "sure": "high"}
+{"given": "day, the american flag floated", "print": "day, the American flag floated", "sure": "high"}

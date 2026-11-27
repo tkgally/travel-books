@@ -1,0 +1,5 @@
+{"given": "and excellent neighbors, and we soon", "print": "and excellent neighbors; and we soon", "sure": "high"}
+{"given": "My new qnarters contained among other", "print": "My new quarters contained among other", "sure": "high"}
+{"given": "spoke together in english, and, having", "print": "spoke together in English, and, having", "sure": "high"}
+{"given": "they advanced rapidly. If was not long", "print": "they advanced rapidly. It was not long", "sure": "high"}
+{"given": "and interpreted his remarks the assembled townspeople", "print": "and interpreted his remarks to the assembled townspeople", "sure": "high"}
