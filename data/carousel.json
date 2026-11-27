@@ -167,6 +167,12 @@
    "height": 412,
    "sha256": "d4706079d164dc9e68c98fb89bb1f799c3ea619a4ef4e99a47733bd894b92239"
   },
+  "four-thousand-miles-across-siberia-wenyon": {
+   "image": "cover",
+   "width": 283,
+   "height": 450,
+   "sha256": "c786acd3797312855613d9c8a33186c1d4dae8d322e978efeef64d19adc7b69d"
+  },
   "from-japan-to-jerusalem-ingham": {
    "image": "cover",
    "width": 274,
@@ -185,11 +191,23 @@
    "height": 450,
    "sha256": "b66550e5fd994f4328857fe5f77d1c892130877da5e6fc1961b3c534bf39f3f5"
   },
+  "girl-in-the-karpathians-dowie": {
+   "image": "cover",
+   "width": 299,
+   "height": 450,
+   "sha256": "249a520af75fffd2c2021051f9cdbc4904db0167ada73d864a587a8273f9c7c1"
+  },
   "golden-dagon-palmer": {
    "image": "cover",
    "width": 300,
    "height": 414,
    "sha256": "67f92cc36f4d0d3a7eb379c87703ebd786f5f139ed294c7a715daf6a360f6eb4"
+  },
+  "grandmammas-letters-pruyn": {
+   "image": "cover",
+   "width": 300,
+   "height": 414,
+   "sha256": "5469f4822c80f0284d8c7d89d0c8d65e3758befef0286fe853fdc0cbbd26b8e3"
   },
   "here-and-there-among-the-alps-plunket": {
    "image": "cover",
@@ -314,6 +332,12 @@
    "sha256": "0cf0d11c626746f9c87e05e6cb74db884ac5dc45f4c3fa413d0145621c6e1882",
    "note": "gilt title readable; library label"
   },
+  "life-and-adventure-in-japan-clark": {
+   "image": "cover",
+   "width": 300,
+   "height": 444,
+   "sha256": "3fb7b36e9ee6c749d065f659aea26f1e628be59cc117fda5f20b3e2b82775a2e"
+  },
   "mexican-trails-kirkham": {
    "image": "cover",
    "width": 300,
@@ -325,6 +349,12 @@
    "width": 276,
    "height": 450,
    "sha256": "68b4f761830476387c62b58804cf12280cb4691d41b250aa36d0b73c49a15934"
+  },
+  "mountain-prairie-gordon": {
+   "image": "title page",
+   "width": 282,
+   "height": 450,
+   "sha256": "eabea233113649fc2bffdc672bb1ead45fd1833f1db8ea6333a0b674d10bc3aa"
   },
   "nile-without-dragoman-eden": {
    "image": "title page",
@@ -507,6 +537,12 @@
    "width": 287,
    "height": 450,
    "sha256": "33178916aec741770e16f93a96cb747833695449ee650d413695b27ac4bb9aaa"
+  },
+  "ten-thousand-miles-townshend": {
+   "image": "title page",
+   "width": 276,
+   "height": 450,
+   "sha256": "6e5c2d869c3d5e26ae81389ef17fc12cb9c5be0354cb9c0f6a674e1f3c151c61"
   },
   "three-years-melbourne-aspinall": {
    "image": "title page",

@@ -46,11 +46,16 @@ def cont_change(draft, verified):
     return None if a == b else ("removed" if b < a else "added")
 
 
+def cont_at(text, find):
+    """A few words where a [[cont]] change was proposed, for finding it on the scan."""
+    return corrections.CONT.sub("", find).strip()[:40]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("draft"); ap.add_argument("verified"); ap.add_argument("--out")
     a = ap.parse_args()
-    kinds, skipped, spots, outliers, missing, conts = {}, [], {}, [], [], []
+    kinds, skipped, spots, outliers, missing, conts, proposed = {}, [], {}, [], [], [], []
     for f in sorted(os.listdir(a.draft)):
         if not re.fullmatch(r"p\d+[a-z]?\.txt", f):
             continue
@@ -64,6 +69,11 @@ def main():
         cur = draft
         for c in corrections.parse(open(cf_, encoding="utf-8").read()):
             fnd, rep = c["find"], c["replace"]
+            if corrections.cont_only(fnd, rep):
+                if cur.count(fnd) == 1:
+                    proposed.append(f"{pg}: [[cont]] {'added' if rep.count('[[cont]]') > fnd.count('[[cont]]') else 'removed'}"
+                                    f" at {cont_at(cur, fnd)!r}")
+                continue
             if cur.count(fnd) != 1 or fnd == rep:
                 if fnd != rep:
                     skipped.append(f"{pg}: {cur.count(fnd)}x {fnd[:40]!r} -> {rep[:40]!r}")
@@ -94,7 +104,11 @@ def main():
     print(f"not applied ({len(skipped)}):")
     for s in skipped:
         print("  ", s)
-    print(f"[[cont]] added or removed by the verifier, applied unjudged: look at the indent on the scan ({len(conts)}):")
+    print(f"[[cont]] changes proposed by the verifier and NOT applied (the draft's join stands): look at the indent "
+          f"on the scan; the verifier was wrong in 13 of 15 such changes so far ({len(proposed)}):")
+    for c in proposed:
+        print("  ", c)
+    print(f"[[cont]] added or removed by the verifier with other changes, applied unjudged: look at the indent on the scan ({len(conts)}):")
     for c in conts:
         print("  ", c)
     print("length outliers (page, draft chars, verified chars):", outliers)
