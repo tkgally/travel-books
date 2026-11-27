@@ -1,0 +1,7 @@
+{"find": "only too plainly indicated his share in the alarm, we at length persuaded to listen", "replace": "only too plainly indicated his share in the alarm, we at length persuaded to listen"}
+
+Wait, I should only report real differences. Comparing line by line, I see these:
+
+{"find": "kill them outright, or would", "replace": "kill them outright, or would"}
+
+NONE

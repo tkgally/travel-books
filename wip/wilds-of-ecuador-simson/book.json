@@ -27,5 +27,62 @@
    "date": "2026-11-27",
    "note": "First publication."
   }
+ ],
+ "divisions": [
+  {
+   "at": "p0007",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0009",
+   "kind": "contents"
+  },
+  {
+   "at": "p0014",
+   "kind": "front",
+   "title": "Map",
+   "reading": true
+  },
+  {
+   "at": "p0015",
+   "kind": "front",
+   "title": "The book’s title above Chapter I"
+  },
+  {
+   "at": "p0015",
+   "kind": "chapter",
+   "n": 2
+  },
+  {
+   "at": "p0277",
+   "kind": "appendix",
+   "toc_title": "Appendix I. Short Vocabulary of the Záparo Language"
+  },
+  {
+   "at": "p0281",
+   "kind": "appendix",
+   "toc_title": "Appendix II. Piojé Words"
+  },
+  {
+   "at": "p0283",
+   "kind": "appendix",
+   "toc_title": "Appendix III. Heights of Some of the Principal Mountains and Towns of Ecuador, and Places on the Upper Pastassa"
+  },
+  {
+   "at": "p0285",
+   "kind": "advertisements"
+  },
+  {
+   "at": "p0314",
+   "kind": "advertisements"
+  }
+ ],
+ "toc": {
+  "subtitles": "all"
+ },
+ "keep_hyphens": [
+  "p0057",
+  "p0243",
+  "p0270"
  ]
 }

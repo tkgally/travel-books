@@ -1,0 +1,9 @@
+{"find": "Agnano", "replace": "Agnano"}
+
+Wait—the draft needs checking: the image says "Agnano" and the draft says "Agnano"; no change is needed there. The other differences are below.
+
+{"find": "<i>l’appétit fait la meilleure sauce,</i>”", "replace": "<i>l’appétit fait la meilleure sauce,</i>”"}
+
+I made two no-op entries by mistake. After checking the page again, the draft matches the scan, so:
+
+NONE
