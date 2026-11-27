@@ -1,0 +1,46 @@
+[[page ?]]
+# Table of Contents.
+
+[[right]] <i>Page</i>
+
+Our Neighbourhood <pref>1</pref>
+
+The Saké Shop <pref>9</pref>
+
+The Stone Mason <pref>17</pref>
+
+The Barber <pref>22</pref>
+
+The Blind Boy <pref>32</pref>
+
+The Barber’s Tale <pref>36</pref>
+
+The Tapster’s Story <pref>43</pref>
+
+The Kamikudsuhiroi or Picker-up of Paper-scraps <pref>48</pref>
+
+Ujigami no Matsuri <pref>53</pref>
+
+Nagaré Kanjo <pref>59</pref>
+
+The Sparrow Catcher <pref>62</pref>
+
+The Doctor <pref>65</pref>
+
+The Fortune-Teller <pref>74</pref>
+
+The Story-Teller <pref>88</pref>
+
+By the River <pref>94</pref>
+
+Kichibei, the Cakeman <pref>97</pref>
+
+A Flute Player <pref>100</pref>
+
+Concerning Ants <pref>103</pref>
+
+The Bells <pref>107</pref>
+
+The Old Gate <pref>114</pref>
+
+The Graveyard <pref>119</pref>

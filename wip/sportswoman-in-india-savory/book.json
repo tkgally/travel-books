@@ -1,0 +1,14 @@
+{
+ "id": "sportswoman-in-india-savory",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "A Sportswoman in India",
+ "subtitle": "Personal Adventures and Experiences of Travel in Known and Unknown India",
+ "short_title": "A Sportswoman in India",
+ "authors": [{"name": "Isabel Savory", "sort": "Savory, Isabel"}],
+ "place": "London; Philadelphia",
+ "publisher": "Hutchinson & Co.; J. B. Lippincott Company",
+ "year": 1900,
+ "regions": ["India", "Pakistan"],
+ "source": {"ia_identifier": "sportswomaninind00savorich", "contributor": "University of California Libraries", "hidden_leaves": []}
+}

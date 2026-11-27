@@ -1,0 +1,24 @@
+{
+ "p0011": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "[[center]] T. A. P.",
+   "replace": "[[center]] “T. A. P.”",
+   "draft": "[[center]] T. A. P.",
+   "verified": "[[center]] “T. A. P.”",
+   "context": "[[center]] SKETCHES IN THE SUBURBS OF YEDO. ⏎  ⏎ [[center]] BY ⏎  ⏎ [[center]] T. A. P. ⏎  ⏎ [[image: small printer's ornament]] ⏎  ⏎ [[center]] YOKOHAMA: ⏎ "
+  }
+ ],
+ "p0219": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "# The Graveyard.",
+   "replace": "# The Graveyard",
+   "draft": "he Graveyard.",
+   "verified": "he Graveyard",
+   "context": "[[page 119]] ⏎  ⏎ # The Graveyard. ⏎  ⏎ The traveller journeying westward through “Our Neighbourho"
+  }
+ ]
+}

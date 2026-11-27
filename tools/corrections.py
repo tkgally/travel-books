@@ -18,6 +18,13 @@ def cont_only(find, replace):
     return find.count("[[cont]]") != replace.count("[[cont]]") and CONT.sub("", find) == CONT.sub("", replace)
 
 
+def blank_filled(find, replace):
+    """True when a correction would replace the draft's [[blank]]: the corrections pass read the show-through of a
+    plate on its blank verso as a picture on 12 leaves of *Our Neighbourhood* (2026-11-27). Not applied; review.py
+    lists it for a look at the leaf."""
+    return "[[blank]]" in find and "[[blank]]" not in replace
+
+
 def apply(draft, reply):
     applied, skipped = 0, []
     for line in reply.splitlines():
@@ -31,6 +38,8 @@ def apply(draft, reply):
             skipped.append(line[:80]); continue
         if cont_only(f, r):
             skipped.append(f"[[cont]] change not applied: {f[:40]}"); continue
+        if blank_filled(f, r):
+            skipped.append(f"[[blank]] page not filled: {r[:40]}"); continue
         if f and r != f and f in r and r in draft:
             # an insertion an earlier entry already made (models sometimes send one change twice, in two
             # forms: "called\n" -> "called Inter-\n" and "also called" -> "also called Inter-")
