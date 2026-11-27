@@ -23,3 +23,5 @@ Notes: a two-column menu (p. 287), a tombstone address in small type (p. 259), a
 | Version | Date | Preflight stamp | Audit | Notes |
 
 ## Known issues
+- Draft (Opus, 427 pages, $28.02, 0 errors, 0 refused, no 〓).
+- Pictures cropped by an Opus subagent (54 + cover): sideways plates and p0165 `--rotate 270`; the two maps in colour (a red route); keys printed outside p0165's picture are text; p0310 and p0370 keep the numbers inside the pictures. Four looked at by the session.
