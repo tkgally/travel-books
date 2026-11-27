@@ -1,6 +1,8 @@
 [[page 41]]
 
-He was tolding a history to his companions. He has told all his passages.
+<blockquote>
+[[cont]]He was tolding a history to his companions. He has told all his passages.
+</blockquote>
 
 [[break]]
 
