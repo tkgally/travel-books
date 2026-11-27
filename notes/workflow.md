@@ -278,8 +278,10 @@ visibly differs from newer ones.
   `book-json.md`: vol. I p1000+, vol. II p2000+), tested on invented data only; the book page links and embeds every item.
 - Endnotes printed at the end of the book rather than at the foot of the page. Tried in *Snioland* (2026-11-22): a “Notes” division, the numerals kept as `<sup>`, not linked.
 - A second stream of small type running along the foot of many pages under the main text (not footnotes: “Excerpts from Tongan Official Documents”, *Brown Men and Women* pp. 268–286): solved 2026-11-22 (`[[stream]]`, `page-markup.md`; test `SecondStream`). It goes after all the other divisions; a stream that should stand elsewhere (after its own chapter, in the middle of a book) is not yet supported.
-- A paragraph that runs on after a quoted verse or block (the next line set flush): the markup cannot continue it, so it
-  starts a new paragraph (*Between Two Oceans* pp. 221, 331; said in the log's known issues).
+- A paragraph that runs on after a quoted verse or block (the next line set flush): solved 2026-11-27 (`[[cont]]` on the
+  paragraph after the block → `continues` in the JSON, set without an indent; `page-markup.md`, test `RunOnAfterVerse`). The
+  22 earlier books whose logs name such paragraphs as a known issue look the same in the editions already (a paragraph after
+  a block is set flush); their JSON can be given the mark when each is next revised.
 - A footnote printed in more than one paragraph: the markup has none; typed as one paragraph and said in `notes_on_text`
   (*Journey through the Caucasus*, pp. 37, 123–124).
 - Greek, Arabic or other scripts quoted in the text: transcribe in the script. Tried on a few words of Arabic (*A Land of Mosques and Marabouts*, 2026-11-20): Opus drafted them letter for letter, Maghrebi letters included (ڢ, گ, ک), and an Opus spot-read on crops checked them; digits are stored in reading order (a year printed reversed was marked `[[corr]]`). Rendering checked in the browser and the EPUB; a book with long passages is still untested. Open: the renderers do not tag such text with `lang`/`dir` (screen readers may pick the wrong voice): for a later session, with a test. Chinese script: *A Yankee on the Yangtze* (2026-11-22, about 400 characters in proverbs and the Sacred Edict) went through draft, corrections, judge and the builders; renders in the browser and the EPUB; spans tagged `lang` (test `test_han_script_tagged`); see `lessons.md` "Chinese or Japanese script". Japanese script (kanji,

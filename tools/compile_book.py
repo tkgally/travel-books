@@ -255,6 +255,15 @@ def compile_pages(cfg, pages, images=None):
     return book, warnings
 
 
+def after_block(flat, leaf=None):
+    """True if the last block (notes passed over) is a quotation or verse, on `leaf` when given: a paragraph marked
+    `[[cont]]` there goes on with the sentence before the block (flush left in print) and is kept as `continues`."""
+    j = len(flat) - 1
+    while j >= 0 and flat[j]["t"] == "fn":
+        j -= 1
+    return j >= 0 and flat[j]["t"] in ("quote", "verse") and (leaf is None or flat[j]["leaf_end"] == leaf)
+
+
 def _compile_pages(cfg, pages, images=None):
     """cfg = book.json dict, pages = [(leaf, text)], images = {stem: filename} or None (then not checked).
     Returns (book dict, warnings)."""
@@ -315,7 +324,10 @@ def _compile_pages(cfg, pages, images=None):
                         prev["rows"] += b["rows"]
                         prev["leaf_end"] = leaf
                         continue
-                    warn(f"[[cont]] with nothing to continue, treated as a new block: {leaf}")
+                    if b["t"] == "p" and after_block(flat):
+                        b["continues"] = True     # a sentence going on after a quotation or verse (review after 115 books)
+                    else:
+                        warn(f"[[cont]] with nothing to continue, treated as a new block: {leaf}")
                 b["pb"] = [{"leaf": leaf, "n": number}]
             elif b.get("cont"):
                 # a paragraph interrupted by a picture in the middle of the page (South by West, 2026-11-19):
@@ -334,7 +346,10 @@ def _compile_pages(cfg, pages, images=None):
                     else:
                         prev["text"] += " " + b["text"]
                     continue
-                warn(f"[[cont]] not at the top of a page, dropped: {leaf}")
+                if b["t"] == "p" and after_block(flat, leaf):
+                    b["continues"] = True
+                else:
+                    warn(f"[[cont]] not at the top of a page, dropped: {leaf}")
             b.setdefault("pb", [])
             b["leaf_end"] = leaf
             flat.append(b)
@@ -413,7 +428,7 @@ def _compile_pages(cfg, pages, images=None):
                 nb.update(type="heading", level=b["level"], text=conv(b["text"], b["leaf"]))
             elif t == "p":
                 nb.update(type="paragraph", text=conv(b["text"], b["leaf"]))
-                for k in ("align", "role"):
+                for k in ("align", "role", "continues"):
                     if b.get(k):
                         nb[k] = b[k]
             elif t == "quote":
