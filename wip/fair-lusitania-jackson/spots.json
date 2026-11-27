@@ -1,0 +1,163 @@
+{
+ "p0012": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page vi]]\n\n[[center]] Chapter VI.",
+   "replace": "[[page vi]]\n\n# Contents.\n\n[[center]] Chapter VI.",
+   "draft": "[[page vi]]\n\n[[center]]",
+   "verified": "[[page vi]]\n\n# Contents.\n\n[[center]]",
+   "context": "[[page vi]] ⏎  ⏎ [[center]] Chapter VI. ⏎  ⏎ [[center]] <sc>on level ground.</sc> ⏎  ⏎ Extinct convents—The"
+  }
+ ],
+ "p0014": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page viii]]\n\n[[center]] Chapter XV.",
+   "replace": "[[page viii]]\n\n# Contents.\n\n[[center]] Chapter XV.",
+   "draft": "[page viii]]\n\n[[center]]",
+   "verified": "[page viii]]\n\n# Contents.\n\n[[center]]",
+   "context": "[[page viii]] ⏎  ⏎ [[center]] Chapter XV. ⏎  ⏎ [[center]] <sc>the quintas, santa cruz, etc.</sc> ⏎  ⏎ The qui"
+  }
+ ],
+ "p0015": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ix]]\n\n[[center]] Chapter XIX.",
+   "replace": "[[page ix]]\n\n# Contents.\n\n[[center]] Chapter XIX.",
+   "draft": "[[page ix]]\n\n[[center]]",
+   "verified": "[[page ix]]\n\n# Contents.\n\n[[center]]",
+   "context": "[[page ix]] ⏎  ⏎ [[center]] Chapter XIX. ⏎  ⏎ [[center]] <sc>the drive from oporto to s. joão da foz.</s"
+  }
+ ],
+ "p0049": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "estrangéiro",
+   "replace": "estrangeiro",
+   "draft": "estrangéiro",
+   "verified": "estrangeiro",
+   "context": "[[page 29]] ⏎ [[cont]]“He did not.” He was an <i>estrangéiro</i> he told me. “He presumed <i>sua excellencia</i> was als"
+  }
+ ],
+ "p0077": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<i>O ré soldado</i>",
+   "replace": "<i>O rê soldado</i>",
+   "draft": "<i>O ré soldado</i>",
+   "verified": "<i>O rê soldado</i>",
+   "context": "s father, as if saluting him. The statue of Dom Pedro IV., “<i>O ré soldado</i>,” the soldier king, as the Portuguese call him, was erected"
+  }
+ ],
+ "p0084": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "verse. their",
+   "replace": "verse, their",
+   "draft": "verse. their",
+   "verified": "verse, their",
+   "context": " Lisbon morning papers, in eloquent prose or soul-thrilling verse. their ardent vows of never-dying love, contrive in the evening to"
+  }
+ ],
+ "p0110": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<i>rêunions</i>",
+   "replace": "<i>réunions</i>",
+   "draft": "<i>rêunions</i>",
+   "verified": "<i>réunions</i>",
+   "context": "l-fights, who attend in greatest numbers the receptions and <i>rêunions</i> of the various philharmonic, literary, and other private so"
+  }
+ ],
+ "p0149": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Santa Maria de Belem.",
+   "replace": "Santa Maria de Belem. P. <pref>391</pref>.",
+   "draft": "ia de Belem.",
+   "verified": "ia de Belem. P. <pref>391</pref>.",
+   "context": "ption]] Principal Porch of the Church of “Os Jeronymos,” or Santa Maria de Belem. ⏎ "
+  }
+ ],
+ "p0177": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<i>marêchal</i>",
+   "replace": "<i>maréchal</i>",
+   "draft": "<i>marêchal</i>",
+   "verified": "<i>maréchal</i>",
+   "context": "a. ⏎  ⏎ The failing spark of life seemed to rekindle as the old <i>marêchal</i> listened to these hateful words. The closed eyes opened, an"
+  }
+ ],
+ "p0291": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<i>Quanto é?</i>",
+   "replace": "<i>Quanto ê?</i>",
+   "draft": "<i>Quanto é?</i>",
+   "verified": "<i>Quanto ê?</i>",
+   "context": "ect; large, green, and faintly tinged with a bluish bloom. “<i>Quanto é?</i>” I asked, as she held it up before the carriage window. “<i"
+  }
+ ],
+ "p0309": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "top of of it",
+   "replace": "top of it",
+   "draft": "top of of it",
+   "verified": "top of it",
+   "context": "aved. That on the left is the Rua de S. Antonio, and at the top of of it stands the splendid church of Santa Ildefonsa. On the right"
+  }
+ ],
+ "p0411": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "the university was the library",
+   "replace": "the univer-sity was the library",
+   "draft": "the university was the",
+   "verified": "the univer-sity was the",
+   "context": " to any in Europe. ⏎  ⏎ But to me, the most interesting part of the university was the library. It consists of a fine suite of ⏎ "
+  }
+ ],
+ "p0463": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<sc>london:</sc>",
+   "replace": "LONDON:",
+   "draft": "<sc>london:</sc>",
+   "verified": "LONDON:",
+   "context": "[[page ?]] ⏎  ⏎ [[center]] <sc>london:</sc> ⏎  ⏎ [[center]] <sc>r. clay, sons, and taylor, printers,</sc> ⏎  ⏎ "
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "<sc>r. clay, sons, and taylor, printers,</sc>",
+   "replace": "R. CLAY, SONS, AND TAYLOR, PRINTERS,",
+   "draft": "<sc>r. clay, sons, and taylor, printers,</sc>",
+   "verified": "R. CLAY, SONS, AND TAYLOR, PRINTERS,",
+   "context": "[[page ?]] ⏎  ⏎ [[center]] LONDON: ⏎  ⏎ [[center]] <sc>r. clay, sons, and taylor, printers,</sc> ⏎  ⏎ [[center]] <sc>bread street hill.</sc> ⏎ "
+  },
+  {
+   "n": 3,
+   "kind": "words",
+   "find": "<sc>bread street hill.</sc>",
+   "replace": "BREAD STREET HILL.",
+   "draft": "<sc>bread street hill.</sc>",
+   "verified": "BREAD STREET HILL.",
+   "context": "[[center]] R. CLAY, SONS, AND TAYLOR, PRINTERS, ⏎  ⏎ [[center]] <sc>bread street hill.</sc> ⏎ "
+  }
+ ]
+}

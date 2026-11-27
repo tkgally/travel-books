@@ -1,0 +1,1 @@
+{"n": 1, "is": "B", "print": "<i>O ré soldado</i>", "sure": "medium"}

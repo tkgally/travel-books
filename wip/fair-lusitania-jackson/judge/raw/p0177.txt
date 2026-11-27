@@ -1,0 +1,1 @@
+{"n": 1, "is": "A", "print": "<i>maréchal</i>", "sure": "medium"}

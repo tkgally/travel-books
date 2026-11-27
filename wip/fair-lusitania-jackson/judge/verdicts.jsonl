@@ -1,0 +1,15 @@
+{"page": "p0012", "n": 1, "who": "verified", "draft": "[[page vi]]\n\n[[center]]", "verified": "[[page vi]]\n\n# Contents.\n\n[[center]]", "judge": {"n": 1, "is": "A", "print": "[[page vi]]\n\n# Contents.\n\n[[center]]", "sure": "medium"}}
+{"page": "p0014", "n": 1, "who": "verified", "draft": "[page viii]]\n\n[[center]]", "verified": "[page viii]]\n\n# Contents.\n\n[[center]]", "judge": {"n": 1, "is": "A", "print": "[page viii]]\n\nCONTENTS.\n\n[[center]]", "sure": "medium"}}
+{"page": "p0015", "n": 1, "who": "verified", "draft": "[[page ix]]\n\n[[center]]", "verified": "[[page ix]]\n\n# Contents.\n\n[[center]]", "judge": {"n": 1, "is": "A", "print": "[[page ix]]\n\nCONTENTS.\n\n[[center]]", "sure": "medium"}}
+{"page": "p0049", "n": 1, "who": "draft", "draft": "estrangéiro", "verified": "estrangeiro", "judge": {"n": 1, "is": "A", "print": "estrangéiro", "sure": "medium"}}
+{"page": "p0077", "n": 1, "who": "draft", "draft": "<i>O ré soldado</i>", "verified": "<i>O rê soldado</i>", "judge": {"n": 1, "is": "B", "print": "<i>O ré soldado</i>", "sure": "medium"}}
+{"page": "p0084", "n": 1, "who": "verified", "draft": "verse. their", "verified": "verse, their", "judge": {"n": 1, "is": "A", "print": "verse, their", "sure": "medium"}}
+{"page": "p0110", "n": 1, "who": "verified", "draft": "<i>rêunions</i>", "verified": "<i>réunions</i>", "judge": {"n": 1, "is": "A", "print": "<i>réunions</i>", "sure": "low"}}
+{"page": "p0149", "n": 1, "who": "verified", "draft": "ia de Belem.", "verified": "ia de Belem. P. <pref>391</pref>.", "judge": {"n": 1, "is": "B", "print": "ia de Belem. P. 391.", "sure": "high"}}
+{"page": "p0177", "n": 1, "who": "verified", "draft": "<i>marêchal</i>", "verified": "<i>maréchal</i>", "judge": {"n": 1, "is": "A", "print": "<i>maréchal</i>", "sure": "medium"}}
+{"page": "p0291", "n": 1, "who": "verified", "draft": "<i>Quanto é?</i>", "verified": "<i>Quanto ê?</i>", "judge": {"n": 1, "is": "A", "print": "<i>Quanto ê?</i>", "sure": "low"}}
+{"page": "p0309", "n": 1, "who": "draft", "draft": "top of of it", "verified": "top of it", "judge": {"n": 1, "is": "A", "print": "top of of it", "sure": "high"}}
+{"page": "p0411", "n": 1, "who": "draft", "draft": "the university was the", "verified": "the univer-sity was the", "judge": {"n": 1, "is": "B", "print": "the university was the", "sure": "high"}}
+{"page": "p0463", "n": 1, "who": "draft", "draft": "<sc>london:</sc>", "verified": "LONDON:", "judge": {"n": 1, "is": "A", "print": "<sc>london:</sc>", "sure": "low"}}
+{"page": "p0463", "n": 2, "who": "draft", "draft": "<sc>r. clay, sons, and taylor, printers,</sc>", "verified": "R. CLAY, SONS, AND TAYLOR, PRINTERS,", "judge": {"n": 2, "is": "A", "print": "<sc>r. clay, sons, and taylor, printers,</sc>", "sure": "low"}}
+{"page": "p0463", "n": 3, "who": "draft", "draft": "<sc>bread street hill.</sc>", "verified": "BREAD STREET HILL.", "judge": {"n": 3, "is": "A", "print": "<sc>bread street hill.</sc>", "sure": "low"}}
