@@ -6,9 +6,7 @@ Eligibility: re-checked 2026-11-27: pg_catalog.csv none; web search: Cambridge L
 and Cambridge Core (purchase) only. JATSI book: only a good scan is required.
 
 ## Status
-Stage reached: (a) scan checked; Opus draft running (p0004–p0005, p0008–p0351).
-Next step: Drive cache (uploading); corrections pass (workflow §3).
-Meter: 2026-11-27, about 22%.
+Stage reached: (c) preflight, audit; rendered look by subagent. Next: publish.
 
 ## Page map
 p0000 front cover (blind-stamped, no title) · p0001–p0003 bookplate, shelfmarks · p0004 half-title (i) · p0005 imprint (ii) ·
@@ -22,10 +20,28 @@ Scan check (Opus subagent, 2026-11-27): all sheets; folios on nearly every leaf;
 0010, 0024, 0086, 0141, 0182, 0254, 0319, 0329; problems: none.
 
 ## Decisions
+- Corrections pass: 22 changes; 9 spots judged (5 draft, 4 verified). Not applied: p0220 has/have, p0231 “Christianised” (both
+  checked: the file was right; p0231 printed “Christanised”, marked).
+- Spot-read (Opus subagent; half-title, title page line by line, preface, contents, all chapter openings, verse, appendices,
+  the chart descriptions, preflight lists, tess_compare's 68 word items — all tesseract's errors or broken letters): title
+  page lines split as printed (“Okhostk” as printed); printed misprints marked p0036 “Deseription”, p0231 “Christanised”,
+  p0288 “teachiug”; p0086 “tête à tête” (a broken à); p0022 “Amùr” as everywhere else; `[[cont]]` restored p0066, p0072
+  (flush first lines), left off p0106, p0110 (indented); imprint p0323 split; “Yountt's” (advertisements) as printed.
+- Appendices wholly in small type (tess_compare's pitch items expected); chapter summaries likewise.
+- Contents: the chapters have only summaries: entries of the editor's (“Chapter I. From Hong Kong to the Straits of Sangar” …),
+  said in `notes_on_text`. The book's title above Chapter I (p0024) a `front` division. keep_hyphens p0100 (half-finished),
+  p0165 (men-of-war).
+- The folding chart (p0008–p0009, before the title page in this copy): both halves shown after the title page’s text by `frontispiece` (listed right half first, since each is inserted at the same place).
+- Cover: the front cover has no title: the title page is the picture.
+- Audit 29/29; 1 candidate (p0217 “left:”), a colon on the scan: 0 real.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| draft | 2026-11-27 | opus | 346 | 24.07 | no refusals, no 〓 |
+| corrections | 2026-11-27 | sonnet | 346 | 11.39 | 22 changes |
+| judge | 2026-11-27 | opus | 9 spots | 0.37 | 5 draft, 4 verified |
+| audit | 2026-11-27 | opus | 6 | 0.33 | 29/29, 1 candidate, not real |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
