@@ -1,0 +1,184 @@
+{
+ "id": "ten-thousand-miles-townshend",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "Ten Thousand Miles of Travel, Sport, and Adventure",
+ "short_title": "Ten Thousand Miles of Travel, Sport, and Adventure",
+ "authors": [
+  {
+   "name": "F. Trench Townshend, B.A.",
+   "sort": "Townshend, F. Trench"
+  }
+ ],
+ "place": "London",
+ "publisher": "Hurst and Blackett",
+ "year": 1869,
+ "edition_statement": "First edition",
+ "regions": [
+  "United States",
+  "Canada",
+  "Mexico",
+  "Panama",
+  "Jamaica"
+ ],
+ "period": "1868",
+ "source": {
+  "ia_identifier": "gri_33125017157138",
+  "contributor": "Getty Research Institute",
+  "hidden_leaves": []
+ },
+ "frontispiece": "p0007-1",
+ "divisions": [
+  {
+   "at": "p0004",
+   "kind": "front"
+  },
+  {
+   "at": "p0008",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0010",
+   "kind": "preface"
+  },
+  {
+   "at": "p0012",
+   "kind": "contents"
+  },
+  {
+   "at": "p0018",
+   "kind": "front",
+   "title": "The book’s title above Chapter I"
+  },
+  {
+   "at": "p0018",
+   "kind": "chapter",
+   "toc_title": "Chapter I. The Voyage Out—Arrival at New York",
+   "n": 2
+  },
+  {
+   "at": "p0034",
+   "kind": "chapter",
+   "toc_title": "Chapter II. Start for Rhode Island—Newport—Boston"
+  },
+  {
+   "at": "p0048",
+   "kind": "chapter",
+   "toc_title": "Chapter III. Start for the Adirondacks—Travelling by Canoe"
+  },
+  {
+   "at": "p0064",
+   "kind": "chapter",
+   "toc_title": "Chapter IV. Canada—Montreal—Quebec"
+  },
+  {
+   "at": "p0078",
+   "kind": "chapter",
+   "toc_title": "Chapter V. Washington—Richmond—Battle Grounds around Petersburg"
+  },
+  {
+   "at": "p0095",
+   "kind": "chapter",
+   "toc_title": "Chapter VI. Start for the Far West—Chicago"
+  },
+  {
+   "at": "p0111",
+   "kind": "chapter",
+   "toc_title": "Chapter VII. Start for the Plains—My First Buffalo"
+  },
+  {
+   "at": "p0129",
+   "kind": "chapter",
+   "toc_title": "Chapter VIII. The Indian Trail—Prairie Dog Villages"
+  },
+  {
+   "at": "p0144",
+   "kind": "chapter",
+   "toc_title": "Chapter IX. Encounter with a Buffalo—Fort Macpherson"
+  },
+  {
+   "at": "p0163",
+   "kind": "chapter",
+   "toc_title": "Chapter X. Passing over the Rocky Mountains—Laramie City"
+  },
+  {
+   "at": "p0177",
+   "kind": "chapter",
+   "toc_title": "Chapter XI. The Platte River—Rocky Mountain Sheep"
+  },
+  {
+   "at": "p0194",
+   "kind": "chapter",
+   "toc_title": "Chapter XII. Fort Steel—The Railway in the Far West"
+  },
+  {
+   "at": "p0208",
+   "kind": "chapter",
+   "toc_title": "Chapter XIII. Salt Lake City—Interview with Brigham Young"
+  },
+  {
+   "at": "p0226",
+   "kind": "chapter",
+   "toc_title": "Chapter XIV. Start for San Francisco—The Great American Desert"
+  },
+  {
+   "at": "p0242",
+   "kind": "chapter",
+   "toc_title": "Chapter XV. Arrival at Sacramento—San Francisco"
+  },
+  {
+   "at": "p0255",
+   "kind": "chapter",
+   "toc_title": "Chapter XVI. Leave San Francisco—Acapulco"
+  },
+  {
+   "at": "p0272",
+   "kind": "chapter",
+   "toc_title": "Chapter XVII. Aspinwall—Jamaica—St. Thomas"
+  },
+  {
+   "at": "p0283",
+   "kind": "chapter",
+   "toc_title": "Chapter XVIII. Start for England—A Heavy Gale in Mid-Atlantic"
+  },
+  {
+   "at": "p0290",
+   "kind": "appendix"
+  },
+  {
+   "at": "p0294",
+   "kind": "advertisements"
+  }
+ ],
+ "waivers": [],
+ "keep_hyphens": [],
+ "notes_on_text": [
+  "The chapters have only numbers and summaries. The entries of the contents give each chapter a title of the editor’s, made of two or three topics from its summary, in the book’s words; the summaries are printed in full at the head of each chapter.",
+  "The frontispiece, which the book places at page 128, is shown on the title page."
+ ],
+ "summary": [
+  "F. Trench Townshend, a captain in the 2nd Life Guards, left Liverpool with a brother officer on 1 August 1868 for five months in North America. They saw New York, Newport, and Boston, camped and travelled by canoe in the Adirondacks, visited Montreal and Quebec, and went from Washington to the battlefields round Richmond and Petersburg. In the West, with the leave of Generals Sherman and Augur, they rode with an army scouting party across the plains of Nebraska and Kansas, while the United States was at war with the Sioux and Arapahoes, hunting buffalo and antelope.",
+  "They hunted elk and mountain sheep in the Rocky Mountains beyond Laramie, called on Brigham Young at Salt Lake City, crossed the desert and Nevada to San Francisco, and came home by Acapulco, Panama, Jamaica, and St. Thomas through a gale in the Atlantic. The book ends with a list of the animals they shot."
+ ],
+ "omitted_from_reading": "The half-title, the printed contents, the book’s title above Chapter I, and the publisher’s advertisements are in the JSON only.",
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-27",
+   "note": "First publication."
+  }
+ ],
+ "subjects": [
+  "Buffalo hunting",
+  "United States Army",
+  "Mormons"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-27",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
+}

@@ -1,0 +1,5 @@
+{"given": "movement in America go over to Ireland", "print": "movement in America to go over to Ireland", "sure": "high"}
+{"given": "affairs in Ireland to he totally", "print": "affairs in Ireland to be totally", "sure": "high"}
+{"given": "his position as a geueral in", "print": "his position as a general in", "sure": "high"}
+{"given": "General Augur, his staff; and the", "print": "General Augur, his staff, and the", "sure": "high"}
+{"given": "The General and staff returned to", "print": "The General and Staff returned to", "sure": "high"}

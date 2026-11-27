@@ -1,0 +1,5 @@
+{"given": "but seem ratber to have", "print": "but seem rather to have", "sure": "high"}
+{"given": "habits of the indian, “Ya”", "print": "habits of the Indian, “Ya”", "sure": "high"}
+{"given": "accustomed to depend or themselves, they", "print": "accustomed to depend on themselves, they", "sure": "high"}
+{"given": "they are tolerably obliging; but they", "print": "they are tolerably obliging, but they", "sure": "high"}
+{"given": "use any irritating language men who", "print": "use any irritating language to men who", "sure": "high"}

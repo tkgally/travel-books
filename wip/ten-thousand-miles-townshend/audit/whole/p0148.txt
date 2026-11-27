@@ -1,0 +1,5 @@
+{"given": "Although “Bob,” scated beside me", "print": "Although “Bob,” seated beside me", "sure": "high"}
+{"given": "him that grand Indian amusement", "print": "him that the grand Indian amusement", "sure": "high"}
+{"given": "indulged in by this tribe.", "print": "indulged in by his tribe.", "sure": "high"}
+{"given": "come on some pawnee lodges", "print": "come on some Pawnee lodges", "sure": "high"}
+{"given": "when they returned; and the latter", "print": "when they returned, and the latter", "sure": "high"}
