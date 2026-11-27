@@ -1,0 +1,5 @@
+{"given": "might therefore eafily carry the infection", "print": "might therefore easily carry the infection", "sure": "high"}
+{"given": "case, which he had overlooked, made llore", "print": "case, which he had overlooked, made Llore", "sure": "high"}
+{"given": "and fortunately Zápara, who knew her", "print": "and fortunately the Zápara, who knew her", "sure": "high"}
+{"given": "might already be upon them on any", "print": "might already be upon them or any", "sure": "high"}
+{"given": "a disease like small-pox; although so loathsome", "print": "a disease like small-pox, although so loathsome", "sure": "high"}

@@ -1,0 +1,5 @@
+{"given": "but not so regarding Upper Pastassa", "print": "but not so regarding the Upper Pastassa", "sure": "high"}
+{"given": "source of molestation; so demonstrative", "print": "source of molestation, so demonstrative", "sure": "high"}
+{"given": "the Spaniards withdrcw in alarm", "print": "the Spaniards withdrew in alarm", "sure": "high"}
+{"given": "to conquer and colonize the territory", "print": "to conquer and colonise the territory", "sure": "high"}
+{"given": "It was when that in the", "print": "It was then that in the", "sure": "high"}

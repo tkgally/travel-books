@@ -10,7 +10,7 @@ III. Mt. Abu <pref>245</pref>
 
 IV. Ahmedabad <pref>251</pref>
 
-[[center]] EGYPT
+[[center]] Egypt
 
 [[center]] I.
 
@@ -48,7 +48,7 @@ III. The Later Tombs of Egypt <pref>294</pref>
 
 IV. The Temples of Egypt <pref>302</pref>
 
-[[center]] PALESTINE
+[[center]] Palestine
 
 I. De Lesseps building better than he knew <pref>311</pref>
 

@@ -100,5 +100,13 @@
  "notes_on_text": [
   "The folding map of Ecuador (dated 1877) is shown at the width of the page, where its names cannot be read; the scan on the Internet Archive shows it at full size.",
   "On one page of the publisher’s catalogue (p. 30) letters lost at the inner margin of the scan are supplied, and one price that cannot be read is marked as a gap."
- ]
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-27",
+  "pages": 6,
+  "recall": "29/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }
