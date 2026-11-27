@@ -1,4 +1,0 @@
-{"given": "There where little lakes and waterfalls", "print": "There were little lakes and waterfalls", "sure": "high"}
-{"given": "waterfalls, miniature mouutains, caves, grottos", "print": "waterfalls, miniature mountains, caves, grottos", "sure": "high"}
-{"given": "to represent ships; houses, dogs,", "print": "to represent ships, houses, dogs,", "sure": "high"}
-{"given": "were not according our ideas, and", "print": "were not according to our ideas, and", "sure": "high"}
