@@ -1830,6 +1830,25 @@ class NoteTail(unittest.TestCase):
         self.assertEqual(preflight.CHECKS["note-tail"][0], "observe")
 
 
+class RunningHeads(unittest.TestCase):
+    """*Fair Lusitania* (2026-11-27): the contents' running head typed as "# Contents." on its later pages."""
+
+    def test_running_head_listed(self):
+        pages = [("p0009", "[[page v]]\n\n# Contents.\n\n# Chapter I.\n\nA Start . . . 1\n"),
+                 ("p0010", "[[page vi]]\n\n# Contents.\n\nThe Road . . . 40\n"),
+                 ("p0011", "[[page 1]]\n\n# Chapter I.\n\nText.\n")]
+        items = preflight.check_running_heads(pages, [{"at": "p0009", "kind": "contents"}])
+        self.assertEqual(len(items), 1)
+        self.assertTrue(items[0].startswith("p0010:"))
+
+    def test_same_title_mid_page_and_ads_not_listed(self):
+        pages = [("p0292", "[[page 288]]\n\n[[cont]]text.\n\n## Addressed to my Sister.\n\nDear Miss.\n"),
+                 ("p0293", "[[page 289]]\n\n[[cont]]text.\n\n## Addressed to my Sister.\n\nMany thanks.\n"),
+                 ("p0300", "[[page 1]]\n\n## Cheap Popular Novels.\n\nBy Walter Besant.\n"),
+                 ("p0301", "[[page 2]]\n\n## Cheap Popular Novels.\n\nBy Hall Caine.\n")]
+        self.assertEqual(preflight.check_running_heads(pages, [{"at": "p0300", "kind": "advertisements"}]), [])
+
+
 class ImageBeforeHeading(unittest.TestCase):
     """*Present-Day Japan* (2026-11-22): a picture printed above "CHAPTER I" fell into the division before."""
 
@@ -2513,6 +2532,13 @@ class GlossaryLayout(unittest.TestCase):
         self.assertTrue(g.startswith('<div class="glossary">'))
         self.assertIn("<blockquote><p>all, <i>shosen.</i></p></blockquote>", g)
         self.assertNotIn("glossary", ctx.blocks(ch))
+
+    def test_long_unbroken_lines_wrap(self):
+        """*Across Persia* (2026-11-27): Greek inscriptions in capitals, typed as verse, scrolled sideways at 390 px
+        until the book's css_extra let them wrap; since the review after 120 books the shared stylesheet does."""
+        css = open(os.path.join(REPO, "site", "assets", "book.css"), encoding="utf-8").read()
+        m = re.search(r"^\.book \{[^}]*\}", css, re.M)
+        self.assertIn("overflow-wrap: break-word", m.group(0))
 
     def test_stylesheet_has_the_glossary_rules(self):
         css = open(os.path.join(REPO, "site", "assets", "book.css"), encoding="utf-8").read()

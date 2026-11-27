@@ -64,6 +64,7 @@ CHECKS = collections.OrderedDict([
     ("title-page",      ("observe", "the reading editions do not begin with the book's title page (divisions: kind \"titlepage\")")),
     ("serial-commas",   ("observe", "book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)")),
     ("line-breaks",     ("observe", "a paragraph line that ends without a stop, followed on the next line by one that starts in lower case: a stray line break splitting a paragraph?")),
+    ("running-heads",   ("observe", "a heading at a page top that repeats a heading of the page before: a running head typed as a heading?")),
     ("missing-stop",    ("observe", "a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan")),
     ("images",          ("enforce", "image files not used by any page")),
     ("source",          ("enforce", "source.json: the Drive cache of the page images is recorded")),
@@ -281,6 +282,30 @@ def check_heading_caps(pages):
             words = [w for w in re.findall(r"[A-Za-z]{2,}", t) if not re.fullmatch(r"[IVXLCDM]+", w)]
             if words and all(w.isupper() for w in words) and sum(len(w) for w in words) > 3:
                 items.append(f"{leaf}: {ln.strip()[:60]!r}")
+    return items
+
+
+def check_running_heads(pages, divisions=()):
+    """A heading at the top of a page (the first line after [[page N]]) whose text is also a heading on the page
+    before: the running head of a contents or other continued division typed as a heading (*Fair Lusitania*,
+    2026-11-27: “# Contents.” on the contents' later pages, by the corrections pass, agreed by the judge).
+    Advertisements, index and back matter are not looked at (their headings repeat by design)."""
+    stop = min((d["at"] for d in divisions if d.get("kind") in ("advertisements", "index", "back")), default=None)
+    def key(ln):
+        m = re.match(r"\s*#{1,3} (.*)", ln)
+        if not m:
+            return None
+        k = re.sub(r"[^\w]+", " ", re.sub(r"<[^>]+>|\[\[[^\]]*\]\]", "", m.group(1))).strip().lower()
+        return k if len(k) >= 3 and not re.fullmatch(r"[ivxlcdm\d ]+", k) else None
+    prev, items = (None, set()), []
+    for leaf, text in pages:
+        if stop and leaf >= stop:
+            break
+        lines = [ln for ln in text.splitlines() if ln.strip() and not re.match(r"\[\[page [^\]]*\]\]\s*$", ln.strip())]
+        top = key(lines[0]) if lines else None
+        if top and top in prev[1]:
+            items.append(f"{leaf}: {lines[0].strip()[:60]!r} at the page top, also a heading on {prev[0]}: a running head?")
+        prev = (leaf, {k for k in map(key, lines) if k})
     return items
 
 
@@ -967,6 +992,7 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
             res["cover"].append("images/cover.jpg is missing (the front cover if the title is clearly readable on it, otherwise the title page)")
         res["sc-caps"] = check_sc(pages)
         res["heading-caps"] = check_heading_caps(pages)
+        res["running-heads"] = check_running_heads(pages, cfg.get("divisions") or [])
         res["hyphen-joins"] = triage_hyphen_joins([w for w in warnings if w.startswith("hyphen join")], pages)
         res["compile"] = [w for w in warnings if not w.startswith("hyphen join")]
         res["folios"] = check_folios(pages)
