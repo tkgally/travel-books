@@ -10,8 +10,8 @@
    "sort": "Rittner, George H."
   }
  ],
- "place": "London",
- "publisher": "John Murray",
+ "place": "New York and London",
+ "publisher": "James Pott & Co.; John Murray",
  "year": 1904,
  "edition_statement": "First edition",
  "collection": "jatsi",
@@ -28,5 +28,13 @@
    "date": "2026-11-27",
    "note": "First publication."
   }
- ]
+ ],
+ "period": "early 1900s (before 1904)",
+ "subjects": [
+  "Japan",
+  "Japanese art",
+  "Manners and customs"
+ ],
+ "summary": "George H. Rittner sets down his impressions of Japan as he found it at the beginning of the twentieth century, in eleven chapters arranged by subject rather than by route: the natural beauty of the country, Japanese art and what he sees as its decline under Western influence, the people and their homes, bathing, children, the geisha, the stage, “civilisation,” missionaries and religion, and the temples and their gods, ending with a farewell. Descriptions of what he saw at Yokohama, Kamakura, Nikko, and elsewhere are mixed with opinion, and he writes against the work of the missionaries. Thirty-three photographs, by the author and his friends, show streets, houses, temples, festivals, and people.",
+ "omitted_from_reading": "The half-title, the printed contents and list of illustrations, and the index are in the JSON only."
 }
