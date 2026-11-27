@@ -1,14 +1,22 @@
 [[page ?]]
 
-[[center]] THIS GOODLY FRAME THE EARTH
+[[center]] THIS GOODLY FRAME
 
-[[center]] <i>STRAY IMPRESSIONS OF SCENES, INCIDENTS AND PERSONS IN A JOURNEY TOUCHING JAPAN, CHINA, EGYPT, PALESTINE AND GREECE</i>
+[[center]] THE EARTH
+
+[[center]] <i>STRAY IMPRESSIONS OF SCENES, INCIDENTS</i>
+
+[[center]] <i>AND PERSONS IN A JOURNEY TOUCHING</i>
+
+[[center]] <i>JAPAN, CHINA, EGYPT, PALESTINE</i>
+
+[[center]] <i>AND GREECE</i>
 
 [[center]] BY
 
 [[center]] FRANCIS TIFFANY
 
-[[image: Publisher's device of the Riverside Press: a boy playing a pipe beneath a tree, with the rising sun behind, framed by a scroll]]
+[[image: Publisher’s device of the Riverside Press: a boy playing a pipe under a tree, the sun rising behind, with the motto “Tout bien ou rien”]]
 
 [[center]] BOSTON AND NEW YORK
 

@@ -17,7 +17,19 @@
  "edition_statement": "First edition",
  "collection": "jatsi",
  "regions": [
-  "Japan"
+  "United States",
+  "Japan",
+  "China",
+  "Hong Kong",
+  "Singapore",
+  "Sri Lanka",
+  "India",
+  "Egypt",
+  "Palestine",
+  "Lebanon",
+  "Syria",
+  "Turkey",
+  "Greece"
  ],
  "source": {
   "ia_identifier": "thisgoodlyframee00tiff_1",
@@ -200,7 +212,7 @@
   {
    "at": "p0056",
    "starts": "V.",
-   "title": "V. The Philosopher's Perch",
+   "title": "V. The Philosopher’s Perch",
    "editor": false
   },
   {
@@ -935,5 +947,18 @@
    "title": "VIII. Athens’ Parting Benediction",
    "editor": false
   }
+ ],
+ "period": "before 1895",
+ "subjects": [
+  "Voyages around the world",
+  "Japan",
+  "India",
+  "Egypt",
+  "Palestine"
+ ],
+ "summary": "Francis Tiffany describes a journey round the world made with a friend, Edwin B. Haskell, to whom the book is dedicated. They cross the United States by rail and the Pacific by steamer to Japan, where about a third of the book is spent: Yokohama, Kamakura and its great Buddha, the Hakone district, Nikko, Japanese art and manners, and the question of missions. They go on to Shanghai, Hong Kong and Canton, Singapore, and Ceylon, then through India from Calcutta and Darjeeling to Benares, Lucknow, Agra, Delhi, Jeypore, and Mount Abu. The last parts cover Egypt and the Nile, Palestine, Baalbec and Damascus, Smyrna, Constantinople, and Athens. The book is a series of short numbered sections, each with a title in the printed contents, in which description is mixed with reflection on religion, history, and art.",
+ "omitted_from_reading": "The list of the author’s books before the title page, the printed contents, the head title above the first chapter, the index, and the publisher’s advertisements are in the JSON only.",
+ "notes_on_text": [
+  "Each section of a chapter begins with a roman numeral set into its first two lines; these are shown as small headings, and the section titles of the printed contents are given in the contents of this edition."
  ]
 }
