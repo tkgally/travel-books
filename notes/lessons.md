@@ -90,6 +90,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Trigger: plates (tipped-in leaves) and a frontispiece
 
+- A map bound after the list of illustrations falls into that division and is left out of the reading editions: give it to `frontispiece` (it then opens the first chapter) (*Clark*, 2026-11-27: caught by the rendered look).
 - A folding chart bound before the title page falls into the front matter and is left out of the reading editions: list it in `frontispiece` (two halves: the right half first, as each goes to the same place) (*Whittingham*, 2026-11-27: caught by the rendered look).
 - Pictures printed on the contents or list-of-illustrations pages go wherever those pages go (left out of the reading editions): say so in `omitted_from_reading` (*Present-Day Japan*, 2026-11-22).
 - `ocr_claude.py --pages` takes leaf numbers (`7-355`), not names.
