@@ -1,0 +1,5 @@
+{"given": "I think you do; and so", "print": "I think you do, and so", "sure": "high"}
+{"given": "And you do nor know, perhaps,", "print": "And you do not know, perhaps,", "sure": "high"}
+{"given": "makes it so rcmarkable, and gives", "print": "makes it so remarkable, and gives", "sure": "high"}
+{"given": "who became a christian a short", "print": "who became a Christian a short", "sure": "high"}
+{"given": "It was proposed to us let him", "print": "It was proposed to us to let him", "sure": "high"}

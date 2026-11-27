@@ -1,0 +1,5 @@
+{"given": "for the best seat the house—which", "print": "for the best seat in the house—which", "sure": "high"}
+{"given": "innermost circle, witbin easy reach", "print": "innermost circle, within easy reach", "sure": "high"}
+{"given": "to note that if was the", "print": "to note that it was the", "sure": "high"}
+{"given": "by far. The jewish womanhood was", "print": "by far. The Jewish womanhood was", "sure": "high"}
+{"given": "flaring and sputtering weirdly; hung from", "print": "flaring and sputtering weirdly, hung from", "sure": "high"}

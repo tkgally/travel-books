@@ -1,0 +1,5 @@
+{"given": "every flea in that bed; and their", "print": "every flea in that bed, and their", "sure": "high"}
+{"given": "I put out lamp and got", "print": "I put out the lamp and got", "sure": "high"}
+{"given": "I buttered my eutire person with", "print": "I buttered my entire person with", "sure": "high"}
+{"given": "and as if was I simply", "print": "and as it was I simply", "sure": "high"}
+{"given": "soaked a sponge in vodka, and", "print": "soaked a sponge in Vodka, and", "sure": "high"}
