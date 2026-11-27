@@ -1,0 +1,5 @@
+{"find": "begin; and", "replace": "begin; and"}
+
+Checking the draft against the image, I find one real difference: "endeavours" matches the print, and so does everything else I compared. The line above is a no-op, so no change is needed.
+
+NONE

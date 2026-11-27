@@ -1,4 +1,0 @@
-{"given": "flat buckle at the side; and be ready", "print": "flat buckle at the side, and be ready", "sure": "high"}
-{"given": "kicked, but, or the whole, they", "print": "kicked, but, on the whole, they", "sure": "high"}
-{"given": "They had a power dead or torpid quiet,", "print": "They had a power of dead or torpid quiet,", "sure": "high"}
-{"given": "capers; they wonldn't chip the sides", "print": "capers; they wouldn't chip the sides", "sure": "high"}

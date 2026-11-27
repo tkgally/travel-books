@@ -1,5 +1,0 @@
-{"given": "white, black, and gray, with", "print": "white, black, and grey, with", "sure": "high"}
-{"given": "blankets, whose fcllows, loose to", "print": "blankets, whose fellows, loose to", "sure": "high"}
-{"given": "by the stove sat Dmytro; the grandfather,", "print": "by the stove sat Dmytro, the grandfather,", "sure": "medium"}
-{"given": "What a fine figure this was,", "print": "What a fine figure his was,", "sure": "high"}
-{"given": "got up and carried roughly-wound shuttle", "print": "got up and carried a roughly-wound shuttle", "sure": "high"}

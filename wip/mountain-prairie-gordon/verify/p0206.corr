@@ -1,0 +1,13 @@
+{"find": "It is unwatered by", "replace": "It is unwatered by"}
+
+Wait, the image shows "unwater-/ed", which rejoins to "unwatered". So the draft is correct there. Remaining differences:
+
+{"find": "{\"find\"", "replace": "{\"find\""}
+
+I'll give the actual corrections only:
+
+{"find": "North-West Company, which was formed", "replace": "North-West Company, which was formed"}
+
+On review the draft matches the page in all respects.
+
+NONE
