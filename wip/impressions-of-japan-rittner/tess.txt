@@ -1,0 +1,44 @@
+# tess_compare: 264 pages; 30 word items; 10 pitch items; 0 empty items
+## Pages tesseract finds empty
+## Line pitch
+p0017: pitch 43 against the book's 56 (0.77): small type typed as body text?
+p0297: pitch 33 against the book's 56 (0.59): small type typed as body text?
+p0298: pitch 32 against the book's 56 (0.57): small type typed as body text?
+p0299: pitch 20 against the book's 56 (0.36): small type typed as body text?
+p0300: pitch 34 against the book's 56 (0.61): small type typed as body text?
+p0301: pitch 35 against the book's 56 (0.62): small type typed as body text?
+p0302: pitch 34 against the book's 56 (0.61): small type typed as body text?
+p0303: pitch 33 against the book's 56 (0.59): small type typed as body text?
+p0304: pitch 34 against the book's 56 (0.61): small type typed as body text?
+p0305: pitch 35 against the book's 56 (0.62): small type typed as body text?
+## Words
+p0017: print?   file “Cherry”, tesseract “Cuerry”
+p0017: print?   file “Blossoms”, tesseract “Burossoms”
+p0017: print?   file “Garden”, tesseract “Garven”
+p0017: print?   file “Vessel”, tesseract “VEssev”
+p0017: print?   file “Temple”, tesseract “Tempte”
+p0017: print?   file “Maker”, tesseract “Maxer”
+p0017: print?   file “Labour”, tesseract “Lasovur”
+p0017: print?   file “Bathing”, tesseract “Batuinc”
+p0018: print?   file “Placid”, tesseract “Pracip”
+p0018: print?   file “Temple”, tesseract “Tempre”
+p0018: print?   file “Temple”, tesseract “Tempe”
+p0018: print?   file “and”, tesseract “anv”
+p0038: print?   file “torii”, tesseract “/rii,”
+p0044: print?   file “geisha”, tesseract “gezsha”
+p0046: print?   file “fête”, tesseract “féte”
+p0059: print?   file “torii”, tesseract “wrii”
+p0071: print?   file “saké”, tesseract “sak¢.”
+p0144: print?   file “official”, tesseract “~fficial”
+p0171: print?   file “Geisha”, tesseract “GHISHA.”
+p0189: print?   file “daimyos”, tesseract “dsimyos,”
+p0202: print?   file “now”, tesseract “fow”
+p0236: print?   file “convert”, tesseract “conyert”
+p0249: print?   file “torii”, tesseract “soriz,”
+p0249: print?   file “torii”, tesseract “wsrii”
+p0250: print?   file “torii”, tesseract “sorii”
+p0263: print?   file “torii”, tesseract “sorii,”
+p0264: print?   file “avenue”, tesseract “ayenue”
+p0264: print?   file “torii”, tesseract “srii,”
+p0265: print?   file “torii”, tesseract “wrii”
+p0297: print?   file “fête”, tesseract “féte”
