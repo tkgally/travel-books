@@ -1,0 +1,5 @@
+{"given": "however, if may become a powerful", "print": "however, it may become a powerful", "sure": "high"}
+{"given": "The valleys are cultivated everywhere; and rice,", "print": "The valleys are cultivated everywhere, and rice,", "sure": "high"}
+{"given": "maple. The japanese are always so", "print": "maple. The Japanese are always so", "sure": "high"}
+{"given": "impressed with the gcnerosity of Nature,", "print": "impressed with the generosity of Nature,", "sure": "high"}
+{"given": "she holds court gives receptions for", "print": "she holds court and gives receptions for", "sure": "high"}

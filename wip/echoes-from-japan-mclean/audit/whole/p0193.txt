@@ -1,0 +1,5 @@
+{"given": "If we look into relation between", "print": "If we look into the relation between", "sure": "high"}
+{"given": "advantages which japan holds over", "print": "advantages which Japan holds over", "sure": "high"}
+{"given": "every other Eastern nation; and over", "print": "every other Eastern nation, and over", "sure": "high"}
+{"given": "The only elevatiug and purifying", "print": "The only elevating and purifying", "sure": "high"}
+{"given": "what a boon this was to he to", "print": "what a boon this was to be to", "sure": "high"}

@@ -1,0 +1,5 @@
+{"given": "Doubtless he if was who", "print": "Doubtless he it was who", "sure": "high"}
+{"given": "woods were on eithcr side;", "print": "woods were on either side;", "sure": "high"}
+{"given": "near to the shore going; we had", "print": "near to the shore going, we had", "sure": "high"}
+{"given": "abound in the japanese forests,", "print": "abound in the Japanese forests,", "sure": "high"}
+{"given": "was very suggestive a Turkish bath.", "print": "was very suggestive of a Turkish bath.", "sure": "high"}

@@ -113,5 +113,20 @@
   }
  ],
  "summary": "A memoir of about nine years in Japan, from 1872, by M. McLean, a British woman who went out on her own means as a Christian evangelist. She describes teaching English to the sons of samurai at Yokohama, Bible meetings for British and American sailors, visits to the Shiba temple and tombs at Tokyo, journeys to the Hakone hills, Kobe, Osaka, and Arima, hotel life at Osaka, and Japanese family life, children, festivals, and schools. Several chapters give letters from Japanese converts, among them a student at Cambridge. The book is written to win support for missions, and its views of Japanese religion are those of an evangelical of the time. Appendices give notes from her diary and letters from sailors and from a missionary at Shanghai. The book has a map of Japan and woodcuts of Japanese life.",
- "period": "1872–81"
+ "period": "1872–81",
+ "keep_hyphens": [
+  "p0044",
+  "p0102"
+ ],
+ "notes_on_text": [
+  "Page 248 prints John iii. 16 in katakana, set in vertical columns in a box; the edition gives it as one line in reading order."
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-27",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }
