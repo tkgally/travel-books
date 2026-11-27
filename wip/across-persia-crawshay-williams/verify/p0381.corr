@@ -1,0 +1,12 @@
+{"find": "green of the tree—the buds;—and", "replace": "green of the tree—the buds;—and"}
+{"find": "spring, and as a bird", "replace": "spring, and as a bird"}
+
+Wait, correcting: the draft's "of the tree" matches the page, so I need to check differences only.
+
+{"find": "green of the tree", "replace": "green of the tree"}
+
+Actual differences: "delicate green of the tree" is correct; "all so vividly" is correct. Remaining difference:
+
+{"find": "all the spring?", "replace": "all the spring?"}
+
+NONE

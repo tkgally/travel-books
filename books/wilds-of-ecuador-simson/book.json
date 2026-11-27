@@ -1,0 +1,112 @@
+{
+ "id": "wilds-of-ecuador-simson",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "Travels in the Wilds of Ecuador, and the Exploration of the Putumayo River",
+ "short_title": "Travels in the Wilds of Ecuador",
+ "authors": [
+  {
+   "name": "Alfred Simson",
+   "sort": "Simson, Alfred"
+  }
+ ],
+ "place": "London",
+ "publisher": "Sampson Low, Marston, Searle, and Rivington",
+ "year": 1886,
+ "edition_statement": "First edition",
+ "regions": [
+  "Ecuador",
+  "Peru",
+  "Brazil",
+  "Colombia"
+ ],
+ "source": {
+  "ia_identifier": "travelsinwildsof00sims",
+  "contributor": "University of Toronto"
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-27",
+   "note": "First publication."
+  }
+ ],
+ "divisions": [
+  {
+   "at": "p0007",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0009",
+   "kind": "contents"
+  },
+  {
+   "at": "p0014",
+   "kind": "front",
+   "title": "Map",
+   "reading": true
+  },
+  {
+   "at": "p0015",
+   "kind": "front",
+   "title": "The book’s title above Chapter I"
+  },
+  {
+   "at": "p0015",
+   "kind": "chapter",
+   "n": 2
+  },
+  {
+   "at": "p0277",
+   "kind": "appendix",
+   "toc_title": "Appendix I. Short Vocabulary of the Záparo Language"
+  },
+  {
+   "at": "p0281",
+   "kind": "appendix",
+   "toc_title": "Appendix II. Piojé Words"
+  },
+  {
+   "at": "p0283",
+   "kind": "appendix",
+   "toc_title": "Appendix III. Heights of Some of the Principal Mountains and Towns of Ecuador, and Places on the Upper Pastassa"
+  },
+  {
+   "at": "p0285",
+   "kind": "advertisements"
+  },
+  {
+   "at": "p0314",
+   "kind": "advertisements"
+  }
+ ],
+ "toc": {
+  "subtitles": "all"
+ },
+ "keep_hyphens": [
+  "p0057",
+  "p0243",
+  "p0270"
+ ],
+ "period": "1870s",
+ "subjects": [
+  "Ecuador",
+  "Amazon River Valley",
+  "Indigenous peoples of South America",
+  "Záparo language"
+ ],
+ "summary": "Alfred Simson describes journeys into the Oriente, the forest province east of the Andes, made in the 1870s. He travels from Guayaquil over the mountains to Riobamba and Baños, then on foot and by canoe past the Jívaros to Canelos and the Napo, and stays for a long time at the village of Aguano among the Napo and Záparo Indians. He goes down the Napo and the Aguarico to the Amazon, and then, at the invitation of the Colombian Rafael Reyes, commands a Brazilian government launch on a voyage up the Putumayo to test whether the river can be navigated. Chapters on the geography of Ecuador and the history of its eastern province, and a closing historical sketch of the country, stand among the travel chapters. Appendices give a short Záparo vocabulary, Piojé words, and heights of mountains and towns.",
+ "omitted_from_reading": "The printed contents, the head title above Chapter I, and the publisher’s catalogue are in the JSON only.",
+ "notes_on_text": [
+  "The folding map of Ecuador (dated 1877) is shown at the width of the page, where its names cannot be read; the scan on the Internet Archive shows it at full size.",
+  "On one page of the publisher’s catalogue (p. 30) letters lost at the inner margin of the scan are supplied, and one price that cannot be read is marked as a gap."
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-27",
+  "pages": 6,
+  "recall": "29/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
+}

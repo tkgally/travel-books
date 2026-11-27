@@ -1,0 +1,6 @@
+judge opus: 5 spots on 5 pages: {'verified': 2, 'draft': 3}; cost $0.22
+p0033 #1 [verified, sure: medium] draft 'I. N<sc>o</sc>' | verified '[[side: I.]] N<sc>o</sc>' | judge reads '[[side: I.]] N<sc>o</sc>'
+p0066 #1 [draft, sure: high] draft 'artifical' | verified 'artificial' | judge reads 'artifical'
+p0132 #1 [verified, sure: low] draft '<i>Hinc illæ lachrymæ</i>' | verified '<i>Hinc illœ lachrymœ</i>' | judge reads '<i>Hinc illœ lachrymœ</i>'
+p0275 #1 [draft, sure: medium] draft 'I. As the ever' | verified '[[side: I.]] As the ever' | judge reads 'I. As the ever'
+p0333 #1 [draft, sure: low] draft '## III.\n\nWhen Peter' | verified '[[side: III.]] When Peter' | judge reads "III. (section number set into the left of the paragraph's first two lines, inside the text column, not in the margin) When Peter"

@@ -1,0 +1,9 @@
+{"find": "his supremest creative", "replace": "his supremest creative"}
+{"find": "Allah had there done his supremest", "replace": "Allah had there done his supremest"}
+{"find": "æsthetic", "replace": "æsthetic"}
+
+Wait—those are no-ops; the real differences are:
+
+{"find": "Allah had there done his supremest creative", "replace": "Allah had there done his supremest creative"}
+
+NONE

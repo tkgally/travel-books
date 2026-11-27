@@ -1,2 +1,0 @@
-{"n": 1, "is": "B", "print": "e Runners | | | 2 0 | 1 0", "sure": "medium"}
-{"n": 2, "is": "A", "print": "artin Paz | | | 2 0 |", "sure": "medium"}
