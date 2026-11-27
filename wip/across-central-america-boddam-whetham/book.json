@@ -1,0 +1,15 @@
+{
+ "id": "across-central-america-boddam-whetham",
+ "version": 1,
+ "date": "2026-11-28",
+ "title": "Across Central America",
+ "short_title": "Across Central America",
+ "authors": [{"name": "J. W. Boddam-Whetham", "sort": "Boddam-Whetham, J. W."}],
+ "place": "London",
+ "publisher": "Hurst and Blackett",
+ "year": 1877,
+ "edition_statement": "First edition",
+ "regions": ["Guatemala"],
+ "source": {"ia_identifier": "acrosscentralame00bodduoft", "contributor": "University of Toronto"},
+ "history": [{"version": 1, "date": "2026-11-28", "note": "First publication."}]
+}
