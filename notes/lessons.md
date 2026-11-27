@@ -192,6 +192,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - A half-title printed above Chapter I on the same leaf: two `#` divisions at one `at`; `n` counts from 1, so the chapter is `"n": 2`. Without it the chapter's `toc_title` went to the half-title, which became a part with every chapter under it (*From West Africa to Palestine*, caught by the rendered look).
 
 - Chapters opened by a divisional leaf (number, title, summary) and then a page repeating number and title above an epigraph: the divisional leaf is the heading, the repeat is left out as a head-title (*A Sportswoman in India*, 2026-11-27); a drafted summary can come out as body text on one leaf (p0247): list the `[[subtitle]]` lines per leaf.
+- Sections numbered by a roman numeral set into their first lines, titled only in the contents (*This Goodly Frame the Earth*, 2026-11-27): the draft typed the numerals four ways (`## I.`, `[[side: I.]]`, run-in “I.”, `[[center]]`); make them one form by script and check that each chapter's run has no gap. The printed section titles become `toc_entries` (`"editor": false`); where a chapter numeral “I.” stands just above section “I.”, point the entry at the first words of the paragraph, or it lands on the chapter heading.
 
 ## Trigger: no printed contents, chapters without titles
 

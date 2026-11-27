@@ -1,5 +1,0 @@
-{"find": "<i>Riverside Edition.</i> Crown 8vo, gilt top, $2.00, each.\n\nEnglish Note-Books. 2 vols.\n\nFrench and Italian Note-Books. 2 vols.\n\nOur Old Home. 1 vol.\n\nAmerican Note-Books. 2 vols.\n\n<i>Little Classic Edition.</i>", "replace": "<i>Riverside Edition.</i> Crown 8vo, gilt top, $2.00, each.\n\nEnglish Note-Books. 2 vols.\n\nFrench and Italian Note-Books. 2 vols.\n\nOur Old Home. 1 vol.\n\nAmerican Note-Books. 2 vols.\n\n<i>Little Classic Edition.</i>"}
-
-Wait — that replacement is identical to the find text, so it changes nothing. The draft already matches the page in that passage.
-
-NONE

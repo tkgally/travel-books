@@ -2334,11 +2334,13 @@
    "place": "Boston and New York",
    "publisher": "Houghton, Mifflin and Company",
    "images": 402,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-27",
    "eligibility": "JATSI 118. Vetted 2026-11-27 (Opus subagent). Rule 1 met: Boston Public Library colour scan, 500 ppi, pages 2–364 with no gaps (also good: LoC thisgoodlyframee00tiff_0, 600 ppi; UC thisgoodlyframe00tiff; Cornell cu31924023061488 is Kirtas). Rule 2 met: PG catalogue no match; web search found only the Online Books Page entry, which links HathiTrust page images; no Wikisource or Faded Page text. Rule 3 met: no post-1914 edition found. Rule 4 met: first-person round-the-world narrative. Re-checked 2026-11-27 (session): not in a fresh pg_catalog.csv; web search: the Online Books Page entry (HathiTrust page images) only.",
    "note": "A Unitarian preacher’s journey from Boston across America and the Pacific to Japan (about the first third: Yokohama, Kamakura, Hakone, Nikko, Kyoto), then China, Ceylon, India, Egypt, Palestine, Greece. Witty and digressive. No illustrations. Chapters divided into numbered sections, the roman numeral in the margin beside the opening line of each. Long nested contents; publisher’s advertisements at the end.",
-   "started": "2026-11-27"
+   "started": "2026-11-27",
+   "version": 1,
+   "published": "2026-11-27"
   },
   {
    "order": 210,

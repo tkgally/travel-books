@@ -1,0 +1,73 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[ FAIL (1)] audit: book.json records the sampled audit of this version
+            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[ look (6)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0144: … a little para-|phrase that I d… (hyphen removed; check)
+            - hyphen join at p0184: … I press on in-|spirited. The s… (hyphen removed; check)
+            - hyphen join at p0270: …e level of con-|crete action. ‘… (hyphen removed; check)
+            - hyphen join at p0297: …and administra-|tion that shall… (hyphen removed; check)
+            - hyphen join at p0380: … Persian objur-|gations, mingle… (hyphen removed; check)
+            - (and 10 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[       ok] contents: entries of the printed contents with no matching heading
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
+[       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
+[ look (1)] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
+            - p0392: opening in small capitals ('A<sc>badeh</sc>, village, followers of t'); most chapters open in full capitals
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
+[ look (5)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0006, p0015, p0016, p0017, p0018, p0019…); à (p0047)
+            - bab: báb (p0398); bāb (p0019, p0317, p0318, p0319, p0392, p0395…)
+            - barferush: barferush (p0384, p0385, p0386, p0389, p0393, p0395…); barferūsh (p0363)
+            - bud: bud (p0318, p0383); būd (p0291)
+            - piece: piece (p0038, p0051, p0052, p0057, p0058, p0082…); pièce (p0134)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[look (16)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0029: “hitter” — “bitter” is common (200)
+            - p0128: “acquaintanee” — “acquaintance” is common (473)
+            - p0132: “kipper” — “skipper” is common (62; a letter dropped or transposed?)
+            - p0136: “bottel” — “bottle” is common (298; a letter dropped or transposed?)
+            - p0136: “custome” — “customer” is common (49; a letter dropped or transposed?)
+            - p0182: “eights” — “heights” is common (296; a letter dropped or transposed?)
+            - p0189: “troubl” — “trouble” is common (831; a letter dropped or transposed?)
+            - p0190: “forc” — “fore” is common (182)
+            - p0200: “disguis” — “disguise” is common (52; a letter dropped or transposed?)
+            - p0256: “clambred” — “clambered” is common (45; a letter dropped or transposed?)
+            - p0256: “entred” — “entered” is common (1323; a letter dropped or transposed?)
+            - p0343: “threatned” — “threatened” is common (174; a letter dropped or transposed?)
+            - p0355: “eases” — “cases” is common (700)
+            - p0356: “entangle” — “entangled” is common (41; a letter dropped or transposed?)
+            - p0374: “conceiv” — “conceive” is common (98; a letter dropped or transposed?)
+            - p0391: “lazed” — “glazed” is common (41; a letter dropped or transposed?)
+[       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
+[ look (4)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: … his Scotch terrier Mr. Stumps, he lands at Bushire and rides by caravan ove…
+            - book.json summary: … the mountain passes to Shiraz, with a detour to the ruins and rock carvings of Sha…
+            - book.json summary: …Pasargadae, goes on to Isfahan, drives the two hundred and fifty miles to Teher…
+            - book.json omitted_from_reading: …tevenson before the title page, the printed contents and list of illustration…
+[       ok] line-breaks: a paragraph line that ends without a stop, followed on the next line by one that starts in lower case: a stray line break splitting a paragraph?
+[ look (1)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+            - p0132: “but He” in …better fruit, but He never did.’ Let…
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight FAIL: across-persia-crawshay-williams v1 — 1 to fix, 2 waived; to look at: hyphen-joins 6, openings 1, accents 5, rare-forms 16, serial-commas 4, missing-stop 1 — tools@aabe1693 2026-11-27
