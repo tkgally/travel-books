@@ -1,5 +1,0 @@
-{"given": "Massacre at the Old Fort.—Hear Hunting.", "print": "Massacre at the Old Fort.—Bear Hunting.", "sure": "high"}
-{"given": "Grizzly.—Missions to the indians.", "print": "Grizzly.—Missions to the Indians.", "sure": "high"}
-{"given": "much has been done explore the", "print": "much has been done to explore the", "sure": "high"}
-{"given": "Dominion of Canada, for, although", "print": "Dominion of Canada; for, although", "sure": "high"}
-{"given": "in 1670 few travcllers ventured beyond", "print": "in 1670 few travellers ventured beyond", "sure": "high"}

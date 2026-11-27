@@ -1,5 +1,0 @@
-{"given": "district, be took down his", "print": "district, he took down his", "sure": "high"}
-{"given": "or over treaeherous swamps, where", "print": "or over treacherous swamps, where", "sure": "high"}
-{"given": "large branches crosswize upon the path", "print": "large branches crosswise upon the path", "sure": "high"}
-{"given": "and for horses that carried ourselves", "print": "and for the horses that carried ourselves", "sure": "high"}
-{"given": "and the Mexicans; who first", "print": "and the Mexicans, who first", "sure": "high"}

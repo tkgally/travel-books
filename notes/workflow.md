@@ -154,7 +154,8 @@ mkdir -p $W/pages && cp $W/judge/p*.txt $W/pages/
 python3 $R/tools/move_pictures.py $W/pages          # pictures typed mid-paragraph → after the paragraph
 ```
 - `review.py`: look at every correction that was not applied, every length outlier, every page with an error,
-  and every `[[cont]]` the verifier added or removed (applied unjudged as markup): the indent on the scan settles it.
+  and every `[[cont]]` the verifier added or removed (applied unjudged as markup): the indent on the scan settles it. Expect them to be wrong: all four
+  were in *A Girl in the Karpathians* and *Mountain and Prairie* (2026-11-27); the draft had them right.
 - `judge/report.txt`: every "neither", every spot not marked sure, every case where the judge sided with the
   draft, and every change towards a more modern or more usual spelling is looked at on a crop
   (`crop_spot.py $B/pages/pNNNN.jpg 'three words there' $S/c.png`) and the page file in `$W/pages` edited.

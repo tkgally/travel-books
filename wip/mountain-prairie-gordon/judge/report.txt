@@ -1,6 +1,0 @@
-judge opus: 5 spots on 5 pages: {'draft': 3, 'verified': 2}; cost $0.22
-p0010 #1 [draft, sure: medium] draft '[[center]] <sc>gazette printing company, montreal.</sc>' | verified '[[center]] GAZETTE PRINTING COMPANY, MONTREAL.' | judge reads '[[center]] <sc>gazette printing company, montreal.</sc>'
-p0196 #1 [verified, sure: medium] draft 'C. H<sc>oretzky</sc>, Peace Rive' | verified 'C. HORETZKY, Peace Rive' | judge reads 'C. HORETZKY, Peace Rive'
-p0240 #1 [draft, sure: medium] draft 'McConnell,' | verified 'McConnel,' | judge reads 'McConnell,'
-p0260 #1 [draft, sure: high] draft ' to Edmonton.\n' | verified ' to Edmonton\n' | judge reads ' to Edmonton.\n'
-p0296 #1 [verified, sure: medium] draft 'ts en Route.' | verified 'ts en Route. From a Photo. by Dr. G. M. Dawson.' | judge reads 'ts en Route. From a Photo. by Dr. G. M. Dawson.'

@@ -2231,11 +2231,13 @@
    "place": "Montreal",
    "publisher": "Dawson Brothers",
    "images": 358,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-26",
    "eligibility": "Vetted 2026-11-26 (Opus subagent). pg_catalog.csv: none. Online Books Page: none. Wikisource: no match. Web search of a sentence: no text. Reprints: Kessinger, British Library Historical Print Editions 2011, Legare Street 2025 (all print-on-demand). Canadiana and UBC: scans only. Faded Page not checkable. Re-checked 2026-11-27: pg_catalog.csv (full, mirror) none; web search: no reading text.",
    "note": "Thomas Fisher Library (Toronto) scan, 650 ppi, 358 leaves, about 310 pp.; frontispiece and 7 plates from photographs, 3 maps (check the folding maps are complete). In 1879 a Presbyterian minister crosses with G. M. Dawson's survey: up the Skeena by canoe, by pack trail to Babine, by boat through the Peace River Pass, across the prairie by cart. A last chapter on Canada's future.",
-   "started": "2026-11-27"
+   "started": "2026-11-27",
+   "version": 1,
+   "published": "2026-11-27"
   },
   {
    "order": 122,

@@ -1,5 +1,0 @@
-{"given": "it turns snddenly northward", "print": "it turns suddenly northward", "sure": "high"}
-{"given": "to be known as the slave,", "print": "to be known as the Slave,", "sure": "high"}
-{"given": "Of course we where dependent", "print": "Of course we were dependent", "sure": "high"}
-{"given": "horses, as mule-train from Pine", "print": "horses, as the mule-train from Pine", "sure": "high"}
-{"given": "middle of August, and we", "print": "middle of August; and we", "sure": "high"}
