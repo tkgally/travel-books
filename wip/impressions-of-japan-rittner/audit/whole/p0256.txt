@@ -1,0 +1,5 @@
+{"given": "the thinking principle; after numerous", "print": "the thinking principle, after numerous", "sure": "high"}
+{"given": "At an early age be wandered", "print": "At an early age he wandered", "sure": "high"}
+{"given": "an anchorite, and coutinually in search", "print": "an anchorite, and continually in search", "sure": "high"}
+{"given": "famished from want food, realised", "print": "famished from want of food, realised", "sure": "high"}
+{"given": "and downfall of brahminism was then", "print": "and downfall of Brahminism was then", "sure": "high"}

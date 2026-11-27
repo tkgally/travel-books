@@ -1,0 +1,5 @@
+{"given": "The tea-houses; chaya as they", "print": "The tea-houses, chaya as they", "sure": "high"}
+{"given": "plain unpolished deal table cane chairs.", "print": "plain unpolished deal table and cane chairs.", "sure": "high"}
+{"given": "art of sitting or one’s heels", "print": "art of sitting on one’s heels", "sure": "high"}
+{"given": "person you can imagiue. She", "print": "person you can imagine. She", "sure": "high"}
+{"given": "large bow (the japanese bustle);", "print": "large bow (the Japanese bustle);", "sure": "high"}

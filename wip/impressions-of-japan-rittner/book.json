@@ -69,5 +69,17 @@
    "at": "p0297",
    "kind": "index"
   }
- ]
+ ],
+ "keep_hyphens": [
+  "p0035",
+  "p0292"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-27",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }

@@ -1,0 +1,5 @@
+{"given": "the last the north island", "print": "the last of the north island", "sure": "high"}
+{"given": "same kind of sceuery, the", "print": "same kind of scenery, the", "sure": "high"}
+{"given": "until the final parting; was delightful.", "print": "until the final parting, was delightful.", "sure": "high"}
+{"given": "years, perhaps forever. The sun", "print": "years, perhaps for ever. The sun", "sure": "high"}
+{"given": "Was it the fame sun", "print": "Was it the same sun", "sure": "high"}

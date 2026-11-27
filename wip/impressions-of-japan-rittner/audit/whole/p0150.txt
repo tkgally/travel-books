@@ -1,0 +1,5 @@
+{"given": "their talent, singing; dancing, and", "print": "their talent, singing, dancing, and", "sure": "high"}
+{"given": "in all manner of tcrrible ways", "print": "in all manner of terrible ways", "sure": "high"}
+{"given": "called Tango no sekku, when", "print": "called Tango no Sekku, when", "sure": "high"}
+{"given": "only allowed one or nor, I", "print": "only allowed one or not, I", "sure": "high"}
+{"given": "so are blown about the wind,", "print": "so are blown about in the wind,", "sure": "high"}
