@@ -1,5 +1,0 @@
-{"given": "gone through with this companions;", "print": "gone through with his companions;", "sure": "high"}
-{"given": "received more yards lienzo than others.", "print": "received more yards of lienzo than others.", "sure": "high"}
-{"given": "This ordeal completed, llore’s mother-in-law,", "print": "This ordeal completed, Llore’s mother-in-law,", "sure": "high"}
-{"given": "with attention and respect; appearing like", "print": "with attention and respect, appearing like", "sure": "high"}
-{"given": "I must here again call atteution to", "print": "I must here again call attention to", "sure": "high"}

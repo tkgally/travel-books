@@ -1,6 +1,0 @@
-{"find": "<i>páramos</i> of Saraurcu", "replace": "<i>páramos</i> of Saraurcu"}
-{"find": "<i>páramos</i>", "replace": "<i>páramos</i>"}
-
-Wait — I need to restrict to real differences. The page shows "Saraurcu" as "Saraurcu" and the draft matches it. The only real difference is the italic "for many days", where the closing quote falls outside the italics. The draft already has that correct.
-
-NONE

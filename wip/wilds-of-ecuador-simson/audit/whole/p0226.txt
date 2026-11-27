@@ -1,4 +1,0 @@
-{"given": "we reached the Amazons; having spent", "print": "we reached the Amazons, having spent", "sure": "high"}
-{"given": "of it, when nor at high", "print": "of it, when not at high", "sure": "high"}
-{"given": "both in midstream also here and", "print": "both in midstream and also here and", "sure": "high"}
-{"given": "which the grcatest dexterity of the", "print": "which the greatest dexterity of the", "sure": "high"}

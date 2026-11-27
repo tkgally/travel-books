@@ -1,5 +1,0 @@
-judge opus: 4 spots on 3 pages: {'verified': 1, 'draft': 3}; cost $0.13
-p0229 #1 [verified, sure: medium] draft 'Içá' | verified 'Iça' | judge reads 'Iça'
-p0245 #1 [draft, sure: low] draft '<i>machĕtes</i>' | verified '<i>machétes</i>' | judge reads '<i>machĕtes</i>'
-p0314 #1 [draft, sure: medium] draft 'e Runners | | | 2 0 | 1 0' | verified 'e Runners | 7 6 | 3 6 | 2 0 | 1 0' | judge reads 'e Runners | | | 2 0 | 1 0'
-p0314 #2 [draft, sure: medium] draft 'artin Paz | | | 2 0 |' | verified 'artin Paz | 7 6 | 3 6 | 2 0 |' | judge reads 'artin Paz | | | 2 0 |'

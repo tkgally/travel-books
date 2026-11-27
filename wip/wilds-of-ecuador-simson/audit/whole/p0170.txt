@@ -1,5 +1,0 @@
-{"given": "fcstivity, consisting principally in chicha", "print": "festivity, consisting principally in chicha", "sure": "high"}
-{"given": "already spoken of in canelos, and", "print": "already spoken of in Canelos, and", "sure": "high"}
-{"given": "single block of wood doubtless originally", "print": "single block of wood and doubtless originally", "sure": "high"}
-{"given": "state of decomposition; so that they", "print": "state of decomposition, so that they", "sure": "high"}
-{"given": "respectable appearance in or his entry", "print": "respectable appearance in on his entry", "sure": "high"}

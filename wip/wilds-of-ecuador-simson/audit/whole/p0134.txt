@@ -1,5 +1,0 @@
-{"given": "The matter was thcrefore settled", "print": "The matter was therefore settled", "sure": "high"}
-{"given": "first day, so curaca gave the", "print": "first day, so the curaca gave the", "sure": "high"}
-{"given": "come in. In all; twenty-three", "print": "come in. In all, twenty-three", "sure": "high"}
-{"given": "remained behind where the curaca", "print": "remained behind were the curaca", "sure": "high"}
-{"given": "the little river jandia (Jandia-yacu)", "print": "the little river Jandia (Jandia-yacu)", "sure": "high"}

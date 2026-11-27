@@ -2475,9 +2475,11 @@
    "images": 324,
    "eligibility": "Vetted 2026-11-27 (Opus subagent); rejected 2026-11-22 only under the old death-date rule. Rule 1: Toronto scan with jp2.zip. Rule 2: not in pg_catalog.csv; Online Books Page nothing; web search of a sentence: nothing; no Wikisource copy found by web search. Rule 3: print on demand only (Kessinger 2009, Franklin Classics 2018, Creative Media Partners 2022); a Spanish translation (Abya-Yala 1993) is not an edition. Rule 4: first-person. Not checked: Wikisource directly (rate-limited), WorldCat. Re-checked 2026-11-27 (session): not in a fresh pg_catalog.csv; web search of the title: catalogue records, a review and print-on-demand only.",
    "note": "University of Toronto scan, 650 ppi, colour. No plates; a folding map (the one foldout in the scandata: check it is opened). viii + 270 pp.: 19 chapters, three short appendices (Zaparo vocabulary, Pioje words, heights); publisher's catalogue at the end. Guayaquil to Riobamba and Baños, on foot past the Jívaros to Canelos, the Napo and Aguano, down the Aguarico to the Amazon, then by steamer up the Putumayo. Chapters III, IV and XIX general description. Smallpox, a flood, Orejón houses. Footnotes at the page foot.",
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-27",
-   "started": "2026-11-27"
+   "started": "2026-11-27",
+   "version": 1,
+   "published": "2026-11-27"
   },
   {
    "order": 250,
