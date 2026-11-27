@@ -2,7 +2,7 @@
 
 # Contents
 
-CHAP. I. First Sight of Japan <pref>7</pref>
+CHAP. I. First Sight of Japan <sc>page</sc> <pref>7</pref>
 
 CHAP. II. A Journey on the Tokaido <pref>17</pref>
 

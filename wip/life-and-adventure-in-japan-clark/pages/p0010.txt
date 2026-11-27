@@ -4,7 +4,7 @@
 
 The New House on the Castle Moat F<sc>rontispiece</sc>
 
-Map
+Map <sc>page</sc>
 
 A Japanese Junk <pref>8</pref>
 
