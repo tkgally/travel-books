@@ -2177,10 +2177,11 @@
    "place": "London",
    "publisher": "Richard Bentley and Son",
    "images": 472,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-26",
-   "eligibility": "Vetted 2026-11-26 (Opus subagent). PG catalogue: no match. Wikisource and web search: nothing. Faded Page: not checkable. Web search of a distinctive sentence: no text. No reprint found (Open Library returned an error). HathiTrust page images only.",
-   "note": "University of California scan, 400 ppi, jp2.zip. xii + 406 pp., 20 plates from photographs (19 listed plus a frontispiece). 472 images: long. Lisbon, Cintra, Mafra, Oporto, the Douro, Coimbra and Busaco, with anecdote and history. Portuguese words; quotations from Camões."
+   "eligibility": "Vetted 2026-11-26 (Opus subagent). PG catalogue: no match. Wikisource and web search: nothing. Faded Page: not checkable. Web search of a distinctive sentence: no text. No reprint found (Open Library returned an error). HathiTrust page images only. Re-checked 2026-11-27 (session): not in a fresh pg_catalog.csv; web search: the IA scan, a raw OCR text of the HathiTrust copy (distantreader.org; raw OCR does not count), the illustrations at the University of Porto.",
+   "note": "University of California scan, 400 ppi, jp2.zip. xii + 406 pp., 20 plates from photographs (19 listed plus a frontispiece). 472 images: long. Lisbon, Cintra, Mafra, Oporto, the Douro, Coimbra and Busaco, with anecdote and history. Portuguese words; quotations from Camões.",
+   "started": "2026-11-27"
   },
   {
    "order": 118,
