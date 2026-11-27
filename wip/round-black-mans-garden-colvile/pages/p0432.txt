@@ -6,7 +6,7 @@ Ju-ju Town, <pref>313</pref>.
 
 Kabàry plain, <pref>157</pref>.
 Kàmolàndy river, <pref>198</pref>.
-Karàmbily, <pref>210</pref>.
+Karàmbìly, <pref>210</pref>.
 Kimberley, <pref>264</pref>.
 Kinàjy, <pref>193</pref>.
 Klerksdorp, <pref>263</pref>.

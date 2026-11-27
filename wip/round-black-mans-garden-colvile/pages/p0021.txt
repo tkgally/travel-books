@@ -8,32 +8,32 @@
 
 <sc>tor</sc>, <i>To face page</i> <pref>6</pref>
 
-<sc>yembo</sc>, " <pref>8</pref>
+<sc>yembo</sc>, ″ <pref>8</pref>
 
-<sc>hadendowa arabs</sc>, " <pref>24</pref>
+<sc>hadendowa arabs</sc>, ″ <pref>24</pref>
 
-<sc>aden</sc>, " <pref>48</pref>
+<sc>aden</sc>, ″ <pref>48</pref>
 
-<sc>the tanks, aden</sc>, " <pref>50</pref>
+<sc>the tanks, aden</sc>, ″ <pref>50</pref>
 
-<sc>cape guardafui</sc>, " <pref>54</pref>
+<sc>cape guardafui</sc>, ″ <pref>54</pref>
 
-<sc>shella point</sc>, " <pref>58</pref>
+<sc>shella point</sc>, ″ <pref>58</pref>
 
-<sc>mombasa harbour</sc>, " <pref>60</pref>
+<sc>mombasa harbour</sc>, ″ <pref>60</pref>
 
-<sc>mombasa</sc>, " <pref>64</pref>
+<sc>mombasa</sc>, ″ <pref>64</pref>
 
-<sc>zanzibar from roof of british agency</sc>, " <pref>70</pref>
+<sc>zanzibar from roof of british agency</sc>, ″ <pref>70</pref>
 
-<sc>monsieur le myre de vilers</sc>, " <pref>80</pref>
+<sc>monsieur le myre de vilers</sc>, ″ <pref>80</pref>
 
-<sc>nosy-bé</sc>, " <pref>88</pref>
+<sc>nosy-bé</sc>, ″ <pref>88</pref>
 
-<sc>diégo suarez</sc>, " <pref>94</pref>
+<sc>diégo suarez</sc>, ″ <pref>94</pref>
 
-<sc>tamatave</sc>, " <pref>104</pref>
+<sc>tamatave</sc>, ″ <pref>104</pref>
 
-<sc>queen’s summer palace, from drawing by a native artist</sc>, " <pref>156</pref>
+<sc>queen’s summer palace, from drawing by a native artist</sc>, ″ <pref>156</pref>
 
-<sc>andòhalo square, antànanarìvo</sc>, " <pref>168</pref>
+<sc>andòhalo square, antànanarìvo</sc>, ″ <pref>168</pref>

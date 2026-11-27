@@ -18,7 +18,7 @@ Ambinàny, <pref>210</pref>.
 
 Ambòdinifòdy, <pref>148</pref>.
 
-Ambòhidratrimo, <pref>186</pref>.
+Ambòhidratrìmo, <pref>186</pref>.
 
 Ambòhimànga, <pref>157</pref>.
 
@@ -46,7 +46,7 @@ Ankazobe, <pref>190</pref>.
 
 Ankèramadinika, <pref>149</pref>.
 
-Antànanarivo, <pref>151</pref>, <pref>154</pref>.
+Antànanarìvo, <pref>151</pref>, <pref>154</pref>.
 
 Antànimbàrindratsontsàraka, <pref>202</pref>.
 

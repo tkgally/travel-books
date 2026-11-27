@@ -153,11 +153,6 @@
  "summary": "Zélie Colvile’s account of eight months spent travelling round Africa with her husband, Henry Colvile, in 1888–89, after their doctors told them to winter in a warm climate. From Venice they went by Alexandria and the Red Sea, calling at Jeddah, Suakin, Massowah, and Aden, then down the east coast by Lamu and Mombasa to Zanzibar. From Tamatave they crossed Madagascar to the capital, Antananarivo, and on to Mojànga on the west coast, carried in palanquins, as guests of the French Resident-General, Le Myre de Vilers. They went on by Mozambique and Delagoa Bay to Durban, the Transvaal goldfields and Pretoria, and the Kimberley diamond mines; then from Cape Town to the Canary Islands, and home along the West African coast, calling at Freetown, Accra, Libreville, and Bonny. The book has 32 plates and 20 smaller pictures from the author’s drawings and from photographs, and two maps.",
  "waivers": [
   {
-   "check": "spacing",
-   "match": "p0021",
-   "why": "ditto marks in the list of illustrations (“To face page” repeated), printed as such"
-  },
-  {
    "check": "leaves",
    "match": "p0433",
    "why": "blank flyleaf at the back; not transcribed"
@@ -167,5 +162,19 @@
    "match": "p0434",
    "why": "library date-due slip; not part of the book"
   }
- ]
+ ],
+ "keep_hyphens": [
+  "p0172",
+  "p0208",
+  "p0221",
+  "p0380"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-27",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }
