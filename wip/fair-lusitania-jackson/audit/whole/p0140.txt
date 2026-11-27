@@ -1,0 +1,5 @@
+{"given": "He looked at me suspiciously; though", "print": "He looked at me suspiciously, though", "sure": "high"}
+{"given": "they have been plantcd there.", "print": "they have been planted there.", "sure": "high"}
+{"given": "Coração de Jesus, on church of", "print": "Coração de Jesus, or church of", "sure": "high"}
+{"given": "except that of the jeronymos, in", "print": "except that of the Jeronymos, in", "sure": "high"}
+{"given": "being used for floor and the", "print": "being used for the floor and the", "sure": "high"}

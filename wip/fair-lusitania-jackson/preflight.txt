@@ -1,10 +1,8 @@
 [       ok] meta: book.json: required fields present and sane
-[ FAIL (1)] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
-            - p0081: illegible mark 〓: 'If you look up from the eastern side of the square to the tops of the '
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
 [       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
 [       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
-[ FAIL (1)] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
-            - text: …' the ancient Gothic church of 〓enhora do Carmo, or do Vencime'…
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
 [       ok] straight-quotes: no straight ' or " in the text
 [       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
 [       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
@@ -43,7 +41,7 @@
             - p0012: 'The Aterro de Boa Vista—The Alcantara barracks—A miniature Manchester—'
             - p0013: 'St. Roque—Unprotected females—The Santa Casa—Chapel of S. João o Bapti'
             - p0013: 'Fêting the downfall of tyranny—Mass at the Martyres—An oration at the '
-            - p0013: 'Thrust on the pavê by the Spaniards—The Larmanjat rail—A pleasant jour'
+            - p0013: 'Thrust on the pavé by the Spaniards—The Larmanjat rail—A pleasant jour'
             - p0013: 'Donkeys—The ride up the hill—The beauties of Cintra—A party of Spaniar'
             - p0014: 'the quintas, santa cruz, etc.'
             - p0014: 'The quintas of the Marquesses de Vianna and Vallada—The Marialva Palac'
@@ -68,7 +66,7 @@
 [       ok] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
 [       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
-[look (36)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+[look (34)] accents: words the book spells with different accents (or with and without): look at each group on the scan
             - a: a (p0011, p0012, p0013, p0014, p0015, p0016…); à (p0043, p0049, p0088, p0175, p0178, p0210…)
             - aerial: aerial (p0107, p0418); aërial (p0218)
             - au: aû (p0055); àu (p0338)
@@ -81,7 +79,7 @@
             - desagremens: désagremens (p0385); désagrémens (p0401)
             - devote: devote (p0424, p0431); dêvote (p0240)
             - do: do (p0008, p0011, p0012, p0014, p0015, p0016…); dò (p0035)
-            - e: e (p0015, p0018, p0020, p0035, p0058, p0088…); è (p0291, p0403); é (p0244, p0245, p0252, p0253); ê (p0289, p0291)
+            - e: e (p0015, p0018, p0020, p0035, p0058, p0088…); è (p0291, p0403); é (p0244, p0245, p0252, p0253, p0291); ê (p0289)
             - emotion: emotion (p0234); émotion (p0168)
             - espieglerie: espièglerie (p0288); espiéglerie (p0084)
             - esta: esta (p0428); està (p0323)
@@ -96,34 +94,29 @@
             - ou: ou (p0361); où (p0245)
             - pao: páo (p0428); pão (p0209)
             - pateo: pateo (p0137); páteo (p0439)
-            - pave: pavé (p0194); pavê (p0013)
             - preference: preference (p0154, p0211, p0324); préférence (p0059, p0098)
             - re: re (p0134, p0142, p0233, p0260, p0271, p0294…); ré (p0077)
-            - rivas: rivas (p0015, p0352, p0353, p0367, p0374, p0375…); rivās (p0351)
             - sa: sa (p0240); sà (p0174, p0389)
             - sao: sao (p0153, p0155, p0267); sáo (p0428); são (p0169, p0203, p0403, p0454)
-            - se: se (p0245, p0406); sé (p0361, p0397); sê (p0016, p0017, p0104, p0362, p0391, p0404…)
+            - se: se (p0245, p0406); sê (p0016, p0017, p0104, p0361, p0362, p0391…)
             - te: te (p0013, p0182, p0184); té (p0462)
             - yngleses: yngleses (p0016); yngléses (p0386)
 [       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
-[look (10)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+[ look (7)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
             - p0015: “pilar” — “pillar” is common (127; a letter dropped or transposed?)
             - p0015: “trems” — “terms” is common (373; a letter dropped or transposed?)
             - p0018: “gaia” — “gala” is common (45)
-            - p0165: “skilfuly” — “skilfully” is common (49; a letter dropped or transposed?)
             - p0166: “satined” — “stained” is common (144; a letter dropped or transposed?)
             - p0274: “corage” — “courage” is common (323; a letter dropped or transposed?)
             - p0285: “youself” — “yourself” is common (295; a letter dropped or transposed?)
             - p0346: “earless” — “fearless” is common (57; a letter dropped or transposed?)
-            - p0373: “duirng” — “during” is common (3592; a letter dropped or transposed?)
-            - p0403: “prodnctions” — “productions” is common (121)
 [       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
 [ look (2)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
-            - book.json summary: …bra, Busaco, Batalha, Alcobaça, and Leiria before returning to Lisbon and sailing home. Histor…
+            - book.json summary: …bra, Busaco, Batalha, Alcobaça, and Leiria before returning to Lisbon and sailing home to Sout…
             - book.json omitted_from_reading: …The half-titles, the printed contents and list of illustration…
 [       ok] line-breaks: a paragraph line that ends without a stop, followed on the next line by one that starts in lower case: a stray line break splitting a paragraph?
 [ look (1)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
             - p0431: “if He” in …nterprise, vowed to God, if He gave him the v…
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: fair-lusitania-jackson v1 — 3 to fix, 1 waived; to look at: hyphen-joins 5, folios 2, quote-balance 1, contents 30, accents 36, rare-forms 10, serial-commas 2, missing-stop 1 — tools@bd211eff 2026-11-27
+preflight FAIL: fair-lusitania-jackson v1 — 1 to fix, 1 waived; to look at: hyphen-joins 5, folios 2, quote-balance 1, contents 30, accents 34, rare-forms 7, serial-commas 2, missing-stop 1 — tools@9ff8be20 2026-11-27

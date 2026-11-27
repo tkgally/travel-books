@@ -1,0 +1,5 @@
+{"given": "lappels. Be wore ruffles, frilled", "print": "lappels. He wore ruffles, frilled", "sure": "high"}
+{"given": "itself a Paul clifford’s, or", "print": "itself a Paul Clifford’s, or", "sure": "high"}
+{"given": "apparently apprentice bull-fightcrs, whose office", "print": "apparently apprentice bull-fighters, whose office", "sure": "high"}
+{"given": "it, stepped forward pace or two,", "print": "it, stepped forward a pace or two,", "sure": "high"}
+{"given": "remarkably pretty fellow, indeed; he proved", "print": "remarkably pretty fellow, indeed, he proved", "sure": "high"}

@@ -1,0 +1,5 @@
+{"given": "The site of batalha would", "print": "The site of Batalha would", "sure": "high"}
+{"given": "heavy rains let in", "print": "heavy rains set in", "sure": "high"}
+{"given": "in all its vastness; grandeur, and beauty", "print": "in all its vastness, grandeur, and beauty", "sure": "high"}
+{"given": "that to examine it detail", "print": "that to examine it in detail", "sure": "high"}
+{"given": "fretwork and arabesques enrieh this grand", "print": "fretwork and arabesques enrich this grand", "sure": "high"}
