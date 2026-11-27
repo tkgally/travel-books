@@ -1,8 +1,0 @@
-Differences: "Christanised" should be "Christianised", and the last line should end with "re-".
-
-{"find": "Christanised", "replace": "Christianised"}
-{"find": "been re-", "replace": "been re-"}
-
-Correction: the second line changes nothing, so the list is only the first entry.
-
-{"find": "Christanised", "replace": "Christianised"}

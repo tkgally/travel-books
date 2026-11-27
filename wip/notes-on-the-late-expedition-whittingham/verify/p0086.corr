@@ -1,3 +1,0 @@
-The scan prints "tête d tête" (with a plain d), not "tête à tête" as in the draft.
-
-{"find": "<i>tête à tête</i>", "replace": "<i>tête d tête</i>"}

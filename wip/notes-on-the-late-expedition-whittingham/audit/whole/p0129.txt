@@ -1,5 +1,0 @@
-{"given": "Politically considered, the commaud of the", "print": "Politically considered, the command of the", "sure": "high"}
-{"given": "authorised attacks or Aniwa; and the", "print": "authorised attacks on Aniwa; and the", "sure": "high"}
-{"given": "who is a brother the Russian", "print": "who is a brother of the Russian", "sure": "high"}
-{"given": "in Armenia and Georgia; and supposed,", "print": "in Armenia and Georgia, and supposed,", "sure": "high"}
-{"given": "the English papers of april 10th,", "print": "the English papers of April 10th,", "sure": "high"}
