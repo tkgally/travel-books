@@ -4,7 +4,7 @@ IA: sportswomaninind00savorich (University of California Libraries; 530 image fi
 Eligibility: re-checked 2026-11-27: not in pg_catalog.csv (fresh copy; only her *In the Tail of the Peacock*, #28016); web search: the IA text, BHL page images, Blackwell's print-on-demand; no real reprint. Rejected 2026-11-19 only under the old death-date rule, which Tom dropped on 2026-11-26.
 
 ## Status
-Stage reached: (a) scan checked, Drive cache done, Opus draft running (p0005–p0008, p0011–p0522).   Next step: Sonnet corrections pass (workflow §3); plate crops meanwhile.
+Stage reached: (c) preflight PASS but audit record; audit 30/30 and p0199 5/5; rendered look running.   Next: record audit, publish.
 
 ## Page map
 p0001 cover (no title) · p0002–p0004 pastedown, bookplates, flyleaf · p0005 half-title · p0007 blank · p0008 frontispiece (photogravure portrait, signed, no caption) · p0009–p0010 tissue (not drafted) · p0011 title · p0012 imprint · p0013 dedication · p0015–p0017 contents · p0019 = printed 1 · p0522 = p. 408 (colophon) · p0523–p0531 blank, slips, back cover, colour cards.
@@ -15,6 +15,11 @@ Scan check (Opus subagent, 2026-11-27): all 14 sheets; pages 1–408 each found 
 Notes: verse epigraphs and verse quotations in small type; boxed notices p0265 (a shop card), p0452 (a receipt); Babu English letters in ch. XI; a two-column bill of fare p0499; Hindustani words in italics with accents; no footnotes seen.
 
 ## Decisions
+- Chapter heads (assumed; easily changed): each chapter's divisional leaf (number, title, summary as `[[subtitle]]`s) is the chapter heading; the number and title repeated on the opening page above the epigraph are left out as a head-title (as in *A British Officer in the Balkans*); said in `notes_on_text`. p0247's summary was typed as body text: made a `[[subtitle]]`.
+- Corrections pass (Sonnet, $16.60): 41 changes; no `[[cont]]` proposals, no blank pages filled. Judge (31 spots, $0.94): draft 20, verifier 10, neither 1; 27 looked at on the scan by an Opus subagent: the judge was wrong on p0247 (VI, a speck after the numeral; checked by the session) and p0357–p0358 Godávari (acute, checked by the session); opening capitals, the shop card's comma, small-capital epigraph titles, the Indian-English letters' italic headings all `###`.
+- `[[cont]]` removed at p0051, p0052, p0078, p0334, p0445, p0517 (compile: nothing to continue: a verse block before, or a new verse). p0517 continues a sentence after a verse: the markup cannot join it (known issue).
+- Spot-reads (two Opus subagents, full tesseract comparison): printed misprints marked: p0240 “tully”, p0501 “witb”, p0490 a full stop for a comma; accents made as printed (Sháh Jehán, Musalmán, Diwán-i-Khás, Sulimán, bárá: acute, not circumflex); p0165 “sycés” → “syces” (a speck; the same word plain on the page; checked by the session); p0161 “tails” in a Kipling quotation kept as printed.
+- keep_hyphens: p0271 camping-ground, p0431 gold-dropping.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
