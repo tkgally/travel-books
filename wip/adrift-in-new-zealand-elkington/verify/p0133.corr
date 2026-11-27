@@ -1,0 +1,7 @@
+The caption reads "OHINEMUTA", but the draft has "Ohinemuta". That is a misspelling in the draft.
+
+{"find": "Ohinemuta", "replace": "Ohinemuta"}
+
+Wait — the scan reads "OHINEMUTA", which title-cases to "Ohinemuta", so the draft already matches. The draft needs no change.
+
+NONE

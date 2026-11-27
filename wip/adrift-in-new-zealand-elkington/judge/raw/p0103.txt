@@ -1,0 +1,1 @@
+{"n": 1, "is": "B", "print": "<i>Photo by W. Reid.</i>\n[[caption]] Sheep in Thousands", "sure": "high"}
