@@ -1,4 +1,0 @@
-{"given": "breeze that bad blown during", "print": "breeze that had blown during", "sure": "high"}
-{"given": "and in the moruing it", "print": "and in the morning it", "sure": "high"}
-{"given": "the thick mist, and, as", "print": "the thick mist; and, as", "sure": "high"}
-{"given": "the 1st May, the gale", "print": "the 1st of May, the gale", "sure": "high"}

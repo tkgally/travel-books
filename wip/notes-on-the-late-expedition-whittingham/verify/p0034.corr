@@ -1,9 +1,0 @@
-{"find": "refuse myself.", "replace": "refuse myself."}
-
-Wait, that is unchanged. Correct list:
-
-{"find": "cannot refuse myself.", "replace": "cannot refuse myself."}
-
-I made an error above. The draft already contains "myself.", so no change is needed.
-
-NONE

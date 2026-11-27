@@ -1,6 +1,0 @@
-{"given": "gradually, howcver, their manner changed", "print": "gradually, however, their manner changed", "sure": "high"}
-{"given": "demanded high prices, on the exchange", "print": "demanded high prices, or the exchange", "sure": "high"}
-{"given": "Russians had nothing left: Food", "print": "Russians had nothing left. Food", "sure": "low"}
-{"given": "Food and huts were provided; and", "print": "Food and huts were provided, and", "sure": "high"}
-{"given": "Powhattan, bearing ratification of the American", "print": "Powhattan, bearing the ratification of the American", "sure": "high"}
-{"given": "found the russians already housed", "print": "found the Russians already housed", "sure": "high"}

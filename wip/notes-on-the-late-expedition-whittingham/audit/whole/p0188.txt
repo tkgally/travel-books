@@ -1,5 +1,0 @@
-{"given": "thronged the doors of the villagcs, saluting", "print": "thronged the doors of the villages, saluting", "sure": "high"}
-{"given": "came out in numbers see the", "print": "came out in numbers to see the", "sure": "high"}
-{"given": "excited by the ardor of the sport", "print": "excited by the ardour of the sport", "sure": "high"}
-{"given": "an exertion or the part of", "print": "an exertion on the part of", "sure": "high"}
-{"given": "as they term superior officers; quite astounding", "print": "as they term superior officers, quite astounding", "sure": "high"}

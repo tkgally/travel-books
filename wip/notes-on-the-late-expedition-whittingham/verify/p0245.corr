@@ -1,7 +1,0 @@
-Image says "a small shabby pony" (draft has "small shabby"? draft: "a small shabby pony"). Draft reads "small shabby pony" — matches. The image has "à" as "à" — fine.
-
-{"find": "on a small shabby pony", "replace": "on a small shabby pony"}
-
-Actually no change needed.
-
-NONE

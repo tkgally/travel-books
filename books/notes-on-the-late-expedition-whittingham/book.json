@@ -1,0 +1,166 @@
+{
+ "id": "notes-on-the-late-expedition-whittingham",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "Notes on the Late Expedition against the Russian Settlements in Eastern Siberia; and of a Visit to Japan and to the Shores of Tartary, and of the Sea of Okhotsk",
+ "short_title": "Notes on the Late Expedition against the Russian Settlements in Eastern Siberia",
+ "authors": [
+  {
+   "name": "Captain Bernard Whittingham",
+   "sort": "Whittingham, Bernard"
+  }
+ ],
+ "place": "London",
+ "publisher": "Longman, Brown, Green, and Longmans",
+ "year": 1856,
+ "edition_statement": "First edition",
+ "collection": "jatsi",
+ "regions": [
+  "Japan",
+  "Siberia"
+ ],
+ "period": "1855",
+ "source": {
+  "ia_identifier": "cu31924023036050",
+  "contributor": "Cornell University Library",
+  "hidden_leaves": []
+ },
+ "divisions": [
+  {
+   "at": "p0004",
+   "kind": "front"
+  },
+  {
+   "at": "p0010",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0012",
+   "kind": "preface"
+  },
+  {
+   "at": "p0016",
+   "kind": "contents"
+  },
+  {
+   "at": "p0024",
+   "kind": "front",
+   "title": "The book’s title above Chapter I"
+  },
+  {
+   "at": "p0318",
+   "kind": "appendix"
+  },
+  {
+   "at": "p0324",
+   "kind": "advertisements"
+  },
+  {
+   "at": "p0328",
+   "kind": "advertisements"
+  },
+  {
+   "at": "p0332",
+   "kind": "advertisements"
+  },
+  {
+   "at": "p0024",
+   "kind": "chapter",
+   "toc_title": "Chapter I. From Hong Kong to the Straits of Sangar",
+   "n": 2
+  },
+  {
+   "at": "p0036",
+   "kind": "chapter",
+   "toc_title": "Chap. II. Hakodadi"
+  },
+  {
+   "at": "p0091",
+   "kind": "chapter",
+   "toc_title": "Chap. III. Sagalien and the Coast of Tartary"
+  },
+  {
+   "at": "p0123",
+   "kind": "chapter",
+   "toc_title": "Chap. IV. With the Squadron"
+  },
+  {
+   "at": "p0142",
+   "kind": "chapter",
+   "toc_title": "Chap. V. Aniwa Bay and Southern Sagalien"
+  },
+  {
+   "at": "p0158",
+   "kind": "chapter",
+   "toc_title": "Chap. VI. Aian and the Sea of Okhotsk"
+  },
+  {
+   "at": "p0182",
+   "kind": "chapter",
+   "toc_title": "Chap. VII. Hakodadi Again"
+  },
+  {
+   "at": "p0210",
+   "kind": "chapter",
+   "toc_title": "Chap. VIII. Simoda"
+  },
+  {
+   "at": "p0233",
+   "kind": "chapter",
+   "toc_title": "Chap. IX. Nagasaki"
+  },
+  {
+   "at": "p0268",
+   "kind": "chapter",
+   "toc_title": "Chap. X. Nagasaki to Shanghai"
+  }
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0006",
+   "why": "Cornell's digitization notice, inserted by the scanner"
+  },
+  {
+   "check": "leaves",
+   "match": "p0007",
+   "why": "a blank leaf inserted by the scanner with the notice"
+  }
+ ],
+ "keep_hyphens": [
+  "p0100",
+  "p0165"
+ ],
+ "summary": [
+  "In 1855, during the Crimean War, a captain of the Royal Engineers sails from Hong Kong with the British naval squadron sent against the Russian settlements on the Pacific coast of Siberia. The ships search the Gulf of Tartary, the coast of Sakhalin (“Sagalien”) and the Sea of Okhotsk for the Russian ships, and find the settlement of Ayan deserted.",
+  "Between the cruises the author spends time in Japan, which had lately been opened to British ships: at Hakodate (“Hakodadi”), where he goes into the country by boat and calls on the governor, at Shimoda, where the Russian frigate “Diana” had been lost, and at Nagasaki. He writes of the harbours, the towns and villages, the people, and the Japanese officials’ treatment of foreigners. The book ends at Shanghai, with an account of the Taiping rebellion as he heard of it there."
+ ],
+ "subjects": [
+  "Crimean War",
+  "Royal Navy"
+ ],
+ "omitted_from_reading": "The half-title, the printed contents, the book’s title above Chapter I, and the publisher’s lists and catalogue at the end are in the JSON only.",
+ "notes_on_text": [
+  "The folding chart of the author’s cruise is scanned in two overlapping halves, shown one after the other.",
+  "The chapters have no titles, only summaries. The entries of the contents give a short title of the editor’s for each chapter, taken from its summary; the summaries are printed in full at the head of each chapter."
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-27",
+   "note": "First publication."
+  }
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-27",
+  "pages": 6,
+  "recall": "29/29",
+  "real_errors": 0,
+  "fixed": 0
+ },
+ "frontispiece": [
+  "p0009-1",
+  "p0008-1"
+ ]
+}

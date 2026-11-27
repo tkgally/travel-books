@@ -89,6 +89,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Trigger: plates (tipped-in leaves) and a frontispiece
 
+- A folding chart bound before the title page falls into the front matter and is left out of the reading editions: list it in `frontispiece` (two halves: the right half first, as each goes to the same place) (*Whittingham*, 2026-11-27: caught by the rendered look).
 - Pictures printed on the contents or list-of-illustrations pages go wherever those pages go (left out of the reading editions): say so in `omitted_from_reading` (*Present-Day Japan*, 2026-11-22).
 - `ocr_claude.py --pages` takes leaf numbers (`7-355`), not names.
 - Tissue guards: the draft transcribes what shows through them (the whole title page; the frontispiece as an `[[image:]]` with its caption), so the text appears twice (*Sunny Australia*, 2026-11-23: seen as a length change on p0010). Empty those leaves to `[[page ?]]` and say so in `notes_on_text`; better, leave them out of `--pages` when the scan check names them.
@@ -145,6 +146,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - A misprint split by a line-end hyphen (“disre-|pect”) is silently corrected by the draft, the verifier and the judge alike (*Surface Japan* p. 29); only the spot-read's tesseract comparison found it. “Tranquilty” on the same page was listed by no check (no “tranquility” in the collection to compare with).
 
 ## Trigger: broken type
+- A ligature dropped out of the type (“twenty-|ve” for “twenty-five”, *Whittingham* p0143): every stage typed the fragment; only the rendered look saw it. grep `-ve\b`, ` ve `, `-nd\b` for fragments of fi, fl, ff.
 - A printer who scattered stray accents over English words (“globé”, “thé”, *From Europe to Paraguay*, 1877: 56): the drafts copy some and drop most; tesseract misses them. A page-by-page pass for marks over x-height letters (connected components, then the JP2 at 5–8x) found half of them; a second copy of the edition settles whether a mark is printed or a speck.
 
 - A damaged corner or edge (*Around the World through Japan* p. 95): draft, verifier, judge and a spot-read all filled the lost words with plausible ones (“away” for *free*, “little” for *shade*); only the two letters typed 〓 showed it. Read such lines from another scan or edition of the same setting (IA OCR text is enough to find the page); otherwise `[[supplied]]`/`[[gap]]`.
