@@ -4,7 +4,7 @@ IA: ourneighbourhood00techrich (University of California Libraries; 241 image fi
 Eligibility: re-checked 2026-11-27: not in pg_catalog.csv (fresh copy); web search of the title finds catalogue records only (HathiTrust page images, Open Library, a dealer's page); no reprint other than print on demand. JATSI 37. Rule 4 mixed (sketches of village life by a resident, with some “we” and “I”): a JATSI book, so done on the list's account.
 
 ## Status
-Stage reached: (a) scan checked, draft running.   Next step: Drive uploads; Sonnet corrections pass after the draft.
+Stage reached: (a) scan checked, plates cropped, draft running.   Next step: Sonnet corrections pass after the draft (workflow §3). Drive uploads by a subagent.
 
 ## Page map
 p0001 cover (no title) · p0002–p0008 endpapers, IA notice, blanks · p0009 tissue · p0010 frontispiece “A Japanese Garden” (sideways, caption reads top to bottom) · p0011 title · p0012 blank · p0013 Preface · p0015 Contents · p0017 List of Illustrations · p0019 = printed 1 (offset 18; grows by 2 for each plate and each tissue; read the running heads) · p0228 = p. 124, the end · p0229–p0241 blanks, endpaper, loan slip, back cover, colour target.
@@ -23,3 +23,6 @@ Notes: one long small-type footnote p. 113 (leaf 211); pill placards pp. 68–69
 | Version | Date | Preflight stamp | Audit | Notes |
 
 ## Known issues
+
+## Illustrations (crops by an Opus subagent, 2026-11-27; six looked at by the session)
+All 24 plates cropped `--gray` without captions; p0010 rotated 270, p0029 and p0213 rotated 90; p0039 soft (shot through its tissue), kept. cover.jpg = title page p0011.
