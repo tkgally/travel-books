@@ -43,9 +43,34 @@
   {
    "at": "p0010",
    "kind": "illustrations"
+  },
+  {
+   "at": "p0013",
+   "kind": "front",
+   "title": "The book’s title above Chapter I"
   }
  ],
  "frontispiece": "p0004-1",
  "waivers": [],
- "keep_hyphens": []
+ "keep_hyphens": [],
+ "summary": [
+  "An American teacher's account of four years in the service of the Japanese government, 1871–75, written for young readers and, as the preface says, “from a Christian standpoint.” Clark travels from Yokohama along the Tokaido to Shizuoka (“Shidz-u-o-ka”), the town of the retired shogun, where he teaches for two years, living first in a Buddhist temple and then in a new house in the grounds of the old castle. He describes his excursions, the ascent of Mount Fuji, and the making of tea.",
+  "He then moves to Tokyo to teach at the Kaisei Gakko, the government college, and writes of the capital, a visit to the emperor’s palace, and a journey to Kyoto, ending with the prospects of Christian missions in Japan. The book has thirty engravings from photographs and a map."
+ ],
+ "subjects": [
+  "Education",
+  "Christian missions",
+  "Shizuoka"
+ ],
+ "omitted_from_reading": "The printed contents, the list of illustrations, and the book’s title above Chapter I are in the JSON only.",
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-27",
+   "note": "First publication."
+  }
+ ],
+ "notes_on_text": [
+  "The plate “Heating and Firing the Leaves” has four small views, each with its own label; the labels are given in one caption, separated by “/”."
+ ]
 }

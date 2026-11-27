@@ -1,0 +1,145 @@
+{
+ "p0009": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "CHAP. I. First Sight of Japan <pref>7</pref>",
+   "replace": "[[center]] Chap. I.\n\n[[center]] First Sight of Japan <pref>7</pref>",
+   "draft": "CHAP. I. First Sight",
+   "verified": "[[center]] Chap. I.\n\n[[center]] First Sight",
+   "context": "[[page ?]] ⏎  ⏎ # Contents ⏎  ⏎ CHAP. I. First Sight of Japan <pref>7</pref> ⏎  ⏎ CHAP. II. A Journey on the Tokaido <pref>17</pref> ⏎  ⏎ CHAP. "
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "CHAP. II. A Journey on the Tokaido <pref>17</pref>",
+   "replace": "[[center]] Chap. II.\n\n[[center]] A Journey on the Tokaido <pref>17</pref>",
+   "draft": "CHAP. II. A Journey o",
+   "verified": "[[center]] Chap. II.\n\n[[center]] A Journey o",
+   "context": "] Chap. I. ⏎  ⏎ [[center]] First Sight of Japan <pref>7</pref> ⏎  ⏎ CHAP. II. A Journey on the Tokaido <pref>17</pref> ⏎  ⏎ CHAP. III. Life in a Buddhist Temple <pref>35</pref> ⏎  ⏎ CHAP"
+  },
+  {
+   "n": 3,
+   "kind": "words",
+   "find": "CHAP. III. Life in a Buddhist Temple <pref>35</pref>",
+   "replace": "[[center]] Chap. III.\n\n[[center]] Life in a Buddhist Temple <pref>35</pref>",
+   "draft": "CHAP. III. Life in a B",
+   "verified": "[[center]] Chap. III.\n\n[[center]] Life in a B",
+   "context": ". II. ⏎  ⏎ [[center]] A Journey on the Tokaido <pref>17</pref> ⏎  ⏎ CHAP. III. Life in a Buddhist Temple <pref>35</pref> ⏎  ⏎ CHAP. IV. Life in a Feudal Castle <pref>53</pref> ⏎  ⏎ CHAP. V"
+  },
+  {
+   "n": 4,
+   "kind": "words",
+   "find": "CHAP. IV. Life in a Feudal Castle <pref>53</pref>",
+   "replace": "[[center]] Chap. IV.\n\n[[center]] Life in a Feudal Castle <pref>53</pref>",
+   "draft": "CHAP. IV. Life in a F",
+   "verified": "[[center]] Chap. IV.\n\n[[center]] Life in a F",
+   "context": "III. ⏎  ⏎ [[center]] Life in a Buddhist Temple <pref>35</pref> ⏎  ⏎ CHAP. IV. Life in a Feudal Castle <pref>53</pref> ⏎  ⏎ CHAP. V. Excursions and Comical Experiences <pref>74</pref"
+  },
+  {
+   "n": 5,
+   "kind": "words",
+   "find": "CHAP. V. Excursions and Comical Experiences <pref>74</pref>",
+   "replace": "[[center]] Chap. V.\n\n[[center]] Excursions and Comical Experiences <pref>74</pref>",
+   "draft": "CHAP. V. Excursions ",
+   "verified": "[[center]] Chap. V.\n\n[[center]] Excursions ",
+   "context": "p. IV. ⏎  ⏎ [[center]] Life in a Feudal Castle <pref>53</pref> ⏎  ⏎ CHAP. V. Excursions and Comical Experiences <pref>74</pref> ⏎  ⏎ CHAP. VI. The Ascent of Fuji-Yama <pref>96</pref> ⏎  ⏎ CHAP. V"
+  },
+  {
+   "n": 6,
+   "kind": "words",
+   "find": "CHAP. VI. The Ascent of Fuji-Yama <pref>96</pref>",
+   "replace": "[[center]] Chap. VI.\n\n[[center]] The Ascent of Fuji-Yama <pref>96</pref>",
+   "draft": "CHAP. VI. The Ascent ",
+   "verified": "[[center]] Chap. VI.\n\n[[center]] The Ascent ",
+   "context": "enter]] Excursions and Comical Experiences <pref>74</pref> ⏎  ⏎ CHAP. VI. The Ascent of Fuji-Yama <pref>96</pref> ⏎  ⏎ CHAP. VII. Removal to Tokio <pref>128</pref> ⏎  ⏎ CHAP. VIII. "
+  },
+  {
+   "n": 7,
+   "kind": "words",
+   "find": "CHAP. VII. Removal to Tokio <pref>128</pref>",
+   "replace": "[[center]] Chap. VII.\n\n[[center]] Removal to Tokio <pref>128</pref>",
+   "draft": "CHAP. VII. Removal to ",
+   "verified": "[[center]] Chap. VII.\n\n[[center]] Removal to ",
+   "context": "p. VI. ⏎  ⏎ [[center]] The Ascent of Fuji-Yama <pref>96</pref> ⏎  ⏎ CHAP. VII. Removal to Tokio <pref>128</pref> ⏎  ⏎ CHAP. VIII. Rambles about the Capital <pref>147</pref> ⏎  ⏎ CH"
+  },
+  {
+   "n": 8,
+   "kind": "words",
+   "find": "CHAP. VIII. Rambles about the Capital <pref>147</pref>",
+   "replace": "[[center]] Chap. VIII.\n\n[[center]] Rambles about the Capital <pref>147</pref>",
+   "draft": "CHAP. VIII. Rambles abo",
+   "verified": "[[center]] Chap. VIII.\n\n[[center]] Rambles abo",
+   "context": "] Chap. VII. ⏎  ⏎ [[center]] Removal to Tokio <pref>128</pref> ⏎  ⏎ CHAP. VIII. Rambles about the Capital <pref>147</pref> ⏎  ⏎ CHAP. IX. A Peep into the Mikado's Palace <pref>170</pref>"
+  },
+  {
+   "n": 9,
+   "kind": "words",
+   "find": "CHAP. IX. A Peep into the Mikado's Palace <pref>170</pref>",
+   "replace": "[[center]] Chap. IX.\n\n[[center]] A Peep into the Mikado’s Palace <pref>170</pref>",
+   "draft": "CHAP. IX. A Peep into the Mikado's Palace <pr",
+   "verified": "[[center]] Chap. IX.\n\n[[center]] A Peep into the Mikado’s Palace <pr",
+   "context": "II. ⏎  ⏎ [[center]] Rambles about the Capital <pref>147</pref> ⏎  ⏎ CHAP. IX. A Peep into the Mikado's Palace <pref>170</pref> ⏎  ⏎ CHAP. X. A Trip to Kioto <pref>187</pref> ⏎  ⏎ CHAP. XI. The M"
+  },
+  {
+   "n": 10,
+   "kind": "words",
+   "find": "CHAP. X. A Trip to Kioto <pref>187</pref>",
+   "replace": "[[center]] Chap. X.\n\n[[center]] A Trip to Kioto <pref>187</pref>",
+   "draft": "CHAP. X. A Trip to K",
+   "verified": "[[center]] Chap. X.\n\n[[center]] A Trip to K",
+   "context": "[center]] A Peep into the Mikado’s Palace <pref>170</pref> ⏎  ⏎ CHAP. X. A Trip to Kioto <pref>187</pref> ⏎  ⏎ CHAP. XI. The Missionary Outlook <pref>215</pref> ⏎  ⏎ CHAP. X"
+  },
+  {
+   "n": 11,
+   "kind": "words",
+   "find": "CHAP. XI. The Missionary Outlook <pref>215</pref>",
+   "replace": "[[center]] Chap. XI.\n\n[[center]] The Missionary Outlook <pref>215</pref>",
+   "draft": "CHAP. XI. The Mission",
+   "verified": "[[center]] Chap. XI.\n\n[[center]] The Mission",
+   "context": "er]] Chap. X. ⏎  ⏎ [[center]] A Trip to Kioto <pref>187</pref> ⏎  ⏎ CHAP. XI. The Missionary Outlook <pref>215</pref> ⏎  ⏎ CHAP. XII. Farewell to Japan <pref>231</pref> ⏎ "
+  },
+  {
+   "n": 12,
+   "kind": "words",
+   "find": "CHAP. XII. Farewell to Japan <pref>231</pref>",
+   "replace": "[[center]] Chap. XII.\n\n[[center]] Farewell to Japan <pref>231</pref>",
+   "draft": "CHAP. XII. Farewell to",
+   "verified": "[[center]] Chap. XII.\n\n[[center]] Farewell to",
+   "context": "p. XI. ⏎  ⏎ [[center]] The Missionary Outlook <pref>215</pref> ⏎  ⏎ CHAP. XII. Farewell to Japan <pref>231</pref> ⏎ "
+  }
+ ],
+ "p0013": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "# Life and Adventure in Japan.\n\n",
+   "replace": "",
+   "draft": "# Life and Adventure in Japan.\n\n",
+   "verified": "",
+   "context": "[[page ?]] ⏎  ⏎ # Life and Adventure in Japan. ⏎  ⏎ # Chapter I. ⏎  ⏎ [[subtitle]] First Sight of Japan. ⏎  ⏎ A<sc>t</sc"
+  }
+ ],
+ "p0145": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page 115]]",
+   "replace": "[[page 113]]",
+   "draft": "[[page 115]]",
+   "verified": "[[page 113]]",
+   "context": "[[page 115]] ⏎ an immense distance, the line of sea-coast stretching out b"
+  }
+ ],
+ "p0250": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "flowing from the vicinity",
+   "replace": "flowing irom the vicinity",
+   "draft": "flowing from the vici",
+   "verified": "flowing irom the vici",
+   "context": "o came together to study Christian truth. ⏎  ⏎ There is a river flowing from the vicinity of Kioto and Lake Biwa which empties into the bay at Ozaka."
+  }
+ ]
+}
