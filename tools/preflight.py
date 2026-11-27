@@ -63,6 +63,7 @@ CHECKS = collections.OrderedDict([
     ("rare-forms",      ("observe", "words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan")),
     ("title-page",      ("observe", "the reading editions do not begin with the book's title page (divisions: kind \"titlepage\")")),
     ("serial-commas",   ("observe", "book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)")),
+    ("line-breaks",     ("observe", "a paragraph line that ends without a stop, followed on the next line by one that starts in lower case: a stray line break splitting a paragraph?")),
     ("missing-stop",    ("observe", "a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan")),
     ("images",          ("enforce", "image files not used by any page")),
     ("source",          ("enforce", "source.json: the Drive cache of the page images is recorded")),
@@ -560,6 +561,32 @@ def check_caption_tail(pages):
     return out
 
 
+def check_line_breaks(pages):
+    """Two text lines in a row (no blank line between) outside verse, quotations and tables, the first ending without a
+    stop and the second starting in lower case: the compiler makes each line a paragraph, so a stray line break splits
+    a paragraph in two (*Five Months in Labrador* p0029, “two or / three half naked beings”: caught by the rendered look,
+    2026-11-27; review after 105 books)."""
+    out = []
+    for leaf, text in pages:
+        block = False
+        prev = None
+        for ln in text.splitlines():
+            s = ln.strip()
+            if re.match(r"</?(verse|blockquote)>", s):
+                block = not s.startswith("</") if s in ("<verse>", "<blockquote>", "</verse>", "</blockquote>") else block
+                prev = None
+                continue
+            if block or not s or s.startswith(("|", "#", "[[")) and not s.startswith("[[cont]]"):
+                prev = None
+                continue
+            body = re.sub(r"^\[\[cont\]\]", "", s)
+            plain = re.sub(r"\[\[[^\]]*\]\]|<[^>]+>", "", body).strip()
+            if prev is not None and plain[:1].islower() and not re.search(r"[.!?:;”’\")\]—-]$", prev):
+                out.append(f"{leaf}: …{prev[-30:]!r} / {plain[:30]!r}…")
+            prev = plain
+    return out
+
+
 def check_image_before_heading(pages, ornaments=()):
     """A picture printed above a chapter's title on the same page: its `[[image:]]` line stands before the `#` line,
     so the compiler puts it at the end of the division before (or leaves it out with the contents), not at the head
@@ -949,6 +976,7 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
         res["verse-joins"] = check_verse_joins(pages)
         res["openings"] = check_openings(pages)
         res["caption-tail"] = check_caption_tail(pages)
+        res["line-breaks"] = check_line_breaks(pages)
         res["image-before-heading"] = check_image_before_heading(pages, set(cfg.get("ornaments") or []))
         # conservation
         pc, jc = [], []          # image captions apart: the compiler moves some images (see page_streams)
