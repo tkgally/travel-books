@@ -1,0 +1,5 @@
+{"given": "while at the summit of tiger Hill", "print": "while at the summit of Tiger Hill", "sure": "high"}
+{"given": "had seen Mt. Everest; and so", "print": "had seen Mt. Everest, and so", "sure": "high"}
+{"given": "forty-five miles away, thongh it seemed", "print": "forty-five miles away, though it seemed", "sure": "high"}
+{"given": "grasping the proportions things. A mountain", "print": "grasping the proportions of things. A mountain", "sure": "high"}
+{"given": "Mountains, in fight, over twenty-two", "print": "Mountains, in sight, over twenty-two", "sure": "high"}

@@ -14,14 +14,12 @@
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
 [ FAIL (1)] audit: book.json records the sampled audit of this version
             - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
-[look (14)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+[look (12)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0040: …gorical impera-|tive” is to cha… (hyphen removed; check)
             - hyphen join at p0059: …e are not over-|poweringly a br… (hyphen removed; check) — the book hyphenates other “over-” words: keep_hyphens?
             - hyphen join at p0121: …e at home, con-|templates somet… (hyphen removed; check)
             - hyphen join at p0213: …sombre-complex-|ioned women, wi… (hyphen removed; check)
-            - hyphen join at p0267: …grace and free-|will, so famili… (hyphen removed; check) — the book hyphenates other “free-” words: keep_hyphens?
             - hyphen join at p0291: …ficient desper-|ation, man is r… (hyphen removed; check)
-            - hyphen join at p0295: …, and a twenty-|eight-inch stre… (hyphen removed; check) — the book prints “twenty-eight” elsewhere: keep_hyphens?
             - hyphen join at p0306: …he solid, home-|spun Egyptian w… (hyphen removed; check) — the book hyphenates other “home-” words: keep_hyphens?
             - hyphen join at p0310: …ms, spices, na-|tron baths, amu… (hyphen removed; check)
             - hyphen join at p0333: …cabeus assault-|ing the town; o… (hyphen removed; check)
@@ -87,18 +85,14 @@
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
 [ look (1)] accents: words the book spells with different accents (or with and without): look at each group on the scan
             - a: a (p0010, p0011, p0017, p0018, p0019, p0021…); à (p0069)
-[ look (1)] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
-            - p0073: “aud” in …rtuary temples of Ieyasu aud Iemitsu in Nikko,…
-[look (11)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
-            - p0050: “causal” — “casual” is common (87; a letter dropped or transposed?)
-            - p0066: “artifical” — “artificial” is common (235; a letter dropped or transposed?)
-            - p0073: “aud” — “and” is common (288601)
-            - p0085: “setters” — “settlers” is common (226; a letter dropped or transposed?)
-            - p0099: “everbody” — “everybody” is common (334; a letter dropped or transposed?)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[ look (8)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0050: “causal” — “casual” is common (89; a letter dropped or transposed?)
+            - p0085: “setters” — “settlers” is common (228; a letter dropped or transposed?)
             - p0193: “paring” — “parting” is common (203; a letter dropped or transposed?)
-            - p0211: “laving” — “leaving” is common (1768; a letter dropped or transposed?)
-            - p0290: “routs” — “routes” is common (91; a letter dropped or transposed?)
-            - p0335: “haling” — “halting” is common (109; a letter dropped or transposed?)
+            - p0211: “laving” — “leaving” is common (1794; a letter dropped or transposed?)
+            - p0290: “routs” — “routes” is common (93; a letter dropped or transposed?)
+            - p0335: “haling” — “halting” is common (117; a letter dropped or transposed?)
             - p0369: “tur” — “fur” is common (179)
             - p0372: “raveled” — “traveled” is common (51; a letter dropped or transposed?)
 [       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
@@ -112,4 +106,4 @@
 [       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: this-goodly-frame-the-earth-tiffany v1 — 1 to fix, 0 waived; to look at: hyphen-joins 14, contents 141, verse-joins 2, accents 1, misprints 1, rare-forms 11, serial-commas 5 — tools@bcff2bbe 2026-11-27
+preflight FAIL: this-goodly-frame-the-earth-tiffany v1 — 1 to fix, 0 waived; to look at: hyphen-joins 12, contents 141, verse-joins 2, accents 1, rare-forms 8, serial-commas 5 — tools@74962232 2026-11-27

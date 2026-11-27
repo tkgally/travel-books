@@ -1,0 +1,5 @@
+{"given": "Germany, and England where covered", "print": "Germany, and England were covered", "sure": "high"}
+{"given": "so was it here in japan", "print": "so was it here in Japan", "sure": "high"}
+{"given": "thousands were drivcn by the", "print": "thousands were driven by the", "sure": "high"}
+{"given": "church. Mikados; set aside by", "print": "church. Mikados, set aside by", "sure": "high"}
+{"given": "refined and tender natures all kinds", "print": "refined and tender natures of all kinds", "sure": "high"}

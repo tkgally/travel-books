@@ -1,0 +1,5 @@
+{"given": "is only two degrces from the", "print": "is only two degrees from the", "sure": "high"}
+{"given": "a little island, not; however, so", "print": "a little island, not, however, so", "sure": "high"}
+{"given": "constant showers, if combines in", "print": "constant showers, it combines in", "sure": "high"}
+{"given": "Manillamen, Parsees, persians, Siamese,", "print": "Manillamen, Parsees, Persians, Siamese,", "sure": "high"}
+{"given": "finally tied up the pier that", "print": "finally tied up to the pier that", "sure": "high"}
