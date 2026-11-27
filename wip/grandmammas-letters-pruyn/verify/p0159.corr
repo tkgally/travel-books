@@ -1,0 +1,6 @@
+{"find": "about one of our little girls", "replace": "about one of our little girls"}
+{"find": "a Japanese: and", "replace": "a Japanese: and"}
+
+Wait, those are no-ops. The only real difference is the first sentence:
+
+{"find": "It is about one of our", "replace": "It is about one of our"}

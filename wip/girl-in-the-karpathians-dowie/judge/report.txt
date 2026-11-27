@@ -1,0 +1,7 @@
+judge opus: 6 spots on 5 pages: {'verified': 1, 'draft': 5}; cost $0.22
+p0015 #1 [verified, sure: medium] draft '# A Girl in the Karpathians.\n\n' | verified '' | judge reads ''
+p0057 #1 [draft, sure: low] draft 'hill-top' | verified 'hilltop' | judge reads 'hill-top'
+p0092 #1 [draft, sure: high] draft 'comfortful' | verified 'comfortable' | judge reads 'comfortful'
+p0135 #1 [draft, sure: medium] draft 'THE arrangement' | verified 'T<sc>he</sc> arrangement' | judge reads 'THE arrangement'
+p0311 #1 [draft, sure: high] draft 'small basinsful of' | verified 'small basinful of' | judge reads 'small basinsful of'
+p0311 #2 [draft, sure: high] draft 'few spoonsful of' | verified 'few spoonful of' | judge reads 'few spoonsful of'
