@@ -1,5 +1,0 @@
-{"given": "clustered together or the bridge", "print": "clustered together on the bridge", "sure": "high"}
-{"given": "rushing up the compauion stairs", "print": "rushing up the companion stairs", "sure": "high"}
-{"given": "I felt quite glad. Anyone who", "print": "I felt quite glad. Any one who", "sure": "medium"}
-{"given": "It was all vast, lonely; and beautiful.", "print": "It was all vast, lonely, and beautiful.", "sure": "high"}
-{"given": "we met a floating raft timber,", "print": "we met a floating raft of timber,", "sure": "high"}

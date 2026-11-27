@@ -1,5 +1,0 @@
-{"find": "wended my footsteps", "replace": "wended my foot-steps"}
-
-Wait — the hyphen is a line-end break, so "footsteps" should be rejoined. That correction is wrong, so use the real one:
-
-{"find": "Torneå, I went", "replace": "Torneå, I went"}

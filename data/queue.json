@@ -2138,11 +2138,13 @@
    "place": "London",
    "publisher": "Methuen & Co.",
    "images": 448,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-27",
    "eligibility": "Vetted 2026-11-26 (Opus subagent). PG catalogue: no match on Waineman, MacDougall or the title. Online Books Page: none. Wikisource: web search nothing; API rate-limited. Faded Page: not checkable. Web search of a distinctive sentence: no text. Open Library and booksellers: Methuen 1908 and Kessinger print-on-demand only.",
    "note": "University of California scan, 500 ppi, jp2.zip, no scandata. A second scan, summertourinfinl0000sylv (412 images), may lack leaves; compare. 16 colour plates by Alexander Federley and 16 monotone plates: count them at the scan check. Publisher's advertisements at the end. Finnish-born author writing in English. A summer tour by steamer, canal, cart and rail from Helsingfors through Viborg, Imatra, the Saima lakes, Kuopio, Kajana, Uleåborg and Tornea to Åbo.",
-   "started": "2026-11-27"
+   "started": "2026-11-27",
+   "version": 1,
+   "published": "2026-11-27"
   },
   {
    "order": 116,

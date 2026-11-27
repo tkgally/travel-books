@@ -169,6 +169,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - Not only foreign words: a speck or blot over a letter of an ordinary word was taken for an accent in four published
   books (“potatoës”, “Dŭrbar”, “gaïshas”); the `accents` list shows them beside the plain form. Read it for every book.
 
+- A printer may set an unusual accented letter throughout (o with a ring, o̊, for ö in Swedish names: *A Summer Tour in Finland*, about 60 places): drafts and judges type ö, ô or õ by turns. Crop every member of the `accents` groups enlarged; type the letter as printed (combining U+030A) and say so in `notes_on_text`.
+
 ## Trigger: drop capitals at chapter openings
 
 - Pictorial initials: the draft marked 6 of 11 as `[[image:]]` and typed the rest as plain capitals (*A Girl in the Karpathians*, 2026-11-27); the crop subagent found the others by looking at every chapter opening. Ask it to every time.
@@ -226,6 +228,8 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - A summary of 80 characters or less goes into the chapter's title (pager, breadcrumb, page title) while longer ones stay
   in `toc_title`, so titles differ in length; with `"toc": {"subtitles": "all"}` the compiler keeps every title short (since 2026-11-21).
 - Two marks in the text for one printed note: the second is `[[fnref * again]]` (the compiler warns "has no note" otherwise).
+
+- A publisher's catalogue at the end with several `#` part headings: each `#` after the first opens a new division, which is a reading chapter unless listed: give every one `advertisements` (`grep -l "^# " pages/p04*`) (*A Summer Tour in Finland*: Part III became a chapter page; caught by the rendered look).
 
 ## Trigger: appendices, documents, quoted articles
 
