@@ -387,6 +387,34 @@ class Corrections(unittest.TestCase):
         self.assertEqual(review.cont_change(d.replace("[[cont]]", ""), d), "added")
         self.assertIsNone(review.cont_change(d, d.replace("Then", "So")))
 
+    def test_corrections_keep_draft_cont(self):
+        """The corrections pass's page-top [[cont]] changes were wrong 13 times in 15 (review after 110 books):
+        a correction that only adds or removes [[cont]] is not applied; one with a real change still is. Invented text."""
+        d = "[[page 4]]\n\n[[cont]]and so we went on.\n\nThen we stopped."
+        out, n, sk = corrections.apply(d, '{"find": "[[cont]]and so we", "replace": "and so we"}')
+        self.assertEqual((out, n), (d, 0))
+        self.assertTrue(sk and "[[cont]]" in sk[0])
+        d2 = d.replace("[[cont]]", "")
+        out, n, _ = corrections.apply(d2, '{"find": "and so we", "replace": "[[cont]]and so we"}')
+        self.assertEqual((out, n), (d2, 0))
+        out, n, _ = corrections.apply(d, '{"find": "[[cont]]and so we", "replace": "and so they"}')
+        self.assertEqual(n, 1)
+        self.assertIn("and so they", out)
+        self.assertTrue(corrections.cont_only("x [[cont]]and", "x and"))
+        self.assertFalse(corrections.cont_only("we shew", "we show"))
+
+    def test_review_lists_unapplied_cont(self):
+        with tempfile.TemporaryDirectory() as t:
+            dd, vd = os.path.join(t, "d"), os.path.join(t, "v")
+            os.makedirs(dd); os.makedirs(vd)
+            d = "[[page 4]]\n\n[[cont]]and so we went on.\n\nThen we stopped."
+            open(os.path.join(dd, "p0004.txt"), "w").write(d)
+            open(os.path.join(vd, "p0004.txt"), "w").write(d)
+            open(os.path.join(vd, "p0004.corr"), "w").write('{"find": "[[cont]]and so we", "replace": "and so we"}')
+            out = subprocess.run([sys.executable, os.path.join(REPO, "tools", "review.py"), dd, vd],
+                                 capture_output=True, text=True).stdout
+            self.assertIn("p0004: [[cont]] removed at 'and so we'", out)
+
     def test_review_kinds(self):
         self.assertEqual(review.kind_of("shew", "show"), "words")
         self.assertEqual(review.kind_of("so, then", "so; then"), "punctuation")

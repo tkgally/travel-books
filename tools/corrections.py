@@ -8,6 +8,15 @@ skipped and reported. A reply of NONE (or no JSON lines) means no changes.
 """
 import json, re, sys
 
+CONT = re.compile(r"\[\[cont\]\]\s*")
+
+
+def cont_only(find, replace):
+    """True when a correction does nothing but add or remove [[cont]] marks. Such changes are not applied: the
+    draft's join stands and review.py lists the proposal for a look at the indent on the scan. The corrections
+    pass was wrong in 13 of 15 such changes checked in published books (review after 110 books, 2026-11-27)."""
+    return find.count("[[cont]]") != replace.count("[[cont]]") and CONT.sub("", find) == CONT.sub("", replace)
+
 
 def apply(draft, reply):
     applied, skipped = 0, []
@@ -20,6 +29,8 @@ def apply(draft, reply):
             f, r = c["find"], c["replace"]
         except Exception:
             skipped.append(line[:80]); continue
+        if cont_only(f, r):
+            skipped.append(f"[[cont]] change not applied: {f[:40]}"); continue
         if f and r != f and f in r and r in draft:
             # an insertion an earlier entry already made (models sometimes send one change twice, in two
             # forms: "called\n" -> "called Inter-\n" and "also called" -> "also called Inter-")
