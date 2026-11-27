@@ -36,3 +36,14 @@
 {"page": "p0040", "model": "sonnet", "corrections": 0, "seconds": 3.2, "cost": 0.0326158, "completion_tokens": 165, "turns": 2, "attempts": 1}
 {"page": "p0041", "model": "sonnet", "corrections": 0, "seconds": 3.2, "cost": 0.0322112, "completion_tokens": 127, "turns": 2, "attempts": 1}
 {"page": "p0042", "model": "sonnet", "corrections": 3, "seconds": 3.9, "cost": 0.0334355, "completion_tokens": 240, "turns": 2, "attempts": 1}
+{"page": "p0043", "model": "sonnet", "corrections": 0, "seconds": 5.8, "cost": 0.035181500000000004, "completion_tokens": 406, "turns": 2, "attempts": 1}
+{"page": "p0044", "model": "sonnet", "corrections": 0, "seconds": 3.5, "cost": 0.0334939, "completion_tokens": 236, "turns": 2, "attempts": 1}
+{"page": "p0045", "model": "sonnet", "corrections": 0, "seconds": 3.5, "cost": 0.033034, "completion_tokens": 206, "turns": 2, "attempts": 1}
+{"page": "p0046", "model": "sonnet", "corrections": 0, "seconds": 2.4, "cost": 0.032034900000000005, "completion_tokens": 127, "turns": 2, "attempts": 1}
+{"page": "p0047", "model": "sonnet", "corrections": 0, "seconds": 2.5, "cost": 0.032203, "completion_tokens": 127, "turns": 2, "attempts": 1}
+{"page": "p0048", "model": "sonnet", "corrections": 0, "seconds": 3.7, "cost": 0.0327501, "completion_tokens": 210, "turns": 2, "attempts": 1}
+{"page": "p0049", "model": "sonnet", "corrections": 1, "seconds": 6.5, "cost": 0.03663040000000001, "completion_tokens": 539, "turns": 2, "attempts": 1}
+{"page": "p0050", "model": "sonnet", "corrections": 0, "seconds": 3.2, "cost": 0.033995700000000004, "completion_tokens": 205, "turns": 2, "attempts": 1}
+{"page": "p0051", "model": "sonnet", "corrections": 0, "seconds": 3.4, "cost": 0.0336186, "completion_tokens": 221, "turns": 2, "attempts": 1}
+{"page": "p0052", "model": "sonnet", "corrections": 0, "seconds": 3.2, "cost": 0.0331331, "completion_tokens": 236, "turns": 2, "attempts": 1}
+{"page": "p0053", "model": "sonnet", "corrections": 0, "seconds": 3.5, "cost": 0.031345300000000006, "completion_tokens": 204, "turns": 2, "attempts": 1}
