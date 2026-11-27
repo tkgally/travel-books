@@ -1,0 +1,374 @@
+{
+ "ia_identifier": "ourneighbourhood00techrich",
+ "drive_folder_id": "1DB5cJMRZ9rIquwYQxZlg56UXFsNAaCej",
+ "parts": [
+  {
+   "name": "pages-001.zip",
+   "sha256": "55c9e5598f657013acab36c6b29e53fcd35eb0b6f2c8e1d99dac16b418e09422",
+   "bytes": 2836891,
+   "files": [
+    "leaves.json",
+    "p0001.jpg",
+    "p0002.jpg",
+    "p0003.jpg",
+    "p0004.jpg",
+    "p0005.jpg",
+    "p0006.jpg",
+    "p0007.jpg",
+    "p0008.jpg",
+    "p0009.jpg",
+    "p0010.jpg",
+    "p0011.jpg",
+    "p0012.jpg",
+    "p0013.jpg",
+    "p0014.jpg",
+    "p0015.jpg",
+    "p0016.jpg",
+    "p0017.jpg",
+    "p0018.jpg",
+    "p0019.jpg"
+   ]
+  },
+  {
+   "name": "pages-002.zip",
+   "sha256": "1c2ee54d6640697d24d7632ffcc633717437fb4cb7ef3d4e40a284bcc8ef51ef",
+   "bytes": 2928748,
+   "files": [
+    "p0020.jpg",
+    "p0021.jpg",
+    "p0022.jpg",
+    "p0023.jpg",
+    "p0024.jpg",
+    "p0025.jpg",
+    "p0026.jpg",
+    "p0027.jpg",
+    "p0028.jpg",
+    "p0029.jpg",
+    "p0030.jpg",
+    "p0031.jpg",
+    "p0032.jpg"
+   ]
+  },
+  {
+   "name": "pages-003.zip",
+   "sha256": "ba4f0fb9cb32d407eb696a5f514d70c51863147ac6869d417bd527013ea7e165",
+   "bytes": 2861605,
+   "files": [
+    "p0033.jpg",
+    "p0034.jpg",
+    "p0035.jpg",
+    "p0036.jpg",
+    "p0037.jpg",
+    "p0038.jpg",
+    "p0039.jpg",
+    "p0040.jpg",
+    "p0041.jpg",
+    "p0042.jpg",
+    "p0043.jpg",
+    "p0044.jpg",
+    "p0045.jpg"
+   ]
+  },
+  {
+   "name": "pages-004.zip",
+   "sha256": "e5aa507ec413aa87532277644426b95a3c1742f7246b5c45aeddb8f72f63ec44",
+   "bytes": 2906797,
+   "files": [
+    "p0046.jpg",
+    "p0047.jpg",
+    "p0048.jpg",
+    "p0049.jpg",
+    "p0050.jpg",
+    "p0051.jpg",
+    "p0052.jpg",
+    "p0053.jpg",
+    "p0054.jpg",
+    "p0055.jpg",
+    "p0056.jpg",
+    "p0057.jpg",
+    "p0058.jpg"
+   ]
+  },
+  {
+   "name": "pages-005.zip",
+   "sha256": "1b778c07c78bac23058470bb6488ee0ea6a7fa5d2db249f6df4478d241699e01",
+   "bytes": 2850368,
+   "files": [
+    "p0059.jpg",
+    "p0060.jpg",
+    "p0061.jpg",
+    "p0062.jpg",
+    "p0063.jpg",
+    "p0064.jpg",
+    "p0065.jpg",
+    "p0066.jpg",
+    "p0067.jpg",
+    "p0068.jpg",
+    "p0069.jpg",
+    "p0070.jpg",
+    "p0071.jpg"
+   ]
+  },
+  {
+   "name": "pages-006.zip",
+   "sha256": "5996c65dcf46674e779bd8154dc4f3cbbe4d88eb989737c14fb6ddc8d1e12d0c",
+   "bytes": 2941238,
+   "files": [
+    "p0072.jpg",
+    "p0073.jpg",
+    "p0074.jpg",
+    "p0075.jpg",
+    "p0076.jpg",
+    "p0077.jpg",
+    "p0078.jpg",
+    "p0079.jpg",
+    "p0080.jpg",
+    "p0081.jpg",
+    "p0082.jpg",
+    "p0083.jpg",
+    "p0084.jpg",
+    "p0085.jpg"
+   ]
+  },
+  {
+   "name": "pages-007.zip",
+   "sha256": "fc8fe0c40da5baabd171877a99268bf840256ada7c2a972d8769a0e8d647b443",
+   "bytes": 2788703,
+   "files": [
+    "p0086.jpg",
+    "p0087.jpg",
+    "p0088.jpg",
+    "p0089.jpg",
+    "p0090.jpg",
+    "p0091.jpg",
+    "p0092.jpg",
+    "p0093.jpg",
+    "p0094.jpg",
+    "p0095.jpg",
+    "p0096.jpg",
+    "p0097.jpg"
+   ]
+  },
+  {
+   "name": "pages-008.zip",
+   "sha256": "47b0f8157865c1e0e07aa4a7713d707af677311aa17bf55f1bfe9b2b38a7df9f",
+   "bytes": 2829521,
+   "files": [
+    "p0098.jpg",
+    "p0099.jpg",
+    "p0100.jpg",
+    "p0101.jpg",
+    "p0102.jpg",
+    "p0103.jpg",
+    "p0104.jpg",
+    "p0105.jpg",
+    "p0106.jpg",
+    "p0107.jpg",
+    "p0108.jpg",
+    "p0109.jpg",
+    "p0110.jpg"
+   ]
+  },
+  {
+   "name": "pages-009.zip",
+   "sha256": "6651f1b3b52902a575fa70fced86baff7bb0a07de4ecaab5f74a7c1ac8997294",
+   "bytes": 2819987,
+   "files": [
+    "p0111.jpg",
+    "p0112.jpg",
+    "p0113.jpg",
+    "p0114.jpg",
+    "p0115.jpg",
+    "p0116.jpg",
+    "p0117.jpg",
+    "p0118.jpg",
+    "p0119.jpg",
+    "p0120.jpg",
+    "p0121.jpg",
+    "p0122.jpg",
+    "p0123.jpg"
+   ]
+  },
+  {
+   "name": "pages-010.zip",
+   "sha256": "41ea010ef68b94563ec9596cad418c63d69e2eb4961ac9859ebc09d8903d0dd5",
+   "bytes": 2909555,
+   "files": [
+    "p0124.jpg",
+    "p0125.jpg",
+    "p0126.jpg",
+    "p0127.jpg",
+    "p0128.jpg",
+    "p0129.jpg",
+    "p0130.jpg",
+    "p0131.jpg",
+    "p0132.jpg",
+    "p0133.jpg",
+    "p0134.jpg",
+    "p0135.jpg",
+    "p0136.jpg",
+    "p0137.jpg"
+   ]
+  },
+  {
+   "name": "pages-011.zip",
+   "sha256": "85fb749bc3716b07a612a2ca52289c4be404d60c18139ee02a68c75ba5196ff8",
+   "bytes": 2931261,
+   "files": [
+    "p0138.jpg",
+    "p0139.jpg",
+    "p0140.jpg",
+    "p0141.jpg",
+    "p0142.jpg",
+    "p0143.jpg",
+    "p0144.jpg",
+    "p0145.jpg",
+    "p0146.jpg",
+    "p0147.jpg",
+    "p0148.jpg",
+    "p0149.jpg",
+    "p0150.jpg",
+    "p0151.jpg"
+   ]
+  },
+  {
+   "name": "pages-012.zip",
+   "sha256": "79500acc9e9f02c225633fa0bde20f28d45cc25b8946c2dacbaf45f8a84e1fba",
+   "bytes": 2945902,
+   "files": [
+    "p0152.jpg",
+    "p0153.jpg",
+    "p0154.jpg",
+    "p0155.jpg",
+    "p0156.jpg",
+    "p0157.jpg",
+    "p0158.jpg",
+    "p0159.jpg",
+    "p0160.jpg",
+    "p0161.jpg",
+    "p0162.jpg",
+    "p0163.jpg"
+   ]
+  },
+  {
+   "name": "pages-013.zip",
+   "sha256": "cc2589eadb880866c69dfd35a6aab95d1e2b0a4a1586a6eb23e914b74d2bc4f3",
+   "bytes": 2898991,
+   "files": [
+    "p0164.jpg",
+    "p0165.jpg",
+    "p0166.jpg",
+    "p0167.jpg",
+    "p0168.jpg",
+    "p0169.jpg",
+    "p0170.jpg",
+    "p0171.jpg",
+    "p0172.jpg",
+    "p0173.jpg",
+    "p0174.jpg",
+    "p0175.jpg",
+    "p0176.jpg"
+   ]
+  },
+  {
+   "name": "pages-014.zip",
+   "sha256": "9eeb24d0edab12ae71bea70329b15e8b6081e93a60ed80b92baa3283f162daff",
+   "bytes": 2744409,
+   "files": [
+    "p0177.jpg",
+    "p0178.jpg",
+    "p0179.jpg",
+    "p0180.jpg",
+    "p0181.jpg",
+    "p0182.jpg",
+    "p0183.jpg",
+    "p0184.jpg",
+    "p0185.jpg",
+    "p0186.jpg",
+    "p0187.jpg",
+    "p0188.jpg",
+    "p0189.jpg",
+    "p0190.jpg"
+   ]
+  },
+  {
+   "name": "pages-015.zip",
+   "sha256": "7c32d9b6c828175656da7101f50cb01dc8671687b2734cb00706ac29226c2754",
+   "bytes": 2972818,
+   "files": [
+    "p0191.jpg",
+    "p0192.jpg",
+    "p0193.jpg",
+    "p0194.jpg",
+    "p0195.jpg",
+    "p0196.jpg",
+    "p0197.jpg",
+    "p0198.jpg",
+    "p0199.jpg",
+    "p0200.jpg",
+    "p0201.jpg",
+    "p0202.jpg",
+    "p0203.jpg",
+    "p0204.jpg"
+   ]
+  },
+  {
+   "name": "pages-016.zip",
+   "sha256": "11448ea1576c578480b09ca73075ff4964a4fa6cf3e4972a0e23d58427888090",
+   "bytes": 2945202,
+   "files": [
+    "p0205.jpg",
+    "p0206.jpg",
+    "p0207.jpg",
+    "p0208.jpg",
+    "p0209.jpg",
+    "p0210.jpg",
+    "p0211.jpg",
+    "p0212.jpg",
+    "p0213.jpg",
+    "p0214.jpg",
+    "p0215.jpg",
+    "p0216.jpg",
+    "p0217.jpg"
+   ]
+  },
+  {
+   "name": "pages-017.zip",
+   "sha256": "c7d5d352632763655c149deb1038c5d813da74315eb715167e1cc6927a092892",
+   "bytes": 2868194,
+   "files": [
+    "p0218.jpg",
+    "p0219.jpg",
+    "p0220.jpg",
+    "p0221.jpg",
+    "p0222.jpg",
+    "p0223.jpg",
+    "p0224.jpg",
+    "p0225.jpg",
+    "p0226.jpg",
+    "p0227.jpg",
+    "p0228.jpg",
+    "p0229.jpg",
+    "p0230.jpg",
+    "p0231.jpg",
+    "p0232.jpg"
+   ]
+  },
+  {
+   "name": "pages-018.zip",
+   "sha256": "79a411d5d86a0777e1a1740591600e767043d0900f59097f1620f68b3bf409b2",
+   "bytes": 1079756,
+   "files": [
+    "p0233.jpg",
+    "p0234.jpg",
+    "p0235.jpg",
+    "p0236.jpg",
+    "p0238.jpg",
+    "p0239.jpg",
+    "p0240.jpg",
+    "p0241.jpg",
+    "ourneighbourhood00techrich_djvu.txt"
+   ]
+  }
+ ]
+}
