@@ -18,8 +18,250 @@
  "collection": "jatsi",
  "source": {
   "ia_identifier": "ourneighbourhood00techrich",
-  "contributor": "University of California Libraries"
+  "contributor": "University of California Libraries",
+  "hidden_leaves": []
  },
  "period": "early 1870s",
- "summary": "Twenty-one short sketches of life in a village on the edge of Yedo (Tokyo) in the early 1870s, written by a foreign resident who signs himself “T. A. P.” and writes as one of the neighbourhood. They were first printed in the Japan Weekly Mail and collected in Yokohama in 1874. Each describes a person, a trade, or a custom: the saké shop, the stone mason, the barber and the stories told in his shop, a blind boy, a picker-up of paper scraps, a shrine festival, the sparrow catcher, the doctor, the fortune-teller, the story-teller, a flute player, temple bells, an old gate, and the graveyard. The tone is light and often humorous. Japanese words are given in italics. The book has 24 full-page woodcuts in a Japanese style."
+ "summary": "Twenty-one short sketches of life in a village on the edge of Yedo (Tokyo) in the early 1870s, written by a foreign resident who signs himself “T. A. P.” and writes as one of the neighbourhood. They were first printed in the Japan Weekly Mail and collected in Yokohama in 1874. Each describes a person, a trade, or a custom: the saké shop, the stone mason, the barber and the stories told in his shop, a blind boy, a picker-up of paper scraps, a shrine festival, the sparrow catcher, the doctor, the fortune-teller, the story-teller, a flute player, temple bells, an old gate, and the graveyard. The tone is light and often humorous. Japanese words are given in italics. The book has 24 full-page woodcuts in a Japanese style.",
+ "frontispiece": "p0010-1",
+ "ornaments": [
+  "p0011-1"
+ ],
+ "divisions": [
+  {
+   "at": "p0010",
+   "kind": "front"
+  },
+  {
+   "at": "p0011",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0013",
+   "kind": "preface"
+  },
+  {
+   "at": "p0015",
+   "kind": "contents"
+  },
+  {
+   "at": "p0017",
+   "kind": "illustrations"
+  }
+ ],
+ "omitted_from_reading": "The printed contents and list of illustrations are in the JSON only.",
+ "notes_on_text": [
+  "The tissue guards bound over twenty of the plates were not transcribed. The plate “A Saké Shop” was photographed through its tissue in the only scan, so its picture is faint."
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-27",
+   "note": "First publication."
+  }
+ ],
+ "edition_statement": "First edition",
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0027",
+   "why": "tissue guard over a plate; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0028",
+   "why": "back of a tissue guard; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0033",
+   "why": "tissue guard over a plate; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0034",
+   "why": "back of a tissue guard; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0055",
+   "why": "tissue guard over a plate; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0056",
+   "why": "back of a tissue guard; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0061",
+   "why": "tissue guard over a plate; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0062",
+   "why": "back of a tissue guard; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0067",
+   "why": "tissue guard over a plate; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0068",
+   "why": "back of a tissue guard; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0073",
+   "why": "tissue guard over a plate; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0074",
+   "why": "back of a tissue guard; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0079",
+   "why": "tissue guard over a plate; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0080",
+   "why": "back of a tissue guard; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0099",
+   "why": "tissue guard over a plate; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0100",
+   "why": "back of a tissue guard; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0109",
+   "why": "tissue guard over a plate; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0110",
+   "why": "back of a tissue guard; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0117",
+   "why": "tissue guard over a plate; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0118",
+   "why": "back of a tissue guard; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0123",
+   "why": "tissue guard over a plate; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0124",
+   "why": "back of a tissue guard; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0129",
+   "why": "tissue guard over a plate; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0130",
+   "why": "back of a tissue guard; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0137",
+   "why": "tissue guard over a plate; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0138",
+   "why": "back of a tissue guard; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0149",
+   "why": "tissue guard over a plate; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0150",
+   "why": "back of a tissue guard; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0167",
+   "why": "tissue guard over a plate; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0168",
+   "why": "back of a tissue guard; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0181",
+   "why": "tissue guard over a plate; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0182",
+   "why": "back of a tissue guard; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0187",
+   "why": "tissue guard over a plate; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0188",
+   "why": "back of a tissue guard; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0195",
+   "why": "tissue guard over a plate; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0196",
+   "why": "back of a tissue guard; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0203",
+   "why": "tissue guard over a plate; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0204",
+   "why": "back of a tissue guard; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0221",
+   "why": "tissue guard over a plate; not transcribed"
+  },
+  {
+   "check": "leaves",
+   "match": "p0222",
+   "why": "back of a tissue guard; not transcribed"
+  }
+ ],
+ "publisher": "[not named in the book]"
 }

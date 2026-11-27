@@ -415,6 +415,14 @@ class Corrections(unittest.TestCase):
                                  capture_output=True, text=True).stdout
             self.assertIn("p0004: [[cont]] removed at 'and so we'", out)
 
+    def test_corrections_keep_blank(self):
+        """*Our Neighbourhood*: the corrections pass filled 12 blank plate versos with pictures seen through the leaf."""
+        d = "[[page ?]]\n[[blank]]\n"
+        out, n, sk = corrections.apply(d, '{"find": "[[blank]]", "replace": "[[image: a street with figures]]"}')
+        self.assertEqual((out, n), (d, 0))
+        self.assertTrue(corrections.blank_filled("[[blank]]", "[[image: x]]"))
+        self.assertFalse(corrections.blank_filled("we shew", "we show"))
+
     def test_review_kinds(self):
         self.assertEqual(review.kind_of("shew", "show"), "words")
         self.assertEqual(review.kind_of("so, then", "so; then"), "punctuation")

@@ -2053,8 +2053,9 @@
    "images": 530,
    "eligibility": "Re-vetted 2026-11-26 (Opus subagent); rejected 2026-11-19 only under the old death-date rule (Savory 1869–1966, PG catalogue; now assumed out of copyright by Tom's rule of 2026-11-26). Not in pg_catalog.csv (her In the Tail of the Peacock is, #28016). The Online Books Page: archive.org scans only. Wikisource search: none. Exact-sentence web search: nothing. HathiTrust and BHL page images only. Reprints: Kessinger 2007 and other print on demand; no real edition. Not checked: Faded Page, WorldCat.",
    "note": "UC Libraries scan, 500 ppi, colour, clean. xii + about 410 pp., 12 chapters with verse epigraphs. Photogravure portrait and 48 plates with blank versos, no list of illustrations; captions end ‘[Page N.’; plates fall mid-chapter. 1890s: Bombay, Agra, pig-sticking near Lahore, Peshawar and the Khyber, Chamba, Kashmir (bear, ibex, climbing), tigers in the Deccan, Ootacamund, a kheddah in Mysore. Lively, much hunting.",
-   "status": "queued",
-   "checked": "2026-11-26"
+   "status": "in progress",
+   "checked": "2026-11-27",
+   "started": "2026-11-27"
   },
   {
    "order": 111,

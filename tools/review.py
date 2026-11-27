@@ -69,6 +69,9 @@ def main():
         cur = draft
         for c in corrections.parse(open(cf_, encoding="utf-8").read()):
             fnd, rep = c["find"], c["replace"]
+            if corrections.blank_filled(fnd, rep):
+                proposed.append(f"{pg}: [[blank]] page filled by the verifier, NOT applied: {rep[:50]!r}")
+                continue
             if corrections.cont_only(fnd, rep):
                 if cur.count(fnd) == 1:
                     proposed.append(f"{pg}: [[cont]] {'added' if rep.count('[[cont]]') > fnd.count('[[cont]]') else 'removed'}"
@@ -104,8 +107,8 @@ def main():
     print(f"not applied ({len(skipped)}):")
     for s in skipped:
         print("  ", s)
-    print(f"[[cont]] changes proposed by the verifier and NOT applied (the draft's join stands): look at the indent "
-          f"on the scan; the verifier was wrong in 13 of 15 such changes so far ({len(proposed)}):")
+    print(f"proposed by the verifier and NOT applied — [[cont]] changes (the draft's join stands; the verifier was wrong in "
+          f"13 of 15 so far) and [[blank]] pages filled (show-through): look at each on the scan ({len(proposed)}):")
     for c in proposed:
         print("  ", c)
     print(f"[[cont]] added or removed by the verifier with other changes, applied unjudged: look at the indent on the scan ({len(conts)}):")
