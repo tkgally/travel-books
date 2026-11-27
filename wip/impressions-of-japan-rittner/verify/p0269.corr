@@ -1,4 +1,0 @@
-{"find": "The Daibutsu.", "replace": "The Daibutsu."}
-{"find": "Daibutsu.", "replace": "Daibutsu."}
-
-Both of those are no-ops, so the first one is the real answer. The caption reads "THE DAIBUTSU." in full capitals, which converts to "The Daibutsu." and matches the draft. The only change needed is the spelling: the draft has "Daibutsu" and the scan has "DAIBUTSU", so I mistyped nothing there either. NONE

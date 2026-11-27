@@ -1,5 +1,0 @@
-{"given": "The reason of his is", "print": "The reason of this is", "sure": "high"}
-{"given": "is not so noticeable; because their", "print": "is not so noticeable, because their", "sure": "high"}
-{"given": "made of stripcd grey silk", "print": "made of striped grey silk", "sure": "high"}
-{"given": "out, comes kind of Inverness", "print": "out, comes a kind of Inverness", "sure": "high"}
-{"given": "of black or gray silk", "print": "of black or grey silk", "sure": "high"}

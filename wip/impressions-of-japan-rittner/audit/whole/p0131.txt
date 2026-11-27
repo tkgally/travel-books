@@ -1,5 +1,0 @@
-{"given": "Whether the japanese mind works", "print": "Whether the Japanese mind works", "sure": "high"}
-{"given": "Amusement does nor seem to", "print": "Amusement does not seem to", "sure": "high"}
-{"given": "has flickered out, but after a", "print": "has flickered out; but after a", "sure": "high"}
-{"given": "in future without blush, and taken", "print": "in future without a blush, and taken", "sure": "high"}
-{"given": "throng of civilised pcrsons, and where", "print": "throng of civilised persons, and where", "sure": "high"}
