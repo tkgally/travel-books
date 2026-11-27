@@ -1,0 +1,110 @@
+# tess_compare: 375 pages; 92 word items; 14 pitch items; 0 empty items
+## Pages tesseract finds empty
+## Line pitch
+p0010: pitch 28 against the book's 42 (0.67): small type typed as body text?
+p0015: pitch 33 against the book's 42 (0.79): small type typed as body text?
+p0016: pitch 30 against the book's 42 (0.71): small type typed as body text?
+p0017: pitch 28 against the book's 42 (0.67): small type typed as body text?
+p0018: pitch 29 against the book's 42 (0.69): small type typed as body text?
+p0019: pitch 31 against the book's 42 (0.74): small type typed as body text?
+p0020: pitch 27 against the book's 42 (0.64): small type typed as body text?
+p0114: pitch 34 against the book's 42 (0.81): small type typed as body text?
+p0383: pitch 20 against the book's 42 (0.48): small type typed as body text?
+p0384: pitch 23 against the book's 42 (0.55): small type typed as body text?
+p0153: 6 lines set closer from y 892 (gap under 0.96 of the book's 42): small type typed as body text?
+p0390: 5 lines set closer from y 1073 (gap under 0.96 of the book's 42): small type typed as body text?
+p0391: 6 lines set closer from y 1118 (gap under 0.96 of the book's 42): small type typed as body text?
+p0392: 10 lines set closer from y 1114 (gap under 0.96 of the book's 42): small type typed as body text?
+## Words
+p0010: print?   file “and”, tesseract “anp”
+p0011: print?   file “Riverside”, tesseract “Viverside”
+p0030: print?   file “volcanic”, tesseract “voleanic”
+p0030: print?   file “forces”, tesseract “forees,”
+p0038: print?   file “can”, tesseract “ean”
+p0040: print?   file “volcano”, tesseract “voleano”
+p0042: print?   file “queer”, tesseract “quéer”
+p0047: print?   file “æsthetic”, tesseract “wsthetic”
+p0050: print?   file “mathematics”, tesseract “mathematies”
+p0053: print?   file “can”, tesseract “ean”
+p0058: print?   file “politics”, tesseract “polities,”
+p0063: print?   file “æsthetic”, tesseract “esthetic”
+p0064: print?   file “infinite”, tesseract “iffinite”
+p0066: print?   file “volcano”, tesseract “voleano”
+p0066: print?   file “volcano”, tesseract “voleano-”
+p0069: print?   file “haven”, tesseract “hayen”
+p0083: print?   file “single”, tesseract “stncLE”
+p0085: print?   file “cut”, tesseract “eut”
+p0086: print?   file “All”, tesseract ““Ail”
+p0093: print?   file “æsthetic”, tesseract “xsthetic”
+p0094: print?   file “lacquered”, tesseract “laequered”
+p0095: print?   file “cry”, tesseract “ery”
+p0100: print?   file “æsthetic”, tesseract “esthetic”
+p0112: print?   file “brilliancy”, tesseract “brillianey”
+p0125: print?   file “Heaven”, tesseract “Heayen”
+p0131: print?   file “æsthetic”, tesseract “esthetic”
+p0133: print?   file “Scarcely”, tesseract “Searcely”
+p0135: print?   file “and”, tesseract “ahd”
+p0136: print?   file “cry”, tesseract “ery,”
+p0146: print?   file “logic”, tesseract “logie”
+p0162: print?   file “Clumps”, tesseract “Ciumps”
+p0162: print?   file “circumference”, tesseract “cireumference!”
+p0164: print?   file “æsthetic”, tesseract “wsthetic”
+p0164: print?   file “VII”, tesseract “vir”
+p0170: print?   file “mercy”, tesseract “merey.”
+p0198: print?   file “æsthetic”, tesseract “<esthetic”
+p0198: print?   file “Pacific”, tesseract “Pacifie”
+p0199: print?   file “æsthetic”, tesseract “esthetic”
+p0200: print?   file “scarlet”, tesseract “searlet”
+p0209: print?   file “can”, tesseract “ean”
+p0209: print?   file “caldron”, tesseract “ealdron”
+p0209: print?   file “can”, tesseract “ean”
+p0216: print?   file “concrete”, tesseract “conerete”
+p0217: print?   file “but”, tesseract “buf”
+p0221: print?   file “forces”, tesseract “forees,”
+p0238: print?   file “æsthetic”, tesseract “esthetic,”
+p0238: print?   file “scratch”, tesseract “seratch”
+p0239: print?   file “etc”, tesseract “ete.,”
+p0239: print?   file “creeds”, tesseract “ereeds;”
+p0242: print?   file “æsthetic”, tesseract “xsthetic”
+p0242: print?   file “carried”, tesseract “earried”
+p0244: print?   file “fancy”, tesseract “faney”
+p0246: print?   file “æsthetic”, tesseract “wxsthetic”
+p0247: print?   file “crystal”, tesseract “erystal”
+p0248: print?   file “æsthetic”, tesseract “zsthetic”
+p0254: print?   file “cruelly”, tesseract “eruelly”
+p0256: print?   file “above”, tesseract “aboye”
+p0259: print?   file “scarcely”, tesseract “searcely”
+p0261: print?   file “can”, tesseract “ean”
+p0262: print?   file “æsthetic”, tesseract “esthetic”
+p0268: print?   file “mother”, tesseract “‘nother”
+p0270: print?   file “world”, tesseract “warld,”
+p0273: print?   file “havoc”, tesseract “hayoe”
+p0276: print?   file “cyclone”, tesseract “eyclone-”
+p0295: print?   file “column”, tesseract “eolumn”
+p0301: print?   file “ancient”, tesseract “anciént”
+p0314: print?   file “mediæval”, tesseract “medizval”
+p0315: print?   file “devouring”, tesseract “deyouring”
+p0318: print?   file “divinities”, tesseract “vinities”
+p0319: print?   file “can”, tesseract “ean,”
+p0319: print?   file “cry”, tesseract “ery,”
+p0324: print?   file “shall”, tesseract “shal]”
+p0326: print?   file “trunks”, tesseract “trunas”
+p0337: print?   file “site”, tesseract “sité”
+p0344: print?   file “cry”, tesseract “ery”
+p0345: print?   file “VIII”, tesseract “VIL.”
+p0347: print?   file “legends”, tesseract “legénds”
+p0354: print?   file “Either”, tesseract “ither”
+p0359: print?   file “cut”, tesseract “eut”
+p0365: print?   file “Heaven”, tesseract “Heayen,”
+p0368: print?   file “Prosaic”, tesseract “Prosaie”
+p0368: print?   file “description”, tesseract “deseription”
+p0372: print?   file “repair”, tesseract “repdir”
+p0372: print?   file “carried”, tesseract “earried”
+p0373: print?   file “æsthetic”, tesseract “wsthetic”
+p0374: print?   file “cry”, tesseract “ery”
+p0374: print?   file “mediæval”, tesseract “medizyval”
+p0377: print?   file “cry”, tesseract “ery”
+p0378: print?   file “curves”, tesseract “curyes”
+p0379: print?   file “vain”, tesseract “yain”
+p0379: print?   file “cry”, tesseract “ery,”
+p0387: print?   file “books”, tesseract “vooks”

@@ -1,39 +1,10 @@
-[ FAIL (1)] meta: book.json: required fields present and sane
-            - book.json: missing 'summary'
-[FAIL (10)] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
-            - p0314: illegible mark 〓: '| <sc>Large Crown 8vo.</sc> | Containing 350 to 600 pp. and from 50 to'
-            - p0314: illegible mark 〓: '| Works. | In very handsome cloth binding, gilt edges. | In plainer bi'
-            - p0314: illegible mark 〓: '| 20,000 Leagues under the Sea. Parts I. and II. | 10 6 | 5 0 | 3 6 | '
-            - p0314: illegible mark 〓: '| Hector Servadac | 10 6 | 5 0 | 3 6 | 2 vols., 1<i>s.</i> e〓 |'
-            - p0314: illegible mark 〓: '| The Fur Country | 10 6 | 5 0 | 3 6 | 2 vols., 1<i>s.</i> e〓 |'
-            - p0314: illegible mark 〓: '| The Earth to the Moon and a Trip round it | 10 6 | 5 0 | 2 vols., 2<'
-            - p0314: illegible mark 〓: '| Michael Strogoff | 10 6 | 5 0 | 3 6 | 2 vols., 1<i>s.</i> e〓 |'
-            - p0314: illegible mark 〓: '| Dick Sands, the Boy Captain | 10 6 | 5 0 | 3 6 | 2 vols., 1<i>s.</i>'
-            - p0314: illegible mark 〓: '| Survivors of the “Chancellor” | 7 6 | 3 6 | 3 6 | 2 vols., 1<i>s.</i'
-            - p0314: illegible mark 〓: '<sc>Celebrated Travels and Travellers</sc>. 3 vols. 8vo, 600 pp., 100 '
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
 [       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
 [       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
-[FAIL (13)] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
-            - text: …'ns.  Containing the whole of t〓 text with some illustratio〓  '…
-            - text: …' t〓 text with some illustratio〓  Works. In very handsome clot'…
-            - text: …'es, smaller type. Coloured boa〓  s. d. s. d. s. d.  20,000 Le'…
-            - text: …'I. 10 6 5 0 3 6 2 vols., 1s. e〓 Hector Servadac 10 6 5 0 3 6 '…
-            - text: …'ac 10 6 5 0 3 6 2 vols., 1s. e〓 The Fur Country 10 6 5 0 3 6 '…
-            - text: …'ry 10 6 5 0 3 6 2 vols., 1s. e〓 The Earth to the Moon and a T'…
-            - text: …' vols., 2s. ea. 2 vols., 1s. e〓 Michael Strogoff 10 6 5 0 3 6'…
-            - text: …'ff 10 6 5 0 3 6 2 vols., 1s. e〓 Dick Sands, the Boy Captain 1'…
-            - text: …'in 10 6 5 0 3 6 2 vols., 1s. e〓 Five Weeks in a Balloon 7 6 3'…
-            - text: …'or” 7 6 3 6 3 6 2 vols., 1s. e〓 Martin Paz   2 0 1s. 0d. The '…
-            - text: …'00 full-page illustrations, 12〓 gilt edges, 14s. each:—(1) Th'…
-            - text: …' World. (2) The Great Navigato〓 〓 Eighteenth Century. (3) The'…
-            - text: …'orld. (2) The Great Navigato〓 〓 Eighteenth Century. (3) The G'…
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
 [       ok] straight-quotes: no straight ' or " in the text
-[ FAIL (5)] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
-            - p0041: space at the start or end of a block: 'Although we had intended to push on a co'
-            - p0126: iends with shug rato gama  to some of them who at the'…
-            - p0132:  ” ”'…
-            - p0132:  ” ” ”'…
-            - p0132:  ” ”'…
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
 [       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
 [       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
 [       ok] links: every link inside the book's web pages and EPUB has a target
@@ -80,8 +51,8 @@
             - huairahue: huairahué (p0207, p0281); huáiráhué (p0207)
             - huallaga: huallaga (p0053, p0126); huallága (p0173)
             - ica: icá (p0282); iça (p0229, p0235, p0239); içá (p0235)
-            - llanchama: llanchama (p0124); llanchàma (p0209)
-            - machetes: machetes (p0092, p0108); machétes (p0204); machĕtes (p0245)
+            - llanchama: llanchama (p0124); llancháma (p0209)
+            - machetes: machetes (p0092, p0108); machétes (p0204, p0245)
             - manucuaquicuajuotsa: manucuaquicuajuotsa (p0193); manucuaquicuajuótsa (p0277)
             - mapoto: mapoto (p0284); mapóto (p0079, p0080)
             - menu: menu (p0082); ménu (p0289)
@@ -102,17 +73,18 @@
             - yasuni: yasuni (p0180); yasuní (p0203, p0277)
             - zuinag: zuinag (p0284); zuiñag (p0059, p0086)
 [       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
-[ look (6)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+[ look (5)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
             - p0045: “lunges” — “plunges” is common (47; a letter dropped or transposed?)
             - p0087: “voided” — “avoided” is common (122; a letter dropped or transposed?)
             - p0132: “hotte” — “hotter” is common (49; a letter dropped or transposed?)
             - p0191: “pium” — “plum” is common (107)
-            - p0286: “specally” — “specially” is common (223; a letter dropped or transposed?)
             - p0314: “illustratio” — “illustration” is common (153; a letter dropped or transposed?)
 [       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
-[       ok] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+[ look (2)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: …ountains to Riobamba and Baños, then on foot and by canoe past the Jí…
+            - book.json summary: …Záparo vocabulary, Piojé words, and heights of mountains and towns.…
 [       ok] line-breaks: a paragraph line that ends without a stop, followed on the next line by one that starts in lower case: a stray line break splitting a paragraph?
 [       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: wilds-of-ecuador-simson v1 — 30 to fix, 0 waived; to look at: hyphen-joins 3, folios 1, contents 4, accents 35, rare-forms 6 — tools@988d1f4e 2026-11-27
+preflight FAIL: wilds-of-ecuador-simson v1 — 1 to fix, 0 waived; to look at: hyphen-joins 3, folios 1, contents 4, accents 35, rare-forms 5, serial-commas 2 — tools@cf3fefe8 2026-11-27
