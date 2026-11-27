@@ -1,7 +1,0 @@
-{"find": "casualities", "replace": "casualities"}
-
-Wait—the image reads "casualities"? The scan shows "casualities" as "casua-lities" i.e. "casualities". Correcting only what differs:
-
-{"find": "casualities incident", "replace": "casualities incident"}
-
-NONE

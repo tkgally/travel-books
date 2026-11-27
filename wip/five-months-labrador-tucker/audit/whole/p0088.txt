@@ -1,5 +1,0 @@
-{"given": "before which time bait caunot be obtained", "print": "before which time bait cannot be obtained", "sure": "high"}
-{"given": "the Bay of Chaleurs; the Gulf", "print": "the Bay of Chaleurs, the Gulf", "sure": "high"}
-{"given": "the Straits of bellisle, the coast", "print": "the Straits of Bellisle, the coast", "sure": "high"}
-{"given": "over twenty three degrees latitude.", "print": "over twenty three degrees of latitude.", "sure": "high"}
-{"given": "as comfortable, as these of the ancient", "print": "as comfortable, as those of the ancient", "sure": "high"}

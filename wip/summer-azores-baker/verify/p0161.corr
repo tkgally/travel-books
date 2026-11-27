@@ -1,6 +1,0 @@
-{"find": "lycopedium in greenhouses", "replace": "lycopedium in greenhouses"}
-{"find": "for a donkey: it", "replace": "for a donkey: it"}
-
-Wait — those are no-ops. Correct output:
-
-{"find": "lycopedium in greenhouses", "replace": "lycopedium in green-houses"}

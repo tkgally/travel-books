@@ -1,5 +1,0 @@
-These three spots differ only in markup, not in the printed letters. The scan shows centred headings in capitals, "CHAPTER VI.", "CHAPTER VII." and "CHAPTER VIII.", so either form would fit. I chose the `#` heading form because that's what the surrounding text uses, but the scan can't settle which convention is right. In spots 2 and 3 both readings cut off before the final characters ("." and "I.").
-
-{"n": 1, "is": "A", "print": "# Chapter VI.", "sure": "low"}
-{"n": 2, "is": "B", "print": "# Chapter VII", "sure": "low"}
-{"n": 3, "is": "B", "print": "# Chapter VII", "sure": "low"}

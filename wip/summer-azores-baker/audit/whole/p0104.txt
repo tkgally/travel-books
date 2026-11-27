@@ -1,4 +1,0 @@
-{"given": "Here there the surface of", "print": "Here and there the surface of", "sure": "high"}
-{"given": "The rocks or either side", "print": "The rocks on either side", "sure": "high"}
-{"given": "hot caldron, noifily threatening horrible death", "print": "hot caldron, noisily threatening horrible death", "sure": "high"}
-{"given": "slip on its brink, the ground", "print": "slip on its brink; the ground", "sure": "high"}

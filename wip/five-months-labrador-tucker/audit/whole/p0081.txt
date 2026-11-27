@@ -1,5 +1,0 @@
-{"given": "all, what where the fishermen", "print": "all, what were the fishermen", "sure": "high"}
-{"given": "from the chaius of servitude", "print": "from the chains of servitude", "sure": "high"}
-{"given": "Stewart, Porter and macdonough, what", "print": "Stewart, Porter and Macdonough, what", "sure": "high"}
-{"given": "sealed the proudest our triumphs with", "print": "sealed the proudest of our triumphs with", "sure": "high"}
-{"given": "It has been justly observed; that", "print": "It has been justly observed, that", "sure": "high"}

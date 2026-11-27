@@ -1,5 +1,0 @@
-{"find": "willow-boughs”", "replace": "willow-boughs”"}
-
-Wait — the draft reads "willow-boughs" and the scan shows "willow-boughs" too, so that entry is a no-op and should be ignored. The scan reads "boughs" where the draft has "boughs" — compare again: the draft has "willow-boughs", and the scan has "willow-boughs". There are no differences.
-
-NONE

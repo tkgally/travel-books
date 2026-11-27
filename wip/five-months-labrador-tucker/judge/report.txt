@@ -1,5 +1,0 @@
-judge opus: 4 spots on 2 pages: {'draft': 3, 'verified': 1}; cost $0.09
-p0016 #1 [draft, sure: low] draft '# Chapter VI.' | verified '[[center]] Chapter VI.' | judge reads '# Chapter VI.'
-p0016 #2 [draft, sure: low] draft '# Chapter VII' | verified '[[center]] Chapter VII' | judge reads '# Chapter VII'
-p0016 #3 [draft, sure: low] draft '# Chapter VII' | verified '[[center]] Chapter VII' | judge reads '# Chapter VII'
-p0068 #1 [verified, sure: low] draft 'the bygone days' | verified 'the by-gone days' | judge reads 'the by-gone days'

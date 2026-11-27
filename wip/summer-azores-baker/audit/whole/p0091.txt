@@ -1,5 +1,0 @@
-{"given": "A Peep at San jorge, Graciosa,", "print": "A Peep at San Jorge, Graciosa,", "sure": "high"}
-{"given": "this line; in from twenty", "print": "this line, in from twenty", "sure": "high"}
-{"given": "from the time mailing in New York", "print": "from the time of mailing in New York", "sure": "high"}
-{"given": "the waters as be went his way", "print": "the waters as he went his way", "sure": "high"}
-{"given": "a furrow of phosphoresccnce in the sea.", "print": "a furrow of phosphorescence in the sea.", "sure": "high"}

@@ -1,6 +1,0 @@
-{"find": "which detain within", "replace": "which detain within"}
-{"find": "The fields and other collections of floating ice", "replace": "The fields and other collections of floating ice"}
-
-Wait — the draft differs in one place: "which detain" matches the print, so those two lines are no-ops. The one real fix is below.
-
-{"find": "spicular shoots, or thin flakes, which detain", "replace": "spicular shoots, or thin flakes, which detain"}

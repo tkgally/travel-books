@@ -1,5 +1,0 @@
-{"given": "behind if. It was as", "print": "behind it. It was as", "sure": "high"}
-{"given": "the fumes of mepbitic gases.", "print": "the fumes of mephitic gases.", "sure": "high"}
-{"given": "of a beautiful woodwardia fern.", "print": "of a beautiful Woodwardia fern.", "sure": "high"}
-{"given": "of each other regard the strangers.", "print": "of each other to regard the strangers.", "sure": "high"}
-{"given": "under similar circumstances; a crowd", "print": "under similar circumstances, a crowd", "sure": "high"}
