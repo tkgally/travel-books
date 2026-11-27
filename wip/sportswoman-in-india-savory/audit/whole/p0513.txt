@@ -1,5 +1,0 @@
-{"given": "roof of gray-green fir-pins", "print": "roof of grey-green fir-pins", "sure": "high"}
-{"given": "with its wants infinite wail.”", "print": "with its wants and infinite wail.”", "sure": "high"}
-{"given": "serene in the sunlight; can I", "print": "serene in the sunlight, can I", "sure": "high"}
-{"given": "in worlds we know nor of,", "print": "in worlds we know not of,", "sure": "high"}
-{"given": "ruined cities with gbosts.", "print": "ruined cities with ghosts.", "sure": "high"}

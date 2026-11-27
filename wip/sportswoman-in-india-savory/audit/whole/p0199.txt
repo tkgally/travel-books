@@ -1,5 +1,0 @@
-{"given": "they were the roughest traeks, and", "print": "they were the roughest tracks, and", "sure": "high"}
-{"given": "with M. Slowly sphai clambered up", "print": "with M. Slowly Sphai clambered up", "sure": "high"}
-{"given": "on the left wall of rock rose", "print": "on the left a wall of rock rose", "sure": "high"}
-{"given": "broke into a jog, at the same", "print": "broke into a jog; at the same", "sure": "high"}
-{"given": "hind-feet be loosened a rock", "print": "hind-feet he loosened a rock", "sure": "high"}

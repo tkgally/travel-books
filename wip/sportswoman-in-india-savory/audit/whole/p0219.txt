@@ -1,5 +1,0 @@
-{"given": "The hillsidcs were covered with", "print": "The hillsides were covered with", "sure": "high"}
-{"given": "breeze; higher still; above the", "print": "breeze; higher still, above the", "sure": "high"}
-{"given": "Our tents where soon up", "print": "Our tents were soon up", "sure": "high"}
-{"given": "and could realize a little", "print": "and could realise a little", "sure": "high"}
-{"given": "For brief half-hour the cold", "print": "For a brief half-hour the cold", "sure": "high"}
