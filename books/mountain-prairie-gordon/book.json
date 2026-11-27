@@ -1,0 +1,111 @@
+{
+ "id": "mountain-prairie-gordon",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "Mountain and Prairie",
+ "subtitle": "A Journey from Victoria to Winnipeg via Peace River Pass",
+ "short_title": "Mountain and Prairie",
+ "authors": [
+  {
+   "name": "Rev. Daniel M. Gordon, B.D.",
+   "sort": "Gordon, Daniel M."
+  }
+ ],
+ "place": "Montreal",
+ "publisher": "Dawson Brothers",
+ "year": 1880,
+ "edition_statement": "First edition (Montreal; a London issue by Sampson Low appeared the same year)",
+ "regions": [
+  "Canada"
+ ],
+ "period": "1879",
+ "source": {
+  "ia_identifier": "mountainprairiej00gord_0",
+  "contributor": "University of Toronto (Thomas Fisher Rare Book Library)",
+  "hidden_leaves": [
+   0,
+   7,
+   8,
+   177,
+   178,
+   357
+  ]
+ },
+ "frontispiece": [
+  "p0006-1",
+  "p0020-1"
+ ],
+ "divisions": [
+  {
+   "at": "p0006",
+   "kind": "front"
+  },
+  {
+   "at": "p0009",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0011",
+   "kind": "preface"
+  },
+  {
+   "at": "p0015",
+   "kind": "contents"
+  },
+  {
+   "at": "p0018",
+   "kind": "illustrations",
+   "n": 1
+  },
+  {
+   "at": "p0018",
+   "kind": "illustrations",
+   "n": 2
+  },
+  {
+   "at": "p0021",
+   "kind": "front",
+   "title": "The book’s title above Chapter I"
+  },
+  {
+   "at": "p0021",
+   "kind": "chapter",
+   "n": 2
+  }
+ ],
+ "waivers": [],
+ "keep_hyphens": [
+  "p0028",
+  "p0142",
+  "p0200"
+ ],
+ "notes_on_text": [
+  "The frontispiece is shown on the title page, and the folding map bound before Chapter I at the start of that chapter. The four folding maps are reduced to the width of the page, where their names cannot be read; the page images at the Internet Archive show them in full.",
+  "Each plate’s credit line (“From a Photo. by …”), printed above its title, follows the title in the caption."
+ ],
+ "summary": [
+  "In 1879 the Canadian Parliament sent a party to examine a northern route for the Canadian Pacific Railway, from the Pacific coast across northern British Columbia and through the Rocky Mountains to the prairies. Daniel M. Gordon, a minister from Ottawa, went with the two railway engineers and the geologist G. M. Dawson. From Victoria they went up the coast and up the Skeena by canoe, by pack trail to Lake Babine and Fort McLeod, and by boat through the Peace River Pass to Dunvegan; from there Gordon went on alone by Lesser Slave Lake to Edmonton and by cart across the prairie, by Battleford and Fort Ellice, to Winnipeg, meeting snow on the way.",
+  "He describes the country, its Indigenous peoples, missions, fur posts, and settlers, and weighs the land for farming and the railway; he quotes the surveys at length. The book has seven plates from photographs and four maps."
+ ],
+ "omitted_from_reading": "The printed contents, the lists of maps and illustrations, and the book’s title above Chapter I are in the JSON only.",
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-27",
+   "note": "First publication."
+  }
+ ],
+ "subjects": [
+  "Canadian Pacific Railway",
+  "Peace River",
+  "Prairie travel"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-27",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
+}
