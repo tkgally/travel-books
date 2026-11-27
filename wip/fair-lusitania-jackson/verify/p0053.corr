@@ -1,0 +1,7 @@
+The caption prints "CAMÕES", with a tilde on the O, so the draft's "Camões" is wrong.
+
+{"find": "Luis de Camões.", "replace": "Luis de Camões."}
+
+Wait — I need to check that against the draft: the draft already reads "Camões", so no change is needed.
+
+NONE

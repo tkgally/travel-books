@@ -1,0 +1,25 @@
+[[page ?]]
+
+<verse>
+“Venus bella,
+Affeiçoada a gente Lusitana,
+Por quantas qualidades via nella
+Da antigua tam amada sua Romana,
+Nos fortes coraçoens, na grande estrella
+Que mostraram na terra Tingitana;
+E na lingua, na qual, quando imagina,
+Com pouco corrupção crê que he a Latina.”
+</verse>
+
+[[right]] —<i>Lusiad.</i>
+
+<verse>
+Fair Venus
+Loved the Lusitanian people,
+For in their dauntless hearts,
+And valorous deeds in Tingitana,
+She saw again displayed the spirit
+Of her much loved Romans of the olden time;
+And in their language, so near akin to that of Rome,
+She seemed to hear once more the Latin tongue.
+</verse>

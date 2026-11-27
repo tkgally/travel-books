@@ -2372,10 +2372,11 @@
    "place": "New York and London",
    "publisher": "James Pott & Co.; John Murray",
    "images": 314,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-27",
-   "eligibility": "JATSI 171. Vetted 2026-11-27 (Opus subagent). Rule 1 met: University of California colour scan, 500 ppi; 32 plates inferred from the runs of unnumbered leaves (frontispiece and 31; the last, Sayonara, not in the printed list), two viewed; also LoC impressionsofjap00ritt (Pott issue, 400 ppi). Rule 2 met: PG catalogue no match; web search: no free text. Rule 3 met: no post-1914 edition found. Rule 4 partly met: topical chapters with first-person scenes (tea-house, theatre, temples).",
-   "note": "Eleven topical chapters: nature, art, homes, bathing, children, geisha, stage, ‘civilisation’, missionaries (hostile), temples, farewell. Readable, opinionated. 32 photographic plates printed sideways, each with a tissue or blank leaf; index. Plain single-column layout, few footnotes. Count the plates at the scan check."
+   "eligibility": "JATSI 171. Vetted 2026-11-27 (Opus subagent). Rule 1 met: University of California colour scan, 500 ppi; 32 plates inferred from the runs of unnumbered leaves (frontispiece and 31; the last, Sayonara, not in the printed list), two viewed; also LoC impressionsofjap00ritt (Pott issue, 400 ppi). Rule 2 met: PG catalogue no match; web search: no free text. Rule 3 met: no post-1914 edition found. Rule 4 partly met: topical chapters with first-person scenes (tea-house, theatre, temples). Re-checked 2026-11-27 (session): not in a fresh pg_catalog.csv; web search: a paid preview in a Russian library (rucont.ru), no free text.",
+   "note": "Eleven topical chapters: nature, art, homes, bathing, children, geisha, stage, ‘civilisation’, missionaries (hostile), temples, farewell. Readable, opinionated. 32 photographic plates printed sideways, each with a tissue or blank leaf; index. Plain single-column layout, few footnotes. Count the plates at the scan check.",
+   "started": "2026-11-27"
   },
   {
    "order": 200,
