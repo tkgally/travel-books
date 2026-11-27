@@ -1,0 +1,37 @@
+[[page xi]]
+
+# List of Illustrations
+
+<sc>sophia, the guide</sc> <i>Frontispiece</i>
+
+<sc>auckland from mount eden</sc> <pref>10</pref>
+
+<sc>milkers and calves</sc> <pref>16</pref>
+
+<sc>a full-blooded maori maid</sc> <pref>26</pref>
+
+<sc>the little ones’ bath, ohinemuta</sc> <pref>36</pref>
+
+<sc>the ever-green bush</sc> <pref>46</pref>
+
+<sc>a maori carver at work</sc> <pref>64</pref>
+
+<sc>sheep in thousands</sc> <pref>72</pref>
+
+<sc>waimangu geyser</sc> <pref>80</pref>
+
+<sc>a maori wharé, ohinemuta</sc> <pref>98</pref>
+
+<sc>the peace of the bush</sc> <pref>104</pref>
+
+<sc>on a sheep station</sc> <pref>114</pref>
+
+<sc>lake wanaka</sc> <pref>116</pref>
+
+<sc>maoris bathing in the hot pools</sc> <pref>122</pref>
+
+<sc>mount tutoko, cheddar valley</sc> <pref>128</pref>
+
+<sc>on donne glacier</sc> <pref>134</pref>
+
+<sc>a typical township—bealey</sc> <pref>154</pref>

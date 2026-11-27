@@ -1,0 +1,8 @@
+Differences: "all the day." in the second stanza has no period; "pound;" ends with a semicolon.
+
+{"find": "banging all the day\nLittle", "replace": "banging all the day\nLittle"}
+{"find": "everybody pound;", "replace": "everybody pound;"}
+
+Checking the draft again: the draft has "banging all the day" without a period in stanza 2, which matches the image. "everybody pound;" also matches. So nothing needs to change.
+
+NONE

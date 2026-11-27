@@ -1,0 +1,147 @@
+[[page 342]]
+
+Constabulary, Philippines, <pref>55</pref>, <pref>73</pref>, <pref>129</pref>, <pref>213</pref>
+
+Coral, <pref>184</pref>
+
+Daet, <pref>154</pref>, <pref>217</pref>
+
+Dalupaon, <pref>206</pref>
+
+Dapitan, <pref>264</pref>
+
+Death-rate, <pref>141</pref>, <pref>144</pref>
+
+Dialects, <pref>81</pref>, <pref>103</pref>, <pref>104</pref>, <pref>139</pref>, <pref>199</pref>, <pref>217</pref>, <pref>270</pref>
+
+Disease, See Sickness
+
+Domestic Life, <pref>57</pref>, <pref>58</pref>, <pref>116</pref>, <pref>117</pref>, <pref>186</pref>, <pref>187</pref>, <pref>315</pref>
+
+Dramas, <pref>75</pref>, <pref>76</pref>, <pref>80</pref>, <pref>81</pref>, <pref>82</pref>, <pref>85</pref>
+
+Dress, <pref>17</pref>, <pref>30</pref>, <pref>66</pref>
+
+Dress of Igorrotes, <pref>68</pref>, <pref>273</pref>
+
+Drought, <pref>144</pref>
+
+Dupax, <pref>26</pref>, <pref>32</pref>
+
+Dwellings, <pref>28</pref>, <pref>44</pref>, <pref>52</pref>
+
+Easter, <pref>92</pref>, <pref>93</pref>
+
+Famine, <pref>141</pref>, <pref>144</pref>, <pref>145</pref>, <pref>284</pref>, <pref>285</pref>
+
+Festivals, See Fiestas
+
+Fevers, Malignant, <pref>141</pref>, <pref>144</pref>
+
+Fiestas, Chap. VI, <pref>145</pref>, <pref>245</pref>, <i>et seq.</i>
+
+Fire-arms, <pref>138</pref>, <pref>225</pref>
+
+Fire-flies, <pref>300</pref>
+
+Food, <pref>7</pref>, <pref>30</pref>, <pref>47</pref>, <pref>49</pref>, <pref>50</pref>, <pref>54</pref>, <pref>56</pref>, <pref>59</pref>, <pref>62</pref>, <pref>64</pref>, <pref>77</pref>, <pref>80</pref>, <pref>118</pref>, <pref>129</pref>, <pref>130</pref>, <pref>201</pref>, <pref>210</pref>, <pref>211</pref>, <pref>285</pref>
+
+Forests, <pref>174</pref>, <pref>180</pref>
+
+Forest-woods, <pref>207</pref>
+
+Friars, <pref>64</pref>, <pref>105</pref>, <pref>253</pref>
+
+Fuji San, <pref>255</pref>
+
+Funerals, <pref>94</pref>, <pref>95</pref>, <pref>311</pref>
+
+Funston, General, <pref>16</pref>, <pref>24</pref>
+
+Gaddanes, <pref>28</pref>, <pref>81</pref>, <pref>103</pref>
+
+Gambling, <pref>7</pref>, <pref>83</pref>, <pref>181</pref>, <pref>320</pref>, <pref>321</pref>
+
+Games, Children's, <pref>273</pref>, <pref>286</pref>, <pref>287</pref>
+
+Good Friday, <pref>90</pref>, <i>et seq.</i>
+
+Governors, Provincial, American, <pref>136</pref>
+
+Governors, Provincial, Filipino, <pref>9</pref>, <pref>323</pref>, <i>et seq.</i>
+
+Graft, <pref>318</pref>, <pref>321</pref>, <pref>322</pref>
+
+Head-hunters, <pref>64</pref>, <pref>65</pref>, <pref>71</pref>, <i>et seq.</i>, <pref>119</pref>, <pref>120</pref>
+
+Hemp, Manila, See Abacá
+
+Holy Week, <pref>89</pref>, <i>et seq.</i>
+
+Horses, <pref>24</pref>, <pref>140</pref>
+
+Housekeeping, American, Chap. IV, <pref>236</pref>, <i>et seq.</i>, <pref>241</pref>
+
+Igorrotes, <pref>28</pref>, <pref>49</pref>, <pref>59</pref>, <i>et seq.</i>, Chap. V., <pref>77</pref>, <pref>85</pref>, <i>et seq.</i>, <pref>272</pref>, <i>et seq.</i>
+
+Iguana, <pref>228</pref>
+
+Ilang-ilang, <pref>169</pref>
+
+Ilocanos, <pref>27</pref>, <pref>81</pref>, <pref>103</pref>
+
+Images, Religious, <pref>10</pref>, <pref>78</pref>, <pref>92</pref>, <pref>93</pref>, <pref>143</pref>
+
+Indan, <pref>217</pref>
+
+Instruction, See Teaching
+
+Instruction, Spanish, <pref>19</pref>, <pref>20</pref>, <pref>105</pref>
+
+Insurgents, Insurrectos, <pref>10</pref>, <pref>21</pref>, <pref>185</pref>
+
+Insurrection, <pref>9</pref>, <pref>22</pref>, <pref>303</pref>
+
+Iriga, <pref>169</pref>, <i>et seq.</i>
+
+Iriga, Mt., <pref>168</pref>, <pref>169</pref>, <pref>173</pref>
+
+Isanays, <pref>103</pref>
+
+Isarog, Mt., <pref>134</pref>, <pref>168</pref>, <pref>178</pref>
+
+Japanese, <pref>51</pref>, <pref>271</pref>
+
+Jolo, <pref>265</pref>, <i>et seq.</i>
+
+Juramentados, <pref>266</pref>, note
+
+Justices-of-the-Peace, <pref>306</pref>, <pref>307</pref>, <pref>327</pref>, <i>et seq.</i>
+
+Labor, <pref>272</pref>
+
+Labor, Ideas of, <pref>159</pref>, <pref>160</pref>
+
+Ladronism, <pref>136</pref>, <i>et seq.</i>, <pref>212</pref>
+
+Laguna de Bay, <pref>6</pref>, <pref>8</pref>
+
+Laguna, La, <pref>11</pref>
+
+Laundering, <pref>56</pref>, <pref>57</pref>, <pref>59</pref>
+
+Legends, Religious, <pref>246</pref>, <pref>265</pref>
+
+Leprosy, <pref>202</pref>, <pref>203</pref>
+
+Lizards, <pref>237</pref>, <i>et seq.</i>
+
+Locusts, <pref>12</pref>, <pref>141</pref>
+
+Ma-bato-bato, <pref>197</pref>
+
+Magat River, <pref>15</pref>, <pref>126</pref>
+
+Magellan, <pref>263</pref>, <pref>264</pref>
+
+Mails, <pref>54</pref>, <pref>55</pref>, <pref>148</pref>
