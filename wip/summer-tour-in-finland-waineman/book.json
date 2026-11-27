@@ -1,0 +1,18 @@
+{
+ "id": "summer-tour-in-finland-waineman",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "A Summer Tour in Finland",
+ "short_title": "A Summer Tour in Finland",
+ "authors": [{"name": "Paul Waineman [Sylvia Borgström MacDougall]", "sort": "Waineman, Paul"}],
+ "place": "London",
+ "publisher": "Methuen & Co.",
+ "year": 1908,
+ "regions": ["Finland"],
+ "source": {"ia_identifier": "summertourinfinl00macdrich", "contributor": "University of California Libraries", "hidden_leaves": [],
+  "extra_leaves": {
+   "p0037a": {"ia_identifier": "summertourinfinl0000sylv", "n": 35, "what": "printed page 12, missing from the main scan"},
+   "p0037b": {"ia_identifier": "summertourinfinl0000sylv", "n": 36, "what": "printed page 13, missing from the main scan"},
+   "p0122a": {"ia_identifier": "summertourinfinl0000sylv", "n": 121, "what": "the plate “Imatra Hotel and Falls”, cut off at the edge in the main scan"}
+  }}
+}
