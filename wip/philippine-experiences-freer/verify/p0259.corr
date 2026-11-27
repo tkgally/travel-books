@@ -1,0 +1,5 @@
+{"find": "<i>bandillo</i>", "replace": "<i>bandillo</i>"}
+
+Wait — that is the same text. The correct entry is:
+
+{"find": "<i>bandillo</i>", "replace": "<i>bandillo</i>"}

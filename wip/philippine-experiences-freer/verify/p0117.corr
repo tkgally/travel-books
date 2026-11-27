@@ -1,0 +1,7 @@
+The last word on the page is broken by a hyphen ("cock-"), so the draft needs the trailing hyphen kept.
+
+{"find": "thrives, the cock-", "replace": "thrives, the cock-"}
+
+Wait — the draft already ends with "cock-". Checking the rest of the page against the image, I found nothing else that differs.
+
+NONE

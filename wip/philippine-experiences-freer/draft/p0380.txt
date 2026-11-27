@@ -1,0 +1,89 @@
+[[page 344]]
+
+Schools, Normal, Chap. VIII, <pref>294</pref>
+
+Schools, Private, <pref>19</pref>, <pref>20</pref>
+
+Schools, Spanish, <pref>20</pref>, <pref>105</pref>, <pref>110</pref>
+
+Serenades, <pref>82</pref>, <pref>83</pref>
+
+Servants, <pref>48</pref>, <pref>59</pref>, <pref>60</pref>, <pref>61</pref>, <pref>67</pref>
+
+Services, Religious, <pref>79</pref>, <pref>90</pref>, <pref>91</pref>, <pref>194</pref>, <pref>245</pref>, <pref>248</pref>, <pref>253</pref>
+
+Sickness (Americans), <pref>124</pref>, <i>et seq.</i>, <pref>133</pref>, <pref>142</pref>, <pref>147</pref>
+
+Sickness (Natives) <pref>141</pref>, <pref>142</pref>, <pref>144</pref>, <pref>188</pref>, <pref>189</pref>, <pref>202</pref>, <pref>310</pref>
+
+Small-pox, <pref>188</pref>, <pref>189</pref>
+
+Solano, <pref>27</pref>, <pref>28</pref>, Chap. IV, <i>et seq.</i>
+
+Soldiers, American, <pref>25</pref>, <pref>42</pref>, <pref>71</pref>, <pref>142</pref>, <pref>150</pref>, <pref>304</pref>
+
+Songs, <pref>38</pref>, <pref>106</pref>, <i>et seq.</i>, <pref>206</pref>
+
+Spanish Language, <pref>103</pref>
+
+Stoves, <pref>46</pref>
+
+Students, <pref>152</pref>, <pref>153</pref>, <pref>155</pref>, <pref>160</pref>
+
+Sultan of Sulu, <pref>268</pref>, <i>et seq.</i>
+
+Sulu Archipelago, <pref>270</pref>
+
+Surra, <pref>140</pref>
+
+Taal Volcano, <pref>257</pref>, <i>et seq.</i>
+
+Tagalogs, Chap. I, Chap. II, <pref>136</pref>, <pref>206</pref>; Chap. XVI, <pref>284</pref>
+
+Taos, <pref>137</pref>, <i>et seq.</i>, Chap. XXI
+
+Taxation, <pref>145</pref>, <pref>308</pref>, <pref>309</pref>
+
+Taylor, Lieutenant, <pref>24</pref>
+
+Teachers, American, <pref>97</pref>, <i>et seq.</i>, <pref>112</pref>, <pref>145</pref>, <i>et seq.</i>, <pref>152</pref>, <pref>153</pref>, <pref>154</pref>, <pref>166</pref>, <pref>188</pref>, <pref>189</pref>, <pref>217</pref>, <pref>218</pref>, <pref>279</pref>, <pref>280</pref>
+
+Teachers, Native, <pref>32</pref>, <pref>71</pref>, <pref>97</pref>, <pref>101</pref>, <pref>104</pref>, <pref>111</pref>, <pref>112</pref>, <pref>115</pref>, <pref>120</pref>, <pref>172</pref>, <pref>206</pref>, <pref>214</pref>, Chap XX.
+
+Teachers, Soldier, <pref>150</pref>
+
+Teachers, Supervising, <pref>112</pref>, <pref>113</pref>, <pref>117</pref>, <pref>173</pref>, <pref>217</pref>, <pref>218</pref>, <i>et seq.</i>
+
+Teachers’ Classes, <pref>32</pref>, <pref>113</pref>, <pref>173</pref>
+
+Teaching, Civic, <pref>163</pref>
+
+Teaching, Industrial, <pref>160</pref>, <pref>161</pref>
+
+Teaching, Normal, Chap. VIII, <pref>294</pref>
+
+Teaching, Religious, <pref>164</pref>, <pref>165</pref>
+
+Teaching of English, <pref>32</pref>, <i>et seq.</i>, Chap. VIII, Chap. XII, <pref>283</pref>
+
+Teaching of Science, <pref>162</pref>
+
+Tenientes of Barrios, <pref>115</pref>, <pref>119</pref>
+
+Tinambac, <pref>180</pref>
+
+Tiuí, <pref>174</pref>
+
+Tobacco, <pref>18</pref>, <pref>30</pref>, <pref>31</pref>, <pref>209</pref>
+
+Twin Peaks, <pref>271</pref>
+
+Vacations, <pref>39</pref>, Chap. XVIII
+
+Volcanoes, See Mt. Isarog, Mt. Iriga, Mayon, Taal
+
+Weddings, <pref>95</pref>, <pref>96</pref>, <pref>189</pref>, <pref>190</pref>
+
+White-ants, <pref>237</pref>
+
+Zamboanga, <pref>265</pref>

@@ -1,0 +1,210 @@
+{
+ "p0017": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "I T<sc>he</sc> A<sc>rrival</sc>",
+   "replace": "[[center]] Chapter I.\n\n[[center]] T<sc>he</sc> A<sc>rrival</sc>",
+   "draft": "I T<sc>he</sc",
+   "verified": "[[center]] Chapter I.\n\n[[center]] T<sc>he</sc",
+   "context": "[[page ix]] ⏎  ⏎ # Contents. ⏎  ⏎ I T<sc>he</sc> A<sc>rrival</sc> <pref>3</pref> ⏎  ⏎ II T<sc>ravels in</sc> N<sc>orthern</sc> L<"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "II T<sc>ravels in</sc>",
+   "replace": "[[center]] Chapter II.\n\n[[center]] T<sc>ravels in</sc>",
+   "draft": "II T<sc>ravels",
+   "verified": "[[center]] Chapter II.\n\n[[center]] T<sc>ravels",
+   "context": ". ⏎  ⏎ [[center]] T<sc>he</sc> A<sc>rrival</sc> <pref>3</pref> ⏎  ⏎ II T<sc>ravels in</sc> N<sc>orthern</sc> L<sc>uzon</sc> <pref>14</pref> ⏎  ⏎ III T<sc>"
+  },
+  {
+   "n": 3,
+   "kind": "words",
+   "find": "III T<sc>he</sc> B",
+   "replace": "[[center]] Chapter III.\n\n[[center]] T<sc>he</sc> B",
+   "draft": "III T<sc>he</sc",
+   "verified": "[[center]] Chapter III.\n\n[[center]] T<sc>he</sc",
+   "context": "s in</sc> N<sc>orthern</sc> L<sc>uzon</sc> <pref>14</pref> ⏎  ⏎ III T<sc>he</sc> B<sc>eginning of</sc> W<sc>ork</sc> <pref>27</pref> ⏎  ⏎ IV H<sc>"
+  },
+  {
+   "n": 4,
+   "kind": "words",
+   "find": "IV H<sc>ousekeeping</sc>",
+   "replace": "[[center]] Chapter IV.\n\n[[center]] H<sc>ousekeeping</sc>",
+   "draft": "IV H<sc>ouseke",
+   "verified": "[[center]] Chapter IV.\n\n[[center]] H<sc>ouseke",
+   "context": "e</sc> B<sc>eginning of</sc> W<sc>ork</sc> <pref>27</pref> ⏎  ⏎ IV H<sc>ousekeeping</sc> <pref>44</pref> ⏎  ⏎ V T<sc>he</sc> I<sc>gorrotes</sc> <pref>63"
+  },
+  {
+   "n": 5,
+   "kind": "words",
+   "find": "V T<sc>he</sc> I<sc>gorrotes</sc>",
+   "replace": "[[center]] Chapter V.\n\n[[center]] T<sc>he</sc> I<sc>gorrotes</sc>",
+   "draft": "V T<sc>he</sc",
+   "verified": "[[center]] Chapter V.\n\n[[center]] T<sc>he</sc",
+   "context": "pter IV. ⏎  ⏎ [[center]] H<sc>ousekeeping</sc> <pref>44</pref> ⏎  ⏎ V T<sc>he</sc> I<sc>gorrotes</sc> <pref>63</pref> ⏎  ⏎ VI T<sc>he</sc> T<sc>own</sc> F<sc>iesta</"
+  },
+  {
+   "n": 6,
+   "kind": "words",
+   "find": "VI T<sc>he</sc> T",
+   "replace": "[[center]] Chapter VI.\n\n[[center]] T<sc>he</sc> T",
+   "draft": "VI T<sc>he</sc",
+   "verified": "[[center]] Chapter VI.\n\n[[center]] T<sc>he</sc",
+   "context": "[[center]] T<sc>he</sc> I<sc>gorrotes</sc> <pref>63</pref> ⏎  ⏎ VI T<sc>he</sc> T<sc>own</sc> F<sc>iesta</sc> <pref>74</pref> ⏎  ⏎ VII R<sc>eligi"
+  },
+  {
+   "n": 7,
+   "kind": "words",
+   "find": "VII R<sc>eligious",
+   "replace": "[[center]] Chapter VII.\n\n[[center]] R<sc>eligious",
+   "draft": "VII R<sc>eligio",
+   "verified": "[[center]] Chapter VII.\n\n[[center]] R<sc>eligio",
+   "context": "T<sc>he</sc> T<sc>own</sc> F<sc>iesta</sc> <pref>74</pref> ⏎  ⏎ VII R<sc>eligious</sc> C<sc>eremonies</sc> <pref>89</pref> ⏎  ⏎ VIII N<sc>ormal</"
+  },
+  {
+   "n": 8,
+   "kind": "words",
+   "find": "VIII N<sc>ormal",
+   "replace": "[[center]] Chapter VIII.\n\n[[center]] N<sc>ormal",
+   "draft": "VIII N<sc>ormal",
+   "verified": "[[center]] Chapter VIII.\n\n[[center]] N<sc>ormal",
+   "context": "r]] R<sc>eligious</sc> C<sc>eremonies</sc> <pref>89</pref> ⏎  ⏎ VIII N<sc>ormal</sc> I<sc>nstruction</sc> <pref>97</pref> ⏎  ⏎ IX B<sc>arrio</s"
+  },
+  {
+   "n": 9,
+   "kind": "words",
+   "find": "IX B<sc>arrio",
+   "replace": "[[center]] Chapter IX.\n\n[[center]] B<sc>arrio",
+   "draft": "IX B<sc>arrio",
+   "verified": "[[center]] Chapter IX.\n\n[[center]] B<sc>arrio",
+   "context": "ter]] N<sc>ormal</sc> I<sc>nstruction</sc> <pref>97</pref> ⏎  ⏎ IX B<sc>arrio</sc> S<sc>chools</sc> <pref>110</pref> ⏎  ⏎ X D<sc>eparture fro"
+  },
+  {
+   "n": 10,
+   "kind": "words",
+   "find": "X D<sc>eparture",
+   "replace": "[[center]] Chapter X.\n\n[[center]] D<sc>eparture",
+   "draft": "X D<sc>epartu",
+   "verified": "[[center]] Chapter X.\n\n[[center]] D<sc>epartu",
+   "context": "center]] B<sc>arrio</sc> S<sc>chools</sc> <pref>110</pref> ⏎  ⏎ X D<sc>eparture from</sc> S<sc>olano</sc> <pref>122</pref> ⏎  ⏎ XI C<sc>onditio"
+  },
+  {
+   "n": 11,
+   "kind": "words",
+   "find": "XI C<sc>onditions",
+   "replace": "[[center]] Chapter XI.\n\n[[center]] C<sc>onditions",
+   "draft": "XI C<sc>onditi",
+   "verified": "[[center]] Chapter XI.\n\n[[center]] C<sc>onditi",
+   "context": "] D<sc>eparture from</sc> S<sc>olano</sc> <pref>122</pref> ⏎  ⏎ XI C<sc>onditions in</sc> S<sc>outhern</sc> L<sc>uzon</sc> <pref>132</pref> ⏎  ⏎ "
+  },
+  {
+   "n": 12,
+   "kind": "words",
+   "find": "XII T<sc>he</sc> A",
+   "replace": "[[center]] Chapter XII.\n\n[[center]] T<sc>he</sc> A",
+   "draft": "XII T<sc>he</sc",
+   "verified": "[[center]] Chapter XII.\n\n[[center]] T<sc>he</sc",
+   "context": " in</sc> S<sc>outhern</sc> L<sc>uzon</sc> <pref>132</pref> ⏎  ⏎ XII T<sc>he</sc> A<sc>wakening in</sc> C<sc>amarines</sc> <pref>150</pref> ⏎  ⏎ XI"
+  },
+  {
+   "n": 13,
+   "kind": "words",
+   "find": "XIII A J",
+   "replace": "[[center]] Chapter XIII.\n\n[[center]] A J",
+   "draft": "XIII A J",
+   "verified": "[[center]] Chapter XIII.\n\n[[center]] A J",
+   "context": " A<sc>wakening in</sc> C<sc>amarines</sc> <pref>150</pref> ⏎  ⏎ XIII A J<sc>ourney to the</sc> R<sc>inconada</sc> <pref>167</pref> ⏎  ⏎ "
+  },
+  {
+   "n": 14,
+   "kind": "words",
+   "find": "XIV P<sc>artido",
+   "replace": "[[center]] Chapter XIV.\n\n[[center]] P<sc>artido",
+   "draft": "XIV P<sc>artido",
+   "verified": "[[center]] Chapter XIV.\n\n[[center]] P<sc>artido",
+   "context": "<sc>ourney to the</sc> R<sc>inconada</sc> <pref>167</pref> ⏎  ⏎ XIV P<sc>artido</sc> S<sc>ketches</sc> <pref>178</pref> ⏎  ⏎ XV T<sc>he</sc> W<"
+  },
+  {
+   "n": 15,
+   "kind": "words",
+   "find": "XV T<sc>he</sc> W",
+   "replace": "[[center]] Chapter XV.\n\n[[center]] T<sc>he</sc> W",
+   "draft": "XV T<sc>he</sc",
+   "verified": "[[center]] Chapter XV.\n\n[[center]] T<sc>he</sc",
+   "context": "nter]] P<sc>artido</sc> S<sc>ketches</sc> <pref>178</pref> ⏎  ⏎ XV T<sc>he</sc> W<sc>est</sc> C<sc>oast</sc> <pref>204</pref> ⏎  ⏎ XVI A<sc>mong "
+  },
+  {
+   "n": 16,
+   "kind": "words",
+   "find": "XVI A<sc>mong",
+   "replace": "[[center]] Chapter XVI.\n\n[[center]] A<sc>mong",
+   "draft": "XVI A<sc>mong",
+   "verified": "[[center]] Chapter XVI.\n\n[[center]] A<sc>mong",
+   "context": "T<sc>he</sc> W<sc>est</sc> C<sc>oast</sc> <pref>204</pref> ⏎  ⏎ XVI A<sc>mong the</sc> C<sc>amarines</sc> T<sc>agalogs</sc> <pref>217</pr"
+  },
+  {
+   "n": 17,
+   "kind": "words",
+   "find": "XVII L<sc>ife",
+   "replace": "[[center]] Chapter XVII.\n\n[[center]] L<sc>ife",
+   "draft": "XVII L<sc>ife",
+   "verified": "[[center]] Chapter XVII.\n\n[[center]] L<sc>ife",
+   "context": "/sc> C<sc>amarines</sc> T<sc>agalogs</sc> <pref>217</pref> ⏎  ⏎ XVII L<sc>ife in</sc> N<sc>ueva</sc> C<sc>acères</sc> <pref>236</pref> ⏎  ⏎ X"
+  },
+  {
+   "n": 18,
+   "kind": "words",
+   "find": "XVIII V<sc>acation",
+   "replace": "[[center]] Chapter XVIII.\n\n[[center]] V<sc>acation",
+   "draft": "XVIII V<sc>acatio",
+   "verified": "[[center]] Chapter XVIII.\n\n[[center]] V<sc>acatio",
+   "context": "e in</sc> N<sc>ueva</sc> C<sc>acères</sc> <pref>236</pref> ⏎  ⏎ XVIII V<sc>acation</sc> T<sc>ravels</sc> <pref>254</pref> ⏎ "
+  }
+ ],
+ "p0064": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "informed. . . . .”",
+   "replace": "informed. . . .”",
+   "draft": "ormed. . . . .”",
+   "verified": "ormed. . . .”",
+   "context": "le of our products, of which, naturally, you cannot be well informed. . . . .” ⏎  ⏎ The linguistic ability of my fellow-countrymen, shown in t"
+  }
+ ],
+ "p0093": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Boné",
+   "replace": "Bone",
+   "draft": "Boné",
+   "verified": "Bone",
+   "context": " came that the head-hunters had raided the <i>barrio</i> of Boné, a hamlet belonging to the town of Aritao, about eight mile"
+  }
+ ],
+ "p0267": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "it behooves one",
+   "replace": "it behoôves one",
+   "draft": "it behooves one",
+   "verified": "it behoôves one",
+   "context": "scorpions, I saw but few; centipedes are more numerous, and it behooves one to shake his shoes well and peer carefully into his garment"
+  }
+ ],
+ "p0363": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "coöperation",
+   "replace": "co-operation",
+   "draft": "coöperation",
+   "verified": "co-operation",
+   "context": "they approached the American teacher, asking his advice and coöperation in the matter; and when the division superintendent next vi"
+  }
+ ]
+}

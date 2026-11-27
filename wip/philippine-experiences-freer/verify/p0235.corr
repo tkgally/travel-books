@@ -1,0 +1,6 @@
+{"find": "may be had", "replace": "may be had"}
+{"find": "find the work laborious", "replace": "find the work laborious"}
+
+Wait, I should only report real differences. Corrections:
+
+{"find": "cocoanut may be had", "replace": "cocoanut may be had"}

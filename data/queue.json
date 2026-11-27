@@ -2270,7 +2270,7 @@
    "images": 172,
    "status": "queued",
    "checked": "2026-11-26",
-   "eligibility": "Vetted 2026-11-26 (Opus subagent). pg_catalog.csv: none. Online Books Page: none. Wikisource: none. Web search of a sentence and of title + reprint: Forgotten Books print-on-demand only; the session's own search found nothing at NZETC. NOT CHECKED: Early New Zealand Books (Auckland), which offers readable texts, refused scripted access (403): check it before starting.",
+   "eligibility": "Vetted 2026-11-26 (Opus subagent). pg_catalog.csv: none. Online Books Page: none. Wikisource: none. Web search of a sentence and of title + reprint: Forgotten Books print-on-demand only; the session's own search found nothing at NZETC. NOT CHECKED: Early New Zealand Books (Auckland), which offers readable texts, refused scripted access (403): check it before starting. 2026-11-27: Early New Zealand Books (enzb.auckland.ac.nz) still not checked: the site answered 403 to the session; a web search found no ENZB page for the book. Settle before starting.",
    "note": "University of California scan, 400 ppi, 172 leaves, about 124 pp.; a map (may be folded) and 14 autotype photographs of the Pink and White Terraces, Rotomahana and Ohinemutu, taken before the eruption of 1886. An Oxford graduate rides in 1872 from the Hot Lakes to Taupo and Napier, then lives in the bush at Hokianga and Kaipara."
   }
  ],
