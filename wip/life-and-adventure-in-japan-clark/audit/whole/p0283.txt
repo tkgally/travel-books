@@ -1,5 +1,0 @@
-{"given": "for school, and bear them sing", "print": "for school, and hear them sing", "sure": "high"}
-{"given": "in English, and then in japanese.", "print": "in English, and then in Japanese.", "sure": "high"}
-{"given": "accompanied them on cabinet organ.", "print": "accompanied them on the cabinet organ.", "sure": "high"}
-{"given": "of two stories; recently completed;", "print": "of two stories, recently completed;", "sure": "high"}
-{"given": "been over eightcen years in Japan", "print": "been over eighteen years in Japan", "sure": "high"}

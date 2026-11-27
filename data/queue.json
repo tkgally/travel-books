@@ -1871,11 +1871,13 @@
    "place": "New York",
    "publisher": "American Tract Society",
    "images": 318,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-27",
    "eligibility": "JATSI 47. Rules 1, 2, 4 met; rule 3 NOT met (lower priority). Rule 1: Library of Congress scan, colour 600 ppi, clean, map and plates present; lifeadventureinj00clariala (University of California, 400 ppi) and Princeton lifeadventureinj00clar_0 (500 ppi) also usable. Rule 2: no text elsewhere (Gutenberg catalogue from the pglaf mirror, to 2026-11-08; The Online Books Page: nothing; Wikisource: author page only; web search of a sentence). Rule 3: edited reset edition by D. A. Metraux and J. Puglisi (Writers Club Press/iUniverse, 2002, ISBN 9780595215874), counted as a real edition (assumed); a Japanese translation (Kodansha, 1967) does not count. Rule 4: first-person account of four years (1871–75) in government service at Shizuoka and Tokyo, all on Japan. Rule 5 (for the record): Edward Warren Clark 1849–1907; map after W. E. Griffis 1843–1928. Searched 2026-11-23 (Opus subagent). Not checked: WorldCat, DP. Re-checked 2026-11-27: pg_catalog.csv none; web search: the 2002 Metraux edition (iUniverse) only, no free text.",
    "note": "About 244 pp., 12 chapters. Frontispiece, map with pronunciation key (leaf 12), about 30 wood engravings from photographs. The plate 'The Lord's Prayer in Japanese' is Japanese script: reproduce it as an image, do not transcribe. Written for young readers.",
-   "started": "2026-11-27"
+   "started": "2026-11-27",
+   "version": 1,
+   "published": "2026-11-27"
   },
   {
    "order": 101,

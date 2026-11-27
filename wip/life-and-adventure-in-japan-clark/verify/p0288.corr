@@ -1,5 +1,0 @@
-{"find": "looked slyly at us", "replace": "looked slyly at us"}
-
-Wait—the page reads "slyly" at line end, so I need to check: "looked slyly / at us." The image shows "slyly". The draft has "slyly" too. So this isn't a change, and I should leave it out.
-
-{"find": "foxes looked slyly", "replace": "foxes looked slyly"}

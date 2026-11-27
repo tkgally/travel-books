@@ -1,5 +1,0 @@
-{"given": "old men, until; after making", "print": "old men, until, after making", "sure": "high"}
-{"given": "or the wagon was pusbing the", "print": "or the wagon was pushing the", "sure": "high"}
-{"given": "when their surprize was still more", "print": "when their surprise was still more", "sure": "high"}
-{"given": "the common people where bewildered and", "print": "the common people were bewildered and", "sure": "high"}
-{"given": "governors of the province a large number", "print": "governors of the province and a large number", "sure": "high"}

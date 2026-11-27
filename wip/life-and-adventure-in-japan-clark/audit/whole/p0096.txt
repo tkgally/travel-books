@@ -1,5 +1,0 @@
-{"given": "Yesterday and today we spent", "print": "Yesterday and to-day we spent", "sure": "high"}
-{"given": "the government is trying do away", "print": "the government is trying to do away", "sure": "high"}
-{"given": "“His afternoon I spent a", "print": "“This afternoon I spent a", "sure": "high"}
-{"given": "Commodore Perry twenty years ago; grace the", "print": "Commodore Perry twenty years ago, grace the", "sure": "high"}
-{"given": "world with a rcmarkable fidelity.", "print": "world with a remarkable fidelity.", "sure": "high"}
