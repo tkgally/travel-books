@@ -1,0 +1,45 @@
+[[page x]]
+
+[[center]] A L<sc>attice</sc> <i><sc>postigo</sc></i> <pref>70</pref>
+
+[[center]] D<sc>ragon</sc> T<sc>ree at</sc> I<sc>cod</sc> <pref>72</pref>
+
+[[center]] A<sc>t the</sc> W<sc>indow</sc> <pref>78</pref>
+
+[[center]] A B<sc>anana</sc> T<sc>ree</sc> <pref>84</pref>
+
+[[center]] F<sc>ranciscan</sc> C<sc>onvent at</sc> G<sc>arachico</sc> <pref>86</pref>
+
+[[center]] A<sc>ncient</sc> C<sc>astle at</sc> G<sc>arachico</sc> <pref>88</pref>
+
+[[center]] C<sc>lump of</sc> <i>E<sc>uphorbia</sc> C<sc>anariensis</sc></i> <pref>94</pref>
+
+[[center]] B<sc>ack from the</sc> M<sc>arket</sc> <pref>100</pref>
+
+[[center]] T<sc>he</sc> P<sc>eak of</sc> T<sc>eneriffe seen from the</sc> P<sc>ass of</sc> P<sc>edro</sc> G<sc>il</sc> <pref>106</pref>
+
+[[center]] “A S<sc>tream of</sc> L<sc>ava that winds its way like a</sc> B<sc>lack</sc> S<sc>erpent towards the</sc> C<sc>oast</sc>” <pref>108</pref>
+
+[[center]] I<sc>n a</sc> B<sc>arranco</sc> <pref>112</pref>
+
+[[center]] A F<sc>amily of</sc> T<sc>roglodytes</sc> <pref>114</pref>
+
+[[center]] “A J<sc>am of loose</sc> R<sc>ocks half concealed by</sc> R<sc>etama</sc> B<sc>ushes and patches of</sc> S<sc>now</sc>” <pref>120</pref>
+
+[[center]] T<sc>he</sc> P<sc>eak and</sc> C<sc>añadas seen from the</sc> C<sc>umbres</sc> <pref>122</pref>
+
+[[center]] C<sc>akes and</sc> W<sc>ine</sc> <pref>128</pref>
+
+[[center]] T<sc>he</sc> B<sc>arranco del</sc> I<sc>nfierno</sc> <pref>132</pref>
+
+[[center]] T<sc>he</sc> P<sc>eak, seen from the</sc> C<sc>añadas</sc> <pref>138</pref>
+
+[[center]] T<sc>he</sc> P<sc>ride of</sc> T<sc>eneriffe</sc> <pref>142</pref>
+
+[[center]] H<sc>ouse built of</sc> L<sc>ava</sc> <pref>146</pref>
+
+[[center]] C<sc>hurch</sc> D<sc>oor at</sc> R<sc>ealejo</sc> A<sc>lto</sc> <pref>150</pref>
+
+[[center]] D<sc>ragon</sc> T<sc>ree at</sc> L<sc>aguna</sc> <pref>154</pref>
+
+[[center]] V<sc>iew of</sc> S. C<sc>ruz de la</sc> P<sc>alma, taken from the</sc> H<sc>ill above the</sc> T<sc>own</sc> <pref>158</pref>
