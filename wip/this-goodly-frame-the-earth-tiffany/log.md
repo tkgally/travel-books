@@ -4,7 +4,7 @@ IA: thisgoodlyframee00tiff_1 (Boston Public Library; 402 leaves, 500 ppi). Other
 Eligibility: re-checked 2026-11-27: not in a fresh pg_catalog.csv; web search: the Online Books Page entry (HathiTrust page images) only. JATSI 118.
 
 ## Status
-Stage reached: (a) scan checked, cached in Drive (26 parts); Opus draft of p0010–p0392 running.        Next step: normalize; see how the draft typed the marginal section numerals; Sonnet corrections pass.
+Stage reached: (a) done; Opus draft p0010–p0392 done ($25.73, 0 errors, 0 refused); Sonnet corrections pass running.        Next step: normalize verify, review.py, judge.py, pages/, structure (section numerals: the draft typed most as `## N.`, some `[[side: I.]]`, a few `# N.`: make them one form).
 
 ## Page map
 p0000, p0401 colour cards · p0001–p0002 blank/pastedown · p0003 front cover · p0004 bookplate · p0005 stamp · p0006–p0009 blank · p0010 “Books by Francis Tiffany” · p0011 title (no half-title) · p0012 copyright · p0013 dedication (Edwin B. Haskell) · p0014 blank · p0015–p0020 contents (pp. v–x; part, chapter numeral, section titles) · p0021 = printed 1 (offset 20) … p0384 = 364.
