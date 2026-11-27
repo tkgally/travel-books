@@ -1,0 +1,3 @@
+{"page": "p0037a", "model": "opus", "corrections": null, "seconds": 9.3, "cost": 0.06625059999999999, "completion_tokens": 669, "turns": 2, "attempts": 1}
+{"page": "p0037b", "model": "opus", "corrections": null, "seconds": 9.9, "cost": 0.0678096, "completion_tokens": 749, "turns": 2, "attempts": 1}
+{"page": "p0122a", "model": "opus", "corrections": null, "seconds": 7.4, "cost": 0.0581306, "completion_tokens": 263, "turns": 2, "attempts": 1}
