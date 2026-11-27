@@ -1,0 +1,8 @@
+{"find": "for instance, in a burning", "replace": "for instance, in a burning"}
+{"find": "when, for instance", "replace": "when, for instance"}
+{"find": "when, for instance, in a burning fever", "replace": "when, for instance, in a burning fever"}
+{"find": "mostly", "replace": "mostly"}
+
+Wait — I need to correct the actual differences only:
+
+{"find": "when, for instance", "replace": "when, for instance"}

@@ -1,0 +1,33 @@
+{
+ "id": "this-goodly-frame-the-earth-tiffany",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "This Goodly Frame the Earth",
+ "subtitle": "Stray Impressions of Scenes, Incidents, and Persons in a Journey Touching Japan, China, Egypt, Palestine, and Greece",
+ "short_title": "This Goodly Frame the Earth",
+ "authors": [
+  {
+   "name": "Francis Tiffany",
+   "sort": "Tiffany, Francis"
+  }
+ ],
+ "place": "Boston and New York",
+ "publisher": "Houghton, Mifflin and Company",
+ "year": 1895,
+ "edition_statement": "First edition",
+ "collection": "jatsi",
+ "regions": [
+  "Japan"
+ ],
+ "source": {
+  "ia_identifier": "thisgoodlyframee00tiff_1",
+  "contributor": "Boston Public Library"
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-27",
+   "note": "First publication."
+  }
+ ]
+}

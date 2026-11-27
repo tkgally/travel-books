@@ -1,0 +1,311 @@
+# tess_compare: 307 pages; 264 word items; 43 pitch items; 0 empty items
+## Pages tesseract finds empty
+## Line pitch
+p0063: pitch 40 against the book's 51 (0.78): small type typed as body text?
+p0277: pitch 31 against the book's 51 (0.61): small type typed as body text?
+p0278: pitch 32 against the book's 51 (0.63): small type typed as body text?
+p0279: pitch 31 against the book's 51 (0.61): small type typed as body text?
+p0280: pitch 32 against the book's 51 (0.63): small type typed as body text?
+p0281: pitch 31 against the book's 51 (0.61): small type typed as body text?
+p0282: pitch 31 against the book's 51 (0.61): small type typed as body text?
+p0283: pitch 32 against the book's 51 (0.63): small type typed as body text?
+p0284: pitch 32 against the book's 51 (0.63): small type typed as body text?
+p0285: pitch 36 against the book's 51 (0.71): small type typed as body text?
+p0286: pitch 36 against the book's 51 (0.71): small type typed as body text?
+p0287: pitch 30 against the book's 51 (0.59): small type typed as body text?
+p0288: pitch 30 against the book's 51 (0.59): small type typed as body text?
+p0289: pitch 36 against the book's 51 (0.71): small type typed as body text?
+p0290: pitch 35 against the book's 51 (0.69): small type typed as body text?
+p0291: pitch 36 against the book's 51 (0.71): small type typed as body text?
+p0293: pitch 39 against the book's 51 (0.76): small type typed as body text?
+p0294: pitch 36 against the book's 51 (0.71): small type typed as body text?
+p0295: pitch 36 against the book's 51 (0.71): small type typed as body text?
+p0296: pitch 30 against the book's 51 (0.59): small type typed as body text?
+p0297: pitch 31 against the book's 51 (0.61): small type typed as body text?
+p0298: pitch 36 against the book's 51 (0.71): small type typed as body text?
+p0299: pitch 35 against the book's 51 (0.69): small type typed as body text?
+p0300: pitch 36 against the book's 51 (0.71): small type typed as body text?
+p0301: pitch 34 against the book's 51 (0.67): small type typed as body text?
+p0302: pitch 30 against the book's 51 (0.59): small type typed as body text?
+p0303: pitch 29 against the book's 51 (0.57): small type typed as body text?
+p0304: pitch 36 against the book's 51 (0.71): small type typed as body text?
+p0305: pitch 35 against the book's 51 (0.69): small type typed as body text?
+p0306: pitch 36 against the book's 51 (0.71): small type typed as body text?
+p0307: pitch 36 against the book's 51 (0.71): small type typed as body text?
+p0309: pitch 36 against the book's 51 (0.71): small type typed as body text?
+p0310: pitch 41 against the book's 51 (0.80): small type typed as body text?
+p0311: pitch 36 against the book's 51 (0.71): small type typed as body text?
+p0312: pitch 44 against the book's 51 (0.86): small type typed as body text?
+p0313: pitch 37 against the book's 51 (0.73): small type typed as body text?
+p0314: pitch 28 against the book's 51 (0.55): small type typed as body text?
+p0315: pitch 37 against the book's 51 (0.73): small type typed as body text?
+p0316: pitch 41 against the book's 51 (0.80): small type typed as body text?
+p0057: 8 lines set closer from y 1171 (gap under 0.96 of the book's 51): small type typed as body text?
+p0058: 6 lines set closer from y 258 (gap under 0.96 of the book's 51): small type typed as body text?
+p0060: 7 lines set closer from y 1216 (gap under 0.96 of the book's 51): small type typed as body text?
+p0132: 10 lines set closer from y 483 (gap under 0.96 of the book's 51): small type typed as body text?
+## Words
+p0009: print?   file “Riobamba”, tesseract “RropaMBA”
+p0009: print?   file “Baños”, tesseract “BaNos”
+p0010: print?   file “Still”, tesseract “Stitt”
+p0010: print?   file “Aguano”, tesseract “AcuANo”
+p0010: print?   file “Putumayo”, tesseract “Purumayo”
+p0011: print?   file “Záparo”, tesseract “ZAPARO”
+p0011: print?   file “Ecuador”, tesseract “Ecuapor,”
+p0011: print?   file “Pastassa”, tesseract “PastTassa”
+p0016: print?   file “practically”, tesseract “practicall”
+p0017: print?   file “abandonment”, tesseract “‘ybandonment”
+p0018: print?   file “Baños”, tesseract “Bafios”
+p0018: print?   file “Jívaros”, tesseract “Jivaros”
+p0019: print?   file “volunteered”, tesseract “voluntered”
+p0024: print?   file “curiously”, tesseract “euriously”
+p0025: print?   file “patience”, tesseract “atience”
+p0025: print?   file “damp”, tesseract “amp”
+p0026: print?   file “across”, tesseract “acro”
+p0028: print?   file “only”, tesseract “onl)”
+p0028: print?   file “whatever”, tesseract “whateve”
+p0029: print?   file “morning”, tesseract “orning”
+p0030: print?   file “graceful”, tesseract “graceft”
+p0030: print?   file “cigar”, tesseract “ciga”
+p0030: print?   file “scoriæ”, tesseract “scorie,”
+p0030: print?   file “familiar”, tesseract “familia”
+p0030: print?   file “their”, tesseract “thet”
+p0030: print?   file “shining”, tesseract “shinin”
+p0034: print?   file “Baños”, tesseract “BANOS.”
+p0034: print?   file “During”, tesseract “Durine”
+p0034: print?   file “Señor”, tesseract “Sefior”
+p0034: print?   file “scoriæ”, tesseract “scorie,”
+p0038: print?   file “even”, tesseract “eyen”
+p0038: print?   file “river”, tesseract “tiver”
+p0042: print?   file “Baños”, tesseract “Banos”
+p0042: print?   file “did”, tesseract “cig”
+p0043: print?   file “Baños”, tesseract “Bafos.”
+p0044: print?   file “Baños”, tesseract “Banos”
+p0044: print?   file “volcanic”, tesseract “voleanic”
+p0045: print?   file “that”, tesseract “jthat”
+p0046: print?   file “Baños”, tesseract “Bafios.”
+p0048: print?   file “gradually”, tesseract “gradualiy”
+p0048: print?   file “Baños”, tesseract “Banos”
+p0049: print?   file “Baños”, tesseract “Bafos”
+p0049: print?   file “Baños”, tesseract “Banos.”
+p0053: print?   file “Marañon”, tesseract “Maranon.”
+p0053: print?   file “Marañon”, tesseract “Maranon”
+p0054: print?   file “Marañon”, tesseract “Maranon...”
+p0055: print?   file “Marañon”, tesseract “Maranon,”
+p0055: print?   file “Marañon”, tesseract “Marafion”
+p0058: print?   file “Baños”, tesseract “Bafios”
+p0059: print?   file “Marañon”, tesseract “Maraiion,”
+p0059: print?   file “Marañon”, tesseract “Marafion,”
+p0063: print?   file “Marañon”, tesseract “Marafon,”
+p0066: print?   file “Jívaros”, tesseract “Jivaros,”
+p0066: print?   file “Jívaros”, tesseract “Jivaros”
+p0066: print?   file “Jívaros”, tesseract “Jivaros”
+p0067: print?   file “Jívaros”, tesseract “Jivaros”
+p0067: print?   file “Jívaros”, tesseract “Jivaros”
+p0067: print?   file “Jívaros”, tesseract “Jivaros”
+p0067: print?   file “Jívaros”, tesseract “Jivaros”
+p0068: print?   file “Jívaros”, tesseract “Jivaros,”
+p0068: print?   file “Marañon”, tesseract “Marafion”
+p0072: print?   file “Jívaros”, tesseract “Jivaros,”
+p0072: print?   file “can”, tesseract “ean”
+p0075: print?   file “Baños”, tesseract “BANOS”
+p0075: print?   file “Baños”, tesseract “Bais”
+p0078: print?   file “Baños”, tesseract “Baiios”
+p0079: print?   file “Marañon”, tesseract “Marajion,”
+p0079: print?   file “Jívaros”, tesseract “Jivaros”
+p0082: print?   file “Baños”, tesseract “Banos,”
+p0085: print?   file “should”, tesseract “sheuld”
+p0087: print?   file “rainy”, tesseract “tainy”
+p0087: print?   file “like”, tesseract “liké”
+p0088: print?   file “scoriæ”, tesseract “scorize”
+p0094: print?   file “were”, tesseract “weré”
+p0098: print?   file “Jívaros”, tesseract “Jivaros,”
+p0099: print?   file “Jívaros”, tesseract “Jivaros,”
+p0101: print?   file “Jívaros”, tesseract “Jivaros”
+p0101: print?   file “Jívaros”, tesseract “Jivaros”
+p0102: print?   file “Marañon”, tesseract “Marafion.”
+p0103: print?   file “Jívaros”, tesseract “Jivaros”
+p0104: print?   file “Záparos”, tesseract “Zaparos,”
+p0104: print?   file “Jívaros”, tesseract “Jivaros”
+p0105: print?   file “Jívaros”, tesseract “Jivaros”
+p0105: print?   file “Jívaros”, tesseract “Jivaros”
+p0106: print?   file “Jívaros”, tesseract “Jivaros,”
+p0106: print?   file “Jívaros”, tesseract “Jivaros;”
+p0107: print?   file “Jívaros”, tesseract “Jivaros”
+p0107: print?   file “Jívaros”, tesseract “Jivaros”
+p0109: print?   file “hospitable”, tesseract “hospitabie,”
+p0113: print?   file “Jívaros”, tesseract “Jivaros,”
+p0115: print?   file “Jívaros”, tesseract “Jivaros”
+p0116: print?   file “Jívaros”, tesseract “Jivaros,”
+p0116: print?   file “Jívaros”, tesseract “Jivaros”
+p0116: print?   file “Jívaros”, tesseract “Jivaros,”
+p0117: print?   file “Záparos”, tesseract “Zéparos)”
+p0118: print?   file “Marañon”, tesseract “Maranon”
+p0121: print?   file “lienzo”, tesseract “Jienzo,”
+p0129: print?   file “Baños”, tesseract “Bafios,”
+p0131: print?   file “Baños”, tesseract “Bafos”
+p0132: print?   file “wild”, tesseract “Gwild”
+p0132: print?   file “Záparo”, tesseract “Zaéparo”
+p0132: print?   file “Záparo”, tesseract “Zéparo.”
+p0132: print?   file “Záparos”, tesseract “Zdparos,”
+p0139: print?   file “Baños”, tesseract “Banos”
+p0140: print?   file “What”, tesseract “Wuar”
+p0140: print?   file “Marañon”, tesseract “Marafion;”
+p0142: print?   file “Marañon”, tesseract “Marafon.”
+p0142: print?   file “Záparo”, tesseract “Zaéparo”
+p0142: print?   file “Záparo”, tesseract “Zaparo”
+p0144: print?   file “our”, tesseract “eur”
+p0146: print?   file “Záparo”, tesseract “Zaparo”
+p0150: print?   file “Záparos”, tesseract “Zéparos”
+p0150: print?   file “Záparos”, tesseract “Zaparos”
+p0151: print?   file “During”, tesseract “Durine”
+p0153: print?   file “Jívaros”, tesseract “Jivaros.”
+p0153: print?   file “Záparo”, tesseract “Zéparo”
+p0154: print?   file “Marañon”, tesseract “Marajion”
+p0155: print?   file “Záparos”, tesseract “Zaparos,”
+p0155: print?   file “Záparos”, tesseract “Zaparos,”
+p0156: print?   file “Záparos”, tesseract “Zéparos”
+p0156: print?   file “Záparos”, tesseract “Zaparos”
+p0160: print?   file “Záparos”, tesseract “Zdparos”
+p0161: print?   file “permanently”, tesseract “permanentiy”
+p0165: print?   file “Záparos”, tesseract “Zaparos,”
+p0166: print?   file “Záparos”, tesseract “Zaparos,”
+p0168: print?   file “lienzo”, tesseract ““tienzo,’”
+p0173: print?   file “Marañon”, tesseract “Marafon.”
+p0173: print?   file “Marañon”, tesseract “Maranon”
+p0174: print?   file “Marañon”, tesseract “Maranon,”
+p0175: print?   file “Marañon”, tesseract “Maranon.”
+p0175: print?   file “Marañon”, tesseract “Maranon,”
+p0178: print?   file “Záparo”, tesseract “Zaparo,”
+p0178: print?   file “Záparo”, tesseract “Zaparo”
+p0179: print?   file “Záparos”, tesseract “Zéparos”
+p0180: print?   file “Záparo”, tesseract “Zaparo”
+p0180: print?   file “Záparo”, tesseract “Zaparo”
+p0180: print?   file “Záparos”, tesseract “Zaparos”
+p0180: print?   file “Záparos”, tesseract “Zaparos”
+p0182: print?   file “Záparos”, tesseract “Zaparos”
+p0183: print?   file “Záparos”, tesseract “Zaparos,”
+p0183: print?   file “Záparos”, tesseract “Zaparos”
+p0183: print?   file “Záparo”, tesseract “Zaparo”
+p0184: print?   file “Záparos”, tesseract “Zaparos”
+p0185: print?   file “Záparos”, tesseract “Zaparos”
+p0185: print?   file “Záparos”, tesseract “Zaparos”
+p0185: print?   file “Záparos”, tesseract “Zaparos”
+p0186: print?   file “Jívaros”, tesseract “Jivaros,”
+p0186: print?   file “Záparos”, tesseract “Zaparos”
+p0187: print?   file “Záparos”, tesseract “Zaparos”
+p0188: print?   file “Záparos”, tesseract “Zaparos,”
+p0188: print?   file “Záparos”, tesseract “Zaparos”
+p0189: print?   file “Záparos”, tesseract “Zaparos”
+p0190: print?   file “Jívaros”, tesseract “Jivaros”
+p0190: print?   file “Záparos”, tesseract “Zaparos”
+p0191: print?   file “Záparo”, tesseract “Zaparo”
+p0191: print?   file “Záparos”, tesseract “Zaparos”
+p0191: print?   file “Marañon”, tesseract “Maranon,”
+p0192: print?   file “Marañon”, tesseract “Maranon,”
+p0193: print?   file “lienzo”, tesseract ““/ienzo””
+p0193: print?   file “Záparos”, tesseract “Zaparos”
+p0194: print?   file “Záparos”, tesseract “Zaparos,”
+p0197: print?   file “Záparo”, tesseract “Zaparo”
+p0197: print?   file “Záparos”, tesseract “Zaparos’”
+p0197: print?   file “Záparos”, tesseract “Zéparos,”
+p0197: print?   file “Marañon”, tesseract “Maraiion”
+p0197: print?   file “Záparos”, tesseract “Zaparos.”
+p0198: print?   file “Záparos”, tesseract “Zaparos”
+p0198: print?   file “Záparos”, tesseract “Zaparos”
+p0199: print?   file “Záparos”, tesseract “Zaparos”
+p0199: print?   file “Baños”, tesseract “Baios”
+p0200: print?   file “Záparos”, tesseract “Zdparos”
+p0200: print?   file “Záparo”, tesseract “Zaparo,”
+p0200: print?   file “Záparos”, tesseract “Zaparos”
+p0200: print?   file “lienzo”, tesseract “enzo”
+p0201: print?   file “Záparos”, tesseract “Zaparos”
+p0202: print?   file “Záparos”, tesseract “Zaparos,”
+p0202: print?   file “Záparos”, tesseract “Zaparos”
+p0202: print?   file “Záparos”, tesseract “Zaparos”
+p0203: print?   file “Záparos”, tesseract “Zaparos”
+p0204: print?   file “Záparos”, tesseract “Zaparos”
+p0205: print?   file “Záparos”, tesseract “Zaparos”
+p0206: print?   file “Marañon”, tesseract “Marafion,”
+p0209: print?   file “Záparos”, tesseract “Zaparos.”
+p0210: print?   file “Marañon”, tesseract “Marafion,”
+p0210: print?   file “Záparos”, tesseract “Zaparos,”
+p0212: print?   file “Záparos”, tesseract “Zaparos”
+p0212: print?   file “Záparos”, tesseract “Zaparos,”
+p0214: print?   file “Záparos”, tesseract “Zaparos,”
+p0216: print?   file “Záparos”, tesseract “Zaparos,”
+p0217: print?   file “Záparos”, tesseract “Zaparos,”
+p0217: print?   file “Záparos”, tesseract “Zaparos),”
+p0218: print?   file “much”, tesseract “jauch”
+p0218: print?   file “Záparos”, tesseract “Zaparos,”
+p0218: print?   file “Jívaros”, tesseract “Jivaros,”
+p0218: print?   file “Záparos”, tesseract “Zaparos”
+p0223: print?   file “also”, tesseract “alsd”
+p0226: print?   file “Marañon”, tesseract “Marafon,”
+p0227: print?   file “Marañon”, tesseract “Marafon”
+p0228: print?   file “Záparos”, tesseract “Zaparos”
+p0230: print?   file “Marañon”, tesseract “Marafion.”
+p0239: print?   file “Marañon”, tesseract “Maraiion.”
+p0250: print?   file “Záparo”, tesseract “Zaparo”
+p0254: print?   file “Early”, tesseract “arly”
+p0269: print?   file “But”, tesseract “Butin”
+p0272: print?   file “two”, tesseract “twe”
+p0272: print?   file “not”, tesseract “ngb”
+p0277: print?   file “Záparo”, tesseract “ZAPARO”
+p0278: print?   file “larger”, tesseract “Carger”
+p0283: print?   file “and”, tesseract “anp”
+p0283: print?   file “and”, tesseract “anp”
+p0283: print?   file “Pastassa”, tesseract “PasTassaA,”
+p0283: print?   file “and”, tesseract “anp”
+p0287: print?   file “Year”, tesseract “Vear”
+p0287: print?   file “Illustrated”, tesseract “(Lllustrated).”
+p0288: print?   file “Novels”, tesseract “LVovels.”
+p0289: print?   file “Illustrated”, tesseract “Vlustrated.”
+p0289: print?   file “its”, tesseract “tts”
+p0290: print?   file “Illustrated”, tesseract “lllustrated”
+p0290: print?   file “Bird”, tesseract “Birp”
+p0291: print?   file “John”, tesseract “Joun”
+p0291: print?   file “General”, tesseract “Generac”
+p0292: print?   file “Illustrated”, tesseract “Ilustrated,”
+p0292: print?   file “Globe”, tesseract “—Glode.”
+p0292: print?   file “English”, tesseract “Lnglish”
+p0293: print?   file “English”, tesseract “ENcLisH”
+p0293: print?   file “Gentleman”, tesseract “Genileman”
+p0293: print?   file “their”, tesseract “thetr”
+p0293: print?   file “Cañon”, tesseract “Catton:”
+p0293: print?   file “Field”, tesseract “Fiedd”
+p0296: print?   file “Hall”, tesseract “ffall”
+p0298: print?   file “Illust”, tesseract “ITllust.,”
+p0298: print?   file “Poetical”, tesseract “FPoetical”
+p0299: print?   file “Illustrated”, tesseract “lustrated.”
+p0300: print?   file “Illust”, tesseract “Ilust.”
+p0300: print?   file “Yachts”, tesseract “Vachts:”
+p0300: print?   file “Illustrated”, tesseract “Wllustrated.”
+p0301: print?   file “Illustrated”, tesseract “Ulustrated,”
+p0304: print?   file “Illustrations”, tesseract “Tlustrations”
+p0305: print?   file “Illustrated”, tesseract “Mlustrated”
+p0305: print?   file “Pottery”, tesseract “Poitery,”
+p0305: print?   file “Explorations”, tesseract “&xplorations”
+p0305: print?   file “Edition”, tesseract “Idition,”
+p0307: print?   file “Poems”, tesseract “Loems”
+p0307: print?   file “Illustrated”, tesseract “Wllustrated”
+p0307: print?   file “Standard”, tesseract “Stanparp”
+p0308: print?   file “Illustrated”, tesseract “Mlustrated.”
+p0309: print?   file “John”, tesseract “Joun”
+p0309: print?   file “Illustrated”, tesseract “Wlustrated.”
+p0309: print?   file “Standard”, tesseract “StanDAaRD”
+p0309: print?   file “SAINTS”, tesseract “SALNLS”
+p0310: print?   file “Good”, tesseract “Goom”
+p0310: print?   file “and”, tesseract “andy”
+p0310: print?   file “White”, tesseract “Wuire”
+p0310: print?   file “its”, tesseract “tts”
+p0310: print?   file “Mrs”, tesseract “(Mfrs.)”
+p0311: print?   file “Illustrated”, tesseract ““Tllustrated”
+p0311: print?   file “Illust”, tesseract “Ulust.,”
+p0311: print?   file “Standard”, tesseract “Stanparp”
+p0311: print?   file “its”, tesseract “tts”
+p0312: print?   file “Library”, tesseract “Liprary.”
+p0312: print?   file “through”, tesseract “throug”
+p0312: print?   file “John”, tesseract “Joun”
+p0313: print?   file “Illustrated”, tesseract “UWlustrated.”
+p0316: print?   file “Court”, tesseract “CourRT”
