@@ -1,6 +1,0 @@
-{"find": "idle chatter, till to-day;", "replace": "idle chatter, till to-day;"}
-{"find": "companions’ interesting, idle chatter", "replace": "companions’ interesting, idle chatter"}
-
-Wait — I need only real changes. The differences are:
-
-{"find": "interesting, idle chatter, till", "replace": "interesting, idle chatter, till"}

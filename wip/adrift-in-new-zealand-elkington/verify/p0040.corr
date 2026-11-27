@@ -1,5 +1,0 @@
-{"find": "diffident", "replace": "diffident"}
-
-Wait — the scan reads "diffident" with "ffi" ligature; that is the same word, so no change is needed.
-
-NONE
