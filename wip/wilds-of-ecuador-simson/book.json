@@ -1,0 +1,31 @@
+{
+ "id": "wilds-of-ecuador-simson",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "Travels in the Wilds of Ecuador, and the Exploration of the Putumayo River",
+ "short_title": "Travels in the Wilds of Ecuador",
+ "authors": [
+  {
+   "name": "Alfred Simson",
+   "sort": "Simson, Alfred"
+  }
+ ],
+ "place": "London",
+ "publisher": "Sampson Low, Marston, Searle, and Rivington",
+ "year": 1886,
+ "edition_statement": "First edition",
+ "regions": [
+  "Ecuador"
+ ],
+ "source": {
+  "ia_identifier": "travelsinwildsof00sims",
+  "contributor": "University of Toronto"
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-27",
+   "note": "First publication."
+  }
+ ]
+}
