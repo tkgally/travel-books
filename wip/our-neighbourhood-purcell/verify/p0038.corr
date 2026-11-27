@@ -1,9 +1,0 @@
-{"find": "rattles his <i>soroban</i>", "replace": "rattles his <i>soroban</i>"}
-
-Wait, that is a no-op. Correct output:
-
-{"find": "his <i>soroban</i> unceasingly", "replace": "his <i>soroban</i> unceasingly"}
-
-I retract both lines above, since the draft already has `soroban` in italics. I found no differences.
-
-NONE

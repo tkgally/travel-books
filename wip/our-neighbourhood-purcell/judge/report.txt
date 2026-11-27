@@ -1,3 +1,0 @@
-judge opus: 2 spots on 2 pages: {'verified': 1, 'draft': 1}; cost $0.08
-p0011 #1 [verified, sure: medium] draft '[[center]] T. A. P.' | verified '[[center]] “T. A. P.”' | judge reads '[[center]] “T. A. P.”'
-p0219 #1 [draft, sure: high] draft 'he Graveyard.' | verified 'he Graveyard' | judge reads 'he Graveyard.'

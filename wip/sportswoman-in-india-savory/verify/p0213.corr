@@ -1,0 +1,6 @@
+{"find": "lazy, cunning, liars;", "replace": "lazy, cunning, liars ;"}
+{"find": "competitors for", "replace": "competitors for"}
+
+Wait—correcting my output: the real differences are below.
+
+{"find": "mankind: lazy, cunning, liars ;", "replace": "mankind: lazy, cunning, liars ;"}

@@ -1,3 +1,0 @@
-The printed chapter heading "THE GRAVEYARD." ends with a full stop, so reading A matches the scan.
-
-{"n": 1, "is": "A", "print": "he Graveyard.", "sure": "high"}
