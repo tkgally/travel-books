@@ -1,0 +1,31 @@
+{
+ "id": "across-persia-crawshay-williams",
+ "version": 1,
+ "date": "2026-11-27",
+ "title": "Across Persia",
+ "short_title": "Across Persia",
+ "authors": [
+  {
+   "name": "E. Crawshay Williams",
+   "sort": "Crawshay-Williams, Eliot"
+  }
+ ],
+ "place": "London",
+ "publisher": "Edward Arnold",
+ "year": 1907,
+ "edition_statement": "First edition",
+ "regions": [
+  "Iran"
+ ],
+ "source": {
+  "ia_identifier": "acrosspersia00crawrich",
+  "contributor": "University of California Libraries"
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-27",
+   "note": "First publication."
+  }
+ ]
+}
