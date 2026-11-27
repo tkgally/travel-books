@@ -1,0 +1,4 @@
+# tess_compare: 0 pages; 0 word items; 0 pitch items; 0 empty items
+## Pages tesseract finds empty
+## Line pitch
+## Words

@@ -6,7 +6,7 @@
 
 [[center]] W.C.
 
-# Contents
+## Contents
 
 General Literature <pref>2</pref>
 

@@ -22,7 +22,7 @@ T<sc>he</sc> B<sc>ook of</sc> J<sc>ob</sc>. Edited by E. C. S. Gibson, D.D. <i>S
 
 T<sc>he</sc> E<sc>pistle of</sc> S<sc>t.</sc> J<sc>ames</sc>. Edited with Introduction and Notes by R. J. Knowling, D.D. <i>Demy 8vo.</i> 6<i>s.</i>
 
-# Part III.—A Selection of Works of Fiction
+## Part III.—A Selection of Works of Fiction
 
 Albanesi (E. Maria). SUSANNAH AND ONE OTHER. <i>Fourth Edition. Cr. 8vo.</i> 6<i>s.</i>
 
