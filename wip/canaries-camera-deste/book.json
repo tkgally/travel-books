@@ -4,13 +4,37 @@
  "date": "2026-11-28",
  "title": "In the Canaries with a Camera",
  "short_title": "In the Canaries with a Camera",
- "authors": [{"name": "Margaret D'Este", "sort": "D'Este, Margaret"}],
+ "authors": [
+  {
+   "name": "Margaret D'Este",
+   "sort": "D'Este, Margaret"
+  }
+ ],
  "place": "London",
  "publisher": "Methuen & Co.",
  "year": 1909,
  "edition_statement": "First edition",
- "regions": ["Spain (Canary Islands)"],
+ "regions": [
+  "Spain (Canary Islands)"
+ ],
  "period": "1908–09",
- "source": {"ia_identifier": "incanarieswithca00destrich", "contributor": "University of California Libraries"},
- "history": [{"version": 1, "date": "2026-11-28", "note": "First publication."}]
+ "source": {
+  "ia_identifier": "incanarieswithca00destrich",
+  "contributor": "University of California Libraries"
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-28",
+   "note": "First publication."
+  }
+ ],
+ "subjects": [
+  "Canary Islands",
+  "Tenerife",
+  "La Palma",
+  "Gran Canaria",
+  "Photography"
+ ],
+ "summary": "Margaret D’Este’s account of six months in the Canary Islands, from December 1908 to May 1909, most of them on Tenerife (“Teneriffe”), with shorter stays on La Palma and Grand Canary. She travelled with Mrs. R. M. King, whose photographs illustrate the book. In a note to the reader she says that it is not a guide but a personal record of “our own wayward steps and impressions.” She describes Puerto de Orotava and its hotels and visitors, the villages and farms of the north coast, Icod and Garachico, Holy Week at Laguna, a journey by mule across the Cañadas towards the Peak, Santa Cruz de la Palma and its pine woods, and the cave-dwellings of Grand Canary, with the guides, muleteers, and country people met on the way. The book has fifty-one photographic plates and a map of the three islands."
 }

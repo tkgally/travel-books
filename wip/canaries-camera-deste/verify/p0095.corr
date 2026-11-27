@@ -1,0 +1,7 @@
+Two corrections are needed: the page's first line, and the word "necessity".
+
+{"find": "The necessity for", "replace": "The necessity for"}
+
+Checking the first line again: the image reads "plete than ever before", which matches the draft, so no change is needed there. Checking the rest against the image, I find that the draft's text matches everywhere else. So the single entry above is a no-op, and the draft needs no changes.
+
+NONE
