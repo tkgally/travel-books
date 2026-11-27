@@ -1,0 +1,3 @@
+Footnote title is italic.
+
+{"find": "[[fn *]] Canada on the Pacific: p 47.", "replace": "[[fn *]] <i>Canada on the Pacific:</i> p 47."}

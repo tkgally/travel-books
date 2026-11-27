@@ -170,6 +170,9 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 
 ## Trigger: drop capitals at chapter openings
 
+- Pictorial initials: the draft marked 6 of 11 as `[[image:]]` and typed the rest as plain capitals (*A Girl in the Karpathians*, 2026-11-27); the crop subagent found the others by looking at every chapter opening. Ask it to every time.
+- Pictures with the text wrapped round them: a rectangle takes in the wrapped lines; the crop subagent painted them out in paper grey before cropping (23 of 37 in *A Girl in the Karpathians*) and said where a few strokes were lost. Look at each such crop.
+
 - Drafts type the capitals after a drop capital as small capitals (`T<sc>he</sc>`) on some chapters and as capitals
   on others; in both books so far the print had full capitals. Look at two openings on the scan and make all agree.
 

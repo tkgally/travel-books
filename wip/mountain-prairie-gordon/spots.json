@@ -1,0 +1,57 @@
+{
+ "p0010": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[center]] <sc>gazette printing company, montreal.</sc>",
+   "replace": "[[center]] GAZETTE PRINTING COMPANY, MONTREAL.",
+   "draft": "[[center]] <sc>gazette printing company, montreal.</sc>",
+   "verified": "[[center]] GAZETTE PRINTING COMPANY, MONTREAL.",
+   "context": "others</sc>, in the Office of the Minister of Agriculture. ⏎  ⏎ [[center]] <sc>gazette printing company, montreal.</sc> ⏎ "
+  }
+ ],
+ "p0196": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "C. H<sc>oretzky</sc>, Peace River.",
+   "replace": "C. HORETZKY, Peace River.",
+   "draft": "C. H<sc>oretzky</sc>, Peace Rive",
+   "verified": "C. HORETZKY, Peace Rive",
+   "context": " the shore in the foreground]] ⏎ [[caption]] From a Photo. by C. H<sc>oretzky</sc>, Peace River. ⏎ "
+  }
+ ],
+ "p0240": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "McConnell,",
+   "replace": "McConnel,",
+   "draft": "McConnell,",
+   "verified": "McConnel,",
+   "context": "our projected trip northwards. On the following Monday, Mr. McConnell, (Dr. Dawson's assistant) and I started for Battle River, ac"
+  }
+ ],
+ "p0260": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "Dunvegan to Edmonton.\n",
+   "replace": "Dunvegan to Edmonton\n",
+   "draft": " to Edmonton.\n",
+   "verified": " to Edmonton\n",
+   "context": "[[page ?]] ⏎ # Chapter IX. ⏎ [[subtitle]] Dunvegan to Edmonton. ⏎ [[subtitle]] Leave Dunvegan.—Farewell view of Peace River.—C"
+  }
+ ],
+ "p0296": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[caption]] Prairie Carts en Route.",
+   "replace": "[[caption]] Prairie Carts en Route. From a Photo. by Dr. G. M. Dawson.",
+   "draft": "ts en Route.",
+   "verified": "ts en Route. From a Photo. by Dr. G. M. Dawson.",
+   "context": "ng open grassland; a rider on horseback in the foreground]] ⏎ [[caption]] Prairie Carts en Route. ⏎ "
+  }
+ ]
+}

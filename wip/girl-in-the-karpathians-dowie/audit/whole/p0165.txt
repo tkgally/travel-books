@@ -1,5 +1,0 @@
-{"given": "there was to he no ease", "print": "there was to be no ease", "sure": "high"}
-{"given": "None of the others seemed notice", "print": "None of the others seemed to notice", "sure": "high"}
-{"given": "in barracks makiug false coins", "print": "in barracks making false coins", "sure": "high"}
-{"given": "which is a great huculy (Hutzuli)", "print": "which is a great Huculy (Hutzuli)", "sure": "high"}
-{"given": "with great talent; his mild blue", "print": "with great talent, his mild blue", "sure": "high"}

@@ -1,5 +1,0 @@
-{"given": "one of my salami sausages.", "print": "one of my Salami sausages.", "sure": "high"}
-{"given": "asked the time with view to", "print": "asked the time with a view to", "sure": "high"}
-{"given": "at my belt—if was gone!", "print": "at my belt—it was gone!", "sure": "high"}
-{"given": "I had lost it; my big gold turnip,", "print": "I had lost it, my big gold turnip,", "sure": "high"}
-{"given": "Nobody's aceidents promised better than", "print": "Nobody's accidents promised better than", "sure": "high"}

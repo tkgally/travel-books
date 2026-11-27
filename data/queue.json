@@ -2114,11 +2114,13 @@
    "place": "New York (first published London, George Philip & Son, 1891)",
    "publisher": "Cassell Publishing Company",
    "images": 332,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-26",
    "eligibility": "Vetted 2026-11-26 (Opus subagent). PG catalogue (mirror, whole file): no match on title or author. Online Books Page: only her Women Adventurers, Gallia, The Crook of the Bough. Wikisource: web search found nothing; the API was rate-limited, look again. Faded Page: not checkable (scripted search). Web search of a distinctive sentence: no text. Open Library and booksellers: print-on-demand only (Creative Media Partners, Franklin Classics, Kessinger facsimile 2010, CreateSpace); Tauchnitz 1891. No reset edition found (session's own search agrees). Re-checked 2026-11-27: pg_catalog.csv (full, mirror): none; web search: no reading text.",
    "note": "UCLA library scan, 400 ppi, jp2.zip and scandata, clean OCR. No illustrations seen in this New York edition (the London fifth edition of 1892, girlinkarpathian00normiala, black-and-white only, adds a preface and a portrait). A young Scotswoman's summer of 1890, riding and walking alone with local guides among the Hutsuls of the Galician Carpathians, staying with peasants and priests. First person, lively. Polish and Ruthenian words and place names.",
-   "started": "2026-11-27"
+   "started": "2026-11-27",
+   "version": 1,
+   "published": "2026-11-27"
   },
   {
    "order": 115,
