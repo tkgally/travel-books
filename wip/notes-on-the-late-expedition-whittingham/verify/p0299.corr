@@ -1,0 +1,8 @@
+{"find": "gracefulness to the light", "replace": "gracefulness to the light"}
+{"find": "Seville: and", "replace": "Seville: and"}
+
+Wait, the draft needs checking more carefully: the differences I see are "Franks still" and "boots, of the Franks" which match, so the real change is the one below.
+
+{"find": "the tight boots, of the Franks still", "replace": "the tight boots, of the Franks still"}
+
+NONE

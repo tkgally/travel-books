@@ -41,6 +41,27 @@
   {
    "at": "p0016",
    "kind": "contents"
+  },
+  {
+   "at": "p0024",
+   "kind": "front",
+   "title": "The book’s title above Chapter I"
+  },
+  {
+   "at": "p0318",
+   "kind": "appendix"
+  },
+  {
+   "at": "p0324",
+   "kind": "advertisements"
+  },
+  {
+   "at": "p0328",
+   "kind": "advertisements"
+  },
+  {
+   "at": "p0332",
+   "kind": "advertisements"
   }
  ],
  "waivers": [
@@ -55,5 +76,27 @@
    "why": "a blank leaf inserted by the scanner with the notice"
   }
  ],
- "keep_hyphens": []
+ "keep_hyphens": [
+  "p0100",
+  "p0165"
+ ],
+ "summary": [
+  "In 1855, during the Crimean War, a captain of the Royal Engineers sails from Hong Kong with the British naval squadron sent against the Russian settlements on the Pacific coast of Siberia. The ships search the Gulf of Tartary, the coast of Sakhalin (“Sagalien”) and the Sea of Okhotsk for the Russian ships, and find the settlement of Ayan deserted.",
+  "Between the cruises the author spends time in Japan, which had lately been opened to British ships: at Hakodate (“Hakodadi”), where he goes into the country by boat and calls on the governor, at Shimoda, where the Russian frigate “Diana” had been lost, and at Nagasaki. He writes of the harbours, the towns and villages, the people, and the Japanese officials’ treatment of foreigners. The book ends at Shanghai, with an account of the Taiping rebellion as he heard of it there."
+ ],
+ "subjects": [
+  "Crimean War",
+  "Royal Navy"
+ ],
+ "omitted_from_reading": "The half-title, the printed contents, the book’s title above Chapter I, and the publisher’s lists and catalogue at the end are in the JSON only.",
+ "notes_on_text": [
+  "The folding chart of the author’s cruise is scanned in two overlapping halves, shown one after the other."
+ ],
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-27",
+   "note": "First publication."
+  }
+ ]
 }

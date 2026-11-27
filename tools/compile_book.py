@@ -127,13 +127,17 @@ def parse_page(text, leaf):
         if m:
             blocks.append({"t": "h", "level": len(m.group(1)), "text": m.group(2).strip()})
             continue
+        tcont = s.startswith("[[cont]]|")
+        if tcont:
+            # a table continued from the page before (*Five Months in Labrador*, p. 88, 2026-11-27)
+            s = s[8:].strip()
         if s.startswith("|") and s.endswith("|") and len(s) > 1:
             rows = [s]
             while i < len(lines) and lines[i].strip().startswith("|"):
                 rows.append(lines[i].strip())
                 i += 1
             rows = [split_row(r) for r in rows if not re.fullmatch(r"\|[-| :]+\|", r)]
-            blocks.append({"t": "table", "rows": rows})
+            blocks.append({"t": "table", "rows": rows, "cont": tcont})
             continue
         if s == "[[break]]":
             blocks.append({"t": "break"})
@@ -303,6 +307,12 @@ def _compile_pages(cfg, pages, images=None):
                             if b["lines"]:
                                 b["lines"][0] = pbtok(leaf, number) + b["lines"][0]
                             prev["lines"] += ([""] if b["t"] == "verse" and b.get("stanza_break") else []) + b["lines"]
+                        prev["leaf_end"] = leaf
+                        continue
+                    if (b["t"] == "table" and prev is not None and prev["t"] == "table" and prev["leaf_end"] != leaf
+                            and b["rows"] and prev["rows"] and len(b["rows"][0]) == len(prev["rows"][-1])):
+                        b["rows"][0][0] = pbtok(leaf, number) + b["rows"][0][0]
+                        prev["rows"] += b["rows"]
                         prev["leaf_end"] = leaf
                         continue
                     warn(f"[[cont]] with nothing to continue, treated as a new block: {leaf}")

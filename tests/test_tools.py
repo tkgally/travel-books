@@ -542,6 +542,33 @@ class Ornaments(unittest.TestCase):
         self.assertEqual(res["images"], [], report)
 
 
+class TableAcrossPages(unittest.TestCase):
+    """A table that runs over a page: `[[cont]]` before the first row on the next page continues it (*Five Months in
+    Labrador* pp. 87–88, 2026-11-27: the last row was a table of its own). Invented text."""
+
+    def setUp(self):
+        self.tmp = tempfile.mkdtemp()
+        self.dir = os.path.join(self.tmp, "sample-journey-doe")
+        shutil.copytree(SAMPLE, self.dir)
+        p = os.path.join(self.dir, "pages", "p0010.txt")
+        t = open(p, encoding="utf-8").read()
+        first, rest = t.split("\n", 1)
+        open(p, "w", encoding="utf-8").write(first + "\n[[cont]]| Third | 15 |\n\n" + rest)
+
+    def tearDown(self):
+        shutil.rmtree(self.tmp)
+
+    def test_one_table(self):
+        book, w = compile_book.compile_book(self.dir)
+        self.assertEqual([x for x in w if "[[cont]]" in x], [])
+        tables = [b for d in book["divisions"] for b in d["blocks"] if b["type"] == "table" and b["leaf"] != "p0003"]
+        self.assertEqual(len(tables), 1, tables)
+        self.assertIn("Third", tables[0]["rows"][-1][0])
+        self.assertIn("Second", tables[0]["rows"][-2][0])
+        _, report, res = preflight.run(self.dir, skip_epubcheck=True, skip_odt=True)
+        self.assertEqual(res["conservation"], [], report)
+
+
 class ImageInParagraph(unittest.TestCase):
     """A picture in the middle of a page that interrupts a paragraph: `[[cont]]` after it joins the paragraph again
     (the compiler dropped it and split the paragraph; South by West, 2026-11-19). Invented text."""
@@ -2452,6 +2479,14 @@ class TessCompare(unittest.TestCase):
         texts["p0006"] = "<blockquote>" + body + "</blockquote>"
         items = tc.pitch_items(pitches, texts)
         self.assertEqual([i.split(":")[0] for i in items], ["p0005"])
+
+    def test_empty_items(self):
+        """*Five Months in Labrador* p0016: a blank verso's show-through typed as a page of contents."""
+        import tess_compare as tc
+        fw = ["word"] * 60
+        self.assertEqual(len(tc.empty_items("p0016", fw, ["~", "a", "rn", ".", "Ig"] * 2)), 1)
+        self.assertEqual(tc.empty_items("p0017", fw, ["word"] * 55), [])
+        self.assertEqual(tc.empty_items("p0018", ["word"] * 10, []), [])
 
     def test_run_items(self):
         """Review after a hundred books: part pages of quotation one size smaller (*Islam Lands*, pitch 42 against 45)."""

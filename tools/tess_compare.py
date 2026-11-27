@@ -22,6 +22,10 @@
 
     python3 tools/tess_compare.py --pages-dir $W/pages --images $B/pages --out $W/tess.txt [--workers 6] [--leaves p0010-p0300]
 
+4. **Pages tesseract finds nearly empty** (*Five Months in Labrador*, 2026-11-27: the draft made up a page of contents from
+   the show-through on a blank verso, and the corrections pass and the judge kept it): listed when the file has over 30
+   words and tesseract reads fewer than a quarter as many.
+
 No model calls. Tesseract runs one page per worker with OMP_THREAD_LIMIT=1; hOCR is cached in `--cache` (default:
 `<images>/../hocr`).
 """
@@ -148,6 +152,15 @@ def run_items(bases, texts, height=1800, ratio=0.96, min_gaps=4):
     return out
 
 
+def empty_items(leaf, fwords, twords):
+    """A page file with words where tesseract sees almost none: text invented from show-through? (docstring, 4)."""
+    real = [w for w in twords if re.search(r"[A-Za-z]{2}", w)]
+    if len(fwords) > 30 and len(real) < len(fwords) / 4:
+        return [f"{leaf}: the file has {len(fwords)} words, tesseract reads {len(real)}: a blank page with show-through "
+                "typed as text?"]
+    return []
+
+
 def pitch_items(pitches, texts, ratio=0.88):
     """Pages whose line pitch is under `ratio` of the book's median and whose file has no blockquote."""
     vals = sorted(p for p in pitches.values() if p)
@@ -205,17 +218,20 @@ def main():
         hocrs = dict(zip(texts, ex.map(lambda l: hocr(os.path.join(a.images, l + ".jpg"), cache), texts)))
     counts = preflight.corpus_counts()
     counts.update(w.lower() for t in texts.values() for w in file_words(t))
-    words, pitches, bases = [], {}, {}
+    words, pitches, bases, empty = [], {}, {}, []
     for leaf, t in texts.items():
         lines, tw = parse_hocr(hocrs[leaf])
         pitches[leaf] = line_pitch(lines)
         bases[leaf] = baselines(hocrs[leaf])
         words += word_items(leaf, file_words(t), tw, counts)
+        empty += empty_items(leaf, file_words(t), tw)
     pitch = pitch_items(pitches, texts, a.pitch)
     pitch += [i for i in run_items(bases, texts, ratio=a.run_ratio, min_gaps=a.run) if i.split(":")[0] not in
               {j.split(":")[0] for j in pitch}]
     with open(a.out, "w", encoding="utf-8") as f:
-        f.write(f"# tess_compare: {len(texts)} pages; {len(words)} word items; {len(pitch)} pitch items\n")
+        f.write(f"# tess_compare: {len(texts)} pages; {len(words)} word items; {len(pitch)} pitch items; "
+                f"{len(empty)} empty items\n")
+        f.write("## Pages tesseract finds empty\n" + "".join(i + "\n" for i in empty))
         f.write("## Line pitch\n" + "".join(i + "\n" for i in pitch))
         f.write("## Words\n" + "".join(i + "\n" for i in words))
     print(f"{len(texts)} pages; {len(words)} word items; {len(pitch)} pitch items → {a.out}")
