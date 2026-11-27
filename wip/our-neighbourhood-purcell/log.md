@@ -26,3 +26,4 @@ Notes: one long small-type footnote p. 113 (leaf 211); pill placards pp. 68–69
 
 ## Illustrations (crops by an Opus subagent, 2026-11-27; six looked at by the session)
 All 24 plates cropped `--gray` without captions; p0010 rotated 270, p0029 and p0213 rotated 90; p0039 soft (shot through its tissue), kept. cover.jpg = title page p0011.
+- Draft (Opus, 179 pages, $11.29, 0 errors, 0 refused): one 〓 at p0227 “c〓remonial” — look on a crop.
