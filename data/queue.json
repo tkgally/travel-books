@@ -2145,11 +2145,13 @@
    "place": "London",
    "publisher": "Charles H. Kelly",
    "images": 270,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-26",
    "eligibility": "Rejected 2026-11-20 only for unknown death dates (rule 5, withdrawn 2026-11-26); vetted again 2026-11-26 (Opus subagent). First published 1896 as Across Siberia on the Great Post-Road; this is a reissue (Every Age Library) with a new preface. PG catalogue: no match. Wikisource: no page. Web search of a distinctive sentence: no text. Reprints: print-on-demand only (Creative Media Partners, Legare Street, HardPress, Hutson Street). Wellcome Collection: page images of 1896 only. Online Books Page and Faded Page not seen. Re-checked 2026-11-27: pg_catalog.csv (full, mirror): none; web search: no reading text.",
    "note": "UCLA library scan, 400 ppi, jp2.zip and scandata. No illustrations. Second copy fourthousandmile00wenyiala. A Methodist medical missionary's journey home from China in 1893: Vladivostock, by tarantass to Lake Khanka, steamer up the Ussuri, Amoor and Shilka, then the post-road over Baikal to the Urals. About 260 pages.",
-   "started": "2026-11-27"
+   "started": "2026-11-27",
+   "version": 1,
+   "published": "2026-11-27"
   },
   {
    "order": 117,

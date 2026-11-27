@@ -1,0 +1,62 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[       ok] audit: book.json records the sampled audit of this version
+[ look (4)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0028: …ense of its re-|sponsibilities.… (hyphen removed; check)
+            - hyphen join at p0099: …t but a pardon-|able indiscreti… (hyphen removed; check)
+            - hyphen join at p0117: …ls, soap, shav-|ing apparatus, … (hyphen removed; check)
+            - (and 10 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[       ok] folios: printed page numbers that break the sequence
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[look (12)] contents: entries of the printed contents with no matching heading
+            - p0013: 'Crowded deck—Navvies for Siberian Railway—Chinese gamblers—Fight for f'
+            - p0013: 'Harbour and town of Vladivostock—Mixed population—German merchants—A S'
+            - p0013: 'An immense country—Diversified configuration—Track of early settlers—T'
+            - p0013: 'A traveller’s narrative—Presentiments—A wintry day—Turning back—A roya'
+            - p0014: 'First post-station—Attempted extortion—Lonely country—A Siberian grave'
+            - p0014: 'A post-road of ice—Crossing Khanka in a sledge—Waiting for a thaw—Kame'
+            - p0014: 'Crossing Khanka Lake—Sungacha River—Wild ducks—Fellow passengers—Tea a'
+            - p0014: 'Confluence with the Usuri—A set of gamblers—Baccarat—Flowery hillsides'
+            - p0015: 'Crossing the Shilka—A telyega ride—In the wrong house—Nertchinsk and K'
+            - p0015: 'Distant view of Irkutsk—Its wealth and public institutions—The taiga—N'
+            - p0016: 'The city and government of Tomsk—On the Obi—Rafts—A camp of Ostiaks—Ru'
+            - p0016: 'Suspicious of strangers—Heterogeneous population—Difficulty of governm'
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
+[       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
+[       ok] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
+[       ok] accents: words the book spells with different accents (or with and without): look at each group on the scan
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[ look (3)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0009: “grene” — “green” is common (2100; a letter dropped or transposed?)
+            - p0059: “hee” — “bee” is common (58)
+            - p0073: “spirted” — “spirited” is common (72; a letter dropped or transposed?)
+[       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
+[ look (3)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: … a medical missionary in China, went home to England across Siberia in the spring and summer of 1893 (his …
+            - book.json summary: …, and roads, Siberian villages, a church service and a wedding, Cossacks,…
+            - book.json summary: …, Buriats, Tungus, and Ostiaks, and exiles and convicts on the road…
+[       ok] line-breaks: a paragraph line that ends without a stop, followed on the next line by one that starts in lower case: a stray line break splitting a paragraph?
+[ look (1)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+            - p0204: “so He” in …ham to offer up his son, so He may call upon…
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight PASS: four-thousand-miles-across-siberia-wenyon v1 — 0 to fix, 0 waived; to look at: hyphen-joins 4, contents 12, rare-forms 3, serial-commas 3, missing-stop 1 — tools@07fdba45 2026-11-27

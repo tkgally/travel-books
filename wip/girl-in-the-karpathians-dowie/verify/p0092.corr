@@ -1,0 +1,3 @@
+Two lines differ from the image: "comfortful" should be "comfortable", and "wiekki" should be "wiekki" as printed? I checked the second one against the page. It reads "wiekki", which matches the draft, so only the first needs correcting.
+
+{"find": "comfortful", "replace": "comfortable"}

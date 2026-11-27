@@ -1,7 +1,0 @@
-{"find": "The cacophony", "replace": "The cacophony"}
-
-Wait — the scan reads "cacophony", and the draft has "cacophony" too. Corrected output:
-
-{"find": "The room was a small one", "replace": "The room was a small one"}
-
-NONE
