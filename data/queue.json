@@ -1961,11 +1961,13 @@
    "place": "London",
    "publisher": "Hurst and Blackett",
    "images": 316,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-25",
    "eligibility": "Checked 2026-11-25 (Opus subagent): pg_catalog.csv (full): none. Web searches: no Faded Page or Wikisource text; exact-sentence search: nothing. Reprints: Kessinger, Salzwasser (print on demand). Frederick Trench Townshend 1838–1924. The frontispiece artist is not named. Tom, 2026-11-26: every author, artist and photographer of a pre-1914 book is assumed dead more than 70 years; the unidentified credit above no longer holds the book back. Re-checked 2026-11-27: pg_catalog.csv (full, mirror) none; web search: no reading text.",
    "note": "Getty Research Institute scan, 300 ppi (jp2 zip 2.7 GB: large download). A Life Guards captain's journal of 1868: New York, the Adirondacks and Canada, US Army scouting parties on the Nebraska and Kansas plains, buffalo hunting, Laramie, Salt Lake City, Nevada, San Francisco, home by Acapulco and Panama. Publisher's advertisements after THE END.",
-   "started": "2026-11-27"
+   "started": "2026-11-27",
+   "version": 1,
+   "published": "2026-11-27"
   },
   {
    "order": 106,
