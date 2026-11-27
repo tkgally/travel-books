@@ -2446,6 +2446,81 @@
    "checked": "2026-11-27",
    "eligibility": "JATSI 64. Vetted 2026-11-27 (Opus subagent). Rule 1 met: Cornell scan (Kirtas), 300 ppi, greyscale, jp2.zip, the only IA scan; folding map present on two overlapping leaves. Rule 2 met: pg_catalog.csv, Online Books Page and Wikisource nothing; HathiTrust page images. Rule 3 UNCERTAIN: Nabu (about 2010) print-on-demand and a xerographic reprint (CiNii); Antigonos / Outlook Verlag paperbacks of 2024 may be re-typeset: check before starting. Rule 4 met: first-person journeys, partly written as notes for travellers.",
    "note": "Quarto in two columns of small type, ii + 119 + vii pp. but about 148,000 words: needs a look at how the tools handle two columns. Appendix of distances in tables; long footnotes quoting reports; pencil notes on endpapers and appendix. 22 chapters: Hakodate, volcanoes, Iturup, the coasts, Sapporo, the Ainu, the colonization commission, a chapter on Miss Bird. Dense but authoritative."
+  },
+  {
+   "order": 230,
+   "ia": "acrosscentralame00bodduoft",
+   "slug": "across-central-america-boddam-whetham",
+   "title": "Across Central America",
+   "author": "J. W. Boddam-Whetham",
+   "year": 1877,
+   "place": "London",
+   "publisher": "Hurst and Blackett",
+   "images": 382,
+   "eligibility": "Vetted 2026-11-27 (Opus subagent). Rule 1: Toronto scan with jp2.zip. Rule 2: not in pg_catalog.csv (only his Roraima and British Guiana, #64461); Online Books Page: scans only; web search of a sentence from p. 166: nothing; no Wikisource copy found by web search. Rule 3: Open Library only the 1877 editions; Forgotten Books print on demand only; no Adamant, Elibron, Cambridge or Negro Universities Press edition. Rule 4: first-person journey, 1875–76. Not checked: Wikisource directly (rate-limited), WorldCat.",
+   "note": "University of Toronto scan, 500 ppi, colour, clean. Frontispiece “Guatemala” and a title-page vignette; no list of illustrations, no other plates seen. viii + 353 pp., 28 chapters with summaries, ornamental head-pieces and initials. San Francisco to San José de Guatemala, Guatemala City, Los Altos, Quiché, Quezaltenango, the Esquipulas pilgrimage, Copán, Cobán, by canoe down the Pasión to Lake Petén, through forest to Tenosique and down the Usumacinta to Carmen. Plain, with some humour. Second copy acrosscentral00boddguat. Same author as Western Wanderings (published).",
+   "status": "queued",
+   "checked": "2026-11-27"
+  },
+  {
+   "order": 240,
+   "ia": "travelsinwildsof00sims",
+   "slug": "wilds-of-ecuador-simson",
+   "title": "Travels in the Wilds of Ecuador, and the Exploration of the Putumayo River",
+   "author": "Alfred Simson",
+   "year": 1886,
+   "place": "London",
+   "publisher": "Sampson Low, Marston, Searle, and Rivington",
+   "images": 324,
+   "eligibility": "Vetted 2026-11-27 (Opus subagent); rejected 2026-11-22 only under the old death-date rule. Rule 1: Toronto scan with jp2.zip. Rule 2: not in pg_catalog.csv; Online Books Page nothing; web search of a sentence: nothing; no Wikisource copy found by web search. Rule 3: print on demand only (Kessinger 2009, Franklin Classics 2018, Creative Media Partners 2022); a Spanish translation (Abya-Yala 1993) is not an edition. Rule 4: first-person. Not checked: Wikisource directly (rate-limited), WorldCat.",
+   "note": "University of Toronto scan, 650 ppi, colour. No plates; a folding map (the one foldout in the scandata: check it is opened). viii + 270 pp.: 19 chapters, three short appendices (Zaparo vocabulary, Pioje words, heights); publisher's catalogue at the end. Guayaquil to Riobamba and Baños, on foot past the Jívaros to Canelos, the Napo and Aguano, down the Aguarico to the Amazon, then by steamer up the Putumayo. Chapters III, IV and XIX general description. Smallpox, a flood, Orejón houses. Footnotes at the page foot.",
+   "status": "queued",
+   "checked": "2026-11-27"
+  },
+  {
+   "order": 250,
+   "ia": "acrosspersia00crawrich",
+   "slug": "across-persia-crawshay-williams",
+   "title": "Across Persia",
+   "author": "E. Crawshay Williams [Eliot Crawshay-Williams]",
+   "year": 1907,
+   "place": "London",
+   "publisher": "Edward Arnold",
+   "images": 406,
+   "eligibility": "Vetted 2026-11-27 (Opus subagent). Rule 1: University of California scan with jp2.zip; all 25 listed plates found. Rule 2: not in pg_catalog.csv; Online Books Page: HathiTrust page images only; two sentences searched: nothing; a Lulu ebook for sale (not free; probably page images). Rule 3: print-on-demand facsimiles only (Lulu 2005 Million Book Project, Legare Street 2022, Stevens). Rule 4: first-person account of his 1903 journey. Not checked: Wikisource author search (rate-limited), WorldCat.",
+   "note": "University of California scan, 500 ppi, colour, clean. 25 photographic plates (frontispiece “The Village of Yezdikhast” and 24; some leaves with two); a sketch map of Shahpur in the text; the title page says “maps”: a folding map may be lost (pocket at the back) — a missing map does not stop a book. Preface, 25 chapters each with a verse epigraph, index; about 348 pp. Bushire to Shiraz, Persepolis, Isfahan, Tehran and the Caspian, with two Indian servants, an Afghan interpreter and a terrier. Quotations with long s from Franklin (1787).",
+   "status": "queued",
+   "checked": "2026-11-27"
+  },
+  {
+   "order": 260,
+   "ia": "frommontetomosul01unse",
+   "slug": "monte-to-mosul",
+   "title": "From Monte to Mosul",
+   "author": "[anonymous]",
+   "year": 1909,
+   "place": "London",
+   "publisher": "Bickers & Son",
+   "images": 270,
+   "eligibility": "Vetted 2026-11-27 (Opus subagent); rejected 2026-11-20 only under the old rule 5 (anonymous). Rule 1: Duke scan with jp2.zip. Rule 2: not in pg_catalog.csv; Online Books Page nothing; web search of the opening sentence: nothing; Qatar National Library: catalogue record only. Rule 3: no reprint of any kind found. Rule 4: first-person diary of a 1906 journey, rewritten for the book. Not checked: Wikisource (rate-limited), WorldCat.",
+   "note": "Duke Divinity School Library scan, 360 ppi, colour. Portrait frontispiece (“The Emiri”), a folding map (check it is opened) and 32 photographs: confirm every plate against the list on p. vii; several captions sideways. About 187 pp. of dated entries: Monte Carlo (January 1906), Damascus, Baalbek, by caravan to Palmyra and Deir-el-Zor, across the Euphrates to Mosul and Nineveh, Zakho, Jezireh, Urfa, Jerablus. A dry, ironic narrator travelling with “Tig” and a dragoman. pp. 180–187 a two-column glossary of Arabic phrases (a table or list).",
+   "status": "queued",
+   "checked": "2026-11-27"
+  },
+  {
+   "order": 270,
+   "ia": "throughluzononhi00wilc",
+   "slug": "through-luzon-wilcox",
+   "title": "Through Luzon on Highways and Byways",
+   "author": "Willis Bliss Wilcox",
+   "year": 1901,
+   "place": "Philadelphia",
+   "publisher": "Franklin Book Company",
+   "images": 252,
+   "eligibility": "Vetted 2026-11-27 (Opus subagent). Rule 1: Library of Congress scan with jp2.zip, complete. Rule 2: not in pg_catalog.csv (#12970 is a different book); Online Books Page nothing; web search of a sentence: nothing; Cornell's Southeast Asia Visions: page images and OCR only. Rule 3: only the 1901 edition found. Rule 4: first-person account of his 1898 journey. Not checked: Wikisource (rate-limited), Faded Page.",
+   "note": "Library of Congress scan, 300 ppi, colour, clean. 16 halftone plates (frontispiece and 15) on unnumbered leaves with blank backs (n7, 30, 41, 46, 65, 82, 101, 118, 137, 154, 178, 189, 194, 213, 218, 229); folding map of northern Luzon at n10. Preface; Dewey's two letters; 13 chapters (pp. 17–213); an appendix (pp. 214–236), an essay by another writer. A US Navy paymaster and a naval cadet ride from Manila across the Caraballos, down the Cagayan valley to Aparri, back by the Ilocos coast and Benguet, October–November 1898, through country held by Aguinaldo's government. Telegrams quoted in Spanish. Views of the period on Filipinos, strongest in the appendix.",
+   "status": "queued",
+   "checked": "2026-11-27"
   }
  ],
  "rejected": [
@@ -2727,11 +2802,6 @@
   {
    "title": "Sartorius, Three Months in the Soudan (1885)",
    "why": "full text at A Celebration of Women Writers (vetting by subagents, 2026-11-20)",
-   "checked": "2026-11-20"
-  },
-  {
-   "title": "From Monte to Mosul (1909)",
-   "why": "anonymous: birth year cannot be bounded (vetting by subagents, 2026-11-20)",
    "checked": "2026-11-20"
   },
   {
@@ -3020,7 +3090,7 @@
    "checked": "2026-11-22"
   },
   {
-   "title": "Simson, Travels in the Wilds of Ecuador (author's dates not found; a reserve if found); Smyth & Lowe, Journey from Lima to Para (Cambridge Library Collection reprint); Humphrey, A Summer Journey to Brazil (Gutenberg); Stewart, Brazil and La Plata (Gutenberg); Clark, Twelve Months in Peru (author unidentified, compiled); Cole, The Peruvians at Home (compiled chapters)",
+   "title": "Smyth & Lowe, Journey from Lima to Para (Cambridge Library Collection reprint); Humphrey, A Summer Journey to Brazil (Gutenberg); Stewart, Brazil and La Plata (Gutenberg); Clark, Twelve Months in Peru (author unidentified, compiled); Cole, The Peruvians at Home (compiled chapters)",
    "why": "vetted 2026-11-22 by an Opus subagent: the reasons in the title",
    "checked": "2026-11-22"
   },
@@ -3229,6 +3299,66 @@
    "title": "Emma H. Adams, Jottings from the Pacific (1890)",
    "why": "guidebook-like",
    "checked": "2026-11-26"
+  },
+  {
+   "title": "Paton, Down the Islands (1887)",
+   "why": "reprinted by Negro Universities Press and Greenwood (1969–70)",
+   "checked": "2026-11-27"
+  },
+  {
+   "title": "Crommelin, Over the Andes (1896)",
+   "why": "only Google scans on IA; not vetted further",
+   "checked": "2026-11-27"
+  },
+  {
+   "title": "Hart, Western China (1888)",
+   "why": "the Boston University scan lacks pp. 38 and 188 and their plates; the Cornell scan is complete but nearly bilevel: a reserve needing two scans",
+   "checked": "2026-11-27"
+  },
+  {
+   "title": "Nichols, Through Hidden Shensi",
+   "why": "City University of Hong Kong Press edition",
+   "checked": "2026-11-27"
+  },
+  {
+   "title": "Jack, The Back Blocks of China",
+   "why": "Greenwood 1969, Elibron, White Lotus 2008 reprints",
+   "checked": "2026-11-27"
+  },
+  {
+   "title": "Duncan, A Summer Ride through Western Tibet",
+   "why": "Collins Clear-Type reprint about 1920",
+   "checked": "2026-11-27"
+  },
+  {
+   "title": "Rijnhart, With the Tibetans in Tent and Temple",
+   "why": "text on A Celebration of Women Writers; real reprints",
+   "checked": "2026-11-27"
+  },
+  {
+   "title": "Curtis, Turkestan: the Heart of Asia",
+   "why": "mostly description and history",
+   "checked": "2026-11-27"
+  },
+  {
+   "title": "Pallander, The Log of an Island Wanderer (1901)",
+   "why": "several chapters are stories told in the third person, not the author's own travel (rule 4 doubtful); a reserve",
+   "checked": "2026-11-27"
+  },
+  {
+   "title": "Wheeler, A Glimpse of the Isles of the Pacific (1907)",
+   "why": "flat tourist notes, mostly New Zealand and Australia",
+   "checked": "2026-11-27"
+  },
+  {
+   "title": "C. Stuart Ross, Fiji and the Western Pacific (1909)",
+   "why": "political history, not travel",
+   "checked": "2026-11-27"
+  },
+  {
+   "title": "Hickson, A Naturalist in North Celebes (1889)",
+   "why": "half zoology and ethnology",
+   "checked": "2026-11-27"
   }
  ]
 }
