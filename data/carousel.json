@@ -6,6 +6,12 @@
    "height": 450,
    "sha256": "c2fa10572595fbff41ba0863837e914def31745a1b18daab9d5f2086e1b499da"
   },
+  "adrift-in-new-zealand-elkington": {
+   "image": "cover",
+   "width": 300,
+   "height": 435,
+   "sha256": "d122e3595847f24b2f667c7ea6d5585fc958a0126ee36ae7f780433021231f34"
+  },
   "aloha-chaney": {
    "image": "title page",
    "width": 257,
@@ -148,6 +154,12 @@
    "width": 299,
    "height": 450,
    "sha256": "5b9171c14d49e6863a7f81379f279c098df87295bc451f5861d2889e91113092"
+  },
+  "five-months-labrador-tucker": {
+   "image": "title page",
+   "width": 250,
+   "height": 450,
+   "sha256": "7fe2487c319d138ecbbf11be9e49e4a65587d523d7caad47c59e007502708336"
   },
   "flying-leaves-pfeiffer": {
    "image": "title page",
@@ -332,6 +344,12 @@
    "height": 450,
    "sha256": "6fcbe229265c319fd6b8cad6d44c5bd90d67d060504c39d842107ebbbd9930cc"
   },
+  "notes-on-the-late-expedition-whittingham": {
+   "image": "title page",
+   "width": 257,
+   "height": 450,
+   "sha256": "4dea855974dbefe77765dc3a3effe1a0061a32f321e7f16cdb76c8aa4f68d1a8"
+  },
   "on-short-leave-to-japan-younghusband": {
    "image": "title page",
    "width": 269,
@@ -379,6 +397,12 @@
    "width": 286,
    "height": 450,
    "sha256": "10956557ba039d4070b8ea675c5ee914e2535e64bf1025fc4960c8c38182f73f"
+  },
+  "philippine-experiences-freer": {
+   "image": "cover",
+   "width": 282,
+   "height": 450,
+   "sha256": "9653fdc72bc0025a6092b9e23840d52550be904fc1ef55fab9882a4d14d72fd6"
   },
   "picnic-party-wildest-africa-bulpett": {
    "image": "cover",
@@ -434,6 +458,12 @@
    "height": 450,
    "sha256": "61c981b6dd00742f22d9fe198eb43398ed2a6cd23084eefb0ff7fe144e34e353",
    "note": "the cover has no title"
+  },
+  "summer-azores-baker": {
+   "image": "title page",
+   "width": 297,
+   "height": 450,
+   "sha256": "ba7c621fa71928e0b7711d4e4c28534a66ef03af3582e432510f30da51f1a65b"
   },
   "summer-greetings-from-japan-sheldon": {
    "image": "title page",

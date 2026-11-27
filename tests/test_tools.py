@@ -1779,6 +1779,24 @@ class CaptionTail(unittest.TestCase):
         self.assertEqual(preflight.CHECKS["caption-tail"][0], "observe")
 
 
+class LineBreaks(unittest.TestCase):
+    """*Five Months in Labrador* p0029 (2026-11-27): “had a glimpse of two or” / “three half naked beings” on two lines
+    with no blank line between, so the compiler made two paragraphs; only the rendered look saw it. Invented text."""
+
+    def test_stray_break_listed(self):
+        pages = [("p0029", "[[page 25]]\n[[cont]]the captain had a glimpse of two or\nthree men rushing from the cabin.\n\nNext day we sailed.\n")]
+        items = preflight.check_line_breaks(pages)
+        self.assertEqual(len(items), 1, items)
+        self.assertIn("p0029", items[0])
+
+    def test_verse_tables_and_sentences_pass(self):
+        pages = [("p0030", "[[page 26]]\n<verse>\nThe sea is wide\nand deep and blue\n</verse>\n\n| Salt | hhds. |\n| oil | 50 |\n\nWe sailed.\nthen came the storm.\n\n[[center]] By\n[[center]] the author\n")]
+        self.assertEqual(preflight.check_line_breaks(pages), [])
+
+    def test_observe(self):
+        self.assertEqual(preflight.CHECKS["line-breaks"][0], "observe")
+
+
 class SiteText(unittest.TestCase):
     """*West Coast of Africa* (2026-11-20): contents titles written by hand in book.json kept straight apostrophes,
     which reached the site and the EPUB nav; the text checks read only the page files."""
