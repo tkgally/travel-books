@@ -1,0 +1,267 @@
+{
+ "p0019": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "Fortunate housekeeper",
+   "replace": "Fortunate house-keeper",
+   "draft": "tunate housekeeper",
+   "verified": "tunate house-keeper",
+   "context": "An artificial lake—View from tower—A luxury—Raising of fish—Fortunate housekeeper <pref>245</pref> ⏎ "
+  }
+ ],
+ "p0040": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "THE mighty ocean",
+   "replace": "T<sc>he</sc> mighty ocean",
+   "draft": "THE mighty ocea",
+   "verified": "T<sc>he</sc> mighty ocea",
+   "context": "hs—The pen that gave Finland freedom—A chivalrous Emperor. ⏎  ⏎ THE mighty ocean that rolls into the north of Europe and breathes its last i"
+  }
+ ],
+ "p0065": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Brändö, an estate",
+   "replace": "Brändô, an estate",
+   "draft": "Brändö, an estate",
+   "verified": "Brändô, an estate",
+   "context": "tunity to re-visit this familiar spot. I had been dining at Brändö, an estate in the near neighbourhood of Turholm. Brändö house, with it"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "Brändö house",
+   "replace": "Brändô house",
+   "draft": "Brändö house",
+   "verified": "Brändô house",
+   "context": " at Brändô, an estate in the near neighbourhood of Turholm. Brändö house, with its quaint low-pitched rooms, reminded me more of an "
+  }
+ ],
+ "p0074": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "THERE is one excursion",
+   "replace": "T<sc>here</sc> is one excursion",
+   "draft": "THERE is one excu",
+   "verified": "T<sc>here</sc> is one excu",
+   "context": "m—An Emperor's sledge—The honesty of Finns—Oriental china. ⏎  ⏎ THERE is one excursion which no tourist should omit before leaving Helsingfors, an"
+  }
+ ],
+ "p0124": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "IN the morning",
+   "replace": "I<sc>n</sc> the morning",
+   "draft": "IN the morning",
+   "verified": "I<sc>n</sc> the morning",
+   "context": "nal youth—Peace and war—A woman’s voice—A charming comedy. ⏎  ⏎ IN the morning sunshine, the voice of Imatra seemed no longer terrible as "
+  }
+ ],
+ "p0143": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Elias Lõnnrot",
+   "replace": "Elias Lönnrot",
+   "draft": "Elias Lõnnrot",
+   "verified": "Elias Lönnrot",
+   "context": "e of lost traditions—The song of a people—A dream fulfilled—Elias Lõnnrot—Kalevala, the jewel of Finland—The old runos—Music of many "
+  }
+ ],
+ "p0170": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "dêtour",
+   "replace": "détour",
+   "draft": "dêtour",
+   "verified": "détour",
+   "context": "ll be extended there. I was obliged to make a somewhat long dêtour to reach it. From Sordavala I took the 1.30 p.m. train to J"
+  }
+ ],
+ "p0218": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "“THE daily train",
+   "replace": "“T<sc>he</sc> daily train",
+   "draft": "“THE daily train",
+   "verified": "“T<sc>he</sc> daily train",
+   "context": " sportsman—A record afternoon's sport—The aroma of coffee. ⏎  ⏎ “THE daily train for Kajana leaves at 12.15 in the afternoon.” A very ordina"
+  }
+ ],
+ "p0259": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "THE excitement of the day",
+   "replace": "T<sc>he</sc> excitement of the day",
+   "draft": "THE excitement ",
+   "verified": "T<sc>he</sc> excitement ",
+   "context": "erpowering light of the North—An unpremeditated departure. ⏎  ⏎ THE excitement of the day before made the following morning seem as flat as ditch wat"
+  }
+ ],
+ "p0273": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "“O<sc>ne</sc> second",
+   "replace": "“ONE second",
+   "draft": "“O<sc>ne</sc> second",
+   "verified": "“ONE second",
+   "context": "—A dreaded neighbour—The coming of winter—Last impression. ⏎  ⏎ “O<sc>ne</sc> second, single, to Torneå,” I said quite hesitatingly, as I peered"
+  }
+ ],
+ "p0287": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "wended my footsteps",
+   "replace": "wended my foot-steps",
+   "draft": "nded my footsteps",
+   "verified": "nded my foot-steps",
+   "context": "Torneå, I went and looked at this disputed bridge, and then wended my footsteps towards the old church, which I had heard was one of the mo"
+  }
+ ],
+ "p0306": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "MY arrival at",
+   "replace": "M<sc>y</sc> arrival at",
+   "draft": "MY arrival at",
+   "verified": "M<sc>y</sc> arrival at",
+   "context": "h—A gruesome picture—The redeeming touch—A captive sunset. ⏎  ⏎ MY arrival at the “Manchester of Finland” reminded me of Viborg, in the m"
+  }
+ ],
+ "p0364": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "caligraphy",
+   "replace": "calligraphy",
+   "draft": "caligraphy",
+   "verified": "calligraphy",
+   "context": "not printed, but exquisitely written by hand in the pointed caligraphy of that time. ⏎  ⏎ The open fjord between Åbo and Brinkhall is "
+  }
+ ],
+ "p0402": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Kiiminki",
+   "replace": "Küminki",
+   "draft": "Kiiminki",
+   "verified": "Küminki",
+   "context": "le of, <pref>122</pref>, <pref>255</pref>–<pref>256</pref> ⏎  ⏎ Kiiminki, Lake of, splendid iron bridge across, <pref>210</pref> ⏎  ⏎ Ku"
+  }
+ ],
+ "p0410": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "ALI PACHA AND OTHERS. Illustrated. <i>Cr. 8vo.</i>",
+   "replace": "ALI PACHA AND OTHERS. Illustrated. <i>Cr. 8vo,</i>",
+   "draft": ". <i>Cr. 8vo.</i>",
+   "verified": ". <i>Cr. 8vo,</i>",
+   "context": "ERS. Illustrated. <i>Cr. 8vo.</i> 6<i>s.</i> ⏎  ⏎ THE CRIMES OF ALI PACHA AND OTHERS. Illustrated. <i>Cr. 8vo.</i> 6<i>s.</i> ⏎ "
+  }
+ ],
+ "p0413": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Illusstrated",
+   "replace": "Illustrated",
+   "draft": "Illusstrated",
+   "verified": "Illustrated",
+   "context": "s. Also Fcap. 8vo.</i> 5<i>s.</i> ⏎  ⏎ *A WANDERER IN FLORENCE. Illusstrated. <i>Cr. 8vo.</i> 6<i>s.</i> ⏎  ⏎ THE OPEN ROAD: A Little Book f"
+  }
+ ],
+ "p0420": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "Edited by E. C. S. Gibson.",
+   "replace": "Edited by E. C. S. Gibson,",
+   "draft": "C. S. Gibson.",
+   "verified": "C. S. Gibson,",
+   "context": "sc>rticles of the</sc> C<sc>hurch of</sc> E<sc>ngland</sc>. Edited by E. C. S. Gibson. <i>Seventh Edition. Demy</i> 8<i>vo.</i> 12<i>s.</i> 6<i>d."
+  }
+ ],
+ "p0428": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "See page 14.",
+   "replace": "See page 14",
+   "draft": "See page 14.",
+   "verified": "See page 14",
+   "context": "3. ⏎  ⏎ “T<sc>he</sc> C<sc>onnoisseur’s</sc> L<sc>ibrary</sc>.” See page 14. ⏎  ⏎ “L<sc>ittle</sc> B<sc>ooks on</sc> A<sc>rt</sc>.” See page"
+  }
+ ],
+ "p0430": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 24]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 24]]",
+   "context": "[[page ?]] ⏎  ⏎ *Conyers (Dorothea.). THE LONELY MAN. <i>Cr. 8vo.</i> 6<i>"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "<sc>the Tragedy of a Quiet Life.</sc>",
+   "replace": "<sc>The Tragedy of a Quiet Life.</sc>",
+   "draft": "<sc>the Tragedy o",
+   "verified": "<sc>The Tragedy o",
+   "context": "i> 154<i>th Thousand. Cr. 8vo.</i> 6<i>s.</i> ⏎  ⏎ HOLY ORDERS: <sc>the Tragedy of a Quiet Life.</sc> <i>Second Edition.</i> 120<i>th Thousand. Crown 8vo.</i> 6<"
+  },
+  {
+   "n": 3,
+   "kind": "punctuation",
+   "find": "*Conyers",
+   "replace": "•Conyers",
+   "draft": "*Conyers",
+   "verified": "•Conyers",
+   "context": "[[page 24]] ⏎  ⏎ *Conyers (Dorothea.). THE LONELY MAN. <i>Cr. 8vo.</i> 6<i>s.</i> ⏎  ⏎ Co"
+  }
+ ],
+ "p0437": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[center]] <sc>printed by</sc>",
+   "replace": "[[center]] PRINTED BY",
+   "draft": "[[center]] <sc>printed by</sc>",
+   "verified": "[[center]] PRINTED BY",
+   "context": "[[page ?]] ⏎  ⏎ [[center]] <sc>printed by</sc> ⏎  ⏎ [[center]] <sc>unwin brothers, limited,</sc> ⏎  ⏎ [[center]] <"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "[[center]] <sc>unwin brothers, limited,</sc>",
+   "replace": "[[center]] UNWIN BROTHERS, LIMITED,",
+   "draft": "[[center]] <sc>unwin brothers, limited,</sc>",
+   "verified": "[[center]] UNWIN BROTHERS, LIMITED,",
+   "context": "[[page ?]] ⏎  ⏎ [[center]] PRINTED BY ⏎  ⏎ [[center]] <sc>unwin brothers, limited,</sc> ⏎  ⏎ [[center]] <sc>london and woking.</sc> ⏎ "
+  },
+  {
+   "n": 3,
+   "kind": "words",
+   "find": "[[center]] <sc>london and woking.</sc>",
+   "replace": "[[center]] LONDON AND WOKING.",
+   "draft": "[[center]] <sc>london and woking.</sc>",
+   "verified": "[[center]] LONDON AND WOKING.",
+   "context": "[[center]] PRINTED BY ⏎  ⏎ [[center]] UNWIN BROTHERS, LIMITED, ⏎  ⏎ [[center]] <sc>london and woking.</sc> ⏎ "
+  }
+ ]
+}

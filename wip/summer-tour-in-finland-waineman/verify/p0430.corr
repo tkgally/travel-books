@@ -1,0 +1,3 @@
+{"find": "[[page ?]]", "replace": "[[page 24]]"}
+{"find": "<sc>the Tragedy of a Quiet Life.</sc>", "replace": "<sc>The Tragedy of a Quiet Life.</sc>"}
+{"find": "*Conyers", "replace": "•Conyers"}

@@ -1,0 +1,3 @@
+{"n": 1, "is": "A", "print": "tunate house-⏎keeper", "sure": "low"}
+
+The word is split across a line break on the scan ("house-" then "keeper"), so the page itself can't show whether the hyphen belongs to the word. I picked A only because line-end hyphenation is to be ignored.
