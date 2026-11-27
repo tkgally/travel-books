@@ -1,5 +1,0 @@
-{"given": "Indeed, in original buddhism, pessimism", "print": "Indeed, in original Buddhism, pessimism", "sure": "high"}
-{"given": "blessedness. If was the Oriental", "print": "blessedness. It was the Oriental", "sure": "high"}
-{"given": "And so it became gospel of present", "print": "And so it became a gospel of present", "sure": "high"}
-{"given": "existence to millions; alike of the", "print": "existence to millions, alike of the", "sure": "high"}
-{"given": "the men, women, and cbildren are", "print": "the men, women, and children are", "sure": "high"}

@@ -1,5 +1,0 @@
-{"given": "as Laurence sterne could shed", "print": "as Laurence Sterne could shed", "sure": "high"}
-{"given": "the morning devotions; not always manifest", "print": "the morning devotions, not always manifest", "sure": "high"}
-{"given": "In Canton, we where to be", "print": "In Canton, we were to be", "sure": "high"}
-{"given": "American friends, living the large and", "print": "American friends, living in the large and", "sure": "high"}
-{"given": "ceded by the Chinese govcrnment for", "print": "ceded by the Chinese government for", "sure": "high"}

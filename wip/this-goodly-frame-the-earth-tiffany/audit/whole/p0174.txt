@@ -1,5 +1,0 @@
-{"given": "and by sunrize the next morning", "print": "and by sunrise the next morning", "sure": "high"}
-{"given": "skim with skates its icy surface; but", "print": "skim with skates its icy surface, but", "sure": "high"}
-{"given": "Men, women, and children or the road", "print": "Men, women, and children on the road", "sure": "high"}
-{"given": "a plunge thirty feet down into lovely pool.", "print": "a plunge thirty feet down into a lovely pool.", "sure": "high"}
-{"given": "rioting in splendid somerfaults from the cliffs", "print": "rioting in splendid somersaults from the cliffs", "sure": "high"}
