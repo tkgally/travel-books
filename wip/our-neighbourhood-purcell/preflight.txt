@@ -1,10 +1,8 @@
 [       ok] meta: book.json: required fields present and sane
-[ FAIL (1)] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
-            - p0227: illegible mark 〓: '[[cont]]and on either side of this a hole in which to stand a bamboo j'
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
 [       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
 [       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
-[ FAIL (1)] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
-            - text: …' completed, this part of the c〓remonial is finished and the n'…
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
 [       ok] straight-quotes: no straight ' or " in the text
 [       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
 [       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
@@ -40,23 +38,15 @@
             - nagare: nagare (p0017, p0125); nagaré (p0015, p0121)
             - sake: sake (p0039, p0103, p0113); saké (p0015, p0017, p0023, p0031, p0037, p0038…); sakê (p0045, p0114, p0116)
             - zojoji: zojoji (p0211); zojôji (p0202, p0208)
-[ look (1)] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
-            - p0135: “aud” in …al demeanour are pompous aud stately, and in keeping…
-[ look (9)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[ look (3)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
             - p0098: “pieced” — “pierced” is common (108; a letter dropped or transposed?)
-            - p0107: “spead” — “spread” is common (722; a letter dropped or transposed?)
             - p0108: “sieze” — “seize” is common (98; a letter dropped or transposed?)
-            - p0135: “aud” — “and” is common (274665)
-            - p0147: “uusuccessful” — “unsuccessful” is common (70)
-            - p0154: “repntation” — “reputation” is common (242)
-            - p0157: “inquistive” — “inquisitive” is common (51; a letter dropped or transposed?)
-            - p0199: “acccptance” — “acceptance” is common (47)
-            - p0208: “pretter” — “prettier” is common (52; a letter dropped or transposed?)
+            - p0215: “ultivated” — “cultivated” is common (555; a letter dropped or transposed?)
 [       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
-[ look (1)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
-            - book.json summary: …the saké shop, the stone mason, the barber and the stories told in …
+[       ok] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
 [       ok] line-breaks: a paragraph line that ends without a stop, followed on the next line by one that starts in lower case: a stray line break splitting a paragraph?
 [       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: our-neighbourhood-purcell v1 — 3 to fix, 40 waived; to look at: hyphen-joins 3, quote-balance 2, accents 4, misprints 1, rare-forms 9, serial-commas 1 — tools@038479f1 2026-11-27
+preflight FAIL: our-neighbourhood-purcell v1 — 1 to fix, 40 waived; to look at: hyphen-joins 3, quote-balance 2, accents 4, rare-forms 3 — tools@cc20662f 2026-11-27

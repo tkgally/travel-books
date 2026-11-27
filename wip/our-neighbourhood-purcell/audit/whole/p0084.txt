@@ -1,0 +1,5 @@
+{"given": "A little more string away it goes.", "print": "A little more string and away it goes.", "sure": "high"}
+{"given": "lies as if stnnned, whilst being", "print": "lies as if stunned, whilst being", "sure": "high"}
+{"given": "however, will show the soundness of", "print": "however, will shew the soundness of", "sure": "high"}
+{"given": "however entertaining; they must not be", "print": "however entertaining, they must not be", "sure": "high"}
+{"given": "If is really a pleasant sight", "print": "It is really a pleasant sight", "sure": "high"}

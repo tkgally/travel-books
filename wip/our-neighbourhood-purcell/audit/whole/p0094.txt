@@ -1,0 +1,4 @@
+{"given": "during the day; he prepared", "print": "during the day, he prepared", "sure": "high"}
+{"given": "was quickly wrappcd in slumber", "print": "was quickly wrapped in slumber", "sure": "high"}
+{"given": "Nor so the little barber", "print": "Not so the little barber", "sure": "high"}
+{"given": "had overheard rice man’s wife", "print": "had overheard the rice man’s wife", "sure": "high"}

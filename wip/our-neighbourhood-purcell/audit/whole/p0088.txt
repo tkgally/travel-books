@@ -1,0 +1,5 @@
+{"given": "is soon seen be the saké shop", "print": "is soon seen to be the saké shop", "sure": "high"}
+{"given": "this is a very poor prefent which", "print": "this is a very poor present which", "sure": "high"}
+{"given": "from the hands of this son to", "print": "from the hands of his son to", "sure": "high"}
+{"given": "very much; on the contrary; it is", "print": "very much; on the contrary, it is", "sure": "high"}
+{"given": "to try his temper today.", "print": "to try his temper to-day.", "sure": "high"}

@@ -1,0 +1,5 @@
+{"given": "From his uninviting looking establishment", "print": "From this uninviting looking establishment", "sure": "high"}
+{"given": "remade into a gray coarse looking", "print": "remade into a grey coarse looking", "sure": "high"}
+{"given": "to be again sold; and perchance", "print": "to be again sold, and perchance", "sure": "high"}
+{"given": "and also assist the attendant", "print": "and also to assist the attendant", "sure": "high"}
+{"given": "each is finally listed when sufficiently", "print": "each is finally lifted when sufficiently", "sure": "high"}

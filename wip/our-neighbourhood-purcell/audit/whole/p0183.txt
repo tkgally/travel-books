@@ -1,0 +1,6 @@
+{"given": "Kichibei, the Cakeman.", "print": "KICHIBEI, THE CAKEMAN.", "sure": "medium"}
+{"given": "The dwellers in “Our neighbourhood,” simple", "print": "The dwellers in “Our Neighbourhood,” simple", "sure": "high"}
+{"given": "exhibiting this pranks and postures", "print": "exhibiting his pranks and postures", "sure": "high"}
+{"given": "of Kichibei, the cakcman, heard,", "print": "of Kichibei, the cakeman, heard,", "sure": "high"}
+{"given": "be confounded with Améya to whom", "print": "be confounded with the Améya to whom", "sure": "high"}
+{"given": "a slight resemblance; and who,", "print": "a slight resemblance, and who,", "sure": "high"}
