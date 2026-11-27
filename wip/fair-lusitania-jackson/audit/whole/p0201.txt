@@ -1,5 +1,0 @@
-{"given": "lifted up towards skies, on", "print": "lifted up towards the skies, on", "sure": "high"}
-{"given": "short distance from if, crowning", "print": "short distance from it, crowning", "sure": "high"}
-{"given": "“the Portal of Paradize.”", "print": "“the Portal of Paradise.”", "sure": "high"}
-{"given": "above, and bcyond it.", "print": "above, and beyond it.", "sure": "high"}
-{"given": "“the Larmanjat” boxes; so worn,", "print": "“the Larmanjat” boxes, so worn,", "sure": "high"}

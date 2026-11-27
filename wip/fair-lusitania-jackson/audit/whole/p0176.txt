@@ -1,5 +1,0 @@
-{"given": "the Spanish yoke was thrown off forever.”", "print": "the Spanish yoke was thrown off for ever.”", "sure": "high"}
-{"given": "and the stcamers, which run every", "print": "and the steamers, which run every", "sure": "high"}
-{"given": "between Lisbon and Cacilhas; carried over", "print": "between Lisbon and Cacilhas, carried over", "sure": "high"}
-{"given": "there by hundreds at time, which,", "print": "there by hundreds at a time, which,", "sure": "high"}
-{"given": "her oppressor. Or the 24th Dom", "print": "her oppressor. On the 24th Dom", "sure": "high"}

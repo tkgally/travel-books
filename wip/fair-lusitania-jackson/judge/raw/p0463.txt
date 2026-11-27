@@ -1,3 +1,0 @@
-{"n": 1, "is": "A", "print": "<sc>london:</sc>", "sure": "low"}
-{"n": 2, "is": "A", "print": "<sc>r. clay, sons, and taylor, printers,</sc>", "sure": "low"}
-{"n": 3, "is": "A", "print": "<sc>bread street hill.</sc>", "sure": "low"}

@@ -1,0 +1,206 @@
+{
+ "p0017": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "A M<sc>ountain</sc> T<sc>orrent</sc> „ <pref>10</pref>",
+   "replace": "A M<sc>ountain</sc> T<sc>orrent</sc> ” <pref>10</pref>",
+   "draft": "orrent</sc> „ <pref>10</p",
+   "verified": "orrent</sc> ” <pref>10</p",
+   "context": "</sc> Y<sc>okohama</sc> <i>To face page</i> <pref>6</pref> ⏎  ⏎ A M<sc>ountain</sc> T<sc>orrent</sc> „ <pref>10</pref> ⏎  ⏎ C<sc>herry</sc> B<sc>lossoms</sc> „ <pref>18</pref> ⏎  ⏎ A T<s"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "„ <pref>18</pref>",
+   "replace": "” <pref>18</pref>",
+   "draft": "„ <pref>18</p",
+   "verified": "” <pref>18</p",
+   "context": "t</sc> ” <pref>10</pref> ⏎  ⏎ C<sc>herry</sc> B<sc>lossoms</sc> „ <pref>18</pref> ⏎  ⏎ A T<sc>ea</sc> G<sc>arden at</sc> N<sc>ikkō</sc> „ <pref>2"
+  },
+  {
+   "n": 3,
+   "kind": "punctuation",
+   "find": "„ <pref>22</pref>",
+   "replace": "” <pref>22</pref>",
+   "draft": "„ <pref>22</p",
+   "verified": "” <pref>22</p",
+   "context": "18</pref> ⏎  ⏎ A T<sc>ea</sc> G<sc>arden at</sc> N<sc>ikkō</sc> „ <pref>22</pref> ⏎  ⏎ M<sc>ount</sc> F<sc>ujiyama</sc> „ <pref>24</pref> ⏎  ⏎ A B<sc"
+  },
+  {
+   "n": 4,
+   "kind": "punctuation",
+   "find": "„ <pref>24</pref>",
+   "replace": "” <pref>24</pref>",
+   "draft": "„ <pref>24</p",
+   "verified": "” <pref>24</p",
+   "context": "kō</sc> ” <pref>22</pref> ⏎  ⏎ M<sc>ount</sc> F<sc>ujiyama</sc> „ <pref>24</pref> ⏎  ⏎ A B<sc>ronze</sc> V<sc>essel</sc> „ <pref>28</pref> ⏎  ⏎ B<sc>"
+  },
+  {
+   "n": 5,
+   "kind": "punctuation",
+   "find": "„ <pref>28</pref>",
+   "replace": "” <pref>28</pref>",
+   "draft": "„ <pref>28</p",
+   "verified": "” <pref>28</p",
+   "context": "a</sc> ” <pref>24</pref> ⏎  ⏎ A B<sc>ronze</sc> V<sc>essel</sc> „ <pref>28</pref> ⏎  ⏎ B<sc>asket</sc> M<sc>aking</sc> „ <pref>32</pref> ⏎  ⏎ A G<sc>"
+  },
+  {
+   "n": 6,
+   "kind": "punctuation",
+   "find": "„ <pref>32</pref>",
+   "replace": "” <pref>32</pref>",
+   "draft": "„ <pref>32</p",
+   "verified": "” <pref>32</p",
+   "context": "sel</sc> ” <pref>28</pref> ⏎  ⏎ B<sc>asket</sc> M<sc>aking</sc> „ <pref>32</pref> ⏎  ⏎ A G<sc>roup of</sc> J<sc>apanese</sc> „ <pref>40</pref> ⏎  ⏎ T"
+  },
+  {
+   "n": 7,
+   "kind": "punctuation",
+   "find": "„ <pref>40</pref>",
+   "replace": "” <pref>40</pref>",
+   "draft": "„ <pref>40</p",
+   "verified": "” <pref>40</p",
+   "context": "c> ” <pref>32</pref> ⏎  ⏎ A G<sc>roup of</sc> J<sc>apanese</sc> „ <pref>40</pref> ⏎  ⏎ T<sc>emple of</sc> Y<sc>akushi</sc> „ <pref>46</pref> ⏎  ⏎ A<s"
+  },
+  {
+   "n": 8,
+   "kind": "punctuation",
+   "find": "„ <pref>46</pref>",
+   "replace": "” <pref>46</pref>",
+   "draft": "„ <pref>46</p",
+   "verified": "” <pref>46</p",
+   "context": "/sc> ” <pref>40</pref> ⏎  ⏎ T<sc>emple of</sc> Y<sc>akushi</sc> „ <pref>46</pref> ⏎  ⏎ A<sc>n</sc> U<sc>mbrella</sc> M<sc>aker</sc> „ <pref>52</p"
+  },
+  {
+   "n": 9,
+   "kind": "punctuation",
+   "find": "„ <pref>52</pref>",
+   "replace": "” <pref>52</pref>",
+   "draft": "„ <pref>52</p",
+   "verified": "” <pref>52</p",
+   "context": "ref>46</pref> ⏎  ⏎ A<sc>n</sc> U<sc>mbrella</sc> M<sc>aker</sc> „ <pref>52</pref> ⏎  ⏎ A J<sc>apanese</sc> H<sc>ouse</sc> „ <pref>58</pref> ⏎  ⏎ M<sc"
+  },
+  {
+   "n": 10,
+   "kind": "punctuation",
+   "find": "„ <pref>58</pref>",
+   "replace": "” <pref>58</pref>",
+   "draft": "„ <pref>58</p",
+   "verified": "” <pref>58</p",
+   "context": "</sc> ” <pref>52</pref> ⏎  ⏎ A J<sc>apanese</sc> H<sc>ouse</sc> „ <pref>58</pref> ⏎  ⏎ M<sc>an</sc> L<sc>abour</sc> „ <pref>64</pref> ⏎  ⏎ A V<sc>ill"
+  },
+  {
+   "n": 11,
+   "kind": "punctuation",
+   "find": "„ <pref>64</pref>",
+   "replace": "” <pref>64</pref>",
+   "draft": "„ <pref>64</p",
+   "verified": "” <pref>64</p",
+   "context": "c>ouse</sc> ” <pref>58</pref> ⏎  ⏎ M<sc>an</sc> L<sc>abour</sc> „ <pref>64</pref> ⏎  ⏎ A V<sc>illage</sc> S<sc>treet</sc> „ <pref>70</pref> ⏎  ⏎ O H<"
+  },
+  {
+   "n": 12,
+   "kind": "punctuation",
+   "find": "„ <pref>70</pref>",
+   "replace": "” <pref>70</pref>",
+   "draft": "„ <pref>70</p",
+   "verified": "” <pref>70</p",
+   "context": "</sc> ” <pref>64</pref> ⏎  ⏎ A V<sc>illage</sc> S<sc>treet</sc> „ <pref>70</pref> ⏎  ⏎ O H<sc>ayo</sc> „ <pref>80</pref> ⏎  ⏎ S<sc>ea</sc> B<sc>athin"
+  },
+  {
+   "n": 13,
+   "kind": "punctuation",
+   "find": "„ <pref>80</pref>",
+   "replace": "” <pref>80</pref>",
+   "draft": "„ <pref>80</p",
+   "verified": "” <pref>80</p",
+   "context": "age</sc> S<sc>treet</sc> ” <pref>70</pref> ⏎  ⏎ O H<sc>ayo</sc> „ <pref>80</pref> ⏎  ⏎ S<sc>ea</sc> B<sc>athing</sc> „ <pref>88</pref> ⏎  ⏎ V<sc>isit"
+  },
+  {
+   "n": 14,
+   "kind": "punctuation",
+   "find": "„ <pref>88</pref>",
+   "replace": "” <pref>88</pref>",
+   "draft": "„ <pref>88</p",
+   "verified": "” <pref>88</p",
+   "context": "c>ayo</sc> ” <pref>80</pref> ⏎  ⏎ S<sc>ea</sc> B<sc>athing</sc> „ <pref>88</pref> ⏎  ⏎ V<sc>isiting</sc> D<sc>ay</sc> „ <pref>96</pref> ⏎  ⏎ T<sc>anj"
+  },
+  {
+   "n": 15,
+   "kind": "punctuation",
+   "find": "„ <pref>96</pref>",
+   "replace": "” <pref>96</pref>",
+   "draft": "„ <pref>96</p",
+   "verified": "” <pref>96</p",
+   "context": "hing</sc> ” <pref>88</pref> ⏎  ⏎ V<sc>isiting</sc> D<sc>ay</sc> „ <pref>96</pref> ⏎  ⏎ T<sc>anjo no</sc> S<sc>ekku</sc> „ <pref>100</pref> ⏎  ⏎ J<sc>"
+  },
+  {
+   "n": 16,
+   "kind": "punctuation",
+   "find": "„ <pref>100</pref>",
+   "replace": "” <pref>100</pref>",
+   "draft": "„ <pref>100</",
+   "verified": "” <pref>100</",
+   "context": "ay</sc> ” <pref>96</pref> ⏎  ⏎ T<sc>anjo no</sc> S<sc>ekku</sc> „ <pref>100</pref> ⏎  ⏎ J<sc>imum</sc> T<sc>ennō</sc> „ <pref>110</pref> ⏎  ⏎ T<sc>he<"
+  },
+  {
+   "n": 17,
+   "kind": "punctuation",
+   "find": "„ <pref>110</pref>",
+   "replace": "” <pref>110</pref>",
+   "draft": "„ <pref>110</",
+   "verified": "” <pref>110</",
+   "context": "ekku</sc> ” <pref>100</pref> ⏎  ⏎ J<sc>imum</sc> T<sc>ennō</sc> „ <pref>110</pref> ⏎  ⏎ T<sc>he</sc> G<sc>eisha</sc> „ <pref>116</pref> ⏎  ⏎ A T<sc>ea"
+  },
+  {
+   "n": 18,
+   "kind": "punctuation",
+   "find": "„ <pref>116</pref>",
+   "replace": "” <pref>116</pref>",
+   "draft": "„ <pref>116</",
+   "verified": "” <pref>116</",
+   "context": ">ennō</sc> ” <pref>110</pref> ⏎  ⏎ T<sc>he</sc> G<sc>eisha</sc> „ <pref>116</pref> ⏎  ⏎ A T<sc>ea</sc>-P<sc>arty</sc> „ <pref>126</pref> ⏎  ⏎ A S<sc>t"
+  },
+  {
+   "n": 19,
+   "kind": "punctuation",
+   "find": "„ <pref>126</pref>",
+   "replace": "” <pref>126</pref>",
+   "draft": "„ <pref>126</",
+   "verified": "” <pref>126</",
+   "context": "isha</sc> ” <pref>116</pref> ⏎  ⏎ A T<sc>ea</sc>-P<sc>arty</sc> „ <pref>126</pref> ⏎  ⏎ A S<sc>tage</sc> „ <pref>134</pref> ⏎ "
+  },
+  {
+   "n": 20,
+   "kind": "punctuation",
+   "find": "„ <pref>134</pref>",
+   "replace": "” <pref>134</pref>",
+   "draft": "„ <pref>134</",
+   "verified": "” <pref>134</",
+   "context": "ea</sc>-P<sc>arty</sc> ” <pref>126</pref> ⏎  ⏎ A S<sc>tage</sc> „ <pref>134</pref> ⏎ "
+  }
+ ],
+ "p0044": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<i>geisha</i>",
+   "replace": "<i>geisba</i>",
+   "draft": "<i>geisha</i>",
+   "verified": "<i>geisba</i>",
+   "context": "s a small branch of cherry blossom. In the larger towns the <i>geisha</i> perform the wonderful cherry dance, as it is called, where "
+  }
+ ],
+ "p0078": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<i>pièce de rèsistance</i>",
+   "replace": "<i>pièce de résistance</i>",
+   "draft": "i>pièce de rèsistance</i>",
+   "verified": "i>pièce de résistance</i>",
+   "context": "and produced this thing which had cost 1½ yen (3s.), as the <i>pièce de rèsistance</i>, the most priceless treasure in my collection. The connoiss"
+  }
+ ]
+}

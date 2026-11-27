@@ -1,5 +1,0 @@
-{"given": "yet, as I said; ere we go", "print": "yet, as I said, ere we go", "sure": "high"}
-{"given": "our steeds and admire charming quinta", "print": "our steeds and admire the charming quinta", "sure": "high"}
-{"given": "French occupation of lisbon and Cintra", "print": "French occupation of Lisbon and Cintra", "sure": "high"}
-{"given": "are said to he of the", "print": "are said to be of the", "sure": "high"}
-{"given": "It oceupies a projecting mound", "print": "It occupies a projecting mound", "sure": "high"}
