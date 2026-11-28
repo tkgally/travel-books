@@ -1,41 +1,41 @@
 [[page ?]]
 
-| 151st | page, | 15th | line | from | bottom, for <i>contracted</i> read <i>committed</i>. |
-| 152d | “ | 11th | “ | “ | “ for <i>river</i> read <i>view</i>. |
-| 153d | “ | 12th | “ | “ | top, for <i>hand</i> read <i>hands</i>. |
-| 155th | “ | 5th | “ | “ | bottom, for <i>miles</i> read <i>yards</i> |
-| 158th | “ | 19th | “ | “ | top, for <i>onclean</i> read <i>unclean</i>. |
-| 160th | “ | 11th | “ | “ | bottom, for <i>break</i> read <i>breach</i>. |
-| 164th | “ | 21st | “ | “ | “ for <i>as</i> read <i>and</i>. |
-| 169th | “ | top line, should read, “The cenotaphs are of marble.” | | | |
-| 171st | “ | 6th | line | from | top, for <i>vested</i> read <i>rested</i>. |
-| 171st | “ | 15th | “ | “ | bottom, for <i>clean</i> read <i>clear</i>. |
-| 172d | “ | 22d | “ | “ | top, for <i>remarkable</i> read <i>venerable</i>. |
-| 172d | “ | 23d | “ | “ | bottom, for <i>head</i> read <i>beard</i>. |
-| 172d | “ | 8th | “ | “ | “ for <i>brick</i> read <i>breach</i>. |
-| 175th | “ | 18th | “ | “ | top, for <i>ear-rings</i> read <i>carvings</i>. |
-| 176th | “ | 24th | “ | “ | bottom, for <i>and culture</i> read <i>in colors</i>. |
-| 177th | “ | 13th | “ | “ | “ for <i>covering</i> read <i>carving</i>. |
-| 180th | “ | 8th | “ | “ | “ for <i>for</i> read <i>from</i>. |
-| 185th | “ | 11th | “ | “ | “ for <i>shule</i> read <i>thule</i>. |
-| 193d | “ | 7th | “ | “ | “ for <i>touper</i> read <i>toupee</i>. |
-| 199th | “ | 24th | “ | “ | “ for <i>parts</i> read <i>yards</i>. |
-| 200th | “ | 4th | “ | “ | top for <i>leave</i> read <i>visit</i>. |
-| 200th | “ | 12th | “ | “ | bottom, for <i>small</i> read <i>much</i>. |
-| 202d | “ | 29th | “ | “ | “ for <i>that</i> read <i>than</i>. |
-| 202d | “ | 26th | “ | “ | “ for <i>Waitre</i> read <i>Maitre</i>. |
-| 204th | “ | 17th | “ | “ | top, for <i>when</i> read <i>where</i>. |
-| 204th | “ | 6th | “ | “ | bottom, for <i>when</i> read <i>where</i>. |
-| 207th | “ | 8th | “ | “ | “ for <i>hold</i> read <i>held</i>. |
-| 209th | “ | 14th | “ | “ | top, for <i>thin</i> read <i>their</i>. |
-| 210th | “ | 23d | “ | “ | “ before the word <i>all</i> insert <i>from</i>. |
-| 216th | “ | bottom line, for <i>ornament</i> read <i>armament</i>. | | | |
-| 217th | “ | 5th | line | from | top, for <i>flint-locks</i> read <i>flints</i>. |
-| 217th | “ | 5th | “ | “ | bottom, for <i>by</i> read <i>in the</i>. |
-| 219th | “ | 18th | line | “ | top, for <i>August</i> read <i>March</i>. |
-| 219th | “ | 15th | “ | “ | bottom, for <i>unnecessary</i> read <i>incessant</i>. |
-| 220th | “ | 23d | “ | “ | “ for <i>loose</i> read <i>lose</i>. |
-| 223d | “ | 11th | “ | “ | “ erase the last <i>these</i>. |
-| 227th | “ | 8th | “ | “ | “ add <i>in Paradise</i>. |
-| 229th | “ | 15th | “ | “ | top, for <i>September</i> read <i>April</i>. |
-| 229th | “ | 10th | “ | “ | bottom, for <i>when</i> read <i>where</i>. |
+| 151st | page, | 15th | line | from bottom, for <i>contracted</i> read <i>committed</i>. |
+| 152d | “ | 11th | “ | “ “ for <i>river</i> read <i>view</i>. |
+| 153d | “ | 12th | “ | “ top, for <i>hand</i> read <i>hands</i>. |
+| 155th | “ | 5th | “ | “ bottom, for <i>miles</i> read <i>yards</i> |
+| 158th | “ | 19th | “ | “ top, for <i>onclean</i> read <i>unclean</i>. |
+| 160th | “ | 11th | “ | “ bottom, for <i>break</i> read <i>breach</i>. |
+| 164th | “ | 21st | “ | “ “ for <i>as</i> read <i>and</i>. |
+| 169th | “ | top line, should read, “The cenotaphs are of marble.” | |  |
+| 171st | “ | 6th | line | from top, for <i>vested</i> read <i>rested</i>. |
+| 171st | “ | 15th | “ | “ bottom, for <i>clean</i> read <i>clear</i>. |
+| 172d | “ | 22d | “ | “ top, for <i>remarkable</i> read <i>venerable</i>. |
+| 172d | “ | 23d | “ | “ bottom, for <i>head</i> read <i>beard</i>. |
+| 172d | “ | 8th | “ | “ “ for <i>brick</i> read <i>breach</i>. |
+| 175th | “ | 18th | “ | “ top, for <i>ear-rings</i> read <i>carvings</i>. |
+| 176th | “ | 24th | “ | “ bottom, for <i>and culture</i> read <i>in colors</i>. |
+| 177th | “ | 13th | “ | “ “ for <i>covering</i> read <i>carving</i>. |
+| 180th | “ | 8th | “ | “ “ for <i>for</i> read <i>from</i>. |
+| 185th | “ | 11th | “ | “ “ for <i>shule</i> read <i>thule</i>. |
+| 193d | “ | 7th | “ | “ “ for <i>touper</i> read <i>toupee</i>. |
+| 199th | “ | 24th | “ | “ “ for <i>parts</i> read <i>yards</i>. |
+| 200th | “ | 4th | “ | “ top for <i>leave</i> read <i>visit</i>. |
+| 200th | “ | 12th | “ | “ bottom, for <i>small</i> read <i>much</i>. |
+| 202d | “ | 29th | “ | “ “ for <i>that</i> read <i>than</i>. |
+| 202d | “ | 26th | “ | “ “ for <i>Waitre</i> read <i>Maitre</i>. |
+| 204th | “ | 17th | “ | “ top, for <i>when</i> read <i>where</i>. |
+| 204th | “ | 6th | “ | “ bottom, for <i>when</i> read <i>where</i>. |
+| 207th | “ | 8th | “ | “ “ for <i>hold</i> read <i>held</i>. |
+| 209th | “ | 14th | “ | “ top, for <i>thin</i> read <i>their</i>. |
+| 210th | “ | 23d | “ | “ “ before the word <i>all</i> insert <i>from</i>. |
+| 216th | “ | bottom line, for <i>ornament</i> read <i>armament</i>. | |  |
+| 217th | “ | 5th | line | from top, for <i>flint-locks</i> read <i>flints</i>. |
+| 217th | “ | 5th | “ | “ bottom, for <i>by</i> read <i>in the</i>. |
+| 219th | “ | 18th | line | “ top, for <i>August</i> read <i>March</i>. |
+| 219th | “ | 15th | “ | “ bottom, for <i>unnecessary</i> read <i>incessant</i>. |
+| 220th | “ | 23d | “ | “ “ for <i>loose</i> read <i>lose</i>. |
+| 223d | “ | 11th | “ | “ “ erase the last <i>these</i>. |
+| 227th | “ | 8th | “ | “ “ add <i>in Paradise</i>. |
+| 229th | “ | 15th | “ | “ top, for <i>September</i> read <i>April</i>. |
+| 229th | “ | 10th | “ | “ bottom, for <i>when</i> read <i>where</i>. |
