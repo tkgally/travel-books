@@ -1,0 +1,5 @@
+{"given": "of fine-looking men women, copper-coloured", "print": "of fine-looking men and women, copper-coloured", "sure": "high"}
+{"given": "tied around the head; while the latter", "print": "tied around the head, while the latter", "sure": "high"}
+{"given": "probably for bartcr, and, as", "print": "probably for barter, and, as", "sure": "high"}
+{"given": "Our chinese boy had almost", "print": "Our Chinese boy had almost", "sure": "high"}
+{"given": "we were told or the other side", "print": "we were told on the other side", "sure": "high"}

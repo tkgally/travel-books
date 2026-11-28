@@ -1,0 +1,5 @@
+{"given": "in the position assigned if.", "print": "in the position assigned it.", "sure": "high"}
+{"given": "available for whaling-purpofes was carefully", "print": "available for whaling-purposes was carefully", "sure": "high"}
+{"given": "shore-party, with valuable results of", "print": "shore-party, with the valuable results of", "sure": "high"}
+{"given": "the Hancock and cooper, bringing", "print": "the Hancock and Cooper, bringing", "sure": "high"}
+{"given": "1856, from Otaheite; having made", "print": "1856, from Otaheite, having made", "sure": "high"}

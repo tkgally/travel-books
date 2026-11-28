@@ -105,5 +105,13 @@
   "p0190",
   "p0376",
   "p0446"
- ]
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-28",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
 }
