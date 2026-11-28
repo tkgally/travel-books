@@ -1,0 +1,249 @@
+{
+ "id": "padre-in-partibus-reith",
+ "version": 1,
+ "date": "2026-11-28",
+ "title": "A Padre in Partibus",
+ "subtitle": "Being Notes and Impressions of a Brief Holiday Tour through Java, the Eastern Archipelago and Siam",
+ "short_title": "A Padre in Partibus",
+ "authors": [
+  {
+   "name": "George M. Reith",
+   "sort": "Reith, George M."
+  }
+ ],
+ "place": "Singapore",
+ "publisher": "The Singapore and Straits Printing Office",
+ "year": 1897,
+ "edition_statement": "First edition (reprinted from the Singapore Free Press)",
+ "regions": [
+  "Indonesia",
+  "Thailand",
+  "Singapore"
+ ],
+ "period": "1896",
+ "source": {
+  "ia_identifier": "padrepartibus00reit",
+  "contributor": "Smithsonian Libraries and Archives"
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-28",
+   "note": "First publication."
+  }
+ ],
+ "divisions": [
+  {
+   "at": "p0013",
+   "kind": "front",
+   "title": "Half-title"
+  },
+  {
+   "at": "p0015",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0017",
+   "kind": "preface"
+  },
+  {
+   "at": "p0021",
+   "kind": "contents"
+  },
+  {
+   "at": "p0024",
+   "kind": "front",
+   "reading": true
+  },
+  {
+   "at": "p0025",
+   "kind": "front",
+   "title": "The book’s title above the Introductory"
+  },
+  {
+   "at": "p0025",
+   "kind": "introduction",
+   "n": 2
+  },
+  {
+   "at": "p0027",
+   "kind": "chapter",
+   "title": "I.",
+   "toc_title": "I. Singapore to Sourabaya—Across the Equator—The Karimata Passage—The Straits of Madura"
+  },
+  {
+   "at": "p0031",
+   "kind": "chapter",
+   "title": "II.",
+   "toc_title": "II. Bali—The Southern limit of Asiatic fauna and flora—Boeleling—Hindu Temple at Sangsit—The Grotesque in Sacred Art—A Balinese Bazaar"
+  },
+  {
+   "at": "p0038",
+   "kind": "chapter",
+   "title": "III.",
+   "toc_title": "III. A Balinese Orchestra—Singaradja, the Simla of Bali—Van der Tuuk, the Anchorite of Bali"
+  },
+  {
+   "at": "p0045",
+   "kind": "chapter",
+   "title": "IV.",
+   "toc_title": "IV. Ampenan, Lombok—Lombok and Bali Peaks—A Catastrophe—Towed to Ampenan—The Lombok Massacre of 1894—Treatment of Natives"
+  },
+  {
+   "at": "p0052",
+   "kind": "chapter",
+   "title": "V.",
+   "toc_title": "V. Sassaks and Balinese—Mataram—Chakra Nagara—The late Rajah’s Palace—Towed to Macassar"
+  },
+  {
+   "at": "p0059",
+   "kind": "chapter",
+   "title": "VI.",
+   "toc_title": "VI. Eruptions of Temboro and Krakatau—Macassar and the Celebes—The home of the Bugis—Their Former Glories"
+  },
+  {
+   "at": "p0066",
+   "kind": "chapter",
+   "title": "VII.",
+   "toc_title": "VII. Relics of the Past of Macassar—Bugis New Year—Bugis Architecture—The Governor"
+  },
+  {
+   "at": "p0073",
+   "kind": "chapter",
+   "title": "VIII.",
+   "toc_title": "VIII. Taloe—River Scenery—Gaming Tables—Saguier, the Native Drink—The Dutch and Natives—Over-centralisation—Official dilatoriness—The Dutch and the Transvaal—Languages of Macassar"
+  },
+  {
+   "at": "p0081",
+   "kind": "chapter",
+   "title": "IX.",
+   "toc_title": "IX. Sumbawa—Its covetous Rajah—A Royal Procession—Parting of the Pilgrims—Back to Ampenan"
+  },
+  {
+   "at": "p0089",
+   "kind": "chapter",
+   "title": "X.",
+   "toc_title": "X. Lebih in Bali—A Native State—’Neath Bali Peak—Cock Fighting—A Bichara"
+  },
+  {
+   "at": "p0098",
+   "kind": "chapter",
+   "title": "XI.",
+   "toc_title": "XI. Sourabaya—Wicked Ways of British Craft—The Dos-à-dos—The rise of John Chinaman—The Town—Anti-Loafer Regulations"
+  },
+  {
+   "at": "p0106",
+   "kind": "chapter",
+   "title": "XII.",
+   "toc_title": "XII. Expedition to the Bromo—Native Life as seen from the Railway—Pasoeroean—Poespoh—Tosari"
+  },
+  {
+   "at": "p0115",
+   "kind": "chapter",
+   "title": "XIII.",
+   "toc_title": "XIII. Off to the Bromo—The Sand Sea—The Crater—Where Churchmen found Hell—The cost of the Bromo trip"
+  },
+  {
+   "at": "p0124",
+   "kind": "chapter",
+   "title": "XIV.",
+   "toc_title": "XIV. Jokjakarta—Bairns—Native Officials—Native dress in Central Java—Madioen—Soerakarta—In and Around Jokjakarta"
+  },
+  {
+   "at": "p0134",
+   "kind": "chapter",
+   "title": "XV.",
+   "toc_title": "XV. Start for Boro Boedoer—Nature Worship—The Temple of Mendoet—Boro Boedoer—The Sculptures—The Temple by Night—Commonsense and Nonsense"
+  },
+  {
+   "at": "p0150",
+   "kind": "chapter",
+   "title": "XVI.",
+   "toc_title": "XVI. Parambanan—Cephalentomology—Siva and Buddha—A hundred and fifty Temples—The Temple of Nandi"
+  },
+  {
+   "at": "p0160",
+   "kind": "chapter",
+   "title": "XVII.",
+   "toc_title": "XVII. Garoet and Volcanoes—“Guide to West Java”—Dutch-English—Tji Panas"
+  },
+  {
+   "at": "p0170",
+   "kind": "chapter",
+   "title": "XVIII.",
+   "toc_title": "XVIII. Buitenzorg—A Dioramic Effect—The Gardens—Whitewash"
+  },
+  {
+   "at": "p0178",
+   "kind": "chapter",
+   "title": "XIX.",
+   "toc_title": "XIX. Batavia—The Business Quarter—The Schutterij—Waterloo Plein—The Museum—The Clubs—The Achinese War"
+  },
+  {
+   "at": "p0187",
+   "kind": "chapter",
+   "title": "XX.",
+   "toc_title": "XX. General Impressions of Netherlands India—Dutch Influence—The Natives and Dutch Rule—The Dutchman at Home in Java"
+  },
+  {
+   "at": "p0197",
+   "kind": "chapter",
+   "title": "XXI.",
+   "toc_title": "XXI. The Dutch Language—The Colonial Twang—Dutch Spelling—Language and Morals"
+  },
+  {
+   "at": "p0204",
+   "kind": "chapter",
+   "title": "XXII.",
+   "toc_title": "XXII. Dutch Colonial Manners—How the day is spent—Rijsttafel—The Colonial Army—The Only Justification of Eastern Empire"
+  },
+  {
+   "at": "p0215",
+   "kind": "chapter",
+   "title": "XXIII.",
+   "toc_title": "XXIII. Bangkok—Paknam—The French Coup—The River and the Khlongs—Floating Houses—Asiatic Craft"
+  },
+  {
+   "at": "p0225",
+   "kind": "chapter",
+   "title": "XXIV.",
+   "toc_title": "XXIV. Ayuthia, the Old Capital—Bang Pa-in—Buddhist Casuistry—The Wat Poh T’ai—The Ancient Palace"
+  },
+  {
+   "at": "p0236",
+   "kind": "chapter",
+   "title": "XXV.",
+   "toc_title": "XXV. The Heat of Bangkok—The Palace—The Late Crown Prince—The Royal Temple—The Wat Chang—Koh Si Chang"
+  }
+ ],
+ "notes_on_text": [
+  "The contents of this edition give each chapter the summary printed in the book’s own contents, which is shorter than, and worded differently from, the summary at the head of the chapter."
+ ],
+ "omitted_from_reading": "The half-title, the printed contents, and the book’s title above the Introductory are in the JSON only.",
+ "subjects": [
+  "Java",
+  "Bali",
+  "Lombok",
+  "Celebes",
+  "Siam",
+  "Dutch East Indies"
+ ],
+ "summary": "George M. Reith, the Presbyterian minister in Singapore, wrote these letters to the Singapore Free Press during a holiday tour that began in February 1896, and they were reprinted as a book the next year. He went by small steamer to Sourabaya, Bali, and Lombok soon after the fighting of 1894, Macassar in Celebes, and Sumbawa; then through Java, to the crater of the Bromo, Jokjakarta, the temples of Boro Boedoer and Parambanan, Garoet, Buitenzorg, and Batavia; and last to Bangkok and Ayuthia in Siam. He writes in the first person and with humour of fellow passengers, Dutch officials and colonial manners, the Dutch language, native rulers and markets, temples and volcanoes, and of what the journey cost. Malay words are translated in footnotes.",
+ "ornaments": [
+  "p0020-1",
+  "p0023-1",
+  "p0245-1"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-28",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ },
+ "keep_hyphens": [
+  "p0092",
+  "p0228"
+ ]
+}
