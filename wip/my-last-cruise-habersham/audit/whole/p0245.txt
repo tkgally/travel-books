@@ -1,5 +1,0 @@
-{"given": "who “had never bcfore seen such", "print": "who “had never before seen such", "sure": "high"}
-{"given": "and when you go away the fame thing", "print": "and when you go away the same thing", "sure": "high"}
-{"given": "like the frenchman’s cat, ‘incessantly", "print": "like the Frenchman’s cat, ‘incessantly", "sure": "high"}
-{"given": "baffle them considerably also; for in", "print": "baffle them considerably also, for in", "sure": "high"}
-{"given": "often get beyond grounds of the temple", "print": "often get beyond the grounds of the temple", "sure": "high"}

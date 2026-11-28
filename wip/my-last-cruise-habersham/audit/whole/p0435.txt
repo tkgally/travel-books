@@ -1,5 +1,0 @@
-{"given": "whose stupid iguorance or criminal", "print": "whose stupid ignorance or criminal", "sure": "high"}
-{"given": "I turned with look of gloomy", "print": "I turned with a look of gloomy", "sure": "high"}
-{"given": "the eagle's glance then it meets", "print": "the eagle's glance when it meets", "sure": "high"}
-{"given": "“Yes,” he continued; in a voice", "print": "“Yes,” he continued, in a voice", "sure": "high"}
-{"given": "Tell lawton to fire up", "print": "Tell Lawton to fire up", "sure": "high"}

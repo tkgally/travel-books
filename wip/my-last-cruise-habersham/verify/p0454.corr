@@ -1,5 +1,0 @@
-{"find": "they had had a feast", "replace": "they had had a feast"}
-
-Wait—the draft reads "a fiddle and they had had a feast", which matches the page. Correcting only the real differences:
-
-{"find": "“old John,” they", "replace": "“old John,” they"}

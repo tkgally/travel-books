@@ -1,8 +1,0 @@
-{"find": "a few potatoes and chickens", "replace": "a few potatoes and chickens"}
-{"find": "potatoes, and chickens", "replace": "potatoes and chickens"}
-
-Wait — correct list: the draft has "a few potatoes and chickens"? Draft: "a few potatoes, and chickens"? Draft reads "a few potatoes and chickens"... 
-
-Let me give the definitive list:
-
-{"find": "potatoes and chickens, from them", "replace": "potatoes and chickens, from them"}

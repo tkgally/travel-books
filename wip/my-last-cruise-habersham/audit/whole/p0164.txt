@@ -1,5 +1,0 @@
-{"given": "We were soon surrounded by crowd of several", "print": "We were soon surrounded by a crowd of several", "sure": "high"}
-{"given": "We saw some singnlar sights in", "print": "We saw some singular sights in", "sure": "high"}
-{"given": "under which where two very ordinary-looking", "print": "under which were two very ordinary-looking", "sure": "high"}
-{"given": "the price of them; and was told", "print": "the price of them, and was told", "sure": "high"}
-{"given": "in the United states for fifty cents", "print": "in the United States for fifty cents", "sure": "high"}

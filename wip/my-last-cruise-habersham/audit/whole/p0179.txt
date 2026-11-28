@@ -1,5 +1,0 @@
-{"given": "the thick shects of descending", "print": "the thick sheets of descending", "sure": "high"}
-{"given": "frightened, and russell, who,", "print": "frightened, and Russell, who,", "sure": "high"}
-{"given": "The device succeeded; and in", "print": "The device succeeded, and in", "sure": "high"}
-{"given": "most anxious moments my whole life,", "print": "most anxious moments of my whole life,", "sure": "high"}
-{"given": "ship’s motion, then the proper time", "print": "ship’s motion, when the proper time", "sure": "high"}
