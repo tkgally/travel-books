@@ -2397,11 +2397,13 @@
    "place": "Philadelphia",
    "publisher": "J. B. Lippincott & Co.",
    "images": 588,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-27",
    "eligibility": "JATSI 7. Vetted 2026-11-27 (Opus subagent). Rule 1 met: University of California scan, 400 ppi, colour, jp2.zip; frontispiece, engraved title and plates looked at. Other IA scans: LoC mylastcruiseorwh01habe (584 leaves); UC northpacificsurv00haberich (the issue retitled ‘The North Pacific Surveying and Exploring Expedition’); Google and DLI scans. Rule 2 met: pg_catalog.csv, Online Books Page and Wikisource nothing; Cornell page images only. Rule 3 met: only the printings of 1857–1878 found. Rule 4 met: first-person narrative by a naval officer. Re-checked 2026-11-28: web search finds catalogue records only. Scan check: the UC copy lacks pp. 125–126, taken from the LoC copy.",
    "note": "Clean colour scan. Frontispiece ‘Women admiring a Watch, in Japan’, an engraved vignette title and about 27 wood-engraved plates, each with a blank verso, some sideways; no printed list of illustrations: count them at the scan check. 24 chapters and a Conclusion, 507 pp. (about 148,000 words): long. Japan chapters XI–XVI (pp. 180–316): Shimoda, Hakodate, the Ainu. Lively and humorous.",
-   "started": "2026-11-28"
+   "started": "2026-11-28",
+   "version": 1,
+   "published": "2026-11-28"
   },
   {
    "order": 200,

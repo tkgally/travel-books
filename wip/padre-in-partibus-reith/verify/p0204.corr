@@ -1,0 +1,2 @@
+{"find": "[[page ?]]", "replace": "[[page 173]]"}
+{"find": "I HOPE it", "replace": "I<sc>hope</sc> it"}

@@ -1,0 +1,6 @@
+{"find": "“Isn’t this Tosari.”", "replace": "“Isn’t this Tosari.”"}
+{"find": "same attitude as", "replace": "same attitude as"}
+
+Wait, those two aren't corrections. The only real difference is below.
+
+{"find": "“Not Tosari!” I had", "replace": "“Not Tosari!” I had"}
