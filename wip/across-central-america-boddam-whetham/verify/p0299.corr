@@ -1,0 +1,3 @@
+{"find": "[[fn *]] Ceryle torquata.", "replace": "[[fn *]] <i>Ceryle torquata.</i>"}
+{"find": "[[fn †]] Ardea candidissima.", "replace": "[[fn †]] <i>Ardea candidissima.</i>"}
+{"find": "[[fn ‡]] Ardea Agami.", "replace": "[[fn ‡]] <i>Ardea Agami.</i>"}
