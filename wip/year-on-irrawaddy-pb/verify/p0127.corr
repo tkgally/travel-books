@@ -1,6 +1,0 @@
-{"find": "crime, intemperance", "replace": "crime, intemperance"}
-{"find": "dirt, disease, crime, intemperance and", "replace": "dirt, disease, crime, intemperance and"}
-
-Wait — let me correct that: the print reads "intemperance" (no "r" after "inte"), so the draft's "intemperance" is the only difference to fix.
-
-{"find": "intemperance", "replace": "intemperance"}

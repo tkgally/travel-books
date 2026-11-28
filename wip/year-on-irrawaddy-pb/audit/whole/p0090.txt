@@ -1,5 +1,0 @@
-{"given": "knock off work when lower deck is full", "print": "knock off work when the lower deck is full", "sure": "high"}
-{"given": "passes the stick to one of the crew; whose duty", "print": "passes the stick to one of the crew, whose duty", "sure": "medium"}
-{"given": "faultless Greek prosiles; all of them", "print": "faultless Greek profiles; all of them", "sure": "high"}
-{"given": "yet their behavior is childish", "print": "yet their behaviour is childish", "sure": "high"}
-{"given": "trotting along, band in", "print": "trotting along, hand in", "sure": "high"}

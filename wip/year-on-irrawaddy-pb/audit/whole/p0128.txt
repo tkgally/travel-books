@@ -1,5 +1,0 @@
-{"given": "flat so near that line can be thrown", "print": "flat so near that a line can be thrown", "sure": "high"}
-{"given": "the turn of a float or the paddle wheels", "print": "the turn of a float on the paddle wheels", "sure": "high"}
-{"given": "we proceed towards rangoon with our", "print": "we proceed towards Rangoon with our", "sure": "high"}
-{"given": "a native can be seen waitiug on", "print": "a native can be seen waiting on", "sure": "high"}
-{"given": "we get into position; well clear of", "print": "we get into position, well clear of", "sure": "high"}

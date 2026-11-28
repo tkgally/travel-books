@@ -1,5 +1,0 @@
-{"given": "After all; there are many", "print": "After all, there are many", "sure": "high"}
-{"given": "which I always inscrt in my", "print": "which I always insert in my", "sure": "high"}
-{"given": "Just above Magwe the skipper points out", "print": "Just above Magwe the Skipper points out", "sure": "high"}
-{"given": "close by the village Lepanzeik.", "print": "close by the village of Lepanzeik.", "sure": "high"}
-{"given": "“Well his is how I", "print": "“Well this is how I", "sure": "high"}

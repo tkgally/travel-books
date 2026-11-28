@@ -1,5 +1,0 @@
-{"given": "admired it, giviug the mother huge", "print": "admired it, giving the mother huge", "sure": "high"}
-{"given": "told her that if had a", "print": "told her that it had a", "sure": "high"}
-{"given": "Besides the burmese passengers there were", "print": "Besides the Burmese passengers there were", "sure": "high"}
-{"given": "by a party five or six Eurasians", "print": "by a party of five or six Eurasians", "sure": "high"}
-{"given": "and lower still; in a portion", "print": "and lower still, in a portion", "sure": "high"}
