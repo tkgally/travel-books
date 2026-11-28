@@ -1,0 +1,143 @@
+{
+ "p0038": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "late to night and",
+   "replace": "late to-night and",
+   "draft": "late to night and",
+   "verified": "late to-night and",
+   "context": "aylight to have an early dinner as the Skipper means to run late to night and has given orders that there are to be no lights on the uppe"
+  }
+ ],
+ "p0058": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "we pass to day is",
+   "replace": "we pass to-day is",
+   "draft": "we pass to day is",
+   "verified": "we pass to-day is",
+   "context": "er secunnie on the other boat. ⏎  ⏎ The chief point of interest we pass to day is Guadama Hill, a place which has been described by everyone "
+  }
+ ],
+ "p0077": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "<i>Beelays kum do barm</i>,” “<i>Sari ek barm</i>”",
+   "replace": "<i>Beelays kum do barm</i>,” <i>Sari ek barm</i>”",
+   "draft": " barm</i>,” “<i>Sari ek b",
+   "verified": " barm</i>,” <i>Sari ek b",
+   "context": ">” gives place to “<i>Sari do barm</i>.” “<i>Do barm</i>,” “<i>Beelays kum do barm</i>,” “<i>Sari ek barm</i>” in quick succession. The Serang of each flat repeats the cr"
+  }
+ ],
+ "p0084": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "Mr.—”",
+   "replace": "Mr.——”",
+   "draft": "Mr.—”",
+   "verified": "Mr.——”",
+   "context": " get to Nyounghla to-night.” ⏎  ⏎ “Right oh! I’ll do what I can Mr.—” says the Skipper, who recognises the voice. ⏎  ⏎ We port the he"
+  }
+ ],
+ "p0085": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "order “Full speed ahead.’",
+   "replace": "order ‘Full speed ahead.’",
+   "draft": "order “Full speed a",
+   "verified": "order ‘Full speed a",
+   "context": "s down into his chair with a sigh of relief as he gives the order “Full speed ahead.’ After a moment or so he sits up and looks round, then jumps"
+  }
+ ],
+ "p0106": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 81]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 81]]",
+   "context": "[[page ?]] ⏎  ⏎ # Chapter X. ⏎  ⏎ [[subtitle]] Bridge and Other Things. ⏎  ⏎ Below"
+  },
+  {
+   "n": 2,
+   "kind": "punctuation",
+   "find": "# Chapter X.",
+   "replace": "# Chapter X",
+   "draft": "# Chapter X.",
+   "verified": "# Chapter X",
+   "context": "[[page 81]] ⏎  ⏎ # Chapter X. ⏎  ⏎ [[subtitle]] Bridge and Other Things. ⏎  ⏎ Below Minhla we pas"
+  }
+ ],
+ "p0130": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 107]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 107]]",
+   "context": "[[page ?]] ⏎  ⏎ # Chapter XII. ⏎  ⏎ [[subtitle]] A Day Ashore. ⏎  ⏎ The first morn"
+  }
+ ],
+ "p0150": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 127]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 127]]",
+   "context": "[[page ?]] ⏎  ⏎ # Chapter XIV. ⏎  ⏎ [[subtitle]] The Crew. ⏎  ⏎ The crew deserve a"
+  }
+ ],
+ "p0167": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "any qualms,",
+   "replace": "any qualms.",
+   "draft": "any qualms,",
+   "verified": "any qualms.",
+   "context": " board, half an hour before dinner, and say to him, without any qualms, ⏎  ⏎ “Jumbo there will be six extra to dinner to-night.” ⏎  ⏎ “Very"
+  }
+ ],
+ "p0187": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 182]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 182]]",
+   "context": "[[page ?]] ⏎  ⏎ # Chapter XVI. ⏎  ⏎ [[subtitle]] T<sc>he</sc> R<sc>ains</sc>. ⏎ "
+  }
+ ],
+ "p0199": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "had not sunk a ship yet",
+   "replace": "had not sunk a a ship yet",
+   "draft": " not sunk a ship yet",
+   "verified": " not sunk a a ship yet",
+   "context": " reap ships” and that he could congratulate himself that he had not sunk a ship yet, but it was not till he had retrieved his fault by accident"
+  }
+ ],
+ "p0252": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 222]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 222]]",
+   "context": "[[page ?]] ⏎  ⏎ # Chapter XX. ⏎  ⏎ [[subtitle]] Last Days on the River. ⏎  ⏎ On ou"
+  }
+ ]
+}
