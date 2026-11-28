@@ -81,6 +81,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - Running heads that repeat the chapter title: the Sonnet pass dropped 26 chapter headings as running heads, the judge restored 17 and “could not undo” 9 (*Japan for a Week*, 2026-11-22); same remedy: `pages/` from the draft. A running head kept as a heading at a page top is listed by preflight `running-heads` (since 2026-11-28; *Fair Lusitania*’s “# Contents.”).
 - List every `#` and `##` line after the judge: drafts type an odd running head (a chapter title on one page, "Index" on
   index pages, "List of Illustrations" on its second page) as a heading (*Path of the Conquistadores*: 4, 2026-11-20).
+- A head-piece printed above a running title that is left out (“the book's title above Chapter I”, kind `front`) is lost with it: put the `[[image:]]` after the title, above `# Chapter I` (*Across Central America*, 2026-11-28: caught by the rendered look).
 - A publisher's catalogue typed with `#` headings: each `#` after the catalogue's division start opens a new reading chapter; demote them to `##` (*In the Canaries with a Camera*, 2026-11-28: caught by printing the contents).
 - `omitted_from_reading` names only what a division really leaves out: a printer's imprint after “The End” stays in the
   last chapter (*Kothari*, 2026-11-20: caught by the rendered look).

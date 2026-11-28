@@ -1,6 +1,0 @@
-{"find": "Paso de Sacluk", "replace": "Paso de Sacluk"}
-{"find": "you might rid", "replace": "you might rid"}
-
-Wait — I need to list only real changes. The page shows "Sacluk" in the image, but the draft has "Sacluk" too, so that entry changes nothing. Corrected list:
-
-{"find": "“Paso de Sacluk,”", "replace": "“Paso de Sacluk,”"}
