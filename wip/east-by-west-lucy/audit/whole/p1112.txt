@@ -1,5 +1,0 @@
-{"given": "for there is a bishop for every", "print": "for there is a Bishop for every", "sure": "high"}
-{"given": "beautiful in tone as it was big in size, the choir", "print": "beautiful in tone as it was big in size; the choir", "sure": "high"}
-{"given": "could not let the oceasion pass", "print": "could not let the occasion pass", "sure": "high"}
-{"given": "Jerusalem, are chosen people, the sons", "print": "Jerusalem, are the chosen people, the sons", "sure": "high"}
-{"given": "His Mr. Woodruff said over", "print": "This Mr. Woodruff said over", "sure": "high"}

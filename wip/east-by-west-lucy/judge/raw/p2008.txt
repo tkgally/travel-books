@@ -1,1 +1,0 @@
-{"n": 1, "is": "A", "print": "<sc>printed by william clowes and sons, limited, london and beccles.</sc>", "sure": "medium"}

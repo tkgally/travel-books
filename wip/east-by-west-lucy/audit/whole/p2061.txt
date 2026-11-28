@@ -1,5 +1,0 @@
-{"given": "It was a gray morning with", "print": "It was a grey morning with", "sure": "high"}
-{"given": "never-to-be-forgotten craft; was a junk", "print": "never-to-be-forgotten craft, was a junk", "sure": "high"}
-{"given": "We anxiously scanued the quay", "print": "We anxiously scanned the quay", "sure": "high"}
-{"given": "he was not among group gathered", "print": "he was not among the group gathered", "sure": "high"}
-{"given": "His was a saddening conviction.", "print": "This was a saddening conviction.", "sure": "high"}

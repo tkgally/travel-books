@@ -236,6 +236,7 @@
 | Travels in the Wilds of Ecuador v2 | 2026-11-28 | — | page-file fix only (no model calls) | — | — | — | 0 | 0 | PASS, 0 waived | text unchanged except listed fixes | 1 (review after 125 books: catalogue lines above its heading) |
 | Journal of a Residence in Great Britain v7 | 2026-11-28 | — | page-file fix only (no model calls) | — | — | — | 0 | 0 | PASS, 8 waived | text unchanged except listed fixes | 1 (review after 125 books: a catalogue line above its heading) |
 | A Year on the Irrawaddy v1 | 2026-11-28 | 276 (266 drafted) | Opus draft → Sonnet corrections → Opus judge; scan check, plate crops, spot-read (with `tess_compare.py`), rendered look by Opus subagents; Drive uploads (Haiku) | 13 | 9 / 4 / 0 | 0 | 27.38 | 0 | PASS, 0 waived | 30/30; 0 / 6 (spot-read: 13 corrigenda and 12 printer's errors marked, a draft “Tbe”; rendered look: menus as verse) | |
+| East by West v1 (JATSI) | 2026-11-28 | 700 (679 drafted; two IA items) | Opus draft → Sonnet corrections → Opus judge; scan check, spot-read (with `tess_compare.py`, table sums), rendered look by Opus subagents; Drive uploads (Haiku) | 16 | 12 / 4 / 0 | 0 | 68.76 | 0 | PASS, 0 waived | 30/30; 0 / 6 (spot-read: 8 printed errors marked; a handwritten inscription typed as verse by the draft, removed) | |
 
 ## Calibrations
 

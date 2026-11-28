@@ -1,5 +1,0 @@
-{"given": "carriage. This line; which goes", "print": "carriage. This line, which goes", "sure": "high"}
-{"given": "people of the loeality lose", "print": "people of the locality lose", "sure": "high"}
-{"given": "We went as far as kumagai,", "print": "We went as far as Kumagai,", "sure": "high"}
-{"given": "in subsequent journeying the interior,", "print": "in subsequent journeying in the interior,", "sure": "high"}
-{"given": "on moonlight nights if stands", "print": "on moonlight nights it stands", "sure": "high"}
