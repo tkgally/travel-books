@@ -10,7 +10,7 @@ A heavy jolt shook the ship from stem to stern, and a whirring sound came from t
 
 “<i>Arria! Arria seekit, kanan!</i>”
 
-“<i>Habis kiri! Habis kiri</i> there, ye <i>soors!</i>
+“<i>Habis kiri! Habis kiri</i> there, ye <i>soors!</i>[[corr |”]]
 
 “Pit twa hitches on that <i>tali,</i> ye <i>bodoh</i>!”
 

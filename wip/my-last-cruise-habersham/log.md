@@ -4,8 +4,8 @@ IA: mylastcruiseorwh00habe (University of California; 590 leaves, 400 ppi). Leaf
 Eligibility: re-checked 2026-11-28: web search finds catalogue records only (Nichibun, Harvard); JATSI 7.
 
 ## Status
-Stage reached: (a) scan checked, Drive cache (42 parts), Opus draft running (p0008–p0578 with p0148a–b).
-Next step: when the draft ends, `normalize.py`, `grep -l 〓`, Sonnet corrections pass (workflow §3); crops of 29 plates.
+Stage reached: (c) audit 30/30; preflight lacks only the audit before it was recorded; rendered look by a subagent under way.
+Next step: preflight PASS, `publish.py my-last-cruise-habersham`.
 
 ## Page map
 p0001 cover · p0002–p0007 endpapers, blanks · p0008 frontispiece “Women admiring a Watch. In Japan.” · p0009–p0010 tissue (hidden) · p0011 engraved title (vignette “Camoens Grot.”) · p0012 blank · p0013 printed title · p0014 copyright · p0015 dedication · p0017–p0018 Preface (5–6) · p0019–p0023 Contents (7–11) · p0025 Chapter I = printed 13 (offset 12, +2 after each plate) · chapters I p0025, II p0037, III p0051, IV p0068, V p0088, VI p0106, VII p0131, VIII p0149, IX p0167, X p0185, XI p0208, XII p0241, XIII p0261, XIV p0281, XV p0316, XVI p0345, XVII p0371, XVIII p0401, XIX p0430, XX p0453, XXI p0468, XXII p0488, XXIII p0513, XXIV p0549, Conclusion p0561 · p0573 = p. 507, The End · p0575–p0578 Lippincott advertisements (4 pp.) · p0579–p0584 blanks, endpapers, back cover.
@@ -16,10 +16,19 @@ Notes: chapter summaries in small capitals; first word in small capitals; journa
 
 ## Decisions
 - The missing leaf taken from the LoC copy (workflow §1.4); `source.extra_leaves`; said in `notes_on_text`.
+- Divisions: the engraved title (before the printed title), the printed contents, the book's title above Chapter I and the publisher's advertisements in the JSON only; the frontispiece moved to the title page; chapter summaries in full in the contents (`toc.subtitles: all`).
+- Cover: the printed title page (the cloth cover has no readable title).
+- The draft read a blank verso (p0574) from the show-through of p. 507: set `[[blank]]` before the corrections pass.
+- Summaries printed in capitals made one title-case form; seven printer's errors marked (aud, precations, sufficent, sufficently, two opening quotation marks, a stray hyphen at a page end); `keep_hyphens` for six compounds.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| Draft | 2026-11-28 | Opus | 573 | 37.78 | no refusals; one blank verso filled from show-through (set blank) |
+| Corrections | 2026-11-28 | Sonnet | 573 | 18.66 | 23 changes; a blank (p0224) filled with show-through, refused; a `[[cont]]` proposal not applied |
+| Judge | 2026-11-28 | Opus | 10 spots | 0.41 | draft 8, verified 2; on crops: Selio kept (the book's spelling), a closing quotation mark restored (p0530), aud marked |
+| Spot-read | 2026-11-28 | Opus subagent | front matter, openings, captions, lists | — | 32 edits: title page lines, summaries and captions in one title case, leaders in the contents, 6 printed errors marked |
+| Audit | 2026-11-28 | Opus | 6 | 0.34 | 30/30 planted errors found; 0 candidates |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
