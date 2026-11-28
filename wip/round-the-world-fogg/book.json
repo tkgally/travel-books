@@ -1,0 +1,362 @@
+{
+ "id": "round-the-world-fogg",
+ "version": 1,
+ "date": "2026-11-28",
+ "title": "“Round the World.”",
+ "subtitle": "Letters from Japan, China, India, and Egypt",
+ "short_title": "Round the World",
+ "authors": [
+  {
+   "name": "Wm. Perry Fogg",
+   "sort": "Fogg, William Perry"
+  }
+ ],
+ "place": "Cleveland, Ohio",
+ "publisher": "[The author]",
+ "year": 1872,
+ "edition_statement": "First edition (printed for private circulation)",
+ "regions": [
+  "United States",
+  "Japan",
+  "China",
+  "Hong Kong",
+  "Singapore",
+  "Malaysia",
+  "India",
+  "Egypt"
+ ],
+ "period": "1870–71",
+ "collection": "jatsi",
+ "source": {
+  "ia_identifier": "roundworldletter00foggrich",
+  "contributor": "University of California Libraries (Bancroft Library)"
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-28",
+   "note": "First publication."
+  }
+ ],
+ "frontispiece": "p0010-1",
+ "divisions": [
+  {
+   "at": "p0013",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0015",
+   "kind": "preface"
+  },
+  {
+   "at": "p0017",
+   "kind": "contents"
+  },
+  {
+   "at": "p0023",
+   "kind": "errata"
+  }
+ ],
+ "omitted_from_reading": "The printed contents and the errata leaf are in the JSON only.",
+ "notes_on_text": [
+  "The corrections in the book’s errata leaf are made in the text, each marked as a correction."
+ ],
+ "summary": "(to be written)",
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0011",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0012",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0037",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0038",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0045",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0046",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0063",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0064",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0069",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0070",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0077",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0078",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0089",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0090",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0097",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0098",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0109",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0110",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0121",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0122",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0129",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0130",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0163",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0164",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0173",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0174",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0181",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0182",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0193",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0194",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0205",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0206",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0229",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0230",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0239",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0240",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0245",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0247",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0248",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0253",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0254",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0261",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0262",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0269",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0270",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0281",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0282",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0317",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0318",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0333",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0334",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0341",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0342",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0349",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0350",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0357",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0358",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0363",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  },
+  {
+   "check": "leaves",
+   "match": "p0364",
+   "why": "a tissue guard over a mounted photograph (not drafted: it shows the photograph or the facing page through it)"
+  }
+ ]
+}
