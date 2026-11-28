@@ -1,0 +1,20 @@
+{
+ "id": "my-last-cruise-habersham",
+ "version": 1,
+ "date": "2026-11-28",
+ "title": "My Last Cruise",
+ "subtitle": "Where We Went and What We Saw: Being an Account of Visits to the Malay and Loo-Choo Islands, the Coasts of China, Formosa, Japan, Kamtschatka, Siberia, and the Mouth of the Amoor River",
+ "short_title": "My Last Cruise",
+ "authors": [{"name": "A. W. Habersham", "sort": "Habersham, A. W."}],
+ "place": "Philadelphia",
+ "publisher": "J. B. Lippincott & Co.",
+ "year": 1857,
+ "edition_statement": "First edition",
+ "collection": "jatsi",
+ "regions": ["Japan"],
+ "source": {"ia_identifier": "mylastcruiseorwh00habe", "contributor": "University of California Libraries",
+  "extra_leaves": {"p0148a": {"ia_identifier": "mylastcruiseorwh01habe", "n": 144, "what": "p. 125, missing from the UC copy"},
+                   "p0148b": {"ia_identifier": "mylastcruiseorwh01habe", "n": 145, "what": "p. 126"}}},
+ "notes_on_text": ["The scanned copy lacks the leaf with pages 125–126; those two pages are taken from the Library of Congress copy of the same edition at the Internet Archive (mylastcruiseorwh01habe)."],
+ "history": [{"version": 1, "date": "2026-11-28", "note": "First publication."}]
+}
