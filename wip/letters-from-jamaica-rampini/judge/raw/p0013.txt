@@ -1,0 +1,17 @@
+{"n": 1, "is": "A", "print": "[center]] I. IN KINGSTON HARBOUR, <pref>11</", "sure": "high"}
+{"n": 2, "is": "B", "print": "center]] II. IN KINGSTON STREETS, <pref>19</", "sure": "high"}
+{"n": 3, "is": "B", "print": "enter]] III. THROUGH THE LAGOON TO SPANISH TOWN, <pref>36</", "sure": "high"}
+{"n": 4, "is": "A", "print": "center]] IV. ST. JAGO DE LA VEGA, <pref>44</", "sure": "high"}
+{"n": 5, "is": "B", "print": "[center]] V. THE AMENITIES OF TROPICAL TRAVEL, <pref>50</", "sure": "high"}
+{"n": 6, "is": "A", "print": "center]] VI. THE GRAND SQUARE, <pref>59</", "sure": "high"}
+{"n": 7, "is": "B", "print": "enter]] VII. TO THE BULLHEAD, <pref>67</", "sure": "high"}
+{"n": 8, "is": "A", "print": "nter]] VIII. BLACKS AND WHITES—A CONTRAST, <pref>80</", "sure": "high"}
+{"n": 9, "is": "A", "print": "center]] IX. COUNTRY LIFE IN JAMAICA, <pref>89</", "sure": "high"}
+{"n": 10, "is": "A", "print": "[center]] X. A BATCH OF NEGRO LOVE-LETTERS, <pref>103<", "sure": "high"}
+{"n": 11, "is": "A", "print": "center]] XI. SCHOOLS AND SCHOOLMASTERS, <pref>111<", "sure": "high"}
+{"n": 12, "is": "B", "print": "enter]] XII. ANNANCY STORIES, <pref>115<", "sure": "high"}
+{"n": 13, "is": "B", "print": "nter]] XIII. OBEAH, <pref>131<", "sure": "high"}
+{"n": 14, "is": "B", "print": "enter]] XIV. AMONG THE MANCHESTER MOUNTAINS, <pref>143<", "sure": "high"}
+{"n": 15, "is": "B", "print": "center]] XV. THE ST. ELIZABETH PLAINS, <pref>152<", "sure": "high"}
+{"n": 16, "is": "B", "print": "enter]] XVI. IN BLUEFIELDS BAY, <pref>162<", "sure": "high"}
+{"n": 17, "is": "A", "print": "[[center]] APPENDIX.—NEGRO PROVERBS, <pref>175<", "sure": "high"}
