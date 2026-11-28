@@ -1,6 +1,8 @@
 [[page ?]]
 
-[[center]] MY LAST CRUISE;
+[[center]] MY
+
+[[center]] LAST CRUISE;
 
 [[center]] <sc>or,</sc>
 
@@ -8,7 +10,11 @@
 
 [[center]] <sc>being an account of</sc>
 
-[[center]] VISITS TO THE MALAY AND LOO-CHOO ISLANDS, THE COASTS OF CHINA, FORMOSA, JAPAN, KAMTSCHATKA, SIBERIA, AND THE MOUTH OF THE AMOOR RIVER.
+[[center]] VISITS TO THE MALAY AND LOO-CHOO ISLANDS, THE COASTS
+
+[[center]] OF CHINA, FORMOSA, JAPAN, KAMTSCHATKA, SIBERIA,
+
+[[center]] AND THE MOUTH OF THE AMOOR RIVER.
 
 [[center]] <sc>by</sc>
 
