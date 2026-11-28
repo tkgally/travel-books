@@ -142,6 +142,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   (UC copy) that IA's own page numbers did not show; another library's scan supplied them page by page.
 
 ## Trigger: a carelessly printed book
+- A copy whose owner inked in the errata: the corrections pass typed the ink, not the print (*Round the World*, p0308, p0337, 2026-11-28; the spot-read undid it). Name the inked pages in the scan check and give them to the spot-read; the errata go in as `[[corr]]`.
 
 - *Scouting for Stanley* (1890): 14 printed misprints, 11 of them transposed or dropped letters (“themsleves”, “argeed”, “vegtables”) that neither `misprints` nor `rare-forms` lists; the spot-read's tesseract comparison of every page found them. When preflight lists two or more misprints, ask the spot-read for a full-page tesseract comparison (and a check for such words is a candidate for the next review).
 - The tesseract comparison is `tools/tess_compare.py` since the review after ninety-five books (it lists; the spot-read settles on crops).
