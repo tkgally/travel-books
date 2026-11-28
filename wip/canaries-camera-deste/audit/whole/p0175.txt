@@ -1,0 +1,5 @@
+{"given": "coppery-red in color—up which", "print": "coppery-red in colour—up which", "sure": "high"}
+{"given": "on gazing stcadily into the haze", "print": "on gazing steadily into the haze", "sure": "high"}
+{"given": "that luncheon time bad come", "print": "that luncheon time had come", "sure": "high"}
+{"given": "eggs had no bones, the black coffee", "print": "eggs had no bones; the black coffee", "sure": "high"}
+{"given": "continued our journey down Vallé de Arafo", "print": "continued our journey down the Vallé de Arafo", "sure": "high"}

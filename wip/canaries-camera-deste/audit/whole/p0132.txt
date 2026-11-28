@@ -1,0 +1,5 @@
+{"given": "then asked esperanza if the Señorita", "print": "then asked Esperanza if the Señorita", "sure": "high"}
+{"given": "the señorita appears; in a costume", "print": "the señorita appears, in a costume", "sure": "high"}
+{"given": "as white as it she had", "print": "as white as if she had", "sure": "high"}
+{"given": "than a party barefooted boys leading", "print": "than a party of barefooted boys leading", "sure": "high"}
+{"given": "trot, while smallcr brothers race", "print": "trot, while smaller brothers race", "sure": "high"}

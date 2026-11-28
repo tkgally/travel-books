@@ -23,19 +23,16 @@
 [       ok] joins: page joins: missing [[cont]]
 [ look (1)] folios: printed page numbers that break the sequence
             - p0355: page 3 after page 232 (p0352)
-[ FAIL (1)] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
-            - p0007: no page file
-[ look (1)] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
-            - p0330: closing ” with no opening “: 'My chief recollection of the inn at Agáete is that we spent '
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
 [       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
 [       ok] contents: entries of the printed contents with no matching heading
 [       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
 [       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
 [       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
 [       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
-[ look (3)] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
+[ look (2)] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
             - p0011: opening in small capitals ('D<sc>o</sc> not, I pray you, take up thi'); most chapters open in full capitals
-            - p0206: opening in small capitals ('H<sc>aving</sc> an easy day ahead of us,'); most chapters open in full capitals
             - p0349: opening in small capitals ('A<sc>ges</sc> of Faith, <pref>72</pref>'); most chapters open in full capitals
 [       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
@@ -66,11 +63,12 @@
             - p0339: “bumble” — “humble” is common (257)
             - p0340: “pince” — “prince” is common (245; a letter dropped or transposed?)
 [       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
-[ look (5)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+[ look (6)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
             - book.json summary: …them on Tenerife (“Teneriffe”), with shorter stays on La Palma and Grand Canary. She tr…
             - book.json summary: …va and its hotels and visitors, the villages and farms of the north c…
             - book.json summary: …s and farms of the north coast, Icod and Garachico, Holy Week…
-            - book.json summary: …s the Cañadas towards the Peak, Santa Cruz de la Palma and its pine woods, and …
+            - book.json summary: …Garachico, Holy Week at Laguna, journeys by mule across the Cañadas and the ascent of the Pe…
+            - book.json summary: …das and the ascent of the Peak, Santa Cruz de la Palma and its pine woods, and …
             - book.json omitted_from_reading: …The half-title, the printed contents and list of illustration…
 [       ok] line-breaks: a paragraph line that ends without a stop, followed on the next line by one that starts in lower case: a stray line break splitting a paragraph?
 [       ok] running-heads: a heading at a page top that repeats a heading of the page before: a running head typed as a heading?
@@ -82,4 +80,4 @@
             - p0203: “after His” in …h broken, bleeding knees after His fall on the ro…
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: canaries-camera-deste v1 — 2 to fix, 0 waived; to look at: hyphen-joins 5, folios 1, quote-balance 1, openings 3, accents 16, rare-forms 7, serial-commas 5, missing-stop 5 — tools@3519f6c9 2026-11-27
+preflight FAIL: canaries-camera-deste v1 — 1 to fix, 1 waived; to look at: hyphen-joins 5, folios 1, openings 2, accents 16, rare-forms 7, serial-commas 6, missing-stop 5 — tools@5a20a139 2026-11-28

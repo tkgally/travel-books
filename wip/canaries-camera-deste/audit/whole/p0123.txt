@@ -1,0 +1,5 @@
+{"given": "lower classes in egypt, in which", "print": "lower classes in Egypt, in which", "sure": "high"}
+{"given": "firmly between this teeth. The opening", "print": "firmly between his teeth. The opening", "sure": "high"}
+{"given": "Once inside; you are in", "print": "Once inside, you are in", "sure": "high"}
+{"given": "the fleas their rage might bite", "print": "the fleas in their rage might bite", "sure": "high"}
+{"given": "I slept serencly all night,", "print": "I slept serenely all night,", "sure": "high"}
