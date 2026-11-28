@@ -6,6 +6,12 @@
    "height": 450,
    "sha256": "c2fa10572595fbff41ba0863837e914def31745a1b18daab9d5f2086e1b499da"
   },
+  "across-central-america-boddam-whetham": {
+   "image": "title page",
+   "width": 266,
+   "height": 450,
+   "sha256": "ee27fa6f6926a870d5c4f681e04317e282503d689100c17a36fe9de7ea2f9511"
+  },
   "across-persia-crawshay-williams": {
    "image": "title page",
    "width": 248,
@@ -98,6 +104,12 @@
    "width": 274,
    "height": 450,
    "sha256": "d1c269cca5c4d4fe3461307b206fd7ceb85ea03fa641bd9cff959d6e77ff0f40"
+  },
+  "canaries-camera-deste": {
+   "image": "cover",
+   "width": 276,
+   "height": 450,
+   "sha256": "b22a41703fe7a5a7a4901d1c1cd18b15a0eb5fd1fac10e5462207e59fc2d3c79"
   },
   "china-and-japan-voyage-thither-lawrence": {
    "image": "title page",
@@ -343,6 +355,12 @@
    "height": 450,
    "sha256": "39618ad816e48332db52abcfbc87b21db5c01be558df43113cf1cde9f6b4a2c2"
   },
+  "letters-from-jamaica-rampini": {
+   "image": "title page",
+   "width": 292,
+   "height": 450,
+   "sha256": "28219f1f3edd9bc4ec423dfce6ea446a502f2f4803c77db940d9e652adde542b"
+  },
   "letters-from-the-far-east-floyd-jones": {
    "image": "cover",
    "width": 299,
@@ -362,6 +380,12 @@
    "height": 444,
    "sha256": "3fb7b36e9ee6c749d065f659aea26f1e628be59cc117fda5f20b3e2b82775a2e"
   },
+  "masked-tawareks-harding-king": {
+   "image": "title page",
+   "width": 267,
+   "height": 450,
+   "sha256": "0fc10e2cdb86b40a5b3eafcdf69af5cf7d4b218b4133594741da98f8b3e42ceb"
+  },
   "mexican-trails-kirkham": {
    "image": "cover",
    "width": 300,
@@ -379,6 +403,12 @@
    "width": 282,
    "height": 450,
    "sha256": "eabea233113649fc2bffdc672bb1ead45fd1833f1db8ea6333a0b674d10bc3aa"
+  },
+  "my-last-cruise-habersham": {
+   "image": "title page",
+   "width": 273,
+   "height": 450,
+   "sha256": "20a5fdfc13d426f3f63cd66f484c5fa55d6999441640a0083008f327bdcb4cbb"
   },
   "nile-without-dragoman-eden": {
    "image": "title page",
@@ -433,6 +463,12 @@
    "width": 267,
    "height": 450,
    "sha256": "0a5e74a9d8989230e6a5c7262ea5f766d77e7dfe246cb2b900fb244b4f117b78"
+  },
+  "padre-in-partibus-reith": {
+   "image": "cover",
+   "width": 289,
+   "height": 450,
+   "sha256": "9b6261f7269f2a70ec2e4e8b2adfd835e58462c94a153eb09e9987d93d36185f"
   },
   "panama-in-1855-tomes": {
    "image": "title page",

@@ -1,7 +1,7 @@
 {
  "id": "journal-of-a-residence-nowrojee-merwanjee",
- "version": 6,
- "date": "2026-11-22",
+ "version": 7,
+ "date": "2026-11-28",
  "title": "Journal of a Residence of Two Years and a Half in Great Britain",
  "short_title": "Journal of a Residence in Great Britain",
  "authors": [
@@ -52,6 +52,11 @@
    "version": 6,
    "date": "2026-11-22",
    "note": "8 printer’s errors of a dropped or transposed letter marked and corrected: “posseses” for “possesses”, “assembed” for “assembled”, “tasefully” for “tastefully”, “perod” for “period”, “aferwards” for “afterwards”, “permissoin” for “permission”, “acompanied” for “accompanied”, “possesions” for “possessions”."
+  },
+  {
+   "version": 7,
+   "date": "2026-11-28",
+   "note": "The publisher’s catalogue at the end no longer begins with lines shown at the end of the last chapter."
   }
  ],
  "regions": [
@@ -166,7 +171,7 @@
   }
  ],
  "audit": {
-  "version": 6,
+  "version": 7,
   "date": "2026-11-21",
   "pages": 7,
   "recall": "35/35",

@@ -1830,6 +1830,51 @@ class NoteTail(unittest.TestCase):
         self.assertEqual(preflight.CHECKS["note-tail"][0], "observe")
 
 
+class OmittedEdges(unittest.TestCase):
+    """Review after 125 books: lines above the heading of a division left out of the editions ended the reading
+    page before it (*Letters from Jamaica*: a catalogue's address and date after the Appendix), and catalogue
+    headings with no divisions entry became reading chapters (*In the Canaries with a Camera*)."""
+
+    DIVS = [{"at": "p0010", "kind": "titlepage"}, {"at": "p0189", "kind": "advertisements"}]
+
+    def test_lines_above_left_out_heading_listed(self):
+        pages = [("p0186", "[[page 182]]\n\n# Appendix.\n\nLast proverb.\n"),
+                 ("p0189", "[[page ?]]\n\n[[right]] 88 Princes Street,\n\n# Edmonston & Douglas\u2019 List.\n\nA book.\n")]
+        items = preflight.check_omitted_edges(pages, self.DIVS)
+        self.assertEqual([i.split(":")[0] for i in items], ["p0189"])
+
+    def test_heading_first_not_listed_and_after_left_out_not_listed(self):
+        pages = [("p0186", "[[page 182]]\n\n# Appendix.\n\nLast proverb.\n"),
+                 ("p0189", "[[page ?]]\n\n# Edmonston & Douglas\u2019 List.\n\n[[right]] 88 Princes Street,\n")]
+        self.assertEqual(preflight.check_omitted_edges(pages, self.DIVS), [])
+        # a contents page after a left-out half-title: nothing reading is ended
+        divs = [{"at": "p0005", "kind": "front"}, {"at": "p0007", "kind": "contents"}]
+        pages = [("p0005", "[[page ?]]\n\n# Half-title\n"), ("p0007", "[[page ?]]\n[[image: band]]\n# Contents.\n")]
+        self.assertEqual(preflight.check_omitted_edges(pages, divs), [])
+
+    def test_ornament_above_heading_not_listed(self):
+        pages = [("p0186", "[[page 182]]\n\n# Appendix.\n\nLast proverb.\n"),
+                 ("p0189", "[[page ?]]\n[[image: a head-piece]]\n\n# List of Works.\n\nA book.\n")]
+        self.assertEqual(preflight.check_omitted_edges(pages, self.DIVS, {"p0189-1"}), [])
+        self.assertEqual(len(preflight.check_omitted_edges(pages, self.DIVS)), 1)
+
+    def test_unlisted_heading_in_catalogue_listed(self):
+        pages = [("p0189", "[[page ?]]\n\n# List of Works.\n\nA book.\n"),
+                 ("p0200", "[[page 12]]\n\n# Part II.\u2014Fiction.\n\nA novel.\n")]
+        items = preflight.check_omitted_edges(pages, self.DIVS)
+        self.assertEqual([i.split(":")[0] for i in items], ["p0200"])
+        divs = self.DIVS + [{"at": "p0200", "kind": "advertisements"}]
+        self.assertEqual(preflight.check_omitted_edges(pages, divs), [])
+
+    def test_front_advertisements_do_not_reach_the_chapters(self):
+        divs = [{"at": "p0013", "kind": "advertisements"}, {"at": "p0021", "kind": "contents"}]
+        pages = [("p0013", "[[page ?]]\n# Books.\n"), ("p0021", "[[page ?]]\n# Contents\n"), ("p0027", "[[page 1]]\n# I\n\nText.\n")]
+        self.assertEqual(preflight.check_omitted_edges(pages, divs), [])
+
+    def test_observe(self):
+        self.assertEqual(preflight.CHECKS["omitted-edges"][0], "observe")
+
+
 class RunningHeads(unittest.TestCase):
     """*Fair Lusitania* (2026-11-27): the contents' running head typed as "# Contents." on its later pages."""
 

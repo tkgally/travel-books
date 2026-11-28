@@ -64,6 +64,7 @@ CHECKS = collections.OrderedDict([
     ("title-page",      ("observe", "the reading editions do not begin with the book's title page (divisions: kind \"titlepage\")")),
     ("serial-commas",   ("observe", "book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)")),
     ("line-breaks",     ("observe", "a paragraph line that ends without a stop, followed on the next line by one that starts in lower case: a stray line break splitting a paragraph?")),
+    ("omitted-edges",   ("observe", "the edges of a division left out of the reading editions: lines above its # heading on its first page (they end the division before), and # headings after the start of advertisements, index or back matter with no divisions entry (each becomes a reading chapter)")),
     ("running-heads",   ("observe", "a heading at a page top that repeats a heading of the page before: a running head typed as a heading?")),
     ("missing-stop",    ("observe", "a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan")),
     ("images",          ("enforce", "image files not used by any page")),
@@ -306,6 +307,54 @@ def check_running_heads(pages, divisions=()):
         if top and top in prev[1]:
             items.append(f"{leaf}: {lines[0].strip()[:60]!r} at the page top, also a heading on {prev[0]}: a running head?")
         prev = (leaf, {k for k in map(key, lines) if k})
+    return items
+
+
+def check_omitted_edges(pages, divisions=(), ornaments=()):
+    """The edges of a division left out of the reading editions, where the rendered looks kept finding faults
+    (review after 125 books): (a) lines above the first `#` heading on the page where such a division starts end
+    the division before — a catalogue's address and date printed above its title showed at the end of the last
+    chapter (*Letters from Jamaica*, *A Picnic Party*), a head-piece above a left-out running title was lost
+    (*Across Central America*); (b) every `#` heading after the start of advertisements, index or back matter
+    opens a new division, a reading chapter unless it has its own `divisions` entry (*In the Canaries with a
+    Camera*, *A Summer Tour in Finland*: catalogue parts became chapter pages)."""
+    def omitted(d):
+        return d.get("reading") is False or (d.get("kind") in compile_book.NOT_READING and d.get("reading") is not True)
+    entries = {(d["at"], d.get("n", 1)): d for d in divisions if d.get("at")}
+    tails = sorted(d["at"] for d in divisions if d.get("at") and d.get("kind") in ("advertisements", "index", "back")
+                   and d.get("reading") is not True)
+    ats = sorted({d["at"] for d in divisions if d.get("at")})
+    def in_tail(leaf):
+        for s in tails:
+            nxt = next((a for a in ats if a > s), None)
+            if s <= leaf and (nxt is None or leaf < nxt):
+                return s
+        return None
+    items, prev_omitted = [], True          # matter before the first heading is not read
+    for leaf, text in pages:
+        lines = text.splitlines()
+        heads = [i for i, ln in enumerate(lines) if ln.startswith("# ")]
+        for k, i in enumerate(heads, 1):
+            d = entries.get((leaf, k))
+            om = omitted(d) if d else False
+            if k == 1 and d and om and not prev_omitted:
+                above, n = [], 0
+                for ln in lines[:i]:
+                    s = ln.strip()
+                    if s.startswith("[[image:"):
+                        n += 1
+                        if f"{leaf}-{n}" in ornaments:      # an ornament opens the division below it (compile_book)
+                            continue
+                    if s and not re.match(r"\[\[page [^\]]*\]\]\s*$", s) and not s.startswith("[[caption]]"):
+                        above.append(s)
+                if above:
+                    items.append(f"{leaf}: {len(above)} line(s) above {lines[i][:40]!r} end the reading division before: {above[0][:50]!r}")
+            if d is None:
+                s = in_tail(leaf)
+                if s:
+                    items.append(f"{leaf}: {lines[i][:50]!r} inside the matter left out from {s} has no divisions entry: a reading chapter")
+                    om = False
+            prev_omitted = om
     return items
 
 
@@ -993,6 +1042,7 @@ def run(bookdir, epubcheck=None, skip_epubcheck=False, skip_odt=False, verbose=F
         res["sc-caps"] = check_sc(pages)
         res["heading-caps"] = check_heading_caps(pages)
         res["running-heads"] = check_running_heads(pages, cfg.get("divisions") or [])
+        res["omitted-edges"] = check_omitted_edges(pages, cfg.get("divisions") or [], set(cfg.get("ornaments") or []))
         res["hyphen-joins"] = triage_hyphen_joins([w for w in warnings if w.startswith("hyphen join")], pages)
         res["compile"] = [w for w in warnings if not w.startswith("hyphen join")]
         res["folios"] = check_folios(pages)

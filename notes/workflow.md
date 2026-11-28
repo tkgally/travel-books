@@ -203,7 +203,7 @@ python3 $R/tools/move_pictures.py $W/pages          # pictures typed mid-paragra
   small type with no `<blockquote>` in the file, or a run of five or more lines set closer than the body (a part page
   of quotation one size smaller: *Islam Lands*, review after a hundred books). Contents, index and appendix pages in small type
   are listed by design: read past them, or give `--leaves` the chapters' range. Review after sixty-nine books: the tesseract comparison found most of the
-  printed misprints of books 56–69; made a tool at the review after ninety-five books.
+  printed misprints of books 56–69; made a tool at the review after ninety-five books. Give the subagent the lessons of the book's triggers, above all “quotations set in the text type”: a letter in body type set off only by space is plain paragraphs, not `<blockquote>` (*Masked Tawareks*, 2026-11-28: the spot-read made four letters blockquotes).
 
 ## 5. Illustrations and cover
 
