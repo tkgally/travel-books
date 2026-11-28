@@ -1,0 +1,5 @@
+{"given": "But japanese modern art is", "print": "But Japanese modern art is", "sure": "high"}
+{"given": "buy old lamps if be could", "print": "buy old lamps if he could", "sure": "high"}
+{"given": "a strictly trading point view, which", "print": "a strictly trading point of view, which", "sure": "high"}
+{"given": "down to ten yen; which should", "print": "down to ten yen, which should", "sure": "high"}
+{"given": "terminating with last year, the paper cnrrency was", "print": "terminating with last year, the paper currency was", "sure": "high"}

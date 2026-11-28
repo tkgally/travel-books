@@ -1,0 +1,5 @@
+{"given": "with its inmates, scarccly any the", "print": "with its inmates, scarcely any the", "sure": "high"}
+{"given": "talk with them; even when nothing", "print": "talk with them, even when nothing", "sure": "high"}
+{"given": "manner of the old english inn,", "print": "manner of the old English inn,", "sure": "high"}
+{"given": "been taken down on pushed back,", "print": "been taken down or pushed back,", "sure": "high"}
+{"given": "The room on left, by day", "print": "The room on the left, by day", "sure": "high"}

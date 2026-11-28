@@ -7,8 +7,7 @@ Eligibility: vetted 2026-11-23 (Opus subagent: rules 1–4 met; print-on-demand 
 Vol. I IA leaf k = page file `p1000+k`; Vol. II IA leaf k = `p2000+k`. Working images `$B/pages/` built from `v1/pages` and `v2/pages` of `prep_pages.py`, renamed; `leaves.json` there holds both items' data. `source.items` in source.json and book.json.
 
 ## Status
-Stage (a): scan checked (good), Drive cache uploaded (62 parts; a duplicate upload of pages-001 trashed), Opus draft of leaves 1005–1315 and 2004–2371 running (started 2026-11-28 ~08:45 UTC).
-Next: normalize, `grep -l 〓`, Sonnet corrections pass, review, judge.
+Stage (c): preflight clean except the audit (recorded), audit 30/30; rendered look running. Next: publish.
 
 ## Page map
 Vol. I (printed = leaf − 1012): p1000 Google notice · p1001–p1004 cover, bookplate, endpapers (not drafted) · p1005 half-title · p1006 verso (owner's inscription) · p1007 title · p1008 verso (printer) · p1009 dedication (“To my wife, companion of the journey and co-labourer in its record”) · p1010 blank · p1011 Contents · p1012 blank · p1013–p1315 text pp. 1–303 (“End of Vol. I.”) · p1316–p1320 blanks, endpapers, cover.
@@ -20,10 +19,22 @@ Scan check: all 18 sheets, 22 leaves at full size (Opus subagent, 2026-11-28): g
 Notes: running heads; signature marks (“VOL. I. 19”) to drop; statistical tables Vol. II ch. VI (p2100–p2114, wide ruled tables); verse p1192–p1193, p1311, p2131, p2158, p2175 (French, Hugo), p2351, blackletter couplet p2371; a letter misspelt on purpose p1301; romanized Japanese with accents and circumflexes (Jôruri).
 
 ## Decisions
+- Two volumes as one book (as *Embassy to China*): `source.items`; parts “Volume I” (p1013, the printed head “East by West.” above Chapter I) and “Volume II” (p2011); Volume II's half-title (p2005, kind `front`) and title page (p2007, `titlepage`, “Title page of Volume II”) as in *Embassy*. Each volume's chapters numbered from I as printed (`notes_on_text`).
+- The verse on p1006 and p2006 (“We had thought at least, with the wind in the East …”) is a handwritten owner's inscription, not print: the leaves are typed blank (the scan check had called them inscriptions; the draft typed the verse).
+- Cover: plain cloth (Google scan): `cover.jpg` is the title page of Volume I. The publisher's device on both title pages cropped as ornaments.
+- Printer's errors marked: stateman, practially, tbe, superflous, appearace, a missing stop (p1107), qu’ou (Hugo). Left as printed: crounching, da cappo, dilemna (possibly the author's), frighted, awaked.
+- Vol. II ch. VI tables checked cell by cell and summed: three printed totals do not add up (revenue, area, births 1877); the cells match the scan, so the book's figures stand.
+- The letter p1301 (misspelt on purpose) is in body type: plain paragraphs. `keep_hyphens` p1159 (gambling-house), p2021 (dining-room).
+- Contents: printed chapter titles (short); no editor's entries needed.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| Draft | 2026-11-28 | Opus | 679 | 45.08 | no refusals, no 〓 |
+| Corrections | 2026-11-28 | Sonnet | 679 | 22.72 | 17 changes; 2 not applied (both right as drafted); a `[[cont]]` proposal p2327 (wrong) |
+| Judge | 2026-11-28 | Opus | 16 spots | 0.62 | draft 12, verified 4 |
+| Spot-read | 2026-11-28 | Opus subagent | front matter, chapter openings, tables (sums), verse, letter, lists, tess_compare | — | 8 printer's errors marked, a dêbris accent, ditto marks „, 2 `[[cont]]`, letter unwrapped |
+| Audit | 2026-11-28 | Opus | 6 | 0.34 | 30/30; 0 candidates |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |

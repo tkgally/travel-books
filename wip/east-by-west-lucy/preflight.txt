@@ -1,16 +1,10 @@
-[ FAIL (1)] meta: book.json: required fields present and sane
-            - book.json: summary has 3 words (30–220 expected)
+[       ok] meta: book.json: required fields present and sane
 [       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
 [       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
 [       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
 [       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
 [       ok] straight-quotes: no straight ' or " in the text
-[ FAIL (5)] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
-            - p2107:  ”'…
-            - p2107:  ”'…
-            - p2107:  ”'…
-            - p2107:  ”'…
-            - p2107: 0 ”'…
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
 [       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
 [       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
 [       ok] links: every link inside the book's web pages and EPUB has a target
@@ -20,11 +14,9 @@
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
 [ FAIL (1)] audit: book.json records the sampled audit of this version
             - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
-[look (10)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
-            - hyphen join at p1159: … of a gambling-|house at Leadvi… (hyphen removed; check) — the book prints “gambling-house” elsewhere: keep_hyphens?
+[ look (8)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p1207: …children is as-|tounding. Salt … (hyphen removed; check)
             - hyphen join at p1271: …with great per-|sistence in the… (hyphen removed; check)
-            - hyphen join at p2021: … of the dining-|room. It was to… (hyphen removed; check) — the book prints “dining-room” elsewhere: keep_hyphens?
             - hyphen join at p2152: …n its ungainli-|ness. It is gen… (hyphen removed; check)
             - hyphen join at p2244: … its legs, pro-|digiously long … (hyphen removed; check)
             - hyphen join at p2278: …y way of greet-|ing, and that b… (hyphen removed; check)
@@ -45,41 +37,34 @@
 [       ok] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
 [       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
-[look (11)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+[look (10)] accents: words the book spells with different accents (or with and without): look at each group on the scan
             - a: a (p1007, p1011, p1013, p1014, p1015, p1016…); à (p2324)
             - canons: canons (p1045); cañons (p1165)
             - charge: charge (p1015, p1043, p1064, p1082, p1173, p2014…); chargé (p1236, p2012)
             - dais: dais (p2081); daïs (p1237)
-            - debris: débris (p1093); dêbris (p1134)
             - ghat: ghat (p2267); ghât (p2224, p2231, p2234, p2241, p2267, p2268…)
             - gun: gun (p2247, p2290, p2364); gūn (p2099)
             - la: la (p1239); là (p2175)
             - man: man (p1016, p1021, p1022, p1023, p1024, p1025…); mân (p2224, p2231)
             - napoleon: napoleon (p2289); napoléon (p2044)
             - sake: sake (p2031); saké (p1220, p1226, p1238, p1249, p1250, p2023…)
-[ look (1)] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
-            - p2228: “tbe” in …took a gharry home from tbe station his servant open…
-[look (10)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
-            - p1114: “stateman” — “statesman” is common (78; a letter dropped or transposed?)
-            - p1213: “eases” — “cases” is common (795)
-            - p1281: “ber” — “her” is common (12438)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[ look (4)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p1281: “ber” — “her” is common (12533)
             - p2175: “persiste” — “persisted” is common (57; a letter dropped or transposed?)
             - p2193: “populate” — “populated” is common (86; a letter dropped or transposed?)
-            - p2228: “tbe” — “the” is common (629530)
-            - p2235: “superflous” — “superfluous” is common (78; a letter dropped or transposed?)
-            - p2264: “practially” — “practically” is common (385; a letter dropped or transposed?)
-            - p2295: “appearace” — “appearance” is common (2055; a letter dropped or transposed?)
             - p2326: “tanked” — “thanked” is common (91; a letter dropped or transposed?)
 [       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
-[       ok] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+[ look (2)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: …o had worked for Isabella Bird, and went on by sea to Kobe and Kioto. From there th…
+            - book.json summary: …pore, Agra, Delhi, and Jeypore, and came home by Aden and the Suez Canal. Abou…
 [       ok] line-breaks: a paragraph line that ends without a stop, followed on the next line by one that starts in lower case: a stray line break splitting a paragraph?
 [       ok] omitted-edges: the edges of a division left out of the reading editions: lines above its # heading on its first page (they end the division before), and # headings after the start of advertisements, index or back matter with no divisions entry (each becomes a reading chapter)
 [       ok] running-heads: a heading at a page top that repeats a heading of the page before: a running head typed as a heading?
-[ look (4)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+[ look (3)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
             - p1016: “others It” in …ish, and disappeared. At others It shook its head,…
             - p1025: “as She” in …to be found in “English as She is Spoke,” t…
-            - p1107: “mystery This” in …he Avenue, he solved the mystery This was a Gentile…
             - p1128: “be His” in …mong us. But it will all be His direction, and with…
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: east-by-west-lucy v1 — 7 to fix, 0 waived; to look at: hyphen-joins 10, folios 1, accents 11, misprints 1, rare-forms 10, missing-stop 4 — tools@ad5f8e1a 2026-11-28
+preflight FAIL: east-by-west-lucy v1 — 1 to fix, 0 waived; to look at: hyphen-joins 8, folios 1, accents 10, rare-forms 4, serial-commas 2, missing-stop 3 — tools@8f713b77 2026-11-28

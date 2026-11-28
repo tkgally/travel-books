@@ -1,0 +1,5 @@
+{"given": "lowing kine. Be found he", "print": "lowing kine. He found he", "sure": "high"}
+{"given": "two oxen shipped at hongkong with", "print": "two oxen shipped at Hongkong with", "sure": "high"}
+{"given": "came to her moorings Singapore she", "print": "came to her moorings in Singapore she", "sure": "high"}
+{"given": "the boat ncarest to which", "print": "the boat nearest to which", "sure": "high"}
+{"given": "was suddenly emptied, the lads", "print": "was suddenly emptied; the lads", "sure": "high"}
