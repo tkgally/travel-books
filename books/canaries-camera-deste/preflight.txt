@@ -1,0 +1,81 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[       ok] audit: book.json records the sampled audit of this version
+[ look (4)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0103: … we sought dis-|traction in stu… (hyphen removed; check)
+            - hyphen join at p0274: … after a scrim-|mage to fall, t… (hyphen removed; check)
+            - hyphen join at p0342: …business of un-|girthing the wh… (hyphen removed; check)
+            - (and 3 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[ look (1)] folios: printed page numbers that break the sequence
+            - p0355: page 3 after page 232 (p0352)
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[       ok] contents: entries of the printed contents with no matching heading
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
+[       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
+[ look (2)] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
+            - p0011: opening in small capitals ('D<sc>o</sc> not, I pray you, take up thi'); most chapters open in full capitals
+            - p0349: opening in small capitals ('A<sc>ges</sc> of Faith, <pref>72</pref>'); most chapters open in full capitals
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
+[look (16)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0005, p0009, p0011, p0015, p0016, p0017…); à (p0189, p0346, p0361)
+            - adeje: adeje (p0189, p0204, p0205); adéje (p0209, p0210, p0211, p0215, p0218, p0350)
+            - agaete: agaete (p0350); agáete (p0323, p0325, p0329, p0330); agâete (p0323)
+            - canon: canon (p0362, p0365, p0367, p0370); cañon (p0192, p0340)
+            - e: e (p0016, p0354, p0355, p0356, p0357, p0358…); é (p0077)
+            - icod: icod (p0112, p0116, p0119, p0124, p0125, p0128…); icōd (p0097)
+            - llanos: llanos (p0351); llaños (p0267, p0271, p0277, p0285, p0350)
+            - napoleon: napoleon (p0354, p0355, p0358, p0366, p0379); napoléon (p0364)
+            - said: said (p0021, p0027, p0028, p0033, p0037, p0042…); saïd (p0379)
+            - scene: scene (p0037, p0097, p0100, p0124, p0168, p0175…); scène (p0331)
+            - se: se (p0132); sé (p0120)
+            - selincourt: sélincourt (p0361); sêlincourt (p0364)
+            - sortija: sortija (p0083, p0087, p0091, p0351); sortíja (p0084)
+            - tea: tea (p0023, p0024, p0078, p0084, p0088, p0115…); téa (p0115, p0203, p0236, p0283, p0352)
+            - the: the (p0005, p0009, p0011, p0015, p0016, p0017…); thé (p0115)
+            - time: time (p0021, p0028, p0037, p0043, p0044, p0045…); timé (p0017, p0272, p0275, p0277, p0278, p0279…)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[ look (7)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0059: “esitate” — “hesitate” is common (73; a letter dropped or transposed?)
+            - p0090: “coney” — “convey” is common (258; a letter dropped or transposed?)
+            - p0182: “nighbourhood” — “neighbourhood” is common (627; a letter dropped or transposed?)
+            - p0283: “totting” — “trotting” is common (53; a letter dropped or transposed?)
+            - p0309: “stele” — “steel” is common (206; a letter dropped or transposed?)
+            - p0339: “bumble” — “humble” is common (257)
+            - p0340: “pince” — “prince” is common (245; a letter dropped or transposed?)
+[       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
+[ look (6)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: …them on Tenerife (“Teneriffe”), with shorter stays on La Palma and Grand Canary. She tr…
+            - book.json summary: …va and its hotels and visitors, the villages and farms of the north c…
+            - book.json summary: …s and farms of the north coast, Icod and Garachico, Holy Week…
+            - book.json summary: …Garachico, Holy Week at Laguna, journeys by mule across the Cañadas and the ascent of the Pe…
+            - book.json summary: …das and the ascent of the Peak, Santa Cruz de la Palma and its pine woods, and …
+            - book.json omitted_from_reading: …The half-title, the printed contents and list of illustration…
+[       ok] line-breaks: a paragraph line that ends without a stop, followed on the next line by one that starts in lower case: a stray line break splitting a paragraph?
+[       ok] running-heads: a heading at a page top that repeats a heading of the page before: a running head typed as a heading?
+[ look (5)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+            - p0109: “these He” in …y made another race, and these He condemned to perpet…
+            - p0109: “first He” in …petual servitude. To the first He gave all the f…
+            - p0109: “second He” in …e all the flocks, to the second He gave nothing—d…
+            - p0203: “resting His” in …ting upon a low seat and resting His head upon His…
+            - p0203: “after His” in …h broken, bleeding knees after His fall on the ro…
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight PASS: canaries-camera-deste v1 — 0 to fix, 1 waived; to look at: hyphen-joins 4, folios 1, openings 2, accents 16, rare-forms 7, serial-commas 6, missing-stop 5 — tools@40bef9e1 2026-11-28

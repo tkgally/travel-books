@@ -2213,11 +2213,13 @@
    "place": "London",
    "publisher": "Methuen & Co.",
    "images": 392,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-26",
    "eligibility": "Vetted 2026-11-26 (Opus subagent). pg_catalog.csv: only her With a Camera in Majorca (#54634); not this book. Online Books Page: none. Wikisource: no hits. Web search of a passage: no text. Open Library: Methuen 1909 and Creative Media Partners 2021 (print-on-demand) only. Faded Page not checkable. Re-checked 2026-11-28: web search of the title finds only a Spanish article on the book (Castillo, 2006) and Gutenberg #66355, which is Florence Du Cane, The Canary Islands (1911), a different book.",
    "note": "University of California scan, 500 ppi. 231 pp. and about 51 photographic plates by Mrs R. M. King with blank versos and tissue guards: count the plates against the list (pp. ix–xi) at the scan check; possibly a small map. Six months on Tenerife, La Palma and Grand Canary, winter 1908–9: hotels, Holy Week at Laguna, the Peak, cave-dwellers; light and humorous.",
-   "started": "2026-11-28"
+   "started": "2026-11-28",
+   "version": 1,
+   "published": "2026-11-28"
   },
   {
    "order": 120,

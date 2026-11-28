@@ -1,5 +1,0 @@
-{"given": "were a blaze of color, and", "print": "were a blaze of colour, and", "sure": "high"}
-{"given": "much rarer then the magenta one", "print": "much rarer than the magenta one", "sure": "high"}
-{"given": "Camellias; for some reason, do", "print": "Camellias, for some reason, do", "sure": "high"}
-{"given": "At Guimar we saw pink variety", "print": "At Guimar we saw a pink variety", "sure": "high"}
-{"given": "woolly leaves and haudsome, purple flower", "print": "woolly leaves and handsome, purple flower", "sure": "high"}

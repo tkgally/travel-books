@@ -1,7 +1,0 @@
-Differences: "shadows," has a comma in the image, and the draft omits it.
-
-{"find": "cobalt shadows above", "replace": "cobalt shadows, and above"}
-
-Wait — the draft reads "cobalt shadows, and above", so that find string doesn't occur. The draft already has the comma, so no change is needed there.
-
-NONE

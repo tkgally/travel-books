@@ -1,3 +1,0 @@
-Two things differ from the image: the comma after *Aloe vulgaris* is italic, and the place name is *Barranco del Infierno* in the draft but *Barranco del Infierno* reads "del Infierno" in the print. Checking the second against the scan, the print has "del Infierno", so only the comma needs fixing.
-
-{"find": "<i>Aloe vulgaris</i>,", "replace": "<i>Aloe vulgaris,</i>"}

@@ -1,5 +1,0 @@
-{"given": "farm; and moving across the", "print": "farm, and moving across the", "sure": "high"}
-{"given": "their own water snpply in", "print": "their own water supply in", "sure": "high"}
-{"given": "at the Monte this side October down", "print": "at the Monte this side of October down", "sure": "high"}
-{"given": "again—the labor of days being", "print": "again—the labour of days being", "sure": "high"}
-{"given": "grape—which if does without crushing", "print": "grape—which it does without crushing", "sure": "high"}

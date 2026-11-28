@@ -1,1 +1,0 @@
-{"n": 1, "is": "A", "print": "[[center]] <sc>with illustrations from photographs by</sc>", "sure": "medium"}

@@ -1,5 +1,0 @@
-{"find": "seem only to been worn", "replace": "seem only to be worn"}
-
-Wait, that `find` doesn't match the draft. Corrected list:
-
-{"find": "and seem only to worn", "replace": "and seem only to be worn"}
