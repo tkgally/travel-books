@@ -1,0 +1,132 @@
+{
+ "id": "east-by-west-lucy",
+ "version": 1,
+ "date": "2026-11-28",
+ "title": "East by West",
+ "subtitle": "A Journey in the Recess",
+ "short_title": "East by West",
+ "authors": [
+  {
+   "name": "Henry W. Lucy",
+   "sort": "Lucy, Henry W."
+  }
+ ],
+ "place": "London",
+ "publisher": "Richard Bentley and Son",
+ "year": 1885,
+ "edition_statement": "First edition, in two volumes",
+ "regions": [
+  "United States",
+  "Japan",
+  "Hong Kong",
+  "Singapore",
+  "Malaysia",
+  "Sri Lanka",
+  "India",
+  "Yemen",
+  "Egypt"
+ ],
+ "period": "1883–84",
+ "collection": "jatsi",
+ "source": {
+  "ia_identifier": "eastbywestajour04lucygoog",
+  "contributor": "Harvard University (Google)",
+  "items": [
+   {
+    "ia_identifier": "eastbywestajour04lucygoog",
+    "first_leaf": "p1000",
+    "hidden_leaves": [],
+    "label": "Volume I"
+   },
+   {
+    "ia_identifier": "eastbywest00unkngoog",
+    "first_leaf": "p2000",
+    "hidden_leaves": [],
+    "label": "Volume II"
+   }
+  ]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-28",
+   "note": "First publication."
+  }
+ ],
+ "divisions": [
+  {
+   "at": "p1005",
+   "kind": "front",
+   "title": "Half-title"
+  },
+  {
+   "at": "p1007",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p1009",
+   "kind": "dedication",
+   "title": "Dedication"
+  },
+  {
+   "at": "p1011",
+   "kind": "contents"
+  },
+  {
+   "at": "p1013",
+   "n": 1,
+   "kind": "part",
+   "title": "Volume I"
+  },
+  {
+   "at": "p2005",
+   "kind": "front",
+   "title": "Front matter of Volume II"
+  },
+  {
+   "at": "p2007",
+   "kind": "titlepage",
+   "title": "Title page of Volume II"
+  },
+  {
+   "at": "p2009",
+   "kind": "contents"
+  },
+  {
+   "at": "p2011",
+   "n": 1,
+   "kind": "part",
+   "title": "Volume II"
+  }
+ ],
+ "omitted_from_reading": "The half-titles and the printed contents of the two volumes are in the JSON only.",
+ "notes_on_text": [
+  "The two volumes are one book here: the contents of this edition list the chapters of each volume under its own heading, and each volume’s chapters are numbered from I as printed."
+ ],
+ "summary": "Henry W. Lucy and his wife went round the world from the autumn of 1883 to the early weeks of 1884. They crossed the Atlantic to New York and went by rail through Chicago, Kansas City, Denver, Leadville, and Salt Lake City, where Lucy met the Mormon president, to San Francisco. A steamer took them to Japan, where they stayed in Tokyo, saw the Mikado’s birthday fête, travelled by jinrikisha to Nikko with a guide who had worked for Isabella Bird, and went on by sea to Kobe and Kioto. From there they sailed by Hong Kong, Singapore, and Penang to Ceylon, crossed India from Bombay to Benares, Lucknow, Cawnpore, Agra, Delhi, and Jeypore, and came home by Aden and the Suez Canal. About a third of the book is on Japan, including a chapter of statistics on its government.",
+ "ornaments": [
+  "p1007-1",
+  "p2007-1"
+ ],
+ "subjects": [
+  "Round the world",
+  "Tokyo",
+  "Nikko",
+  "Kyoto",
+  "Mormons",
+  "Benares",
+  "Delhi"
+ ],
+ "keep_hyphens": [
+  "p1159",
+  "p2021"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-28",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
+}

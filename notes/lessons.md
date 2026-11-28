@@ -203,6 +203,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   (no scans), checked at each chapter opening, said in `notes_on_text` (*Autumn Tour in Western Persia*, 2026-11-20).
 
 ## Trigger: quotations set in the text type
+- A list of short lines (a menu, a list of flats) typed inside `<blockquote>` as one paragraph a line renders with the first line flush and the rest indented: type it as `<verse>` (*A Year on the Irrawaddy*, 2026-11-28: caught by the rendered look).
 - Speeches or letters printed full width in italic are italic paragraphs, not `<blockquote>`: the drafts wrap some pages' parts and not others (*Our Journey to Japan*, 2026-11-23: caught by the rendered look). Check the indent on the scan before keeping a blockquote.
 
 - Letters, reports and newspaper extracts printed in the text type with a little space round them: drafts make some of
@@ -289,6 +290,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - The renderers tag Han and kana runs with `lang` (zh, or ja with kana); the site and EPUB show them with the readers' system fonts (checked in Chromium, 2026-11-22).
 
 ## Trigger: Google scan (`…goog` identifiers)
+- A handwritten owner's inscription (a couplet on the half-title versos of both volumes of *East by West*, 2026-11-28) was typed by the draft as printed verse and passed the corrections pass; the scan check had called it an inscription. Look at any text on a front-matter verso at full size: handwriting is left out (`[[blank]]`) and named in the log.
 
 - Bitonal: halftones and many engravings come out blank. Good for supplying a missing leaf's text, not its picture
   (*Rambles* p. 114, 2026-11-20). Its page images are small (767 px wide): upscale to the working height.
