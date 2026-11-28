@@ -1,0 +1,5 @@
+{"given": "is a species of starliug—Quiscalus macrurus", "print": "is a species of starling—Quiscalus macrurus", "sure": "high"}
+{"given": "in their movements; for instance; the toucan", "print": "in their movements; for instance, the toucan", "sure": "high"}
+{"given": "big spoon—on account its enormous beak", "print": "big spoon—on account of its enormous beak", "sure": "high"}
+{"given": "cage included. They where a delicate", "print": "cage included. They were a delicate", "sure": "high"}
+{"given": "of a bright green color, the upper", "print": "of a bright green colour, the upper", "sure": "high"}

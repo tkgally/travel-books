@@ -1,0 +1,5 @@
+{"given": "garlands of grey tillandsia; around his they knelt", "print": "garlands of grey tillandsia; around this they knelt", "sure": "high"}
+{"given": "and lit up fitful gleams the", "print": "and lit up in fitful gleams the", "sure": "high"}
+{"given": "in spite of cold and falling rain; continued", "print": "in spite of cold and falling rain, continued", "sure": "high"}
+{"given": "was draped with the gray tillandsia;", "print": "was draped with the grey tillandsia;", "sure": "high"}
+{"given": "was totally conccaled in the drooping", "print": "was totally concealed in the drooping", "sure": "high"}
