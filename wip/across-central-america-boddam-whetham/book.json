@@ -93,6 +93,7 @@
   "p0166-1",
   "p0181-1",
   "p0191-1",
+  "p0192-1",
   "p0205-1",
   "p0206-1",
   "p0224-1",
@@ -107,6 +108,7 @@
   "p0277-1",
   "p0290-1",
   "p0291-1",
+  "p0302-1",
   "p0313-1",
   "p0322-1",
   "p0323-1",
@@ -126,5 +128,8 @@
    "match": "p0006",
    "why": "the Internet Archive's digitization notice, not part of the book"
   }
+ ],
+ "notes_on_text": [
+  "The four lines of Dante quoted in the footnote on page 274 are set as verse in the book; here they are run together in one line, the line ends marked by a slash."
  ]
 }
