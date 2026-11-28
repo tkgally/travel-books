@@ -1,5 +1,0 @@
-{"given": "W.—Hi! Yes; sa! Queen’s road", "print": "W.—Hi! Yes, sa! Queen’s road", "sure": "high"}
-{"given": "Yes, sa! Plenty pcople was da", "print": "Yes, sa! Plenty people was da", "sure": "high"}
-{"given": "Could they bear what was going", "print": "Could they hear what was going", "sure": "high"}
-{"given": "C. P. S. (to magistrates)—I think", "print": "C. P. S. (to Magistrates)—I think", "sure": "high"}
-{"given": "Do you wish ask the witness", "print": "Do you wish to ask the witness", "sure": "high"}

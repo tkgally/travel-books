@@ -1,8 +1,0 @@
-{"find": "conconsa", "replace": "conconsa"}
-
-Wait — I need to check that one: the image reads "conconsa"? Looking at it, the printed word is "conconsa" in the draft but the page shows "conconsa (argument)" as "conconsa"... The scan actually reads "any conconsa". Correcting my output:
-
-{"find": "hab any conconsa", "replace": "hab any conconsa"}
-{"find": "cataplasm upon", "replace": "cataplasm upon"}
-
-NONE

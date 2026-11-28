@@ -1,5 +1,0 @@
-{"given": "the delight and the amusement many a generation", "print": "the delight and the amusement of many a generation", "sure": "high"}
-{"given": "white, black, brown; and yellow.", "print": "white, black, brown, and yellow.", "sure": "high"}
-{"given": "The chief repositories of his traditional", "print": "The chief repositories of this traditional", "sure": "high"}
-{"given": "the common daily ineidents of a", "print": "the common daily incidents of a", "sure": "high"}
-{"given": "rises above gungo peas and", "print": "rises above Gungo peas and", "sure": "high"}

@@ -1,5 +1,0 @@
-{"find": "was Recundadundundadrumunday.", "replace": "was Recundadundundadrumunday."}
-
-Wait, that replace is identical to the find; the correct fix is below.
-
-{"find": "was Recundadundundadrumunday.", "replace": "was Recundadundunda­drumunday."}

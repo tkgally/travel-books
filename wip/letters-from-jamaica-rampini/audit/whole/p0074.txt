@@ -1,5 +1,0 @@
-{"given": "third rollers; and as these", "print": "third rollers, and as these", "sure": "high"}
-{"given": "the arms the little feeders", "print": "the arms of the little feeders", "sure": "high"}
-{"given": "almost as often caugbt as", "print": "almost as often caught as", "sure": "high"}
-{"given": "portion of upper clarendon, in", "print": "portion of upper Clarendon, in", "sure": "high"}
-{"given": "to do with it. Be", "print": "to do with it. He", "sure": "high"}

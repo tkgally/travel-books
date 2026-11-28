@@ -1,5 +1,0 @@
-{"given": "very light and worthless; he says", "print": "very light and worthless, he says", "sure": "high"}
-{"given": "has one foot to lay cloth,", "print": "has one foot to lay the cloth,", "sure": "high"}
-{"given": "who is greedy on covetous;", "print": "who is greedy or covetous;", "sure": "high"}
-{"given": "“him favor a patoo”", "print": "“him favour a patoo”", "sure": "high"}
-{"given": "in some of the remote couutry districts", "print": "in some of the remote country districts", "sure": "high"}

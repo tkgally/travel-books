@@ -1,7 +1,0 @@
-Italic "lucky ?" includes the question mark in italics.
-
-{"find": "<i>lucky?</i>", "replace": "<i>lucky?</i>"}
-
-Actually the draft already has the question mark inside the italics, so that entry changes nothing. The rest of the page matches the image.
-
-NONE

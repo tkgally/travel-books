@@ -1,5 +1,0 @@
-{"given": "Fisher, after sucking the egg, rnbbed part", "print": "Fisher, after sucking the egg, rubbed part", "sure": "high"}
-{"given": "to me, and said if was to be given", "print": "to me, and said it was to be given", "sure": "high"}
-{"given": "to put under the horse’s tail; when the", "print": "to put under the horse’s tail, when the", "sure": "high"}
-{"given": "did not make the horse throw busha, this would.", "print": "did not make the horse throw the busha, this would.", "sure": "high"}
-{"given": "Mein [slave] to Cold Harbor, had a", "print": "Mein [slave] to Cold Harbour, had a", "sure": "high"}

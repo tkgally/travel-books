@@ -1,4 +1,0 @@
-{"given": "and the dance, and church constitute", "print": "and the dance, and the church constitute", "sure": "high"}
-{"given": "Be regards them as children", "print": "He regards them as children", "sure": "high"}
-{"given": "but now as spoilcd children", "print": "but now as spoiled children", "sure": "high"}
-{"given": "native springs of civilisation; the quick", "print": "native springs of civilisation, the quick", "sure": "high"}
