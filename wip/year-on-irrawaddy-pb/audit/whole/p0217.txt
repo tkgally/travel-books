@@ -1,0 +1,5 @@
+{"given": "they adopted good points of the", "print": "they adopted the good points of the", "sure": "high"}
+{"given": "teachings of the Good Law, and that", "print": "teachings of the Good Law; and that", "sure": "high"}
+{"given": "they honoured if, even when", "print": "they honoured it, even when", "sure": "high"}
+{"given": "superior to average christians. They", "print": "superior to average Christians. They", "sure": "high"}
+{"given": "So many pcople seize on the", "print": "So many people seize on the", "sure": "high"}

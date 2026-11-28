@@ -1,0 +1,5 @@
+{"given": "is occupied I surmize in getting", "print": "is occupied I surmise in getting", "sure": "high"}
+{"given": "a man he bad last seen", "print": "a man he had last seen", "sure": "high"}
+{"given": "the rather strange experienee of travelling", "print": "the rather strange experience of travelling", "sure": "high"}
+{"given": "the noon-day heat the cold at night", "print": "the noon-day heat and the cold at night", "sure": "high"}
+{"given": "on the voyage which; though perilous", "print": "on the voyage which, though perilous", "sure": "high"}
