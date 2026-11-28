@@ -190,7 +190,33 @@
  "omitted_from_reading": "The half-title, the list of illustrations, the book’s title printed above Chapter I, and the index are in the JSON only.",
  "notes_on_text": [
   "The folding “Map of the Author’s Route” named on the title page and in the list of illustrations is missing from the scanned copy (it was torn out) and from the other scans of this edition at the Internet Archive that were looked at.",
-  "The printed book has no table of contents, and its chapters have numbers but no titles. The contents of this edition give each chapter a title of the editor’s, naming its places and main subjects."
+  "The printed book has no table of contents, and its chapters have numbers but no titles. The contents of this edition give each chapter a title of the editor’s, naming its places and main subjects.",
+  "The three pages of figures comparing Tawarek and Greek writing (pp. 326–328) are printed in the middle of a sentence of the appendix; in this edition they follow the end of the appendix’s text."
  ],
- "summary": "W. J. Harding King set out from Biskra in Algeria, probably in the spring of 1901 or 1902, to find and photograph the Tawareks (Tuareg), the veiled nomads of the central Sahara. With his guide Aïssa, a camel man, and a baggage camel, mostly on foot, he went south by the oases of the Wad Rirh to Tougourt and Wargla, came back by Tamelath, and crossed the sand-hills of the Erg to El Wad. Near Gomar he met a party of Tawareks, visited their camp, and photographed them. Chapters along the way describe the oases, their wells and markets, the desert Arabs, and the French advance into the Sahara, and four chapters give an account of Tawarek history and customs. An appendix discusses the origin of the Tawarek alphabet. The book has forty-one photographs."
+ "summary": "W. J. Harding King set out from Biskra in Algeria, probably in the spring of 1901 or 1902, to find and photograph the Tawareks (Tuareg), the veiled nomads of the central Sahara. With his guide Aïssa, a camel man, and a baggage camel, mostly on foot, he went south by the oases of the Wad Rirh to Tougourt and Wargla, came back by Tamelath, and crossed the sand-hills of the Erg to El Wad. Near Gomar he met a party of Tawareks, visited their camp, and photographed them. Chapters along the way describe the oases, their wells and markets, the desert Arabs, and the French advance into the Sahara, and three chapters give an account of Tawarek history and customs. An appendix discusses the origin of the Tawarek alphabet. The book has forty-one photographs.",
+ "leaf_order": [
+  [
+   "p0415",
+   "p0419",
+   "p0416",
+   "p0417",
+   "p0418"
+  ]
+ ],
+ "keep_hyphens": [
+  "p0046",
+  "p0186"
+ ],
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0009",
+   "why": "an overall photograph of the open title spread taken by the Internet Archive's scanner, not a page of the book"
+  },
+  {
+   "check": "leaves",
+   "match": "p0010",
+   "why": "an overall photograph of the open title spread taken by the Internet Archive's scanner, not a page of the book"
+  }
+ ]
 }
