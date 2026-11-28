@@ -1,0 +1,6 @@
+{"given": "Chapter X", "print": "CHAPTER X", "sure": "medium"}
+{"given": "more regularly built, many of them", "print": "more regularly built; many of them", "sure": "high"}
+{"given": "‘good old times’ of algeria, when", "print": "‘good old times’ of Algeria, when", "sure": "high"}
+{"given": "was either a highwayman on a slave-dealer", "print": "was either a highwayman or a slave-dealer", "sure": "high"}
+{"given": "coming from the Sudan, bronght slaves", "print": "coming from the Sudan, brought slaves", "sure": "high"}
+{"given": "the scene, and slave trade with", "print": "the scene, and the slave trade with", "sure": "high"}

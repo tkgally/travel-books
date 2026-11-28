@@ -1,0 +1,5 @@
+{"given": "criticising their points performance in a", "print": "criticising their points and performance in a", "sure": "high"}
+{"given": "common to the saharan oases.", "print": "common to the Saharan oases.", "sure": "high"}
+{"given": "in the morning, where squatting wrapped", "print": "in the morning, were squatting wrapped", "sure": "high"}
+{"given": "a dozen or so in number; armed with", "print": "a dozen or so in number, armed with", "sure": "high"}
+{"given": "and other outlandish mufical instruments, made", "print": "and other outlandish musical instruments, made", "sure": "high"}
