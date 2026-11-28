@@ -1,5 +1,0 @@
-{"given": "considerably larger population then at present", "print": "considerably larger population than at present", "sure": "high"}
-{"given": "having lost its fcrtility has not", "print": "having lost its fertility has not", "sure": "high"}
-{"given": "is sunk in its center to find", "print": "is sunk in its centre to find", "sure": "high"}
-{"given": "edge of the basin; along the rim", "print": "edge of the basin, along the rim", "sure": "high"}
-{"given": "to prevent the palms other plants growing", "print": "to prevent the palms and other plants growing", "sure": "high"}

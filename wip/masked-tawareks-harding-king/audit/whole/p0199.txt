@@ -1,6 +1,0 @@
-{"given": "Chapter XI", "print": "CHAPTER XI", "sure": "low"}
-{"given": "with only small hole in the", "print": "with only a small hole in the", "sure": "high"}
-{"given": "acting as his successor, reigncd in his", "print": "acting as his successor, reigned in his", "sure": "high"}
-{"given": "He arrived usually about sunrize, and", "print": "He arrived usually about sunrise, and", "sure": "high"}
-{"given": "until sunset, seated or his father's", "print": "until sunset, seated on his father's", "sure": "high"}
-{"given": "chanting the Koran; and giving advice", "print": "chanting the Koran, and giving advice", "sure": "high"}

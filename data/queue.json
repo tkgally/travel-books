@@ -2635,11 +2635,13 @@
    "place": "London",
    "publisher": "Smith, Elder, & Co.",
    "images": 432,
-   "status": "in progress",
+   "status": "published",
    "checked": "2026-11-28",
    "eligibility": "Vetted 2026-11-28 (Opus subagent). Project Gutenberg: complete catalogue has only his later Mysteries of the Libyan Desert (#72141); #74774 is Rodd's People of the Veil. Online Books Page: nothing. Wikisource: cited only in the 1911 Britannica. Exact-sentence web search: nothing. Reprints: Kessinger 2007, Forgotten Books, Creative Media Partners 2022, all print-on-demand. Not checked: WorldCat.",
    "note": "University of California (San Diego) scan, 400 ppi, clean. About 334 pp.: preface, 19 chapters, appendix (pp. 319–330), index. 'Forty-one illustrations and a map': the list matches the plate captions found by OCR (several plates carry two photographs); the folding map's leaf not identified (perhaps leaves 427–428): check it. 1900–01, by camel from Biskra through Tougourt, Temasin and Wargla into the Algerian Sahara in search of a Tuareg camp, with his guide Aissa.",
-   "started": "2026-11-28"
+   "started": "2026-11-28",
+   "version": 1,
+   "published": "2026-11-28"
   },
   {
    "order": 277,

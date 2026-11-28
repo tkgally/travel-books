@@ -1,5 +1,0 @@
-{"given": "The other two arabs, being cousins", "print": "The other two Arabs, being cousins", "sure": "high"}
-{"given": "two for nor falling in", "print": "two for not falling in", "sure": "high"}
-{"given": "to me to settle dispute, which", "print": "to me to settle the dispute, which", "sure": "high"}
-{"given": "But, of course; they none", "print": "But, of course, they none", "sure": "high"}
-{"given": "sulked for the grcater part of", "print": "sulked for the greater part of", "sure": "high"}

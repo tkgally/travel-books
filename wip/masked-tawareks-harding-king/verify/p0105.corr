@@ -1,7 +1,0 @@
-The draft's first line is missing its opening letter ("his" appears as "[[cont]]his"), which looks like a transcription slip, so I'm correcting it.
-
-{"find": "[[cont]]his worldly", "replace": "[[cont]]his worldly"}
-
-Looking again, the draft text is "[[cont]]his worldly goods", which matches the image, so that change is a no-op. The one real difference is "ropes a bit", which I checked against the image. The page reads "know the ropes a bit", which also matches.
-
-NONE

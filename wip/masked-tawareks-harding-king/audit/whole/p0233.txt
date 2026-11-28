@@ -1,5 +1,0 @@
-{"given": "sides, be found nothing but damp", "print": "sides, he found nothing but damp", "sure": "high"}
-{"given": "By scoopiug out a small hollow", "print": "By scooping out a small hollow", "sure": "high"}
-{"given": "of the color and consistency of", "print": "of the colour and consistency of", "sure": "high"}
-{"given": "it had besides further flavouring of", "print": "it had besides a further flavouring of", "sure": "high"}
-{"given": "and by midday; to me at", "print": "and by midday, to me at", "sure": "high"}
