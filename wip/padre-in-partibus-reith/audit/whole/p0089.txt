@@ -1,5 +1,0 @@
-{"given": "the landscape as anchor went down", "print": "the landscape as the anchor went down", "sure": "high"}
-{"given": "and then the full colours were out", "print": "and when the full colours were out", "sure": "high"}
-{"given": "cone as seen from ampenan, but", "print": "cone as seen from Ampenan, but", "sure": "high"}
-{"given": "the eye of the beholder, stray where", "print": "the eye of the beholder; stray where", "sure": "high"}
-{"given": "the eye wauders across a wide", "print": "the eye wanders across a wide", "sure": "high"}

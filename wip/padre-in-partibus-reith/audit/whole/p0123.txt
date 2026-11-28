@@ -1,5 +1,0 @@
-{"given": "to catch train, he desires", "print": "to catch a train, he desires", "sure": "high"}
-{"given": "make up arrears of sleep; and there", "print": "make up arrears of sleep, and there", "sure": "high"}
-{"given": "English tourists in his part of", "print": "English tourists in this part of", "sure": "high"}
-{"given": "English store in sourabaya. He has", "print": "English store in Sourabaya. He has", "sure": "high"}
-{"given": "advice as to exeursions and routes.", "print": "advice as to excursions and routes.", "sure": "high"}

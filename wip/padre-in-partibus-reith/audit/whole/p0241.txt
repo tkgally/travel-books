@@ -1,5 +1,0 @@
-{"given": "Buddha’s mother was a virgin; of course;", "print": "Buddha’s mother was a virgin, of course;", "sure": "high"}
-{"given": "Their whitenefs is a matter", "print": "Their whiteness is a matter", "sure": "high"}
-{"given": "a dirty pink color on the", "print": "a dirty pink colour on the", "sure": "high"}
-{"given": "who after manner of a great", "print": "who after the manner of a great", "sure": "high"}
-{"given": "Minister. Be held us in conversation", "print": "Minister. He held us in conversation", "sure": "high"}
