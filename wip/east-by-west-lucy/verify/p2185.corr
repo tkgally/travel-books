@@ -1,0 +1,7 @@
+Page image shows "the government to refund" with lowercase g.
+
+{"find": "petitioned the government to refund", "replace": "petitioned the government to refund"}
+
+Checking again: the draft already has lowercase "government" there, so that entry needs no change. I found no other differences.
+
+NONE

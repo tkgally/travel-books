@@ -17,7 +17,7 @@
  "regions": [
   "Myanmar"
  ],
- "period": "",
+ "period": "c. 1907–10",
  "source": {
   "ia_identifier": "yearonirrawaddy0000empb",
   "contributor": "Internet Archive",
@@ -66,5 +66,10 @@
  "notes_on_text": [
   "The corrections in the book’s list of corrigenda are made in the text, each marked as a correction."
  ],
- "summary": ""
+ "summary": "The author, identified only by the initials E. M. P-B., lived for about eighteen months on an oil-steamer of which her husband was in command, carrying oil from the fields at Nyaunghla down the Irrawaddy to Rangoon. Part I describes one round trip: Rangoon harbour, the Bassein Creek and the delta, Myanoung, Prome, Thayetmyo, night navigation by searchlight, Nyaunghla, the run down with its accidents, a day ashore in Rangoon, and the ship’s Chittagonian crew. Part II goes through the year month by month, with the fogs, the heat, and the rains, a trip to Mandalay and Mingoon, and the return on a mail steamer. In her preface she says that she put the events of three or four years into one and sometimes made several people or ships into one. The chapter on the crew holds the disparaging views of its time.",
+ "keep_hyphens": [
+  "p0165",
+  "p0211",
+  "p0243"
+ ]
 }
