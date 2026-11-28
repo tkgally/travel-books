@@ -2,7 +2,7 @@
 
 # A Padre in Partibus.
 
-[[subtitle]] Written for the “<i>Singapore Free Press.</i>”
+[[subtitle]] W<sc>ritten for the</sc> “<i>Singapore Free Press.</i>”
 
 # Introductory.
 
