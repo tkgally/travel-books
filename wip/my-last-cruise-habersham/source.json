@@ -921,6 +921,17 @@
     "mylastcruiseorwh00habe_djvu.txt"
    ],
    "drive_id": "1RibW0BzeUIGAPjX9aGk_KKhjuQryfwhM"
+  },
+  {
+   "name": "pages-042.zip",
+   "sha256": "e5f8c762028809dc4ba4622aa4ad94fd4b8463be06be247204e590f658817a82",
+   "bytes": 466322,
+   "files": [
+    "leaves.json",
+    "p0148a.jpg",
+    "p0148b.jpg"
+   ],
+   "drive_id": "1ia_4t-lhSftJltC4qYDSgpJyKQO1-rUa"
   }
  ]
 }
