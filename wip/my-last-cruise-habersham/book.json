@@ -57,5 +57,45 @@
   "China",
   "Siberia"
  ],
- "summary": "A. W. Habersham, an officer of the United States Navy, tells of his part in the North Pacific Surveying and Exploring Expedition, which sailed from Norfolk in June 1853 to chart little-known coasts of the Pacific. The book follows its ships by the Cape of Good Hope to Java and the Malay islands, to Hong-Kong, Canton, and the coast of China, Formosa, and the Loo-Choo Islands; to Japan, at Simoda and Hakodadi, with chapters on the Ainu; and north to Kamtschatka, the Sea of Okhotsk, Siberia, and the mouth of the Amoor, before the return by San Francisco. He quotes from his own journal and writes of ship life, storms, the loss of the brig Porpoise, surveying work in boats, hunting, and the people met ashore. The book has an engraved title page, a frontispiece, and twenty-seven plates, drawn by others from his sketches."
+ "summary": "A. W. Habersham, an officer of the United States Navy, tells of his part in the North Pacific Surveying and Exploring Expedition, which sailed from Norfolk in June 1853 to chart little-known coasts of the Pacific. The book follows its ships by the Cape of Good Hope to Java and the Malay islands, to Hong-Kong, Canton, and the coast of China, Formosa, and the Loo-Choo Islands; to Japan, at Simoda and Hakodadi, with chapters on the Ainu; and north to Kamtschatka, the Sea of Okhotsk, Siberia, and the mouth of the Amoor, before the return by San Francisco. He quotes from his own journal and writes of ship life, storms, the loss of the brig Porpoise, surveying work in boats, hunting, and the people met ashore. The book has an engraved title page, a frontispiece, and twenty-seven plates, drawn by others from his sketches.",
+ "divisions": [
+  {
+   "at": "p0011",
+   "kind": "front",
+   "title": "Engraved title"
+  },
+  {
+   "at": "p0013",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0015",
+   "kind": "dedication",
+   "title": "Dedication"
+  },
+  {
+   "at": "p0017",
+   "kind": "preface"
+  },
+  {
+   "at": "p0019",
+   "kind": "contents"
+  },
+  {
+   "at": "p0025",
+   "kind": "front",
+   "title": "The book’s title above Chapter I"
+  },
+  {
+   "at": "p0575",
+   "kind": "advertisements",
+   "title": "Publisher’s Advertisements"
+  }
+ ],
+ "frontispiece": "p0008-1",
+ "toc": {
+  "subtitles": "all"
+ },
+ "omitted_from_reading": "The engraved title page, the printed contents, the book’s title above Chapter I, and the publisher’s advertisements are in the JSON only.",
+ "waivers": []
 }
