@@ -1,0 +1,236 @@
+{
+ "id": "canaries-camera-deste",
+ "version": 1,
+ "date": "2026-11-28",
+ "title": "In the Canaries with a Camera",
+ "short_title": "In the Canaries with a Camera",
+ "authors": [
+  {
+   "name": "Margaret D'Este",
+   "sort": "D'Este, Margaret"
+  }
+ ],
+ "place": "London",
+ "publisher": "Methuen & Co.",
+ "year": 1909,
+ "edition_statement": "First edition",
+ "regions": [
+  "Spain (Canary Islands)"
+ ],
+ "period": "1908–09",
+ "source": {
+  "ia_identifier": "incanarieswithca00destrich",
+  "contributor": "University of California Libraries"
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-28",
+   "note": "First publication."
+  }
+ ],
+ "subjects": [
+  "Canary Islands",
+  "Tenerife",
+  "La Palma",
+  "Gran Canaria",
+  "Photography"
+ ],
+ "summary": "Margaret D’Este’s account of six months in the Canary Islands, from December 1908 to May 1909, most of them on Tenerife (“Teneriffe”), with shorter stays on La Palma and Grand Canary. She travelled with Mrs. R. M. King, whose photographs illustrate the book. In a note to the reader she says that it is not a guide but a personal record of “our own wayward steps and impressions.” She describes Puerto de Orotava and its hotels and visitors, the villages and farms of the north coast, Icod and Garachico, Holy Week at Laguna, journeys by mule across the Cañadas and the ascent of the Peak, Santa Cruz de la Palma and its pine woods, and the cave-dwellings of Grand Canary, with the guides, muleteers, and country people met on the way. The book has fifty-one photographic plates and a map of the three islands.",
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "front",
+   "title": "Half-title"
+  },
+  {
+   "at": "p0009",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0011",
+   "kind": "preface"
+  },
+  {
+   "at": "p0013",
+   "kind": "contents"
+  },
+  {
+   "at": "p0015",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0020",
+   "kind": "front",
+   "title": "Map",
+   "reading": true
+  },
+  {
+   "at": "p0021",
+   "kind": "front",
+   "title": "The book’s title above Chapter I"
+  },
+  {
+   "at": "p0021",
+   "kind": "part",
+   "n": 2
+  },
+  {
+   "at": "p0021",
+   "kind": "chapter",
+   "title": "Chapter I",
+   "toc_title": "Chapter I. Voyage from Southampton; Santa Cruz, Teneriffe (13 December)",
+   "n": 3
+  },
+  {
+   "at": "p0033",
+   "kind": "chapter",
+   "title": "Chapter II",
+   "toc_title": "Chapter II. The geography of Teneriffe; the road from Santa Cruz to Orotava (18 December)"
+  },
+  {
+   "at": "p0042",
+   "kind": "chapter",
+   "title": "Chapter III",
+   "toc_title": "Chapter III. The Humboldt Hotel and its gardens at Orotava; the visitors"
+  },
+  {
+   "at": "p0056",
+   "kind": "chapter",
+   "title": "Chapter IV",
+   "toc_title": "Chapter IV. Wet weather and snow on the Peak (January); hotel life, Spanish lessons, photographing the people"
+  },
+  {
+   "at": "p0073",
+   "kind": "chapter",
+   "title": "Chapter V",
+   "toc_title": "Chapter V. Puerto de Orotava; shops and embroidery; English residents; the ring-tilting (27 January)"
+  },
+  {
+   "at": "p0090",
+   "kind": "chapter",
+   "title": "Chapter VI",
+   "toc_title": "Chapter VI. An excursion to Agua Mansa; a stay at Tacaronte (end of January)"
+  },
+  {
+   "at": "p0105",
+   "kind": "chapter",
+   "title": "Chapter VII",
+   "toc_title": "Chapter VII. History of the Canaries; the Guanches; Nelson’s attack on Santa Cruz in 1797"
+  },
+  {
+   "at": "p0112",
+   "kind": "chapter",
+   "title": "Chapter VIII",
+   "toc_title": "Chapter VIII. Icod de los Viños and its dragon tree; cochineal (February)"
+  },
+  {
+   "at": "p0138",
+   "kind": "chapter",
+   "title": "Chapter IX",
+   "toc_title": "Chapter IX. Tomatoes, bananas, and prices; Garachico; the return from Icod"
+  },
+  {
+   "at": "p0152",
+   "kind": "chapter",
+   "title": "Chapter X",
+   "toc_title": "Chapter X. Back at Orotava (end of February); flowers; a carnival at the Puerto (March)"
+  },
+  {
+   "at": "p0164",
+   "kind": "chapter",
+   "title": "Chapter XI",
+   "toc_title": "Chapter XI. Over the Pass of Pedro Gil to Guimar; Arafo (9 March)"
+  },
+  {
+   "at": "p0186",
+   "kind": "chapter",
+   "title": "Chapter XII",
+   "toc_title": "Chapter XII. By mule from Guimar by Fasnia and Arico to Vilaflor (15 March); the Cañadas"
+  },
+  {
+   "at": "p0206",
+   "kind": "chapter",
+   "title": "Chapter XIII",
+   "toc_title": "Chapter XIII. Vilaflor to Adeje; a lava crater; the return to Orotava (March)"
+  },
+  {
+   "at": "p0224",
+   "kind": "chapter",
+   "title": "Chapter XIV",
+   "toc_title": "Chapter XIV. Orotava in April; the ascent of the Peak"
+  },
+  {
+   "at": "p0232",
+   "kind": "chapter",
+   "title": "Chapter XV",
+   "toc_title": "Chapter XV. Leaving Orotava (13 April); Laguna and Holy Week; Taganana; embarking for La Palma (21 April)"
+  },
+  {
+   "at": "p0253",
+   "kind": "part"
+  },
+  {
+   "at": "p0253",
+   "kind": "chapter",
+   "title": "Chapter XVI",
+   "toc_title": "Chapter XVI. Santa Cruz de la Palma and its neighbourhood (April)",
+   "n": 2
+  },
+  {
+   "at": "p0272",
+   "kind": "chapter",
+   "title": "Chapter XVII",
+   "toc_title": "Chapter XVII. The Caldera and Los Llaños; Candelaria; the return to Santa Cruz (27 April–1 May)"
+  },
+  {
+   "at": "p0291",
+   "kind": "part"
+  },
+  {
+   "at": "p0291",
+   "kind": "chapter",
+   "title": "Chapter XVIII",
+   "toc_title": "Chapter XVIII. Las Palmas, Grand Canary; the Monte (8 May); Atalaya and its people",
+   "n": 2
+  },
+  {
+   "at": "p0315",
+   "kind": "chapter",
+   "title": "Chapter XIX",
+   "toc_title": "Chapter XIX. By mule through Grand Canary: San Matteo, Tejeda, Guia, Galdar, Firgas (from 17 May)"
+  },
+  {
+   "at": "p0349",
+   "kind": "index"
+  },
+  {
+   "at": "p0353",
+   "kind": "advertisements",
+   "title": "Publisher’s Catalogue"
+  }
+ ],
+ "frontispiece": "p0008-1",
+ "omitted_from_reading": "The half-title, the printed contents and list of illustrations, the book’s title above Chapter I, the index, and the publisher’s catalogue are in the JSON only.",
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0007",
+   "why": "the Internet Archive's “Digitized by” placard, not part of the book"
+  }
+ ],
+ "notes_on_text": [
+  "The chapters have no titles in the book, and its contents lists only their numbers; the entries after each chapter number in the contents of this edition (places, subjects, and dates) are the editor’s."
+ ],
+ "keep_hyphens": [
+  "p0084"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-28",
+  "pages": 6,
+  "recall": "28/28",
+  "real_errors": 0,
+  "fixed": 0
+ }
+}
