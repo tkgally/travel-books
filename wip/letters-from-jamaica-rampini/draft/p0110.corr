@@ -1,0 +1,5 @@
+{"find": "[[page ?]]", "replace": "[[page 106]]"}
+{"find": "106 A BATCH OF NEGRO LOVE-LETTERS.\n\n", "replace": ""}
+{"find": "like to tell you again.", "replace": "[[cont]] like to tell you again."}
+{"find": "help ;", "replace": "help;"}
+{"find": "is,not", "replace": "is not"}

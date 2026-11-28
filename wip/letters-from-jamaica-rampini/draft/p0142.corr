@@ -1,0 +1,4 @@
+{"find": "[[page ?]]\n\n138 OBEAH.\n\nof Fairfield", "replace": "[[page 138]]\n\n[[cont]] of Fairfield"}
+{"find": "the horsestable-boy", "replace": "the horse-stable-boy"}
+{"find": "very much, I gave", "replace": "very much. I gave"}
+{"find": "from him, He said", "replace": "from him. He said"}
