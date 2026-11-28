@@ -4,12 +4,7 @@
 [       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
 [       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
 [       ok] straight-quotes: no straight ' or " in the text
-[ FAIL (5)] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
-            - p0030: t evidence of its nature.  Alfred Russel Wallace says'…
-            - p0043: ried, “Sini, Tuan, sini!”  and pointed to a village c'…
-            - p0078:  sahaya sa’buntar, babi!’  and he walked away, sir.”'…
-            - p0084: a pony, and chewing sireh  with obvious content. He s'…
-            - p0099:  then opens a little toko  in a town or a village. Th'…
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
 [       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
 [       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
 [       ok] links: every link inside the book's web pages and EPUB has a target
@@ -108,4 +103,4 @@
             - p0148: “follow His” in …r His Glory?......Humbly follow His works!” “Don’t…
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: padre-in-partibus-reith v1 — 6 to fix, 0 waived; to look at: hyphen-joins 6, quote-balance 2, contents 22, openings 5, accents 2, misprints 1, rare-forms 21, serial-commas 4, missing-stop 2 — tools@ee05473d 2026-11-28
+preflight FAIL: padre-in-partibus-reith v1 — 1 to fix, 0 waived; to look at: hyphen-joins 6, quote-balance 2, contents 22, openings 5, accents 2, misprints 1, rare-forms 21, serial-commas 4, missing-stop 2 — tools@642ce4a8 2026-11-28
