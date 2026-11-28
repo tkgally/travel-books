@@ -1,0 +1,5 @@
+{"given": "in no hurry to rcpeat it.", "print": "in no hurry to repeat it.", "sure": "high"}
+{"given": "instead of waiting or His Highness", "print": "instead of waiting on His Highness", "sure": "high"}
+{"given": "the sea like a great blue lake burst into view;", "print": "the sea like a great blue lake burst into view,", "sure": "high"}
+{"given": "next morning, and Towkay a few hours", "print": "next morning, and the Towkay a few hours", "sure": "high"}
+{"given": "which we reached at sunrize next", "print": "which we reached at sunrise next", "sure": "high"}

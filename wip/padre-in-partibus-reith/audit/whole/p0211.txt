@@ -1,0 +1,5 @@
+{"given": "three days of his arrival; he is", "print": "three days of his arrival, he is", "sure": "high"}
+{"given": "had been introduced who was very cordial", "print": "had been introduced and who was very cordial", "sure": "high"}
+{"given": "grew colder and coldcr, and at", "print": "grew colder and colder, and at", "sure": "high"}
+{"given": "acquaintance also. The colonial Dutchman will", "print": "acquaintance also. The Colonial Dutchman will", "sure": "high"}
+{"given": "their acquaintances might nor wish to", "print": "their acquaintances might not wish to", "sure": "high"}

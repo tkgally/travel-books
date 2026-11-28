@@ -1,0 +1,5 @@
+{"given": "a century ago used take three", "print": "a century ago used to take three", "sure": "high"}
+{"given": "reached a village named paserpan, and", "print": "reached a village named Paserpan, and", "sure": "high"}
+{"given": "you have dealings; asks for it", "print": "you have dealings, asks for it", "sure": "high"}
+{"given": "corruption of “present” on of “per cent.”", "print": "corruption of “present” or of “per cent.”", "sure": "high"}
+{"given": "must take a dogeart drawn by", "print": "must take a dogcart drawn by", "sure": "high"}

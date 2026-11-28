@@ -234,5 +234,17 @@
   "p0020-1",
   "p0023-1",
   "p0245-1"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-28",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ },
+ "keep_hyphens": [
+  "p0092",
+  "p0228"
  ]
 }

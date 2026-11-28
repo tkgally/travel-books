@@ -12,8 +12,7 @@
 [       ok] nav: contents: at least one reading division; each has a title and text
 [       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
-[ FAIL (1)] audit: book.json records the sampled audit of this version
-            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[       ok] audit: book.json records the sampled audit of this version
 [ look (6)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0053: …irt and untidi-|ness are tempor… (hyphen removed; check)
             - hyphen join at p0092: …r's heavy gold-|knobbed Malacca… (hyphen removed; check) — the book hyphenates other “gold-” words: keep_hyphens?
@@ -24,9 +23,7 @@
 [       ok] joins: page joins: missing [[cont]]
 [       ok] folios: printed page numbers that break the sequence
 [       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
-[ look (2)] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
-            - p0019: 2 quotations left open: '“Kenapa nonya ini bilang sahaya ada orang bangsat?“he scream'
-            - p0146: closing ” with no opening “: 'Back to the rest-house was a return to the commonplace. Whil'
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
 [       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
 [look (22)] contents: entries of the printed contents with no matching heading
             - p0021: 'Singapore to Sourabaya—Across the Equator—The Karimata Passage—The Str'
@@ -55,40 +52,26 @@
 [       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
 [       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
 [       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
-[ look (5)] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
-            - p0031: opening in small capitals ('M<sc>y</sc> last letter was closed on th'); most chapters open in full capitals
-            - p0059: opening in small capitals ('W<sc>e</sc> left Ampenan on the afternoo'); most chapters open in full capitals
-            - p0124: opening in small capitals ('N<sc>ever</sc> trust other people’s opin'); most chapters open in full capitals
-            - p0225: opening in small capitals ('B<sc>angkok</sc> is a comparatively mode'); most chapters open in full capitals
-            - p0236: opening in small capitals ('O<sc>n</sc> my return from Ayuthia, I de'); most chapters open in full capitals
+[       ok] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
 [       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
 [       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
 [ look (2)] accents: words the book spells with different accents (or with and without): look at each group on the scan
             - a: a (p0013, p0015, p0017, p0018, p0019, p0020…); à (p0022, p0071, p0099, p0100, p0109, p0147…)
-            - e: e (p0020, p0027, p0029, p0049, p0059, p0067…); é (p0199)
-[ look (1)] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
-            - p0116: “aud” in …bottom of deep ravines, aud rise to the top of cloud…
-[look (21)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
-            - p0030: “bringin” — “bringing” is common (436; a letter dropped or transposed?)
-            - p0030: “sendin” — “sending” is common (312; a letter dropped or transposed?)
-            - p0043: “tunder” — “thunder” is common (225; a letter dropped or transposed?)
-            - p0050: “severly” — “severely” is common (167; a letter dropped or transposed?)
+            - e: e (p0020, p0027, p0029, p0049, p0067, p0083…); é (p0199)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[look (13)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0030: “bringin” — “bringing” is common (450; a letter dropped or transposed?)
+            - p0030: “sendin” — “sending” is common (317; a letter dropped or transposed?)
+            - p0043: “tunder” — “thunder” is common (226; a letter dropped or transposed?)
             - p0071: “tig” — “fig” is common (78)
-            - p0103: “largly” — “largely” is common (342; a letter dropped or transposed?)
-            - p0108: “sayin” — “saying” is common (753; a letter dropped or transposed?)
-            - p0116: “aud” — “and” is common (307995)
-            - p0117: “preciptious” — “precipitous” is common (258; a letter dropped or transposed?)
+            - p0108: “sayin” — “saying” is common (758; a letter dropped or transposed?)
             - p0136: “earing” — “caring” is common (47)
-            - p0137: “indequate” — “inadequate” is common (41; a letter dropped or transposed?)
-            - p0143: “orginally” — “originally” is common (267; a letter dropped or transposed?)
             - p0149: “exhilaratin” — “exhilarating” is common (77; a letter dropped or transposed?)
             - p0150: “aloon” — “saloon” is common (294; a letter dropped or transposed?)
-            - p0161: “wouderfully” — “wonderfully” is common (257)
-            - p0164: “stanger” — “stranger” is common (518; a letter dropped or transposed?)
-            - p0167: “thon” — “thou” is common (167)
+            - p0167: “thon” — “thou” is common (168)
             - p0179: “throughfares” — “thoroughfares” is common (57; a letter dropped or transposed?)
             - p0200: “lough” — “plough” is common (96; a letter dropped or transposed?)
-            - p0209: “contry” — “country” is common (8182; a letter dropped or transposed?)
+            - p0209: “contry” — “country” is common (8252; a letter dropped or transposed?)
             - p0209: “wisky” — “whisky” is common (82; a letter dropped or transposed?)
 [       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
 [ look (4)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
@@ -98,9 +81,8 @@
             - book.json summary: …age, native rulers and markets, temples and volcanoes, and of wh…
 [       ok] line-breaks: a paragraph line that ends without a stop, followed on the next line by one that starts in lower case: a stray line break splitting a paragraph?
 [       ok] running-heads: a heading at a page top that repeats a heading of the page before: a running head typed as a heading?
-[ look (2)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
-            - p0046: “heads The” in …blades shaped like arrow heads The roadstead at Ampena…
+[ look (1)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
             - p0148: “follow His” in …r His Glory?......Humbly follow His works!” “Don’t…
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: padre-in-partibus-reith v1 — 1 to fix, 0 waived; to look at: hyphen-joins 6, quote-balance 2, contents 22, openings 5, accents 2, misprints 1, rare-forms 21, serial-commas 4, missing-stop 2 — tools@642ce4a8 2026-11-28
+preflight PASS: padre-in-partibus-reith v1 — 0 to fix, 0 waived; to look at: hyphen-joins 6, contents 22, accents 2, rare-forms 13, serial-commas 4, missing-stop 1 — tools@58114332 2026-11-28
