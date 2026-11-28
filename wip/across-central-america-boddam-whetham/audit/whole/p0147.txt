@@ -1,5 +1,0 @@
-{"given": "of the ocean, on on the shelving", "print": "of the ocean, or on the shelving", "sure": "high"}
-{"given": "sufficiently to ignite powdcr or burn", "print": "sufficiently to ignite powder or burn", "sure": "high"}
-{"given": "focal effect boils an instant;", "print": "focal effect boils in an instant;", "sure": "high"}
-{"given": "metals melt under its ardor;", "print": "metals melt under its ardour;", "sure": "high"}
-{"given": "earth dissolve or vitrify, and the", "print": "earth dissolve or vitrify; and the", "sure": "high"}

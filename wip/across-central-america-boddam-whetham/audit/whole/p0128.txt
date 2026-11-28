@@ -1,5 +1,0 @@
-{"given": "before we came in fight of Patzün", "print": "before we came in sight of Patzün", "sure": "high"}
-{"given": "two large bonfires were blazing; and rendered", "print": "two large bonfires were blazing, and rendered", "sure": "high"}
-{"given": "green branches and colonred calico;", "print": "green branches and coloured calico;", "sure": "high"}
-{"given": "arranged down the center. At last", "print": "arranged down the centre. At last", "sure": "high"}
-{"given": "After visiting stations at each corner", "print": "After visiting the stations at each corner", "sure": "high"}

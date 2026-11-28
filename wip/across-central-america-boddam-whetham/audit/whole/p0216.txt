@@ -1,5 +1,0 @@
-{"given": "just then, as impending war", "print": "just then, as the impending war", "sure": "high"}
-{"given": "all the available labor.", "print": "all the available labour.", "sure": "high"}
-{"given": "by the Motagna; the largest river", "print": "by the Motagna, the largest river", "sure": "high"}
-{"given": "into the river of the fame name,", "print": "into the river of the same name,", "sure": "high"}
-{"given": "these rivers, scldom call them", "print": "these rivers, seldom call them", "sure": "high"}

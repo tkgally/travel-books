@@ -1,5 +1,0 @@
-{"given": "brought back the members the ballet troupe", "print": "brought back the members of the ballet troupe", "sure": "high"}
-{"given": "Although Guatemala has nor yet joined", "print": "Although Guatemala has not yet joined", "sure": "high"}
-{"given": "the brilliant coup-d’œil on a theater night.", "print": "the brilliant coup-d’œil on a theatre night.", "sure": "high"}
-{"given": "a well painted scene with appropriate accefsories one", "print": "a well painted scene with appropriate accessories one", "sure": "high"}
-{"given": "of the Theatre Royal, Dublin, it might", "print": "of the Theatre Royal, Dublin; it might", "sure": "high"}

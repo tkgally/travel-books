@@ -1,8 +1,0 @@
-{"find": "piece of iron and with a beam", "replace": "piece of iron and with a beam"}
-{"find": "owns any deeper", "replace": "owns any deeper"}
-
-Wait, correcting: the draft has "with a piece of iron and with a beam", which matches the image. The one difference is "owns any deeper", also matching. Neither is an error.
-
-{"find": "no farmer owns", "replace": "no farmer owns"}
-
-NONE
