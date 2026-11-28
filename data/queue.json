@@ -2653,10 +2653,11 @@
    "place": "Rangoon",
    "publisher": "Myles Standish & Co., Ltd.",
    "images": 276,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-28",
    "eligibility": "Vetted 2026-11-28 (Opus subagent). pg_catalog.csv (pglaf mirror, complete): no match. Online Books Page (extended shelves): none. Wikisource search: 0 hits. Web: only Cornell Southeast Asia Visions (page images and raw OCR); exact sentence 'It is not difficult to make a Burman laugh' finds nothing. No reprint found. A second IA copy ('a-year-on-the-irrawaddy'). Not checked: WorldCat, Faded Page, DP.",
-   "note": "IA 2022 scan (360 ppi), library stamps on a few leaves. 238 pp.; eight photographic plates listed: check each on the scan. Two parts: a round trip from Rangoon up the Irrawaddy (I–XIV), then the seasons month by month (XV–XX). The preface warns of printer's errors and gives a corrigenda list: use it for the [[corr]] marks. The author lived about eighteen months aboard an oil steamer commanded by her husband; she says she merged three or four years into one and made some persons and ships composites (say so on the book page). The chapter on the lascar crew holds the period's disparaging views."
+   "note": "IA 2022 scan (360 ppi), library stamps on a few leaves. 238 pp.; eight photographic plates listed: check each on the scan. Two parts: a round trip from Rangoon up the Irrawaddy (I–XIV), then the seasons month by month (XV–XX). The preface warns of printer's errors and gives a corrigenda list: use it for the [[corr]] marks. The author lived about eighteen months aboard an oil steamer commanded by her husband; she says she merged three or four years into one and made some persons and ships composites (say so on the book page). The chapter on the lascar crew holds the period's disparaging views.",
+   "started": "2026-11-28"
   },
   {
    "order": 278,
