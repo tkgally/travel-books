@@ -16,10 +16,23 @@ Scan check: all 6 sheets and 17 leaves at full size (Opus subagent, 2026-11-28):
 Notes: the author's name is not on the title page (IA's record and the library card: Rampini). Footnotes ¹ ² ³ restarting each page; dialect throughout (ch. III, VII, XII Annancy stories, Appendix proverbs); ch. X letters misspelt on purpose with the author's glosses in [ ]; a court-room dialogue pp. 96–102 (italic speaker tags); tables p0073, p0088–p0089, p0092; verse in small type; a monument inscription p0050; quoted newspaper notices pp. 29–32.
 
 ## Decisions
+- No front-cover title (plain cloth): `cover.jpg` is the title page (a 1990 microfilming stamp over the spider's legs stays).
+- Author: the title page has no name; `authors` "[Charles Rampini]" from the library catalogues.
+- Divisions: half-title with its verso (printer and agents), contents and the publishers' list (p0189–p0212) in the JSON only. Chapters take their printed titles (short); the appendix `toc_title` as in the printed contents.
+- Letters of ch. X and the dialect kept as printed; `[[cont]]` on 13 lower-case run-ons after verse (the book sets every line after verse flush, so run-ons that start with a capital are left as new paragraphs).
+- p0110, p0127, p0142 refused by the output filter in the draft: `ocr_fallback.py`; read in full on the scan by the spot-read (one fix) and audited (15/15).
+- Printer's errors marked: the the (p0049), deoeptive (p0076), aquaintance (p0158), spendid (p0174). `keep_hyphens` p0066 (brick-built).
+- p0161: note mark * in the text, 1 at the foot: linked as note 1 (`notes_on_text`).
+- Assumed: period “c. 1872” (“seven years” after 1865, p0053; arrival in February, departure in spring).
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| Draft | 2026-11-28 | Opus | 208 | 14.48 | 3 refused (p0110, p0127, p0142) → fallback $0.22; no 〓 |
+| Corrections | 2026-11-28 | Sonnet | 208 | 7.07 | 22 changes; `[[cont]]` proposals p0110 (right: added) and p0128 (right: removed) |
+| Judge | 2026-11-28 | Opus | 19 spots | 0.18 | draft 18 (printed contents in capitals), verified 1 (ads) |
+| Spot-read | 2026-11-28 | Opus subagent | front matter, fallback pages, tables, verse, notices, notes, lists, tess_compare | — | 21 edits: 4 printer's errors marked, “tbe” → the (p0102, a draft error), egg-shell, 13 `[[cont]]` after verse, 2 italic story titles |
+| Audit | 2026-11-28 | Opus | 6 + 3 fallback | 0.53 | 29/30 and 15/15; 0 candidates |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |

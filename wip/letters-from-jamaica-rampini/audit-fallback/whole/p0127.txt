@@ -1,0 +1,5 @@
+{"given": "de John Crows clappcd deir wings", "print": "de John Crows clapped deir wings", "sure": "high"}
+{"given": "fe me, tomorrow fe you;", "print": "fe me, to-morrow fe you;", "sure": "high"}
+{"given": "turn to de John Crows say,", "print": "turn to de John Crows and say,", "sure": "high"}
+{"given": "a fire, for be said he", "print": "a fire, for he said he", "sure": "high"}
+{"given": "put all you heads into it; an’ you", "print": "put all you heads into it, an’ you", "sure": "high"}

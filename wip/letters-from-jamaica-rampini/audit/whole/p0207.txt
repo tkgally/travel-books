@@ -1,0 +1,5 @@
+{"given": "to the close of the 13th ceutury", "print": "to the close of the 13th century", "sure": "high"}
+{"given": "His paper is one of the", "print": "This paper is one of the", "sure": "high"}
+{"given": "Its History, Position; and Prospects.", "print": "Its History, Position, and Prospects.", "sure": "high"}
+{"given": "Proving that the stone Circles of", "print": "Proving that the Stone Circles of", "sure": "high"}
+{"given": "with satisfaction while away idle hours.", "print": "with satisfaction to while away idle hours.", "sure": "high"}

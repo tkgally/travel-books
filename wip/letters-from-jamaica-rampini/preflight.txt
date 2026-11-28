@@ -1,12 +1,7 @@
-[ FAIL (1)] meta: book.json: required fields present and sane
-            - book.json: missing 'summary'
+[       ok] meta: book.json: required fields present and sane
 [       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
-[ FAIL (3)] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
-            - [[cont]] not at the top of a page, dropped: p0195
-            - [[cont]] not at the top of a page, dropped: p0195
-            - note reference '2' (occurrence 3) has no note in division d021 (p0166…)
-[ FAIL (1)] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
-            - pages→JSON text: insert …arvationaltreatment"[]→[2]…
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
 [       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
 [       ok] straight-quotes: no straight ' or " in the text
 [       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
@@ -19,9 +14,8 @@
 [       ok] odt: LibreOffice opens the ODT and converts it to PDF
 [ FAIL (1)] audit: book.json records the sampled audit of this version
             - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
-[ look (4)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+[ look (3)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
             - hyphen join at p0021: …ucky?</i>) con-|spicuously pain… (hyphen removed; check)
-            - hyphen join at p0066: …a quaint brick-|built church wi… (hyphen removed; check)
             - hyphen join at p0096: …fly used as in-|gredients in pe… (hyphen removed; check)
             - (and 3 joins giving a word the book prints whole elsewhere: not listed)
 [       ok] joins: page joins: missing [[cont]]
@@ -48,14 +42,11 @@
 [ look (2)] accents: words the book spells with different accents (or with and without): look at each group on the scan
             - a: a (p0011, p0013, p0015, p0016, p0017, p0018…); à (p0168)
             - piece: piece (p0020, p0052, p0058, p0074, p0085, p0088…); pièce (p0057)
-[ look (2)] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
-            - p0102: “tbe” in …much hesitation)—It was tbe 15th July.
-
-C. P. S.—Wha…
+[ look (1)] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
             - p0189: “TH” in …mpress of Russia.
 
 By A. TH. VON GRIMM, translated b…
-[look (32)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+[look (29)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
             - p0015: “awaitin” — “awaiting” is common (234; a letter dropped or transposed?)
             - p0034: “sportin” — “sporting” is common (77; a letter dropped or transposed?)
             - p0034: “spendin” — “spending” is common (171; a letter dropped or transposed?)
@@ -66,7 +57,6 @@ By A. TH. VON GRIMM, translated b…
             - p0087: “sough” — “sought” is common (324; a letter dropped or transposed?)
             - p0092: “boders” — “borders” is common (180; a letter dropped or transposed?)
             - p0100: “anoyance” — “annoyance” is common (111; a letter dropped or transposed?)
-            - p0102: “tbe” — “the” is common (612914)
             - p0102: “breda” — “bread” is common (766; a letter dropped or transposed?)
             - p0108: “pleasur” — “pleasure” is common (1259; a letter dropped or transposed?)
             - p0108: “righten” — “frighten” is common (57; a letter dropped or transposed?)
@@ -82,18 +72,18 @@ By A. TH. VON GRIMM, translated b…
             - p0127: “bubblin” — “bubbling” is common (46; a letter dropped or transposed?)
             - p0131: “cra” — “era” is common (123)
             - p0136: “simples” — “simplest” is common (66; a letter dropped or transposed?)
-            - p0158: “aquaintance” — “acquaintance” is common (511; a letter dropped or transposed?)
-            - p0174: “spendid” — “splendid” is common (907; a letter dropped or transposed?)
             - p0178: “befor” — “before” is common (9855; a letter dropped or transposed?)
             - p0181: “troat” — “throat” is common (273; a letter dropped or transposed?)
             - p0186: “grandy” — “grandly” is common (52; a letter dropped or transposed?)
             - p0206: “gavel” — “gravel” is common (97; a letter dropped or transposed?)
 [       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
-[       ok] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+[ look (1)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: …ibes Kingston and Spanish Town, travel by road and the country inns, th…
 [       ok] line-breaks: a paragraph line that ends without a stop, followed on the next line by one that starts in lower case: a stray line break splitting a paragraph?
 [       ok] running-heads: a heading at a page top that repeats a heading of the page before: a running head typed as a heading?
 [ look (1)] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
             - p0111: “all This” in …asty love is not love at all This is the first…
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight FAIL: letters-from-jamaica-rampini v1 — 6 to fix, 0 waived; to look at: hyphen-joins 4, folios 1, quote-balance 5, contents 1, caption-tail 1, accents 2, misprints 2, rare-forms 32, missing-stop 1 — tools@b296a22a 2026-11-28
+[   unused] waiver matches nothing: {'check': 'leaves', 'match': 'p0217', 'why': 'IA has no image 0217 (its numbering skips it between the back endpapers and the cover)'}
+preflight FAIL: letters-from-jamaica-rampini v1 — 1 to fix, 0 waived; to look at: hyphen-joins 3, folios 1, quote-balance 5, contents 1, caption-tail 1, accents 2, misprints 1, rare-forms 29, serial-commas 1, missing-stop 1 — tools@fee8e5be 2026-11-28

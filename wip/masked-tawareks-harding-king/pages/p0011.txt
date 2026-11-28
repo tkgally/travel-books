@@ -1,6 +1,10 @@
 [[page ?]]
 
-[[center]] A SEARCH FOR THE MASKED TAWAREKS
+[[center]] A SEARCH
+
+[[center]] <sc>for the</sc>
+
+[[center]] MASKED TAWAREKS
 
 [[center]] BY
 
@@ -8,7 +12,9 @@
 
 [[center]] M.R.A.S., F.R.G.S.
 
-[[center]] WITH FORTY-ONE ILLUSTRATIONS AND A MAP
+[[center]] WITH FORTY-ONE ILLUSTRATIONS
+
+[[center]] AND A MAP
 
 [[center]] LONDON
 

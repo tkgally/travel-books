@@ -1,0 +1,158 @@
+{
+ "p0110": [
+  {
+   "kind": "capital",
+   "at": 52,
+   "was": "P",
+   "now": "p",
+   "context": ". do not make it known to the public before we began. The rea",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "letter",
+   "at": 1069,
+   "was": "e",
+   "now": "c",
+   "context": "as this. If it is a liberty plcase to let me know by your nex",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "real word",
+   "at": 1201,
+   "was": "not",
+   "now": "nor",
+   "context": "hen I see a letter wich I can nor take me some time to reed. If",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "dropped word",
+   "at": 309,
+   "was": " and ",
+   "now": " ",
+   "context": " known to a soul but I and you your brother-and-law. Therefor",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "punctuation",
+   "at": 1518,
+   "was": ",",
+   "now": ";",
+   "context": "[formal] letter. My pen is bad; and my ink is pale, but my lo",
+   "found_by": [
+    "whole"
+   ]
+  }
+ ],
+ "p0127": [
+  {
+   "kind": "modernized",
+   "at": 213,
+   "was": "to-morrow",
+   "now": "tomorrow",
+   "context": "self an’ say, “‘To-day fe me, tomorrow fe you;’ ‘When fowl merry, ha",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "letter",
+   "at": 100,
+   "was": "e",
+   "now": "c",
+   "context": "t. Den all de John Crows clappcd deir wings wid joy, an’ said",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "real word",
+   "at": 455,
+   "was": "he",
+   "now": "be",
+   "context": " he bid dem light a fire, for be said he would need to boil de",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "dropped word",
+   "at": 380,
+   "was": " and ",
+   "now": " ",
+   "context": "Then him turn to de John Crows say, “When you hab plenty you ",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "punctuation",
+   "at": 825,
+   "was": ",",
+   "now": ";",
+   "context": " an’ put all you heads into it; an’ you musn’ lif’ up your he",
+   "found_by": [
+    "whole"
+   ]
+  }
+ ],
+ "p0142": [
+  {
+   "kind": "modernized",
+   "at": 1063,
+   "was": "Harbour",
+   "now": "Harbor",
+   "context": ". Robert Mein [slave] to Cold Harbor, had a bad leg. Fisher pricke",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "letter",
+   "at": 305,
+   "was": "u",
+   "now": "n",
+   "context": "sher, after sucking the egg, rnbbed part of the shell in his ",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "real word",
+   "at": 522,
+   "was": "it",
+   "now": "if",
+   "context": " then gave it to me, and said if was to be given to driver Ric",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "dropped word",
+   "at": 1015,
+   "was": " the ",
+   "now": " ",
+   "context": "l did not make the horse throw busha, this would. Robert Mein",
+   "found_by": [
+    "whole"
+   ]
+  },
+  {
+   "kind": "punctuation",
+   "at": 632,
+   "was": ",",
+   "now": ";",
+   "context": " to put under the horse’s tail; when the horse would throw th",
+   "found_by": [
+    "whole"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+{"given": "the public before we began", "print": "the Public before we began", "sure": "high"}
+{"given": "I and you your brother-and-law", "print": "I and you and your brother-and-law", "sure": "high"}
+{"given": "If it is a liberty plcase to", "print": "If it is a liberty please to", "sure": "high"}
+{"given": "wich I can nor take me", "print": "wich I can not take me", "sure": "high"}
+{"given": "My pen is bad; and my", "print": "My pen is bad, and my", "sure": "high"}
