@@ -1,0 +1,308 @@
+{
+ "p0013": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[center]] FROM",
+   "replace": "[[center]] <sc>from</sc>",
+   "draft": "[[center]] FROM",
+   "verified": "[[center]] <sc>from</sc>",
+   "context": "age ?]] ⏎  ⏎ [[center]] “ROUND THE WORLD.” ⏎  ⏎ [[center]] LETTERS ⏎  ⏎ [[center]] FROM ⏎  ⏎ [[center]] JAPAN, CHINA, ⏎  ⏎ [[center]] INDIA, AND EGYPT. ⏎  ⏎ [["
+  }
+ ],
+ "p0057": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 33]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 33]]",
+   "context": "[[page ?]] ⏎  ⏎ # Number Five. ⏎  ⏎ [[subtitle]] A Pleasant Sunday—The Pacific"
+  }
+ ],
+ "p0065": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Harbor ot Yokohama",
+   "replace": "Harbor of Yokohama",
+   "draft": "Harbor ot Yokohama",
+   "verified": "Harbor of Yokohama",
+   "context": "le]] Arrival in Japan—Bay of Yeddo—Junk's and Fishing Boats—Harbor ot Yokohama—No Hacks, But Fat and Jolly Porters—A Good European Hotel—S"
+  }
+ ],
+ "p0068": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "painted.” The custom",
+   "replace": "painted.” Tae custom",
+   "draft": "painted.” The custom",
+   "verified": "painted.” Tae custom",
+   "context": "s. It may be said that he is “scantily dressed but decently painted.” The custom is said to have originated with the fishermen, who being mu"
+  }
+ ],
+ "p0074": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<i>moosmes</i>",
+   "replace": "<i>moosmies</i>",
+   "draft": "<i>moosmes</i>",
+   "verified": "<i>moosmies</i>",
+   "context": "at us, while behind them are following two little girls, or <i>moosmes</i>, about eight years old, and evidently sisters. I notice tha"
+  }
+ ],
+ "p0096": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "thumb nailes",
+   "replace": "thumb nails",
+   "draft": "thumb nailes",
+   "verified": "thumb nails",
+   "context": "is three and a half feet long, the ears six and a half, the thumb nailes eight by ten inches. The thumbs are joined in front of the "
+  }
+ ],
+ "p0125": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "transsported",
+   "replace": "transported",
+   "draft": "transsported",
+   "verified": "transported",
+   "context": "he heart of the town are to be found spots which seem to be transsported from some fair country scene, where the dark pines and firs"
+  }
+ ],
+ "p0126": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "elaboratey carved",
+   "replace": "elaborately carved",
+   "draft": "elaboratey carved",
+   "verified": "elaborately carved",
+   "context": "e or brick. The cornices, doors, and outside walls are most elaboratey carved in fantastic and allegorical designs, and are richly gilt o"
+  }
+ ],
+ "p0133": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "Japan, when it supplies",
+   "replace": "Japan, where it supplies",
+   "draft": "Japan, when it supplies",
+   "verified": "Japan, where it supplies",
+   "context": "boo, and is much inferior in strength and finish to that of Japan, when it supplies for many domestic uses the place of linen and cotton. From "
+  }
+ ],
+ "p0162": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "I 〓ean over",
+   "replace": "I ean over",
+   "draft": "I 〓ean over",
+   "verified": "I ean over",
+   "context": "f the women drown the bass tones of their male competitors. I 〓ean over the rail, and before leaving the deck close my contract wit"
+  }
+ ],
+ "p0177": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "optamist",
+   "replace": "optimist",
+   "draft": "optamist",
+   "verified": "optimist",
+   "context": "the future for China in too roseate hues for any one but an optamist, giving the Chinese credit for all the virtues, while he th"
+  }
+ ],
+ "p0178": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 111]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 111]]",
+   "context": "[[page ?]] ⏎  ⏎ # Number Seventeen. ⏎  ⏎ [[subtitle]] American Steamers in Chi"
+  }
+ ],
+ "p0226": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "shout of “<i>ah!",
+   "replace": "shout of ‘<i>ah!",
+   "draft": "shout of “<i>ah!",
+   "verified": "shout of ‘<i>ah!",
+   "context": "nd ran alongside the native cars in answer to the universal shout of “<i>ah! ah! Beestie!</i>” The dust and glare was almost intolerable"
+  }
+ ],
+ "p0228": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "changed less than",
+   "replace": "changed leas than",
+   "draft": "changed less than",
+   "verified": "changed leas than",
+   "context": "en over a century under the rule of the English, but it has changed less than any other large place in India. The most intense bigotry an"
+  }
+ ],
+ "p0236": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<i>buckscheesh.</i>",
+   "replace": "<i>bucksheesh.</i>",
+   "draft": "<i>buckscheesh.</i>",
+   "verified": "<i>bucksheesh.</i>",
+   "context": "tring of flowers, at the same time holding out his han〓 for <i>buckscheesh.</i> The crowd behind scowled at my good luck, and my guide drew"
+  }
+ ],
+ "p0244": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "faithful to the English, with",
+   "replace": "faithful to the Eng’ish, with",
+   "draft": "l to the English, with",
+   "verified": "l to the Eng’ish, with",
+   "context": "ompt action of the civil and military authorities kept them faithful to the English, with whom they united in putting down the rebels. Had the disaff"
+  }
+ ],
+ "p0250": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "“Martiniere,” or",
+   "replace": "“Martiniere.” or",
+   "draft": "“Martiniere,” or",
+   "verified": "“Martiniere.” or",
+   "context": "e of buildings of every species of architecture, called the “Martiniere,” or “Constantia.” The front is adorned with extravagant figures"
+  }
+ ],
+ "p0275": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 174]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 174]]",
+   "context": "[[page ?]] ⏎  ⏎ # Number Twenty-Four. ⏎  ⏎ [[subtitle]] Indian Conjurors—Makin"
+  }
+ ],
+ "p0285": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "in furtherance of",
+   "replace": "in fartherance of",
+   "draft": "in furtherance of",
+   "verified": "in fartherance of",
+   "context": ", been deciphered recently, and proves to be certain edicts in furtherance of religion and virtue, enacted by a king who reigned B. C. 32"
+  }
+ ],
+ "p0308": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "democratic〓 he says, tha〓 when",
+   "replace": "democratic, as he says, than when",
+   "draft": "democratic〓 he says, tha〓 when",
+   "verified": "democratic, as he says, than when",
+   "context": "ty, King William and a constitutional monarchy, but is more democratic〓 he says, tha〓 when he left Germany fifteen years ago, 〓he head steward, or “〓a"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "〓he head steward, or “〓aitre",
+   "replace": "The head steward, or “Maitre",
+   "draft": "〓he head steward, or “〓aitre",
+   "verified": "The head steward, or “Maitre",
+   "context": "c, as he says, than when he left Germany fifteen years ago, 〓he head steward, or “〓aitre d’ hotel,” who is known to us by the Royal title of Victor "
+  }
+ ],
+ "p0311": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "ostrich featchers",
+   "replace": "ostrich feathers",
+   "draft": "ostrich featchers",
+   "verified": "ostrich feathers",
+   "context": "er boats were filled with men, who held up to us bunches of ostrich featchers, eggs as big as babies’ heads, and corals of the brightest "
+  }
+ ],
+ "p0314": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "officrs",
+   "replace": "officers",
+   "draft": "officrs",
+   "verified": "officers",
+   "context": "The Governor, of course, invited the French Admiral and his officrs to dinner, and regaled them with unexceptionable champagne."
+  }
+ ],
+ "p0337": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "descendants of 〓 Circassian",
+   "replace": "descendants of those Circassian",
+   "draft": "cendants of 〓 Circassian",
+   "verified": "cendants of those Circassian",
+   "context": "e tombs of the Mamelukes are magnificent monuments of these descendants of 〓 Circassian girls, torn from their mountain homes by ruthless slave-dea"
+  }
+ ],
+ "p0338": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "colonade",
+   "replace": "collonade",
+   "draft": "colonade",
+   "verified": "collonade",
+   "context": "ers the holy precincts with his boots on. A circular marble colonade encloses the large courtyard into which we first came. In t"
+  }
+ ],
+ "p0339": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "danghter",
+   "replace": "daughter",
+   "draft": "danghter",
+   "verified": "daughter",
+   "context": "ses was launched among the bulrushes and found by Pharaoh’s danghter. While musing on the strange scenes which this old river ha"
+  }
+ ],
+ "p0348": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "impassible",
+   "replace": "impassable",
+   "draft": "impassible",
+   "verified": "impassable",
+   "context": "rapid, muddy current. The floating bridge had been rendered impassible by some accident, and we could only cross by boat. The stru"
+  }
+ ],
+ "p0356": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "fierce sirrocco would",
+   "replace": "fierce sirocco would",
+   "draft": "fierce sirrocco would",
+   "verified": "fierce sirocco would",
+   "context": "ont]]dangerous, if not impossible. At intervals all day the fierce sirrocco would break on us, and we caught two more before we could reach t"
+  }
+ ]
+}

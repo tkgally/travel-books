@@ -4,8 +4,12 @@ IA: roundworldletter00foggrich (University of California, Bancroft copy; 380 ima
 Eligibility: vetted 2026-11-23 (Opus subagent): rules 1, 3, 4 met; rule 2 not met — the whole text is on Wikisource (from another IA copy, partly proofread): a JATSI book is done all the same (Tom, 2026-11-20), transcribed afresh from the scan; lower priority. Taken 2026-11-28 as the JATSI book due (the others left are a Synapse/Elibron reprint, a mixed handbook, and a two-column quarto).
 
 ## Status
-Stage (a): scan checked (good), Drive cache uploaded (27 parts), Opus draft running (leaves 10, 13–367 without the 59 tissue guards; started 2026-11-28 ~09:35 UTC).
-Next: normalize, `grep -l 〓`, Sonnet corrections pass, review, judge; photo crops (full-size leaves); errata as `[[corr]]`.
+Stage (b) done 2026-11-28 10:00 UTC (meter: 504,342 tokens, 50%, 2.6 h): draft, corrections pass, judge, `pages/`, spot-read, photo crops, book.json (summary, 59 tissue-guard waivers).
+**Next session (stage c):**
+1. Apply the errata (p0023–p0024, 87 entries) as `[[corr printed|corrected]]` at each place (page/line; an Opus subagent with crops; “insert” entries as `[[corr |word]]`-style insertions as the markup allows; say any not found). p0308 “that”, “Waitre” and p0133 “when” are errata items.
+2. Errata ditto marks (“ “ in the p0023–p0024 tables): preflight `spacing` reads them as quotes: type them as „ (lessons) or as printed, or waive the two pages.
+3. Look for more missing stops at line ends (the spot-read's sample: the commonest real error left in this book): preflight `missing-stop`, and a script for a lower-case word followed by a capitalized word with no stop.
+4. Preflight → build → rendered look (letters' headings `# Number X.` + `[[subtitle]]`; the series title “Round the World.” put after the subtitle on p0025, p0307, p0329 — in print it stands above the number; frontispiece p0010) → audit (6 pages) → publish.
 
 ## Page map
 p0001–p0009 cover, flyleaf (pencil), bookplate, IA notice, blanks (not drafted) · p0010 frontispiece (albumen portrait of the author, no caption) · p0011–p0012 tissue (a presentation inscription in ink: not drafted) · p0013 title · p0014 blank · p0015 Preface (Cleveland, May, 1872. W. P. F.) · p0017–p0022 Contents · p0023–p0024 Errata (88 entries) · p0025–p0367 text pp. 7–237 · p0368–p0381 blanks, back cover, colour card (IA has no image 0377).
@@ -15,10 +19,20 @@ Tissue guards (not drafted): 11, 12, 37, 38, 45, 46, 63, 64, 69, 70, 77, 78, 89,
 Scan check: all 10 sheets, leaves at full size (Opus subagent, 2026-11-28): good. Ink corrections in this copy follow the errata (p0096, p0155, p0213, p0274, p0316, p0339): the print is transcribed. Plate leaves are shorter: text of the next page shows below them (no text from plate leaves).
 
 ## Decisions
+- Tissue guards not drafted (59 leaves, waived in `leaves`); blank plate versos `[[blank]]` (p0040 was a faint offset, not a picture).
+- Cover: the gilt cloth has no title: `cover.jpg` is the title page (a fragment of the presentation inscription shows at its top right).
+- Photo captions as written on the mounts (handwritten or printed); p0010 and p0183 have none. The Taj (p0263) is mounted sideways in this copy: turned upright.
+- Ink corrections in this copy (p0096, p0133, p0155, p0213, p0274, p0308, p0316, p0337, p0339) follow the errata: the print is transcribed and the errata applied as `[[corr]]`.
+- Letters missing in the worn type: `[[supplied]]` (13). Printer's errors marked (32, besides the errata). Kept as period spellings: fartherance, sirrocco, collonade, impassible, employe, refered, boney.
+- Letter headings `# Number One.` (as printed: III, IV in roman), headline `[[subtitle]]`, the dateline a paragraph.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
 |---|---|---|---|---|---|
+| Draft | 2026-11-28 | Opus | 299 | 21.37 | no refusals; 〓 on 7 pages (letters missing in print) |
+| Corrections | 2026-11-28 | Sonnet | 299 | 10.01 | 34 changes; filled 6 blank plate versos (refused); typed this copy's ink corrections on p0308, p0337 (undone by the spot-read) |
+| Judge | 2026-11-28 | Opus | 28 spots | 1.13 | draft 12, verified 14, neither 1; 1 undone by hand |
+| Spot-read | 2026-11-28 | Opus subagent | 〓, misprints, captions, front matter, letter heads, lists, tess sample | — | 69 files edited: 13 supplied, 32 `[[corr]]`, heading form, captions |
 
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |

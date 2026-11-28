@@ -1,0 +1,2 @@
+{"n": 1, "is": "B", "print": "democratic, as he says, than when", "sure": "medium"}
+{"n": 2, "is": "B", "print": "The head steward, or “Maitre", "sure": "medium"}
