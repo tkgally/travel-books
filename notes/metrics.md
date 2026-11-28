@@ -235,6 +235,7 @@
 | A Search for the Masked Tawareks v1 | 2026-11-28 | 432 (418 drafted) | Opus draft → Sonnet corrections → Opus judge; scan check, plate and figure crops, spot-read (with `tess_compare.py`), rendered look by Opus subagents; Drive uploads (Haiku) | 45 | 44 / 1 / 0 | 0 | 41.48 | 0 | PASS, 2 waived (IA's overall shots) | 30/30; 0 / 6 (preflight `misprints`: a draft “tbe”; spot-read: title-page lines; letters in body type made plain paragraphs) | map missing in every IA scan looked at |
 | Travels in the Wilds of Ecuador v2 | 2026-11-28 | — | page-file fix only (no model calls) | — | — | — | 0 | 0 | PASS, 0 waived | text unchanged except listed fixes | 1 (review after 125 books: catalogue lines above its heading) |
 | Journal of a Residence in Great Britain v7 | 2026-11-28 | — | page-file fix only (no model calls) | — | — | — | 0 | 0 | PASS, 8 waived | text unchanged except listed fixes | 1 (review after 125 books: a catalogue line above its heading) |
+| A Year on the Irrawaddy v1 | 2026-11-28 | 276 (266 drafted) | Opus draft → Sonnet corrections → Opus judge; scan check, plate crops, spot-read (with `tess_compare.py`), rendered look by Opus subagents; Drive uploads (Haiku) | 13 | 9 / 4 / 0 | 0 | 27.38 | 0 | PASS, 0 waived | 30/30; 0 / 6 (spot-read: 13 corrigenda and 12 printer's errors marked, a draft “Tbe”; rendered look: menus as verse) | |
 
 ## Calibrations
 

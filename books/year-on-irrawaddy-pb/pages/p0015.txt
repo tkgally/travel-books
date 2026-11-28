@@ -1,0 +1,17 @@
+[[page ?]]
+
+# Corrigenda.
+
+| <i>Page</i> | <pref>5</pref> | <i>Line</i> | 4 | <i>For</i> | Burma | <i>Read</i> | March |
+| „ | <pref>6</pref> | „ | 2 | „ | Flottila | „ | Flotilla |
+| „ | <pref>17</pref> | „ | 12 | „ | seccunnie | „ | secunnie |
+| „ | <pref>19</pref> | „ | 27 | „ | accomodate | „ | accommodate |
+| „ | <pref>39</pref> | „ | 23 | „ | leadsman | „ | leadsmen |
+| „ | <pref>65</pref> | „ | 4 | „ | great | „ | greater |
+| „ | <pref>86</pref> | „ | 15 | „ | shore | „ | shoal |
+| „ | <pref>94</pref> | „ | 20 | „ | Irritation | „ | irritation |
+| „ | <pref>125</pref> | „ | 5 | „ | hold | „ | holds |
+| „ | <pref>127</pref> | „ | 10 | „ | There | „ | They |
+| „ | <pref>172</pref> | „ | 21 | „ | breath | „ | breadth |
+| „ | <pref>212</pref> | „ | 11 | „ | fifty feet | „ | ninety feet |
+| „ | <pref>222</pref> | „ | 18 | „ | Esquimaux | „ | Esquimau |

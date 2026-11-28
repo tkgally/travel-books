@@ -1,0 +1,174 @@
+{
+ "p1009": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<sc>companion of the journey</sc>",
+   "replace": "COMPANION OF THE JOURNEY",
+   "draft": "<sc>companion of the journey</sc>",
+   "verified": "COMPANION OF THE JOURNEY",
+   "context": "[[page ?]] ⏎  ⏎ [[center]] TO MY WIFE, ⏎  ⏎ [[center]] <sc>companion of the journey</sc> ⏎  ⏎ [[center]] <sc>and</sc> ⏎  ⏎ [[center]] <sc>co-labourer in its"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "<sc>and</sc>",
+   "replace": "AND",
+   "draft": "<sc>and</sc>",
+   "verified": "AND",
+   "context": "O MY WIFE, ⏎  ⏎ [[center]] COMPANION OF THE JOURNEY ⏎  ⏎ [[center]] <sc>and</sc> ⏎  ⏎ [[center]] <sc>co-labourer in its record.</sc> ⏎  ⏎ L<sc>ondon"
+  },
+  {
+   "n": 3,
+   "kind": "words",
+   "find": "<sc>co-labourer in its record.</sc>",
+   "replace": "CO-LABOURER IN ITS RECORD.",
+   "draft": "<sc>co-labourer in its record.</sc>",
+   "verified": "CO-LABOURER IN ITS RECORD.",
+   "context": "nter]] COMPANION OF THE JOURNEY ⏎  ⏎ [[center]] AND ⏎  ⏎ [[center]] <sc>co-labourer in its record.</sc> ⏎  ⏎ L<sc>ondon</sc>, <i>Nov.</i> 1884. ⏎ "
+  }
+ ],
+ "p1013": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 1]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 1]]",
+   "context": "[[page ?]] ⏎  ⏎ # East by West. ⏎  ⏎ # Chapter I. ⏎  ⏎ [[subtitle]] “Off Sandy Hoo"
+  }
+ ],
+ "p1059": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "crounching",
+   "replace": "crouching",
+   "draft": "crounching",
+   "verified": "crouching",
+   "context": "ngton, however, paid no attention to the wasps, but went on crounching with white teeth into the rosy pulp, and looking as if he h"
+  }
+ ],
+ "p1114": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "of a stateman would",
+   "replace": "of a statesman would",
+   "draft": "of a stateman would",
+   "verified": "of a statesman would",
+   "context": "oodruff lacks some of the qualities essential to the making of a stateman would appear from the fact that he is now bent upon reviving and "
+  }
+ ],
+ "p1132": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<i>café</i>",
+   "replace": "<i>cafè</i>",
+   "draft": "<i>café</i>",
+   "verified": "<i>cafè</i>",
+   "context": "is wife for a walk in the Chinese quarter. In a neat little <i>café</i> the lady drank a cup of tea, for which one dollar was deman"
+  }
+ ],
+ "p1308": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<i>da cappo.</i>",
+   "replace": "<i>da capo.</i>",
+   "draft": "<i>da cappo.</i>",
+   "verified": "<i>da capo.</i>",
+   "context": "ward, then swayed to the right, next to the left, and so on <i>da cappo.</i> It took about forty minutes thus to advance by one long gan"
+  }
+ ],
+ "p1309": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "frighted damsel",
+   "replace": "frightened damsel",
+   "draft": "frighted damsel",
+   "verified": "frightened damsel",
+   "context": " drank he held the sword behind him, by way of soothing the frighted damsel. In this position he was taken unawares by a sortie of gues"
+  }
+ ],
+ "p2008": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<sc>printed by william clowes and sons, limited, london and beccles.</sc>",
+   "replace": "<sc>Printed by William Clowes and Sons, Limited, London and Beccles.</sc>",
+   "draft": "<sc>printed by william clowes and sons, limited, london and beccles.</sc>",
+   "verified": "<sc>Printed by William Clowes and Sons, Limited, London and Beccles.</sc>",
+   "context": "[[page ?]] ⏎  ⏎ [[center]] <sc>printed by william clowes and sons, limited, london and beccles.</sc> ⏎ "
+  }
+ ],
+ "p2011": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[page ?]]",
+   "replace": "[[page 20]]",
+   "draft": "[[page ?]]",
+   "verified": "[[page 20]]",
+   "context": "[[page ?]] ⏎  ⏎ # East by West. ⏎  ⏎ [[break]] ⏎  ⏎ # Chapter I. ⏎  ⏎ [[subtitle]] Din"
+  }
+ ],
+ "p2060": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "When I awaked it",
+   "replace": "When I awoke it",
+   "draft": "When I awaked it",
+   "verified": "When I awoke it",
+   "context": " faithful Ito would come off for us at six in the morning. ⏎  ⏎ When I awaked it was already half-past six and Ito had not come. Whilst we w"
+  }
+ ],
+ "p2104": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "## Revenue.",
+   "replace": "## Revenue",
+   "draft": "## Revenue.",
+   "verified": "## Revenue",
+   "context": "for the financial year ending June, 1884, are as follows:— ⏎  ⏎ ## Revenue. ⏎  ⏎ | Sources of revenue. | Estimated. Yen. | ⏎ | Customs | 2,60"
+  }
+ ],
+ "p2173": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "at work writing; with",
+   "replace": "at work writing, with",
+   "draft": "work writing; with",
+   "verified": "work writing, with",
+   "context": "uck trousers and waistcoat, and the inseparable fez. He was at work writing; with his back to the garden, and his face to the dead wall, whic"
+  }
+ ],
+ "p2264": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "practially",
+   "replace": "practically",
+   "draft": "practially",
+   "verified": "practically",
+   "context": "[[page 254]] ⏎ [[cont]]fare. The consequence was that practially we had no dinner, and the entertainment of watching the but"
+  }
+ ],
+ "p2331": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "dilemna",
+   "replace": "dilemma",
+   "draft": "dilemna",
+   "verified": "dilemma",
+   "context": "f a boisterous Briton, a fellow-lodger, who, hearing of our dilemna, literally broke into the room, dragging his bed-clothes wi"
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{"find": "[[cont]]paper, makes", "replace": "[[cont]] paper, makes"}
+
+Actually, on reflection, that spacing change is unnecessary. Correct output:
+
+{"find": "wringing them", "replace": "wringing them"}
+
+Hmm — I'll stop there; the one real difference is "wringing":
+
+{"find": "god, wringing", "replace": "god, wringing"}
+
+NONE

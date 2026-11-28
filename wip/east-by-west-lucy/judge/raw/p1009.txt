@@ -1,0 +1,3 @@
+{"n": 1, "is": "A", "print": "COMPANION OF THE JOURNEY", "sure": "medium"}
+{"n": 2, "is": "A", "print": "AND", "sure": "medium"}
+{"n": 3, "is": "B", "print": "CO-LABOURER IN ITS RECORD.", "sure": "medium"}

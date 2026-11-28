@@ -1,0 +1,83 @@
+{
+ "id": "year-on-irrawaddy-pb",
+ "version": 1,
+ "date": "2026-11-28",
+ "title": "A Year on the Irrawaddy",
+ "short_title": "A Year on the Irrawaddy",
+ "authors": [
+  {
+   "name": "E. M. P-B.",
+   "sort": "P-B., E. M."
+  }
+ ],
+ "place": "Rangoon",
+ "publisher": "Myles Standish & Co., Ltd.",
+ "year": 1911,
+ "edition_statement": "First edition (paper covers)",
+ "regions": [
+  "Myanmar"
+ ],
+ "period": "c. 1907–10",
+ "source": {
+  "ia_identifier": "yearonirrawaddy0000empb",
+  "contributor": "Internet Archive",
+  "hidden_leaves": [
+   0,
+   275
+  ]
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-28",
+   "note": "First publication."
+  }
+ ],
+ "frontispiece": "p0016-1",
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0007",
+   "kind": "contents"
+  },
+  {
+   "at": "p0009",
+   "kind": "illustrations"
+  },
+  {
+   "at": "p0011",
+   "kind": "preface"
+  },
+  {
+   "at": "p0015",
+   "kind": "errata",
+   "title": "Corrigenda"
+  },
+  {
+   "at": "p0017",
+   "kind": "front",
+   "title": "The book’s title above Part I"
+  }
+ ],
+ "omitted_from_reading": "The printed contents, the list of illustrations, the corrigenda slip, and the book’s title above Part I are in the JSON only.",
+ "notes_on_text": [
+  "The corrections in the book’s list of corrigenda are made in the text, each marked as a correction."
+ ],
+ "summary": "The author, identified only by the initials E. M. P-B., lived for about eighteen months on an oil-steamer of which her husband was in command, carrying oil from the fields at Nyaunghla down the Irrawaddy to Rangoon. Part I describes one round trip: Rangoon harbour, the Bassein Creek and the delta, Myanoung, Prome, Thayetmyo, night navigation by searchlight, Nyaunghla, the run down with its accidents, a day ashore in Rangoon, and the ship’s Chittagonian crew. Part II goes through the year month by month, with the fogs, the heat, and the rains, a trip to Mandalay and Mingoon, and the return on a mail steamer. In her preface she says that she put the events of three or four years into one and sometimes made several people or ships into one. The chapter on the crew holds the disparaging views of its time.",
+ "keep_hyphens": [
+  "p0165",
+  "p0211",
+  "p0243"
+ ],
+ "audit": {
+  "version": 1,
+  "date": "2026-11-28",
+  "pages": 6,
+  "recall": "30/30",
+  "real_errors": 0,
+  "fixed": 0
+ }
+}

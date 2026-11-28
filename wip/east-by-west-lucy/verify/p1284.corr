@@ -1,0 +1,5 @@
+{"find": "contentedly ate their", "replace": "contentedly ate their"}
+
+Wait, that is not a change. Correct output:
+
+{"find": "twenty miles since morning contentedly ate their eggs", "replace": "twenty miles since morning contentedly ate their eggs"}
