@@ -5,8 +5,8 @@
 
 [[center]] Chapter I.
 
-PACIFIC PORTS—MAZATLAN—PRONUNCIADOS—BRIGANDS—JESUIT INFLUENCE—ACAPULCO—HARBOUR SCENES—A LAZY TOWN—A MEXICAN FORT—COAST RANGE—VOLCANOES—PACIFIC GALES—SAN JOSÉ AND GUATEMALA—CUSTOM HOUSE—PAINFUL INTEREST—DEPARTURE <pref>1</pref>
+<sc>pacific ports—mazatlan—pronunciados—brigands—jesuit influence—acapulco—harbour scenes—a lazy town—a mexican fort—coast range—volcanoes—pacific gales—san josé and guatemala—custom house—painful interest—departure</sc> <pref>1</pref>
 
 [[center]] Chapter II.
 
-EN ROUTE TO THE CAPITAL—SCENERY—GAZZA LADRA—BREAKFAST—OX-TEAMS—NATIVE PLOUGH—ESCUINTLA—CHANGE OF SCENE—A MACHETE—FALLS OF SAN PEDRO MARTIR—AMATITLAN—NOPAL PLANTATIONS—COCHINEAL—REFRESHMENT—LAKE OF AMATITLAN—HOT SPRINGS—ASCENT—PLAIN OF GUATEMALA——COURTESY—ARRIVAL IN CITY <pref>10</pref>
+<sc>en route to the capital—scenery—gazza ladra—breakfast—ox-teams—native plough—escuintla—change of scene—a machete—falls of san pedro martir—amatitlan—nopal plantations—cochineal—refreshment—lake of amatitlan—hot springs—ascent—plain of guatemala[[corr ——|—]]courtesy—arrival in city</sc> <pref>10</pref>
