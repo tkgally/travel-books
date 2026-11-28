@@ -426,6 +426,10 @@ goes to the to-do list for those sessions (`RESUME.md`).
 - **Skip Melland and Cholmeley, *Through the Heart of Africa*** (his answer to the question about the Westphalia Press
   edition of 2016): the book is not to be done.
 
+## 2026-11-28 (answer on *From Monte to Mosul*)
+
+- **Do not add *From Monte to Mosul* unless the missing text can be found elsewhere** (printed p. 124 and the plate facing it, absent from the only IA scan). It stays `waiting` until another copy with that page turns up.
+
 ## Questions for Tom
 
 - **Side-notes that date the entries of a letter or diary** (*Letters from Southern India & Ceylon*, Williams, 1877; 2026-11-22). The book prints
@@ -433,7 +437,3 @@ goes to the to-do list for those sessions (`RESUME.md`).
   *Embassy to China*: side-notes are left out of the reading editions) they are in the JSON only, so the reading editions lose the dates of the
   entries; the book page says so. Should such side-notes be shown in the editions (for example as a small line or a run-in date at the start of
   the paragraph), for this book and others like it? Assumed for now: the standing rule; a new version can show them.
-- **A text page missing from the only scan** (*From Monte to Mosul*, anonymous, 1909; 2026-11-28). The Duke scan, the only one at IA,
-  lacks printed p. 124 (one page of the diary at Mosul; the leaf is blank) and the plate “Nebbi Yunus” that faced it; the other 186
-  pages, 33 plates and the map are there. The rule asks you case by case. Publish it with the missing page and plate said in
-  `notes_on_text` (a gap of about 300 words), or leave it until another scan appears? The book is `waiting`; its scan is cached in Drive.
