@@ -1720,10 +1720,11 @@
    "place": "London",
    "publisher": "Richard Bentley and Son",
    "images": 700,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-23",
    "eligibility": "JATSI 70. Rules 1–4 met. Rule 1: Harvard/Google scans, 600 ppi bilevel, jp2 zip: Vol. I eastbywestajour04lucygoog (321), Vol. II eastbywest00unkngoog (379); four other Google copies (tif only) and DLI 72 ppi copies are worse. Rule 2: not in pg_catalog.csv (full, pglaf mirror); The Online Books Page none; Wikisource none (web site search; API rate-limited); exact-phrase search none; LibriVox audio only. Rule 3: print-on-demand only (Legare Street 2023, Wentworth 2019, BiblioBazaar 2008); no Ganesha/Edition Synapse, Elibron or Kegan Paul. Rule 4: first-person, 1883–84 world tour; Japan about 210 of 660 pp. Rule 5 n/a: Lucy 1842–1924 (LC gives 1845). Searched 2026-11-23 (Opus subagent). Not checked: Faded Page, WorldCat, DP in progress.",
-   "note": "Two volumes (303 + about 360 pp.): needs both IA items (source.items). Vol. II is eastbywest00unkngoog. No plates. Google bilevel scans: clean, but check every page at the start. Vol. II ch. VI is mostly statistics on the Japanese government. Ito, Isabella Bird's guide, travels with them."
+   "note": "Two volumes (303 + about 360 pp.): needs both IA items (source.items). Vol. II is eastbywest00unkngoog. No plates. Google bilevel scans: clean, but check every page at the start. Vol. II ch. VI is mostly statistics on the Japanese government. Ito, Isabella Bird's guide, travels with them.",
+   "started": "2026-11-28"
   },
   {
    "order": 93,
