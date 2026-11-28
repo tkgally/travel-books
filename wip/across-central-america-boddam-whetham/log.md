@@ -17,7 +17,7 @@ Notes: chapter summaries in small capitals; drop capitals; footnotes (* †), mo
 - Divisions: half-title, printed contents and the book's title above Chapter I in the JSON only; the frontispiece (sideways) set upright on the title page; chapter summaries in full in the contents (`toc.subtitles: all`), as printed.
 - Ornaments: 50 head- and tail-pieces cropped and listed in `ornaments`; head-pieces at p0192 and p0302 missed by the draft added from the scan.
 - The four lines of Dante in the footnote on p. 274 (p0294), and two lines in the note on p0043, run together with “ / ” (the markup has no verse in notes); said in `notes_on_text`.
-- A carelessly printed book: 38 printer's errors marked `[[corr]]` (turned and wrong letters: aud, bnt, iuto, beiug, Oaclos, Tnis, a turned r typed ɹ in “countɹy” …; the r not printed in “thei” at the foot of p. 165). The signature “J. W. B. W” without its stop is left as printed.
+- A carelessly printed book: 34 printer’s errors marked `[[corr]]` (turned and wrong letters: aud, bnt, iuto, beiug, Oaclos, Tnis, a turned r typed ɹ in “countɹy” …; the r not printed in “thei” at the foot of p. 165). The signature “J. W. B. W” without its stop is left as printed.
 - `keep_hyphens` p0224 (north-east). The menu on p. 259 set as a centred quotation.
 
 ## Runs
