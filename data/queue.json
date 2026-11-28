@@ -2539,6 +2539,141 @@
    "note": "Library of Congress scan, 300 ppi, colour, clean. 16 halftone plates (frontispiece and 15) on unnumbered leaves with blank backs (n7, 30, 41, 46, 65, 82, 101, 118, 137, 154, 178, 189, 194, 213, 218, 229); folding map of northern Luzon at n10. Preface; Dewey's two letters; 13 chapters (pp. 17–213); an appendix (pp. 214–236), an essay by another writer. A US Navy paymaster and a naval cadet ride from Manila across the Caraballos, down the Cagayan valley to Aparri, back by the Ilocos coast and Benguet, October–November 1898, through country held by Aguinaldo's government. Telegrams quoted in Spanish. Views of the period on Filipinos, strongest in the appendix.",
    "status": "queued",
    "checked": "2026-11-27"
+  },
+  {
+   "order": 271,
+   "ia": "lettersfromjamai00rampuoft",
+   "slug": "letters-from-jamaica-rampini",
+   "title": "Letters from Jamaica: The Land of Streams and Woods",
+   "author": "Charles Rampini",
+   "year": 1873,
+   "place": "Edinburgh",
+   "publisher": "Edmonston and Douglas",
+   "images": 220,
+   "status": "queued",
+   "checked": "2026-11-28",
+   "eligibility": "Vetted 2026-11-28 (Opus subagent). Project Gutenberg catalogue (pg_catalog.csv from the pglaf mirror, complete): nothing by Rampini. Online Books Page: only his Jamaica Law Reports (HathiTrust page images). Wikisource: author page lists no works. Open Library: the 1873 edition and a 2023 print-on-demand copy only; a BiblioLife/Nabu print-on-demand facsimile. Web search of an exact sentence from ch. XIV: no text online. NOT checked: the Digital Library of the Caribbean (dloc.com; JavaScript-only site; a web search limited to dloc.com found nothing); WorldCat.",
+   "note": "University of Toronto (Robarts) scan, 500 ppi; clean OCR. No list of illustrations and no plates seen (perhaps a title vignette); publisher's advertisements at the end. 16 short chapters (pp. 11–174) and an appendix of Negro proverbs (p. 175). Creole dialect (the Annancy stories, ch. XII) and the racial language of its time. A Scottish lawyer's sketches of Jamaica in the early 1870s: Kingston, Spanish Town, country life, schools, obeah, Mandeville and the Moravian settlement at Fairfield, the St. Elizabeth plains and Bluefields Bay."
+  },
+  {
+   "order": 272,
+   "ia": "tourthroughparto00stee",
+   "slug": "tour-through-atlantic-steele",
+   "title": "A Tour through Part of the Atlantic; or, Recollections from Madeira, the Azores (or Western Isles), and Newfoundland",
+   "author": "Robert Steele",
+   "year": 1810,
+   "place": "London",
+   "publisher": "J. J. Stockdale",
+   "images": 212,
+   "status": "queued",
+   "checked": "2026-11-28",
+   "eligibility": "Vetted 2026-11-28 (Opus subagent). Project Gutenberg catalogue (complete): nothing. Online Books Page: no items. Wikisource search: nothing. Open Library: the 1810 edition and the CIHM microfiche. Canadiana (oocihm.57316), HathiTrust: page images with OCR; distantreader.org raw OCR; Toronto Public Library scan: none a reading edition. Reprints: print-on-demand only (Forgotten Books 2018; British Library Historical Print Editions). Web search of an exact sentence: no text online. NOT checked: WorldCat.",
+   "note": "Library of Congress scan, 500 ppi; clean OCR. The title page promises a chart of the ship's track: the scandata has one foldout leaf, presumably the chart: look at it in the scan check. Dedication, preface, then continuous narrative with no chapters seen: titled sections needed (toc_entries). Under 200 printed pages. The cruise of HMS Vestal in summer 1809, told by a young Royal Marines lieutenant: Madeira, the Azores, St. John's, Newfoundland (the fishery, the town, a captured Beothuk woman), the convoy home and prizes taken."
+  },
+  {
+   "order": 273,
+   "ia": "ramblesinceylon00deburich",
+   "slug": "rambles-in-ceylon-de-butts",
+   "title": "Rambles in Ceylon",
+   "author": "Lieut. [Augustus] De Butts",
+   "year": 1841,
+   "place": "London",
+   "publisher": "Wm. H. Allen and Co.",
+   "images": 324,
+   "status": "queued",
+   "checked": "2026-11-28",
+   "eligibility": "Vetted 2026-11-28 (Opus subagent). Project Gutenberg catalogue (complete): nothing. Online Books Page: no items. Wikisource search: nothing. Open Library: the 1841 edition and a 2023 print-on-demand copy only; other print-on-demand copies; no Asian Educational Services or other real reprint found. Scan PDFs only at Tamil Digital Library and IA (in.ernet.dli.2015.23104); raw HathiTrust OCR on distantreader.org. Web search of an exact sentence: no text online. NOT checked: WorldCat; Sri Lankan reprint publishers.",
+   "note": "University of California scan, 500 ppi; clean OCR. No plates seen. 14 chapters with contents headnotes (pp. 1–292) and an appendix; a few footnotes. Written after the author's service in Ceylon, 1836–39: Colombo, Trincomalee and elephant shooting, Galle, the pearl fishery, Kandy, the Veddahs, coffee planting, Newera Ellia, Horton Plains, Adam's Peak and Anuradhapura. Chapters XIII–XIV are on history, trade and government. More description than personal narrative, with anecdotes and dry humour."
+  },
+  {
+   "order": 274,
+   "ia": "ourhomeincyprus0000stev",
+   "slug": "our-home-in-cyprus-scott-stevenson",
+   "title": "Our Home in Cyprus",
+   "author": "Mrs. Scott-Stevenson [Esmé Scott-Stevenson]",
+   "year": 1880,
+   "place": "London",
+   "publisher": "Chapman and Hall",
+   "images": 420,
+   "status": "queued",
+   "checked": "2026-11-28",
+   "eligibility": "Vetted 2026-11-28 (Opus subagent). Project Gutenberg: complete pg_catalog.csv (pglaf mirror): nothing by her or of this title. Online Books Page: page images only (Google, archive.org). Wikisource title search: 0 hits. Exact-sentence web search: no text. Reprints: Franklin Classics 2018 and Creative Media Partners 2022 (print-on-demand) only. Sylvia Ioannou Foundation: a catalogue record (third edition), at most a scan. Not checked: WorldCat.",
+   "note": "IA scan of a Claremont School of Theology copy, second edition 1880, 360 ppi, clean. About 332 pp.: introduction (a letter to her mother), 26 chapters with summaries, an appendix (pp. 319–332), about 31 pp. of advertisements. 8 plates listed (frontispiece Site of ancient Paphos; facing pp. 9, 61, 95, 111, 197, 277, 283) and 'a map' on the title page: plate gaps at every listed position, the map not seen: check it at the scan check. The wife of the civil commissioner of Kyrenia: a year in a Turkish house at Kyrenia (1878–79) and rides across the island (Famagusta, the Karpass, Troödos, Mount Olympus in snow). Second book by this author on the shelf (Our Ride through Asia Minor)."
+  },
+  {
+   "order": 275,
+   "ia": "journeytomorocco00beaurich",
+   "slug": "journey-to-marocco-beauclerk",
+   "title": "A Journey to Marocco, in 1826",
+   "author": "Captain G. Beauclerk [George Robert Beauclerk]",
+   "year": 1828,
+   "place": "London",
+   "publisher": "Poole and Edwards; William Harrison Ainsworth",
+   "images": 408,
+   "status": "queued",
+   "checked": "2026-11-28",
+   "eligibility": "Vetted 2026-11-28 (Opus subagent). Project Gutenberg: complete catalogue: nothing by Beauclerk (#73120 is Jackson's Account of the Empire of Marocco, another book). Online Books Page: nothing. Wikisource: no hit. Exact-sentence web search: nothing. Reprints: Franklin Classics 2018, Creative Media Partners 2022 (print-on-demand) only. Not checked: WorldCat; HathiTrust full text.",
+   "note": "University of California scan, 500 ppi; paper foxed, text legible. About 355 pp.: dedication, a letter to the officers of the Royal Welch Fusiliers, preface; no contents and no list of plates. About 10 lithographs after the author's drawings near leaves 10 (frontispiece), 37, 44, 109, 126, 181, 255, 267, 316, 385/386: count them at the scan check. Appendix A–D (pp. 347–355) partly in Spanish. A young officer goes with Dr. Brown, sent from Gibraltar to treat Sultan Muley Abderrahman, from Tangier to Marocco and Mogador; humour, sketches, court and Jewish life."
+  },
+  {
+   "order": 276,
+   "ia": "searchformaskedt00king",
+   "slug": "masked-tawareks-harding-king",
+   "title": "A Search for the Masked Tawareks",
+   "author": "W. J. Harding King",
+   "year": 1903,
+   "place": "London",
+   "publisher": "Smith, Elder, & Co.",
+   "images": 432,
+   "status": "queued",
+   "checked": "2026-11-28",
+   "eligibility": "Vetted 2026-11-28 (Opus subagent). Project Gutenberg: complete catalogue has only his later Mysteries of the Libyan Desert (#72141); #74774 is Rodd's People of the Veil. Online Books Page: nothing. Wikisource: cited only in the 1911 Britannica. Exact-sentence web search: nothing. Reprints: Kessinger 2007, Forgotten Books, Creative Media Partners 2022, all print-on-demand. Not checked: WorldCat.",
+   "note": "University of California (San Diego) scan, 400 ppi, clean. About 334 pp.: preface, 19 chapters, appendix (pp. 319–330), index. 'Forty-one illustrations and a map': the list matches the plate captions found by OCR (several plates carry two photographs); the folding map's leaf not identified (perhaps leaves 427–428): check it. 1900–01, by camel from Biskra through Tougourt, Temasin and Wargla into the Algerian Sahara in search of a Tuareg camp, with his guide Aissa."
+  },
+  {
+   "order": 277,
+   "ia": "yearonirrawaddy0000empb",
+   "slug": "year-on-irrawaddy-pb",
+   "title": "A Year on the Irrawaddy",
+   "author": "E. M. P-B.",
+   "year": 1911,
+   "place": "Rangoon",
+   "publisher": "Myles Standish & Co., Ltd.",
+   "images": 276,
+   "status": "queued",
+   "checked": "2026-11-28",
+   "eligibility": "Vetted 2026-11-28 (Opus subagent). pg_catalog.csv (pglaf mirror, complete): no match. Online Books Page (extended shelves): none. Wikisource search: 0 hits. Web: only Cornell Southeast Asia Visions (page images and raw OCR); exact sentence 'It is not difficult to make a Burman laugh' finds nothing. No reprint found. A second IA copy ('a-year-on-the-irrawaddy'). Not checked: WorldCat, Faded Page, DP.",
+   "note": "IA 2022 scan (360 ppi), library stamps on a few leaves. 238 pp.; eight photographic plates listed: check each on the scan. Two parts: a round trip from Rangoon up the Irrawaddy (I–XIV), then the seasons month by month (XV–XX). The preface warns of printer's errors and gives a corrigenda list: use it for the [[corr]] marks. The author lived about eighteen months aboard an oil steamer commanded by her husband; she says she merged three or four years into one and made some persons and ships composites (say so on the book page). The chapter on the lascar crew holds the period's disparaging views."
+  },
+  {
+   "order": 278,
+   "ia": "padrepartibus00reit",
+   "slug": "padre-in-partibus-reith",
+   "title": "A Padre in Partibus: Being Notes and Impressions of a Brief Holiday Tour through Java, the Eastern Archipelago and Siam",
+   "author": "George M. Reith",
+   "year": 1897,
+   "place": "Singapore",
+   "publisher": "The Singapore and Straits Printing Office",
+   "images": 250,
+   "status": "queued",
+   "checked": "2026-11-28",
+   "eligibility": "Vetted 2026-11-28 (Opus subagent). pg_catalog.csv (complete): no match. Online Books Page: no listing of this title. Wikisource: 0 hits. Web: bibliographic records and Cornell page images only; exact sentence not found. No real reprint found. Not checked: WorldCat, Faded Page, DP.",
+   "note": "Smithsonian Libraries (Freer Gallery) scan; page numbers run 4–220 without a gap (leaves 28–244); front matter leaves 1–27. No illustrations. About 25 short chapters reprinted from the Singapore Free Press, a diary of the Presbyterian minister of Singapore: Surabaya, Bali (a visit to van der Tuuk), Lombok after the 1894 fighting, Makassar, Sumbawa, East Java (Bromo), Yogyakarta, Borobudur, Prambanan, Garut, Buitenzorg, Batavia, and Bangkok and Ayutthaya at the end. Some Malay dialogue with footnote translations."
+  },
+  {
+   "order": 279,
+   "ia": "jungletrailsjung00whitrich",
+   "slug": "jungle-trails-whitney",
+   "title": "Jungle Trails and Jungle People: Travel, Adventure and Observation in the Far East",
+   "author": "Caspar Whitney",
+   "year": 1905,
+   "place": "New York",
+   "publisher": "Charles Scribner's Sons",
+   "images": 410,
+   "status": "queued",
+   "checked": "2026-11-28",
+   "eligibility": "Vetted 2026-11-28 (Opus subagent). pg_catalog.csv (complete): only his Musk-Ox, Bison, Sheep and Goat (#48694). Online Books Page: HathiTrust page images only. Wikisource: a Book Review Digest mention only. Reprints: print-on-demand (Legare Street 2021; paperbacks 2015 and 2010, the 2010 publisher not identified). Exact sentence not found. Not checked: WorldCat, Faded Page, DP, the publisher of ISBN 9780857926678.",
+   "note": "UC Berkeley scan, 500 ppi. 309 pp., 11 chapters; frontispiece and 36 photographs on about 31 plate leaves (some carry two): check every plate on the scan. Captions have a second line in small type. An American sporting writer's travel and hunting: the king's elephant kraal at Ayutthaya, Bangkok's klongs, Karens, the Sakai, Kelantan, Trengganu and Pahang, Sumatra with the hunter Jin Abu, a tiger chapter."
   }
  ],
  "rejected": [
@@ -3377,6 +3512,198 @@
    "title": "Hickson, A Naturalist in North Celebes (1889)",
    "why": "half zoology and ethnology",
    "checked": "2026-11-27"
+  },
+  {
+   "ia": "twelvemonthsinma00mull_0",
+   "title": "Mullens, Twelve Months in Madagascar (1875)",
+   "checked": "2026-11-28",
+   "why": "on Project Gutenberg (#70378)"
+  },
+  {
+   "ia": "ingermancolonyor00pulluoft",
+   "title": "Pullen-Burry, In a German Colony (1909)",
+   "checked": "2026-11-28",
+   "why": "on Project Gutenberg (#79365)"
+  },
+  {
+   "ia": "ethiopiainexilej00pullrich",
+   "title": "Pullen-Burry, Ethiopia in Exile: Jamaica Revisited (1905)",
+   "checked": "2026-11-28",
+   "why": "half a study of policy, not travel"
+  },
+  {
+   "ia": "briefaccounttoge00rolp",
+   "title": "Rolph, A Brief Account … West Indies … Upper Canada (1836)",
+   "checked": "2026-11-28",
+   "why": "mostly a statistical account for emigrants"
+  },
+  {
+   "ia": "islesinsummersea00redm",
+   "title": "Redman, Isles in Summer Seas (1913)",
+   "checked": "2026-11-28",
+   "why": "100 illustrations set in the text; layout beyond the tools for now"
+  },
+  {
+   "ia": "lettersfromhava00jamegoog",
+   "title": "Jameson, Letters from the Havana (1821)",
+   "checked": "2026-11-28",
+   "why": "Google scan, no jp2.zip"
+  },
+  {
+   "ia": "subtropicalrambl0000pike",
+   "title": "Pike, Sub-tropical Rambles in the Land of the Aphanapteryx (1873)",
+   "checked": "2026-11-28",
+   "why": "570 images, too long for now"
+  },
+  {
+   "ia": "avisittowazansa00watsgoog",
+   "title": "R. Spence Watson, A Visit to Wazan (1880)",
+   "checked": "2026-11-28",
+   "why": "only a Google scan (no jp2); look for a library scan before reconsidering"
+  },
+  {
+   "ia": "myexperiencesofc00stew",
+   "title": "Basil Stewart, My Experiences of Cyprus (1908)",
+   "checked": "2026-11-28",
+   "why": "mostly history, antiquities and economics, not a journey"
+  },
+  {
+   "ia": "rideinmoroccooth00campuoft",
+   "title": "Arthur Campbell, A Ride in Morocco and Other Sketches (1897)",
+   "checked": "2026-11-28",
+   "why": "Morocco only pp. 7–103; the rest Italy and Monte Carlo"
+  },
+  {
+   "ia": "travelsinatlass00thom",
+   "title": "Joseph Thomson, Travels in the Atlas and Southern Morocco (1889)",
+   "checked": "2026-11-28",
+   "why": "too long (about 650 images)"
+  },
+  {
+   "ia": "overfiveseasocea00mill",
+   "title": "Thomas Miller, Over Five Seas and Oceans (1894)",
+   "checked": "2026-11-28",
+   "why": "transcribed on Wikisource; 120 pp."
+  },
+  {
+   "ia": "onequator00dewiiala",
+   "title": "Harry de Windt, On the Equator (1882)",
+   "checked": "2026-11-28",
+   "why": "Project Gutenberg #27503"
+  },
+  {
+   "ia": "lifetravelinlowe00paskuoft",
+   "title": "C. T. Paske, Life and Travel in Lower Burmah (1892)",
+   "checked": "2026-11-28",
+   "why": "Project Gutenberg #59086"
+  },
+  {
+   "ia": "fromedinburghtoi00burnuoft",
+   "title": "W. G. Burn-Murdoch, From Edinburgh to India & Burmah (1908)",
+   "checked": "2026-11-28",
+   "why": "Project Gutenberg #22749"
+  },
+  {
+   "ia": "wanderingsamongs00walkrich",
+   "title": "H. W. Walker, Wanderings among South Sea Savages (1910)",
+   "checked": "2026-11-28",
+   "why": "Project Gutenberg #2564"
+  },
+  {
+   "ia": "tenyearsinburma00smitrich",
+   "title": "Julius Smith, Ten Years in Burma (1902)",
+   "checked": "2026-11-28",
+   "why": "Project Gutenberg #72797"
+  },
+  {
+   "ia": "tradetravelinfar00daviiala",
+   "title": "G. F. Davidson, Trade and Travel in the Far East (1846)",
+   "checked": "2026-11-28",
+   "why": "Project Gutenberg #27014"
+  },
+  {
+   "ia": "narrativeofresid00nealuoft",
+   "title": "F. A. Neale, Narrative of a Residence … Siam (1852)",
+   "checked": "2026-11-28",
+   "why": "reprinted by White Lotus, 1999"
+  },
+  {
+   "ia": "personalnarrativ00gougiala",
+   "title": "Henry Gouger, A Personal Narrative of Two Years' Imprisonment in Burmah (1860)",
+   "checked": "2026-11-28",
+   "why": "White Lotus edition, 2003"
+  },
+  {
+   "ia": "adventuresamongd00boyl",
+   "title": "Frederick Boyle, Adventures among the Dyaks of Borneo (1865)",
+   "checked": "2026-11-28",
+   "why": "reprinted by Opus Publications, 2007"
+  },
+  {
+   "ia": "inmalayforests00maxwrich",
+   "title": "W. G. Maxwell, In Malay Forests (1907)",
+   "checked": "2026-11-28",
+   "why": "reprinted 1957 and 1989"
+  },
+  {
+   "ia": "eighteenhundred00youngoog",
+   "title": "G. J. Younghusband, Eighteen Hundred Miles on a Burmese Tat (1888)",
+   "checked": "2026-11-28",
+   "why": "Asian Educational Services reprint 1995; Google scan only"
+  },
+  {
+   "ia": "northborneoexplo00hatt",
+   "title": "Frank Hatton, North Borneo (1885)",
+   "checked": "2026-11-28",
+   "why": "largely a father's biography and compiled reports"
+  },
+  {
+   "ia": "romanticeastburm00delmrich",
+   "title": "Walter Del Mar, The Romantic East (1906)",
+   "checked": "2026-11-28",
+   "why": "half Assam and Kashmir; guidebook manner"
+  },
+  {
+   "ia": "frenchintonkinso00cunnuoft",
+   "title": "Alfred Cunningham, The French in Tonkin and South China (1902)",
+   "checked": "2026-11-28",
+   "why": "a survey, not a narrative"
+  },
+  {
+   "ia": "gri_33125012884603",
+   "title": "C. A. Gordon, Our Trip to Burmah (1877)",
+   "checked": "2026-11-28",
+   "why": "no jp2.zip"
+  },
+  {
+   "ia": "sixmonthsinbrit00wintgoog",
+   "title": "C. T. Winter, Six Months in British Burmah (1858)",
+   "checked": "2026-11-28",
+   "why": "Google scan only, no jp2"
+  },
+  {
+   "ia": "egyptburmabritis00curtuoft",
+   "title": "W. E. Curtis, Egypt, Burma and British Malaysia (1905)",
+   "checked": "2026-11-28",
+   "why": "two-thirds Egypt; newspaper letters"
+  },
+  {
+   "ia": "cu31924023107711",
+   "title": "Eric Reid, Chequered Leaves from Siam (1913)",
+   "checked": "2026-11-28",
+   "why": "sketches, fiction and verse"
+  },
+  {
+   "ia": "cu31924078409681",
+   "title": "Noel Denison, Jottings … Land Dyaks of Upper Sarawak (1879)",
+   "checked": "2026-11-28",
+   "why": "a tally and genealogies; rough scan"
+  },
+  {
+   "ia": "wintertourthroug00falkiala",
+   "title": "H. E. Falk, A Winter Tour through India, Burmah and the Straits (1880)",
+   "checked": "2026-11-28",
+   "why": "108 pp., too short"
   }
  ]
 }
