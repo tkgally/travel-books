@@ -2,8 +2,6 @@
 
 # East by West.
 
-[[break]]
-
 # Chapter I.
 
 [[subtitle]] Dining and Cremating.

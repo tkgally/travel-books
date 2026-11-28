@@ -116,5 +116,9 @@
   "Mormons",
   "Benares",
   "Delhi"
+ ],
+ "keep_hyphens": [
+  "p1159",
+  "p2021"
  ]
 }
