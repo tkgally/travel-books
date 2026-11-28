@@ -5,38 +5,38 @@
 
 <sc>footprints of the tawareks</sc> <i>To face page</i> <pref>2</pref>
 
-<sc>grain-sellers in biskra market</sc> ” <pref>5</pref>
+<sc>grain-sellers in biskra market</sc>” <pref>5</pref>
 
-<sc>the fortune-teller</sc> ” <pref>11</pref>
+<sc>the fortune-teller</sc>” <pref>11</pref>
 
-<sc>a snake-catcher</sc> ” <pref>34</pref>
+<sc>a snake-catcher</sc>” <pref>34</pref>
 
-<sc>a rouara woman</sc> ” <pref>46</pref>
+<sc>a rouara woman</sc>” <pref>46</pref>
 
-<sc>the marriage dance</sc> ” <pref>50</pref>
+<sc>the marriage dance</sc>” <pref>50</pref>
 
-<sc>a street in old tougourt</sc> ” <pref>68</pref>
+<sc>a street in old tougourt</sc>” <pref>68</pref>
 
-<sc>arcade in the tougourt market</sc> ” <pref>88</pref>
+<sc>arcade in the tougourt market</sc>” <pref>88</pref>
 
-<sc>pool in oasis of tougourt</sc> ” <pref>88</pref>
+<sc>pool in oasis of tougourt</sc>” <pref>88</pref>
 
-<sc>dyers at work in the tougourt market</sc> ” <pref>91</pref>
+<sc>dyers at work in the tougourt market</sc>” <pref>91</pref>
 
-<sc>a street in temasin</sc> ” <pref>102</pref>
+<sc>a street in temasin</sc>” <pref>102</pref>
 
-<sc>interior of tougourt mosque</sc> ” <pref>105</pref>
+<sc>interior of tougourt mosque</sc>” <pref>105</pref>
 
-<sc>the tent</sc> ” <pref>115</pref>
+<sc>the tent</sc>” <pref>115</pref>
 
-<sc>watering camels at hassi mamar</sc> ” <pref>121</pref>
+<sc>watering camels at hassi mamar</sc>” <pref>121</pref>
 
-<sc>puzzle—find the road</sc> ” <pref>121</pref>
+<sc>puzzle—find the road</sc>” <pref>121</pref>
 
-<sc>wargla</sc> ” <pref>135</pref>
+<sc>wargla</sc>” <pref>135</pref>
 
-<sc>a gateway at wargla</sc> ” <pref>139</pref>
+<sc>a gateway at wargla</sc>” <pref>139</pref>
 
-<sc>the ramparts of wargla</sc> ” <pref>150</pref>
+<sc>the ramparts of wargla</sc>” <pref>150</pref>
 
-<sc>a street in wargla</sc> ” <pref>151</pref>
+<sc>a street in wargla</sc>” <pref>151</pref>

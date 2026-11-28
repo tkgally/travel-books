@@ -1,0 +1,42 @@
+# tess_compare: 178 pages; 28 word items; 10 pitch items; 0 empty items
+## Pages tesseract finds empty
+## Line pitch
+p0179: pitch 37 against the book's 44 (0.84): small type typed as body text?
+p0180: pitch 37 against the book's 44 (0.84): small type typed as body text?
+p0181: pitch 37 against the book's 44 (0.84): small type typed as body text?
+p0182: pitch 37 against the book's 44 (0.84): small type typed as body text?
+p0183: pitch 37 against the book's 44 (0.84): small type typed as body text?
+p0184: pitch 37 against the book's 44 (0.84): small type typed as body text?
+p0185: pitch 37 against the book's 44 (0.84): small type typed as body text?
+p0186: pitch 37 against the book's 44 (0.84): small type typed as body text?
+p0073: 13 lines set closer from y 977 (gap under 0.96 of the book's 44): small type typed as body text?
+p0092: 8 lines set closer from y 517 (gap under 0.96 of the book's 44): small type typed as body text?
+## Words
+p0011: print?   file “London”, tesseract “Lonpvon,”
+p0023: print?   file “Kingston”, tesseract “Kineston”
+p0036: print?   file “appeared”, tesseract “peared”
+p0040: print?   file “III”, tesseract “ITI.”
+p0056: print?   file “into”, tesseract “inte”
+p0076: print?   file “depôt”, tesseract “depét”
+p0076: misread? file “deoeptive”, tesseract “deceptive”
+p0084: print?   file “VIII”, tesseract “VIL.”
+p0088: misread? file “magistrate's”, tesseract “magistrates”
+p0091: print?   file “cracks”, tesseract “eracks”
+p0096: print?   file “Natural”, tesseract “Natwral”
+p0102: misread? file “tbe”, tesseract “the”
+p0109: print?   file “III”, tesseract “IIL.”
+p0112: print?   file “meet”, tesseract “megt”
+p0117: print?   file “but”, tesseract “bué”
+p0117: print?   file “sir”, tesseract “gir,”
+p0117: print?   file “may”, tesseract “Thay”
+p0118: print?   file “patronage”, tesseract “)atronage”
+p0118: print?   file “Profession”, tesseract “Proféssion”
+p0120: print?   file “Trans”, tesseract “”—Zrans.”
+p0125: print?   file “who”, tesseract “whe”
+p0132: print?   file “personal”, tesseract “pérsonal”
+p0139: print?   file “have”, tesseract “Ihave”
+p0159: misread? file “chou”, tesseract “chow”
+p0161: print?   file “before”, tesseract “betore”
+p0183: print?   file “cry”, tesseract “ery”
+p0183: print?   file “fly”, tesseract “flys”
+p0184: print?   file “twopence”, tesseract “(wopence”
