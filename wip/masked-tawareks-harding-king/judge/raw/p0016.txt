@@ -1,0 +1,22 @@
+{"n": 1, "is": "A", "print": "<sc>our flat</sc>", "sure": "medium"}
+{"n": 2, "is": "B", "print": "<sc>wall and moat of n’goussa</sc>", "sure": "medium"}
+{"n": 3, "is": "B", "print": "<sc>gazelle-stalking: approaching the gazelle</sc>", "sure": "medium"}
+{"n": 4, "is": "A", "print": "<sc>gazelle-stalking: the signal to turn</sc>", "sure": "medium"}
+{"n": 5, "is": "A", "print": "<sc>gazelle-stalking: the shot</sc>", "sure": "medium"}
+{"n": 6, "is": "B", "print": "<sc>a thirsty country</sc>", "sure": "medium"}
+{"n": 7, "is": "A", "print": "<sc>a guemeerah</sc>", "sure": "medium"}
+{"n": 8, "is": "B", "print": "<sc>a bad road</sc>", "sure": "medium"}
+{"n": 9, "is": "B", "print": "<sc>palm-groves near el wad</sc>", "sure": "medium"}
+{"n": 10, "is": "B", "print": "<sc>a khotara</sc>", "sure": "medium"}
+{"n": 11, "is": "B", "print": "<sc>el wad</sc>", "sure": "medium"}
+{"n": 12, "is": "B", "print": "<sc>a tawarek eating</sc>", "sure": "medium"}
+{"n": 13, "is": "A", "print": "<sc>a desert mosque</sc>", "sure": "medium"}
+{"n": 14, "is": "A", "print": "<sc>tent for lady on camel</sc>", "sure": "medium"}
+{"n": 15, "is": "A", "print": "<sc>in the tawarek camp</sc>", "sure": "medium"}
+{"n": 16, "is": "B", "print": "<sc>a tawarek tent</sc>", "sure": "medium"}
+{"n": 17, "is": "A", "print": "<sc>a group of tawareks</sc>", "sure": "medium"}
+{"n": 18, "is": "A", "print": "<sc>in the tawarek chief’s tent</sc>", "sure": "medium"}
+{"n": 19, "is": "B", "print": "<sc>the ‘little queens’</sc>", "sure": "medium"}
+{"n": 20, "is": "B", "print": "<sc>a tawarek noble</sc>", "sure": "medium"}
+{"n": 21, "is": "B", "print": "<sc>a tawarek noble and slave</sc>", "sure": "medium"}
+{"n": 22, "is": "A", "print": "<sc>map of the author’s route</sc>", "sure": "medium"}

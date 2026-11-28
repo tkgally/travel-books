@@ -1,0 +1,417 @@
+{
+ "p0005": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "[[center]] A SEARCH FOR THE MASKED TAWAREKS",
+   "replace": "[[center]] A SEARCH\n\n[[center]] <sc>for</sc>\n\n[[center]] THE MASKED TAWAREKS",
+   "draft": "r]] A SEARCH FOR THE MASKED ",
+   "verified": "r]] A SEARCH\n\n[[center]] <sc>for</sc>\n\n[[center]] THE MASKED ",
+   "context": "[[page ?]] ⏎  ⏎ [[center]] A SEARCH FOR THE MASKED TAWAREKS ⏎ "
+  }
+ ],
+ "p0013": [
+  {
+   "n": 1,
+   "kind": "punctuation",
+   "find": "Touareg, Tuareg Tuarik",
+   "replace": "Touareg, Tuareg, Tuarik",
+   "draft": "areg, Tuareg Tuarik",
+   "verified": "areg, Tuareg, Tuarik",
+   "context": "page ?]] ⏎ # Preface ⏎  ⏎ T<sc>he</sc> name Tawarek is also spelt Touareg, Tuareg Tuarik, and in other ways besides. I have used the form Tawarek, a"
+  }
+ ],
+ "p0015": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<sc>a tawarek serf</sc>",
+   "replace": "A TAWAREK SERF",
+   "draft": "<sc>a tawarek serf</sc>",
+   "verified": "A TAWAREK SERF",
+   "context": "[[page ?]] ⏎ # Illustrations ⏎  ⏎ <sc>a tawarek serf</sc> <i>Frontispiece</i> ⏎  ⏎ <sc>footprints of the tawareks</sc> <i"
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "<sc>footprints of the tawareks</sc>",
+   "replace": "FOOTPRINTS OF THE TAWAREKS",
+   "draft": "<sc>footprints of the tawareks</sc>",
+   "verified": "FOOTPRINTS OF THE TAWAREKS",
+   "context": "ge ?]] ⏎ # Illustrations ⏎  ⏎ A TAWAREK SERF <i>Frontispiece</i> ⏎  ⏎ <sc>footprints of the tawareks</sc> <i>To face page</i> <pref>2</pref> ⏎  ⏎ <sc>grain-sellers in bi"
+  },
+  {
+   "n": 3,
+   "kind": "words",
+   "find": "<sc>grain-sellers in biskra market</sc>",
+   "replace": "GRAIN-SELLERS IN BISKRA MARKET",
+   "draft": "<sc>grain-sellers in biskra market</sc>",
+   "verified": "GRAIN-SELLERS IN BISKRA MARKET",
+   "context": "TPRINTS OF THE TAWAREKS <i>To face page</i> <pref>2</pref> ⏎  ⏎ <sc>grain-sellers in biskra market</sc>” <pref>5</pref> ⏎  ⏎ <sc>the fortune-teller</sc>” <pref>11</pre"
+  },
+  {
+   "n": 4,
+   "kind": "words",
+   "find": "<sc>the fortune-teller</sc>",
+   "replace": "THE FORTUNE-TELLER",
+   "draft": "<sc>the fortune-teller</sc>",
+   "verified": "THE FORTUNE-TELLER",
+   "context": "f>2</pref> ⏎  ⏎ GRAIN-SELLERS IN BISKRA MARKET” <pref>5</pref> ⏎  ⏎ <sc>the fortune-teller</sc>” <pref>11</pref> ⏎  ⏎ <sc>a snake-catcher</sc>” <pref>34</pref>"
+  },
+  {
+   "n": 5,
+   "kind": "words",
+   "find": "<sc>a snake-catcher</sc>",
+   "replace": "A SNAKE-CATCHER",
+   "draft": "<sc>a snake-catcher</sc>",
+   "verified": "A SNAKE-CATCHER",
+   "context": "ARKET” <pref>5</pref> ⏎  ⏎ THE FORTUNE-TELLER” <pref>11</pref> ⏎  ⏎ <sc>a snake-catcher</sc>” <pref>34</pref> ⏎  ⏎ <sc>a rouara woman</sc>” <pref>46</pref> ⏎ "
+  },
+  {
+   "n": 6,
+   "kind": "words",
+   "find": "<sc>a rouara woman</sc>",
+   "replace": "A ROUARA WOMAN",
+   "draft": "<sc>a rouara woman</sc>",
+   "verified": "A ROUARA WOMAN",
+   "context": "-TELLER” <pref>11</pref> ⏎  ⏎ A SNAKE-CATCHER” <pref>34</pref> ⏎  ⏎ <sc>a rouara woman</sc>” <pref>46</pref> ⏎  ⏎ <sc>the marriage dance</sc>” <pref>50</pr"
+  },
+  {
+   "n": 7,
+   "kind": "words",
+   "find": "<sc>the marriage dance</sc>",
+   "replace": "THE MARRIAGE DANCE",
+   "draft": "<sc>the marriage dance</sc>",
+   "verified": "THE MARRIAGE DANCE",
+   "context": "-CATCHER” <pref>34</pref> ⏎  ⏎ A ROUARA WOMAN” <pref>46</pref> ⏎  ⏎ <sc>the marriage dance</sc>” <pref>50</pref> ⏎  ⏎ <sc>a street in old tougourt</sc>” <pref>"
+  },
+  {
+   "n": 8,
+   "kind": "words",
+   "find": "<sc>a street in old tougourt</sc>",
+   "replace": "A STREET IN OLD TOUGOURT",
+   "draft": "<sc>a street in old tougourt</sc>",
+   "verified": "A STREET IN OLD TOUGOURT",
+   "context": "OMAN” <pref>46</pref> ⏎  ⏎ THE MARRIAGE DANCE” <pref>50</pref> ⏎  ⏎ <sc>a street in old tougourt</sc>” <pref>68</pref> ⏎  ⏎ <sc>arcade in the tougourt market</sc>” <"
+  },
+  {
+   "n": 9,
+   "kind": "words",
+   "find": "<sc>arcade in the tougourt market</sc>",
+   "replace": "ARCADE IN THE TOUGOURT MARKET",
+   "draft": "<sc>arcade in the tougourt market</sc>",
+   "verified": "ARCADE IN THE TOUGOURT MARKET",
+   "context": "<pref>50</pref> ⏎  ⏎ A STREET IN OLD TOUGOURT” <pref>68</pref> ⏎  ⏎ <sc>arcade in the tougourt market</sc>” <pref>88</pref> ⏎  ⏎ <sc>pool in oasis of tougourt</sc>” <pref"
+  },
+  {
+   "n": 10,
+   "kind": "words",
+   "find": "<sc>pool in oasis of tougourt</sc>",
+   "replace": "POOL IN OASIS OF TOUGOURT",
+   "draft": "<sc>pool in oasis of tougourt</sc>",
+   "verified": "POOL IN OASIS OF TOUGOURT",
+   "context": ">68</pref> ⏎  ⏎ ARCADE IN THE TOUGOURT MARKET” <pref>88</pref> ⏎  ⏎ <sc>pool in oasis of tougourt</sc>” <pref>88</pref> ⏎  ⏎ <sc>dyers at work in the tougourt market<"
+  },
+  {
+   "n": 11,
+   "kind": "words",
+   "find": "<sc>dyers at work in the tougourt market</sc>",
+   "replace": "DYERS AT WORK IN THE TOUGOURT MARKET",
+   "draft": "<sc>dyers at work in the tougourt market</sc>",
+   "verified": "DYERS AT WORK IN THE TOUGOURT MARKET",
+   "context": "pref>88</pref> ⏎  ⏎ POOL IN OASIS OF TOUGOURT” <pref>88</pref> ⏎  ⏎ <sc>dyers at work in the tougourt market</sc>” <pref>91</pref> ⏎  ⏎ <sc>a street in temasin</sc>” <pref>102</"
+  },
+  {
+   "n": 12,
+   "kind": "words",
+   "find": "<sc>a street in temasin</sc>",
+   "replace": "A STREET IN TEMASIN",
+   "draft": "<sc>a street in temasin</sc>",
+   "verified": "A STREET IN TEMASIN",
+   "context": "ef> ⏎  ⏎ DYERS AT WORK IN THE TOUGOURT MARKET” <pref>91</pref> ⏎  ⏎ <sc>a street in temasin</sc>” <pref>102</pref> ⏎  ⏎ <sc>interior of tougourt mosque</sc>” <p"
+  },
+  {
+   "n": 13,
+   "kind": "words",
+   "find": "<sc>interior of tougourt mosque</sc>",
+   "replace": "INTERIOR OF TOUGOURT MOSQUE",
+   "draft": "<sc>interior of tougourt mosque</sc>",
+   "verified": "INTERIOR OF TOUGOURT MOSQUE",
+   "context": "ET” <pref>91</pref> ⏎  ⏎ A STREET IN TEMASIN” <pref>102</pref> ⏎  ⏎ <sc>interior of tougourt mosque</sc>” <pref>105</pref> ⏎  ⏎ <sc>the tent</sc>” <pref>115</pref> ⏎  ⏎ <sc"
+  },
+  {
+   "n": 14,
+   "kind": "words",
+   "find": "<sc>the tent</sc>",
+   "replace": "THE TENT",
+   "draft": "<sc>the tent</sc>",
+   "verified": "THE TENT",
+   "context": ">102</pref> ⏎  ⏎ INTERIOR OF TOUGOURT MOSQUE” <pref>105</pref> ⏎  ⏎ <sc>the tent</sc>” <pref>115</pref> ⏎  ⏎ <sc>watering camels at hassi mamar</sc>”"
+  },
+  {
+   "n": 15,
+   "kind": "words",
+   "find": "<sc>watering camels at hassi mamar</sc>",
+   "replace": "WATERING CAMELS AT HASSI MAMAR",
+   "draft": "<sc>watering camels at hassi mamar</sc>",
+   "verified": "WATERING CAMELS AT HASSI MAMAR",
+   "context": "GOURT MOSQUE” <pref>105</pref> ⏎  ⏎ THE TENT” <pref>115</pref> ⏎  ⏎ <sc>watering camels at hassi mamar</sc>” <pref>121</pref> ⏎  ⏎ <sc>puzzle—find the road</sc>” <pref>121"
+  },
+  {
+   "n": 16,
+   "kind": "words",
+   "find": "<sc>puzzle—find the road</sc>",
+   "replace": "PUZZLE—FIND THE ROAD",
+   "draft": "<sc>puzzle—find the road</sc>",
+   "verified": "PUZZLE—FIND THE ROAD",
+   "context": "5</pref> ⏎  ⏎ WATERING CAMELS AT HASSI MAMAR” <pref>121</pref> ⏎  ⏎ <sc>puzzle—find the road</sc>” <pref>121</pref> ⏎  ⏎ <sc>wargla</sc>” <pref>135</pref> ⏎  ⏎ <sc>a"
+  },
+  {
+   "n": 17,
+   "kind": "words",
+   "find": "<sc>wargla</sc>",
+   "replace": "WARGLA",
+   "draft": "<sc>wargla</sc>",
+   "verified": "WARGLA",
+   "context": "” <pref>121</pref> ⏎  ⏎ PUZZLE—FIND THE ROAD” <pref>121</pref> ⏎  ⏎ <sc>wargla</sc>” <pref>135</pref> ⏎  ⏎ <sc>a gateway at wargla</sc>” <pref>139<"
+  },
+  {
+   "n": 18,
+   "kind": "words",
+   "find": "<sc>a gateway at wargla</sc>",
+   "replace": "A GATEWAY AT WARGLA",
+   "draft": "<sc>a gateway at wargla</sc>",
+   "verified": "A GATEWAY AT WARGLA",
+   "context": "—FIND THE ROAD” <pref>121</pref> ⏎  ⏎ WARGLA” <pref>135</pref> ⏎  ⏎ <sc>a gateway at wargla</sc>” <pref>139</pref> ⏎  ⏎ <sc>the ramparts of wargla</sc>” <pref>1"
+  },
+  {
+   "n": 19,
+   "kind": "words",
+   "find": "<sc>the ramparts of wargla</sc>",
+   "replace": "THE RAMPARTS OF WARGLA",
+   "draft": "<sc>the ramparts of wargla</sc>",
+   "verified": "THE RAMPARTS OF WARGLA",
+   "context": "A” <pref>135</pref> ⏎  ⏎ A GATEWAY AT WARGLA” <pref>139</pref> ⏎  ⏎ <sc>the ramparts of wargla</sc>” <pref>150</pref> ⏎  ⏎ <sc>a street in wargla</sc>” <pref>151</"
+  },
+  {
+   "n": 20,
+   "kind": "words",
+   "find": "<sc>a street in wargla</sc>",
+   "replace": "A STREET IN WARGLA",
+   "draft": "<sc>a street in wargla</sc>",
+   "verified": "A STREET IN WARGLA",
+   "context": "<pref>139</pref> ⏎  ⏎ THE RAMPARTS OF WARGLA” <pref>150</pref> ⏎  ⏎ <sc>a street in wargla</sc>” <pref>151</pref> ⏎ "
+  }
+ ],
+ "p0016": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "<sc>our flat</sc>",
+   "replace": "OUR FLAT",
+   "draft": "<sc>our flat</sc>",
+   "verified": "OUR FLAT",
+   "context": "[[page viii]] ⏎  ⏎ <sc>our flat</sc> <i>To face page</i> <pref>155</pref> ⏎  ⏎ <sc>wall and moat of "
+  },
+  {
+   "n": 2,
+   "kind": "words",
+   "find": "<sc>wall and moat of n’goussa</sc>",
+   "replace": "WALL AND MOAT OF N’GOUSSA",
+   "draft": "<sc>wall and moat of n’goussa</sc>",
+   "verified": "WALL AND MOAT OF N’GOUSSA",
+   "context": "page viii]] ⏎  ⏎ OUR FLAT <i>To face page</i> <pref>155</pref> ⏎  ⏎ <sc>wall and moat of n’goussa</sc> „ <pref>163</pref> ⏎  ⏎ <sc>gazelle-stalking: approaching the g"
+  },
+  {
+   "n": 3,
+   "kind": "words",
+   "find": "<sc>gazelle-stalking: approaching the gazelle</sc>",
+   "replace": "GAZELLE-STALKING: APPROACHING THE GAZELLE",
+   "draft": "<sc>gazelle-stalking: approaching the gazelle</sc>",
+   "verified": "GAZELLE-STALKING: APPROACHING THE GAZELLE",
+   "context": "f>155</pref> ⏎  ⏎ WALL AND MOAT OF N’GOUSSA „ <pref>163</pref> ⏎  ⏎ <sc>gazelle-stalking: approaching the gazelle</sc> „ <pref>172</pref> ⏎  ⏎ <sc>gazelle-stalking: the signal to tur"
+  },
+  {
+   "n": 4,
+   "kind": "words",
+   "find": "<sc>gazelle-stalking: the signal to turn</sc>",
+   "replace": "GAZELLE-STALKING: THE SIGNAL TO TURN",
+   "draft": "<sc>gazelle-stalking: the signal to turn</sc>",
+   "verified": "GAZELLE-STALKING: THE SIGNAL TO TURN",
+   "context": "ZELLE-STALKING: APPROACHING THE GAZELLE „ <pref>172</pref> ⏎  ⏎ <sc>gazelle-stalking: the signal to turn</sc> „ <pref>172</pref> ⏎  ⏎ <sc>gazelle-stalking: the shot</sc> „ <"
+  },
+  {
+   "n": 5,
+   "kind": "words",
+   "find": "<sc>gazelle-stalking: the shot</sc>",
+   "replace": "GAZELLE-STALKING: THE SHOT",
+   "draft": "<sc>gazelle-stalking: the shot</sc>",
+   "verified": "GAZELLE-STALKING: THE SHOT",
+   "context": "> ⏎  ⏎ GAZELLE-STALKING: THE SIGNAL TO TURN „ <pref>172</pref> ⏎  ⏎ <sc>gazelle-stalking: the shot</sc> „ <pref>174</pref> ⏎  ⏎ <sc>a thirsty country</sc> „ <pref>178<"
+  },
+  {
+   "n": 6,
+   "kind": "words",
+   "find": "<sc>a thirsty country</sc>",
+   "replace": "A THIRSTY COUNTRY",
+   "draft": "<sc>a thirsty country</sc>",
+   "verified": "A THIRSTY COUNTRY",
+   "context": ">172</pref> ⏎  ⏎ GAZELLE-STALKING: THE SHOT „ <pref>174</pref> ⏎  ⏎ <sc>a thirsty country</sc> „ <pref>178</pref> ⏎  ⏎ <sc>a guemeerah</sc> „ <pref>195</pref>"
+  },
+  {
+   "n": 7,
+   "kind": "words",
+   "find": "<sc>a guemeerah</sc>",
+   "replace": "A GUEMEERAH",
+   "draft": "<sc>a guemeerah</sc>",
+   "verified": "A GUEMEERAH",
+   "context": "T „ <pref>174</pref> ⏎  ⏎ A THIRSTY COUNTRY „ <pref>178</pref> ⏎  ⏎ <sc>a guemeerah</sc> „ <pref>195</pref> ⏎  ⏎ <sc>a bad road</sc> „ <pref>200</pref> ⏎ "
+  },
+  {
+   "n": 8,
+   "kind": "words",
+   "find": "<sc>a bad road</sc>",
+   "replace": "A BAD ROAD",
+   "draft": "<sc>a bad road</sc>",
+   "verified": "A BAD ROAD",
+   "context": "COUNTRY „ <pref>178</pref> ⏎  ⏎ A GUEMEERAH „ <pref>195</pref> ⏎  ⏎ <sc>a bad road</sc> „ <pref>200</pref> ⏎  ⏎ <sc>palm-groves near el wad</sc> „ <pre"
+  },
+  {
+   "n": 9,
+   "kind": "words",
+   "find": "<sc>palm-groves near el wad</sc>",
+   "replace": "PALM-GROVES NEAR EL WAD",
+   "draft": "<sc>palm-groves near el wad</sc>",
+   "verified": "PALM-GROVES NEAR EL WAD",
+   "context": "UEMEERAH „ <pref>195</pref> ⏎  ⏎ A BAD ROAD „ <pref>200</pref> ⏎  ⏎ <sc>palm-groves near el wad</sc> „ <pref>204</pref> ⏎  ⏎ <sc>a khotara</sc> „ <pref>207</pref> ⏎  ⏎ "
+  },
+  {
+   "n": 10,
+   "kind": "words",
+   "find": "<sc>a khotara</sc>",
+   "replace": "A KHOTARA",
+   "draft": "<sc>a khotara</sc>",
+   "verified": "A KHOTARA",
+   "context": "ref>200</pref> ⏎  ⏎ PALM-GROVES NEAR EL WAD „ <pref>204</pref> ⏎  ⏎ <sc>a khotara</sc> „ <pref>207</pref> ⏎  ⏎ <sc>el wad</sc> „ <pref>214</pref> ⏎  ⏎ <sc"
+  },
+  {
+   "n": 11,
+   "kind": "words",
+   "find": "<sc>el wad</sc>",
+   "replace": "EL WAD",
+   "draft": "<sc>el wad</sc>",
+   "verified": "EL WAD",
+   "context": "AR EL WAD „ <pref>204</pref> ⏎  ⏎ A KHOTARA „ <pref>207</pref> ⏎  ⏎ <sc>el wad</sc> „ <pref>214</pref> ⏎  ⏎ <sc>a tawarek eating</sc> „ <pref>223</"
+  },
+  {
+   "n": 12,
+   "kind": "words",
+   "find": "<sc>a tawarek eating</sc>",
+   "replace": "A TAWAREK EATING",
+   "draft": "<sc>a tawarek eating</sc>",
+   "verified": "A TAWAREK EATING",
+   "context": "> ⏎  ⏎ A KHOTARA „ <pref>207</pref> ⏎  ⏎ EL WAD „ <pref>214</pref> ⏎  ⏎ <sc>a tawarek eating</sc> „ <pref>223</pref> ⏎  ⏎ <sc>a desert mosque</sc> „ <pref>255</p"
+  },
+  {
+   "n": 13,
+   "kind": "words",
+   "find": "<sc>a desert mosque</sc>",
+   "replace": "A DESERT MOSQUE",
+   "draft": "<sc>a desert mosque</sc>",
+   "verified": "A DESERT MOSQUE",
+   "context": "AD „ <pref>214</pref> ⏎  ⏎ A TAWAREK EATING „ <pref>223</pref> ⏎  ⏎ <sc>a desert mosque</sc> „ <pref>255</pref> ⏎  ⏎ <sc>tent for lady on camel</sc> „ <pref"
+  },
+  {
+   "n": 14,
+   "kind": "words",
+   "find": "<sc>tent for lady on camel</sc>",
+   "replace": "TENT FOR LADY ON CAMEL",
+   "draft": "<sc>tent for lady on camel</sc>",
+   "verified": "TENT FOR LADY ON CAMEL",
+   "context": "ING „ <pref>223</pref> ⏎  ⏎ A DESERT MOSQUE „ <pref>255</pref> ⏎  ⏎ <sc>tent for lady on camel</sc> „ <pref>279</pref> ⏎  ⏎ <sc>in the tawarek camp</sc> „ <pref>29"
+  },
+  {
+   "n": 15,
+   "kind": "words",
+   "find": "<sc>in the tawarek camp</sc>",
+   "replace": "IN THE TAWAREK CAMP",
+   "draft": "<sc>in the tawarek camp</sc>",
+   "verified": "IN THE TAWAREK CAMP",
+   "context": "pref>255</pref> ⏎  ⏎ TENT FOR LADY ON CAMEL „ <pref>279</pref> ⏎  ⏎ <sc>in the tawarek camp</sc> „ <pref>294</pref> ⏎  ⏎ <sc>a tawarek tent</sc> „ <pref>303</pr"
+  },
+  {
+   "n": 16,
+   "kind": "words",
+   "find": "<sc>a tawarek tent</sc>",
+   "replace": "A TAWAREK TENT",
+   "draft": "<sc>a tawarek tent</sc>",
+   "verified": "A TAWAREK TENT",
+   "context": "„ <pref>279</pref> ⏎  ⏎ IN THE TAWAREK CAMP „ <pref>294</pref> ⏎  ⏎ <sc>a tawarek tent</sc> „ <pref>303</pref> ⏎  ⏎ <sc>a group of tawareks</sc> „ <pref>30"
+  },
+  {
+   "n": 17,
+   "kind": "words",
+   "find": "<sc>a group of tawareks</sc>",
+   "replace": "A GROUP OF TAWAREKS",
+   "draft": "<sc>a group of tawareks</sc>",
+   "verified": "A GROUP OF TAWAREKS",
+   "context": "CAMP „ <pref>294</pref> ⏎  ⏎ A TAWAREK TENT „ <pref>303</pref> ⏎  ⏎ <sc>a group of tawareks</sc> „ <pref>305</pref> ⏎  ⏎ <sc>in the tawarek chief’s tent</sc> „ "
+  },
+  {
+   "n": 18,
+   "kind": "words",
+   "find": "<sc>in the tawarek chief’s tent</sc>",
+   "replace": "IN THE TAWAREK CHIEF’S TENT",
+   "draft": "<sc>in the tawarek chief’s tent</sc>",
+   "verified": "IN THE TAWAREK CHIEF’S TENT",
+   "context": "„ <pref>303</pref> ⏎  ⏎ A GROUP OF TAWAREKS „ <pref>305</pref> ⏎  ⏎ <sc>in the tawarek chief’s tent</sc> „ <pref>310</pref> ⏎  ⏎ <sc>the ‘little queens’</sc> „ <pref>31"
+  },
+  {
+   "n": 19,
+   "kind": "words",
+   "find": "<sc>the ‘little queens’</sc>",
+   "replace": "THE ‘LITTLE QUEENS’",
+   "draft": "<sc>the ‘little queens’</sc>",
+   "verified": "THE ‘LITTLE QUEENS’",
+   "context": "305</pref> ⏎  ⏎ IN THE TAWAREK CHIEF’S TENT „ <pref>310</pref> ⏎  ⏎ <sc>the ‘little queens’</sc> „ <pref>314</pref> ⏎  ⏎ <sc>a tawarek noble</sc> „ <pref>315</p"
+  },
+  {
+   "n": 20,
+   "kind": "words",
+   "find": "<sc>a tawarek noble</sc>",
+   "replace": "A TAWAREK NOBLE",
+   "draft": "<sc>a tawarek noble</sc>",
+   "verified": "A TAWAREK NOBLE",
+   "context": "„ <pref>310</pref> ⏎  ⏎ THE ‘LITTLE QUEENS’ „ <pref>314</pref> ⏎  ⏎ <sc>a tawarek noble</sc> „ <pref>315</pref> ⏎  ⏎ <sc>a tawarek noble and slave</sc> „ <p"
+  },
+  {
+   "n": 21,
+   "kind": "words",
+   "find": "<sc>a tawarek noble and slave</sc>",
+   "replace": "A TAWAREK NOBLE AND SLAVE",
+   "draft": "<sc>a tawarek noble and slave</sc>",
+   "verified": "A TAWAREK NOBLE AND SLAVE",
+   "context": "NS’ „ <pref>314</pref> ⏎  ⏎ A TAWAREK NOBLE „ <pref>315</pref> ⏎  ⏎ <sc>a tawarek noble and slave</sc> „ <pref>316</pref> ⏎  ⏎ [[break]] ⏎  ⏎ <sc>map of the author’s rout"
+  },
+  {
+   "n": 22,
+   "kind": "words",
+   "find": "<sc>map of the author’s route</sc>",
+   "replace": "MAP OF THE AUTHOR’S ROUTE",
+   "draft": "<sc>map of the author’s route</sc>",
+   "verified": "MAP OF THE AUTHOR’S ROUTE",
+   "context": "> ⏎  ⏎ A TAWAREK NOBLE AND SLAVE „ <pref>316</pref> ⏎  ⏎ [[break]] ⏎  ⏎ <sc>map of the author’s route</sc> „ <pref>334</pref> ⏎ "
+  }
+ ],
+ "p0037": [
+  {
+   "n": 1,
+   "kind": "words",
+   "find": "a more cross-eyed crew",
+   "replace": "more cross-eyed crew",
+   "draft": "a more cross-e",
+   "verified": "more cross-e",
+   "context": "blind which the oasis contained—and a halter, a maimer, and a more cross-eyed crew it would be difficult to find—seemed to have collected toge"
+  }
+ ]
+}
