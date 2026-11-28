@@ -18,7 +18,7 @@ Notes: chapter summaries in small capitals (fuller than in the Contents); drop c
 - Contents entries: each chapter's line from the printed contents (shorter than, and worded differently from, the summary at the chapter's head); said in `notes_on_text`. The printed contents' wrong page numbers (III, IX, X) are left in the JSON as printed.
 - Cover: the printed paper wrapper (title readable).
 - Note marks set close to the word (the print has a space before them; preflight `spacing`). `keep_hyphens` p0092 (gold-knobbed), p0228 (chess-board).
-- 19 printer's errors marked, including missing and wrong quotation marks and stops.
+- 17 printer’s errors marked, including missing and wrong quotation marks and stops.
 
 ## Runs
 | Stage | Date | Model | Pages | Cost $ | Notes |
