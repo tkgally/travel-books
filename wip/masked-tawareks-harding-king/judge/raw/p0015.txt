@@ -1,0 +1,20 @@
+{"n": 1, "is": "B", "print": "<sc>a tawarek serf</sc>", "sure": "medium"}
+{"n": 2, "is": "B", "print": "<sc>footprints of the tawareks</sc>", "sure": "medium"}
+{"n": 3, "is": "A", "print": "<sc>grain-sellers in biskra market</sc>", "sure": "medium"}
+{"n": 4, "is": "A", "print": "<sc>the fortune-teller</sc>", "sure": "medium"}
+{"n": 5, "is": "A", "print": "<sc>a snake-catcher</sc>", "sure": "medium"}
+{"n": 6, "is": "A", "print": "<sc>a rouara woman</sc>", "sure": "medium"}
+{"n": 7, "is": "A", "print": "<sc>the marriage dance</sc>", "sure": "medium"}
+{"n": 8, "is": "A", "print": "<sc>a street in old tougourt</sc>", "sure": "medium"}
+{"n": 9, "is": "B", "print": "<sc>arcade in the tougourt market</sc>", "sure": "medium"}
+{"n": 10, "is": "A", "print": "<sc>pool in oasis of tougourt</sc>", "sure": "medium"}
+{"n": 11, "is": "B", "print": "<sc>dyers at work in the tougourt market</sc>", "sure": "medium"}
+{"n": 12, "is": "B", "print": "<sc>a street in temasin</sc>", "sure": "medium"}
+{"n": 13, "is": "B", "print": "<sc>interior of tougourt mosque</sc>", "sure": "medium"}
+{"n": 14, "is": "B", "print": "<sc>the tent</sc>", "sure": "medium"}
+{"n": 15, "is": "B", "print": "<sc>watering camels at hassi mamar</sc>", "sure": "medium"}
+{"n": 16, "is": "B", "print": "<sc>puzzle—find the road</sc>", "sure": "medium"}
+{"n": 17, "is": "A", "print": "<sc>wargla</sc>", "sure": "medium"}
+{"n": 18, "is": "A", "print": "<sc>a gateway at wargla</sc>", "sure": "medium"}
+{"n": 19, "is": "B", "print": "<sc>the ramparts of wargla</sc>", "sure": "medium"}
+{"n": 20, "is": "B", "print": "<sc>a street in wargla</sc>", "sure": "medium"}

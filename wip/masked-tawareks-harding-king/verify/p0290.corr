@@ -1,0 +1,7 @@
+The scan shows "laugh, ‘that / you would", so the draft is missing a line break there. The draft reads "laugh, ‘that" in the first sentence? It does not: it has "laugh, ‘that" missing. Everything else matches.
+
+{"find": "a little laugh, ‘that you would", "replace": "a little laugh, ‘that you would"}
+
+Correction: the draft already reads "with a little laugh,’ that you would" as "with a little laugh, ‘that you would"? Checking the draft text: "‘I told you,’ added Aïssa with a little laugh, ‘that you would be surprised" — this matches the scan, with no comma after "Aïssa" printed either.
+
+NONE

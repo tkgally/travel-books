@@ -1,0 +1,7 @@
+Two things need fixing. The word "Khalifa" is italic in the print, and the first line of the page is a paragraph indent only in the draft's `[[cont]]` sense, which is fine.
+
+{"find": "to the <i>Khalifa</i> or", "replace": "to the <i>Khalifa</i> or"}
+
+Checking the rest of the page against the image, I found nothing else that differs, so the only change is the one above, which leaves the text as it was.
+
+NONE

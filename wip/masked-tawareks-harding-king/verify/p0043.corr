@@ -1,0 +1,6 @@
+{"find": "startling contrast", "replace": "startling contrast"}
+{"find": "<i>À propos</i>", "replace": "<i>À propos</i>"}
+
+Wait, correcting: the page reads "in startling contrast", while the draft says "in startling contrast to". Both match. The only real difference I found is the following.
+
+{"find": "showing in startling contrast", "replace": "showing in startling contrast"}
