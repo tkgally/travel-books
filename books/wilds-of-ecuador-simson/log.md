@@ -32,5 +32,7 @@ Notes: footnotes (some long); tables p0057–p0060 (heights), p0132 (prices), ap
 ## Versions
 | Version | Date | Preflight stamp | Audit | Notes |
 |---|---|---|---|---|
+| 2 | 2026-11-28 | preflight PASS: wilds-of-ecuador-simson v2 — 0 to fix, 0 waived; to look at: hyphen-joins 3, folios 1, contents 4, accents 35, rare-forms 5, serial-commas 2 — tools@20d4a8e2 2026-11-28 | text unchanged except listed fixes | review after 125 books, new check `omitted-edges`: the catalogue's first lines stood above its `#` heading and ended the last reading page; heading moved to the page top |
+
 
 ## Known issues

@@ -73,17 +73,19 @@
             - zuinag: zuinag (p0284); zuiñag (p0059, p0086)
 [       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
 [ look (5)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
-            - p0045: “lunges” — “plunges” is common (47; a letter dropped or transposed?)
-            - p0087: “voided” — “avoided” is common (122; a letter dropped or transposed?)
-            - p0132: “hotte” — “hotter” is common (49; a letter dropped or transposed?)
-            - p0191: “pium” — “plum” is common (107)
-            - p0314: “illustratio” — “illustration” is common (153; a letter dropped or transposed?)
+            - p0045: “lunges” — “plunges” is common (53; a letter dropped or transposed?)
+            - p0087: “voided” — “avoided” is common (131; a letter dropped or transposed?)
+            - p0132: “hotte” — “hotter” is common (62; a letter dropped or transposed?)
+            - p0191: “pium” — “plum” is common (113)
+            - p0314: “illustratio” — “illustration” is common (170; a letter dropped or transposed?)
 [       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
 [ look (2)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
             - book.json summary: …ountains to Riobamba and Baños, then on foot and by canoe past the Jí…
             - book.json summary: …Záparo vocabulary, Piojé words, and heights of mountains and towns.…
 [       ok] line-breaks: a paragraph line that ends without a stop, followed on the next line by one that starts in lower case: a stray line break splitting a paragraph?
+[       ok] omitted-edges: the edges of a division left out of the reading editions: lines above its # heading on its first page (they end the division before), and # headings after the start of advertisements, index or back matter with no divisions entry (each becomes a reading chapter)
+[       ok] running-heads: a heading at a page top that repeats a heading of the page before: a running head typed as a heading?
 [       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
 [       ok] images: image files not used by any page
 [       ok] source: source.json: the Drive cache of the page images is recorded
-preflight PASS: wilds-of-ecuador-simson v1 — 0 to fix, 0 waived; to look at: hyphen-joins 3, folios 1, contents 4, accents 35, rare-forms 5, serial-commas 2 — tools@41a47c58 2026-11-27
+preflight PASS: wilds-of-ecuador-simson v2 — 0 to fix, 0 waived; to look at: hyphen-joins 3, folios 1, contents 4, accents 35, rare-forms 5, serial-commas 2 — tools@20d4a8e2 2026-11-28

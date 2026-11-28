@@ -18,6 +18,7 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 | Headings that differ from the printed contents | preflight `contents` (observe) |
 | Small capitals typed as capitals; old spacing left in | `normalize.py`; preflight `sc-caps`, `spacing` |
 | A builder change breaking an earlier book | test `Books` |
+| Lines above the `#` heading of a left-out division (a catalogue's address, a date) ending the last reading page; catalogue `#` parts without a divisions entry becoming reading chapters (*Picnic Party*, *Finland*, *Canaries*, *Jamaica*) | preflight `omitted-edges` (observe; review after 125 books) |
 | Headings, chapter titles or captions left in capitals | preflight `heading-caps` |
 | A missing illustration file crashing the EPUB build [found by the tests, 2026-11-19] | compiler warning; test |
 | A finished book failing `conservation` because the compiler moved a plate or a captioned frontispiece [*Sketches Awheel*, 2026-11-19] | preflight compares image captions apart from the text; test `MovedImages` |
@@ -82,7 +83,6 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - List every `#` and `##` line after the judge: drafts type an odd running head (a chapter title on one page, "Index" on
   index pages, "List of Illustrations" on its second page) as a heading (*Path of the Conquistadores*: 4, 2026-11-20).
 - A head-piece printed above a running title that is left out (“the book's title above Chapter I”, kind `front`) is lost with it: put the `[[image:]]` after the title, above `# Chapter I` (*Across Central America*, 2026-11-28: caught by the rendered look).
-- A publisher's catalogue typed with `#` headings: each `#` after the catalogue's division start opens a new reading chapter; demote them to `##` (*In the Canaries with a Camera*, 2026-11-28: caught by printing the contents).
 - `omitted_from_reading` names only what a division really leaves out: a printer's imprint after “The End” stays in the
   last chapter (*Kothari*, 2026-11-20: caught by the rendered look).
 - A Kirtas scan with the outer edge of a leaf lost in a tight binding (the last letters of every line: *Sunny Lands and Seas* p. 2, 2026-11-26) passed a scan check that looked at the feet of the leaves; the draft's 〓 marks showed it. Ask the scan check to look at the outer edge of every leaf as well.
@@ -101,7 +101,6 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
 - Captions printed in small capitals: drafts type some as `<sc>…</sc>` in lower case and the rest in upper and lower
   case; grep `[[caption]] <sc>` and make all upper and lower case (12 of 148 in *Via Rhodesia*).
 
-- Lines printed above the `#` heading of an omitted division (a publisher's catalogue's address and date, *Picnic Party*, 2026-11-26: caught by the rendered look) end the division before, here the map: put the heading first.
 - A picture printed beside or above the `#` heading of a division left out of the reading editions (advertisements,
   title page) belongs after that heading in the page file; before it, it ends the previous chapter (*West Coast of
   Africa*: the royal arms of the advertisements showed at the end of the last chapter).
@@ -232,7 +231,6 @@ tools"; otherwise one or two lines under the right trigger; when a section passe
   in `toc_title`, so titles differ in length; with `"toc": {"subtitles": "all"}` the compiler keeps every title short (since 2026-11-21).
 - Two marks in the text for one printed note: the second is `[[fnref * again]]` (the compiler warns "has no note" otherwise).
 
-- A publisher's catalogue at the end with several `#` part headings: each `#` after the first opens a new division, which is a reading chapter unless listed: give every one `advertisements` (`grep -l "^# " pages/p04*`) (*A Summer Tour in Finland*: Part III became a chapter page; caught by the rendered look).
 
 ## Trigger: appendices, documents, quoted articles
 

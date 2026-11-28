@@ -96,8 +96,8 @@
    "eligibility": "Checked 2026-11-19: not in the Project Gutenberg catalogue, The Online Books Page (page images only, if listed), Wikisource or Faded Page; only print-on-demand reprints found. Not checked: WorldCat, Distributed Proofreaders in progress. Reprints seen: Creative Media (print on demand). An excerpt is in an anthology. Re-checked 2026-11-20: not in pg_catalog.csv; a web search found only catalogue records and scan-based e-books.",
    "note": "Getty Research Institute scan, crisp. About 500 pages.",
    "started": "2026-11-20",
-   "version": 6,
-   "published": "2026-11-22"
+   "version": 7,
+   "published": "2026-11-28"
   },
   {
    "order": 5,
@@ -2495,8 +2495,8 @@
    "status": "published",
    "checked": "2026-11-27",
    "started": "2026-11-27",
-   "version": 1,
-   "published": "2026-11-27"
+   "version": 2,
+   "published": "2026-11-28"
   },
   {
    "order": 250,
