@@ -4,12 +4,127 @@
  "date": "2026-11-28",
  "title": "Across Central America",
  "short_title": "Across Central America",
- "authors": [{"name": "J. W. Boddam-Whetham", "sort": "Boddam-Whetham, J. W.", "born": 1843, "died": 1918}],
+ "authors": [
+  {
+   "name": "J. W. Boddam-Whetham",
+   "sort": "Boddam-Whetham, J. W.",
+   "born": 1843,
+   "died": 1918
+  }
+ ],
  "place": "London",
  "publisher": "Hurst and Blackett",
  "year": 1877,
  "edition_statement": "First edition",
- "regions": ["Guatemala"],
- "source": {"ia_identifier": "acrosscentralame00bodduoft", "contributor": "University of Toronto"},
- "history": [{"version": 1, "date": "2026-11-28", "note": "First publication."}]
+ "regions": [
+  "Guatemala",
+  "Honduras",
+  "Mexico"
+ ],
+ "source": {
+  "ia_identifier": "acrosscentralame00bodduoft",
+  "contributor": "University of Toronto"
+ },
+ "history": [
+  {
+   "version": 1,
+   "date": "2026-11-28",
+   "note": "First publication."
+  }
+ ],
+ "period": "1875–76",
+ "subjects": [
+  "Guatemala",
+  "Copán",
+  "Petén",
+  "Usumacinta River",
+  "Maya ruins"
+ ],
+ "summary": "J. W. Boddam-Whetham’s account of a journey through Guatemala in 1875 and 1876. He landed at San José de Guatemala from San Francisco in October 1875, went up to the city of Guatemala, and made trips to the west, to Los Altos, Quiché, and Quezaltenango, and to the east, to Esquipulas and the ruins of Copán in Honduras. He then travelled north by Cobán and Alta Vera Paz, by an Indian path over the mountains to the Río de la Pasión, by canoe to the Lake of Petén, through the forest to Tenosique, and down the Usumacinta to the island of Carmen in the Gulf of Mexico. He describes coffee and cochineal planting, the towns, churches, and markets, the Indian villages, the ruins, travel by mule and canoe, and the people he met. The book has twenty-eight chapters, each with a printed summary.",
+ "divisions": [
+  {
+   "at": "p0005",
+   "kind": "front",
+   "title": "Half-title"
+  },
+  {
+   "at": "p0009",
+   "kind": "titlepage"
+  },
+  {
+   "at": "p0011",
+   "kind": "preface"
+  },
+  {
+   "at": "p0013",
+   "kind": "contents"
+  },
+  {
+   "at": "p0021",
+   "kind": "front",
+   "title": "The book’s title above Chapter I"
+  }
+ ],
+ "frontispiece": "p0008-1",
+ "toc": {
+  "subtitles": "all"
+ },
+ "ornaments": [
+  "p0011-1",
+  "p0012-1",
+  "p0013-1",
+  "p0021-1",
+  "p0029-1",
+  "p0030-1",
+  "p0040-1",
+  "p0050-1",
+  "p0051-1",
+  "p0063-1",
+  "p0077-1",
+  "p0078-1",
+  "p0091-1",
+  "p0102-1",
+  "p0103-1",
+  "p0121-1",
+  "p0122-1",
+  "p0133-1",
+  "p0145-1",
+  "p0146-1",
+  "p0166-1",
+  "p0181-1",
+  "p0191-1",
+  "p0205-1",
+  "p0206-1",
+  "p0224-1",
+  "p0225-1",
+  "p0233-1",
+  "p0234-1",
+  "p0245-1",
+  "p0246-1",
+  "p0263-1",
+  "p0264-1",
+  "p0276-1",
+  "p0277-1",
+  "p0290-1",
+  "p0291-1",
+  "p0313-1",
+  "p0322-1",
+  "p0323-1",
+  "p0332-1",
+  "p0333-1",
+  "p0344-1",
+  "p0345-1",
+  "p0356-1",
+  "p0357-1",
+  "p0364-1",
+  "p0365-1"
+ ],
+ "omitted_from_reading": "The half-title, the printed contents, and the book’s title above Chapter I are in the JSON only.",
+ "waivers": [
+  {
+   "check": "leaves",
+   "match": "p0006",
+   "why": "the Internet Archive's digitization notice, not part of the book"
+  }
+ ]
 }
