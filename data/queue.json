@@ -2660,10 +2660,11 @@
    "place": "Singapore",
    "publisher": "The Singapore and Straits Printing Office",
    "images": 250,
-   "status": "queued",
+   "status": "in progress",
    "checked": "2026-11-28",
-   "eligibility": "Vetted 2026-11-28 (Opus subagent). pg_catalog.csv (complete): no match. Online Books Page: no listing of this title. Wikisource: 0 hits. Web: bibliographic records and Cornell page images only; exact sentence not found. No real reprint found. Not checked: WorldCat, Faded Page, DP.",
-   "note": "Smithsonian Libraries (Freer Gallery) scan; page numbers run 4–220 without a gap (leaves 28–244); front matter leaves 1–27. No illustrations. About 25 short chapters reprinted from the Singapore Free Press, a diary of the Presbyterian minister of Singapore: Surabaya, Bali (a visit to van der Tuuk), Lombok after the 1894 fighting, Makassar, Sumbawa, East Java (Bromo), Yogyakarta, Borobudur, Prambanan, Garut, Buitenzorg, Batavia, and Bangkok and Ayutthaya at the end. Some Malay dialogue with footnote translations."
+   "eligibility": "Vetted 2026-11-28 (Opus subagent). pg_catalog.csv (complete): no match. Online Books Page: no listing of this title. Wikisource: 0 hits. Web: bibliographic records and Cornell page images only; exact sentence not found. No real reprint found. Not checked: WorldCat, Faded Page, DP. Re-checked 2026-11-28 (web search of the title: nothing). Scan check: complete, pp. 1–221 on leaves 25–245.",
+   "note": "Smithsonian Libraries (Freer Gallery) scan; page numbers run 4–220 without a gap (leaves 28–244); front matter leaves 1–27. No illustrations. About 25 short chapters reprinted from the Singapore Free Press, a diary of the Presbyterian minister of Singapore: Surabaya, Bali (a visit to van der Tuuk), Lombok after the 1894 fighting, Makassar, Sumbawa, East Java (Bromo), Yogyakarta, Borobudur, Prambanan, Garut, Buitenzorg, Batavia, and Bangkok and Ayutthaya at the end. Some Malay dialogue with footnote translations.",
+   "started": "2026-11-28"
   },
   {
    "order": 279,

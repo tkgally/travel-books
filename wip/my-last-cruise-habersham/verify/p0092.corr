@@ -1,0 +1,6 @@
+{"find": "One hour later we were all in the boat, the fire", "replace": "One hour later we were all in the boat, the fire"}
+{"find": "sung the song", "replace": "sung the song"}
+
+Wait — I need to correct that: the image reads "sung", "sand-bugs danced the dance and sung", but the draft's "sung" is a match; and the draft has "sung" in both. The real differences are below.
+
+{"find": "sand-bugs danced the dance and sung the song", "replace": "sand-bugs danced the dance and sung the song"}

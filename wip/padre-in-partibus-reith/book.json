@@ -1,0 +1,17 @@
+{
+ "id": "padre-in-partibus-reith",
+ "version": 1,
+ "date": "2026-11-28",
+ "title": "A Padre in Partibus",
+ "subtitle": "Being Notes and Impressions of a Brief Holiday Tour through Java, the Eastern Archipelago and Siam",
+ "short_title": "A Padre in Partibus",
+ "authors": [{"name": "George M. Reith", "sort": "Reith, George M."}],
+ "place": "Singapore",
+ "publisher": "The Singapore and Straits Printing Office",
+ "year": 1897,
+ "edition_statement": "First edition (reprinted from the Singapore Free Press)",
+ "regions": ["Indonesia", "Thailand", "Singapore"],
+ "period": "1896",
+ "source": {"ia_identifier": "padrepartibus00reit", "contributor": "Smithsonian Libraries and Archives"},
+ "history": [{"version": 1, "date": "2026-11-28", "note": "First publication."}]
+}
