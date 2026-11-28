@@ -1,0 +1,72 @@
+[       ok] meta: book.json: required fields present and sane
+[       ok] markup: page files: every [[…]] is a known form, inline tags balanced, no 〓
+[       ok] compile: compile warnings other than page-break hyphen joins (notes, images, [[cont]], divisions)
+[       ok] conservation: the words of the page files are in the JSON, and the reading parts in HTML, EPUB and ODT, in order, nothing else
+[       ok] stray-markup: no markup ([[…]], escaped tags, 〓) shows in the reading editions
+[       ok] straight-quotes: no straight ' or " in the text
+[       ok] spacing: modern spacing: no space before ; : ! ? , . or inside quotation marks, no doubled spaces
+[       ok] sc-caps: text inside <sc> is typed in lower case with real capitals, not in capitals
+[       ok] heading-caps: headings, chapter titles and captions are in upper and lower case, not all capitals
+[       ok] links: every link inside the book's web pages and EPUB has a target
+[       ok] wellformed: HTML pages, EPUB documents and ODT XML parse
+[       ok] nav: contents: at least one reading division; each has a title and text
+[       ok] epubcheck: epubcheck: 0 fatals / 0 errors / 0 warnings
+[       ok] odt: LibreOffice opens the ODT and converts it to PDF
+[ FAIL (1)] audit: book.json records the sampled audit of this version
+            - book.json "audit" must record this version: {"version", "date", "pages", "recall", "real_errors", "fixed"}
+[look (10)] hyphen-joins: page-break hyphen joins (hyphen removed) that the book does not settle: read the list once
+            - hyphen join at p0035: …ss of our deck-|load,—a heavy l… (hyphen removed; check) — the book prints “deck-load” elsewhere: keep_hyphens?
+            - hyphen join at p0048: …ll as the well-|known species o… (hyphen removed; check) — the book prints “well-known” elsewhere: keep_hyphens?
+            - hyphen join at p0062: …d night by ram-|rod-like sentri… (hyphen removed; check)
+            - hyphen join at p0169: …only a passage-|way of some twe… (hyphen removed; check) — the book prints “passage-way” elsewhere: keep_hyphens?
+            - hyphen join at p0190: … away for Hong-|Kong, where we … (hyphen removed; check) — the book prints “hong-kong” elsewhere: keep_hyphens?
+            - hyphen join at p0319: …pparently actu-|ated only by cu… (hyphen removed; check)
+            - hyphen join at p0333: …aced upon post-|with orders to … (hyphen removed; check)
+            - hyphen join at p0376: …im into a crab-|lobster-salad, … (hyphen removed; check)
+            - hyphen join at p0446: …vant</i> water-|tank, the prese… (hyphen removed; check) — the book prints “water-tank” elsewhere: keep_hyphens?
+            - (and 37 joins giving a word the book prints whole elsewhere: not listed)
+[       ok] joins: page joins: missing [[cont]]
+[ look (4)] folios: printed page numbers that break the sequence
+            - p0575: page 48 after page 507 (p0573)
+            - p0576: page 38 after page 48 (p0575)
+            - p0577: page 47 after page 38 (p0576)
+            - p0578: page 32 after page 47 (p0577)
+[       ok] leaves: no leaf without a page file between the first and the last page file (a draft refused or lost); leaves IA hides do not count
+[       ok] quote-balance: paragraphs with a closing double quote and no opening one, or the reverse at the paragraph end
+[       ok] image-splits: a paragraph cut in two by a picture: text before it unclosed, text after it in lower case (no [[cont]] after the caption)
+[       ok] contents: entries of the printed contents with no matching heading
+[       ok] site-text: book.json text shown on the site (titles, summary, notes, contents entries): no straight ' or "
+[       ok] note-tail: text after a page's notes that is not a note (a table or paragraph of a note set as body text)
+[       ok] caption-tail: a short line after a picture's caption (a cross-reference, “To face p. N”): part of the caption, or left out?
+[       ok] image-before-heading: a picture above a # heading on the same page (not an ornament): it falls into the division before; move it after the heading?
+[       ok] openings: chapter openings typed in a style unlike the book's other chapters (full capitals or small capitals): look at each on the scan
+[       ok] verse-joins: verse continued at a page top ([[cont]]): stanza lengths on both sides, to compare on the scan
+[       ok] cover: images/cover.jpg (or .png) exists: the front cover if its title is readable, otherwise the title page
+[ look (1)] accents: words the book spells with different accents (or with and without): look at each group on the scan
+            - a: a (p0008, p0013, p0017, p0018, p0019, p0020…); à (p0056, p0272, p0284, p0363, p0470, p0526)
+[       ok] misprints: common words with a turned or wrong letter (tbe, aud, iu, conld …) not marked [[corr]]: look at each on the scan
+[look (14)] rare-forms: words found once or twice in all the books, a confusable letter (n/u, b/h, c/e, l/i, t/f) away from a common word: look at each on the scan
+            - p0047: “woode” — “wooden” is common (1482; a letter dropped or transposed?)
+            - p0079: “urned” — “turned” is common (2032; a letter dropped or transposed?)
+            - p0079: “precations” — “precautions” is common (74; a letter dropped or transposed?)
+            - p0151: “bides” — “hides” is common (85)
+            - p0176: “blowin” — “blowing” is common (301; a letter dropped or transposed?)
+            - p0329: “chined” — “chained” is common (44; a letter dropped or transposed?)
+            - p0389: “puffin” — “puffing” is common (48; a letter dropped or transposed?)
+            - p0403: “couts” — “courts” is common (205; a letter dropped or transposed?)
+            - p0424: “risin” — “rising” is common (1051; a letter dropped or transposed?)
+            - p0436: “sufficent” — “sufficient” is common (887; a letter dropped or transposed?)
+            - p0447: “patly” — “partly” is common (525; a letter dropped or transposed?)
+            - p0473: “bot” — “hot” is common (1869)
+            - p0483: “sufficently” — “sufficiently” is common (465; a letter dropped or transposed?)
+            - p0534: “umble” — “humble” is common (259; a letter dropped or transposed?)
+[       ok] title-page: the reading editions do not begin with the book's title page (divisions: kind "titlepage")
+[ look (2)] serial-commas: book.json text of ours with a list that may lack the comma before its last and/or (style.md §Site text)
+            - book.json summary: …icer of the United States Navy, tells of his part in the North Pacific Surveying and Exploring Expedition…
+            - book.json summary: …the Loo-Choo Islands; to Japan, at Simoda and Hakodadi, with chapt…
+[       ok] line-breaks: a paragraph line that ends without a stop, followed on the next line by one that starts in lower case: a stray line break splitting a paragraph?
+[       ok] running-heads: a heading at a page top that repeats a heading of the page before: a running head typed as a heading?
+[       ok] missing-stop: a sentence-opening word (The, He, His, It, There …) after a lower-case word with no stop between: look at each on the scan
+[       ok] images: image files not used by any page
+[       ok] source: source.json: the Drive cache of the page images is recorded
+preflight FAIL: my-last-cruise-habersham v1 — 1 to fix, 0 waived; to look at: hyphen-joins 10, folios 4, accents 1, rare-forms 14, serial-commas 2 — tools@133cf490 2026-11-28

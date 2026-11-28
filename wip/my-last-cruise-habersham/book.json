@@ -97,5 +97,13 @@
   "subtitles": "all"
  },
  "omitted_from_reading": "The engraved title page, the printed contents, the book’s title above Chapter I, and the publisher’s advertisements are in the JSON only.",
- "waivers": []
+ "waivers": [],
+ "keep_hyphens": [
+  "p0035",
+  "p0048",
+  "p0169",
+  "p0190",
+  "p0376",
+  "p0446"
+ ]
 }
